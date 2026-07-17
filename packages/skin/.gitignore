@@ -18,7 +18,6 @@ docs/static/*.min.css.map
 !docs/static/docs.min.css
 .storybook/preview-head.html
 .idea
-.storybook-percy
 AssistivTunnel
 .sass-cache
 *.css.map

@@ -1,4 +1,9 @@
-export default { title: "Skin/List" };
+export default {
+    title: "Skin/List",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const base = () => `
 <div class="list">

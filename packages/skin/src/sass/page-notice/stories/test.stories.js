@@ -1,4 +1,9 @@
-export default { title: "Skin/Page Notice/Tests" };
+export default {
+    title: "Skin/Page Notice/Tests",
+    parameters: {
+        visual: { widths: [320, 512], rtl: true },
+    },
+};
 
 export const RTL = () => `
 <div dir="rtl">

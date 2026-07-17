@@ -1,5 +1,8 @@
 export default {
     title: "Skin/Toggle Button Group/Minimal Layout/Layouts Exceptions",
+    parameters: {
+        visual: { widths: [320, 512, 768] },
+    },
 };
 
 export const _mincontainer1button = () => `

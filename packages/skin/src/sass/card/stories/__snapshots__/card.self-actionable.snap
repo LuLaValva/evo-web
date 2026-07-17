@@ -1,0 +1,304 @@
+┌─ horizontalButton @ 1280px
+<div>
+  <button style="
+    background-color: var(--color-background-secondary);
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-left-color: currentcolor;
+    border-left-style: none;
+    border-left-width: medium;
+    border-right-color: currentcolor;
+    border-right-style: none;
+    border-right-width: medium;
+    border-top-color: currentcolor;
+    border-top-style: none;
+    border-top-width: medium;
+    color: var(--color-foreground-primary);
+    display: flex;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    max-width: 100%;
+    min-width: 200px;
+    outline-color: transparent;
+    outline-offset: 4px;
+    outline-style: solid;
+    outline-width: 6px;
+    padding-block-end: var(--spacing-150);
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    text-align: start;
+    transition: transform var(--motion-duration-medium-3) var(--motion-easing-quick-enter), box-shadow var(--motion-duration-medium-3) var(--motion-easing-quick-enter);
+    width: 100%
+  ">
+    <div style="
+      aspect-ratio: 1 / 1;
+      margin: var(--spacing-150);
+      max-width: 160px;
+      min-width: 90px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      width: 25%
+    ">
+      <img
+        height=160
+        style="
+          aspect-ratio: 1 / 1;
+          display: block;
+          height: auto;
+          object-fit: cover;
+          transition: transform var(--motion-duration-long-3) var(--motion-easing-quick-enter);
+          width: 100%
+        "
+        width=160
+      />
+    </div>
+    <div style="
+      display: flex;
+      flex-basis: 0%;
+      flex-direction: column;
+      flex-grow: 1;
+      margin-block-start: var(--spacing-150);
+      margin-inline: var(--spacing-150)
+    ">
+      <h3 style="
+        font-size: var(--font-size-large-1);
+        margin-block-end: var(--spacing-50);
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Authentic Rookie Cards
+      </h3>
+      <div style="
+        flex-basis: 0%;
+        flex-grow: 1
+      ">
+        Professional-grade rookie cards featuring future Hall of Famers in their awkward rookie photo phase.
+      </div>
+    </div>
+  </button>
+</div>
+
+┌─ horizontalLink @ 1280px
+<div>
+  <a style="
+    background-color: var(--color-background-secondary);
+    border-bottom-color: currentcolor;
+    border-bottom-width: medium;
+    border-left-color: currentcolor;
+    border-left-width: medium;
+    border-right-color: currentcolor;
+    border-right-width: medium;
+    border-top-color: currentcolor;
+    border-top-width: medium;
+    color: inherit;
+    display: flex;
+    max-width: 100%;
+    min-width: 200px;
+    outline-color: transparent;
+    outline-offset: 4px;
+    outline-style: solid;
+    outline-width: 6px;
+    padding-block-end: var(--spacing-150);
+    text-decoration-line: none;
+    width: 100%
+  ">
+    <div style="
+      aspect-ratio: 1 / 1;
+      margin: var(--spacing-150);
+      max-width: 160px;
+      min-width: 90px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      width: 25%
+    ">
+      <img
+        height=160
+        style="
+          aspect-ratio: 1 / 1;
+          display: block;
+          height: auto;
+          object-fit: cover;
+          transition: transform var(--motion-duration-long-3) var(--motion-easing-quick-enter);
+          width: 100%
+        "
+        width=160
+      />
+    </div>
+    <div style="
+      display: flex;
+      flex-basis: 0%;
+      flex-direction: column;
+      flex-grow: 1;
+      margin-block-start: var(--spacing-150);
+      margin-inline: var(--spacing-150)
+    ">
+      <h3 style="
+        font-size: var(--font-size-large-1);
+        margin-block-end: var(--spacing-50);
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Authentic Rookie Cards
+      </h3>
+      <div style="
+        flex-basis: 0%;
+        flex-grow: 1
+      ">
+        A collection proving that somewhere between a curveball, a three-pointer, and a slap shot lies the secret to happiness.
+      </div>
+    </div>
+  </a>
+</div>
+
+┌─ verticalButton @ 1280px
+<div>
+  <button style="
+    background-color: var(--color-background-secondary);
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-left-color: currentcolor;
+    border-left-style: none;
+    border-left-width: medium;
+    border-right-color: currentcolor;
+    border-right-style: none;
+    border-right-width: medium;
+    border-top-color: currentcolor;
+    border-top-style: none;
+    border-top-width: medium;
+    color: var(--color-foreground-primary);
+    display: flex;
+    flex-direction: column;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    max-width: 400px;
+    min-width: 200px;
+    outline-color: transparent;
+    outline-offset: 4px;
+    outline-style: solid;
+    outline-width: 6px;
+    padding-block-end: var(--spacing-150);
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    text-align: start;
+    transition: transform var(--motion-duration-medium-3) var(--motion-easing-quick-enter), box-shadow var(--motion-duration-medium-3) var(--motion-easing-quick-enter)
+  ">
+    <div style="
+      aspect-ratio: 1 / 1;
+      margin-block-end: var(--spacing-200);
+      margin: var(--spacing-150);
+      overflow-x: hidden;
+      overflow-y: hidden
+    ">
+      <img
+        height=376
+        style="
+          display: block;
+          height: 100%;
+          object-fit: cover;
+          transition: transform var(--motion-duration-long-3) var(--motion-easing-quick-enter);
+          width: 100%
+        "
+        width=376
+      />
+    </div>
+    <div style="
+      display: flex;
+      flex-basis: 0%;
+      flex-direction: column;
+      flex-grow: 1;
+      margin-inline: var(--spacing-150)
+    ">
+      <h3 style="
+        font-size: var(--font-size-large-1);
+        margin-block-end: var(--spacing-50);
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Authentic Rookie Cards
+      </h3>
+      <div style="
+        flex-basis: 0%;
+        flex-grow: 1
+      ">
+        Professional-grade rookie cards featuring future Hall of Famers in their awkward rookie photo phase.
+      </div>
+    </div>
+  </button>
+</div>
+
+┌─ verticalLink @ 1280px
+<div>
+  <a style="
+    background-color: var(--color-background-secondary);
+    border-bottom-color: currentcolor;
+    border-bottom-width: medium;
+    border-left-color: currentcolor;
+    border-left-width: medium;
+    border-right-color: currentcolor;
+    border-right-width: medium;
+    border-top-color: currentcolor;
+    border-top-width: medium;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    min-width: 200px;
+    outline-color: transparent;
+    outline-offset: 4px;
+    outline-style: solid;
+    outline-width: 6px;
+    padding-block-end: var(--spacing-150);
+    text-decoration-line: none
+  ">
+    <div style="
+      aspect-ratio: 1 / 1;
+      margin-block-end: var(--spacing-200);
+      margin: var(--spacing-150);
+      overflow-x: hidden;
+      overflow-y: hidden
+    ">
+      <img
+        height=376
+        style="
+          display: block;
+          height: 100%;
+          object-fit: cover;
+          transition: transform var(--motion-duration-long-3) var(--motion-easing-quick-enter);
+          width: 100%
+        "
+        width=376
+      />
+    </div>
+    <div style="
+      display: flex;
+      flex-basis: 0%;
+      flex-direction: column;
+      flex-grow: 1;
+      margin-inline: var(--spacing-150)
+    ">
+      <h3 style="
+        font-size: var(--font-size-large-1);
+        margin-block-end: var(--spacing-50);
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Authentic Rookie Cards
+      </h3>
+      <div style="
+        flex-basis: 0%;
+        flex-grow: 1
+      ">
+        A collection proving that somewhere between a curveball, a three-pointer, and a slap shot lies the secret to happiness.
+      </div>
+    </div>
+  </a>
+</div>
+

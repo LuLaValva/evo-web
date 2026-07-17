@@ -1,4 +1,9 @@
-export default { title: "Skin/Select/Select/Floating Label" };
+export default {
+    title: "Skin/Select/Select/Floating Label",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const defaultLabel = () => `
 <span class="floating-label">

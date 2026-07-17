@@ -1,4 +1,9 @@
-export default { title: "Skin/Toast Dialog" };
+export default {
+    title: "Skin/Toast Dialog",
+    parameters: {
+        visual: { widths: [320, 512] },
+    },
+};
 
 export const primaryAction = () => `
 <aside class="toast-dialog" aria-label="Notification" aria-live="polite" aria-modal="false" role="dialog">

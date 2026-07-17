@@ -1,4 +1,9 @@
-export default { title: "Skin/Fake Button/Cascade" };
+export default {
+    title: "Skin/Fake Button/Cascade",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const RTL = () => `
 <div dir="rtl">

@@ -1,4 +1,9 @@
-export default { title: "Skin/Progress Bar" };
+export default {
+    title: "Skin/Progress Bar",
+    parameters: {
+        visual: { widths: [320, 512] },
+    },
+};
 
 export const empty = () =>
     `<progress class="progress" value=1 max=100>0%</progress>`;

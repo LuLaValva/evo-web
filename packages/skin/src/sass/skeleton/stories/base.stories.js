@@ -1,4 +1,9 @@
-export default { title: "Skin/Skeleton/Base" };
+export default {
+    title: "Skin/Skeleton/Base",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const avatar = () =>
     `<div class="skeleton" role="img" aria-label="loading">

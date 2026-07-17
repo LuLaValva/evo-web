@@ -1,4 +1,9 @@
-export default { title: "Skin/Fake Button/Base" };
+export default {
+    title: "Skin/Fake Button/Base",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const textOnly = () =>
     '<a href="http://www.ebay/com" class="fake-btn">Fake Button</a>';

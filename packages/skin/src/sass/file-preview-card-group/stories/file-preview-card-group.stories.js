@@ -1,4 +1,9 @@
-export default { title: "Skin/File Preview Card Group" };
+export default {
+    title: "Skin/File Preview Card Group",
+    parameters: {
+        visual: { widths: [320, 512, 768, 1024, 1440, 1680, 1920] },
+    },
+};
 
 const squareImage = () => `
     <li class="file-preview-card">

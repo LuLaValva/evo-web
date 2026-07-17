@@ -1,4 +1,9 @@
-export default { title: "Skin/Breadcrumbs/Links/Overflow" };
+export default {
+    title: "Skin/Breadcrumbs/Links/Overflow",
+    parameters: {
+        visual: { widths: [320, 512], rtl: true },
+    },
+};
 
 export const minimum = () => `
 <nav aria-labelledby="breadcrumbs-heading" class="breadcrumbs breadcrumb--overflow" role="navigation">
