@@ -147,7 +147,7 @@ jobs:
               }
             }
             if (process.env.STALE === 'true') {
-              lines.push('', '⚠️ **Committed snapshots are out of date.** Run `npm run update-snapshots -w packages/skin` and commit the result (or download the regenerated snapshots from the `visual-preview` artifact).');
+              lines.push('', '⚠️ **Committed snapshots are out of date.** Run `npm run update-snapshots` at the repo root (skin CSS changes also ripple into framework-package snapshot tests) and commit the result, or download the regenerated skin snapshots from the `visual-preview` artifact.');
             }
             lines.push('', `###### commit ${sha}`);
             const body = lines.join('\n');
@@ -179,5 +179,5 @@ jobs:
       - name: Fail if snapshots were stale
         if: steps.verify.outputs.stale == 'true'
         run: |
-          echo "::error::Visual snapshots are out of date. Run 'npm run update-snapshots -w packages/skin' and commit the result."
+          echo "::error::Visual snapshots are out of date. Run 'npm run update-snapshots' at the repo root and commit the result."
           exit 1

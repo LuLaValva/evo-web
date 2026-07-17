@@ -193,7 +193,7 @@ Follow existing component structures:
 
 - Adequate test coverage for new/modified code
 - Browser tests (Marko via Playwright) or jsdom tests (React)
-- Visual regression via visual-html snapshots (CSS changes) — run `npm run update-snapshots -w packages/skin` and commit the snapshot changes
+- Visual regression via visual-html snapshots (CSS changes) — run `npm run update-snapshots` and commit the snapshot changes
 
 **Storybook requirements:**
 

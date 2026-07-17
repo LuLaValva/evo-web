@@ -331,7 +331,7 @@ See [VISUAL-TESTING.md](./VISUAL-TESTING.md) for the full FAQ.
 2. Run the visual suite — snapshots regenerate in place:
 
     ```bash
-    npm run update-snapshots -w packages/skin
+    npm run update-snapshots
     ```
 
 3. Review the change visually with the preview viewer:
