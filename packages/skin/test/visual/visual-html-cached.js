@@ -68,7 +68,27 @@ function getVisualData(el, styleRules) {
         tagName: el.tagName,
         styles: getElementStyles(el, styleRules),
         pseudoStyles: getPseudoElementStyles(el, styleRules),
-        attributes: getVisualAttributes(el),
+        attributes: getStableVisualAttributes(el),
         children: childrenVisualData,
     };
+}
+
+// visual-html reads img width/height/src through IDL properties, which
+// reflect *loaded state* (natural dimensions appear once the network
+// fetch completes) — making output depend on network timing. Serialize
+// the author-specified attributes instead, which also means src changes
+// are always captured. (stringify sorts attributes, so order is free.)
+function getStableVisualAttributes(el) {
+    let attrs = getVisualAttributes(el) || [];
+    if (el.localName === "img") {
+        attrs = attrs.filter(
+            ({ name }) => !["width", "height", "src"].includes(name),
+        );
+        for (const name of ["width", "height", "src"]) {
+            if (el.hasAttribute(name)) {
+                attrs.push({ name, value: el.getAttribute(name) });
+            }
+        }
+    }
+    return attrs.length ? attrs : null;
 }
