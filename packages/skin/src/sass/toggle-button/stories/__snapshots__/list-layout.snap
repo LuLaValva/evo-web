@@ -194,12 +194,14 @@
       ">
         <img
           height=56
+          src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
           style="
             height: 100%;
             max-height: 56px;
             max-width: 56px;
             pointer-events: none
           "
+          width=56
         />
       </span>
     </span>
@@ -341,12 +343,14 @@
       ">
         <img
           height=56
+          src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
           style="
             height: 100%;
             max-height: 56px;
             max-width: 56px;
             pointer-events: none
           "
+          width=56
         />
       </span>
     </span>
