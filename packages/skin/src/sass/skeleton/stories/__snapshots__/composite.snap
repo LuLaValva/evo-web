@@ -10,14 +10,14 @@
     <div style="
       animation: var(--motion-duration-long-3) var(--motion-easing-continuous) infinite alternate on-secondary;
       background: var(--skeleton-background, var(--color-loading-fill));
-      height: 40px;
+      height: 44px;
       margin-block-end: var(--spacing-150);
       width: 100%
     "/>
     <div style="
       animation: var(--motion-duration-long-3) var(--motion-easing-continuous) infinite alternate on-secondary;
       background: var(--skeleton-background, var(--color-loading-fill));
-      height: 40px;
+      height: 44px;
       width: 100%
     "/>
   </div>

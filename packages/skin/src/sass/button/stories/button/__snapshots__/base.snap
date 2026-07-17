@@ -16,7 +16,7 @@
     color: inherit;
     font-family: inherit;
     font-size: var(--font-size-body);
-    min-height: 40px;
+    min-height: 44px;
     min-width: 88px;
     padding-bottom: 0px;
     padding-left: 20px;
@@ -154,7 +154,7 @@
       color: var(--expand-btn-disabled-foreground-color, var(--color-foreground-disabled));
       font-family: inherit;
       font-size: var(--font-size-body);
-      min-height: 40px;
+      min-height: 44px;
       min-width: 88px;
       padding-bottom: 0px;
       padding-left: 20px;
@@ -220,7 +220,7 @@
     font-family: inherit;
     font-size: var(--font-size-body);
     max-width: 100%;
-    min-height: 40px;
+    min-height: 44px;
     min-width: 88px;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -273,7 +273,7 @@
     font-family: inherit;
     font-size: var(--font-size-body);
     max-width: 100%;
-    min-height: 40px;
+    min-height: 44px;
     min-width: 88px;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -362,9 +362,9 @@
     color: inherit;
     font-family: inherit;
     font-size: var(--font-size-body);
-    height: 40px;
+    height: 44px;
     max-width: 100%;
-    min-height: 40px;
+    min-height: 44px;
     min-width: auto;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -430,7 +430,7 @@
     color: inherit;
     font-family: inherit;
     font-size: var(--font-size-body);
-    min-height: 40px;
+    min-height: 44px;
     min-width: 88px;
     padding-bottom: 0px;
     padding-left: 20px;
@@ -490,7 +490,7 @@
     color: inherit;
     font-family: inherit;
     font-size: var(--font-size-body);
-    min-height: 40px;
+    min-height: 44px;
     min-width: 88px;
     padding-bottom: 0px;
     padding-left: 20px;
@@ -523,7 +523,7 @@
     color: inherit;
     font-family: inherit;
     font-size: var(--font-size-body);
-    min-height: 40px;
+    min-height: 44px;
     min-width: 88px;
     padding-bottom: 0px;
     padding-left: 20px;
@@ -556,7 +556,7 @@
     color: inherit;
     font-family: inherit;
     font-size: var(--font-size-body);
-    min-height: 40px;
+    min-height: 44px;
     min-width: 88px;
     padding-bottom: 0px;
     padding-left: 20px;

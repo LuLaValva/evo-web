@@ -19,7 +19,7 @@
       display: inline-block;
       font-family: inherit;
       font-size: var(--font-size-body);
-      min-height: 40px;
+      min-height: 44px;
       min-width: 88px;
       padding-left: 20px;
       padding-right: 20px;
@@ -83,7 +83,7 @@
       display: inline-block;
       font-family: inherit;
       font-size: var(--font-size-body);
-      min-height: 40px;
+      min-height: 44px;
       min-width: 88px;
       padding-left: 20px;
       padding-right: 20px;
@@ -147,7 +147,7 @@
       display: inline-block;
       font-family: inherit;
       font-size: var(--font-size-body);
-      min-height: 40px;
+      min-height: 44px;
       min-width: 88px;
       padding-left: 20px;
       padding-right: 20px;

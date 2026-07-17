@@ -19,7 +19,7 @@
     display: inline-block;
     font-family: inherit;
     font-size: var(--font-size-body);
-    min-height: 40px;
+    min-height: 44px;
     min-width: 88px;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -98,7 +98,7 @@
     display: inline-block;
     font-family: inherit;
     font-size: var(--font-size-body);
-    min-height: 40px;
+    min-height: 44px;
     min-width: 88px;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -177,7 +177,7 @@
     display: inline-block;
     font-family: inherit;
     font-size: var(--font-size-body);
-    min-height: 40px;
+    min-height: 44px;
     min-width: 88px;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -254,7 +254,7 @@
     display: inline-block;
     font-family: inherit;
     font-size: var(--font-size-body);
-    min-height: 40px;
+    min-height: 44px;
     min-width: 88px;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -333,7 +333,7 @@
     display: inline-block;
     font-family: inherit;
     font-size: var(--font-size-body);
-    min-height: 40px;
+    min-height: 44px;
     min-width: 88px;
     overflow-x: hidden;
     overflow-y: hidden;

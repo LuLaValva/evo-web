@@ -22,7 +22,7 @@
         font-family: inherit;
         font-size: var(--font-size-body);
         font-weight: 700;
-        min-height: 40px;
+        min-height: 44px;
         min-width: 88px;
         overflow-x: hidden;
         overflow-y: hidden;
@@ -82,7 +82,7 @@
           font-weight: 700;
           margin-left: inherit;
           margin-right: -1px;
-          min-height: 40px;
+          min-height: 44px;
           min-width: 40px;
           overflow-x: hidden;
           overflow-y: hidden;
@@ -155,7 +155,7 @@
         font-family: inherit;
         font-size: var(--font-size-body);
         font-weight: 700;
-        min-height: 40px;
+        min-height: 44px;
         min-width: 88px;
         overflow-x: hidden;
         overflow-y: hidden;
@@ -215,7 +215,7 @@
           font-weight: 700;
           margin-left: inherit;
           margin-right: -1px;
-          min-height: 40px;
+          min-height: 44px;
           min-width: 40px;
           overflow-x: hidden;
           overflow-y: hidden;
@@ -446,7 +446,7 @@
         color: var(--color-foreground-accent);
         font-family: inherit;
         font-size: var(--font-size-body);
-        min-height: 40px;
+        min-height: 44px;
         min-width: 88px;
         overflow-x: hidden;
         overflow-y: hidden;
@@ -503,7 +503,7 @@
           font-size: var(--font-size-body);
           margin-left: inherit;
           margin-right: -1px;
-          min-height: 40px;
+          min-height: 44px;
           min-width: 40px;
           overflow-x: hidden;
           overflow-y: hidden;
@@ -575,7 +575,7 @@
         color: var(--color-foreground-accent);
         font-family: inherit;
         font-size: var(--font-size-body);
-        min-height: 40px;
+        min-height: 44px;
         min-width: 88px;
         overflow-x: hidden;
         overflow-y: hidden;
@@ -632,7 +632,7 @@
           font-size: var(--font-size-body);
           margin-left: inherit;
           margin-right: -1px;
-          min-height: 40px;
+          min-height: 44px;
           min-width: 40px;
           overflow-x: hidden;
           overflow-y: hidden;
@@ -862,7 +862,7 @@
         color: inherit;
         font-family: inherit;
         font-size: var(--font-size-body);
-        min-height: 40px;
+        min-height: 44px;
         min-width: 88px;
         overflow-x: hidden;
         overflow-y: hidden;
@@ -918,7 +918,7 @@
           font-size: var(--font-size-body);
           margin-left: inherit;
           margin-right: -2px;
-          min-height: 40px;
+          min-height: 44px;
           min-width: 40px;
           overflow-x: hidden;
           overflow-y: hidden;
@@ -989,7 +989,7 @@
         color: inherit;
         font-family: inherit;
         font-size: var(--font-size-body);
-        min-height: 40px;
+        min-height: 44px;
         min-width: 88px;
         overflow-x: hidden;
         overflow-y: hidden;
@@ -1045,7 +1045,7 @@
           font-size: var(--font-size-body);
           margin-left: inherit;
           margin-right: -2px;
-          min-height: 40px;
+          min-height: 44px;
           min-width: 40px;
           overflow-x: hidden;
           overflow-y: hidden;

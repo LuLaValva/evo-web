@@ -117,7 +117,7 @@
             font-size: var(--font-size-body);
             font-weight: 700;
             margin-inline-end: var(--spacing-100);
-            min-height: 40px;
+            min-height: 44px;
             min-width: 88px;
             outline-offset: 2px;
             overflow-x: hidden;
@@ -163,7 +163,7 @@
             font-family: inherit;
             font-size: var(--font-size-body);
             font-weight: 700;
-            min-height: 40px;
+            min-height: 44px;
             min-width: 88px;
             outline-offset: 2px;
             overflow-x: hidden;
@@ -320,7 +320,7 @@
             font-size: var(--font-size-body);
             font-weight: 700;
             margin-inline-end: var(--spacing-100);
-            min-height: 40px;
+            min-height: 44px;
             min-width: 88px;
             outline-offset: 2px;
             overflow-x: hidden;
@@ -366,7 +366,7 @@
             font-family: inherit;
             font-size: var(--font-size-body);
             font-weight: 700;
-            min-height: 40px;
+            min-height: 44px;
             min-width: 88px;
             outline-offset: 2px;
             overflow-x: hidden;
@@ -518,7 +518,7 @@
           font-family: inherit;
           font-size: var(--font-size-body);
           font-weight: 700;
-          min-height: 40px;
+          min-height: 44px;
           min-width: 88px;
           outline-offset: 2px;
           overflow-x: hidden;
@@ -673,7 +673,7 @@
           font-family: inherit;
           font-size: var(--font-size-body);
           font-weight: 700;
-          min-height: 40px;
+          min-height: 44px;
           min-width: 88px;
           outline-offset: 2px;
           overflow-x: hidden;
@@ -824,7 +824,7 @@
           font-family: inherit;
           font-size: var(--font-size-body);
           font-weight: 700;
-          min-height: 40px;
+          min-height: 44px;
           min-width: 88px;
           outline-offset: 2px;
           overflow-x: hidden;
@@ -979,7 +979,7 @@
           font-family: inherit;
           font-size: var(--font-size-body);
           font-weight: 700;
-          min-height: 40px;
+          min-height: 44px;
           min-width: 88px;
           outline-offset: 2px;
           overflow-x: hidden;
@@ -1130,7 +1130,7 @@
           font-size: var(--font-size-body);
           font-weight: 700;
           margin-inline-end: var(--spacing-100);
-          min-height: 40px;
+          min-height: 44px;
           min-width: 88px;
           outline-offset: 2px;
           overflow-x: hidden;
@@ -1176,7 +1176,7 @@
           font-family: inherit;
           font-size: var(--font-size-body);
           font-weight: 700;
-          min-height: 40px;
+          min-height: 44px;
           min-width: 88px;
           outline-offset: 2px;
           overflow-x: hidden;
@@ -1331,7 +1331,7 @@
           font-size: var(--font-size-body);
           font-weight: 700;
           margin-inline-end: var(--spacing-100);
-          min-height: 40px;
+          min-height: 44px;
           min-width: 88px;
           outline-offset: 2px;
           overflow-x: hidden;
@@ -1377,7 +1377,7 @@
           font-family: inherit;
           font-size: var(--font-size-body);
           font-weight: 700;
-          min-height: 40px;
+          min-height: 44px;
           min-width: 88px;
           outline-offset: 2px;
           overflow-x: hidden;
@@ -1528,7 +1528,7 @@
           font-size: var(--font-size-body);
           font-weight: 700;
           margin-inline-end: var(--spacing-100);
-          min-height: 40px;
+          min-height: 44px;
           min-width: 88px;
           outline-offset: 2px;
           overflow-x: hidden;
@@ -1574,7 +1574,7 @@
           font-family: inherit;
           font-size: var(--font-size-body);
           font-weight: 700;
-          min-height: 40px;
+          min-height: 44px;
           min-width: 88px;
           outline-offset: 2px;
           overflow-x: hidden;
@@ -1729,7 +1729,7 @@
           font-size: var(--font-size-body);
           font-weight: 700;
           margin-inline-end: var(--spacing-100);
-          min-height: 40px;
+          min-height: 44px;
           min-width: 88px;
           outline-offset: 2px;
           overflow-x: hidden;
@@ -1775,7 +1775,7 @@
           font-family: inherit;
           font-size: var(--font-size-body);
           font-weight: 700;
-          min-height: 40px;
+          min-height: 44px;
           min-width: 88px;
           outline-offset: 2px;
           overflow-x: hidden;
