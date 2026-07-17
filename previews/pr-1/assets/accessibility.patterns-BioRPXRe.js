@@ -1,0 +1,2 @@
+import{a,w as o,i as s}from"./_33QTEN2j.js";import"./_DO6XPlRX.js";import{$,a as e,b as n,c as m}from"./_GTDdh64K.js";import{$walks as p,$template as _,$setup as i}from"./_quRjsTO-.js";import"./_2zxdontp.js";import"./_DeZeAH6o.js";const r=t=>{i(t.a)},u=o("v8q$QmO",(t=>`<!>${t}<!>`)(_),(t=>`b/${t}&b`)(p),r),c=t=>{n(t.a),m(t.a,u(t))};a("GVo3X12",(t=>`<!>${t}<!>`)(e),(t=>`b/${t}&b`)($),c);s();
+//# sourceMappingURL=accessibility.patterns-BioRPXRe.js.map
