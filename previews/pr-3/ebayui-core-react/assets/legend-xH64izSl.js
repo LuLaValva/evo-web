@@ -1,0 +1,1 @@
+function s(e){e.wrap(e.Legend.prototype,"colorizeItem",function(n,o,l){const r=e.pick(o.borderWidth,1),t=-(r%2)/2,d=o.options?.borderColor;n.apply(this,[].slice.call(arguments,1)),o.legendSymbol&&l&&o.legendSymbol.attr({"stroke-width":r,translateX:t,translateY:t,stroke:d})})}export{s as e};
