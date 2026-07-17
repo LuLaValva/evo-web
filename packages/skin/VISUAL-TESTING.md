@@ -86,6 +86,20 @@ Merging your PR _is_ the baseline update — snapshots live in git. There is
 no separate approval dashboard, no baseline job, and no token or paid
 service involved. Fork PRs work out of the box.
 
+## Why do my local snapshots differ from CI's?
+
+Snapshot output is coupled to the **Chromium version** that renders the
+stories — newer Chromium builds can parse and enumerate CSS slightly
+differently. The version is pinned through Playwright in the lockfile, and
+`npm install` downloads exactly that build, so local and CI agree as long
+as you use the Playwright-managed browser (don't point the harness at a
+system Chrome).
+
+Corollary: a PR that upgrades Playwright must also regenerate the full
+snapshot baseline in the same PR. The diff will be mechanical churn — the
+preview viewer's inspector makes it easy to confirm nothing visually
+meaningful changed.
+
 ## What does this NOT catch?
 
 Text snapshots capture structure and applied CSS, not pixels. Paint-level
