@@ -1,8 +1,8 @@
 # Migration Plan: Percy → visual-html + In-House Preview Viewer
 
-Status: Proposed (decisions resolved 2026-07-17, see §8)
+Status: Executed (Phases 0–3 complete 2026-07-17; branch-protection swap and Percy subscription cancellation remain)
 Date: 2026-07-17
-Related: [ADR 0003 – Visual Regression Testing Tool](../adr/0003-visual-regression-testing-tool.md) (will be superseded by a new ADR when this plan is accepted)
+Related: [ADR 0007 – Visual Regression via visual-html Snapshots](../adr/0007-visual-html-visual-regression.md) (supersedes [ADR 0003](../adr/0003-visual-regression-testing-tool.md))
 
 ---
 
