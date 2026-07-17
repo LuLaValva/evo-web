@@ -1,0 +1,59 @@
+import{$ as i,b as o,c as t,d as a,e as n,f as s,a as l,w as d,i as r}from"./_BiclhEPy.js";import"./_BslAr8pg.js";import{$ as c,a as m,b as h,c as p}from"./_DnSZKYp3.js";import"./_Qlv2iOSh.js";const g=(e=>`<main class=animation-guide><h1>Animation Guide</h1><p>This section provides information on CSS animations/transitions that are common across one or more CSS components.</p><h2 id=dialog-transitions>Dialog Transitions</h2><p>Skin currently supports two types of dialog transition: fade and slide. Because CSS cannot transition an element to and from <code>hidden</code> (i.e. "display:none"), transitions are acheived using two classes applied during different stages of the animation. Before applying an animation class to the dialog component you must first apply the primer class which will be <code>$name-init</code> where <code>$name</code> is the base class. The dialog component has two different animation base classes <code>dialog--show</code> and <code>dialog--hide</code> .</p><p>Firstly the <code>-init</code> postfix must be applied to dialog component to prime animation. One animation frame later the <code>-init</code> postfix must be removed and the base class applied to start the animation. Finally once the animation has completed remove the base class.</p><p>An example implementation is shown below.</p>${e}</main>`)(o),u=(e=>`Dg/${e}&l`)(i);function w(e){t(e.a),a(e.a,"js"),n(e.a,`
+    const dialogEl = document.querySelector(".dialog");
+    const windowEl = dialogEl.querySelector(".dialog__window");
+    const openBtnEl = document.querySelector("#dialog-open");
+    const closeBtnEl = dialogEl.querySelector(".dialog__close");
+
+    // Trigger dialog show animation.
+    openBtnEl.addEventListener("click", () => {
+      dialogEl.classList.add("dialog--show-init");
+      dialogEl.removeAttribute("hidden");
+
+      requestAnimationFrame(() =>
+        requestAnimationFrame(() => {
+          // Two RAFS to ensure this happens on the next animation frame.
+          dialogEl.classList.remove("dialog--show-init");
+          dialogEl.classList.add("dialog--show");
+
+          windowEl.addEventListener(
+            "transitionend",
+            () => {
+              /**
+               * The window animation is the longest, so we wait for it to
+               * finish before removing the classes.
+               */
+              dialogEl.classList.remove("dialog--show");
+            },
+            { once: true },
+          );
+        }),
+      );
+    });
+
+    // Trigger dialog hide animation. (In the real world the dialog mask) should also be handled.
+    closeBtnEl.addEventListener("click", () => {
+      dialogEl.classList.add("dialog--hide-init");
+      dialogEl.setAttribute("hidden", "");
+
+      requestAnimationFrame(() =>
+        requestAnimationFrame(() => {
+          // Two RAFS to ensure this happens on the next animation frame.
+          dialogEl.classList.remove("dialog--hide-init");
+          dialogEl.classList.add("dialog--hide");
+
+          windowEl.addEventListener(
+            "transitionend",
+            () => {
+              /**
+               * The window animation is the longest, so we wait for it to
+               * finish before removing the classes.
+               */
+              dialogEl.classList.remove("dialog--hide");
+            },
+            { once: true },
+          );
+        }),
+      );
+    });
+    `),s(e.a,"")}const $=e=>{w(e.a)},f=d("Sl8AE7C",(e=>`<!>${e}<!>`)(g),(e=>`b/${e}&b`)(u),$),E=e=>{h(e.a),p(e.a,f(e))};l("nCcVIiM",(e=>`<!>${e}<!>`)(m),(e=>`b/${e}&b`)(c),E);r();
+//# sourceMappingURL=guides.animation-cn1jaPBz.js.map
