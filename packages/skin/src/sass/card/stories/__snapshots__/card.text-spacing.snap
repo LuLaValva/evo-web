@@ -31,7 +31,7 @@
       width: 25%
     ">
       <img
-        height=160
+        src="/img/cards-card.jpeg"
         style="
           aspect-ratio: 1 / 1;
           display: block;
@@ -40,7 +40,6 @@
           transition: transform var(--motion-duration-long-3) var(--motion-easing-quick-enter);
           width: 100%
         "
-        width=160
       />
     </div>
     <div style="
@@ -176,7 +175,7 @@
       overflow-y: hidden
     ">
       <img
-        height=376
+        src="/img/cards-card.jpeg"
         style="
           display: block;
           height: 100%;
@@ -184,7 +183,6 @@
           transition: transform var(--motion-duration-long-3) var(--motion-easing-quick-enter);
           width: 100%
         "
-        width=376
       />
     </div>
     <div style="

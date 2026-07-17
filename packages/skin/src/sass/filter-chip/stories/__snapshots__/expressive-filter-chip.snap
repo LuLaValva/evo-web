@@ -62,7 +62,7 @@
           }
         }}</style>
         <img
-          height=32
+          src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
           style="
             display: inline-block;
             height: var(--spacing-400);
@@ -71,7 +71,6 @@
             object-fit: cover;
             width: var(--spacing-400)
           "
-          width=32
         />
       </span>
       <span style="
@@ -151,7 +150,7 @@
         }
       }}</style>
       <img
-        height=32
+        src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
         style="
           display: inline-block;
           height: var(--spacing-400);
@@ -160,7 +159,6 @@
           object-fit: cover;
           width: var(--spacing-400)
         "
-        width=32
       />
     </span>
     <span style="
@@ -241,7 +239,7 @@
         }
       }}</style>
       <img
-        height=32
+        src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
         style="
           display: inline-block;
           height: var(--spacing-400);
@@ -250,7 +248,6 @@
           object-fit: cover;
           width: var(--spacing-400)
         "
-        width=32
       />
     </span>
     <span style="
@@ -343,7 +340,7 @@
         }
       }}</style>
       <img
-        height=32
+        src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
         style="
           display: inline-block;
           height: var(--spacing-400);
@@ -352,7 +349,6 @@
           object-fit: cover;
           width: var(--spacing-400)
         "
-        width=32
       />
     </span>
     <span style="
@@ -432,7 +428,7 @@
         }
       }}</style>
       <img
-        height=32
+        src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
         style="
           display: inline-block;
           height: var(--spacing-400);
@@ -441,7 +437,6 @@
           object-fit: cover;
           width: var(--spacing-400)
         "
-        width=32
       />
     </span>
     <span style="
@@ -519,7 +514,7 @@
         }
       }}</style>
       <img
-        height=32
+        src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
         style="
           display: inline-block;
           height: var(--spacing-400);
@@ -528,7 +523,6 @@
           object-fit: cover;
           width: var(--spacing-400)
         "
-        width=32
       />
     </span>
     <span style="

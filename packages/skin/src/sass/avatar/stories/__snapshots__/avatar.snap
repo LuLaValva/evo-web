@@ -187,7 +187,7 @@
         }
       }}</style>
       <img
-        height=56
+        src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
         style="
           display: inline-block;
           font-size: var(--font-size-giant-1);
@@ -198,7 +198,6 @@
           object-fit: cover;
           width: 56px
         "
-        width=56
       />
     </div>
     <div style="
@@ -940,7 +939,7 @@
         }
       }}</style>
       <img
-        height=32
+        src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
         style="
           display: inline-block;
           font-size: var(--font-size-medium);
@@ -951,7 +950,6 @@
           object-fit: cover;
           width: 32px
         "
-        width=32
       />
     </div>
     <div style="
@@ -985,7 +983,7 @@
         }
       }}</style>
       <img
-        height=40
+        src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
         style="
           display: inline-block;
           font-size: var(--font-size-large-1);
@@ -996,7 +994,6 @@
           object-fit: cover;
           width: 40px
         "
-        width=40
       />
     </div>
     <div style="
@@ -1030,7 +1027,7 @@
         }
       }}</style>
       <img
-        height=48
+        src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
         style="
           display: inline-block;
           font-size: var(--font-size-large-2);
@@ -1041,7 +1038,6 @@
           object-fit: cover;
           width: 48px
         "
-        width=48
       />
     </div>
     <div style="
@@ -1075,7 +1071,7 @@
         }
       }}</style>
       <img
-        height=56
+        src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
         style="
           display: inline-block;
           font-size: var(--font-size-giant-1);
@@ -1086,7 +1082,6 @@
           object-fit: cover;
           width: 56px
         "
-        width=56
       />
     </div>
     <div style="
@@ -1120,7 +1115,7 @@
         }
       }}</style>
       <img
-        height=64
+        src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
         style="
           display: inline-block;
           font-size: var(--font-size-giant-2);
@@ -1131,7 +1126,6 @@
           object-fit: cover;
           width: 64px
         "
-        width=64
       />
     </div>
     <div style="
@@ -1165,7 +1159,7 @@
         }
       }}</style>
       <img
-        height=96
+        src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
         style="
           display: inline-block;
           font-size: var(--font-size-giant-3);
@@ -1176,7 +1170,6 @@
           object-fit: cover;
           width: 96px
         "
-        width=96
       />
     </div>
     <div style="
@@ -1210,7 +1203,7 @@
         }
       }}</style>
       <img
-        height=128
+        src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
         style="
           display: inline-block;
           font-size: var(--font-size-giant-4);
@@ -1221,7 +1214,6 @@
           object-fit: cover;
           width: 128px
         "
-        width=128
       />
     </div>
   </div>
@@ -1516,7 +1508,7 @@
       }
     }}</style>
     <img
-      height=48
+      src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
       style="
         display: inline-block;
         height: 48px;
@@ -1525,7 +1517,6 @@
         object-fit: contain;
         width: 48px
       "
-      width=48
     />
   </div>
   <div style="
@@ -1559,7 +1550,7 @@
       }
     }}</style>
     <img
-      height=128
+      src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
       style="
         display: inline-block;
         font-size: var(--font-size-giant-4);
@@ -1570,7 +1561,6 @@
         object-fit: contain;
         width: 128px
       "
-      width=128
     />
   </div>
 </div>
@@ -1608,7 +1598,7 @@
       }
     }}</style>
     <img
-      height=48
+      src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
       style="
         display: inline-block;
         height: 48px;
@@ -1617,7 +1607,6 @@
         object-fit: cover;
         width: 48px
       "
-      width=48
     />
   </div>
   <div style="
@@ -1651,7 +1640,7 @@
       }
     }}</style>
     <img
-      height=128
+      src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
       style="
         display: inline-block;
         font-size: var(--font-size-giant-4);
@@ -1662,7 +1651,6 @@
         object-fit: cover;
         width: 128px
       "
-      width=128
     />
   </div>
 </div>

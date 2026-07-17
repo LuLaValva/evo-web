@@ -34,7 +34,6 @@
             width: 100%
           ">
             <img
-              height=305
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
@@ -46,7 +45,6 @@
                 object-fit: contain;
                 width: 100%
               "
-              width=305
             />
           </a>
           <button style="
@@ -291,7 +289,6 @@
             width: 100%
           ">
             <img
-              height=396
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
@@ -303,7 +300,6 @@
                 object-fit: contain;
                 width: 100%
               "
-              width=396
             />
           </a>
           <button style="
@@ -545,7 +541,6 @@
             width: 100%
           ">
             <img
-              height=305
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
@@ -557,7 +552,6 @@
                 object-fit: contain;
                 width: 100%
               "
-              width=305
             />
           </a>
           <button style="
@@ -812,7 +806,6 @@
             width: 100%
           ">
             <img
-              height=396
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
@@ -824,7 +817,6 @@
                 object-fit: contain;
                 width: 100%
               "
-              width=396
             />
           </a>
           <button style="
@@ -1077,7 +1069,6 @@
             width: 100%
           ">
             <img
-              height=188
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
@@ -1089,7 +1080,6 @@
                 object-fit: contain;
                 width: 100%
               "
-              width=188
             />
           </a>
           <button style="
@@ -1336,7 +1326,6 @@
             width: 100%
           ">
             <img
-              height=200
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
@@ -1348,7 +1337,6 @@
                 object-fit: contain;
                 width: 100%
               "
-              width=200
             />
           </a>
           <button style="

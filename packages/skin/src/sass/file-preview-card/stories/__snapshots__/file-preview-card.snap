@@ -252,7 +252,6 @@
       position: relative
     ">
       <img
-        height=396
         src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
         style="
           align-self: center;
@@ -264,7 +263,6 @@
           object-fit: contain;
           width: 100%
         "
-        width=396
       />
       <button style="
         align-items: center;
@@ -356,7 +354,6 @@
       position: relative
     ">
       <img
-        height=396
         src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg"
         style="
           align-self: center;
@@ -368,7 +365,6 @@
           object-fit: contain;
           width: 100%
         "
-        width=396
       />
       <button style="
         align-items: center;
@@ -562,7 +558,6 @@
       position: relative
     ">
       <img
-        height=396
         src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
         style="
           align-self: center;
@@ -576,7 +571,6 @@
           opacity: 0.5;
           width: 100%
         "
-        width=396
       />
       <button style="
         aspect-ratio: 1 / 1;
@@ -653,7 +647,6 @@
       "
     >
       <img
-        height=396
         src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
         style="
           align-self: center;
@@ -667,7 +660,6 @@
           opacity: 0.5;
           width: 100%
         "
-        width=396
       />
       <button style="
         aspect-ratio: 1 / 1;
@@ -741,7 +733,6 @@
       position: relative
     ">
       <img
-        height=396
         src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
         style="
           align-self: center;
@@ -753,7 +744,6 @@
           object-fit: contain;
           width: 100%
         "
-        width=396
       />
       <button style="
         align-items: center;

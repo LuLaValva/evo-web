@@ -29,7 +29,7 @@
       overflow-y: hidden
     ">
       <img
-        height=376
+        src="/img/cards-card.jpeg"
         style="
           display: block;
           height: 100%;
@@ -37,7 +37,6 @@
           transition: transform var(--motion-duration-long-3) var(--motion-easing-quick-enter);
           width: 100%
         "
-        width=376
       />
     </div>
     <div style="
@@ -173,7 +172,7 @@
       overflow-y: hidden
     ">
       <img
-        height=376
+        src="/img/cards-card.jpeg"
         style="
           display: block;
           height: 100%;
@@ -181,7 +180,6 @@
           transition: transform var(--motion-duration-long-3) var(--motion-easing-quick-enter);
           width: 100%
         "
-        width=376
       />
     </div>
     <div style="
@@ -283,7 +281,7 @@
       overflow-y: hidden
     ">
       <img
-        height=376
+        src="/img/cards-card.jpeg"
         style="
           display: block;
           height: 100%;
@@ -291,7 +289,6 @@
           transition: transform var(--motion-duration-long-3) var(--motion-easing-quick-enter);
           width: 100%
         "
-        width=376
       />
     </div>
     <div style="
@@ -396,7 +393,7 @@
       overflow-y: hidden
     ">
       <img
-        height=376
+        src="/img/cards-card.jpeg"
         style="
           display: block;
           height: 100%;
@@ -404,7 +401,6 @@
           transition: transform var(--motion-duration-long-3) var(--motion-easing-quick-enter);
           width: 100%
         "
-        width=376
       />
     </div>
     <div style="

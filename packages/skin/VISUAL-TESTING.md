@@ -24,7 +24,7 @@ match. This ensures every visual change is explicit in the PR and reviewed.
 ## How do I update snapshots?
 
 ```bash
-npm run update-snapshots -w packages/skin
+npm run update-snapshots
 ```
 
 Snapshots regenerate in place; commit the changes with your code. Running
@@ -76,7 +76,7 @@ changes.
 ## What if the check fails?
 
 The check fails only when committed snapshots don't match the code. Run
-`npm run update-snapshots -w packages/skin` locally and commit the result.
+`npm run update-snapshots` locally and commit the result.
 If you can't run browsers locally, download the `visual-preview` CI
 artifact — it contains the regenerated snapshot files.
 
