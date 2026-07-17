@@ -1,4 +1,10 @@
-export default { title: "Skin/Dialog" };
+export default {
+    title: "Skin/Dialog",
+    parameters: {
+        // Dialog sizing changes at the SM/MD/LG breakpoints
+        visual: { widths: [320, 768, 1280] },
+    },
+};
 
 export const base = () => `
 <script>document.querySelector(".dialog").showModal()</script>

@@ -243,33 +243,71 @@ baseline.
 
 ## 5. Phased execution plan
 
-### Phase 0 — Spike & determinism validation (~2–3 days)
+### Phase 0 — Spike & determinism validation — ✅ DONE 2026-07-17, verdict: GO
 
-Goal: prove the approach before building anything permanent.
+Spike lives in `packages/skin/test/visual/visual.spec.js` +
+`packages/skin/vitest.config.js`, scoped to button, dialog, and
+progress-spinner (20 story files, 20 snapshot files). Findings:
 
-- [ ] Prototype the harness against 3 representative components (button,
-      dialog, progress-spinner — simple / overlay / animated).
-- [ ] **Verify the `var()` premise**: confirm visual-html output preserves
-      CSS custom-property references unresolved across our rule patterns
-      (token vars, fallbacks, nested var chains), and that a token *value*
-      change does not churn consumer snapshots.
-- [ ] Verify a component CSS change alters the snapshot, and an inert
-      refactor does not.
-- [ ] Verify width-dependent output: a media-query rule change alters only
-      the affected width's section.
-- [ ] Run 20× on two machines/CI to flush out nondeterminism; write the
-      normalization list (§4.1).
-- [ ] Time a full 181-story run at default dimensions; confirm no sharding
-      needed.
-- [ ] Measure snapshot repo weight (expect single-digit MB of text; confirm).
-- **Exit criteria**: deterministic snapshots, var() premise holds, full run
-  < ~10 min in CI, go/no-go recorded.
+- [x] **Harness works** — Vitest browser mode (headless Chromium via
+      `@vitest/browser-playwright`), stories auto-discovered with
+      `import.meta.glob`, `skin-full.scss` imported directly (Vite compiles
+      it, same as Storybook), snapshots written per story-file via
+      `toMatchFileSnapshot` into colocated `__snapshots__/`.
+- [x] **`var()` premise confirmed at source and empirically** — visual-html
+      reads *specified* values from CSSOM rules (`getPropertyValue`), never
+      resolved computed styles. Snapshots show
+      `background-color: var(--color-background-accent)` verbatim. Changing
+      the token's definition to `hotpink` in `@ebay/design-tokens` produced
+      **zero** snapshot churn. Corollary: token-value regressions are
+      reviewed at the token definition diff + preview viewer, never via
+      component snapshots — by design.
+- [x] **Change detection verified** — a button `padding` mutation changed
+      all button-family snapshots *and* dialog's (dialog footer stories
+      embed real `.btn` markup): cross-component dependency coverage falls
+      out naturally, no metadata mapping needed. An inert refactor
+      (comment/whitespace) produced zero diff.
+- [x] **Width dimension verified** — visual-html filters `@media` rules via
+      `matchMedia` at parse time; dialog at 320px snapshots
+      `max-width: 88%`, at 1280px `max-width: var(--dialog-max-width)`.
+      Dialog is the first real `parameters.visual` opt-in
+      (`widths: [320, 768, 1280]`).
+- [x] **Deterministic** — repeated full regenerate runs produce
+      byte-identical output. Fonts *cannot* affect output (visual-html only
+      consults layout for `display:none` pruning and `matchMedia`), so the
+      font/anti-aliasing flake class is structurally gone. No normalization
+      rules needed so far; sub-pixel values never appear because specified
+      values are serialized.
+- [x] **Stories with embedded `<script>` need execution** — Storybook's HTML
+      renderer runs story scripts (dialog stories call `showModal()`);
+      `innerHTML` doesn't. The harness re-creates script nodes after
+      injection. Without this, closed dialogs serialize as empty `<div/>`
+      (visual-html prunes `display:none` subtrees).
+- [x] **Timing** — typical story file 0.3–3s; dialog 25s (17 stories ×
+      3 widths). Naive extrapolation to 181 files: ~8–15 min, borderline vs
+      the <10 min target. Root cause: visual-html re-parses + specificity-
+      sorts the full CSSOM on **every** capture. Its dist modules export the
+      internals, so Phase 1 **must** add a thin wrapper that caches parsed
+      rules per (document, width) — expected ~5–10× on heavy files; Vitest
+      sharding stays as backup.
+- [x] **Size** — 432 KB for the 3 spike components (dialog alone 309 KB at
+      3 widths). Full-suite estimate ~2–4 MB of text at default dimensions.
+      Fine without LFS.
+- Environment note: sandbox/CI can point the harness at a pre-installed
+  Chromium via `CHROMIUM_EXECUTABLE_PATH` (wired through Playwright
+  `launchOptions.executablePath`).
 
 ### Phase 1 — Snapshot harness + baseline (~1 week)
 
-- [ ] Build the discovery/render/capture harness in `packages/skin`
-      (vitest browser-mode config alongside the existing `vite.config.js`),
-      including `parameters.visual` support (§4.2).
+- [ ] Promote the Phase 0 spike harness to production quality: widen the
+      glob to all of `src/sass`, split into shardable units, keep
+      `parameters.visual` support (§4.2).
+- [ ] **Rule-cache wrapper (required, per Phase 0 timing)**: rebuild
+      visual-html's ~40-line tree walker on top of its exported internals
+      (`getDocumentStyleRules` / `getElementStyles` / `getPseudoElementStyles`
+      / `stringifyVisualData`) with parsed rules cached per (document,
+      width) instead of re-parsed per capture; upstream to eBay/visual-html
+      if accepted.
 - [ ] Extract the shared serializer/normalizer into a common test-util so
       skin, ebayui-core, and evo-marko converge on identical settings.
 - [ ] Dimension triage pass: tag components needing extra `widths` / `rtl`
