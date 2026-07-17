@@ -23,7 +23,7 @@
       font-family: inherit;
       font-size: var(--font-size-body);
       font-weight: 700;
-      min-height: 44px;
+      min-height: 40px;
       min-width: 88px;
       overflow-x: hidden;
       overflow-y: hidden;
@@ -104,7 +104,7 @@
     color: red;
     font-family: inherit;
     font-size: var(--font-size-body);
-    min-height: 44px;
+    min-height: 40px;
     min-width: 88px;
     padding-bottom: 0px;
     padding-left: 20px;
@@ -169,7 +169,7 @@
       color: inherit;
       font-family: inherit;
       font-size: var(--font-size-body);
-      min-height: 44px;
+      min-height: 40px;
       min-width: 88px;
       padding-bottom: 0px;
       padding-left: 20px;

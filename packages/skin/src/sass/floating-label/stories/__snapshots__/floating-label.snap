@@ -810,7 +810,7 @@
         font-family: inherit;
         font-size: var(--font-size-body);
         max-width: 100%;
-        min-height: 44px;
+        min-height: 40px;
         min-width: 64px;
         overflow-x: hidden;
         overflow-y: hidden;

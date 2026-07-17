@@ -75,7 +75,7 @@
           font-family: inherit;
           font-size: var(--font-size-body);
           font-weight: 700;
-          min-height: 44px;
+          min-height: 40px;
           min-width: 88px;
           overflow-x: hidden;
           overflow-y: hidden;
@@ -183,7 +183,7 @@
           font-family: inherit;
           font-size: var(--font-size-body);
           font-weight: 700;
-          min-height: 44px;
+          min-height: 40px;
           min-width: 88px;
           overflow-x: hidden;
           overflow-y: hidden;
@@ -294,7 +294,7 @@
           font-family: inherit;
           font-size: var(--font-size-body);
           font-weight: 700;
-          min-height: 44px;
+          min-height: 40px;
           min-width: 88px;
           overflow-x: hidden;
           overflow-y: hidden;
@@ -402,7 +402,7 @@
           font-family: inherit;
           font-size: var(--font-size-body);
           font-weight: 700;
-          min-height: 44px;
+          min-height: 40px;
           min-width: 88px;
           overflow-x: hidden;
           overflow-y: hidden;
@@ -510,7 +510,7 @@
           font-family: inherit;
           font-size: var(--font-size-body);
           font-weight: 700;
-          min-height: 44px;
+          min-height: 40px;
           min-width: 88px;
           overflow-x: hidden;
           overflow-y: hidden;
@@ -621,7 +621,7 @@
           font-family: inherit;
           font-size: var(--font-size-body);
           font-weight: 700;
-          min-height: 44px;
+          min-height: 40px;
           min-width: 88px;
           overflow-x: hidden;
           overflow-y: hidden;
@@ -729,7 +729,7 @@
           font-family: inherit;
           font-size: var(--font-size-body);
           font-weight: 700;
-          min-height: 44px;
+          min-height: 40px;
           min-width: 88px;
           overflow-x: hidden;
           overflow-y: hidden;
@@ -837,7 +837,7 @@
           font-family: inherit;
           font-size: var(--font-size-body);
           font-weight: 700;
-          min-height: 44px;
+          min-height: 40px;
           min-width: 88px;
           overflow-x: hidden;
           overflow-y: hidden;
@@ -948,7 +948,7 @@
           font-family: inherit;
           font-size: var(--font-size-body);
           font-weight: 700;
-          min-height: 44px;
+          min-height: 40px;
           min-width: 88px;
           overflow-x: hidden;
           overflow-y: hidden;

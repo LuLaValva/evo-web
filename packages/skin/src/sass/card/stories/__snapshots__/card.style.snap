@@ -112,7 +112,7 @@
           color: inherit;
           font-family: inherit;
           font-size: var(--font-size-body);
-          min-height: 44px;
+          min-height: 40px;
           min-width: 88px;
           overflow-x: hidden;
           overflow-y: hidden;
@@ -258,7 +258,7 @@
           color: inherit;
           font-family: inherit;
           font-size: var(--font-size-body);
-          min-height: 44px;
+          min-height: 40px;
           min-width: 88px;
           overflow-x: hidden;
           overflow-y: hidden;
@@ -399,7 +399,7 @@
           color: inherit;
           font-family: inherit;
           font-size: var(--font-size-body);
-          min-height: 44px;
+          min-height: 40px;
           min-width: 88px;
           overflow-x: hidden;
           overflow-y: hidden;
@@ -542,7 +542,7 @@
           color: inherit;
           font-family: inherit;
           font-size: var(--font-size-body);
-          min-height: 44px;
+          min-height: 40px;
           min-width: 88px;
           overflow-x: hidden;
           overflow-y: hidden;

@@ -29,7 +29,7 @@
     <div style="
       animation: var(--motion-duration-long-3) var(--motion-easing-continuous) infinite alternate on-primary;
       background: var(--skeleton-background, var(--color-loading-fill));
-      height: 44px;
+      height: 40px;
       width: 100%
     "/>
   </div>
