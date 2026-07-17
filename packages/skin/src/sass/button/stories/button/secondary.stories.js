@@ -1,4 +1,9 @@
-export default { title: "Skin/Button/Secondary" };
+export default {
+    title: "Skin/Button/Secondary",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const textOnly = () =>
     '<button class="btn btn--secondary">Button</button>';

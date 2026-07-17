@@ -1,4 +1,9 @@
-export default { title: "Skin/Skeleton/RTL" };
+export default {
+    title: "Skin/Skeleton/RTL",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const rtl = () =>
     `<div class="skeleton" role="img" aria-label="loading" style="width: 225px;" dir="rtl">

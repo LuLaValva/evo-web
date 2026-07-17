@@ -1,4 +1,9 @@
-export default { title: "Skin/Fake Button/Dimensions" };
+export default {
+    title: "Skin/Fake Button/Dimensions",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const large = () => `
 <a class="fake-btn fake-btn--large" href="http://www.ebay.com">

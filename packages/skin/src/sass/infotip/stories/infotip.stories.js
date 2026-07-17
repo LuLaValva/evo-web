@@ -1,4 +1,9 @@
-export default { title: "Skin/Infotip" };
+export default {
+    title: "Skin/Infotip",
+    parameters: {
+        visual: { widths: [320, 512] },
+    },
+};
 
 export const collapsed = () => `
 <span class="infotip">

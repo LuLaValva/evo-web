@@ -1,4 +1,9 @@
-export default { title: "Skin/Snackbar Dialog/Font-Size" };
+export default {
+    title: "Skin/Snackbar Dialog/Font-Size",
+    parameters: {
+        visual: { widths: [320, 512], rtl: true },
+    },
+};
 
 export const noAction = () => `
     <div class="font-large">

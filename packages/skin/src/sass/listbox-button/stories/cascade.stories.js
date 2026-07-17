@@ -1,4 +1,9 @@
-export default { title: "Skin/Listbox Button/Cascade" };
+export default {
+    title: "Skin/Listbox Button/Cascade",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const RTL = () => `
 <div dir="rtl">

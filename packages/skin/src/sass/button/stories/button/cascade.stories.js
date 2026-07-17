@@ -1,4 +1,9 @@
-export default { title: "Skin/Button/Cascade" };
+export default {
+    title: "Skin/Button/Cascade",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const color = () => `
 <button type="button" class="btn" style="color: red;">

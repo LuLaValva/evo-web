@@ -1,4 +1,9 @@
-export default { title: "Skin/Select/Cascade" };
+export default {
+    title: "Skin/Select/Cascade",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const RTL = () => `
 <div dir="rtl">

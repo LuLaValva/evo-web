@@ -1,4 +1,9 @@
-export default { title: "Skin/Tourtip" };
+export default {
+    title: "Skin/Tourtip",
+    parameters: {
+        visual: { widths: [320, 512] },
+    },
+};
 
 export const collapsed = () => `
 <div class="tourtip">

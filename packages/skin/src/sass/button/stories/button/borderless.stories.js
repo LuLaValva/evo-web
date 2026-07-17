@@ -1,4 +1,9 @@
-export default { title: "Skin/Button/Borderless" };
+export default {
+    title: "Skin/Button/Borderless",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const base = () => `<button class="btn btn--borderless">
     <span class="btn__cell">

@@ -1,14 +1,11 @@
 import { page } from "vitest/browser";
 import { describe, it, expect } from "vitest";
-import visualHTML from "visual-html";
+import visualHTML from "./visual-html-cached";
 import "../../src/sass/bundles/skin-full.scss";
 
-// Phase 0 spike scope: three representative components
-// (simple / overlay / animated). Widen the glob to all of src/sass in Phase 1.
-const storyModules = import.meta.glob(
-    "../../src/sass/{button,dialog,progress-spinner}/stories/**/*.stories.js",
-    { eager: true },
-);
+const storyModules = import.meta.glob("../../src/sass/**/*.stories.js", {
+    eager: true,
+});
 
 const DEFAULT_WIDTH = 1280;
 const VIEWPORT_HEIGHT = 800;
@@ -42,7 +39,7 @@ async function captureStories(mod, width, dir) {
                 script.replaceWith(clone);
             }
             const label = dir === "rtl" ? `${name} @ ${width}px rtl` : `${name} @ ${width}px`;
-            out += `┌─ ${label}\n${visualHTML(container)}\n\n`;
+            out += `┌─ ${label}\n${visualHTML(container, width)}\n\n`;
         } finally {
             container.remove();
             document.documentElement.dir = "";
@@ -54,7 +51,11 @@ async function captureStories(mod, width, dir) {
 for (const [storyPath, mod] of Object.entries(storyModules)) {
     const title = mod.default?.title ?? storyPath;
     const visual = mod.default?.parameters?.visual ?? {};
-    const widths = visual.widths ?? [DEFAULT_WIDTH];
+    // parameters.visual.widths lists *additional* breakpoints for
+    // responsive components; the default width is always captured.
+    const widths = [...new Set([...(visual.widths ?? []), DEFAULT_WIDTH])].sort(
+        (a, b) => a - b,
+    );
 
     describe(title, () => {
         it("matches visual snapshot", async () => {

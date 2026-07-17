@@ -1,4 +1,9 @@
-export default { title: "Skin/Chips Combobox/RTL" };
+export default {
+    title: "Skin/Chips Combobox/RTL",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const empty = () => `
 <div dir="rtl">

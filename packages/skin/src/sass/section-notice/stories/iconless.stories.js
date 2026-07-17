@@ -1,4 +1,9 @@
-export default { title: "Skin/Section Notice/Iconless" };
+export default {
+    title: "Skin/Section Notice/Iconless",
+    parameters: {
+        visual: { widths: [320, 512], rtl: true },
+    },
+};
 
 export const body = () => `
 <div class="section-notice" role="region">

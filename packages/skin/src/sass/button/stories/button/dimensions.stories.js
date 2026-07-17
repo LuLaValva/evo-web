@@ -1,4 +1,9 @@
-export default { title: "Skin/Button/Dimensions" };
+export default {
+    title: "Skin/Button/Dimensions",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const large = () => `
 <button type="button" class="btn btn--large">

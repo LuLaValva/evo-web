@@ -1,4 +1,9 @@
-export default { title: "Skin/Section Title" };
+export default {
+    title: "Skin/Section Title",
+    parameters: {
+        visual: { widths: [320, 512], rtl: true },
+    },
+};
 
 export const heading = () => `
 <div class="section-title">

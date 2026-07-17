@@ -64,6 +64,8 @@
         "start": "npm run storybook",
         "storybook": "npm run copy:assetsToStorybook && storybook dev -c .storybook --no-open",
         "test": "npm run build",
+        "test:visual": "vitest run --config vitest.config.js",
+        "update-snapshots": "vitest run --config vitest.config.js -u",
         "verify": "tsx scripts verify"
     },
     "commitlint": {
