@@ -12,7 +12,7 @@ Replace Percy (paid, cloud, screenshot-based visual regression) with
 [visual-html](https://github.com/eBay/visual-html) (eBay open-source,
 DOM + matched-CSS based, deterministic text snapshots committed to git),
 plus an in-house **preview viewer** that renders before/after story output so
-reviewers can still approve changes *visually*, not just by reading text diffs.
+reviewers can still approve changes _visually_, not just by reading text diffs.
 
 **What we gain**
 
@@ -24,7 +24,7 @@ reviewers can still approve changes *visually*, not just by reading text diffs.
 - Deterministic output (no screenshot anti-aliasing/font-rendering flake).
 - Theme-agnostic snapshots: visual-html serializes matched author CSS, so
   `var(--token)` references are preserved unresolved — one snapshot covers
-  light and dark mode by construction (a token's *value* changing doesn't
+  light and dark mode by construction (a token's _value_ changing doesn't
   churn component snapshots; the token change is reviewed where the token is
   defined).
 - One snapshot technology across the monorepo — ebayui-core and evo-marko
@@ -39,24 +39,24 @@ reviewers can still approve changes *visually*, not just by reading text diffs.
 - True pixel rendering: paint bugs, font rasterization, and image-content
   changes are invisible to CSS/DOM snapshots. Mitigation is the preview
   viewer putting human eyes on real rendered output for every changed story
-  — snapshots stay as code (the whole point of visual-html) and are *viewed*
+  — snapshots stay as code (the whole point of visual-html) and are _viewed_
   in a browser. There is no screenshot suite anywhere in the target state.
 
 ---
 
 ## 2. Current state (what has to be replaced or removed)
 
-| Piece | Location | Role today |
-| --- | --- | --- |
-| `Percy Build` workflow | `.github/workflows/percy-build.yml` | On PR touching skin: detects changed components, builds Storybook, uploads artifact + `.percy-*` metadata files |
-| `Percy Visual Regression` workflow | `.github/workflows/percy.yml` | Consumes the artifact via `workflow_run`, posts pending/success commit statuses, runs `percy storybook` (partial or full); separate `percy-main` job runs full auto-approved baseline on `main` |
-| Changed-component detection | `.github/actions/detect-changed-components/index.mts` | Maps changed `packages/skin/dist/**` CSS + story files to Storybook titles via `component-metadata.json` submodule reverse-lookup |
-| Percy config | `packages/skin/.percy.yml` | Widths 320/512/768/1280, DPR 2, JS enabled |
-| npm scripts | `packages/skin/package.json` → `snapshots`, `snapshots:all`, `snapshots:dry`, `snapshots:all:dry` | Local/CI Percy runs |
-| Dependencies | root `package.json` → `@percy/cli`, `@percy/storybook` | Percy tooling |
-| Docs | `packages/skin/PERCY-FAQ.md`, `packages/skin/CONTRIBUTING.md` (§Visual Regression), `packages/skin/README.md` (badge), `CLAUDE.md`, `.github/copilot-instructions.md`, `docs/ai/*` | Contributor guidance |
-| Branch protection | GitHub settings | `Percy Visual Regression` commit status is a required check |
-| Misc | `packages/skin/.gitignore` (`.storybook-percy`), `docs/adr/0003-*` | Cleanup targets |
+| Piece                              | Location                                                                                                                                                                           | Role today                                                                                                                                                                                      |
+| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Percy Build` workflow             | `.github/workflows/percy-build.yml`                                                                                                                                                | On PR touching skin: detects changed components, builds Storybook, uploads artifact + `.percy-*` metadata files                                                                                 |
+| `Percy Visual Regression` workflow | `.github/workflows/percy.yml`                                                                                                                                                      | Consumes the artifact via `workflow_run`, posts pending/success commit statuses, runs `percy storybook` (partial or full); separate `percy-main` job runs full auto-approved baseline on `main` |
+| Changed-component detection        | `.github/actions/detect-changed-components/index.mts`                                                                                                                              | Maps changed `packages/skin/dist/**` CSS + story files to Storybook titles via `component-metadata.json` submodule reverse-lookup                                                               |
+| Percy config                       | `packages/skin/.percy.yml`                                                                                                                                                         | Widths 320/512/768/1280, DPR 2, JS enabled                                                                                                                                                      |
+| npm scripts                        | `packages/skin/package.json` → `snapshots`, `snapshots:all`, `snapshots:dry`, `snapshots:all:dry`                                                                                  | Local/CI Percy runs                                                                                                                                                                             |
+| Dependencies                       | root `package.json` → `@percy/cli`, `@percy/storybook`                                                                                                                             | Percy tooling                                                                                                                                                                                   |
+| Docs                               | `packages/skin/PERCY-FAQ.md`, `packages/skin/CONTRIBUTING.md` (§Visual Regression), `packages/skin/README.md` (badge), `CLAUDE.md`, `.github/copilot-instructions.md`, `docs/ai/*` | Contributor guidance                                                                                                                                                                            |
+| Branch protection                  | GitHub settings                                                                                                                                                                    | `Percy Visual Regression` commit status is a required check                                                                                                                                     |
+| Misc                               | `packages/skin/.gitignore` (`.storybook-percy`), `docs/adr/0003-*`                                                                                                                 | Cleanup targets                                                                                                                                                                                 |
 
 Scale: ~181 `*.stories.js` files under `packages/skin/src/sass/**`, each story
 captured at 4 widths ≈ 990 Percy snapshots per full run (~25 min in Percy).
@@ -87,11 +87,11 @@ format. Two consequences drive this design:
    of the coverage model.)
 
 The check then becomes: **"are the committed snapshots up to date with the
-code?"** The test suite *regenerates* snapshots as part of running (§4.4);
+code?"** The test suite _regenerates_ snapshots as part of running (§4.4);
 locally you run the tests and commit what changed, and CI fails when the
 regenerated output differs from what's committed. Reviewers approve the diff
 like any other code change. There is no "approve in an external dashboard"
-step and no baseline sync job on `main` — merging the PR *is* updating the
+step and no baseline sync job on `main` — merging the PR _is_ updating the
 baseline.
 
 ---
@@ -140,13 +140,13 @@ stories file's default export:
 
 ```js
 export default {
-    title: "Skin/Button/Primary",
-    parameters: {
-        visual: {
-            widths: [320, 768, 1280], // opt-in extra breakpoints
-            rtl: true,                // opt-in RTL capture (at default width)
-        },
+  title: "Skin/Button/Primary",
+  parameters: {
+    visual: {
+      widths: [320, 768, 1280], // opt-in extra breakpoints
+      rtl: true, // opt-in RTL capture (at default width)
     },
+  },
 };
 ```
 
@@ -158,7 +158,7 @@ export default {
 
 Part of Phase 1 is a one-time triage pass over the ~90 components tagging
 which need extra widths and/or RTL. This shrinks total snapshot volume well
-below Percy's ~990 while *adding* RTL coverage where it matters.
+below Percy's ~990 while _adding_ RTL coverage where it matters.
 
 ### 4.3 In-house preview viewer
 
@@ -225,10 +225,10 @@ manual commit-status API calls — a plain required job), no secrets, fork-PR
 safe, and no changed-component detection needed because a full run is fast.
 `.github/actions/detect-changed-components` is deleted with the Percy
 workflows (Vitest sharding is the fallback if Phase 0 timing surprises us).
-No separate regen job or trigger is needed — regeneration *is* the test run,
+No separate regen job or trigger is needed — regeneration _is_ the test run,
 in CI and locally alike.
 
-There is deliberately **no `main` baseline job**: merged snapshots *are* the
+There is deliberately **no `main` baseline job**: merged snapshots _are_ the
 baseline.
 
 ### 4.5 Review & approval model
@@ -255,7 +255,7 @@ progress-spinner (20 story files, 20 snapshot files). Findings:
       it, same as Storybook), snapshots written per story-file via
       `toMatchFileSnapshot` into colocated `__snapshots__/`.
 - [x] **`var()` premise confirmed at source and empirically** — visual-html
-      reads *specified* values from CSSOM rules (`getPropertyValue`), never
+      reads _specified_ values from CSSOM rules (`getPropertyValue`), never
       resolved computed styles. Snapshots show
       `background-color: var(--color-background-accent)` verbatim. Changing
       the token's definition to `hotpink` in `@ebay/design-tokens` produced
@@ -263,7 +263,7 @@ progress-spinner (20 story files, 20 snapshot files). Findings:
       reviewed at the token definition diff + preview viewer, never via
       component snapshots — by design.
 - [x] **Change detection verified** — a button `padding` mutation changed
-      all button-family snapshots *and* dialog's (dialog footer stories
+      all button-family snapshots _and_ dialog's (dialog footer stories
       embed real `.btn` markup): cross-component dependency coverage falls
       out naturally, no metadata mapping needed. An inert refactor
       (comment/whitespace) produced zero diff.
@@ -273,7 +273,7 @@ progress-spinner (20 story files, 20 snapshot files). Findings:
       Dialog is the first real `parameters.visual` opt-in
       (`widths: [320, 768, 1280]`).
 - [x] **Deterministic** — repeated full regenerate runs produce
-      byte-identical output. Fonts *cannot* affect output (visual-html only
+      byte-identical output. Fonts _cannot_ affect output (visual-html only
       consults layout for `display:none` pruning and `matchMedia`), so the
       font/anti-aliasing flake class is structurally gone. No normalization
       rules needed so far; sub-pixel values never appear because specified
@@ -346,26 +346,21 @@ of swapping token stylesheets.
       diffs via the `diff` package, emits a machine-readable
       `summary.json` for CI comments.
 - [x] Viewer UI (`template.html`, dependency-free single file), v2
-      "reviewer-grade" feature set for engineers and designers:
-      - Story-level navigation (search/filter, per-component groups,
-        status dots) with dimension tabs (widths / RTL) per story.
-      - **Element-level change highlighting**: the viewer diffs the two
-        snapshot trees (LCS-aligned per level) and outlines exactly the
-        changed/added/removed elements in the rendered output — with an
-        inspector panel listing each changed element's before/after
-        property values; clicking a row flashes and scrolls to the
-        element in both frames. Screenshot tools cannot do this.
-      - Comparison modes: side-by-side, swipe (clip slider), onion skin
-        (opacity), and flip.
-      - Review workflow: per-story "reviewed" checkbox with progress
-        counter (content-addressed in localStorage, so re-pushed changes
-        reset), full keyboard navigation (j/k, dimension hotkeys, mode/
-        theme/highlight/diff toggles).
-      - Light/dark token toggle, RTL `dir` frames, colored text-diff
-        pane. Smoke-tested headless end-to-end with zero console errors,
-        exercised against a real cascading change (one-line button
-        padding edit → 211 stories across 18 components, 295 unchanged
-        sections filtered out).
+      "reviewer-grade" feature set for engineers and designers: - Story-level navigation (search/filter, per-component groups,
+      status dots) with dimension tabs (widths / RTL) per story. - **Element-level change highlighting**: the viewer diffs the two
+      snapshot trees (LCS-aligned per level) and outlines exactly the
+      changed/added/removed elements in the rendered output — with an
+      inspector panel listing each changed element's before/after
+      property values; clicking a row flashes and scrolls to the
+      element in both frames. Screenshot tools cannot do this. - Comparison modes: side-by-side, swipe (clip slider), onion skin
+      (opacity), and flip. - Review workflow: per-story "reviewed" checkbox with progress
+      counter (content-addressed in localStorage, so re-pushed changes
+      reset), full keyboard navigation (j/k, dimension hotkeys, mode/
+      theme/highlight/diff toggles). - Light/dark token toggle, RTL `dir` frames, colored text-diff
+      pane. Smoke-tested headless end-to-end with zero console errors,
+      exercised against a real cascading change (one-line button
+      padding edit → 211 stories across 18 components, 295 unchanged
+      sections filtered out).
 - [x] `npm run visual:preview` (root) — builds the self-contained
       `tools/visual-preview/dist/visual-preview.html` (~1 MB); the same
       artifact serves local review, the CI artifact, and the per-PR
@@ -391,22 +386,25 @@ No parallel soak — the new check replaces Percy in one cutover:
       and comment; fork PRs still get the check + artifact (their tokens
       cannot push/comment). The failure path uploads the regenerated
       snapshots so contributors without a local browser can adopt them.
-- [ ] Flip branch protection: require `visual-regression`, remove
-      `Percy Visual Regression`.
-- [ ] Delete `.github/workflows/percy-build.yml`, `.github/workflows/percy.yml`,
+- [ ] Flip branch protection: require the `visual-html snapshots` job of
+      `Visual Regression`, remove `Percy Visual Regression`. **(Requires
+      repo admin — the only remaining manual step.)**
+- [x] Delete `.github/workflows/percy-build.yml`, `.github/workflows/percy.yml`,
       `.github/actions/detect-changed-components/`, `packages/skin/.percy.yml`,
-      the four `snapshots*` scripts, `@percy/cli` + `@percy/storybook` deps,
-      `.storybook-percy` gitignore entry, README badge.
-- [ ] Replace `PERCY-FAQ.md` with `VISUAL-TESTING.md` (same FAQ shape:
+      the four `snapshots*` scripts, `@percy/cli` + `@percy/storybook` deps
+      (and the now-orphaned `@actions/core`), `.storybook-percy` gitignore
+      entry, README badge.
+- [x] Replace `PERCY-FAQ.md` with `VISUAL-TESTING.md` (same FAQ shape:
       what runs, how snapshots regenerate, how to use the viewer, how review
       works, fork-PR story).
-- [ ] Update `CONTRIBUTING.md` §Visual Regression, `CLAUDE.md` (2 refs),
-      `.github/copilot-instructions.md`, `docs/ai/*` pipeline docs.
-- [ ] Write ADR (next number in `docs/adr/`) superseding 0003; mark 0003
-      superseded.
-- [ ] Cancel the Percy subscription.
+- [x] Update `CONTRIBUTING.md` §Visual Regression, `CLAUDE.md` (2 refs),
+      `.github/copilot-instructions.md`, `docs/ai/*` pipeline docs,
+      `component-metadata.d.ts` comment.
+- [x] ADR 0007 supersedes 0003; 0003 marked superseded.
+- [ ] Cancel the Percy subscription (after merge).
 - **Exit criteria**: `grep -ri percy` returns only historical
-  CHANGELOG/ADR mentions; first real skin PR goes through the new flow.
+  CHANGELOG/ADR/plan mentions ✓; first real skin PR goes through the new
+  flow.
 
 ---
 
@@ -429,26 +427,26 @@ just PR review.
 
 ## 7. Risks & mitigations
 
-| Risk | Impact | Mitigation |
-| --- | --- | --- |
-| CSS/DOM snapshots miss pixel-level bugs (paint order, font rasterization, image content, browser-specific rendering) | Regression ships undetected | Accepted trade-off — snapshots-as-code is the point. Preview viewer puts human eyes on real rendered output for every changed story; no screenshot tooling will be maintained |
-| Immediate cutover means no measured overlap with Percy | A class of regression Percy would have caught slips through early | Accepted for cost/speed; Phase 0 spike validates the detection model on deliberate regressions before cutover |
-| The `var()` premise fails for some rule patterns (variables resolved or absent in output) | Theme-agnostic model breaks; dark-mode coverage gap | Phase 0 exit criterion; if a pattern resolves vars, extend the serializer or normalize before baseline lands |
-| Under-opted dimensions: a component with responsive/RTL behavior never tagged | Width/RTL regressions invisible for that component | Phase 1 triage checklist; PR template + `VISUAL-TESTING.md` instruct authors adding media queries / logical properties to update `parameters.visual` |
-| Nondeterminism (fonts, animation timing, sub-pixel values) | Flaky check | Phase 0 exit criteria gate; normalization centralized in one serializer |
-| Contributors without local browsers (fork PRs) can't regenerate | Friction | CI already regenerates on every run — failed check uploads the fresh snapshot files as an artifact to download and commit |
-| Repo growth from committed snapshots | Clone size | Text-only, fewer snapshots than Percy's 990 (single default dimension); Phase 0 verifies; `linguist-generated` keeps PR diffs readable |
-| Dependency-map staleness (`component-metadata.json` submodules) | — | Ceases to matter: full runs remove the partial-build dependency entirely (deletes an ADR-0003 documented risk) |
+| Risk                                                                                                                 | Impact                                                            | Mitigation                                                                                                                                                                    |
+| -------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| CSS/DOM snapshots miss pixel-level bugs (paint order, font rasterization, image content, browser-specific rendering) | Regression ships undetected                                       | Accepted trade-off — snapshots-as-code is the point. Preview viewer puts human eyes on real rendered output for every changed story; no screenshot tooling will be maintained |
+| Immediate cutover means no measured overlap with Percy                                                               | A class of regression Percy would have caught slips through early | Accepted for cost/speed; Phase 0 spike validates the detection model on deliberate regressions before cutover                                                                 |
+| The `var()` premise fails for some rule patterns (variables resolved or absent in output)                            | Theme-agnostic model breaks; dark-mode coverage gap               | Phase 0 exit criterion; if a pattern resolves vars, extend the serializer or normalize before baseline lands                                                                  |
+| Under-opted dimensions: a component with responsive/RTL behavior never tagged                                        | Width/RTL regressions invisible for that component                | Phase 1 triage checklist; PR template + `VISUAL-TESTING.md` instruct authors adding media queries / logical properties to update `parameters.visual`                          |
+| Nondeterminism (fonts, animation timing, sub-pixel values)                                                           | Flaky check                                                       | Phase 0 exit criteria gate; normalization centralized in one serializer                                                                                                       |
+| Contributors without local browsers (fork PRs) can't regenerate                                                      | Friction                                                          | CI already regenerates on every run — failed check uploads the fresh snapshot files as an artifact to download and commit                                                     |
+| Repo growth from committed snapshots                                                                                 | Clone size                                                        | Text-only, fewer snapshots than Percy's 990 (single default dimension); Phase 0 verifies; `linguist-generated` keeps PR diffs readable                                        |
+| Dependency-map staleness (`component-metadata.json` submodules)                                                      | —                                                                 | Ceases to matter: full runs remove the partial-build dependency entirely (deletes an ADR-0003 documented risk)                                                                |
 
 ## 8. Decision record (resolved 2026-07-17)
 
-| Question | Decision |
-| --- | --- |
-| Dark mode as a snapshot dimension | **No** — visual-html preserves `var()` references, so snapshots are theme-agnostic by construction; the viewer gets a light/dark toggle for human review |
-| RTL / responsive widths | **Per-component opt-in** via CSF `parameters.visual = { widths, rtl }`; default is LTR @ 1280px only |
-| Snapshot file granularity | **Per story-file**, colocated `__snapshots__/` |
-| Default breakpoint | **1280px** |
-| CI ↔ snapshot relationship | **Regenerate as part of the test suite**, enforce via `git diff --exit-code`; regenerated files ship in the CI artifact — no separate label/comment-triggered regen job |
-| Cutover strategy | **Immediate** — no Percy parallel soak; removal in the same phase as enabling the new check |
-| Viewer delivery in CI | **Both** workflow artifact and per-PR deploy on existing site infra, from day one |
-| Pixel-screenshot backstop | **None** — snapshots stay as code and are viewed in a browser |
+| Question                          | Decision                                                                                                                                                                |
+| --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Dark mode as a snapshot dimension | **No** — visual-html preserves `var()` references, so snapshots are theme-agnostic by construction; the viewer gets a light/dark toggle for human review                |
+| RTL / responsive widths           | **Per-component opt-in** via CSF `parameters.visual = { widths, rtl }`; default is LTR @ 1280px only                                                                    |
+| Snapshot file granularity         | **Per story-file**, colocated `__snapshots__/`                                                                                                                          |
+| Default breakpoint                | **1280px**                                                                                                                                                              |
+| CI ↔ snapshot relationship        | **Regenerate as part of the test suite**, enforce via `git diff --exit-code`; regenerated files ship in the CI artifact — no separate label/comment-triggered regen job |
+| Cutover strategy                  | **Immediate** — no Percy parallel soak; removal in the same phase as enabling the new check                                                                             |
+| Viewer delivery in CI             | **Both** workflow artifact and per-PR deploy on existing site infra, from day one                                                                                       |
+| Pixel-screenshot backstop         | **None** — snapshots stay as code and are viewed in a browser                                                                                                           |

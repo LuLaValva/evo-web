@@ -1,5 +1,3 @@
-[![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/f1364dca/eBay-Skin)
-
 # Skin
 
 > Pure CSS framework designed & developed by eBay for a branded, e-commerce marketplace.

@@ -62,7 +62,6 @@ export interface ComponentMetadata {
 
   /**
    * List of components that depend on this component
-   * Used by Percy CI to determine which components need snapshots when this component changes
    */
   dependents?: string[];
 
