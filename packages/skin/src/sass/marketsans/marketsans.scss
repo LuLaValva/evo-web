@@ -1,0 +1,26 @@
+@use "../variables/variables";
+
+/* eot: IE9 Compat Modes */
+/* eot?#iefix: IE6-IE8 */
+/* woff2: Super Modern Browsers */
+/* woff: Pretty Modern Browsers */
+/* truetypeL Safari, Android, iOS */
+/* svg: Legacy iOS */
+
+@font-face {
+    font-display: swap;
+    font-family: variables.$marketsans-fontname;
+    font-style: normal;
+    font-weight: normal;
+    src: url("#{variables.$marketsans-url}#{variables.$marketsans-filename-regular}.woff2")
+        format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: variables.$marketsans-fontname;
+    font-style: normal;
+    font-weight: bold;
+    src: url("#{variables.$marketsans-url}#{variables.$marketsans-filename-bold}.woff2")
+        format("woff2");
+}

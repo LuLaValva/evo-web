@@ -1,0 +1,13 @@
+export interface Input extends Marko.HTML.A {
+    size?: "large";
+}
+<const/{ size, class: inputClass, content, ...htmlInput }=input>
+
+<a ...htmlInput class=["cta-btn", size && `cta-btn--${size}`, inputClass]>
+    <span class="cta-btn__cell">
+        <span>
+            <${content}/>
+        </span>
+        <evo-icon-arrow-right-24/>
+    </span>
+</a>

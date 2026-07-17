@@ -1,0 +1,31 @@
+import { processHtmlAttributes } from "../../common/html-attributes";
+import type { WithNormalizedProps } from "../../global";
+static {
+    interface BadgeInput extends Omit<Marko.HTML.Span, `on${string}`> {
+        type?: "menu" | "icon";
+        number?: number | string;
+        class?: Marko.HTMLAttributes["class"];
+    }
+}
+export interface Input extends WithNormalizedProps<BadgeInput> {}
+$ const {
+    class: inputClass,
+    type,
+    number,
+    ...htmlInput
+} = input;
+$ const role = type !== "menu" && type !== "icon" && "img";
+
+<if(number == undefined)>
+    <span ...processHtmlAttributes(htmlInput) role=role class=["badge", inputClass]/>
+</if>
+<else-if(+number > 99)>
+    <span ...processHtmlAttributes(htmlInput) role=role class=["badge", inputClass]>
+        99+
+    </span>
+</else-if>
+<else-if(+number > 0)>
+    <span ...processHtmlAttributes(htmlInput) role=role class=["badge", "badge--circle", inputClass]>
+        ${Math.round(+number)}
+    </span>
+</else-if>

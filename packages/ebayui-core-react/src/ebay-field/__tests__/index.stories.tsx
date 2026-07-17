@@ -1,0 +1,203 @@
+import React from "react";
+import { EbayTextbox } from "../../ebay-textbox";
+import { EbaySwitch } from "../../ebay-switch";
+import { EbayCheckbox } from "../../ebay-checkbox";
+import { EbayField, EbayLabel, EbayFieldDescription } from "../index";
+
+export default {
+    title: "form input/ebay-field",
+
+    tags: ["autodocs"],
+    parameters: {
+        docs: {
+            description: {
+                component: `## Import
+
+\`\`\`jsx harmony
+import { EbayField, EbayLabel, EbayFieldDescription } from "@ebay/ui-core-react/ebay-field";
+\`\`\`
+
+### Import following styles from SKIN
+
+\`\`\`jsx harmony
+import "@ebay/skin/field";
+\`\`\`
+
+or import styles using SCSS/CSS
+
+\`\`\`css
+@import "@ebay/skin/field.css";
+\`\`\``,
+            },
+        },
+    },
+    argTypes: {
+        layout: {
+            description: "`block`, `inline` (default)",
+            options: ["block", "inline"],
+            control: { type: "select" },
+        },
+        stacked: { description: "display label above the field if true", control: "boolean" },
+        required: { description: "indicates the field is required if true", control: "boolean" },
+        position: {
+            description: "`start` (default) or `end` position towards the input",
+            options: ["start", "end"],
+            control: { type: "select" },
+        },
+        type: {
+            description: "`confirmation`, `default`(Default), `attention`, `information`, `group`",
+            options: ["confirmation", "default", "attention", "information", "group"],
+            control: { type: "select" },
+        },
+    },
+};
+
+export const DefaultInline = {
+    render: (args) => (
+        <div>
+            <EbayField {...args}>
+                <EbayLabel>Label for textbox</EbayLabel>
+                <EbayTextbox placeholder="placeholder text" />
+            </EbayField>
+            <EbayField {...args}>
+                <EbayLabel>Label for switch</EbayLabel>
+                <EbaySwitch value="123" id="switch-1" />
+            </EbayField>
+            <EbayField {...args}>
+                <EbayLabel>Label for checkbox</EbayLabel>
+                <EbayCheckbox defaultChecked id="checkbox-2" />
+            </EbayField>
+        </div>
+    ),
+
+    name: "Default - inline",
+};
+
+export const Block = (args) => (
+    <div>
+        <EbayField {...args} layout="block">
+            <EbayLabel stacked>Label 1</EbayLabel>
+            <EbayTextbox placeholder="placeholder text" />
+        </EbayField>
+        <EbayField {...args} layout="block">
+            <EbayLabel stacked>Label 1</EbayLabel>
+            <EbayTextbox placeholder="placeholder text" />
+        </EbayField>
+        <EbayField {...args} layout="block">
+            <EbayLabel stacked>Label 1</EbayLabel>
+            <EbayTextbox placeholder="placeholder text" />
+        </EbayField>
+    </div>
+);
+
+export const BlockAndInlineCombination = {
+    render: (args) => (
+        <div>
+            <EbayField {...args}>
+                <EbayLabel>Label 1</EbayLabel>
+                <EbayTextbox placeholder="placeholder text" />
+            </EbayField>
+            <EbayField {...args}>
+                <EbayLabel>Label 2</EbayLabel>
+                <EbayTextbox placeholder="placeholder text" />
+            </EbayField>
+            <EbayField {...args} layout="block">
+                <EbayLabel>Label 3</EbayLabel>
+                <EbayTextbox placeholder="placeholder text" />
+            </EbayField>
+            <EbayField {...args}>
+                <EbayLabel>Label 4</EbayLabel>
+                <EbayTextbox placeholder="placeholder text" />
+            </EbayField>
+            <EbayField {...args}>
+                <EbayLabel>Label 5</EbayLabel>
+                <EbayTextbox placeholder="placeholder text" />
+            </EbayField>
+        </div>
+    ),
+
+    name: "Block and inline combination",
+};
+
+export const Required = {
+    render: (args) => (
+        <div>
+            <EbayField {...args}>
+                <EbayLabel required>Label 1</EbayLabel>
+                <EbayTextbox placeholder="placeholder text" />
+            </EbayField>
+            <EbayField {...args}>
+                <EbayLabel>Label 1</EbayLabel>
+                <EbayTextbox placeholder="placeholder text" />
+            </EbayField>
+            <EbayField {...args}>
+                <EbayLabel>Label 1</EbayLabel>
+                <EbayTextbox placeholder="placeholder text" />
+            </EbayField>
+        </div>
+    ),
+
+    name: "required",
+};
+
+export const WithDescription = {
+    render: (args) => (
+        <div>
+            <EbayField {...args} layout="block">
+                <EbayLabel stacked htmlFor="field1">
+                    Label 1
+                </EbayLabel>
+                <EbayTextbox placeholder="placeholder text" id="field1" />
+                <EbayFieldDescription>Some description Text</EbayFieldDescription>
+            </EbayField>
+            <EbayField {...args} layout="block">
+                <EbayLabel stacked>Label 2</EbayLabel>
+                <EbayTextbox placeholder="placeholder text" />
+                <EbayFieldDescription type="confirmation">Some description Text</EbayFieldDescription>
+            </EbayField>
+            <EbayField {...args} layout="block">
+                <EbayLabel stacked>Label 3</EbayLabel>
+                <EbayTextbox placeholder="placeholder text" invalid />
+                <EbayFieldDescription type="attention">Some description Text</EbayFieldDescription>
+            </EbayField>
+            <EbayField {...args} layout="block">
+                <EbayLabel stacked htmlFor="field4">
+                    Label 4
+                </EbayLabel>
+                <EbayTextbox placeholder="placeholder text" id="field4" />
+                <EbayFieldDescription type="confirmation" position="below">
+                    Some description Text
+                </EbayFieldDescription>
+            </EbayField>
+        </div>
+    ),
+
+    name: "with description",
+};
+
+export const LabelsOnTheRight = {
+    render: (args) => (
+        <>
+            <p>
+                <EbayField {...args}>
+                    <EbayTextbox placeholder="placeholder text" />
+                    <EbayLabel position="end">Label 1</EbayLabel>
+                </EbayField>
+            </p>
+            <p>
+                <EbayField {...args}>
+                    <EbaySwitch value="123" id="switch-1" />
+                    <EbayLabel position="end">Label 1</EbayLabel>
+                </EbayField>
+            </p>
+            <p>
+                <EbayField {...args}>
+                    <EbayCheckbox defaultChecked id="checkbox-2" />
+                    <EbayLabel position="end">Label 1</EbayLabel>
+                </EbayField>
+            </p>
+        </>
+    ),
+
+    name: "Labels on the right",
+};

@@ -1,0 +1,10 @@
+@use "../variables/variables";
+@use "../mixins/private/token-mixins";
+
+svg.image-placeholder {
+    @include token-mixins.color-token(color-foreground-primary);
+
+    fill: currentColor;
+    height: inherit;
+    width: inherit;
+}

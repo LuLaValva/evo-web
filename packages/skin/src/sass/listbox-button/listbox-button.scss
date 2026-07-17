@@ -1,0 +1,239 @@
+@use "../variables/variables";
+@use "../mixins/private/dropdown-mixins";
+@use "../mixins/private/listbox-mixins";
+@use "../mixins/private/token-mixins";
+@use "../mixins/private/state-layer";
+@use "../mixins/public/utility-mixins";
+
+.listbox-button {
+    line-height: normal;
+    position: relative;
+    vertical-align: bottom;
+}
+
+span.listbox-button {
+    display: inline-block;
+}
+
+.listbox-button .btn {
+    /* these values are used elsewhere in listbox */
+    /* in a non-standard manner and don't have variables */
+    /* this shares the same value with the horizontal */
+    /* padding in .selection-list-item-base() to align left */
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+span.listbox-button--fluid,
+span.listbox-button--fluid .expand-btn,
+span.listbox-button--fluid .btn,
+span.listbox-button--fluid div.listbox-button__listbox {
+    width: 100%;
+}
+
+div.listbox-button__listbox {
+    @include dropdown-mixins.base(listbox-button-listbox);
+}
+
+button.expand-btn[aria-expanded="true"] ~ div.listbox-button__listbox,
+.listbox-button button.btn[aria-expanded="true"] ~ div.listbox-button__listbox {
+    display: block;
+}
+
+.listbox-button button[aria-invalid="true"] {
+    @include token-mixins.border-color-token(
+        listbox-button-invalid-border-color,
+        color-border-attention
+    );
+}
+
+.listbox-button:not(.listbox-button--error)
+    button:not(
+        [disabled],
+        [aria-disabled="true"],
+        [aria-invalid="true"]
+    ).btn--form {
+    @include token-mixins.border-color-token(
+        listbox-button-border-color,
+        color-border-medium
+    );
+
+    &:hover,
+    &:focus,
+    &:active {
+        border-color: inherit;
+    }
+}
+
+.listbox-button button.expand-btn--borderless,
+.listbox-button button.btn--borderless {
+    background-color: transparent;
+    border-color: transparent;
+    padding-left: 0;
+    vertical-align: initial;
+
+    &:focus {
+        outline: none;
+        text-decoration: underline;
+    }
+
+    &[aria-expanded="true"] ~ .listbox-button__listbox {
+        top: 41px; /* button height plus one px, to meet design guidelines */
+    }
+}
+
+.listbox-button.listbox-button--form button {
+    @include token-mixins.background-color-token(
+        listbox-button-background-color,
+        color-background-secondary
+    );
+    @include token-mixins.border-color-token(
+        listbox-button-border-color,
+        color-border-medium
+    );
+    @include token-mixins.color-token(
+        listbox-button-foreground-color,
+        color-foreground-primary
+    );
+}
+
+.listbox-button.listbox-button--form button[disabled],
+.listbox-button.listbox-button--form button[aria-disabled="true"] {
+    @include token-mixins.border-color-token(
+        listbox-button-disabled-border-color,
+        color-background-disabled
+    );
+    @include token-mixins.color-token(
+        listbox-button-disabled-foreground-color,
+        color-foreground-disabled
+    );
+}
+
+.listbox-button.listbox-button--form button:focus {
+    @include token-mixins.background-color-token(
+        combobox-textbox-focus-background-color,
+        color-background-primary
+    );
+}
+
+.listbox-button.listbox-button--form button[aria-invalid="true"] {
+    @include token-mixins.border-color-token(
+        listbox-button-invalid-border-color,
+        color-border-attention
+    );
+}
+
+.listbox-button.listbox-button--error button:not(.btn--borderless) {
+    @include token-mixins.background-color-token(
+        listbox-button-background-color,
+        color-background-secondary
+    );
+    @include token-mixins.border-color-token(
+        listbox-button-border-color,
+        color-border-attention
+    );
+}
+
+.listbox-button .btn__label {
+    @include token-mixins.color-token(
+        listbox-button-label-color,
+        color-foreground-secondary
+    );
+
+    margin-right: 3px;
+}
+
+.listbox-button--expanded .btn__label {
+    @include token-mixins.color-token(
+        listbox-button-label-color,
+        color-foreground-primary
+    );
+}
+
+.listbox-button.listbox-button--error button .btn__label,
+.listbox-button.listbox-button--error button .btn__floating-label {
+    @include token-mixins.color-token(
+        listbox-button-label-color,
+        color-foreground-attention
+    );
+}
+
+.listbox-button .btn__text {
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.listbox-button__options {
+    @include token-mixins.border-radius-token(
+        listbox-button-border-radius,
+        border-radius-50
+    );
+}
+
+.listbox-button__options[role="listbox"]:focus
+    .listbox-button__option--active[role="option"] {
+    @include state-layer.base;
+    @include state-layer.selector-hover;
+}
+
+.listbox-button__option svg.icon {
+    @include listbox-mixins.status;
+
+    margin-inline-start: var(--spacing-100);
+}
+
+div.listbox-button__option[role="option"][aria-selected="true"] svg.icon {
+    opacity: 1;
+}
+
+.listbox-button__description {
+    @include token-mixins.color-token(
+        listbox-button-subtitle-color,
+        color-foreground-secondary
+    );
+
+    font-size: var(--font-size-small);
+    font-weight: normal;
+    grid-column: 1 2;
+    grid-row: 2;
+}
+
+div.listbox-button__option[role="option"] {
+    cursor: default; /* needed to override text cursor */
+
+    @include listbox-mixins.base;
+    @include dropdown-mixins.item-border-radius(listbox-button-listbox);
+
+    &:disabled .listbox-button__description,
+    &[aria-disabled="true"] .listbox-button__description {
+        @include listbox-mixins.disabled;
+    }
+}
+
+div.listbox-button__option--active[role="option"] {
+    font-weight: bold;
+}
+
+span.listbox-button__value {
+    flex: 1 0 auto;
+    white-space: nowrap;
+}
+
+/* https://developer.paciellogroup.com/blog/2018/03/focus-visible-and-backwards-compatibility/ */
+.listbox-button__options:focus:not(:focus-visible) {
+    outline: none;
+}
+
+/* stylelint-disable no-descending-specificity */
+[dir="rtl"] {
+    .listbox-button .btn__label {
+        margin-left: 3px;
+        margin-right: 0;
+
+        @include token-mixins.color-token(
+            listbox-button-label-color,
+            color-foreground-secondary
+        );
+    }
+}
+/* stylelint-enable no-descending-specificity */

@@ -1,0 +1,31 @@
+import { urls, a11yDocs, a11yList, components, basePath, getMetadataFromUrl } from "../data";
+<const/{name, currentTab}=getMetadataFromUrl($global.url.pathname)>
+<for|key| of=a11yList>
+  <const/data=a11yDocs[key]>
+  <li>
+    <h3>
+      <a href=`${urls.accessibility}/${data.name}` class="nav-link" aria-current=(currentTab === data.name && "page")>
+        ${data.properName}
+      </a>
+    </h3>
+    <ul>
+      <for|item| of=data.list>
+        <const/isComponentPattern=(
+          item.type === "component-patterns" && components[item.name]
+        )>
+
+        <const/link=(
+          isComponentPattern
+            ? `${basePath}components/${item.name}/accessibility`
+            : `${basePath}accessibility/${item.type}/${item.name}`
+        )>
+
+        <li>
+          <a href=link class="nav-link" aria-current=(currentTab === item.name && "page")>
+            ${item.properName}
+          </a>
+        </li>
+      </for>
+    </ul>
+  </li>
+</for>

@@ -1,0 +1,76 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`skeleton > renders default skeleton 1`] = `
+"<div>
+  <div>
+    <div
+      aria-label="Loading..."
+      class="skeleton"
+      role="img"
+    >
+      <div
+        class="skeleton__avatar"
+      />
+    </div>
+    <code>
+      &lt;evo-skeleton-avatar&gt;
+    </code>
+  </div>
+  <div>
+    <div
+      aria-label="Loading..."
+      class="skeleton"
+      role="img"
+    >
+      <div
+        class="skeleton__button"
+      />
+    </div>
+    <code>
+      &lt;evo-skeleton-button&gt;
+    </code>
+  </div>
+  <div>
+    <div
+      aria-label="Loading..."
+      class="skeleton"
+      role="img"
+    >
+      <div
+        class="skeleton__image"
+      />
+    </div>
+    <code>
+      &lt;evo-skeleton-image&gt;
+    </code>
+  </div>
+  <div>
+    <div
+      aria-label="Loading..."
+      class="skeleton"
+      role="img"
+    >
+      <div
+        class="skeleton__text"
+      />
+    </div>
+    <code>
+      &lt;evo-skeleton-text&gt;
+    </code>
+  </div>
+  <div>
+    <div
+      aria-label="Loading..."
+      class="skeleton"
+      role="img"
+    >
+      <div
+        class="skeleton__textbox"
+      />
+    </div>
+    <code>
+      &lt;evo-skeleton-textbox&gt;
+    </code>
+  </div>
+</div>"
+`;

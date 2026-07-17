@@ -1,0 +1,55 @@
+import type { WithNormalizedProps } from "../../global";
+import type { Input as DetailsInput } from "../ebay-details/component-browser";
+
+export interface AccordionInput extends Omit<Marko.Input<"ul">, `on${string}`> {
+    size?: "regular" | "large";
+    "auto-collapse"?: boolean;
+    "a11y-role-description"?: Marko.HTMLAttributes["aria-label"];
+    details?: Marko.AttrTag<
+        Omit<DetailsInput, "size" | "alignment" | `on${string}`>
+    >;
+    "on-toggle"?: (event: { originalEvent: Event; open: boolean }) => void;
+    "on-click"?: (event: { originalEvent: MouseEvent }) => void;
+}
+
+interface State {
+    index: number;
+    interacted: boolean;
+}
+
+export interface Input extends WithNormalizedProps<AccordionInput> {}
+
+class Accordion extends Marko.Component<Input, State> {
+    onCreate() {
+        this.state = {
+            index: -1,
+            interacted: false,
+        };
+    }
+
+    onInput(input: Input) {
+        this.state = {
+            index: -1,
+            interacted: this.state.interacted,
+        };
+    }
+
+    handleToggle(
+        index: number,
+        event: { originalEvent: Event; open: boolean },
+    ) {
+        const { autoCollapse } = this.input;
+        this.state.interacted = true;
+        if (autoCollapse && event.open) {
+            this.state.index = index;
+        }
+
+        this.emit("toggle", {
+            originalEvent: event.originalEvent,
+            open: (event.originalEvent.target as HTMLDetailsElement).open,
+            index: index,
+        });
+    }
+}
+
+export default Accordion;

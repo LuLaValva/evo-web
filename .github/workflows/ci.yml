@@ -1,0 +1,113 @@
+name: evo-web CI
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+  push:
+    branches: ["main", "[1-9][0-9].*"]
+
+concurrency:
+  group: "${{ github.workflow }}-${{ github.event_name == 'pull_request_target' && github.head_ref || github.ref }}"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run build:ci
+      - uses: codecov/codecov-action@v5
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+      - name: Check for uncommitted changes
+        run: |
+          if output=$(git status --porcelain) && [ -z "$output" ]; then
+            echo "Working directory is clean. No uncommitted changes."
+          else
+            echo "Working directory has uncommitted changes or untracked files. Please run the build and check these files in as part of your PR:"
+            echo "$output"
+            exit 1 # Fail the CI run if there are uncommitted changes
+          fi
+  # Deployment job
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    permissions:
+      contents: write
+    environment:
+      name: github-pages
+      url: https://opensource.ebay.com/evo-web/
+    runs-on: ubuntu-latest
+    needs: [build]
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Build site
+        run: npm run deploy
+        env:
+          BASE_URL: /evo-web/
+      - name: Deploy to gh-pages branch (root)
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git fetch origin gh-pages
+          git worktree add /tmp/gh-pages-deploy gh-pages
+
+          # Wipe everything except the previews/ subdirectory and git internals
+          find /tmp/gh-pages-deploy -mindepth 1 -maxdepth 1 \
+            ! -name '.git' ! -name 'previews' \
+            -exec rm -rf {} +
+
+          # Copy the freshly-built site in (previews/ is untouched)
+          cp -r _site/public/. /tmp/gh-pages-deploy/
+          touch /tmp/gh-pages-deploy/.nojekyll
+
+          cd /tmp/gh-pages-deploy
+          git add -A
+          git commit -m "deploy: main @ ${{ github.sha }}"
+          git push "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" gh-pages
+  release:
+    needs: [build]
+    permissions:
+      id-token: write
+      contents: write
+      pull-requests: write
+    runs-on: ubuntu-latest
+    if: "${{ github.repository_owner == 'ebay' && github.event_name == 'push' }}"
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Release
+        id: changesets
+        uses: changesets/action@v1
+        with:
+          version: npm run version
+          publish: npm run release
+          commit: "ci: release"
+          title: "ci: release"
+          commitMode: "github-api"
+        env:
+          # Disable husky
+          HUSKY: 0
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,557 @@
+# @ebay/ui-core-react
+
+## 9.10.0
+
+### Minor Changes
+
+- [#739](https://github.com/eBay/evo-web/pull/739) [`3b4dc34`](https://github.com/eBay/evo-web/commit/3b4dc340aec8f16ba58194d2a9410ae8fa1a7c20) Thanks [@LuLaValva](https://github.com/LuLaValva)! - Icon updates
+
+## 9.9.0
+
+### Minor Changes
+
+- [#741](https://github.com/eBay/evo-web/pull/741) [`6ba7513`](https://github.com/eBay/evo-web/commit/6ba7513fd71d60c25d27f953bd190b7d20b1b79a) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - Add `renderTooltipOutside` to bar, area, and donut charts so tooltips can render inside modal containers when needed.
+
+## 9.8.2
+
+### Patch Changes
+
+- [#732](https://github.com/eBay/evo-web/pull/732) [`ad4aba6`](https://github.com/eBay/evo-web/commit/ad4aba61151cb333a56233a5f9fd4f1f11b62292) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - Prevent dropdown floating styles from being applied while closed.
+
+- [#738](https://github.com/eBay/evo-web/pull/738) [`37ede5f`](https://github.com/eBay/evo-web/commit/37ede5f1407d0200dd334aae5c8c7a93a27f2a30) Thanks [@saiponnada](https://github.com/saiponnada)! - fix(date-textbox): return focus to icon btn
+
+## 9.8.1
+
+### Patch Changes
+
+- [#731](https://github.com/eBay/evo-web/pull/731) [`6eaac27`](https://github.com/eBay/evo-web/commit/6eaac270b0557a5b1d71c8dfde021d8b77e24b17) Thanks [@LuLaValva](https://github.com/LuLaValva)! - Fix a11y semantics for cc selection in video
+
+## 9.8.0
+
+### Minor Changes
+
+- [#718](https://github.com/eBay/evo-web/pull/718) [`57d9fa1`](https://github.com/eBay/evo-web/commit/57d9fa102dff67c4dbd86950f60f2653a4ea2dc2) Thanks [@ArtBlue](https://github.com/ArtBlue)! - Add new icons: bank-of-america, capital-one, chase, citi, td, usaa, wells-fargo (colored, 32/24/18/12), pay-by-bank-be/de/fr/uk (colored, 24), ship-and-safety (24/16), tire (24/16), gift (20), ai-mobile (24/20/16), ai-summary (24/20/16), fast-forward (16), rewind (16), battery-waste (48), markdown (24/20/16), stop (24/20/16), skull (24/16/12), reply-chat (24/16/12), link (20/16), pin (12), pin-filled (12), home (20/16), locker (64/24/16), bids (12), promotion (12), selling (12), wire-transfer (24/16).
+
+  Update existing icons: ship-and-local (16), link (24), markdown (24/16).
+
+  Closes #717 (sub-issues #543, #599, #680).
+
+- [#720](https://github.com/eBay/evo-web/pull/720) [`8623c21`](https://github.com/eBay/evo-web/commit/8623c21960f6a25e504071a052bd85fc8715b467) Thanks [@copilot-swe-agent](https://github.com/apps/copilot-swe-agent)! - ebay-select: add support for `fluid` prop
+
+- [#714](https://github.com/eBay/evo-web/pull/714) [`ce92606`](https://github.com/eBay/evo-web/commit/ce92606c2dfb59285de8bbb9c99c832d35505ebb) Thanks [@ArtBlue](https://github.com/ArtBlue)! - Deprecate `the-ebay-vault-24`, `the-ebay-vault-16`, `psa-16`, `psa-16-colored`, `psa-vault-16`, `psa-vault-16-colored`, `live-eye-16`, `live-eye-24`, `ebay-live-16`, `ebay-live-24` icons in favor of their renamed replacements.
+
+## 9.7.1
+
+### Patch Changes
+
+- [#713](https://github.com/eBay/evo-web/pull/713) [`d4abc52`](https://github.com/eBay/evo-web/commit/d4abc5284244de7d52273f18de094a4cd63e56fc) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - Fix ebay-bar-chart stacked y-axis scaling so 3+ stacked series render against their combined totals.
+
+## 9.7.0
+
+### Minor Changes
+
+- [#683](https://github.com/eBay/evo-web/pull/683) [`ce1cd0d`](https://github.com/eBay/evo-web/commit/ce1cd0dea5864ba29c0c8513e466e62cc31ee1a4) Thanks [@LuLaValva](https://github.com/LuLaValva)! - Badge updates
+
+### Patch Changes
+
+- [#700](https://github.com/eBay/evo-web/pull/700) [`fc022cd`](https://github.com/eBay/evo-web/commit/fc022cd03e694e7fd6904cffc94d9bf0567d3d65) Thanks [@saiponnada](https://github.com/saiponnada)! - fix(pagination): ability to configure heading level
+
+## 9.6.6
+
+### Patch Changes
+
+- [#705](https://github.com/eBay/evo-web/pull/705) [`604e7b7`](https://github.com/eBay/evo-web/commit/604e7b77a47c7be4e8b698507f0bae8a26e7873b) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - Fix EbayFilterMenu checkbox selection so filtered items remain checked by item value instead of index.
+
+## 9.6.5
+
+### Patch Changes
+
+- [#696](https://github.com/eBay/evo-web/pull/696) [`8bf5557`](https://github.com/eBay/evo-web/commit/8bf5557279495ebf4100ec43f42fe1cdd8e21089) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - fix(FakeMenuButton): remove usage of aria-haspopup
+
+## 9.6.4
+
+### Patch Changes
+
+- [#692](https://github.com/eBay/evo-web/pull/692) [`9c0ecbb`](https://github.com/eBay/evo-web/commit/9c0ecbb4788875af8ff60156ddf04cb9469ecd89) Thanks [@saiponnada](https://github.com/saiponnada)! - fix(ccd): changed role figure to img
+
+## 9.6.3
+
+### Patch Changes
+
+- [#643](https://github.com/eBay/evo-web/pull/643) [`c739d5d`](https://github.com/eBay/evo-web/commit/c739d5ddfd557f7427a6dbacb909ac7dc84ed9d4) Thanks [@SinhSinhAn](https://github.com/SinhSinhAn)! - fix(ebay-star-rating-select): do not select star on focus
+
+  Tabbing to the first star auto-selected it because `handleFocus` (and
+  `handleKeyDown`) called `setChecked` unconditionally. Selection now only
+  happens on click (or the click event browsers synthesize from keyboard
+  activation of native radio inputs), matching the Marko fix from #394.
+
+## 9.6.2
+
+### Patch Changes
+
+- [#579](https://github.com/eBay/evo-web/pull/579) [`b25f125`](https://github.com/eBay/evo-web/commit/b25f12523a2dab761205d725eec36c503a24fdd7) Thanks [@dididy](https://github.com/dididy)! - prevent onSelect from firing on initial render
+
+- [#638](https://github.com/eBay/evo-web/pull/638) [`a3670e4`](https://github.com/eBay/evo-web/commit/a3670e4973b61e7bfaf39b08cd66680b9f0d81f7) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - fix(ebay-combobox): apply combobox--fluid class when fluid prop is set
+
+## 9.6.1
+
+### Patch Changes
+
+- [#580](https://github.com/eBay/evo-web/pull/580) [`ef749dc`](https://github.com/eBay/evo-web/commit/ef749dc00c798c2f4d750b7c3a066768dfea809f) Thanks [@dididy](https://github.com/dididy)! - replace aria-pressed with CSS class for menu button selected state
+
+## 9.6.0
+
+### Minor Changes
+
+- [#598](https://github.com/eBay/evo-web/pull/598) [`f9cfbf4`](https://github.com/eBay/evo-web/commit/f9cfbf47f36ebd68527d24eb5120e6449291b980) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat(charts): add EbayAreaChart, EbayLineChart, EbayDonutChart, and EbayChartLegend React components
+
+- [#606](https://github.com/eBay/evo-web/pull/606) [`86c99fa`](https://github.com/eBay/evo-web/commit/86c99fa198805086c9c8377a000b0842597a51dd) Thanks [@copilot-swe-agent](https://github.com/apps/copilot-swe-agent)! - feat(item-tile): add a11yExternalLinkText prop to EbayFilePreviewCard and EbayItemTile
+
+  When `a11yExternalLinkText` (`a11y-external-link-text` in Marko) is provided, the anchor tag renders with `target="_blank"` and `rel="noopener noreferrer"`, and a visually-hidden `<span class="clipped">` containing the text is appended inside the anchor for screen reader accessibility.
+
+  Also fixes TypeScript typing on `EbayItemTileDescription` so the `as` prop accepts any element type (was limited to `<p>` element props).
+
+## 9.5.0
+
+### Minor Changes
+
+- [#588](https://github.com/eBay/evo-web/pull/588) [`0605956`](https://github.com/eBay/evo-web/commit/06059563b9dcf3a29cf7a8483f529638269bcd3f) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat(EbayBarChart): Add new React EbayBarChart component
+  fix(ebay-bar-chart): use correct data structure to render the bar charts
+
+- [#604](https://github.com/eBay/evo-web/pull/604) [`327d5bb`](https://github.com/eBay/evo-web/commit/327d5bbb75a550c3c1785152113dfe4fd7532523) Thanks [@copilot-swe-agent](https://github.com/apps/copilot-swe-agent)! - feat(EbayInfotip, EbayTooltip, EbayTourtip): add `open` prop for controlled visibility from parent component
+
+### Patch Changes
+
+- [#570](https://github.com/eBay/evo-web/pull/570) [`5d5eaf8`](https://github.com/eBay/evo-web/commit/5d5eaf8841903b600dff2db2eb9d805f472822cc) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - **@ebay/ui-core-react:** Align video component with Marko implementation and shaka-player v5 - refactor to declarative approach with createPortal, implement missing controls, fix icon re-rendering and autoplay behavior.
+
+  **@ebay/ebayui-core:** Add accessible button wrapper for play button.
+
+  **@ebay/skin:** Add button reset styles for shaka-play-button.
+
+## 9.4.0
+
+### Minor Changes
+
+- [#535](https://github.com/eBay/evo-web/pull/535) [`9e8e718`](https://github.com/eBay/evo-web/commit/9e8e7185f6f4dca396cdc1c1223c2178371e06b6) Thanks [@agliga](https://github.com/agliga)! - feat(accordion): added support for leading icon
+
+- [#566](https://github.com/eBay/evo-web/pull/566) [`391673f`](https://github.com/eBay/evo-web/commit/391673f166c16e801094f9eb4cb207d36fdf4cfc) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat(EbayTooltip): use floating-ui for infotip,tooltip,tourtip
+
+## 9.3.1
+
+### Patch Changes
+
+- [#545](https://github.com/eBay/evo-web/pull/545) [`12d07a2`](https://github.com/eBay/evo-web/commit/12d07a22da57df49cfa48e6ca9ba95a314c72544) Thanks [@LuLaValva](https://github.com/LuLaValva)! - Prevent auto-fullscreen on video component
+
+## 9.3.0
+
+### Minor Changes
+
+- [#522](https://github.com/eBay/evo-web/pull/522) [`c7e00f9`](https://github.com/eBay/evo-web/commit/c7e00f9503ff721ae5b80e258cc5670af7b7d5dd) Thanks [@agliga](https://github.com/agliga)! - feat(video): updated shaka player to the latest and fixed several bugs
+
+## 9.2.3
+
+### Patch Changes
+
+- [#524](https://github.com/eBay/evo-web/pull/524) [`9117681`](https://github.com/eBay/evo-web/commit/91176816e5b09c47807b81cf40725a2d4bcfb8b0) Thanks [@saiponnada](https://github.com/saiponnada)! - fix(eek): add a11y docs, remove redundant aria-hidden
+
+## 9.2.2
+
+### Patch Changes
+
+- [#492](https://github.com/eBay/evo-web/pull/492) [`77d5f15`](https://github.com/eBay/evo-web/commit/77d5f156d76075890c9e22936ab28e44654bb4d7) Thanks [@agliga](https://github.com/agliga)! - fix(accordion): added a delay in animation to trigger only when component is interacted
+
+## 9.2.1
+
+### Patch Changes
+
+- [#489](https://github.com/eBay/evo-web/pull/489) [`aeb17b5`](https://github.com/eBay/evo-web/commit/aeb17b588dc06ea7bbd6332b3e1034f82c44e9c9) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - fix(EbayDateTextbox): add support for locales textbox
+
+## 9.2.0
+
+### Minor Changes
+
+- [#461](https://github.com/eBay/evo-web/pull/461) [`f18a9bb`](https://github.com/eBay/evo-web/commit/f18a9bb8a7f4f4f06b78b602c90c430bfbc7a6da) Thanks [@ArtBlue](https://github.com/ArtBlue)! - Updated icons
+
+## 9.1.0
+
+### Minor Changes
+
+- [#434](https://github.com/eBay/evo-web/pull/434) [`db7d0af`](https://github.com/eBay/evo-web/commit/db7d0afbeb36dae32c4ea310eb816b46fb6c3f56) Thanks [@agliga](https://github.com/agliga)! - feat(file-preview-card): added a11yMenuButtonText
+
+## 9.0.0
+
+### Major Changes
+
+- [#406](https://github.com/eBay/evo-web/pull/406) [`c81e6ba`](https://github.com/eBay/evo-web/commit/c81e6bae9c776662817bd0ac6f9284ab20e44777) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat: removed React 16/17/18 support
+
+### Minor Changes
+
+- [#422](https://github.com/eBay/evo-web/pull/422) [`a4ecde1`](https://github.com/eBay/evo-web/commit/a4ecde100980e065b795b6acbd39b99177933a52) Thanks [@agliga](https://github.com/agliga)! - feat(tabs): added large variant and cleaned up tab spacing
+
+- [`cae0ba5`](https://github.com/eBay/evo-web/commit/cae0ba51a5c63a0fc76894d4b92b8fd89d412110) Thanks [@agliga](https://github.com/agliga)! - feat(icons): added new icons (#380)
+
+### Patch Changes
+
+- [#413](https://github.com/eBay/evo-web/pull/413) [`df550f5`](https://github.com/eBay/evo-web/commit/df550f5f7d009511f37c4764d1981ca2959d77fa) Thanks [@copilot-swe-agent](https://github.com/apps/copilot-swe-agent)! - fix(avatar): add alt="" to img for accessibility
+
+  Fixed accessibility issue where avatar images were announced twice by assistive technologies. The img element inside role="img" containers now has alt="" to prevent double announcement.
+
+- [#421](https://github.com/eBay/evo-web/pull/421) [`bd7df41`](https://github.com/eBay/evo-web/commit/bd7df41c69dbb15edab329abdb907cfa838fb30c) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - fix(pagination): add visibility detection for pagination inside hidden containers
+
+  Fixed issue where EbayPagination would miscalculate visible pages when rendered inside EbayTab or other hidden containers. The component now uses IntersectionObserver to detect when it becomes visible and automatically recalculates the page layout. Also fixed a memory leak in the resize event listener cleanup.
+
+## 8.18.0
+
+### Minor Changes
+
+- [#399](https://github.com/eBay/evo-web/pull/399) [`d7833c9`](https://github.com/eBay/evo-web/commit/d7833c91dcef7df97148695722c11609af8cdf4a) Thanks [@agliga](https://github.com/agliga)! - feat(tabs): added disabled tabs
+
+### Patch Changes
+
+- [#401](https://github.com/eBay/evo-web/pull/401) [`e58d172`](https://github.com/eBay/evo-web/commit/e58d172d41f4667cd7aab719dfa0ed60e5d83c6a) Thanks [@bpushpkar](https://github.com/bpushpkar)! - Add aria-label to ebayNumberInput
+
+## 8.17.3
+
+### Patch Changes
+
+- [#381](https://github.com/eBay/evo-web/pull/381) [`c8c50cb`](https://github.com/eBay/evo-web/commit/c8c50cba6880d11498f05643838849a74ecabcd4) Thanks [@sparshsamir1993](https://github.com/sparshsamir1993)! - fix(listbox, listbox-button): explicit announce selected state
+
+- [#388](https://github.com/eBay/evo-web/pull/388) [`e065688`](https://github.com/eBay/evo-web/commit/e065688aecee00f968cc0a95a1080d3b964ffbf7) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - fix(PhoneInput): change to use react events for masking and add defaultValue
+
+## 8.17.2
+
+### Patch Changes
+
+- [#379](https://github.com/eBay/evo-web/pull/379) [`61d5e58`](https://github.com/eBay/evo-web/commit/61d5e5816bd660a5a852cacd54e29ab09aa48ebd) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - fix(PhoneInput): add missing countries and fix selection logic
+
+## 8.17.1
+
+### Patch Changes
+
+- [#368](https://github.com/eBay/evo-web/pull/368) [`579eda5`](https://github.com/eBay/evo-web/commit/579eda5dfcf2289df3da600b572b0bd0b24f57a0) Thanks [@agliga](https://github.com/agliga)! - fix: added prevention to scroll up and down on page for menu
+
+## 8.17.0
+
+### Minor Changes
+
+- [`8d9cf6c`](https://github.com/eBay/evo-web/commit/8d9cf6c2928a84145c9b20c6eb93972e190660db) Thanks [@agliga](https://github.com/agliga)! - feat(icons): added new icons
+
+### Patch Changes
+
+- [#366](https://github.com/eBay/evo-web/pull/366) [`dfa3dfc`](https://github.com/eBay/evo-web/commit/dfa3dfc953ce43facf13e2ddd82812d288f6fceb) Thanks [@agliga](https://github.com/agliga)! - fix: toggled between true and false for aria-modal
+
+## 8.16.0
+
+### Minor Changes
+
+- [#340](https://github.com/eBay/evo-web/pull/340) [`3817188`](https://github.com/eBay/evo-web/commit/381718889339b90118f4e4f509032dbe2b9363a0) Thanks [@copilot-swe-agent](https://github.com/apps/copilot-swe-agent)! - feat(EbayFilterInput): add new react component
+
+### Patch Changes
+
+- [#338](https://github.com/eBay/evo-web/pull/338) [`a709e97`](https://github.com/eBay/evo-web/commit/a709e974375aae17b25ff50698c2efbaa2106868) Thanks [@LuLaValva](https://github.com/LuLaValva)! - Use new DS tokens
+
+- [#326](https://github.com/eBay/evo-web/pull/326) [`d6c46ea`](https://github.com/eBay/evo-web/commit/d6c46eaf3143b4a4e94284f1b8bb2f989f66977e) Thanks [@bruno2kd](https://github.com/bruno2kd)! - fix: ebay menu disabled button fix
+
+## 8.15.0
+
+### Minor Changes
+
+- [#320](https://github.com/eBay/evo-web/pull/320) [`5b26a07`](https://github.com/eBay/evo-web/commit/5b26a07eaee3b58a7426a1bfd122f513c4ebab86) Thanks [@copilot-swe-agent](https://github.com/apps/copilot-swe-agent)! - feat(ebay-select): Add support for disabled attribute on EbaySelectOption
+
+  EbaySelectOption now supports the `disabled` attribute to allow conditionally disabling individual select options.
+
+### Patch Changes
+
+- [#321](https://github.com/eBay/evo-web/pull/321) [`0e3cb3b`](https://github.com/eBay/evo-web/commit/0e3cb3bb390e68956b255c6e929220718929cec4) Thanks [@copilot-swe-agent](https://github.com/apps/copilot-swe-agent)! - Fix ebay-listbox: Prevent page scroll when using arrow keys in expanded listbox
+
+## 8.14.0
+
+### Minor Changes
+
+- [#310](https://github.com/eBay/evo-web/pull/310) [`c48fc5b`](https://github.com/eBay/evo-web/commit/c48fc5bbb810806f8252878137db31f6b3c0c095) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat(EbayIconButton): add support for 'priority' property
+
+- [#302](https://github.com/eBay/evo-web/pull/302) [`c1c7dc8`](https://github.com/eBay/evo-web/commit/c1c7dc890551b3b4d164b6c0c96fb641cd0a224d) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat(EbayIcon): use automatic symbol detection for icons
+
+- [#314](https://github.com/eBay/evo-web/pull/314) [`65f4d0b`](https://github.com/eBay/evo-web/commit/65f4d0b68d21a9c48d615a5901793f27a6515d89) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat(EbayAlertDialog|EbayConfirmDialog): Add support for "confirm" and "reject" button for extra props
+
+- [#313](https://github.com/eBay/evo-web/pull/313) [`3b217e6`](https://github.com/eBay/evo-web/commit/3b217e64214ab2346d40279448cf9bccfdd0553e) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat(MenuButton): add support for 'fixed' layout strategy
+  feat(ListboxButton): add support for 'fixed' layout strategy
+  feat(Menu): add support for 'fixed' layout strategy
+
+- [#315](https://github.com/eBay/evo-web/pull/315) [`f64a6a3`](https://github.com/eBay/evo-web/commit/f64a6a36b16e321d80619f6cc157f5fdcba1c864) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat(EbayFilterChip): add new filter-chip component
+
+### Patch Changes
+
+- [#304](https://github.com/eBay/evo-web/pull/304) [`9cbf8ff`](https://github.com/eBay/evo-web/commit/9cbf8ffe4d14f3b00fb1f5269ebdadc8fdaac2d7) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - chore(EbayAvatar): remove usage of React.Children and cloneElement
+
+## 8.13.2
+
+### Patch Changes
+
+- [`1d5ffb3`](https://github.com/eBay/evo-web/commit/1d5ffb326e2c6baf7aa04bd0aa3275a9c55ba8d2) Thanks [@agliga](https://github.com/agliga)! - fix(icon): removed fill from clock-12
+
+## 8.13.1
+
+### Patch Changes
+
+- [#282](https://github.com/eBay/evo-web/pull/282) [`ae32ad0`](https://github.com/eBay/evo-web/commit/ae32ad096a1fa62b6c07d2b401a7135fdd124222) Thanks [@googletorp](https://github.com/googletorp)! - fix(EbayListboxButton): handle undefined "split" attribute
+
+## 8.13.0
+
+### Minor Changes
+
+- [`646fed0`](https://github.com/eBay/evo-web/commit/646fed0d74beb86822c5825888152a316d7f3eba) Thanks [@agliga](https://github.com/agliga)! - feat(icons): added new icons #277
+
+## 8.12.0
+
+### Minor Changes
+
+- [#258](https://github.com/eBay/evo-web/pull/258) [`a102a15`](https://github.com/eBay/evo-web/commit/a102a155c0b07cd0b5cdf4218f22a104ffca1209) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat(EbayPhoneInput) add new phone input react component
+
+- [`6775e83`](https://github.com/eBay/evo-web/commit/6775e83876884db6b38424b3a3197679dfff9a81) Thanks [@agliga](https://github.com/agliga)! - feat(icons): added new icons (#229)
+
+## 8.11.2
+
+### Patch Changes
+
+- [`469f3c7`](https://github.com/eBay/evo-web/commit/469f3c7b176891b0badea996c520556f9183eb82) Thanks [@agliga](https://github.com/agliga)! - fix(dialog): updated makeup-screen-reader
+
+## 8.11.1
+
+### Patch Changes
+
+- [#246](https://github.com/eBay/evo-web/pull/246) [`5eabd92`](https://github.com/eBay/evo-web/commit/5eabd925b8e04a4ddd13716f000c7001633e121a) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - fix(EbayLightboxDialog): update keyboard trap on re-rendering of dialogs
+
+- [#243](https://github.com/eBay/evo-web/pull/243) [`d80288b`](https://github.com/eBay/evo-web/commit/d80288b1ace0350d90acab9e9def9c7cc08e0fdf) Thanks [@oxala](https://github.com/oxala)! - fix(EbayPageNotice): fixed className passing to page-notice component
+
+- [#247](https://github.com/eBay/evo-web/pull/247) [`a213c90`](https://github.com/eBay/evo-web/commit/a213c90e44843b7d637b5587e3085ff48bef9d8e) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - fix(EbayMenuButton): update checked items when children checked changes
+
+## 8.11.0
+
+### Minor Changes
+
+- [#230](https://github.com/eBay/evo-web/pull/230) [`552e51c`](https://github.com/eBay/evo-web/commit/552e51c2c0aac79906c2a8801612d225d7d8542f) Thanks [@bruno2kd](https://github.com/bruno2kd)! - feat: ebay-date-textbox add support for children ebay-textbox
+
+### Patch Changes
+
+- [#237](https://github.com/eBay/evo-web/pull/237) [`cd1218a`](https://github.com/eBay/evo-web/commit/cd1218ae4c5e0a01793edaffac8953b6e3819766) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - fix(EbayCarousel): set control button as aria-disable only
+
+- [#232](https://github.com/eBay/evo-web/pull/232) [`4421d07`](https://github.com/eBay/evo-web/commit/4421d076a6080618c3cc701d21d8ccb7e38555f5) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - fix(combobox): initialize makeup-expander only when there are visible options
+
+- [#237](https://github.com/eBay/evo-web/pull/237) [`cd1218a`](https://github.com/eBay/evo-web/commit/cd1218ae4c5e0a01793edaffac8953b6e3819766) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - fix(EbayCarousel): focus visible elements only
+
+- [#238](https://github.com/eBay/evo-web/pull/238) [`db2fb82`](https://github.com/eBay/evo-web/commit/db2fb8261d5d964f9a6638c180eec38e446f480a) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - fix(EbayTooltip): close tooltip on Esc keydown
+
+## 8.10.0
+
+### Minor Changes
+
+- [#193](https://github.com/eBay/evo-web/pull/193) [`74a0422`](https://github.com/eBay/evo-web/commit/74a0422b1f1742e304ab468d4827bc9fd29b57d3) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat(react): add EbayFlag component for SVGs
+
+### Patch Changes
+
+- [#211](https://github.com/eBay/evo-web/pull/211) [`b1de512`](https://github.com/eBay/evo-web/commit/b1de512ff265b84a16e92bbe806486520c741c75) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - fix(react:date-textbox): derive selected dates instead of updating as states
+
+- [#215](https://github.com/eBay/evo-web/pull/215) [`f25342e`](https://github.com/eBay/evo-web/commit/f25342e3659e0e6b91ca03c43751b43be943f549) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - fix(react:filter-menu): avoid checking the item when disabled and fix event handlers
+
+## 8.9.0
+
+### Minor Changes
+
+- [#195](https://github.com/eBay/evo-web/pull/195) [`248ae07`](https://github.com/eBay/evo-web/commit/248ae0760ceb84d1c0901250f5f04d14bec77900) Thanks [@vshrivastav13](https://github.com/vshrivastav13)! - feat(react): add new EbayNumberInput component
+
+## 8.8.0
+
+### Minor Changes
+
+- [#173](https://github.com/eBay/evo-web/pull/173) [`68afb7a`](https://github.com/eBay/evo-web/commit/68afb7a0b610e456f04269fa05f76d3403aab878) Thanks [@agliga](https://github.com/agliga)! - feat(icons): added new icons (250608)
+
+- [#175](https://github.com/eBay/evo-web/pull/175) [`f98d22d`](https://github.com/eBay/evo-web/commit/f98d22d7b8f7255a502d49638e3b8e4101c18b53) Thanks [@bruno2kd](https://github.com/bruno2kd)! - feat: add EbayItemTile and EbayItemTileGroup
+
+### Patch Changes
+
+- [#176](https://github.com/eBay/evo-web/pull/176) [`f60e1d9`](https://github.com/eBay/evo-web/commit/f60e1d90796cdc61e3d79f124edd57de704f69e6) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - fix(react:dialog): keep track of clicked element to avoid close on drag
+
+## 8.7.0
+
+### Minor Changes
+
+- [#159](https://github.com/eBay/evo-web/pull/159) [`cddb5da`](https://github.com/eBay/evo-web/commit/cddb5dacc4c3be302218ee1f64686fc7cfe5af85) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat(react): add EbayList component
+
+### Patch Changes
+
+- [#158](https://github.com/eBay/evo-web/pull/158) [`00c0449`](https://github.com/eBay/evo-web/commit/00c04496223056eae92da633f1926bd98dd951ac) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - cleanup react carousel animations on unmount
+
+## 8.6.0
+
+### Minor Changes
+
+- [#151](https://github.com/eBay/evo-web/pull/151) [`fdade5a`](https://github.com/eBay/evo-web/commit/fdade5a49e38e3cc975fb735e150388bdb58314d) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat(react:accordion): update with latest DS icons
+
+- [#140](https://github.com/eBay/evo-web/pull/140) [`5e68252`](https://github.com/eBay/evo-web/commit/5e68252f2f830100354891b2b7c04d3e73e95d21) Thanks [@bruno2kd](https://github.com/bruno2kd)! - feat: Add action to ebay-preview-card and ebay-preview-card-group
+
+### Patch Changes
+
+- [#147](https://github.com/eBay/evo-web/pull/147) [`67c5c1e`](https://github.com/eBay/evo-web/commit/67c5c1ed4a7ab54b36bf36bcc66abaa5142ff132) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - fix(react:dialog): Fix close handler call when the clicked element is removed from the DOM
+
+## 8.5.1
+
+### Patch Changes
+
+- [#133](https://github.com/eBay/evo-web/pull/133) [`f39c056`](https://github.com/eBay/evo-web/commit/f39c056e0538627b426fcb0e6df53d7e5e55bfe4) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - chore(react): remove console and add eslint rule
+
+- [#135](https://github.com/eBay/evo-web/pull/135) [`aea457b`](https://github.com/eBay/evo-web/commit/aea457bbf42c630e981afd355047fffa4b0aa1ee) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - fix(react): don't bundle React inside ui-core-react package
+
+## 8.5.0
+
+### Minor Changes
+
+- [#121](https://github.com/eBay/evo-web/pull/121) [`60358d1`](https://github.com/eBay/evo-web/commit/60358d1d856181d2f375682587dc8f7a473272ed) Thanks [@agliga](https://github.com/agliga)! - feat(dialog): added new motion spec
+
+- [#117](https://github.com/eBay/evo-web/pull/117) [`dcbf5c0`](https://github.com/eBay/evo-web/commit/dcbf5c0f272af0940faad643cbc12115dfa96acb) Thanks [@bruno2kd](https://github.com/bruno2kd)! - feat: add new EbayFilePreviewCardGroup component
+
+- [#118](https://github.com/eBay/evo-web/pull/118) [`ba27116`](https://github.com/eBay/evo-web/commit/ba27116b1f384b1c93a4a24ad9423671aaed0270) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat(react): Add new EbayCharacterCount component
+
+- [#124](https://github.com/eBay/evo-web/pull/124) [`62da8bb`](https://github.com/eBay/evo-web/commit/62da8bb24135e5f1686906405531893e776afa86) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat(react): add new EbayCCD component
+
+- [#122](https://github.com/eBay/evo-web/pull/122) [`4dc6dd7`](https://github.com/eBay/evo-web/commit/4dc6dd77b4df3ec2dbea9701fb10257a93991738) Thanks [@agliga](https://github.com/agliga)! - feat(table): added frozen-header option
+
+- [#125](https://github.com/eBay/evo-web/pull/125) [`7e370a2`](https://github.com/eBay/evo-web/commit/7e370a2c4e02cc5246a918d63c2fa34ca0c9f9f3) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat(react): add new EbayImagePlaceholder component
+
+- [#128](https://github.com/eBay/evo-web/pull/128) [`97e33ef`](https://github.com/eBay/evo-web/commit/97e33ef6c6bb79a08c0b14e9d43bdb94a82bcfff) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat(react): add new EbayFileInput component
+
+## 8.4.0
+
+### Minor Changes
+
+- [`c80173e`](https://github.com/eBay/evo-web/commit/c80173e2b5413507081d0ec3784a348496ba6b26) Thanks [@agliga](https://github.com/agliga)! - feat(icons): added new icons
+
+## 8.3.0
+
+### Minor Changes
+
+- [#480](https://github.com/eBay/ebayui-core-react/pull/480) [`c8b4725`](https://github.com/eBay/ebayui-core-react/commit/c8b4725465b4d5890ce678f5856067d58253bc13) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat(ProgressBarExpressive): new component
+
+- [#480](https://github.com/eBay/ebayui-core-react/pull/480) [`a09c01d`](https://github.com/eBay/ebayui-core-react/commit/a09c01dee0cab64da028591d2f6695e431a00715) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat: add new EbayFilePreviewCard component
+
+## 8.2.2
+
+### Patch Changes
+
+- [#471](https://github.com/eBay/ebayui-core-react/pull/471) [`e68676a`](https://github.com/eBay/ebayui-core-react/commit/e68676a9663d837cfeb8c0c4b4661ca56bc3410f) Thanks [@bruno2kd](https://github.com/bruno2kd)! - fix: onClose type on ebay lightbox dialog
+
+## 8.2.1
+
+### Patch Changes
+
+- [#468](https://github.com/eBay/ebayui-core-react/pull/468) [`fd4c0e1`](https://github.com/eBay/ebayui-core-react/commit/fd4c0e16530c41674df69b5e4d6ebe4a6cdb119e) Thanks [@bruno2kd](https://github.com/bruno2kd)! - fix: ebay-textbox fluid floating label
+
+## 8.2.0
+
+### Minor Changes
+
+- [#456](https://github.com/eBay/ebayui-core-react/pull/456) [`a27ca63`](https://github.com/eBay/ebayui-core-react/commit/a27ca63505aa902ded34228586fab2ef4859aa35) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat: Add EbayChip and EbayChipsCombobox components
+
+- [#456](https://github.com/eBay/ebayui-core-react/pull/456) [`2693bfc`](https://github.com/eBay/ebayui-core-react/commit/2693bfc59b986a560956c2bde3ae3c26fa7d845e) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat: Add new EbayFilterMenuButton component
+
+- [#456](https://github.com/eBay/ebayui-core-react/pull/456) [`b60346f`](https://github.com/eBay/ebayui-core-react/commit/b60346f878431853afee924974e581d6e732fe32) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat: Add new EbayFakeLink component
+
+- [#456](https://github.com/eBay/ebayui-core-react/pull/456) [`acdf45d`](https://github.com/eBay/ebayui-core-react/commit/acdf45d4db3185f25a58a7ed8c87eda7594089a3) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat(Filter): add new component
+
+- [#456](https://github.com/eBay/ebayui-core-react/pull/456) [`11c7457`](https://github.com/eBay/ebayui-core-react/commit/11c745758f11def720fb14f7a0ce56a6b7c5b525) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat: add new EbayFilterMenu component
+
+- [#456](https://github.com/eBay/ebayui-core-react/pull/456) [`530190c`](https://github.com/eBay/ebayui-core-react/commit/530190c0b05af4e437f5b15ddf89f0197c927801) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat: add new EbayEducationNotice component
+
+## 8.1.3
+
+### Patch Changes
+
+- [#459](https://github.com/eBay/ebayui-core-react/pull/459) [`9834896`](https://github.com/eBay/ebayui-core-react/commit/9834896484ec82d0ea1c57fe073d85d6430cce34) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - fix(Select): remove floating-label inline class on first render"
+
+## 8.1.2
+
+### Patch Changes
+
+- [#457](https://github.com/eBay/ebayui-core-react/pull/457) [`eb245e5`](https://github.com/eBay/ebayui-core-react/commit/eb245e5fb7b63d6a8784f4f407ce856cde49d6cc) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - fix: add makeup to cjsInterop plugin for better comptability
+
+## 8.1.1
+
+### Patch Changes
+
+- [#453](https://github.com/eBay/ebayui-core-react/pull/453) [`e02c13a`](https://github.com/eBay/ebayui-core-react/commit/e02c13a7cefc537d9a3754c25f759e51502f25d9) Thanks [@montoya332](https://github.com/montoya332)! - ebay-toggle-button passthrough classname prop
+
+## 8.1.0
+
+### Minor Changes
+
+- [#419](https://github.com/eBay/ebayui-core-react/pull/419) [`1907560`](https://github.com/eBay/ebayui-core-react/commit/1907560637d52eaf6f642a8c8153578c8fda070c) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat(EbayCarousel): add support for autoplay behavior
+
+- [#419](https://github.com/eBay/ebayui-core-react/pull/419) [`643359f`](https://github.com/eBay/ebayui-core-react/commit/643359fd141336b5c50223cc53de8c9a339e3026) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat(EbayAvatar): add support for aspect ratio auto placement
+
+- [#419](https://github.com/eBay/ebayui-core-react/pull/419) [`6d6d3eb`](https://github.com/eBay/ebayui-core-react/commit/6d6d3eb52bb037a8a4e29a6041dfa1f13ae73609) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat(EbayCombobox): add new combobox component
+
+- [#419](https://github.com/eBay/ebayui-core-react/pull/419) [`e6163d3`](https://github.com/eBay/ebayui-core-react/commit/e6163d3063f1a7bd36a16dd6ff94667397ce9ebb) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat(EbaySkeleton): add new skeleton component
+
+- [#419](https://github.com/eBay/ebayui-core-react/pull/419) [`a566c8b`](https://github.com/eBay/ebayui-core-react/commit/a566c8bae14b3bf104f9eba0e797c4fcaad3f3f2) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat(EbayTable): Add new ebay table component
+
+- [#419](https://github.com/eBay/ebayui-core-react/pull/419) [`b692c10`](https://github.com/eBay/ebayui-core-react/commit/b692c10972c213b4bc7ae5030ac9b38ddbb8489d) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat(EbayAvatar): add new avatar component
+
+- [#419](https://github.com/eBay/ebayui-core-react/pull/419) [`dd5653a`](https://github.com/eBay/ebayui-core-react/commit/dd5653a1615d181c18d8c2c0c16045e28629da51) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - This change introduces the tri-state-checkbox which will have 3 states: "true", "false" and "mixed".
+
+## 8.0.4
+
+### Patch Changes
+
+- [#447](https://github.com/eBay/ebayui-core-react/pull/447) [`84b78de`](https://github.com/eBay/ebayui-core-react/commit/84b78de4da25b4b288bc74ab29537a826e479810) Thanks [@montoya332](https://github.com/montoya332)! - fix: top passthrough prop on light box
+
+## 8.0.3
+
+### Patch Changes
+
+- [#443](https://github.com/eBay/ebayui-core-react/pull/443) [`fda4f90`](https://github.com/eBay/ebayui-core-react/commit/fda4f90dbffbac58e6efb5e0e8975cc0512e0343) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - fix: use target es2015 instead of esnext for better compatibility
+
+## 8.0.2
+
+### Patch Changes
+
+- [#440](https://github.com/eBay/ebayui-core-react/pull/440) [`dbc5f54`](https://github.com/eBay/ebayui-core-react/commit/dbc5f545f5afcaa1362703bcc2196983b34b668d) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - fix(EbayFakeMenuButton): use btn-cell to add margin with chevron and action content
+
+## 8.0.1
+
+### Patch Changes
+
+- [#421](https://github.com/eBay/ebayui-core-react/pull/421) [`aa31be6`](https://github.com/eBay/ebayui-core-react/commit/aa31be6e97508737ce62080d80da27c391e8312d) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - fix: use cjs interop to properly bundle makeup-js packages inside vite
+
+## 8.0.0
+
+### Major Changes
+
+- [#407](https://github.com/eBay/ebayui-core-react/pull/407) [`f632bd6`](https://github.com/eBay/ebayui-core-react/commit/f632bd667268e6c3a6a3e59252c92cc65c94eda5) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - chore: upgrade to skin 19
+
+- [#407](https://github.com/eBay/ebayui-core-react/pull/407) [`b8af7cc`](https://github.com/eBay/ebayui-core-react/commit/b8af7cc97c89a3e905a378fd0abf061c1d1d279a) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - core: Remove deprecated exports configuration
+
+- [#407](https://github.com/eBay/ebayui-core-react/pull/407) [`0db989d`](https://github.com/eBay/ebayui-core-react/commit/0db989da79b7dff33de9bc2dee89291a07a7298f) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat!: Remove deprecated APIs
+
+- [#407](https://github.com/eBay/ebayui-core-react/pull/407) [`1b47979`](https://github.com/eBay/ebayui-core-react/commit/1b47979c517ff50ed5299119f4512fbc5bcabf42) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - chore: deprecate and rename EbayDrawerDialog and EbayFullscreenDialog
+
+- [#407](https://github.com/eBay/ebayui-core-react/pull/407) [`0171f77`](https://github.com/eBay/ebayui-core-react/commit/0171f77f663975be508141e83b683d8f2877c791) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat: Add support for floating-ui on dropdowns
+
+### Minor Changes
+
+- [#407](https://github.com/eBay/ebayui-core-react/pull/407) [`16f4142`](https://github.com/eBay/ebayui-core-react/commit/16f4142b3cffeb10e080fcad4711306a75c82017) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat(EbayAccordion): Add new component
+
+- [#407](https://github.com/eBay/ebayui-core-react/pull/407) [`17eda0c`](https://github.com/eBay/ebayui-core-react/commit/17eda0cd895f9bfd2671ac03d4ad788e191f9765) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat: Add new EbayListbox component
+
+- [#407](https://github.com/eBay/ebayui-core-react/pull/407) [`6902c09`](https://github.com/eBay/ebayui-core-react/commit/6902c092cfec48b0797a4139de3ba250752c6c6d) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat: Add new EbayDetails component
+
+- [#407](https://github.com/eBay/ebayui-core-react/pull/407) [`d771057`](https://github.com/eBay/ebayui-core-react/commit/d77105792166f447647a7eaa8963bef30721b013) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat(EbayLightboxDialog): add support for banner image
+
+### Patch Changes
+
+- [#407](https://github.com/eBay/ebayui-core-react/pull/407) [`e01acec`](https://github.com/eBay/ebayui-core-react/commit/e01acec8997596dba80983bc55ec7d2e4d374072) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - fix react key errors in menu-button
+
+- [#407](https://github.com/eBay/ebayui-core-react/pull/407) [`f8ebbba`](https://github.com/eBay/ebayui-core-react/commit/f8ebbba7687e979c7be52f6cb18257cc6830a97f) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - core: fix GH action fork condition
+
+- [#407](https://github.com/eBay/ebayui-core-react/pull/407) [`d007309`](https://github.com/eBay/ebayui-core-react/commit/d007309a2a7087c38c1cd965ba66dbc09c57a132) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - fix(EbaySplitButton): remove btn\_\_cell from menu-button to fix padding
+
+- [#407](https://github.com/eBay/ebayui-core-react/pull/407) [`b22850a`](https://github.com/eBay/ebayui-core-react/commit/b22850ae8c18a305fc76b22491c94268067bc98c) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - fix(EbayCarousel): Update icon size to 16

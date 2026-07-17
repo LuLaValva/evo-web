@@ -1,0 +1,905 @@
+# Skin Changelog
+
+## 19.28.0
+
+### Minor Changes
+
+- [#739](https://github.com/eBay/evo-web/pull/739) [`3b4dc34`](https://github.com/eBay/evo-web/commit/3b4dc340aec8f16ba58194d2a9410ae8fa1a7c20) Thanks [@LuLaValva](https://github.com/LuLaValva)! - Icon updates
+
+## 19.27.1
+
+### Patch Changes
+
+- [#743](https://github.com/eBay/evo-web/pull/743) [`659df3c`](https://github.com/eBay/evo-web/commit/659df3c3e1c3f8df55abd9005660a756cf7a54a1) Thanks [@dependabot](https://github.com/apps/dependabot)! - Update DS tokens
+
+## 19.27.0
+
+### Minor Changes
+
+- [#718](https://github.com/eBay/evo-web/pull/718) [`57d9fa1`](https://github.com/eBay/evo-web/commit/57d9fa102dff67c4dbd86950f60f2653a4ea2dc2) Thanks [@ArtBlue](https://github.com/ArtBlue)! - Add new icons: bank-of-america, capital-one, chase, citi, td, usaa, wells-fargo (colored, 32/24/18/12), pay-by-bank-be/de/fr/uk (colored, 24), ship-and-safety (24/16), tire (24/16), gift (20), ai-mobile (24/20/16), ai-summary (24/20/16), fast-forward (16), rewind (16), battery-waste (48), markdown (24/20/16), stop (24/20/16), skull (24/16/12), reply-chat (24/16/12), link (20/16), pin (12), pin-filled (12), home (20/16), locker (64/24/16), bids (12), promotion (12), selling (12), wire-transfer (24/16).
+
+  Update existing icons: ship-and-local (16), link (24), markdown (24/16).
+
+  Closes #717 (sub-issues #543, #599, #680).
+
+- [#714](https://github.com/eBay/evo-web/pull/714) [`ce92606`](https://github.com/eBay/evo-web/commit/ce92606c2dfb59285de8bbb9c99c832d35505ebb) Thanks [@ArtBlue](https://github.com/ArtBlue)! - Deprecate `the-ebay-vault-24`, `the-ebay-vault-16`, `psa-16`, `psa-16-colored`, `psa-vault-16`, `psa-vault-16-colored`, `live-eye-16`, `live-eye-24`, `ebay-live-16`, `ebay-live-24` icons in favor of their renamed replacements.
+
+- [#721](https://github.com/eBay/evo-web/pull/721) [`ec567bc`](https://github.com/eBay/evo-web/commit/ec567bc8f0b2b2a95c40c90927f15eebed6cde63) Thanks [@dependabot](https://github.com/apps/dependabot)! - feat(tokens): add `--color-foreground-on-warning` token from design-tokens 2.3.0
+
+## 19.26.0
+
+### Minor Changes
+
+- [#706](https://github.com/eBay/evo-web/pull/706) [`d17e5b8`](https://github.com/eBay/evo-web/commit/d17e5b83cf67eb06c46927a9ca29902d3814027d) Thanks [@ArtBlue](https://github.com/ArtBlue)! - Add `pay-by-bank-uk-24-colored` icon; deprecate `bank-group-logo-24-colored` (use `pay-by-bank-uk-24-colored` instead).
+
+- [#683](https://github.com/eBay/evo-web/pull/683) [`ce1cd0d`](https://github.com/eBay/evo-web/commit/ce1cd0dea5864ba29c0c8513e466e62cc31ee1a4) Thanks [@LuLaValva](https://github.com/LuLaValva)! - Badge updates
+
+## 19.25.0
+
+### Minor Changes
+
+- [#686](https://github.com/eBay/evo-web/pull/686) [`0197ebe`](https://github.com/eBay/evo-web/commit/0197ebe4516d390e9d695f35be4cdd1d718d579c) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - feat(icon-button): use "has()" selector for badged use case
+
+## 19.24.7
+
+### Patch Changes
+
+- [#694](https://github.com/eBay/evo-web/pull/694) [`d5d288f`](https://github.com/eBay/evo-web/commit/d5d288f5028c03798a0217e079d96f8446004b6b) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - chore(skin): update design-tokens package
+
+## 19.24.6
+
+### Patch Changes
+
+- [#659](https://github.com/eBay/evo-web/pull/659) [`42a0085`](https://github.com/eBay/evo-web/commit/42a0085066107128a8131bfdef31968d4b2eed7d) Thanks [@ArtBlue](https://github.com/ArtBlue)! - fix(theming): fixed tokens bugs
+
+## 19.24.5
+
+### Patch Changes
+
+- [#648](https://github.com/eBay/evo-web/pull/648) [`03e20a3`](https://github.com/eBay/evo-web/commit/03e20a39a1e74c99d18abf67a6cb0d4274b680a5) Thanks [@SinhSinhAn](https://github.com/SinhSinhAn)! - fix(page-notice, section-notice): unbold action CTA links per design spec
+
+  Links and `button.fake-link` elements inside the `__cta` slot of
+  `page-notice` and `section-notice` were rendering bold because the
+  components had blanket rules that bolded every link inside the
+  component. The Playbook design spec calls for unbolded CTA action
+  text. The fix scopes `font-weight: bold` to the body slots (`__main`,
+  `__footer`) where prose-with-links lives, so `__cta` links pick up
+  the default normal weight without needing an override.
+
+## 19.24.4
+
+### Patch Changes
+
+- [#642](https://github.com/eBay/evo-web/pull/642) [`b9fd8fd`](https://github.com/eBay/evo-web/commit/b9fd8fd2becb11a9fa4b93b1d33ec3fba3c54698) Thanks [@SinhSinhAn](https://github.com/SinhSinhAn)! - fix(section-title): remove arbitrary 75% max-width on title container
+
+  The `.section-title__title-container` was capped at `max-width: 75%`, which
+  caused unnecessary text wrapping on narrow viewports and on titles without
+  a trailing CTA. The Playbook spec is to let the title flow naturally and
+  rely on margin to maintain separation from a trailing CTA / overflow / info
+  element.
+
+  The `max-width` cap is replaced with `margin-inline-end: var(--spacing-300)`,
+  matching the spacing token used by sibling elements.
+
+## 19.24.3
+
+### Patch Changes
+
+- [#631](https://github.com/eBay/evo-web/pull/631) [`79efd8b`](https://github.com/eBay/evo-web/commit/79efd8b0e647cf63b8550161929354e0dddd6968) Thanks [@LuLaValva](https://github.com/LuLaValva)! - Add `<evo-toast-dialog>`
+
+## 19.24.2
+
+### Patch Changes
+
+- [#580](https://github.com/eBay/evo-web/pull/580) [`ef749dc`](https://github.com/eBay/evo-web/commit/ef749dc00c798c2f4d750b7c3a066768dfea809f) Thanks [@dididy](https://github.com/dididy)! - replace aria-pressed with CSS class for menu button selected state
+
+## 19.24.1
+
+### Patch Changes
+
+- [#577](https://github.com/eBay/evo-web/pull/577) [`d9ccce1`](https://github.com/eBay/evo-web/commit/d9ccce1f8c2c7635209a7769e3366d7d5372c179) Thanks [@dididy](https://github.com/dididy)! - Correct border color token for confirmation status
+
+## 19.24.0
+
+### Minor Changes
+
+- [#506](https://github.com/eBay/evo-web/pull/506) [`1dcd429`](https://github.com/eBay/evo-web/commit/1dcd429cf5152f0d21f6828a5169b5f7fff45d05) Thanks [@agliga](https://github.com/agliga)! - feat(dialog): added new component to use native dialog tag
+
+### Patch Changes
+
+- [#596](https://github.com/eBay/evo-web/pull/596) [`75f3558`](https://github.com/eBay/evo-web/commit/75f3558cab526bc5de95437ec15d2a30b391d2f8) Thanks [@LuLaValva](https://github.com/LuLaValva)! - Add evo-dialog component
+
+- [#600](https://github.com/eBay/evo-web/pull/600) [`5c868e1`](https://github.com/eBay/evo-web/commit/5c868e1954d557643c867b8955ceb63a1ecd6450) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - fix(video): apply button cleanup to play-button-container only
+
+- [#570](https://github.com/eBay/evo-web/pull/570) [`5d5eaf8`](https://github.com/eBay/evo-web/commit/5d5eaf8841903b600dff2db2eb9d805f472822cc) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - **@ebay/ui-core-react:** Align video component with Marko implementation and shaka-player v5 - refactor to declarative approach with createPortal, implement missing controls, fix icon re-rendering and autoplay behavior.
+
+  **@ebay/ebayui-core:** Add accessible button wrapper for play button.
+
+  **@ebay/skin:** Add button reset styles for shaka-play-button.
+
+## 19.23.0
+
+### Minor Changes
+
+- [#535](https://github.com/eBay/evo-web/pull/535) [`9e8e718`](https://github.com/eBay/evo-web/commit/9e8e7185f6f4dca396cdc1c1223c2178371e06b6) Thanks [@agliga](https://github.com/agliga)! - feat(accordion): added support for leading icon
+
+### Patch Changes
+
+- [#569](https://github.com/eBay/evo-web/pull/569) [`a1fd480`](https://github.com/eBay/evo-web/commit/a1fd48028bce70156fe40109463aeba3bf67e388) Thanks [@ArtBlue](https://github.com/ArtBlue)! - fix(icons): fixed the misalignment of id:viewBox in some icons
+
+- [#552](https://github.com/eBay/evo-web/pull/552) [`80fc036`](https://github.com/eBay/evo-web/commit/80fc036de326a20eb4d6ae0cc6579f9224ef288c) Thanks [@caseycarroll](https://github.com/caseycarroll)! - Adjust accordion open/close animation to avoid jumpiness
+
+## 19.22.0
+
+### Minor Changes
+
+- [#522](https://github.com/eBay/evo-web/pull/522) [`c7e00f9`](https://github.com/eBay/evo-web/commit/c7e00f9503ff721ae5b80e258cc5670af7b7d5dd) Thanks [@agliga](https://github.com/agliga)! - feat(video): updated shaka player to the latest and fixed several bugs
+
+### Patch Changes
+
+- [#530](https://github.com/eBay/evo-web/pull/530) [`7c386a8`](https://github.com/eBay/evo-web/commit/7c386a8ac6ed471abb432b9385ed8c90e2cec65a) Thanks [@agliga](https://github.com/agliga)! - fix: updated to the latest tokens and fixed skeleton tokens
+
+## 19.21.3
+
+### Patch Changes
+
+- [#512](https://github.com/eBay/evo-web/pull/512) [`373ea7d`](https://github.com/eBay/evo-web/commit/373ea7d64c03103c6c9a12a176495f50bbe8742a) Thanks [@agliga](https://github.com/agliga)! - fix(tips): updated to use width: max-content and added a max width
+
+## 19.21.2
+
+### Patch Changes
+
+- [`e846f88`](https://github.com/eBay/evo-web/commit/e846f8872484bda7a255ddda4865a87fd8593d12) Thanks [@agliga](https://github.com/agliga)! - fix(tokens): updated to the latest version to fix font-weight to be a number
+
+- [#492](https://github.com/eBay/evo-web/pull/492) [`77d5f15`](https://github.com/eBay/evo-web/commit/77d5f156d76075890c9e22936ab28e44654bb4d7) Thanks [@agliga](https://github.com/agliga)! - fix(accordion): added a delay in animation to trigger only when component is interacted
+
+## 19.21.1
+
+### Patch Changes
+
+- [#491](https://github.com/eBay/evo-web/pull/491) [`5d116f6`](https://github.com/eBay/evo-web/commit/5d116f679b0f8ded626a5f855e82814a2415a85e) Thanks [@agliga](https://github.com/agliga)! - fix(icons): fixed icon sizing
+
+## 19.21.0
+
+### Minor Changes
+
+- [#461](https://github.com/eBay/evo-web/pull/461) [`f18a9bb`](https://github.com/eBay/evo-web/commit/f18a9bb8a7f4f4f06b78b602c90c430bfbc7a6da) Thanks [@ArtBlue](https://github.com/ArtBlue)! - Updated icons
+
+## 19.20.1
+
+### Patch Changes
+
+- [#447](https://github.com/eBay/evo-web/pull/447) [`e780e13`](https://github.com/eBay/evo-web/commit/e780e130fc10c337784d171e76f2debd977c996d) Thanks [@agliga](https://github.com/agliga)! - fix(tips): fixed issue with small screens not fitting correctly
+
+## 19.20.0
+
+### Minor Changes
+
+- [#422](https://github.com/eBay/evo-web/pull/422) [`a4ecde1`](https://github.com/eBay/evo-web/commit/a4ecde100980e065b795b6acbd39b99177933a52) Thanks [@agliga](https://github.com/agliga)! - feat(tabs): added large variant and cleaned up tab spacing
+
+- [`cae0ba5`](https://github.com/eBay/evo-web/commit/cae0ba51a5c63a0fc76894d4b92b8fd89d412110) Thanks [@agliga](https://github.com/agliga)! - feat(icons): added new icons (#380)
+
+### Patch Changes
+
+- [#410](https://github.com/eBay/evo-web/pull/410) [`05948f2`](https://github.com/eBay/evo-web/commit/05948f2f60e05e9576dfe6e215f77a0201ec1334) Thanks [@agliga](https://github.com/agliga)! - fix(tourtip): added stronger selector to tourtip icon-btn
+
+## 19.19.0
+
+### Minor Changes
+
+- [#399](https://github.com/eBay/evo-web/pull/399) [`d7833c9`](https://github.com/eBay/evo-web/commit/d7833c91dcef7df97148695722c11609af8cdf4a) Thanks [@agliga](https://github.com/agliga)! - feat(tabs): added disabled tabs
+
+## 19.18.1
+
+### Patch Changes
+
+- [#376](https://github.com/eBay/evo-web/pull/376) [`9dd7b4b`](https://github.com/eBay/evo-web/commit/9dd7b4bc0e715b83198d65f2c8c2e4f3a9388d4b) Thanks [@patrickufer](https://github.com/patrickufer)! - fix: remove `-webkit-overflow-scrolling: touch`
+
+## 19.18.0
+
+### Minor Changes
+
+- [`8d9cf6c`](https://github.com/eBay/evo-web/commit/8d9cf6c2928a84145c9b20c6eb93972e190660db) Thanks [@agliga](https://github.com/agliga)! - feat(icons): added new icons
+
+## 19.17.2
+
+### Patch Changes
+
+- [#360](https://github.com/eBay/evo-web/pull/360) [`4577fd5`](https://github.com/eBay/evo-web/commit/4577fd50519d32a4f47000ffbcc0a6f85b5864ea) Thanks [@vidyadrao](https://github.com/vidyadrao)! - Fix rendering of small compact videos
+
+## 19.17.1
+
+### Patch Changes
+
+- [#358](https://github.com/eBay/evo-web/pull/358) [`a3d619d`](https://github.com/eBay/evo-web/commit/a3d619d693e46352a9a3990bb160543066c5bade) Thanks [@agliga](https://github.com/agliga)! - fix(skin): reverted line height value in global.scss
+
+## 19.17.0
+
+### Minor Changes
+
+- [#336](https://github.com/eBay/evo-web/pull/336) [`8477558`](https://github.com/eBay/evo-web/commit/847755885393381ddbafe5b28c924556123789dd) Thanks [@vidyadrao](https://github.com/vidyadrao)! - enable compact layout for ebay-video
+
+## 19.16.0
+
+### Minor Changes
+
+- [#345](https://github.com/eBay/evo-web/pull/345) [`06b7492`](https://github.com/eBay/evo-web/commit/06b7492d5d974316e71eee87276d424de9f86f01) Thanks [@agliga](https://github.com/agliga)! - feat(tokens): added live theme and partial theme
+
+### Patch Changes
+
+- [#338](https://github.com/eBay/evo-web/pull/338) [`a709e97`](https://github.com/eBay/evo-web/commit/a709e974375aae17b25ff50698c2efbaa2106868) Thanks [@LuLaValva](https://github.com/LuLaValva)! - Use new DS tokens
+
+- [#343](https://github.com/eBay/evo-web/pull/343) [`0cd94cf`](https://github.com/eBay/evo-web/commit/0cd94cf609adb6ac12b5c1319f70da13719ed0a3) Thanks [@dukchen](https://github.com/dukchen)! - Fixed floating label width calculation to account for 0.75 scale transformation and added width transition animation to prevent labels from
+
+## 19.15.0
+
+### Minor Changes
+
+- [#325](https://github.com/eBay/evo-web/pull/325) [`7bf11ad`](https://github.com/eBay/evo-web/commit/7bf11ad21e6277493ea5c10a0b502143f5c1d070) Thanks [@ArtBlue](https://github.com/ArtBlue)! - chore(tokens): moved non-color tokens into core
+
+## 19.14.3
+
+### Patch Changes
+
+- [#318](https://github.com/eBay/evo-web/pull/318) [`94acd28`](https://github.com/eBay/evo-web/commit/94acd28291cbf689ae858d691eb492571e0080e4) Thanks [@ArtBlue](https://github.com/ArtBlue)! - fix(section-notice): fixed link text wrapping
+
+## 19.14.2
+
+### Patch Changes
+
+- [`1d5ffb3`](https://github.com/eBay/evo-web/commit/1d5ffb326e2c6baf7aa04bd0aa3275a9c55ba8d2) Thanks [@agliga](https://github.com/agliga)! - fix(icon): removed fill from clock-12
+
+## 19.14.1
+
+### Patch Changes
+
+- [`bff44ee`](https://github.com/eBay/evo-web/commit/bff44ee26da68bb82985443023c07052b0249c48) Thanks [@agliga](https://github.com/agliga)! - fix(button): added hover overrides for fake button
+
+## 19.14.0
+
+### Minor Changes
+
+- [`646fed0`](https://github.com/eBay/evo-web/commit/646fed0d74beb86822c5825888152a316d7f3eba) Thanks [@agliga](https://github.com/agliga)! - feat(icons): added new icons #277
+
+### Patch Changes
+
+- [`358dd62`](https://github.com/eBay/evo-web/commit/358dd62b2d7127849030a5ed69d2c6b9fe4e3f13) Thanks [@agliga](https://github.com/agliga)! - fix(icon-button): added display inline-flex to center icon
+
+- [#257](https://github.com/eBay/evo-web/pull/257) [`f868b68`](https://github.com/eBay/evo-web/commit/f868b68afb2cb2e72724020dc1a1024ddf35b211) Thanks [@darkwebdev](https://github.com/darkwebdev)! - feat(section-notice): update cta without footer to latest specs
+
+## 19.13.0
+
+### Minor Changes
+
+- [#262](https://github.com/eBay/evo-web/pull/262) [`32db941`](https://github.com/eBay/evo-web/commit/32db9417a61fa03f91039d6329a214b8321684f8) Thanks [@agliga](https://github.com/agliga)! - feat(chips): added state layer to chips
+
+### Patch Changes
+
+- [`01b7fba`](https://github.com/eBay/evo-web/commit/01b7fbab8cc61a57eb9b3a45d70e8c6bcfb32bc3) Thanks [@agliga](https://github.com/agliga)! - fix(dialog): removed overflow-y from window
+
+- [#263](https://github.com/eBay/evo-web/pull/263) [`4562b2f`](https://github.com/eBay/evo-web/commit/4562b2f6f70aff5986013b8574ee32b1e0e7481f) Thanks [@agliga](https://github.com/agliga)! - fix(toast): swapped margin to padding and added a stronger selector for toast close button
+
+## 19.12.1
+
+### Patch Changes
+
+- [#259](https://github.com/eBay/evo-web/pull/259) [`9b9ecd2`](https://github.com/eBay/evo-web/commit/9b9ecd20669bdd8264b5903a5ad5d590de524a78) Thanks [@LuLaValva](https://github.com/LuLaValva)! - fix(skeleton): align AI gradients
+
+## 19.12.0
+
+### Minor Changes
+
+- [#255](https://github.com/eBay/evo-web/pull/255) [`2d22fc8`](https://github.com/eBay/evo-web/commit/2d22fc895f22a1557367c9d2b8e679f5af7acb76) Thanks [@agliga](https://github.com/agliga)! - feat(button): updated to use proper state layer
+
+## 19.11.0
+
+### Minor Changes
+
+- [#226](https://github.com/eBay/evo-web/pull/226) [`05d3c40`](https://github.com/eBay/evo-web/commit/05d3c4023776de1e2ac1f4c46b8e19dec2e3ddf6) Thanks [@agliga](https://github.com/agliga)! - feat(menu-button): added filter chip
+
+## 19.10.0
+
+### Minor Changes
+
+- [#227](https://github.com/eBay/evo-web/pull/227) [`3fb43df`](https://github.com/eBay/evo-web/commit/3fb43df35aa420361fda5fdd067b538b7f8ff15b) Thanks [@ArtBlue](https://github.com/ArtBlue)! - feat(card): created new component
+
+## 19.9.0
+
+### Minor Changes
+
+- [#168](https://github.com/eBay/evo-web/pull/168) [`4198962`](https://github.com/eBay/evo-web/commit/41989628f24228e56d5f204f4e3b84395b84481d) Thanks [@agliga](https://github.com/agliga)! - feat(chip): added new selection and filter chips
+
+### Patch Changes
+
+- [#216](https://github.com/eBay/evo-web/pull/216) [`7cb09c0`](https://github.com/eBay/evo-web/commit/7cb09c0c78acbfb73823bf141f75c73428fb8193) Thanks [@ArtBlue](https://github.com/ArtBlue)! - Icons fix patch
+
+- [#208](https://github.com/eBay/evo-web/pull/208) [`34dae17`](https://github.com/eBay/evo-web/commit/34dae17473de65095bd16e9adb7079c376249700) Thanks [@saiponnada](https://github.com/saiponnada)! - fix(lightbox-dialog): wide variant has incorrect max-width
+
+## 19.8.1
+
+### Patch Changes
+
+- [#202](https://github.com/eBay/evo-web/pull/202) [`4e045b5`](https://github.com/eBay/evo-web/commit/4e045b5038065bc68a65da8efe3bb551b5610a96) Thanks [@agliga](https://github.com/agliga)! - fix(marketsans): removed all duplicate src values
+
+- [#203](https://github.com/eBay/evo-web/pull/203) [`fb70502`](https://github.com/eBay/evo-web/commit/fb705021ed09ad88c84e533de2e1fe107a973c07) Thanks [@patricknelson](https://github.com/patricknelson)! - fix(progress-bar-expressive): update colors to use logo colors for both light and dark mode
+
+- [#204](https://github.com/eBay/evo-web/pull/204) [`c29b842`](https://github.com/eBay/evo-web/commit/c29b842cc3f98f7d081e0c910c8bc77b03b25540) Thanks [@patricknelson](https://github.com/patricknelson)! - fix(tokens): reconciling brand colors with latest from playbook
+
+## 19.8.0
+
+### Minor Changes
+
+- [#186](https://github.com/eBay/evo-web/pull/186) [`54fb25b`](https://github.com/eBay/evo-web/commit/54fb25b8a443c6743b5cc09a9d5664670cce69c9) Thanks [@saiponnada](https://github.com/saiponnada)! - feat(panel-dialog): added prev button
+
+## 19.7.0
+
+### Minor Changes
+
+- [#173](https://github.com/eBay/evo-web/pull/173) [`68afb7a`](https://github.com/eBay/evo-web/commit/68afb7a0b610e456f04269fa05f76d3403aab878) Thanks [@agliga](https://github.com/agliga)! - feat(icons): added new icons (250608)
+
+- [#172](https://github.com/eBay/evo-web/pull/172) [`8997ab9`](https://github.com/eBay/evo-web/commit/8997ab9291edf6c642bce9248efceb6e5e529c6d) Thanks [@agliga](https://github.com/agliga)! - feat(number-input): added animation
+
+- [#164](https://github.com/eBay/evo-web/pull/164) [`d8e4aaf`](https://github.com/eBay/evo-web/commit/d8e4aafbde2cc4bc2eb9551d49d2ac8c5ad192b3) Thanks [@saiponnada](https://github.com/saiponnada)! - feat(accordion): updated animations
+
+### Patch Changes
+
+- [`c59f5bc`](https://github.com/eBay/evo-web/commit/c59f5bcb47fe1b80e6f946ffa675f00cf9a714e0) Thanks [@agliga](https://github.com/agliga)! - fix(button): added font-family: inherit
+
+- [#166](https://github.com/eBay/evo-web/pull/166) [`5c21dc5`](https://github.com/eBay/evo-web/commit/5c21dc57431c08444b0e3191df538f7e0d6585ef) Thanks [@ArtBlue](https://github.com/ArtBlue)! - Fixed item tile section height distributions
+
+## 19.6.0
+
+### Minor Changes
+
+- [#156](https://github.com/eBay/evo-web/pull/156) [`6bdf5b9`](https://github.com/eBay/evo-web/commit/6bdf5b9d7190a37e81e02b3179905858b33c2704) Thanks [@agliga](https://github.com/agliga)! - feat(skeleton): updated animations
+
+## 19.5.2
+
+### Patch Changes
+
+- [`5fce027`](https://github.com/eBay/evo-web/commit/5fce027aff01df5ccbcab47e938afb810158b469) Thanks [@agliga](https://github.com/agliga)! - fix(listbox-button): fluid on listbox container sets width to 100%
+
+## 19.5.1
+
+### Patch Changes
+
+- [`e30eb4e`](https://github.com/eBay/evo-web/commit/e30eb4e55e4a2afda1fc35b3ffada9cd902bfbc2) Thanks [@agliga](https://github.com/agliga)! - fix(stylelint): swapped to modern rgb syntax
+
+## 19.5.0
+
+### Minor Changes
+
+- [#121](https://github.com/eBay/evo-web/pull/121) [`60358d1`](https://github.com/eBay/evo-web/commit/60358d1d856181d2f375682587dc8f7a473272ed) Thanks [@agliga](https://github.com/agliga)! - feat(dialog): added new motion spec
+
+- [#92](https://github.com/eBay/evo-web/pull/92) [`3206443`](https://github.com/eBay/evo-web/commit/32064432df66173efc78d83b9ce66f6bc6409d86) Thanks [@agliga](https://github.com/agliga)! - feat(number-input): added new component
+
+- [#123](https://github.com/eBay/evo-web/pull/123) [`af8f038`](https://github.com/eBay/evo-web/commit/af8f03893f1ec7ed60f61dec766983121d6946f6) Thanks [@ArtBlue](https://github.com/ArtBlue)! - feat(filter-input): new component
+
+### Patch Changes
+
+- [#122](https://github.com/eBay/evo-web/pull/122) [`4dc6dd7`](https://github.com/eBay/evo-web/commit/4dc6dd77b4df3ec2dbea9701fb10257a93991738) Thanks [@agliga](https://github.com/agliga)! - feat(table): added frozen-header option
+
+## 19.4.0
+
+### Minor Changes
+
+- [#119](https://github.com/eBay/evo-web/pull/119) [`55dafc6`](https://github.com/eBay/evo-web/commit/55dafc64d50aef10b493de489f7c0ec0adda485f) Thanks [@agliga](https://github.com/agliga)! - feat(ccd): updated to latest specs
+
+- [#119](https://github.com/eBay/evo-web/pull/119) [`1bedf6c`](https://github.com/eBay/evo-web/commit/1bedf6c86e7c538a566a9bd6544374d4dee2c30d) Thanks [@agliga](https://github.com/agliga)! - feat(icon): updated icons
+
+- [#119](https://github.com/eBay/evo-web/pull/119) [`2355fe5`](https://github.com/eBay/evo-web/commit/2355fe5bcc98055b714dc79845f2b4c428c66991) Thanks [@agliga](https://github.com/agliga)! - fix(notice): resolve CTA alignment issue for none icon case
+
+## 19.3.0
+
+### Minor Changes
+
+- [`d31ec7c`](https://github.com/eBay/evo-web/commit/d31ec7cb540c2d7f1b114b7ffa003ce96feb10d2) Thanks [@agliga](https://github.com/agliga)! - feat(item-tile-group): add default layouts inside item-tile-group
+
+### Patch Changes
+
+- [#12](https://github.com/eBay/evo-web/pull/12) [`be8ff0b`](https://github.com/eBay/evo-web/commit/be8ff0b42e2bd3eb64f495bf7a2f0aa5ceba8e4f) Thanks [@agliga](https://github.com/agliga)! - fix(accordion): added direct child selector to li
+
+## 19.2.0
+
+### Minor Changes
+
+- [#2615](https://github.com/eBay/skin/pull/2615) [`7ceff5e`](https://github.com/eBay/skin/commit/7ceff5e409f59ec47553f3a046a5c3f31eda0ccf) Thanks [@agliga](https://github.com/agliga)! - feat(accordion): update expansion icon
+
+- [#2610](https://github.com/eBay/skin/pull/2610) [`7351742`](https://github.com/eBay/skin/commit/73517427a0f0f4a5cdf4638bceab2e57284c72b4) Thanks [@ArtBlue](https://github.com/ArtBlue)! - feat(link): updated legal link colors
+
+- [#2615](https://github.com/eBay/skin/pull/2615) [`bb7ba38`](https://github.com/eBay/skin/commit/bb7ba38fa8c1945c671c8342bf82e861c82dc241) Thanks [@agliga](https://github.com/agliga)! - feat(icons): added new icons
+
+- [#2615](https://github.com/eBay/skin/pull/2615) [`f2f47a0`](https://github.com/eBay/skin/commit/f2f47a03df632cd0fd831e8ccb35614971377b2d) Thanks [@agliga](https://github.com/agliga)! - feat(button): added animation to buttons
+
+- [#2603](https://github.com/eBay/skin/pull/2603) [`7bf9c1c`](https://github.com/eBay/skin/commit/7bf9c1c8677b788d529019fea2d2a78555089640) Thanks [@ArtBlue](https://github.com/ArtBlue)! - feat(item-tile,item-tile-group): created new components
+
+- [#2615](https://github.com/eBay/skin/pull/2615) [`8eb94eb`](https://github.com/eBay/skin/commit/8eb94ebd1a2ae25e8fd19b2a858ff37f8675f8b0) Thanks [@agliga](https://github.com/agliga)! - feat(eek): flipped EEK direction
+
+- [#2611](https://github.com/eBay/skin/pull/2611) [`cd2c041`](https://github.com/eBay/skin/commit/cd2c041c1d154dc98da7f5035a16a416b72fd91d) Thanks [@ArtBlue](https://github.com/ArtBlue)! - fix(table): a11y fixes for table loading state
+
+## 19.1.3
+
+### Patch Changes
+
+- [#2595](https://github.com/eBay/skin/pull/2595) [`cfb2b17`](https://github.com/eBay/skin/commit/cfb2b17fd7f18522896cbc1ecb44f993bc8214cf) Thanks [@ArtBlue](https://github.com/ArtBlue)! - fix(page-grid): fixed layouts for print view and fixed examples
+
+## 19.1.2
+
+### Patch Changes
+
+- [#2586](https://github.com/eBay/skin/pull/2586) [`3dbaf75`](https://github.com/eBay/skin/commit/3dbaf75458621f3b7642d9b3b9b8bd29a495b410) Thanks [@ArtBlue](https://github.com/ArtBlue)! - fix(market-sans): fix line-height for new font version
+
+## 19.1.1
+
+### Patch Changes
+
+- [`091aa98`](https://github.com/eBay/skin/commit/091aa984caac53d647c73422b6c117f89aa07284) Thanks [@agliga](https://github.com/agliga)! - fix(dropdowns): added fixed support for floatingui strategy
+
+## 19.1.0
+
+### Minor Changes
+
+- [#2562](https://github.com/eBay/skin/pull/2562) [`59d2e12`](https://github.com/eBay/skin/commit/59d2e1285ca259d224d5eb017669b4e6a2171e9e) Thanks [@ArtBlue](https://github.com/ArtBlue)! - feat(tokens): added new motion tokens
+
+- [#2560](https://github.com/eBay/skin/pull/2560) [`36bec4d`](https://github.com/eBay/skin/commit/36bec4d989747744b8c81655aba0cd94bcdb85cc) Thanks [@ArtBlue](https://github.com/ArtBlue)! - feat(tooltip): updated colors
+
+- [#2565](https://github.com/eBay/skin/pull/2565) [`abcb849`](https://github.com/eBay/skin/commit/abcb849ac64a2280bd16b246d4917d68620c2866) Thanks [@agliga](https://github.com/agliga)! - feat(avatar): added custom fit avatar
+
+- [#2556](https://github.com/eBay/skin/pull/2556) [`6f51583`](https://github.com/eBay/skin/commit/6f515835c71db040c5952499275a26c3280a20be) Thanks [@ArtBlue](https://github.com/ArtBlue)! - feat(badge): added new border
+
+- [#2553](https://github.com/eBay/skin/pull/2553) [`c59f7e6`](https://github.com/eBay/skin/commit/c59f7e65cc615c9101d0b0164cfef3d5f94ec096) Thanks [@agliga](https://github.com/agliga)! - fix(list): swapped to use marker
+
+- [#2575](https://github.com/eBay/skin/pull/2575) [`89cdc3a`](https://github.com/eBay/skin/commit/89cdc3a397b69be2471ef6676d5c2db3772b1abf) Thanks [@ArtBlue](https://github.com/ArtBlue)! - feat(marketsans): upgraded font implementing market sans v2
+
+- [#2566](https://github.com/eBay/skin/pull/2566) [`097513e`](https://github.com/eBay/skin/commit/097513e4db11b08fbea76d1407970b659951b249) Thanks [@ArtBlue](https://github.com/ArtBlue)! - feat(layout-grid): added new component
+
+- [#2569](https://github.com/eBay/skin/pull/2569) [`2acf205`](https://github.com/eBay/skin/commit/2acf20576135a120f4b25015f9f98238edb8291d) Thanks [@agliga](https://github.com/agliga)! - feat(link): added legal link
+
+- [#2559](https://github.com/eBay/skin/pull/2559) [`cf2b10e`](https://github.com/eBay/skin/commit/cf2b10e17dbd4349c7ef07509161e8c4ee7e226a) Thanks [@ArtBlue](https://github.com/ArtBlue)! - feat(tokens): updated attention stroke token
+
+### Patch Changes
+
+- [#2563](https://github.com/eBay/skin/pull/2563) [`1b316bd`](https://github.com/eBay/skin/commit/1b316bd425f70a2b046c453e0e7b5297992321c7) Thanks [@cordeliadillon](https://github.com/cordeliadillon)! - chore: update DS name mappings
+
+## 19.0.0
+
+### Major Changes
+
+- [#2540](https://github.com/eBay/skin/pull/2540) [`a21d879`](https://github.com/eBay/skin/commit/a21d879e6fb080b495c2d92fcc8e4cd9fb98f09e) Thanks [@agliga](https://github.com/agliga)! - chore: added comment to deprecated components about their removal
+
+- [#2536](https://github.com/eBay/skin/pull/2536) [`c479ee1`](https://github.com/eBay/skin/commit/c479ee1f8d99e12f65e1c8c3b0929c145e9108ad) Thanks [@agliga](https://github.com/agliga)! - chore: remove deprecations for next major version
+
+- [#2526](https://github.com/eBay/skin/pull/2526) [`93788e6`](https://github.com/eBay/skin/commit/93788e61c8d4e5fe75776f79c07d32dbbede25c6) Thanks [@saiponnada](https://github.com/saiponnada)! - fix(table): remove aria-pressed from table headings
+
+- [#2541](https://github.com/eBay/skin/pull/2541) [`529af17`](https://github.com/eBay/skin/commit/529af17d8b35d4f825b5e49ec57a1e6f43b89c14) Thanks [@agliga](https://github.com/agliga)! - feat(dropdowns): added floating-ui support
+  All dropdowns should be using floating-ui by default. In order to have the old non-floating ui positioning, use `--set-position` modifier on all dropdowns (such as `.menu-button__menu--set-position`)
+
+- [#2529](https://github.com/eBay/skin/pull/2529) [`5a5a45f`](https://github.com/eBay/skin/commit/5a5a45f19ebfacd91f937c5ce8ad7482b0dcdc6b) Thanks [@agliga](https://github.com/agliga)! - feat(floating-ui): added support in date-textbox
+
+- [#2528](https://github.com/eBay/skin/pull/2528) [`4265bed`](https://github.com/eBay/skin/commit/4265bed0dd9b9f9204af663f7dc6c64319c61ae8) Thanks [@agliga](https://github.com/agliga)! - feat(icons): added new icons and removed serveral icons
+
+- [#2537](https://github.com/eBay/skin/pull/2537) [`b6f7744`](https://github.com/eBay/skin/commit/b6f7744ce3212c02118ee256c97aa9f889610f56) Thanks [@LuLaValva](https://github.com/LuLaValva)! - feat(combobox): remove chevron from combobox
+
+## 18.6.0
+
+### Minor Changes
+
+- [#2506](https://github.com/eBay/skin/pull/2506) [`b817c49`](https://github.com/eBay/skin/commit/b817c49dae4c65c07141388bac6ee24b840b1bf6) Thanks [@agliga](https://github.com/agliga)! - feat(floating-label): updated unselected color of label
+
+- [#2509](https://github.com/eBay/skin/pull/2509) [`d7d80cc`](https://github.com/eBay/skin/commit/d7d80cc6524ed6b9b7536715d59ab9ac66ab52f7) Thanks [@agliga](https://github.com/agliga)! - fix(alert/confirm-dialog): changed alignment to left by default and right for footer
+
+- [#2504](https://github.com/eBay/skin/pull/2504) [`e4d7216`](https://github.com/eBay/skin/commit/e4d7216b6fde561410c2292c7aa69dbc17eba3e3) Thanks [@ArtBlue](https://github.com/ArtBlue)! - feat(icons): added new icons
+
+- [#2508](https://github.com/eBay/skin/pull/2508) [`364355c`](https://github.com/eBay/skin/commit/364355c2d4af38e294b131766ef052dc46f4feee) Thanks [@agliga](https://github.com/agliga)! - docs(link): added disabled fake-link
+
+- [#2513](https://github.com/eBay/skin/pull/2513) [`2e43568`](https://github.com/eBay/skin/commit/2e435680f8b4484eb9f0a74af63e6e3c132a5fbb) Thanks [@saiponnada](https://github.com/saiponnada)! - fix(progress-stepper): update incomplete step color to meet contrast
+
+## 18.5.0
+
+### Minor Changes
+
+- [#2496](https://github.com/eBay/skin/pull/2496) [`66e73f8`](https://github.com/eBay/skin/commit/66e73f84f397c288c8fec0ce37d9ca2149bf50c7) Thanks [@ArtBlue](https://github.com/ArtBlue)! - feat(filter-menu): added search header
+
+- [#2480](https://github.com/eBay/skin/pull/2480) [`207c518`](https://github.com/eBay/skin/commit/207c518a6c5a7310b251d5c7cb2ce703381a1fa0) Thanks [@agliga](https://github.com/agliga)! - feat(eek): added large size and fixed regular arrow
+
+- [#2481](https://github.com/eBay/skin/pull/2481) [`933fb74`](https://github.com/eBay/skin/commit/933fb7412619ba844a4157537ced1aa8e4b9120f) Thanks [@agliga](https://github.com/agliga)! - feat(list): added inremental list and radio fieldset in list
+
+- [#2495](https://github.com/eBay/skin/pull/2495) [`cb7222a`](https://github.com/eBay/skin/commit/cb7222ae4e1609adf325b72865cf95f9976a3068) Thanks [@agliga](https://github.com/agliga)! - feat(ccd): new component
+
+- [#2483](https://github.com/eBay/skin/pull/2483) [`fef21d3`](https://github.com/eBay/skin/commit/fef21d305816fe2b1851d4e6fe11b3c8a2ea3346) Thanks [@ArtBlue](https://github.com/ArtBlue)! - feat(table): added loading state
+
+- [#2497](https://github.com/eBay/skin/pull/2497) [`dfda4a0`](https://github.com/eBay/skin/commit/dfda4a079f2a6e2c3b2857815d522ecc37e76fca) Thanks [@saiponnada](https://github.com/saiponnada)! - feat(accordion): new component
+
+- [#2498](https://github.com/eBay/skin/pull/2498) [`2ff5317`](https://github.com/eBay/skin/commit/2ff53171734afaa42f97719d31d062e7ef2f6daa) Thanks [@ArtBlue](https://github.com/ArtBlue)! - fix(filter-menu): fixed cascade
+
+## 18.4.0
+
+### Minor Changes
+
+- [#2475](https://github.com/eBay/skin/pull/2475) [`472b280`](https://github.com/eBay/skin/commit/472b280642b38d2c2718946464f9995f54d74738) Thanks [@agliga](https://github.com/agliga)! - chore: removed unused storybook files (and percy workflow)
+
+- [#2475](https://github.com/eBay/skin/pull/2475) [`6482514`](https://github.com/eBay/skin/commit/6482514ce5d96d1da5c57545a0a77643e452d612) Thanks [@agliga](https://github.com/agliga)! - feat(table): added frozen header, frozen column, permanent scrollbars
+
+- [#2473](https://github.com/eBay/skin/pull/2473) [`94f4201`](https://github.com/eBay/skin/commit/94f4201440c9b7c82e436c70d9b008cbc870b550) Thanks [@ArtBlue](https://github.com/ArtBlue)! - chore(table): added thead line for scrolling, reverted table contraint
+
+- [#2475](https://github.com/eBay/skin/pull/2475) [`201018f`](https://github.com/eBay/skin/commit/201018fa0a53bba471886745bc3800d9c729dae1) Thanks [@agliga](https://github.com/agliga)! - feat(icons): added and modified icons
+
+- [#2475](https://github.com/eBay/skin/pull/2475) [`4d5fcdd`](https://github.com/eBay/skin/commit/4d5fcdd4020d468af7690d26d412cbb4df64b263) Thanks [@agliga](https://github.com/agliga)! - feat(list): new component
+
+### Patch Changes
+
+- [#2475](https://github.com/eBay/skin/pull/2475) [`0529ac5`](https://github.com/eBay/skin/commit/0529ac5f4984aa4e018db04863578b0685805640) Thanks [@agliga](https://github.com/agliga)! - feat(eek): updated size
+
+- [#2474](https://github.com/eBay/skin/pull/2474) [`67a224b`](https://github.com/eBay/skin/commit/67a224bfe1f66550bf5496e5570f53da27ddaccb) Thanks [@LuLaValva](https://github.com/LuLaValva)! - Add description to file preview card
+
+## 18.3.2
+
+### Patch Changes
+
+- [`477a4a0`](https://github.com/eBay/skin/commit/477a4a060ad322e56183caf4eb2dc5e72452e893) Thanks [@agliga](https://github.com/agliga)! - fix: reverted eek linting issue and fixed gh paths
+
+## 18.3.1
+
+### Patch Changes
+
+- [`9bb257a`](https://github.com/eBay/skin/commit/9bb257a0137e4b1424af0d580bee4aac885bb2a3) Thanks [@agliga](https://github.com/agliga)! - fix: gh mixins path
+
+## 18.3.0
+
+### Minor Changes
+
+- [#2441](https://github.com/eBay/skin/pull/2441) [`ed9a37a`](https://github.com/eBay/skin/commit/ed9a37a4d9bf4e2f050a8b222045d48aceed248a) Thanks [@saiponnada](https://github.com/saiponnada)! - feat(lightbox): add divider over footer
+
+- [#2435](https://github.com/eBay/skin/pull/2435) [`102ea39`](https://github.com/eBay/skin/commit/102ea39d6708f42a36ebaa03f667688672cb6e64) Thanks [@kentokage](https://github.com/kentokage)! - feat(file-upload): new module
+
+- [#2446](https://github.com/eBay/skin/pull/2446) [`2ecde2f`](https://github.com/eBay/skin/commit/2ecde2f9adb5fb046404ee224a52ed044f2241a5) Thanks [@ArtBlue](https://github.com/ArtBlue)! - feat(icons): modified and added icons
+
+- [#2440](https://github.com/eBay/skin/pull/2440) [`9ca9bd3`](https://github.com/eBay/skin/commit/9ca9bd3c8b969797189bb4b0fcc04ece37e632da) Thanks [@saiponnada](https://github.com/saiponnada)! - feat(tourtip): improve contrast of tip container
+
+- [#2442](https://github.com/eBay/skin/pull/2442) [`d330c82`](https://github.com/eBay/skin/commit/d330c82b06107040212c6920f4b297f9c3fb0005) Thanks [@saiponnada](https://github.com/saiponnada)! - docs(tokens): add primitive token disclaimer
+
+- [#2449](https://github.com/eBay/skin/pull/2449) [`b2dfcf1`](https://github.com/eBay/skin/commit/b2dfcf1c360dd11b652c02a4e44dce28453f6798) Thanks [@saiponnada](https://github.com/saiponnada)! - fix(button): update focus outline and offset
+
+- [#2448](https://github.com/eBay/skin/pull/2448) [`88c1091`](https://github.com/eBay/skin/commit/88c1091c4c4f58ba8e950ff94bb5182c3cd26134) Thanks [@ArtBlue](https://github.com/ArtBlue)! - fix(icon-button): refactored and fixed focus
+
+- [#2444](https://github.com/eBay/skin/pull/2444) [`5e59592`](https://github.com/eBay/skin/commit/5e59592ab993b33db82074ff375f2172c852e87d) Thanks [@ArtBlue](https://github.com/ArtBlue)! - feat(table): added sorting, cell types, actions, and inputs
+
+## 18.2.4
+
+### Patch Changes
+
+- [`cb02ebc`](https://github.com/eBay/skin/commit/cb02ebc2ddcce3620579d4cca094d979dd59edd7) Thanks [@agliga](https://github.com/agliga)! - fix: added gh to ignore list
+
+## 18.2.3
+
+### Patch Changes
+
+- [#2452](https://github.com/eBay/skin/pull/2452) [`648554e`](https://github.com/eBay/skin/commit/648554ea476f5032b1a7a0ca274a773e98ac9e83) Thanks [@agliga](https://github.com/agliga)! - fix: gh-browser updated paths to point to dist
+
+- [`31ff6e6`](https://github.com/eBay/skin/commit/31ff6e6a90e08d529ff9c3218ade8c3a4cfd5618) Thanks [@agliga](https://github.com/agliga)! - fix: added autoprefixer ignore to carousel
+
+## 18.2.2
+
+### Patch Changes
+
+- [`99e82f5`](https://github.com/eBay/skin/commit/99e82f525aabe2d7827235ec3ce411b7157450a8) Thanks [@agliga](https://github.com/agliga)! - chore: added tokens folder to published code
+
+## 18.2.1
+
+### Patch Changes
+
+- [#2436](https://github.com/eBay/skin/pull/2436) [`8c7b0ea`](https://github.com/eBay/skin/commit/8c7b0ea2e685be4d5e9b6324f365a893dcc8c275) Thanks [@agliga](https://github.com/agliga)! - chore: updated which files should be published
+
+## 18.2.0
+
+### Minor Changes
+
+- [#2413](https://github.com/eBay/skin/pull/2413) [`da48437`](https://github.com/eBay/skin/commit/da48437ebc038efa07f210804c7e0804cea1aacd) Thanks [@saiponnada](https://github.com/saiponnada)! - fix(fake-button): updated disabled styles
+
+- [#2415](https://github.com/eBay/skin/pull/2415) [`9d24641`](https://github.com/eBay/skin/commit/9d24641918147eea5408c91a67d217db02988441) Thanks [@saiponnada](https://github.com/saiponnada)! - feat(education-notice): updated education background color
+
+- [#2423](https://github.com/eBay/skin/pull/2423) [`632ccc2`](https://github.com/eBay/skin/commit/632ccc24654df15da66d75f666978617a144509f) Thanks [@ArtBlue](https://github.com/ArtBlue)! - feat(table): new module
+
+- [#2417](https://github.com/eBay/skin/pull/2417) [`ef0418a`](https://github.com/eBay/skin/commit/ef0418a90f63612b3de763b5ead94a5aa01d022e) Thanks [@agliga](https://github.com/agliga)! - feat: chnaged to use marko run instead of jekyll
+
+- [#2414](https://github.com/eBay/skin/pull/2414) [`ab472df`](https://github.com/eBay/skin/commit/ab472df6ae5c1f4ed32a146eaba7074a32a29e5d) Thanks [@saiponnada](https://github.com/saiponnada)! - fix(docs): improved contrast on highlighted text
+
+### Patch Changes
+
+- [#2426](https://github.com/eBay/skin/pull/2426) [`108f628`](https://github.com/eBay/skin/commit/108f628e649057421f25b2affc03f672026ad078) Thanks [@agliga](https://github.com/agliga)! - menu-button: added direct selector to icons
+
+## 18.1.0
+
+### Minor Changes
+
+- [#2403](https://github.com/eBay/skin/pull/2403) [`a7757e5`](https://github.com/eBay/skin/commit/a7757e58f8f2fcca00f5925515779a492e30798d) Thanks [@agliga](https://github.com/agliga)! - details: updated design
+
+- [#2402](https://github.com/eBay/skin/pull/2402) [`ba747cb`](https://github.com/eBay/skin/commit/ba747cbfa0585cd79c3f2df6251098aa517f2670) Thanks [@agliga](https://github.com/agliga)! - progress-spinner: fixed wobble
+
+- [#2407](https://github.com/eBay/skin/pull/2407) [`2cbfe64`](https://github.com/eBay/skin/commit/2cbfe645fa0f0f06cc25ae042debb194e4ad6b71) Thanks [@agliga](https://github.com/agliga)! - feat(utility): added image disabled utility class
+
+- [#2407](https://github.com/eBay/skin/pull/2407) [`ac4e7c0`](https://github.com/eBay/skin/commit/ac4e7c0e16c05e916069b73548bb8102d6e5241d) Thanks [@agliga](https://github.com/agliga)! - feat(icons): added and updated icons
+
+- [#2409](https://github.com/eBay/skin/pull/2409) [`88d4f0e`](https://github.com/eBay/skin/commit/88d4f0e4a5f2cda3aeb9f5c55b0e11c5fdacae27) Thanks [@agliga](https://github.com/agliga)! - carousel: preserve /_!Y _/ comments
+
+- [#2367](https://github.com/eBay/skin/pull/2367) [`923a83f`](https://github.com/eBay/skin/commit/923a83f4e796a2692bbaa7ca0c7ae7c1324e9f00) Thanks [@agliga](https://github.com/agliga)! - docs: updated urls to be opensource.ebay.com
+
+- [#2406](https://github.com/eBay/skin/pull/2406) [`f151214`](https://github.com/eBay/skin/commit/f1512145fa8f67fa3d263df940858f85b9c6843c) Thanks [@ArtBlue](https://github.com/ArtBlue)! - fix(toggle-button-group): fixed buttons per row and added min layout exceptions
+
+### Patch Changes
+
+- [#2405](https://github.com/eBay/skin/pull/2405) [`d67e8ea`](https://github.com/eBay/skin/commit/d67e8ea906d40736e727c8d3547416f1ea5980ba) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - Use 100% width on input for fluid variant
+
+- [#2373](https://github.com/eBay/skin/pull/2373) [`c09c885`](https://github.com/eBay/skin/commit/c09c885b914a23f1feb0aa12c2e78f3c9ef91255) Thanks [@cordeliadillon](https://github.com/cordeliadillon)! - docs: update Design System name mapping for modules
+
+## 18.0.8
+
+### Patch Changes
+
+- [#2399](https://github.com/eBay/skin/pull/2399) [`328c541`](https://github.com/eBay/skin/commit/328c5410810c8bdf3fc92b0f4b490aa8645cf8b2) Thanks [@LuLaValva](https://github.com/LuLaValva)! - Remove source maps
+
+## 18.0.7
+
+### Patch Changes
+
+- [#2392](https://github.com/eBay/skin/pull/2392) [`781ee73`](https://github.com/eBay/skin/commit/781ee7333d23f8f92695626d57e0e9b26adef035) Thanks [@ArtBlue](https://github.com/ArtBlue)! - fix(textbox): fixed large textbox height
+
+- [#2390](https://github.com/eBay/skin/pull/2390) [`8cc2200`](https://github.com/eBay/skin/commit/8cc2200a90325307420500e7c1ecbc38bc878b2c) Thanks [@HenriqueLimas](https://github.com/HenriqueLimas)! - color-tokens: fix foreground and background attention colors
+
+- [#2393](https://github.com/eBay/skin/pull/2393) [`6bb280c`](https://github.com/eBay/skin/commit/6bb280c3a4a711610af1f574a1318ff8e003c367) Thanks [@ArtBlue](https://github.com/ArtBlue)! - fix(textbox): fixed textbox overlap
+
+## 18.0.6
+
+### Patch Changes
+
+- [`e5db3d4`](https://github.com/eBay/skin/commit/e5db3d438354a8c8467e461b985e8fffc3492bc7) Thanks [@agliga](https://github.com/agliga)! - fix: added icon-mixins.less file for backwards compatibility
+
+- [`b13c9ed`](https://github.com/eBay/skin/commit/b13c9ed514fbc6d8ad4da06621a0f66cd4bc4201) Thanks [@agliga](https://github.com/agliga)! - button: swapped visited link with correct color
+
+## 18.0.5
+
+### Patch Changes
+
+- [`f96054b`](https://github.com/eBay/skin/commit/f96054bd337d9bee1bcc7df94077656f7435aa31) Thanks [@agliga](https://github.com/agliga)! - icon: added 48-colored icon class
+
+- [`7266c80`](https://github.com/eBay/skin/commit/7266c8039d3bdc0ec00023fc9a033df0c7c02a1a) Thanks [@agliga](https://github.com/agliga)! - chore: removed postcss config from published version
+
+## 18.0.4
+
+### Patch Changes
+
+- [#2377](https://github.com/eBay/skin/pull/2377) [`83fc78d`](https://github.com/eBay/skin/commit/83fc78d1a3d6bc3cdedec80ae320f9bc74d60959) Thanks [@LuLaValva](https://github.com/LuLaValva)! - Use older CSS syntax
+
+## 18.0.3
+
+### Patch Changes
+
+- [#2375](https://github.com/eBay/skin/pull/2375) [`e0d7948`](https://github.com/eBay/skin/commit/e0d79483ace2c1b62782d32fc8272b0a6eb07f68) Thanks [@agliga](https://github.com/agliga)! - star-rating: fixed variable to be parsed
+
+## 18.0.2
+
+### Patch Changes
+
+- [`322ca60`](https://github.com/eBay/skin/commit/322ca60aab969c8c99796037e5f7a07d0324abfb) Thanks [@agliga](https://github.com/agliga)! - generate-imports: added to skip bundles in top level imports
+
+- [#2365](https://github.com/eBay/skin/pull/2365) [`9ed42b1`](https://github.com/eBay/skin/commit/9ed42b1656cc91c59d35864f62e27c318ce0fbdc) Thanks [@agliga](https://github.com/agliga)! - menu/menu-button: changed icon--tick-16 to be icon--16
+
+- [`3eb9f02`](https://github.com/eBay/skin/commit/3eb9f027bb7226740f4e3fef17b3b372496b0fac) Thanks [@agliga](https://github.com/agliga)! - icons: added fit icon support
+
+## 18.0.1
+
+### Patch Changes
+
+- [#2361](https://github.com/eBay/skin/pull/2361) [`735ea66`](https://github.com/eBay/skin/commit/735ea66b32299793174f3eaa5fc04a1b444e3573) Thanks [@agliga](https://github.com/agliga)! - fix: added variables.less back into repo
+
+## 18.0.0
+
+### Major Changes
+
+- [#2346](https://github.com/eBay/skin/pull/2346) [`9eacce0`](https://github.com/eBay/skin/commit/9eacce09ed99edd4306e97632a1e5fbdc0ab68cd) Thanks [@agliga](https://github.com/agliga)! - refactor: removed all duplicate icon classes and added icon--{nn} classes
+
+- [#2352](https://github.com/eBay/skin/pull/2352) [`c2e6002`](https://github.com/eBay/skin/commit/c2e6002eb919c6f0325ca11de925112a6a72b5c3) Thanks [@agliga](https://github.com/agliga)! - chore: removed deprecations
+
+- [#2356](https://github.com/eBay/skin/pull/2356) [`7554ab4`](https://github.com/eBay/skin/commit/7554ab4c6f183d6d8ca898a09b39c5b6396f0d7a) Thanks [@ArtBlue](https://github.com/ArtBlue)! - tokens: added tokens, colors, deprecations
+
+- [#2345](https://github.com/eBay/skin/pull/2345) [`55291f6`](https://github.com/eBay/skin/commit/55291f659ace187d4b96707db84c4a54709182a2) Thanks [@ArtBlue](https://github.com/ArtBlue)! - toggle-button-group: reworked responsiveness and added equal button heights
+
+### Minor Changes
+
+- [#2344](https://github.com/eBay/skin/pull/2344) [`d9792aa`](https://github.com/eBay/skin/commit/d9792aabe896c594daced5d6cb44ba8e124a7a1a) Thanks [@mikehobi](https://github.com/mikehobi)! - feat(donut-chart): new module
+
+### Patch Changes
+
+- [#2348](https://github.com/eBay/skin/pull/2348) [`86621e8`](https://github.com/eBay/skin/commit/86621e86edc1bb419a143f964d3a63105ced0aeb) Thanks [@agliga](https://github.com/agliga)! - feat: added sass support and removed less support
+
+## 18.0.0-next.0
+
+### Major Changes
+
+- [#2346](https://github.com/eBay/skin/pull/2346) [`9eacce0`](https://github.com/eBay/skin/commit/9eacce09ed99edd4306e97632a1e5fbdc0ab68cd) Thanks [@agliga](https://github.com/agliga)! - refactor: removed all duplicate icon classes and added icon--{nn} classes
+
+- [#2352](https://github.com/eBay/skin/pull/2352) [`c2e6002`](https://github.com/eBay/skin/commit/c2e6002eb919c6f0325ca11de925112a6a72b5c3) Thanks [@agliga](https://github.com/agliga)! - chore: removed deprecations
+
+- [#2356](https://github.com/eBay/skin/pull/2356) [`7554ab4`](https://github.com/eBay/skin/commit/7554ab4c6f183d6d8ca898a09b39c5b6396f0d7a) Thanks [@ArtBlue](https://github.com/ArtBlue)! - tokens: added tokens, colors, deprecations
+
+- [#2345](https://github.com/eBay/skin/pull/2345) [`55291f6`](https://github.com/eBay/skin/commit/55291f659ace187d4b96707db84c4a54709182a2) Thanks [@ArtBlue](https://github.com/ArtBlue)! - toggle-button-group: reworked responsiveness and added equal button heights
+
+### Minor Changes
+
+- [#2344](https://github.com/eBay/skin/pull/2344) [`d9792aa`](https://github.com/eBay/skin/commit/d9792aabe896c594daced5d6cb44ba8e124a7a1a) Thanks [@mikehobi](https://github.com/mikehobi)! - feat(donut-chart): new module
+
+### Patch Changes
+
+- [#2348](https://github.com/eBay/skin/pull/2348) [`86621e8`](https://github.com/eBay/skin/commit/86621e86edc1bb419a143f964d3a63105ced0aeb) Thanks [@agliga](https://github.com/agliga)! - feat: added sass support and removed less support
+
+## 17.5.0
+
+### Minor Changes
+
+- [#2328](https://github.com/eBay/skin/pull/2328) [`4604f45`](https://github.com/eBay/skin/commit/4604f4516923175a5088f3876d25d2a11ccddba4) Thanks [@ArtBlue](https://github.com/ArtBlue)! - feat(icons): added and modified icons
+
+- [#2336](https://github.com/eBay/skin/pull/2336) [`800681a`](https://github.com/eBay/skin/commit/800681a98b84a78a5780ba19b8c388ac153e5359) Thanks [@agliga](https://github.com/agliga)! - fake-menu: added badge suport
+
+- [#2329](https://github.com/eBay/skin/pull/2329) [`2ee09df`](https://github.com/eBay/skin/commit/2ee09df5676577d8f6f4530a60f07bd9e6bff49a) Thanks [@ArtBlue](https://github.com/ArtBlue)! - docs(date-textbox): added docs and story for disabled state
+
+- [#2332](https://github.com/eBay/skin/pull/2332) [`186bd9a`](https://github.com/eBay/skin/commit/186bd9a563c99b3fde0d2aecf4e45bc1f7b79b0a) Thanks [@ArtBlue](https://github.com/ArtBlue)! - feat(toggle-button): added hover and pressed states
+
+## 17.5.0-next.0
+
+### Minor Changes
+
+- [#2328](https://github.com/eBay/skin/pull/2328) [`4604f45`](https://github.com/eBay/skin/commit/4604f4516923175a5088f3876d25d2a11ccddba4) Thanks [@ArtBlue](https://github.com/ArtBlue)! - feat(icons): added and modified icons
+
+- [#2336](https://github.com/eBay/skin/pull/2336) [`800681a`](https://github.com/eBay/skin/commit/800681a98b84a78a5780ba19b8c388ac153e5359) Thanks [@agliga](https://github.com/agliga)! - fake-menu: added badge suport
+
+- [#2329](https://github.com/eBay/skin/pull/2329) [`2ee09df`](https://github.com/eBay/skin/commit/2ee09df5676577d8f6f4530a60f07bd9e6bff49a) Thanks [@ArtBlue](https://github.com/ArtBlue)! - docs(date-textbox): added docs and story for disabled state
+
+- [#2332](https://github.com/eBay/skin/pull/2332) [`186bd9a`](https://github.com/eBay/skin/commit/186bd9a563c99b3fde0d2aecf4e45bc1f7b79b0a) Thanks [@ArtBlue](https://github.com/ArtBlue)! - feat(toggle-button): added hover and pressed states
+
+## 17.4.1
+
+### Patch Changes
+
+- [#2322](https://github.com/eBay/skin/pull/2322) [`292c8eb`](https://github.com/eBay/skin/commit/292c8eb17db1d747c972ae9587c450ed2d6a122c) Thanks [@ArtBlue](https://github.com/ArtBlue)! - fix(icon-button): fixed primary visited link icon color
+
+## 17.4.0
+
+### Minor Changes
+
+- [#2302](https://github.com/eBay/skin/pull/2302) [`a8f2c6b`](https://github.com/eBay/skin/commit/a8f2c6b3ec4db4144b7b8b19d5d585417c57830e) Thanks [@ArtBlue](https://github.com/ArtBlue)! - docs(storybook): added text spacing stories
+
+- [#2259](https://github.com/eBay/skin/pull/2259) [`fff8608`](https://github.com/eBay/skin/commit/fff8608ccae86341b9b4115c581626d5f9cc9add) Thanks [@saiponnada](https://github.com/saiponnada)! - feat(phone-input): new module
+
+- [#2303](https://github.com/eBay/skin/pull/2303) [`b80a893`](https://github.com/eBay/skin/commit/b80a89395f314c3728301fffe2d81cd21abb96c0) Thanks [@ArtBlue](https://github.com/ArtBlue)! - feat(icons): icon additions and modifications
+
+- [#2306](https://github.com/eBay/skin/pull/2306) [`8cdc782`](https://github.com/eBay/skin/commit/8cdc782e52383703d3c464ab93d0ed01078483f3) Thanks [@agliga](https://github.com/agliga)! - skeleton: added on-secondary color and changed elevated to use on-secondary
+
+- [#2312](https://github.com/eBay/skin/pull/2312) [`913f85b`](https://github.com/eBay/skin/commit/913f85be42795a7f1895c8f0a822e1148d0f87da) Thanks [@cordeliadillon](https://github.com/cordeliadillon)! - docs(progress-bar-expressive): fix noisy status updates on docs page
+
+- [#2309](https://github.com/eBay/skin/pull/2309) [`f778dbd`](https://github.com/eBay/skin/commit/f778dbd890892a9ed2d4a36416d92ccacaebd34e) Thanks [@ArtBlue](https://github.com/ArtBlue)! - feat(icon-button): added priorities
+
+- [#2316](https://github.com/eBay/skin/pull/2316) [`a8c1352`](https://github.com/eBay/skin/commit/a8c1352920bc10213b020c4d7fd0969bb96dd019) Thanks [@agliga](https://github.com/agliga)! - flags: updated to use sprites
+
+## 17.4.0-next.1
+
+### Minor Changes
+
+- [#2316](https://github.com/eBay/skin/pull/2316) [`a8c1352`](https://github.com/eBay/skin/commit/a8c1352920bc10213b020c4d7fd0969bb96dd019) Thanks [@agliga](https://github.com/agliga)! - flags: updated to use sprites
+
+## 17.4.0-next.0
+
+### Minor Changes
+
+- [#2302](https://github.com/eBay/skin/pull/2302) [`a8f2c6b`](https://github.com/eBay/skin/commit/a8f2c6b3ec4db4144b7b8b19d5d585417c57830e) Thanks [@ArtBlue](https://github.com/ArtBlue)! - docs(storybook): added text spacing stories
+
+- [#2259](https://github.com/eBay/skin/pull/2259) [`fff8608`](https://github.com/eBay/skin/commit/fff8608ccae86341b9b4115c581626d5f9cc9add) Thanks [@saiponnada](https://github.com/saiponnada)! - feat(phone-input): new module
+
+- [#2303](https://github.com/eBay/skin/pull/2303) [`b80a893`](https://github.com/eBay/skin/commit/b80a89395f314c3728301fffe2d81cd21abb96c0) Thanks [@ArtBlue](https://github.com/ArtBlue)! - feat(icons): icon additions and modifications
+
+- [#2306](https://github.com/eBay/skin/pull/2306) [`8cdc782`](https://github.com/eBay/skin/commit/8cdc782e52383703d3c464ab93d0ed01078483f3) Thanks [@agliga](https://github.com/agliga)! - skeleton: added on-secondary color and changed elevated to use on-secondary
+
+- [#2312](https://github.com/eBay/skin/pull/2312) [`913f85b`](https://github.com/eBay/skin/commit/913f85be42795a7f1895c8f0a822e1148d0f87da) Thanks [@cordeliadillon](https://github.com/cordeliadillon)! - docs(progress-bar-expressive): fix noisy status updates on docs page
+
+- [#2309](https://github.com/eBay/skin/pull/2309) [`f778dbd`](https://github.com/eBay/skin/commit/f778dbd890892a9ed2d4a36416d92ccacaebd34e) Thanks [@ArtBlue](https://github.com/ArtBlue)! - feat(icon-button): added priorities
+
+## 17.3.0
+
+### Minor Changes
+
+- [#2294](https://github.com/eBay/skin/pull/2294) [`16d681b`](https://github.com/eBay/skin/commit/16d681ba9e9480234179384cfced03dfc14d8203) Thanks [@ArtBlue](https://github.com/ArtBlue)! - feat(education-notice): use icon button
+
+- [#2282](https://github.com/eBay/skin/pull/2282) [`5df6ffc`](https://github.com/eBay/skin/commit/5df6ffc4bf6da4d257a9c66e72b3c6b2df97296f) Thanks [@ArtBlue](https://github.com/ArtBlue)! - fix(toggle-button-group): fixed Safari image size bug and added stories
+
+- [#2260](https://github.com/eBay/skin/pull/2260) [`7607f6d`](https://github.com/eBay/skin/commit/7607f6dd1e55d1911fefbdd4e285e241ec174f7d) Thanks [@cordeliadillon](https://github.com/cordeliadillon)! - feat(expressive-loader): new module
+
+- [#2286](https://github.com/eBay/skin/pull/2286) [`9861294`](https://github.com/eBay/skin/commit/9861294b67b31c66e2368b75ba87a042abcc7612) Thanks [@ArtBlue](https://github.com/ArtBlue)! - feat(education-notice): new module
+
+- [#2281](https://github.com/eBay/skin/pull/2281) [`f39fdfa`](https://github.com/eBay/skin/commit/f39fdfa8288b53fae2af7572ab1609b4d3718849) Thanks [@saiponnada](https://github.com/saiponnada)! - fix(button): prevent style changes on hover for disabled form buttons
+
+- [#2288](https://github.com/eBay/skin/pull/2288) [`71cb87d`](https://github.com/eBay/skin/commit/71cb87d9cd1a9784b038f2419e61f3057e43f229) Thanks [@ArtBlue](https://github.com/ArtBlue)! - fix(docs): fixed responsive menu
+
+- [#2290](https://github.com/eBay/skin/pull/2290) [`96fd3fc`](https://github.com/eBay/skin/commit/96fd3fcabbd19107250a9542cef638faa60ee346) Thanks [@cordeliadillon](https://github.com/cordeliadillon)! - refactor(progress-bar-expressive): rename expressive-loader to progress-bar-expressive
+
+- [#2283](https://github.com/eBay/skin/pull/2283) [`71fc1e2`](https://github.com/eBay/skin/commit/71fc1e2f79be73d276de7661976ffb649af0b3de) Thanks [@ArtBlue](https://github.com/ArtBlue)! - feat(carousel): updated chevron sizes
+
+### Patch Changes
+
+- [#2299](https://github.com/eBay/skin/pull/2299) [`27535a9`](https://github.com/eBay/skin/commit/27535a99842079f4e429a3463b5cee73f81fd4d2) Thanks [@agliga](https://github.com/agliga)! - listbox-button: added border radius to container
+
+## 17.3.0-next.0
+
+### Minor Changes
+
+- [#2294](https://github.com/eBay/skin/pull/2294) [`16d681b`](https://github.com/eBay/skin/commit/16d681ba9e9480234179384cfced03dfc14d8203) Thanks [@ArtBlue](https://github.com/ArtBlue)! - feat(education-notice): use icon button
+
+- [#2282](https://github.com/eBay/skin/pull/2282) [`5df6ffc`](https://github.com/eBay/skin/commit/5df6ffc4bf6da4d257a9c66e72b3c6b2df97296f) Thanks [@ArtBlue](https://github.com/ArtBlue)! - fix(toggle-button-group): fixed Safari image size bug and added stories
+
+- [#2260](https://github.com/eBay/skin/pull/2260) [`7607f6d`](https://github.com/eBay/skin/commit/7607f6dd1e55d1911fefbdd4e285e241ec174f7d) Thanks [@cordeliadillon](https://github.com/cordeliadillon)! - feat(expressive-loader): new module
+
+- [#2286](https://github.com/eBay/skin/pull/2286) [`9861294`](https://github.com/eBay/skin/commit/9861294b67b31c66e2368b75ba87a042abcc7612) Thanks [@ArtBlue](https://github.com/ArtBlue)! - feat(education-notice): new module
+
+- [#2281](https://github.com/eBay/skin/pull/2281) [`f39fdfa`](https://github.com/eBay/skin/commit/f39fdfa8288b53fae2af7572ab1609b4d3718849) Thanks [@saiponnada](https://github.com/saiponnada)! - fix(button): prevent style changes on hover for disabled form buttons
+
+- [#2288](https://github.com/eBay/skin/pull/2288) [`71cb87d`](https://github.com/eBay/skin/commit/71cb87d9cd1a9784b038f2419e61f3057e43f229) Thanks [@ArtBlue](https://github.com/ArtBlue)! - fix(docs): fixed responsive menu
+
+- [#2290](https://github.com/eBay/skin/pull/2290) [`96fd3fc`](https://github.com/eBay/skin/commit/96fd3fcabbd19107250a9542cef638faa60ee346) Thanks [@cordeliadillon](https://github.com/cordeliadillon)! - refactor(progress-bar-expressive): rename expressive-loader to progress-bar-expressive
+
+- [#2283](https://github.com/eBay/skin/pull/2283) [`71fc1e2`](https://github.com/eBay/skin/commit/71fc1e2f79be73d276de7661976ffb649af0b3de) Thanks [@ArtBlue](https://github.com/ArtBlue)! - feat(carousel): updated chevron sizes
+
+## 17.2.0
+
+### Minor Changes
+
+- [#2278](https://github.com/eBay/skin/pull/2278) [`c4af2b9`](https://github.com/eBay/skin/commit/c4af2b9552dd35986bbf9c24036b0b6c67581aa5) Thanks [@agliga](https://github.com/agliga)! - icon updates
+
+- [#2278](https://github.com/eBay/skin/pull/2278) [`c4af2b9`](https://github.com/eBay/skin/commit/c4af2b9552dd35986bbf9c24036b0b6c67581aa5) Thanks [@agliga](https://github.com/agliga)! - ebay-signal has incorrect type size and internal padding
+
+- [#2278](https://github.com/eBay/skin/pull/2278) [`c4af2b9`](https://github.com/eBay/skin/commit/c4af2b9552dd35986bbf9c24036b0b6c67581aa5) Thanks [@agliga](https://github.com/agliga)! - Venmo icon: Missing borders
+
+- [#2278](https://github.com/eBay/skin/pull/2278) [`c4af2b9`](https://github.com/eBay/skin/commit/c4af2b9552dd35986bbf9c24036b0b6c67581aa5) Thanks [@agliga](https://github.com/agliga)! - flyout: update styling
+
+- [#2278](https://github.com/eBay/skin/pull/2278) [`c4af2b9`](https://github.com/eBay/skin/commit/c4af2b9552dd35986bbf9c24036b0b6c67581aa5) Thanks [@agliga](https://github.com/agliga)! - component status alignment
+
+- [#2278](https://github.com/eBay/skin/pull/2278) [`c4af2b9`](https://github.com/eBay/skin/commit/c4af2b9552dd35986bbf9c24036b0b6c67581aa5) Thanks [@agliga](https://github.com/agliga)! - Docs: remove focusable attribute from examples and stories
+
+- [#2278](https://github.com/eBay/skin/pull/2278) [`c4af2b9`](https://github.com/eBay/skin/commit/c4af2b9552dd35986bbf9c24036b0b6c67581aa5) Thanks [@agliga](https://github.com/agliga)! - ebay-button: reduce width of stroke for priority=tertiary
+
+- [#2278](https://github.com/eBay/skin/pull/2278) [`c4af2b9`](https://github.com/eBay/skin/commit/c4af2b9552dd35986bbf9c24036b0b6c67581aa5) Thanks [@agliga](https://github.com/agliga)! - feat: automatically publish skin
+
+## 17.2.0-next.0
+
+### Minor Changes
+
+- [`c4af2b9`](https://github.com/eBay/skin/commit/c4af2b9552dd35986bbf9c24036b0b6c67581aa5) Thanks [@agliga](https://github.com/agliga)! - icon updates
+
+- [`c4af2b9`](https://github.com/eBay/skin/commit/c4af2b9552dd35986bbf9c24036b0b6c67581aa5) Thanks [@agliga](https://github.com/agliga)! - ebay-signal has incorrect type size and internal padding
+
+- [`c4af2b9`](https://github.com/eBay/skin/commit/c4af2b9552dd35986bbf9c24036b0b6c67581aa5) Thanks [@agliga](https://github.com/agliga)! - Venmo icon: Missing borders
+
+- [`c4af2b9`](https://github.com/eBay/skin/commit/c4af2b9552dd35986bbf9c24036b0b6c67581aa5) Thanks [@agliga](https://github.com/agliga)! - flyout: update styling
+
+- [`c4af2b9`](https://github.com/eBay/skin/commit/c4af2b9552dd35986bbf9c24036b0b6c67581aa5) Thanks [@agliga](https://github.com/agliga)! - component status alignment
+
+- [`c4af2b9`](https://github.com/eBay/skin/commit/c4af2b9552dd35986bbf9c24036b0b6c67581aa5) Thanks [@agliga](https://github.com/agliga)! - Docs: remove focusable attribute from examples and stories
+
+- [`c4af2b9`](https://github.com/eBay/skin/commit/c4af2b9552dd35986bbf9c24036b0b6c67581aa5) Thanks [@agliga](https://github.com/agliga)! - ebay-button: reduce width of stroke for priority=tertiary
+
+- [`c4af2b9`](https://github.com/eBay/skin/commit/c4af2b9552dd35986bbf9c24036b0b6c67581aa5) Thanks [@agliga](https://github.com/agliga)! - feat: automatically publish skin
+
+## 17.1.1
+
+### Patch Changes
+
+- [#2264](https://github.com/eBay/skin/pull/2264) [`32e58f3`](https://github.com/eBay/skin/commit/32e58f3a4c5ae1b4508cf2f283f85969b122c26f) Thanks [@agliga](https://github.com/agliga)! - Added autopublish to github
+
+- [#2264](https://github.com/eBay/skin/pull/2264) [`32e58f3`](https://github.com/eBay/skin/commit/32e58f3a4c5ae1b4508cf2f283f85969b122c26f) Thanks [@agliga](https://github.com/agliga)! - updated changeset
+
+A record of all notable changes are documented under [releases](https://github.com/eBay/skin/releases).
+
+Skin releases follow [Semantic Versioning](http://semver.org):
+
+1. MAJOR version when we make incompatible API changes,
+1. MINOR version when we add functionality in a backwards-compatible manner
+1. PATCH version when we make backwards-compatible bug fixes.
+
+Please remember to always read the release notes in full before upgrading major versions!

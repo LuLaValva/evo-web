@@ -1,0 +1,55 @@
+import { processHtmlAttributes } from "../../common/html-attributes";
+$ const {
+    class: inputClass,
+    renderBody,
+    disabled,
+    selected,
+    expanded,
+    icon,
+    image,
+    a11ySelectedText = "Filter Applied",
+    variant = "default",
+    href,
+    ...htmlInput
+} = input;
+$ const isAnchor = !!href && variant !== "menu";
+$ const rootTag = isAnchor ? "a" : "button";
+
+<${rootTag}
+    ...processHtmlAttributes(htmlInput)
+    class=[
+        "filter-chip",
+        state.mounted && "filter-chip--animated",
+        variant === "expressive" && "filter-chip--expressive",
+        (isAnchor || variant === "menu") && state.selected && "filter-chip--selected",
+        inputClass
+    ]
+    type=!isAnchor && "button"
+    href=!disabled ? href : undefined
+    disabled=!isAnchor ? disabled : undefined
+    aria-pressed=!isAnchor && variant !== "menu" && (state.selected ? "true" : "false")
+    aria-expanded=variant === "menu" && (state.expanded ? "true" : "false")
+    on-click("handleButtonClick")
+>
+
+    <if(variant === "expressive")>
+        <span class="filter-chip__media">
+            <${image?.as || "img"} ...image/>
+        </span>
+    </if>
+    <else-if(variant === "default")>
+        <${icon} ...icon/>
+    </else-if>
+
+    <span class="filter-chip__text">
+        <${renderBody}/>
+        <if(state.selected && (isAnchor || variant === "menu"))>
+            <span class="clipped">
+                - ${a11ySelectedText}
+            </span>
+        </if>
+    </span>
+    <if(variant === "menu")>
+        <ebay-chevron-down-12-icon class="filter-chip__trailing"/>
+    </if>
+</>

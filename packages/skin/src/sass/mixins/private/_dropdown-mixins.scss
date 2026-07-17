@@ -1,0 +1,66 @@
+@use "./bubble-mixins";
+@use "./token-mixins";
+
+@mixin base($component) {
+    background-color: var(--color-background-elevated);
+    border-radius: var(--border-radius-50);
+    box-shadow: var(--bubble-shadow);
+    box-sizing: border-box;
+    display: none;
+    left: 0;
+    max-height: 400px;
+    overflow-y: auto;
+    position: absolute;
+    top: 0;
+    width: fit-content;
+    z-index: 2;
+
+    &--set-position {
+        min-width: 100%;
+        top: calc(100% + 4px);
+        width: auto;
+    }
+
+    &--fixed {
+        position: fixed;
+    }
+
+    [dir="rtl"] & {
+        left: unset;
+        right: 0;
+    }
+}
+
+@mixin reverse() {
+    left: unset;
+    right: 0;
+
+    [dir="rtl"] & {
+        left: 0;
+        right: unset;
+    }
+}
+
+@mixin item-border-radius($component) {
+    &:first-child {
+        @include token-mixins.border-top-left-radius-token(
+            #{$component}-border-radius,
+            border-radius-50
+        );
+        @include token-mixins.border-top-right-radius-token(
+            #{$component}-border-radius,
+            border-radius-50
+        );
+    }
+
+    &:last-child {
+        @include token-mixins.border-bottom-left-radius-token(
+            #{$component}-border-radius,
+            border-radius-50
+        );
+        @include token-mixins.border-bottom-right-radius-token(
+            #{$component}-border-radius,
+            border-radius-50
+        );
+    }
+}

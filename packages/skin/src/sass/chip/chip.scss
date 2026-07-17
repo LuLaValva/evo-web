@@ -1,0 +1,43 @@
+@use "../mixins/private/chip-mixins";
+@use "../variables/variables";
+
+.chip {
+    @include chip-mixins.base;
+
+    background-color: var(--color-background-strong);
+    border-radius: var(--border-radius-50);
+    color: var(--color-foreground-on-strong);
+}
+
+.chip__text {
+    @include chip-mixins.text;
+}
+
+.chip button.chip__button {
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    border-radius: 50px;
+    box-sizing: border-box;
+    color: var(--color-foreground-on-strong);
+    display: flex;
+    flex-shrink: 0;
+    height: var(--spacing-300);
+    justify-content: center;
+    line-height: 0;
+    margin-inline-end: -8px;
+    padding: 0;
+    width: var(--spacing-300);
+}
+
+.chip button.chip__button:focus-visible {
+    background-color: var(--state-layer-focus);
+    outline-color: var(--color-foreground-on-strong);
+    outline-offset: -2px;
+    outline-style: solid;
+    outline-width: 2px;
+}
+
+.chip button.chip__button:hover {
+    background-color: var(--state-layer-hover);
+}

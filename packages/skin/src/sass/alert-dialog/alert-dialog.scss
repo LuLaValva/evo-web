@@ -1,0 +1,102 @@
+@use "../variables/variables";
+@use "../mixins/private/dialog-mixins";
+@use "../mixins/public/typography-mixins";
+
+.alert-dialog[role="alertdialog"] {
+    @include dialog-mixins.lightbox-base;
+}
+
+.alert-dialog__window {
+    @include dialog-mixins.lightbox-window-centered;
+
+    margin-left: var(--spacing-200);
+    margin-right: var(--spacing-200);
+    padding: var(--spacing-200);
+}
+
+.alert-dialog__title {
+    @include typography-mixins.typography-large-1;
+
+    margin: 0;
+}
+
+.alert-dialog__footer {
+    text-align: right;
+}
+
+.alert-dialog__main {
+    margin: var(--spacing-200) 0;
+    min-height: var(--spacing-200);
+
+    & > :first-child {
+        margin-top: 0;
+    }
+
+    & > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+.alert-dialog--show,
+.alert-dialog--hide {
+    &.alert-dialog--mask-fade {
+        transition: background-color 0.16s ease-out;
+    }
+
+    &.alert-dialog--mask-fade-slow {
+        transition: background-color 0.32s ease-out;
+    }
+
+    .alert-dialog__window--fade {
+        transition: opacity 0.16s ease-out;
+    }
+}
+
+.alert-dialog--hide,
+.alert-dialog--show-init {
+    &.alert-dialog--hide,
+    &.alert-dialog--show-init {
+        display: flex;
+    }
+
+    &.alert-dialog--mask-fade,
+    &.alert-dialog--mask-fade-slow {
+        background-color: var(--dialog-scrim-color-hide);
+    }
+
+    .alert-dialog__window--fade {
+        opacity: 0;
+    }
+}
+
+.alert-dialog--show,
+.alert-dialog--hide-init {
+    &.alert-dialog--show,
+    &.alert-dialog--hide-init {
+        display: flex;
+    }
+
+    &.alert-dialog--mask-fade,
+    &.alert-dialog--mask-fade-slow {
+        background-color: var(--dialog-scrim-color-show);
+    }
+
+    .alert-dialog__window--fade {
+        opacity: 1;
+    }
+}
+
+@include dialog-mixins.animation(alert-dialog);
+@include dialog-mixins.animation-large(alert-dialog);
+
+@media (min-width: variables.$screen-size-MD) {
+    .alert-dialog__window {
+        max-width: calc(88% - var(--spacing-400));
+    }
+}
+
+@media (min-width: variables.$screen-size-LG) {
+    .alert-dialog__window {
+        max-width: var(--dialog-lightbox-max-width);
+    }
+}

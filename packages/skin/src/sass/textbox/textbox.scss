@@ -1,0 +1,258 @@
+@use "../mixins/private/token-mixins";
+
+:root {
+    --input-default-height: 40px;
+    --input-large-height: 48px;
+}
+
+.textbox {
+    @include token-mixins.color-token(
+        textbox-foreground-color,
+        color-foreground-primary
+    );
+    @include token-mixins.background-color-token(
+        textbox-background-color,
+        color-background-secondary
+    );
+    @include token-mixins.border-color-token(
+        textbox-border-color,
+        color-border-medium
+    );
+    @include token-mixins.border-radius-token(
+        textbox-border-radius,
+        border-radius-50
+    );
+
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    display: inline-flex;
+
+    /* to align with buttons and select, it needs same font-size */
+    font-size: var(--font-size-body);
+    gap: var(--spacing-100);
+    overflow: hidden;
+    position: relative;
+    width: fit-content;
+
+    button.icon-btn {
+        background-color: transparent;
+        padding: 0;
+    }
+}
+
+/* `.textbox--focus` should be removed after full browser support for `:has` */
+.textbox--focus,
+.textbox:has(> .textbox__control:focus):not(.textbox--readonly):not(
+        :has(> .textbox__control[readonly])
+    ) {
+    box-shadow: 0 0 0 1px var(--color-border-strong);
+    @include token-mixins.border-color-token(
+        textbox-focus-border-color,
+        color-border-strong
+    );
+    @include token-mixins.background-color-token(
+        textbox-focus-background-color,
+        color-background-primary
+    );
+}
+
+/* `.textbox--readonly` should be removed after full browser support for `:has` */
+.textbox--readonly,
+.textbox:has(> .textbox__control[readonly]) {
+    background-color: transparent;
+    border: none;
+}
+
+/* `.textbox--disabled` should be removed after full browser support for `:has` */
+.textbox--disabled,
+.textbox:has(> .textbox__control[disabled]) {
+    @include token-mixins.border-color-token(
+        textbox-disabled-border-color,
+        color-background-disabled
+    );
+    @include token-mixins.color-token(
+        textbox-disabled-foreground-color,
+        color-foreground-disabled
+    );
+}
+
+/* `.textbox--invalid` should be removed after full browser support for `:has` */
+.textbox--invalid,
+.textbox:has(> .textbox__control[aria-invalid="true"]) {
+    @include token-mixins.border-color-token(
+        textbox-invalid-border-color,
+        color-border-attention
+    );
+}
+
+.textbox__control {
+    background-color: transparent;
+    border: none;
+    box-sizing: border-box;
+    color: inherit;
+}
+
+textarea.textbox__control {
+    font-family: inherit;
+    min-height: 200px;
+    overflow: auto;
+    padding: var(--spacing-200);
+    /* stylelint-disable-next-line plugin/no-unsupported-browser-features */
+    resize: vertical;
+    vertical-align: middle;
+}
+
+input.textbox__control {
+    font-family: inherit;
+    padding: 0;
+    vertical-align: middle;
+}
+
+input.textbox__control:first-child:not([readonly]) {
+    padding-inline-start: var(--spacing-200);
+}
+
+input.textbox__control:last-child:not([readonly]) {
+    padding-inline-end: var(--spacing-200);
+}
+
+input.textbox__control,
+textarea.textbox__control {
+    appearance: none;
+    flex-grow: 1;
+    font-size: 1em;
+    height: 40px;
+    margin: 0; /* Remove the margin in Firefox and Safari. */
+    outline: none;
+
+    &[disabled] {
+        @include token-mixins.border-color-token(
+            textbox-disabled-border-color,
+            color-background-disabled
+        );
+        @include token-mixins.color-token(
+            textbox-disabled-foreground-color,
+            color-foreground-disabled
+        );
+
+        &::-webkit-input-placeholder {
+            @include token-mixins.color-token(
+                textbox-disabled-placeholder-color,
+                color-foreground-ghost
+            );
+        }
+
+        &::-moz-placeholder {
+            @include token-mixins.color-token(
+                textbox-disabled-placeholder-color,
+                color-foreground-ghost
+            );
+        }
+
+        &:-ms-input-placeholder {
+            @include token-mixins.color-token(
+                textbox-disabled-placeholder-color,
+                color-foreground-ghost
+            );
+        }
+    }
+
+    &[aria-invalid="true"] {
+        @include token-mixins.border-color-token(
+            textbox-invalid-foreground-color,
+            color-border-attention
+        );
+    }
+
+    &::-webkit-input-placeholder {
+        @include token-mixins.color-token(
+            textbox-placeholder-color,
+            color-foreground-secondary
+        );
+
+        font-weight: 200;
+    }
+
+    &::-moz-placeholder {
+        @include token-mixins.color-token(
+            textbox-placeholder-color,
+            color-foreground-secondary
+        );
+
+        font-weight: 200;
+    }
+
+    &:-ms-input-placeholder {
+        @include token-mixins.color-token(
+            textbox-placeholder-color,
+            color-foreground-secondary
+        );
+
+        font-weight: 200;
+    }
+
+    &::placeholder {
+        @include token-mixins.color-token(
+            textbox-placeholder-color,
+            color-foreground-secondary
+        );
+
+        font-weight: 200;
+        opacity: 1;
+    }
+}
+
+input.textbox__control {
+    height: calc(var(--input-default-height) - 2px);
+}
+
+.textbox--large input.textbox__control {
+    height: calc(var(--input-large-height) - 2px);
+}
+
+.textbox > svg,
+.textbox .icon-btn > svg {
+    @include token-mixins.color-token(
+        textbox-icon-color,
+        color-foreground-secondary
+    );
+
+    display: inline-flex;
+    height: 1lh;
+    pointer-events: none;
+    @include token-mixins.fill-token(
+        textbox-icon-color,
+        color-foreground-secondary
+    );
+}
+
+.textbox > svg:first-child,
+.textbox > span:first-child {
+    flex-shrink: 0;
+    margin-inline-start: var(--spacing-200);
+}
+
+.textbox > svg:last-child,
+.textbox > span:last-child {
+    margin-inline-end: var(--spacing-200);
+}
+
+.textbox .icon-btn:last-child {
+    margin-inline-start: calc(var(--spacing-100) * -1);
+}
+
+.textbox .icon-btn:first-child {
+    margin-inline-end: calc(var(--spacing-100) * -1);
+}
+
+input.textbox__control[readonly]:focus,
+textarea.textbox__control[readonly]:focus {
+    text-decoration: underline;
+}
+
+.textbox--fluid,
+.textbox--fluid .textbox__control {
+    width: 100%;
+}

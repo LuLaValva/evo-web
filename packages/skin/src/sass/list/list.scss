@@ -1,0 +1,86 @@
+@use "../variables/variables";
+@use "../mixins/private/button-mixins";
+@use "../mixins/private/token-mixins";
+@use "../mixins/private/state-layer";
+
+.list {
+    max-width: 480px;
+}
+
+.list ul,
+.list ol {
+    margin: 0;
+    padding: 0;
+}
+
+.list li::marker {
+    content: "";
+    font-size: 0;
+}
+
+.list li > *,
+.list fieldset > * {
+    @include token-mixins.background-color-token(
+        list-background-color,
+        color-background-primary
+    );
+
+    align-items: center;
+    box-sizing: border-box;
+    color: var(--color-foreground-primary);
+    display: inline-flex;
+    font-size: var(--font-size-medium);
+    margin-block: 1px;
+    min-height: var(--spacing-600);
+    padding: var(--spacing-150) var(--spacing-200);
+    width: 100%;
+}
+
+.list__leading {
+    margin-inline-end: var(--spacing-200);
+}
+
+.list__trailing {
+    margin-inline-start: var(--spacing-200);
+}
+
+.list__body {
+    flex: 1;
+}
+
+.list ol li {
+    counter-increment: item;
+}
+
+.list ol li > *::before {
+    content: counter(item) ".";
+    margin-inline-end: var(--spacing-200);
+    width: var(--spacing-300);
+}
+
+.list li > a,
+.list li > button {
+    border: none;
+    text-align: left;
+    text-decoration: none;
+}
+
+.list li > a,
+.list li > button {
+    @include state-layer.standard;
+}
+
+.list hr {
+    border: 0;
+    border-top: 1px solid var(--color-border-subtle);
+    height: 1px;
+    margin-inline: var(--spacing-200);
+    padding: 0;
+}
+
+[dir="rtl"] {
+    .list li > a,
+    .list li > button {
+        text-align: right;
+    }
+}

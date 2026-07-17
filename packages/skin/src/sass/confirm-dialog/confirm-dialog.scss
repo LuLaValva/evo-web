@@ -1,0 +1,58 @@
+@use "../variables/variables";
+@use "../mixins/private/dialog-mixins";
+@use "../mixins/public/typography-mixins";
+
+.confirm-dialog[role="dialog"] {
+    @include dialog-mixins.lightbox-base;
+}
+
+.confirm-dialog__window {
+    @include dialog-mixins.lightbox-window-centered;
+
+    margin-left: var(--spacing-200);
+    margin-right: var(--spacing-200);
+    padding: var(--spacing-200);
+}
+
+.confirm-dialog__title {
+    @include typography-mixins.typography-large-1;
+
+    margin: 0;
+}
+
+.confirm-dialog__main {
+    margin: var(--spacing-200) 0;
+    min-height: var(--spacing-200);
+
+    & > :first-child {
+        margin-top: 0;
+    }
+
+    & > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+.confirm-dialog__footer {
+    text-align: right;
+}
+
+a.confirm-dialog__confirm,
+button.confirm-dialog__confirm {
+    margin-left: var(--spacing-100);
+}
+
+@include dialog-mixins.animation(confirm-dialog);
+@include dialog-mixins.animation-large(confirm-dialog);
+
+@media (min-width: variables.$screen-size-MD) {
+    .confirm-dialog__window {
+        max-width: calc(88% - var(--spacing-400));
+    }
+}
+
+@media (min-width: variables.$screen-size-LG) {
+    .confirm-dialog__window {
+        max-width: var(--dialog-lightbox-max-width);
+    }
+}

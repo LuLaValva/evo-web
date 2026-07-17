@@ -1,0 +1,76 @@
+@use "../variables/variables";
+@use "../mixins/private/filter-button-mixins";
+@use "../mixins/private/state-layer";
+@use "../mixins/private/token-mixins";
+
+/* .filter-group also exists in filter-menu-button */
+/* todo: move to utility/layout class and/or mixin */
+div.filter-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button.filter-button,
+a.filter-link {
+    background-color: var(--color-background-secondary);
+    border-color: var(--color-border-medium);
+
+    @include filter-button-mixins.base;
+    @include state-layer.standard;
+}
+
+button.filter-button .filter-button__cell,
+a.filter-link .filter-link__cell {
+    display: inline-block;
+    max-width: 258px;
+    overflow: hidden;
+    pointer-events: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+a.filter-link:visited {
+    @include token-mixins.color-token(
+        filter-button-foreground-color,
+        color-foreground-primary
+    );
+}
+
+button.filter-button[aria-pressed="true"],
+a.filter-link--selected {
+    @include token-mixins.border-color-token(
+        filter-button-selected-border-color,
+        color-border-strong
+    );
+
+    font-weight: bold;
+}
+
+a.filter-link--selected:visited {
+    @include token-mixins.border-color-token(
+        filter-button-selected-border-color,
+        color-border-strong
+    );
+}
+
+button.filter-button[disabled],
+button.filter-button[aria-disabled="true"],
+button.filter-button[aria-pressed="true"][disabled],
+button.filter-button[aria-pressed="true"][aria-disabled="true"],
+a.filter-link:not([href]),
+a.filter-link[aria-disabled="true"],
+a.filter-link--selected:not([href]),
+a.filter-link--selected[aria-disabled="true"] {
+    @include token-mixins.color-token(
+        filter-button-disabled-foreground-color,
+        color-foreground-disabled
+    );
+
+    font-weight: normal;
+}
+
+/* https://developer.paciellogroup.com/blog/2018/03/focus-visible-and-backwards-compatibility/ */
+a.filter-link:focus:not(:focus-visible),
+button.filter-button:focus:not(:focus-visible) {
+    outline: none;
+}

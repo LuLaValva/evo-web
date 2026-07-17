@@ -1,0 +1,143 @@
+@use "../mixins/private/token-mixins";
+@use "../mixins/private/state-layer";
+@use "../variables/variables";
+
+.file-preview-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.file-preview-card__body {
+    @include token-mixins.background-color-token(
+        file-preview-card-background-color,
+        color-background-secondary
+    );
+
+    @include token-mixins.border-radius-token(
+        file-preview-card-border-radius,
+        border-radius-100
+    );
+
+    // Safari support added in v15+, but degraded experience is acceptable
+    aspect-ratio: 1/1;
+    display: flex;
+    max-width: 396px;
+    min-height: 120px;
+    min-width: 120px;
+    position: relative;
+}
+
+.file-preview-card__asset {
+    margin: auto;
+}
+
+img.file-preview-card__asset,
+video.file-preview-card__asset {
+    @include token-mixins.border-radius-token(
+        file-preview-card-border-radius,
+        border-radius-100
+    );
+
+    align-self: center;
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+}
+
+.file-preview-card__asset--fade {
+    background-color: inherit;
+    opacity: 0.5;
+}
+
+.file-preview-card__asset.icon {
+    height: 40%;
+    width: 40%;
+}
+
+.file-preview-card__body .icon-btn {
+    height: var(--spacing-400);
+    width: var(--spacing-400);
+}
+
+.file-preview-card__body > .file-preview-card__action {
+    position: absolute;
+    right: var(--spacing-100);
+    top: var(--spacing-100);
+    z-index: 1;
+}
+
+.file-preview-card__body > .file-preview-card__action:dir(rtl) {
+    left: var(--spacing-100);
+    right: auto;
+}
+
+.icon-btn.file-preview-card__action:not(:hover) {
+    @include token-mixins.background-color-token(
+        file-preview-card-action-background-color,
+        color-background-primary
+    );
+}
+
+.file-preview-card__info {
+    @include token-mixins.background-color-token(
+        file-preview-card-info-background-color,
+        color-background-primary
+    );
+
+    align-items: center;
+    border-radius: 1em;
+    bottom: var(--spacing-100);
+    display: flex;
+    font-size: var(--font-size-small);
+    font-weight: 400;
+    gap: var(--spacing-50);
+    left: var(--spacing-100);
+    padding: var(--spacing-50) var(--spacing-100);
+    position: absolute;
+    z-index: 1;
+}
+
+.file-preview-card__info:dir(rtl) {
+    left: auto;
+    right: var(--spacing-100);
+}
+
+.file-preview-card__info > .icon {
+    height: var(--spacing-150);
+    width: var(--spacing-150);
+}
+
+.file-preview-card__see-more {
+    @include state-layer.standard;
+
+    aspect-ratio: 1/1;
+    background-color: var(--color-background-inverse);
+    border: none;
+    border-radius: 50%;
+    color: var(--color-foreground-on-strong);
+    font-family: inherit;
+    font-size: var(--font-size-body);
+    font-weight: 700;
+    left: 50%;
+    line-height: var(--spacing-250);
+    padding: var(--spacing-100);
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.file-preview-card__footer {
+    display: grid;
+}
+
+.file-preview-card__footer > * {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.file-preview-card__footer > :not(:first-child) {
+    color: var(--color-foreground-secondary);
+    font-size: var(--font-size-small);
+}

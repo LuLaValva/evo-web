@@ -1,0 +1,86 @@
+@use "../variables/variables";
+@use "../mixins/private/token-mixins";
+
+a.nav-link,
+a.standalone-link {
+    @include token-mixins.color-token(
+        nav-link-foreground-color,
+        color-foreground-link-primary
+    );
+
+    text-decoration: none;
+
+    &:visited {
+        @include token-mixins.color-token(
+            link-foreground-color-default,
+            color-foreground-link-primary
+        );
+    }
+
+    &:hover {
+        @include token-mixins.color-token(
+            nav-link-foreground-hover-color,
+            color-foreground-secondary
+        );
+
+        text-decoration: underline;
+    }
+
+    &:not([href]),
+    &[aria-disabled="true"] {
+        @include token-mixins.color-token(
+            link-forground-color-disabled,
+            color-foreground-disabled
+        );
+
+        text-decoration: none;
+    }
+}
+
+button.fake-link {
+    background-color: transparent;
+    border: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0;
+    text-decoration: underline;
+    @include token-mixins.color-token(
+        fake-link-foreground-color,
+        color-foreground-link-primary
+    );
+
+    &:hover {
+        @include token-mixins.color-token(
+            fake-link-foreground-color-hover,
+            color-foreground-secondary
+        );
+    }
+
+    &[disabled],
+    &[aria-disabled="true"] {
+        @include token-mixins.color-token(
+            fake-link-foreground-disabled-color,
+            color-foreground-disabled
+        );
+    }
+}
+
+a.legal-link,
+button.legal-link {
+    @include token-mixins.color-token(
+        legal-link-foreground-color,
+        color-foreground-link-legal
+    );
+
+    text-decoration: underline;
+
+    // At the moment there is no hover state for legal links.
+    // This is done so that the link does not inherit the hover and visited state defined in global
+    &:hover,
+    &:visited {
+        @include token-mixins.color-token(
+            legal-link-foreground-color,
+            color-foreground-link-legal
+        );
+    }
+}

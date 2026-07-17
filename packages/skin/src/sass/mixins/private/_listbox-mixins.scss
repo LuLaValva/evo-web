@@ -1,0 +1,38 @@
+@use "./token-mixins";
+@use "./selection-list-mixins";
+@use "./state-layer";
+
+@mixin base() {
+    border-color: var(--color-background-primary);
+    color: var(--color-foreground-primary);
+
+    @include selection-list-mixins.base;
+    @include state-layer.standard;
+
+    &[hidden] {
+        display: none; /* https://css-tricks.com/the-hidden-attribute-is-visibly-weak/ */
+    }
+
+    &:active {
+        font-weight: bold;
+    }
+
+    &:disabled,
+    &[aria-disabled="true"] {
+        @include disabled;
+    }
+}
+
+@mixin disabled() {
+    @include token-mixins.color-token(
+        listbox-option-disabled-foreground-color,
+        color-foreground-disabled
+    );
+
+    background-color: unset;
+    font-weight: unset;
+}
+
+@mixin status() {
+    @include selection-list-mixins.status;
+}
