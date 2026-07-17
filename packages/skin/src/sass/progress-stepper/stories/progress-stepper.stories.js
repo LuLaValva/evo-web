@@ -1,4 +1,9 @@
-export default { title: "Skin/Progress Stepper" };
+export default {
+    title: "Skin/Progress Stepper",
+    parameters: {
+        visual: { widths: [320, 512], rtl: true },
+    },
+};
 
 export const base = () => `
 <div class="progress-stepper">

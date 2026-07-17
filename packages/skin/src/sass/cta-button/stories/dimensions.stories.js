@@ -1,4 +1,9 @@
-export default { title: "Skin/CTA Button/Dimensions" };
+export default {
+    title: "Skin/CTA Button/Dimensions",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const large = () => `
 <a class="cta-btn cta-btn--large" href="http://www.ebay.com">

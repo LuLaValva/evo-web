@@ -1,4 +1,9 @@
-export default { title: "Skin/Field/Helper Texts/Stacked" };
+export default {
+    title: "Skin/Field/Helper Texts/Stacked",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const characterMeterOnly = () => `
 <span class="field">

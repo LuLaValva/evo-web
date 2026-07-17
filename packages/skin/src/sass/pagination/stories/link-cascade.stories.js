@@ -1,4 +1,9 @@
-export default { title: "Skin/Pagination/Links/Cascade" };
+export default {
+    title: "Skin/Pagination/Links/Cascade",
+    parameters: {
+        visual: { widths: [320, 768], rtl: true },
+    },
+};
 
 export const fontSize = () => `
 <nav class="pagination" aria-labelledby="pagination-heading" role="navigation" style="font-size: 200%">

@@ -1,4 +1,9 @@
-export default { title: "Skin/Layout Grid" };
+export default {
+    title: "Skin/Layout Grid",
+    parameters: {
+        visual: { widths: [320, 512, 768, 1024, 1440, 1680, 1920] },
+    },
+};
 
 export const base = () => `
 <div class="layout-grid">

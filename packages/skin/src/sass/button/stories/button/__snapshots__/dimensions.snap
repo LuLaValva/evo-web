@@ -1,0 +1,395 @@
+┌─ fixedWidth @ 1280px
+<div>
+  <button style="
+    align-content: center;
+    align-items: center;
+    border-bottom-color: currentcolor;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom: 1px solid;
+    border-left-color: currentcolor;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: currentcolor;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: currentcolor;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top: 1px solid;
+    color: inherit;
+    font-family: inherit;
+    font-size: var(--font-size-body);
+    min-height: 40px;
+    min-width: 88px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    vertical-align: bottom;
+    width: 200px
+  ">
+    Button with a lot of text that should wrap
+  </button>
+</div>
+
+┌─ fixedWidth @ 1280px rtl
+(same as 1280px)
+
+┌─ fixedWidthAndHeight @ 1280px
+<div>
+  <button style="
+    align-content: center;
+    align-items: center;
+    border-bottom-color: currentcolor;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom: 1px solid;
+    border-left-color: currentcolor;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: currentcolor;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: currentcolor;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top: 1px solid;
+    color: inherit;
+    font-family: inherit;
+    font-size: var(--font-size-body);
+    height: 40px;
+    min-height: 40px;
+    min-width: 88px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    vertical-align: bottom;
+    width: 200px
+  ">
+    Button with a lot of text that should wrap
+  </button>
+</div>
+
+┌─ fixedWidthAndHeight @ 1280px rtl
+(same as 1280px)
+
+┌─ fixedWidthAndHeightTruncated @ 1280px
+<div>
+  <button style="
+    align-content: center;
+    align-items: center;
+    border-bottom-color: currentcolor;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom: 1px solid;
+    border-left-color: currentcolor;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: currentcolor;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: currentcolor;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top: 1px solid;
+    color: inherit;
+    font-family: inherit;
+    font-size: var(--font-size-body);
+    height: 40px;
+    line-height: 1.4em;
+    min-height: 40px;
+    min-width: 88px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    text-overflow: ellipsis;
+    text-wrap-mode: nowrap;
+    vertical-align: bottom;
+    width: 200px
+  ">
+    Button with a lot of text that should wrap
+  </button>
+</div>
+
+┌─ fixedWidthAndHeightTruncated @ 1280px rtl
+(same as 1280px)
+
+┌─ fluid @ 1280px
+<div>
+  <button style="
+    align-content: center;
+    align-items: center;
+    border-bottom-color: currentcolor;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom: 1px solid;
+    border-left-color: currentcolor;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: currentcolor;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: currentcolor;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top: 1px solid;
+    color: inherit;
+    font-family: inherit;
+    font-size: var(--font-size-body);
+    min-height: 40px;
+    min-width: 88px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    vertical-align: bottom;
+    width: 100%
+  ">
+    Button
+  </button>
+</div>
+
+┌─ fluid @ 1280px rtl
+(same as 1280px)
+
+┌─ formLarge @ 1280px
+<div>
+  <button style="
+    align-content: center;
+    align-items: center;
+    border-bottom-color: inherit;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom: 1px solid;
+    border-left-color: inherit;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: inherit;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: inherit;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top: 1px solid;
+    color: inherit;
+    font-family: inherit;
+    font-size: var(--font-size-medium);
+    max-width: 100%;
+    min-height: 48px;
+    min-width: 88px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    position: relative;
+    vertical-align: bottom
+  ">
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    Button
+  </button>
+</div>
+
+┌─ formLarge @ 1280px rtl
+(same as 1280px)
+
+┌─ formSmall @ 1280px
+<div>
+  <button style="
+    align-content: center;
+    align-items: center;
+    border-bottom-color: inherit;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom: 1px solid;
+    border-left-color: inherit;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: inherit;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: inherit;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top: 1px solid;
+    color: inherit;
+    font-family: inherit;
+    font-size: var(--font-size-body);
+    max-width: 100%;
+    min-height: 32px;
+    min-width: 88px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 0px;
+    position: relative;
+    vertical-align: bottom
+  ">
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    Button
+  </button>
+</div>
+
+┌─ formSmall @ 1280px rtl
+(same as 1280px)
+
+┌─ large @ 1280px
+<div>
+  <button style="
+    align-content: center;
+    align-items: center;
+    border-bottom-color: currentcolor;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom: 1px solid;
+    border-left-color: currentcolor;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: currentcolor;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: currentcolor;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top: 1px solid;
+    color: inherit;
+    font-family: inherit;
+    font-size: var(--font-size-medium);
+    min-height: 48px;
+    min-width: 88px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    vertical-align: bottom
+  ">
+    <span style="
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      width: 100%
+    ">
+      <svg
+        height="16"
+        style="
+          align-self: center;
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          margin-inline-end: 8px;
+          max-height: 48px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="16"
+      >
+        <use href="#icon-settings-16"/>
+      </svg>
+      <span>
+        Button
+      </span>
+    </span>
+  </button>
+</div>
+
+┌─ large @ 1280px rtl
+(same as 1280px)
+
+┌─ small @ 1280px
+<div>
+  <button style="
+    align-content: center;
+    align-items: center;
+    border-bottom-color: currentcolor;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom: 1px solid;
+    border-left-color: currentcolor;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: currentcolor;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: currentcolor;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top: 1px solid;
+    color: inherit;
+    font-family: inherit;
+    font-size: var(--font-size-body);
+    min-height: 32px;
+    min-width: 88px;
+    padding-bottom: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 0px;
+    vertical-align: bottom
+  ">
+    <span style="
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      width: 100%
+    ">
+      <svg
+        height="16"
+        style="
+          align-self: center;
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          margin-inline-end: 8px;
+          max-height: 32px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="16"
+      >
+        <use href="#icon-settings-16"/>
+      </svg>
+      <span>
+        Button
+      </span>
+    </span>
+  </button>
+</div>
+
+┌─ small @ 1280px rtl
+(same as 1280px)
+

@@ -1,4 +1,9 @@
-export default { title: "Skin/Table/Sortable" };
+export default {
+    title: "Skin/Table/Sortable",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const base = () => `
 <div class="table" role="group" aria-label="Video games for sale" tabindex="0">

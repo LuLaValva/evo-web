@@ -1,4 +1,9 @@
-export default { title: "Skin/Breadcrumbs/Buttons" };
+export default {
+    title: "Skin/Breadcrumbs/Buttons",
+    parameters: {
+        visual: { widths: [320, 512], rtl: true },
+    },
+};
 
 export const currentLocation = () => `
 <nav aria-labelledby="breadcrumbs-heading" class="breadcrumbs" role="navigation">

@@ -1,4 +1,9 @@
-export default { title: "Skin/Table/Loading" };
+export default {
+    title: "Skin/Table/Loading",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const base = () => `
 <div class="table table--loading-state" role="group" aria-label="Video games for sale" tabindex="0">

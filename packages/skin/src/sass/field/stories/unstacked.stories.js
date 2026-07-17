@@ -1,4 +1,9 @@
-export default { title: "Skin/Field/Unstacked" };
+export default {
+    title: "Skin/Field/Unstacked",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const inlineLevel = () => `
 <span class="field">

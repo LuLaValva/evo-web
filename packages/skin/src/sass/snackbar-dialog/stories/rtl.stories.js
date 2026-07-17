@@ -1,4 +1,9 @@
-export default { title: "Skin/Snackbar Dialog/RTL" };
+export default {
+    title: "Skin/Snackbar Dialog/RTL",
+    parameters: {
+        visual: { widths: [320, 512], rtl: true },
+    },
+};
 
 export const noAction = () => `
     <div dir="rtl">

@@ -38,7 +38,7 @@ When reviewing pull requests for the evo-web project, please follow these custom
 
 - [ ] **Dist Regeneration**: Verify all CSS files under dist folder have been regenerated
 - [ ] **Browser Testing**: Check that UI has been tested in all supported browsers
-- [ ] **Visual Regression**: Ensure Percy build was done and approved for visual regression testing
+- [ ] **Visual Regression**: Ensure visual-html snapshots are regenerated (`npm run update-snapshots -w packages/skin`) and committed; the `Visual Regression` check must be green
 - [ ] **Dark Mode**: Verify UI works in dark mode
 - [ ] **RTL Support**: Check right-to-left (RTL) mode compatibility
 - [ ] **Storybook**: Refer to the "Code Quality Checks" section for detailed Storybook requirements.

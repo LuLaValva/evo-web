@@ -1,0 +1,1436 @@
+┌─ heading @ 320px
+<div>
+  <div style="
+    align-items: baseline;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 30px
+  ">
+    <div style="margin-inline-end: var(--spacing-300)">
+      <h2 style="
+        font-size: var(--font-size-large-1);
+        font-weight: var(--font-weight-600);
+        line-height: 28px;
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Marketing Type Content Title
+      </h2>
+    </div>
+  </div>
+</div>
+
+┌─ heading @ 512px
+(same as 1280px)
+
+┌─ heading @ 1280px
+<div>
+  <div style="
+    align-items: baseline;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 30px
+  ">
+    <div style="margin-inline-end: var(--spacing-300)">
+      <h2 style="
+        font-size: var(--font-size-large-2);
+        font-weight: var(--font-weight-600);
+        line-height: 32px;
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Marketing Type Content Title
+      </h2>
+    </div>
+  </div>
+</div>
+
+┌─ heading @ 1280px rtl
+(same as 1280px)
+
+┌─ linked @ 320px
+<div>
+  <div style="
+    align-items: baseline;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 30px
+  ">
+    <div style="margin-inline-end: var(--spacing-300)">
+      <h2 style="
+        font-size: var(--font-size-large-1);
+        font-weight: var(--font-weight-600);
+        line-height: 28px;
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Marketing Type Content Title
+      </h2>
+    </div>
+    <a style="
+      align-items: baseline;
+      color: var(--color-foreground-link-primary);
+      display: flex;
+      height: var(--spacing-400);
+      margin-left: auto
+    ">
+      See all
+    </a>
+  </div>
+</div>
+
+┌─ linked @ 512px
+(same as 1280px)
+
+┌─ linked @ 1280px
+<div>
+  <div style="
+    align-items: baseline;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 30px
+  ">
+    <div style="margin-inline-end: var(--spacing-300)">
+      <h2 style="
+        font-size: var(--font-size-large-2);
+        font-weight: var(--font-weight-600);
+        line-height: 32px;
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Marketing Type Content Title
+      </h2>
+    </div>
+    <a style="
+      align-items: baseline;
+      color: var(--color-foreground-link-primary);
+      display: flex;
+      height: var(--spacing-400);
+      margin-left: auto
+    ">
+      See all
+    </a>
+  </div>
+</div>
+
+┌─ linked @ 1280px rtl
+(same as 1280px)
+
+┌─ linkedWithSubheading @ 320px
+<div>
+  <div style="
+    align-items: baseline;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 30px
+  ">
+    <div style="margin-inline-end: var(--spacing-300)">
+      <h2 style="
+        font-size: var(--font-size-large-1);
+        font-weight: var(--font-weight-600);
+        line-height: 28px;
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Marketing Type Content Title
+      </h2>
+      <span style="
+        color: var(--section-title-subtitle-color, var(--color-foreground-secondary));
+        font-size: var(--font-size-body);
+        line-height: 20px
+      ">
+        Recommended for you
+      </span>
+    </div>
+    <a style="
+      align-items: baseline;
+      color: var(--color-foreground-link-primary);
+      display: flex;
+      height: var(--spacing-400);
+      margin-left: auto
+    ">
+      See all
+    </a>
+  </div>
+</div>
+
+┌─ linkedWithSubheading @ 512px
+(same as 1280px)
+
+┌─ linkedWithSubheading @ 1280px
+<div>
+  <div style="
+    align-items: baseline;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 30px
+  ">
+    <div style="margin-inline-end: var(--spacing-300)">
+      <h2 style="
+        font-size: var(--font-size-large-2);
+        font-weight: var(--font-weight-600);
+        line-height: 32px;
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Marketing Type Content Title
+      </h2>
+      <span style="
+        color: var(--section-title-subtitle-color, var(--color-foreground-secondary));
+        font-size: var(--font-size-medium);
+        line-height: 24px
+      ">
+        Recommended for you
+      </span>
+    </div>
+    <a style="
+      align-items: baseline;
+      color: var(--color-foreground-link-primary);
+      display: flex;
+      height: var(--spacing-400);
+      margin-left: auto
+    ">
+      See all
+    </a>
+  </div>
+</div>
+
+┌─ linkedWithSubheading @ 1280px rtl
+(same as 1280px)
+
+┌─ overflow @ 320px
+<div>
+  <div style="
+    align-items: baseline;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 30px
+  ">
+    <div style="margin-inline-end: var(--spacing-300)">
+      <h2 style="
+        font-size: var(--font-size-large-1);
+        font-weight: var(--font-weight-600);
+        line-height: 28px;
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Marketing Type Content Title
+      </h2>
+    </div>
+    <div style="
+      align-items: baseline;
+      display: flex;
+      height: var(--spacing-400);
+      margin-left: auto;
+      margin: 0 var(--spacing-300) 0 auto
+    ">
+      <span style="position: relative">
+        <button style="
+          align-items: center;
+          background-color: var(--color-background-secondary);
+          border-bottom-color: transparent;
+          border-bottom-left-radius: 50px;
+          border-bottom-right-radius: 50px;
+          border-bottom-style: solid;
+          border-left-color: transparent;
+          border-left-style: solid;
+          border-right-color: transparent;
+          border-right-style: solid;
+          border-top-color: transparent;
+          border-top-left-radius: 50px;
+          border-top-right-radius: 50px;
+          border-top-style: solid;
+          display: inline-flex;
+          font-family: inherit;
+          height: var(--spacing-400);
+          justify-content: center;
+          min-width: var(--spacing-400);
+          overflow-x: hidden;
+          overflow-y: hidden;
+          padding-bottom: 0px;
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-top: 0px;
+          position: relative;
+          vertical-align: text-bottom;
+          width: var(--spacing-400)
+        ">
+          <style>@scope{:scope{
+            &::after {
+              background-color: var(--color-state-layer-neutral);
+              border-bottom-left-radius: 50px;
+              border-bottom-right-radius: 50px;
+              border-top-left-radius: 50px;
+              border-top-right-radius: 50px;
+              bottom: 0px;
+              content: "";
+              left: 0px;
+              pointer-events: none;
+              position: absolute;
+              right: 0px;
+              top: 0px
+            }
+          }}</style>
+          <svg
+            height="24"
+            style="
+              display: inline-block;
+              fill: var(--color-foreground-primary);
+              height: 24px;
+              max-width: 75%;
+              pointer-events: none;
+              position: relative;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle;
+              width: 24px
+            "
+            width="24"
+          >
+            <use href="#icon-overflow-vertical-24"/>
+          </svg>
+        </button>
+        <div style="
+          background-color: var(--color-background-elevated);
+          box-shadow: var(--bubble-shadow);
+          box-sizing: border-box;
+          left: unset;
+          max-height: 400px;
+          min-width: 100%;
+          outline-width: 0px;
+          overflow-y: auto;
+          position: absolute;
+          right: 0px;
+          top: calc(100% + 4px);
+          width: auto;
+          z-index: 2
+        ">
+          <div>
+            <div style="
+              border-bottom-style: solid;
+              border-bottom-width: 1px;
+              border-left-style: solid;
+              border-left-width: 1px;
+              border-right-style: solid;
+              border-right-width: 1px;
+              border-top-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+              border-top-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+              border-top-style: solid;
+              border-top-width: 1px;
+              box-sizing: border-box;
+              color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
+              cursor: default;
+              display: inline-grid;
+              font-family: inherit;
+              grid-template-columns: auto auto;
+              justify-content: space-between;
+              margin-bottom: 1px;
+              overflow-x: hidden;
+              overflow-y: hidden;
+              padding-bottom: 8px;
+              padding-left: 15px;
+              padding-right: 15px;
+              padding-top: 8px;
+              position: relative;
+              width: 100%
+            ">
+              <style>@scope{:scope{
+                &::after {
+                  background-color: var(--color-state-layer-neutral);
+                  bottom: 0px;
+                  content: "";
+                  left: 0px;
+                  pointer-events: none;
+                  position: absolute;
+                  right: 0px;
+                  top: 0px
+                }
+              }}</style>
+              <span style="
+                flex-grow: 1;
+                flex-shrink: 0;
+                text-wrap-mode: nowrap
+              ">
+                Item 1
+              </span>
+            </div>
+            <div style="
+              border-bottom-style: solid;
+              border-bottom-width: 1px;
+              border-left-style: solid;
+              border-left-width: 1px;
+              border-right-style: solid;
+              border-right-width: 1px;
+              border-top-style: solid;
+              border-top-width: 1px;
+              box-sizing: border-box;
+              color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
+              cursor: default;
+              display: inline-grid;
+              font-family: inherit;
+              grid-template-columns: auto auto;
+              justify-content: space-between;
+              margin-bottom: 1px;
+              overflow-x: hidden;
+              overflow-y: hidden;
+              padding-bottom: 8px;
+              padding-left: 15px;
+              padding-right: 15px;
+              padding-top: 8px;
+              position: relative;
+              width: 100%
+            ">
+              <style>@scope{:scope{
+                &::after {
+                  background-color: var(--color-state-layer-neutral);
+                  bottom: 0px;
+                  content: "";
+                  left: 0px;
+                  pointer-events: none;
+                  position: absolute;
+                  right: 0px;
+                  top: 0px
+                }
+              }}</style>
+              <span style="
+                flex-grow: 1;
+                flex-shrink: 0;
+                text-wrap-mode: nowrap
+              ">
+                Item 2
+              </span>
+            </div>
+            <div style="
+              border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+              border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+              border-bottom-style: solid;
+              border-bottom-width: 1px;
+              border-left-style: solid;
+              border-left-width: 1px;
+              border-right-style: solid;
+              border-right-width: 1px;
+              border-top-style: solid;
+              border-top-width: 1px;
+              box-sizing: border-box;
+              color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
+              cursor: default;
+              display: inline-grid;
+              font-family: inherit;
+              grid-template-columns: auto auto;
+              justify-content: space-between;
+              overflow-x: hidden;
+              overflow-y: hidden;
+              padding-bottom: 8px;
+              padding-left: 15px;
+              padding-right: 15px;
+              padding-top: 8px;
+              position: relative;
+              width: 100%
+            ">
+              <style>@scope{:scope{
+                &::after {
+                  background-color: var(--color-state-layer-neutral);
+                  bottom: 0px;
+                  content: "";
+                  left: 0px;
+                  pointer-events: none;
+                  position: absolute;
+                  right: 0px;
+                  top: 0px
+                }
+              }}</style>
+              <span style="
+                flex-grow: 1;
+                flex-shrink: 0;
+                text-wrap-mode: nowrap
+              ">
+                Item 3
+              </span>
+            </div>
+          </div>
+        </div>
+      </span>
+    </div>
+  </div>
+</div>
+
+┌─ overflow @ 512px
+(same as 1280px)
+
+┌─ overflow @ 1280px
+<div>
+  <div style="
+    align-items: baseline;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 30px
+  ">
+    <div style="margin-inline-end: var(--spacing-300)">
+      <h2 style="
+        font-size: var(--font-size-large-2);
+        font-weight: var(--font-weight-600);
+        line-height: 32px;
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Marketing Type Content Title
+      </h2>
+    </div>
+    <div style="
+      align-items: baseline;
+      display: flex;
+      height: var(--spacing-400);
+      margin-left: auto;
+      margin: 0 var(--spacing-300) 0 auto
+    ">
+      <span style="position: relative">
+        <button style="
+          align-items: center;
+          background-color: var(--color-background-secondary);
+          border-bottom-color: transparent;
+          border-bottom-left-radius: 50px;
+          border-bottom-right-radius: 50px;
+          border-bottom-style: solid;
+          border-left-color: transparent;
+          border-left-style: solid;
+          border-right-color: transparent;
+          border-right-style: solid;
+          border-top-color: transparent;
+          border-top-left-radius: 50px;
+          border-top-right-radius: 50px;
+          border-top-style: solid;
+          display: inline-flex;
+          font-family: inherit;
+          height: var(--spacing-400);
+          justify-content: center;
+          min-width: var(--spacing-400);
+          overflow-x: hidden;
+          overflow-y: hidden;
+          padding-bottom: 0px;
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-top: 0px;
+          position: relative;
+          vertical-align: text-bottom;
+          width: var(--spacing-400)
+        ">
+          <style>@scope{:scope{
+            &::after {
+              background-color: var(--color-state-layer-neutral);
+              border-bottom-left-radius: 50px;
+              border-bottom-right-radius: 50px;
+              border-top-left-radius: 50px;
+              border-top-right-radius: 50px;
+              bottom: 0px;
+              content: "";
+              left: 0px;
+              pointer-events: none;
+              position: absolute;
+              right: 0px;
+              top: 0px
+            }
+          }}</style>
+          <svg
+            height="24"
+            style="
+              display: inline-block;
+              fill: var(--color-foreground-primary);
+              height: 24px;
+              max-width: 75%;
+              pointer-events: none;
+              position: relative;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle;
+              width: 24px
+            "
+            width="24"
+          >
+            <use href="#icon-overflow-vertical-24"/>
+          </svg>
+        </button>
+        <div style="
+          background-color: var(--color-background-elevated);
+          box-shadow: var(--bubble-shadow);
+          box-sizing: border-box;
+          left: unset;
+          max-height: 400px;
+          min-width: 100%;
+          outline-width: 0px;
+          overflow-y: auto;
+          position: absolute;
+          right: 0px;
+          top: calc(100% + 4px);
+          width: auto;
+          z-index: 2
+        ">
+          <div>
+            <div style="
+              border-bottom-style: solid;
+              border-bottom-width: 1px;
+              border-left-style: solid;
+              border-left-width: 1px;
+              border-right-style: solid;
+              border-right-width: 1px;
+              border-top-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+              border-top-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+              border-top-style: solid;
+              border-top-width: 1px;
+              box-sizing: border-box;
+              color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
+              cursor: default;
+              display: inline-grid;
+              font-family: inherit;
+              grid-template-columns: auto auto;
+              justify-content: space-between;
+              margin-bottom: 1px;
+              overflow-x: hidden;
+              overflow-y: hidden;
+              padding-bottom: 8px;
+              padding-left: 15px;
+              padding-right: 15px;
+              padding-top: 8px;
+              position: relative;
+              width: 100%
+            ">
+              <style>@scope{:scope{
+                &::after {
+                  background-color: var(--color-state-layer-neutral);
+                  bottom: 0px;
+                  content: "";
+                  left: 0px;
+                  pointer-events: none;
+                  position: absolute;
+                  right: 0px;
+                  top: 0px
+                }
+              }}</style>
+              <span style="
+                flex-grow: 1;
+                flex-shrink: 0;
+                text-wrap-mode: nowrap
+              ">
+                Item 1
+              </span>
+            </div>
+            <div style="
+              border-bottom-style: solid;
+              border-bottom-width: 1px;
+              border-left-style: solid;
+              border-left-width: 1px;
+              border-right-style: solid;
+              border-right-width: 1px;
+              border-top-style: solid;
+              border-top-width: 1px;
+              box-sizing: border-box;
+              color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
+              cursor: default;
+              display: inline-grid;
+              font-family: inherit;
+              grid-template-columns: auto auto;
+              justify-content: space-between;
+              margin-bottom: 1px;
+              overflow-x: hidden;
+              overflow-y: hidden;
+              padding-bottom: 8px;
+              padding-left: 15px;
+              padding-right: 15px;
+              padding-top: 8px;
+              position: relative;
+              width: 100%
+            ">
+              <style>@scope{:scope{
+                &::after {
+                  background-color: var(--color-state-layer-neutral);
+                  bottom: 0px;
+                  content: "";
+                  left: 0px;
+                  pointer-events: none;
+                  position: absolute;
+                  right: 0px;
+                  top: 0px
+                }
+              }}</style>
+              <span style="
+                flex-grow: 1;
+                flex-shrink: 0;
+                text-wrap-mode: nowrap
+              ">
+                Item 2
+              </span>
+            </div>
+            <div style="
+              border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+              border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+              border-bottom-style: solid;
+              border-bottom-width: 1px;
+              border-left-style: solid;
+              border-left-width: 1px;
+              border-right-style: solid;
+              border-right-width: 1px;
+              border-top-style: solid;
+              border-top-width: 1px;
+              box-sizing: border-box;
+              color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
+              cursor: default;
+              display: inline-grid;
+              font-family: inherit;
+              grid-template-columns: auto auto;
+              justify-content: space-between;
+              overflow-x: hidden;
+              overflow-y: hidden;
+              padding-bottom: 8px;
+              padding-left: 15px;
+              padding-right: 15px;
+              padding-top: 8px;
+              position: relative;
+              width: 100%
+            ">
+              <style>@scope{:scope{
+                &::after {
+                  background-color: var(--color-state-layer-neutral);
+                  bottom: 0px;
+                  content: "";
+                  left: 0px;
+                  pointer-events: none;
+                  position: absolute;
+                  right: 0px;
+                  top: 0px
+                }
+              }}</style>
+              <span style="
+                flex-grow: 1;
+                flex-shrink: 0;
+                text-wrap-mode: nowrap
+              ">
+                Item 3
+              </span>
+            </div>
+          </div>
+        </div>
+      </span>
+    </div>
+  </div>
+</div>
+
+┌─ overflow @ 1280px rtl
+(same as 1280px)
+
+┌─ subheading @ 320px
+<div>
+  <div style="
+    align-items: baseline;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 30px
+  ">
+    <div style="margin-inline-end: var(--spacing-300)">
+      <h2 style="
+        font-size: var(--font-size-large-1);
+        font-weight: var(--font-weight-600);
+        line-height: 28px;
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Marketing Type Content Title
+      </h2>
+      <span style="
+        color: var(--section-title-subtitle-color, var(--color-foreground-secondary));
+        font-size: var(--font-size-body);
+        line-height: 20px
+      ">
+        Recommended for you
+      </span>
+    </div>
+  </div>
+</div>
+
+┌─ subheading @ 512px
+(same as 1280px)
+
+┌─ subheading @ 1280px
+<div>
+  <div style="
+    align-items: baseline;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 30px
+  ">
+    <div style="margin-inline-end: var(--spacing-300)">
+      <h2 style="
+        font-size: var(--font-size-large-2);
+        font-weight: var(--font-weight-600);
+        line-height: 32px;
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Marketing Type Content Title
+      </h2>
+      <span style="
+        color: var(--section-title-subtitle-color, var(--color-foreground-secondary));
+        font-size: var(--font-size-medium);
+        line-height: 24px
+      ">
+        Recommended for you
+      </span>
+    </div>
+  </div>
+</div>
+
+┌─ subheading @ 1280px rtl
+(same as 1280px)
+
+┌─ textSpacing @ 320px
+<div>
+  <div style="
+    align-items: baseline;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 30px
+  ">
+    <div style="margin-inline-end: var(--spacing-300)">
+      <h2 style="
+        font-size: var(--font-size-large-1);
+        font-weight: var(--font-weight-600);
+        line-height: 28px;
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Marketing Type Content Title
+      </h2>
+      <span style="
+        color: var(--section-title-subtitle-color, var(--color-foreground-secondary));
+        font-size: var(--font-size-body);
+        line-height: 20px
+      ">
+        Recommended for you
+      </span>
+    </div>
+    <div style="
+      bottom: -3px;
+      margin: 0 var(--spacing-300) 0 var(--spacing-100);
+      position: relative
+    ">
+      <button style="
+        align-items: center;
+        background-color: var(--color-background-secondary);
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        display: inline-flex;
+        font-family: inherit;
+        height: var(--spacing-400);
+        justify-content: center;
+        min-width: var(--spacing-400);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        position: relative;
+        vertical-align: text-bottom;
+        width: var(--spacing-400)
+      ">
+        <style>@scope{:scope{
+          &::after {
+            background-color: var(--color-state-layer-neutral);
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+            bottom: 0px;
+            content: "";
+            left: 0px;
+            pointer-events: none;
+            position: absolute;
+            right: 0px;
+            top: 0px
+          }
+        }}</style>
+        <svg
+          height="14"
+          style="
+            display: inline-block;
+            fill: var(--color-foreground-primary);
+            height: 16px;
+            max-width: 75%;
+            pointer-events: none;
+            position: relative;
+            stroke-width: 0;
+            stroke: currentcolor;
+            vertical-align: middle;
+            width: 16px
+          "
+          width="16"
+        >
+          <use href="#icon-heart-16"/>
+        </svg>
+      </button>
+    </div>
+    <a style="
+      align-items: baseline;
+      color: var(--color-foreground-link-primary);
+      display: flex;
+      height: var(--spacing-400);
+      margin-left: auto
+    ">
+      See all
+    </a>
+  </div>
+</div>
+
+┌─ textSpacing @ 512px
+(same as 1280px)
+
+┌─ textSpacing @ 1280px
+<div>
+  <div style="
+    align-items: baseline;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 30px
+  ">
+    <div style="margin-inline-end: var(--spacing-300)">
+      <h2 style="
+        font-size: var(--font-size-large-2);
+        font-weight: var(--font-weight-600);
+        line-height: 32px;
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Marketing Type Content Title
+      </h2>
+      <span style="
+        color: var(--section-title-subtitle-color, var(--color-foreground-secondary));
+        font-size: var(--font-size-medium);
+        line-height: 24px
+      ">
+        Recommended for you
+      </span>
+    </div>
+    <div style="
+      bottom: -3px;
+      margin: 0 var(--spacing-300) 0 var(--spacing-100);
+      position: relative
+    ">
+      <button style="
+        align-items: center;
+        background-color: var(--color-background-secondary);
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        display: inline-flex;
+        font-family: inherit;
+        height: var(--spacing-400);
+        justify-content: center;
+        min-width: var(--spacing-400);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        position: relative;
+        vertical-align: text-bottom;
+        width: var(--spacing-400)
+      ">
+        <style>@scope{:scope{
+          &::after {
+            background-color: var(--color-state-layer-neutral);
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+            bottom: 0px;
+            content: "";
+            left: 0px;
+            pointer-events: none;
+            position: absolute;
+            right: 0px;
+            top: 0px
+          }
+        }}</style>
+        <svg
+          height="14"
+          style="
+            display: inline-block;
+            fill: var(--color-foreground-primary);
+            height: 16px;
+            max-width: 75%;
+            pointer-events: none;
+            position: relative;
+            stroke-width: 0;
+            stroke: currentcolor;
+            vertical-align: middle;
+            width: 16px
+          "
+          width="16"
+        >
+          <use href="#icon-heart-16"/>
+        </svg>
+      </button>
+    </div>
+    <a style="
+      align-items: baseline;
+      color: var(--color-foreground-link-primary);
+      display: flex;
+      height: var(--spacing-400);
+      margin-left: auto
+    ">
+      See all
+    </a>
+  </div>
+</div>
+
+┌─ textSpacing @ 1280px rtl
+(same as 1280px)
+
+┌─ withFavorite @ 320px
+<div>
+  <div style="
+    align-items: baseline;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 30px
+  ">
+    <div style="margin-inline-end: var(--spacing-300)">
+      <h2 style="
+        font-size: var(--font-size-large-1);
+        font-weight: var(--font-weight-600);
+        line-height: 28px;
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Marketing Type Content Title
+      </h2>
+      <span style="
+        color: var(--section-title-subtitle-color, var(--color-foreground-secondary));
+        font-size: var(--font-size-body);
+        line-height: 20px
+      ">
+        Recommended for you
+      </span>
+    </div>
+    <div style="
+      bottom: -3px;
+      margin: 0 var(--spacing-300) 0 var(--spacing-100);
+      position: relative
+    ">
+      <button style="
+        align-items: center;
+        background-color: var(--color-background-secondary);
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        display: inline-flex;
+        font-family: inherit;
+        height: var(--spacing-400);
+        justify-content: center;
+        min-width: var(--spacing-400);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        position: relative;
+        vertical-align: text-bottom;
+        width: var(--spacing-400)
+      ">
+        <style>@scope{:scope{
+          &::after {
+            background-color: var(--color-state-layer-neutral);
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+            bottom: 0px;
+            content: "";
+            left: 0px;
+            pointer-events: none;
+            position: absolute;
+            right: 0px;
+            top: 0px
+          }
+        }}</style>
+        <svg
+          height="14"
+          style="
+            display: inline-block;
+            fill: var(--color-foreground-primary);
+            height: 16px;
+            max-width: 75%;
+            pointer-events: none;
+            position: relative;
+            stroke-width: 0;
+            stroke: currentcolor;
+            vertical-align: middle;
+            width: 16px
+          "
+          width="16"
+        >
+          <use href="#icon-heart-16"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+┌─ withFavorite @ 512px
+(same as 1280px)
+
+┌─ withFavorite @ 1280px
+<div>
+  <div style="
+    align-items: baseline;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 30px
+  ">
+    <div style="margin-inline-end: var(--spacing-300)">
+      <h2 style="
+        font-size: var(--font-size-large-2);
+        font-weight: var(--font-weight-600);
+        line-height: 32px;
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Marketing Type Content Title
+      </h2>
+      <span style="
+        color: var(--section-title-subtitle-color, var(--color-foreground-secondary));
+        font-size: var(--font-size-medium);
+        line-height: 24px
+      ">
+        Recommended for you
+      </span>
+    </div>
+    <div style="
+      bottom: -3px;
+      margin: 0 var(--spacing-300) 0 var(--spacing-100);
+      position: relative
+    ">
+      <button style="
+        align-items: center;
+        background-color: var(--color-background-secondary);
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        display: inline-flex;
+        font-family: inherit;
+        height: var(--spacing-400);
+        justify-content: center;
+        min-width: var(--spacing-400);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        position: relative;
+        vertical-align: text-bottom;
+        width: var(--spacing-400)
+      ">
+        <style>@scope{:scope{
+          &::after {
+            background-color: var(--color-state-layer-neutral);
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+            bottom: 0px;
+            content: "";
+            left: 0px;
+            pointer-events: none;
+            position: absolute;
+            right: 0px;
+            top: 0px
+          }
+        }}</style>
+        <svg
+          height="14"
+          style="
+            display: inline-block;
+            fill: var(--color-foreground-primary);
+            height: 16px;
+            max-width: 75%;
+            pointer-events: none;
+            position: relative;
+            stroke-width: 0;
+            stroke: currentcolor;
+            vertical-align: middle;
+            width: 16px
+          "
+          width="16"
+        >
+          <use href="#icon-heart-16"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+┌─ withFavorite @ 1280px rtl
+(same as 1280px)
+
+┌─ withFavoriteAndLink @ 320px
+<div>
+  <div style="
+    align-items: baseline;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 30px
+  ">
+    <div style="margin-inline-end: var(--spacing-300)">
+      <h2 style="
+        font-size: var(--font-size-large-1);
+        font-weight: var(--font-weight-600);
+        line-height: 28px;
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Marketing Type Content Title
+      </h2>
+      <span style="
+        color: var(--section-title-subtitle-color, var(--color-foreground-secondary));
+        font-size: var(--font-size-body);
+        line-height: 20px
+      ">
+        Recommended for you
+      </span>
+    </div>
+    <div style="
+      bottom: -3px;
+      margin: 0 var(--spacing-300) 0 var(--spacing-100);
+      position: relative
+    ">
+      <button style="
+        align-items: center;
+        background-color: var(--color-background-secondary);
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        display: inline-flex;
+        font-family: inherit;
+        height: var(--spacing-400);
+        justify-content: center;
+        min-width: var(--spacing-400);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        position: relative;
+        vertical-align: text-bottom;
+        width: var(--spacing-400)
+      ">
+        <style>@scope{:scope{
+          &::after {
+            background-color: var(--color-state-layer-neutral);
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+            bottom: 0px;
+            content: "";
+            left: 0px;
+            pointer-events: none;
+            position: absolute;
+            right: 0px;
+            top: 0px
+          }
+        }}</style>
+        <svg
+          height="14"
+          style="
+            display: inline-block;
+            fill: var(--color-foreground-primary);
+            height: 16px;
+            max-width: 75%;
+            pointer-events: none;
+            position: relative;
+            stroke-width: 0;
+            stroke: currentcolor;
+            vertical-align: middle;
+            width: 16px
+          "
+          width="16"
+        >
+          <use href="#icon-heart-16"/>
+        </svg>
+      </button>
+    </div>
+    <a style="
+      align-items: baseline;
+      color: var(--color-foreground-link-primary);
+      display: flex;
+      height: var(--spacing-400);
+      margin-left: auto
+    ">
+      See all
+    </a>
+  </div>
+</div>
+
+┌─ withFavoriteAndLink @ 512px
+(same as 1280px)
+
+┌─ withFavoriteAndLink @ 1280px
+<div>
+  <div style="
+    align-items: baseline;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 30px
+  ">
+    <div style="margin-inline-end: var(--spacing-300)">
+      <h2 style="
+        font-size: var(--font-size-large-2);
+        font-weight: var(--font-weight-600);
+        line-height: 32px;
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Marketing Type Content Title
+      </h2>
+      <span style="
+        color: var(--section-title-subtitle-color, var(--color-foreground-secondary));
+        font-size: var(--font-size-medium);
+        line-height: 24px
+      ">
+        Recommended for you
+      </span>
+    </div>
+    <div style="
+      bottom: -3px;
+      margin: 0 var(--spacing-300) 0 var(--spacing-100);
+      position: relative
+    ">
+      <button style="
+        align-items: center;
+        background-color: var(--color-background-secondary);
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        display: inline-flex;
+        font-family: inherit;
+        height: var(--spacing-400);
+        justify-content: center;
+        min-width: var(--spacing-400);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        position: relative;
+        vertical-align: text-bottom;
+        width: var(--spacing-400)
+      ">
+        <style>@scope{:scope{
+          &::after {
+            background-color: var(--color-state-layer-neutral);
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+            bottom: 0px;
+            content: "";
+            left: 0px;
+            pointer-events: none;
+            position: absolute;
+            right: 0px;
+            top: 0px
+          }
+        }}</style>
+        <svg
+          height="14"
+          style="
+            display: inline-block;
+            fill: var(--color-foreground-primary);
+            height: 16px;
+            max-width: 75%;
+            pointer-events: none;
+            position: relative;
+            stroke-width: 0;
+            stroke: currentcolor;
+            vertical-align: middle;
+            width: 16px
+          "
+          width="16"
+        >
+          <use href="#icon-heart-16"/>
+        </svg>
+      </button>
+    </div>
+    <a style="
+      align-items: baseline;
+      color: var(--color-foreground-link-primary);
+      display: flex;
+      height: var(--spacing-400);
+      margin-left: auto
+    ">
+      See all
+    </a>
+  </div>
+</div>
+
+┌─ withFavoriteAndLink @ 1280px rtl
+(same as 1280px)
+

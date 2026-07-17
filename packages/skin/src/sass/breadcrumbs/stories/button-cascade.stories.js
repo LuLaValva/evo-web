@@ -1,4 +1,9 @@
-export default { title: "Skin/Breadcrumbs/Buttons/Cascade" };
+export default {
+    title: "Skin/Breadcrumbs/Buttons/Cascade",
+    parameters: {
+        visual: { widths: [320, 512], rtl: true },
+    },
+};
 
 export const color = () => `
 <nav aria-labelledby="breadcrumbs-heading" class="breadcrumbs" role="navigation" style="color: green">

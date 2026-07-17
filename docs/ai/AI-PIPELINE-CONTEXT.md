@@ -115,7 +115,7 @@ Step 15:  /evo-qa (forked)        [all scopes]
 Step 16:  Final summary → engineer files PR
 
 [Post-PR]
-GATE 3: Percy visual regression (CSS/SCSS changes)
+GATE 3: visual-html snapshot regression (CSS/SCSS changes)
 GATE 4: CI — npm run build + Playwright/Vitest
 ```
 

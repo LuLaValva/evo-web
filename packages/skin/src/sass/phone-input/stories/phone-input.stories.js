@@ -1,4 +1,9 @@
-export default { title: "Skin/Phone Input/Base" };
+export default {
+    title: "Skin/Phone Input/Base",
+    parameters: {
+        visual: { widths: [320], rtl: true },
+    },
+};
 
 export const Default = () => `
   <span class="phone-input">

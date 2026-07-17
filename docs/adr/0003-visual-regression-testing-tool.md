@@ -4,7 +4,7 @@ Date: 2026-02-12
 
 ## Status
 
-Accepted
+Superseded by [7. Visual Regression via visual-html Snapshots](./0007-visual-html-visual-regression.md)
 
 ## Context
 

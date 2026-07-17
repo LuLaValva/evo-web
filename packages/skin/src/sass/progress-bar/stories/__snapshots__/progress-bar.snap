@@ -1,0 +1,48 @@
+┌─ empty @ 320px
+(same as 1280px)
+
+┌─ empty @ 512px
+(same as 1280px)
+
+┌─ empty @ 1280px
+<div>
+  <progress
+    max=100
+    value=1
+  >
+    0%
+  </progress>
+</div>
+
+┌─ full @ 320px
+(same as 1280px)
+
+┌─ full @ 512px
+(same as 1280px)
+
+┌─ full @ 1280px
+<div>
+  <progress
+    max=100
+    value=100
+  >
+    0%
+  </progress>
+</div>
+
+┌─ half @ 320px
+(same as 1280px)
+
+┌─ half @ 512px
+(same as 1280px)
+
+┌─ half @ 1280px
+<div>
+  <progress
+    max=100
+    value=50
+  >
+    0%
+  </progress>
+</div>
+
