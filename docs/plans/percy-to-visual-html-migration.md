@@ -321,25 +321,45 @@ progress-spinner (20 story files, 20 snapshot files). Findings:
 - **Exit criteria**: running `test:visual` on clean `main` produces zero
   git diff.
 
-### Phase 2 — Preview viewer (~1 week)
+### Phase 2 — Preview viewer — ✅ built 2026-07-17 (`tools/visual-preview/`)
 
-- [ ] Diff-manifest builder (git-based, per §4.3).
-- [ ] Viewer UI: rendered before/after iframes with base/head CSS,
-      light/dark toggle, text diff pane, component/story navigation,
-      dimension switcher.
-- [ ] `npm run visual:preview` local mode.
-- [ ] Static-bundle build + per-PR deploy plumbing on the existing site
-      infra (deploy on check failure or snapshot change; cleanup on PR
-      close).
-- **Exit criteria**: for a deliberately broken CSS change, a reviewer can
-  see the regression rendered at a per-PR URL, without Percy.
+Design simplification discovered in Phase 0: visual-html snapshots are
+themselves renderable HTML (inline styles with unresolved `var()` refs), so
+the viewer renders snapshot text directly with token CSS — **no base/head
+component-CSS bundles needed at all**, and the light/dark toggle falls out
+of swapping token stylesheets.
+
+- [x] Diff-manifest builder (`build.mjs`): git-based (merge-base with
+      origin/main by default, `--base <ref>` override), parses `.snap`
+      sections, resolves `(same as 1280px)` dedupe references, unified
+      diffs via the `diff` package, emits a machine-readable
+      `summary.json` for CI comments.
+- [x] Viewer UI (`template.html`, dependency-free single file): sidebar
+      grouped by component/snap file with status dots + width/RTL chips,
+      side-by-side Base/Current iframes sized to the capture width and
+      auto-height, light/dark token toggle, RTL `dir` handling, colored
+      text-diff pane. Smoke-tested headless (renders, tokens resolve,
+      dark toggle flips, zero console errors).
+- [x] `npm run visual:preview` (root) — builds the self-contained
+      `tools/visual-preview/dist/visual-preview.html` (~1 MB); the same
+      artifact serves local review, the CI artifact, and the per-PR
+      deploy.
+- [x] Per-PR deploy piggybacks the existing gh-pages
+      `previews/pr-N/` convention (`preview.yml`); `preview-cleanup.yml`
+      already removes the whole directory on close, covering the viewer.
+- Known limitation (matches Storybook status quo): icon sprites are not
+  embedded, so `<use href="#icon-…">` glyphs render empty; animations are
+  static.
 
 ### Phase 3 — Immediate cutover + Percy removal (~2–3 days)
 
 No parallel soak — the new check replaces Percy in one cutover:
 
-- [ ] Add `visual-regression.yml` (regenerate → diff → artifact + per-PR
-      deploy + sticky comment).
+- [x] Add `visual-regression.yml` (regenerate → diff → artifact + per-PR
+      deploy + sticky comment). Same-repo PRs get the deployed viewer link
+      and comment; fork PRs still get the check + artifact (their tokens
+      cannot push/comment). The failure path uploads the regenerated
+      snapshots so contributors without a local browser can adopt them.
 - [ ] Flip branch protection: require `visual-regression`, remove
       `Percy Visual Regression`.
 - [ ] Delete `.github/workflows/percy-build.yml`, `.github/workflows/percy.yml`,

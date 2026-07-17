@@ -29,7 +29,8 @@
     "start:all": "concurrently --kill-others-on-fail \"marko-run dev\"  \"npm run storybook -w packages/skin\" \"npm run storybook -w packages/ebayui-core\" \"npm run storybook -w packages/ebayui-core-react\"",
     "test": "npm run test --ws",
     "update-snapshots": "npm run update-snapshots --ws --if-present",
-    "version": "npm run version --ws --if-present && changeset version && npm i --package-lock-only && git add -A packages"
+    "version": "npm run version --ws --if-present && changeset version && npm i --package-lock-only && git add -A packages",
+    "visual:preview": "node tools/visual-preview/build.mjs"
   },
   "commitlint": {
     "extends": "@commitlint/config-conventional"
