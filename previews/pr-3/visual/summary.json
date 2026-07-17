@@ -1,8 +1,8 @@
 {
-  "baseRef": "321c8abcadbd",
-  "totalStories": 614,
-  "totalSections": 1493,
-  "unchangedSections": 392,
+  "baseRef": "947e98ff3f67",
+  "totalStories": 613,
+  "totalSections": 1500,
+  "unchangedSections": 385,
   "components": {
     "alert-dialog": {
       "changed": 12,
@@ -30,7 +30,7 @@
       "removed": 0
     },
     "carousel": {
-      "changed": 20,
+      "changed": 22,
       "added": 0,
       "removed": 0
     },
@@ -95,12 +95,12 @@
       "removed": 0
     },
     "file-preview-card-group": {
-      "changed": 68,
+      "changed": 77,
       "added": 0,
       "removed": 0
     },
     "file-preview-card": {
-      "changed": 9,
+      "changed": 8,
       "added": 0,
       "removed": 0
     },
@@ -110,7 +110,7 @@
       "removed": 0
     },
     "filter-chip": {
-      "changed": 6,
+      "changed": 5,
       "added": 0,
       "removed": 0
     },
@@ -300,7 +300,7 @@
       "removed": 0
     },
     "toggle-button": {
-      "changed": 13,
+      "changed": 11,
       "added": 0,
       "removed": 0
     },
