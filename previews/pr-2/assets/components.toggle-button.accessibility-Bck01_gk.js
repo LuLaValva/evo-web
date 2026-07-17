@@ -1,0 +1,2 @@
+import{a,w as s,kc as n,kd as o,ke as e,i as $}from"./_Fx7wwru-.js";import"./_Duh7fMFH.js";import{$ as _,a as c,b as m,c as p}from"./_BeLT56BL.js";import"./_EBqf4bbt.js";const u=t=>{e(t.a)},i=s("GU7oOUe",(t=>`<!>${t}<!>`)(o),(t=>`b/${t}&b`)(n),u),r=t=>{m(t.a),p(t.a,i(t))};a("XNYXD6a",(t=>`<!>${t}<!>`)(c),(t=>`b/${t}&b`)(_),r);$();
+//# sourceMappingURL=components.toggle-button.accessibility-Bck01_gk.js.map
