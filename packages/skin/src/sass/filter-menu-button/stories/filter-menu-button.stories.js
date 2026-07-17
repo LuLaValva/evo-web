@@ -1,4 +1,9 @@
-export default { title: "Skin/Filter/Menu Button" };
+export default {
+    title: "Skin/Filter/Menu Button",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const collapsed = () => `
 <span class="filter-menu-button">

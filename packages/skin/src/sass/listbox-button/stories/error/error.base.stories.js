@@ -1,4 +1,9 @@
-export default { title: "Skin/Listbox Button/Error/Base" };
+export default {
+    title: "Skin/Listbox Button/Error/Base",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const collapsedUnselected = () => `
 <span class="listbox-button listbox-button--error">

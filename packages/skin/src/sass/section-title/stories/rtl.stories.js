@@ -1,4 +1,9 @@
-export default { title: "Skin/Section Title/RTL" };
+export default {
+    title: "Skin/Section Title/RTL",
+    parameters: {
+        visual: { widths: [320, 512], rtl: true },
+    },
+};
 
 export const heading = () => `
 <div dir="rtl">

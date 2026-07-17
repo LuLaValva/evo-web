@@ -1,4 +1,9 @@
-export default { title: "Skin/Button/Text Spacing" };
+export default {
+    title: "Skin/Button/Text Spacing",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const textOnly = () =>
     '<button class="btn demo-a11y-text-spacing">Button</button>';

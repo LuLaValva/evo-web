@@ -1,0 +1,929 @@
+┌─ disabledIcon @ 1280px
+<div>
+  <button
+    disabled
+    style="
+      background-color: var(--color-background-primary);
+      box-shadow: transparent 0px 0px 0px 1px;
+      color: var(--color-foreground-primary);
+      display: inline-flex;
+      flex-direction: column;
+      font-family: inherit;
+      font-size: var(--font-size-body);
+      justify-content: left;
+      margin-right: var(--spacing-100);
+      margin-top: auto;
+      max-width: var(--toggle-button-gallery-width-max);
+      min-height: var(--toggle-button-height-min);
+      min-width: var(--toggle-button-gallery-width-min);
+      padding: 0 var(--spacing-200);
+      vertical-align: top
+    "
+  >
+    <span style="
+      filter: grayscale(1);
+      margin-top: var(--spacing-200);
+      opacity: 0.5;
+      pointer-events: none;
+      text-align: left
+    ">
+      <svg
+        height="64"
+        style="
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="64"
+      >
+        <use
+          href="#icon-truck-16"
+          style="pointer-events: none"
+        />
+      </svg>
+    </span>
+    <span style="
+      align-self: flex-start;
+      display: flex;
+      flex-direction: column;
+      pointer-events: none;
+      text-align: left
+    ">
+      <span style="
+        color: var(--color-foreground-disabled);
+        font-size: var(--font-size-medium);
+        font-weight: 700;
+        line-height: var(--font-size-large-2);
+        margin-bottom: var(--spacing-50);
+        margin-top: var(--spacing-200);
+        pointer-events: none
+      ">
+        Icon Button Title
+      </span>
+      <span style="
+        color: var(--color-foreground-disabled);
+        line-height: var(--font-size-large-1);
+        margin-bottom: var(--spacing-200);
+        pointer-events: none
+      ">
+        Icon Button Subtitle
+      </span>
+    </span>
+  </button>
+</div>
+
+┌─ disabledIconColored @ 1280px
+<div>
+  <button
+    disabled
+    style="
+      background-color: var(--color-background-primary);
+      box-shadow: transparent 0px 0px 0px 1px;
+      color: var(--color-foreground-primary);
+      display: inline-flex;
+      flex-direction: column;
+      font-family: inherit;
+      font-size: var(--font-size-body);
+      justify-content: left;
+      margin-right: var(--spacing-100);
+      margin-top: auto;
+      max-width: var(--toggle-button-gallery-width-max);
+      min-height: var(--toggle-button-height-min);
+      min-width: var(--toggle-button-gallery-width-min);
+      padding: 0 var(--spacing-200);
+      vertical-align: top
+    "
+  >
+    <span style="
+      filter: grayscale(1);
+      margin-top: var(--spacing-200);
+      opacity: 0.5;
+      pointer-events: none;
+      text-align: left
+    ">
+      <svg
+        height="64"
+        style="
+          display: inline-block;
+          fill: currentcolor;
+          height: 32px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: fit-content
+        "
+        width="64"
+      >
+        <use
+          href="#icon-mastercard-32-colored"
+          style="pointer-events: none"
+        />
+      </svg>
+    </span>
+    <span style="
+      align-self: flex-start;
+      display: flex;
+      flex-direction: column;
+      pointer-events: none;
+      text-align: left
+    ">
+      <span style="
+        color: var(--color-foreground-disabled);
+        font-size: var(--font-size-medium);
+        font-weight: 700;
+        line-height: var(--font-size-large-2);
+        margin-bottom: var(--spacing-50);
+        margin-top: var(--spacing-200);
+        pointer-events: none
+      ">
+        Icon Button Title
+      </span>
+      <span style="
+        color: var(--color-foreground-disabled);
+        line-height: var(--font-size-large-1);
+        margin-bottom: var(--spacing-200);
+        pointer-events: none
+      ">
+        Icon Button Subtitle
+      </span>
+    </span>
+  </button>
+</div>
+
+┌─ disabledImage @ 1280px
+<div>
+  <button
+    disabled
+    style="
+      background-color: var(--color-background-primary);
+      box-shadow: transparent 0px 0px 0px 1px;
+      color: var(--color-foreground-primary);
+      display: inline-flex;
+      flex-direction: column;
+      font-family: inherit;
+      font-size: var(--font-size-body);
+      justify-content: left;
+      margin-right: var(--spacing-100);
+      margin-top: auto;
+      max-width: var(--toggle-button-gallery-width-max);
+      min-height: var(--toggle-button-height-min);
+      min-width: var(--toggle-button-gallery-width-min);
+      padding: 0 var(--spacing-200);
+      vertical-align: top
+    "
+  >
+    <span style="
+      align-self: center;
+      margin-top: var(--spacing-200);
+      padding-bottom: 60%;
+      pointer-events: none;
+      position: relative;
+      text-align: center;
+      width: 100%
+    ">
+      <span style="
+        bottom: 0px;
+        display: inline-block;
+        filter: grayscale(1);
+        height: 100%;
+        left: 0px;
+        opacity: 0.5;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        width: 100%
+      ">
+        <img
+          height=84
+          style="
+            height: 100%;
+            max-height: 200px;
+            pointer-events: none
+          "
+        />
+      </span>
+    </span>
+    <span style="
+      align-self: self-start;
+      display: flex;
+      flex-direction: column;
+      pointer-events: none;
+      text-align: left
+    ">
+      <span style="
+        color: var(--color-foreground-disabled);
+        font-size: var(--font-size-medium);
+        font-weight: 700;
+        line-height: var(--font-size-large-2);
+        margin-bottom: var(--spacing-50);
+        margin-top: var(--spacing-200);
+        pointer-events: none
+      ">
+        Image Button Title
+      </span>
+      <span style="
+        color: var(--color-foreground-disabled);
+        line-height: var(--font-size-large-1);
+        margin-bottom: var(--spacing-200);
+        pointer-events: none
+      ">
+        Image Button Subtitle
+      </span>
+    </span>
+  </button>
+</div>
+
+┌─ iconTitleSubtitle @ 1280px
+<div>
+  <button style="
+    background-color: var(--color-background-primary);
+    border: 1px solid var(--color-border-medium);
+    box-shadow: transparent 0px 0px 0px 1px;
+    color: var(--color-foreground-primary);
+    display: inline-flex;
+    flex-direction: column;
+    font-family: inherit;
+    font-size: var(--font-size-body);
+    justify-content: left;
+    margin-right: var(--spacing-100);
+    margin-top: auto;
+    max-width: var(--toggle-button-gallery-width-max);
+    min-height: var(--toggle-button-height-min);
+    min-width: var(--toggle-button-gallery-width-min);
+    padding: 0 var(--spacing-200);
+    vertical-align: top
+  ">
+    <span style="
+      margin-top: var(--spacing-200);
+      pointer-events: none;
+      text-align: left
+    ">
+      <svg
+        height="64"
+        style="
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="64"
+      >
+        <use
+          href="#icon-truck-16"
+          style="pointer-events: none"
+        />
+      </svg>
+    </span>
+    <span style="
+      align-self: flex-start;
+      display: flex;
+      flex-direction: column;
+      pointer-events: none;
+      text-align: left
+    ">
+      <span style="
+        font-size: var(--font-size-medium);
+        font-weight: 700;
+        line-height: var(--font-size-large-2);
+        margin-bottom: var(--spacing-50);
+        margin-top: var(--spacing-200);
+        pointer-events: none
+      ">
+        Icon Button Title
+      </span>
+      <span style="
+        color: var(--color-foreground-secondary);
+        line-height: var(--font-size-large-1);
+        margin-bottom: var(--spacing-200);
+        pointer-events: none
+      ">
+        Icon Button Subtitle
+      </span>
+    </span>
+  </button>
+</div>
+
+┌─ landscapeImageTitleSubtitle @ 1280px
+<div>
+  <button style="
+    background-color: var(--color-background-primary);
+    border: 1px solid var(--color-border-medium);
+    box-shadow: transparent 0px 0px 0px 1px;
+    color: var(--color-foreground-primary);
+    display: inline-flex;
+    flex-direction: column;
+    font-family: inherit;
+    font-size: var(--font-size-body);
+    justify-content: left;
+    margin-right: var(--spacing-100);
+    margin-top: auto;
+    max-width: var(--toggle-button-gallery-width-max);
+    min-height: var(--toggle-button-height-min);
+    min-width: var(--toggle-button-gallery-width-min);
+    padding: 0 var(--spacing-200);
+    vertical-align: top
+  ">
+    <span style="
+      align-self: center;
+      margin-top: var(--spacing-200);
+      padding-bottom: 60%;
+      pointer-events: none;
+      position: relative;
+      text-align: center;
+      width: 100%
+    ">
+      <span style="
+        bottom: 0px;
+        display: inline-block;
+        height: 100%;
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        width: 100%
+      ">
+        <img
+          height=84
+          style="
+            height: 100%;
+            max-height: 200px;
+            pointer-events: none
+          "
+        />
+      </span>
+    </span>
+    <span style="
+      align-self: self-start;
+      display: flex;
+      flex-direction: column;
+      pointer-events: none;
+      text-align: left
+    ">
+      <span style="
+        font-size: var(--font-size-medium);
+        font-weight: 700;
+        line-height: var(--font-size-large-2);
+        margin-bottom: var(--spacing-50);
+        margin-top: var(--spacing-200);
+        pointer-events: none
+      ">
+        Image Button Title
+      </span>
+      <span style="
+        color: var(--color-foreground-secondary);
+        line-height: var(--font-size-large-1);
+        margin-bottom: var(--spacing-200);
+        pointer-events: none
+      ">
+        Image Button Subtitle
+      </span>
+    </span>
+  </button>
+</div>
+
+┌─ longTitle @ 1280px
+<div>
+  <button style="
+    background-color: var(--color-background-primary);
+    border: 1px solid var(--color-border-medium);
+    box-shadow: transparent 0px 0px 0px 1px;
+    color: var(--color-foreground-primary);
+    display: inline-flex;
+    flex-direction: column;
+    font-family: inherit;
+    font-size: var(--font-size-body);
+    justify-content: left;
+    margin-right: var(--spacing-100);
+    margin-top: auto;
+    max-width: var(--toggle-button-gallery-width-max);
+    min-height: var(--toggle-button-height-min);
+    min-width: var(--toggle-button-gallery-width-min);
+    padding: 0 var(--spacing-200);
+    vertical-align: top;
+    width: 168px
+  ">
+    <span style="
+      align-self: center;
+      margin-top: var(--spacing-200);
+      padding-bottom: 60%;
+      pointer-events: none;
+      position: relative;
+      text-align: center;
+      width: 100%
+    ">
+      <span style="
+        bottom: 0px;
+        display: inline-block;
+        height: 100%;
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        width: 100%
+      ">
+        <img
+          height=80
+          style="
+            height: 100%;
+            max-height: 200px;
+            pointer-events: none
+          "
+        />
+      </span>
+    </span>
+    <span style="
+      align-self: self-start;
+      display: flex;
+      flex-direction: column;
+      pointer-events: none;
+      text-align: left
+    ">
+      <span style="
+        font-size: var(--font-size-medium);
+        font-weight: 700;
+        line-height: var(--font-size-large-2);
+        margin-bottom: var(--spacing-50);
+        margin-top: var(--spacing-200);
+        pointer-events: none
+      ">
+        Long Title for Toggle Button
+      </span>
+      <span style="
+        color: var(--color-foreground-secondary);
+        line-height: var(--font-size-large-1);
+        margin-bottom: var(--spacing-200);
+        pointer-events: none
+      ">
+        Image Button Subtitle
+      </span>
+    </span>
+  </button>
+</div>
+
+┌─ profileCSSImageContainBackground @ 1280px
+<div>
+  <button style="
+    background-color: var(--color-background-primary);
+    border: 1px solid var(--color-border-medium);
+    box-shadow: transparent 0px 0px 0px 1px;
+    color: var(--color-foreground-primary);
+    display: inline-flex;
+    flex-direction: column;
+    font-family: inherit;
+    font-size: var(--font-size-body);
+    justify-content: left;
+    margin-right: var(--spacing-100);
+    margin-top: auto;
+    max-width: var(--toggle-button-gallery-width-max);
+    min-height: var(--toggle-button-height-min);
+    min-width: var(--toggle-button-gallery-width-min);
+    padding: 0 var(--spacing-200);
+    vertical-align: top
+  ">
+    <span style="
+      align-self: center;
+      margin-top: var(--spacing-200);
+      padding-bottom: 60%;
+      pointer-events: none;
+      position: relative;
+      text-align: center;
+      width: 100%
+    ">
+      <span style="
+        background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg");
+        background-position-x: center;
+        background-position-y: 20%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        bottom: 0px;
+        display: inline-block;
+        height: 100%;
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        width: 100%
+      "/>
+    </span>
+    <span style="
+      align-self: self-start;
+      display: flex;
+      flex-direction: column;
+      pointer-events: none;
+      text-align: left
+    ">
+      <span style="
+        font-size: var(--font-size-medium);
+        font-weight: 700;
+        line-height: var(--font-size-large-2);
+        margin-bottom: var(--spacing-50);
+        margin-top: var(--spacing-200);
+        pointer-events: none
+      ">
+        Image Button Title
+      </span>
+      <span style="
+        color: var(--color-foreground-secondary);
+        line-height: var(--font-size-large-1);
+        margin-bottom: var(--spacing-200);
+        pointer-events: none
+      ">
+        Image Button Subtitle
+      </span>
+    </span>
+  </button>
+</div>
+
+┌─ profileCSSImageCoverBackground @ 1280px
+<div>
+  <button style="
+    background-color: var(--color-background-primary);
+    border: 1px solid var(--color-border-medium);
+    box-shadow: transparent 0px 0px 0px 1px;
+    color: var(--color-foreground-primary);
+    display: inline-flex;
+    flex-direction: column;
+    font-family: inherit;
+    font-size: var(--font-size-body);
+    justify-content: left;
+    margin-right: var(--spacing-100);
+    margin-top: auto;
+    max-width: var(--toggle-button-gallery-width-max);
+    min-height: var(--toggle-button-height-min);
+    min-width: var(--toggle-button-gallery-width-min);
+    padding: 0 var(--spacing-200);
+    vertical-align: top
+  ">
+    <span style="
+      align-self: center;
+      margin-top: var(--spacing-200);
+      padding-bottom: 60%;
+      pointer-events: none;
+      position: relative;
+      text-align: center;
+      width: 100%
+    ">
+      <span style="
+        background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg");
+        background-position-x: center;
+        background-position-y: 20%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        bottom: 0px;
+        display: inline-block;
+        height: 100%;
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        width: 100%
+      "/>
+    </span>
+    <span style="
+      align-self: self-start;
+      display: flex;
+      flex-direction: column;
+      pointer-events: none;
+      text-align: left
+    ">
+      <span style="
+        font-size: var(--font-size-medium);
+        font-weight: 700;
+        line-height: var(--font-size-large-2);
+        margin-bottom: var(--spacing-50);
+        margin-top: var(--spacing-200);
+        pointer-events: none
+      ">
+        Image Button Title
+      </span>
+      <span style="
+        color: var(--color-foreground-secondary);
+        line-height: var(--font-size-large-1);
+        margin-bottom: var(--spacing-200);
+        pointer-events: none
+      ">
+        Image Button Subtitle
+      </span>
+    </span>
+  </button>
+</div>
+
+┌─ profileImageTitle @ 1280px
+<div>
+  <button style="
+    background-color: var(--color-background-primary);
+    border: 1px solid var(--color-border-medium);
+    box-shadow: transparent 0px 0px 0px 1px;
+    color: var(--color-foreground-primary);
+    display: inline-flex;
+    flex-direction: column;
+    font-family: inherit;
+    font-size: var(--font-size-body);
+    justify-content: left;
+    margin-right: var(--spacing-100);
+    margin-top: auto;
+    max-width: var(--toggle-button-gallery-width-max);
+    min-height: var(--toggle-button-height-min);
+    min-width: var(--toggle-button-gallery-width-min);
+    padding: 0 var(--spacing-200);
+    vertical-align: top
+  ">
+    <span style="
+      align-self: center;
+      margin-top: var(--spacing-200);
+      padding-bottom: 60%;
+      pointer-events: none;
+      position: relative;
+      text-align: center;
+      width: 100%
+    ">
+      <span style="
+        bottom: 0px;
+        display: inline-block;
+        height: 100%;
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        width: 100%
+      ">
+        <img
+          height=84
+          style="
+            height: 100%;
+            max-height: 200px;
+            pointer-events: none
+          "
+        />
+      </span>
+    </span>
+    <span style="
+      align-self: self-start;
+      display: flex;
+      flex-direction: column;
+      pointer-events: none;
+      text-align: left
+    ">
+      <span style="
+        font-size: var(--font-size-medium);
+        font-weight: 700;
+        line-height: var(--font-size-large-2);
+        margin-bottom: var(--spacing-200);
+        margin-top: var(--spacing-200);
+        pointer-events: none
+      ">
+        Image Button Title
+      </span>
+    </span>
+  </button>
+</div>
+
+┌─ profileImageTitleSubtitle @ 1280px
+<div>
+  <button style="
+    background-color: var(--color-background-primary);
+    border: 1px solid var(--color-border-medium);
+    box-shadow: transparent 0px 0px 0px 1px;
+    color: var(--color-foreground-primary);
+    display: inline-flex;
+    flex-direction: column;
+    font-family: inherit;
+    font-size: var(--font-size-body);
+    justify-content: left;
+    margin-right: var(--spacing-100);
+    margin-top: auto;
+    max-width: var(--toggle-button-gallery-width-max);
+    min-height: var(--toggle-button-height-min);
+    min-width: var(--toggle-button-gallery-width-min);
+    padding: 0 var(--spacing-200);
+    vertical-align: top
+  ">
+    <span style="
+      align-self: center;
+      margin-top: var(--spacing-200);
+      padding-bottom: 60%;
+      pointer-events: none;
+      position: relative;
+      text-align: center;
+      width: 100%
+    ">
+      <span style="
+        bottom: 0px;
+        display: inline-block;
+        height: 100%;
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        width: 100%
+      ">
+        <img
+          height=84
+          style="
+            height: 100%;
+            max-height: 200px;
+            pointer-events: none
+          "
+        />
+      </span>
+    </span>
+    <span style="
+      align-self: self-start;
+      display: flex;
+      flex-direction: column;
+      pointer-events: none;
+      text-align: left
+    ">
+      <span style="
+        font-size: var(--font-size-medium);
+        font-weight: 700;
+        line-height: var(--font-size-large-2);
+        margin-bottom: var(--spacing-50);
+        margin-top: var(--spacing-200);
+        pointer-events: none
+      ">
+        Image Button Title
+      </span>
+      <span style="
+        color: var(--color-foreground-secondary);
+        line-height: var(--font-size-large-1);
+        margin-bottom: var(--spacing-200);
+        pointer-events: none
+      ">
+        Image Button Subtitle
+      </span>
+    </span>
+  </button>
+</div>
+
+┌─ squareImageTitleSubtitle @ 1280px
+<div>
+  <button style="
+    background-color: var(--color-background-primary);
+    border: 1px solid var(--color-border-medium);
+    box-shadow: transparent 0px 0px 0px 1px;
+    color: var(--color-foreground-primary);
+    display: inline-flex;
+    flex-direction: column;
+    font-family: inherit;
+    font-size: var(--font-size-body);
+    justify-content: left;
+    margin-right: var(--spacing-100);
+    margin-top: auto;
+    max-width: var(--toggle-button-gallery-width-max);
+    min-height: var(--toggle-button-height-min);
+    min-width: var(--toggle-button-gallery-width-min);
+    padding: 0 var(--spacing-200);
+    vertical-align: top
+  ">
+    <span style="
+      align-self: center;
+      margin-top: var(--spacing-200);
+      padding-bottom: 60%;
+      pointer-events: none;
+      position: relative;
+      text-align: center;
+      width: 100%
+    ">
+      <span style="
+        bottom: 0px;
+        display: inline-block;
+        height: 100%;
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        width: 100%
+      ">
+        <img
+          height=84
+          style="
+            height: 100%;
+            max-height: 200px;
+            pointer-events: none
+          "
+        />
+      </span>
+    </span>
+    <span style="
+      align-self: self-start;
+      display: flex;
+      flex-direction: column;
+      pointer-events: none;
+      text-align: left
+    ">
+      <span style="
+        font-size: var(--font-size-medium);
+        font-weight: 700;
+        line-height: var(--font-size-large-2);
+        margin-bottom: var(--spacing-50);
+        margin-top: var(--spacing-200);
+        pointer-events: none
+      ">
+        Image Button Title
+      </span>
+      <span style="
+        color: var(--color-foreground-secondary);
+        line-height: var(--font-size-large-1);
+        margin-bottom: var(--spacing-200);
+        pointer-events: none
+      ">
+        Image Button Subtitle
+      </span>
+    </span>
+  </button>
+</div>
+
+┌─ textSpacing @ 1280px
+<div>
+  <button style="
+    background-color: var(--color-background-primary);
+    border: 1px solid var(--color-border-medium);
+    box-shadow: transparent 0px 0px 0px 1px;
+    color: var(--color-foreground-primary);
+    display: inline-flex;
+    flex-direction: column;
+    font-family: inherit;
+    font-size: var(--font-size-body);
+    justify-content: left;
+    margin-right: var(--spacing-100);
+    margin-top: auto;
+    max-width: var(--toggle-button-gallery-width-max);
+    min-height: var(--toggle-button-height-min);
+    min-width: var(--toggle-button-gallery-width-min);
+    padding: 0 var(--spacing-200);
+    vertical-align: top
+  ">
+    <span style="
+      align-self: center;
+      margin-top: var(--spacing-200);
+      padding-bottom: 60%;
+      pointer-events: none;
+      position: relative;
+      text-align: center;
+      width: 100%
+    ">
+      <span style="
+        background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg");
+        background-position-x: center;
+        background-position-y: 20%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        bottom: 0px;
+        display: inline-block;
+        height: 100%;
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        width: 100%
+      "/>
+    </span>
+    <span style="
+      align-self: self-start;
+      display: flex;
+      flex-direction: column;
+      pointer-events: none;
+      text-align: left
+    ">
+      <span style="
+        font-size: var(--font-size-medium);
+        font-weight: 700;
+        line-height: var(--font-size-large-2);
+        margin-bottom: var(--spacing-50);
+        margin-top: var(--spacing-200);
+        pointer-events: none
+      ">
+        Image Button Title
+      </span>
+      <span style="
+        color: var(--color-foreground-secondary);
+        line-height: var(--font-size-large-1);
+        margin-bottom: var(--spacing-200);
+        pointer-events: none
+      ">
+        Image Button Subtitle
+      </span>
+    </span>
+  </button>
+</div>
+

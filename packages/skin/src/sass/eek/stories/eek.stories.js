@@ -1,4 +1,9 @@
-export default { title: "Skin/EEK" };
+export default {
+    title: "Skin/EEK",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const typical = () => `
     <div class="eek eek--rating-4" role="img" aria-label="Energy Rating: B. Range: A++ - E">

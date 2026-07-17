@@ -29,7 +29,8 @@
     "start:all": "concurrently --kill-others-on-fail \"marko-run dev\"  \"npm run storybook -w packages/skin\" \"npm run storybook -w packages/ebayui-core\" \"npm run storybook -w packages/ebayui-core-react\"",
     "test": "npm run test --ws",
     "update-snapshots": "npm run update-snapshots --ws --if-present",
-    "version": "npm run version --ws --if-present && changeset version && npm i --package-lock-only && git add -A packages"
+    "version": "npm run version --ws --if-present && changeset version && npm i --package-lock-only && git add -A packages",
+    "visual:preview": "node tools/visual-preview/build.mjs"
   },
   "commitlint": {
     "extends": "@commitlint/config-conventional"
@@ -42,7 +43,6 @@
     "extends @ebay/browserslist-config"
   ],
   "devDependencies": {
-    "@actions/core": "^1.11.1",
     "@babel/core": "^7.28.5",
     "@babel/eslint-parser": "^7.28.5",
     "@babel/plugin-syntax-import-assertions": "^7.27.1",
@@ -70,8 +70,6 @@
     "@marko/vite": "^5.4.2",
     "@mdx-js/mdx": "^3.1.1",
     "@octokit/rest": "^22.0.0",
-    "@percy/cli": "^1.31.7",
-    "@percy/storybook": "^9.1.0",
     "@rollup/plugin-typescript": "^12.3.0",
     "@storybook/addon-a11y": "^10.1.11",
     "@storybook/addon-docs": "^10.1.11",

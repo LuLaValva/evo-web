@@ -1,4 +1,9 @@
-export default { title: "Skin/Pagination/Overflow" };
+export default {
+    title: "Skin/Pagination/Overflow",
+    parameters: {
+        visual: { widths: [320, 768], rtl: true },
+    },
+};
 
 export const start = () => `
 <nav class="pagination" aria-labelledby="pagination-heading" role="navigation">

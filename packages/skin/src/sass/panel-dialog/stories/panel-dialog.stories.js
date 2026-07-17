@@ -1,4 +1,9 @@
-export default { title: "Skin/Panel Dialog" };
+export default {
+    title: "Skin/Panel Dialog",
+    parameters: {
+        visual: { widths: [320, 512], rtl: true },
+    },
+};
 
 export const panelStart = () => `
 <div aria-labelledby="panel-title" aria-modal="true" class="panel-dialog" role="dialog">

@@ -1,4 +1,9 @@
-export default { title: "Skin/Button/Destructive/Secondary" };
+export default {
+    title: "Skin/Button/Destructive/Secondary",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const textOnly = () =>
     '<button class="btn btn--secondary btn--destructive">Destructive Button</button>';

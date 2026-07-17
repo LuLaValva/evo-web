@@ -1,4 +1,9 @@
-export default { title: "Skin/CTA Button/Cascade" };
+export default {
+    title: "Skin/CTA Button/Cascade",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const color = () => `
 <a class="cta-btn" href="http://www.ebay.com" style="color: red">

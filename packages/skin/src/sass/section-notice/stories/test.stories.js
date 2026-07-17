@@ -1,4 +1,9 @@
-export default { title: "Skin/Section Notice/Tests" };
+export default {
+    title: "Skin/Section Notice/Tests",
+    parameters: {
+        visual: { widths: [320, 512], rtl: true },
+    },
+};
 
 export const longBody = () => `
 <div class="section-notice section-notice--confirmation" role="region">

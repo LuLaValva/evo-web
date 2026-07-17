@@ -225,7 +225,7 @@ It supports three workflows: **Add/Edit** (place an SVG, run three build scripts
 
 ## Post-PR Gates
 
-**Percy visual regression** runs on CSS/SCSS changes, capturing screenshots of every component story and flagging visual differences for human approval. This catches unintended side effects of SCSS changes across the component library.
+**visual-html snapshot regression** runs on CSS/SCSS changes: every component story is serialized to a text snapshot (structure + matched CSS) committed to git, and CI fails when committed snapshots are stale. Changed stories are rendered before/after in the preview viewer for human review. This catches unintended side effects of SCSS changes across the component library.
 
 **CI** runs the full test suite — SSR snapshot tests and browser interaction tests scaffolded in Steps 8 and 10. Green CI is required to merge.
 

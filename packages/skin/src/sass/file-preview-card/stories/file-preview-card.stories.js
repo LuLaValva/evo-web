@@ -4,6 +4,9 @@
  */
 export default {
     title: "Skin/File Preview Card",
+    parameters: {
+        visual: { rtl: true },
+    },
     decorators: [
         (story) => `
             <div style="width: 168px">

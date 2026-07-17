@@ -1,4 +1,9 @@
-export default { title: "Skin/Field/Stacked" };
+export default {
+    title: "Skin/Field/Stacked",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const group = () => `
 <fieldset>

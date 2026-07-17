@@ -1,4 +1,9 @@
-export default { title: "Skin/Listbox Button/Dimensions" };
+export default {
+    title: "Skin/Listbox Button/Dimensions",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const fluid = () => `
 <span class="listbox-button listbox-button--fluid">

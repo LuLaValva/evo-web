@@ -1,0 +1,836 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Skin visual regression review</title>
+<style>
+    :root {
+        --bg: #ffffff;
+        --bg-alt: #f6f7f8;
+        --bg-inset: #eef0f2;
+        --fg: #111820;
+        --fg-muted: #5f6b76;
+        --border: #d8dde3;
+        --accent: #3665f3;
+        --added: #1a7f37;
+        --removed: #cf222e;
+        --changed: #9a6700;
+        --highlight: #c026d3;
+        --shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    }
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --bg: #15181c;
+            --bg-alt: #1c2126;
+            --bg-inset: #23292f;
+            --fg: #e8ebee;
+            --fg-muted: #98a3ad;
+            --border: #333a42;
+            --accent: #7ea0ff;
+            --added: #4ac26b;
+            --removed: #ff7b72;
+            --changed: #d4a72c;
+            --highlight: #e879f9;
+            --shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+        }
+    }
+    * { box-sizing: border-box; }
+    body {
+        margin: 0;
+        font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+        background: var(--bg);
+        color: var(--fg);
+        display: grid;
+        grid-template-columns: 320px 1fr;
+        grid-template-rows: auto 1fr;
+        height: 100vh;
+    }
+    button { font: inherit; color: inherit; cursor: pointer; }
+
+    header {
+        grid-column: 1 / -1;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        padding: 10px 16px;
+        border-bottom: 1px solid var(--border);
+        flex-wrap: wrap;
+    }
+    header h1 { font-size: 15px; margin: 0; white-space: nowrap; }
+    header .meta { color: var(--fg-muted); font-size: 12.5px; }
+    header .progress { margin-left: auto; font-size: 12.5px; color: var(--fg-muted); }
+    header .progress b { color: var(--fg); }
+
+    nav {
+        border-right: 1px solid var(--border);
+        overflow-y: auto;
+        background: var(--bg-alt);
+        display: flex;
+        flex-direction: column;
+    }
+    #search {
+        margin: 10px 12px 4px;
+        padding: 7px 10px;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        background: var(--bg);
+        color: var(--fg);
+        font: inherit;
+        font-size: 13px;
+    }
+    #storylist { overflow-y: auto; flex: 1; padding-bottom: 12px; }
+    nav h2 {
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--fg-muted);
+        margin: 14px 14px 4px;
+    }
+    nav .story {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        gap: 7px;
+        padding: 6px 14px;
+        border: 0;
+        background: none;
+        text-align: left;
+        font-size: 13px;
+    }
+    nav .story:hover { background: color-mix(in srgb, var(--accent) 10%, transparent); }
+    nav .story.active { background: color-mix(in srgb, var(--accent) 18%, transparent); }
+    nav .story .name { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    nav .story .tick { color: var(--added); visibility: hidden; }
+    nav .story.reviewed .tick { visibility: visible; }
+    nav .story.reviewed .name { color: var(--fg-muted); }
+    .chip {
+        font-size: 10.5px;
+        padding: 0 6px;
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        color: var(--fg-muted);
+        flex: none;
+        background: var(--bg);
+    }
+    .dot { width: 8px; height: 8px; border-radius: 50%; flex: none; }
+    .dot.changed { background: var(--changed); }
+    .dot.added { background: var(--added); }
+    .dot.removed { background: var(--removed); }
+
+    main { overflow: auto; padding: 14px 18px; display: flex; flex-direction: column; gap: 12px; }
+    .titlebar { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+    .titlebar h2 { margin: 0; font-size: 17px; }
+    .titlebar .path { color: var(--fg-muted); font-size: 12px; }
+    .toolbar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+    .seg { display: inline-flex; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; background: var(--bg); }
+    .seg button { border: 0; background: none; padding: 5px 11px; font-size: 12.5px; }
+    .seg button.active { background: var(--accent); color: #fff; }
+    .toolbar label.toggle { display: inline-flex; gap: 5px; align-items: center; font-size: 12.5px; color: var(--fg-muted); cursor: pointer; }
+    .toolbar .grow { flex: 1; }
+    .toolbar input[type="range"] { width: 160px; }
+
+    .stage { display: flex; gap: 18px; align-items: flex-start; }
+    .render-area { flex: 1; min-width: 0; }
+    .panes { display: flex; gap: 16px; align-items: flex-start; overflow-x: auto; padding-bottom: 4px; }
+    .pane h3, .stack h3 { margin: 0 0 6px; font-size: 12px; color: var(--fg-muted); font-weight: 600; }
+    .pane { flex: none; }
+    iframe { border: 1px solid var(--border); border-radius: 8px; background: #fff; display: block; box-shadow: var(--shadow); }
+    .stack { position: relative; flex: none; }
+    .stack .layers { position: relative; }
+    .stack iframe { position: absolute; top: 0; left: 0; }
+    .stack iframe.base-layer { position: relative; }
+    .divider {
+        position: absolute; top: 0; bottom: 0; width: 2px;
+        background: var(--highlight); pointer-events: none;
+    }
+    .not-present {
+        border: 1px dashed var(--border);
+        border-radius: 8px;
+        color: var(--fg-muted);
+        display: flex; align-items: center; justify-content: center;
+        min-height: 120px;
+        font-size: 13px;
+    }
+
+    aside.inspector {
+        width: 320px;
+        flex: none;
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        background: var(--bg-alt);
+        max-height: 75vh;
+        overflow-y: auto;
+    }
+    aside.inspector h3 {
+        margin: 0;
+        padding: 10px 12px;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--fg-muted);
+        border-bottom: 1px solid var(--border);
+        position: sticky; top: 0;
+        background: var(--bg-alt);
+    }
+    .change-row { border-bottom: 1px solid var(--border); }
+    .change-row > button {
+        display: block; width: 100%;
+        padding: 8px 12px;
+        border: 0; background: none; text-align: left;
+        font-size: 12.5px;
+    }
+    .change-row > button:hover { background: color-mix(in srgb, var(--accent) 10%, transparent); }
+    .change-row .where { font-family: ui-monospace, monospace; font-size: 11.5px; }
+    .change-row .count { color: var(--fg-muted); }
+    .change-row table {
+        width: 100%; border-collapse: collapse; font-size: 11.5px;
+        font-family: ui-monospace, monospace;
+        display: none;
+    }
+    .change-row.open table { display: table; }
+    .change-row td { padding: 3px 12px; vertical-align: top; word-break: break-word; }
+    .change-row td.prop { color: var(--fg-muted); white-space: nowrap; }
+    .change-row td .b { color: var(--removed); text-decoration: line-through; display: block; }
+    .change-row td .a { color: var(--added); display: block; }
+
+    pre.diff {
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 12px;
+        overflow-x: auto;
+        font: 12px/1.5 ui-monospace, monospace;
+        background: var(--bg-alt);
+        margin: 0;
+    }
+    pre.diff .add { color: var(--added); }
+    pre.diff .del { color: var(--removed); }
+    pre.diff .hunk { color: var(--accent); }
+
+    .empty-state { color: var(--fg-muted); padding: 64px; text-align: center; font-size: 15px; }
+    kbd {
+        background: var(--bg-inset);
+        border: 1px solid var(--border);
+        border-radius: 4px;
+        padding: 0 4px;
+        font-size: 11px;
+    }
+    footer.note {
+        grid-column: 1 / -1;
+        color: var(--fg-muted);
+        font-size: 11.5px;
+        padding: 6px 16px;
+        border-top: 1px solid var(--border);
+        display: flex; gap: 16px; flex-wrap: wrap;
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>Visual regression review</h1>
+    <span class="meta" id="summary"></span>
+    <span class="progress" id="progress"></span>
+</header>
+<nav>
+    <input id="search" type="search" placeholder="Filter stories… ( / )" />
+    <div id="storylist"></div>
+</nav>
+<main id="main"></main>
+<footer class="note">
+    <span><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
+    <span><kbd>1</kbd>–<kbd>9</kbd> dimension</span>
+    <span><kbd>m</kbd> compare mode</span>
+    <span><kbd>f</kbd> flip (in flip mode)</span>
+    <span><kbd>t</kbd> theme</span>
+    <span><kbd>h</kbd> highlights</span>
+    <span><kbd>d</kbd> text diff</span>
+    <span><kbd>r</kbd> mark reviewed</span>
+    <span style="margin-left:auto">Icon sprites are not embedded; animations are static.</span>
+</footer>
+<script>
+    const DATA = /*__DATA__*/;
+    const TOKENS_LIGHT = /*__TOKENS_LIGHT__*/;
+    const TOKENS_DARK = /*__TOKENS_DARK__*/;
+
+    // ---------- state ----------
+    const state = {
+        entry: null,
+        dimIdx: 0,
+        mode: "side", // side | swipe | onion | flip
+        view: "rendered", // rendered | diff
+        theme: "light",
+        highlights: true,
+        filter: "",
+        swipe: 50,
+        onion: 50,
+        flipShowing: "after",
+    };
+
+    // ---------- reviewed store (content-addressed) ----------
+    function hash(str) {
+        let h = 5381;
+        for (let i = 0; i < str.length; i++) h = ((h << 5) + h + str.charCodeAt(i)) | 0;
+        return (h >>> 0).toString(36);
+    }
+    const reviewedKey = (e) =>
+        "vhd:" + hash(e.file + "|" + e.story + "|" + e.dims.map((d) => d.diff).join(" "));
+    const isReviewed = (e) => localStorage.getItem(reviewedKey(e)) === "1";
+    const setReviewed = (e, v) =>
+        v ? localStorage.setItem(reviewedKey(e), "1") : localStorage.removeItem(reviewedKey(e));
+
+    // ---------- element-level diff engine ----------
+    // Snapshots are well-formed HTML fragments; parse both sides, align
+    // children per level (LCS over tag names), and record per-element
+    // style/attribute/text changes. Matched changed elements get a shared
+    // data-vhd-id so the inspector can locate them in both frames.
+    function parseFragment(html) {
+        return new DOMParser().parseFromString("<body>" + html, "text/html").body;
+    }
+    function styleMap(el) {
+        const map = {};
+        for (const decl of (el.getAttribute("style") || "").split(/;\s*/)) {
+            const i = decl.indexOf(":");
+            if (i > 0) map[decl.slice(0, i).trim()] = decl.slice(i + 1).trim().replace(/\s+/g, " ");
+        }
+        return map;
+    }
+    function lcsPairs(a, b, eq) {
+        const n = a.length, m = b.length;
+        const dp = Array.from({ length: n + 1 }, () => new Array(m + 1).fill(0));
+        for (let i = n - 1; i >= 0; i--)
+            for (let j = m - 1; j >= 0; j--)
+                dp[i][j] = eq(a[i], b[j])
+                    ? dp[i + 1][j + 1] + 1
+                    : Math.max(dp[i + 1][j], dp[i][j + 1]);
+        const pairs = [];
+        let i = 0, j = 0;
+        while (i < n && j < m) {
+            if (eq(a[i], b[j])) { pairs.push([i, j]); i++; j++; }
+            else if (dp[i + 1][j] >= dp[i][j + 1]) i++;
+            else j++;
+        }
+        return pairs;
+    }
+    function markSubtree(el, status) {
+        el.setAttribute("data-vhd", status);
+    }
+    function nodeLabel(el) {
+        return el.tagName.toLowerCase();
+    }
+    let nextId = 0;
+    function diffTrees(bParent, aParent, path, changes) {
+        const bKids = [...bParent.children];
+        const aKids = [...aParent.children];
+        const pairs = lcsPairs(bKids, aKids, (x, y) => x.tagName === y.tagName);
+        const bMatched = new Set(pairs.map((p) => p[0]));
+        const aMatched = new Set(pairs.map((p) => p[1]));
+        bKids.forEach((el, i) => {
+            if (!bMatched.has(i)) {
+                markSubtree(el, "removed");
+                changes.push({ id: null, side: "before", path: path.concat(nodeLabel(el)), props: [{ name: "(element)", before: "present", after: "removed" }] });
+            }
+        });
+        aKids.forEach((el, i) => {
+            if (!aMatched.has(i)) {
+                markSubtree(el, "added");
+                const id = "vhd" + nextId++;
+                el.setAttribute("data-vhd-id", id);
+                changes.push({ id, side: "after", path: path.concat(nodeLabel(el)), props: [{ name: "(element)", before: "absent", after: "added" }] });
+            }
+        });
+        for (const [bi, ai] of pairs) {
+            compareElement(bKids[bi], aKids[ai], path.concat(nodeLabel(aKids[ai])), changes);
+        }
+    }
+    function compareElement(b, a, path, changes) {
+        const props = [];
+        if (b.tagName === "STYLE") {
+            // pseudo-element styles emitted by visual-html
+            if (b.textContent !== a.textContent) {
+                props.push({ name: "(pseudo-element styles)", before: b.textContent.trim(), after: a.textContent.trim() });
+            }
+        } else {
+            const bs = styleMap(b), as = styleMap(a);
+            for (const name of new Set([...Object.keys(bs), ...Object.keys(as)])) {
+                if (bs[name] !== as[name]) {
+                    props.push({ name, before: bs[name] ?? "(unset)", after: as[name] ?? "(unset)" });
+                }
+            }
+            for (const attr of new Set([
+                ...[...b.attributes].map((x) => x.name),
+                ...[...a.attributes].map((x) => x.name),
+            ])) {
+                if (attr === "style" || attr.startsWith("data-vhd")) continue;
+                const bv = b.getAttribute(attr), av = a.getAttribute(attr);
+                if (bv !== av) props.push({ name: "[" + attr + "]", before: bv ?? "(unset)", after: av ?? "(unset)" });
+            }
+            if (!b.children.length && !a.children.length && b.textContent.trim() !== a.textContent.trim()) {
+                props.push({ name: "(text)", before: b.textContent.trim(), after: a.textContent.trim() });
+            }
+        }
+        if (props.length) {
+            const id = "vhd" + nextId++;
+            b.setAttribute("data-vhd", b.getAttribute("data-vhd") || "changed");
+            a.setAttribute("data-vhd", a.getAttribute("data-vhd") || "changed");
+            b.setAttribute("data-vhd-id", id);
+            a.setAttribute("data-vhd-id", id);
+            changes.push({ id, side: "both", path, props });
+        }
+        if (b.tagName !== "STYLE") diffTrees(b, a, path, changes);
+    }
+    function annotate(dim) {
+        const bRoot = parseFragment(dim.before);
+        const aRoot = parseFragment(dim.after);
+        const changes = [];
+        nextId = 0;
+        if (dim.before && dim.after) diffTrees(bRoot, aRoot, [], changes);
+        return { beforeHtml: bRoot.innerHTML, afterHtml: aRoot.innerHTML, changes };
+    }
+
+    // ---------- frames ----------
+    const FRAME_CSS =
+        "body{margin:16px;background:var(--color-background-primary,#fff);" +
+        "color:var(--color-foreground-primary,#111);" +
+        'font-family:"Market Sans",Arial,sans-serif}' +
+        "body.vhd-on [data-vhd=changed]{outline:2px dashed var(--vhd,#c026d3);outline-offset:2px}" +
+        "body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}" +
+        "body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}" +
+        ".vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}";
+    function frameDoc(html, dim) {
+        const dark = state.theme === "dark" ? "<style>" + TOKENS_DARK + "</style>" : "";
+        return (
+            '<!doctype html><html dir="' + (dim.rtl ? "rtl" : "ltr") + '">' +
+            "<head><style>" + TOKENS_LIGHT + "</style>" + dark +
+            "<style>" + FRAME_CSS + "</style></head>" +
+            '<body class="' + (state.highlights ? "vhd-on" : "") + '">' + html + "</body></html>"
+        );
+    }
+    function makeFrame(html, dim, onload) {
+        const iframe = document.createElement("iframe");
+        iframe.style.width = dim.width + "px";
+        iframe.style.height = "160px";
+        iframe.onload = () => {
+            const h = Math.min(
+                Math.max(iframe.contentDocument.documentElement.scrollHeight, 120),
+                900,
+            );
+            iframe.style.height = h + "px";
+            if (onload) onload(iframe, h);
+        };
+        iframe.srcdoc = frameDoc(html, dim);
+        return iframe;
+    }
+
+    // ---------- rendering ----------
+    const summaryEl = document.getElementById("summary");
+    const progressEl = document.getElementById("progress");
+    const listEl = document.getElementById("storylist");
+    const mainEl = document.getElementById("main");
+    const searchEl = document.getElementById("search");
+    let liveFrames = [];
+
+    const componentCount = new Set(DATA.entries.map((e) => e.component)).size;
+    summaryEl.textContent =
+        DATA.entries.length + " changed stor" + (DATA.entries.length === 1 ? "y" : "ies") +
+        " (" + DATA.sectionCount + " sections) across " + componentCount +
+        " components — vs " + DATA.baseRefShort;
+
+    function esc(s) {
+        return s.replace(/&/g, "&amp;").replace(/</g, "&lt;");
+    }
+    function worstStatus(e) {
+        const st = new Set(e.dims.map((d) => d.status));
+        return st.has("removed") ? "removed" : st.has("added") ? "added" : "changed";
+    }
+    function visibleEntries() {
+        const f = state.filter.trim().toLowerCase();
+        if (!f) return DATA.entries;
+        return DATA.entries.filter(
+            (e) => (e.component + " " + e.story + " " + e.file).toLowerCase().includes(f),
+        );
+    }
+    function renderProgress() {
+        const done = DATA.entries.filter(isReviewed).length;
+        progressEl.innerHTML = "<b>" + done + "</b> / " + DATA.entries.length + " reviewed";
+    }
+    function buildNav() {
+        listEl.textContent = "";
+        let lastComponent = null;
+        for (const entry of visibleEntries()) {
+            if (entry.component !== lastComponent) {
+                lastComponent = entry.component;
+                const h = document.createElement("h2");
+                h.textContent = entry.component;
+                listEl.appendChild(h);
+            }
+            const b = document.createElement("button");
+            b.className = "story" + (entry === state.entry ? " active" : "") + (isReviewed(entry) ? " reviewed" : "");
+            const dot = document.createElement("span");
+            dot.className = "dot " + worstStatus(entry);
+            const name = document.createElement("span");
+            name.className = "name";
+            name.textContent = entry.story;
+            name.title = entry.file;
+            const dims = document.createElement("span");
+            dims.className = "chip";
+            dims.textContent = entry.dims.length === 1 ? entry.dims[0].suffix : entry.dims.length + " dims";
+            const tick = document.createElement("span");
+            tick.className = "tick";
+            tick.textContent = "✓";
+            b.append(dot, name, dims, tick);
+            b.onclick = () => selectEntry(entry);
+            entry._btn = b;
+            listEl.appendChild(b);
+        }
+    }
+    function selectEntry(entry) {
+        state.entry = entry;
+        state.dimIdx = 0;
+        state.flipShowing = "after";
+        render();
+        entry._btn?.scrollIntoView({ block: "nearest" });
+    }
+
+    function segment(options, current, onPick) {
+        const seg = document.createElement("div");
+        seg.className = "seg";
+        for (const opt of options) {
+            const b = document.createElement("button");
+            b.textContent = opt.label;
+            if (opt.value === current) b.className = "active";
+            b.onclick = () => onPick(opt.value);
+            seg.appendChild(b);
+        }
+        return seg;
+    }
+    function toggle(label, checked, onChange) {
+        const l = document.createElement("label");
+        l.className = "toggle";
+        const c = document.createElement("input");
+        c.type = "checkbox";
+        c.checked = checked;
+        c.onchange = () => onChange(c.checked);
+        l.append(c, document.createTextNode(label));
+        return l;
+    }
+
+    function flashChange(id) {
+        for (const iframe of liveFrames) {
+            const doc = iframe.contentDocument;
+            if (!doc) continue;
+            doc.querySelectorAll(".vhd-flash").forEach((el) => el.classList.remove("vhd-flash"));
+            const el = doc.querySelector('[data-vhd-id="' + id + '"]');
+            if (el) {
+                el.classList.add("vhd-flash");
+                el.scrollIntoView({ block: "center", behavior: "smooth" });
+                setTimeout(() => el.classList.remove("vhd-flash"), 1600);
+            }
+        }
+    }
+
+    function renderInspector(changes) {
+        const aside = document.createElement("aside");
+        aside.className = "inspector";
+        const h = document.createElement("h3");
+        h.textContent = changes.length + " changed element" + (changes.length === 1 ? "" : "s");
+        aside.appendChild(h);
+        for (const change of changes) {
+            const row = document.createElement("div");
+            row.className = "change-row";
+            const btn = document.createElement("button");
+            btn.innerHTML =
+                '<span class="where">' + esc(change.path.join(" › ") || "(root)") + "</span> " +
+                '<span class="count">— ' + change.props.length + "</span>";
+            btn.onclick = () => {
+                row.classList.toggle("open");
+                if (change.id) flashChange(change.id);
+            };
+            row.appendChild(btn);
+            const table = document.createElement("table");
+            for (const p of change.props) {
+                const tr = document.createElement("tr");
+                tr.innerHTML =
+                    '<td class="prop">' + esc(p.name) + "</td>" +
+                    '<td><span class="b">' + esc(p.before) + '</span><span class="a">' + esc(p.after) + "</span></td>";
+                table.appendChild(tr);
+            }
+            row.appendChild(table);
+            aside.appendChild(row);
+        }
+        return aside;
+    }
+
+    function renderDiffPane(dim) {
+        const pre = document.createElement("pre");
+        pre.className = "diff";
+        pre.innerHTML = dim.diff
+            .split("\n")
+            .map((line) => {
+                const cls = line.startsWith("+") ? "add" : line.startsWith("-") ? "del" : line.startsWith("@@") ? "hunk" : "";
+                return cls ? '<span class="' + cls + '">' + esc(line) + "</span>" : esc(line);
+            })
+            .join("\n");
+        return pre;
+    }
+
+    function renderSidePanes(dim, annotated) {
+        const panes = document.createElement("div");
+        panes.className = "panes";
+        for (const [title, html] of [
+            ["Base (" + DATA.baseRefShort + ")", annotated.beforeHtml],
+            ["This PR", annotated.afterHtml],
+        ]) {
+            const pane = document.createElement("div");
+            pane.className = "pane";
+            const h = document.createElement("h3");
+            h.textContent = title;
+            pane.appendChild(h);
+            if ((title.startsWith("Base") && !dim.before) || (title === "This PR" && !dim.after)) {
+                const np = document.createElement("div");
+                np.className = "not-present";
+                np.style.width = dim.width + "px";
+                np.textContent = "not present in " + (title === "This PR" ? "this PR" : "base");
+                pane.appendChild(np);
+            } else {
+                const f = makeFrame(html, dim);
+                liveFrames.push(f);
+                pane.appendChild(f);
+            }
+            panes.appendChild(pane);
+        }
+        return panes;
+    }
+
+    function renderStack(dim, annotated, mode) {
+        const stack = document.createElement("div");
+        stack.className = "stack";
+        const h = document.createElement("h3");
+        h.textContent =
+            mode === "swipe" ? "Swipe — left: PR, right: base" :
+            mode === "onion" ? "Onion skin — PR over base" :
+            "Flip — showing " + (state.flipShowing === "after" ? "this PR" : "base");
+        stack.appendChild(h);
+        const layers = document.createElement("div");
+        layers.className = "layers";
+        layers.style.width = dim.width + "px";
+        const syncHeights = () => {
+            const hs = [...layers.querySelectorAll("iframe")].map((f) => parseInt(f.style.height) || 0);
+            const max = Math.max(...hs, 120);
+            layers.style.height = max + "px";
+            layers.querySelectorAll("iframe").forEach((f) => (f.style.height = max + "px"));
+        };
+        const base = makeFrame(annotated.beforeHtml, dim, syncHeights);
+        base.className = "base-layer";
+        const top = makeFrame(annotated.afterHtml, dim, syncHeights);
+        liveFrames.push(base, top);
+        layers.append(base, top);
+        stack.appendChild(layers);
+
+        if (mode === "swipe") {
+            const divider = document.createElement("div");
+            divider.className = "divider";
+            layers.appendChild(divider);
+            const slider = document.createElement("input");
+            slider.type = "range";
+            slider.min = 0; slider.max = 100; slider.value = state.swipe;
+            const apply = () => {
+                const p = Number(slider.value);
+                state.swipe = p;
+                top.style.clipPath = "inset(0 " + (100 - p) + "% 0 0)";
+                divider.style.left = "calc(" + p + "% - 1px)";
+            };
+            slider.oninput = apply;
+            apply();
+            slider.style.width = dim.width + "px";
+            stack.appendChild(slider);
+        } else if (mode === "onion") {
+            const slider = document.createElement("input");
+            slider.type = "range";
+            slider.min = 0; slider.max = 100; slider.value = state.onion;
+            const apply = () => {
+                state.onion = Number(slider.value);
+                top.style.opacity = state.onion / 100;
+            };
+            slider.oninput = apply;
+            apply();
+            slider.style.width = dim.width + "px";
+            stack.appendChild(slider);
+        } else {
+            top.style.visibility = state.flipShowing === "after" ? "visible" : "hidden";
+            const hint = document.createElement("div");
+            hint.style.cssText = "font-size:12px;color:var(--fg-muted);margin-top:6px";
+            hint.innerHTML = "Press <kbd>f</kbd> (or click the image) to flip";
+            layers.style.cursor = "pointer";
+            layers.onclick = doFlip;
+            stack.appendChild(hint);
+        }
+        return stack;
+    }
+    function doFlip() {
+        state.flipShowing = state.flipShowing === "after" ? "before" : "after";
+        render();
+    }
+
+    function render() {
+        buildNav();
+        renderProgress();
+        liveFrames = [];
+        mainEl.textContent = "";
+        const entry = state.entry;
+        if (!entry) {
+            mainEl.innerHTML =
+                '<div class="empty-state">' +
+                (DATA.entries.length
+                    ? "Select a changed story from the list"
+                    : "No visual snapshot changes vs " + DATA.baseRefShort) +
+                "</div>";
+            return;
+        }
+        const dim = entry.dims[Math.min(state.dimIdx, entry.dims.length - 1)];
+
+        const titlebar = document.createElement("div");
+        titlebar.className = "titlebar";
+        const h2 = document.createElement("h2");
+        h2.textContent = entry.component + " / " + entry.story;
+        const path = document.createElement("span");
+        path.className = "path";
+        path.textContent = entry.file;
+        titlebar.append(h2, path);
+        mainEl.appendChild(titlebar);
+
+        const toolbar = document.createElement("div");
+        toolbar.className = "toolbar";
+        if (entry.dims.length > 1) {
+            toolbar.appendChild(
+                segment(
+                    entry.dims.map((d, i) => ({ label: d.suffix, value: i })),
+                    Math.min(state.dimIdx, entry.dims.length - 1),
+                    (v) => { state.dimIdx = v; render(); },
+                ),
+            );
+        }
+        toolbar.appendChild(
+            segment(
+                [
+                    { label: "Side by side", value: "side" },
+                    { label: "Swipe", value: "swipe" },
+                    { label: "Onion", value: "onion" },
+                    { label: "Flip", value: "flip" },
+                ],
+                state.mode,
+                (v) => { state.mode = v; state.view = "rendered"; render(); },
+            ),
+        );
+        toolbar.appendChild(
+            segment(
+                [
+                    { label: "Rendered", value: "rendered" },
+                    { label: "Text diff", value: "diff" },
+                ],
+                state.view,
+                (v) => { state.view = v; render(); },
+            ),
+        );
+        toolbar.appendChild(
+            segment(
+                [
+                    { label: "Light", value: "light" },
+                    { label: "Dark", value: "dark" },
+                ],
+                state.theme,
+                (v) => { state.theme = v; render(); },
+            ),
+        );
+        toolbar.appendChild(
+            toggle("Highlights", state.highlights, (v) => {
+                state.highlights = v;
+                for (const f of liveFrames) f.contentDocument?.body?.classList.toggle("vhd-on", v);
+            }),
+        );
+        const grow = document.createElement("div");
+        grow.className = "grow";
+        toolbar.appendChild(grow);
+        toolbar.appendChild(
+            toggle("Reviewed", isReviewed(entry), (v) => {
+                setReviewed(entry, v);
+                buildNav();
+                renderProgress();
+            }),
+        );
+        mainEl.appendChild(toolbar);
+
+        if (state.view === "diff") {
+            mainEl.appendChild(renderDiffPane(dim));
+            return;
+        }
+
+        const annotated = annotate(dim);
+        const stage = document.createElement("div");
+        stage.className = "stage";
+        const renderArea = document.createElement("div");
+        renderArea.className = "render-area";
+        if (state.mode === "side" || !dim.before || !dim.after) {
+            renderArea.appendChild(renderSidePanes(dim, annotated));
+        } else {
+            renderArea.appendChild(renderStack(dim, annotated, state.mode));
+        }
+        stage.appendChild(renderArea);
+        if (annotated.changes.length) {
+            stage.appendChild(renderInspector(annotated.changes));
+        }
+        mainEl.appendChild(stage);
+    }
+
+    // ---------- keyboard ----------
+    const MODES = ["side", "swipe", "onion", "flip"];
+    document.addEventListener("keydown", (e) => {
+        if (e.target === searchEl) {
+            if (e.key === "Escape") searchEl.blur();
+            return;
+        }
+        const list = visibleEntries();
+        const idx = list.indexOf(state.entry);
+        if (e.key === "j" || e.key === "ArrowDown") {
+            e.preventDefault();
+            selectEntry(list[Math.min(idx + 1, list.length - 1)] ?? list[0]);
+        } else if (e.key === "k" || e.key === "ArrowUp") {
+            e.preventDefault();
+            selectEntry(list[Math.max(idx - 1, 0)] ?? list[0]);
+        } else if (e.key >= "1" && e.key <= "9" && state.entry) {
+            const i = Number(e.key) - 1;
+            if (i < state.entry.dims.length) { state.dimIdx = i; render(); }
+        } else if (e.key === "m") {
+            state.mode = MODES[(MODES.indexOf(state.mode) + 1) % MODES.length];
+            state.view = "rendered";
+            render();
+        } else if (e.key === "f" && state.mode === "flip") {
+            doFlip();
+        } else if (e.key === "t") {
+            state.theme = state.theme === "light" ? "dark" : "light";
+            render();
+        } else if (e.key === "h") {
+            state.highlights = !state.highlights;
+            render();
+        } else if (e.key === "d") {
+            state.view = state.view === "diff" ? "rendered" : "diff";
+            render();
+        } else if (e.key === "r" && state.entry) {
+            setReviewed(state.entry, !isReviewed(state.entry));
+            buildNav();
+            renderProgress();
+        } else if (e.key === "/") {
+            e.preventDefault();
+            searchEl.focus();
+        }
+    });
+    searchEl.oninput = () => {
+        state.filter = searchEl.value;
+        buildNav();
+    };
+
+    // ---------- boot ----------
+    if (DATA.entries.length) state.entry = DATA.entries[0];
+    render();
+</script>
+</body>
+</html>

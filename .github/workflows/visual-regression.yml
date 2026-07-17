@@ -1,0 +1,183 @@
+name: Visual Regression
+
+# Replaces the Percy workflows: visual-html snapshots are committed to git,
+# so this check simply regenerates them and fails when the committed
+# snapshots are stale. The preview viewer (rendered before/after for every
+# changed story) is uploaded as an artifact and deployed to the PR preview
+# site for one-click review.
+
+on:
+  pull_request:
+    paths:
+      - 'packages/skin/src/**'
+      - 'packages/skin/dist/**'
+      - 'packages/skin/test/visual/**'
+      - 'packages/skin/vitest.config.js'
+      - 'tools/visual-preview/**'
+      - '.github/workflows/visual-regression.yml'
+
+concurrency:
+  group: "visual-regression-${{ github.head_ref }}"
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  visual:
+    name: visual-html snapshots
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Regenerate visual snapshots
+        run: npm run update-snapshots -w packages/skin
+
+      - name: Check whether committed snapshots are current
+        id: verify
+        run: |
+          if git diff --quiet -- 'packages/skin/src/sass/**/__snapshots__/**'; then
+            echo "stale=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "stale=true" >> "$GITHUB_OUTPUT"
+            echo "Committed snapshots differ from regenerated output:"
+            git diff --stat -- 'packages/skin/src/sass/**/__snapshots__/**'
+          fi
+
+      # TEMPORARY (remove before merging #2): the migration baseline was
+      # generated in a sandbox limited to an older Chromium; snapshot output
+      # is coupled to the Playwright-pinned browser version, so CI adopts
+      # its own regenerated baseline here. Guarded to the migration branches.
+      - name: "[TEMPORARY] Adopt CI-regenerated snapshots on migration branches"
+        if: >-
+          steps.verify.outputs.stale == 'true' &&
+          github.event.pull_request.head.repo.full_name == github.repository &&
+          startsWith(github.head_ref, 'claude/')
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add 'packages/skin/src/sass/**/__snapshots__/**'
+          git commit -m "test: adopt CI-regenerated visual snapshots (lockfile-pinned Chromium)"
+          git push origin "HEAD:refs/heads/${{ github.head_ref }}"
+
+      - name: Build preview viewer (PR visual change vs base)
+        id: viewer
+        run: |
+          git fetch origin "${{ github.base_ref }}"
+          npm run visual:preview -- --base "$(git merge-base HEAD "origin/${{ github.base_ref }}")"
+          echo "sections=$(node -p 'require("./tools/visual-preview/dist/summary.json").totalSections')" >> "$GITHUB_OUTPUT"
+
+      - name: Upload viewer and regenerated snapshots
+        uses: actions/upload-artifact@v4
+        with:
+          name: visual-preview
+          path: |
+            tools/visual-preview/dist/
+            packages/skin/src/sass/**/__snapshots__/**
+          retention-days: 14
+
+      - name: Deploy viewer to PR preview site
+        # Same-repo PRs only (fork PR tokens cannot push); reuses the
+        # gh-pages previews/pr-N/ convention from preview.yml, which
+        # preview-cleanup.yml already removes on PR close.
+        if: >-
+          github.event.pull_request.head.repo.full_name == github.repository &&
+          steps.viewer.outputs.sections != '0'
+        run: |
+          set -euo pipefail
+          repo_url="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            rm -rf node_modules/.cache/gh-pages
+            if npx gh-pages \
+              --dist tools/visual-preview/dist \
+              --dest previews/pr-${{ github.event.pull_request.number }}/visual \
+              --branch gh-pages \
+              --nojekyll \
+              --add \
+              --message "visual preview: pr-${{ github.event.pull_request.number }} @ ${{ github.sha }}" \
+              --repo "$repo_url"; then
+              exit 0
+            fi
+            echo "gh-pages push failed (attempt ${attempt}); retrying."
+            sleep $((attempt * 3))
+          done
+          echo "Failed to deploy visual preview after 3 attempts (artifact is still available)."
+
+      - name: Post visual report comment
+        if: github.event.pull_request.head.repo.full_name == github.repository
+        uses: actions/github-script@v7
+        env:
+          STALE: ${{ steps.verify.outputs.stale }}
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const summary = require('./tools/visual-preview/dist/summary.json');
+            const pr = context.payload.pull_request.number;
+            const sha = context.payload.pull_request.head.sha.slice(0, 7);
+            const url = `https://opensource.ebay.com/evo-web/previews/pr-${pr}/visual/visual-preview.html`;
+            const marker = '### Visual Regression Report';
+
+            const lines = [marker, ''];
+            if (summary.totalSections === 0) {
+              lines.push(`No visual snapshot changes vs \`${summary.baseRef}\`.`);
+            } else {
+              lines.push(
+                `**${summary.totalSections} changed section(s)** vs \`${summary.baseRef}\` — [open the preview viewer](${url}) (or download the \`visual-preview\` artifact).`,
+                '',
+                '| Component | Changed | Added | Removed |',
+                '| --- | ---: | ---: | ---: |',
+              );
+              for (const [component, counts] of Object.entries(summary.components)) {
+                lines.push(`| ${component} | ${counts.changed} | ${counts.added} | ${counts.removed} |`);
+              }
+            }
+            if (process.env.STALE === 'true') {
+              lines.push('', '⚠️ **Committed snapshots are out of date.** Run `npm run update-snapshots -w packages/skin` and commit the result (or download the regenerated snapshots from the `visual-preview` artifact).');
+            }
+            lines.push('', `###### commit ${sha}`);
+            const body = lines.join('\n');
+
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: pr,
+            });
+            const existing = comments.find(
+              (c) => c.user.login === 'github-actions[bot]' && c.body.includes(marker)
+            );
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existing.id,
+                body,
+              });
+            } else if (summary.totalSections > 0 || process.env.STALE === 'true') {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: pr,
+                body,
+              });
+            }
+
+      - name: Fail if snapshots were stale
+        if: steps.verify.outputs.stale == 'true'
+        run: |
+          echo "::error::Visual snapshots are out of date. Run 'npm run update-snapshots -w packages/skin' and commit the result."
+          exit 1

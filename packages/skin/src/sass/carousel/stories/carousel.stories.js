@@ -1,4 +1,9 @@
-export default { title: "Skin/Carousel" };
+export default {
+    title: "Skin/Carousel",
+    parameters: {
+        visual: { widths: [320, 512], rtl: true },
+    },
+};
 
 export const continuous = () => `
 <div class="carousel">

@@ -193,7 +193,7 @@ Follow existing component structures:
 
 - Adequate test coverage for new/modified code
 - Browser tests (Marko via Playwright) or jsdom tests (React)
-- Visual regression via Percy (CSS changes)
+- Visual regression via visual-html snapshots (CSS changes) — run `npm run update-snapshots -w packages/skin` and commit the snapshot changes
 
 **Storybook requirements:**
 
@@ -216,7 +216,7 @@ Follow existing component structures:
 
 - Regenerate `dist/` folder via `npm run build`
 - Test in all supported browsers
-- Percy visual regression approved
+- Visual snapshots regenerated and committed (`Visual Regression` check green)
 - Verify dark mode + RTL support
 - Check responsive breakpoints: 320px, 512px, 768px, 1024px, 1280px, 1440px, 1680px, 1920px
 

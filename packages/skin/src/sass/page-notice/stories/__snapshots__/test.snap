@@ -1,0 +1,1150 @@
+┌─ RTL @ 320px
+<div>
+  <div dir="rtl">
+    <section style="
+      background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      color: var(--page-notice-color, var(--color-foreground-on-inverse));
+      display: grid;
+      font-size: var(--font-size-body);
+      grid-template-columns: 32px auto auto auto;
+      margin: var(--spacing-100) 0;
+      padding: var(--spacing-200)
+    ">
+      <div style="
+        grid-column-start: 1;
+        grid-row-start: 1;
+        margin-inline-end: var(--spacing-200)
+      ">
+        <svg
+          height="24"
+          role="img"
+          style="
+            color: var(--page-notice-confirmation-icon-color, var(--color-foreground-on-success));
+            display: inline-block;
+            fill: currentcolor;
+            height: 16px;
+            pointer-events: none;
+            stroke-width: 0;
+            stroke: currentcolor;
+            vertical-align: middle;
+            width: 16px
+          "
+          width="24"
+        >
+          <use href="#icon-confirmation-filled-16"/>
+        </svg>
+      </div>
+      <div style="
+        grid-column-start: 2;
+        grid-row-start: 1;
+        margin-inline-end: var(--spacing-200)
+      ">
+        <h2 style="
+          font-size: var(--font-size-body);
+          font-weight: 400;
+          margin-bottom: 0px;
+          margin-top: 1px
+        ">
+          Your new listing is live.
+        </h2>
+      </div>
+      <div style="
+        grid-column-start: 4;
+        grid-row-start: 1;
+        margin-right: auto;
+        padding-right: 16px;
+        text-align: right
+      ">
+        <button style="
+          border-bottom-width: 0px;
+          border-left-width: 0px;
+          border-right-width: 0px;
+          border-top-width: 0px;
+          color: var(--page-notice-color, var(--color-foreground-on-inverse));
+          font-family: inherit;
+          font-size: var(--font-size-body);
+          font-weight: 700;
+          padding-bottom: 0px;
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-top: 0px;
+          text-decoration-line: underline
+        ">
+          Dismiss
+        </button>
+      </div>
+    </section>
+    <div/>
+  </div>
+</div>
+
+┌─ RTL @ 512px
+(same as 1280px)
+
+┌─ RTL @ 1280px
+<div>
+  <div dir="rtl">
+    <section style="
+      background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      color: var(--page-notice-color, var(--color-foreground-on-inverse));
+      display: grid;
+      font-size: var(--font-size-body);
+      grid-template-columns: 32px auto auto auto;
+      margin: var(--spacing-200) 0;
+      padding: var(--spacing-200)
+    ">
+      <div style="
+        grid-column-start: 1;
+        grid-row-start: 1;
+        margin-inline-end: var(--spacing-200)
+      ">
+        <svg
+          height="24"
+          role="img"
+          style="
+            color: var(--page-notice-confirmation-icon-color, var(--color-foreground-on-success));
+            display: inline-block;
+            fill: currentcolor;
+            height: 16px;
+            pointer-events: none;
+            stroke-width: 0;
+            stroke: currentcolor;
+            vertical-align: middle;
+            width: 16px
+          "
+          width="24"
+        >
+          <use href="#icon-confirmation-filled-16"/>
+        </svg>
+      </div>
+      <div style="
+        grid-column-start: 2;
+        grid-row-start: 1;
+        margin-inline-end: var(--spacing-200)
+      ">
+        <h2 style="
+          font-size: var(--font-size-body);
+          font-weight: 400;
+          margin-bottom: 2px;
+          margin-top: 1px
+        ">
+          Your new listing is live.
+        </h2>
+      </div>
+      <div style="
+        grid-column-start: 4;
+        grid-row-start: 1;
+        justify-self: flex-end;
+        margin-right: auto;
+        padding-right: 16px;
+        text-align: right
+      ">
+        <button style="
+          border-bottom-width: 0px;
+          border-left-width: 0px;
+          border-right-width: 0px;
+          border-top-width: 0px;
+          color: var(--page-notice-color, var(--color-foreground-on-inverse));
+          font-family: inherit;
+          font-size: var(--font-size-body);
+          font-weight: 700;
+          padding-bottom: 0px;
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-top: 0px;
+          text-decoration-line: underline
+        ">
+          Dismiss
+        </button>
+      </div>
+    </section>
+    <div/>
+  </div>
+</div>
+
+┌─ RTL @ 1280px rtl
+(same as 1280px)
+
+┌─ legacy @ 320px
+<div>
+  <section style="
+    background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-100) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="24"
+        role="img"
+        style="
+          color: var(--page-notice-confirmation-icon-color, var(--color-foreground-on-success));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="24"
+      >
+        <use href="#icon-confirmation-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 1px
+      ">
+        You have opted into eBay Pay.
+      </h2>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 2px;
+        margin: var(--spacing-50) 0 0
+      ">
+        You will now get paid directly.
+      </p>
+    </div>
+  </section>
+</div>
+
+┌─ legacy @ 512px
+(same as 1280px)
+
+┌─ legacy @ 1280px
+<div>
+  <section style="
+    background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-200) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="24"
+        role="img"
+        style="
+          color: var(--page-notice-confirmation-icon-color, var(--color-foreground-on-success));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="24"
+      >
+        <use href="#icon-confirmation-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        margin-bottom: 2px;
+        margin-top: 1px
+      ">
+        You have opted into eBay Pay.
+      </h2>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 2px;
+        margin: var(--spacing-50) 0 0
+      ">
+        You will now get paid directly.
+      </p>
+    </div>
+  </section>
+</div>
+
+┌─ legacy @ 1280px rtl
+(same as 1280px)
+
+┌─ legacyLongText @ 320px
+<div>
+  <section style="
+    background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-100) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="24"
+        role="img"
+        style="
+          color: var(--page-notice-confirmation-icon-color, var(--color-foreground-on-success));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="24"
+      >
+        <use href="#icon-confirmation-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 1px
+      ">
+        Your new listing is live.
+      </h2>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 2px;
+        margin: var(--spacing-50) 0 0
+      ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+  </section>
+</div>
+
+┌─ legacyLongText @ 512px
+(same as 1280px)
+
+┌─ legacyLongText @ 1280px
+<div>
+  <section style="
+    background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-200) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="24"
+        role="img"
+        style="
+          color: var(--page-notice-confirmation-icon-color, var(--color-foreground-on-success));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="24"
+      >
+        <use href="#icon-confirmation-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        margin-bottom: 2px;
+        margin-top: 1px
+      ">
+        Your new listing is live.
+      </h2>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 2px;
+        margin: var(--spacing-50) 0 0
+      ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+  </section>
+</div>
+
+┌─ legacyLongText @ 1280px rtl
+(same as 1280px)
+
+┌─ legacyLongTextAndCTA @ 320px
+<div>
+  <section style="
+    background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-100) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="24"
+        role="img"
+        style="
+          color: var(--page-notice-confirmation-icon-color, var(--color-foreground-on-success));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="24"
+      >
+        <use href="#icon-confirmation-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 1px
+      ">
+        Your new listing is live.
+      </h2>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 2px;
+        margin: var(--spacing-50) 0 0
+      ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      text-align: right
+    ">
+      <p>
+        <a style="
+          color: var(--page-notice-color, var(--color-foreground-on-inverse));
+          font-size: var(--font-size-body);
+          font-weight: 700
+        ">
+          www.ebay.com
+        </a>
+      </p>
+    </div>
+  </section>
+</div>
+
+┌─ legacyLongTextAndCTA @ 512px
+(same as 1280px)
+
+┌─ legacyLongTextAndCTA @ 1280px
+<div>
+  <section style="
+    background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-200) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="24"
+        role="img"
+        style="
+          color: var(--page-notice-confirmation-icon-color, var(--color-foreground-on-success));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="24"
+      >
+        <use href="#icon-confirmation-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        margin-bottom: 2px;
+        margin-top: 1px
+      ">
+        Your new listing is live.
+      </h2>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 2px;
+        margin: var(--spacing-50) 0 0
+      ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      text-align: right
+    ">
+      <p>
+        <a style="
+          color: var(--page-notice-color, var(--color-foreground-on-inverse));
+          font-size: var(--font-size-body);
+          font-weight: 700
+        ">
+          www.ebay.com
+        </a>
+      </p>
+    </div>
+  </section>
+</div>
+
+┌─ legacyLongTextAndCTA @ 1280px rtl
+(same as 1280px)
+
+┌─ legacyMultiParagraph @ 320px
+<div>
+  <section style="
+    background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-100) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="24"
+        role="img"
+        style="
+          color: var(--page-notice-confirmation-icon-color, var(--color-foreground-on-success));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="24"
+      >
+        <use href="#icon-confirmation-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 1px
+      ">
+        Your new listing is live.
+      </h2>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 2px;
+        margin: var(--spacing-50) 0 0
+      ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 2px;
+        margin: var(--spacing-50) 0 0
+      ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+  </section>
+</div>
+
+┌─ legacyMultiParagraph @ 512px
+(same as 1280px)
+
+┌─ legacyMultiParagraph @ 1280px
+<div>
+  <section style="
+    background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-200) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="24"
+        role="img"
+        style="
+          color: var(--page-notice-confirmation-icon-color, var(--color-foreground-on-success));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="24"
+      >
+        <use href="#icon-confirmation-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        margin-bottom: 2px;
+        margin-top: 1px
+      ">
+        Your new listing is live.
+      </h2>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 2px;
+        margin: var(--spacing-50) 0 0
+      ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 2px;
+        margin: var(--spacing-50) 0 0
+      ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+  </section>
+</div>
+
+┌─ legacyMultiParagraph @ 1280px rtl
+(same as 1280px)
+
+┌─ legacyMultiParagraphWithCTA @ 320px
+<div>
+  <section style="
+    background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-100) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="24"
+        role="img"
+        style="
+          color: var(--page-notice-confirmation-icon-color, var(--color-foreground-on-success));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="24"
+      >
+        <use href="#icon-confirmation-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 1px
+      ">
+        Your new listing is live.
+      </h2>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 2px;
+        margin: var(--spacing-50) 0 0
+      ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 2px;
+        margin: var(--spacing-50) 0 0
+      ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      text-align: right
+    ">
+      <p>
+        <a style="
+          color: var(--page-notice-color, var(--color-foreground-on-inverse));
+          font-size: var(--font-size-body);
+          font-weight: 700
+        ">
+          www.ebay.com
+        </a>
+      </p>
+    </div>
+  </section>
+</div>
+
+┌─ legacyMultiParagraphWithCTA @ 512px
+(same as 1280px)
+
+┌─ legacyMultiParagraphWithCTA @ 1280px
+<div>
+  <section style="
+    background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-200) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="24"
+        role="img"
+        style="
+          color: var(--page-notice-confirmation-icon-color, var(--color-foreground-on-success));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="24"
+      >
+        <use href="#icon-confirmation-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        margin-bottom: 2px;
+        margin-top: 1px
+      ">
+        Your new listing is live.
+      </h2>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 2px;
+        margin: var(--spacing-50) 0 0
+      ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 2px;
+        margin: var(--spacing-50) 0 0
+      ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      text-align: right
+    ">
+      <p>
+        <a style="
+          color: var(--page-notice-color, var(--color-foreground-on-inverse));
+          font-size: var(--font-size-body);
+          font-weight: 700
+        ">
+          www.ebay.com
+        </a>
+      </p>
+    </div>
+  </section>
+</div>
+
+┌─ legacyMultiParagraphWithCTA @ 1280px rtl
+(same as 1280px)
+
+┌─ longText @ 320px
+<div>
+  <section style="
+    background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-100) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="24"
+        role="img"
+        style="
+          color: var(--page-notice-confirmation-icon-color, var(--color-foreground-on-success));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="24"
+      >
+        <use href="#icon-confirmation-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        font-weight: 400;
+        margin-bottom: 0px;
+        margin-top: 1px
+      ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </h2>
+    </div>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      text-align: right
+    ">
+      <button style="
+        border-bottom-width: 0px;
+        border-left-width: 0px;
+        border-right-width: 0px;
+        border-top-width: 0px;
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        Dismiss
+      </button>
+    </div>
+  </section>
+</div>
+
+┌─ longText @ 512px
+(same as 1280px)
+
+┌─ longText @ 1280px
+<div>
+  <section style="
+    background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-200) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="24"
+        role="img"
+        style="
+          color: var(--page-notice-confirmation-icon-color, var(--color-foreground-on-success));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="24"
+      >
+        <use href="#icon-confirmation-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        font-weight: 400;
+        margin-bottom: 2px;
+        margin-top: 1px
+      ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </h2>
+    </div>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      text-align: right
+    ">
+      <button style="
+        border-bottom-width: 0px;
+        border-left-width: 0px;
+        border-right-width: 0px;
+        border-top-width: 0px;
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        Dismiss
+      </button>
+    </div>
+  </section>
+</div>
+
+┌─ longText @ 1280px rtl
+(same as 1280px)
+
