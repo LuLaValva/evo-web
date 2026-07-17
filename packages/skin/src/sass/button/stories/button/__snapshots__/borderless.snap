@@ -58,6 +58,9 @@
   </button>
 </div>
 
+┌─ ariaDisabled @ 1280px rtl
+(same as 1280px)
+
 ┌─ base @ 1280px
 <div>
   <button style="
@@ -117,6 +120,9 @@
     </span>
   </button>
 </div>
+
+┌─ base @ 1280px rtl
+(same as 1280px)
 
 ┌─ disabled @ 1280px
 <div>
@@ -181,6 +187,9 @@
   </button>
 </div>
 
+┌─ disabled @ 1280px rtl
+(same as 1280px)
+
 ┌─ empty @ 1280px
 <div>
   <button
@@ -241,4 +250,7 @@
     </span>
   </button>
 </div>
+
+┌─ empty @ 1280px rtl
+(same as 1280px)
 

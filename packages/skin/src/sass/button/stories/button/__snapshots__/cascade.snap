@@ -75,6 +75,9 @@
   </div>
 </div>
 
+┌─ RTL @ 1280px rtl
+(same as 1280px)
+
 ┌─ color @ 1280px
 <div>
   <button style="
@@ -131,6 +134,9 @@
     </span>
   </button>
 </div>
+
+┌─ color @ 1280px rtl
+(same as 1280px)
 
 ┌─ fontSize @ 1280px
 <div>
@@ -190,4 +196,7 @@
     </button>
   </div>
 </div>
+
+┌─ fontSize @ 1280px rtl
+(same as 1280px)
 

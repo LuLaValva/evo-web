@@ -297,7 +297,18 @@ progress-spinner (20 story files, 20 snapshot files). Findings:
   Chromium via `CHROMIUM_EXECUTABLE_PATH` (wired through Playwright
   `launchOptions.executablePath`).
 
-### Phase 1 — Snapshot harness + baseline (~1 week)
+### Phase 1 — Snapshot harness + baseline — ✅ DONE 2026-07-17
+
+Results: 181 story files / 2,219 captured sections across 80 components,
+full run 7.7 min single-threaded in this environment (within the <10 min
+target; sharding remains available). Baseline weighs 12 MB of text —
+cross-dimension dedupe (identical secondary dimensions stored as
+`(same as 1280px)` references) cut it from 23 MB and removes review noise;
+99 of 181 files contain at least one reference. Two consecutive full runs
+produced byte-identical output pre-dedupe; a post-dedupe verification run
+is part of the baseline PR. One quirk: all suites live in one spec file,
+so `toMatchFileSnapshot` flushes only when the whole file finishes —
+snapshots appearing "late" during a run is normal.
 
 - [ ] Promote the Phase 0 spike harness to production quality: widen the
       glob to all of `src/sass`, split into shardable units, keep
@@ -350,6 +361,11 @@ of swapping token stylesheets.
 - Known limitation (matches Storybook status quo): icon sprites are not
   embedded, so `<use href="#icon-…">` glyphs render empty; animations are
   static.
+- Scaling note: bundle size is proportional to changed sections (~1 MB
+  base + content). The degenerate all-2,219-sections case (the baseline
+  PR itself) produces ~49 MB; typical PRs touching a component or two
+  stay in the low MB. If ever needed, pagination or per-component bundles
+  are straightforward follow-ups.
 
 ### Phase 3 — Immediate cutover + Percy removal (~2–3 days)
 

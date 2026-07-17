@@ -24,6 +24,7 @@
       padding-left: 20px;
       padding-right: 20px;
       text-align: center;
+      text-decoration-line: none;
       vertical-align: bottom
     ">
       <span style="
@@ -57,6 +58,9 @@
     </a>
   </div>
 </div>
+
+┌─ RTL @ 1280px rtl
+(same as 1280px)
 
 ┌─ color @ 1280px
 <div>
@@ -84,6 +88,7 @@
       padding-left: 20px;
       padding-right: 20px;
       text-align: center;
+      text-decoration-line: none;
       vertical-align: bottom
     ">
       <span style="
@@ -118,6 +123,9 @@
   </div>
 </div>
 
+┌─ color @ 1280px rtl
+(same as 1280px)
+
 ┌─ fontSize @ 1280px
 <div>
   <div style="font-size: 200%">
@@ -144,6 +152,7 @@
       padding-left: 20px;
       padding-right: 20px;
       text-align: center;
+      text-decoration-line: none;
       vertical-align: bottom
     ">
       <span style="
@@ -177,4 +186,7 @@
     </a>
   </div>
 </div>
+
+┌─ fontSize @ 1280px rtl
+(same as 1280px)
 

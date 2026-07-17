@@ -29,6 +29,9 @@
   </button>
 </div>
 
+┌─ fixedWidth @ 1280px rtl
+(same as 1280px)
+
 ┌─ fixedWidthAndHeight @ 1280px
 <div>
   <button style="
@@ -60,6 +63,9 @@
     Button with a lot of text that should wrap
   </button>
 </div>
+
+┌─ fixedWidthAndHeight @ 1280px rtl
+(same as 1280px)
 
 ┌─ fixedWidthAndHeightTruncated @ 1280px
 <div>
@@ -98,6 +104,9 @@
   </button>
 </div>
 
+┌─ fixedWidthAndHeightTruncated @ 1280px rtl
+(same as 1280px)
+
 ┌─ fluid @ 1280px
 <div>
   <button style="
@@ -128,6 +137,9 @@
     Button
   </button>
 </div>
+
+┌─ fluid @ 1280px rtl
+(same as 1280px)
 
 ┌─ formLarge @ 1280px
 <div>
@@ -179,6 +191,9 @@
   </button>
 </div>
 
+┌─ formLarge @ 1280px rtl
+(same as 1280px)
+
 ┌─ formSmall @ 1280px
 <div>
   <button style="
@@ -228,6 +243,9 @@
     Button
   </button>
 </div>
+
+┌─ formSmall @ 1280px rtl
+(same as 1280px)
 
 ┌─ large @ 1280px
 <div>
@@ -287,6 +305,9 @@
   </button>
 </div>
 
+┌─ large @ 1280px rtl
+(same as 1280px)
+
 ┌─ small @ 1280px
 <div>
   <button style="
@@ -344,4 +365,7 @@
     </span>
   </button>
 </div>
+
+┌─ small @ 1280px rtl
+(same as 1280px)
 

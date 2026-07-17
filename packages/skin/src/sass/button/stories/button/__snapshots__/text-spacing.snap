@@ -48,6 +48,9 @@
   </button>
 </div>
 
+┌─ form @ 1280px rtl
+(same as 1280px)
+
 ┌─ iconAndText @ 1280px
 <div>
   <button style="
@@ -105,6 +108,9 @@
   </button>
 </div>
 
+┌─ iconAndText @ 1280px rtl
+(same as 1280px)
+
 ┌─ textOnly @ 1280px
 <div>
   <button style="
@@ -134,4 +140,7 @@
     Button
   </button>
 </div>
+
+┌─ textOnly @ 1280px rtl
+(same as 1280px)
 

@@ -27,6 +27,7 @@
     padding-right: 20px;
     position: relative;
     text-align: center;
+    text-decoration-line: none;
     transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
     vertical-align: bottom
   ">
@@ -72,6 +73,9 @@
     </span>
   </a>
 </div>
+
+┌─ disabled @ 1280px rtl
+(same as 1280px)
 
 ┌─ iconAndText @ 1280px
 <div>
@@ -102,6 +106,7 @@
     padding-right: 20px;
     position: relative;
     text-align: center;
+    text-decoration-line: none;
     transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
     vertical-align: bottom
   ">
@@ -148,6 +153,9 @@
   </a>
 </div>
 
+┌─ iconAndText @ 1280px rtl
+(same as 1280px)
+
 ┌─ iconOnly @ 1280px
 <div>
   <a style="
@@ -177,6 +185,7 @@
     padding-right: 20px;
     position: relative;
     text-align: center;
+    text-decoration-line: none;
     transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
     vertical-align: bottom
   ">
@@ -221,6 +230,9 @@
   </a>
 </div>
 
+┌─ iconOnly @ 1280px rtl
+(same as 1280px)
+
 ┌─ partiallyDisabled @ 1280px
 <div>
   <a style="
@@ -250,6 +262,7 @@
     padding-right: 20px;
     position: relative;
     text-align: center;
+    text-decoration-line: none;
     transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
     vertical-align: bottom
   ">
@@ -296,6 +309,9 @@
   </a>
 </div>
 
+┌─ partiallyDisabled @ 1280px rtl
+(same as 1280px)
+
 ┌─ textOnly @ 1280px
 <div>
   <a style="
@@ -325,6 +341,7 @@
     padding-right: 20px;
     position: relative;
     text-align: center;
+    text-decoration-line: none;
     transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
     vertical-align: bottom
   ">
@@ -343,4 +360,7 @@
     Fake Button
   </a>
 </div>
+
+┌─ textOnly @ 1280px rtl
+(same as 1280px)
 

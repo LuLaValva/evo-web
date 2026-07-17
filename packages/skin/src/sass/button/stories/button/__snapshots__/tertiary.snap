@@ -79,6 +79,9 @@
   </button>
 </div>
 
+┌─ busy @ 1280px rtl
+(same as 1280px)
+
 ┌─ disabled @ 1280px
 <div>
   <button
@@ -155,6 +158,9 @@
   </button>
 </div>
 
+┌─ disabled @ 1280px rtl
+(same as 1280px)
+
 ┌─ iconAndText @ 1280px
 <div>
   <button style="
@@ -227,6 +233,9 @@
     </span>
   </button>
 </div>
+
+┌─ iconAndText @ 1280px rtl
+(same as 1280px)
 
 ┌─ partiallyDisabled @ 1280px
 <div>
@@ -301,6 +310,9 @@
   </button>
 </div>
 
+┌─ partiallyDisabled @ 1280px rtl
+(same as 1280px)
+
 ┌─ textOnly @ 1280px
 <div>
   <button style="
@@ -346,4 +358,7 @@
     Tertiary
   </button>
 </div>
+
+┌─ textOnly @ 1280px rtl
+(same as 1280px)
 
