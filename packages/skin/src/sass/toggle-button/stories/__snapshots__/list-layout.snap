@@ -193,7 +193,6 @@
         width: 56px
       ">
         <img
-          height=56
           src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
           style="
             height: 100%;
@@ -201,7 +200,6 @@
             max-width: 56px;
             pointer-events: none
           "
-          width=56
         />
       </span>
     </span>
@@ -342,7 +340,6 @@
         width: 56px
       ">
         <img
-          height=56
           src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
           style="
             height: 100%;
@@ -350,7 +347,6 @@
             max-width: 56px;
             pointer-events: none
           "
-          width=56
         />
       </span>
     </span>
@@ -417,7 +413,6 @@
         width: 56px
       ">
         <img
-          height=56
           src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg"
           style="
             height: 100%;
@@ -425,7 +420,6 @@
             max-width: 56px;
             pointer-events: none
           "
-          width=42
         />
       </span>
     </span>
@@ -491,7 +485,6 @@
         width: 56px
       ">
         <img
-          height=56
           src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg"
           style="
             height: 100%;
@@ -499,7 +492,6 @@
             max-width: 56px;
             pointer-events: none
           "
-          width=42
         />
       </span>
     </span>
@@ -565,7 +557,7 @@
         width: 56px
       ">
         <img
-          height=56
+          src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-square-pic.jpg"
           style="
             height: 100%;
             max-height: 56px;
@@ -637,7 +629,7 @@
         width: 56px
       ">
         <img
-          height=56
+          src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-square-pic.jpg"
           style="
             height: 100%;
             max-height: 56px;

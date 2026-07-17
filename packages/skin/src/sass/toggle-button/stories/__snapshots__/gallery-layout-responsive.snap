@@ -192,7 +192,7 @@
         width: 100%
       ">
         <img
-          height=185
+          src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg"
           style="
             height: 100%;
             max-height: 200px;
@@ -424,7 +424,7 @@
         width: 100%
       ">
         <img
-          height=136
+          src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg"
           style="
             height: 100%;
             max-height: 200px;
@@ -653,7 +653,7 @@
         width: 100%
       ">
         <img
-          height=88
+          src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg"
           style="
             height: 100%;
             max-height: 200px;
