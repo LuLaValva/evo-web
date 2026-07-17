@@ -2,8 +2,14 @@
 <div>
   <span style="
     background-color: var(--color-background-secondary);
-    border-bottom: none;
-    border-top: none;
+    border-bottom-color: currentcolor;
+    border-bottom-width: medium;
+    border-left-color: currentcolor;
+    border-left-width: medium;
+    border-right-color: currentcolor;
+    border-right-width: medium;
+    border-top-color: currentcolor;
+    border-top-width: medium;
     color: var(--color-foreground-primary);
     display: flex;
     flex-direction: column;
@@ -86,13 +92,17 @@
           align-content: center;
           align-items: center;
           background-color: var(--color-background-accent);
+          border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-bottom: 1px solid;
+          border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
+          border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
           border-top: 1px solid;
@@ -136,8 +146,14 @@
 <div>
   <span style="
     background-color: var(--color-background-secondary);
-    border-bottom: none;
-    border-top: none;
+    border-bottom-color: currentcolor;
+    border-bottom-width: medium;
+    border-left-color: currentcolor;
+    border-left-width: medium;
+    border-right-color: currentcolor;
+    border-right-width: medium;
+    border-top-color: currentcolor;
+    border-top-width: medium;
     color: var(--color-foreground-primary);
     display: flex;
     flex-direction: column;
@@ -186,13 +202,17 @@
           align-content: center;
           align-items: center;
           background-color: var(--color-background-accent);
+          border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-bottom: 1px solid;
+          border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
+          border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
           border-top: 1px solid;
@@ -236,8 +256,14 @@
 <div>
   <span style="
     background-color: var(--color-background-secondary);
-    border-bottom: none;
-    border-top: none;
+    border-bottom-color: currentcolor;
+    border-bottom-width: medium;
+    border-left-color: currentcolor;
+    border-left-width: medium;
+    border-right-color: currentcolor;
+    border-right-width: medium;
+    border-top-color: currentcolor;
+    border-top-width: medium;
     color: var(--color-foreground-primary);
     display: flex;
     flex-direction: column;
@@ -286,13 +312,17 @@
           align-content: center;
           align-items: center;
           background-color: var(--color-background-accent);
+          border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-bottom: 1px solid;
+          border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
+          border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
           border-top: 1px solid;
@@ -339,8 +369,14 @@
 <div>
   <span style="
     background-color: var(--color-background-secondary);
-    border-bottom: none;
-    border-top: none;
+    border-bottom-color: currentcolor;
+    border-bottom-width: medium;
+    border-left-color: currentcolor;
+    border-left-width: medium;
+    border-right-color: currentcolor;
+    border-right-width: medium;
+    border-top-color: currentcolor;
+    border-top-width: medium;
     color: var(--color-foreground-primary);
     display: flex;
     flex-direction: column;
@@ -389,13 +425,17 @@
           align-content: center;
           align-items: center;
           background-color: var(--color-background-accent);
+          border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-bottom: 1px solid;
+          border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
+          border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
           border-top: 1px solid;

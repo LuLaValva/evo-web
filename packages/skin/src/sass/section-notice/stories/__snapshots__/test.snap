@@ -67,9 +67,17 @@
       margin-top: 2px
     ">
       <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
         border-top-width: 0px;
         color: var(--section-notice-foreground-color, var(--color-foreground-primary));
         font-family: inherit;
@@ -176,9 +184,17 @@
       padding-inline-start: var(--spacing-200)
     ">
       <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
         border-top-width: 0px;
         color: var(--section-notice-foreground-color, var(--color-foreground-primary));
         font-family: inherit;
@@ -283,9 +299,17 @@
       padding-inline-start: var(--spacing-200)
     ">
       <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
         border-top-width: 0px;
         color: var(--section-notice-foreground-color, var(--color-foreground-primary));
         font-family: inherit;
@@ -395,9 +419,17 @@
       margin-top: 2px
     ">
       <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
         border-top-width: 0px;
         color: var(--section-notice-foreground-color, var(--color-foreground-primary));
         font-family: inherit;
@@ -512,9 +544,17 @@
       padding-inline-start: var(--spacing-200)
     ">
       <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
         border-top-width: 0px;
         color: var(--section-notice-foreground-color, var(--color-foreground-primary));
         font-family: inherit;

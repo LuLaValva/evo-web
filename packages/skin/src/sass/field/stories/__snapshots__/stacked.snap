@@ -33,6 +33,14 @@
     ">
       <input style="
         appearance: none;
+        border-bottom-color: currentcolor;
+        border-bottom-width: medium;
+        border-left-color: currentcolor;
+        border-left-width: medium;
+        border-right-color: currentcolor;
+        border-right-width: medium;
+        border-top-color: currentcolor;
+        border-top-width: medium;
         color: inherit;
         flex-grow: 1;
         font-family: inherit;
@@ -92,6 +100,14 @@
     ">
       <input style="
         appearance: none;
+        border-bottom-color: currentcolor;
+        border-bottom-width: medium;
+        border-left-color: currentcolor;
+        border-left-width: medium;
+        border-right-color: currentcolor;
+        border-right-width: medium;
+        border-top-color: currentcolor;
+        border-top-width: medium;
         color: inherit;
         flex-grow: 1;
         font-family: inherit;
@@ -151,6 +167,14 @@
     ">
       <input style="
         appearance: none;
+        border-bottom-color: currentcolor;
+        border-bottom-width: medium;
+        border-left-color: currentcolor;
+        border-left-width: medium;
+        border-right-color: currentcolor;
+        border-right-width: medium;
+        border-top-color: currentcolor;
+        border-top-width: medium;
         color: inherit;
         flex-grow: 1;
         font-family: inherit;
@@ -210,6 +234,14 @@
     ">
       <input style="
         appearance: none;
+        border-bottom-color: currentcolor;
+        border-bottom-width: medium;
+        border-left-color: currentcolor;
+        border-left-width: medium;
+        border-right-color: currentcolor;
+        border-right-width: medium;
+        border-top-color: currentcolor;
+        border-top-width: medium;
         color: inherit;
         flex-grow: 1;
         font-family: inherit;
@@ -440,6 +472,14 @@
     ">
       <input style="
         appearance: none;
+        border-bottom-color: currentcolor;
+        border-bottom-width: medium;
+        border-left-color: currentcolor;
+        border-left-width: medium;
+        border-right-color: currentcolor;
+        border-right-width: medium;
+        border-top-color: currentcolor;
+        border-top-width: medium;
         color: inherit;
         flex-grow: 1;
         font-family: inherit;
@@ -499,6 +539,14 @@
     ">
       <input style="
         appearance: none;
+        border-bottom-color: currentcolor;
+        border-bottom-width: medium;
+        border-left-color: currentcolor;
+        border-left-width: medium;
+        border-right-color: currentcolor;
+        border-right-width: medium;
+        border-top-color: currentcolor;
+        border-top-width: medium;
         color: inherit;
         flex-grow: 1;
         font-family: inherit;
@@ -558,6 +606,14 @@
     ">
       <input style="
         appearance: none;
+        border-bottom-color: currentcolor;
+        border-bottom-width: medium;
+        border-left-color: currentcolor;
+        border-left-width: medium;
+        border-right-color: currentcolor;
+        border-right-width: medium;
+        border-top-color: currentcolor;
+        border-top-width: medium;
         color: inherit;
         flex-grow: 1;
         font-family: inherit;
@@ -617,6 +673,14 @@
     ">
       <input style="
         appearance: none;
+        border-bottom-color: currentcolor;
+        border-bottom-width: medium;
+        border-left-color: currentcolor;
+        border-left-width: medium;
+        border-right-color: currentcolor;
+        border-right-width: medium;
+        border-top-color: currentcolor;
+        border-top-width: medium;
         color: inherit;
         flex-grow: 1;
         font-family: inherit;
@@ -815,9 +879,17 @@
 ┌─ group @ 1280px
 <div>
   <fieldset style="
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
     border-bottom-width: 0px;
+    border-left-color: currentcolor;
+    border-left-style: none;
     border-left-width: 0px;
+    border-right-color: currentcolor;
+    border-right-style: none;
     border-right-width: 0px;
+    border-top-color: currentcolor;
+    border-top-style: none;
     border-top-width: 0px;
     padding-bottom: 0px;
     padding-left: 0px;
@@ -825,6 +897,10 @@
     padding-top: 0px
   ">
     <legend style="
+      border-bottom-color: currentcolor;
+      border-left-color: currentcolor;
+      border-right-color: currentcolor;
+      border-top-color: currentcolor;
       clip-path: inset(50%);
       height: 1px;
       margin-bottom: var(--spacing-100);
@@ -993,6 +1069,14 @@
     ">
       <input style="
         appearance: none;
+        border-bottom-color: currentcolor;
+        border-bottom-width: medium;
+        border-left-color: currentcolor;
+        border-left-width: medium;
+        border-right-color: currentcolor;
+        border-right-width: medium;
+        border-top-color: currentcolor;
+        border-top-width: medium;
         color: inherit;
         flex-grow: 1;
         font-family: inherit;
@@ -1042,6 +1126,14 @@
       <input
         style="
           appearance: none;
+          border-bottom-color: currentcolor;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-width: medium;
           color: inherit;
           flex-grow: 1;
           font-family: inherit;
@@ -1094,6 +1186,14 @@
       ">
         <input style="
           appearance: none;
+          border-bottom-color: currentcolor;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-width: medium;
           color: inherit;
           flex-grow: 1;
           font-family: inherit;
@@ -1142,6 +1242,14 @@
       ">
         <input style="
           appearance: none;
+          border-bottom-color: currentcolor;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-width: medium;
           color: inherit;
           flex-grow: 1;
           font-family: inherit;
@@ -1253,6 +1361,14 @@
       ">
         <input style="
           appearance: none;
+          border-bottom-color: currentcolor;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-width: medium;
           color: inherit;
           flex-grow: 1;
           font-family: inherit;
@@ -1277,13 +1393,17 @@
       align-content: center;
       align-items: center;
       background-color: var(--color-background-accent);
+      border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-bottom: 1px solid;
+      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
+      border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
       border-top: 1px solid;

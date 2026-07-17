@@ -60,9 +60,17 @@
       text-align: right
     ">
       <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
         border-top-width: 0px;
         color: var(--page-notice-color, var(--color-foreground-on-inverse));
         font-family: inherit;
@@ -146,9 +154,17 @@
       text-align: right
     ">
       <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
         border-top-width: 0px;
         color: var(--page-notice-color, var(--color-foreground-on-inverse));
         font-family: inherit;
@@ -231,9 +247,17 @@
       text-align: right
     ">
       <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
         border-top-width: 0px;
         color: var(--page-notice-color, var(--color-foreground-on-inverse));
         font-family: inherit;
@@ -314,9 +338,17 @@
       text-align: right
     ">
       <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
         border-top-width: 0px;
         color: var(--page-notice-color, var(--color-foreground-on-inverse));
         font-family: inherit;
@@ -401,9 +433,17 @@
       text-align: right
     ">
       <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
         border-top-width: 0px;
         color: var(--page-notice-color, var(--color-foreground-on-inverse));
         font-family: inherit;
@@ -640,9 +680,17 @@
       text-align: right
     ">
       <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
         border-top-width: 0px;
         color: var(--page-notice-color, var(--color-foreground-on-inverse));
         font-family: inherit;
@@ -727,9 +775,17 @@
       text-align: right
     ">
       <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
         border-top-width: 0px;
         color: var(--page-notice-color, var(--color-foreground-on-inverse));
         font-family: inherit;
@@ -989,9 +1045,17 @@
       text-align: right
     ">
       <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
         border-top-width: 0px;
         color: var(--page-notice-color, var(--color-foreground-on-inverse));
         cursor: pointer;
@@ -1116,9 +1180,17 @@
       text-align: right
     ">
       <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
         border-top-width: 0px;
         color: var(--page-notice-color, var(--color-foreground-on-inverse));
         cursor: pointer;
@@ -1234,9 +1306,17 @@
       text-align: right
     ">
       <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
         border-top-width: 0px;
         color: var(--page-notice-color, var(--color-foreground-on-inverse));
         cursor: pointer;
@@ -1354,9 +1434,17 @@
       text-align: right
     ">
       <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
         border-top-width: 0px;
         color: var(--page-notice-color, var(--color-foreground-on-inverse));
         cursor: pointer;
@@ -1466,9 +1554,17 @@
       margin-top: var(--spacing-200)
     ">
       <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
         border-top-width: 0px;
         color: var(--page-notice-color, var(--color-foreground-on-inverse));
         font-family: inherit;
@@ -1562,9 +1658,17 @@
       padding-right: var(--spacing-200)
     ">
       <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
         border-top-width: 0px;
         color: var(--page-notice-color, var(--color-foreground-on-inverse));
         font-family: inherit;
@@ -1890,9 +1994,17 @@
       text-align: right
     ">
       <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
         border-top-width: 0px;
         color: var(--page-notice-color, var(--color-foreground-on-inverse));
         font-family: inherit;
@@ -1954,9 +2066,17 @@
       text-align: right
     ">
       <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
         border-top-width: 0px;
         color: var(--page-notice-color, var(--color-foreground-on-inverse));
         font-family: inherit;
@@ -2147,9 +2267,17 @@
       text-align: right
     ">
       <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
         border-top-width: 0px;
         color: var(--page-notice-color, var(--color-foreground-on-inverse));
         font-family: inherit;
@@ -2234,9 +2362,17 @@
       text-align: right
     ">
       <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
         border-top-width: 0px;
         color: var(--page-notice-color, var(--color-foreground-on-inverse));
         font-family: inherit;
@@ -2496,9 +2632,17 @@
       text-align: right
     ">
       <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
         border-top-width: 0px;
         color: var(--page-notice-color, var(--color-foreground-on-inverse));
         cursor: pointer;
@@ -2623,9 +2767,17 @@
       text-align: right
     ">
       <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
         border-top-width: 0px;
         color: var(--page-notice-color, var(--color-foreground-on-inverse));
         cursor: pointer;

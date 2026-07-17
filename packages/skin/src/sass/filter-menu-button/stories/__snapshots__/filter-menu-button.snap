@@ -86,10 +86,18 @@
       </button>
       <div style="
         background-color: var(--filter-menu-item-background-color, var(--color-background-elevated));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 16px;
         border-bottom-right-radius: 16px;
+        border-bottom-width: medium;
+        border-left-color: currentcolor;
+        border-left-width: medium;
+        border-right-color: currentcolor;
+        border-right-width: medium;
+        border-top-color: currentcolor;
         border-top-left-radius: 16px;
         border-top-right-radius: 16px;
+        border-top-width: medium;
         box-shadow: var(--bubble-shadow);
         min-width: 144px;
         overflow-x: hidden;
@@ -298,8 +306,11 @@
         <button style="
           background-color: var(--color-background-elevated);
           border-bottom-style: none;
+          border-bottom-width: medium;
           border-left-style: none;
+          border-left-width: medium;
           border-right-style: none;
+          border-right-width: medium;
           border-top-style: solid;
           border-top-width: 1px;
           bottom: 0px;
@@ -611,10 +622,18 @@
     </button>
     <div style="
       background-color: var(--filter-menu-item-background-color, var(--color-background-elevated));
+      border-bottom-color: currentcolor;
       border-bottom-left-radius: 16px;
       border-bottom-right-radius: 16px;
+      border-bottom-width: medium;
+      border-left-color: currentcolor;
+      border-left-width: medium;
+      border-right-color: currentcolor;
+      border-right-width: medium;
+      border-top-color: currentcolor;
       border-top-left-radius: 16px;
       border-top-right-radius: 16px;
+      border-top-width: medium;
       box-shadow: var(--bubble-shadow);
       min-width: 144px;
       overflow-x: hidden;
@@ -820,8 +839,11 @@
       <button style="
         background-color: var(--color-background-elevated);
         border-bottom-style: none;
+        border-bottom-width: medium;
         border-left-style: none;
+        border-left-width: medium;
         border-right-style: none;
+        border-right-width: medium;
         border-top-style: solid;
         border-top-width: 1px;
         bottom: 0px;
@@ -948,10 +970,18 @@
     </button>
     <div style="
       background-color: var(--filter-menu-item-background-color, var(--color-background-elevated));
+      border-bottom-color: currentcolor;
       border-bottom-left-radius: 16px;
       border-bottom-right-radius: 16px;
+      border-bottom-width: medium;
+      border-left-color: currentcolor;
+      border-left-width: medium;
+      border-right-color: currentcolor;
+      border-right-width: medium;
+      border-top-color: currentcolor;
       border-top-left-radius: 16px;
       border-top-right-radius: 16px;
+      border-top-width: medium;
       box-shadow: var(--bubble-shadow);
       min-width: 144px;
       overflow-x: hidden;
@@ -2194,8 +2224,11 @@
       <button style="
         background-color: var(--color-background-elevated);
         border-bottom-style: none;
+        border-bottom-width: medium;
         border-left-style: none;
+        border-left-width: medium;
         border-right-style: none;
+        border-right-width: medium;
         border-top-style: solid;
         border-top-width: 1px;
         bottom: 0px;
@@ -2323,10 +2356,18 @@
     </button>
     <div style="
       background-color: var(--filter-menu-item-background-color, var(--color-background-elevated));
+      border-bottom-color: currentcolor;
       border-bottom-left-radius: 16px;
       border-bottom-right-radius: 16px;
+      border-bottom-width: medium;
+      border-left-color: currentcolor;
+      border-left-width: medium;
+      border-right-color: currentcolor;
+      border-right-width: medium;
+      border-top-color: currentcolor;
       border-top-left-radius: 16px;
       border-top-right-radius: 16px;
+      border-top-width: medium;
       box-shadow: var(--bubble-shadow);
       min-width: 144px;
       overflow-x: hidden;
@@ -2532,8 +2573,11 @@
       <button style="
         background-color: var(--color-background-elevated);
         border-bottom-style: none;
+        border-bottom-width: medium;
         border-left-style: none;
+        border-left-width: medium;
         border-right-style: none;
+        border-right-width: medium;
         border-top-style: solid;
         border-top-width: 1px;
         bottom: 0px;
@@ -2660,10 +2704,18 @@
     </button>
     <div style="
       background-color: var(--filter-menu-item-background-color, var(--color-background-elevated));
+      border-bottom-color: currentcolor;
       border-bottom-left-radius: 16px;
       border-bottom-right-radius: 16px;
+      border-bottom-width: medium;
+      border-left-color: currentcolor;
+      border-left-width: medium;
+      border-right-color: currentcolor;
+      border-right-width: medium;
+      border-top-color: currentcolor;
       border-top-left-radius: 16px;
       border-top-right-radius: 16px;
+      border-top-width: medium;
       box-shadow: var(--bubble-shadow);
       min-width: 144px;
       overflow-x: hidden;
@@ -3906,8 +3958,11 @@
       <button style="
         background-color: var(--color-background-elevated);
         border-bottom-style: none;
+        border-bottom-width: medium;
         border-left-style: none;
+        border-left-width: medium;
         border-right-style: none;
+        border-right-width: medium;
         border-top-style: solid;
         border-top-width: 1px;
         bottom: 0px;
@@ -4034,10 +4089,18 @@
     </button>
     <div style="
       background-color: var(--filter-menu-item-background-color, var(--color-background-elevated));
+      border-bottom-color: currentcolor;
       border-bottom-left-radius: 16px;
       border-bottom-right-radius: 16px;
+      border-bottom-width: medium;
+      border-left-color: currentcolor;
+      border-left-width: medium;
+      border-right-color: currentcolor;
+      border-right-width: medium;
+      border-top-color: currentcolor;
       border-top-left-radius: 16px;
       border-top-right-radius: 16px;
+      border-top-width: medium;
       box-shadow: var(--bubble-shadow);
       min-width: 144px;
       overflow-x: hidden;
@@ -4243,8 +4306,11 @@
       <button style="
         background-color: var(--color-background-elevated);
         border-bottom-style: none;
+        border-bottom-width: medium;
         border-left-style: none;
+        border-left-width: medium;
         border-right-style: none;
+        border-right-width: medium;
         border-top-style: solid;
         border-top-width: 1px;
         bottom: 0px;

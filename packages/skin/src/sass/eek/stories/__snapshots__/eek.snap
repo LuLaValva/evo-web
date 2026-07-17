@@ -16,6 +16,8 @@
         border-bottom-right-radius: 2px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-left-color: currentcolor;
+        border-left-width: medium;
         border-right-style: solid;
         border-right-width: 1px;
         border-top-right-radius: 2px;
@@ -113,6 +115,8 @@
         border-bottom-right-radius: 2px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-left-color: currentcolor;
+        border-left-width: medium;
         border-right-style: solid;
         border-right-width: 1px;
         border-top-right-radius: 2px;
@@ -209,6 +213,8 @@
       border-bottom-right-radius: 2px;
       border-bottom-style: solid;
       border-bottom-width: 1px;
+      border-left-color: currentcolor;
+      border-left-width: medium;
       border-right-style: solid;
       border-right-width: 1px;
       border-top-right-radius: 2px;
@@ -304,6 +310,8 @@
       border-bottom-right-radius: 2px;
       border-bottom-style: solid;
       border-bottom-width: 1px;
+      border-left-color: currentcolor;
+      border-left-width: medium;
       border-right-style: solid;
       border-right-width: 1px;
       border-top-right-radius: 2px;

@@ -44,14 +44,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -111,14 +119,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -178,14 +194,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -235,6 +259,14 @@
           style="
             appearance: none;
             background-color: var(--combobox-textbox-disabled-background-color, var(--color-background-secondary));
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
+            border-left-width: medium;
+            border-right-color: currentcolor;
+            border-right-width: medium;
+            border-top-color: currentcolor;
+            border-top-width: medium;
             color: var(--color-foreground-disabled);
             font-family: inherit;
             font-size: inherit;
@@ -299,14 +331,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -366,14 +406,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -433,14 +481,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -490,6 +546,14 @@
           style="
             appearance: none;
             background-color: var(--combobox-textbox-disabled-background-color, var(--color-background-secondary));
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
+            border-left-width: medium;
+            border-right-color: currentcolor;
+            border-right-width: medium;
+            border-top-color: currentcolor;
+            border-top-width: medium;
             color: var(--color-foreground-disabled);
             font-family: inherit;
             font-size: inherit;
@@ -532,6 +596,14 @@
           style="
             appearance: none;
             background-color: inherit;
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
+            border-left-width: medium;
+            border-right-color: currentcolor;
+            border-right-width: medium;
+            border-top-color: currentcolor;
+            border-top-width: medium;
             color: var(--combobox-textbox-foreground-color, var(--color-foreground-primary));
             font-family: inherit;
             font-size: inherit;
@@ -598,14 +670,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -665,14 +745,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -732,14 +820,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -788,6 +884,14 @@
           style="
             appearance: none;
             background-color: inherit;
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
+            border-left-width: medium;
+            border-right-color: currentcolor;
+            border-right-width: medium;
+            border-top-color: currentcolor;
+            border-top-width: medium;
             color: var(--combobox-textbox-foreground-color, var(--color-foreground-primary));
             font-family: inherit;
             font-size: inherit;
@@ -855,14 +959,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -922,14 +1034,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -989,14 +1109,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -1045,6 +1173,14 @@
           style="
             appearance: none;
             background-color: inherit;
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
+            border-left-width: medium;
+            border-right-color: currentcolor;
+            border-right-width: medium;
+            border-top-color: currentcolor;
+            border-top-width: medium;
             color: var(--combobox-textbox-foreground-color, var(--color-foreground-primary));
             font-family: inherit;
             font-size: inherit;
@@ -1223,6 +1359,14 @@
           style="
             appearance: none;
             background-color: inherit;
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
+            border-left-width: medium;
+            border-right-color: currentcolor;
+            border-right-width: medium;
+            border-top-color: currentcolor;
+            border-top-width: medium;
             color: var(--combobox-textbox-foreground-color, var(--color-foreground-primary));
             font-family: inherit;
             font-size: inherit;
@@ -1290,14 +1434,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -1357,14 +1509,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -1424,14 +1584,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -1491,14 +1659,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -1558,14 +1734,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -1625,14 +1809,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -1692,14 +1884,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -1759,14 +1959,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -1826,14 +2034,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -1893,14 +2109,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -1960,14 +2184,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -2027,14 +2259,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -2094,14 +2334,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -2161,14 +2409,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -2228,14 +2484,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -2284,6 +2548,14 @@
           style="
             appearance: none;
             background-color: inherit;
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
+            border-left-width: medium;
+            border-right-color: currentcolor;
+            border-right-width: medium;
+            border-top-color: currentcolor;
+            border-top-width: medium;
             color: var(--combobox-textbox-foreground-color, var(--color-foreground-primary));
             font-family: inherit;
             font-size: inherit;
@@ -2351,14 +2623,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -2418,14 +2698,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -2485,14 +2773,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -2541,6 +2837,14 @@
           style="
             appearance: none;
             background-color: inherit;
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
+            border-left-width: medium;
+            border-right-color: currentcolor;
+            border-right-width: medium;
+            border-top-color: currentcolor;
+            border-top-width: medium;
             color: var(--combobox-textbox-foreground-color, var(--color-foreground-primary));
             font-family: inherit;
             font-size: inherit;
@@ -2608,14 +2912,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -2675,14 +2987,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -2742,14 +3062,22 @@
           </span>
           <button style="
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
             border-top-style: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-strong);
             display: flex;
             flex-shrink: 0;
@@ -2798,6 +3126,14 @@
           style="
             appearance: none;
             background-color: inherit;
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
+            border-left-width: medium;
+            border-right-color: currentcolor;
+            border-right-width: medium;
+            border-top-color: currentcolor;
+            border-top-width: medium;
             color: var(--combobox-textbox-foreground-color, var(--color-foreground-primary));
             font-family: inherit;
             font-size: inherit;

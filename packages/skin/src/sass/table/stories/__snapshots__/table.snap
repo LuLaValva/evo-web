@@ -241,10 +241,15 @@
                 text-align: center;
                 width: 56px
               ">
-                <img style="
-                  max-height: 56px;
-                  max-width: 56px
-                "/>
+                <img
+                  height=56
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg"
+                  style="
+                    max-height: 56px;
+                    max-width: 56px
+                  "
+                  width=42
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -295,13 +300,17 @@
             text-align: left
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -508,10 +517,15 @@
                 text-align: center;
                 width: 56px
               ">
-                <img style="
-                  max-height: 56px;
-                  max-width: 56px
-                "/>
+                <img
+                  height=38
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
+                  style="
+                    max-height: 56px;
+                    max-width: 56px
+                  "
+                  width=56
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -562,13 +576,17 @@
             text-align: left
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -773,10 +791,15 @@
                 text-align: center;
                 width: 56px
               ">
-                <img style="
-                  max-height: 56px;
-                  max-width: 56px
-                "/>
+                <img
+                  height=56
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-square-pic.jpg"
+                  style="
+                    max-height: 56px;
+                    max-width: 56px
+                  "
+                  width=53
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -827,13 +850,17 @@
             text-align: left
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -1038,10 +1065,15 @@
                 text-align: center;
                 width: 56px
               ">
-                <img style="
-                  max-height: 56px;
-                  max-width: 56px
-                "/>
+                <img
+                  height=56
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg"
+                  style="
+                    max-height: 56px;
+                    max-width: 56px
+                  "
+                  width=42
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -1092,13 +1124,17 @@
             text-align: left
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -1251,6 +1287,8 @@
         <tr>
           <th style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             font-weight: 400;
@@ -1269,6 +1307,8 @@
           </th>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
@@ -1302,10 +1342,15 @@
                 text-align: center;
                 width: 56px
               ">
-                <img style="
-                  max-height: 56px;
-                  max-width: 56px
-                "/>
+                <img
+                  height=38
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
+                  style="
+                    max-height: 56px;
+                    max-width: 56px
+                  "
+                  width=56
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -1343,6 +1388,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
@@ -1356,13 +1403,17 @@
             text-align: left
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -1384,6 +1435,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
@@ -1400,6 +1453,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
@@ -1416,6 +1471,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
@@ -1449,6 +1506,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
@@ -1465,6 +1524,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
@@ -1481,6 +1542,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
@@ -1497,6 +1560,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
@@ -1761,10 +1826,15 @@
                 text-align: center;
                 width: 56px
               ">
-                <img style="
-                  max-height: 56px;
-                  max-width: 56px
-                "/>
+                <img
+                  height=56
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg"
+                  style="
+                    max-height: 56px;
+                    max-width: 56px
+                  "
+                  width=42
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -1815,13 +1885,17 @@
             text-align: right
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -2028,10 +2102,15 @@
                 text-align: center;
                 width: 56px
               ">
-                <img style="
-                  max-height: 56px;
-                  max-width: 56px
-                "/>
+                <img
+                  height=38
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
+                  style="
+                    max-height: 56px;
+                    max-width: 56px
+                  "
+                  width=56
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -2082,13 +2161,17 @@
             text-align: right
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -2293,10 +2376,15 @@
                 text-align: center;
                 width: 56px
               ">
-                <img style="
-                  max-height: 56px;
-                  max-width: 56px
-                "/>
+                <img
+                  height=56
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-square-pic.jpg"
+                  style="
+                    max-height: 56px;
+                    max-width: 56px
+                  "
+                  width=53
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -2347,13 +2435,17 @@
             text-align: right
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -2558,10 +2650,15 @@
                 text-align: center;
                 width: 56px
               ">
-                <img style="
-                  max-height: 56px;
-                  max-width: 56px
-                "/>
+                <img
+                  height=56
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg"
+                  style="
+                    max-height: 56px;
+                    max-width: 56px
+                  "
+                  width=42
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -2612,13 +2709,17 @@
             text-align: right
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -2771,6 +2872,8 @@
         <tr>
           <th style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             font-weight: 400;
@@ -2789,6 +2892,8 @@
           </th>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
@@ -2822,10 +2927,15 @@
                 text-align: center;
                 width: 56px
               ">
-                <img style="
-                  max-height: 56px;
-                  max-width: 56px
-                "/>
+                <img
+                  height=38
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
+                  style="
+                    max-height: 56px;
+                    max-width: 56px
+                  "
+                  width=56
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -2863,6 +2973,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
@@ -2876,13 +2988,17 @@
             text-align: right
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -2904,6 +3020,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
@@ -2920,6 +3038,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
@@ -2936,6 +3056,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
@@ -2969,6 +3091,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
@@ -2985,6 +3109,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
@@ -3001,6 +3127,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
@@ -3017,6 +3145,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
@@ -3281,10 +3411,15 @@
                 text-align: center;
                 width: 40px
               ">
-                <img style="
-                  max-height: 40px;
-                  max-width: 40px
-                "/>
+                <img
+                  height=40
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg"
+                  style="
+                    max-height: 40px;
+                    max-width: 40px
+                  "
+                  width=30
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -3335,13 +3470,17 @@
             text-align: left
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -3548,10 +3687,15 @@
                 text-align: center;
                 width: 40px
               ">
-                <img style="
-                  max-height: 40px;
-                  max-width: 40px
-                "/>
+                <img
+                  height=27
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
+                  style="
+                    max-height: 40px;
+                    max-width: 40px
+                  "
+                  width=40
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -3602,13 +3746,17 @@
             text-align: left
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -3813,10 +3961,15 @@
                 text-align: center;
                 width: 40px
               ">
-                <img style="
-                  max-height: 40px;
-                  max-width: 40px
-                "/>
+                <img
+                  height=40
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-square-pic.jpg"
+                  style="
+                    max-height: 40px;
+                    max-width: 40px
+                  "
+                  width=38
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -3867,13 +4020,17 @@
             text-align: left
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -4078,10 +4235,15 @@
                 text-align: center;
                 width: 40px
               ">
-                <img style="
-                  max-height: 40px;
-                  max-width: 40px
-                "/>
+                <img
+                  height=40
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg"
+                  style="
+                    max-height: 40px;
+                    max-width: 40px
+                  "
+                  width=30
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -4132,13 +4294,17 @@
             text-align: left
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -4291,6 +4457,8 @@
         <tr>
           <th style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             font-weight: 400;
@@ -4309,6 +4477,8 @@
           </th>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
@@ -4342,10 +4512,15 @@
                 text-align: center;
                 width: 40px
               ">
-                <img style="
-                  max-height: 40px;
-                  max-width: 40px
-                "/>
+                <img
+                  height=27
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
+                  style="
+                    max-height: 40px;
+                    max-width: 40px
+                  "
+                  width=40
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -4383,6 +4558,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
@@ -4396,13 +4573,17 @@
             text-align: left
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -4424,6 +4605,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
@@ -4440,6 +4623,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
@@ -4456,6 +4641,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
@@ -4489,6 +4676,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
@@ -4505,6 +4694,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
@@ -4521,6 +4712,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
@@ -4537,6 +4730,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
@@ -4809,10 +5004,15 @@
                 text-align: center;
                 width: 72px
               ">
-                <img style="
-                  max-height: 72px;
-                  max-width: 72px
-                "/>
+                <img
+                  height=72
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg"
+                  style="
+                    max-height: 72px;
+                    max-width: 72px
+                  "
+                  width=54
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -4863,13 +5063,17 @@
             text-align: left
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -5076,10 +5280,15 @@
                 text-align: center;
                 width: 72px
               ">
-                <img style="
-                  max-height: 72px;
-                  max-width: 72px
-                "/>
+                <img
+                  height=49
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
+                  style="
+                    max-height: 72px;
+                    max-width: 72px
+                  "
+                  width=72
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -5130,13 +5339,17 @@
             text-align: left
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -5341,10 +5554,15 @@
                 text-align: center;
                 width: 72px
               ">
-                <img style="
-                  max-height: 72px;
-                  max-width: 72px
-                "/>
+                <img
+                  height=72
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-square-pic.jpg"
+                  style="
+                    max-height: 72px;
+                    max-width: 72px
+                  "
+                  width=68
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -5395,13 +5613,17 @@
             text-align: left
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -5606,10 +5828,15 @@
                 text-align: center;
                 width: 72px
               ">
-                <img style="
-                  max-height: 72px;
-                  max-width: 72px
-                "/>
+                <img
+                  height=72
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg"
+                  style="
+                    max-height: 72px;
+                    max-width: 72px
+                  "
+                  width=54
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -5660,13 +5887,17 @@
             text-align: left
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -5870,10 +6101,15 @@
                 text-align: center;
                 width: 72px
               ">
-                <img style="
-                  max-height: 72px;
-                  max-width: 72px
-                "/>
+                <img
+                  height=49
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
+                  style="
+                    max-height: 72px;
+                    max-width: 72px
+                  "
+                  width=72
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -5924,13 +6160,17 @@
             text-align: left
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -6135,10 +6375,15 @@
                 text-align: center;
                 width: 72px
               ">
-                <img style="
-                  max-height: 72px;
-                  max-width: 72px
-                "/>
+                <img
+                  height=49
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
+                  style="
+                    max-height: 72px;
+                    max-width: 72px
+                  "
+                  width=72
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -6189,13 +6434,17 @@
             text-align: left
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -6400,10 +6649,15 @@
                 text-align: center;
                 width: 72px
               ">
-                <img style="
-                  max-height: 72px;
-                  max-width: 72px
-                "/>
+                <img
+                  height=49
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
+                  style="
+                    max-height: 72px;
+                    max-width: 72px
+                  "
+                  width=72
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -6454,13 +6708,17 @@
             text-align: left
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -6665,10 +6923,15 @@
                 text-align: center;
                 width: 72px
               ">
-                <img style="
-                  max-height: 72px;
-                  max-width: 72px
-                "/>
+                <img
+                  height=49
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
+                  style="
+                    max-height: 72px;
+                    max-width: 72px
+                  "
+                  width=72
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -6719,13 +6982,17 @@
             text-align: left
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -6930,10 +7197,15 @@
                 text-align: center;
                 width: 72px
               ">
-                <img style="
-                  max-height: 72px;
-                  max-width: 72px
-                "/>
+                <img
+                  height=49
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
+                  style="
+                    max-height: 72px;
+                    max-width: 72px
+                  "
+                  width=72
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -6984,13 +7256,17 @@
             text-align: left
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -7195,10 +7471,15 @@
                 text-align: center;
                 width: 72px
               ">
-                <img style="
-                  max-height: 72px;
-                  max-width: 72px
-                "/>
+                <img
+                  height=49
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
+                  style="
+                    max-height: 72px;
+                    max-width: 72px
+                  "
+                  width=72
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -7249,13 +7530,17 @@
             text-align: left
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -7460,10 +7745,15 @@
                 text-align: center;
                 width: 72px
               ">
-                <img style="
-                  max-height: 72px;
-                  max-width: 72px
-                "/>
+                <img
+                  height=49
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
+                  style="
+                    max-height: 72px;
+                    max-width: 72px
+                  "
+                  width=72
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -7514,13 +7804,17 @@
             text-align: left
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -7725,10 +8019,15 @@
                 text-align: center;
                 width: 72px
               ">
-                <img style="
-                  max-height: 72px;
-                  max-width: 72px
-                "/>
+                <img
+                  height=49
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
+                  style="
+                    max-height: 72px;
+                    max-width: 72px
+                  "
+                  width=72
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -7779,13 +8078,17 @@
             text-align: left
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -7990,10 +8293,15 @@
                 text-align: center;
                 width: 72px
               ">
-                <img style="
-                  max-height: 72px;
-                  max-width: 72px
-                "/>
+                <img
+                  height=49
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
+                  style="
+                    max-height: 72px;
+                    max-width: 72px
+                  "
+                  width=72
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -8044,13 +8352,17 @@
             text-align: left
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -8204,6 +8516,8 @@
         <tr>
           <th style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             font-weight: 400;
@@ -8222,6 +8536,8 @@
           </th>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
@@ -8255,10 +8571,15 @@
                 text-align: center;
                 width: 72px
               ">
-                <img style="
-                  max-height: 72px;
-                  max-width: 72px
-                "/>
+                <img
+                  height=49
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
+                  style="
+                    max-height: 72px;
+                    max-width: 72px
+                  "
+                  width=72
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -8296,6 +8617,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
@@ -8309,13 +8632,17 @@
             text-align: left
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -8337,6 +8664,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
@@ -8353,6 +8682,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
@@ -8369,6 +8700,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
@@ -8402,6 +8735,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
@@ -8418,6 +8753,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
@@ -8434,6 +8771,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
@@ -8450,6 +8789,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
@@ -8717,10 +9058,15 @@
                 text-align: center;
                 width: 72px
               ">
-                <img style="
-                  max-height: 72px;
-                  max-width: 72px
-                "/>
+                <img
+                  height=72
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg"
+                  style="
+                    max-height: 72px;
+                    max-width: 72px
+                  "
+                  width=54
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -8771,13 +9117,17 @@
             text-align: left
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -8984,10 +9334,15 @@
                 text-align: center;
                 width: 72px
               ">
-                <img style="
-                  max-height: 72px;
-                  max-width: 72px
-                "/>
+                <img
+                  height=49
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
+                  style="
+                    max-height: 72px;
+                    max-width: 72px
+                  "
+                  width=72
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -9038,13 +9393,17 @@
             text-align: left
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -9249,10 +9608,15 @@
                 text-align: center;
                 width: 72px
               ">
-                <img style="
-                  max-height: 72px;
-                  max-width: 72px
-                "/>
+                <img
+                  height=72
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-square-pic.jpg"
+                  style="
+                    max-height: 72px;
+                    max-width: 72px
+                  "
+                  width=68
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -9303,13 +9667,17 @@
             text-align: left
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -9514,10 +9882,15 @@
                 text-align: center;
                 width: 72px
               ">
-                <img style="
-                  max-height: 72px;
-                  max-width: 72px
-                "/>
+                <img
+                  height=72
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg"
+                  style="
+                    max-height: 72px;
+                    max-width: 72px
+                  "
+                  width=54
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -9568,13 +9941,17 @@
             text-align: left
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -9727,6 +10104,8 @@
         <tr>
           <th style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             font-weight: 400;
@@ -9745,6 +10124,8 @@
           </th>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
@@ -9778,10 +10159,15 @@
                 text-align: center;
                 width: 72px
               ">
-                <img style="
-                  max-height: 72px;
-                  max-width: 72px
-                "/>
+                <img
+                  height=49
+                  src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
+                  style="
+                    max-height: 72px;
+                    max-width: 72px
+                  "
+                  width=72
+                />
               </div>
               <div style="
                 flex-shrink: 0;
@@ -9819,6 +10205,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
@@ -9832,13 +10220,17 @@
             text-align: left
           ">
             <span style="
+              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-bottom: 1px solid;
+              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
+              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               border-top: 1px solid;
@@ -9860,6 +10252,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
@@ -9876,6 +10270,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
@@ -9892,6 +10288,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
@@ -9925,6 +10323,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
@@ -9941,6 +10341,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
@@ -9957,6 +10359,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
@@ -9973,6 +10377,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;

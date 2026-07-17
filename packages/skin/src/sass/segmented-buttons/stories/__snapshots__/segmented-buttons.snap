@@ -20,12 +20,18 @@
       ">
         <button style="
           background-color: var(--color-foreground-primary);
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
-          border-bottom: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
-          border-top: none;
+          border-top-width: medium;
           color: var(--color-foreground-on-inverse);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -43,12 +49,18 @@
         margin-inline-start: var(--spacing-100)
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
-          border-bottom: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
-          border-top: none;
+          border-top-width: medium;
           color: var(--color-foreground-primary);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -81,12 +93,18 @@
         margin-inline-start: var(--spacing-100)
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
-          border-bottom: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
-          border-top: none;
+          border-top-width: medium;
           color: var(--color-foreground-primary);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -138,12 +156,18 @@
           flex-grow: 1
         ">
           <button style="
+            border-bottom-color: currentcolor;
             border-bottom-style: none;
-            border-bottom: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-style: none;
-            border-top: none;
+            border-top-width: medium;
             color: var(--color-foreground-primary);
             font-family: inherit;
             font-size: var(--font-size-body);
@@ -176,12 +200,18 @@
           margin-inline-start: var(--spacing-100)
         ">
           <button style="
+            border-bottom-color: currentcolor;
             border-bottom-style: none;
-            border-bottom: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-style: none;
-            border-top: none;
+            border-top-width: medium;
             color: var(--color-foreground-primary);
             font-family: inherit;
             font-size: var(--font-size-body);
@@ -215,12 +245,18 @@
         ">
           <button style="
             background-color: var(--color-foreground-primary);
+            border-bottom-color: currentcolor;
             border-bottom-style: none;
-            border-bottom: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-style: none;
-            border-top: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-inverse);
             font-family: inherit;
             font-size: var(--font-size-body);
@@ -238,12 +274,18 @@
           margin-inline-start: var(--spacing-100)
         ">
           <button style="
+            border-bottom-color: currentcolor;
             border-bottom-style: none;
-            border-bottom: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-style: none;
-            border-top: none;
+            border-top-width: medium;
             color: var(--color-foreground-primary);
             font-family: inherit;
             font-size: var(--font-size-body);
@@ -296,12 +338,18 @@
           flex-grow: 1
         ">
           <button style="
+            border-bottom-color: currentcolor;
             border-bottom-style: none;
-            border-bottom: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-style: none;
-            border-top: none;
+            border-top-width: medium;
             color: var(--color-foreground-primary);
             font-family: inherit;
             font-size: var(--font-size-body);
@@ -334,12 +382,18 @@
           margin-inline-start: var(--spacing-100)
         ">
           <button style="
+            border-bottom-color: currentcolor;
             border-bottom-style: none;
-            border-bottom: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-style: none;
-            border-top: none;
+            border-top-width: medium;
             color: var(--color-foreground-primary);
             font-family: inherit;
             font-size: var(--font-size-body);
@@ -373,12 +427,18 @@
         ">
           <button style="
             background-color: var(--color-foreground-primary);
+            border-bottom-color: currentcolor;
             border-bottom-style: none;
-            border-bottom: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-style: none;
-            border-top: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-inverse);
             font-family: inherit;
             font-size: var(--font-size-body);
@@ -396,12 +456,18 @@
           margin-inline-start: var(--spacing-100)
         ">
           <button style="
+            border-bottom-color: currentcolor;
             border-bottom-style: none;
-            border-bottom: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-style: none;
-            border-top: none;
+            border-top-width: medium;
             color: var(--color-foreground-primary);
             font-family: inherit;
             font-size: var(--font-size-body);
@@ -454,12 +520,18 @@
           flex-grow: 1
         ">
           <button style="
+            border-bottom-color: currentcolor;
             border-bottom-style: none;
-            border-bottom: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-style: none;
-            border-top: none;
+            border-top-width: medium;
             color: var(--color-foreground-primary);
             font-family: inherit;
             font-size: var(--font-size-body);
@@ -492,12 +564,18 @@
           margin-inline-start: var(--spacing-100)
         ">
           <button style="
+            border-bottom-color: currentcolor;
             border-bottom-style: none;
-            border-bottom: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-style: none;
-            border-top: none;
+            border-top-width: medium;
             color: var(--color-foreground-primary);
             font-family: inherit;
             font-size: var(--font-size-body);
@@ -531,12 +609,18 @@
         ">
           <button style="
             background-color: var(--color-foreground-primary);
+            border-bottom-color: currentcolor;
             border-bottom-style: none;
-            border-bottom: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-style: none;
-            border-top: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-inverse);
             font-family: inherit;
             font-size: var(--font-size-body);
@@ -554,12 +638,18 @@
           margin-inline-start: var(--spacing-100)
         ">
           <button style="
+            border-bottom-color: currentcolor;
             border-bottom-style: none;
-            border-bottom: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-style: none;
-            border-top: none;
+            border-top-width: medium;
             color: var(--color-foreground-primary);
             font-family: inherit;
             font-size: var(--font-size-body);
@@ -612,12 +702,18 @@
       ">
         <button style="
           background-color: var(--color-foreground-primary);
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
-          border-bottom: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
-          border-top: none;
+          border-top-width: medium;
           color: var(--color-foreground-on-inverse);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -635,12 +731,18 @@
         margin-inline-start: var(--spacing-100)
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
-          border-bottom: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
-          border-top: none;
+          border-top-width: medium;
           color: var(--color-foreground-primary);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -673,12 +775,18 @@
         margin-inline-start: var(--spacing-100)
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
-          border-bottom: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
-          border-top: none;
+          border-top-width: medium;
           color: var(--color-foreground-primary);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -730,12 +838,18 @@
           flex-grow: 1
         ">
           <button style="
+            border-bottom-color: currentcolor;
             border-bottom-style: none;
-            border-bottom: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-style: none;
-            border-top: none;
+            border-top-width: medium;
             color: var(--color-foreground-primary);
             font-family: inherit;
             font-size: var(--font-size-body);
@@ -768,12 +882,18 @@
           margin-inline-start: var(--spacing-100)
         ">
           <button style="
+            border-bottom-color: currentcolor;
             border-bottom-style: none;
-            border-bottom: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-style: none;
-            border-top: none;
+            border-top-width: medium;
             color: var(--color-foreground-primary);
             font-family: inherit;
             font-size: var(--font-size-body);
@@ -807,12 +927,18 @@
         ">
           <button style="
             background-color: var(--color-foreground-primary);
+            border-bottom-color: currentcolor;
             border-bottom-style: none;
-            border-bottom: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-style: none;
-            border-top: none;
+            border-top-width: medium;
             color: var(--color-foreground-on-inverse);
             font-family: inherit;
             font-size: var(--font-size-body);
@@ -830,12 +956,18 @@
           margin-inline-start: var(--spacing-100)
         ">
           <button style="
+            border-bottom-color: currentcolor;
             border-bottom-style: none;
-            border-bottom: none;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-style: none;
-            border-top: none;
+            border-top-width: medium;
             color: var(--color-foreground-primary);
             font-family: inherit;
             font-size: var(--font-size-body);
@@ -887,12 +1019,18 @@
         flex-grow: 1
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
-          border-bottom: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
-          border-top: none;
+          border-top-width: medium;
           color: var(--color-foreground-primary);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -926,12 +1064,18 @@
       ">
         <button style="
           background-color: var(--color-foreground-primary);
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
-          border-bottom: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
-          border-top: none;
+          border-top-width: medium;
           color: var(--color-foreground-on-inverse);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -949,12 +1093,18 @@
         margin-inline-start: var(--spacing-100)
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
-          border-bottom: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
-          border-top: none;
+          border-top-width: medium;
           color: var(--color-foreground-primary);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -987,12 +1137,18 @@
         margin-inline-start: var(--spacing-100)
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
-          border-bottom: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
-          border-top: none;
+          border-top-width: medium;
           color: var(--color-foreground-primary);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -1044,12 +1200,18 @@
       ">
         <button style="
           background-color: var(--color-foreground-primary);
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
-          border-bottom: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
-          border-top: none;
+          border-top-width: medium;
           color: var(--color-foreground-on-inverse);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -1067,12 +1229,18 @@
         margin-inline-start: var(--spacing-100)
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
-          border-bottom: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
-          border-top: none;
+          border-top-width: medium;
           color: var(--color-foreground-primary);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -1105,12 +1273,18 @@
         margin-inline-start: var(--spacing-100)
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
-          border-bottom: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
-          border-top: none;
+          border-top-width: medium;
           color: var(--color-foreground-primary);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -1162,12 +1336,18 @@
       ">
         <button style="
           background-color: var(--color-foreground-primary);
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
-          border-bottom: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
-          border-top: none;
+          border-top-width: medium;
           color: var(--color-foreground-on-inverse);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -1212,12 +1392,18 @@
         margin-inline-start: var(--spacing-100)
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
-          border-bottom: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
-          border-top: none;
+          border-top-width: medium;
           color: var(--color-foreground-primary);
           font-family: inherit;
           font-size: var(--font-size-body);

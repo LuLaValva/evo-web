@@ -253,6 +253,7 @@
     ">
       <img
         height=396
+        src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
         style="
           align-self: center;
           height: 100%;
@@ -356,6 +357,7 @@
     ">
       <img
         height=396
+        src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg"
         style="
           align-self: center;
           height: 100%;
@@ -561,6 +563,7 @@
     ">
       <img
         height=396
+        src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
         style="
           align-self: center;
           background-color: inherit;
@@ -578,14 +581,22 @@
       <button style="
         aspect-ratio: 1 / 1;
         background-color: var(--color-background-inverse);
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 50%;
         border-bottom-right-radius: 50%;
         border-bottom-style: none;
+        border-bottom-width: medium;
+        border-left-color: currentcolor;
         border-left-style: none;
+        border-left-width: medium;
+        border-right-color: currentcolor;
         border-right-style: none;
+        border-right-width: medium;
+        border-top-color: currentcolor;
         border-top-left-radius: 50%;
         border-top-right-radius: 50%;
         border-top-style: none;
+        border-top-width: medium;
         color: var(--color-foreground-on-strong);
         font-family: inherit;
         font-size: var(--font-size-body);
@@ -643,6 +654,7 @@
     >
       <img
         height=396
+        src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
         style="
           align-self: center;
           background-color: inherit;
@@ -660,14 +672,22 @@
       <button style="
         aspect-ratio: 1 / 1;
         background-color: var(--color-background-inverse);
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 50%;
         border-bottom-right-radius: 50%;
         border-bottom-style: none;
+        border-bottom-width: medium;
+        border-left-color: currentcolor;
         border-left-style: none;
+        border-left-width: medium;
+        border-right-color: currentcolor;
         border-right-style: none;
+        border-right-width: medium;
+        border-top-color: currentcolor;
         border-top-left-radius: 50%;
         border-top-right-radius: 50%;
         border-top-style: none;
+        border-top-width: medium;
         color: var(--color-foreground-on-strong);
         font-family: inherit;
         font-size: var(--font-size-body);
@@ -722,6 +742,7 @@
     ">
       <img
         height=396
+        src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
         style="
           align-self: center;
           height: 100%;

@@ -4,13 +4,17 @@
     <button style="
       align-content: center;
       align-items: center;
+      border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-bottom: 1px solid;
+      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
+      border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
       border-top: 1px solid;
@@ -65,6 +69,7 @@
       margin-top: 0px;
       max-height: calc(-40px + 50vh);
       min-width: 100%;
+      outline-width: 0px;
       overflow-y: auto;
       padding-left: 0px;
       position: absolute;
@@ -227,13 +232,17 @@
     <button style="
       align-content: center;
       align-items: center;
+      border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-bottom: 1px solid;
+      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
+      border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
       border-top: 1px solid;
@@ -288,6 +297,7 @@
       margin-top: 0px;
       max-height: calc(-40px + 50vh);
       min-width: 100%;
+      outline-width: 0px;
       overflow-y: auto;
       padding-left: 0px;
       position: absolute;
@@ -469,13 +479,17 @@
     <button style="
       align-content: center;
       align-items: center;
+      border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-bottom: 1px solid;
+      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
+      border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
       border-top: 1px solid;
@@ -530,6 +544,7 @@
       margin-top: 0px;
       max-height: calc(-40px + 50vh);
       min-width: 100%;
+      outline-width: 0px;
       overflow-y: auto;
       padding-left: 0px;
       position: absolute;
@@ -692,13 +707,17 @@
     <button style="
       align-content: center;
       align-items: center;
+      border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-bottom: 1px solid;
+      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
+      border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
       border-top: 1px solid;
@@ -753,6 +772,7 @@
       margin-top: 0px;
       max-height: calc(-40px + 50vh);
       min-width: 100%;
+      outline-width: 0px;
       overflow-y: auto;
       padding-left: 0px;
       position: absolute;

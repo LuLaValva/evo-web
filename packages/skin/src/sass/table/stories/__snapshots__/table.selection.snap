@@ -1163,6 +1163,8 @@
           <tr>
             <td style="
               background-color: var(--color-background-primary);
+              border-bottom-color: currentcolor;
+              border-bottom-width: medium;
               border-bottom: 1px solid var(--color-border-subtle);
               box-sizing: border-box;
               height: 80px;
@@ -1227,6 +1229,8 @@
             </td>
             <th style="
               background-color: var(--color-background-primary);
+              border-bottom-color: currentcolor;
+              border-bottom-width: medium;
               border-bottom: 1px solid var(--color-border-subtle);
               box-sizing: border-box;
               font-weight: 400;
@@ -1245,6 +1249,8 @@
             </th>
             <td style="
               background-color: var(--color-background-primary);
+              border-bottom-color: currentcolor;
+              border-bottom-width: medium;
               border-bottom: 1px solid var(--color-border-subtle);
               box-sizing: border-box;
               height: 80px;
@@ -1261,6 +1267,8 @@
             </td>
             <td style="
               background-color: var(--color-background-primary);
+              border-bottom-color: currentcolor;
+              border-bottom-width: medium;
               border-bottom: 1px solid var(--color-border-subtle);
               box-sizing: border-box;
               height: 80px;
@@ -1275,6 +1283,8 @@
             "/>
             <td style="
               background-color: var(--color-background-primary);
+              border-bottom-color: currentcolor;
+              border-bottom-width: medium;
               border-bottom: 1px solid var(--color-border-subtle);
               box-sizing: border-box;
               height: 80px;
@@ -1291,6 +1301,8 @@
             </td>
             <td style="
               background-color: var(--color-background-primary);
+              border-bottom-color: currentcolor;
+              border-bottom-width: medium;
               border-bottom: 1px solid var(--color-border-subtle);
               box-sizing: border-box;
               height: 80px;
@@ -1307,6 +1319,8 @@
             </td>
             <td style="
               background-color: var(--color-background-primary);
+              border-bottom-color: currentcolor;
+              border-bottom-width: medium;
               border-bottom: 1px solid var(--color-border-subtle);
               box-sizing: border-box;
               height: 80px;
@@ -1323,6 +1337,8 @@
             </td>
             <td style="
               background-color: var(--color-background-primary);
+              border-bottom-color: currentcolor;
+              border-bottom-width: medium;
               border-bottom: 1px solid var(--color-border-subtle);
               box-sizing: border-box;
               height: 80px;
@@ -1339,6 +1355,8 @@
             </td>
             <td style="
               background-color: var(--color-background-primary);
+              border-bottom-color: currentcolor;
+              border-bottom-width: medium;
               border-bottom: 1px solid var(--color-border-subtle);
               box-sizing: border-box;
               height: 80px;
@@ -1355,6 +1373,8 @@
             </td>
             <td style="
               background-color: var(--color-background-primary);
+              border-bottom-color: currentcolor;
+              border-bottom-width: medium;
               border-bottom: 1px solid var(--color-border-subtle);
               box-sizing: border-box;
               height: 80px;
@@ -1371,6 +1391,8 @@
             </td>
             <td style="
               background-color: var(--color-background-primary);
+              border-bottom-color: currentcolor;
+              border-bottom-width: medium;
               border-bottom: 1px solid var(--color-border-subtle);
               box-sizing: border-box;
               height: 80px;
@@ -2560,6 +2582,8 @@
         <tr>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
@@ -2624,6 +2648,8 @@
           </td>
           <th style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             font-weight: 400;
@@ -2642,6 +2668,8 @@
           </th>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
@@ -2658,6 +2686,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
@@ -2672,6 +2702,8 @@
           "/>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
@@ -2688,6 +2720,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
@@ -2704,6 +2738,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
@@ -2720,6 +2756,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
@@ -2736,6 +2774,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
@@ -2752,6 +2792,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
@@ -2768,6 +2810,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
@@ -3956,6 +4000,8 @@
         <tr>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
@@ -4020,6 +4066,8 @@
           </td>
           <th style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             font-weight: 400;
@@ -4038,6 +4086,8 @@
           </th>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
@@ -4054,6 +4104,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
@@ -4068,6 +4120,8 @@
           "/>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
@@ -4084,6 +4138,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
@@ -4100,6 +4156,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
@@ -4116,6 +4174,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
@@ -4132,6 +4192,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
@@ -4148,6 +4210,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
@@ -4164,6 +4228,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
@@ -5352,6 +5418,8 @@
         <tr>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
@@ -5416,6 +5484,8 @@
           </td>
           <th style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             font-weight: 400;
@@ -5434,6 +5504,8 @@
           </th>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
@@ -5450,6 +5522,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
@@ -5464,6 +5538,8 @@
           "/>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
@@ -5480,6 +5556,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
@@ -5496,6 +5574,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
@@ -5512,6 +5592,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
@@ -5528,6 +5610,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
@@ -5544,6 +5628,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
@@ -5560,6 +5646,8 @@
           </td>
           <td style="
             background-color: var(--color-background-primary);
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
             border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;

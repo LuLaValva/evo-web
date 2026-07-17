@@ -10,6 +10,7 @@
     <span style="
       height: 24px;
       left: 0px;
+      outline-width: 0px;
       position: absolute;
       top: 8px;
       width: 40px;
@@ -84,6 +85,7 @@
     <span style="
       height: 24px;
       left: 0px;
+      outline-width: 0px;
       position: absolute;
       top: 8px;
       width: 40px;
@@ -158,6 +160,7 @@
     <span style="
       height: 24px;
       left: 0px;
+      outline-width: 0px;
       position: absolute;
       top: 8px;
       width: 40px;
@@ -232,6 +235,7 @@
     <span style="
       height: 24px;
       left: 0px;
+      outline-width: 0px;
       position: absolute;
       top: 8px;
       width: 40px;

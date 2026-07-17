@@ -34,6 +34,14 @@
             placeholder="Search"
             style="
               background-color: inherit;
+              border-bottom-color: currentcolor;
+              border-bottom-width: medium;
+              border-left-color: currentcolor;
+              border-left-width: medium;
+              border-right-color: currentcolor;
+              border-right-width: medium;
+              border-top-color: currentcolor;
+              border-top-width: medium;
               color: var(--color-foreground-primary);
               flex-grow: 1;
               font-size: var(--font-size-body)
@@ -42,11 +50,19 @@
           <button style="
             align-content: center;
             align-items: center;
+            border-bottom-color: currentcolor;
             border-bottom-style: none;
+            border-bottom-width: medium;
             border-bottom: 1px solid;
+            border-left-color: currentcolor;
             border-left-style: none;
+            border-left-width: medium;
+            border-right-color: currentcolor;
             border-right-style: none;
+            border-right-width: medium;
+            border-top-color: currentcolor;
             border-top-style: none;
+            border-top-width: medium;
             border-top: 1px solid;
             color: inherit;
             font-family: inherit;
@@ -350,8 +366,11 @@
         <button style="
           background-color: var(--color-background-elevated);
           border-bottom-style: none;
+          border-bottom-width: medium;
           border-left-style: none;
+          border-left-width: medium;
           border-right-style: none;
+          border-right-width: medium;
           border-top-style: solid;
           border-top-width: 1px;
           bottom: 0px;
@@ -862,8 +881,11 @@
       <button style="
         background-color: var(--color-background-elevated);
         border-bottom-style: none;
+        border-bottom-width: medium;
         border-left-style: none;
+        border-left-width: medium;
         border-right-style: none;
+        border-right-width: medium;
         border-top-style: solid;
         border-top-width: 1px;
         bottom: 0px;
@@ -934,6 +956,14 @@
         placeholder="Search"
         style="
           background-color: inherit;
+          border-bottom-color: currentcolor;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-width: medium;
           color: var(--color-foreground-primary);
           flex-grow: 1;
           font-size: var(--font-size-body)
@@ -942,11 +972,19 @@
       <button style="
         align-content: center;
         align-items: center;
+        border-bottom-color: currentcolor;
         border-bottom-style: none;
+        border-bottom-width: medium;
         border-bottom: 1px solid;
+        border-left-color: currentcolor;
         border-left-style: none;
+        border-left-width: medium;
+        border-right-color: currentcolor;
         border-right-style: none;
+        border-right-width: medium;
+        border-top-color: currentcolor;
         border-top-style: none;
+        border-top-width: medium;
         border-top: 1px solid;
         color: inherit;
         font-family: inherit;
@@ -1172,8 +1210,11 @@
     <button style="
       background-color: var(--color-background-elevated);
       border-bottom-style: none;
+      border-bottom-width: medium;
       border-left-style: none;
+      border-left-width: medium;
       border-right-style: none;
+      border-right-width: medium;
       border-top-style: solid;
       border-top-width: 1px;
       bottom: 0px;
@@ -1603,8 +1644,11 @@
     <button style="
       background-color: var(--color-background-elevated);
       border-bottom-style: none;
+      border-bottom-width: medium;
       border-left-style: none;
+      border-left-width: medium;
       border-right-style: none;
+      border-right-width: medium;
       border-top-style: solid;
       border-top-width: 1px;
       bottom: 0px;
@@ -1674,6 +1718,14 @@
         placeholder="Search"
         style="
           background-color: inherit;
+          border-bottom-color: currentcolor;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-width: medium;
           color: var(--color-foreground-primary);
           flex-grow: 1;
           font-size: var(--font-size-body)
@@ -1682,11 +1734,19 @@
       <button style="
         align-content: center;
         align-items: center;
+        border-bottom-color: currentcolor;
         border-bottom-style: none;
+        border-bottom-width: medium;
         border-bottom: 1px solid;
+        border-left-color: currentcolor;
         border-left-style: none;
+        border-left-width: medium;
+        border-right-color: currentcolor;
         border-right-style: none;
+        border-right-width: medium;
+        border-top-color: currentcolor;
         border-top-style: none;
+        border-top-width: medium;
         border-top: 1px solid;
         color: inherit;
         font-family: inherit;
@@ -1912,8 +1972,11 @@
     <button style="
       background-color: var(--color-background-elevated);
       border-bottom-style: none;
+      border-bottom-width: medium;
       border-left-style: none;
+      border-left-width: medium;
       border-right-style: none;
+      border-right-width: medium;
       border-top-style: solid;
       border-top-width: 1px;
       bottom: 0px;

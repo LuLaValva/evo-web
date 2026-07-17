@@ -12,6 +12,10 @@
   ">
     <span>
       <h2 style="
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+        border-right-color: currentcolor;
+        border-top-color: currentcolor;
         clip-path: inset(50%);
         height: 1px;
         overflow-x: hidden;
@@ -108,10 +112,18 @@
       ">
         <button style="
           align-items: center;
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: var(--pagination-item-current-foreground-color, var(--color-foreground-primary));
           display: inline-flex;
           font-family: inherit;
@@ -148,10 +160,18 @@
       ">
         <button style="
           align-items: center;
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           display: inline-flex;
           font-family: inherit;
@@ -187,10 +207,18 @@
       ">
         <button style="
           align-items: center;
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           display: inline-flex;
           font-family: inherit;
@@ -226,10 +254,18 @@
       ">
         <button style="
           align-items: center;
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           display: inline-flex;
           font-family: inherit;
@@ -265,10 +301,18 @@
       ">
         <button style="
           align-items: center;
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           display: inline-flex;
           font-family: inherit;
@@ -304,10 +348,18 @@
       ">
         <button style="
           align-items: center;
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           display: inline-flex;
           font-family: inherit;
@@ -343,10 +395,18 @@
       ">
         <button style="
           align-items: center;
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           display: inline-flex;
           font-family: inherit;
@@ -463,6 +523,10 @@
   ">
     <span>
       <h2 style="
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+        border-right-color: currentcolor;
+        border-top-color: currentcolor;
         clip-path: inset(50%);
         height: 1px;
         overflow-x: hidden;
@@ -559,10 +623,18 @@
       ">
         <button style="
           align-items: center;
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: var(--pagination-item-current-foreground-color, var(--color-foreground-primary));
           display: inline-flex;
           font-family: inherit;
@@ -599,10 +671,18 @@
       ">
         <button style="
           align-items: center;
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           display: inline-flex;
           font-family: inherit;
@@ -638,10 +718,18 @@
       ">
         <button style="
           align-items: center;
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           display: inline-flex;
           font-family: inherit;
@@ -677,10 +765,18 @@
       ">
         <button style="
           align-items: center;
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           display: inline-flex;
           font-family: inherit;
@@ -716,10 +812,18 @@
       ">
         <button style="
           align-items: center;
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           display: inline-flex;
           font-family: inherit;
@@ -755,10 +859,18 @@
       ">
         <button style="
           align-items: center;
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           display: inline-flex;
           font-family: inherit;
@@ -794,10 +906,18 @@
       ">
         <button style="
           align-items: center;
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           display: inline-flex;
           font-family: inherit;
@@ -915,6 +1035,10 @@
   ">
     <span>
       <h2 style="
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+        border-right-color: currentcolor;
+        border-top-color: currentcolor;
         clip-path: inset(50%);
         height: 1px;
         overflow-x: hidden;
@@ -1013,10 +1137,18 @@
       ">
         <button style="
           align-items: center;
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: var(--pagination-item-current-foreground-color, var(--color-foreground-primary));
           display: inline-flex;
           font-family: inherit;
@@ -1054,10 +1186,18 @@
       ">
         <button style="
           align-items: center;
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           display: inline-flex;
           font-family: inherit;
@@ -1094,10 +1234,18 @@
       ">
         <button style="
           align-items: center;
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           display: inline-flex;
           font-family: inherit;
@@ -1134,10 +1282,18 @@
       ">
         <button style="
           align-items: center;
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           display: inline-flex;
           font-family: inherit;
@@ -1174,10 +1330,18 @@
       ">
         <button style="
           align-items: center;
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           display: inline-flex;
           font-family: inherit;
@@ -1214,10 +1378,18 @@
       ">
         <button style="
           align-items: center;
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           display: inline-flex;
           font-family: inherit;
@@ -1254,10 +1426,18 @@
       ">
         <button style="
           align-items: center;
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           display: inline-flex;
           font-family: inherit;
@@ -1375,6 +1555,10 @@
   ">
     <span>
       <h2 style="
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+        border-right-color: currentcolor;
+        border-top-color: currentcolor;
         clip-path: inset(50%);
         height: 1px;
         overflow-x: hidden;
@@ -1473,10 +1657,18 @@
       ">
         <button style="
           align-items: center;
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: var(--pagination-item-current-foreground-color, var(--color-foreground-primary));
           display: inline-flex;
           font-family: inherit;
@@ -1514,10 +1706,18 @@
       ">
         <button style="
           align-items: center;
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           display: inline-flex;
           font-family: inherit;
@@ -1554,10 +1754,18 @@
       ">
         <button style="
           align-items: center;
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           display: inline-flex;
           font-family: inherit;
@@ -1594,10 +1802,18 @@
       ">
         <button style="
           align-items: center;
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           display: inline-flex;
           font-family: inherit;
@@ -1634,10 +1850,18 @@
       ">
         <button style="
           align-items: center;
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           display: inline-flex;
           font-family: inherit;
@@ -1674,10 +1898,18 @@
       ">
         <button style="
           align-items: center;
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           display: inline-flex;
           font-family: inherit;
@@ -1714,10 +1946,18 @@
       ">
         <button style="
           align-items: center;
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           display: inline-flex;
           font-family: inherit;

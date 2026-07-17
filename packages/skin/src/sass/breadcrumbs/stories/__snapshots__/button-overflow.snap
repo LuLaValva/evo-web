@@ -16,6 +16,10 @@
     text-wrap-mode: nowrap
   ">
     <h2 style="
+      border-bottom-color: currentcolor;
+      border-left-color: currentcolor;
+      border-right-color: currentcolor;
+      border-top-color: currentcolor;
       clip-path: inset(50%);
       height: 1px;
       overflow-x: hidden;
@@ -40,10 +44,18 @@
         vertical-align: middle
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           font-family: inherit;
           font-size: 1em;
@@ -175,10 +187,18 @@
         vertical-align: middle
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           font-family: inherit;
           font-size: 1em;
@@ -219,10 +239,18 @@
         vertical-align: middle
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: var(--breadcrumbs-item-current-foreground-color, var(--color-foreground-primary));
           font-family: inherit;
           font-size: 1em;
@@ -264,6 +292,10 @@
     text-wrap-mode: nowrap
   ">
     <h2 style="
+      border-bottom-color: currentcolor;
+      border-left-color: currentcolor;
+      border-right-color: currentcolor;
+      border-top-color: currentcolor;
       clip-path: inset(50%);
       height: 1px;
       overflow-x: hidden;
@@ -288,10 +320,18 @@
         vertical-align: middle
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           font-family: inherit;
           font-size: 1em;
@@ -423,10 +463,18 @@
         vertical-align: middle
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           font-family: inherit;
           font-size: 1em;
@@ -467,10 +515,18 @@
         vertical-align: middle
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: var(--breadcrumbs-item-current-foreground-color, var(--color-foreground-primary));
           font-family: inherit;
           font-size: 1em;
@@ -509,6 +565,10 @@
     text-wrap-mode: nowrap
   ">
     <h2 style="
+      border-bottom-color: currentcolor;
+      border-left-color: currentcolor;
+      border-right-color: currentcolor;
+      border-top-color: currentcolor;
       clip-path: inset(50%);
       height: 1px;
       overflow-x: hidden;
@@ -533,10 +593,18 @@
         vertical-align: middle
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           font-family: inherit;
           font-size: 1em;
@@ -670,10 +738,18 @@
         vertical-align: middle
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           font-family: inherit;
           font-size: 1em;
@@ -715,10 +791,18 @@
         vertical-align: middle
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: var(--breadcrumbs-item-current-foreground-color, var(--color-foreground-primary));
           font-family: inherit;
           font-size: 1em;
@@ -757,6 +841,10 @@
     text-wrap-mode: nowrap
   ">
     <h2 style="
+      border-bottom-color: currentcolor;
+      border-left-color: currentcolor;
+      border-right-color: currentcolor;
+      border-top-color: currentcolor;
       clip-path: inset(50%);
       height: 1px;
       overflow-x: hidden;
@@ -781,10 +869,18 @@
         vertical-align: middle
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           font-family: inherit;
           font-size: 1em;
@@ -901,6 +997,7 @@
             margin-top: 0px;
             max-height: calc(-40px + 50vh);
             min-width: 100%;
+            outline-width: 0px;
             overflow-y: auto;
             padding-left: 0px;
             position: absolute;
@@ -1062,10 +1159,18 @@
         vertical-align: middle
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           font-family: inherit;
           font-size: 1em;
@@ -1106,10 +1211,18 @@
         vertical-align: middle
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: var(--breadcrumbs-item-current-foreground-color, var(--color-foreground-primary));
           font-family: inherit;
           font-size: 1em;
@@ -1151,6 +1264,10 @@
     text-wrap-mode: nowrap
   ">
     <h2 style="
+      border-bottom-color: currentcolor;
+      border-left-color: currentcolor;
+      border-right-color: currentcolor;
+      border-top-color: currentcolor;
       clip-path: inset(50%);
       height: 1px;
       overflow-x: hidden;
@@ -1175,10 +1292,18 @@
         vertical-align: middle
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           font-family: inherit;
           font-size: 1em;
@@ -1295,6 +1420,7 @@
             margin-top: 0px;
             max-height: calc(-40px + 50vh);
             min-width: 100%;
+            outline-width: 0px;
             overflow-y: auto;
             padding-left: 0px;
             position: absolute;
@@ -1456,10 +1582,18 @@
         vertical-align: middle
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           font-family: inherit;
           font-size: 1em;
@@ -1500,10 +1634,18 @@
         vertical-align: middle
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: var(--breadcrumbs-item-current-foreground-color, var(--color-foreground-primary));
           font-family: inherit;
           font-size: 1em;
@@ -1545,6 +1687,10 @@
     text-wrap-mode: nowrap
   ">
     <h2 style="
+      border-bottom-color: currentcolor;
+      border-left-color: currentcolor;
+      border-right-color: currentcolor;
+      border-top-color: currentcolor;
       clip-path: inset(50%);
       height: 1px;
       overflow-x: hidden;
@@ -1569,10 +1715,18 @@
         vertical-align: middle
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           font-family: inherit;
           font-size: 1em;
@@ -1704,10 +1858,18 @@
         vertical-align: middle
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: var(--breadcrumbs-item-current-foreground-color, var(--color-foreground-primary));
           font-family: inherit;
           font-size: 1em;
@@ -1749,6 +1911,10 @@
     text-wrap-mode: nowrap
   ">
     <h2 style="
+      border-bottom-color: currentcolor;
+      border-left-color: currentcolor;
+      border-right-color: currentcolor;
+      border-top-color: currentcolor;
       clip-path: inset(50%);
       height: 1px;
       overflow-x: hidden;
@@ -1773,10 +1939,18 @@
         vertical-align: middle
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           font-family: inherit;
           font-size: 1em;
@@ -1908,10 +2082,18 @@
         vertical-align: middle
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: var(--breadcrumbs-item-current-foreground-color, var(--color-foreground-primary));
           font-family: inherit;
           font-size: 1em;
@@ -1953,6 +2135,10 @@
     text-wrap-mode: nowrap
   ">
     <h2 style="
+      border-bottom-color: currentcolor;
+      border-left-color: currentcolor;
+      border-right-color: currentcolor;
+      border-top-color: currentcolor;
       clip-path: inset(50%);
       height: 1px;
       overflow-x: hidden;
@@ -1977,10 +2163,18 @@
         vertical-align: middle
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           font-family: inherit;
           font-size: 1em;
@@ -2112,10 +2306,18 @@
         vertical-align: middle
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           font-family: inherit;
           font-size: 1em;
@@ -2156,10 +2358,18 @@
         vertical-align: middle
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: var(--breadcrumbs-item-current-foreground-color, var(--color-foreground-primary));
           font-family: inherit;
           font-size: 1em;
@@ -2201,6 +2411,10 @@
     text-wrap-mode: nowrap
   ">
     <h2 style="
+      border-bottom-color: currentcolor;
+      border-left-color: currentcolor;
+      border-right-color: currentcolor;
+      border-top-color: currentcolor;
       clip-path: inset(50%);
       height: 1px;
       overflow-x: hidden;
@@ -2225,10 +2439,18 @@
         vertical-align: middle
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           font-family: inherit;
           font-size: 1em;
@@ -2360,10 +2582,18 @@
         vertical-align: middle
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: inherit;
           font-family: inherit;
           font-size: 1em;
@@ -2404,10 +2634,18 @@
         vertical-align: middle
       ">
         <button style="
+          border-bottom-color: currentcolor;
           border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
           border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
           border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
           border-top-style: none;
+          border-top-width: medium;
           color: var(--breadcrumbs-item-current-foreground-color, var(--color-foreground-primary));
           font-family: inherit;
           font-size: 1em;

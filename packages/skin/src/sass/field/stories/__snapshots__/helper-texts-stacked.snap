@@ -31,6 +31,14 @@
       ">
         <input style="
           appearance: none;
+          border-bottom-color: currentcolor;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-width: medium;
           color: inherit;
           flex-grow: 1;
           font-family: inherit;
@@ -101,6 +109,14 @@
       ">
         <input style="
           appearance: none;
+          border-bottom-color: currentcolor;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-width: medium;
           color: inherit;
           flex-grow: 1;
           font-family: inherit;
@@ -167,6 +183,14 @@
       ">
         <input style="
           appearance: none;
+          border-bottom-color: currentcolor;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-width: medium;
           color: inherit;
           flex-grow: 1;
           font-family: inherit;
@@ -242,6 +266,14 @@
     ">
       <input style="
         appearance: none;
+        border-bottom-color: currentcolor;
+        border-bottom-width: medium;
+        border-left-color: currentcolor;
+        border-left-width: medium;
+        border-right-color: currentcolor;
+        border-right-width: medium;
+        border-top-color: currentcolor;
+        border-top-width: medium;
         color: inherit;
         flex-grow: 1;
         font-family: inherit;
@@ -312,6 +344,14 @@
     ">
       <input style="
         appearance: none;
+        border-bottom-color: currentcolor;
+        border-bottom-width: medium;
+        border-left-color: currentcolor;
+        border-left-width: medium;
+        border-right-color: currentcolor;
+        border-right-width: medium;
+        border-top-color: currentcolor;
+        border-top-width: medium;
         color: inherit;
         flex-grow: 1;
         font-family: inherit;
@@ -389,6 +429,14 @@
     ">
       <input style="
         appearance: none;
+        border-bottom-color: currentcolor;
+        border-bottom-width: medium;
+        border-left-color: currentcolor;
+        border-left-width: medium;
+        border-right-color: currentcolor;
+        border-right-width: medium;
+        border-top-color: currentcolor;
+        border-top-width: medium;
         color: inherit;
         flex-grow: 1;
         font-family: inherit;
@@ -466,6 +514,14 @@
     ">
       <input style="
         appearance: none;
+        border-bottom-color: currentcolor;
+        border-bottom-width: medium;
+        border-left-color: currentcolor;
+        border-left-width: medium;
+        border-right-color: currentcolor;
+        border-right-width: medium;
+        border-top-color: currentcolor;
+        border-top-width: medium;
         color: inherit;
         flex-grow: 1;
         font-family: inherit;
@@ -543,6 +599,14 @@
     ">
       <input style="
         appearance: none;
+        border-bottom-color: currentcolor;
+        border-bottom-width: medium;
+        border-left-color: currentcolor;
+        border-left-width: medium;
+        border-right-color: currentcolor;
+        border-right-width: medium;
+        border-top-color: currentcolor;
+        border-top-width: medium;
         color: inherit;
         flex-grow: 1;
         font-family: inherit;

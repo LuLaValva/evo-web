@@ -69,6 +69,7 @@
       left: 0px;
       max-height: 400px;
       min-width: 100%;
+      outline-width: 0px;
       overflow-y: auto;
       position: absolute;
       top: calc(100% + 4px);
@@ -349,6 +350,7 @@
       left: 0px;
       max-height: 400px;
       min-width: 100%;
+      outline-width: 0px;
       overflow-y: auto;
       position: absolute;
       top: calc(100% + 4px);
@@ -694,6 +696,7 @@
       left: 0px;
       max-height: 400px;
       min-width: 100%;
+      outline-width: 0px;
       overflow-y: auto;
       position: absolute;
       top: calc(100% + 4px);
@@ -900,6 +903,9 @@
       <div style="
         align-items: center;
         background-color: var(--color-background-elevated);
+        border-bottom-width: medium;
+        border-left-width: medium;
+        border-right-width: medium;
         border-top-style: solid;
         border-top-width: 1px;
         display: flex;
@@ -909,13 +915,17 @@
         <button style="
           align-content: center;
           align-items: center;
+          border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-bottom: 1px solid;
+          border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
+          border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
           border-top: 1px solid;
@@ -1024,6 +1034,7 @@
       left: 0px;
       max-height: 400px;
       min-width: 100%;
+      outline-width: 0px;
       overflow-y: auto;
       position: absolute;
       top: calc(100% + 4px);
@@ -1304,6 +1315,7 @@
       left: 0px;
       max-height: 400px;
       min-width: 100%;
+      outline-width: 0px;
       overflow-y: auto;
       position: absolute;
       top: calc(100% + 4px);

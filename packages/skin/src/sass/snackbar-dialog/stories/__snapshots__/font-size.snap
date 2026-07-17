@@ -33,9 +33,17 @@
         </div>
         <div style="margin-inline-start: auto">
           <button style="
+            border-bottom-color: currentcolor;
+            border-bottom-style: none;
             border-bottom-width: 0px;
+            border-left-color: currentcolor;
+            border-left-style: none;
             border-left-width: 0px;
+            border-right-color: currentcolor;
+            border-right-style: none;
             border-right-width: 0px;
+            border-top-color: currentcolor;
+            border-top-style: none;
             border-top-width: 0px;
             color: var(--snackbar-dialog-foreground-color, var(--color-foreground-on-inverse));
             font-family: inherit;
@@ -94,9 +102,17 @@
         </div>
         <div style="margin-inline-start: auto">
           <button style="
+            border-bottom-color: currentcolor;
+            border-bottom-style: none;
             border-bottom-width: 0px;
+            border-left-color: currentcolor;
+            border-left-style: none;
             border-left-width: 0px;
+            border-right-color: currentcolor;
+            border-right-style: none;
             border-right-width: 0px;
+            border-top-color: currentcolor;
+            border-top-style: none;
             border-top-width: 0px;
             color: var(--snackbar-dialog-foreground-color, var(--color-foreground-on-inverse));
             font-family: inherit;
@@ -151,9 +167,17 @@
         </div>
         <div style="margin-inline-start: auto">
           <button style="
+            border-bottom-color: currentcolor;
+            border-bottom-style: none;
             border-bottom-width: 0px;
+            border-left-color: currentcolor;
+            border-left-style: none;
             border-left-width: 0px;
+            border-right-color: currentcolor;
+            border-right-style: none;
             border-right-width: 0px;
+            border-top-color: currentcolor;
+            border-top-style: none;
             border-top-width: 0px;
             color: var(--snackbar-dialog-foreground-color, var(--color-foreground-on-inverse));
             font-family: inherit;
@@ -209,9 +233,17 @@
         </div>
         <div style="margin-inline-start: auto">
           <button style="
+            border-bottom-color: currentcolor;
+            border-bottom-style: none;
             border-bottom-width: 0px;
+            border-left-color: currentcolor;
+            border-left-style: none;
             border-left-width: 0px;
+            border-right-color: currentcolor;
+            border-right-style: none;
             border-right-width: 0px;
+            border-top-color: currentcolor;
+            border-top-style: none;
             border-top-width: 0px;
             color: var(--snackbar-dialog-foreground-color, var(--color-foreground-on-inverse));
             font-family: inherit;
@@ -228,9 +260,17 @@
           </button>
           |
           <button style="
+            border-bottom-color: currentcolor;
+            border-bottom-style: none;
             border-bottom-width: 0px;
+            border-left-color: currentcolor;
+            border-left-style: none;
             border-left-width: 0px;
+            border-right-color: currentcolor;
+            border-right-style: none;
             border-right-width: 0px;
+            border-top-color: currentcolor;
+            border-top-style: none;
             border-top-width: 0px;
             color: var(--snackbar-dialog-foreground-color, var(--color-foreground-on-inverse));
             font-family: inherit;
@@ -289,9 +329,17 @@
         </div>
         <div style="margin-inline-start: auto">
           <button style="
+            border-bottom-color: currentcolor;
+            border-bottom-style: none;
             border-bottom-width: 0px;
+            border-left-color: currentcolor;
+            border-left-style: none;
             border-left-width: 0px;
+            border-right-color: currentcolor;
+            border-right-style: none;
             border-right-width: 0px;
+            border-top-color: currentcolor;
+            border-top-style: none;
             border-top-width: 0px;
             color: var(--snackbar-dialog-foreground-color, var(--color-foreground-on-inverse));
             font-family: inherit;
@@ -308,9 +356,17 @@
           </button>
           |
           <button style="
+            border-bottom-color: currentcolor;
+            border-bottom-style: none;
             border-bottom-width: 0px;
+            border-left-color: currentcolor;
+            border-left-style: none;
             border-left-width: 0px;
+            border-right-color: currentcolor;
+            border-right-style: none;
             border-right-width: 0px;
+            border-top-color: currentcolor;
+            border-top-style: none;
             border-top-width: 0px;
             color: var(--snackbar-dialog-foreground-color, var(--color-foreground-on-inverse));
             font-family: inherit;
@@ -373,9 +429,17 @@
           margin-top: var(--spacing-200)
         ">
           <button style="
+            border-bottom-color: currentcolor;
+            border-bottom-style: none;
             border-bottom-width: 0px;
+            border-left-color: currentcolor;
+            border-left-style: none;
             border-left-width: 0px;
+            border-right-color: currentcolor;
+            border-right-style: none;
             border-right-width: 0px;
+            border-top-color: currentcolor;
+            border-top-style: none;
             border-top-width: 0px;
             color: var(--snackbar-dialog-foreground-color, var(--color-foreground-on-inverse));
             font-family: inherit;
@@ -392,9 +456,17 @@
           </button>
           |
           <button style="
+            border-bottom-color: currentcolor;
+            border-bottom-style: none;
             border-bottom-width: 0px;
+            border-left-color: currentcolor;
+            border-left-style: none;
             border-left-width: 0px;
+            border-right-color: currentcolor;
+            border-right-style: none;
             border-right-width: 0px;
+            border-top-color: currentcolor;
+            border-top-style: none;
             border-top-width: 0px;
             color: var(--snackbar-dialog-foreground-color, var(--color-foreground-on-inverse));
             font-family: inherit;
@@ -457,9 +529,17 @@
           margin-top: var(--spacing-200)
         ">
           <button style="
+            border-bottom-color: currentcolor;
+            border-bottom-style: none;
             border-bottom-width: 0px;
+            border-left-color: currentcolor;
+            border-left-style: none;
             border-left-width: 0px;
+            border-right-color: currentcolor;
+            border-right-style: none;
             border-right-width: 0px;
+            border-top-color: currentcolor;
+            border-top-style: none;
             border-top-width: 0px;
             color: var(--snackbar-dialog-foreground-color, var(--color-foreground-on-inverse));
             font-family: inherit;
@@ -476,9 +556,17 @@
           </button>
           |
           <button style="
+            border-bottom-color: currentcolor;
+            border-bottom-style: none;
             border-bottom-width: 0px;
+            border-left-color: currentcolor;
+            border-left-style: none;
             border-left-width: 0px;
+            border-right-color: currentcolor;
+            border-right-style: none;
             border-right-width: 0px;
+            border-top-color: currentcolor;
+            border-top-style: none;
             border-top-width: 0px;
             color: var(--snackbar-dialog-foreground-color, var(--color-foreground-on-inverse));
             font-family: inherit;

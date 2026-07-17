@@ -96,6 +96,14 @@
       min="0"
       style="
         appearance: none;
+        border-bottom-color: currentcolor;
+        border-bottom-width: medium;
+        border-left-color: currentcolor;
+        border-left-width: medium;
+        border-right-color: currentcolor;
+        border-right-width: medium;
+        border-top-color: currentcolor;
+        border-top-width: medium;
         color: inherit;
         font-family: inherit;
         font-size: 1em;
@@ -276,6 +284,14 @@
       min="0"
       style="
         appearance: none;
+        border-bottom-color: currentcolor;
+        border-bottom-width: medium;
+        border-left-color: currentcolor;
+        border-left-width: medium;
+        border-right-color: currentcolor;
+        border-right-width: medium;
+        border-top-color: currentcolor;
+        border-top-width: medium;
         color: inherit;
         font-family: inherit;
         font-size: 1em;
@@ -457,6 +473,14 @@
       min="0"
       style="
         appearance: none;
+        border-bottom-color: currentcolor;
+        border-bottom-width: medium;
+        border-left-color: currentcolor;
+        border-left-width: medium;
+        border-right-color: currentcolor;
+        border-right-width: medium;
+        border-top-color: currentcolor;
+        border-top-width: medium;
         color: inherit;
         font-family: inherit;
         font-size: 1em;
