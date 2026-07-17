@@ -4,13 +4,17 @@
     <button style="
       align-content: center;
       align-items: center;
+      border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-bottom: 1px solid;
+      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
+      border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
       border-top: 1px solid;
@@ -62,6 +66,7 @@
       left: 0px;
       max-height: 400px;
       min-width: 100%;
+      outline-width: 0px;
       overflow-y: auto;
       position: absolute;
       top: calc(100% + 4px);
@@ -293,13 +298,17 @@
     <button style="
       align-content: center;
       align-items: center;
+      border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-bottom: 1px solid;
+      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
+      border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
       border-top: 1px solid;
@@ -351,6 +360,7 @@
       left: 0px;
       max-height: 400px;
       min-width: 100%;
+      outline-width: 0px;
       overflow-y: auto;
       position: absolute;
       top: calc(100% + 4px);
@@ -568,13 +578,17 @@
     <button style="
       align-content: center;
       align-items: center;
+      border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-bottom: 1px solid;
+      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
+      border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
       border-top: 1px solid;
@@ -626,6 +640,7 @@
       left: 0px;
       max-height: 400px;
       min-width: 100%;
+      outline-width: 0px;
       overflow-y: auto;
       position: absolute;
       top: calc(100% + 4px);
@@ -844,13 +859,17 @@
       align-content: center;
       align-items: center;
       background-color: var(--btn-secondary-background-color, transparent);
+      border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-bottom: 1px solid;
+      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
+      border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
       border-top: 1px solid;
@@ -1001,13 +1020,17 @@
         align-content: center;
         align-items: center;
         background-color: var(--btn-secondary-disabled-background-color, var(--color-background-primary));
+        border-bottom-color: currentcolor;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-bottom: 1px solid;
+        border-left-color: currentcolor;
         border-left-style: solid;
         border-left-width: 1px;
+        border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
+        border-top-color: currentcolor;
         border-top-style: solid;
         border-top-width: 1px;
         border-top: 1px solid;
@@ -1078,13 +1101,17 @@
       align-content: center;
       align-items: center;
       background-color: var(--btn-secondary-background-color, transparent);
+      border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-bottom: 1px solid;
+      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
+      border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
       border-top: 1px solid;
@@ -1152,6 +1179,7 @@
       left: 0px;
       max-height: 400px;
       min-width: 100%;
+      outline-width: 0px;
       overflow-y: auto;
       position: absolute;
       top: calc(100% + 4px);
@@ -1311,13 +1339,17 @@
     <button style="
       align-content: center;
       align-items: center;
+      border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-bottom: 1px solid;
+      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
+      border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
       border-top: 1px solid;
@@ -1369,6 +1401,7 @@
       left: 0px;
       max-height: 400px;
       min-width: 100%;
+      outline-width: 0px;
       overflow-y: auto;
       position: absolute;
       top: calc(100% + 4px);
@@ -1606,6 +1639,7 @@
       left: 0px;
       max-height: 400px;
       min-width: 100%;
+      outline-width: 0px;
       overflow-y: auto;
       position: absolute;
       top: calc(100% + 4px);
@@ -1765,13 +1799,17 @@
     <button style="
       align-content: center;
       align-items: center;
+      border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-bottom: 1px solid;
+      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
+      border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
       border-top: 1px solid;
@@ -1823,6 +1861,7 @@
       left: 0px;
       max-height: 400px;
       min-width: 100%;
+      outline-width: 0px;
       overflow-y: auto;
       position: absolute;
       top: calc(100% + 4px);
@@ -1982,13 +2021,17 @@
     <button style="
       align-content: center;
       align-items: center;
+      border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-bottom: 1px solid;
+      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
+      border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
       border-top: 1px solid;
@@ -2040,6 +2083,7 @@
       left: 0px;
       max-height: 400px;
       min-width: 100%;
+      outline-width: 0px;
       overflow-y: auto;
       position: absolute;
       top: calc(100% + 4px);
@@ -2256,13 +2300,17 @@
     <button style="
       align-content: center;
       align-items: center;
+      border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-bottom: 1px solid;
+      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
+      border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
       border-top: 1px solid;
@@ -2314,6 +2362,7 @@
       left: 0px;
       max-height: 400px;
       min-width: 100%;
+      outline-width: 0px;
       overflow-y: auto;
       position: absolute;
       top: calc(100% + 4px);
@@ -2532,13 +2581,17 @@
     <button style="
       align-content: center;
       align-items: center;
+      border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-bottom: 1px solid;
+      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
+      border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
       border-top: 1px solid;
@@ -2590,6 +2643,7 @@
       left: 0px;
       max-height: 400px;
       min-width: 100%;
+      outline-width: 0px;
       overflow-y: auto;
       position: absolute;
       top: calc(100% + 4px);
@@ -2808,13 +2862,17 @@
     <button style="
       align-content: center;
       align-items: center;
+      border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-bottom: 1px solid;
+      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
+      border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
       border-top: 1px solid;
@@ -2866,6 +2924,7 @@
       left: 0px;
       max-height: 400px;
       min-width: 100%;
+      outline-width: 0px;
       overflow-y: auto;
       position: absolute;
       top: calc(100% + 4px);
@@ -3033,13 +3092,17 @@
     <button style="
       align-content: center;
       align-items: center;
+      border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-bottom: 1px solid;
+      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
+      border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
       border-top: 1px solid;
@@ -3091,6 +3154,7 @@
       left: 0px;
       max-height: 400px;
       min-width: 100%;
+      outline-width: 0px;
       overflow-y: auto;
       position: absolute;
       top: calc(100% + 4px);

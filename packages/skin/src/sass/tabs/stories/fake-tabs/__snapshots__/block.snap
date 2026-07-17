@@ -37,6 +37,10 @@
           }}</style>
           Fake 1
           <span style="
+            border-bottom-color: currentcolor;
+            border-left-color: currentcolor;
+            border-right-color: currentcolor;
+            border-top-color: currentcolor;
             clip-path: inset(50%);
             height: 1px;
             overflow-x: hidden;
@@ -178,6 +182,10 @@
           }}</style>
           Fake 1
           <span style="
+            border-bottom-color: currentcolor;
+            border-left-color: currentcolor;
+            border-right-color: currentcolor;
+            border-top-color: currentcolor;
             clip-path: inset(50%);
             height: 1px;
             overflow-x: hidden;
@@ -318,6 +326,10 @@
           }}</style>
           Fake 1
           <span style="
+            border-bottom-color: currentcolor;
+            border-left-color: currentcolor;
+            border-right-color: currentcolor;
+            border-top-color: currentcolor;
             clip-path: inset(50%);
             height: 1px;
             overflow-x: hidden;
@@ -432,6 +444,10 @@
           }}</style>
           Fake 1
           <span style="
+            border-bottom-color: currentcolor;
+            border-left-color: currentcolor;
+            border-right-color: currentcolor;
+            border-top-color: currentcolor;
             clip-path: inset(50%);
             height: 1px;
             overflow-x: hidden;

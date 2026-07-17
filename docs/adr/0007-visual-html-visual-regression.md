@@ -90,3 +90,7 @@ in-house preview viewer for human visual review.
   gzip-friendly, marked `linguist-generated`)
 - Components must keep `parameters.visual` accurate as media queries or
   direction-sensitive styles are added — documented in CONTRIBUTING.md
+- Snapshot output is coupled to the Playwright-pinned Chromium version
+  (validated empirically: different Chromium builds enumerate CSS
+  differently). The lockfile keeps local and CI aligned; Playwright
+  upgrades must regenerate the baseline in the same PR

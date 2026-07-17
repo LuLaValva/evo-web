@@ -134,6 +134,14 @@
       <input
         style="
           appearance: none;
+          border-bottom-color: currentcolor;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-width: medium;
           color: inherit;
           flex-grow: 1;
           font-family: inherit;
@@ -286,6 +294,14 @@
       <input
         style="
           appearance: none;
+          border-bottom-color: currentcolor;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-width: medium;
           color: inherit;
           flex-grow: 1;
           font-family: inherit;
@@ -446,6 +462,14 @@
         disabled
         style="
           appearance: none;
+          border-bottom-color: currentcolor;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-width: medium;
           color: var(--textbox-disabled-foreground-color, var(--color-foreground-disabled));
           flex-grow: 1;
           font-family: inherit;
@@ -604,6 +628,14 @@
       <input
         style="
           appearance: none;
+          border-bottom-color: currentcolor;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-width: medium;
           color: inherit;
           flex-grow: 1;
           font-family: inherit;
@@ -764,6 +796,14 @@
       <input
         style="
           appearance: none;
+          border-bottom-color: currentcolor;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-width: medium;
           color: inherit;
           flex-grow: 1;
           font-family: inherit;
@@ -926,6 +966,14 @@
       <input
         style="
           appearance: none;
+          border-bottom-color: currentcolor;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-width: medium;
           color: inherit;
           flex-grow: 1;
           font-family: inherit;
@@ -1085,6 +1133,14 @@
         <input
           style="
             appearance: none;
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
+            border-left-width: medium;
+            border-right-color: currentcolor;
+            border-right-width: medium;
+            border-top-color: currentcolor;
+            border-top-width: medium;
             color: inherit;
             flex-grow: 1;
             font-family: inherit;
@@ -1220,12 +1276,16 @@
     <span style="
       align-items: center;
       background-color: var(--textbox-background-color, var(--color-background-secondary));
+      border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
+      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
+      border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
       box-sizing: border-box;
@@ -1248,6 +1308,14 @@
         readonly
         style="
           appearance: none;
+          border-bottom-color: currentcolor;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-width: medium;
           color: var(--textbox-foreground-color, var(--color-foreground-secondary));
           flex-grow: 1;
           font-family: inherit;
@@ -1413,6 +1481,14 @@
           <input
             style="
               appearance: none;
+              border-bottom-color: currentcolor;
+              border-bottom-width: medium;
+              border-left-color: currentcolor;
+              border-left-width: medium;
+              border-right-color: currentcolor;
+              border-right-width: medium;
+              border-top-color: currentcolor;
+              border-top-width: medium;
               color: inherit;
               flex-grow: 1;
               font-family: inherit;
@@ -1583,6 +1659,14 @@
           <input
             style="
               appearance: none;
+              border-bottom-color: currentcolor;
+              border-bottom-width: medium;
+              border-left-color: currentcolor;
+              border-left-width: medium;
+              border-right-color: currentcolor;
+              border-right-width: medium;
+              border-top-color: currentcolor;
+              border-top-width: medium;
               color: inherit;
               flex-grow: 1;
               font-family: inherit;

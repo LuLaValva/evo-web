@@ -11,12 +11,16 @@
   >
     <div style="
       background-color: var(--file-input-background-color, var(--color-background-secondary));
+      border-bottom-color: currentcolor;
       border-bottom-style: dashed;
       border-bottom-width: 1px;
+      border-left-color: currentcolor;
       border-left-style: dashed;
       border-left-width: 1px;
+      border-right-color: currentcolor;
       border-right-style: dashed;
       border-right-width: 1px;
+      border-top-color: currentcolor;
       border-top-style: dashed;
       border-top-width: 1px;
       display: flex;
@@ -110,12 +114,16 @@
   >
     <div style="
       background-color: var(--file-input-background-color, var(--color-background-secondary));
+      border-bottom-color: currentcolor;
       border-bottom-style: dashed;
       border-bottom-width: 1px;
+      border-left-color: currentcolor;
       border-left-style: dashed;
       border-left-width: 1px;
+      border-right-color: currentcolor;
       border-right-style: dashed;
       border-right-width: 1px;
+      border-top-color: currentcolor;
       border-top-style: dashed;
       border-top-width: 1px;
       display: flex;
@@ -203,12 +211,16 @@
   ">
     <div style="
       background-color: var(--file-input-background-color, var(--color-background-secondary));
+      border-bottom-color: currentcolor;
       border-bottom-style: dashed;
       border-bottom-width: 1px;
+      border-left-color: currentcolor;
       border-left-style: dashed;
       border-left-width: 1px;
+      border-right-color: currentcolor;
       border-right-style: dashed;
       border-right-width: 1px;
+      border-top-color: currentcolor;
       border-top-style: dashed;
       border-top-width: 1px;
       display: flex;
@@ -299,12 +311,16 @@
   ">
     <div style="
       background-color: var(--file-input-background-color, var(--color-background-secondary));
+      border-bottom-color: currentcolor;
       border-bottom-style: dashed;
       border-bottom-width: 1px;
+      border-left-color: currentcolor;
       border-left-style: dashed;
       border-left-width: 1px;
+      border-right-color: currentcolor;
       border-right-style: dashed;
       border-right-width: 1px;
+      border-top-color: currentcolor;
       border-top-style: dashed;
       border-top-width: 1px;
       display: flex;
@@ -392,12 +408,16 @@
   ">
     <div style="
       background-color: var(--file-input-dragged-over-background-color, var(--color-background-tertiary));
+      border-bottom-color: currentcolor;
       border-bottom-style: dashed;
       border-bottom-width: 1px;
+      border-left-color: currentcolor;
       border-left-style: dashed;
       border-left-width: 1px;
+      border-right-color: currentcolor;
       border-right-style: dashed;
       border-right-width: 1px;
+      border-top-color: currentcolor;
       border-top-style: dashed;
       border-top-width: 1px;
       display: flex;
@@ -488,12 +508,16 @@
   ">
     <div style="
       background-color: var(--file-input-dragged-over-background-color, var(--color-background-tertiary));
+      border-bottom-color: currentcolor;
       border-bottom-style: dashed;
       border-bottom-width: 1px;
+      border-left-color: currentcolor;
       border-left-style: dashed;
       border-left-width: 1px;
+      border-right-color: currentcolor;
       border-right-style: dashed;
       border-right-width: 1px;
+      border-top-color: currentcolor;
       border-top-style: dashed;
       border-top-width: 1px;
       display: flex;

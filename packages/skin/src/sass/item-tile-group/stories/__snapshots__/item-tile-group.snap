@@ -171,13 +171,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -236,6 +240,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -463,6 +471,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -651,13 +663,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -706,6 +722,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -894,13 +914,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -959,6 +983,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -1147,13 +1175,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -1212,6 +1244,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -1439,6 +1475,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -1627,13 +1667,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -1682,6 +1726,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -1870,13 +1918,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -1935,6 +1987,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -2123,13 +2179,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -2188,6 +2248,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -2415,6 +2479,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -2603,13 +2671,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -2658,6 +2730,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -2846,13 +2922,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -2911,6 +2991,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -3028,6 +3112,7 @@
                 ">
                   <img
                     height=373
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -3129,13 +3214,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -3194,6 +3283,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -3281,6 +3374,7 @@
                 ">
                   <img
                     height=373
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -3421,6 +3515,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -3508,6 +3606,7 @@
                 ">
                   <img
                     height=373
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -3609,13 +3708,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -3664,6 +3767,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -3751,6 +3858,7 @@
                 ">
                   <img
                     height=373
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -3852,13 +3960,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -3917,6 +4029,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -4004,6 +4120,7 @@
                 ">
                   <img
                     height=373
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -4105,13 +4222,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -4170,6 +4291,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -4257,6 +4382,7 @@
                 ">
                   <img
                     height=373
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -4397,6 +4523,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -4484,6 +4614,7 @@
                 ">
                   <img
                     height=373
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -4585,13 +4716,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -4640,6 +4775,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -4727,6 +4866,7 @@
                 ">
                   <img
                     height=373
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -4828,13 +4968,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -4893,6 +5037,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -4980,6 +5128,7 @@
                 ">
                   <img
                     height=373
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -5081,13 +5230,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -5146,6 +5299,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -5233,6 +5390,7 @@
                 ">
                   <img
                     height=373
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -5373,6 +5531,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -5460,6 +5622,7 @@
                 ">
                   <img
                     height=373
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -5561,13 +5724,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -5616,6 +5783,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -5703,6 +5874,7 @@
                 ">
                   <img
                     height=373
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -5804,13 +5976,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -5869,6 +6045,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -5986,6 +6166,7 @@
                 ">
                   <img
                     height=310
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -6087,13 +6268,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -6152,6 +6337,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -6239,6 +6428,7 @@
                 ">
                   <img
                     height=310
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -6379,6 +6569,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -6466,6 +6660,7 @@
                 ">
                   <img
                     height=310
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -6567,13 +6762,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -6622,6 +6821,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -6709,6 +6912,7 @@
                 ">
                   <img
                     height=310
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -6810,13 +7014,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -6875,6 +7083,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -6962,6 +7174,7 @@
                 ">
                   <img
                     height=310
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -7063,13 +7276,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -7128,6 +7345,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -7215,6 +7436,7 @@
                 ">
                   <img
                     height=310
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -7355,6 +7577,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -7442,6 +7668,7 @@
                 ">
                   <img
                     height=310
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -7543,13 +7770,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -7598,6 +7829,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -7685,6 +7920,7 @@
                 ">
                   <img
                     height=310
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -7786,13 +8022,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -7851,6 +8091,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -7938,6 +8182,7 @@
                 ">
                   <img
                     height=310
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -8039,13 +8284,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -8104,6 +8353,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -8191,6 +8444,7 @@
                 ">
                   <img
                     height=310
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -8331,6 +8585,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -8418,6 +8676,7 @@
                 ">
                   <img
                     height=310
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -8519,13 +8778,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -8574,6 +8837,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -8661,6 +8928,7 @@
                 ">
                   <img
                     height=310
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -8762,13 +9030,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -8827,6 +9099,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -9045,13 +9321,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -9110,6 +9390,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -9337,6 +9621,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -9535,13 +9823,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -9590,6 +9882,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -9786,13 +10082,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -9851,6 +10151,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -10049,13 +10353,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -10114,6 +10422,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -10341,6 +10653,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -10529,13 +10845,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -10584,6 +10904,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -10772,13 +11096,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -10837,6 +11165,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -11025,13 +11357,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -11090,6 +11426,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -11317,6 +11657,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -11505,13 +11849,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -11560,6 +11908,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -11748,13 +12100,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -11813,6 +12169,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -11930,6 +12290,7 @@
                 ">
                   <img
                     height=373
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -12031,13 +12392,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -12096,6 +12461,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -12183,6 +12552,7 @@
                 ">
                   <img
                     height=373
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -12323,6 +12693,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -12420,6 +12794,7 @@
                 ">
                   <img
                     height=373
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -12521,13 +12896,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -12576,6 +12955,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -12671,6 +13054,7 @@
                 ">
                   <img
                     height=373
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -12772,13 +13156,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -12837,6 +13225,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -12934,6 +13326,7 @@
                 ">
                   <img
                     height=373
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -13035,13 +13428,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -13100,6 +13497,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -13187,6 +13588,7 @@
                 ">
                   <img
                     height=373
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -13327,6 +13729,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -13414,6 +13820,7 @@
                 ">
                   <img
                     height=373
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -13515,13 +13922,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -13570,6 +13981,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -13657,6 +14072,7 @@
                 ">
                   <img
                     height=373
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -13758,13 +14174,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -13823,6 +14243,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -13910,6 +14334,7 @@
                 ">
                   <img
                     height=373
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -14011,13 +14436,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -14076,6 +14505,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -14163,6 +14596,7 @@
                 ">
                   <img
                     height=373
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -14303,6 +14737,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -14390,6 +14828,7 @@
                 ">
                   <img
                     height=373
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -14491,13 +14930,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -14546,6 +14989,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -14633,6 +15080,7 @@
                 ">
                   <img
                     height=373
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -14734,13 +15182,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -14799,6 +15251,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -14916,6 +15372,7 @@
                 ">
                   <img
                     height=310
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -15017,13 +15474,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -15082,6 +15543,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -15169,6 +15634,7 @@
                 ">
                   <img
                     height=310
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -15309,6 +15775,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -15406,6 +15876,7 @@
                 ">
                   <img
                     height=310
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -15507,13 +15978,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -15562,6 +16037,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -15657,6 +16136,7 @@
                 ">
                   <img
                     height=310
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -15758,13 +16238,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -15823,6 +16307,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -15920,6 +16408,7 @@
                 ">
                   <img
                     height=310
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -16021,13 +16510,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -16086,6 +16579,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -16173,6 +16670,7 @@
                 ">
                   <img
                     height=310
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -16313,6 +16811,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -16400,6 +16902,7 @@
                 ">
                   <img
                     height=310
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -16501,13 +17004,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -16556,6 +17063,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -16643,6 +17154,7 @@
                 ">
                   <img
                     height=310
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -16744,13 +17256,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -16809,6 +17325,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -16896,6 +17416,7 @@
                 ">
                   <img
                     height=310
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -16997,13 +17518,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -17062,6 +17587,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -17149,6 +17678,7 @@
                 ">
                   <img
                     height=310
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -17289,6 +17819,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -17376,6 +17910,7 @@
                 ">
                   <img
                     height=310
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -17477,13 +18012,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -17532,6 +18071,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -17619,6 +18162,7 @@
                 ">
                   <img
                     height=310
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -17720,13 +18264,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -17785,6 +18333,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -18005,13 +18557,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -18070,6 +18626,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -18299,6 +18859,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -18489,13 +19053,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -18544,6 +19112,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -18734,13 +19306,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -18799,6 +19375,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -18989,13 +19569,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -19054,6 +19638,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -19283,6 +19871,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -19473,13 +20065,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -19528,6 +20124,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -19718,13 +20318,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -19783,6 +20387,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -19973,13 +20581,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -20038,6 +20650,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -20267,6 +20883,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -20457,13 +21077,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -20512,6 +21136,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -20702,13 +21330,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -20767,6 +21399,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -20887,7 +21523,8 @@
                   width: 100%
                 ">
                   <img
-                    height=120
+                    height=200
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -20898,7 +21535,7 @@
                       object-fit: contain;
                       width: 100%
                     "
-                    width=120
+                    width=200
                   />
                 </a>
                 <button style="
@@ -20990,13 +21627,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -21055,6 +21696,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -21142,7 +21787,8 @@
                   width: 100%
                 ">
                   <img
-                    height=120
+                    height=200
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -21153,7 +21799,7 @@
                       object-fit: contain;
                       width: 100%
                     "
-                    width=120
+                    width=200
                   />
                 </a>
                 <button style="
@@ -21284,6 +21930,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -21371,7 +22021,8 @@
                   width: 100%
                 ">
                   <img
-                    height=120
+                    height=200
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -21382,7 +22033,7 @@
                       object-fit: contain;
                       width: 100%
                     "
-                    width=120
+                    width=200
                   />
                 </a>
                 <button style="
@@ -21474,13 +22125,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -21529,6 +22184,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -21616,7 +22275,8 @@
                   width: 100%
                 ">
                   <img
-                    height=120
+                    height=200
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -21627,7 +22287,7 @@
                       object-fit: contain;
                       width: 100%
                     "
-                    width=120
+                    width=200
                   />
                 </a>
                 <button style="
@@ -21719,13 +22379,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -21784,6 +22448,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -21871,7 +22539,8 @@
                   width: 100%
                 ">
                   <img
-                    height=120
+                    height=200
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -21882,7 +22551,7 @@
                       object-fit: contain;
                       width: 100%
                     "
-                    width=120
+                    width=200
                   />
                 </a>
                 <button style="
@@ -21974,13 +22643,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -22039,6 +22712,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -22126,7 +22803,8 @@
                   width: 100%
                 ">
                   <img
-                    height=120
+                    height=200
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -22137,7 +22815,7 @@
                       object-fit: contain;
                       width: 100%
                     "
-                    width=120
+                    width=200
                   />
                 </a>
                 <button style="
@@ -22268,6 +22946,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -22355,7 +23037,8 @@
                   width: 100%
                 ">
                   <img
-                    height=120
+                    height=200
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -22366,7 +23049,7 @@
                       object-fit: contain;
                       width: 100%
                     "
-                    width=120
+                    width=200
                   />
                 </a>
                 <button style="
@@ -22458,13 +23141,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -22513,6 +23200,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -22600,7 +23291,8 @@
                   width: 100%
                 ">
                   <img
-                    height=120
+                    height=200
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -22611,7 +23303,7 @@
                       object-fit: contain;
                       width: 100%
                     "
-                    width=120
+                    width=200
                   />
                 </a>
                 <button style="
@@ -22703,13 +23395,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -22768,6 +23464,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -22855,7 +23555,8 @@
                   width: 100%
                 ">
                   <img
-                    height=120
+                    height=200
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -22866,7 +23567,7 @@
                       object-fit: contain;
                       width: 100%
                     "
-                    width=120
+                    width=200
                   />
                 </a>
                 <button style="
@@ -22958,13 +23659,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -23023,6 +23728,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -23110,7 +23819,8 @@
                   width: 100%
                 ">
                   <img
-                    height=120
+                    height=200
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -23121,7 +23831,7 @@
                       object-fit: contain;
                       width: 100%
                     "
-                    width=120
+                    width=200
                   />
                 </a>
                 <button style="
@@ -23252,6 +23962,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -23339,7 +24053,8 @@
                   width: 100%
                 ">
                   <img
-                    height=120
+                    height=200
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -23350,7 +24065,7 @@
                       object-fit: contain;
                       width: 100%
                     "
-                    width=120
+                    width=200
                   />
                 </a>
                 <button style="
@@ -23442,13 +24157,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -23497,6 +24216,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;
@@ -23584,7 +24307,8 @@
                   width: 100%
                 ">
                   <img
-                    height=120
+                    height=200
+                    src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
                     style="
                       align-self: center;
                       height: 100%;
@@ -23595,7 +24319,7 @@
                       object-fit: contain;
                       width: 100%
                     "
-                    width=120
+                    width=200
                   />
                 </a>
                 <button style="
@@ -23687,13 +24411,17 @@
               margin-block-end: var(--spacing-50)
             ">
               <span style="
+                border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-bottom: 1px solid;
+                border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
+                border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
                 border-top: 1px solid;
@@ -23752,6 +24480,10 @@
               ">
                 $29.99
                 <span style="
+                  border-bottom-color: currentcolor;
+                  border-left-color: currentcolor;
+                  border-right-color: currentcolor;
+                  border-top-color: currentcolor;
                   clip-path: inset(50%);
                   height: 1px;
                   overflow-x: hidden;

@@ -201,7 +201,7 @@
         width: 100%
       ">
         <img
-          height=84
+          height=88
           style="
             height: 100%;
             max-height: 200px;
@@ -355,7 +355,7 @@
         width: 100%
       ">
         <img
-          height=84
+          height=88
           style="
             height: 100%;
             max-height: 200px;
@@ -436,11 +436,13 @@
       ">
         <img
           height=80
+          src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg"
           style="
             height: 100%;
             max-height: 200px;
             pointer-events: none
           "
+          width=61
         />
       </span>
     </span>
@@ -664,12 +666,14 @@
         width: 100%
       ">
         <img
-          height=84
+          height=88
+          src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg"
           style="
             height: 100%;
             max-height: 200px;
             pointer-events: none
           "
+          width=66
         />
       </span>
     </span>
@@ -735,12 +739,14 @@
         width: 100%
       ">
         <img
-          height=84
+          height=88
+          src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg"
           style="
             height: 100%;
             max-height: 200px;
             pointer-events: none
           "
+          width=66
         />
       </span>
     </span>
@@ -814,7 +820,7 @@
         width: 100%
       ">
         <img
-          height=84
+          height=88
           style="
             height: 100%;
             max-height: 200px;

@@ -71,13 +71,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -145,13 +153,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -219,13 +235,21 @@
       <hr style="
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
         background-image: linear-gradient(90deg, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%, var(--progress-stepper-active-color, var(--color-background-accent)) 50%);
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -373,13 +397,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -447,13 +479,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -521,13 +561,21 @@
       <hr style="
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
         background-image: linear-gradient(90deg, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%, var(--progress-stepper-active-color, var(--color-background-accent)) 50%);
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -672,13 +720,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -746,13 +802,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -820,13 +884,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -971,13 +1043,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -1045,13 +1125,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -1119,13 +1207,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -1273,13 +1369,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         display: inline-block;
         flex-basis: inherit;
@@ -1353,13 +1457,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         display: inline-block;
         flex-basis: inherit;
@@ -1433,13 +1545,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         display: inline-block;
         flex-basis: inherit;
@@ -1589,13 +1709,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -1663,13 +1791,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -1737,13 +1873,21 @@
       <hr style="
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
         background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -1879,13 +2023,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -1953,13 +2105,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -2027,13 +2187,21 @@
       <hr style="
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
         background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -2169,13 +2337,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -2241,13 +2417,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -2392,13 +2576,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -2464,13 +2656,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -2618,13 +2818,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         display: inline-block;
         flex-basis: inherit;
@@ -2697,13 +2905,21 @@
       <hr style="
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
         background: linear-gradient(180deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         display: inline-block;
         flex-basis: inherit;
@@ -2853,13 +3069,21 @@
       <hr style="
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
         background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -2927,13 +3151,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -3001,13 +3233,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -3143,13 +3383,21 @@
       <hr style="
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
         background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -3217,13 +3465,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -3291,13 +3547,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -3433,13 +3697,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -3507,13 +3779,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -3581,13 +3861,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -3732,13 +4020,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -3806,13 +4102,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -3880,13 +4184,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -4034,13 +4346,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         display: inline-block;
         flex-basis: inherit;
@@ -4114,13 +4434,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         display: inline-block;
         flex-basis: inherit;
@@ -4194,13 +4522,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         display: inline-block;
         flex-basis: inherit;
@@ -4351,13 +4687,21 @@
         </div>
         <hr style="
           background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+          border-bottom-color: currentcolor;
           border-bottom-left-radius: 2px;
           border-bottom-right-radius: 2px;
+          border-bottom-style: none;
           border-bottom-width: 0px;
+          border-left-color: currentcolor;
+          border-left-style: none;
           border-left-width: 0px;
+          border-right-color: currentcolor;
+          border-right-style: none;
           border-right-width: 0px;
+          border-top-color: currentcolor;
           border-top-left-radius: 2px;
           border-top-right-radius: 2px;
+          border-top-style: none;
           border-top-width: 0px;
           flex-basis: 0%;
           flex-grow: 1;
@@ -4425,13 +4769,21 @@
         <hr style="
           background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
           background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
+          border-bottom-color: currentcolor;
           border-bottom-left-radius: 2px;
           border-bottom-right-radius: 2px;
+          border-bottom-style: none;
           border-bottom-width: 0px;
+          border-left-color: currentcolor;
+          border-left-style: none;
           border-left-width: 0px;
+          border-right-color: currentcolor;
+          border-right-style: none;
           border-right-width: 0px;
+          border-top-color: currentcolor;
           border-top-left-radius: 2px;
           border-top-right-radius: 2px;
+          border-top-style: none;
           border-top-width: 0px;
           flex-basis: 0%;
           flex-grow: 1;
@@ -4562,13 +4914,21 @@
         </div>
         <hr style="
           background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+          border-bottom-color: currentcolor;
           border-bottom-left-radius: 2px;
           border-bottom-right-radius: 2px;
+          border-bottom-style: none;
           border-bottom-width: 0px;
+          border-left-color: currentcolor;
+          border-left-style: none;
           border-left-width: 0px;
+          border-right-color: currentcolor;
+          border-right-style: none;
           border-right-width: 0px;
+          border-top-color: currentcolor;
           border-top-left-radius: 2px;
           border-top-right-radius: 2px;
+          border-top-style: none;
           border-top-width: 0px;
           flex-basis: 0%;
           flex-grow: 1;
@@ -4636,13 +4996,21 @@
         <hr style="
           background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
           background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
+          border-bottom-color: currentcolor;
           border-bottom-left-radius: 2px;
           border-bottom-right-radius: 2px;
+          border-bottom-style: none;
           border-bottom-width: 0px;
+          border-left-color: currentcolor;
+          border-left-style: none;
           border-left-width: 0px;
+          border-right-color: currentcolor;
+          border-right-style: none;
           border-right-width: 0px;
+          border-top-color: currentcolor;
           border-top-left-radius: 2px;
           border-top-right-radius: 2px;
+          border-top-style: none;
           border-top-width: 0px;
           flex-basis: 0%;
           flex-grow: 1;
@@ -4772,13 +5140,21 @@
       <hr style="
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
         background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -4846,13 +5222,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -4920,13 +5304,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -5062,13 +5454,21 @@
       <hr style="
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
         background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -5136,13 +5536,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -5210,13 +5618,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         flex-basis: 0%;
         flex-grow: 1;
@@ -5362,13 +5778,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         display: inline-block;
         flex-basis: inherit;
@@ -5443,13 +5867,21 @@
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
         background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
         background: linear-gradient(180deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         display: inline-block;
         flex-basis: inherit;
@@ -5610,13 +6042,21 @@
         </div>
         <hr style="
           background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+          border-bottom-color: currentcolor;
           border-bottom-left-radius: 2px;
           border-bottom-right-radius: 2px;
+          border-bottom-style: none;
           border-bottom-width: 0px;
+          border-left-color: currentcolor;
+          border-left-style: none;
           border-left-width: 0px;
+          border-right-color: currentcolor;
+          border-right-style: none;
           border-right-width: 0px;
+          border-top-color: currentcolor;
           border-top-left-radius: 2px;
           border-top-right-radius: 2px;
+          border-top-style: none;
           border-top-width: 0px;
           display: inline-block;
           flex-basis: inherit;
@@ -5692,13 +6132,21 @@
           background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
           background-image: linear-gradient(90deg, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%, var(--progress-stepper-active-color, var(--color-background-accent)) 50%);
           background: linear-gradient(180deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
+          border-bottom-color: currentcolor;
           border-bottom-left-radius: 2px;
           border-bottom-right-radius: 2px;
+          border-bottom-style: none;
           border-bottom-width: 0px;
+          border-left-color: currentcolor;
+          border-left-style: none;
           border-left-width: 0px;
+          border-right-color: currentcolor;
+          border-right-style: none;
           border-right-width: 0px;
+          border-top-color: currentcolor;
           border-top-left-radius: 2px;
           border-top-right-radius: 2px;
+          border-top-style: none;
           border-top-width: 0px;
           display: inline-block;
           flex-basis: inherit;
@@ -5846,13 +6294,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         display: inline-block;
         flex-basis: inherit;
@@ -5920,13 +6376,21 @@
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
         background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
         background: linear-gradient(180deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         display: inline-block;
         flex-basis: inherit;
@@ -6080,13 +6544,21 @@
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
         background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
         background: linear-gradient(180deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         display: inline-block;
         flex-basis: inherit;
@@ -6160,13 +6632,21 @@
       </div>
       <hr style="
         background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
+        border-top-style: none;
         border-top-width: 0px;
         display: inline-block;
         flex-basis: inherit;

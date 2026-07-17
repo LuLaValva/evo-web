@@ -20,6 +20,7 @@
         margin-right: 0px;
         margin-top: 0px;
         opacity: 0;
+        outline-width: 0px;
         position: absolute;
         top: 8px;
         width: 40px;
@@ -102,6 +103,7 @@
         margin-right: 0px;
         margin-top: 0px;
         opacity: 0;
+        outline-width: 0px;
         position: absolute;
         top: 8px;
         width: 40px;
@@ -185,6 +187,7 @@
         margin-right: 0px;
         margin-top: 0px;
         opacity: 0;
+        outline-width: 0px;
         position: absolute;
         top: 8px;
         width: 40px;
@@ -268,6 +271,7 @@
         margin-right: 0px;
         margin-top: 0px;
         opacity: 0;
+        outline-width: 0px;
         position: absolute;
         top: 8px;
         width: 40px;
@@ -352,6 +356,7 @@
         margin-right: 0px;
         margin-top: 0px;
         opacity: 0;
+        outline-width: 0px;
         position: absolute;
         top: 8px;
         width: 40px;

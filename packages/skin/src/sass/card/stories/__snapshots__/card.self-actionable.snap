@@ -2,12 +2,18 @@
 <div>
   <button style="
     background-color: var(--color-background-secondary);
+    border-bottom-color: currentcolor;
     border-bottom-style: none;
-    border-bottom: none;
+    border-bottom-width: medium;
+    border-left-color: currentcolor;
     border-left-style: none;
+    border-left-width: medium;
+    border-right-color: currentcolor;
     border-right-style: none;
+    border-right-width: medium;
+    border-top-color: currentcolor;
     border-top-style: none;
-    border-top: none;
+    border-top-width: medium;
     color: var(--color-foreground-primary);
     display: flex;
     font-family: inherit;
@@ -80,8 +86,14 @@
 <div>
   <a style="
     background-color: var(--color-background-secondary);
-    border-bottom: none;
-    border-top: none;
+    border-bottom-color: currentcolor;
+    border-bottom-width: medium;
+    border-left-color: currentcolor;
+    border-left-width: medium;
+    border-right-color: currentcolor;
+    border-right-width: medium;
+    border-top-color: currentcolor;
+    border-top-width: medium;
     color: inherit;
     display: flex;
     max-width: 100%;
@@ -146,12 +158,18 @@
 <div>
   <button style="
     background-color: var(--color-background-secondary);
+    border-bottom-color: currentcolor;
     border-bottom-style: none;
-    border-bottom: none;
+    border-bottom-width: medium;
+    border-left-color: currentcolor;
     border-left-style: none;
+    border-left-width: medium;
+    border-right-color: currentcolor;
     border-right-style: none;
+    border-right-width: medium;
+    border-top-color: currentcolor;
     border-top-style: none;
-    border-top: none;
+    border-top-width: medium;
     color: var(--color-foreground-primary);
     display: flex;
     flex-direction: column;
@@ -220,8 +238,14 @@
 <div>
   <a style="
     background-color: var(--color-background-secondary);
-    border-bottom: none;
-    border-top: none;
+    border-bottom-color: currentcolor;
+    border-bottom-width: medium;
+    border-left-color: currentcolor;
+    border-left-width: medium;
+    border-right-color: currentcolor;
+    border-right-width: medium;
+    border-top-color: currentcolor;
+    border-top-width: medium;
     color: inherit;
     display: flex;
     flex-direction: column;

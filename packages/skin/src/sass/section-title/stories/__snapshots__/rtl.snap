@@ -310,6 +310,7 @@
             left: 0px;
             max-height: 400px;
             min-width: 100%;
+            outline-width: 0px;
             overflow-y: auto;
             position: absolute;
             right: unset;
@@ -570,6 +571,7 @@
             left: 0px;
             max-height: 400px;
             min-width: 100%;
+            outline-width: 0px;
             overflow-y: auto;
             position: absolute;
             right: unset;

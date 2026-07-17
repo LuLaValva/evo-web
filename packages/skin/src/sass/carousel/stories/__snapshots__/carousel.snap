@@ -18,6 +18,10 @@
         width: 100%
       ">
         <h4 style="
+          border-bottom-color: currentcolor;
+          border-left-color: currentcolor;
+          border-right-color: currentcolor;
+          border-top-color: currentcolor;
           clip-path: inset(50%);
           height: 1px;
           overflow-x: hidden;
@@ -222,13 +226,21 @@
       </div>
       <button style="
         background-color: rgba(0, 0, 0, 0.45);
+        border-bottom-color: currentcolor;
         border-bottom-left-radius: 50%;
         border-bottom-right-radius: 50%;
+        border-bottom-style: none;
         border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
         border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
         border-right-width: 0px;
+        border-top-color: currentcolor;
         border-top-left-radius: 50%;
         border-top-right-radius: 50%;
+        border-top-style: none;
         border-top-width: 0px;
         bottom: 16px;
         color: var(--carousel-playback-foreground-color, var(--color-foreground-on-inverse));
@@ -2139,6 +2151,10 @@
       width: 100%
     ">
       <h4 style="
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+        border-right-color: currentcolor;
+        border-top-color: currentcolor;
         clip-path: inset(50%);
         height: 1px;
         overflow-x: hidden;
@@ -2392,6 +2408,10 @@
       width: 100%
     ">
       <h4 style="
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+        border-right-color: currentcolor;
+        border-top-color: currentcolor;
         clip-path: inset(50%);
         height: 1px;
         overflow-x: hidden;
@@ -2643,6 +2663,10 @@
       width: 100%
     ">
       <h4 style="
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+        border-right-color: currentcolor;
+        border-top-color: currentcolor;
         clip-path: inset(50%);
         height: 1px;
         overflow-x: hidden;
@@ -2845,13 +2869,21 @@
     </div>
     <button style="
       background-color: rgba(0, 0, 0, 0.45);
+      border-bottom-color: currentcolor;
       border-bottom-left-radius: 50%;
       border-bottom-right-radius: 50%;
+      border-bottom-style: none;
       border-bottom-width: 0px;
+      border-left-color: currentcolor;
+      border-left-style: none;
       border-left-width: 0px;
+      border-right-color: currentcolor;
+      border-right-style: none;
       border-right-width: 0px;
+      border-top-color: currentcolor;
       border-top-left-radius: 50%;
       border-top-right-radius: 50%;
+      border-top-style: none;
       border-top-width: 0px;
       bottom: 16px;
       color: var(--carousel-playback-foreground-color, var(--color-foreground-on-inverse));
@@ -2907,6 +2939,10 @@
       width: 100%
     ">
       <h4 style="
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+        border-right-color: currentcolor;
+        border-top-color: currentcolor;
         clip-path: inset(50%);
         height: 1px;
         overflow-x: hidden;
@@ -3107,13 +3143,21 @@
     </div>
     <button style="
       background-color: rgba(0, 0, 0, 0.45);
+      border-bottom-color: currentcolor;
       border-bottom-left-radius: 50%;
       border-bottom-right-radius: 50%;
+      border-bottom-style: none;
       border-bottom-width: 0px;
+      border-left-color: currentcolor;
+      border-left-style: none;
       border-left-width: 0px;
+      border-right-color: currentcolor;
+      border-right-style: none;
       border-right-width: 0px;
+      border-top-color: currentcolor;
       border-top-left-radius: 50%;
       border-top-right-radius: 50%;
+      border-top-style: none;
       border-top-width: 0px;
       bottom: 16px;
       color: var(--carousel-playback-foreground-color, var(--color-foreground-on-inverse));

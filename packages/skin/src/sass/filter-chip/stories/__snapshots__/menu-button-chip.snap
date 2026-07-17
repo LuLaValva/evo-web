@@ -201,6 +201,10 @@
       <use href="#icon-chevron-down-12"/>
     </svg>
     <span style="
+      border-bottom-color: currentcolor;
+      border-left-color: currentcolor;
+      border-right-color: currentcolor;
+      border-top-color: currentcolor;
       clip-path: inset(50%);
       height: 1px;
       overflow-x: hidden;
@@ -348,6 +352,10 @@
       <use href="#icon-chevron-down-12"/>
     </svg>
     <span style="
+      border-bottom-color: currentcolor;
+      border-left-color: currentcolor;
+      border-right-color: currentcolor;
+      border-top-color: currentcolor;
       clip-path: inset(50%);
       height: 1px;
       overflow-x: hidden;
@@ -425,6 +433,7 @@
       }}</style>
       <img
         height=32
+        src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
         style="
           display: inline-block;
           height: var(--spacing-400);
@@ -532,6 +541,7 @@
       }}</style>
       <img
         height=32
+        src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
         style="
           display: inline-block;
           height: var(--spacing-400);
@@ -571,6 +581,10 @@
       <use href="#icon-chevron-down-12"/>
     </svg>
     <span style="
+      border-bottom-color: currentcolor;
+      border-left-color: currentcolor;
+      border-right-color: currentcolor;
+      border-top-color: currentcolor;
       clip-path: inset(50%);
       height: 1px;
       overflow-x: hidden;

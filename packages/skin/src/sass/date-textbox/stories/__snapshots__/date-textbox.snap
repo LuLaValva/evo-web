@@ -34,6 +34,14 @@
         placeholder="YYYY-MM-DD"
         style="
           appearance: none;
+          border-bottom-color: currentcolor;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-width: medium;
           color: inherit;
           flex-grow: 1;
           font-family: inherit;
@@ -154,6 +162,14 @@
         placeholder="YYYY-MM-DD"
         style="
           appearance: none;
+          border-bottom-color: currentcolor;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-width: medium;
           color: var(--textbox-disabled-foreground-color, var(--color-foreground-disabled));
           flex-grow: 1;
           font-family: inherit;
@@ -275,6 +291,14 @@
         placeholder="YYYY-MM-DD"
         style="
           appearance: none;
+          border-bottom-color: currentcolor;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-width: medium;
           color: inherit;
           flex-grow: 1;
           font-family: inherit;
@@ -315,6 +339,14 @@
         placeholder="YYYY-MM-DD"
         style="
           appearance: none;
+          border-bottom-color: currentcolor;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-width: medium;
           color: inherit;
           flex-grow: 1;
           font-family: inherit;
@@ -433,6 +465,14 @@
         placeholder="YYYY-MM-DD"
         style="
           appearance: none;
+          border-bottom-color: currentcolor;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-width: medium;
           color: inherit;
           flex-grow: 1;
           font-family: inherit;

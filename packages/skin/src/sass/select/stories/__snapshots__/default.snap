@@ -8,9 +8,17 @@
   ">
     <select style="
       appearance: none;
+      border-bottom-color: currentcolor;
+      border-bottom-style: none;
       border-bottom-width: 0px;
+      border-left-color: currentcolor;
+      border-left-style: none;
       border-left-width: 0px;
+      border-right-color: currentcolor;
+      border-right-style: none;
       border-right-width: 0px;
+      border-top-color: currentcolor;
+      border-top-style: none;
       border-top-width: 0px;
       color: inherit;
       font-family: inherit;
@@ -69,9 +77,17 @@
   ">
     <select style="
       appearance: none;
+      border-bottom-color: currentcolor;
+      border-bottom-style: none;
       border-bottom-width: 0px;
+      border-left-color: currentcolor;
+      border-left-style: none;
       border-left-width: 0px;
+      border-right-color: currentcolor;
+      border-right-style: none;
       border-right-width: 0px;
+      border-top-color: currentcolor;
+      border-top-style: none;
       border-top-width: 0px;
       color: inherit;
       font-family: inherit;
