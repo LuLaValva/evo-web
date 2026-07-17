@@ -1,0 +1,407 @@
+{
+  "baseRef": "60ee2f496866",
+  "totalSections": 2219,
+  "unchangedSections": 0,
+  "components": {
+    "accordion": {
+      "changed": 0,
+      "added": 11,
+      "removed": 0
+    },
+    "alert-dialog": {
+      "changed": 0,
+      "added": 12,
+      "removed": 0
+    },
+    "avatar": {
+      "changed": 0,
+      "added": 9,
+      "removed": 0
+    },
+    "badge": {
+      "changed": 0,
+      "added": 6,
+      "removed": 0
+    },
+    "breadcrumbs": {
+      "changed": 0,
+      "added": 80,
+      "removed": 0
+    },
+    "button": {
+      "changed": 0,
+      "added": 164,
+      "removed": 0
+    },
+    "calendar": {
+      "changed": 0,
+      "added": 6,
+      "removed": 0
+    },
+    "card": {
+      "changed": 0,
+      "added": 24,
+      "removed": 0
+    },
+    "carousel": {
+      "changed": 0,
+      "added": 44,
+      "removed": 0
+    },
+    "ccd": {
+      "changed": 0,
+      "added": 7,
+      "removed": 0
+    },
+    "chart-legend": {
+      "changed": 0,
+      "added": 3,
+      "removed": 0
+    },
+    "checkbox": {
+      "changed": 0,
+      "added": 12,
+      "removed": 0
+    },
+    "chip": {
+      "changed": 0,
+      "added": 15,
+      "removed": 0
+    },
+    "chips-combobox": {
+      "changed": 0,
+      "added": 30,
+      "removed": 0
+    },
+    "combobox": {
+      "changed": 0,
+      "added": 22,
+      "removed": 0
+    },
+    "confirm-dialog": {
+      "changed": 0,
+      "added": 12,
+      "removed": 0
+    },
+    "cta-button": {
+      "changed": 0,
+      "added": 14,
+      "removed": 0
+    },
+    "date-textbox": {
+      "changed": 0,
+      "added": 12,
+      "removed": 0
+    },
+    "details": {
+      "changed": 0,
+      "added": 8,
+      "removed": 0
+    },
+    "dialog": {
+      "changed": 0,
+      "added": 102,
+      "removed": 0
+    },
+    "donut-chart": {
+      "changed": 0,
+      "added": 3,
+      "removed": 0
+    },
+    "education-notice": {
+      "changed": 0,
+      "added": 8,
+      "removed": 0
+    },
+    "eek": {
+      "changed": 0,
+      "added": 8,
+      "removed": 0
+    },
+    "field": {
+      "changed": 0,
+      "added": 24,
+      "removed": 0
+    },
+    "file-input": {
+      "changed": 0,
+      "added": 9,
+      "removed": 0
+    },
+    "file-preview-card-group": {
+      "changed": 0,
+      "added": 88,
+      "removed": 0
+    },
+    "file-preview-card": {
+      "changed": 0,
+      "added": 22,
+      "removed": 0
+    },
+    "filter-button": {
+      "changed": 0,
+      "added": 11,
+      "removed": 0
+    },
+    "filter-chip": {
+      "changed": 0,
+      "added": 20,
+      "removed": 0
+    },
+    "filter-input": {
+      "changed": 0,
+      "added": 6,
+      "removed": 0
+    },
+    "filter-menu-button": {
+      "changed": 0,
+      "added": 16,
+      "removed": 0
+    },
+    "filter-menu": {
+      "changed": 0,
+      "added": 7,
+      "removed": 0
+    },
+    "flag": {
+      "changed": 0,
+      "added": 6,
+      "removed": 0
+    },
+    "floating-label": {
+      "changed": 0,
+      "added": 34,
+      "removed": 0
+    },
+    "global": {
+      "changed": 0,
+      "added": 6,
+      "removed": 0
+    },
+    "icon-button": {
+      "changed": 0,
+      "added": 27,
+      "removed": 0
+    },
+    "icon": {
+      "changed": 0,
+      "added": 5,
+      "removed": 0
+    },
+    "image-placeholder": {
+      "changed": 0,
+      "added": 4,
+      "removed": 0
+    },
+    "infotip": {
+      "changed": 0,
+      "added": 18,
+      "removed": 0
+    },
+    "inline-notice": {
+      "changed": 0,
+      "added": 12,
+      "removed": 0
+    },
+    "item-tile-group": {
+      "changed": 0,
+      "added": 9,
+      "removed": 0
+    },
+    "item-tile": {
+      "changed": 0,
+      "added": 9,
+      "removed": 0
+    },
+    "layout-grid": {
+      "changed": 0,
+      "added": 24,
+      "removed": 0
+    },
+    "lightbox-dialog": {
+      "changed": 0,
+      "added": 102,
+      "removed": 0
+    },
+    "link": {
+      "changed": 0,
+      "added": 9,
+      "removed": 0
+    },
+    "list": {
+      "changed": 0,
+      "added": 16,
+      "removed": 0
+    },
+    "listbox-button": {
+      "changed": 0,
+      "added": 78,
+      "removed": 0
+    },
+    "listbox": {
+      "changed": 0,
+      "added": 9,
+      "removed": 0
+    },
+    "menu-button": {
+      "changed": 0,
+      "added": 29,
+      "removed": 0
+    },
+    "menu": {
+      "changed": 0,
+      "added": 20,
+      "removed": 0
+    },
+    "number-input": {
+      "changed": 0,
+      "added": 8,
+      "removed": 0
+    },
+    "page-notice": {
+      "changed": 0,
+      "added": 88,
+      "removed": 0
+    },
+    "pagination": {
+      "changed": 0,
+      "added": 64,
+      "removed": 0
+    },
+    "panel-dialog": {
+      "changed": 0,
+      "added": 40,
+      "removed": 0
+    },
+    "phone-input": {
+      "changed": 0,
+      "added": 27,
+      "removed": 0
+    },
+    "progress-bar-expressive": {
+      "changed": 0,
+      "added": 5,
+      "removed": 0
+    },
+    "progress-bar": {
+      "changed": 0,
+      "added": 9,
+      "removed": 0
+    },
+    "progress-spinner": {
+      "changed": 0,
+      "added": 4,
+      "removed": 0
+    },
+    "progress-stepper": {
+      "changed": 0,
+      "added": 60,
+      "removed": 0
+    },
+    "radio": {
+      "changed": 0,
+      "added": 11,
+      "removed": 0
+    },
+    "section-notice": {
+      "changed": 0,
+      "added": 92,
+      "removed": 0
+    },
+    "section-title": {
+      "changed": 0,
+      "added": 60,
+      "removed": 0
+    },
+    "segmented-buttons": {
+      "changed": 0,
+      "added": 9,
+      "removed": 0
+    },
+    "select": {
+      "changed": 0,
+      "added": 32,
+      "removed": 0
+    },
+    "selection-chip": {
+      "changed": 0,
+      "added": 4,
+      "removed": 0
+    },
+    "signal": {
+      "changed": 0,
+      "added": 5,
+      "removed": 0
+    },
+    "skeleton": {
+      "changed": 0,
+      "added": 32,
+      "removed": 0
+    },
+    "snackbar-dialog": {
+      "changed": 0,
+      "added": 52,
+      "removed": 0
+    },
+    "split-button": {
+      "changed": 0,
+      "added": 21,
+      "removed": 0
+    },
+    "star-rating-select": {
+      "changed": 0,
+      "added": 2,
+      "removed": 0
+    },
+    "star-rating": {
+      "changed": 0,
+      "added": 3,
+      "removed": 0
+    },
+    "switch": {
+      "changed": 0,
+      "added": 9,
+      "removed": 0
+    },
+    "table": {
+      "changed": 0,
+      "added": 42,
+      "removed": 0
+    },
+    "tabs": {
+      "changed": 0,
+      "added": 20,
+      "removed": 0
+    },
+    "textbox": {
+      "changed": 0,
+      "added": 33,
+      "removed": 0
+    },
+    "toast-dialog": {
+      "changed": 0,
+      "added": 15,
+      "removed": 0
+    },
+    "toggle-button-group": {
+      "changed": 0,
+      "added": 140,
+      "removed": 0
+    },
+    "toggle-button": {
+      "changed": 0,
+      "added": 40,
+      "removed": 0
+    },
+    "tooltip": {
+      "changed": 0,
+      "added": 45,
+      "removed": 0
+    },
+    "tourtip": {
+      "changed": 0,
+      "added": 15,
+      "removed": 0
+    }
+  }
+}
