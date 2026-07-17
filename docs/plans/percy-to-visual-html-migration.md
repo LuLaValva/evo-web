@@ -345,12 +345,27 @@ of swapping token stylesheets.
       sections, resolves `(same as 1280px)` dedupe references, unified
       diffs via the `diff` package, emits a machine-readable
       `summary.json` for CI comments.
-- [x] Viewer UI (`template.html`, dependency-free single file): sidebar
-      grouped by component/snap file with status dots + width/RTL chips,
-      side-by-side Base/Current iframes sized to the capture width and
-      auto-height, light/dark token toggle, RTL `dir` handling, colored
-      text-diff pane. Smoke-tested headless (renders, tokens resolve,
-      dark toggle flips, zero console errors).
+- [x] Viewer UI (`template.html`, dependency-free single file), v2
+      "reviewer-grade" feature set for engineers and designers:
+      - Story-level navigation (search/filter, per-component groups,
+        status dots) with dimension tabs (widths / RTL) per story.
+      - **Element-level change highlighting**: the viewer diffs the two
+        snapshot trees (LCS-aligned per level) and outlines exactly the
+        changed/added/removed elements in the rendered output — with an
+        inspector panel listing each changed element's before/after
+        property values; clicking a row flashes and scrolls to the
+        element in both frames. Screenshot tools cannot do this.
+      - Comparison modes: side-by-side, swipe (clip slider), onion skin
+        (opacity), and flip.
+      - Review workflow: per-story "reviewed" checkbox with progress
+        counter (content-addressed in localStorage, so re-pushed changes
+        reset), full keyboard navigation (j/k, dimension hotkeys, mode/
+        theme/highlight/diff toggles).
+      - Light/dark token toggle, RTL `dir` frames, colored text-diff
+        pane. Smoke-tested headless end-to-end with zero console errors,
+        exercised against a real cascading change (one-line button
+        padding edit → 211 stories across 18 components, 295 unchanged
+        sections filtered out).
 - [x] `npm run visual:preview` (root) — builds the self-contained
       `tools/visual-preview/dist/visual-preview.html` (~1 MB); the same
       artifact serves local review, the CI artifact, and the per-PR
