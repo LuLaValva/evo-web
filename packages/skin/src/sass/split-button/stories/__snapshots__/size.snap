@@ -27,7 +27,7 @@
       font-weight: 700;
       height: 40px;
       line-height: 1.4em;
-      min-height: 40px;
+      min-height: 44px;
       min-width: 88px;
       overflow-x: hidden;
       overflow-y: hidden;
@@ -101,7 +101,7 @@
         font-size: var(--font-size-body);
         font-weight: 700;
         margin-left: -1px;
-        min-height: 40px;
+        min-height: 44px;
         min-width: 40px;
         overflow-x: hidden;
         overflow-y: hidden;
@@ -178,7 +178,7 @@
       font-weight: 700;
       height: 40px;
       line-height: 1.4em;
-      min-height: 40px;
+      min-height: 44px;
       min-width: 88px;
       overflow-x: hidden;
       overflow-y: hidden;
@@ -252,7 +252,7 @@
         font-size: var(--font-size-body);
         font-weight: 700;
         margin-left: -1px;
-        min-height: 40px;
+        min-height: 44px;
         min-width: 40px;
         overflow-x: hidden;
         overflow-y: hidden;

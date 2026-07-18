@@ -809,7 +809,7 @@
                 font-family: inherit;
                 font-size: var(--font-size-body);
                 max-width: 100%;
-                min-height: 40px;
+                min-height: 44px;
                 padding-left: 20px;
                 padding-right: 20px;
                 text-align: center;
@@ -1255,7 +1255,7 @@
                 font-family: inherit;
                 font-size: var(--font-size-body);
                 max-width: 100%;
-                min-height: 40px;
+                min-height: 44px;
                 padding-left: 20px;
                 padding-right: 20px;
                 text-align: center;
@@ -1701,7 +1701,7 @@
                 font-family: inherit;
                 font-size: var(--font-size-body);
                 max-width: 100%;
-                min-height: 40px;
+                min-height: 44px;
                 padding-left: 20px;
                 padding-right: 20px;
                 text-align: center;
@@ -2147,7 +2147,7 @@
                 font-family: inherit;
                 font-size: var(--font-size-body);
                 max-width: 100%;
-                min-height: 40px;
+                min-height: 44px;
                 padding-left: 20px;
                 padding-right: 20px;
                 text-align: center;
@@ -2601,7 +2601,7 @@
                 font-family: inherit;
                 font-size: var(--font-size-body);
                 max-width: 100%;
-                min-height: 40px;
+                min-height: 44px;
                 padding-left: 20px;
                 padding-right: 20px;
                 text-align: center;
@@ -3726,7 +3726,7 @@
                 font-family: inherit;
                 font-size: var(--font-size-body);
                 max-width: 100%;
-                min-height: 40px;
+                min-height: 44px;
                 padding-left: 20px;
                 padding-right: 20px;
                 text-align: center;
@@ -4174,7 +4174,7 @@
                 font-family: inherit;
                 font-size: var(--font-size-body);
                 max-width: 100%;
-                min-height: 40px;
+                min-height: 44px;
                 padding-left: 20px;
                 padding-right: 20px;
                 text-align: center;
@@ -4622,7 +4622,7 @@
                 font-family: inherit;
                 font-size: var(--font-size-body);
                 max-width: 100%;
-                min-height: 40px;
+                min-height: 44px;
                 padding-left: 20px;
                 padding-right: 20px;
                 text-align: center;
@@ -5070,7 +5070,7 @@
                 font-family: inherit;
                 font-size: var(--font-size-body);
                 max-width: 100%;
-                min-height: 40px;
+                min-height: 44px;
                 padding-left: 20px;
                 padding-right: 20px;
                 text-align: center;
@@ -5526,7 +5526,7 @@
                 font-family: inherit;
                 font-size: var(--font-size-body);
                 max-width: 100%;
-                min-height: 40px;
+                min-height: 44px;
                 padding-left: 20px;
                 padding-right: 20px;
                 text-align: center;
@@ -6648,7 +6648,7 @@
                 font-family: inherit;
                 font-size: var(--font-size-body);
                 max-width: 100%;
-                min-height: 40px;
+                min-height: 44px;
                 padding-left: 20px;
                 padding-right: 20px;
                 text-align: center;
@@ -7094,7 +7094,7 @@
                 font-family: inherit;
                 font-size: var(--font-size-body);
                 max-width: 100%;
-                min-height: 40px;
+                min-height: 44px;
                 padding-left: 20px;
                 padding-right: 20px;
                 text-align: center;
@@ -7540,7 +7540,7 @@
                 font-family: inherit;
                 font-size: var(--font-size-body);
                 max-width: 100%;
-                min-height: 40px;
+                min-height: 44px;
                 padding-left: 20px;
                 padding-right: 20px;
                 text-align: center;
@@ -7986,7 +7986,7 @@
                 font-family: inherit;
                 font-size: var(--font-size-body);
                 max-width: 100%;
-                min-height: 40px;
+                min-height: 44px;
                 padding-left: 20px;
                 padding-right: 20px;
                 text-align: center;
@@ -8440,7 +8440,7 @@
                 font-family: inherit;
                 font-size: var(--font-size-body);
                 max-width: 100%;
-                min-height: 40px;
+                min-height: 44px;
                 padding-left: 20px;
                 padding-right: 20px;
                 text-align: center;
@@ -9565,7 +9565,7 @@
                 font-family: inherit;
                 font-size: var(--font-size-body);
                 max-width: 100%;
-                min-height: 40px;
+                min-height: 44px;
                 padding-left: 20px;
                 padding-right: 20px;
                 text-align: center;
@@ -10011,7 +10011,7 @@
                 font-family: inherit;
                 font-size: var(--font-size-body);
                 max-width: 100%;
-                min-height: 40px;
+                min-height: 44px;
                 padding-left: 20px;
                 padding-right: 20px;
                 text-align: center;
@@ -10457,7 +10457,7 @@
                 font-family: inherit;
                 font-size: var(--font-size-body);
                 max-width: 100%;
-                min-height: 40px;
+                min-height: 44px;
                 padding-left: 20px;
                 padding-right: 20px;
                 text-align: center;
@@ -10903,7 +10903,7 @@
                 font-family: inherit;
                 font-size: var(--font-size-body);
                 max-width: 100%;
-                min-height: 40px;
+                min-height: 44px;
                 padding-left: 20px;
                 padding-right: 20px;
                 text-align: center;
@@ -11357,7 +11357,7 @@
                 font-family: inherit;
                 font-size: var(--font-size-body);
                 max-width: 100%;
-                min-height: 40px;
+                min-height: 44px;
                 padding-left: 20px;
                 padding-right: 20px;
                 text-align: center;

@@ -35,7 +35,7 @@
           color: var(--color-foreground-on-inverse);
           font-family: inherit;
           font-size: var(--font-size-body);
-          min-height: calc(40px - var(--spacing-50)*2);
+          min-height: calc(44px - var(--spacing-50)*2);
           padding: var(--spacing-100) var(--spacing-200);
           width: 100%
         ">
@@ -64,7 +64,7 @@
           color: var(--color-foreground-primary);
           font-family: inherit;
           font-size: var(--font-size-body);
-          min-height: calc(40px - var(--spacing-50)*2);
+          min-height: calc(44px - var(--spacing-50)*2);
           overflow-x: hidden;
           overflow-y: hidden;
           padding: var(--spacing-100) var(--spacing-200);
@@ -108,7 +108,7 @@
           color: var(--color-foreground-primary);
           font-family: inherit;
           font-size: var(--font-size-body);
-          min-height: calc(40px - var(--spacing-50)*2);
+          min-height: calc(44px - var(--spacing-50)*2);
           overflow-x: hidden;
           overflow-y: hidden;
           padding: var(--spacing-100) var(--spacing-200);
@@ -171,7 +171,7 @@
             color: var(--color-foreground-primary);
             font-family: inherit;
             font-size: var(--font-size-body);
-            min-height: calc(40px - var(--spacing-50)*2);
+            min-height: calc(44px - var(--spacing-50)*2);
             overflow-x: hidden;
             overflow-y: hidden;
             padding: var(--spacing-100) var(--spacing-200);
@@ -215,7 +215,7 @@
             color: var(--color-foreground-primary);
             font-family: inherit;
             font-size: var(--font-size-body);
-            min-height: calc(40px - var(--spacing-50)*2);
+            min-height: calc(44px - var(--spacing-50)*2);
             overflow-x: hidden;
             overflow-y: hidden;
             padding: var(--spacing-100) var(--spacing-200);
@@ -260,7 +260,7 @@
             color: var(--color-foreground-on-inverse);
             font-family: inherit;
             font-size: var(--font-size-body);
-            min-height: calc(40px - var(--spacing-50)*2);
+            min-height: calc(44px - var(--spacing-50)*2);
             padding: var(--spacing-100) var(--spacing-200);
             width: 100%
           ">
@@ -289,7 +289,7 @@
             color: var(--color-foreground-primary);
             font-family: inherit;
             font-size: var(--font-size-body);
-            min-height: calc(40px - var(--spacing-50)*2);
+            min-height: calc(44px - var(--spacing-50)*2);
             overflow-x: hidden;
             overflow-y: hidden;
             padding: var(--spacing-100) var(--spacing-200);
@@ -353,7 +353,7 @@
             color: var(--color-foreground-primary);
             font-family: inherit;
             font-size: var(--font-size-body);
-            min-height: calc(40px - var(--spacing-50)*2);
+            min-height: calc(44px - var(--spacing-50)*2);
             overflow-x: hidden;
             overflow-y: hidden;
             padding: var(--spacing-100) var(--spacing-200);
@@ -397,7 +397,7 @@
             color: var(--color-foreground-primary);
             font-family: inherit;
             font-size: var(--font-size-body);
-            min-height: calc(40px - var(--spacing-50)*2);
+            min-height: calc(44px - var(--spacing-50)*2);
             overflow-x: hidden;
             overflow-y: hidden;
             padding: var(--spacing-100) var(--spacing-200);
@@ -442,7 +442,7 @@
             color: var(--color-foreground-on-inverse);
             font-family: inherit;
             font-size: var(--font-size-body);
-            min-height: calc(40px - var(--spacing-50)*2);
+            min-height: calc(44px - var(--spacing-50)*2);
             padding: var(--spacing-100) var(--spacing-200);
             width: 100%
           ">
@@ -471,7 +471,7 @@
             color: var(--color-foreground-primary);
             font-family: inherit;
             font-size: var(--font-size-body);
-            min-height: calc(40px - var(--spacing-50)*2);
+            min-height: calc(44px - var(--spacing-50)*2);
             overflow-x: hidden;
             overflow-y: hidden;
             padding: var(--spacing-100) var(--spacing-200);
@@ -535,7 +535,7 @@
             color: var(--color-foreground-primary);
             font-family: inherit;
             font-size: var(--font-size-body);
-            min-height: calc(40px - var(--spacing-50)*2);
+            min-height: calc(44px - var(--spacing-50)*2);
             overflow-x: hidden;
             overflow-y: hidden;
             padding: var(--spacing-100) var(--spacing-200);
@@ -579,7 +579,7 @@
             color: var(--color-foreground-primary);
             font-family: inherit;
             font-size: var(--font-size-body);
-            min-height: calc(40px - var(--spacing-50)*2);
+            min-height: calc(44px - var(--spacing-50)*2);
             overflow-x: hidden;
             overflow-y: hidden;
             padding: var(--spacing-100) var(--spacing-200);
@@ -624,7 +624,7 @@
             color: var(--color-foreground-on-inverse);
             font-family: inherit;
             font-size: var(--font-size-body);
-            min-height: calc(40px - var(--spacing-50)*2);
+            min-height: calc(44px - var(--spacing-50)*2);
             padding: var(--spacing-100) var(--spacing-200);
             width: 100%
           ">
@@ -653,7 +653,7 @@
             color: var(--color-foreground-primary);
             font-family: inherit;
             font-size: var(--font-size-body);
-            min-height: calc(40px - var(--spacing-50)*2);
+            min-height: calc(44px - var(--spacing-50)*2);
             overflow-x: hidden;
             overflow-y: hidden;
             padding: var(--spacing-100) var(--spacing-200);
@@ -853,7 +853,7 @@
             color: var(--color-foreground-primary);
             font-family: inherit;
             font-size: var(--font-size-body);
-            min-height: calc(40px - var(--spacing-50)*2);
+            min-height: calc(44px - var(--spacing-50)*2);
             overflow-x: hidden;
             overflow-y: hidden;
             padding: var(--spacing-100) var(--spacing-200);
@@ -897,7 +897,7 @@
             color: var(--color-foreground-primary);
             font-family: inherit;
             font-size: var(--font-size-body);
-            min-height: calc(40px - var(--spacing-50)*2);
+            min-height: calc(44px - var(--spacing-50)*2);
             overflow-x: hidden;
             overflow-y: hidden;
             padding: var(--spacing-100) var(--spacing-200);
@@ -942,7 +942,7 @@
             color: var(--color-foreground-on-inverse);
             font-family: inherit;
             font-size: var(--font-size-body);
-            min-height: calc(40px - var(--spacing-50)*2);
+            min-height: calc(44px - var(--spacing-50)*2);
             padding: var(--spacing-100) var(--spacing-200);
             width: 100%
           ">
@@ -971,7 +971,7 @@
             color: var(--color-foreground-primary);
             font-family: inherit;
             font-size: var(--font-size-body);
-            min-height: calc(40px - var(--spacing-50)*2);
+            min-height: calc(44px - var(--spacing-50)*2);
             overflow-x: hidden;
             overflow-y: hidden;
             padding: var(--spacing-100) var(--spacing-200);
@@ -1034,7 +1034,7 @@
           color: var(--color-foreground-primary);
           font-family: inherit;
           font-size: var(--font-size-body);
-          min-height: calc(40px - var(--spacing-50)*2);
+          min-height: calc(44px - var(--spacing-50)*2);
           overflow-x: hidden;
           overflow-y: hidden;
           padding: var(--spacing-100) var(--spacing-200);
@@ -1079,7 +1079,7 @@
           color: var(--color-foreground-on-inverse);
           font-family: inherit;
           font-size: var(--font-size-body);
-          min-height: calc(40px - var(--spacing-50)*2);
+          min-height: calc(44px - var(--spacing-50)*2);
           padding: var(--spacing-100) var(--spacing-200);
           width: 100%
         ">
@@ -1108,7 +1108,7 @@
           color: var(--color-foreground-primary);
           font-family: inherit;
           font-size: var(--font-size-body);
-          min-height: calc(40px - var(--spacing-50)*2);
+          min-height: calc(44px - var(--spacing-50)*2);
           overflow-x: hidden;
           overflow-y: hidden;
           padding: var(--spacing-100) var(--spacing-200);
@@ -1152,7 +1152,7 @@
           color: var(--color-foreground-primary);
           font-family: inherit;
           font-size: var(--font-size-body);
-          min-height: calc(40px - var(--spacing-50)*2);
+          min-height: calc(44px - var(--spacing-50)*2);
           overflow-x: hidden;
           overflow-y: hidden;
           padding: var(--spacing-100) var(--spacing-200);
@@ -1215,7 +1215,7 @@
           color: var(--color-foreground-on-inverse);
           font-family: inherit;
           font-size: var(--font-size-body);
-          min-height: calc(40px - var(--spacing-50)*2);
+          min-height: calc(44px - var(--spacing-50)*2);
           padding: var(--spacing-100) var(--spacing-200);
           width: 100%
         ">
@@ -1244,7 +1244,7 @@
           color: var(--color-foreground-primary);
           font-family: inherit;
           font-size: var(--font-size-body);
-          min-height: calc(40px - var(--spacing-50)*2);
+          min-height: calc(44px - var(--spacing-50)*2);
           overflow-x: hidden;
           overflow-y: hidden;
           padding: var(--spacing-100) var(--spacing-200);
@@ -1288,7 +1288,7 @@
           color: var(--color-foreground-primary);
           font-family: inherit;
           font-size: var(--font-size-body);
-          min-height: calc(40px - var(--spacing-50)*2);
+          min-height: calc(44px - var(--spacing-50)*2);
           overflow-x: hidden;
           overflow-y: hidden;
           padding: var(--spacing-100) var(--spacing-200);
@@ -1351,7 +1351,7 @@
           color: var(--color-foreground-on-inverse);
           font-family: inherit;
           font-size: var(--font-size-body);
-          min-height: calc(40px - var(--spacing-50)*2);
+          min-height: calc(44px - var(--spacing-50)*2);
           padding: var(--spacing-100) var(--spacing-200);
           width: 100%
         ">
@@ -1407,7 +1407,7 @@
           color: var(--color-foreground-primary);
           font-family: inherit;
           font-size: var(--font-size-body);
-          min-height: calc(40px - var(--spacing-50)*2);
+          min-height: calc(44px - var(--spacing-50)*2);
           overflow-x: hidden;
           overflow-y: hidden;
           padding: var(--spacing-100) var(--spacing-200);
