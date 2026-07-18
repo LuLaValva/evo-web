@@ -1,0 +1,1 @@
+import{r as e}from"./iframe-xHTfl6Ib.js";function t(){return e.useSyncExternalStore(()=>()=>{},()=>o(),()=>!1)}function o(){return!!window.matchMedia?.("(prefers-reduced-motion: reduce)")?.matches}export{t as u};
