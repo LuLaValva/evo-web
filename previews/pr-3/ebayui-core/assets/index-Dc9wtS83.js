@@ -1,1 +1,0 @@
-function i(t){const e=t.style.width;t.style.width="100vw";const d=t.offsetWidth;return t.style.width=e,d}const o=typeof window<"u"&&window.matchMedia("(prefers-reduced-motion: reduce)").matches;export{i as g,o as u};

@@ -1,2 +1,0 @@
-import{$ as a,a as n,b as e,c as s,d as o,e as c}from"./_DOI3aCC4.js";import{C as i,D as d,a as p,g as $}from"./_MlWVARU6.js";const r=a,_=(t=>`/${t}&`)(c),m=p("Vd0","Patterns","b"),l=$("Vd1","List of design patterns that don't have a dedicated component.","b");function u(t){n(t.a),e(t.a,d({content:m(t)})),s(t.a,l(t)),o(t.a,"patterns")}const b=i("Vd",r,_,u);export{u as $setup,r as $template,_ as $walks,b as default};
-//# sourceMappingURL=_DGkAi-Ef.js.map

@@ -1,1 +1,0 @@
-const r={};const d=c(3);function a(t){return Math.floor(Math.random()*t)}function c(t){const o="abcdefghijklmnopqrstuvwxyz",n=o+"0123456789";let e=o[a(25)];for(let i=1;i<t;i++)e+=n[a(35)];return e}function u(t,o="nid"){const n=`${o}${o===""?"":"-"}${d}`;return r[n]=r[n]||0,t.id||t.setAttribute("id",`${n}-${r[n]++}`),t.id}export{u as i};

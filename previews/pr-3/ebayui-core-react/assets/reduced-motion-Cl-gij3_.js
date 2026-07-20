@@ -1,1 +1,0 @@
-import{r as e}from"./iframe-BubCGMJY.js";function t(){return e.useSyncExternalStore(()=>()=>{},()=>o(),()=>!1)}function o(){return!!window.matchMedia?.("(prefers-reduced-motion: reduce)")?.matches}export{t as u};
