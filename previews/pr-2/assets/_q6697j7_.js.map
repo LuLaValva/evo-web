@@ -1,0 +1,1 @@
+{"version":3,"file":"_q6697j7_.js","sources":["../../../src/routes/_index/accessibility/+layout.marko"],"sourcesContent":["import \"../../../sass/accessibility.scss\";\n<${input.content}/>\n"],"names":["$dynamicTag","_","$input_content","$scope","input_content"],"mappings":"wEAA0CA,EAAAC,EAAA,CAAA,EAAAC,EAAAA,CAAAC,EAAAC,IAAAJ,EAAAG,EACvCC,CAAa"}
