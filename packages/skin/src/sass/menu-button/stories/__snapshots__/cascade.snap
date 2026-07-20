@@ -1,4 +1,4 @@
-┌─ RTL @ 1280px
+┌─ RTL
 <div>
   <div dir="rtl">
     <span style="position: relative">
@@ -240,7 +240,7 @@
   </div>
 </div>
 
-┌─ colour @ 1280px
+┌─ colour
 <div>
   <div style="color: purple">
     <span style="position: relative">
@@ -465,7 +465,7 @@
   </div>
 </div>
 
-┌─ fontSize @ 1280px
+┌─ fontSize
 <div>
   <div style="font-size: 200%">
     <span style="position: relative">

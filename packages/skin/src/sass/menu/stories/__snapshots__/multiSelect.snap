@@ -1,4 +1,4 @@
-┌─ disabled @ 1280px
+┌─ disabled
 <div>
   <span style="
     display: inline-block;
@@ -209,7 +209,7 @@
   </span>
 </div>
 
-┌─ selected @ 1280px
+┌─ selected
 <div>
   <span style="
     display: inline-block;
@@ -414,7 +414,7 @@
   </span>
 </div>
 
-┌─ unselected @ 1280px
+┌─ unselected
 <div>
   <span style="
     display: inline-block;

@@ -1,4 +1,4 @@
-┌─ base @ 1280px
+┌─ base
 <div>
   <div style="
     align-items: stretch;
@@ -157,7 +157,7 @@
   </div>
 </div>
 
-┌─ textSpacing @ 1280px
+┌─ textSpacing
 <div>
   <div style="
     align-items: stretch;
@@ -344,7 +344,7 @@
   </div>
 </div>
 
-┌─ withLongMessages @ 1280px
+┌─ withLongMessages
 <div>
   <div style="
     align-items: stretch;
@@ -531,7 +531,7 @@
   </div>
 </div>
 
-┌─ withMediumText @ 1280px
+┌─ withMediumText
 <div>
   <div style="
     align-items: stretch;
@@ -718,7 +718,7 @@
   </div>
 </div>
 
-┌─ withMessages @ 1280px
+┌─ withMessages
 <div>
   <div style="
     align-items: stretch;

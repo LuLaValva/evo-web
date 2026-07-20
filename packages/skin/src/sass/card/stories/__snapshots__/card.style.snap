@@ -1,4 +1,4 @@
-┌─ horizontalFilled @ 1280px
+┌─ horizontalFilled
 <div>
   <span style="
     background-color: var(--color-background-secondary);
@@ -142,7 +142,7 @@
   </span>
 </div>
 
-┌─ horizontalOutlined @ 1280px
+┌─ horizontalOutlined
 <div>
   <span style="
     background-color: inherit;
@@ -287,7 +287,7 @@
   </span>
 </div>
 
-┌─ verticalFilled @ 1280px
+┌─ verticalFilled
 <div>
   <span style="
     background-color: var(--color-background-secondary);
@@ -428,7 +428,7 @@
   </span>
 </div>
 
-┌─ verticalOutlined @ 1280px
+┌─ verticalOutlined
 <div>
   <span style="
     background-color: inherit;

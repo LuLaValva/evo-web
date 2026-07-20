@@ -1,4 +1,4 @@
-┌─ base @ 1280px
+┌─ base
 <div>
   <a style="
     align-items: center;
@@ -206,7 +206,7 @@
   </a>
 </div>
 
-┌─ baseDisabled @ 1280px
+┌─ baseDisabled
 <div>
   <a style="
     align-items: center;
@@ -414,7 +414,7 @@
   </a>
 </div>
 
-┌─ baseSpinner @ 1280px
+┌─ baseSpinner
 <div>
   <a style="
     align-items: center;
@@ -646,7 +646,7 @@
   </a>
 </div>
 
-┌─ primary @ 1280px
+┌─ primary
 <div>
   <a style="
     align-items: center;
@@ -854,7 +854,7 @@
   </a>
 </div>
 
-┌─ primaryDisabled @ 1280px
+┌─ primaryDisabled
 <div>
   <a style="
     align-items: center;
@@ -1062,7 +1062,7 @@
   </a>
 </div>
 
-┌─ primarySpinner @ 1280px
+┌─ primarySpinner
 <div>
   <a style="
     align-items: center;
@@ -1300,7 +1300,7 @@
   </a>
 </div>
 
-┌─ secondary @ 1280px
+┌─ secondary
 <div>
   <a style="
     align-items: center;
@@ -1505,7 +1505,7 @@
   </a>
 </div>
 
-┌─ secondaryDisabled @ 1280px
+┌─ secondaryDisabled
 <div>
   <a style="
     align-items: center;
@@ -1710,7 +1710,7 @@
   </a>
 </div>
 
-┌─ secondarySpinner @ 1280px
+┌─ secondarySpinner
 <div>
   <a style="
     align-items: center;
@@ -1942,7 +1942,7 @@
   </a>
 </div>
 
-┌─ tertiary @ 1280px
+┌─ tertiary
 <div>
   <a style="
     align-items: center;
@@ -2147,7 +2147,7 @@
   </a>
 </div>
 
-┌─ tertiaryDisabled @ 1280px
+┌─ tertiaryDisabled
 <div>
   <a style="
     align-items: center;
@@ -2352,7 +2352,7 @@
   </a>
 </div>
 
-┌─ tertiarySpinner @ 1280px
+┌─ tertiarySpinner
 <div>
   <a style="
     align-items: center;

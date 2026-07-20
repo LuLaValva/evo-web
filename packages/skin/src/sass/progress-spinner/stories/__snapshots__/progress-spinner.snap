@@ -1,4 +1,4 @@
-┌─ RTL @ 1280px
+┌─ RTL
 <div>
   <div dir="rtl">
     <span style="
@@ -28,7 +28,7 @@
   </div>
 </div>
 
-┌─ base @ 1280px
+┌─ base
 <div>
   <span style="
     animation-duration: 1.5s;
@@ -56,7 +56,7 @@
   </span>
 </div>
 
-┌─ large @ 1280px
+┌─ large
 <div>
   <span style="
     animation-duration: 1.5s;
@@ -84,7 +84,7 @@
   </span>
 </div>
 
-┌─ small @ 1280px
+┌─ small
 <div>
   <span style="
     animation-duration: 1.5s;

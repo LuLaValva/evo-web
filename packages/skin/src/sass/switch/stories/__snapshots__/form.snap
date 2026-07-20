@@ -1,4 +1,4 @@
-┌─ RTL @ 1280px
+┌─ RTL
 <div>
   <div
     dir="rtl"
@@ -85,7 +85,7 @@
   </div>
 </div>
 
-┌─ off @ 1280px
+┌─ off
 <div>
   <div style="
     box-sizing: border-box;
@@ -168,7 +168,7 @@
   </div>
 </div>
 
-┌─ offDisabled @ 1280px
+┌─ offDisabled
 <div>
   <div style="
     box-sizing: border-box;
@@ -252,7 +252,7 @@
   </div>
 </div>
 
-┌─ on @ 1280px
+┌─ on
 <div>
   <div style="
     box-sizing: border-box;
@@ -336,7 +336,7 @@
   </div>
 </div>
 
-┌─ onDisabled @ 1280px
+┌─ onDisabled
 <div>
   <div style="
     box-sizing: border-box;

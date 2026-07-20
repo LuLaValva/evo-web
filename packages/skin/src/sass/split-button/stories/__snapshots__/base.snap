@@ -1,4 +1,4 @@
-┌─ fakePrimaryCollapsed @ 1280px
+┌─ fakePrimaryCollapsed
 <div>
   <span style="display: inline-flex">
     <a style="
@@ -128,7 +128,7 @@
   </span>
 </div>
 
-┌─ fakePrimaryExpanded @ 1280px
+┌─ fakePrimaryExpanded
 <div>
   <span style="display: inline-flex">
     <a style="
@@ -418,7 +418,7 @@
   </span>
 </div>
 
-┌─ fakeSecondaryCollapsed @ 1280px
+┌─ fakeSecondaryCollapsed
 <div>
   <span style="display: inline-flex">
     <a style="
@@ -545,7 +545,7 @@
   </span>
 </div>
 
-┌─ fakeSecondaryExpanded @ 1280px
+┌─ fakeSecondaryExpanded
 <div>
   <span style="display: inline-flex">
     <a style="
@@ -832,7 +832,7 @@
   </span>
 </div>
 
-┌─ fakeTertiaryCollapsed @ 1280px
+┌─ fakeTertiaryCollapsed
 <div>
   <span style="display: inline-flex">
     <a style="
@@ -957,7 +957,7 @@
   </span>
 </div>
 
-┌─ fakeTertiaryExpanded @ 1280px
+┌─ fakeTertiaryExpanded
 <div>
   <span style="display: inline-flex">
     <a style="
@@ -1242,7 +1242,7 @@
   </span>
 </div>
 
-┌─ primaryCollapsed @ 1280px
+┌─ primaryCollapsed
 <div>
   <span style="display: inline-flex">
     <button style="
@@ -1378,7 +1378,7 @@
   </span>
 </div>
 
-┌─ primaryExpanded @ 1280px
+┌─ primaryExpanded
 <div>
   <span style="display: inline-flex">
     <button style="
@@ -1674,7 +1674,7 @@
   </span>
 </div>
 
-┌─ secondaryCollapsed @ 1280px
+┌─ secondaryCollapsed
 <div>
   <span style="display: inline-flex">
     <button style="
@@ -1808,7 +1808,7 @@
   </span>
 </div>
 
-┌─ secondaryExpanded @ 1280px
+┌─ secondaryExpanded
 <div>
   <span style="display: inline-flex">
     <button style="
@@ -2102,7 +2102,7 @@
   </span>
 </div>
 
-┌─ tertiaryCollapsed @ 1280px
+┌─ tertiaryCollapsed
 <div>
   <span style="display: inline-flex">
     <button style="
@@ -2234,7 +2234,7 @@
   </span>
 </div>
 
-┌─ tertiaryExpanded @ 1280px
+┌─ tertiaryExpanded
 <div>
   <span style="display: inline-flex">
     <button style="
@@ -2526,7 +2526,7 @@
   </span>
 </div>
 
-┌─ textSpacing @ 1280px
+┌─ textSpacing
 <div>
   <span style="display: inline-flex">
     <button style="

@@ -1,4 +1,4 @@
-┌─ horizontal @ 1280px
+┌─ horizontal
 <div>
   <div dir="rtl">
     <span style="
@@ -146,7 +146,7 @@
   </div>
 </div>
 
-┌─ vertical @ 1280px
+┌─ vertical
 <div>
   <div dir="rtl">
     <span style="

@@ -1,4 +1,4 @@
-┌─ primaryCollapsed @ 1280px
+┌─ primaryCollapsed
 <div>
   <div dir="rtl">
     <span style="display: inline-flex">
@@ -137,7 +137,7 @@
   </div>
 </div>
 
-┌─ primaryExpanded @ 1280px
+┌─ primaryExpanded
 <div>
   <div dir="rtl">
     <span style="display: inline-flex">
@@ -436,7 +436,7 @@
   </div>
 </div>
 
-┌─ secondaryCollapsed @ 1280px
+┌─ secondaryCollapsed
 <div>
   <div dir="rtl">
     <span style="display: inline-flex">
@@ -573,7 +573,7 @@
   </div>
 </div>
 
-┌─ secondaryExpanded @ 1280px
+┌─ secondaryExpanded
 <div>
   <div dir="rtl">
     <span style="display: inline-flex">
@@ -870,7 +870,7 @@
   </div>
 </div>
 
-┌─ tertiaryCollapsed @ 1280px
+┌─ tertiaryCollapsed
 <div>
   <div dir="rtl">
     <span style="display: inline-flex">
@@ -1005,7 +1005,7 @@
   </div>
 </div>
 
-┌─ tertiaryExpanded @ 1280px
+┌─ tertiaryExpanded
 <div>
   <div dir="rtl">
     <span style="display: inline-flex">

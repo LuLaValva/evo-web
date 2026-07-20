@@ -1,4 +1,4 @@
-┌─ RTL @ 1280px
+┌─ RTL
 <div>
   <div dir="rtl">
     <div>
@@ -119,7 +119,7 @@
   </div>
 </div>
 
-┌─ disabled @ 1280px
+┌─ disabled
 <div>
   <div>
     <div style="
@@ -214,7 +214,7 @@
   </div>
 </div>
 
-┌─ four @ 1280px
+┌─ four
 <div>
   <div>
     <div style="
@@ -333,7 +333,7 @@
   </div>
 </div>
 
-┌─ large @ 1280px
+┌─ large
 <div>
   <div>
     <div style="
@@ -453,7 +453,7 @@
   </div>
 </div>
 
-┌─ longText @ 1280px
+┌─ longText
 <div>
   <div>
     <div style="
@@ -551,7 +551,7 @@
   </div>
 </div>
 
-┌─ textSpacing @ 1280px
+┌─ textSpacing
 <div>
   <div>
     <div style="
@@ -670,7 +670,7 @@
   </div>
 </div>
 
-┌─ three @ 1280px
+┌─ three
 <div>
   <div>
     <div style="
@@ -765,7 +765,7 @@
   </div>
 </div>
 
-┌─ two @ 1280px
+┌─ two
 <div>
   <div>
     <div style="

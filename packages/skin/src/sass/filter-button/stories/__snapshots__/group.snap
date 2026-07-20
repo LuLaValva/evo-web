@@ -1,4 +1,4 @@
-┌─ RTL @ 1280px
+┌─ RTL
 <div>
   <div dir="rtl">
     <div style="
@@ -131,7 +131,7 @@
   </div>
 </div>
 
-┌─ group @ 1280px
+┌─ group
 <div>
   <div style="
     display: flex;

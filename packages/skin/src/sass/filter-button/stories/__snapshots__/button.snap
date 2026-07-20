@@ -1,4 +1,4 @@
-┌─ base @ 1280px
+┌─ base
 <div>
   <button style="
     align-items: center;
@@ -62,7 +62,7 @@
   </button>
 </div>
 
-┌─ disabled @ 1280px
+┌─ disabled
 <div>
   <button
     disabled
@@ -127,7 +127,7 @@
   </button>
 </div>
 
-┌─ pressed @ 1280px
+┌─ pressed
 <div>
   <button style="
     align-items: center;
@@ -190,7 +190,7 @@
   </button>
 </div>
 
-┌─ textSpacing @ 1280px
+┌─ textSpacing
 <div>
   <button style="
     align-items: center;
@@ -254,7 +254,7 @@
   </button>
 </div>
 
-┌─ truncated @ 1280px
+┌─ truncated
 <div>
   <button style="
     align-items: center;

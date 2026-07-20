@@ -1,4 +1,4 @@
-┌─ centered @ 1280px
+┌─ centered
 <div>
   <details open>
     <summary style="
@@ -62,7 +62,7 @@
   </details>
 </div>
 
-┌─ closed @ 1280px
+┌─ closed
 <div>
   <details>
     <summary style="
@@ -121,7 +121,7 @@
   </details>
 </div>
 
-┌─ open @ 1280px
+┌─ open
 <div>
   <details open>
     <summary style="
@@ -183,7 +183,7 @@
   </details>
 </div>
 
-┌─ small @ 1280px
+┌─ small
 <div>
   <details open>
     <summary style="
@@ -245,7 +245,7 @@
   </details>
 </div>
 
-┌─ textSpacing @ 1280px
+┌─ textSpacing
 <div>
   <details open>
     <summary style="

@@ -1,4 +1,4 @@
-┌─ actionable @ 1280px
+┌─ actionable
 <div>
   <span style="
     align-items: center;
@@ -113,7 +113,7 @@
   </span>
 </div>
 
-┌─ actionableLarge @ 1280px
+┌─ actionableLarge
 <div>
   <span style="
     align-items: center;
@@ -228,7 +228,7 @@
   </span>
 </div>
 
-┌─ base @ 1280px
+┌─ base
 <div>
   <span style="
     align-items: center;
@@ -297,7 +297,7 @@
   </span>
 </div>
 
-┌─ dual @ 1280px
+┌─ dual
 <div>
   <span style="
     align-items: center;
@@ -383,7 +383,7 @@
   </span>
 </div>
 
-┌─ dualActionable @ 1280px
+┌─ dualActionable
 <div>
   <span style="
     align-items: center;
@@ -516,7 +516,7 @@
   </span>
 </div>
 
-┌─ dualActionableLarge @ 1280px
+┌─ dualActionableLarge
 <div>
   <span style="
     align-items: center;
@@ -649,7 +649,7 @@
   </span>
 </div>
 
-┌─ end @ 1280px
+┌─ end
 <div>
   <span style="
     align-items: center;
@@ -717,7 +717,7 @@
   </span>
 </div>
 
-┌─ fullyDecorated @ 1280px
+┌─ fullyDecorated
 <div>
   <span style="
     align-items: center;

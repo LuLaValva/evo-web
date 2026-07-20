@@ -1,4 +1,4 @@
-┌─ base @ 1280px
+┌─ base
 <div>
   <span style="
     align-items: center;
@@ -186,7 +186,7 @@
   </span>
 </div>
 
-┌─ fluid @ 1280px
+┌─ fluid
 <div>
   <span style="
     align-items: center;
@@ -375,7 +375,7 @@
   </span>
 </div>
 
-┌─ large @ 1280px
+┌─ large
 <div>
   <span style="
     align-items: center;

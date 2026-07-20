@@ -1,4 +1,4 @@
-┌─ RTL @ 1280px
+┌─ RTL
 <div>
   <div dir="rtl">
     <button style="
@@ -65,7 +65,7 @@
   </div>
 </div>
 
-┌─ anchor @ 1280px
+┌─ anchor
 <div>
   <a style="
     align-items: center;
@@ -131,7 +131,7 @@
   </a>
 </div>
 
-┌─ anchorSelected @ 1280px
+┌─ anchorSelected
 <div>
   <a style="
     align-items: center;
@@ -214,7 +214,7 @@
   </a>
 </div>
 
-┌─ button @ 1280px
+┌─ button
 <div>
   <button style="
     align-items: center;
@@ -279,7 +279,7 @@
   </button>
 </div>
 
-┌─ buttonSelected @ 1280px
+┌─ buttonSelected
 <div>
   <button style="
     align-items: center;
@@ -346,7 +346,7 @@
   </button>
 </div>
 
-┌─ textSpacing @ 1280px
+┌─ textSpacing
 <div>
   <button style="
     align-items: center;

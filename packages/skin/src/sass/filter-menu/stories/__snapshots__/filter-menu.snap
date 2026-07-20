@@ -1,4 +1,4 @@
-┌─ RTL @ 1280px
+┌─ RTL
 <div>
   <div dir="rtl">
     <span style="
@@ -408,7 +408,7 @@
   </div>
 </div>
 
-┌─ base @ 1280px
+┌─ base
 <div>
   <span style="
     background-color: var(--filter-menu-item-background-color, var(--color-background-primary));
@@ -605,7 +605,7 @@
   </span>
 </div>
 
-┌─ formVersion @ 1280px
+┌─ formVersion
 <div>
   <span style="
     background-color: var(--filter-menu-item-background-color, var(--color-background-primary));
@@ -922,7 +922,7 @@
   </span>
 </div>
 
-┌─ textSpacing @ 1280px
+┌─ textSpacing
 <div>
   <span style="
     background-color: var(--filter-menu-item-background-color, var(--color-background-primary));
@@ -1250,7 +1250,7 @@
   </span>
 </div>
 
-┌─ withDisabled @ 1280px
+┌─ withDisabled
 <div>
   <span style="
     background-color: var(--filter-menu-item-background-color, var(--color-background-primary));
@@ -1447,7 +1447,7 @@
   </span>
 </div>
 
-┌─ withFooterButton @ 1280px
+┌─ withFooterButton
 <div>
   <span style="
     background-color: var(--filter-menu-item-background-color, var(--color-background-primary));
@@ -1684,7 +1684,7 @@
   </span>
 </div>
 
-┌─ withHeaderSearch @ 1280px
+┌─ withHeaderSearch
 <div>
   <span style="
     background-color: var(--filter-menu-item-background-color, var(--color-background-primary));

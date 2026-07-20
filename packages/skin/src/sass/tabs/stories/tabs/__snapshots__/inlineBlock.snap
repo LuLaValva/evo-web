@@ -1,4 +1,4 @@
-┌─ four @ 1280px
+┌─ four
 <div>
   <span style="display: inline-block">
     <div style="
@@ -117,7 +117,7 @@
   </span>
 </div>
 
-┌─ longText @ 1280px
+┌─ longText
 <div>
   <span style="display: inline-block">
     <div style="
@@ -215,7 +215,7 @@
   </span>
 </div>
 
-┌─ textSpacing @ 1280px
+┌─ textSpacing
 <div>
   <span style="display: inline-block">
     <div style="
@@ -334,7 +334,7 @@
   </span>
 </div>
 
-┌─ three @ 1280px
+┌─ three
 <div>
   <span style="display: inline-block">
     <div style="
@@ -429,7 +429,7 @@
   </span>
 </div>
 
-┌─ two @ 1280px
+┌─ two
 <div>
   <span style="display: inline-block">
     <div style="

@@ -1,4 +1,4 @@
-┌─ horizontal @ 1280px
+┌─ horizontal
 <div>
   <div style="
     background-color: inherit;
@@ -144,7 +144,7 @@
   </div>
 </div>
 
-┌─ vertical @ 1280px
+┌─ vertical
 <div>
   <div style="
     background-color: inherit;

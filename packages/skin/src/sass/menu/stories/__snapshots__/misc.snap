@@ -1,4 +1,4 @@
-┌─ badged @ 1280px
+┌─ badged
 <div>
   <span style="
     display: inline-block;
@@ -234,7 +234,7 @@
   </span>
 </div>
 
-┌─ separator @ 1280px
+┌─ separator
 <div>
   <span style="
     display: inline-block;
@@ -388,7 +388,7 @@
   </span>
 </div>
 
-┌─ stateless @ 1280px
+┌─ stateless
 <div>
   <span style="
     display: inline-block;
@@ -536,7 +536,7 @@
   </span>
 </div>
 
-┌─ textSpacing @ 1280px
+┌─ textSpacing
 <div>
   <span style="
     display: inline-block;

@@ -1,4 +1,4 @@
-┌─ base @ 1280px
+┌─ base
 <div>
   <div style="
     border: 1px solid var(--color-border-medium);
@@ -134,7 +134,7 @@
   </div>
 </div>
 
-┌─ inContainer @ 1280px
+┌─ inContainer
 <div>
   <div style="width: 300px">
     <div style="
@@ -316,7 +316,7 @@
   </div>
 </div>
 
-┌─ inheritColors @ 1280px
+┌─ inheritColors
 <div>
   <div style="color: red">
     <div style="
@@ -498,7 +498,7 @@
   </div>
 </div>
 
-┌─ inheritFontSize @ 1280px
+┌─ inheritFontSize
 <div>
   <div style="font-size: 300%">
     <div style="
@@ -680,7 +680,7 @@
   </div>
 </div>
 
-┌─ large @ 1280px
+┌─ large
 <div>
   <div style="
     border: 1px solid var(--color-border-medium);
@@ -816,7 +816,7 @@
   </div>
 </div>
 
-┌─ rtl @ 1280px
+┌─ rtl
 <div>
   <div dir="rtl">
     <div style="
@@ -998,7 +998,7 @@
   </div>
 </div>
 
-┌─ shortItems @ 1280px
+┌─ shortItems
 <div>
   <div style="
     border: 1px solid var(--color-border-medium);
@@ -1178,7 +1178,7 @@
   </div>
 </div>
 
-┌─ textSpacing @ 1280px
+┌─ textSpacing
 <div>
   <div style="
     border: 1px solid var(--color-border-medium);
@@ -1314,7 +1314,7 @@
   </div>
 </div>
 
-┌─ withIcons @ 1280px
+┌─ withIcons
 <div>
   <div style="
     border: 1px solid var(--color-border-medium);

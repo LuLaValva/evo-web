@@ -1,4 +1,4 @@
-┌─ base @ 1280px
+┌─ base
 <div>
   <div style="width: 250px">
     <div style="width: 100%">
@@ -144,7 +144,7 @@
   </div>
 </div>
 
-┌─ fiveValues @ 1280px
+┌─ fiveValues
 <div>
   <div style="width: 250px">
     <div style="width: 100%">
@@ -377,7 +377,7 @@
   </div>
 </div>
 
-┌─ twoValues @ 1280px
+┌─ twoValues
 <div>
   <div style="width: 250px">
     <div style="width: 100%">

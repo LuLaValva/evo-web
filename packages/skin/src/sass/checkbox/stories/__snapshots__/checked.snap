@@ -1,4 +1,4 @@
-┌─ RTL @ 1280px
+┌─ RTL
 <div>
   <div dir="rtl">
     <span style="
@@ -49,7 +49,7 @@
   </div>
 </div>
 
-┌─ base @ 1280px
+┌─ base
 <div>
   <span style="
     display: inline-flex;
@@ -98,7 +98,7 @@
   </span>
 </div>
 
-┌─ customColour @ 1280px
+┌─ customColour
 <div>
   <span style="
     display: inline-flex;
@@ -147,7 +147,7 @@
   </span>
 </div>
 
-┌─ customIcon @ 1280px
+┌─ customIcon
 <div>
   <span style="
     display: inline-flex;
@@ -196,7 +196,7 @@
   </span>
 </div>
 
-┌─ disabled @ 1280px
+┌─ disabled
 <div>
   <span style="
     display: inline-flex;
@@ -246,7 +246,7 @@
   </span>
 </div>
 
-┌─ multiLineLabel @ 1280px
+┌─ multiLineLabel
 <div>
   <legend style="margin-bottom: var(--spacing-100)">
     Choose an Option
@@ -434,7 +434,7 @@
   </div>
 </div>
 
-┌─ textSpacing @ 1280px
+┌─ textSpacing
 <div>
   <div>
     <legend style="margin-bottom: var(--spacing-100)">

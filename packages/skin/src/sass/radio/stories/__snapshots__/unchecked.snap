@@ -1,4 +1,4 @@
-┌─ base @ 1280px
+┌─ base
 <div>
   <span style="
     display: inline-flex;
@@ -46,7 +46,7 @@
   </span>
 </div>
 
-┌─ customColour @ 1280px
+┌─ customColour
 <div>
   <span style="
     display: inline-flex;
@@ -94,7 +94,7 @@
   </span>
 </div>
 
-┌─ customIcon @ 1280px
+┌─ customIcon
 <div>
   <span style="
     color: rgb(91, 167, 27);
@@ -143,7 +143,7 @@
   </span>
 </div>
 
-┌─ disabled @ 1280px
+┌─ disabled
 <div>
   <span style="
     display: inline-flex;

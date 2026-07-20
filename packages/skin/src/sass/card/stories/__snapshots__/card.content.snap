@@ -1,4 +1,4 @@
-┌─ maximumContent @ 1280px
+┌─ maximumContent
 <div>
   <span style="
     background-color: var(--color-background-secondary);
@@ -141,7 +141,7 @@
   </span>
 </div>
 
-┌─ minimumContent @ 1280px
+┌─ minimumContent
 <div>
   <span style="
     background-color: var(--color-background-secondary);
@@ -250,7 +250,7 @@
   </span>
 </div>
 
-┌─ usingAnchor @ 1280px
+┌─ usingAnchor
 <div>
   <span style="
     background-color: var(--color-background-secondary);
@@ -362,7 +362,7 @@
   </span>
 </div>
 
-┌─ usingButton @ 1280px
+┌─ usingButton
 <div>
   <span style="
     background-color: var(--color-background-secondary);

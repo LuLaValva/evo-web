@@ -1,4 +1,4 @@
-┌─ checkboxExpanded @ 1280px
+┌─ checkboxExpanded
 <div>
   <span style="position: relative">
     <button style="
@@ -277,7 +277,7 @@
   </span>
 </div>
 
-┌─ checkboxExpandedSelected @ 1280px
+┌─ checkboxExpandedSelected
 <div>
   <span style="position: relative">
     <button style="
@@ -558,7 +558,7 @@
   </span>
 </div>
 
-┌─ collapsed @ 1280px
+┌─ collapsed
 <div>
   <span style="position: relative">
     <button style="
@@ -625,7 +625,7 @@
   </span>
 </div>
 
-┌─ expandedWithFooter @ 1280px
+┌─ expandedWithFooter
 <div>
   <span style="position: relative">
     <button style="
@@ -963,7 +963,7 @@
   </span>
 </div>
 
-┌─ radioExpanded @ 1280px
+┌─ radioExpanded
 <div>
   <span style="position: relative">
     <button style="
@@ -1242,7 +1242,7 @@
   </span>
 </div>
 
-┌─ radioExpandedSelected @ 1280px
+┌─ radioExpandedSelected
 <div>
   <span style="position: relative">
     <button style="

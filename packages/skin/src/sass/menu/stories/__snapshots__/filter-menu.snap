@@ -1,4 +1,4 @@
-┌─ selectedCheckbox @ 1280px
+┌─ selectedCheckbox
 <div>
   <span style="
     display: inline-block;
@@ -200,7 +200,7 @@
   </span>
 </div>
 
-┌─ selectedRadio @ 1280px
+┌─ selectedRadio
 <div>
   <span style="
     display: inline-block;
@@ -402,7 +402,7 @@
   </span>
 </div>
 
-┌─ unselectedCheckbox @ 1280px
+┌─ unselectedCheckbox
 <div>
   <span style="
     display: inline-block;
@@ -604,7 +604,7 @@
   </span>
 </div>
 
-┌─ unselectedRadio @ 1280px
+┌─ unselectedRadio
 <div>
   <span style="
     display: inline-block;
@@ -806,7 +806,7 @@
   </span>
 </div>
 
-┌─ withFooter @ 1280px
+┌─ withFooter
 <div>
   <span style="
     display: inline-block;

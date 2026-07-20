@@ -1,4 +1,4 @@
-┌─ textSpacing @ 1280px
+┌─ textSpacing
 <div>
   <button style="
     background-color: var(--color-background-primary);
@@ -40,7 +40,7 @@
   </button>
 </div>
 
-┌─ toggledOff @ 1280px
+┌─ toggledOff
 <div>
   <button style="
     background-color: var(--color-background-primary);
@@ -82,7 +82,7 @@
   </button>
 </div>
 
-┌─ toggledOffAriaDisabled @ 1280px
+┌─ toggledOffAriaDisabled
 <div>
   <button style="
     background-color: var(--color-background-primary);
@@ -124,7 +124,7 @@
   </button>
 </div>
 
-┌─ toggledOffDisabled @ 1280px
+┌─ toggledOffDisabled
 <div>
   <button
     disabled
@@ -169,7 +169,7 @@
   </button>
 </div>
 
-┌─ toggledOn @ 1280px
+┌─ toggledOn
 <div>
   <button style="
     background-color: var(--color-background-secondary);
@@ -212,7 +212,7 @@
   </button>
 </div>
 
-┌─ toggledOnAriaDisabled @ 1280px
+┌─ toggledOnAriaDisabled
 <div>
   <button style="
     background-color: var(--color-background-secondary);
@@ -255,7 +255,7 @@
   </button>
 </div>
 
-┌─ toggledOnDisabled @ 1280px
+┌─ toggledOnDisabled
 <div>
   <button
     disabled

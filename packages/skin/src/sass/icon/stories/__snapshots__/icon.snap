@@ -1,4 +1,4 @@
-┌─ RTLInsideHeading @ 1280px
+┌─ RTLInsideHeading
 <div>
   <div dir="rtl">
     <h2>
@@ -21,7 +21,7 @@
   </div>
 </div>
 
-┌─ beforeLink @ 1280px
+┌─ beforeLink
 <div>
   <svg style="
     display: inline-block;
@@ -42,7 +42,7 @@
   </a>
 </div>
 
-┌─ insideHeading @ 1280px
+┌─ insideHeading
 <div>
   <h2>
     <svg style="
@@ -63,7 +63,7 @@
   </h2>
 </div>
 
-┌─ insideLink @ 1280px
+┌─ insideLink
 <div>
   <a style="color: var(--color-foreground-link-primary)">
     <svg style="
@@ -84,7 +84,7 @@
   </a>
 </div>
 
-┌─ insideParagraph @ 1280px
+┌─ insideParagraph
 <div>
   <p>
     <svg style="

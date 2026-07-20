@@ -1,4 +1,4 @@
-┌─ base @ 1280px
+┌─ base
 <div>
   <span>
     <span style="
@@ -187,7 +187,7 @@
   </span>
 </div>
 
-┌─ fluid @ 1280px
+┌─ fluid
 <div>
   <span>
     <span style="
@@ -376,7 +376,7 @@
   </span>
 </div>
 
-┌─ large @ 1280px
+┌─ large
 <div>
   <span>
     <span style="
@@ -565,7 +565,7 @@
   </span>
 </div>
 
-┌─ withDeleteHidden @ 1280px
+┌─ withDeleteHidden
 <div>
   <span>
     <span style="
@@ -754,7 +754,7 @@
   </span>
 </div>
 
-┌─ withDeleteShown @ 1280px
+┌─ withDeleteShown
 <div>
   <span>
     <span style="

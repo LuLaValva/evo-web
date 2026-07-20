@@ -1,4 +1,4 @@
-┌─ largerFontSize @ 1280px
+┌─ largerFontSize
 <div>
   <div style="font-size: 200%">
     <div style="
@@ -72,7 +72,7 @@
   </div>
 </div>
 
-┌─ rtl @ 1280px
+┌─ rtl
 <div>
   <div dir="rtl">
     <div style="
@@ -146,7 +146,7 @@
   </div>
 </div>
 
-┌─ withChargerAndLargeText @ 1280px
+┌─ withChargerAndLargeText
 <div>
   <div style="
     column-gap: 8px;
@@ -218,7 +218,7 @@
   </div>
 </div>
 
-┌─ withChargerAndNoUsb @ 1280px
+┌─ withChargerAndNoUsb
 <div>
   <div style="
     column-gap: 8px;
@@ -287,7 +287,7 @@
   </div>
 </div>
 
-┌─ withChargerAndUsb @ 1280px
+┌─ withChargerAndUsb
 <div>
   <div style="
     column-gap: 8px;
@@ -359,7 +359,7 @@
   </div>
 </div>
 
-┌─ withoutChargerAndNoUsb @ 1280px
+┌─ withoutChargerAndNoUsb
 <div>
   <div style="
     column-gap: 8px;
@@ -428,7 +428,7 @@
   </div>
 </div>
 
-┌─ withoutChargerAndUsb @ 1280px
+┌─ withoutChargerAndUsb
 <div>
   <div style="
     column-gap: 8px;

@@ -1,4 +1,4 @@
-┌─ RTLAlignment @ 1280px
+┌─ RTLAlignment
 <div>
   <div dir="rtl">
     <span style="
@@ -349,7 +349,7 @@
   </div>
 </div>
 
-┌─ RTLHeadings @ 1280px
+┌─ RTLHeadings
 <div>
   <div dir="rtl">
     <h1>
@@ -378,7 +378,7 @@
   </div>
 </div>
 
-┌─ alignment @ 1280px
+┌─ alignment
 <div>
   <span style="
     align-items: center;
@@ -754,7 +754,7 @@
   </span>
 </div>
 
-┌─ alignmentLarge @ 1280px
+┌─ alignmentLarge
 <div>
   <span style="
     align-items: center;
@@ -1132,7 +1132,7 @@
   </span>
 </div>
 
-┌─ headings @ 1280px
+┌─ headings
 <div>
   <h1>
     This is a level 1 heading
@@ -1159,7 +1159,7 @@
   </h6>
 </div>
 
-┌─ headingsTextSpacing @ 1280px
+┌─ headingsTextSpacing
 <div>
   <div>
     <h1>

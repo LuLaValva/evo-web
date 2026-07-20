@@ -1,4 +1,4 @@
-┌─ neutral @ 1280px
+┌─ neutral
 <div>
   <span style="
     border-bottom-color: currentcolor;
@@ -31,7 +31,7 @@
   </span>
 </div>
 
-┌─ recent @ 1280px
+┌─ recent
 <div>
   <span style="
     border-bottom-color: currentcolor;
@@ -64,7 +64,7 @@
   </span>
 </div>
 
-┌─ textSpacing @ 1280px
+┌─ textSpacing
 <div>
   <span style="
     border-bottom-color: currentcolor;
@@ -97,7 +97,7 @@
   </span>
 </div>
 
-┌─ timeSensitive @ 1280px
+┌─ timeSensitive
 <div>
   <span style="
     border-bottom-color: currentcolor;
@@ -130,7 +130,7 @@
   </span>
 </div>
 
-┌─ trustWorthy @ 1280px
+┌─ trustWorthy
 <div>
   <span style="
     border-bottom-color: currentcolor;

@@ -1,4 +1,4 @@
-┌─ RTL @ 1280px
+┌─ RTL
 <div>
   <span
     dir="rtl"
@@ -211,7 +211,7 @@
   </span>
 </div>
 
-┌─ color @ 1280px
+┌─ color
 <div>
   <span style="
     display: inline-block;
@@ -422,7 +422,7 @@
   </span>
 </div>
 
-┌─ fontSize @ 1280px
+┌─ fontSize
 <div>
   <span style="
     display: inline-block;

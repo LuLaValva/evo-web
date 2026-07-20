@@ -1,4 +1,4 @@
-┌─ largeButtonWithCSSImageContainBackground @ 1280px
+┌─ largeButtonWithCSSImageContainBackground
 <div>
   <button style="
     background-color: var(--color-background-primary);
@@ -74,7 +74,7 @@
   </button>
 </div>
 
-┌─ largeButtonWithCSSImageCoverBackground @ 1280px
+┌─ largeButtonWithCSSImageCoverBackground
 <div>
   <button style="
     background-color: var(--color-background-primary);
@@ -150,7 +150,7 @@
   </button>
 </div>
 
-┌─ largeButtonWithImage @ 1280px
+┌─ largeButtonWithImage
 <div>
   <button style="
     background-color: var(--color-background-primary);
@@ -230,7 +230,7 @@
   </button>
 </div>
 
-┌─ mediumButtonWithCSSImageContainBackground @ 1280px
+┌─ mediumButtonWithCSSImageContainBackground
 <div>
   <button style="
     background-color: var(--color-background-primary);
@@ -306,7 +306,7 @@
   </button>
 </div>
 
-┌─ mediumButtonWithCSSImageCoverBackground @ 1280px
+┌─ mediumButtonWithCSSImageCoverBackground
 <div>
   <button style="
     background-color: var(--color-background-primary);
@@ -382,7 +382,7 @@
   </button>
 </div>
 
-┌─ mediumButtonWithImage @ 1280px
+┌─ mediumButtonWithImage
 <div>
   <button style="
     background-color: var(--color-background-primary);
@@ -462,7 +462,7 @@
   </button>
 </div>
 
-┌─ smallButtonWithCSSImageContainBackground @ 1280px
+┌─ smallButtonWithCSSImageContainBackground
 <div>
   <button style="
     background-color: var(--color-background-primary);
@@ -537,7 +537,7 @@
   </button>
 </div>
 
-┌─ smallButtonWithCSSImageCoverBackground @ 1280px
+┌─ smallButtonWithCSSImageCoverBackground
 <div>
   <button style="
     background-color: var(--color-background-primary);
@@ -612,7 +612,7 @@
   </button>
 </div>
 
-┌─ smallButtonWithImage @ 1280px
+┌─ smallButtonWithImage
 <div>
   <button style="
     background-color: var(--color-background-primary);
