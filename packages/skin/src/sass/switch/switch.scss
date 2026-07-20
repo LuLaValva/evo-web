@@ -18,7 +18,7 @@ span.switch {
 
 span.switch__button {
     align-self: center;
-    border-radius: 400px;
+    border-radius: 8px;
     border-style: solid;
     border-width: 1px;
     color: transparent;
@@ -27,7 +27,7 @@ span.switch__button {
     position: relative;
     text-indent: 100%;
     transition: left 0.15s ease-out 0s;
-    width: 40px;
+    width: 48px;
     @include token-mixins.background-color-token(
         switch-unchecked-background-color,
         color-background-secondary
