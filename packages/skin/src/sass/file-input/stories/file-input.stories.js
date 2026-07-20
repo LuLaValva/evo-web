@@ -1,4 +1,9 @@
-export default { title: "Skin/File Input" };
+export default {
+    title: "Skin/File Input",
+    parameters: {
+        visual: { widths: [320, 768] },
+    },
+};
 
 export const base = () => `
     <div class="file-input">

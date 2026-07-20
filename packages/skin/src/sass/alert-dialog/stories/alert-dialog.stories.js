@@ -1,4 +1,9 @@
-export default { title: "Skin/Alert Dialog" };
+export default {
+    title: "Skin/Alert Dialog",
+    parameters: {
+        visual: { widths: [320, 768, 1024] },
+    },
+};
 
 export const base = () => `
 <div aria-labelledby="alert-dialog-title" aria-modal="true" class="alert-dialog alert-dialog--mask-fade" role="alertdialog">

@@ -1,4 +1,9 @@
-export default { title: "Skin/Page Notice" };
+export default {
+    title: "Skin/Page Notice",
+    parameters: {
+        visual: { widths: [320, 512], rtl: true },
+    },
+};
 
 export const general = () => `
 <section class="page-notice page-notice--general" role="region" aria-label="Information">

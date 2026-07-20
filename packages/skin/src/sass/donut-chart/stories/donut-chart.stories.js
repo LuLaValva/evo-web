@@ -1,4 +1,9 @@
-export default { title: "Skin/Charts/Donut Chart" };
+export default {
+    title: "Skin/Charts/Donut Chart",
+    parameters: {
+        visual: { widths: [320, 1024] },
+    },
+};
 
 export const base = () => `
 <div class="donut-chart">

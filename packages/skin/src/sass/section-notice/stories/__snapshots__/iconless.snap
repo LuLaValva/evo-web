@@ -1,0 +1,1271 @@
+┌─ RTL @ 320px
+<div>
+  <div dir="rtl">
+    <div style="
+      background-color: var(--section-notice-default-background-color, var(--color-background-secondary));
+      display: grid;
+      font-size: var(--font-size-body);
+      grid-template-columns: 32px auto auto min-content;
+      margin-bottom: 8px;
+      margin-top: 8px;
+      padding-bottom: 16px;
+      padding-left: 16px;
+      padding-right: 16px;
+      padding-top: 16px
+    ">
+      <div style="
+        grid-column-end: 3;
+        grid-column-start: 1;
+        grid-row-start: 1;
+        margin-inline-end: var(--spacing-200)
+      ">
+        <h3 style="
+          font-size: var(--font-size-body);
+          margin-bottom: 0px;
+          margin-top: 0px
+        ">
+          Notification Title
+        </h3>
+        <p style="
+          font-size: var(--font-size-body);
+          margin-bottom: 0px;
+          margin-top: 0px;
+          margin: var(--spacing-50) 0 0
+        ">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <p style="
+        grid-column-end: 3;
+        grid-column-start: 1;
+        grid-row-start: 2;
+        justify-self: flex-start;
+        margin-bottom: 0px;
+        margin-top: var(--spacing-200)
+      ">
+        <a style="
+          color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+          font-size: var(--font-size-body);
+          text-wrap-mode: nowrap
+        ">
+          Action
+        </a>
+      </p>
+      <div style="
+        grid-column-start: 4;
+        grid-row-start: 1;
+        justify-self: flex-start;
+        margin-right: auto;
+        margin-top: 2px
+      ">
+        <button style="
+          border-bottom-color: currentcolor;
+          border-bottom-style: none;
+          border-bottom-width: 0px;
+          border-left-color: currentcolor;
+          border-left-style: none;
+          border-left-width: 0px;
+          border-right-color: currentcolor;
+          border-right-style: none;
+          border-right-width: 0px;
+          border-top-color: currentcolor;
+          border-top-style: none;
+          border-top-width: 0px;
+          color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+          font-family: inherit;
+          font-size: var(--font-size-body);
+          font-weight: 700;
+          padding-bottom: 0px;
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-top: 0px;
+          text-decoration-line: underline
+        ">
+          <svg
+            height="16"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              height: 16px;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: top;
+              width: 16px
+            "
+            width="16"
+          >
+            <use href="#icon-close-16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ RTL @ 512px
+(same as 1280px)
+
+┌─ RTL @ 1280px
+<div>
+  <div dir="rtl">
+    <div style="
+      background-color: var(--section-notice-default-background-color, var(--color-background-secondary));
+      display: grid;
+      font-size: var(--font-size-body);
+      grid-template-columns: 32px auto auto min-content;
+      margin-bottom: 8px;
+      margin-top: 8px;
+      margin: var(--spacing-200) 0;
+      padding-bottom: 16px;
+      padding-left: 16px;
+      padding-right: 16px;
+      padding-top: 16px
+    ">
+      <div style="
+        grid-column-end: 3;
+        grid-column-start: 1;
+        grid-row-start: 1;
+        margin-inline-end: var(--spacing-200)
+      ">
+        <h3 style="
+          font-size: var(--font-size-body);
+          margin-bottom: 0px;
+          margin-top: 0px
+        ">
+          Notification Title
+        </h3>
+        <p style="
+          font-size: var(--font-size-body);
+          margin-bottom: 0px;
+          margin-top: 0px;
+          margin: var(--spacing-50) 0 0
+        ">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <p style="
+        grid-column-start: 4;
+        grid-row-start: 1;
+        justify-self: flex-end;
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        <a style="
+          color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+          font-size: var(--font-size-body);
+          text-wrap-mode: nowrap
+        ">
+          Action
+        </a>
+      </p>
+      <div style="
+        grid-column-start: 4;
+        grid-row-start: 1;
+        justify-self: flex-start;
+        margin-right: auto;
+        margin-top: 2px;
+        padding-inline-start: var(--spacing-200)
+      ">
+        <button style="
+          border-bottom-color: currentcolor;
+          border-bottom-style: none;
+          border-bottom-width: 0px;
+          border-left-color: currentcolor;
+          border-left-style: none;
+          border-left-width: 0px;
+          border-right-color: currentcolor;
+          border-right-style: none;
+          border-right-width: 0px;
+          border-top-color: currentcolor;
+          border-top-style: none;
+          border-top-width: 0px;
+          color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+          font-family: inherit;
+          font-size: var(--font-size-body);
+          font-weight: 700;
+          padding-bottom: 0px;
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-top: 0px;
+          text-decoration-line: underline
+        ">
+          <svg
+            height="16"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              height: 16px;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: top;
+              width: 16px
+            "
+            width="16"
+          >
+            <use href="#icon-close-16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ RTL @ 1280px rtl
+(same as 1280px)
+
+┌─ body @ 320px
+<div>
+  <div style="
+    background-color: var(--section-notice-default-background-color, var(--color-background-secondary));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px
+  ">
+    <div style="
+      grid-column-end: 3;
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+  </div>
+</div>
+
+┌─ body @ 512px
+(same as 1280px)
+
+┌─ body @ 1280px
+<div>
+  <div style="
+    background-color: var(--section-notice-default-background-color, var(--color-background-secondary));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    margin: var(--spacing-200) 0;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px
+  ">
+    <div style="
+      grid-column-end: 3;
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+  </div>
+</div>
+
+┌─ body @ 1280px rtl
+(same as 1280px)
+
+┌─ dismiss @ 320px
+<div>
+  <div style="
+    background-color: var(--section-notice-default-background-color, var(--color-background-secondary));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px
+  ">
+    <div style="
+      grid-column-end: 3;
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h3 style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Notification Title
+      </h3>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin: var(--spacing-50) 0 0
+      ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+    <div style="
+      grid-column-start: 3;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      margin-top: 2px
+    ">
+      <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        <svg
+          height="16"
+          style="
+            display: inline-block;
+            fill: currentcolor;
+            height: 16px;
+            pointer-events: none;
+            stroke-width: 0;
+            stroke: currentcolor;
+            vertical-align: top;
+            width: 16px
+          "
+          width="16"
+        >
+          <use href="#icon-close-16"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+┌─ dismiss @ 512px
+(same as 1280px)
+
+┌─ dismiss @ 1280px
+<div>
+  <div style="
+    background-color: var(--section-notice-default-background-color, var(--color-background-secondary));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    margin: var(--spacing-200) 0;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px
+  ">
+    <div style="
+      grid-column-end: 3;
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h3 style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Notification Title
+      </h3>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin: var(--spacing-50) 0 0
+      ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+    <div style="
+      grid-column-start: 3;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      margin-top: 2px;
+      padding-inline-start: var(--spacing-200)
+    ">
+      <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        <svg
+          height="16"
+          style="
+            display: inline-block;
+            fill: currentcolor;
+            height: 16px;
+            pointer-events: none;
+            stroke-width: 0;
+            stroke: currentcolor;
+            vertical-align: top;
+            width: 16px
+          "
+          width="16"
+        >
+          <use href="#icon-close-16"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+┌─ dismiss @ 1280px rtl
+(same as 1280px)
+
+┌─ dismissAndFakeLinkCTA @ 320px
+<div>
+  <div style="
+    background-color: var(--section-notice-default-background-color, var(--color-background-secondary));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto min-content;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px
+  ">
+    <div style="
+      grid-column-end: 3;
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h3 style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Notification Title
+      </h3>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin: var(--spacing-50) 0 0
+      ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+    <p style="
+      grid-column-end: 3;
+      grid-column-start: 1;
+      grid-row-start: 2;
+      justify-self: flex-start;
+      margin-bottom: 0px;
+      margin-top: var(--spacing-200)
+    ">
+      <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        Action
+      </button>
+    </p>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      margin-top: 2px
+    ">
+      <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        <svg
+          height="16"
+          style="
+            display: inline-block;
+            fill: currentcolor;
+            height: 16px;
+            pointer-events: none;
+            stroke-width: 0;
+            stroke: currentcolor;
+            vertical-align: top;
+            width: 16px
+          "
+          width="16"
+        >
+          <use href="#icon-close-16"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+┌─ dismissAndFakeLinkCTA @ 512px
+(same as 1280px)
+
+┌─ dismissAndFakeLinkCTA @ 1280px
+<div>
+  <div style="
+    background-color: var(--section-notice-default-background-color, var(--color-background-secondary));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto min-content;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    margin: var(--spacing-200) 0;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px
+  ">
+    <div style="
+      grid-column-end: 3;
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h3 style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Notification Title
+      </h3>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin: var(--spacing-50) 0 0
+      ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+    <p style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      margin-bottom: 0px;
+      margin-top: 0px
+    ">
+      <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        Action
+      </button>
+    </p>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      margin-top: 2px;
+      padding-inline-start: var(--spacing-200)
+    ">
+      <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        <svg
+          height="16"
+          style="
+            display: inline-block;
+            fill: currentcolor;
+            height: 16px;
+            pointer-events: none;
+            stroke-width: 0;
+            stroke: currentcolor;
+            vertical-align: top;
+            width: 16px
+          "
+          width="16"
+        >
+          <use href="#icon-close-16"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+┌─ dismissAndFakeLinkCTA @ 1280px rtl
+(same as 1280px)
+
+┌─ dismissAndLinkCTA @ 320px
+<div>
+  <div style="
+    background-color: var(--section-notice-default-background-color, var(--color-background-secondary));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto min-content;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px
+  ">
+    <div style="
+      grid-column-end: 3;
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h3 style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Notification Title
+      </h3>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin: var(--spacing-50) 0 0
+      ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+    <p style="
+      grid-column-end: 3;
+      grid-column-start: 1;
+      grid-row-start: 2;
+      justify-self: flex-start;
+      margin-bottom: 0px;
+      margin-top: var(--spacing-200)
+    ">
+      <a style="
+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+        font-size: var(--font-size-body);
+        text-wrap-mode: nowrap
+      ">
+        Action
+      </a>
+    </p>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      margin-top: 2px
+    ">
+      <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        <svg
+          height="16"
+          style="
+            display: inline-block;
+            fill: currentcolor;
+            height: 16px;
+            pointer-events: none;
+            stroke-width: 0;
+            stroke: currentcolor;
+            vertical-align: top;
+            width: 16px
+          "
+          width="16"
+        >
+          <use href="#icon-close-16"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+┌─ dismissAndLinkCTA @ 512px
+(same as 1280px)
+
+┌─ dismissAndLinkCTA @ 1280px
+<div>
+  <div style="
+    background-color: var(--section-notice-default-background-color, var(--color-background-secondary));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto min-content;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    margin: var(--spacing-200) 0;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px
+  ">
+    <div style="
+      grid-column-end: 3;
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h3 style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Notification Title
+      </h3>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin: var(--spacing-50) 0 0
+      ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+    <p style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      margin-bottom: 0px;
+      margin-top: 0px
+    ">
+      <a style="
+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+        font-size: var(--font-size-body);
+        text-wrap-mode: nowrap
+      ">
+        Action
+      </a>
+    </p>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      margin-top: 2px;
+      padding-inline-start: var(--spacing-200)
+    ">
+      <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        <svg
+          height="16"
+          style="
+            display: inline-block;
+            fill: currentcolor;
+            height: 16px;
+            pointer-events: none;
+            stroke-width: 0;
+            stroke: currentcolor;
+            vertical-align: top;
+            width: 16px
+          "
+          width="16"
+        >
+          <use href="#icon-close-16"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+┌─ dismissAndLinkCTA @ 1280px rtl
+(same as 1280px)
+
+┌─ fakeLinkCTA @ 320px
+<div>
+  <div style="
+    background-color: var(--section-notice-default-background-color, var(--color-background-secondary));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px
+  ">
+    <div style="
+      grid-column-end: 3;
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h3 style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Notification Title
+      </h3>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin: var(--spacing-50) 0 0
+      ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+    <div style="
+      grid-column-start: 3;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      margin-top: 2px
+    ">
+      <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        Action
+      </button>
+    </div>
+  </div>
+</div>
+
+┌─ fakeLinkCTA @ 512px
+(same as 1280px)
+
+┌─ fakeLinkCTA @ 1280px
+<div>
+  <div style="
+    background-color: var(--section-notice-default-background-color, var(--color-background-secondary));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    margin: var(--spacing-200) 0;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px
+  ">
+    <div style="
+      grid-column-end: 3;
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h3 style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Notification Title
+      </h3>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin: var(--spacing-50) 0 0
+      ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+    <div style="
+      grid-column-start: 3;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      margin-top: 2px;
+      padding-inline-start: var(--spacing-200)
+    ">
+      <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        Action
+      </button>
+    </div>
+  </div>
+</div>
+
+┌─ fakeLinkCTA @ 1280px rtl
+(same as 1280px)
+
+┌─ linkCTA @ 320px
+<div>
+  <div style="
+    background-color: var(--section-notice-default-background-color, var(--color-background-secondary));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px
+  ">
+    <div style="
+      grid-column-end: 3;
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h3 style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Notification Title
+      </h3>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin: var(--spacing-50) 0 0
+      ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+    <div style="
+      grid-column-start: 3;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      margin-top: 2px
+    ">
+      <a style="
+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+        font-size: var(--font-size-body);
+        font-weight: 700
+      ">
+        Action
+      </a>
+    </div>
+  </div>
+</div>
+
+┌─ linkCTA @ 512px
+(same as 1280px)
+
+┌─ linkCTA @ 1280px
+<div>
+  <div style="
+    background-color: var(--section-notice-default-background-color, var(--color-background-secondary));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    margin: var(--spacing-200) 0;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px
+  ">
+    <div style="
+      grid-column-end: 3;
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h3 style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Notification Title
+      </h3>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin: var(--spacing-50) 0 0
+      ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+    <div style="
+      grid-column-start: 3;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      margin-top: 2px;
+      padding-inline-start: var(--spacing-200)
+    ">
+      <a style="
+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+        font-size: var(--font-size-body);
+        font-weight: 700
+      ">
+        Action
+      </a>
+    </div>
+  </div>
+</div>
+
+┌─ linkCTA @ 1280px rtl
+(same as 1280px)
+
+┌─ title @ 320px
+<div>
+  <div style="
+    background-color: var(--section-notice-default-background-color, var(--color-background-secondary));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px
+  ">
+    <div style="
+      grid-column-end: 3;
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h3 style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Notification Title
+      </h3>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin: var(--spacing-50) 0 0
+      ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+  </div>
+</div>
+
+┌─ title @ 512px
+(same as 1280px)
+
+┌─ title @ 1280px
+<div>
+  <div style="
+    background-color: var(--section-notice-default-background-color, var(--color-background-secondary));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    margin: var(--spacing-200) 0;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px
+  ">
+    <div style="
+      grid-column-end: 3;
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h3 style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Notification Title
+      </h3>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin: var(--spacing-50) 0 0
+      ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+  </div>
+</div>
+
+┌─ title @ 1280px rtl
+(same as 1280px)
+

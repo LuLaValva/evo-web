@@ -1,4 +1,9 @@
-export default { title: "Skin/Pagination/Buttons" };
+export default {
+    title: "Skin/Pagination/Buttons",
+    parameters: {
+        visual: { widths: [320, 768], rtl: true },
+    },
+};
 
 export const base = () => `
 <nav class="pagination" aria-labelledby="pagination-heading" role="navigation">

@@ -1,4 +1,9 @@
-export default { title: "Skin/Toggle Button Group/Minimal Layout" };
+export default {
+    title: "Skin/Toggle Button Group/Minimal Layout",
+    parameters: {
+        visual: { widths: [320, 512, 768] },
+    },
+};
 
 export const minContainer = () => `
 <div style="width: 240px; border: 1px dashed orange;">

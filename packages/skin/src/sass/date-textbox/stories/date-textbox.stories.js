@@ -1,4 +1,9 @@
-export default { title: "Skin/Date Textbox" };
+export default {
+    title: "Skin/Date Textbox",
+    parameters: {
+        visual: { widths: [320, 512] },
+    },
+};
 
 export const base = () => `
 <span class="date-textbox">

@@ -1,0 +1,2816 @@
+┌─ InformationWithParagraph @ 320px
+<div>
+  <section style="
+    background-color: var(--page-notice-information-background-color, var(--color-background-accent));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-100) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="16"
+        role="img"
+        style="
+          color: var(--page-notice-information-icon-color, var(--color-foreground-on-success));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="16"
+      >
+        <use href="#icon-information-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 2px
+      ">
+        You have opted into eBay Pay
+      </p>
+    </div>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      text-align: right
+    ">
+      <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        Dismiss
+      </button>
+    </div>
+  </section>
+</div>
+
+┌─ InformationWithParagraph @ 512px
+(same as 1280px)
+
+┌─ InformationWithParagraph @ 1280px
+<div>
+  <section style="
+    background-color: var(--page-notice-information-background-color, var(--color-background-accent));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-200) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="16"
+        role="img"
+        style="
+          color: var(--page-notice-information-icon-color, var(--color-foreground-on-success));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="16"
+      >
+        <use href="#icon-information-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 2px
+      ">
+        You have opted into eBay Pay
+      </p>
+    </div>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      text-align: right
+    ">
+      <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        Dismiss
+      </button>
+    </div>
+  </section>
+</div>
+
+┌─ InformationWithParagraph @ 1280px rtl
+<div>
+  <section style="
+    background-color: var(--page-notice-information-background-color, var(--color-background-accent));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-200) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="16"
+        role="img"
+        style="
+          color: var(--page-notice-information-icon-color, var(--color-foreground-on-success));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="16"
+      >
+        <use href="#icon-information-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 2px
+      ">
+        You have opted into eBay Pay
+      </p>
+    </div>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      margin-right: auto;
+      padding-right: 16px;
+      text-align: right
+    ">
+      <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        Dismiss
+      </button>
+    </div>
+  </section>
+</div>
+
+┌─ attentionWithButton @ 320px
+<div>
+  <section style="
+    background-color: var(--page-notice-attention-background-color, var(--color-background-attention));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-100) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="16"
+        role="img"
+        style="
+          color: var(--page-notice-attention-icon-color, var(--color-foreground-on-attention));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="16"
+      >
+        <use href="#icon-attention-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        font-weight: 400;
+        margin-bottom: 0px;
+        margin-top: 1px
+      ">
+        Your selling account has been deactivated.
+      </h2>
+    </div>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      text-align: right
+    ">
+      <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        Dismiss
+      </button>
+    </div>
+  </section>
+</div>
+
+┌─ attentionWithButton @ 512px
+(same as 1280px)
+
+┌─ attentionWithButton @ 1280px
+<div>
+  <section style="
+    background-color: var(--page-notice-attention-background-color, var(--color-background-attention));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-200) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="16"
+        role="img"
+        style="
+          color: var(--page-notice-attention-icon-color, var(--color-foreground-on-attention));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="16"
+      >
+        <use href="#icon-attention-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        font-weight: 400;
+        margin-bottom: 2px;
+        margin-top: 1px
+      ">
+        Your selling account has been deactivated.
+      </h2>
+    </div>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      text-align: right
+    ">
+      <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        Dismiss
+      </button>
+    </div>
+  </section>
+</div>
+
+┌─ attentionWithButton @ 1280px rtl
+(same as 1280px)
+
+┌─ attentionWithLink @ 320px
+<div>
+  <section style="
+    background-color: var(--page-notice-attention-background-color, var(--color-background-attention));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-100) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="16"
+        role="img"
+        style="
+          color: var(--page-notice-attention-icon-color, var(--color-foreground-on-attention));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="16"
+      >
+        <use href="#icon-attention-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        font-weight: 400;
+        margin-bottom: 0px;
+        margin-top: 1px
+      ">
+        Your selling account has been deactivated.
+      </h2>
+    </div>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      text-align: right
+    ">
+      <a style="
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        font-size: var(--font-size-body);
+        font-weight: 700
+      ">
+        Learn More
+      </a>
+    </div>
+  </section>
+</div>
+
+┌─ attentionWithLink @ 512px
+(same as 1280px)
+
+┌─ attentionWithLink @ 1280px
+<div>
+  <section style="
+    background-color: var(--page-notice-attention-background-color, var(--color-background-attention));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-200) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="16"
+        role="img"
+        style="
+          color: var(--page-notice-attention-icon-color, var(--color-foreground-on-attention));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="16"
+      >
+        <use href="#icon-attention-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        font-weight: 400;
+        margin-bottom: 2px;
+        margin-top: 1px
+      ">
+        Your selling account has been deactivated.
+      </h2>
+    </div>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      text-align: right
+    ">
+      <a style="
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        font-size: var(--font-size-body);
+        font-weight: 700
+      ">
+        Learn More
+      </a>
+    </div>
+  </section>
+</div>
+
+┌─ attentionWithLink @ 1280px rtl
+(same as 1280px)
+
+┌─ confirmationWithButton @ 320px
+<div>
+  <section style="
+    background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-100) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="16"
+        role="img"
+        style="
+          color: var(--page-notice-confirmation-icon-color, var(--color-foreground-on-success));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="16"
+      >
+        <use href="#icon-confirmation-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        font-weight: 400;
+        margin-bottom: 0px;
+        margin-top: 1px
+      ">
+        You have opted into eBay Pay
+      </h2>
+    </div>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      text-align: right
+    ">
+      <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        Dismiss
+      </button>
+    </div>
+  </section>
+</div>
+
+┌─ confirmationWithButton @ 512px
+(same as 1280px)
+
+┌─ confirmationWithButton @ 1280px
+<div>
+  <section style="
+    background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-200) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="16"
+        role="img"
+        style="
+          color: var(--page-notice-confirmation-icon-color, var(--color-foreground-on-success));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="16"
+      >
+        <use href="#icon-confirmation-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        font-weight: 400;
+        margin-bottom: 2px;
+        margin-top: 1px
+      ">
+        You have opted into eBay Pay
+      </h2>
+    </div>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      text-align: right
+    ">
+      <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        Dismiss
+      </button>
+    </div>
+  </section>
+</div>
+
+┌─ confirmationWithButton @ 1280px rtl
+(same as 1280px)
+
+┌─ confirmationWithLink @ 320px
+<div>
+  <section style="
+    background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-100) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="16"
+        role="img"
+        style="
+          color: var(--page-notice-confirmation-icon-color, var(--color-foreground-on-success));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="16"
+      >
+        <use href="#icon-confirmation-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        font-weight: 400;
+        margin-bottom: 0px;
+        margin-top: 1px
+      ">
+        You have opted into eBay Pay
+      </h2>
+    </div>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      text-align: right
+    ">
+      <a style="
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        font-size: var(--font-size-body);
+        font-weight: 700
+      ">
+        Learn More
+      </a>
+    </div>
+  </section>
+</div>
+
+┌─ confirmationWithLink @ 512px
+(same as 1280px)
+
+┌─ confirmationWithLink @ 1280px
+<div>
+  <section style="
+    background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-200) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="16"
+        role="img"
+        style="
+          color: var(--page-notice-confirmation-icon-color, var(--color-foreground-on-success));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="16"
+      >
+        <use href="#icon-confirmation-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        font-weight: 400;
+        margin-bottom: 2px;
+        margin-top: 1px
+      ">
+        You have opted into eBay Pay
+      </h2>
+    </div>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      text-align: right
+    ">
+      <a style="
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        font-size: var(--font-size-body);
+        font-weight: 700
+      ">
+        Learn More
+      </a>
+    </div>
+  </section>
+</div>
+
+┌─ confirmationWithLink @ 1280px rtl
+(same as 1280px)
+
+┌─ dismissableWithTitle @ 320px
+<div>
+  <section style="
+    background-color: var(--page-notice-information-background-color, var(--color-background-accent));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-100) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="16"
+        role="img"
+        style="
+          color: var(--page-notice-information-icon-color, var(--color-foreground-on-success));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="16"
+      >
+        <use href="#icon-information-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h3 style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 1px
+      ">
+        Notice Title
+      </h3>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 2px;
+        margin: var(--spacing-50) 0 0
+      ">
+        Opt into eBay payments before Jan 12th to pay no selling fees.
+      </p>
+    </div>
+    <p style="
+      grid-column-start: 2;
+      grid-row-start: 2;
+      justify-self: flex-start;
+      margin-bottom: 0px;
+      margin-right: var(--spacing-200);
+      margin-top: var(--spacing-200)
+    ">
+      <a style="
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        font-size: var(--font-size-body);
+        text-wrap-mode: nowrap
+      ">
+        Opt in
+      </a>
+    </p>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      text-align: right
+    ">
+      <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        cursor: pointer;
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        <svg
+          height="14"
+          style="
+            display: inline-block;
+            fill: currentcolor;
+            height: 16px;
+            pointer-events: none;
+            stroke-width: 0;
+            stroke: currentcolor;
+            vertical-align: middle;
+            width: 16px
+          "
+          width="14"
+        >
+          <use href="#icon-close-16"/>
+        </svg>
+      </button>
+    </div>
+  </section>
+</div>
+
+┌─ dismissableWithTitle @ 512px
+(same as 1280px)
+
+┌─ dismissableWithTitle @ 1280px
+<div>
+  <section style="
+    background-color: var(--page-notice-information-background-color, var(--color-background-accent));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-200) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="16"
+        role="img"
+        style="
+          color: var(--page-notice-information-icon-color, var(--color-foreground-on-success));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="16"
+      >
+        <use href="#icon-information-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h3 style="
+        font-size: var(--font-size-body);
+        margin-bottom: 2px;
+        margin-top: 1px
+      ">
+        Notice Title
+      </h3>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 2px;
+        margin: var(--spacing-50) 0 0
+      ">
+        Opt into eBay payments before Jan 12th to pay no selling fees.
+      </p>
+    </div>
+    <p style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      margin-bottom: 0px;
+      margin-right: var(--spacing-200);
+      margin-top: 1px;
+      padding-right: var(--spacing-200)
+    ">
+      <a style="
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        font-size: var(--font-size-body);
+        text-wrap-mode: nowrap
+      ">
+        Opt in
+      </a>
+    </p>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      text-align: right
+    ">
+      <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        cursor: pointer;
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        <svg
+          height="14"
+          style="
+            display: inline-block;
+            fill: currentcolor;
+            height: 16px;
+            pointer-events: none;
+            stroke-width: 0;
+            stroke: currentcolor;
+            vertical-align: middle;
+            width: 16px
+          "
+          width="14"
+        >
+          <use href="#icon-close-16"/>
+        </svg>
+      </button>
+    </div>
+  </section>
+</div>
+
+┌─ dismissableWithTitle @ 1280px rtl
+(same as 1280px)
+
+┌─ dismissableWithoutTitle @ 320px
+<div>
+  <section style="
+    background-color: var(--page-notice-information-background-color, var(--color-background-accent));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-100) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="16"
+        role="img"
+        style="
+          color: var(--page-notice-information-icon-color, var(--color-foreground-on-success));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="16"
+      >
+        <use href="#icon-information-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h3 style="
+        font-size: var(--font-size-body);
+        font-weight: 400;
+        margin-bottom: 0px;
+        margin-top: 1px
+      ">
+        Opt into eBay payments before Jan 12th to pay no selling fees.
+      </h3>
+    </div>
+    <p style="
+      grid-column-start: 2;
+      grid-row-start: 2;
+      justify-self: flex-start;
+      margin-bottom: 0px;
+      margin-right: var(--spacing-200);
+      margin-top: var(--spacing-200)
+    ">
+      <a style="
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        font-size: var(--font-size-body);
+        text-wrap-mode: nowrap
+      ">
+        Opt in
+      </a>
+    </p>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      text-align: right
+    ">
+      <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        cursor: pointer;
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        <svg
+          height="14"
+          style="
+            display: inline-block;
+            fill: currentcolor;
+            height: 16px;
+            pointer-events: none;
+            stroke-width: 0;
+            stroke: currentcolor;
+            vertical-align: middle;
+            width: 16px
+          "
+          width="14"
+        >
+          <use href="#icon-close-16"/>
+        </svg>
+      </button>
+    </div>
+  </section>
+</div>
+
+┌─ dismissableWithoutTitle @ 512px
+(same as 1280px)
+
+┌─ dismissableWithoutTitle @ 1280px
+<div>
+  <section style="
+    background-color: var(--page-notice-information-background-color, var(--color-background-accent));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-200) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="16"
+        role="img"
+        style="
+          color: var(--page-notice-information-icon-color, var(--color-foreground-on-success));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="16"
+      >
+        <use href="#icon-information-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h3 style="
+        font-size: var(--font-size-body);
+        font-weight: 400;
+        margin-bottom: 2px;
+        margin-top: 1px
+      ">
+        Opt into eBay payments before Jan 12th to pay no selling fees.
+      </h3>
+    </div>
+    <p style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      margin-bottom: 0px;
+      margin-right: var(--spacing-200);
+      margin-top: 1px;
+      padding-right: var(--spacing-200)
+    ">
+      <a style="
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        font-size: var(--font-size-body);
+        text-wrap-mode: nowrap
+      ">
+        Opt in
+      </a>
+    </p>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      text-align: right
+    ">
+      <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        cursor: pointer;
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        <svg
+          height="14"
+          style="
+            display: inline-block;
+            fill: currentcolor;
+            height: 16px;
+            pointer-events: none;
+            stroke-width: 0;
+            stroke: currentcolor;
+            vertical-align: middle;
+            width: 16px
+          "
+          width="14"
+        >
+          <use href="#icon-close-16"/>
+        </svg>
+      </button>
+    </div>
+  </section>
+</div>
+
+┌─ dismissableWithoutTitle @ 1280px rtl
+(same as 1280px)
+
+┌─ fakeLinkCTA @ 320px
+<div>
+  <section style="
+    background-color: var(--page-notice-information-background-color, var(--color-background-accent));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-100) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="16"
+        role="img"
+        style="
+          color: var(--page-notice-information-icon-color, var(--color-foreground-on-success));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="16"
+      >
+        <use href="#icon-information-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h3 style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 1px
+      ">
+        Notice Title
+      </h3>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 2px;
+        margin: var(--spacing-50) 0 0
+      ">
+        Opt into eBay payments before Jan 12th to pay no selling fees.
+      </p>
+    </div>
+    <p style="
+      grid-column-start: 2;
+      grid-row-start: 2;
+      justify-self: flex-start;
+      margin-bottom: 0px;
+      margin-right: var(--spacing-200);
+      margin-top: var(--spacing-200)
+    ">
+      <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        Opt in
+      </button>
+    </p>
+  </section>
+</div>
+
+┌─ fakeLinkCTA @ 512px
+(same as 1280px)
+
+┌─ fakeLinkCTA @ 1280px
+<div>
+  <section style="
+    background-color: var(--page-notice-information-background-color, var(--color-background-accent));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-200) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="16"
+        role="img"
+        style="
+          color: var(--page-notice-information-icon-color, var(--color-foreground-on-success));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="16"
+      >
+        <use href="#icon-information-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h3 style="
+        font-size: var(--font-size-body);
+        margin-bottom: 2px;
+        margin-top: 1px
+      ">
+        Notice Title
+      </h3>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 2px;
+        margin: var(--spacing-50) 0 0
+      ">
+        Opt into eBay payments before Jan 12th to pay no selling fees.
+      </p>
+    </div>
+    <p style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      margin-bottom: 0px;
+      margin-right: var(--spacing-200);
+      margin-top: 1px;
+      padding-right: var(--spacing-200)
+    ">
+      <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        Opt in
+      </button>
+    </p>
+  </section>
+</div>
+
+┌─ fakeLinkCTA @ 1280px rtl
+(same as 1280px)
+
+┌─ formErrors @ 320px
+<div>
+  <section style="
+    background-color: var(--page-notice-attention-background-color, var(--color-background-attention));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-100) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="16"
+        role="img"
+        style="
+          color: var(--page-notice-attention-icon-color, var(--color-foreground-on-attention));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="16"
+      >
+        <use href="#icon-attention-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 1px
+      ">
+        We found problems with your form.
+      </h2>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 2px;
+        margin: var(--spacing-50) 0 0
+      ">
+        <a style="
+          color: var(--page-notice-color, var(--color-foreground-on-inverse));
+          font-size: var(--font-size-body);
+          font-weight: 700
+        ">
+          Error 1
+        </a>
+        ,
+        <a style="
+          color: var(--page-notice-color, var(--color-foreground-on-inverse));
+          font-size: var(--font-size-body);
+          font-weight: 700
+        ">
+          Error 2
+        </a>
+        ,
+        <a style="
+          color: var(--page-notice-color, var(--color-foreground-on-inverse));
+          font-size: var(--font-size-body);
+          font-weight: 700
+        ">
+          Error 3
+        </a>
+        .
+      </p>
+    </div>
+  </section>
+</div>
+
+┌─ formErrors @ 512px
+(same as 1280px)
+
+┌─ formErrors @ 1280px
+<div>
+  <section style="
+    background-color: var(--page-notice-attention-background-color, var(--color-background-attention));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-200) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="16"
+        role="img"
+        style="
+          color: var(--page-notice-attention-icon-color, var(--color-foreground-on-attention));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="16"
+      >
+        <use href="#icon-attention-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        margin-bottom: 2px;
+        margin-top: 1px
+      ">
+        We found problems with your form.
+      </h2>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 2px;
+        margin: var(--spacing-50) 0 0
+      ">
+        <a style="
+          color: var(--page-notice-color, var(--color-foreground-on-inverse));
+          font-size: var(--font-size-body);
+          font-weight: 700
+        ">
+          Error 1
+        </a>
+        ,
+        <a style="
+          color: var(--page-notice-color, var(--color-foreground-on-inverse));
+          font-size: var(--font-size-body);
+          font-weight: 700
+        ">
+          Error 2
+        </a>
+        ,
+        <a style="
+          color: var(--page-notice-color, var(--color-foreground-on-inverse));
+          font-size: var(--font-size-body);
+          font-weight: 700
+        ">
+          Error 3
+        </a>
+        .
+      </p>
+    </div>
+  </section>
+</div>
+
+┌─ formErrors @ 1280px rtl
+(same as 1280px)
+
+┌─ general @ 320px
+<div>
+  <section style="
+    background-color: var(--page-notice-general-background-color, var(--color-background-inverse));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-100) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-end: 3;
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        font-weight: 400;
+        margin-bottom: 0px;
+        margin-top: 1px
+      ">
+        We've updated the look and feel of this page. Customize anytime in settings.
+      </h2>
+    </div>
+  </section>
+</div>
+
+┌─ general @ 512px
+(same as 1280px)
+
+┌─ general @ 1280px
+<div>
+  <section style="
+    background-color: var(--page-notice-general-background-color, var(--color-background-inverse));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-200) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-end: 3;
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        font-weight: 400;
+        margin-bottom: 2px;
+        margin-top: 1px
+      ">
+        We've updated the look and feel of this page. Customize anytime in settings.
+      </h2>
+    </div>
+  </section>
+</div>
+
+┌─ general @ 1280px rtl
+(same as 1280px)
+
+┌─ generalWithButton @ 320px
+<div>
+  <section style="
+    background-color: var(--page-notice-general-background-color, var(--color-background-inverse));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-100) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-end: 3;
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        font-weight: 400;
+        margin-bottom: 0px;
+        margin-top: 1px
+      ">
+        We've updated the look and feel of this page. Customize anytime in settings.
+      </h2>
+    </div>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      text-align: right
+    ">
+      <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        Dismiss
+      </button>
+    </div>
+  </section>
+</div>
+
+┌─ generalWithButton @ 512px
+(same as 1280px)
+
+┌─ generalWithButton @ 1280px
+<div>
+  <section style="
+    background-color: var(--page-notice-general-background-color, var(--color-background-inverse));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-200) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-end: 3;
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        font-weight: 400;
+        margin-bottom: 2px;
+        margin-top: 1px
+      ">
+        We've updated the look and feel of this page. Customize anytime in settings.
+      </h2>
+    </div>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      text-align: right
+    ">
+      <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        Dismiss
+      </button>
+    </div>
+  </section>
+</div>
+
+┌─ generalWithButton @ 1280px rtl
+(same as 1280px)
+
+┌─ generalWithLink @ 320px
+<div>
+  <section style="
+    background-color: var(--page-notice-general-background-color, var(--color-background-inverse));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-100) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-end: 3;
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        font-weight: 400;
+        margin-bottom: 0px;
+        margin-top: 1px
+      ">
+        We've updated the look and feel of this page.
+      </h2>
+    </div>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      text-align: right
+    ">
+      <a style="
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        font-size: var(--font-size-body);
+        font-weight: 700
+      ">
+        Learn More
+      </a>
+    </div>
+  </section>
+</div>
+
+┌─ generalWithLink @ 512px
+(same as 1280px)
+
+┌─ generalWithLink @ 1280px
+<div>
+  <section style="
+    background-color: var(--page-notice-general-background-color, var(--color-background-inverse));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-200) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-end: 3;
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        font-weight: 400;
+        margin-bottom: 2px;
+        margin-top: 1px
+      ">
+        We've updated the look and feel of this page.
+      </h2>
+    </div>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      text-align: right
+    ">
+      <a style="
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        font-size: var(--font-size-body);
+        font-weight: 700
+      ">
+        Learn More
+      </a>
+    </div>
+  </section>
+</div>
+
+┌─ generalWithLink @ 1280px rtl
+(same as 1280px)
+
+┌─ informationWithButton @ 320px
+<div>
+  <section style="
+    background-color: var(--page-notice-information-background-color, var(--color-background-accent));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-100) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="16"
+        role="img"
+        style="
+          color: var(--page-notice-information-icon-color, var(--color-foreground-on-success));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="16"
+      >
+        <use href="#icon-information-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        font-weight: 400;
+        margin-bottom: 0px;
+        margin-top: 1px
+      ">
+        Free shipping on your next pair of shoes.
+      </h2>
+    </div>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      text-align: right
+    ">
+      <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        Dismiss
+      </button>
+    </div>
+  </section>
+</div>
+
+┌─ informationWithButton @ 512px
+(same as 1280px)
+
+┌─ informationWithButton @ 1280px
+<div>
+  <section style="
+    background-color: var(--page-notice-information-background-color, var(--color-background-accent));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-200) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="16"
+        role="img"
+        style="
+          color: var(--page-notice-information-icon-color, var(--color-foreground-on-success));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="16"
+      >
+        <use href="#icon-information-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        font-weight: 400;
+        margin-bottom: 2px;
+        margin-top: 1px
+      ">
+        Free shipping on your next pair of shoes.
+      </h2>
+    </div>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      text-align: right
+    ">
+      <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        Dismiss
+      </button>
+    </div>
+  </section>
+</div>
+
+┌─ informationWithButton @ 1280px rtl
+(same as 1280px)
+
+┌─ informationWithLink @ 320px
+<div>
+  <section style="
+    background-color: var(--page-notice-information-background-color, var(--color-background-accent));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-100) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="16"
+        role="img"
+        style="
+          color: var(--page-notice-information-icon-color, var(--color-foreground-on-success));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="16"
+      >
+        <use href="#icon-information-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        font-weight: 400;
+        margin-bottom: 0px;
+        margin-top: 1px
+      ">
+        Free shipping on your next pair of shoes.
+      </h2>
+    </div>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      text-align: right
+    ">
+      <a style="
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        font-size: var(--font-size-body);
+        font-weight: 700
+      ">
+        Learn more
+      </a>
+    </div>
+  </section>
+</div>
+
+┌─ informationWithLink @ 512px
+(same as 1280px)
+
+┌─ informationWithLink @ 1280px
+<div>
+  <section style="
+    background-color: var(--page-notice-information-background-color, var(--color-background-accent));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-200) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="16"
+        role="img"
+        style="
+          color: var(--page-notice-information-icon-color, var(--color-foreground-on-success));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="16"
+      >
+        <use href="#icon-information-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h2 style="
+        font-size: var(--font-size-body);
+        font-weight: 400;
+        margin-bottom: 2px;
+        margin-top: 1px
+      ">
+        Free shipping on your next pair of shoes.
+      </h2>
+    </div>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      text-align: right
+    ">
+      <a style="
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        font-size: var(--font-size-body);
+        font-weight: 700
+      ">
+        Learn more
+      </a>
+    </div>
+  </section>
+</div>
+
+┌─ informationWithLink @ 1280px rtl
+(same as 1280px)
+
+┌─ textSpacing @ 320px
+<div>
+  <section style="
+    background-color: var(--page-notice-information-background-color, var(--color-background-accent));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-100) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="16"
+        role="img"
+        style="
+          color: var(--page-notice-information-icon-color, var(--color-foreground-on-success));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="16"
+      >
+        <use href="#icon-information-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h3 style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 1px
+      ">
+        Notice Title
+      </h3>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 2px;
+        margin: var(--spacing-50) 0 0
+      ">
+        Opt into eBay payments before Jan 12th to pay no selling fees.
+      </p>
+    </div>
+    <p style="
+      grid-column-start: 2;
+      grid-row-start: 2;
+      justify-self: flex-start;
+      margin-bottom: 0px;
+      margin-right: var(--spacing-200);
+      margin-top: var(--spacing-200)
+    ">
+      <a style="
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        font-size: var(--font-size-body);
+        text-wrap-mode: nowrap
+      ">
+        Opt in
+      </a>
+    </p>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      text-align: right
+    ">
+      <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        cursor: pointer;
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        <svg
+          height="14"
+          style="
+            display: inline-block;
+            fill: currentcolor;
+            height: 16px;
+            pointer-events: none;
+            stroke-width: 0;
+            stroke: currentcolor;
+            vertical-align: middle;
+            width: 16px
+          "
+          width="14"
+        >
+          <use href="#icon-close-16"/>
+        </svg>
+      </button>
+    </div>
+  </section>
+</div>
+
+┌─ textSpacing @ 512px
+(same as 1280px)
+
+┌─ textSpacing @ 1280px
+<div>
+  <section style="
+    background-color: var(--page-notice-information-background-color, var(--color-background-accent));
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--page-notice-color, var(--color-foreground-on-inverse));
+    display: grid;
+    font-size: var(--font-size-body);
+    grid-template-columns: 32px auto auto auto;
+    margin: var(--spacing-200) 0;
+    padding: var(--spacing-200)
+  ">
+    <div style="
+      grid-column-start: 1;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <svg
+        height="16"
+        role="img"
+        style="
+          color: var(--page-notice-information-icon-color, var(--color-foreground-on-success));
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="16"
+      >
+        <use href="#icon-information-filled-16"/>
+      </svg>
+    </div>
+    <div style="
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-inline-end: var(--spacing-200)
+    ">
+      <h3 style="
+        font-size: var(--font-size-body);
+        margin-bottom: 2px;
+        margin-top: 1px
+      ">
+        Notice Title
+      </h3>
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 2px;
+        margin: var(--spacing-50) 0 0
+      ">
+        Opt into eBay payments before Jan 12th to pay no selling fees.
+      </p>
+    </div>
+    <p style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      margin-bottom: 0px;
+      margin-right: var(--spacing-200);
+      margin-top: 1px;
+      padding-right: var(--spacing-200)
+    ">
+      <a style="
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        font-size: var(--font-size-body);
+        text-wrap-mode: nowrap
+      ">
+        Opt in
+      </a>
+    </p>
+    <div style="
+      grid-column-start: 4;
+      grid-row-start: 1;
+      justify-self: flex-end;
+      text-align: right
+    ">
+      <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        color: var(--page-notice-color, var(--color-foreground-on-inverse));
+        cursor: pointer;
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        <svg
+          height="14"
+          style="
+            display: inline-block;
+            fill: currentcolor;
+            height: 16px;
+            pointer-events: none;
+            stroke-width: 0;
+            stroke: currentcolor;
+            vertical-align: middle;
+            width: 16px
+          "
+          width="14"
+        >
+          <use href="#icon-close-16"/>
+        </svg>
+      </button>
+    </div>
+  </section>
+</div>
+
+┌─ textSpacing @ 1280px rtl
+(same as 1280px)
+

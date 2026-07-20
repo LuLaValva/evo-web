@@ -1,4 +1,9 @@
-export default { title: "Skin/Dialog" };
+export default {
+    title: "Skin/Dialog",
+    parameters: {
+        visual: { widths: [320, 512, 768, 1024], rtl: true },
+    },
+};
 
 export const base = () => `
 <script>document.querySelector(".dialog").showModal()</script>

@@ -1,4 +1,9 @@
-export default { title: "Skin/Listbox Button/Form" };
+export default {
+    title: "Skin/Listbox Button/Form",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const enabled = () => `
 <span class="listbox-button listbox-button--form">

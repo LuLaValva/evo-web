@@ -1,4 +1,9 @@
-export default { title: "Skin/Confirm Dialog" };
+export default {
+    title: "Skin/Confirm Dialog",
+    parameters: {
+        visual: { widths: [320, 768, 1024] },
+    },
+};
 
 export const base = () => `
 <div aria-labelledby="confirm-dialog-title" aria-modal="true" class="confirm-dialog confirm-dialog--mask-fade" role="dialog">

@@ -1,0 +1,107 @@
+┌─ RTLInsideHeading @ 1280px
+<div>
+  <div dir="rtl">
+    <h2>
+      <svg style="
+        display: inline-block;
+        fill: currentcolor;
+        height: 24px;
+        pointer-events: none;
+        stroke-width: 0;
+        stroke: currentcolor;
+        vertical-align: middle;
+        width: 24px
+      ">
+        <use href="#icon-information-24"/>
+      </svg>
+      <span style="vertical-align: middle">
+        There was an error with your payment. Please try again.
+      </span>
+    </h2>
+  </div>
+</div>
+
+┌─ beforeLink @ 1280px
+<div>
+  <svg style="
+    display: inline-block;
+    fill: currentcolor;
+    height: 24px;
+    pointer-events: none;
+    stroke-width: 0;
+    stroke: currentcolor;
+    vertical-align: middle;
+    width: 24px
+  ">
+    <use href="#icon-external-link-24"/>
+  </svg>
+  <a style="color: var(--color-foreground-link-primary)">
+    <span style="vertical-align: middle">
+      There was an error with your payment. Please try again.
+    </span>
+  </a>
+</div>
+
+┌─ insideHeading @ 1280px
+<div>
+  <h2>
+    <svg style="
+      display: inline-block;
+      fill: currentcolor;
+      height: 24px;
+      pointer-events: none;
+      stroke-width: 0;
+      stroke: currentcolor;
+      vertical-align: middle;
+      width: 24px
+    ">
+      <use href="#icon-information-24"/>
+    </svg>
+    <span style="vertical-align: middle">
+      There was an error with your payment. Please try again.
+    </span>
+  </h2>
+</div>
+
+┌─ insideLink @ 1280px
+<div>
+  <a style="color: var(--color-foreground-link-primary)">
+    <svg style="
+      display: inline-block;
+      fill: currentcolor;
+      height: 24px;
+      pointer-events: none;
+      stroke-width: 0;
+      stroke: currentcolor;
+      vertical-align: middle;
+      width: 24px
+    ">
+      <use href="#icon-external-link-24"/>
+    </svg>
+    <span>
+      There was an error with your payment. Please try again.
+    </span>
+  </a>
+</div>
+
+┌─ insideParagraph @ 1280px
+<div>
+  <p>
+    <svg style="
+      display: inline-block;
+      fill: currentcolor;
+      height: 24px;
+      pointer-events: none;
+      stroke-width: 0;
+      stroke: currentcolor;
+      vertical-align: middle;
+      width: 24px
+    ">
+      <use href="#icon-information-24"/>
+    </svg>
+    <span style="vertical-align: middle">
+      There was an error with your payment. Please try again.
+    </span>
+  </p>
+</div>
+

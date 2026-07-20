@@ -1,4 +1,9 @@
-export default { title: "Skin/Snackbar Dialog/Base" };
+export default {
+    title: "Skin/Snackbar Dialog/Base",
+    parameters: {
+        visual: { widths: [320, 512], rtl: true },
+    },
+};
 
 export const noAction = () => `
     <aside aria-label="Notification" aria-live="polite" aria-modal="false" class="snackbar-dialog" role="dialog">

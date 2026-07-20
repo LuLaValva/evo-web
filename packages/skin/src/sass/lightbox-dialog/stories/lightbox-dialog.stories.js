@@ -1,4 +1,9 @@
-export default { title: "Skin/Lightbox Dialog" };
+export default {
+    title: "Skin/Lightbox Dialog",
+    parameters: {
+        visual: { widths: [320, 512, 768, 1024], rtl: true },
+    },
+};
 
 export const base = () => `
 <div aria-labelledby="lightbox-dialog-title" aria-modal="true" class="lightbox-dialog" role="dialog">

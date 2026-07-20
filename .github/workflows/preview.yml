@@ -143,7 +143,14 @@ jobs:
           script: |
             const pr = context.payload.pull_request.number;
             const sha = context.payload.pull_request.head.sha.slice(0, 7);
-            const url = `https://opensource.ebay.com/evo-web/previews/pr-${pr}/`;
+            // Resolve the Pages base URL for this repo (works on forks);
+            // fall back to the default github.io URL, which redirects to a
+            // custom domain when one is configured.
+            const pagesBase = await github.rest.repos
+              .getPages(context.repo)
+              .then((r) => r.data.html_url.replace(/\/$/, ''))
+              .catch(() => `https://${context.repo.owner.toLowerCase()}.github.io/${context.repo.repo}`);
+            const url = `${pagesBase}/previews/pr-${pr}/`;
 
             // Find and update an existing bot comment, or create a new one
             const { data: comments } = await github.rest.issues.listComments({
@@ -162,6 +169,8 @@ jobs:
                 body: existing.body
                   .replace('### PR Preview Deployed _(removed)_', '### PR Preview Deployed')
                   .replace(/ _\(deploying .+?\)_$/, '')
+                  // Heal links written by other repos/forks of this workflow
+                  .replace(/https:\/\/[^\s)]+\/previews\/pr-\d+\//g, url)
                   .replace(/###### commit .+$/, `###### commit ${sha}`),
               });
             } else {

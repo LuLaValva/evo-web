@@ -1,4 +1,9 @@
-export default { title: "Skin/Fake Button/Text Spacing" };
+export default {
+    title: "Skin/Fake Button/Text Spacing",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const textOnly = () =>
     '<a href="http://www.ebay/com" class="fake-btn demo-a11y-text-spacing">Fake Button</a>';

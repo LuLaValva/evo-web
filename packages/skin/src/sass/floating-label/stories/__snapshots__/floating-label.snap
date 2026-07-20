@@ -1,0 +1,1531 @@
+┌─ RTL @ 1280px
+<div>
+  <div dir="rtl">
+    <span style="
+      display: inline-block;
+      position: relative
+    ">
+      <label style="
+        color: var(--floating-label-color, var(--color-foreground-secondary));
+        display: inline-block;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        pointer-events: none;
+        position: absolute;
+        right: 16px;
+        text-overflow: ellipsis;
+        text-wrap-mode: nowrap;
+        top: 0px;
+        transform-origin: right center;
+        transform: scale(0.75) translateY(2px);
+        width: calc(133.33333% - var(--spacing-200)*2/.75 - 2.66667px);
+        z-index: 1
+      ">
+        First Name
+      </label>
+      <span style="
+        align-items: center;
+        background-color: var(--textbox-background-color, var(--color-background-secondary));
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-top-style: solid;
+        border-top-width: 1px;
+        box-sizing: border-box;
+        color: var(--textbox-foreground-color, var(--color-foreground-primary));
+        display: inline-flex;
+        font-size: var(--font-size-body);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        width: fit-content
+      ">
+        <input style="
+          appearance: none;
+          border-bottom-color: currentcolor;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-width: medium;
+          color: inherit;
+          flex-grow: 1;
+          font-family: inherit;
+          font-size: 1em;
+          height: calc(var(--input-default-height) - 2px);
+          margin-bottom: 0px;
+          margin-left: 0px;
+          margin-right: 0px;
+          margin-top: 0px;
+          padding-bottom: 2px;
+          padding-inline-end: var(--spacing-200);
+          padding-inline-start: var(--spacing-200);
+          padding-top: 18px;
+          vertical-align: middle
+        "/>
+      </span>
+    </span>
+    <div/>
+  </div>
+</div>
+
+┌─ RTL @ 1280px rtl
+(same as 1280px)
+
+┌─ RTLSelectInline @ 1280px
+<div>
+  <div dir="rtl">
+    <span style="
+      display: inline-block;
+      position: relative
+    ">
+      <label style="
+        color: var(--floating-label-color, var(--color-foreground-secondary));
+        display: inline-block;
+        font-size: var(--font-size-body);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        pointer-events: none;
+        position: absolute;
+        right: 16px;
+        text-overflow: ellipsis;
+        text-wrap-mode: nowrap;
+        top: 0px;
+        transform-origin: right center;
+        transform: translateY(12px);
+        width: calc(100% - 40px);
+        z-index: 1
+      ">
+        Select Option long text
+      </label>
+      <span style="
+        color: var(--select-foreground-color, var(--color-foreground-primary));
+        display: inline-block;
+        font-size: var(--font-size-body);
+        position: relative
+      ">
+        <select style="
+          appearance: none;
+          background-color: var(--select-background-color, var(--color-background-secondary));
+          color: inherit;
+          font-family: inherit;
+          font-size: 1em;
+          height: 40px;
+          line-height: 52px;
+          padding-left: 30px;
+          padding-right: var(--spacing-200);
+          padding: 0 var(--spacing-400) 0 var(--spacing-200);
+          vertical-align: middle
+        ">
+          <option selected/>
+          <option label="Pick Option 1 (default)">
+            Pick Option 1 (default)
+          </option>
+          <option label="Pick Option 2">
+            Pick Option 2
+          </option>
+          <option label="Pick Option 3">
+            Pick Option 3
+          </option>
+        </select>
+        <svg
+          height="8"
+          style="
+            display: inline-block;
+            fill: currentcolor;
+            height: 100%;
+            left: 16px;
+            pointer-events: none;
+            position: absolute;
+            stroke-width: 0;
+            stroke: currentcolor;
+            top: 0px;
+            vertical-align: middle;
+            width: 12px
+          "
+          width="8"
+        >
+          <use href="#icon-chevron-down-12"/>
+        </svg>
+      </span>
+    </span>
+  </div>
+</div>
+
+┌─ RTLSelectInline @ 1280px rtl
+(same as 1280px)
+
+┌─ TextArea @ 1280px
+<div>
+  <span style="
+    display: inline-block;
+    position: relative
+  ">
+    <label style="
+      background-color: var(--floating-label-background-color, var(--color-background-secondary));
+      color: var(--floating-label-color, var(--color-foreground-secondary));
+      display: inline-block;
+      left: 16px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      padding-top: 3px;
+      pointer-events: none;
+      position: absolute;
+      text-overflow: ellipsis;
+      text-wrap-mode: nowrap;
+      top: -3px;
+      transform-origin: left center;
+      transform: scale(0.75) translateY(2px);
+      width: calc(100% - 40px);
+      z-index: 1
+    ">
+      Enter list of users
+    </label>
+    <span style="
+      align-items: center;
+      background-color: var(--textbox-background-color, var(--color-background-secondary));
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--textbox-foreground-color, var(--color-foreground-primary));
+      display: inline-flex;
+      font-size: var(--font-size-body);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      width: fit-content
+    ">
+      <textarea style="
+        appearance: none;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: medium;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: medium;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: medium;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: medium;
+        color: inherit;
+        flex-grow: 1;
+        font-family: inherit;
+        font-size: 1em;
+        height: 40px;
+        min-height: 200px;
+        padding-top: 18px;
+        padding: var(--spacing-200);
+        resize: vertical;
+        vertical-align: middle
+      "/>
+    </span>
+  </span>
+</div>
+
+┌─ TextArea @ 1280px rtl
+(same as 1280px)
+
+┌─ base @ 1280px
+<div>
+  <span style="
+    display: inline-block;
+    position: relative
+  ">
+    <label style="
+      color: var(--floating-label-color, var(--color-foreground-secondary));
+      display: inline-block;
+      left: 16px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      pointer-events: none;
+      position: absolute;
+      text-overflow: ellipsis;
+      text-wrap-mode: nowrap;
+      top: 0px;
+      transform-origin: left center;
+      transform: scale(0.75) translateY(2px);
+      width: calc(133.33333% - var(--spacing-200)*2/.75 - 2.66667px);
+      z-index: 1
+    ">
+      First Name
+    </label>
+    <span style="
+      align-items: center;
+      background-color: var(--textbox-background-color, var(--color-background-secondary));
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--textbox-foreground-color, var(--color-foreground-primary));
+      display: inline-flex;
+      font-size: var(--font-size-body);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      width: fit-content
+    ">
+      <input style="
+        appearance: none;
+        border-bottom-color: currentcolor;
+        border-bottom-width: medium;
+        border-left-color: currentcolor;
+        border-left-width: medium;
+        border-right-color: currentcolor;
+        border-right-width: medium;
+        border-top-color: currentcolor;
+        border-top-width: medium;
+        color: inherit;
+        flex-grow: 1;
+        font-family: inherit;
+        font-size: 1em;
+        height: calc(var(--input-default-height) - 2px);
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        padding-bottom: 2px;
+        padding-inline-end: var(--spacing-200);
+        padding-inline-start: var(--spacing-200);
+        padding-top: 18px;
+        vertical-align: middle
+      "/>
+    </span>
+  </span>
+</div>
+
+┌─ base @ 1280px rtl
+(same as 1280px)
+
+┌─ disabledTextbox @ 1280px
+<div>
+  <span style="
+    display: inline-block;
+    position: relative
+  ">
+    <label style="
+      color: var(--floating-label-disabled-color, var(--color-foreground-disabled));
+      display: inline-block;
+      left: 16px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      pointer-events: none;
+      position: absolute;
+      text-overflow: ellipsis;
+      text-wrap-mode: nowrap;
+      top: 0px;
+      transform-origin: left center;
+      transform: scale(0.75) translateY(2px);
+      width: calc(133.33333% - var(--spacing-200)*2/.75 - 2.66667px);
+      z-index: 1
+    ">
+      First Name
+    </label>
+    <span style="
+      align-items: center;
+      background-color: var(--textbox-background-color, var(--color-background-secondary));
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--textbox-disabled-foreground-color, var(--color-foreground-disabled));
+      display: inline-flex;
+      font-size: var(--font-size-body);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      width: fit-content
+    ">
+      <input
+        disabled
+        style="
+          appearance: none;
+          border-bottom-color: currentcolor;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-width: medium;
+          color: var(--textbox-disabled-foreground-color, var(--color-foreground-disabled));
+          flex-grow: 1;
+          font-family: inherit;
+          font-size: 1em;
+          height: calc(var(--input-default-height) - 2px);
+          margin-bottom: 0px;
+          margin-left: 0px;
+          margin-right: 0px;
+          margin-top: 0px;
+          padding-bottom: 2px;
+          padding-inline-end: var(--spacing-200);
+          padding-inline-start: var(--spacing-200);
+          padding-top: 18px;
+          vertical-align: middle
+        "
+      />
+    </span>
+  </span>
+</div>
+
+┌─ disabledTextbox @ 1280px rtl
+(same as 1280px)
+
+┌─ invalidTextbox @ 1280px
+<div>
+  <span style="
+    display: inline-block;
+    position: relative
+  ">
+    <label style="
+      color: var(--floating-label-invalid-color, var(--color-foreground-attention));
+      display: inline-block;
+      font-size: var(--font-size-body);
+      left: 16px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      pointer-events: none;
+      position: absolute;
+      text-overflow: ellipsis;
+      text-wrap-mode: nowrap;
+      top: 0px;
+      transform-origin: left center;
+      transform: translateY(12px);
+      width: calc(100% - 40px);
+      z-index: 1
+    ">
+      First Name
+    </label>
+    <span style="
+      align-items: center;
+      background-color: var(--textbox-background-color, var(--color-background-secondary));
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--textbox-foreground-color, var(--color-foreground-primary));
+      display: inline-flex;
+      font-size: var(--font-size-body);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      width: fit-content
+    ">
+      <input style="
+        appearance: none;
+        border-bottom-color: currentcolor;
+        border-bottom-width: medium;
+        border-left-color: currentcolor;
+        border-left-width: medium;
+        border-right-color: currentcolor;
+        border-right-width: medium;
+        border-top-color: currentcolor;
+        border-top-width: medium;
+        color: inherit;
+        flex-grow: 1;
+        font-family: inherit;
+        font-size: 1em;
+        height: calc(var(--input-default-height) - 2px);
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        padding-bottom: 2px;
+        padding-inline-end: var(--spacing-200);
+        padding-inline-start: var(--spacing-200);
+        padding-top: 18px;
+        vertical-align: middle
+      "/>
+    </span>
+  </span>
+</div>
+
+┌─ invalidTextbox @ 1280px rtl
+(same as 1280px)
+
+┌─ invalidTextboxWithPlaceholder @ 1280px
+<div>
+  <span style="
+    display: inline-block;
+    position: relative
+  ">
+    <label style="
+      color: var(--floating-label-invalid-color, var(--color-foreground-attention));
+      display: inline-block;
+      left: 16px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      pointer-events: none;
+      position: absolute;
+      text-overflow: ellipsis;
+      text-wrap-mode: nowrap;
+      top: 0px;
+      transform-origin: left center;
+      transform: scale(0.75) translateY(2px);
+      width: calc(133.33333% - var(--spacing-200)*2/.75 - 2.66667px);
+      z-index: 1
+    ">
+      First Name
+    </label>
+    <span style="
+      align-items: center;
+      background-color: var(--textbox-background-color, var(--color-background-secondary));
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--textbox-foreground-color, var(--color-foreground-primary));
+      display: inline-flex;
+      font-size: var(--font-size-body);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      width: fit-content
+    ">
+      <input
+        placeholder="placeholder"
+        style="
+          appearance: none;
+          border-bottom-color: currentcolor;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-width: medium;
+          color: inherit;
+          flex-grow: 1;
+          font-family: inherit;
+          font-size: 1em;
+          height: calc(var(--input-default-height) - 2px);
+          margin-bottom: 0px;
+          margin-left: 0px;
+          margin-right: 0px;
+          margin-top: 0px;
+          padding-bottom: 2px;
+          padding-inline-end: var(--spacing-200);
+          padding-inline-start: var(--spacing-200);
+          padding-top: 18px;
+          vertical-align: middle
+        "
+      />
+    </span>
+  </span>
+</div>
+
+┌─ invalidTextboxWithPlaceholder @ 1280px rtl
+(same as 1280px)
+
+┌─ invalidTextboxWithValue @ 1280px
+<div>
+  <span style="
+    display: inline-block;
+    position: relative
+  ">
+    <label style="
+      color: var(--floating-label-invalid-color, var(--color-foreground-attention));
+      display: inline-block;
+      left: 16px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      pointer-events: none;
+      position: absolute;
+      text-overflow: ellipsis;
+      text-wrap-mode: nowrap;
+      top: 0px;
+      transform-origin: left center;
+      transform: scale(0.75) translateY(2px);
+      width: calc(133.33333% - var(--spacing-200)*2/.75 - 2.66667px);
+      z-index: 1
+    ">
+      First Name
+    </label>
+    <span style="
+      align-items: center;
+      background-color: var(--textbox-background-color, var(--color-background-secondary));
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--textbox-foreground-color, var(--color-foreground-primary));
+      display: inline-flex;
+      font-size: var(--font-size-body);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      width: fit-content
+    ">
+      <input style="
+        appearance: none;
+        border-bottom-color: currentcolor;
+        border-bottom-width: medium;
+        border-left-color: currentcolor;
+        border-left-width: medium;
+        border-right-color: currentcolor;
+        border-right-width: medium;
+        border-top-color: currentcolor;
+        border-top-width: medium;
+        color: inherit;
+        flex-grow: 1;
+        font-family: inherit;
+        font-size: 1em;
+        height: calc(var(--input-default-height) - 2px);
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        padding-bottom: 2px;
+        padding-inline-end: var(--spacing-200);
+        padding-inline-start: var(--spacing-200);
+        padding-top: 18px;
+        vertical-align: middle
+      "/>
+    </span>
+  </span>
+</div>
+
+┌─ invalidTextboxWithValue @ 1280px rtl
+(same as 1280px)
+
+┌─ longText @ 1280px
+<div>
+  <span style="
+    display: inline-block;
+    position: relative
+  ">
+    <label style="
+      color: var(--floating-label-color, var(--color-foreground-secondary));
+      display: inline-block;
+      left: 16px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      pointer-events: none;
+      position: absolute;
+      text-overflow: ellipsis;
+      text-wrap-mode: nowrap;
+      top: 0px;
+      transform-origin: left center;
+      transform: scale(0.75) translateY(2px);
+      width: calc(133.33333% - var(--spacing-200)*2/.75 - 2.66667px);
+      z-index: 1
+    ">
+      Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch
+    </label>
+    <span style="
+      align-items: center;
+      background-color: var(--textbox-background-color, var(--color-background-secondary));
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--textbox-foreground-color, var(--color-foreground-primary));
+      display: inline-flex;
+      font-size: var(--font-size-body);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      width: fit-content
+    ">
+      <input style="
+        appearance: none;
+        border-bottom-color: currentcolor;
+        border-bottom-width: medium;
+        border-left-color: currentcolor;
+        border-left-width: medium;
+        border-right-color: currentcolor;
+        border-right-width: medium;
+        border-top-color: currentcolor;
+        border-top-width: medium;
+        color: inherit;
+        flex-grow: 1;
+        font-family: inherit;
+        font-size: 1em;
+        height: calc(var(--input-default-height) - 2px);
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        padding-bottom: 2px;
+        padding-inline-end: var(--spacing-200);
+        padding-inline-start: var(--spacing-200);
+        padding-top: 18px;
+        vertical-align: middle
+      "/>
+    </span>
+  </span>
+</div>
+
+┌─ longText @ 1280px rtl
+(same as 1280px)
+
+┌─ longTextInline @ 1280px
+<div>
+  <span style="
+    display: inline-block;
+    position: relative
+  ">
+    <label style="
+      color: var(--floating-label-color, var(--color-foreground-secondary));
+      display: inline-block;
+      font-size: var(--font-size-body);
+      left: 16px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      pointer-events: none;
+      position: absolute;
+      text-overflow: ellipsis;
+      text-wrap-mode: nowrap;
+      top: 0px;
+      transform-origin: left center;
+      transform: translateY(12px);
+      width: calc(100% - 40px);
+      z-index: 1
+    ">
+      Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch
+    </label>
+    <span style="
+      align-items: center;
+      background-color: var(--textbox-background-color, var(--color-background-secondary));
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--textbox-foreground-color, var(--color-foreground-primary));
+      display: inline-flex;
+      font-size: var(--font-size-body);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      width: fit-content
+    ">
+      <input style="
+        appearance: none;
+        border-bottom-color: currentcolor;
+        border-bottom-width: medium;
+        border-left-color: currentcolor;
+        border-left-width: medium;
+        border-right-color: currentcolor;
+        border-right-width: medium;
+        border-top-color: currentcolor;
+        border-top-width: medium;
+        color: inherit;
+        flex-grow: 1;
+        font-family: inherit;
+        font-size: 1em;
+        height: calc(var(--input-default-height) - 2px);
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        padding-bottom: 2px;
+        padding-inline-end: var(--spacing-200);
+        padding-inline-start: var(--spacing-200);
+        padding-top: 18px;
+        vertical-align: middle
+      "/>
+    </span>
+  </span>
+</div>
+
+┌─ longTextInline @ 1280px rtl
+(same as 1280px)
+
+┌─ phoneInput @ 1280px
+<div>
+  <span style="display: inline-flex">
+    <span style="
+      display: inline-flex;
+      position: relative;
+      vertical-align: bottom
+    ">
+      <button style="
+        align-content: center;
+        align-items: center;
+        background-color: var(--listbox-button-background-color, var(--color-background-secondary));
+        border-bottom-color: inherit;
+        border-bottom-left-radius: 8px;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom: 1px solid;
+        border-left-color: inherit;
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-right-color: inherit;
+        border-right-style: none;
+        border-right-width: 1px;
+        border-top-color: inherit;
+        border-top-left-radius: 8px;
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-top: 1px solid;
+        color: var(--listbox-button-foreground-color, var(--color-foreground-primary));
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        max-width: 100%;
+        min-height: 40px;
+        min-width: 64px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        padding-bottom: 0px;
+        padding-inline: var(--spacing-200) var(--spacing-100);
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 0px;
+        position: relative;
+        vertical-align: bottom
+      ">
+        <style>@scope{:scope{
+          &::after {
+            background-color: var(--color-state-layer-neutral);
+            bottom: 0px;
+            content: "";
+            left: 0px;
+            pointer-events: none;
+            position: absolute;
+            right: 0px;
+            top: 0px
+          }
+        }}</style>
+        <span style="
+          align-items: center;
+          display: flex;
+          justify-content: space-between;
+          width: 100%
+        ">
+          <span style="
+            font-weight: 700;
+            margin-right: auto
+          ">
+            <svg
+              focusable="false"
+              height="18"
+              style="
+                display: inline-block;
+                height: 18px;
+                max-height: 48px;
+                max-width: 64px;
+                pointer-events: none;
+                stroke-width: 0;
+                vertical-align: middle;
+                width: 24px
+              "
+              width="24"
+            >
+              <use href="#flag-us"/>
+            </svg>
+          </span>
+          <svg
+            focusable="false"
+            height="10"
+            style="
+              align-self: center;
+              display: inline-block;
+              fill: currentcolor;
+              height: 12px;
+              margin-inline-start: var(--spacing-50);
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle;
+              width: 12px
+            "
+            width="14"
+          >
+            <use href="#icon-chevron-down-12"/>
+          </svg>
+        </span>
+      </button>
+    </span>
+    <span style="
+      display: inline-block;
+      position: relative
+    ">
+      <label style="
+        color: var(--floating-label-color, var(--color-foreground-secondary));
+        display: inline-block;
+        left: 16px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        pointer-events: none;
+        position: absolute;
+        text-overflow: ellipsis;
+        text-wrap-mode: nowrap;
+        top: 0px;
+        transform-origin: left center;
+        transform: scale(0.75) translateY(2px);
+        width: calc(133.33333% - var(--spacing-200)*2/.75 - 2.66667px);
+        z-index: 2
+      ">
+        <span style="
+          border-bottom-color: currentcolor;
+          border-left-color: currentcolor;
+          border-right-color: currentcolor;
+          border-top-color: currentcolor;
+          clip-path: inset(50%);
+          height: 1px;
+          overflow-x: hidden;
+          overflow-y: hidden;
+          position: absolute;
+          text-wrap-mode: nowrap;
+          width: 1px
+        ">
+          Area code +
+        </span>
+        Phone
+                Number
+      </label>
+      <span style="
+        align-items: center;
+        background-color: var(--textbox-background-color, var(--color-background-secondary));
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-top-style: solid;
+        border-top-width: 1px;
+        box-sizing: border-box;
+        color: var(--textbox-foreground-color, var(--color-foreground-primary));
+        display: inline-flex;
+        font-size: var(--font-size-body);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        width: fit-content
+      ">
+        <span style="
+          flex-shrink: 0;
+          margin-inline-start: var(--spacing-200);
+          padding-bottom: 2px;
+          padding-top: 18px
+        ">
+          +1
+        </span>
+        <input
+          style="
+            appearance: none;
+            border-bottom-color: currentcolor;
+            border-bottom-width: medium;
+            border-left-color: currentcolor;
+            border-left-width: medium;
+            border-right-color: currentcolor;
+            border-right-width: medium;
+            border-top-color: currentcolor;
+            border-top-width: medium;
+            color: inherit;
+            flex-grow: 1;
+            font-family: inherit;
+            font-size: 1em;
+            height: calc(var(--input-default-height) - 2px);
+            margin-bottom: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 0px;
+            padding-bottom: 2px;
+            padding-inline-end: var(--spacing-200);
+            padding-top: 18px;
+            vertical-align: middle
+          "
+          type="tel"
+        />
+      </span>
+    </span>
+  </span>
+</div>
+
+┌─ phoneInput @ 1280px rtl
+(same as 1280px)
+
+┌─ placeholder @ 1280px
+<div>
+  <span style="
+    display: inline-block;
+    position: relative
+  ">
+    <label style="
+      color: var(--floating-label-color, var(--color-foreground-secondary));
+      display: inline-block;
+      left: 16px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      pointer-events: none;
+      position: absolute;
+      text-overflow: ellipsis;
+      text-wrap-mode: nowrap;
+      top: 0px;
+      transform-origin: left center;
+      transform: scale(0.75) translateY(2px);
+      width: calc(133.33333% - var(--spacing-200)*2/.75 - 2.66667px);
+      z-index: 1
+    ">
+      Date Of Birth
+    </label>
+    <span style="
+      align-items: center;
+      background-color: var(--textbox-background-color, var(--color-background-secondary));
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--textbox-foreground-color, var(--color-foreground-primary));
+      display: inline-flex;
+      font-size: var(--font-size-body);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      width: fit-content
+    ">
+      <input
+        placeholder="MM/DD/YYYY"
+        style="
+          appearance: none;
+          border-bottom-color: currentcolor;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-width: medium;
+          color: inherit;
+          flex-grow: 1;
+          font-family: inherit;
+          font-size: 1em;
+          height: calc(var(--input-default-height) - 2px);
+          margin-bottom: 0px;
+          margin-left: 0px;
+          margin-right: 0px;
+          margin-top: 0px;
+          padding-bottom: 2px;
+          padding-inline-end: var(--spacing-200);
+          padding-inline-start: var(--spacing-200);
+          padding-top: 18px;
+          vertical-align: middle
+        "
+      />
+    </span>
+  </span>
+</div>
+
+┌─ placeholder @ 1280px rtl
+(same as 1280px)
+
+┌─ select @ 1280px
+<div>
+  <span style="
+    display: inline-block;
+    position: relative
+  ">
+    <label style="
+      color: var(--floating-label-color, var(--color-foreground-secondary));
+      display: inline-block;
+      left: 16px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      pointer-events: none;
+      position: absolute;
+      text-overflow: ellipsis;
+      text-wrap-mode: nowrap;
+      top: 0px;
+      transform-origin: left center;
+      transform: scale(0.75) translateY(2px);
+      width: calc(133.33333% - var(--spacing-200)*2/.75 - 2.66667px);
+      z-index: 1
+    ">
+      Select Option
+    </label>
+    <span style="
+      color: var(--select-foreground-color, var(--color-foreground-primary));
+      display: inline-block;
+      font-size: var(--font-size-body);
+      position: relative
+    ">
+      <select style="
+        appearance: none;
+        background-color: var(--select-background-color, var(--color-background-secondary));
+        color: inherit;
+        font-family: inherit;
+        font-size: 1em;
+        height: 40px;
+        line-height: 52px;
+        padding: 0 var(--spacing-400) 0 var(--spacing-200);
+        vertical-align: middle
+      ">
+        <option
+          label="Choose an option"
+          selected
+        >
+          Choose an option
+        </option>
+        <option label="Pick Option 1 (default)">
+          Pick Option 1 (default)
+        </option>
+        <option label="Pick Option 2">
+          Pick Option 2
+        </option>
+        <option label="Pick Option 3">
+          Pick Option 3
+        </option>
+      </select>
+      <svg
+        height="8"
+        style="
+          display: inline-block;
+          fill: currentcolor;
+          height: 100%;
+          pointer-events: none;
+          position: absolute;
+          right: 16px;
+          stroke-width: 0;
+          stroke: currentcolor;
+          top: 0px;
+          vertical-align: middle;
+          width: 12px
+        "
+        width="8"
+      >
+        <use href="#icon-chevron-down-12"/>
+      </svg>
+    </span>
+  </span>
+</div>
+
+┌─ select @ 1280px rtl
+(same as 1280px)
+
+┌─ selectInline @ 1280px
+<div>
+  <span style="
+    display: inline-block;
+    position: relative
+  ">
+    <label style="
+      color: var(--floating-label-color, var(--color-foreground-secondary));
+      display: inline-block;
+      font-size: var(--font-size-body);
+      left: 16px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      pointer-events: none;
+      position: absolute;
+      text-overflow: ellipsis;
+      text-wrap-mode: nowrap;
+      top: 0px;
+      transform-origin: left center;
+      transform: translateY(12px);
+      width: calc(100% - 40px);
+      z-index: 1
+    ">
+      Select Option long text
+    </label>
+    <span style="
+      color: var(--select-foreground-color, var(--color-foreground-primary));
+      display: inline-block;
+      font-size: var(--font-size-body);
+      position: relative
+    ">
+      <select style="
+        appearance: none;
+        background-color: var(--select-background-color, var(--color-background-secondary));
+        color: inherit;
+        font-family: inherit;
+        font-size: 1em;
+        height: 40px;
+        line-height: 52px;
+        padding: 0 var(--spacing-400) 0 var(--spacing-200);
+        vertical-align: middle
+      ">
+        <option selected/>
+        <option label="Pick Option 1 (default)">
+          Pick Option 1 (default)
+        </option>
+        <option label="Pick Option 2">
+          Pick Option 2
+        </option>
+        <option label="Pick Option 3">
+          Pick Option 3
+        </option>
+      </select>
+      <svg
+        height="8"
+        style="
+          display: inline-block;
+          fill: currentcolor;
+          height: 100%;
+          pointer-events: none;
+          position: absolute;
+          right: 16px;
+          stroke-width: 0;
+          stroke: currentcolor;
+          top: 0px;
+          vertical-align: middle;
+          width: 12px
+        "
+        width="8"
+      >
+        <use href="#icon-chevron-down-12"/>
+      </svg>
+    </span>
+  </span>
+</div>
+
+┌─ selectInline @ 1280px rtl
+(same as 1280px)
+
+┌─ selectInlineDoubled @ 1280px
+<div>
+  <span style="
+    display: inline-block;
+    position: relative
+  ">
+    <label style="
+      color: var(--floating-label-color, var(--color-foreground-secondary));
+      display: inline-block;
+      font-size: var(--font-size-body);
+      left: 16px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      pointer-events: none;
+      position: absolute;
+      text-overflow: ellipsis;
+      text-wrap-mode: nowrap;
+      top: 0px;
+      transform-origin: left center;
+      transform: translateY(12px);
+      width: calc(100% - 40px);
+      z-index: 1
+    ">
+      Select Option long text with ellipsis
+    </label>
+    <span style="
+      color: var(--select-foreground-color, var(--color-foreground-primary));
+      display: inline-block;
+      font-size: var(--font-size-body);
+      position: relative
+    ">
+      <select style="
+        appearance: none;
+        background-color: var(--select-background-color, var(--color-background-secondary));
+        color: inherit;
+        font-family: inherit;
+        font-size: 1em;
+        height: 40px;
+        line-height: 52px;
+        padding: 0 var(--spacing-400) 0 var(--spacing-200);
+        vertical-align: middle
+      ">
+        <option selected/>
+        <option label="Pick Option 1 (default)">
+          Pick Option 1 (default)
+        </option>
+        <option label="Pick Option 2">
+          Pick Option 2
+        </option>
+        <option label="Pick Option 3">
+          Pick Option 3
+        </option>
+      </select>
+      <svg
+        height="8"
+        style="
+          display: inline-block;
+          fill: currentcolor;
+          height: 100%;
+          pointer-events: none;
+          position: absolute;
+          right: 16px;
+          stroke-width: 0;
+          stroke: currentcolor;
+          top: 0px;
+          vertical-align: middle;
+          width: 12px
+        "
+        width="8"
+      >
+        <use href="#icon-chevron-down-12"/>
+      </svg>
+    </span>
+  </span>
+  <span style="
+    display: inline-block;
+    position: relative
+  ">
+    <label style="
+      color: var(--floating-label-color, var(--color-foreground-secondary));
+      display: inline-block;
+      font-size: var(--font-size-body);
+      left: 16px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      pointer-events: none;
+      position: absolute;
+      text-overflow: ellipsis;
+      text-wrap-mode: nowrap;
+      top: 0px;
+      transform-origin: left center;
+      transform: translateY(12px);
+      width: calc(100% - 40px);
+      z-index: 1
+    ">
+      Select Option long text
+    </label>
+    <span style="
+      color: var(--select-foreground-color, var(--color-foreground-primary));
+      display: inline-block;
+      font-size: var(--font-size-body);
+      position: relative
+    ">
+      <select style="
+        appearance: none;
+        background-color: var(--select-background-color, var(--color-background-secondary));
+        color: inherit;
+        font-family: inherit;
+        font-size: 1em;
+        height: 40px;
+        line-height: 52px;
+        padding: 0 var(--spacing-400) 0 var(--spacing-200);
+        vertical-align: middle
+      ">
+        <option selected/>
+        <option label="Pick Option 1 (default)">
+          Pick Option 1 (default)
+        </option>
+        <option label="Pick Option 2">
+          Pick Option 2
+        </option>
+        <option label="Pick Option 3">
+          Pick Option 3
+        </option>
+      </select>
+      <svg
+        height="8"
+        style="
+          display: inline-block;
+          fill: currentcolor;
+          height: 100%;
+          pointer-events: none;
+          position: absolute;
+          right: 16px;
+          stroke-width: 0;
+          stroke: currentcolor;
+          top: 0px;
+          vertical-align: middle;
+          width: 12px
+        "
+        width="8"
+      >
+        <use href="#icon-chevron-down-12"/>
+      </svg>
+    </span>
+  </span>
+</div>
+
+┌─ selectInlineDoubled @ 1280px rtl
+(same as 1280px)
+
+┌─ textSpacing @ 1280px
+<div>
+  <span style="
+    display: inline-block;
+    position: relative
+  ">
+    <label style="
+      color: var(--floating-label-color, var(--color-foreground-secondary));
+      display: inline-block;
+      left: 16px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      pointer-events: none;
+      position: absolute;
+      text-overflow: ellipsis;
+      text-wrap-mode: nowrap;
+      top: 0px;
+      transform-origin: left center;
+      transform: scale(0.75) translateY(2px);
+      width: calc(133.33333% - var(--spacing-200)*2/.75 - 2.66667px);
+      z-index: 1
+    ">
+      First Name
+    </label>
+    <span style="
+      align-items: center;
+      background-color: var(--textbox-background-color, var(--color-background-secondary));
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--textbox-foreground-color, var(--color-foreground-primary));
+      display: inline-flex;
+      font-size: var(--font-size-body);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      width: fit-content
+    ">
+      <input style="
+        appearance: none;
+        border-bottom-color: currentcolor;
+        border-bottom-width: medium;
+        border-left-color: currentcolor;
+        border-left-width: medium;
+        border-right-color: currentcolor;
+        border-right-width: medium;
+        border-top-color: currentcolor;
+        border-top-width: medium;
+        color: inherit;
+        flex-grow: 1;
+        font-family: inherit;
+        font-size: 1em;
+        height: calc(var(--input-default-height) - 2px);
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        padding-bottom: 2px;
+        padding-inline-end: var(--spacing-200);
+        padding-inline-start: var(--spacing-200);
+        padding-top: 18px;
+        vertical-align: middle
+      "/>
+    </span>
+  </span>
+</div>
+
+┌─ textSpacing @ 1280px rtl
+(same as 1280px)
+
+┌─ value @ 1280px
+<div>
+  <span style="
+    display: inline-block;
+    position: relative
+  ">
+    <label style="
+      color: var(--floating-label-color, var(--color-foreground-secondary));
+      display: inline-block;
+      left: 16px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      pointer-events: none;
+      position: absolute;
+      text-overflow: ellipsis;
+      text-wrap-mode: nowrap;
+      top: 0px;
+      transform-origin: left center;
+      transform: scale(0.75) translateY(2px);
+      width: calc(133.33333% - var(--spacing-200)*2/.75 - 2.66667px);
+      z-index: 1
+    ">
+      Last Name
+    </label>
+    <span style="
+      align-items: center;
+      background-color: var(--textbox-background-color, var(--color-background-secondary));
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--textbox-foreground-color, var(--color-foreground-primary));
+      display: inline-flex;
+      font-size: var(--font-size-body);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      width: fit-content
+    ">
+      <input style="
+        appearance: none;
+        border-bottom-color: currentcolor;
+        border-bottom-width: medium;
+        border-left-color: currentcolor;
+        border-left-width: medium;
+        border-right-color: currentcolor;
+        border-right-width: medium;
+        border-top-color: currentcolor;
+        border-top-width: medium;
+        color: inherit;
+        flex-grow: 1;
+        font-family: inherit;
+        font-size: 1em;
+        height: calc(var(--input-default-height) - 2px);
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        padding-bottom: 2px;
+        padding-inline-end: var(--spacing-200);
+        padding-inline-start: var(--spacing-200);
+        padding-top: 18px;
+        vertical-align: middle
+      "/>
+    </span>
+  </span>
+</div>
+
+┌─ value @ 1280px rtl
+(same as 1280px)
+
