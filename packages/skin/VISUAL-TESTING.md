@@ -14,8 +14,9 @@ An in-house **preview viewer** renders the before/after of every changed
 story so changes can be reviewed visually — side by side, swipe, onion skin,
 or flip — with the exact changed elements outlined and their changed
 properties listed. Where the story source is available at both refs, the
-viewer renders each story's real HTML against each ref's actual compiled
-CSS bundle (with the icon sprite inlined), at fluid width — so what you
+viewer renders each story's real HTML against the skin CSS bundle
+compiled from that ref's SCSS sources (with the icon sprite inlined), at
+fluid width — so what you
 review is the true rendered result, not a reconstruction from the
 snapshot.
 

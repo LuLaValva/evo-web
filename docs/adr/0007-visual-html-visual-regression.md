@@ -56,9 +56,9 @@ in-house preview viewer for human visual review.
    baseline job and no approval dashboard.
 4. **Preview viewer** (`tools/visual-preview/`): a self-contained HTML
    report rendering before/after of every changed story — each story's
-   real HTML executed against each ref's committed compiled CSS bundle
-   (falling back to snapshot text with token CSS when a story source is
-   missing at a ref), with light/dark toggle and RTL — highlighting the
+   real HTML executed against the skin bundle compiled from that ref's
+   SCSS sources at build time (falling back to snapshot text with token
+   CSS when a story source is missing at a ref), with light/dark toggle and RTL — highlighting the
    exact changed elements with per-property before/after values, and
    offering side-by-side/swipe/onion/flip comparison modes. Served locally
    (`npm run visual:preview`), as a CI artifact, and deployed per-PR to the

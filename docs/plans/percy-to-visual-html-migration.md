@@ -509,9 +509,11 @@ same adoption dance as the initial baseline).
 **Viewer rendering.** Instead of reconstructing stories from snapshot HTML
 (inlined specified values), the viewer now renders each changed story's
 *real HTML* — the story module is imported at each ref and executed —
-against that ref's actual compiled `dist/bundles/skin-full.css`, with the
-ref's `dist/svg/icons.svg` sprite inlined. Base-ref assets come from
-`git show`, so `dist/` being committed is what makes this possible.
+against the skin bundle sass-compiled from that ref's SCSS sources at
+viewer-build time (base sources come via `git archive`), with the ref's
+`dist/svg/icons.svg` sprite inlined. The committed dist bundle is only a
+fallback — it is refreshed only by full builds, so it can be stale
+relative to the SCSS a PR changes.
 Frames are fluid-width by default (dimension opt-ins still render fixed at
 their declared width); embedded story `<script>`s execute natively in the
 `srcdoc` document, so self-opening dialogs work. The snapshot-HTML path
