@@ -1,4 +1,4 @@
-┌─ error @ 1280px
+┌─ error
 <div>
   <span style="
     align-items: center;
@@ -49,7 +49,7 @@
   </span>
 </div>
 
-┌─ errorWithValue @ 1280px
+┌─ errorWithValue
 <div>
   <span style="
     align-items: center;
@@ -100,7 +100,7 @@
   </span>
 </div>
 
-┌─ fluid @ 1280px
+┌─ fluid
 <div>
   <div style="
     align-items: center;
@@ -152,7 +152,7 @@
   </div>
 </div>
 
-┌─ inheritColor @ 1280px
+┌─ inheritColor
 <div>
   <div style="color: green">
     <span style="
@@ -205,7 +205,7 @@
   </div>
 </div>
 
-┌─ inheritFontSize @ 1280px
+┌─ inheritFontSize
 <div>
   <div style="font-size: 200%">
     <span style="
@@ -258,7 +258,7 @@
   </div>
 </div>
 
-┌─ large @ 1280px
+┌─ large
 <div>
   <span style="
     align-items: center;
@@ -309,7 +309,7 @@
   </span>
 </div>
 
-┌─ multiLine @ 1280px
+┌─ multiLine
 <div>
   <span style="
     align-items: center;
@@ -361,7 +361,7 @@
   </span>
 </div>
 
-┌─ overrideColor @ 1280px
+┌─ overrideColor
 <div>
   <span style="
     align-items: center;
@@ -412,7 +412,7 @@
   </span>
 </div>
 
-┌─ overrideFontSize @ 1280px
+┌─ overrideFontSize
 <div>
   <span style="
     align-items: center;
@@ -463,7 +463,7 @@
   </span>
 </div>
 
-┌─ prefix @ 1280px
+┌─ prefix
 <div>
   <span style="
     align-items: center;
@@ -516,7 +516,7 @@
   </span>
 </div>
 
-┌─ prefixAndSuffix @ 1280px
+┌─ prefixAndSuffix
 <div>
   <span style="
     align-items: center;
@@ -574,7 +574,7 @@
   </span>
 </div>
 
-┌─ singleLine @ 1280px
+┌─ singleLine
 <div>
   <span style="
     align-items: center;
@@ -625,7 +625,7 @@
   </span>
 </div>
 
-┌─ suffix @ 1280px
+┌─ suffix
 <div>
   <span style="
     align-items: center;
@@ -678,7 +678,7 @@
   </span>
 </div>
 
-┌─ textSpacing @ 1280px
+┌─ textSpacing
 <div>
   <span style="
     align-items: center;

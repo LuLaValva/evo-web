@@ -1,4 +1,4 @@
-┌─ RTL @ 1280px
+┌─ RTL
 <div>
   <div dir="rtl">
     <button style="
@@ -67,7 +67,7 @@
   </div>
 </div>
 
-┌─ collapsed @ 1280px
+┌─ collapsed
 <div>
   <button style="
     align-items: center;
@@ -134,7 +134,7 @@
   </button>
 </div>
 
-┌─ collapsedSelected @ 1280px
+┌─ collapsedSelected
 <div>
   <button style="
     align-items: center;
@@ -218,7 +218,7 @@
   </button>
 </div>
 
-┌─ expanded @ 1280px
+┌─ expanded
 <div>
   <button style="
     align-items: center;
@@ -285,7 +285,7 @@
   </button>
 </div>
 
-┌─ expandedSelected @ 1280px
+┌─ expandedSelected
 <div>
   <button style="
     align-items: center;
@@ -369,7 +369,7 @@
   </button>
 </div>
 
-┌─ expressiveCollapsed @ 1280px
+┌─ expressiveCollapsed
 <div>
   <button style="
     align-items: center;
@@ -473,7 +473,7 @@
   </button>
 </div>
 
-┌─ expressiveCollapsedSelected @ 1280px
+┌─ expressiveCollapsedSelected
 <div>
   <button style="
     align-items: center;
@@ -594,7 +594,7 @@
   </button>
 </div>
 
-┌─ textSpacing @ 1280px
+┌─ textSpacing
 <div>
   <button style="
     align-items: center;

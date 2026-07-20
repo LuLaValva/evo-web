@@ -1,4 +1,4 @@
-┌─ actionable @ 1280px
+┌─ actionable
 <div>
   <div dir="rtl">
     <span style="
@@ -115,7 +115,7 @@
   </div>
 </div>
 
-┌─ base @ 1280px
+┌─ base
 <div>
   <div dir="rtl">
     <span style="
@@ -186,7 +186,7 @@
   </div>
 </div>
 
-┌─ dual @ 1280px
+┌─ dual
 <div>
   <div dir="rtl">
     <span style="
@@ -274,7 +274,7 @@
   </div>
 </div>
 
-┌─ dualActionable @ 1280px
+┌─ dualActionable
 <div>
   <div dir="rtl">
     <span style="
@@ -409,7 +409,7 @@
   </div>
 </div>
 
-┌─ end @ 1280px
+┌─ end
 <div>
   <div dir="rtl">
     <span style="
@@ -479,7 +479,7 @@
   </div>
 </div>
 
-┌─ fullyDecorated @ 1280px
+┌─ fullyDecorated
 <div>
   <div dir="rtl">
     <span style="

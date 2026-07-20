@@ -1,4 +1,4 @@
-┌─ RTL @ 1280px
+┌─ RTL
 <div>
   <div dir="rtl">
     <section style="
@@ -125,7 +125,7 @@
   </div>
 </div>
 
-┌─ actionableButton @ 1280px
+┌─ actionableButton
 <div>
   <section style="
     background-color: var(--education-notice-default-background-color, var(--color-background-secondary));
@@ -267,7 +267,7 @@
   </section>
 </div>
 
-┌─ actionableLink @ 1280px
+┌─ actionableLink
 <div>
   <section style="
     background-color: var(--education-notice-default-background-color, var(--color-background-secondary));
@@ -392,7 +392,7 @@
   </section>
 </div>
 
-┌─ base @ 1280px
+┌─ base
 <div>
   <section style="
     background-color: var(--education-notice-default-background-color, var(--color-background-secondary));
@@ -443,7 +443,7 @@
   </section>
 </div>
 
-┌─ dismissable @ 1280px
+┌─ dismissable
 <div>
   <section style="
     background-color: var(--education-notice-default-background-color, var(--color-background-secondary));
@@ -558,7 +558,7 @@
   </section>
 </div>
 
-┌─ prominentIcon @ 1280px
+┌─ prominentIcon
 <div>
   <section style="
     background-color: var(--education-notice-default-background-color, var(--color-background-secondary));
@@ -610,7 +610,7 @@
   </section>
 </div>
 
-┌─ prominentNotice @ 1280px
+┌─ prominentNotice
 <div>
   <section style="
     background-color: var(--education-notice-education-background-color, var(--color-background-education));
@@ -661,7 +661,7 @@
   </section>
 </div>
 
-┌─ textSpacing @ 1280px
+┌─ textSpacing
 <div>
   <section style="
     background-color: var(--education-notice-default-background-color, var(--color-background-secondary));

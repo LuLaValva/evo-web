@@ -1,4 +1,4 @@
-┌─ links @ 1280px
+┌─ links
 <div>
   <span style="position: relative">
     <button style="
@@ -226,7 +226,7 @@
   </span>
 </div>
 
-┌─ linksDisabled @ 1280px
+┌─ linksDisabled
 <div>
   <span style="position: relative">
     <button style="
@@ -473,7 +473,7 @@
   </span>
 </div>
 
-┌─ linksFixedWidth @ 1280px
+┌─ linksFixedWidth
 <div>
   <span style="position: relative">
     <button style="
@@ -701,7 +701,7 @@
   </span>
 </div>
 
-┌─ linksSelected @ 1280px
+┌─ linksSelected
 <div>
   <span style="position: relative">
     <button style="

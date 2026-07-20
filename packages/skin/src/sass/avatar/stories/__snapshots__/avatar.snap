@@ -1,4 +1,4 @@
-┌─ base @ 1280px
+┌─ base
 <div>
   <div style="
     align-items: center;
@@ -36,7 +36,7 @@
   </div>
 </div>
 
-┌─ combinations @ 1280px
+┌─ combinations
 <div>
   <div style="
     column-gap: 10px;
@@ -307,7 +307,7 @@
   </div>
 </div>
 
-┌─ signedOut @ 1280px
+┌─ signedOut
 <div>
   <div style="
     align-items: center;
@@ -354,7 +354,7 @@
   </div>
 </div>
 
-┌─ sizes @ 1280px
+┌─ sizes
 <div>
   <div>
     <div style="
@@ -598,7 +598,7 @@
   </div>
 </div>
 
-┌─ sizesIcon @ 1280px
+┌─ sizesIcon
 <div>
   <div>
     <div style="
@@ -905,7 +905,7 @@
   </div>
 </div>
 
-┌─ sizesProfilePic @ 1280px
+┌─ sizesProfilePic
 <div>
   <div>
     <div style="
@@ -1219,7 +1219,7 @@
   </div>
 </div>
 
-┌─ variations @ 1280px
+┌─ variations
 <div>
   <div style="
     align-items: center;
@@ -1475,7 +1475,7 @@
   </div>
 </div>
 
-┌─ withFitImage @ 1280px
+┌─ withFitImage
 <div>
   <div style="
     align-items: center;
@@ -1565,7 +1565,7 @@
   </div>
 </div>
 
-┌─ withImage @ 1280px
+┌─ withImage
 <div>
   <div style="
     align-items: center;

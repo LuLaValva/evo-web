@@ -1,4 +1,4 @@
-┌─ four @ 1280px
+┌─ four
 <div>
   <span style="display: inline-block">
     <ul style="
@@ -142,7 +142,7 @@
   </span>
 </div>
 
-┌─ three @ 1280px
+┌─ three
 <div>
   <span style="display: inline-block">
     <ul style="
@@ -260,7 +260,7 @@
   </span>
 </div>
 
-┌─ two @ 1280px
+┌─ two
 <div>
   <span style="display: inline-block">
     <ul style="

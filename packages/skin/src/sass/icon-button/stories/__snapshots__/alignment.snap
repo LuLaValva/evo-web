@@ -1,4 +1,4 @@
-┌─ close @ 1280px
+┌─ close
 <div>
   <button style="
     align-items: center;
@@ -134,7 +134,7 @@
   </a>
 </div>
 
-┌─ menu @ 1280px
+┌─ menu
 <div>
   <button style="
     align-items: center;
@@ -270,7 +270,7 @@
   </a>
 </div>
 
-┌─ settings @ 1280px
+┌─ settings
 <div>
   <button style="
     align-items: center;

@@ -1,4 +1,4 @@
-┌─ base @ 1280px
+┌─ base
 <div>
   <button style="
     align-items: center;
@@ -194,7 +194,7 @@
   </button>
 </div>
 
-┌─ baseDisabled @ 1280px
+┌─ baseDisabled
 <div>
   <button
     disabled
@@ -399,7 +399,7 @@
   </button>
 </div>
 
-┌─ baseSpinner @ 1280px
+┌─ baseSpinner
 <div>
   <button style="
     align-items: center;
@@ -625,7 +625,7 @@
   </button>
 </div>
 
-┌─ primary @ 1280px
+┌─ primary
 <div>
   <button style="
     align-items: center;
@@ -836,7 +836,7 @@
   </button>
 </div>
 
-┌─ primaryDisabled @ 1280px
+┌─ primaryDisabled
 <div>
   <button
     disabled
@@ -1056,7 +1056,7 @@
   </button>
 </div>
 
-┌─ primarySpinner @ 1280px
+┌─ primarySpinner
 <div>
   <button style="
     align-items: center;
@@ -1303,7 +1303,7 @@
   </button>
 </div>
 
-┌─ secondary @ 1280px
+┌─ secondary
 <div>
   <button style="
     align-items: center;
@@ -1511,7 +1511,7 @@
   </button>
 </div>
 
-┌─ secondaryDisabled @ 1280px
+┌─ secondaryDisabled
 <div>
   <button
     disabled
@@ -1728,7 +1728,7 @@
   </button>
 </div>
 
-┌─ secondarySpinner @ 1280px
+┌─ secondarySpinner
 <div>
   <button style="
     align-items: center;
@@ -1969,7 +1969,7 @@
   </button>
 </div>
 
-┌─ tertiary @ 1280px
+┌─ tertiary
 <div>
   <button style="
     align-items: center;
@@ -2177,7 +2177,7 @@
   </button>
 </div>
 
-┌─ tertiaryDisabled @ 1280px
+┌─ tertiaryDisabled
 <div>
   <button
     disabled
@@ -2394,7 +2394,7 @@
   </button>
 </div>
 
-┌─ tertiarySpinner @ 1280px
+┌─ tertiarySpinner
 <div>
   <button style="
     align-items: center;

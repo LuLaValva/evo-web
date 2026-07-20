@@ -1,4 +1,4 @@
-┌─ autoCollapse @ 1280px
+┌─ autoCollapse
 <div>
   <ul style="
     margin-bottom: 0px;
@@ -321,7 +321,7 @@
   </ul>
 </div>
 
-┌─ closed @ 1280px
+┌─ closed
 <div>
   <ul style="
     margin-bottom: 0px;
@@ -644,7 +644,7 @@
   </ul>
 </div>
 
-┌─ large @ 1280px
+┌─ large
 <div>
   <ul style="
     margin-bottom: 0px;
@@ -967,7 +967,7 @@
   </ul>
 </div>
 
-┌─ leadingIconClosed @ 1280px
+┌─ leadingIconClosed
 <div>
   <ul style="
     margin-bottom: 0px;
@@ -1362,7 +1362,7 @@
   </ul>
 </div>
 
-┌─ open @ 1280px
+┌─ open
 <div>
   <ul style="
     margin-bottom: 0px;
@@ -1691,7 +1691,7 @@
   </ul>
 </div>
 
-┌─ textSpacing @ 1280px
+┌─ textSpacing
 <div>
   <ul style="
     margin-bottom: 0px;

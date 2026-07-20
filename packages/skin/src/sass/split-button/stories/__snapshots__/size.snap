@@ -1,4 +1,4 @@
-┌─ longTextCollapsed @ 1280px
+┌─ longTextCollapsed
 <div>
   <span style="display: inline-flex">
     <button style="
@@ -149,7 +149,7 @@
   </span>
 </div>
 
-┌─ longTextExpanded @ 1280px
+┌─ longTextExpanded
 <div>
   <span style="display: inline-flex">
     <button style="

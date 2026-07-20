@@ -1,4 +1,4 @@
-┌─ RTL @ 1280px
+┌─ RTL
 <div>
   <div dir="rtl">
     <ul style="
@@ -323,7 +323,7 @@
   </div>
 </div>
 
-┌─ colour @ 1280px
+┌─ colour
 <div>
   <div style="color: red">
     <ul style="
@@ -648,7 +648,7 @@
   </div>
 </div>
 
-┌─ fontSize @ 1280px
+┌─ fontSize
 <div>
   <div style="font-size: 200%">
     <ul style="

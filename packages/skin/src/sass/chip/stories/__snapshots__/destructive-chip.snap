@@ -1,4 +1,4 @@
-┌─ RTL @ 1280px
+┌─ RTL
 <div>
   <div dir="rtl">
     <span style="
@@ -77,7 +77,7 @@
   </div>
 </div>
 
-┌─ largeText @ 1280px
+┌─ largeText
 <div>
   <span style="
     align-items: center;
@@ -154,7 +154,7 @@
   </span>
 </div>
 
-┌─ leastContent @ 1280px
+┌─ leastContent
 <div>
   <span style="
     align-items: center;
@@ -231,7 +231,7 @@
   </span>
 </div>
 
-┌─ letterSpacing @ 1280px
+┌─ letterSpacing
 <div>
   <span style="
     align-items: center;
@@ -309,7 +309,7 @@
   </span>
 </div>
 
-┌─ mostContent @ 1280px
+┌─ mostContent
 <div>
   <span style="
     align-items: center;
@@ -386,7 +386,7 @@
   </span>
 </div>
 
-┌─ set @ 1280px
+┌─ set
 <div>
   <span style="
     align-items: center;
@@ -1193,7 +1193,7 @@
   </span>
 </div>
 
-┌─ typical @ 1280px
+┌─ typical
 <div>
   <span style="
     align-items: center;

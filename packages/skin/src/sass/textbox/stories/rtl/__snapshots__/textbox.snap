@@ -1,4 +1,4 @@
-┌─ multiLine @ 1280px
+┌─ multiLine
 <div>
   <div dir="rtl">
     <span style="
@@ -52,7 +52,7 @@
   </div>
 </div>
 
-┌─ prefix @ 1280px
+┌─ prefix
 <div>
   <div dir="rtl">
     <span style="
@@ -110,7 +110,7 @@
   </div>
 </div>
 
-┌─ prefixAndSuffix @ 1280px
+┌─ prefixAndSuffix
 <div>
   <div dir="rtl">
     <span style="
@@ -170,7 +170,7 @@
   </div>
 </div>
 
-┌─ singleLine @ 1280px
+┌─ singleLine
 <div>
   <div dir="rtl">
     <span style="
@@ -223,7 +223,7 @@
   </div>
 </div>
 
-┌─ suffix @ 1280px
+┌─ suffix
 <div>
   <div dir="rtl">
     <span style="

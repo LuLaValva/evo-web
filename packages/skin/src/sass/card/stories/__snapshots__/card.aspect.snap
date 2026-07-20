@@ -1,4 +1,4 @@
-┌─ verticalAspectSquare @ 1280px
+┌─ verticalAspectSquare
 <div>
   <span style="
     background-color: var(--color-background-secondary);
@@ -107,7 +107,7 @@
   </span>
 </div>
 
-┌─ verticalAspect_5by4 @ 1280px
+┌─ verticalAspect_5by4
 <div>
   <span style="
     background-color: var(--color-background-secondary);
@@ -216,7 +216,7 @@
   </span>
 </div>
 
-┌─ verticalAspect_9by16 @ 1280px
+┌─ verticalAspect_9by16
 <div>
   <span style="
     background-color: var(--color-background-secondary);

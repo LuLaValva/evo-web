@@ -483,10 +483,43 @@ group).
 | Question                          | Decision                                                                                                                                                                |
 | --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Dark mode as a snapshot dimension | **No** — visual-html preserves `var()` references, so snapshots are theme-agnostic by construction; the viewer gets a light/dark toggle for human review                |
-| RTL / responsive widths           | **Per-component opt-in** via CSF `parameters.visual = { widths, rtl }`; default is LTR @ 1280px only                                                                    |
+| RTL / responsive widths           | **Per-component opt-in** via CSF `parameters.visual = { widths, rtl }`; default is a single viewport-independent capture (see §10)                                      |
 | Snapshot file granularity         | **Per story-file**, colocated `__snapshots__/`                                                                                                                          |
 | Default breakpoint                | **1280px**                                                                                                                                                              |
 | CI ↔ snapshot relationship        | **Regenerate as part of the test suite**, enforce via `git diff --exit-code`; regenerated files ship in the CI artifact — no separate label/comment-triggered regen job |
 | Cutover strategy                  | **Immediate** — no Percy parallel soak; removal in the same phase as enabling the new check                                                                             |
 | Viewer delivery in CI             | **Both** workflow artifact and per-PR deploy on existing site infra, from day one                                                                                       |
 | Pixel-screenshot backstop         | **None** — snapshots stay as code and are viewed in a browser                                                                                                           |
+
+## 10. Pivot: viewport-independent snapshots + real-CSS viewer (2026-07-20)
+
+Design-review feedback on the demo PR surfaced a fundamental issue: most
+components have no width-dependent CSS, so labeling every snapshot with a
+viewport width (`@ 1280px`) implied a coupling that doesn't exist, and the
+viewer's scale-to-fit fixed-width frames wasted space and reviewability.
+
+**Snapshot format.** Stories without `parameters.visual` opt-ins now emit a
+single section labeled by story name alone (`┌─ storyName`) — the capture
+still happens in a 1280px viewport (visual-html's `matchMedia` filtering
+needs *some* width), but the label no longer claims one. Opted-in
+components keep `@ <width>px[ rtl]` suffixes and `(same as 1280px)`
+dedupe references. This relabels the entire baseline once (CI-regenerated,
+same adoption dance as the initial baseline).
+
+**Viewer rendering.** Instead of reconstructing stories from snapshot HTML
+(inlined specified values), the viewer now renders each changed story's
+*real HTML* — the story module is imported at each ref and executed —
+against that ref's actual compiled `dist/bundles/skin-full.css`, with the
+ref's `dist/svg/icons.svg` sprite inlined. Base-ref assets come from
+`git show`, so `dist/` being committed is what makes this possible.
+Frames are fluid-width by default (dimension opt-ins still render fixed at
+their declared width); embedded story `<script>`s execute natively in the
+`srcdoc` document, so self-opening dialogs work. The snapshot-HTML path
+remains as a fallback when a story source doesn't exist at a ref.
+
+Element highlights are mapped from the snapshot diff onto the real DOM by
+visible-child index paths (skipping synthetic `<style>` carriers and
+`display:none` subtrees, and dropping the harness capture-container level).
+The same design pass fixed viewer usability issues from QA: keyboard
+shortcuts forward from focused frames, flip-on-click, Escape clearing
+search, checkbox/state sync, responsive layout, and scroll preservation.

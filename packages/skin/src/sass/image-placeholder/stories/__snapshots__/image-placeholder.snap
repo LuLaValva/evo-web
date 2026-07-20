@@ -1,4 +1,4 @@
-┌─ RTLInsideHeading @ 1280px
+┌─ RTLInsideHeading
 <div>
   <div dir="rtl">
     <h2>
@@ -14,7 +14,7 @@
   </div>
 </div>
 
-┌─ differentWidths @ 1280px
+┌─ differentWidths
 <div>
   <p>
     <svg style="
@@ -40,7 +40,7 @@
   </p>
 </div>
 
-┌─ inContainerVariableWidth @ 1280px
+┌─ inContainerVariableWidth
 <div>
   <div style="
     border-bottom-color: black;
@@ -69,7 +69,7 @@
   </div>
 </div>
 
-┌─ insideHeading @ 1280px
+┌─ insideHeading
 <div>
   <h2>
     <svg style="

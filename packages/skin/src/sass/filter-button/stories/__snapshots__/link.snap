@@ -1,4 +1,4 @@
-┌─ base @ 1280px
+┌─ base
 <div>
   <a style="
     align-items: center;
@@ -63,7 +63,7 @@
   </a>
 </div>
 
-┌─ disabled @ 1280px
+┌─ disabled
 <div>
   <a style="
     align-items: center;
@@ -128,7 +128,7 @@
   </a>
 </div>
 
-┌─ selected @ 1280px
+┌─ selected
 <div>
   <a style="
     align-items: center;
@@ -209,7 +209,7 @@
   </a>
 </div>
 
-┌─ truncated @ 1280px
+┌─ truncated
 <div>
   <a style="
     align-items: center;

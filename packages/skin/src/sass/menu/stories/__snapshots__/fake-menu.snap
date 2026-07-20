@@ -1,4 +1,4 @@
-┌─ badged @ 1280px
+┌─ badged
 <div>
   <span style="
     display: inline-block;
@@ -238,7 +238,7 @@
   </span>
 </div>
 
-┌─ buttons @ 1280px
+┌─ buttons
 <div>
   <div>
     <ul style="
@@ -397,7 +397,7 @@
   </div>
 </div>
 
-┌─ buttonsDisabled @ 1280px
+┌─ buttonsDisabled
 <div>
   <div>
     <ul style="
@@ -574,7 +574,7 @@
   </div>
 </div>
 
-┌─ buttonsSelected @ 1280px
+┌─ buttonsSelected
 <div>
   <div>
     <ul style="
@@ -746,7 +746,7 @@
   </div>
 </div>
 
-┌─ links @ 1280px
+┌─ links
 <div>
   <div>
     <ul style="
@@ -884,7 +884,7 @@
   </div>
 </div>
 
-┌─ linksDisabled @ 1280px
+┌─ linksDisabled
 <div>
   <div>
     <ul style="
@@ -1049,7 +1049,7 @@
   </div>
 </div>
 
-┌─ linksSelected @ 1280px
+┌─ linksSelected
 <div>
   <div>
     <ul style="
@@ -1212,7 +1212,7 @@
   </div>
 </div>
 
-┌─ mixed @ 1280px
+┌─ mixed
 <div>
   <div>
     <ul style="

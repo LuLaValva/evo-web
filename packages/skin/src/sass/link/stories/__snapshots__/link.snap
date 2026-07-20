@@ -1,4 +1,4 @@
-┌─ RTL @ 1280px
+┌─ RTL
 <div>
   <div dir="rtl">
     <a style="color: var(--color-foreground-link-primary)">
@@ -8,21 +8,21 @@
   </div>
 </div>
 
-┌─ action @ 1280px
+┌─ action
 <div>
   <a style="color: var(--color-foreground-link-primary)">
     See all 17 Reviews
   </a>
 </div>
 
-┌─ base @ 1280px
+┌─ base
 <div>
   <a style="color: var(--color-foreground-link-primary)">
     Link
   </a>
 </div>
 
-┌─ disabledFake @ 1280px
+┌─ disabledFake
 <div>
   <button style="
     border-bottom-color: currentcolor;
@@ -50,7 +50,7 @@
   </button>
 </div>
 
-┌─ fake @ 1280px
+┌─ fake
 <div>
   <button style="
     border-bottom-color: currentcolor;
@@ -78,14 +78,14 @@
   </button>
 </div>
 
-┌─ legal @ 1280px
+┌─ legal
 <div>
   <a style="color: var(--legal-link-foreground-color, var(--color-foreground-link-legal))">
     Link
   </a>
 </div>
 
-┌─ legalFake @ 1280px
+┌─ legalFake
 <div>
   <button style="
     border-bottom-color: currentcolor;
@@ -113,7 +113,7 @@
   </button>
 </div>
 
-┌─ nav @ 1280px
+┌─ nav
 <div>
   <a style="
     color: var(--nav-link-foreground-color, var(--color-foreground-link-primary));
@@ -123,7 +123,7 @@
   </a>
 </div>
 
-┌─ textSpacing @ 1280px
+┌─ textSpacing
 <div>
   <a style="color: var(--color-foreground-link-primary)">
     Text Spacing

@@ -1,4 +1,4 @@
-┌─ disabledIcon @ 1280px
+┌─ disabledIcon
 <div>
   <button
     disabled
@@ -77,7 +77,7 @@
   </button>
 </div>
 
-┌─ disabledIconColored @ 1280px
+┌─ disabledIconColored
 <div>
   <button
     disabled
@@ -156,7 +156,7 @@
   </button>
 </div>
 
-┌─ disabledImage @ 1280px
+┌─ disabledImage
 <div>
   <button
     disabled
@@ -240,7 +240,7 @@
   </button>
 </div>
 
-┌─ iconTitleSubtitle @ 1280px
+┌─ iconTitleSubtitle
 <div>
   <button style="
     background-color: var(--color-background-primary);
@@ -314,7 +314,7 @@
   </button>
 </div>
 
-┌─ landscapeImageTitleSubtitle @ 1280px
+┌─ landscapeImageTitleSubtitle
 <div>
   <button style="
     background-color: var(--color-background-primary);
@@ -393,7 +393,7 @@
   </button>
 </div>
 
-┌─ longTitle @ 1280px
+┌─ longTitle
 <div>
   <button style="
     background-color: var(--color-background-primary);
@@ -473,7 +473,7 @@
   </button>
 </div>
 
-┌─ profileCSSImageContainBackground @ 1280px
+┌─ profileCSSImageContainBackground
 <div>
   <button style="
     background-color: var(--color-background-primary);
@@ -548,7 +548,7 @@
   </button>
 </div>
 
-┌─ profileCSSImageCoverBackground @ 1280px
+┌─ profileCSSImageCoverBackground
 <div>
   <button style="
     background-color: var(--color-background-primary);
@@ -623,7 +623,7 @@
   </button>
 </div>
 
-┌─ profileImageTitle @ 1280px
+┌─ profileImageTitle
 <div>
   <button style="
     background-color: var(--color-background-primary);
@@ -694,7 +694,7 @@
   </button>
 </div>
 
-┌─ profileImageTitleSubtitle @ 1280px
+┌─ profileImageTitleSubtitle
 <div>
   <button style="
     background-color: var(--color-background-primary);
@@ -773,7 +773,7 @@
   </button>
 </div>
 
-┌─ squareImageTitleSubtitle @ 1280px
+┌─ squareImageTitleSubtitle
 <div>
   <button style="
     background-color: var(--color-background-primary);
@@ -852,7 +852,7 @@
   </button>
 </div>
 
-┌─ textSpacing @ 1280px
+┌─ textSpacing
 <div>
   <button style="
     background-color: var(--color-background-primary);

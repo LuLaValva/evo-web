@@ -45,17 +45,20 @@ in-house preview viewer for human visual review.
    cached wrapper around visual-html's internals parses CSSOM rules once
    per viewport width instead of per capture.
 2. **Dimensions are opt-in per component** via CSF
-   `parameters.visual = { widths, rtl }`; the default capture is LTR at
-   1280px. Dark mode needs no dimension — snapshots are theme-agnostic by
-   construction. Secondary dimensions identical to the default are stored
-   as `(same as 1280px)` references.
+   `parameters.visual = { widths, rtl }`; by default snapshots are
+   viewport-independent — one capture per story, labeled by story name
+   alone. Dark mode needs no dimension — snapshots are theme-agnostic by
+   construction. For opted-in components, secondary dimensions identical
+   to the default capture are stored as `(same as 1280px)` references.
 3. **CI model: regenerate, then diff** (`visual-regression.yml`): the suite
    regenerates snapshots and the check fails if `git diff` is non-empty on
    `__snapshots__/`. Merging a PR _is_ updating the baseline; there is no
    baseline job and no approval dashboard.
 4. **Preview viewer** (`tools/visual-preview/`): a self-contained HTML
-   report rendering before/after of every changed story directly from
-   snapshot text with token CSS (light/dark toggle, RTL), highlighting the
+   report rendering before/after of every changed story — each story's
+   real HTML executed against each ref's committed compiled CSS bundle
+   (falling back to snapshot text with token CSS when a story source is
+   missing at a ref), with light/dark toggle and RTL — highlighting the
    exact changed elements with per-property before/after values, and
    offering side-by-side/swipe/onion/flip comparison modes. Served locally
    (`npm run visual:preview`), as a CI artifact, and deployed per-PR to the

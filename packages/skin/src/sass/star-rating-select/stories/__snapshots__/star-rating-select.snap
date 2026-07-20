@@ -1,4 +1,4 @@
-┌─ empty @ 1280px
+┌─ empty
 <div>
   <div style="
     cursor: pointer;
@@ -247,7 +247,7 @@
   </div>
 </div>
 
-┌─ fourStars @ 1280px
+┌─ fourStars
 <div>
   <div style="
     cursor: pointer;

@@ -1,4 +1,4 @@
-┌─ RTL @ 1280px
+┌─ RTL
 <div>
   <div dir="rtl">
     <div style="
@@ -38,7 +38,7 @@
   </div>
 </div>
 
-┌─ attention @ 1280px
+┌─ attention
 <div>
   <div style="
     display: flex;
@@ -76,7 +76,7 @@
   </div>
 </div>
 
-┌─ confirmation @ 1280px
+┌─ confirmation
 <div>
   <div style="
     display: flex;
@@ -114,7 +114,7 @@
   </div>
 </div>
 
-┌─ general @ 1280px
+┌─ general
 <div>
   <div style="
     display: flex;
@@ -134,7 +134,7 @@
   </div>
 </div>
 
-┌─ information @ 1280px
+┌─ information
 <div>
   <div style="
     display: flex;
@@ -172,7 +172,7 @@
   </div>
 </div>
 
-┌─ longParagraph @ 1280px
+┌─ longParagraph
 <div>
   <div style="
     display: flex;
@@ -210,7 +210,7 @@
   </div>
 </div>
 
-┌─ longParagraphAndLink @ 1280px
+┌─ longParagraphAndLink
 <div>
   <div style="
     display: flex;
@@ -253,7 +253,7 @@
   </div>
 </div>
 
-┌─ longWordInConstrainedWidth @ 1280px
+┌─ longWordInConstrainedWidth
 <div>
   <div style="width: 300px">
     <div style="
@@ -293,7 +293,7 @@
   </div>
 </div>
 
-┌─ multiParagraph @ 1280px
+┌─ multiParagraph
 <div>
   <div style="
     display: flex;
@@ -337,7 +337,7 @@
   </div>
 </div>
 
-┌─ multiParagraphAndLink @ 1280px
+┌─ multiParagraphAndLink
 <div>
   <div style="
     display: flex;
@@ -389,7 +389,7 @@
   </div>
 </div>
 
-┌─ paragraphAndLink @ 1280px
+┌─ paragraphAndLink
 <div>
   <div style="
     display: flex;
@@ -435,7 +435,7 @@
   </div>
 </div>
 
-┌─ textSpacing @ 1280px
+┌─ textSpacing
 <div>
   <div style="
     display: flex;

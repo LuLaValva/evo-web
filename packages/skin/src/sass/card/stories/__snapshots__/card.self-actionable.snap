@@ -1,4 +1,4 @@
-┌─ horizontalButton @ 1280px
+┌─ horizontalButton
 <div>
   <button style="
     background-color: var(--color-background-secondary);
@@ -81,7 +81,7 @@
   </button>
 </div>
 
-┌─ horizontalLink @ 1280px
+┌─ horizontalLink
 <div>
   <a style="
     background-color: var(--color-background-secondary);
@@ -152,7 +152,7 @@
   </a>
 </div>
 
-┌─ verticalButton @ 1280px
+┌─ verticalButton
 <div>
   <button style="
     background-color: var(--color-background-secondary);
@@ -231,7 +231,7 @@
   </button>
 </div>
 
-┌─ verticalLink @ 1280px
+┌─ verticalLink
 <div>
   <a style="
     background-color: var(--color-background-secondary);

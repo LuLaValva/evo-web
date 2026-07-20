@@ -1,4 +1,4 @@
-┌─ internallyActionable @ 1280px
+┌─ internallyActionable
 <div>
   <span style="
     background-color: var(--color-background-secondary);
@@ -110,7 +110,7 @@
   </span>
 </div>
 
-┌─ selfActionableButton @ 1280px
+┌─ selfActionableButton
 <div>
   <button
     disabled
@@ -187,7 +187,7 @@
   </button>
 </div>
 
-┌─ selfActionableLink @ 1280px
+┌─ selfActionableLink
 <div>
   <a style="
     background-color: var(--color-background-secondary);

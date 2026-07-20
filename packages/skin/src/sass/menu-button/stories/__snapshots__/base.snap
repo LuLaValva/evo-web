@@ -1,4 +1,4 @@
-┌─ badged @ 1280px
+┌─ badged
 <div>
   <span style="position: relative">
     <button style="
@@ -292,7 +292,7 @@
   </span>
 </div>
 
-┌─ checkboxItems @ 1280px
+┌─ checkboxItems
 <div>
   <span style="position: relative">
     <button style="
@@ -572,7 +572,7 @@
   </span>
 </div>
 
-┌─ checkboxItemsDisabledItem @ 1280px
+┌─ checkboxItemsDisabledItem
 <div>
   <span style="position: relative">
     <button style="
@@ -852,7 +852,7 @@
   </span>
 </div>
 
-┌─ collapsed @ 1280px
+┌─ collapsed
 <div>
   <span style="position: relative">
     <button style="
@@ -932,7 +932,7 @@
   </span>
 </div>
 
-┌─ collapsedForm @ 1280px
+┌─ collapsedForm
 <div>
   <span style="position: relative">
     <button style="
@@ -1011,7 +1011,7 @@
   </span>
 </div>
 
-┌─ disabled @ 1280px
+┌─ disabled
 <div>
   <span style="position: relative">
     <button
@@ -1094,7 +1094,7 @@
   </span>
 </div>
 
-┌─ expanded @ 1280px
+┌─ expanded
 <div>
   <span style="position: relative">
     <button style="
@@ -1333,7 +1333,7 @@
   </span>
 </div>
 
-┌─ expandedDisabledItem @ 1280px
+┌─ expandedDisabledItem
 <div>
   <span style="position: relative">
     <button style="
@@ -1555,7 +1555,7 @@
   </span>
 </div>
 
-┌─ expandedForm @ 1280px
+┌─ expandedForm
 <div>
   <span style="position: relative">
     <button style="
@@ -1793,7 +1793,7 @@
   </span>
 </div>
 
-┌─ longOptionText @ 1280px
+┌─ longOptionText
 <div>
   <span style="position: relative">
     <button style="
@@ -2015,7 +2015,7 @@
   </span>
 </div>
 
-┌─ menuIcons @ 1280px
+┌─ menuIcons
 <div>
   <span style="position: relative">
     <button style="
@@ -2294,7 +2294,7 @@
   </span>
 </div>
 
-┌─ radioItems @ 1280px
+┌─ radioItems
 <div>
   <span style="position: relative">
     <button style="
@@ -2575,7 +2575,7 @@
   </span>
 </div>
 
-┌─ radioItemsDisabledItem @ 1280px
+┌─ radioItemsDisabledItem
 <div>
   <span style="position: relative">
     <button style="
@@ -2856,7 +2856,7 @@
   </span>
 </div>
 
-┌─ separator @ 1280px
+┌─ separator
 <div>
   <span style="position: relative">
     <button style="
@@ -3086,7 +3086,7 @@
   </span>
 </div>
 
-┌─ textSpacing @ 1280px
+┌─ textSpacing
 <div>
   <span style="position: relative">
     <button style="

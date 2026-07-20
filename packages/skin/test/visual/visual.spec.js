@@ -52,8 +52,11 @@ async function captureStories(mod, width, dir) {
 for (const [storyPath, mod] of Object.entries(storyModules)) {
     const title = mod.default?.title ?? storyPath;
     const visual = mod.default?.parameters?.visual ?? {};
-    // parameters.visual.widths lists *additional* breakpoints for
-    // responsive components; the default width is always captured.
+    // Most components have no width-dependent rules, so their snapshots
+    // are viewport-independent: one capture, labeled by story name alone.
+    // Components that opt in via parameters.visual get width/RTL-suffixed
+    // sections; the default width is always captured alongside.
+    const hasDimensions = (visual.widths?.length ?? 0) > 0 || visual.rtl;
     const widths = [...new Set([...(visual.widths ?? []), DEFAULT_WIDTH])].sort(
         (a, b) => a - b,
     );
@@ -83,6 +86,10 @@ for (const [storyPath, mod] of Object.entries(storyModules)) {
             const defaultBodies = dimensions.get(`${DEFAULT_WIDTH}px`);
             let out = "";
             for (const name of defaultBodies.keys()) {
+                if (!hasDimensions) {
+                    out += `┌─ ${name}\n${defaultBodies.get(name)}\n\n`;
+                    continue;
+                }
                 for (const [suffix, bodies] of dimensions) {
                     const body = bodies.get(name);
                     const isDefault = suffix === `${DEFAULT_WIDTH}px`;

@@ -351,9 +351,11 @@ _is_ updating the baseline.
 
 ### Snapshot Dimensions
 
-By default each story is captured once (LTR at 1280px). Components with
-responsive or direction-sensitive styles opt into extra dimensions in their
-story file's default export:
+By default snapshots are viewport-independent: each story is captured
+once (rendered LTR in a 1280px viewport) and labeled by story name alone —
+most component CSS has no width-dependent rules, so one capture covers
+every viewport. Components with responsive or direction-sensitive styles
+opt into width/RTL-labeled captures in their story file's default export:
 
 ```js
 export default {
@@ -364,8 +366,9 @@ export default {
 };
 ```
 
-- `widths`: additional viewport widths (the 1280px default is always
-  captured). List the breakpoints your `@media` rules actually cross.
+- `widths`: viewport widths to capture (the 1280px default is always
+  captured alongside). List the breakpoints your `@media` rules actually
+  cross.
 - `rtl: true`: adds one RTL capture at the default width.
 
 If you add media queries or direction-sensitive styles to a component,
