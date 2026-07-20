@@ -1,0 +1,38 @@
+{
+  "baseRef": "bf0ed95d1646",
+  "totalStories": 25,
+  "totalSections": 31,
+  "unchangedSections": 35,
+  "components": {
+    "badge": {
+      "changed": 6,
+      "added": 0,
+      "removed": 0
+    },
+    "field": {
+      "changed": 8,
+      "added": 0,
+      "removed": 0
+    },
+    "list": {
+      "changed": 4,
+      "added": 0,
+      "removed": 0
+    },
+    "menu-button": {
+      "changed": 1,
+      "added": 0,
+      "removed": 0
+    },
+    "menu": {
+      "changed": 3,
+      "added": 0,
+      "removed": 0
+    },
+    "switch": {
+      "changed": 9,
+      "added": 0,
+      "removed": 0
+    }
+  }
+}
