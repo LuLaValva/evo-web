@@ -113,7 +113,14 @@ jobs:
             const summary = require('./tools/visual-preview/dist/summary.json');
             const pr = context.payload.pull_request.number;
             const sha = context.payload.pull_request.head.sha.slice(0, 7);
-            const url = `https://opensource.ebay.com/evo-web/previews/pr-${pr}/visual/visual-preview.html`;
+            // Resolve the Pages base URL for this repo (works on forks);
+            // fall back to the default github.io URL, which redirects to a
+            // custom domain when one is configured.
+            const pagesBase = await github.rest.repos
+              .getPages(context.repo)
+              .then((r) => r.data.html_url.replace(/\/$/, ''))
+              .catch(() => `https://${context.repo.owner.toLowerCase()}.github.io/${context.repo.repo}`);
+            const url = `${pagesBase}/previews/pr-${pr}/visual/visual-preview.html`;
             const marker = '### Visual Regression Report';
 
             const lines = [marker, ''];
