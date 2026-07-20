@@ -197,8 +197,8 @@ function buildManifest(baseRef) {
 
 // ---------------------------------------------------------------------------
 // Real story rendering inputs: the viewer renders each changed story's HTML
-// against the actual compiled CSS bundle of each ref (dist/ is committed, so
-// the base bundle comes straight from git). Story files are self-contained
+// against the skin bundle compiled from that ref's SCSS sources (see
+// bundleCssAtRef below). Story files are self-contained
 // ESM modules whose exports return HTML strings; import them via a temp .mjs
 // copy (the skin package is CJS, so .js can't be imported as ESM directly).
 // ---------------------------------------------------------------------------
@@ -256,16 +256,57 @@ async function attachStoryHtml(entries, baseRef) {
     }
 }
 
-function readRefAssets(baseRef) {
-    const BUNDLE = "packages/skin/dist/bundles/skin-full.css";
-    const SPRITE = "packages/skin/dist/svg/icons.svg";
+// The committed dist bundle is only refreshed by full builds, so it can be
+// stale relative to the SCSS a PR actually changes (per-component dist CSS
+// is often rebuilt without the bundle). Compile the bundle from each ref's
+// sources instead so the frames always render the CSS under review; fall
+// back to the committed dist bundle only if a ref's sources don't compile.
+const BUNDLE_SCSS = "packages/skin/src/sass/bundles/skin-full.scss";
+const BUNDLE_DIST = "packages/skin/dist/bundles/skin-full.css";
+const SPRITE_DIST = "packages/skin/dist/svg/icons.svg";
+
+async function compileBundle(rootDir) {
+    const { createRequire } = await import("node:module");
+    const sass = createRequire(path.join(repoRoot, "package.json"))("sass");
+    return sass.compile(path.join(rootDir, BUNDLE_SCSS), {
+        loadPaths: [path.join(repoRoot, "node_modules")],
+        style: "expanded",
+        quietDeps: true,
+        logger: { warn() {}, debug() {} },
+    }).css;
+}
+
+async function bundleCssAtRef(ref) {
+    // ref === null means the working tree.
+    try {
+        if (ref === null) return await compileBundle(repoRoot);
+        const dir = path.join(tmpDir, `ref-${tmpSeq++}`);
+        fs.mkdirSync(dir, { recursive: true });
+        execFileSync(
+            "bash",
+            ["-c", `git archive '${ref}' packages/skin/src | tar -x -C '${dir}'`],
+            { cwd: repoRoot },
+        );
+        return await compileBundle(dir);
+    } catch (err) {
+        console.warn(
+            `visual-preview: compiling skin bundle at ${ref ?? "worktree"} failed ` +
+                `(${err.message.split("\n")[0]}); falling back to committed dist bundle`,
+        );
+        return ref === null
+            ? readWorkingTree(BUNDLE_DIST)
+            : readAtRef(ref, BUNDLE_DIST) || readWorkingTree(BUNDLE_DIST);
+    }
+}
+
+async function readRefAssets(baseRef) {
     const head = {
-        css: readWorkingTree(BUNDLE),
-        sprite: readWorkingTree(SPRITE),
+        css: await bundleCssAtRef(null),
+        sprite: readWorkingTree(SPRITE_DIST),
     };
     const base = {
-        css: readAtRef(baseRef, BUNDLE) || head.css,
-        sprite: readAtRef(baseRef, SPRITE) || head.sprite,
+        css: await bundleCssAtRef(baseRef),
+        sprite: readAtRef(baseRef, SPRITE_DIST) || head.sprite,
     };
     return { base, head };
 }
@@ -293,7 +334,7 @@ const baseRef = resolveBaseRef();
 const { entries, sectionCount, unchangedSections } = buildManifest(baseRef);
 await attachStoryHtml(entries, baseRef);
 const tokens = readTokensCss();
-const assets = readRefAssets(baseRef);
+const assets = await readRefAssets(baseRef);
 
 const data = {
     baseRef,

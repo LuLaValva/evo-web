@@ -518,7 +518,10 @@
         ".vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}";
     const FRAME_BODY_CSS =
         "body{margin:16px;background:var(--color-background-primary,#fff);" +
-        "color:var(--color-foreground-primary,#111)}";
+        "color:var(--color-foreground-primary,#111)}" +
+        // Storybook helper class (.storybook/custom-styles.css) some
+        // font-size stories rely on.
+        ".font-large{font-size:200%}";
 
     // Real rendering: the story's own HTML against a ref's compiled CSS
     // bundle. srcdoc documents execute embedded story <script>s natively
@@ -526,14 +529,18 @@
     function realFrameDoc(storyHtml, dim, ref) {
         const css = ref === "base" ? CSS_BASE : CSS_HEAD;
         const sprite = ref === "base" ? SPRITE_BASE : SPRITE_HEAD;
-        // color-scheme keeps UA form controls legible in forced dark mode
-        const dark =
+        // The bundle embeds dark tokens in a prefers-color-scheme media
+        // block, which would follow the reviewer's OS theme; re-assert the
+        // light tokens AFTER the bundle so the viewer's Light/Dark toggle
+        // is the only thing that switches themes. color-scheme keeps UA
+        // form controls matching the forced theme either way.
+        const theme =
             state.theme === "dark"
-                ? "<style>" + TOKENS_DARK + ":root{color-scheme:dark}</style>"
-                : "";
+                ? "<style>" + TOKENS_LIGHT + TOKENS_DARK + ":root{color-scheme:dark}</style>"
+                : "<style>" + TOKENS_LIGHT + ":root{color-scheme:light}</style>";
         return (
             '<!doctype html><html dir="' + (dim.rtl ? "rtl" : "ltr") + '">' +
-            "<head><style>" + TOKENS_LIGHT + "</style><style>" + css + "</style>" + dark +
+            "<head><style>" + css + "</style>" + theme +
             "<style>" + FRAME_BODY_CSS + HIGHLIGHT_CSS + "</style></head>" +
             '<body class="' + (state.highlights ? "vhd-on" : "") + '">' +
             '<div hidden aria-hidden="true">' + sprite + "</div>" +
