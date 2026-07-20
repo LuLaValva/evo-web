@@ -103,6 +103,7 @@
     nav .story:hover { background: color-mix(in srgb, var(--accent) 10%, transparent); }
     nav .story.active { background: color-mix(in srgb, var(--accent) 18%, transparent); }
     nav .story .name { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    nav .story .name small { color: var(--fg-muted); }
     nav .story .tick { color: var(--added); visibility: hidden; }
     nav .story.reviewed .tick { visibility: visible; }
     nav .story.reviewed .name { color: var(--fg-muted); }
@@ -144,7 +145,8 @@
     .pane { flex: 1 1 0; min-width: 0; }
     .pane h3, .stack h3 { margin: 0 0 6px; font-size: 12px; color: var(--fg-muted); font-weight: 600; }
 
-    /* Frames render at capture width inside, scaled to fit the pane. */
+    /* Fluid frames fill the pane; fixed-width dims render at capture width
+       and scale down to fit. */
     .frame-wrap {
         position: relative;
         overflow: hidden;
@@ -157,18 +159,29 @@
         border: 0;
         display: block;
         transform-origin: top left;
+    }
+    .frame-wrap.fixed iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .frame-wrap.fluid iframe { width: 100%; }
+    .frame-wrap.fluid.stacked { width: 100%; }
+    .frame-wrap.fluid.stacked iframe {
         position: absolute;
         top: 0;
         left: 0;
     }
     .zoom-note { font-size: 11px; color: var(--fg-muted); margin-top: 4px; }
 
-    .stack { width: fit-content; max-width: 100%; }
+    .stack { max-width: 100%; }
+    .stack.fixed { width: fit-content; }
     .divider {
         position: absolute; top: 0; bottom: 0; width: 2px;
         background: var(--highlight); pointer-events: none;
         z-index: 2;
     }
+    .frame-wrap.flip iframe { pointer-events: none; }
     .layer-badge {
         position: absolute; top: 6px; right: 6px;
         font-size: 11px; font-weight: 600;
@@ -310,12 +323,16 @@
     <span class="kbd-hint"><kbd>h</kbd> highlights</span>
     <span class="kbd-hint"><kbd>d</kbd> text diff</span>
     <span class="kbd-hint"><kbd>r</kbd> mark reviewed</span>
-    <span style="margin-left:auto">Icon sprites are not embedded; animations are static.</span>
+    <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
     const DATA = /*__DATA__*/;
     const TOKENS_LIGHT = /*__TOKENS_LIGHT__*/;
     const TOKENS_DARK = /*__TOKENS_DARK__*/;
+    const CSS_BASE = /*__CSS_BASE__*/;
+    const CSS_HEAD = /*__CSS_HEAD__*/;
+    const SPRITE_BASE = /*__SPRITE_BASE__*/;
+    const SPRITE_HEAD = /*__SPRITE_HEAD__*/;
 
     // ---------- state ----------
     const state = {
@@ -330,6 +347,16 @@
         onion: 50,
     };
     let flipToggle = null; // set by renderStack in flip mode
+    let reviewedCheckbox = null;
+    let highlightsCheckbox = null;
+
+    function applyHighlights(v) {
+        state.highlights = v;
+        for (const f of liveFrames) {
+            f.contentDocument?.body?.classList.toggle("vhd-on", v);
+        }
+        if (highlightsCheckbox) highlightsCheckbox.checked = v;
+    }
 
     // ---------- reviewed store (content-addressed) ----------
     function hash(str) {
@@ -344,6 +371,10 @@
         v ? localStorage.setItem(reviewedKey(e), "1") : localStorage.removeItem(reviewedKey(e));
 
     // ---------- element-level diff engine ----------
+    // Diffs the two snapshot trees; records for each change an index path
+    // into the *visible story DOM* (indices count element children that are
+    // not the synthetic <style> pseudo-style carriers; the story DOM walk
+    // later skips display:none elements to mirror visual-html's pruning).
     function parseFragment(html) {
         return new DOMParser().parseFromString("<body>" + html, "text/html").body;
     }
@@ -375,17 +406,38 @@
     function nodeLabel(el) {
         return el.tagName.toLowerCase();
     }
+    // Index of each child among the non-STYLE element children (STYLE nodes
+    // in snapshots are synthetic and don't exist in the story DOM).
+    function storyIndices(parent) {
+        const out = [];
+        let i = 0;
+        for (const el of parent.children) {
+            out.push(el.tagName === "STYLE" ? null : i++);
+        }
+        return out;
+    }
     let nextId = 0;
-    function diffTrees(bParent, aParent, path, changes) {
+    function diffTrees(bParent, aParent, path, changes, bPath, aPath) {
         const bKids = [...bParent.children];
         const aKids = [...aParent.children];
+        const bIdx = storyIndices(bParent);
+        const aIdx = storyIndices(aParent);
         const pairs = lcsPairs(bKids, aKids, (x, y) => x.tagName === y.tagName);
         const bMatched = new Set(pairs.map((p) => p[0]));
         const aMatched = new Set(pairs.map((p) => p[1]));
         bKids.forEach((el, i) => {
             if (!bMatched.has(i)) {
                 el.setAttribute("data-vhd", "removed");
-                changes.push({ id: null, side: "before", path: path.concat(nodeLabel(el)), props: [{ name: "(element)", before: "present", after: "removed" }] });
+                const id = "vhd" + nextId++;
+                el.setAttribute("data-vhd-id", id);
+                changes.push({
+                    id,
+                    kind: "removed",
+                    path: path.concat(nodeLabel(el)),
+                    pathB: bIdx[i] === null ? null : bPath.concat(bIdx[i]),
+                    pathA: null,
+                    props: [{ name: "(element)", before: "present", after: "removed" }],
+                });
             }
         });
         aKids.forEach((el, i) => {
@@ -393,14 +445,28 @@
                 el.setAttribute("data-vhd", "added");
                 const id = "vhd" + nextId++;
                 el.setAttribute("data-vhd-id", id);
-                changes.push({ id, side: "after", path: path.concat(nodeLabel(el)), props: [{ name: "(element)", before: "absent", after: "added" }] });
+                changes.push({
+                    id,
+                    kind: "added",
+                    path: path.concat(nodeLabel(el)),
+                    pathB: null,
+                    pathA: aIdx[i] === null ? null : aPath.concat(aIdx[i]),
+                    props: [{ name: "(element)", before: "absent", after: "added" }],
+                });
             }
         });
         for (const [bi, ai] of pairs) {
-            compareElement(bKids[bi], aKids[ai], path.concat(nodeLabel(aKids[ai])), changes);
+            compareElement(
+                bKids[bi],
+                aKids[ai],
+                path.concat(nodeLabel(aKids[ai])),
+                changes,
+                bIdx[bi] === null ? bPath : bPath.concat(bIdx[bi]),
+                aIdx[ai] === null ? aPath : aPath.concat(aIdx[ai]),
+            );
         }
     }
-    function compareElement(b, a, path, changes) {
+    function compareElement(b, a, path, changes, bPath, aPath) {
         const props = [];
         if (b.tagName === "STYLE") {
             if (b.textContent !== a.textContent) {
@@ -431,144 +497,203 @@
             a.setAttribute("data-vhd", a.getAttribute("data-vhd") || "changed");
             b.setAttribute("data-vhd-id", id);
             a.setAttribute("data-vhd-id", id);
-            changes.push({ id, side: "both", path, props });
+            changes.push({ id, kind: "changed", path, pathB: bPath, pathA: aPath, props });
         }
-        if (b.tagName !== "STYLE") diffTrees(b, a, path, changes);
+        if (b.tagName !== "STYLE") diffTrees(b, a, path, changes, bPath, aPath);
     }
     function annotate(dim) {
         const bRoot = parseFragment(dim.before);
         const aRoot = parseFragment(dim.after);
         const changes = [];
         nextId = 0;
-        if (dim.before && dim.after) diffTrees(bRoot, aRoot, [], changes);
+        if (dim.before && dim.after) diffTrees(bRoot, aRoot, [], changes, [], []);
         return { beforeHtml: bRoot.innerHTML, afterHtml: aRoot.innerHTML, changes };
     }
 
-    // ---------- frames (capture-width inside, scaled to fit) ----------
-    const FRAME_CSS =
-        "body{margin:16px;background:var(--color-background-primary,#fff);" +
-        "color:var(--color-foreground-primary,#111);" +
-        'font-family:"Market Sans",Arial,sans-serif}' +
-        "body.vhd-on [data-vhd=changed]{outline:2px dashed var(--vhd,#c026d3);outline-offset:2px}" +
+    // ---------- frames ----------
+    const HIGHLIGHT_CSS =
+        "body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}" +
         "body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}" +
         "body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}" +
         ".vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}";
-    function frameDoc(html, dim) {
-        const dark = state.theme === "dark" ? "<style>" + TOKENS_DARK + "</style>" : "";
+    const FRAME_BODY_CSS =
+        "body{margin:16px;background:var(--color-background-primary,#fff);" +
+        "color:var(--color-foreground-primary,#111)}";
+
+    // Real rendering: the story's own HTML against a ref's compiled CSS
+    // bundle. srcdoc documents execute embedded story <script>s natively
+    // (dialogs open themselves), and the ref's icon sprite is inlined.
+    function realFrameDoc(storyHtml, dim, ref) {
+        const css = ref === "base" ? CSS_BASE : CSS_HEAD;
+        const sprite = ref === "base" ? SPRITE_BASE : SPRITE_HEAD;
+        // color-scheme keeps UA form controls legible in forced dark mode
+        const dark =
+            state.theme === "dark"
+                ? "<style>" + TOKENS_DARK + ":root{color-scheme:dark}</style>"
+                : "";
+        return (
+            '<!doctype html><html dir="' + (dim.rtl ? "rtl" : "ltr") + '">' +
+            "<head><style>" + TOKENS_LIGHT + "</style><style>" + css + "</style>" + dark +
+            "<style>" + FRAME_BODY_CSS + HIGHLIGHT_CSS + "</style></head>" +
+            '<body class="' + (state.highlights ? "vhd-on" : "") + '">' +
+            '<div hidden aria-hidden="true">' + sprite + "</div>" +
+            storyHtml +
+            "</body></html>"
+        );
+    }
+    // Fallback when the story source is unavailable at a ref: render the
+    // snapshot's inlined-styles HTML. visual-html self-closes childless
+    // non-void elements, which HTML parsers reject — expand them first.
+    const VOID_TAGS = /^(?:area|base|br|col|embed|hr|img|input|link|meta|source|track|wbr|use|path|circle|rect|line|polyline|polygon|ellipse|stop)$/;
+    function expandSelfClosed(html) {
+        return html.replace(
+            /<([a-z][a-z0-9-]*)((?:[^<>"]|"[^"]*")*)\/>/gi,
+            (m, tag, attrs) =>
+                VOID_TAGS.test(tag.toLowerCase()) ? m : "<" + tag + attrs + "></" + tag + ">",
+        );
+    }
+    function snapshotFrameDoc(snapshotHtml, dim) {
+        const dark =
+            state.theme === "dark"
+                ? "<style>" + TOKENS_DARK + ":root{color-scheme:dark}</style>"
+                : "";
         return (
             '<!doctype html><html dir="' + (dim.rtl ? "rtl" : "ltr") + '">' +
             "<head><style>" + TOKENS_LIGHT + "</style>" + dark +
-            "<style>" + FRAME_CSS + "</style></head>" +
-            '<body class="' + (state.highlights ? "vhd-on" : "") + '">' + html + "</body></html>"
+            "<style>" + FRAME_BODY_CSS + HIGHLIGHT_CSS +
+            'body{font-family:"Market Sans",Arial,sans-serif}</style></head>' +
+            '<body class="' + (state.highlights ? "vhd-on" : "") + '">' +
+            expandSelfClosed(snapshotHtml) +
+            "</body></html>"
         );
     }
 
     let liveFrames = [];
     let scaledWraps = [];
 
-    // A wrapper that renders one or more stacked iframes at dim.width and
-    // scales them uniformly so the wrapper fits availWidth().
+    // Walk the story DOM by visible-children indices (skipping
+    // display:none subtrees, mirroring visual-html's pruning).
+    function walkVisible(root, idxPath, win) {
+        let el = root;
+        for (const i of idxPath) {
+            const kids = [...el.children].filter(
+                (k) => win.getComputedStyle(k).display !== "none",
+            );
+            el = kids[i];
+            if (!el) return null;
+        }
+        return el;
+    }
+    function applyRealHighlights(iframe, changes, side) {
+        const doc = iframe.contentDocument;
+        const win = iframe.contentWindow;
+        if (!doc || !win) return;
+        // Snapshot paths are rooted at the harness capture container <div>,
+        // which has no counterpart in the real frame (story HTML sits
+        // directly in <body>, after the hidden sprite div — display:none,
+        // so walkVisible skips it). Drop the leading container index and
+        // walk the rest from <body>.
+        for (const c of changes) {
+            const p = side === "before" ? c.pathB : c.pathA;
+            if (!p || p.length < 2 || p[0] !== 0) continue;
+            const el = walkVisible(doc.body, p.slice(1), win);
+            if (!el) continue;
+            const expected = c.path[c.path.length - 1];
+            if (expected && el.tagName.toLowerCase() !== expected) continue;
+            el.setAttribute("data-vhd", c.kind);
+            el.setAttribute("data-vhd-id", c.id);
+        }
+    }
+
+    // A wrapper holding one or more stacked iframes. Fluid wraps track the
+    // pane width; fixed wraps render at dim.width and scale to fit.
     function makeWrap(dim, availWidth) {
         const wrap = document.createElement("div");
-        wrap.className = "frame-wrap";
+        wrap.className = "frame-wrap " + (dim.width === null ? "fluid" : "fixed");
+        wrap._fluid = dim.width === null;
         wrap._natW = dim.width;
         wrap._natH = 160;
-        wrap._contentL = Infinity;
-        wrap._contentR = 0;
         wrap._availWidth = availWidth;
         wrap._frames = [];
         scaledWraps.push(wrap);
         return wrap;
     }
-    function addFrame(wrap, html, dim, onload) {
+    function addFrame(wrap, doc, { onload, annotate: annotateFn } = {}) {
         const iframe = document.createElement("iframe");
-        iframe.style.width = dim.width + "px";
+        if (!wrap._fluid) iframe.style.width = wrap._natW + "px";
         iframe.style.height = "160px";
         iframe.onload = () => {
-            const doc = iframe.contentDocument;
-            const h = Math.min(
-                Math.max(doc.documentElement.scrollHeight, 120),
-                900,
-            );
-            iframe.style.height = h + "px";
-            wrap._natH = Math.max(
-                ...wrap._frames.map((f) => parseInt(f.style.height) || 160),
-            );
-            wrap._frames.forEach((f) => (f.style.height = wrap._natH + "px"));
-            // Small components sit in a mostly-empty capture-width canvas;
-            // crop the visible canvas (both sides — RTL content anchors
-            // right) to the *painted* extent so they aren't scaled into
-            // oblivion. Snapshots inline all visual styles, so "paints" is
-            // detectable from the style attribute; block wrappers that
-            // merely span the width don't count, but a full-width painted
-            // track (e.g. progress bar) does.
-            let right = 0;
-            let left = Infinity;
-            const seen = (rect) => {
-                right = Math.max(right, rect.right);
-                left = Math.min(left, rect.left);
-            };
-            for (const el of doc.body.querySelectorAll("*")) {
-                const st = el.getAttribute("style") || "";
-                const paints = /background|border|box-shadow|outline/.test(st);
-                const replaced = /^(IMG|SVG|VIDEO|INPUT|SELECT|TEXTAREA|BUTTON)$/.test(el.tagName);
-                if (paints || replaced) seen(el.getBoundingClientRect());
+            if (annotateFn) annotateFn(iframe);
+            // Keyboard shortcuts must keep working after a click focuses
+            // the frame; forward keydown from the frame document.
+            try {
+                iframe.contentWindow.addEventListener("keydown", onKeydown);
+            } catch {
+                /* cross-origin never happens for srcdoc; belt and braces */
             }
-            const walker = doc.createTreeWalker(doc.body, NodeFilter.SHOW_TEXT);
-            const range = doc.createRange();
-            let textNode;
-            while ((textNode = walker.nextNode())) {
-                if (!textNode.nodeValue.trim()) continue;
-                range.selectNodeContents(textNode);
-                seen(range.getBoundingClientRect());
-            }
-            if (right === 0) {
-                left = 0;
-                right = dim.width;
-            }
-            wrap._contentR = Math.max(wrap._contentR, Math.ceil(right));
-            wrap._contentL = Math.min(wrap._contentL, Math.floor(left));
-            applyScale(wrap);
-            if (onload) onload(iframe, h);
+            measureWrap(wrap);
+            if (onload) onload(iframe);
         };
-        iframe.srcdoc = frameDoc(html, dim);
+        iframe.srcdoc = doc;
         wrap._frames.push(iframe);
         wrap.appendChild(iframe);
         liveFrames.push(iframe);
         return iframe;
     }
+    function measureWrap(wrap) {
+        if (!wrap.isConnected) return;
+        let h = 120;
+        for (const f of wrap._frames) {
+            const d = f.contentDocument;
+            if (d) h = Math.max(h, Math.min(d.documentElement.scrollHeight, 900));
+        }
+        wrap._natH = h;
+        for (const f of wrap._frames) f.style.height = h + "px";
+        applyScale(wrap);
+    }
     function applyScale(wrap) {
         if (!wrap.isConnected) return;
+        if (wrap._fluid) {
+            // width tracks the container; only stacked fluid wraps need an
+            // explicit height (their iframes are absolutely positioned)
+            wrap.style.height = wrap.classList.contains("stacked")
+                ? wrap._natH + "px"
+                : "";
+            if (wrap._zoomNote) wrap._zoomNote.textContent = "";
+            if (wrap._onScale) wrap._onScale();
+            return;
+        }
         const avail = Math.max(120, wrap._availWidth());
-        const cropX =
-            wrap._contentL === Infinity ? 0 : Math.max(0, wrap._contentL - 40);
-        const cropEnd = Math.min(
-            wrap._natW,
-            (wrap._contentR || wrap._natW) + 40,
-        );
-        const cropW = Math.max(120, cropEnd - cropX);
-        wrap._cropX = cropX;
-        wrap._cropW = cropW;
-        const s = Math.min(1, avail / cropW);
+        const s = Math.min(1, avail / wrap._natW);
         wrap._scale = s;
         for (const f of wrap._frames) {
-            f.style.transform =
-                s === 1 && cropX === 0
-                    ? ""
-                    : "scale(" + s + ") translateX(" + -cropX + "px)";
+            f.style.transform = s === 1 ? "" : "scale(" + s + ")";
         }
-        wrap.style.width = Math.round(cropW * s) + "px";
+        wrap.style.width = Math.round(wrap._natW * s) + "px";
         wrap.style.height = Math.round(wrap._natH * s) + "px";
-        const note = wrap._zoomNote;
-        if (note) {
-            const parts = [wrap._natW + "px viewport"];
-            if (cropW < wrap._natW) parts.push("cropped to content");
-            if (s < 1) parts.push("shown at " + Math.round(s * 100) + "%");
-            note.textContent = parts.join(" · ");
+        if (wrap._zoomNote) {
+            wrap._zoomNote.textContent =
+                wrap._natW + "px viewport" +
+                (s < 1 ? " · shown at " + Math.round(s * 100) + "%" : "");
         }
         if (wrap._onScale) wrap._onScale();
     }
-    window.addEventListener("resize", () => scaledWraps.forEach(applyScale));
+    let resizeTimer = null;
+    window.addEventListener("resize", () => {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(() => scaledWraps.forEach(measureWrap), 100);
+    });
+
+    // Builds the frame document for one side of a dim, preferring real
+    // story rendering and falling back to snapshot HTML.
+    function frameDocFor(entry, dim, annotated, side) {
+        const story = side === "base" ? entry.storyBefore : entry.storyAfter;
+        if (story != null) {
+            return { doc: realFrameDoc(story, dim, side), real: true };
+        }
+        const html = side === "base" ? annotated.beforeHtml : annotated.afterHtml;
+        return { doc: snapshotFrameDoc(html, dim), real: false };
+    }
 
     // ---------- rendering ----------
     const summaryEl = document.getElementById("summary");
@@ -582,6 +707,22 @@
         DATA.entries.length + " changed stor" + (DATA.entries.length === 1 ? "y" : "ies") +
         " (" + DATA.sectionCount + " sections) across " + componentCount +
         " components — vs " + DATA.baseRefShort;
+
+    // Disambiguate duplicate story names within a component with the
+    // snapshot file's basename.
+    {
+        const seen = new Map();
+        for (const e of DATA.entries) {
+            const k = e.component + "/" + e.story;
+            seen.set(k, (seen.get(k) || 0) + 1);
+        }
+        for (const e of DATA.entries) {
+            e._qualifier =
+                seen.get(e.component + "/" + e.story) > 1
+                    ? e.file.replace(/^.*__snapshots__\//, "").replace(/\.snap$/, "")
+                    : null;
+        }
+    }
 
     function esc(s) {
         return s.replace(/&/g, "&amp;").replace(/</g, "&lt;");
@@ -618,20 +759,33 @@
             const name = document.createElement("span");
             name.className = "name";
             name.textContent = entry.story;
+            if (entry._qualifier) {
+                const small = document.createElement("small");
+                small.textContent = " · " + entry._qualifier;
+                name.appendChild(small);
+            }
             name.title = entry.file;
-            const dims = document.createElement("span");
-            dims.className = "chip";
-            dims.textContent = entry.dims.length === 1 ? entry.dims[0].suffix : entry.dims.length + " dims";
             const tick = document.createElement("span");
             tick.className = "tick";
             tick.textContent = "✓";
-            b.append(dot, name, dims, tick);
+            b.append(dot, name);
+            if (entry.dims.length > 1 || entry.dims[0]?.suffix) {
+                const dims = document.createElement("span");
+                dims.className = "chip";
+                dims.textContent =
+                    entry.dims.length === 1
+                        ? entry.dims[0].suffix
+                        : entry.dims.length + " dims";
+                b.appendChild(dims);
+            }
+            b.appendChild(tick);
             b.onclick = () => selectEntry(entry);
             entry._btn = b;
             listEl.appendChild(b);
         }
     }
     function selectEntry(entry) {
+        if (!entry) return; // e.g. j/k on an empty filtered list
         state.entry = entry;
         state.dimIdx = 0;
         render();
@@ -658,10 +812,15 @@
         c.checked = checked;
         c.onchange = () => onChange(c.checked);
         l.append(c, document.createTextNode(label));
+        l._input = c;
         return l;
     }
 
     function flashChange(id) {
+        // Scroll each frame internally (el.scrollIntoView would also drag
+        // every ancestor scroller, yanking pane labels out of view), then
+        // bring the first frame into the page viewport.
+        let firstWrap = null;
         for (const iframe of liveFrames) {
             const doc = iframe.contentDocument;
             if (!doc) continue;
@@ -669,10 +828,18 @@
             const el = doc.querySelector('[data-vhd-id="' + id + '"]');
             if (el) {
                 el.classList.add("vhd-flash");
-                el.scrollIntoView({ block: "center", behavior: "smooth" });
+                const win = iframe.contentWindow;
+                const r = el.getBoundingClientRect();
+                win.scrollBy({
+                    top: r.top - win.innerHeight / 2,
+                    left: 0,
+                    behavior: "smooth",
+                });
                 setTimeout(() => el.classList.remove("vhd-flash"), 1600);
+                firstWrap ??= iframe.closest(".frame-wrap");
             }
         }
+        firstWrap?.scrollIntoView({ block: "nearest", behavior: "smooth" });
     }
 
     function renderInspector(changes) {
@@ -689,8 +856,9 @@
                 '<span class="where">' + esc(change.path.join(" › ") || "(root)") + "</span> " +
                 '<span class="count">— ' + change.props.length + "</span>";
             btn.onclick = () => {
+                const opening = !row.classList.contains("open");
                 row.classList.toggle("open");
-                if (change.id) flashChange(change.id);
+                if (opening && change.id) flashChange(change.id);
             };
             row.appendChild(btn);
             const table = document.createElement("table");
@@ -720,12 +888,12 @@
         return pre;
     }
 
-    function renderSidePanes(dim, annotated) {
+    function renderSidePanes(entry, dim, annotated) {
         const panes = document.createElement("div");
         panes.className = "panes";
-        for (const [title, html, present] of [
-            ["Base (" + DATA.baseRefShort + ")", annotated.beforeHtml, !!dim.before],
-            ["This PR", annotated.afterHtml, !!dim.after],
+        for (const [title, side, present] of [
+            ["Base (" + DATA.baseRefShort + ")", "base", !!dim.before],
+            ["This PR", "head", !!dim.after],
         ]) {
             const pane = document.createElement("div");
             pane.className = "pane";
@@ -735,11 +903,16 @@
             if (!present) {
                 const np = document.createElement("div");
                 np.className = "not-present";
-                np.textContent = "not present in " + (title === "This PR" ? "this PR" : "base");
+                np.textContent = "not present in " + (side === "head" ? "this PR" : "base");
                 pane.appendChild(np);
             } else {
+                const { doc, real } = frameDocFor(entry, dim, annotated, side);
                 const wrap = makeWrap(dim, () => pane.clientWidth);
-                addFrame(wrap, html, dim);
+                addFrame(wrap, doc, {
+                    annotate: real
+                        ? (f) => applyRealHighlights(f, annotated.changes, side === "base" ? "before" : "after")
+                        : null,
+                });
                 pane.appendChild(wrap);
                 const note = document.createElement("div");
                 note.className = "zoom-note";
@@ -751,16 +924,28 @@
         return panes;
     }
 
-    function renderStack(dim, annotated, mode) {
+    function renderStack(entry, dim, annotated, mode) {
         const stack = document.createElement("div");
-        stack.className = "stack";
+        stack.className = "stack " + (dim.width === null ? "fluid" : "fixed");
         const h = document.createElement("h3");
         stack.appendChild(h);
 
-        const area = stack.parentElement;
-        const wrap = makeWrap(dim, () => mainEl.querySelector(".render-area").clientWidth);
-        const base = addFrame(wrap, annotated.beforeHtml, dim);
-        const top = addFrame(wrap, annotated.afterHtml, dim);
+        const wrap = makeWrap(dim, () =>
+            mainEl.querySelector(".render-area").clientWidth,
+        );
+        wrap.classList.add("stacked");
+        const baseDoc = frameDocFor(entry, dim, annotated, "base");
+        const headDoc = frameDocFor(entry, dim, annotated, "head");
+        const base = addFrame(wrap, baseDoc.doc, {
+            annotate: baseDoc.real
+                ? (f) => applyRealHighlights(f, annotated.changes, "before")
+                : null,
+        });
+        const top = addFrame(wrap, headDoc.doc, {
+            annotate: headDoc.real
+                ? (f) => applyRealHighlights(f, annotated.changes, "after")
+                : null,
+        });
         stack.appendChild(wrap);
         const note = document.createElement("div");
         note.className = "zoom-note";
@@ -782,17 +967,13 @@
             const apply = () => {
                 const p = Number(slider.value);
                 state.swipe = p;
-                // clip-path is in the iframe's local (pre-scale) pixels;
-                // the visible canvas may be cropped/offset, so map p% of
-                // the cropped width to a local x position.
-                const x =
-                    (wrap._cropX ?? 0) + (p / 100) * (wrap._cropW ?? dim.width);
-                top.style.clipPath = "inset(0 " + (dim.width - x) + "px 0 0)";
+                top.style.clipPath = "inset(0 " + (100 - p) + "% 0 0)";
                 divider.style.left = "calc(" + p + "% - 1px)";
             };
             slider.oninput = apply;
             wrap._onScale = () => {
-                controls.style.width = wrap.style.width;
+                controls.style.width =
+                    wrap.style.width && wrap.style.width !== "" ? wrap.style.width : "100%";
                 apply();
             };
             apply();
@@ -821,7 +1002,10 @@
             controls.append(left, slider, right);
             stack.appendChild(controls);
         } else {
-            // flip: toggle in place — no re-render, no iframe reload
+            // flip: toggle in place — no re-render, no iframe reload.
+            // The frames must not intercept the click (or keyboard focus),
+            // so disable pointer events on them in this mode.
+            wrap.classList.add("flip");
             const badge = document.createElement("div");
             badge.className = "layer-badge";
             wrap.appendChild(badge);
@@ -845,13 +1029,17 @@
         return stack;
     }
 
-    function render() {
+    function render({ preserveScroll = false } = {}) {
+        const keepScroll = preserveScroll ? mainEl.scrollTop : 0;
         buildNav();
         renderProgress();
         liveFrames = [];
         scaledWraps = [];
         flipToggle = null;
+        reviewedCheckbox = null;
+        highlightsCheckbox = null;
         mainEl.textContent = "";
+        if (preserveScroll) requestAnimationFrame(() => (mainEl.scrollTop = keepScroll));
         const entry = state.entry;
         if (!entry) {
             mainEl.innerHTML =
@@ -879,9 +1067,12 @@
         if (entry.dims.length > 1) {
             toolbar.appendChild(
                 segment(
-                    entry.dims.map((d, i) => ({ label: d.suffix, value: i })),
+                    entry.dims.map((d, i) => ({
+                        label: d.suffix || "fluid",
+                        value: i,
+                    })),
                     Math.min(state.dimIdx, entry.dims.length - 1),
-                    (v) => { state.dimIdx = v; render(); },
+                    (v) => { state.dimIdx = v; render({ preserveScroll: true }); },
                 ),
             );
         }
@@ -894,7 +1085,7 @@
                     { label: "Flip", value: "flip" },
                 ],
                 state.mode,
-                (v) => { state.mode = v; state.view = "rendered"; render(); },
+                (v) => { state.mode = v; state.view = "rendered"; render({ preserveScroll: true }); },
             ),
         );
         toolbar.appendChild(
@@ -904,7 +1095,7 @@
                     { label: "Text diff", value: "diff" },
                 ],
                 state.view,
-                (v) => { state.view = v; render(); },
+                (v) => { state.view = v; render({ preserveScroll: true }); },
             ),
         );
         toolbar.appendChild(
@@ -914,25 +1105,22 @@
                     { label: "Dark", value: "dark" },
                 ],
                 state.theme,
-                (v) => { state.theme = v; render(); },
+                (v) => { state.theme = v; render({ preserveScroll: true }); },
             ),
         );
-        toolbar.appendChild(
-            toggle("Highlights", state.highlights, (v) => {
-                state.highlights = v;
-                for (const f of liveFrames) f.contentDocument?.body?.classList.toggle("vhd-on", v);
-            }),
-        );
+        const hl = toggle("Highlights", state.highlights, applyHighlights);
+        highlightsCheckbox = hl._input;
+        toolbar.appendChild(hl);
         const grow = document.createElement("div");
         grow.className = "grow";
         toolbar.appendChild(grow);
-        toolbar.appendChild(
-            toggle("Reviewed", isReviewed(entry), (v) => {
-                setReviewed(entry, v);
-                buildNav();
-                renderProgress();
-            }),
-        );
+        const rv = toggle("Reviewed", isReviewed(entry), (v) => {
+            setReviewed(entry, v);
+            buildNav();
+            renderProgress();
+        });
+        reviewedCheckbox = rv._input;
+        toolbar.appendChild(rv);
         mainEl.appendChild(toolbar);
 
         if (state.view === "diff") {
@@ -951,19 +1139,34 @@
         }
         mainEl.appendChild(stage);
         if (state.mode === "side" || !dim.before || !dim.after) {
-            renderArea.appendChild(renderSidePanes(dim, annotated));
+            renderArea.appendChild(renderSidePanes(entry, dim, annotated));
         } else {
-            renderArea.appendChild(renderStack(dim, annotated, state.mode));
+            renderArea.appendChild(renderStack(entry, dim, annotated, state.mode));
         }
-        // containers are attached now; size the frames
         scaledWraps.forEach(applyScale);
     }
 
     // ---------- keyboard ----------
+    // Named so frame documents can forward their keydown events here.
     const MODES = ["side", "swipe", "onion", "flip"];
-    document.addEventListener("keydown", (e) => {
+    function onKeydown(e) {
+        // Never intercept browser/system chords (Ctrl+R must reload, not
+        // toggle review state).
+        if (e.ctrlKey || e.metaKey || e.altKey) return;
         if (e.target === searchEl) {
-            if (e.key === "Escape") searchEl.blur();
+            if (e.key === "Escape") {
+                // The browser clears type=search on Escape without firing
+                // input; keep the filter in sync explicitly.
+                searchEl.value = "";
+                state.filter = "";
+                buildNav();
+                searchEl.blur();
+            }
+            return;
+        }
+        // Don't steal keys from form controls (sliders use arrows, story
+        // content may contain inputs/textareas).
+        if (e.target?.closest?.("input, textarea, select, [contenteditable]")) {
             return;
         }
         const list = visibleEntries();
@@ -973,34 +1176,38 @@
             selectEntry(list[Math.min(idx + 1, list.length - 1)] ?? list[0]);
         } else if (e.key === "k" || e.key === "ArrowUp") {
             e.preventDefault();
-            selectEntry(list[Math.max(idx - 1, 0)] ?? list[0]);
+            selectEntry(list[idx === -1 ? 0 : Math.max(idx - 1, 0)]);
         } else if (e.key >= "1" && e.key <= "9" && state.entry) {
             const i = Number(e.key) - 1;
-            if (i < state.entry.dims.length) { state.dimIdx = i; render(); }
+            if (i < state.entry.dims.length) {
+                state.dimIdx = i;
+                render({ preserveScroll: true });
+            }
         } else if (e.key === "m") {
             state.mode = MODES[(MODES.indexOf(state.mode) + 1) % MODES.length];
             state.view = "rendered";
-            render();
+            render({ preserveScroll: true });
         } else if (e.key === "f" && flipToggle) {
             flipToggle();
         } else if (e.key === "t") {
             state.theme = state.theme === "light" ? "dark" : "light";
-            render();
+            render({ preserveScroll: true });
         } else if (e.key === "h") {
-            state.highlights = !state.highlights;
-            render();
+            applyHighlights(!state.highlights);
         } else if (e.key === "d") {
             state.view = state.view === "diff" ? "rendered" : "diff";
-            render();
+            render({ preserveScroll: true });
         } else if (e.key === "r" && state.entry) {
             setReviewed(state.entry, !isReviewed(state.entry));
             buildNav();
             renderProgress();
+            if (reviewedCheckbox) reviewedCheckbox.checked = isReviewed(state.entry);
         } else if (e.key === "/") {
             e.preventDefault();
             searchEl.focus();
         }
-    });
+    }
+    document.addEventListener("keydown", onKeydown);
     searchEl.oninput = () => {
         state.filter = searchEl.value;
         buildNav();

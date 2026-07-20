@@ -13,7 +13,11 @@ is part of the PR diff.
 An in-house **preview viewer** renders the before/after of every changed
 story so changes can be reviewed visually — side by side, swipe, onion skin,
 or flip — with the exact changed elements outlined and their changed
-properties listed.
+properties listed. Where the story source is available at both refs, the
+viewer renders each story's real HTML against each ref's actual compiled
+CSS bundle (with the icon sprite inlined), at fluid width — so what you
+review is the true rendered result, not a reconstruction from the
+snapshot.
 
 ## Why does my PR have a Visual Regression check?
 
@@ -49,8 +53,14 @@ and tracks which stories you've marked reviewed.
 
 ## Which dimensions are captured?
 
-By default, one capture per story: LTR at 1280px. Components with
-responsive or direction-sensitive CSS opt into more via story parameters:
+By default, snapshots are **viewport-independent**: one capture per story
+(rendered LTR in a 1280px viewport), labeled by story name alone
+(`┌─ storyName`). Most component CSS has no width-dependent rules, so a
+single capture covers every viewport, and the viewer renders these
+stories at fluid width.
+
+Components with responsive or direction-sensitive CSS opt into
+width/RTL-suffixed captures via story parameters:
 
 ```js
 export default {
@@ -61,8 +71,9 @@ export default {
 };
 ```
 
-Captures for secondary dimensions that are identical to the default are
-stored as `(same as 1280px)` references.
+Opted-in stories get one section per dimension (`┌─ storyName @ 320px`,
+`┌─ storyName @ 1280px rtl`, …); secondary dimensions identical to the
+default capture are stored as `(same as 1280px)` references.
 
 ## Why don't snapshots change when I change a token value?
 
@@ -105,8 +116,7 @@ meaningful changed.
 Text snapshots capture structure and applied CSS, not pixels. Paint-level
 issues (font rasterization, image content, browser-specific rendering bugs)
 are not detected — that's what human eyes on the preview viewer are for.
-Icon sprites are not embedded in the viewer (matching Storybook), and
-animations are static.
+Animations are static.
 
 ## History
 
