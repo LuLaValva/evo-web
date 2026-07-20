@@ -123,11 +123,11 @@
             <span style="
               align-items: center;
               background-color: var(--color-background-attention);
-              border-bottom-left-radius: 1.2em;
-              border-bottom-right-radius: 1.2em;
-              border-top-left-radius: 1.2em;
-              border-top-right-radius: 1.2em;
-              border: 2px solid var(--color-border-inverse);
+              border-bottom-left-radius: 0.4em;
+              border-bottom-right-radius: 0.4em;
+              border-top-left-radius: 0.4em;
+              border-top-right-radius: 0.4em;
+              border: 1px solid var(--color-border-inverse);
               box-sizing: border-box;
               color: var(--color-foreground-on-attention);
               display: inline-flex;
@@ -193,11 +193,11 @@
             <span style="
               align-items: center;
               background-color: var(--color-background-attention);
-              border-bottom-left-radius: 1.2em;
-              border-bottom-right-radius: 1.2em;
-              border-top-left-radius: 1.2em;
-              border-top-right-radius: 1.2em;
-              border: 2px solid var(--color-border-inverse);
+              border-bottom-left-radius: 0.4em;
+              border-bottom-right-radius: 0.4em;
+              border-top-left-radius: 0.4em;
+              border-top-right-radius: 0.4em;
+              border: 1px solid var(--color-border-inverse);
               box-sizing: border-box;
               color: var(--color-foreground-on-attention);
               display: inline-flex;
@@ -264,11 +264,11 @@
             <span style="
               align-items: center;
               background-color: var(--color-background-attention);
-              border-bottom-left-radius: 1.2em;
-              border-bottom-right-radius: 1.2em;
-              border-top-left-radius: 1.2em;
-              border-top-right-radius: 1.2em;
-              border: 2px solid var(--color-border-inverse);
+              border-bottom-left-radius: 0.4em;
+              border-bottom-right-radius: 0.4em;
+              border-top-left-radius: 0.4em;
+              border-top-right-radius: 0.4em;
+              border: 1px solid var(--color-border-inverse);
               box-sizing: border-box;
               color: var(--color-foreground-on-attention);
               display: inline-flex;
