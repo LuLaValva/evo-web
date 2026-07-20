@@ -25,14 +25,14 @@ span.switch__button {
         var(--color-background-secondary)
     );
     border-color: var(--switch-border-color, var(--color-border-strong));
-    border-radius: 400px;
+    border-radius: 8px;
     border-style: solid;
     border-width: 1px;
     color: transparent;
     display: inline-block;
     position: relative;
     text-indent: 100%;
-    width: 40px;
+    width: 48px;
 }
 
 span.switch__button,
