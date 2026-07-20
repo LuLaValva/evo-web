@@ -74,6 +74,7 @@ jobs:
           retention-days: 14
 
       - name: Deploy viewer to PR preview site
+        id: deploy
         # Same-repo PRs only (fork PR tokens cannot push); reuses the
         # gh-pages previews/pr-N/ convention from preview.yml, which
         # preview-cleanup.yml already removes on PR close.
@@ -85,6 +86,7 @@ jobs:
           repo_url="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          pushed=false
           for attempt in 1 2 3; do
             rm -rf node_modules/.cache/gh-pages
             if npx gh-pages \
@@ -95,12 +97,57 @@ jobs:
               --add \
               --message "visual preview: pr-${{ github.event.pull_request.number }} @ ${{ github.sha }}" \
               --repo "$repo_url"; then
-              exit 0
+              pushed=true
+              break
             fi
             echo "gh-pages push failed (attempt ${attempt}); retrying."
             sleep $((attempt * 3))
           done
-          echo "Failed to deploy visual preview after 3 attempts (artifact is still available)."
+          if $pushed; then
+            echo "sha=$(git ls-remote "$repo_url" gh-pages | cut -f1)" >> "$GITHUB_OUTPUT"
+          else
+            echo "Failed to deploy visual preview after 3 attempts (artifact is still available)."
+          fi
+
+      - name: Wait for GitHub Pages deployment
+        # Delay the report comment until the deployed viewer URL actually
+        # serves. Unlike preview.yml, never fail the check on Pages status:
+        # an "error" state usually means a concurrent gh-pages push
+        # superseded this build, and the newer build still serves our files.
+        if: steps.deploy.outputs.sha != ''
+        run: |
+          set -uo pipefail
+          sha="${{ steps.deploy.outputs.sha }}"
+          api="https://api.github.com/repos/${{ github.repository }}"
+          auth=(-H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" -H "Accept: application/vnd.github+json")
+          gh_api() { curl -s --max-time 15 "${auth[@]}" "$@"; }
+
+          id=""
+          for attempt in $(seq 1 30); do
+            if [ -z "$id" ]; then
+              id=$(gh_api "${api}/deployments?sha=${sha}&environment=github-pages" | jq -r 'if type=="array" and length>0 then .[0].id else empty end')
+              if [ -z "$id" ]; then
+                echo "No GitHub Pages deployment recorded yet for ${sha} (attempt ${attempt}/30)..."
+                sleep 10
+                continue
+              fi
+            fi
+
+            state=$(gh_api "${api}/deployments/${id}/statuses" | jq -r 'if type=="array" and length>0 then .[0].state else empty end')
+
+            if [ "$state" = "success" ]; then
+              echo "GitHub Pages deployment for ${sha} succeeded."
+              exit 0
+            fi
+            if [ "$state" = "failure" ] || [ "$state" = "error" ]; then
+              echo "::warning::GitHub Pages deployment for ${sha} reported ${state} (likely superseded by a newer gh-pages push); posting the link anyway."
+              exit 0
+            fi
+
+            echo "GitHub Pages deployment for ${sha} is ${state:-pending} (attempt ${attempt}/30)..."
+            sleep 10
+          done
+          echo "::warning::GitHub Pages deployment did not confirm within 5 minutes; posting the link anyway."
 
       - name: Post visual report comment
         if: github.event.pull_request.head.repo.full_name == github.repository
