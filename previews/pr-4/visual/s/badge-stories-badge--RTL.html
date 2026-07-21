@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>badge / RTL — visual review</title>
+<link rel="stylesheet" href="../assets/viewer.css" />
+</head>
+<body>
+<header>
+    <a class="back" href="../index.html">← All changes</a>
+    <h1 id="title"></h1>
+    <span class="meta" id="path"></span>
+    <span class="pagenav">
+        <a id="prev" href="#">‹ prev</a>
+        <span class="pos" id="pos"></span>
+        <a id="next" href="#">next ›</a>
+    </span>
+</header>
+<main id="main"></main>
+<footer class="note">
+    <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
+    <span class="kbd-hint"><kbd>1</kbd>–<kbd>9</kbd> dimension</span>
+    <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
+    <span class="kbd-hint"><kbd>f</kbd> flip (in flip mode)</span>
+    <span class="kbd-hint"><kbd>t</kbd> theme</span>
+    <span class="kbd-hint"><kbd>h</kbd> highlights</span>
+    <span class="kbd-hint"><kbd>d</kbd> text diff</span>
+    <span class="kbd-hint"><kbd>x</kbd> flag</span>
+    <span class="kbd-hint"><kbd>Esc</kbd> back to list</span>
+    <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
+</footer>
+<script>
+    const PAGE = {"entry":{"component":"badge","story":"RTL","file":"packages/skin/src/sass/badge/stories/__snapshots__/badge.snap","dims":[{"suffix":"","width":null,"rtl":false,"status":"changed","before":"<div>\n  <div dir=\"rtl\">\n    <span style=\"\n      align-items: center;\n      background-color: var(--color-background-attention);\n      border-bottom-left-radius: 1.2em;\n      border-bottom-right-radius: 1.2em;\n      border-top-left-radius: 1.2em;\n      border-top-right-radius: 1.2em;\n      border: 2px solid var(--color-border-inverse);\n      box-sizing: border-box;\n      color: var(--color-foreground-on-attention);\n      display: inline-flex;\n      font-size: var(--font-size-smallest);\n      height: 2.4em;\n      justify-content: center;\n      min-width: 2.4em;\n      padding-inline: var(--spacing-50);\n      text-wrap-mode: nowrap\n    \">\n      +99\n    <\/span>\n  <\/div>\n<\/div>","after":"<div>\n  <div dir=\"rtl\">\n    <span style=\"\n      align-items: center;\n      background-color: var(--color-background-attention);\n      border-bottom-left-radius: 0.4em;\n      border-bottom-right-radius: 0.4em;\n      border-top-left-radius: 0.4em;\n      border-top-right-radius: 0.4em;\n      border: 1px solid var(--color-border-inverse);\n      box-sizing: border-box;\n      color: var(--color-foreground-on-attention);\n      display: inline-flex;\n      font-size: var(--font-size-smallest);\n      height: 2.4em;\n      justify-content: center;\n      min-width: 2.4em;\n      padding-inline: var(--spacing-50);\n      text-wrap-mode: nowrap\n    \">\n      +99\n    <\/span>\n  <\/div>\n<\/div>","diff":"@@ -3,11 +3,11 @@\n     <span style=\"\n       align-items: center;\n       background-color: var(--color-background-attention);\n-      border-bottom-left-radius: 1.2em;\n-      border-bottom-right-radius: 1.2em;\n-      border-top-left-radius: 1.2em;\n-      border-top-right-radius: 1.2em;\n-      border: 2px solid var(--color-border-inverse);\n+      border-bottom-left-radius: 0.4em;\n+      border-bottom-right-radius: 0.4em;\n+      border-top-left-radius: 0.4em;\n+      border-top-right-radius: 0.4em;\n+      border: 1px solid var(--color-border-inverse);\n       box-sizing: border-box;\n       color: var(--color-foreground-on-attention);\n       display: inline-flex;\n"}],"storyBefore":"\n<div dir=\"rtl\">\n    <span class=\"badge\">+99<\/span>\n<\/div>\n","storyAfter":"\n<div dir=\"rtl\">\n    <span class=\"badge\">+99<\/span>\n<\/div>\n"},"baseRefShort":"5968af6dc6de","prevHref":null,"nextHref":"badge-stories-badge--empty.html","indexHref":"../index.html","pos":1,"total":25,"slug":"badge-stories-badge--RTL","hash":"19qk40c"};
+</script>
+<script src="../assets/story.js"></script>
+</body>
+</html>
