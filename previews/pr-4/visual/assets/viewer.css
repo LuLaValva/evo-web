@@ -61,9 +61,6 @@ nav#sidebar {
     flex-direction: column;
     min-height: 0;
 }
-nav#sidebar #search { width: auto; margin: 10px 12px 4px; }
-nav#sidebar #storylist { overflow-y: auto; flex: 1; padding: 0 6px 12px; max-width: none; }
-nav#sidebar a.story { font-size: 13px; padding: 5px 8px; }
 nav#sidebar a.story.active {
     background: color-mix(in srgb, var(--accent) 18%, transparent);
 }
@@ -98,9 +95,9 @@ main {
     width: 100%;
 }
 
-/* ---------- index story list ---------- */
+/* ---------- sidebar story list ---------- */
 #search {
-    margin: 14px 18px 2px;
+    margin: 10px 12px 4px;
     padding: 7px 10px;
     border: 1px solid var(--border);
     border-radius: 8px;
@@ -108,9 +105,8 @@ main {
     color: var(--fg);
     font: inherit;
     font-size: 13px;
-    width: min(420px, calc(100% - 36px));
 }
-#storylist { padding: 4px 6px 24px; max-width: 760px; }
+#storylist { overflow-y: auto; flex: 1; padding: 0 6px 12px; }
 #storylist h2 {
     font-size: 11px;
     text-transform: uppercase;
@@ -122,9 +118,9 @@ a.story {
     display: flex;
     align-items: center;
     gap: 8px;
-    padding: 6px 12px;
+    padding: 5px 8px;
     border-radius: 8px;
-    font-size: 13.5px;
+    font-size: 13px;
     text-decoration: none;
     color: var(--accent);
 }
@@ -157,10 +153,8 @@ a.story.flagged .flagmark { visibility: visible; }
     flex: none;
     background: var(--bg);
 }
-.dot { width: 8px; height: 8px; border-radius: 50%; flex: none; }
-.dot.changed { background: var(--changed); }
-.dot.added { background: var(--added); }
-.dot.removed { background: var(--removed); }
+.chip.added { color: var(--added); border-color: var(--added); }
+.chip.removed { color: var(--removed); border-color: var(--removed); }
 
 /* ---------- story page toolbar & stage ---------- */
 .toolbar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
@@ -333,8 +327,9 @@ pre.diff .hunk { color: var(--accent); }
 
 /* Index intro pane */
 .intro { max-width: 640px; }
-.intro h1 { font-size: 24px; margin: 8px 0 2px; }
-.intro .subheading { color: var(--fg-muted); font-size: 15px; margin: 0 0 16px; }
+.intro hgroup { margin: 8px 0 16px; }
+.intro h1 { font-size: 24px; margin: 0 0 2px; }
+.intro .subheading { color: var(--fg-muted); font-size: 15px; margin: 0; }
 kbd {
     background: var(--bg-inset);
     border: 1px solid var(--border);
