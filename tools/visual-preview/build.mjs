@@ -688,7 +688,12 @@ const summaryText = entries.length
 const prNumber = arg("--pr-number");
 const prUrl = arg("--pr-url");
 const prTitle = arg("--pr-title");
+// Heading + subtitle use the HTML-spec pattern for subheadings: an
+// <hgroup> wrapping the heading and a <p> (h1-h6 must not be used for
+// subtitles; hgroup is exposed to AT as a group with the h1 as the sole
+// heading).
 const intro =
+    "<hgroup>" +
     (prNumber
         ? "<h1>Visual Differences from " +
           (prUrl ? '<a href="' + escAttr(prUrl) + '">' : "<a>") +
@@ -698,6 +703,7 @@ const intro =
               : "")
         : "<h1>Visual Differences</h1>" +
           '<p class="subheading">working tree vs ' + escapeHtml(baseRefShort) + "</p>") +
+    "</hgroup>" +
     "<p>Review is local to your browser and won\u2019t be shared, please leave comments in GitHub!</p>";
 
 const indexHtml = fs
