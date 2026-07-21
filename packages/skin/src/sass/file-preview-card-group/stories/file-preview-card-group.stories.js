@@ -105,18 +105,6 @@ export const mixedTypesWithDetails = () => `
     </div>
 `;
 
-export const RTL = () => `
-    <div class="file-preview-card-group" dir="rtl">
-        <ul>
-            ${withDescription()}
-            ${squareImage()}
-            ${portraitImage()}
-            ${video()}
-            ${landscapeImage()}
-        </ul>
-    </div>
-`;
-
 export const _320container = () => `
     <div style="width: 320px; border: 1px dashed orange;">
         <div class="file-preview-card-group">

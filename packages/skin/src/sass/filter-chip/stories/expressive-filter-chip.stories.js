@@ -48,20 +48,6 @@ export const anchorSelected = () => `
 </a>
 `;
 
-export const RTL = () => `
-<div dir="rtl">
-    <button class="filter-chip filter-chip--expressive" type="button" aria-pressed="false">
-        <span class="filter-chip__media">
-            <img
-                src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg"
-                alt=""
-            >
-        </span>
-        <span class="filter-chip__text">Football</span>
-    </button>
-</div>
-`;
-
 export const textSpacing = () => `
 <button class="filter-chip filter-chip--expressive demo-a11y-text-spacing" type="button" aria-pressed="false">
     <span class="filter-chip__media">

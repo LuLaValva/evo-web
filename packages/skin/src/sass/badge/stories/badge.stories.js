@@ -16,12 +16,6 @@ export const threeDigits = () => `
 <span class="badge">99+</span>
 `;
 
-export const RTL = () => `
-<div dir="rtl">
-    <span class="badge">+99</span>
-</div>
-`;
-
 export const textSpacing = () => `
 <span class="badge demo-a11y-text-spacing">99+</span>
 `;

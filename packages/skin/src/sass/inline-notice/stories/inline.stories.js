@@ -13,21 +13,6 @@ export const confirmation = () => `
 </div>
 `;
 
-export const RTL = () => `
-<div dir="rtl">
-    <div class="inline-notice inline-notice--confirmation">
-        <span class="inline-notice__header">
-            <svg class="icon icon--16" role="img">
-                <use href="#icon-confirmation-filled-16"></use>
-            </svg>
-        </span>
-        <span class="inline-notice__main">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </span>
-    </div>
-</div>
-`;
-
 export const attention = () => `
 <div class="inline-notice inline-notice--attention">
     <span class="inline-notice__header">

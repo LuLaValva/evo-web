@@ -2,7 +2,7 @@ import { listBundles, runCSSBuild } from "./generate-bundle";
 import { runGenerate } from "./generate-images";
 import { verifyBuild } from "./verify-build";
 import { generateTopLevel, cleanTopLevel } from "./generate-imports";
-import { copySVGIcons, copyCustomStyles, copySVGFlags } from "./storybook/copy";
+import { copySVGIcons, copySVGFlags } from "./storybook/copy";
 import { tokens } from "./tokens";
 import { copyMasterIcons } from "./copy-master-icons";
 import yargs from "yargs";
@@ -91,19 +91,11 @@ yargs(hideBin(process.argv))
                 type: "boolean",
                 default: true,
             });
-            yargs.option("no-styles", {
-                describe: "Skips copying styles. Default is false",
-                type: "boolean",
-                default: true,
-            });
         },
         (yargs) => {
             if (yargs.noSvg) {
                 copySVGIcons();
                 copySVGFlags();
-            }
-            if (yargs.noStyles) {
-                copyCustomStyles();
             }
         },
     )

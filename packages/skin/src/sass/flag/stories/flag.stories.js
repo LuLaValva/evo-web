@@ -9,17 +9,6 @@ export const insideHeading = () => `
 </h2>
 `;
 
-export const RTLInsideHeading = () => `
-<div dir="rtl">
-    <h2>
-        <svg class="flag flag--us">
-            <use href="#flag-us"></use>
-        </svg>
-        <span style="vertical-align: middle;">United States of America</span>
-    </h2>
-</div>
-`;
-
 export const insideParagraph = () => `
 <p>
     <svg class="flag flag--us">
