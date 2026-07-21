@@ -1,21 +1,21 @@
 {
-  "baseRef": "e46d0656caaa",
-  "totalStories": 25,
-  "totalSections": 31,
+  "baseRef": "22b99088dcdc",
+  "totalStories": 21,
+  "totalSections": 25,
   "unchangedSections": 35,
   "components": {
     "badge": {
-      "changed": 6,
+      "changed": 5,
       "added": 0,
       "removed": 0
     },
     "field": {
-      "changed": 8,
+      "changed": 6,
       "added": 0,
       "removed": 0
     },
     "list": {
-      "changed": 4,
+      "changed": 2,
       "added": 0,
       "removed": 0
     },
@@ -30,7 +30,7 @@
       "removed": 0
     },
     "switch": {
-      "changed": 9,
+      "changed": 8,
       "added": 0,
       "removed": 0
     }
