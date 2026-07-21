@@ -42,15 +42,23 @@ the suite requires headless Chromium (installed automatically by
 npm run visual:preview   # from the repo root
 ```
 
-This builds `tools/visual-preview/dist/visual-preview.html` — a
-self-contained page comparing your working tree against `origin/main`. Open
-it in any browser. In CI, the same viewer is deployed to the PR preview site
-and linked from the "Visual Regression Report" PR comment (and uploaded as a
-workflow artifact).
+This builds `tools/visual-preview/dist/` — an index page plus **one HTML
+page per changed story** — comparing your working tree against
+`origin/main`. Open `dist/index.html` in any browser. In CI, the same
+viewer is deployed to the PR preview site and linked from the "Visual
+Regression Report" PR comment (and uploaded as a workflow artifact).
+
+Every story page has a stable URL, so you can share a link to a specific
+diff. Opening a page is what marks it reviewed — the index dims visited
+links natively (your browser's `:visited`) and counts viewed pages. Use
+the **⚑ Flag** button (or `x`) on a story page to mark a diff that needs
+follow-up; flags roll up on the index. Both marks are keyed to the diff's
+content, so a story whose diff changes on a later push reverts to
+unviewed/unflagged.
 
 The viewer highlights exactly which elements changed and lists each changed
-property (e.g. `padding-left: 20px → 28px`), supports light/dark and RTL,
-and tracks which stories you've marked reviewed.
+property (e.g. `padding-left: 20px → 28px`), and supports light/dark, RTL,
+and side-by-side/swipe/onion/flip comparison modes.
 
 ## Which dimensions are captured?
 

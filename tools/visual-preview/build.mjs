@@ -330,49 +330,187 @@ function readTokensCss() {
     return { light, dark };
 }
 
+// ---------------------------------------------------------------------------
+// Output: a small index page plus ONE PAGE PER STORY (s/<slug>.html), with
+// the heavy shared assets (per-ref compiled CSS, tokens, sprites, viewer
+// chrome) emitted once into assets/ and referenced by every page.
+//
+// Per-story pages give every diff a stable, shareable URL, and make
+// "reviewed" the browser's own notion of *visited*: opening a page is the
+// review action (links dim natively via :visited; a localStorage mirror
+// powers the index's progress counter, content-hashed so a diff that
+// changes on a later push reverts to unviewed). A flag button marks diffs
+// needing follow-up.
+// ---------------------------------------------------------------------------
+
+// djb2 — matches nothing external; just a stable cheap content stamp.
+function contentHash(str) {
+    let h = 5381;
+    for (let i = 0; i < str.length; i++) h = ((h << 5) + h + str.charCodeAt(i)) | 0;
+    return (h >>> 0).toString(36);
+}
+
+// Slug from the snapshot path + story name: stable across builds so
+// :visited state and shared links survive new pushes of the same PR.
+function slugFor(entry) {
+    const rel = entry.file
+        .replace(/^packages\/skin\/src\/sass\//, "")
+        .replace("/__snapshots__/", "/")
+        .replace(/\.snap$/, "");
+    return (rel + "--" + entry.story).replace(/[^A-Za-z0-9._-]+/g, "-");
+}
+
+function escapeHtml(s) {
+    return s
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/"/g, "&quot;");
+}
+
+const jsonInline = (v) => JSON.stringify(v).replace(/<\//g, "<\\/");
+
+function worstStatus(e) {
+    const st = new Set(e.dims.map((d) => d.status));
+    return st.has("removed") ? "removed" : st.has("added") ? "added" : "changed";
+}
+
 const baseRef = resolveBaseRef();
 const { entries, sectionCount, unchangedSections } = buildManifest(baseRef);
 await attachStoryHtml(entries, baseRef);
 const tokens = readTokensCss();
 const assets = await readRefAssets(baseRef);
 
-const data = {
-    baseRef,
-    // Only truncate hex SHAs; ref names like origin/main stay readable.
-    baseRefShort: /^[0-9a-f]{20,}$/.test(baseRef)
-        ? baseRef.slice(0, 12)
-        : baseRef,
-    entries,
-    sectionCount,
-    unchangedSections,
-};
+// Only truncate hex SHAs; ref names like origin/main stay readable.
+const baseRefShort = /^[0-9a-f]{20,}$/.test(baseRef)
+    ? baseRef.slice(0, 12)
+    : baseRef;
 
-const template = fs.readFileSync(path.join(__dirname, "template.html"), "utf8");
-const inject = (src, marker, value) => {
-    if (!src.includes(marker)) {
-        throw new Error(`template.html is missing the ${marker} marker`);
+// Disambiguate duplicate story names within a component with the snapshot
+// file's basename, and precompute slugs/hashes.
+{
+    const seen = new Map();
+    for (const e of entries) {
+        const k = e.component + "/" + e.story;
+        seen.set(k, (seen.get(k) || 0) + 1);
     }
-    return src.replace(marker, () => value);
-};
-let html = template;
-html = inject(
-    html,
-    "/*__DATA__*/",
-    JSON.stringify(data).replace(/<\//g, "<\\/"),
-);
-html = inject(html, "/*__TOKENS_LIGHT__*/", JSON.stringify(tokens.light));
-html = inject(html, "/*__TOKENS_DARK__*/", JSON.stringify(tokens.dark));
-const injectAsset = (marker, value) =>
-    inject(html, marker, JSON.stringify(value).replace(/<\//g, "<\\/"));
-html = injectAsset("/*__CSS_BASE__*/", assets.base.css);
-html = injectAsset("/*__CSS_HEAD__*/", assets.head.css);
-html = injectAsset("/*__SPRITE_BASE__*/", assets.base.sprite);
-html = injectAsset("/*__SPRITE_HEAD__*/", assets.head.sprite);
+    for (const e of entries) {
+        e.qualifier =
+            seen.get(e.component + "/" + e.story) > 1
+                ? e.file.replace(/^.*__snapshots__\//, "").replace(/\.snap$/, "")
+                : null;
+        e.slug = slugFor(e);
+        e.hash = contentHash(
+            e.file + "|" + e.story + "|" + e.dims.map((d) => d.diff).join(" "),
+        );
+    }
+}
 
-const out =
-    arg("--out") ?? path.join(__dirname, "dist", "visual-preview.html");
-fs.mkdirSync(path.dirname(out), { recursive: true });
-fs.writeFileSync(out, html);
+const outDir = arg("--out") ?? path.join(__dirname, "dist");
+fs.rmSync(outDir, { recursive: true, force: true });
+fs.mkdirSync(path.join(outDir, "assets"), { recursive: true });
+fs.mkdirSync(path.join(outDir, "s"), { recursive: true });
+
+// ---- shared assets ----
+const writeAsset = (name, content) =>
+    fs.writeFileSync(path.join(outDir, "assets", name), content);
+writeAsset("viewer.css", fs.readFileSync(path.join(__dirname, "assets", "viewer.css")));
+writeAsset("story.js", fs.readFileSync(path.join(__dirname, "assets", "story.js")));
+writeAsset("base.css", assets.base.css);
+writeAsset("head.css", assets.head.css);
+writeAsset("tokens-light.css", tokens.light);
+writeAsset("tokens-dark.css", tokens.dark);
+// Sprites are injected into srcdoc frames by a script file (frames can't
+// fetch() under file://, but <script src> works and is cached).
+const spriteJs = (svg) =>
+    "document.write(" +
+    jsonInline('<div hidden aria-hidden="true">' + svg + "</div>") +
+    ");";
+writeAsset("sprite-base.js", spriteJs(assets.base.sprite));
+writeAsset("sprite-head.js", spriteJs(assets.head.sprite));
+
+// ---- per-story pages ----
+const storyTemplate = fs.readFileSync(
+    path.join(__dirname, "templates", "story.html"),
+    "utf8",
+);
+entries.forEach((entry, i) => {
+    const page = {
+        entry: {
+            component: entry.component,
+            story: entry.story,
+            file: entry.file,
+            dims: entry.dims,
+            storyBefore: entry.storyBefore,
+            storyAfter: entry.storyAfter,
+        },
+        baseRefShort,
+        prevHref: i > 0 ? entries[i - 1].slug + ".html" : null,
+        nextHref: i < entries.length - 1 ? entries[i + 1].slug + ".html" : null,
+        indexHref: "../index.html",
+        pos: i + 1,
+        total: entries.length,
+        slug: entry.slug,
+        hash: entry.hash,
+    };
+    const html = storyTemplate
+        .replace("__TITLE__", escapeHtml(entry.component + " / " + entry.story) + " — visual review")
+        .replace("/*__PAGE__*/", () => jsonInline(page));
+    fs.writeFileSync(path.join(outDir, "s", entry.slug + ".html"), html);
+});
+
+// ---- index ----
+let list = "";
+let lastComponent = null;
+for (const entry of entries) {
+    if (entry.component !== lastComponent) {
+        lastComponent = entry.component;
+        list += "<h2>" + escapeHtml(entry.component) + "</h2>\n";
+    }
+    const name =
+        escapeHtml(entry.story) +
+        (entry.qualifier ? "<small> · " + escapeHtml(entry.qualifier) + "</small>" : "");
+    const chip =
+        entry.dims.length > 1
+            ? '<span class="chip">' + entry.dims.length + " dims</span>"
+            : entry.dims[0]?.suffix
+              ? '<span class="chip">' + escapeHtml(entry.dims[0].suffix) + "</span>"
+              : "";
+    const searchText = (entry.component + " " + entry.story + " " + entry.file).toLowerCase();
+    list +=
+        '<a class="story" href="s/' + entry.slug + '.html"' +
+        ' data-slug="' + entry.slug + '" data-hash="' + entry.hash + '"' +
+        ' data-text="' + escapeHtml(searchText) + '"' +
+        ' title="' + escapeHtml(entry.file) + '">' +
+        '<span class="dot ' + worstStatus(entry) + '"></span>' +
+        '<span class="name">' + name + "</span>" +
+        chip +
+        '<span class="flagmark">⚑</span><span class="tick">✓</span>' +
+        "</a>\n";
+}
+const componentCount = new Set(entries.map((e) => e.component)).size;
+const summaryText = entries.length
+    ? entries.length + " changed stor" + (entries.length === 1 ? "y" : "ies") +
+      " (" + sectionCount + " sections) across " + componentCount +
+      " components — vs " + baseRefShort
+    : "No visual snapshot changes vs " + baseRefShort;
+const indexHtml = fs
+    .readFileSync(path.join(__dirname, "templates", "index.html"), "utf8")
+    .replace("__SUMMARY__", escapeHtml(summaryText))
+    .replace("__LIST__", () =>
+        entries.length
+            ? list
+            : '<div class="empty-state">No visual snapshot changes vs ' +
+              escapeHtml(baseRefShort) + "</div>",
+    );
+fs.writeFileSync(path.join(outDir, "index.html"), indexHtml);
+
+// Legacy single-file URL from earlier deploys/comments → redirect.
+fs.writeFileSync(
+    path.join(outDir, "visual-preview.html"),
+    '<!doctype html><meta charset="utf-8">' +
+        '<meta http-equiv="refresh" content="0; url=index.html">' +
+        '<a href="index.html">Moved: open index.html</a>',
+);
 
 // Machine-readable summary for CI (sticky PR comment content).
 const byComponent = {};
@@ -381,10 +519,10 @@ for (const e of entries) {
     for (const d of e.dims) byComponent[e.component][d.status]++;
 }
 fs.writeFileSync(
-    path.join(path.dirname(out), "summary.json"),
+    path.join(outDir, "summary.json"),
     JSON.stringify(
         {
-            baseRef: data.baseRefShort,
+            baseRef: baseRefShort,
             totalStories: entries.length,
             totalSections: sectionCount,
             unchangedSections,
@@ -395,9 +533,8 @@ fs.writeFileSync(
     ),
 );
 
-const components = new Set(entries.map((e) => e.component));
 console.log(
     `visual-preview: ${entries.length} changed story(ies) / ${sectionCount} section(s) ` +
-        `across ${components.size} component(s) (${unchangedSections} unchanged) vs ${data.baseRefShort}`,
+        `across ${componentCount} component(s) (${unchangedSections} unchanged) vs ${baseRefShort}`,
 );
-console.log(`→ ${path.relative(process.cwd(), out)}`);
+console.log(`→ ${path.relative(process.cwd(), path.join(outDir, "index.html"))}`);

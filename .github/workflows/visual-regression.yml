@@ -167,7 +167,7 @@ jobs:
               .getPages(context.repo)
               .then((r) => r.data.html_url.replace(/\/$/, ''))
               .catch(() => `https://${context.repo.owner.toLowerCase()}.github.io/${context.repo.repo}`);
-            const url = `${pagesBase}/previews/pr-${pr}/visual/visual-preview.html`;
+            const url = `${pagesBase}/previews/pr-${pr}/visual/`;
             const marker = '### Visual Regression Report';
 
             const lines = [marker, ''];
