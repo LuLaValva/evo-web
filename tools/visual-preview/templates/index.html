@@ -18,7 +18,7 @@
 </main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> move · <kbd>Enter</kbd> open · <kbd>/</kbd> filter</span>
-    <span>Each story is its own page — share its URL to link a specific diff. Opening a page marks it viewed (and your browser dims visited links); use ⚑ on a page to flag it for follow-up.</span>
+    <span>Each story is its own page — share its URL to link a specific diff. A <b>●</b> marks stories you haven't opened yet (opening one clears it; your browser also dims visited links); use ⚑ on a page to flag it for follow-up.</span>
 </footer>
 <script>
     "use strict";
@@ -37,8 +37,11 @@
         if (viewed[slug] === hash) { row.classList.add("viewed"); nViewed++; }
         if (flags[slug] === hash) { row.classList.add("flagged"); nFlagged++; }
     }
+    const nLeft = rows.length - nViewed;
     document.getElementById("progress").innerHTML =
-        "<b>" + nViewed + "</b> / " + rows.length + " viewed" +
+        (nLeft
+            ? "<b>" + nLeft + "</b> of " + rows.length + " left to view"
+            : "all " + rows.length + " viewed") +
         (nFlagged ? " · <b>" + nFlagged + "</b> ⚑ flagged" : "");
 
     const searchEl = document.getElementById("search");
