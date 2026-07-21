@@ -18,26 +18,19 @@ export default {
     },
   },
 
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     index: {
       controllable: true,
-      type: "number",
-      control: "number",
-      description: "Zero-based index of the selected tab/panel",
     },
     activation: {
-      type: "string",
-      options: ["manual", "auto"],
       control: "inline-radio",
-      description:
-        "whether to use automatic or manual activation when navigating by keyboard",
-      table: { defaultValue: { summary: "auto" } },
     },
     tab: {
-      description: "A tab in the tab bar.",
       "@": {
         panel: {
-          description: "The contents of the tab.",
           "@": {
             ["<div> attributes" as any]: {
               description:

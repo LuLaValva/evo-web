@@ -1,12 +1,17 @@
 static const validSizes = ["large"] as const;
 export interface SegmentedButton extends Omit<Marko.HTML.Button, 'name'> {
+    /** Name used to keep track of the `selected` button, use instead of index for more stability */
     name?: string;
+    /** Leading icon for this segment */
     icon?: Marko.AttrTag<{ content: Marko.Body }>;
 }
 export interface Input<Selected extends string | number> extends Marko.HTML.Div {
+    /** Index of the selected button, or name if present */
     selected?: Selected;
     selectedChange?: (selected: Selected) => void;
+    /** A button in the segmented button */
     button?: Marko.AttrTag<SegmentedButton>;
+    /** Size override for the buttons. */
     size?: (typeof validSizes)[number];
 }
 <const/{

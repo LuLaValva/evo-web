@@ -21,23 +21,17 @@ export default {
       },
     },
   },
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     pressed: {
       controllable: true,
-      type: "boolean",
-      control: "boolean",
-      description: "Pressed state of the button",
     },
     layoutType: {
-      type: "string",
-      options: ["minimal", "list", "gallery"],
       control: "inline-radio",
-      description:
-        "Enforced layout type of the button. Gallery layout may only be used when there is also an icon or an image.",
-      table: { defaultValue: { summary: "minimal" } },
     },
     icon: {
-      description: "An `<evo-icon-*>` to show as the button's icon",
       "@": {
         ["<span> attributes" as any]: {
           description:
@@ -45,30 +39,7 @@ export default {
         },
       },
     },
-    image: {
-      description:
-        "An optional image. May be used when `<@icon>` is _not_ present",
-      "@": {
-        src: {
-          type: { name: "string", required: true },
-          control: "text",
-          description: "The image source URL",
-        },
-        alt: {
-          type: { name: "string", required: true },
-          control: "text",
-          description: "Alt text for the image",
-        },
-        fillPlacement: {
-          type: "string",
-          control: "text",
-          description:
-            "Position of the image. May be any valid value for [the CSS `background-position` attribute](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/background-position).",
-        },
-      },
-    },
     subtitle: {
-      description: "An optional subtitle.",
       "@": {
         ["<span> attributes" as any]: {
           description:

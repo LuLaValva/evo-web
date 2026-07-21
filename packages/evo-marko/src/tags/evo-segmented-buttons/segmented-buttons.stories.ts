@@ -17,35 +17,22 @@ export default {
       },
     },
   },
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     selected: {
       controllable: true,
       control: "text",
-      description: "Index of the selected button, or name if present",
       table: { type: { summary: "string | number" } },
     },
     button: {
-      description: "A button in the segmented button",
       "@": {
-        name: {
-          type: "string",
-          control: "string",
-          description:
-            "Name used to keep track of the `selected` button, use instead of index for more stability",
-        },
-        icon: {
-          description: "Leading icon for this segment",
-          "@": {},
-        },
         ["<button> attributes" as any]: {
           description:
             "All attributes and event handlers from [the native HTML `<button>` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button) will be passed through",
         },
       },
-    },
-    size: {
-      options: ["regular (default)", "large"],
-      description: "Size override for the buttons.",
     },
     ["<div> attributes" as any]: {
       description:

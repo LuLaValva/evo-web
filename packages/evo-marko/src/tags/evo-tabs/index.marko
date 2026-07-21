@@ -1,9 +1,16 @@
 export interface Tab extends Marko.HTML.Div {
+    /** The contents of the tab. */
     panel: Marko.AttrTag<Marko.HTML.Div>;
 }
 export interface Input extends Marko.HTML.Div {
+    /** A tab in the tab bar. */
     tab?: Marko.AttrTag<Tab>;
+    /**
+     * Whether to use automatic or manual activation when navigating by keyboard
+     * @default "auto"
+     */
     activation?: "auto" | "manual";
+    /** Zero-based index of the selected tab/panel */
     index?: number;
     indexChange?: (index: number) => void;
 }

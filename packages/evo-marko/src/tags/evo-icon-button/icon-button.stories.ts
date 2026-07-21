@@ -15,9 +15,11 @@ export default {
       },
     },
   },
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     badge: {
-      description: "An optional badge attached to the button",
       "@": {
         ["<evo-badge> attributes" as any]: {
           description:
@@ -25,40 +27,17 @@ export default {
         },
       },
     },
-    href: {
-      type: "string",
-      control: "text",
-      description: "URL for link behavior (switches to `<a>` tag)",
-    },
-    transparent: {
-      type: "boolean",
-      control: "boolean",
-      description: "Uses transparent styles for the button.",
-    },
     size: {
-      options: ["regular (default)", "small", "large"],
       control: "inline-radio",
-      description: "Alternative size for the icon button",
     },
     priority: {
-      options: ["none (default)", "primary", "secondary", "tertiary"],
       control: "inline-radio",
-      description: "Priority of the button. Changes color and border.",
     },
     a11yText: {
-      type: { name: "string", required: true },
       control: "text",
-      description:
-        "A descriptive label of what the icon button represents. May be set to `null` only if accessibility is provided through other means.",
-    },
-    partiallyDisabled: {
-      type: "boolean",
-      control: "boolean",
-      description: "programmatically disabled, but remains keyboard focusable",
     },
     onEscape: {
       action: "onEscape",
-      description: "Triggered on escape key",
       table: { category: "Events" },
     },
     ["<button> attributes" as any]: {

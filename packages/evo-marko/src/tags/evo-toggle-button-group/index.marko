@@ -7,21 +7,33 @@ export interface Input<
       | (number|string)[]
       | undefined
 > extends Marko.HTML.Div {
+    /** Represents a toggle button to be used as part of the group */
     button?: Marko.AttrTag<
         Omit<ToggleButtonInput, "pressed" | "pressedChange"> & {
+            /** Used instead of `id` to check for equality with `pressed` with more consistency. */
             name?: string | number;
         }
     >;
+    /** Values that are currently selected. Use a string or number for single select, or an array for multiselect */
     pressed?: Pressed;
     pressedChange?: (pressed: Pressed) => void;
+    /** At least one button must be pressed at all times */
     required?: boolean;
+    /** Localized, accessibility text for the group. Cannot be used together with `a11yLabelId` */
     a11yText?: string;
+    /** Id of the element that labels the group. Required for a11y compliance. Cannot be used together with `a11yText` */
     a11yLabelId?: string;
+    /** Preferred minimum number of columns for smallest container/screen (1-3). If this is not set will do an automatic layout. It is recommended to not set this unless needed. */
     columnsMin?: number;
+    /** Preferred minimum number of columns within extra small containers. If this is not set will do an automatic layout. It is recommended to not set this unless needed. */
     columnsXS?: number;
+    /** Preferred minimum number of columns within small containers. If this is not set will do an automatic layout. It is recommended to not set this unless needed. */
     columnsSM?: number;
+    /** Preferred minimum number of columns within medium containers. If this is not set will do an automatic layout. It is recommended to not set this unless needed. */
     columnsMD?: number;
+    /** Preferred minimum number of columns within extra large containers. If this is not set will do an automatic layout. It is recommended to not set this unless needed. */
     columnsXL?: number;
+    /** Enforced layout type of all buttons. Gallery layout may only be used when there is also an icon or an image, and minimal layout may **not** be used when there is an icon or an image */
     layoutType?: ToggleButtonInput["layoutType"];
 };
 <const/{

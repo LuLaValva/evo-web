@@ -1,7 +1,16 @@
 export interface Input extends Marko.HTML.Div {
+    /**
+     * Zero-based index of selected tab and panel
+     * @default 0
+     */
     selected?: number;
     size?: "large" | "regular";
+    /** The tab element. This takes the same attributes as an anchor tag which navigates the user to a new page. */
     tab?: Marko.AttrTag<Marko.HTML.A>;
+    /**
+     * Specify whether the href of the currently active fake tab matches the current window url. This property is used to configure the underlying `aria-current` attribute (i.e. a value of `"page"` (default) or `"true"`).
+     * @default true
+     */
     tabMatchesCurrentUrl?: boolean;
 }
 <const/{

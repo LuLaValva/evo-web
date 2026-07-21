@@ -1,13 +1,24 @@
 export interface Input extends Marko.HTML.Button {
+    /** Pressed state of the button */
     pressed?: boolean;
     pressedChange?: (pressed: boolean) => void;
+    /**
+     * Enforced layout type of the button. Gallery layout may only be used when there is also an icon or an image.
+     * @default "minimal"
+     */
     layoutType?: "minimal" | "list" | "gallery";
+    /** An `<evo-icon-*>` to show as the button's icon */
     icon?: Marko.AttrTag<Marko.HTML.Span>;
+    /** An optional image. May be used when `<@icon>` is _not_ present */
     image?: Marko.AttrTag<{
+        /** The image source URL */
         src: string;
+        /** Alt text for the image */
         alt: string;
+        /** Position of the image. May be any valid value for [the CSS `background-position` attribute](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/background-position). */
         fillPlacement?: string;
     }>;
+    /** An optional subtitle. */
     subtitle?: Marko.AttrTag<Marko.HTML.Span>;
 }
 

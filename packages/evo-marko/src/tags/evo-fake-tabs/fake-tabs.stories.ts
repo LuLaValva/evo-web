@@ -18,21 +18,11 @@ export default {
     },
   },
 
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
-    selected: {
-      type: "number",
-      control: "number",
-      description: "Zero-based index of selected tab tab and panel",
-    },
-    tabMatchesCurrentUrl: {
-      type: "boolean",
-      control: "boolean",
-      description:
-        'Specify whether the href of the currently active fake tab matches the current window url. Default is true. This property is used to configure the underlying aria-current attribute (i.e. a value of "page" (default) or "true").',
-    },
     tab: {
-      description:
-        "The tab element. This takes the same attributes as an anchor tag which navigates the user to a new page. ",
       "@": {
         ["<a> attributes" as any]: {
           description:
