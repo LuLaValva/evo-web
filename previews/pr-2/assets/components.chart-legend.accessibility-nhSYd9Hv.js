@@ -1,0 +1,2 @@
+import{a,w as s,b9 as n,ba as o,bb as $,i as e}from"./_1x222syH.js";import"./_duUemiIq.js";import{$ as _,a as b,b as i,c as m}from"./_g5vF5dar.js";import"./_Bz3DE98Q.js";const p=t=>{$(t.a)},u=s("zk54iM9",(t=>`<!>${t}<!>`)(o),(t=>`b/${t}&b`)(n),p),c=t=>{i(t.a),m(t.a,u(t))};a("rP8zAo8",(t=>`<!>${t}<!>`)(b),(t=>`b/${t}&b`)(_),c);e();
+//# sourceMappingURL=components.chart-legend.accessibility-nhSYd9Hv.js.map
