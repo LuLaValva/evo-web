@@ -18,10 +18,6 @@ export default {
     },
   },
   argTypes: {
-    a11yText: {
-      description:
-        "Localized text for non-decorative inline icon; icon is assumed to be decorative if this is not passed",
-    },
     ["<svg> attributes" as any]: {
       description:
         "All attributes and event handlers from [the native HTML `<svg>` tag](https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/svg) will be passed through",

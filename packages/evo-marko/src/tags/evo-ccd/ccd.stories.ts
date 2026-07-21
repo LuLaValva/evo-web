@@ -24,7 +24,7 @@ export default {
       control: "text",
     },
     secondaryType: {
-      options: ["none (default)", "usbpd"],
+      options: [undefined, "usbpd"],
       control: "select",
     },
     ["<div> attributes" as any]: {

@@ -4,10 +4,10 @@ export interface Input extends Omit<Marko.HTML.Span, "role" | "aria-label"> {
     /** Used as the number to be placed in the badge */
     number?: number | string;
     /**
-     * The `aria-label` of the badge
+     * The `aria-label` of the badge — a descriptive label of what it represents (e.g. `"5 unread items"`)
      *
      * English default to be overridden is `"n notifications"`
-     * 
+     *
      * Pass `null` explicitly _only_ if alternative accessibility information is present
      */
     a11yText: string | null;
