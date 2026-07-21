@@ -9,8 +9,8 @@
 <body class="story-page">
 <header>
     <a class="back" href="../index.html">← All changes</a>
-    <h1 id="title"></h1>
-    <span class="meta" id="path"></span>
+    <h1 id="title">menu / badged</h1>
+    <span class="meta" id="path">packages/skin/src/sass/menu/stories/__snapshots__/misc.snap</span>
     <span class="pagenav">
         <a id="prev" href="#">‹ prev</a>
         <span class="pos" id="pos"></span>
@@ -21,7 +21,272 @@
     <input id="search" type="search" placeholder="Filter stories… ( / )" />
     <div id="storylist"></div>
 </nav>
-<main id="main"></main>
+<main id="main">
+    <div class="toolbar">
+        <div class="seg" data-seg="mode">
+            <button type="button" data-v="side" class="active">Side by side</button>
+            <button type="button" data-v="swipe">Swipe</button>
+            <button type="button" data-v="onion">Onion</button>
+            <button type="button" data-v="flip">Flip</button>
+        </div>
+        <div class="seg" data-seg="view">
+            <button type="button" data-v="rendered" class="active">Rendered</button>
+            <button type="button" data-v="diff">Text diff</button>
+        </div>
+        <div class="seg" data-seg="theme">
+            <button type="button" data-v="light" class="active">Light</button>
+            <button type="button" data-v="dark">Dark</button>
+        </div>
+        <label class="toggle"><input type="checkbox" id="hl-toggle" checked />Highlights</label>
+        <div class="grow"></div>
+        <button class="flag" id="flag-btn" type="button">⚑ Flag</button>
+    </div>
+    <section class="dim-section" id="dim-0" data-dim="0"><div class="stage"><div class="render-area"><div class="duo mode-side fluid solo"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fluid"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<span class=&quot;menu&quot;>
+    <span class=&quot;menu__items&quot; role=&quot;menu&quot;>
+        <div class=&quot;menu__item menu__item--badged&quot; role=&quot;menuitem&quot;><span>Button 1<span class=&quot;badge&quot;>1</span></span></div>
+        <div class=&quot;menu__item menu__item--badged&quot; role=&quot;menuitem&quot;><span>Button 2<span class=&quot;badge&quot;>10</span></span></div>
+        <div class=&quot;menu__item menu__item--badged&quot; role=&quot;menuitem&quot;><span>Button 3<span class=&quot;badge&quot;>99+</span></span></div>
+    </span>
+</span>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,234 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;span style=&quot;</span>
+<span class="add">+    display: inline-block;</span>
+<span class="add">+    vertical-align: bottom</span>
+<span class="add">+  &quot;></span>
+<span class="add">+    &lt;span style=&quot;</span>
+<span class="add">+      background-color: var(--menu-background-color, var(--color-background-primary));</span>
+<span class="add">+      cursor: default;</span>
+<span class="add">+      display: inline-block</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        border-bottom-style: solid;</span>
+<span class="add">+        border-bottom-width: 1px;</span>
+<span class="add">+        border-left-style: solid;</span>
+<span class="add">+        border-left-width: 1px;</span>
+<span class="add">+        border-right-style: solid;</span>
+<span class="add">+        border-right-width: 1px;</span>
+<span class="add">+        border-top-style: solid;</span>
+<span class="add">+        border-top-width: 1px;</span>
+<span class="add">+        box-sizing: border-box;</span>
+<span class="add">+        color: var(--menu-menuitem-foreground-color, var(--color-foreground-primary));</span>
+<span class="add">+        display: inline-grid;</span>
+<span class="add">+        font-family: inherit;</span>
+<span class="add">+        grid-template-columns: auto auto;</span>
+<span class="add">+        justify-content: space-between;</span>
+<span class="add">+        margin-bottom: 1px;</span>
+<span class="add">+        overflow-x: hidden;</span>
+<span class="add">+        overflow-y: hidden;</span>
+<span class="add">+        padding-bottom: 8px;</span>
+<span class="add">+        padding-left: 15px;</span>
+<span class="add">+        padding-right: 15px;</span>
+<span class="add">+        padding-top: 8px;</span>
+<span class="add">+        position: relative;</span>
+<span class="add">+        width: 100%</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;style>@scope{:scope{</span>
+<span class="add">+          &amp;::after {</span>
+<span class="add">+            background-color: var(--color-state-layer-neutral);</span>
+<span class="add">+            bottom: 0px;</span>
+<span class="add">+            content: &quot;&quot;;</span>
+<span class="add">+            left: 0px;</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            position: absolute;</span>
+<span class="add">+            right: 0px;</span>
+<span class="add">+            top: 0px</span>
+<span class="add">+          }</span>
+<span class="add">+        }}&lt;/style></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          flex-shrink: 0;</span>
+<span class="add">+          text-align: left;</span>
+<span class="add">+          text-wrap-mode: nowrap</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Button 1</span>
+<span class="add">+          &lt;span style=&quot;</span>
+<span class="add">+            align-items: center;</span>
+<span class="add">+            background-color: var(--color-background-attention);</span>
+<span class="add">+            border-bottom-left-radius: 1.2em;</span>
+<span class="add">+            border-bottom-right-radius: 1.2em;</span>
+<span class="add">+            border-top-left-radius: 1.2em;</span>
+<span class="add">+            border-top-right-radius: 1.2em;</span>
+<span class="add">+            border: 2px solid var(--color-border-inverse);</span>
+<span class="add">+            box-sizing: border-box;</span>
+<span class="add">+            color: var(--color-foreground-on-attention);</span>
+<span class="add">+            display: inline-flex;</span>
+<span class="add">+            font-size: var(--font-size-smallest);</span>
+<span class="add">+            height: 2.4em;</span>
+<span class="add">+            justify-content: center;</span>
+<span class="add">+            margin-left: var(--spacing-100);</span>
+<span class="add">+            margin-right: var(--spacing-100);</span>
+<span class="add">+            min-width: 2.4em;</span>
+<span class="add">+            padding-bottom: 1px;</span>
+<span class="add">+            padding-inline: var(--spacing-50);</span>
+<span class="add">+            padding-left: 5px;</span>
+<span class="add">+            padding-right: 5px;</span>
+<span class="add">+            padding-top: 1px;</span>
+<span class="add">+            position: absolute;</span>
+<span class="add">+            text-wrap-mode: nowrap;</span>
+<span class="add">+            top: 0px;</span>
+<span class="add">+            z-index: 1</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            1</span>
+<span class="add">+          &lt;/span></span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        border-bottom-style: solid;</span>
+<span class="add">+        border-bottom-width: 1px;</span>
+<span class="add">+        border-left-style: solid;</span>
+<span class="add">+        border-left-width: 1px;</span>
+<span class="add">+        border-right-style: solid;</span>
+<span class="add">+        border-right-width: 1px;</span>
+<span class="add">+        border-top-style: solid;</span>
+<span class="add">+        border-top-width: 1px;</span>
+<span class="add">+        box-sizing: border-box;</span>
+<span class="add">+        color: var(--menu-menuitem-foreground-color, var(--color-foreground-primary));</span>
+<span class="add">+        display: inline-grid;</span>
+<span class="add">+        font-family: inherit;</span>
+<span class="add">+        grid-template-columns: auto auto;</span>
+<span class="add">+        justify-content: space-between;</span>
+<span class="add">+        margin-bottom: 1px;</span>
+<span class="add">+        overflow-x: hidden;</span>
+<span class="add">+        overflow-y: hidden;</span>
+<span class="add">+        padding-bottom: 8px;</span>
+<span class="add">+        padding-left: 15px;</span>
+<span class="add">+        padding-right: 15px;</span>
+<span class="add">+        padding-top: 8px;</span>
+<span class="add">+        position: relative;</span>
+<span class="add">+        width: 100%</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;style>@scope{:scope{</span>
+<span class="add">+          &amp;::after {</span>
+<span class="add">+            background-color: var(--color-state-layer-neutral);</span>
+<span class="add">+            bottom: 0px;</span>
+<span class="add">+            content: &quot;&quot;;</span>
+<span class="add">+            left: 0px;</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            position: absolute;</span>
+<span class="add">+            right: 0px;</span>
+<span class="add">+            top: 0px</span>
+<span class="add">+          }</span>
+<span class="add">+        }}&lt;/style></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          flex-shrink: 0;</span>
+<span class="add">+          text-align: left;</span>
+<span class="add">+          text-wrap-mode: nowrap</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Button 2</span>
+<span class="add">+          &lt;span style=&quot;</span>
+<span class="add">+            align-items: center;</span>
+<span class="add">+            background-color: var(--color-background-attention);</span>
+<span class="add">+            border-bottom-left-radius: 1.2em;</span>
+<span class="add">+            border-bottom-right-radius: 1.2em;</span>
+<span class="add">+            border-top-left-radius: 1.2em;</span>
+<span class="add">+            border-top-right-radius: 1.2em;</span>
+<span class="add">+            border: 2px solid var(--color-border-inverse);</span>
+<span class="add">+            box-sizing: border-box;</span>
+<span class="add">+            color: var(--color-foreground-on-attention);</span>
+<span class="add">+            display: inline-flex;</span>
+<span class="add">+            font-size: var(--font-size-smallest);</span>
+<span class="add">+            height: 2.4em;</span>
+<span class="add">+            justify-content: center;</span>
+<span class="add">+            margin-left: var(--spacing-100);</span>
+<span class="add">+            margin-right: var(--spacing-100);</span>
+<span class="add">+            min-width: 2.4em;</span>
+<span class="add">+            padding-bottom: 1px;</span>
+<span class="add">+            padding-inline: var(--spacing-50);</span>
+<span class="add">+            padding-left: 5px;</span>
+<span class="add">+            padding-right: 5px;</span>
+<span class="add">+            padding-top: 1px;</span>
+<span class="add">+            position: absolute;</span>
+<span class="add">+            text-wrap-mode: nowrap;</span>
+<span class="add">+            top: 0px;</span>
+<span class="add">+            z-index: 1</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            10</span>
+<span class="add">+          &lt;/span></span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        border-bottom-style: solid;</span>
+<span class="add">+        border-bottom-width: 1px;</span>
+<span class="add">+        border-left-style: solid;</span>
+<span class="add">+        border-left-width: 1px;</span>
+<span class="add">+        border-right-style: solid;</span>
+<span class="add">+        border-right-width: 1px;</span>
+<span class="add">+        border-top-style: solid;</span>
+<span class="add">+        border-top-width: 1px;</span>
+<span class="add">+        box-sizing: border-box;</span>
+<span class="add">+        color: var(--menu-menuitem-foreground-color, var(--color-foreground-primary));</span>
+<span class="add">+        display: inline-grid;</span>
+<span class="add">+        font-family: inherit;</span>
+<span class="add">+        grid-template-columns: auto auto;</span>
+<span class="add">+        justify-content: space-between;</span>
+<span class="add">+        overflow-x: hidden;</span>
+<span class="add">+        overflow-y: hidden;</span>
+<span class="add">+        padding-bottom: 8px;</span>
+<span class="add">+        padding-left: 15px;</span>
+<span class="add">+        padding-right: 15px;</span>
+<span class="add">+        padding-top: 8px;</span>
+<span class="add">+        position: relative;</span>
+<span class="add">+        width: 100%</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;style>@scope{:scope{</span>
+<span class="add">+          &amp;::after {</span>
+<span class="add">+            background-color: var(--color-state-layer-neutral);</span>
+<span class="add">+            bottom: 0px;</span>
+<span class="add">+            content: &quot;&quot;;</span>
+<span class="add">+            left: 0px;</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            position: absolute;</span>
+<span class="add">+            right: 0px;</span>
+<span class="add">+            top: 0px</span>
+<span class="add">+          }</span>
+<span class="add">+        }}&lt;/style></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          flex-shrink: 0;</span>
+<span class="add">+          text-align: left;</span>
+<span class="add">+          text-wrap-mode: nowrap</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Button 3</span>
+<span class="add">+          &lt;span style=&quot;</span>
+<span class="add">+            align-items: center;</span>
+<span class="add">+            background-color: var(--color-background-attention);</span>
+<span class="add">+            border-bottom-left-radius: 1.2em;</span>
+<span class="add">+            border-bottom-right-radius: 1.2em;</span>
+<span class="add">+            border-top-left-radius: 1.2em;</span>
+<span class="add">+            border-top-right-radius: 1.2em;</span>
+<span class="add">+            border: 2px solid var(--color-border-inverse);</span>
+<span class="add">+            box-sizing: border-box;</span>
+<span class="add">+            color: var(--color-foreground-on-attention);</span>
+<span class="add">+            display: inline-flex;</span>
+<span class="add">+            font-size: var(--font-size-smallest);</span>
+<span class="add">+            height: 2.4em;</span>
+<span class="add">+            justify-content: center;</span>
+<span class="add">+            margin-left: var(--spacing-100);</span>
+<span class="add">+            margin-right: var(--spacing-100);</span>
+<span class="add">+            min-width: 2.4em;</span>
+<span class="add">+            padding-bottom: 1px;</span>
+<span class="add">+            padding-inline: var(--spacing-50);</span>
+<span class="add">+            padding-left: 5px;</span>
+<span class="add">+            padding-right: 5px;</span>
+<span class="add">+            padding-top: 1px;</span>
+<span class="add">+            position: absolute;</span>
+<span class="add">+            text-wrap-mode: nowrap;</span>
+<span class="add">+            top: 0px;</span>
+<span class="add">+            z-index: 1</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            99+</span>
+<span class="add">+          &lt;/span></span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+    &lt;/span></span>
+<span class="add">+  &lt;/span></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section>
+</main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
     <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
@@ -34,10 +299,10 @@
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
-    const PAGE = {"entry":{"component":"menu","story":"badged","file":"packages/skin/src/sass/menu/stories/__snapshots__/misc.snap","dims":[{"suffix":"","width":null,"rtl":false,"status":"added","before":"","after":"<div>\n  <span style=\"\n    display: inline-block;\n    vertical-align: bottom\n  \">\n    <span style=\"\n      background-color: var(--menu-background-color, var(--color-background-primary));\n      cursor: default;\n      display: inline-block\n    \">\n      <div style=\"\n        border-bottom-style: solid;\n        border-bottom-width: 1px;\n        border-left-style: solid;\n        border-left-width: 1px;\n        border-right-style: solid;\n        border-right-width: 1px;\n        border-top-style: solid;\n        border-top-width: 1px;\n        box-sizing: border-box;\n        color: var(--menu-menuitem-foreground-color, var(--color-foreground-primary));\n        display: inline-grid;\n        font-family: inherit;\n        grid-template-columns: auto auto;\n        justify-content: space-between;\n        margin-bottom: 1px;\n        overflow-x: hidden;\n        overflow-y: hidden;\n        padding-bottom: 8px;\n        padding-left: 15px;\n        padding-right: 15px;\n        padding-top: 8px;\n        position: relative;\n        width: 100%\n      \">\n        <style>@scope{:scope{\n          &::after {\n            background-color: var(--color-state-layer-neutral);\n            bottom: 0px;\n            content: \"\";\n            left: 0px;\n            pointer-events: none;\n            position: absolute;\n            right: 0px;\n            top: 0px\n          }\n        }}<\/style>\n        <span style=\"\n          flex-shrink: 0;\n          text-align: left;\n          text-wrap-mode: nowrap\n        \">\n          Button 1\n          <span style=\"\n            align-items: center;\n            background-color: var(--color-background-attention);\n            border-bottom-left-radius: 1.2em;\n            border-bottom-right-radius: 1.2em;\n            border-top-left-radius: 1.2em;\n            border-top-right-radius: 1.2em;\n            border: 2px solid var(--color-border-inverse);\n            box-sizing: border-box;\n            color: var(--color-foreground-on-attention);\n            display: inline-flex;\n            font-size: var(--font-size-smallest);\n            height: 2.4em;\n            justify-content: center;\n            margin-left: var(--spacing-100);\n            margin-right: var(--spacing-100);\n            min-width: 2.4em;\n            padding-bottom: 1px;\n            padding-inline: var(--spacing-50);\n            padding-left: 5px;\n            padding-right: 5px;\n            padding-top: 1px;\n            position: absolute;\n            text-wrap-mode: nowrap;\n            top: 0px;\n            z-index: 1\n          \">\n            1\n          <\/span>\n        <\/span>\n      <\/div>\n      <div style=\"\n        border-bottom-style: solid;\n        border-bottom-width: 1px;\n        border-left-style: solid;\n        border-left-width: 1px;\n        border-right-style: solid;\n        border-right-width: 1px;\n        border-top-style: solid;\n        border-top-width: 1px;\n        box-sizing: border-box;\n        color: var(--menu-menuitem-foreground-color, var(--color-foreground-primary));\n        display: inline-grid;\n        font-family: inherit;\n        grid-template-columns: auto auto;\n        justify-content: space-between;\n        margin-bottom: 1px;\n        overflow-x: hidden;\n        overflow-y: hidden;\n        padding-bottom: 8px;\n        padding-left: 15px;\n        padding-right: 15px;\n        padding-top: 8px;\n        position: relative;\n        width: 100%\n      \">\n        <style>@scope{:scope{\n          &::after {\n            background-color: var(--color-state-layer-neutral);\n            bottom: 0px;\n            content: \"\";\n            left: 0px;\n            pointer-events: none;\n            position: absolute;\n            right: 0px;\n            top: 0px\n          }\n        }}<\/style>\n        <span style=\"\n          flex-shrink: 0;\n          text-align: left;\n          text-wrap-mode: nowrap\n        \">\n          Button 2\n          <span style=\"\n            align-items: center;\n            background-color: var(--color-background-attention);\n            border-bottom-left-radius: 1.2em;\n            border-bottom-right-radius: 1.2em;\n            border-top-left-radius: 1.2em;\n            border-top-right-radius: 1.2em;\n            border: 2px solid var(--color-border-inverse);\n            box-sizing: border-box;\n            color: var(--color-foreground-on-attention);\n            display: inline-flex;\n            font-size: var(--font-size-smallest);\n            height: 2.4em;\n            justify-content: center;\n            margin-left: var(--spacing-100);\n            margin-right: var(--spacing-100);\n            min-width: 2.4em;\n            padding-bottom: 1px;\n            padding-inline: var(--spacing-50);\n            padding-left: 5px;\n            padding-right: 5px;\n            padding-top: 1px;\n            position: absolute;\n            text-wrap-mode: nowrap;\n            top: 0px;\n            z-index: 1\n          \">\n            10\n          <\/span>\n        <\/span>\n      <\/div>\n      <div style=\"\n        border-bottom-style: solid;\n        border-bottom-width: 1px;\n        border-left-style: solid;\n        border-left-width: 1px;\n        border-right-style: solid;\n        border-right-width: 1px;\n        border-top-style: solid;\n        border-top-width: 1px;\n        box-sizing: border-box;\n        color: var(--menu-menuitem-foreground-color, var(--color-foreground-primary));\n        display: inline-grid;\n        font-family: inherit;\n        grid-template-columns: auto auto;\n        justify-content: space-between;\n        overflow-x: hidden;\n        overflow-y: hidden;\n        padding-bottom: 8px;\n        padding-left: 15px;\n        padding-right: 15px;\n        padding-top: 8px;\n        position: relative;\n        width: 100%\n      \">\n        <style>@scope{:scope{\n          &::after {\n            background-color: var(--color-state-layer-neutral);\n            bottom: 0px;\n            content: \"\";\n            left: 0px;\n            pointer-events: none;\n            position: absolute;\n            right: 0px;\n            top: 0px\n          }\n        }}<\/style>\n        <span style=\"\n          flex-shrink: 0;\n          text-align: left;\n          text-wrap-mode: nowrap\n        \">\n          Button 3\n          <span style=\"\n            align-items: center;\n            background-color: var(--color-background-attention);\n            border-bottom-left-radius: 1.2em;\n            border-bottom-right-radius: 1.2em;\n            border-top-left-radius: 1.2em;\n            border-top-right-radius: 1.2em;\n            border: 2px solid var(--color-border-inverse);\n            box-sizing: border-box;\n            color: var(--color-foreground-on-attention);\n            display: inline-flex;\n            font-size: var(--font-size-smallest);\n            height: 2.4em;\n            justify-content: center;\n            margin-left: var(--spacing-100);\n            margin-right: var(--spacing-100);\n            min-width: 2.4em;\n            padding-bottom: 1px;\n            padding-inline: var(--spacing-50);\n            padding-left: 5px;\n            padding-right: 5px;\n            padding-top: 1px;\n            position: absolute;\n            text-wrap-mode: nowrap;\n            top: 0px;\n            z-index: 1\n          \">\n            99+\n          <\/span>\n        <\/span>\n      <\/div>\n    <\/span>\n  <\/span>\n<\/div>","diff":"@@ -0,0 +1,234 @@\n+<div>\n+  <span style=\"\n+    display: inline-block;\n+    vertical-align: bottom\n+  \">\n+    <span style=\"\n+      background-color: var(--menu-background-color, var(--color-background-primary));\n+      cursor: default;\n+      display: inline-block\n+    \">\n+      <div style=\"\n+        border-bottom-style: solid;\n+        border-bottom-width: 1px;\n+        border-left-style: solid;\n+        border-left-width: 1px;\n+        border-right-style: solid;\n+        border-right-width: 1px;\n+        border-top-style: solid;\n+        border-top-width: 1px;\n+        box-sizing: border-box;\n+        color: var(--menu-menuitem-foreground-color, var(--color-foreground-primary));\n+        display: inline-grid;\n+        font-family: inherit;\n+        grid-template-columns: auto auto;\n+        justify-content: space-between;\n+        margin-bottom: 1px;\n+        overflow-x: hidden;\n+        overflow-y: hidden;\n+        padding-bottom: 8px;\n+        padding-left: 15px;\n+        padding-right: 15px;\n+        padding-top: 8px;\n+        position: relative;\n+        width: 100%\n+      \">\n+        <style>@scope{:scope{\n+          &::after {\n+            background-color: var(--color-state-layer-neutral);\n+            bottom: 0px;\n+            content: \"\";\n+            left: 0px;\n+            pointer-events: none;\n+            position: absolute;\n+            right: 0px;\n+            top: 0px\n+          }\n+        }}<\/style>\n+        <span style=\"\n+          flex-shrink: 0;\n+          text-align: left;\n+          text-wrap-mode: nowrap\n+        \">\n+          Button 1\n+          <span style=\"\n+            align-items: center;\n+            background-color: var(--color-background-attention);\n+            border-bottom-left-radius: 1.2em;\n+            border-bottom-right-radius: 1.2em;\n+            border-top-left-radius: 1.2em;\n+            border-top-right-radius: 1.2em;\n+            border: 2px solid var(--color-border-inverse);\n+            box-sizing: border-box;\n+            color: var(--color-foreground-on-attention);\n+            display: inline-flex;\n+            font-size: var(--font-size-smallest);\n+            height: 2.4em;\n+            justify-content: center;\n+            margin-left: var(--spacing-100);\n+            margin-right: var(--spacing-100);\n+            min-width: 2.4em;\n+            padding-bottom: 1px;\n+            padding-inline: var(--spacing-50);\n+            padding-left: 5px;\n+            padding-right: 5px;\n+            padding-top: 1px;\n+            position: absolute;\n+            text-wrap-mode: nowrap;\n+            top: 0px;\n+            z-index: 1\n+          \">\n+            1\n+          <\/span>\n+        <\/span>\n+      <\/div>\n+      <div style=\"\n+        border-bottom-style: solid;\n+        border-bottom-width: 1px;\n+        border-left-style: solid;\n+        border-left-width: 1px;\n+        border-right-style: solid;\n+        border-right-width: 1px;\n+        border-top-style: solid;\n+        border-top-width: 1px;\n+        box-sizing: border-box;\n+        color: var(--menu-menuitem-foreground-color, var(--color-foreground-primary));\n+        display: inline-grid;\n+        font-family: inherit;\n+        grid-template-columns: auto auto;\n+        justify-content: space-between;\n+        margin-bottom: 1px;\n+        overflow-x: hidden;\n+        overflow-y: hidden;\n+        padding-bottom: 8px;\n+        padding-left: 15px;\n+        padding-right: 15px;\n+        padding-top: 8px;\n+        position: relative;\n+        width: 100%\n+      \">\n+        <style>@scope{:scope{\n+          &::after {\n+            background-color: var(--color-state-layer-neutral);\n+            bottom: 0px;\n+            content: \"\";\n+            left: 0px;\n+            pointer-events: none;\n+            position: absolute;\n+            right: 0px;\n+            top: 0px\n+          }\n+        }}<\/style>\n+        <span style=\"\n+          flex-shrink: 0;\n+          text-align: left;\n+          text-wrap-mode: nowrap\n+        \">\n+          Button 2\n+          <span style=\"\n+            align-items: center;\n+            background-color: var(--color-background-attention);\n+            border-bottom-left-radius: 1.2em;\n+            border-bottom-right-radius: 1.2em;\n+            border-top-left-radius: 1.2em;\n+            border-top-right-radius: 1.2em;\n+            border: 2px solid var(--color-border-inverse);\n+            box-sizing: border-box;\n+            color: var(--color-foreground-on-attention);\n+            display: inline-flex;\n+            font-size: var(--font-size-smallest);\n+            height: 2.4em;\n+            justify-content: center;\n+            margin-left: var(--spacing-100);\n+            margin-right: var(--spacing-100);\n+            min-width: 2.4em;\n+            padding-bottom: 1px;\n+            padding-inline: var(--spacing-50);\n+            padding-left: 5px;\n+            padding-right: 5px;\n+            padding-top: 1px;\n+            position: absolute;\n+            text-wrap-mode: nowrap;\n+            top: 0px;\n+            z-index: 1\n+          \">\n+            10\n+          <\/span>\n+        <\/span>\n+      <\/div>\n+      <div style=\"\n+        border-bottom-style: solid;\n+        border-bottom-width: 1px;\n+        border-left-style: solid;\n+        border-left-width: 1px;\n+        border-right-style: solid;\n+        border-right-width: 1px;\n+        border-top-style: solid;\n+        border-top-width: 1px;\n+        box-sizing: border-box;\n+        color: var(--menu-menuitem-foreground-color, var(--color-foreground-primary));\n+        display: inline-grid;\n+        font-family: inherit;\n+        grid-template-columns: auto auto;\n+        justify-content: space-between;\n+        overflow-x: hidden;\n+        overflow-y: hidden;\n+        padding-bottom: 8px;\n+        padding-left: 15px;\n+        padding-right: 15px;\n+        padding-top: 8px;\n+        position: relative;\n+        width: 100%\n+      \">\n+        <style>@scope{:scope{\n+          &::after {\n+            background-color: var(--color-state-layer-neutral);\n+            bottom: 0px;\n+            content: \"\";\n+            left: 0px;\n+            pointer-events: none;\n+            position: absolute;\n+            right: 0px;\n+            top: 0px\n+          }\n+        }}<\/style>\n+        <span style=\"\n+          flex-shrink: 0;\n+          text-align: left;\n+          text-wrap-mode: nowrap\n+        \">\n+          Button 3\n+          <span style=\"\n+            align-items: center;\n+            background-color: var(--color-background-attention);\n+            border-bottom-left-radius: 1.2em;\n+            border-bottom-right-radius: 1.2em;\n+            border-top-left-radius: 1.2em;\n+            border-top-right-radius: 1.2em;\n+            border: 2px solid var(--color-border-inverse);\n+            box-sizing: border-box;\n+            color: var(--color-foreground-on-attention);\n+            display: inline-flex;\n+            font-size: var(--font-size-smallest);\n+            height: 2.4em;\n+            justify-content: center;\n+            margin-left: var(--spacing-100);\n+            margin-right: var(--spacing-100);\n+            min-width: 2.4em;\n+            padding-bottom: 1px;\n+            padding-inline: var(--spacing-50);\n+            padding-left: 5px;\n+            padding-right: 5px;\n+            padding-top: 1px;\n+            position: absolute;\n+            text-wrap-mode: nowrap;\n+            top: 0px;\n+            z-index: 1\n+          \">\n+            99+\n+          <\/span>\n+        <\/span>\n+      <\/div>\n+    <\/span>\n+  <\/span>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"\n<span class=\"menu\">\n    <span class=\"menu__items\" role=\"menu\">\n        <div class=\"menu__item menu__item--badged\" role=\"menuitem\"><span>Button 1<span class=\"badge\">1<\/span><\/span><\/div>\n        <div class=\"menu__item menu__item--badged\" role=\"menuitem\"><span>Button 2<span class=\"badge\">10<\/span><\/span><\/div>\n        <div class=\"menu__item menu__item--badged\" role=\"menuitem\"><span>Button 3<span class=\"badge\">99+<\/span><\/span><\/div>\n    <\/span>\n<\/span>\n","storyAfter":"\n<span class=\"menu\">\n    <span class=\"menu__items\" role=\"menu\">\n        <div class=\"menu__item menu__item--badged\" role=\"menuitem\"><span>Button 1<span class=\"badge\">1<\/span><\/span><\/div>\n        <div class=\"menu__item menu__item--badged\" role=\"menuitem\"><span>Button 2<span class=\"badge\">10<\/span><\/span><\/div>\n        <div class=\"menu__item menu__item--badged\" role=\"menuitem\"><span>Button 3<span class=\"badge\">99+<\/span><\/span><\/div>\n    <\/span>\n<\/span>\n"},"baseRefShort":"60ee2f496866","prevHref":"menu-stories-filter-menu--withFooter.html","nextHref":"menu-stories-misc--separator.html","indexHref":"../index.html","pos":593,"total":1012,"slug":"menu-stories-misc--badged","hash":"1wo5tog"};
+    const PAGE = {"baseRefShort":"60ee2f496866","prevHref":"menu-stories-filter-menu--withFooter.html","nextHref":"menu-stories-misc--separator.html","indexHref":"../index.html","pos":593,"total":1012,"slug":"menu-stories-misc--badged","hash":"1wo5tog","component":"menu","story":"badged","file":"packages/skin/src/sass/menu/stories/__snapshots__/misc.snap","dims":[{"changes":[]}]};
 </script>
-<script src="../assets/nav.js"></script>
-<script src="../assets/story.js"></script>
+<script src="../assets/nav.js" defer></script>
+<script src="../assets/story.js" defer></script>
 <script src="../assets/prefetch.js" defer></script>
 </body>
 </html>

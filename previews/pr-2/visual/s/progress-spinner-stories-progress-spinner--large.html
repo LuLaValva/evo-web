@@ -9,8 +9,8 @@
 <body class="story-page">
 <header>
     <a class="back" href="../index.html">← All changes</a>
-    <h1 id="title"></h1>
-    <span class="meta" id="path"></span>
+    <h1 id="title">progress-spinner / large</h1>
+    <span class="meta" id="path">packages/skin/src/sass/progress-spinner/stories/__snapshots__/progress-spinner.snap</span>
     <span class="pagenav">
         <a id="prev" href="#">‹ prev</a>
         <span class="pos" id="pos"></span>
@@ -21,7 +21,60 @@
     <input id="search" type="search" placeholder="Filter stories… ( / )" />
     <div id="storylist"></div>
 </nav>
-<main id="main"></main>
+<main id="main">
+    <div class="toolbar">
+        <div class="seg" data-seg="mode">
+            <button type="button" data-v="side" class="active">Side by side</button>
+            <button type="button" data-v="swipe">Swipe</button>
+            <button type="button" data-v="onion">Onion</button>
+            <button type="button" data-v="flip">Flip</button>
+        </div>
+        <div class="seg" data-seg="view">
+            <button type="button" data-v="rendered" class="active">Rendered</button>
+            <button type="button" data-v="diff">Text diff</button>
+        </div>
+        <div class="seg" data-seg="theme">
+            <button type="button" data-v="light" class="active">Light</button>
+            <button type="button" data-v="dark">Dark</button>
+        </div>
+        <label class="toggle"><input type="checkbox" id="hl-toggle" checked />Highlights</label>
+        <div class="grow"></div>
+        <button class="flag" id="flag-btn" type="button">⚑ Flag</button>
+    </div>
+    <section class="dim-section" id="dim-0" data-dim="0"><div class="stage"><div class="render-area"><div class="duo mode-side fluid solo"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fluid"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script><span class=&quot;progress-spinner progress-spinner--large&quot; aria-label=&quot;Busy&quot; role=&quot;img&quot;>
+        <svg class=&quot;icon icon--30&quot; aria-hidden=&quot;true&quot;>
+            <use href=&quot;#icon-spinner-30&quot;></use>
+        </svg>
+    </span></body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,26 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;span style=&quot;</span>
+<span class="add">+    animation-duration: 1.5s;</span>
+<span class="add">+    animation-iteration-count: infinite;</span>
+<span class="add">+    animation-name: spin;</span>
+<span class="add">+    animation-timing-function: cubic-bezier(0.7, 0.2, 0.3, 0.73);</span>
+<span class="add">+    display: inline-block;</span>
+<span class="add">+    height: 30px;</span>
+<span class="add">+    width: 30px</span>
+<span class="add">+  &quot;></span>
+<span class="add">+    &lt;svg style=&quot;</span>
+<span class="add">+      display: inline-block;</span>
+<span class="add">+      fill: currentcolor;</span>
+<span class="add">+      height: inherit;</span>
+<span class="add">+      max-height: inherit;</span>
+<span class="add">+      max-width: inherit;</span>
+<span class="add">+      pointer-events: none;</span>
+<span class="add">+      stroke-width: 0;</span>
+<span class="add">+      stroke: currentcolor;</span>
+<span class="add">+      vertical-align: middle;</span>
+<span class="add">+      width: inherit</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;use href=&quot;#icon-spinner-30&quot;/></span>
+<span class="add">+    &lt;/svg></span>
+<span class="add">+  &lt;/span></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section>
+</main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
     <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
@@ -34,10 +87,10 @@
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
-    const PAGE = {"entry":{"component":"progress-spinner","story":"large","file":"packages/skin/src/sass/progress-spinner/stories/__snapshots__/progress-spinner.snap","dims":[{"suffix":"","width":null,"rtl":false,"status":"added","before":"","after":"<div>\n  <span style=\"\n    animation-duration: 1.5s;\n    animation-iteration-count: infinite;\n    animation-name: spin;\n    animation-timing-function: cubic-bezier(0.7, 0.2, 0.3, 0.73);\n    display: inline-block;\n    height: 30px;\n    width: 30px\n  \">\n    <svg style=\"\n      display: inline-block;\n      fill: currentcolor;\n      height: inherit;\n      max-height: inherit;\n      max-width: inherit;\n      pointer-events: none;\n      stroke-width: 0;\n      stroke: currentcolor;\n      vertical-align: middle;\n      width: inherit\n    \">\n      <use href=\"#icon-spinner-30\"/>\n    <\/svg>\n  <\/span>\n<\/div>","diff":"@@ -0,0 +1,26 @@\n+<div>\n+  <span style=\"\n+    animation-duration: 1.5s;\n+    animation-iteration-count: infinite;\n+    animation-name: spin;\n+    animation-timing-function: cubic-bezier(0.7, 0.2, 0.3, 0.73);\n+    display: inline-block;\n+    height: 30px;\n+    width: 30px\n+  \">\n+    <svg style=\"\n+      display: inline-block;\n+      fill: currentcolor;\n+      height: inherit;\n+      max-height: inherit;\n+      max-width: inherit;\n+      pointer-events: none;\n+      stroke-width: 0;\n+      stroke: currentcolor;\n+      vertical-align: middle;\n+      width: inherit\n+    \">\n+      <use href=\"#icon-spinner-30\"/>\n+    <\/svg>\n+  <\/span>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"<span class=\"progress-spinner progress-spinner--large\" aria-label=\"Busy\" role=\"img\">\n        <svg class=\"icon icon--30\" aria-hidden=\"true\">\n            <use href=\"#icon-spinner-30\"><\/use>\n        <\/svg>\n    <\/span>","storyAfter":"<span class=\"progress-spinner progress-spinner--large\" aria-label=\"Busy\" role=\"img\">\n        <svg class=\"icon icon--30\" aria-hidden=\"true\">\n            <use href=\"#icon-spinner-30\"><\/use>\n        <\/svg>\n    <\/span>"},"baseRefShort":"60ee2f496866","prevHref":"progress-spinner-stories-progress-spinner--base.html","nextHref":"progress-spinner-stories-progress-spinner--small.html","indexHref":"../index.html","pos":675,"total":1012,"slug":"progress-spinner-stories-progress-spinner--large","hash":"1gx7u3c"};
+    const PAGE = {"baseRefShort":"60ee2f496866","prevHref":"progress-spinner-stories-progress-spinner--base.html","nextHref":"progress-spinner-stories-progress-spinner--small.html","indexHref":"../index.html","pos":675,"total":1012,"slug":"progress-spinner-stories-progress-spinner--large","hash":"1gx7u3c","component":"progress-spinner","story":"large","file":"packages/skin/src/sass/progress-spinner/stories/__snapshots__/progress-spinner.snap","dims":[{"changes":[]}]};
 </script>
-<script src="../assets/nav.js"></script>
-<script src="../assets/story.js"></script>
+<script src="../assets/nav.js" defer></script>
+<script src="../assets/story.js" defer></script>
 <script src="../assets/prefetch.js" defer></script>
 </body>
 </html>

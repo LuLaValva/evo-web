@@ -9,8 +9,8 @@
 <body class="story-page">
 <header>
     <a class="back" href="../index.html">← All changes</a>
-    <h1 id="title"></h1>
-    <span class="meta" id="path"></span>
+    <h1 id="title">listbox-button / enabled</h1>
+    <span class="meta" id="path">packages/skin/src/sass/listbox-button/stories/__snapshots__/form.snap</span>
     <span class="pagenav">
         <a id="prev" href="#">‹ prev</a>
         <span class="pos" id="pos"></span>
@@ -21,7 +21,306 @@
     <input id="search" type="search" placeholder="Filter stories… ( / )" />
     <div id="storylist"></div>
 </nav>
-<main id="main"></main>
+<main id="main">
+    <div class="toolbar">
+        <div class="seg" data-seg="mode">
+            <button type="button" data-v="side" class="active">Side by side</button>
+            <button type="button" data-v="swipe">Swipe</button>
+            <button type="button" data-v="onion">Onion</button>
+            <button type="button" data-v="flip">Flip</button>
+        </div>
+        <div class="seg" data-seg="view">
+            <button type="button" data-v="rendered" class="active">Rendered</button>
+            <button type="button" data-v="diff">Text diff</button>
+        </div>
+        <div class="seg" data-seg="theme">
+            <button type="button" data-v="light" class="active">Light</button>
+            <button type="button" data-v="dark">Dark</button>
+        </div>
+        <label class="toggle"><input type="checkbox" id="hl-toggle" checked />Highlights</label>
+        <div class="grow"></div>
+        <button class="flag" id="flag-btn" type="button">⚑ Flag</button>
+    </div>
+    <section class="dim-section" id="dim-0" data-dim="0"><h3 class="dim-label">1280px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<span class=&quot;listbox-button listbox-button--form&quot;>
+    <button class=&quot;btn btn--form&quot; aria-expanded=&quot;false&quot; aria-haspopup=&quot;listbox&quot;>
+        <span class=&quot;btn__cell&quot;>
+            <span class=&quot;btn__label&quot;>Color: </span>
+            <span class=&quot;btn__text&quot;>-</span>
+            <svg class=&quot;icon icon--12&quot; height=&quot;8&quot; width=&quot;8&quot; aria-hidden=&quot;true&quot;>
+                <use href=&quot;#icon-chevron-down-12&quot;></use>
+            </svg>
+        </span>
+    </button>
+    <div class=&quot;listbox-button__listbox listbox-button__listbox--set-position&quot;>
+        <div class=&quot;listbox-button__options&quot; role=&quot;listbox&quot;>
+            <div class=&quot;listbox-button__option&quot; role=&quot;option&quot;>
+                <span class=&quot;listbox-button__value&quot;>Red</span>
+                <svg class=&quot;icon icon--16&quot; height=&quot;8&quot; width=&quot;8&quot;>
+                    <use href=&quot;#icon-tick-16&quot;></use>
+                </svg>
+            </div>
+            <div class=&quot;listbox-button__option&quot; role=&quot;option&quot;>
+                <span class=&quot;listbox-button__value&quot;>Blue</span>
+                <svg class=&quot;icon icon--16&quot; height=&quot;8&quot; width=&quot;8&quot;>
+                    <use href=&quot;#icon-tick-16&quot;></use>
+                </svg>
+            </div>
+            <div class=&quot;listbox-button__option&quot; role=&quot;option&quot;>
+                <span class=&quot;listbox-button__value&quot;>Yellow</span>
+                <svg class=&quot;icon icon--16&quot; height=&quot;8&quot; width=&quot;8&quot;>
+                    <use href=&quot;#icon-tick-16&quot;></use>
+                </svg>
+            </div>
+            <div class=&quot;listbox-button__option&quot; role=&quot;option&quot;>
+                <span class=&quot;listbox-button__value&quot;>Green</span>
+                <svg class=&quot;icon icon--16&quot; height=&quot;8&quot; width=&quot;8&quot;>
+                    <use href=&quot;#icon-tick-16&quot;></use>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <select hidden=&quot;&quot; class=&quot;listbox__native&quot;>
+        <option value=&quot;1&quot;></option>
+        <option value=&quot;2&quot;></option>
+        <option value=&quot;3&quot;></option>
+        <option value=&quot;4&quot;></option>
+    </select>
+</span>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,91 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;span style=&quot;</span>
+<span class="add">+    display: inline-block;</span>
+<span class="add">+    position: relative;</span>
+<span class="add">+    vertical-align: bottom</span>
+<span class="add">+  &quot;></span>
+<span class="add">+    &lt;button style=&quot;</span>
+<span class="add">+      align-content: center;</span>
+<span class="add">+      align-items: center;</span>
+<span class="add">+      background-color: var(--listbox-button-background-color, var(--color-background-secondary));</span>
+<span class="add">+      border-bottom-color: inherit;</span>
+<span class="add">+      border-bottom-style: solid;</span>
+<span class="add">+      border-bottom-width: 1px;</span>
+<span class="add">+      border-bottom: 1px solid;</span>
+<span class="add">+      border-left-color: inherit;</span>
+<span class="add">+      border-left-style: solid;</span>
+<span class="add">+      border-left-width: 1px;</span>
+<span class="add">+      border-right-color: inherit;</span>
+<span class="add">+      border-right-style: solid;</span>
+<span class="add">+      border-right-width: 1px;</span>
+<span class="add">+      border-top-color: inherit;</span>
+<span class="add">+      border-top-style: solid;</span>
+<span class="add">+      border-top-width: 1px;</span>
+<span class="add">+      border-top: 1px solid;</span>
+<span class="add">+      color: var(--listbox-button-foreground-color, var(--color-foreground-primary));</span>
+<span class="add">+      font-family: inherit;</span>
+<span class="add">+      font-size: var(--font-size-body);</span>
+<span class="add">+      max-width: 100%;</span>
+<span class="add">+      min-height: 40px;</span>
+<span class="add">+      min-width: 88px;</span>
+<span class="add">+      overflow-x: hidden;</span>
+<span class="add">+      overflow-y: hidden;</span>
+<span class="add">+      padding-bottom: 0px;</span>
+<span class="add">+      padding-left: 15px;</span>
+<span class="add">+      padding-right: 15px;</span>
+<span class="add">+      padding-top: 0px;</span>
+<span class="add">+      position: relative;</span>
+<span class="add">+      vertical-align: bottom</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;style>@scope{:scope{</span>
+<span class="add">+        &amp;::after {</span>
+<span class="add">+          background-color: var(--color-state-layer-neutral);</span>
+<span class="add">+          bottom: 0px;</span>
+<span class="add">+          content: &quot;&quot;;</span>
+<span class="add">+          left: 0px;</span>
+<span class="add">+          pointer-events: none;</span>
+<span class="add">+          position: absolute;</span>
+<span class="add">+          right: 0px;</span>
+<span class="add">+          top: 0px</span>
+<span class="add">+        }</span>
+<span class="add">+      }}&lt;/style></span>
+<span class="add">+      &lt;span style=&quot;</span>
+<span class="add">+        align-items: center;</span>
+<span class="add">+        display: flex;</span>
+<span class="add">+        justify-content: space-between;</span>
+<span class="add">+        width: 100%</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          color: var(--listbox-button-label-color, var(--color-foreground-secondary));</span>
+<span class="add">+          margin-right: 3px</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Color:</span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          font-weight: 700;</span>
+<span class="add">+          margin-right: auto</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          -</span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+        &lt;svg</span>
+<span class="add">+          height=&quot;8&quot;</span>
+<span class="add">+          style=&quot;</span>
+<span class="add">+            align-self: center;</span>
+<span class="add">+            display: inline-block;</span>
+<span class="add">+            fill: currentcolor;</span>
+<span class="add">+            height: 12px;</span>
+<span class="add">+            margin-inline-start: 8px;</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            stroke-width: 0;</span>
+<span class="add">+            stroke: currentcolor;</span>
+<span class="add">+            vertical-align: middle;</span>
+<span class="add">+            width: 12px</span>
+<span class="add">+          &quot;</span>
+<span class="add">+          width=&quot;8&quot;</span>
+<span class="add">+        ></span>
+<span class="add">+          &lt;use href=&quot;#icon-chevron-down-12&quot;/></span>
+<span class="add">+        &lt;/svg></span>
+<span class="add">+      &lt;/span></span>
+<span class="add">+    &lt;/button></span>
+<span class="add">+  &lt;/span></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section><section class="dim-section" id="dim-1" data-dim="1"><h3 class="dim-label">1280px rtl</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;rtl&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<span class=&quot;listbox-button listbox-button--form&quot;>
+    <button class=&quot;btn btn--form&quot; aria-expanded=&quot;false&quot; aria-haspopup=&quot;listbox&quot;>
+        <span class=&quot;btn__cell&quot;>
+            <span class=&quot;btn__label&quot;>Color: </span>
+            <span class=&quot;btn__text&quot;>-</span>
+            <svg class=&quot;icon icon--12&quot; height=&quot;8&quot; width=&quot;8&quot; aria-hidden=&quot;true&quot;>
+                <use href=&quot;#icon-chevron-down-12&quot;></use>
+            </svg>
+        </span>
+    </button>
+    <div class=&quot;listbox-button__listbox listbox-button__listbox--set-position&quot;>
+        <div class=&quot;listbox-button__options&quot; role=&quot;listbox&quot;>
+            <div class=&quot;listbox-button__option&quot; role=&quot;option&quot;>
+                <span class=&quot;listbox-button__value&quot;>Red</span>
+                <svg class=&quot;icon icon--16&quot; height=&quot;8&quot; width=&quot;8&quot;>
+                    <use href=&quot;#icon-tick-16&quot;></use>
+                </svg>
+            </div>
+            <div class=&quot;listbox-button__option&quot; role=&quot;option&quot;>
+                <span class=&quot;listbox-button__value&quot;>Blue</span>
+                <svg class=&quot;icon icon--16&quot; height=&quot;8&quot; width=&quot;8&quot;>
+                    <use href=&quot;#icon-tick-16&quot;></use>
+                </svg>
+            </div>
+            <div class=&quot;listbox-button__option&quot; role=&quot;option&quot;>
+                <span class=&quot;listbox-button__value&quot;>Yellow</span>
+                <svg class=&quot;icon icon--16&quot; height=&quot;8&quot; width=&quot;8&quot;>
+                    <use href=&quot;#icon-tick-16&quot;></use>
+                </svg>
+            </div>
+            <div class=&quot;listbox-button__option&quot; role=&quot;option&quot;>
+                <span class=&quot;listbox-button__value&quot;>Green</span>
+                <svg class=&quot;icon icon--16&quot; height=&quot;8&quot; width=&quot;8&quot;>
+                    <use href=&quot;#icon-tick-16&quot;></use>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <select hidden=&quot;&quot; class=&quot;listbox__native&quot;>
+        <option value=&quot;1&quot;></option>
+        <option value=&quot;2&quot;></option>
+        <option value=&quot;3&quot;></option>
+        <option value=&quot;4&quot;></option>
+    </select>
+</span>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,91 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;span style=&quot;</span>
+<span class="add">+    display: inline-block;</span>
+<span class="add">+    position: relative;</span>
+<span class="add">+    vertical-align: bottom</span>
+<span class="add">+  &quot;></span>
+<span class="add">+    &lt;button style=&quot;</span>
+<span class="add">+      align-content: center;</span>
+<span class="add">+      align-items: center;</span>
+<span class="add">+      background-color: var(--listbox-button-background-color, var(--color-background-secondary));</span>
+<span class="add">+      border-bottom-color: inherit;</span>
+<span class="add">+      border-bottom-style: solid;</span>
+<span class="add">+      border-bottom-width: 1px;</span>
+<span class="add">+      border-bottom: 1px solid;</span>
+<span class="add">+      border-left-color: inherit;</span>
+<span class="add">+      border-left-style: solid;</span>
+<span class="add">+      border-left-width: 1px;</span>
+<span class="add">+      border-right-color: inherit;</span>
+<span class="add">+      border-right-style: solid;</span>
+<span class="add">+      border-right-width: 1px;</span>
+<span class="add">+      border-top-color: inherit;</span>
+<span class="add">+      border-top-style: solid;</span>
+<span class="add">+      border-top-width: 1px;</span>
+<span class="add">+      border-top: 1px solid;</span>
+<span class="add">+      color: var(--listbox-button-foreground-color, var(--color-foreground-primary));</span>
+<span class="add">+      font-family: inherit;</span>
+<span class="add">+      font-size: var(--font-size-body);</span>
+<span class="add">+      max-width: 100%;</span>
+<span class="add">+      min-height: 40px;</span>
+<span class="add">+      min-width: 88px;</span>
+<span class="add">+      overflow-x: hidden;</span>
+<span class="add">+      overflow-y: hidden;</span>
+<span class="add">+      padding-bottom: 0px;</span>
+<span class="add">+      padding-left: 15px;</span>
+<span class="add">+      padding-right: 15px;</span>
+<span class="add">+      padding-top: 0px;</span>
+<span class="add">+      position: relative;</span>
+<span class="add">+      vertical-align: bottom</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;style>@scope{:scope{</span>
+<span class="add">+        &amp;::after {</span>
+<span class="add">+          background-color: var(--color-state-layer-neutral);</span>
+<span class="add">+          bottom: 0px;</span>
+<span class="add">+          content: &quot;&quot;;</span>
+<span class="add">+          left: 0px;</span>
+<span class="add">+          pointer-events: none;</span>
+<span class="add">+          position: absolute;</span>
+<span class="add">+          right: 0px;</span>
+<span class="add">+          top: 0px</span>
+<span class="add">+        }</span>
+<span class="add">+      }}&lt;/style></span>
+<span class="add">+      &lt;span style=&quot;</span>
+<span class="add">+        align-items: center;</span>
+<span class="add">+        display: flex;</span>
+<span class="add">+        justify-content: space-between;</span>
+<span class="add">+        width: 100%</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          color: var(--listbox-button-label-color, var(--color-foreground-secondary));</span>
+<span class="add">+          margin-right: 3px</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Color:</span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          font-weight: 700;</span>
+<span class="add">+          margin-right: auto</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          -</span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+        &lt;svg</span>
+<span class="add">+          height=&quot;8&quot;</span>
+<span class="add">+          style=&quot;</span>
+<span class="add">+            align-self: center;</span>
+<span class="add">+            display: inline-block;</span>
+<span class="add">+            fill: currentcolor;</span>
+<span class="add">+            height: 12px;</span>
+<span class="add">+            margin-inline-start: 8px;</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            stroke-width: 0;</span>
+<span class="add">+            stroke: currentcolor;</span>
+<span class="add">+            vertical-align: middle;</span>
+<span class="add">+            width: 12px</span>
+<span class="add">+          &quot;</span>
+<span class="add">+          width=&quot;8&quot;</span>
+<span class="add">+        ></span>
+<span class="add">+          &lt;use href=&quot;#icon-chevron-down-12&quot;/></span>
+<span class="add">+        &lt;/svg></span>
+<span class="add">+      &lt;/span></span>
+<span class="add">+    &lt;/button></span>
+<span class="add">+  &lt;/span></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section>
+</main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
     <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
@@ -34,10 +333,10 @@
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
-    const PAGE = {"entry":{"component":"listbox-button","story":"enabled","file":"packages/skin/src/sass/listbox-button/stories/__snapshots__/form.snap","dims":[{"suffix":"1280px","width":1280,"rtl":false,"status":"added","before":"","after":"<div>\n  <span style=\"\n    display: inline-block;\n    position: relative;\n    vertical-align: bottom\n  \">\n    <button style=\"\n      align-content: center;\n      align-items: center;\n      background-color: var(--listbox-button-background-color, var(--color-background-secondary));\n      border-bottom-color: inherit;\n      border-bottom-style: solid;\n      border-bottom-width: 1px;\n      border-bottom: 1px solid;\n      border-left-color: inherit;\n      border-left-style: solid;\n      border-left-width: 1px;\n      border-right-color: inherit;\n      border-right-style: solid;\n      border-right-width: 1px;\n      border-top-color: inherit;\n      border-top-style: solid;\n      border-top-width: 1px;\n      border-top: 1px solid;\n      color: var(--listbox-button-foreground-color, var(--color-foreground-primary));\n      font-family: inherit;\n      font-size: var(--font-size-body);\n      max-width: 100%;\n      min-height: 40px;\n      min-width: 88px;\n      overflow-x: hidden;\n      overflow-y: hidden;\n      padding-bottom: 0px;\n      padding-left: 15px;\n      padding-right: 15px;\n      padding-top: 0px;\n      position: relative;\n      vertical-align: bottom\n    \">\n      <style>@scope{:scope{\n        &::after {\n          background-color: var(--color-state-layer-neutral);\n          bottom: 0px;\n          content: \"\";\n          left: 0px;\n          pointer-events: none;\n          position: absolute;\n          right: 0px;\n          top: 0px\n        }\n      }}<\/style>\n      <span style=\"\n        align-items: center;\n        display: flex;\n        justify-content: space-between;\n        width: 100%\n      \">\n        <span style=\"\n          color: var(--listbox-button-label-color, var(--color-foreground-secondary));\n          margin-right: 3px\n        \">\n          Color:\n        <\/span>\n        <span style=\"\n          font-weight: 700;\n          margin-right: auto\n        \">\n          -\n        <\/span>\n        <svg\n          height=\"8\"\n          style=\"\n            align-self: center;\n            display: inline-block;\n            fill: currentcolor;\n            height: 12px;\n            margin-inline-start: 8px;\n            pointer-events: none;\n            stroke-width: 0;\n            stroke: currentcolor;\n            vertical-align: middle;\n            width: 12px\n          \"\n          width=\"8\"\n        >\n          <use href=\"#icon-chevron-down-12\"/>\n        <\/svg>\n      <\/span>\n    <\/button>\n  <\/span>\n<\/div>","diff":"@@ -0,0 +1,91 @@\n+<div>\n+  <span style=\"\n+    display: inline-block;\n+    position: relative;\n+    vertical-align: bottom\n+  \">\n+    <button style=\"\n+      align-content: center;\n+      align-items: center;\n+      background-color: var(--listbox-button-background-color, var(--color-background-secondary));\n+      border-bottom-color: inherit;\n+      border-bottom-style: solid;\n+      border-bottom-width: 1px;\n+      border-bottom: 1px solid;\n+      border-left-color: inherit;\n+      border-left-style: solid;\n+      border-left-width: 1px;\n+      border-right-color: inherit;\n+      border-right-style: solid;\n+      border-right-width: 1px;\n+      border-top-color: inherit;\n+      border-top-style: solid;\n+      border-top-width: 1px;\n+      border-top: 1px solid;\n+      color: var(--listbox-button-foreground-color, var(--color-foreground-primary));\n+      font-family: inherit;\n+      font-size: var(--font-size-body);\n+      max-width: 100%;\n+      min-height: 40px;\n+      min-width: 88px;\n+      overflow-x: hidden;\n+      overflow-y: hidden;\n+      padding-bottom: 0px;\n+      padding-left: 15px;\n+      padding-right: 15px;\n+      padding-top: 0px;\n+      position: relative;\n+      vertical-align: bottom\n+    \">\n+      <style>@scope{:scope{\n+        &::after {\n+          background-color: var(--color-state-layer-neutral);\n+          bottom: 0px;\n+          content: \"\";\n+          left: 0px;\n+          pointer-events: none;\n+          position: absolute;\n+          right: 0px;\n+          top: 0px\n+        }\n+      }}<\/style>\n+      <span style=\"\n+        align-items: center;\n+        display: flex;\n+        justify-content: space-between;\n+        width: 100%\n+      \">\n+        <span style=\"\n+          color: var(--listbox-button-label-color, var(--color-foreground-secondary));\n+          margin-right: 3px\n+        \">\n+          Color:\n+        <\/span>\n+        <span style=\"\n+          font-weight: 700;\n+          margin-right: auto\n+        \">\n+          -\n+        <\/span>\n+        <svg\n+          height=\"8\"\n+          style=\"\n+            align-self: center;\n+            display: inline-block;\n+            fill: currentcolor;\n+            height: 12px;\n+            margin-inline-start: 8px;\n+            pointer-events: none;\n+            stroke-width: 0;\n+            stroke: currentcolor;\n+            vertical-align: middle;\n+            width: 12px\n+          \"\n+          width=\"8\"\n+        >\n+          <use href=\"#icon-chevron-down-12\"/>\n+        <\/svg>\n+      <\/span>\n+    <\/button>\n+  <\/span>\n+<\/div>\n\\ No newline at end of file\n"},{"suffix":"1280px rtl","width":1280,"rtl":true,"status":"added","before":"","after":"<div>\n  <span style=\"\n    display: inline-block;\n    position: relative;\n    vertical-align: bottom\n  \">\n    <button style=\"\n      align-content: center;\n      align-items: center;\n      background-color: var(--listbox-button-background-color, var(--color-background-secondary));\n      border-bottom-color: inherit;\n      border-bottom-style: solid;\n      border-bottom-width: 1px;\n      border-bottom: 1px solid;\n      border-left-color: inherit;\n      border-left-style: solid;\n      border-left-width: 1px;\n      border-right-color: inherit;\n      border-right-style: solid;\n      border-right-width: 1px;\n      border-top-color: inherit;\n      border-top-style: solid;\n      border-top-width: 1px;\n      border-top: 1px solid;\n      color: var(--listbox-button-foreground-color, var(--color-foreground-primary));\n      font-family: inherit;\n      font-size: var(--font-size-body);\n      max-width: 100%;\n      min-height: 40px;\n      min-width: 88px;\n      overflow-x: hidden;\n      overflow-y: hidden;\n      padding-bottom: 0px;\n      padding-left: 15px;\n      padding-right: 15px;\n      padding-top: 0px;\n      position: relative;\n      vertical-align: bottom\n    \">\n      <style>@scope{:scope{\n        &::after {\n          background-color: var(--color-state-layer-neutral);\n          bottom: 0px;\n          content: \"\";\n          left: 0px;\n          pointer-events: none;\n          position: absolute;\n          right: 0px;\n          top: 0px\n        }\n      }}<\/style>\n      <span style=\"\n        align-items: center;\n        display: flex;\n        justify-content: space-between;\n        width: 100%\n      \">\n        <span style=\"\n          color: var(--listbox-button-label-color, var(--color-foreground-secondary));\n          margin-right: 3px\n        \">\n          Color:\n        <\/span>\n        <span style=\"\n          font-weight: 700;\n          margin-right: auto\n        \">\n          -\n        <\/span>\n        <svg\n          height=\"8\"\n          style=\"\n            align-self: center;\n            display: inline-block;\n            fill: currentcolor;\n            height: 12px;\n            margin-inline-start: 8px;\n            pointer-events: none;\n            stroke-width: 0;\n            stroke: currentcolor;\n            vertical-align: middle;\n            width: 12px\n          \"\n          width=\"8\"\n        >\n          <use href=\"#icon-chevron-down-12\"/>\n        <\/svg>\n      <\/span>\n    <\/button>\n  <\/span>\n<\/div>","diff":"@@ -0,0 +1,91 @@\n+<div>\n+  <span style=\"\n+    display: inline-block;\n+    position: relative;\n+    vertical-align: bottom\n+  \">\n+    <button style=\"\n+      align-content: center;\n+      align-items: center;\n+      background-color: var(--listbox-button-background-color, var(--color-background-secondary));\n+      border-bottom-color: inherit;\n+      border-bottom-style: solid;\n+      border-bottom-width: 1px;\n+      border-bottom: 1px solid;\n+      border-left-color: inherit;\n+      border-left-style: solid;\n+      border-left-width: 1px;\n+      border-right-color: inherit;\n+      border-right-style: solid;\n+      border-right-width: 1px;\n+      border-top-color: inherit;\n+      border-top-style: solid;\n+      border-top-width: 1px;\n+      border-top: 1px solid;\n+      color: var(--listbox-button-foreground-color, var(--color-foreground-primary));\n+      font-family: inherit;\n+      font-size: var(--font-size-body);\n+      max-width: 100%;\n+      min-height: 40px;\n+      min-width: 88px;\n+      overflow-x: hidden;\n+      overflow-y: hidden;\n+      padding-bottom: 0px;\n+      padding-left: 15px;\n+      padding-right: 15px;\n+      padding-top: 0px;\n+      position: relative;\n+      vertical-align: bottom\n+    \">\n+      <style>@scope{:scope{\n+        &::after {\n+          background-color: var(--color-state-layer-neutral);\n+          bottom: 0px;\n+          content: \"\";\n+          left: 0px;\n+          pointer-events: none;\n+          position: absolute;\n+          right: 0px;\n+          top: 0px\n+        }\n+      }}<\/style>\n+      <span style=\"\n+        align-items: center;\n+        display: flex;\n+        justify-content: space-between;\n+        width: 100%\n+      \">\n+        <span style=\"\n+          color: var(--listbox-button-label-color, var(--color-foreground-secondary));\n+          margin-right: 3px\n+        \">\n+          Color:\n+        <\/span>\n+        <span style=\"\n+          font-weight: 700;\n+          margin-right: auto\n+        \">\n+          -\n+        <\/span>\n+        <svg\n+          height=\"8\"\n+          style=\"\n+            align-self: center;\n+            display: inline-block;\n+            fill: currentcolor;\n+            height: 12px;\n+            margin-inline-start: 8px;\n+            pointer-events: none;\n+            stroke-width: 0;\n+            stroke: currentcolor;\n+            vertical-align: middle;\n+            width: 12px\n+          \"\n+          width=\"8\"\n+        >\n+          <use href=\"#icon-chevron-down-12\"/>\n+        <\/svg>\n+      <\/span>\n+    <\/button>\n+  <\/span>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"\n<span class=\"listbox-button listbox-button--form\">\n    <button class=\"btn btn--form\" aria-expanded=\"false\" aria-haspopup=\"listbox\">\n        <span class=\"btn__cell\">\n            <span class=\"btn__label\">Color: <\/span>\n            <span class=\"btn__text\">-<\/span>\n            <svg class=\"icon icon--12\" height=\"8\" width=\"8\" aria-hidden=\"true\">\n                <use href=\"#icon-chevron-down-12\"><\/use>\n            <\/svg>\n        <\/span>\n    <\/button>\n    <div class=\"listbox-button__listbox listbox-button__listbox--set-position\">\n        <div class=\"listbox-button__options\" role=\"listbox\">\n            <div class=\"listbox-button__option\" role=\"option\">\n                <span class=\"listbox-button__value\">Red<\/span>\n                <svg class=\"icon icon--16\" height=\"8\" width=\"8\">\n                    <use href=\"#icon-tick-16\"><\/use>\n                <\/svg>\n            <\/div>\n            <div class=\"listbox-button__option\" role=\"option\">\n                <span class=\"listbox-button__value\">Blue<\/span>\n                <svg class=\"icon icon--16\" height=\"8\" width=\"8\">\n                    <use href=\"#icon-tick-16\"><\/use>\n                <\/svg>\n            <\/div>\n            <div class=\"listbox-button__option\" role=\"option\">\n                <span class=\"listbox-button__value\">Yellow<\/span>\n                <svg class=\"icon icon--16\" height=\"8\" width=\"8\">\n                    <use href=\"#icon-tick-16\"><\/use>\n                <\/svg>\n            <\/div>\n            <div class=\"listbox-button__option\" role=\"option\">\n                <span class=\"listbox-button__value\">Green<\/span>\n                <svg class=\"icon icon--16\" height=\"8\" width=\"8\">\n                    <use href=\"#icon-tick-16\"><\/use>\n                <\/svg>\n            <\/div>\n        <\/div>\n    <\/div>\n    <select hidden=\"\" class=\"listbox__native\">\n        <option value=\"1\"><\/option>\n        <option value=\"2\"><\/option>\n        <option value=\"3\"><\/option>\n        <option value=\"4\"><\/option>\n    <\/select>\n<\/span>\n","storyAfter":"\n<span class=\"listbox-button listbox-button--form\">\n    <button class=\"btn btn--form\" aria-expanded=\"false\" aria-haspopup=\"listbox\">\n        <span class=\"btn__cell\">\n            <span class=\"btn__label\">Color: <\/span>\n            <span class=\"btn__text\">-<\/span>\n            <svg class=\"icon icon--12\" height=\"8\" width=\"8\" aria-hidden=\"true\">\n                <use href=\"#icon-chevron-down-12\"><\/use>\n            <\/svg>\n        <\/span>\n    <\/button>\n    <div class=\"listbox-button__listbox listbox-button__listbox--set-position\">\n        <div class=\"listbox-button__options\" role=\"listbox\">\n            <div class=\"listbox-button__option\" role=\"option\">\n                <span class=\"listbox-button__value\">Red<\/span>\n                <svg class=\"icon icon--16\" height=\"8\" width=\"8\">\n                    <use href=\"#icon-tick-16\"><\/use>\n                <\/svg>\n            <\/div>\n            <div class=\"listbox-button__option\" role=\"option\">\n                <span class=\"listbox-button__value\">Blue<\/span>\n                <svg class=\"icon icon--16\" height=\"8\" width=\"8\">\n                    <use href=\"#icon-tick-16\"><\/use>\n                <\/svg>\n            <\/div>\n            <div class=\"listbox-button__option\" role=\"option\">\n                <span class=\"listbox-button__value\">Yellow<\/span>\n                <svg class=\"icon icon--16\" height=\"8\" width=\"8\">\n                    <use href=\"#icon-tick-16\"><\/use>\n                <\/svg>\n            <\/div>\n            <div class=\"listbox-button__option\" role=\"option\">\n                <span class=\"listbox-button__value\">Green<\/span>\n                <svg class=\"icon icon--16\" height=\"8\" width=\"8\">\n                    <use href=\"#icon-tick-16\"><\/use>\n                <\/svg>\n            <\/div>\n        <\/div>\n    <\/div>\n    <select hidden=\"\" class=\"listbox__native\">\n        <option value=\"1\"><\/option>\n        <option value=\"2\"><\/option>\n        <option value=\"3\"><\/option>\n        <option value=\"4\"><\/option>\n    <\/select>\n<\/span>\n"},"baseRefShort":"60ee2f496866","prevHref":"listbox-button-stories-form--disabled.html","nextHref":"listbox-button-stories-form--invalid.html","indexHref":"../index.html","pos":518,"total":1012,"slug":"listbox-button-stories-form--enabled","hash":"1josygv"};
+    const PAGE = {"baseRefShort":"60ee2f496866","prevHref":"listbox-button-stories-form--disabled.html","nextHref":"listbox-button-stories-form--invalid.html","indexHref":"../index.html","pos":518,"total":1012,"slug":"listbox-button-stories-form--enabled","hash":"1josygv","component":"listbox-button","story":"enabled","file":"packages/skin/src/sass/listbox-button/stories/__snapshots__/form.snap","dims":[{"changes":[]},{"changes":[]}]};
 </script>
-<script src="../assets/nav.js"></script>
-<script src="../assets/story.js"></script>
+<script src="../assets/nav.js" defer></script>
+<script src="../assets/story.js" defer></script>
 <script src="../assets/prefetch.js" defer></script>
 </body>
 </html>

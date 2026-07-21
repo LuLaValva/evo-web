@@ -9,8 +9,8 @@
 <body class="story-page">
 <header>
     <a class="back" href="../index.html">← All changes</a>
-    <h1 id="title"></h1>
-    <span class="meta" id="path"></span>
+    <h1 id="title">progress-bar / empty</h1>
+    <span class="meta" id="path">packages/skin/src/sass/progress-bar/stories/__snapshots__/progress-bar.snap</span>
     <span class="pagenav">
         <a id="prev" href="#">‹ prev</a>
         <span class="pos" id="pos"></span>
@@ -21,7 +21,58 @@
     <input id="search" type="search" placeholder="Filter stories… ( / )" />
     <div id="storylist"></div>
 </nav>
-<main id="main"></main>
+<main id="main">
+    <div class="toolbar">
+        <div class="seg" data-seg="mode">
+            <button type="button" data-v="side" class="active">Side by side</button>
+            <button type="button" data-v="swipe">Swipe</button>
+            <button type="button" data-v="onion">Onion</button>
+            <button type="button" data-v="flip">Flip</button>
+        </div>
+        <div class="seg" data-seg="view">
+            <button type="button" data-v="rendered" class="active">Rendered</button>
+            <button type="button" data-v="diff">Text diff</button>
+        </div>
+        <div class="seg" data-seg="theme">
+            <button type="button" data-v="light" class="active">Light</button>
+            <button type="button" data-v="dark">Dark</button>
+        </div>
+        <label class="toggle"><input type="checkbox" id="hl-toggle" checked />Highlights</label>
+        <div class="grow"></div>
+        <button class="flag" id="flag-btn" type="button">⚑ Flag</button>
+    </div>
+    <section class="dim-section" id="dim-0" data-dim="0"><h3 class="dim-label">320px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="320"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script><progress class=&quot;progress&quot; value=1 max=100>0%</progress></body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,8 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;progress</span>
+<span class="add">+    max=100</span>
+<span class="add">+    value=1</span>
+<span class="add">+  ></span>
+<span class="add">+    0%</span>
+<span class="add">+  &lt;/progress></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section><section class="dim-section" id="dim-1" data-dim="1"><h3 class="dim-label">512px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="512"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script><progress class=&quot;progress&quot; value=1 max=100>0%</progress></body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,8 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;progress</span>
+<span class="add">+    max=100</span>
+<span class="add">+    value=1</span>
+<span class="add">+  ></span>
+<span class="add">+    0%</span>
+<span class="add">+  &lt;/progress></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section><section class="dim-section" id="dim-2" data-dim="2"><h3 class="dim-label">1280px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script><progress class=&quot;progress&quot; value=1 max=100>0%</progress></body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,8 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;progress</span>
+<span class="add">+    max=100</span>
+<span class="add">+    value=1</span>
+<span class="add">+  ></span>
+<span class="add">+    0%</span>
+<span class="add">+  &lt;/progress></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section>
+</main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
     <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
@@ -34,10 +85,10 @@
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
-    const PAGE = {"entry":{"component":"progress-bar","story":"empty","file":"packages/skin/src/sass/progress-bar/stories/__snapshots__/progress-bar.snap","dims":[{"suffix":"320px","width":320,"rtl":false,"status":"added","before":"","after":"<div>\n  <progress\n    max=100\n    value=1\n  >\n    0%\n  <\/progress>\n<\/div>","diff":"@@ -0,0 +1,8 @@\n+<div>\n+  <progress\n+    max=100\n+    value=1\n+  >\n+    0%\n+  <\/progress>\n+<\/div>\n\\ No newline at end of file\n"},{"suffix":"512px","width":512,"rtl":false,"status":"added","before":"","after":"<div>\n  <progress\n    max=100\n    value=1\n  >\n    0%\n  <\/progress>\n<\/div>","diff":"@@ -0,0 +1,8 @@\n+<div>\n+  <progress\n+    max=100\n+    value=1\n+  >\n+    0%\n+  <\/progress>\n+<\/div>\n\\ No newline at end of file\n"},{"suffix":"1280px","width":1280,"rtl":false,"status":"added","before":"","after":"<div>\n  <progress\n    max=100\n    value=1\n  >\n    0%\n  <\/progress>\n<\/div>","diff":"@@ -0,0 +1,8 @@\n+<div>\n+  <progress\n+    max=100\n+    value=1\n+  >\n+    0%\n+  <\/progress>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"<progress class=\"progress\" value=1 max=100>0%<\/progress>","storyAfter":"<progress class=\"progress\" value=1 max=100>0%<\/progress>"},"baseRefShort":"60ee2f496866","prevHref":"progress-bar-expressive-stories-progress-bar-expressive--withMessages.html","nextHref":"progress-bar-stories-progress-bar--full.html","indexHref":"../index.html","pos":670,"total":1012,"slug":"progress-bar-stories-progress-bar--empty","hash":"gkxqwy"};
+    const PAGE = {"baseRefShort":"60ee2f496866","prevHref":"progress-bar-expressive-stories-progress-bar-expressive--withMessages.html","nextHref":"progress-bar-stories-progress-bar--full.html","indexHref":"../index.html","pos":670,"total":1012,"slug":"progress-bar-stories-progress-bar--empty","hash":"gkxqwy","component":"progress-bar","story":"empty","file":"packages/skin/src/sass/progress-bar/stories/__snapshots__/progress-bar.snap","dims":[{"changes":[]},{"changes":[]},{"changes":[]}]};
 </script>
-<script src="../assets/nav.js"></script>
-<script src="../assets/story.js"></script>
+<script src="../assets/nav.js" defer></script>
+<script src="../assets/story.js" defer></script>
 <script src="../assets/prefetch.js" defer></script>
 </body>
 </html>

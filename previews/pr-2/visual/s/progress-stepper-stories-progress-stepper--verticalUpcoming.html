@@ -9,8 +9,8 @@
 <body class="story-page">
 <header>
     <a class="back" href="../index.html">← All changes</a>
-    <h1 id="title"></h1>
-    <span class="meta" id="path"></span>
+    <h1 id="title">progress-stepper / verticalUpcoming</h1>
+    <span class="meta" id="path">packages/skin/src/sass/progress-stepper/stories/__snapshots__/progress-stepper.snap</span>
     <span class="pagenav">
         <a id="prev" href="#">‹ prev</a>
         <span class="pos" id="pos"></span>
@@ -21,7 +21,1208 @@
     <input id="search" type="search" placeholder="Filter stories… ( / )" />
     <div id="storylist"></div>
 </nav>
-<main id="main"></main>
+<main id="main">
+    <div class="toolbar">
+        <div class="seg" data-seg="mode">
+            <button type="button" data-v="side" class="active">Side by side</button>
+            <button type="button" data-v="swipe">Swipe</button>
+            <button type="button" data-v="onion">Onion</button>
+            <button type="button" data-v="flip">Flip</button>
+        </div>
+        <div class="seg" data-seg="view">
+            <button type="button" data-v="rendered" class="active">Rendered</button>
+            <button type="button" data-v="diff">Text diff</button>
+        </div>
+        <div class="seg" data-seg="theme">
+            <button type="button" data-v="light" class="active">Light</button>
+            <button type="button" data-v="dark">Dark</button>
+        </div>
+        <label class="toggle"><input type="checkbox" id="hl-toggle" checked />Highlights</label>
+        <div class="grow"></div>
+        <button class="flag" id="flag-btn" type="button">⚑ Flag</button>
+    </div>
+    <section class="dim-section" id="dim-0" data-dim="0"><h3 class="dim-label">320px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="320"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<div class=&quot;progress-stepper progress-stepper--vertical&quot;>
+    <div class=&quot;progress-stepper__items&quot; role=&quot;list&quot;>
+        <div aria-current=&quot;current&quot; class=&quot;progress-stepper__item&quot; role=&quot;listitem&quot;>
+            <span class=&quot;progress-stepper__icon&quot;>
+                <svg role=&quot;img&quot; aria-hidden=&quot;true&quot; class=&quot;icon&quot; height=&quot;24&quot; width=&quot;24&quot;>
+                    <use href=&quot;#icon-stepper-confirmation-24&quot;></use>
+                </svg>
+            </span>
+            <span class=&quot;progress-stepper__text&quot;>
+                <h3>Order placed</h3>
+                <p>New Mens Addidas Ultra Boost</p>
+                <p>Order total $220</p>
+            </span>
+        </div>
+        <hr class=&quot;progress-stepper__separator&quot; role=&quot;presentation&quot; />
+        <div class=&quot;progress-stepper__item&quot; role=&quot;listitem&quot;>
+            <span class=&quot;progress-stepper__icon&quot;>
+                <svg role=&quot;img&quot; aria-hidden=&quot;true&quot; class=&quot;icon&quot; height=&quot;24&quot; width=&quot;24&quot;>
+                    <use href=&quot;#icon-stepper-upcoming-24&quot;></use>
+                </svg>
+            </span>
+            <span class=&quot;progress-stepper__text&quot;>
+                <h3>Preparing for shipment</h3>
+                <p>We will notify you once it ships.</p>
+            </span>
+        </div>
+        <hr class=&quot;progress-stepper__separator&quot; role=&quot;presentation&quot; />
+        <div class=&quot;progress-stepper__item&quot; role=&quot;listitem&quot;>
+            <span class=&quot;progress-stepper__icon&quot;>
+                <svg role=&quot;img&quot; aria-label=&quot;upcoming&quot; class=&quot;icon&quot; height=&quot;24&quot; width=&quot;24&quot;>
+                    <use href=&quot;#icon-stepper-upcoming-24&quot;></use>
+                </svg>
+            </span>
+           <span class=&quot;progress-stepper__text&quot;>
+                <h3>Delivered</h3>
+                <p>Guaranteed Wednesday, October 09.</p>
+            </span>
+        </div>
+    </div>
+</div>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,252 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;div style=&quot;</span>
+<span class="add">+    overflow-x: auto;</span>
+<span class="add">+    overflow-y: auto;</span>
+<span class="add">+    padding: var(--spacing-200) 0</span>
+<span class="add">+  &quot;></span>
+<span class="add">+    &lt;div style=&quot;align-items: flex-start&quot;></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        align-items: flex-start;</span>
+<span class="add">+        display: flex;</span>
+<span class="add">+        height: 24px;</span>
+<span class="add">+        width: auto</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          display: inline-block;</span>
+<span class="add">+          height: 24px;</span>
+<span class="add">+          margin-bottom: inherit;</span>
+<span class="add">+          margin-left: inherit;</span>
+<span class="add">+          margin-right: inherit;</span>
+<span class="add">+          margin-top: inherit;</span>
+<span class="add">+          width: 24px</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;svg</span>
+<span class="add">+            height=&quot;24&quot;</span>
+<span class="add">+            role=&quot;img&quot;</span>
+<span class="add">+            style=&quot;</span>
+<span class="add">+              display: inline-block;</span>
+<span class="add">+              fill: currentcolor;</span>
+<span class="add">+              pointer-events: none;</span>
+<span class="add">+              stroke-width: 0;</span>
+<span class="add">+              stroke: currentcolor;</span>
+<span class="add">+              vertical-align: middle</span>
+<span class="add">+            &quot;</span>
+<span class="add">+            width=&quot;24&quot;</span>
+<span class="add">+          ></span>
+<span class="add">+            &lt;use href=&quot;#icon-stepper-confirmation-24&quot;/></span>
+<span class="add">+          &lt;/svg></span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          align-self: center;</span>
+<span class="add">+          font-size: var(--font-size-body);</span>
+<span class="add">+          justify-self: center;</span>
+<span class="add">+          margin-inline-start: var(--spacing-200);</span>
+<span class="add">+          text-align: left;</span>
+<span class="add">+          text-wrap-mode: nowrap</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;h3 style=&quot;</span>
+<span class="add">+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));</span>
+<span class="add">+            font-size: var(--font-size-body);</span>
+<span class="add">+            margin-bottom: 0px;</span>
+<span class="add">+            margin-top: 0px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            Order placed</span>
+<span class="add">+          &lt;/h3></span>
+<span class="add">+          &lt;p style=&quot;</span>
+<span class="add">+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));</span>
+<span class="add">+            margin-bottom: 0px;</span>
+<span class="add">+            margin-top: 0px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            New Mens Addidas Ultra Boost</span>
+<span class="add">+          &lt;/p></span>
+<span class="add">+          &lt;p style=&quot;</span>
+<span class="add">+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));</span>
+<span class="add">+            margin-bottom: 0px;</span>
+<span class="add">+            margin-top: 0px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            Order total $220</span>
+<span class="add">+          &lt;/p></span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+      &lt;hr style=&quot;</span>
+<span class="add">+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));</span>
+<span class="add">+        background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);</span>
+<span class="add">+        background: linear-gradient(180deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);</span>
+<span class="add">+        border-bottom-color: currentcolor;</span>
+<span class="add">+        border-bottom-left-radius: 2px;</span>
+<span class="add">+        border-bottom-right-radius: 2px;</span>
+<span class="add">+        border-bottom-style: none;</span>
+<span class="add">+        border-bottom-width: 0px;</span>
+<span class="add">+        border-left-color: currentcolor;</span>
+<span class="add">+        border-left-style: none;</span>
+<span class="add">+        border-left-width: 0px;</span>
+<span class="add">+        border-right-color: currentcolor;</span>
+<span class="add">+        border-right-style: none;</span>
+<span class="add">+        border-right-width: 0px;</span>
+<span class="add">+        border-top-color: currentcolor;</span>
+<span class="add">+        border-top-left-radius: 2px;</span>
+<span class="add">+        border-top-right-radius: 2px;</span>
+<span class="add">+        border-top-style: none;</span>
+<span class="add">+        border-top-width: 0px;</span>
+<span class="add">+        display: inline-block;</span>
+<span class="add">+        flex-basis: inherit;</span>
+<span class="add">+        flex-grow: inherit;</span>
+<span class="add">+        flex-shrink: inherit;</span>
+<span class="add">+        height: 51px;</span>
+<span class="add">+        margin-bottom: 12px;</span>
+<span class="add">+        margin-left: 10px;</span>
+<span class="add">+        margin-top: -4px;</span>
+<span class="add">+        min-width: inherit;</span>
+<span class="add">+        position: relative;</span>
+<span class="add">+        top: 10px;</span>
+<span class="add">+        width: 4px</span>
+<span class="add">+      &quot;/></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        align-items: flex-start;</span>
+<span class="add">+        display: flex;</span>
+<span class="add">+        height: 24px;</span>
+<span class="add">+        width: auto</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          display: inline-block;</span>
+<span class="add">+          height: 24px;</span>
+<span class="add">+          margin-bottom: inherit;</span>
+<span class="add">+          margin-left: inherit;</span>
+<span class="add">+          margin-right: inherit;</span>
+<span class="add">+          margin-top: inherit;</span>
+<span class="add">+          width: 24px</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;svg</span>
+<span class="add">+            height=&quot;24&quot;</span>
+<span class="add">+            role=&quot;img&quot;</span>
+<span class="add">+            style=&quot;</span>
+<span class="add">+              display: inline-block;</span>
+<span class="add">+              fill: currentcolor;</span>
+<span class="add">+              pointer-events: none;</span>
+<span class="add">+              stroke-width: 0;</span>
+<span class="add">+              stroke: currentcolor;</span>
+<span class="add">+              vertical-align: middle</span>
+<span class="add">+            &quot;</span>
+<span class="add">+            width=&quot;24&quot;</span>
+<span class="add">+          ></span>
+<span class="add">+            &lt;use href=&quot;#icon-stepper-upcoming-24&quot;/></span>
+<span class="add">+          &lt;/svg></span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          align-self: center;</span>
+<span class="add">+          font-size: var(--font-size-body);</span>
+<span class="add">+          justify-self: center;</span>
+<span class="add">+          margin-inline-start: var(--spacing-200);</span>
+<span class="add">+          text-align: left;</span>
+<span class="add">+          text-wrap-mode: nowrap</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;h3 style=&quot;</span>
+<span class="add">+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));</span>
+<span class="add">+            font-size: var(--font-size-body);</span>
+<span class="add">+            font-weight: 400;</span>
+<span class="add">+            margin-bottom: 0px;</span>
+<span class="add">+            margin-top: 0px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            Preparing for shipment</span>
+<span class="add">+          &lt;/h3></span>
+<span class="add">+          &lt;p style=&quot;</span>
+<span class="add">+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));</span>
+<span class="add">+            margin-bottom: 0px;</span>
+<span class="add">+            margin-top: 0px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            We will notify you once it ships.</span>
+<span class="add">+          &lt;/p></span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+      &lt;hr style=&quot;</span>
+<span class="add">+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));</span>
+<span class="add">+        border-bottom-color: currentcolor;</span>
+<span class="add">+        border-bottom-left-radius: 2px;</span>
+<span class="add">+        border-bottom-right-radius: 2px;</span>
+<span class="add">+        border-bottom-style: none;</span>
+<span class="add">+        border-bottom-width: 0px;</span>
+<span class="add">+        border-left-color: currentcolor;</span>
+<span class="add">+        border-left-style: none;</span>
+<span class="add">+        border-left-width: 0px;</span>
+<span class="add">+        border-right-color: currentcolor;</span>
+<span class="add">+        border-right-style: none;</span>
+<span class="add">+        border-right-width: 0px;</span>
+<span class="add">+        border-top-color: currentcolor;</span>
+<span class="add">+        border-top-left-radius: 2px;</span>
+<span class="add">+        border-top-right-radius: 2px;</span>
+<span class="add">+        border-top-style: none;</span>
+<span class="add">+        border-top-width: 0px;</span>
+<span class="add">+        display: inline-block;</span>
+<span class="add">+        flex-basis: inherit;</span>
+<span class="add">+        flex-grow: inherit;</span>
+<span class="add">+        flex-shrink: inherit;</span>
+<span class="add">+        height: 51px;</span>
+<span class="add">+        margin-bottom: 12px;</span>
+<span class="add">+        margin-left: 10px;</span>
+<span class="add">+        margin-top: -4px;</span>
+<span class="add">+        min-width: inherit;</span>
+<span class="add">+        position: relative;</span>
+<span class="add">+        top: 10px;</span>
+<span class="add">+        width: 4px</span>
+<span class="add">+      &quot;/></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        align-items: flex-start;</span>
+<span class="add">+        display: flex;</span>
+<span class="add">+        height: 24px;</span>
+<span class="add">+        width: auto</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          display: inline-block;</span>
+<span class="add">+          height: 24px;</span>
+<span class="add">+          margin-bottom: inherit;</span>
+<span class="add">+          margin-left: inherit;</span>
+<span class="add">+          margin-right: inherit;</span>
+<span class="add">+          margin-top: inherit;</span>
+<span class="add">+          width: 24px</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;svg</span>
+<span class="add">+            height=&quot;24&quot;</span>
+<span class="add">+            role=&quot;img&quot;</span>
+<span class="add">+            style=&quot;</span>
+<span class="add">+              display: inline-block;</span>
+<span class="add">+              fill: currentcolor;</span>
+<span class="add">+              pointer-events: none;</span>
+<span class="add">+              stroke-width: 0;</span>
+<span class="add">+              stroke: currentcolor;</span>
+<span class="add">+              vertical-align: middle</span>
+<span class="add">+            &quot;</span>
+<span class="add">+            width=&quot;24&quot;</span>
+<span class="add">+          ></span>
+<span class="add">+            &lt;use href=&quot;#icon-stepper-upcoming-24&quot;/></span>
+<span class="add">+          &lt;/svg></span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          align-self: center;</span>
+<span class="add">+          font-size: var(--font-size-body);</span>
+<span class="add">+          justify-self: center;</span>
+<span class="add">+          margin-inline-end: var(--spacing-50);</span>
+<span class="add">+          margin-inline-start: var(--spacing-200);</span>
+<span class="add">+          text-align: left;</span>
+<span class="add">+          text-wrap-mode: nowrap</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;h3 style=&quot;</span>
+<span class="add">+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));</span>
+<span class="add">+            font-size: var(--font-size-body);</span>
+<span class="add">+            font-weight: 400;</span>
+<span class="add">+            margin-bottom: 0px;</span>
+<span class="add">+            margin-top: 0px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            Delivered</span>
+<span class="add">+          &lt;/h3></span>
+<span class="add">+          &lt;p style=&quot;</span>
+<span class="add">+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));</span>
+<span class="add">+            margin-bottom: 0px;</span>
+<span class="add">+            margin-top: 0px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            Guaranteed Wednesday, October 09.</span>
+<span class="add">+          &lt;/p></span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+    &lt;/div></span>
+<span class="add">+  &lt;/div></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section><section class="dim-section" id="dim-1" data-dim="1"><h3 class="dim-label">512px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="512"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<div class=&quot;progress-stepper progress-stepper--vertical&quot;>
+    <div class=&quot;progress-stepper__items&quot; role=&quot;list&quot;>
+        <div aria-current=&quot;current&quot; class=&quot;progress-stepper__item&quot; role=&quot;listitem&quot;>
+            <span class=&quot;progress-stepper__icon&quot;>
+                <svg role=&quot;img&quot; aria-hidden=&quot;true&quot; class=&quot;icon&quot; height=&quot;24&quot; width=&quot;24&quot;>
+                    <use href=&quot;#icon-stepper-confirmation-24&quot;></use>
+                </svg>
+            </span>
+            <span class=&quot;progress-stepper__text&quot;>
+                <h3>Order placed</h3>
+                <p>New Mens Addidas Ultra Boost</p>
+                <p>Order total $220</p>
+            </span>
+        </div>
+        <hr class=&quot;progress-stepper__separator&quot; role=&quot;presentation&quot; />
+        <div class=&quot;progress-stepper__item&quot; role=&quot;listitem&quot;>
+            <span class=&quot;progress-stepper__icon&quot;>
+                <svg role=&quot;img&quot; aria-hidden=&quot;true&quot; class=&quot;icon&quot; height=&quot;24&quot; width=&quot;24&quot;>
+                    <use href=&quot;#icon-stepper-upcoming-24&quot;></use>
+                </svg>
+            </span>
+            <span class=&quot;progress-stepper__text&quot;>
+                <h3>Preparing for shipment</h3>
+                <p>We will notify you once it ships.</p>
+            </span>
+        </div>
+        <hr class=&quot;progress-stepper__separator&quot; role=&quot;presentation&quot; />
+        <div class=&quot;progress-stepper__item&quot; role=&quot;listitem&quot;>
+            <span class=&quot;progress-stepper__icon&quot;>
+                <svg role=&quot;img&quot; aria-label=&quot;upcoming&quot; class=&quot;icon&quot; height=&quot;24&quot; width=&quot;24&quot;>
+                    <use href=&quot;#icon-stepper-upcoming-24&quot;></use>
+                </svg>
+            </span>
+           <span class=&quot;progress-stepper__text&quot;>
+                <h3>Delivered</h3>
+                <p>Guaranteed Wednesday, October 09.</p>
+            </span>
+        </div>
+    </div>
+</div>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,252 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;div style=&quot;</span>
+<span class="add">+    overflow-x: auto;</span>
+<span class="add">+    overflow-y: auto;</span>
+<span class="add">+    padding: var(--spacing-200) 0</span>
+<span class="add">+  &quot;></span>
+<span class="add">+    &lt;div style=&quot;align-items: flex-start&quot;></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        align-items: flex-start;</span>
+<span class="add">+        display: flex;</span>
+<span class="add">+        height: 24px;</span>
+<span class="add">+        width: auto</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          display: inline-block;</span>
+<span class="add">+          height: 24px;</span>
+<span class="add">+          margin-bottom: inherit;</span>
+<span class="add">+          margin-left: inherit;</span>
+<span class="add">+          margin-right: inherit;</span>
+<span class="add">+          margin-top: inherit;</span>
+<span class="add">+          width: 24px</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;svg</span>
+<span class="add">+            height=&quot;24&quot;</span>
+<span class="add">+            role=&quot;img&quot;</span>
+<span class="add">+            style=&quot;</span>
+<span class="add">+              display: inline-block;</span>
+<span class="add">+              fill: currentcolor;</span>
+<span class="add">+              pointer-events: none;</span>
+<span class="add">+              stroke-width: 0;</span>
+<span class="add">+              stroke: currentcolor;</span>
+<span class="add">+              vertical-align: middle</span>
+<span class="add">+            &quot;</span>
+<span class="add">+            width=&quot;24&quot;</span>
+<span class="add">+          ></span>
+<span class="add">+            &lt;use href=&quot;#icon-stepper-confirmation-24&quot;/></span>
+<span class="add">+          &lt;/svg></span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          align-self: center;</span>
+<span class="add">+          font-size: var(--font-size-body);</span>
+<span class="add">+          justify-self: center;</span>
+<span class="add">+          margin-inline-start: var(--spacing-200);</span>
+<span class="add">+          text-align: left;</span>
+<span class="add">+          text-wrap-mode: nowrap</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;h3 style=&quot;</span>
+<span class="add">+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));</span>
+<span class="add">+            font-size: var(--font-size-body);</span>
+<span class="add">+            margin-bottom: 0px;</span>
+<span class="add">+            margin-top: 0px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            Order placed</span>
+<span class="add">+          &lt;/h3></span>
+<span class="add">+          &lt;p style=&quot;</span>
+<span class="add">+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));</span>
+<span class="add">+            margin-bottom: 0px;</span>
+<span class="add">+            margin-top: 0px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            New Mens Addidas Ultra Boost</span>
+<span class="add">+          &lt;/p></span>
+<span class="add">+          &lt;p style=&quot;</span>
+<span class="add">+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));</span>
+<span class="add">+            margin-bottom: 0px;</span>
+<span class="add">+            margin-top: 0px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            Order total $220</span>
+<span class="add">+          &lt;/p></span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+      &lt;hr style=&quot;</span>
+<span class="add">+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));</span>
+<span class="add">+        background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);</span>
+<span class="add">+        background: linear-gradient(180deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);</span>
+<span class="add">+        border-bottom-color: currentcolor;</span>
+<span class="add">+        border-bottom-left-radius: 2px;</span>
+<span class="add">+        border-bottom-right-radius: 2px;</span>
+<span class="add">+        border-bottom-style: none;</span>
+<span class="add">+        border-bottom-width: 0px;</span>
+<span class="add">+        border-left-color: currentcolor;</span>
+<span class="add">+        border-left-style: none;</span>
+<span class="add">+        border-left-width: 0px;</span>
+<span class="add">+        border-right-color: currentcolor;</span>
+<span class="add">+        border-right-style: none;</span>
+<span class="add">+        border-right-width: 0px;</span>
+<span class="add">+        border-top-color: currentcolor;</span>
+<span class="add">+        border-top-left-radius: 2px;</span>
+<span class="add">+        border-top-right-radius: 2px;</span>
+<span class="add">+        border-top-style: none;</span>
+<span class="add">+        border-top-width: 0px;</span>
+<span class="add">+        display: inline-block;</span>
+<span class="add">+        flex-basis: inherit;</span>
+<span class="add">+        flex-grow: inherit;</span>
+<span class="add">+        flex-shrink: inherit;</span>
+<span class="add">+        height: 51px;</span>
+<span class="add">+        margin-bottom: 12px;</span>
+<span class="add">+        margin-left: 10px;</span>
+<span class="add">+        margin-top: -4px;</span>
+<span class="add">+        min-width: inherit;</span>
+<span class="add">+        position: relative;</span>
+<span class="add">+        top: 10px;</span>
+<span class="add">+        width: 4px</span>
+<span class="add">+      &quot;/></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        align-items: flex-start;</span>
+<span class="add">+        display: flex;</span>
+<span class="add">+        height: 24px;</span>
+<span class="add">+        width: auto</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          display: inline-block;</span>
+<span class="add">+          height: 24px;</span>
+<span class="add">+          margin-bottom: inherit;</span>
+<span class="add">+          margin-left: inherit;</span>
+<span class="add">+          margin-right: inherit;</span>
+<span class="add">+          margin-top: inherit;</span>
+<span class="add">+          width: 24px</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;svg</span>
+<span class="add">+            height=&quot;24&quot;</span>
+<span class="add">+            role=&quot;img&quot;</span>
+<span class="add">+            style=&quot;</span>
+<span class="add">+              display: inline-block;</span>
+<span class="add">+              fill: currentcolor;</span>
+<span class="add">+              pointer-events: none;</span>
+<span class="add">+              stroke-width: 0;</span>
+<span class="add">+              stroke: currentcolor;</span>
+<span class="add">+              vertical-align: middle</span>
+<span class="add">+            &quot;</span>
+<span class="add">+            width=&quot;24&quot;</span>
+<span class="add">+          ></span>
+<span class="add">+            &lt;use href=&quot;#icon-stepper-upcoming-24&quot;/></span>
+<span class="add">+          &lt;/svg></span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          align-self: center;</span>
+<span class="add">+          font-size: var(--font-size-body);</span>
+<span class="add">+          justify-self: center;</span>
+<span class="add">+          margin-inline-start: var(--spacing-200);</span>
+<span class="add">+          text-align: left;</span>
+<span class="add">+          text-wrap-mode: nowrap</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;h3 style=&quot;</span>
+<span class="add">+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));</span>
+<span class="add">+            font-size: var(--font-size-body);</span>
+<span class="add">+            font-weight: 400;</span>
+<span class="add">+            margin-bottom: 0px;</span>
+<span class="add">+            margin-top: 0px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            Preparing for shipment</span>
+<span class="add">+          &lt;/h3></span>
+<span class="add">+          &lt;p style=&quot;</span>
+<span class="add">+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));</span>
+<span class="add">+            margin-bottom: 0px;</span>
+<span class="add">+            margin-top: 0px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            We will notify you once it ships.</span>
+<span class="add">+          &lt;/p></span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+      &lt;hr style=&quot;</span>
+<span class="add">+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));</span>
+<span class="add">+        border-bottom-color: currentcolor;</span>
+<span class="add">+        border-bottom-left-radius: 2px;</span>
+<span class="add">+        border-bottom-right-radius: 2px;</span>
+<span class="add">+        border-bottom-style: none;</span>
+<span class="add">+        border-bottom-width: 0px;</span>
+<span class="add">+        border-left-color: currentcolor;</span>
+<span class="add">+        border-left-style: none;</span>
+<span class="add">+        border-left-width: 0px;</span>
+<span class="add">+        border-right-color: currentcolor;</span>
+<span class="add">+        border-right-style: none;</span>
+<span class="add">+        border-right-width: 0px;</span>
+<span class="add">+        border-top-color: currentcolor;</span>
+<span class="add">+        border-top-left-radius: 2px;</span>
+<span class="add">+        border-top-right-radius: 2px;</span>
+<span class="add">+        border-top-style: none;</span>
+<span class="add">+        border-top-width: 0px;</span>
+<span class="add">+        display: inline-block;</span>
+<span class="add">+        flex-basis: inherit;</span>
+<span class="add">+        flex-grow: inherit;</span>
+<span class="add">+        flex-shrink: inherit;</span>
+<span class="add">+        height: 51px;</span>
+<span class="add">+        margin-bottom: 12px;</span>
+<span class="add">+        margin-left: 10px;</span>
+<span class="add">+        margin-top: -4px;</span>
+<span class="add">+        min-width: inherit;</span>
+<span class="add">+        position: relative;</span>
+<span class="add">+        top: 10px;</span>
+<span class="add">+        width: 4px</span>
+<span class="add">+      &quot;/></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        align-items: flex-start;</span>
+<span class="add">+        display: flex;</span>
+<span class="add">+        height: 24px;</span>
+<span class="add">+        width: auto</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          display: inline-block;</span>
+<span class="add">+          height: 24px;</span>
+<span class="add">+          margin-bottom: inherit;</span>
+<span class="add">+          margin-left: inherit;</span>
+<span class="add">+          margin-right: inherit;</span>
+<span class="add">+          margin-top: inherit;</span>
+<span class="add">+          width: 24px</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;svg</span>
+<span class="add">+            height=&quot;24&quot;</span>
+<span class="add">+            role=&quot;img&quot;</span>
+<span class="add">+            style=&quot;</span>
+<span class="add">+              display: inline-block;</span>
+<span class="add">+              fill: currentcolor;</span>
+<span class="add">+              pointer-events: none;</span>
+<span class="add">+              stroke-width: 0;</span>
+<span class="add">+              stroke: currentcolor;</span>
+<span class="add">+              vertical-align: middle</span>
+<span class="add">+            &quot;</span>
+<span class="add">+            width=&quot;24&quot;</span>
+<span class="add">+          ></span>
+<span class="add">+            &lt;use href=&quot;#icon-stepper-upcoming-24&quot;/></span>
+<span class="add">+          &lt;/svg></span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          align-self: center;</span>
+<span class="add">+          font-size: var(--font-size-body);</span>
+<span class="add">+          justify-self: center;</span>
+<span class="add">+          margin-inline-end: var(--spacing-50);</span>
+<span class="add">+          margin-inline-start: var(--spacing-200);</span>
+<span class="add">+          text-align: left;</span>
+<span class="add">+          text-wrap-mode: nowrap</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;h3 style=&quot;</span>
+<span class="add">+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));</span>
+<span class="add">+            font-size: var(--font-size-body);</span>
+<span class="add">+            font-weight: 400;</span>
+<span class="add">+            margin-bottom: 0px;</span>
+<span class="add">+            margin-top: 0px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            Delivered</span>
+<span class="add">+          &lt;/h3></span>
+<span class="add">+          &lt;p style=&quot;</span>
+<span class="add">+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));</span>
+<span class="add">+            margin-bottom: 0px;</span>
+<span class="add">+            margin-top: 0px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            Guaranteed Wednesday, October 09.</span>
+<span class="add">+          &lt;/p></span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+    &lt;/div></span>
+<span class="add">+  &lt;/div></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section><section class="dim-section" id="dim-2" data-dim="2"><h3 class="dim-label">1280px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<div class=&quot;progress-stepper progress-stepper--vertical&quot;>
+    <div class=&quot;progress-stepper__items&quot; role=&quot;list&quot;>
+        <div aria-current=&quot;current&quot; class=&quot;progress-stepper__item&quot; role=&quot;listitem&quot;>
+            <span class=&quot;progress-stepper__icon&quot;>
+                <svg role=&quot;img&quot; aria-hidden=&quot;true&quot; class=&quot;icon&quot; height=&quot;24&quot; width=&quot;24&quot;>
+                    <use href=&quot;#icon-stepper-confirmation-24&quot;></use>
+                </svg>
+            </span>
+            <span class=&quot;progress-stepper__text&quot;>
+                <h3>Order placed</h3>
+                <p>New Mens Addidas Ultra Boost</p>
+                <p>Order total $220</p>
+            </span>
+        </div>
+        <hr class=&quot;progress-stepper__separator&quot; role=&quot;presentation&quot; />
+        <div class=&quot;progress-stepper__item&quot; role=&quot;listitem&quot;>
+            <span class=&quot;progress-stepper__icon&quot;>
+                <svg role=&quot;img&quot; aria-hidden=&quot;true&quot; class=&quot;icon&quot; height=&quot;24&quot; width=&quot;24&quot;>
+                    <use href=&quot;#icon-stepper-upcoming-24&quot;></use>
+                </svg>
+            </span>
+            <span class=&quot;progress-stepper__text&quot;>
+                <h3>Preparing for shipment</h3>
+                <p>We will notify you once it ships.</p>
+            </span>
+        </div>
+        <hr class=&quot;progress-stepper__separator&quot; role=&quot;presentation&quot; />
+        <div class=&quot;progress-stepper__item&quot; role=&quot;listitem&quot;>
+            <span class=&quot;progress-stepper__icon&quot;>
+                <svg role=&quot;img&quot; aria-label=&quot;upcoming&quot; class=&quot;icon&quot; height=&quot;24&quot; width=&quot;24&quot;>
+                    <use href=&quot;#icon-stepper-upcoming-24&quot;></use>
+                </svg>
+            </span>
+           <span class=&quot;progress-stepper__text&quot;>
+                <h3>Delivered</h3>
+                <p>Guaranteed Wednesday, October 09.</p>
+            </span>
+        </div>
+    </div>
+</div>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,252 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;div style=&quot;</span>
+<span class="add">+    overflow-x: auto;</span>
+<span class="add">+    overflow-y: auto;</span>
+<span class="add">+    padding: var(--spacing-200) 0</span>
+<span class="add">+  &quot;></span>
+<span class="add">+    &lt;div style=&quot;align-items: flex-start&quot;></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        align-items: flex-start;</span>
+<span class="add">+        display: flex;</span>
+<span class="add">+        height: 24px;</span>
+<span class="add">+        width: auto</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          display: inline-block;</span>
+<span class="add">+          height: 24px;</span>
+<span class="add">+          margin-bottom: inherit;</span>
+<span class="add">+          margin-left: inherit;</span>
+<span class="add">+          margin-right: inherit;</span>
+<span class="add">+          margin-top: inherit;</span>
+<span class="add">+          width: 24px</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;svg</span>
+<span class="add">+            height=&quot;24&quot;</span>
+<span class="add">+            role=&quot;img&quot;</span>
+<span class="add">+            style=&quot;</span>
+<span class="add">+              display: inline-block;</span>
+<span class="add">+              fill: currentcolor;</span>
+<span class="add">+              pointer-events: none;</span>
+<span class="add">+              stroke-width: 0;</span>
+<span class="add">+              stroke: currentcolor;</span>
+<span class="add">+              vertical-align: middle</span>
+<span class="add">+            &quot;</span>
+<span class="add">+            width=&quot;24&quot;</span>
+<span class="add">+          ></span>
+<span class="add">+            &lt;use href=&quot;#icon-stepper-confirmation-24&quot;/></span>
+<span class="add">+          &lt;/svg></span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          align-self: center;</span>
+<span class="add">+          font-size: var(--font-size-body);</span>
+<span class="add">+          justify-self: center;</span>
+<span class="add">+          margin-inline-start: var(--spacing-200);</span>
+<span class="add">+          text-align: left;</span>
+<span class="add">+          text-wrap-mode: nowrap</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;h3 style=&quot;</span>
+<span class="add">+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));</span>
+<span class="add">+            font-size: var(--font-size-body);</span>
+<span class="add">+            margin-bottom: 0px;</span>
+<span class="add">+            margin-top: 0px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            Order placed</span>
+<span class="add">+          &lt;/h3></span>
+<span class="add">+          &lt;p style=&quot;</span>
+<span class="add">+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));</span>
+<span class="add">+            margin-bottom: 0px;</span>
+<span class="add">+            margin-top: 0px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            New Mens Addidas Ultra Boost</span>
+<span class="add">+          &lt;/p></span>
+<span class="add">+          &lt;p style=&quot;</span>
+<span class="add">+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));</span>
+<span class="add">+            margin-bottom: 0px;</span>
+<span class="add">+            margin-top: 0px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            Order total $220</span>
+<span class="add">+          &lt;/p></span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+      &lt;hr style=&quot;</span>
+<span class="add">+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));</span>
+<span class="add">+        background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);</span>
+<span class="add">+        background: linear-gradient(180deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);</span>
+<span class="add">+        border-bottom-color: currentcolor;</span>
+<span class="add">+        border-bottom-left-radius: 2px;</span>
+<span class="add">+        border-bottom-right-radius: 2px;</span>
+<span class="add">+        border-bottom-style: none;</span>
+<span class="add">+        border-bottom-width: 0px;</span>
+<span class="add">+        border-left-color: currentcolor;</span>
+<span class="add">+        border-left-style: none;</span>
+<span class="add">+        border-left-width: 0px;</span>
+<span class="add">+        border-right-color: currentcolor;</span>
+<span class="add">+        border-right-style: none;</span>
+<span class="add">+        border-right-width: 0px;</span>
+<span class="add">+        border-top-color: currentcolor;</span>
+<span class="add">+        border-top-left-radius: 2px;</span>
+<span class="add">+        border-top-right-radius: 2px;</span>
+<span class="add">+        border-top-style: none;</span>
+<span class="add">+        border-top-width: 0px;</span>
+<span class="add">+        display: inline-block;</span>
+<span class="add">+        flex-basis: inherit;</span>
+<span class="add">+        flex-grow: inherit;</span>
+<span class="add">+        flex-shrink: inherit;</span>
+<span class="add">+        height: 51px;</span>
+<span class="add">+        margin-bottom: 12px;</span>
+<span class="add">+        margin-left: 10px;</span>
+<span class="add">+        margin-top: -4px;</span>
+<span class="add">+        min-width: inherit;</span>
+<span class="add">+        position: relative;</span>
+<span class="add">+        top: 10px;</span>
+<span class="add">+        width: 4px</span>
+<span class="add">+      &quot;/></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        align-items: flex-start;</span>
+<span class="add">+        display: flex;</span>
+<span class="add">+        height: 24px;</span>
+<span class="add">+        width: auto</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          display: inline-block;</span>
+<span class="add">+          height: 24px;</span>
+<span class="add">+          margin-bottom: inherit;</span>
+<span class="add">+          margin-left: inherit;</span>
+<span class="add">+          margin-right: inherit;</span>
+<span class="add">+          margin-top: inherit;</span>
+<span class="add">+          width: 24px</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;svg</span>
+<span class="add">+            height=&quot;24&quot;</span>
+<span class="add">+            role=&quot;img&quot;</span>
+<span class="add">+            style=&quot;</span>
+<span class="add">+              display: inline-block;</span>
+<span class="add">+              fill: currentcolor;</span>
+<span class="add">+              pointer-events: none;</span>
+<span class="add">+              stroke-width: 0;</span>
+<span class="add">+              stroke: currentcolor;</span>
+<span class="add">+              vertical-align: middle</span>
+<span class="add">+            &quot;</span>
+<span class="add">+            width=&quot;24&quot;</span>
+<span class="add">+          ></span>
+<span class="add">+            &lt;use href=&quot;#icon-stepper-upcoming-24&quot;/></span>
+<span class="add">+          &lt;/svg></span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          align-self: center;</span>
+<span class="add">+          font-size: var(--font-size-body);</span>
+<span class="add">+          justify-self: center;</span>
+<span class="add">+          margin-inline-start: var(--spacing-200);</span>
+<span class="add">+          text-align: left;</span>
+<span class="add">+          text-wrap-mode: nowrap</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;h3 style=&quot;</span>
+<span class="add">+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));</span>
+<span class="add">+            font-size: var(--font-size-body);</span>
+<span class="add">+            font-weight: 400;</span>
+<span class="add">+            margin-bottom: 0px;</span>
+<span class="add">+            margin-top: 0px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            Preparing for shipment</span>
+<span class="add">+          &lt;/h3></span>
+<span class="add">+          &lt;p style=&quot;</span>
+<span class="add">+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));</span>
+<span class="add">+            margin-bottom: 0px;</span>
+<span class="add">+            margin-top: 0px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            We will notify you once it ships.</span>
+<span class="add">+          &lt;/p></span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+      &lt;hr style=&quot;</span>
+<span class="add">+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));</span>
+<span class="add">+        border-bottom-color: currentcolor;</span>
+<span class="add">+        border-bottom-left-radius: 2px;</span>
+<span class="add">+        border-bottom-right-radius: 2px;</span>
+<span class="add">+        border-bottom-style: none;</span>
+<span class="add">+        border-bottom-width: 0px;</span>
+<span class="add">+        border-left-color: currentcolor;</span>
+<span class="add">+        border-left-style: none;</span>
+<span class="add">+        border-left-width: 0px;</span>
+<span class="add">+        border-right-color: currentcolor;</span>
+<span class="add">+        border-right-style: none;</span>
+<span class="add">+        border-right-width: 0px;</span>
+<span class="add">+        border-top-color: currentcolor;</span>
+<span class="add">+        border-top-left-radius: 2px;</span>
+<span class="add">+        border-top-right-radius: 2px;</span>
+<span class="add">+        border-top-style: none;</span>
+<span class="add">+        border-top-width: 0px;</span>
+<span class="add">+        display: inline-block;</span>
+<span class="add">+        flex-basis: inherit;</span>
+<span class="add">+        flex-grow: inherit;</span>
+<span class="add">+        flex-shrink: inherit;</span>
+<span class="add">+        height: 51px;</span>
+<span class="add">+        margin-bottom: 12px;</span>
+<span class="add">+        margin-left: 10px;</span>
+<span class="add">+        margin-top: -4px;</span>
+<span class="add">+        min-width: inherit;</span>
+<span class="add">+        position: relative;</span>
+<span class="add">+        top: 10px;</span>
+<span class="add">+        width: 4px</span>
+<span class="add">+      &quot;/></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        align-items: flex-start;</span>
+<span class="add">+        display: flex;</span>
+<span class="add">+        height: 24px;</span>
+<span class="add">+        width: auto</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          display: inline-block;</span>
+<span class="add">+          height: 24px;</span>
+<span class="add">+          margin-bottom: inherit;</span>
+<span class="add">+          margin-left: inherit;</span>
+<span class="add">+          margin-right: inherit;</span>
+<span class="add">+          margin-top: inherit;</span>
+<span class="add">+          width: 24px</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;svg</span>
+<span class="add">+            height=&quot;24&quot;</span>
+<span class="add">+            role=&quot;img&quot;</span>
+<span class="add">+            style=&quot;</span>
+<span class="add">+              display: inline-block;</span>
+<span class="add">+              fill: currentcolor;</span>
+<span class="add">+              pointer-events: none;</span>
+<span class="add">+              stroke-width: 0;</span>
+<span class="add">+              stroke: currentcolor;</span>
+<span class="add">+              vertical-align: middle</span>
+<span class="add">+            &quot;</span>
+<span class="add">+            width=&quot;24&quot;</span>
+<span class="add">+          ></span>
+<span class="add">+            &lt;use href=&quot;#icon-stepper-upcoming-24&quot;/></span>
+<span class="add">+          &lt;/svg></span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          align-self: center;</span>
+<span class="add">+          font-size: var(--font-size-body);</span>
+<span class="add">+          justify-self: center;</span>
+<span class="add">+          margin-inline-end: var(--spacing-50);</span>
+<span class="add">+          margin-inline-start: var(--spacing-200);</span>
+<span class="add">+          text-align: left;</span>
+<span class="add">+          text-wrap-mode: nowrap</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;h3 style=&quot;</span>
+<span class="add">+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));</span>
+<span class="add">+            font-size: var(--font-size-body);</span>
+<span class="add">+            font-weight: 400;</span>
+<span class="add">+            margin-bottom: 0px;</span>
+<span class="add">+            margin-top: 0px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            Delivered</span>
+<span class="add">+          &lt;/h3></span>
+<span class="add">+          &lt;p style=&quot;</span>
+<span class="add">+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));</span>
+<span class="add">+            margin-bottom: 0px;</span>
+<span class="add">+            margin-top: 0px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            Guaranteed Wednesday, October 09.</span>
+<span class="add">+          &lt;/p></span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+    &lt;/div></span>
+<span class="add">+  &lt;/div></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section><section class="dim-section" id="dim-3" data-dim="3"><h3 class="dim-label">1280px rtl</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;rtl&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<div class=&quot;progress-stepper progress-stepper--vertical&quot;>
+    <div class=&quot;progress-stepper__items&quot; role=&quot;list&quot;>
+        <div aria-current=&quot;current&quot; class=&quot;progress-stepper__item&quot; role=&quot;listitem&quot;>
+            <span class=&quot;progress-stepper__icon&quot;>
+                <svg role=&quot;img&quot; aria-hidden=&quot;true&quot; class=&quot;icon&quot; height=&quot;24&quot; width=&quot;24&quot;>
+                    <use href=&quot;#icon-stepper-confirmation-24&quot;></use>
+                </svg>
+            </span>
+            <span class=&quot;progress-stepper__text&quot;>
+                <h3>Order placed</h3>
+                <p>New Mens Addidas Ultra Boost</p>
+                <p>Order total $220</p>
+            </span>
+        </div>
+        <hr class=&quot;progress-stepper__separator&quot; role=&quot;presentation&quot; />
+        <div class=&quot;progress-stepper__item&quot; role=&quot;listitem&quot;>
+            <span class=&quot;progress-stepper__icon&quot;>
+                <svg role=&quot;img&quot; aria-hidden=&quot;true&quot; class=&quot;icon&quot; height=&quot;24&quot; width=&quot;24&quot;>
+                    <use href=&quot;#icon-stepper-upcoming-24&quot;></use>
+                </svg>
+            </span>
+            <span class=&quot;progress-stepper__text&quot;>
+                <h3>Preparing for shipment</h3>
+                <p>We will notify you once it ships.</p>
+            </span>
+        </div>
+        <hr class=&quot;progress-stepper__separator&quot; role=&quot;presentation&quot; />
+        <div class=&quot;progress-stepper__item&quot; role=&quot;listitem&quot;>
+            <span class=&quot;progress-stepper__icon&quot;>
+                <svg role=&quot;img&quot; aria-label=&quot;upcoming&quot; class=&quot;icon&quot; height=&quot;24&quot; width=&quot;24&quot;>
+                    <use href=&quot;#icon-stepper-upcoming-24&quot;></use>
+                </svg>
+            </span>
+           <span class=&quot;progress-stepper__text&quot;>
+                <h3>Delivered</h3>
+                <p>Guaranteed Wednesday, October 09.</p>
+            </span>
+        </div>
+    </div>
+</div>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,252 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;div style=&quot;</span>
+<span class="add">+    overflow-x: auto;</span>
+<span class="add">+    overflow-y: auto;</span>
+<span class="add">+    padding: var(--spacing-200) 0</span>
+<span class="add">+  &quot;></span>
+<span class="add">+    &lt;div style=&quot;align-items: flex-start&quot;></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        align-items: flex-start;</span>
+<span class="add">+        display: flex;</span>
+<span class="add">+        height: 24px;</span>
+<span class="add">+        width: auto</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          display: inline-block;</span>
+<span class="add">+          height: 24px;</span>
+<span class="add">+          margin-bottom: inherit;</span>
+<span class="add">+          margin-left: inherit;</span>
+<span class="add">+          margin-right: inherit;</span>
+<span class="add">+          margin-top: inherit;</span>
+<span class="add">+          width: 24px</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;svg</span>
+<span class="add">+            height=&quot;24&quot;</span>
+<span class="add">+            role=&quot;img&quot;</span>
+<span class="add">+            style=&quot;</span>
+<span class="add">+              display: inline-block;</span>
+<span class="add">+              fill: currentcolor;</span>
+<span class="add">+              pointer-events: none;</span>
+<span class="add">+              stroke-width: 0;</span>
+<span class="add">+              stroke: currentcolor;</span>
+<span class="add">+              vertical-align: middle</span>
+<span class="add">+            &quot;</span>
+<span class="add">+            width=&quot;24&quot;</span>
+<span class="add">+          ></span>
+<span class="add">+            &lt;use href=&quot;#icon-stepper-confirmation-24&quot;/></span>
+<span class="add">+          &lt;/svg></span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          align-self: center;</span>
+<span class="add">+          font-size: var(--font-size-body);</span>
+<span class="add">+          justify-self: center;</span>
+<span class="add">+          margin-inline-start: var(--spacing-200);</span>
+<span class="add">+          text-align: left;</span>
+<span class="add">+          text-wrap-mode: nowrap</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;h3 style=&quot;</span>
+<span class="add">+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));</span>
+<span class="add">+            font-size: var(--font-size-body);</span>
+<span class="add">+            margin-bottom: 0px;</span>
+<span class="add">+            margin-top: 0px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            Order placed</span>
+<span class="add">+          &lt;/h3></span>
+<span class="add">+          &lt;p style=&quot;</span>
+<span class="add">+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));</span>
+<span class="add">+            margin-bottom: 0px;</span>
+<span class="add">+            margin-top: 0px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            New Mens Addidas Ultra Boost</span>
+<span class="add">+          &lt;/p></span>
+<span class="add">+          &lt;p style=&quot;</span>
+<span class="add">+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));</span>
+<span class="add">+            margin-bottom: 0px;</span>
+<span class="add">+            margin-top: 0px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            Order total $220</span>
+<span class="add">+          &lt;/p></span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+      &lt;hr style=&quot;</span>
+<span class="add">+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));</span>
+<span class="add">+        background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);</span>
+<span class="add">+        background: linear-gradient(180deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);</span>
+<span class="add">+        border-bottom-color: currentcolor;</span>
+<span class="add">+        border-bottom-left-radius: 2px;</span>
+<span class="add">+        border-bottom-right-radius: 2px;</span>
+<span class="add">+        border-bottom-style: none;</span>
+<span class="add">+        border-bottom-width: 0px;</span>
+<span class="add">+        border-left-color: currentcolor;</span>
+<span class="add">+        border-left-style: none;</span>
+<span class="add">+        border-left-width: 0px;</span>
+<span class="add">+        border-right-color: currentcolor;</span>
+<span class="add">+        border-right-style: none;</span>
+<span class="add">+        border-right-width: 0px;</span>
+<span class="add">+        border-top-color: currentcolor;</span>
+<span class="add">+        border-top-left-radius: 2px;</span>
+<span class="add">+        border-top-right-radius: 2px;</span>
+<span class="add">+        border-top-style: none;</span>
+<span class="add">+        border-top-width: 0px;</span>
+<span class="add">+        display: inline-block;</span>
+<span class="add">+        flex-basis: inherit;</span>
+<span class="add">+        flex-grow: inherit;</span>
+<span class="add">+        flex-shrink: inherit;</span>
+<span class="add">+        height: 51px;</span>
+<span class="add">+        margin-bottom: 12px;</span>
+<span class="add">+        margin-left: 10px;</span>
+<span class="add">+        margin-top: -4px;</span>
+<span class="add">+        min-width: inherit;</span>
+<span class="add">+        position: relative;</span>
+<span class="add">+        top: 10px;</span>
+<span class="add">+        width: 4px</span>
+<span class="add">+      &quot;/></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        align-items: flex-start;</span>
+<span class="add">+        display: flex;</span>
+<span class="add">+        height: 24px;</span>
+<span class="add">+        width: auto</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          display: inline-block;</span>
+<span class="add">+          height: 24px;</span>
+<span class="add">+          margin-bottom: inherit;</span>
+<span class="add">+          margin-left: inherit;</span>
+<span class="add">+          margin-right: inherit;</span>
+<span class="add">+          margin-top: inherit;</span>
+<span class="add">+          width: 24px</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;svg</span>
+<span class="add">+            height=&quot;24&quot;</span>
+<span class="add">+            role=&quot;img&quot;</span>
+<span class="add">+            style=&quot;</span>
+<span class="add">+              display: inline-block;</span>
+<span class="add">+              fill: currentcolor;</span>
+<span class="add">+              pointer-events: none;</span>
+<span class="add">+              stroke-width: 0;</span>
+<span class="add">+              stroke: currentcolor;</span>
+<span class="add">+              vertical-align: middle</span>
+<span class="add">+            &quot;</span>
+<span class="add">+            width=&quot;24&quot;</span>
+<span class="add">+          ></span>
+<span class="add">+            &lt;use href=&quot;#icon-stepper-upcoming-24&quot;/></span>
+<span class="add">+          &lt;/svg></span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          align-self: center;</span>
+<span class="add">+          font-size: var(--font-size-body);</span>
+<span class="add">+          justify-self: center;</span>
+<span class="add">+          margin-inline-start: var(--spacing-200);</span>
+<span class="add">+          text-align: left;</span>
+<span class="add">+          text-wrap-mode: nowrap</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;h3 style=&quot;</span>
+<span class="add">+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));</span>
+<span class="add">+            font-size: var(--font-size-body);</span>
+<span class="add">+            font-weight: 400;</span>
+<span class="add">+            margin-bottom: 0px;</span>
+<span class="add">+            margin-top: 0px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            Preparing for shipment</span>
+<span class="add">+          &lt;/h3></span>
+<span class="add">+          &lt;p style=&quot;</span>
+<span class="add">+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));</span>
+<span class="add">+            margin-bottom: 0px;</span>
+<span class="add">+            margin-top: 0px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            We will notify you once it ships.</span>
+<span class="add">+          &lt;/p></span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+      &lt;hr style=&quot;</span>
+<span class="add">+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));</span>
+<span class="add">+        border-bottom-color: currentcolor;</span>
+<span class="add">+        border-bottom-left-radius: 2px;</span>
+<span class="add">+        border-bottom-right-radius: 2px;</span>
+<span class="add">+        border-bottom-style: none;</span>
+<span class="add">+        border-bottom-width: 0px;</span>
+<span class="add">+        border-left-color: currentcolor;</span>
+<span class="add">+        border-left-style: none;</span>
+<span class="add">+        border-left-width: 0px;</span>
+<span class="add">+        border-right-color: currentcolor;</span>
+<span class="add">+        border-right-style: none;</span>
+<span class="add">+        border-right-width: 0px;</span>
+<span class="add">+        border-top-color: currentcolor;</span>
+<span class="add">+        border-top-left-radius: 2px;</span>
+<span class="add">+        border-top-right-radius: 2px;</span>
+<span class="add">+        border-top-style: none;</span>
+<span class="add">+        border-top-width: 0px;</span>
+<span class="add">+        display: inline-block;</span>
+<span class="add">+        flex-basis: inherit;</span>
+<span class="add">+        flex-grow: inherit;</span>
+<span class="add">+        flex-shrink: inherit;</span>
+<span class="add">+        height: 51px;</span>
+<span class="add">+        margin-bottom: 12px;</span>
+<span class="add">+        margin-left: 10px;</span>
+<span class="add">+        margin-top: -4px;</span>
+<span class="add">+        min-width: inherit;</span>
+<span class="add">+        position: relative;</span>
+<span class="add">+        top: 10px;</span>
+<span class="add">+        width: 4px</span>
+<span class="add">+      &quot;/></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        align-items: flex-start;</span>
+<span class="add">+        display: flex;</span>
+<span class="add">+        height: 24px;</span>
+<span class="add">+        width: auto</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          display: inline-block;</span>
+<span class="add">+          height: 24px;</span>
+<span class="add">+          margin-bottom: inherit;</span>
+<span class="add">+          margin-left: inherit;</span>
+<span class="add">+          margin-right: inherit;</span>
+<span class="add">+          margin-top: inherit;</span>
+<span class="add">+          width: 24px</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;svg</span>
+<span class="add">+            height=&quot;24&quot;</span>
+<span class="add">+            role=&quot;img&quot;</span>
+<span class="add">+            style=&quot;</span>
+<span class="add">+              display: inline-block;</span>
+<span class="add">+              fill: currentcolor;</span>
+<span class="add">+              pointer-events: none;</span>
+<span class="add">+              stroke-width: 0;</span>
+<span class="add">+              stroke: currentcolor;</span>
+<span class="add">+              vertical-align: middle</span>
+<span class="add">+            &quot;</span>
+<span class="add">+            width=&quot;24&quot;</span>
+<span class="add">+          ></span>
+<span class="add">+            &lt;use href=&quot;#icon-stepper-upcoming-24&quot;/></span>
+<span class="add">+          &lt;/svg></span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          align-self: center;</span>
+<span class="add">+          font-size: var(--font-size-body);</span>
+<span class="add">+          justify-self: center;</span>
+<span class="add">+          margin-inline-end: var(--spacing-50);</span>
+<span class="add">+          margin-inline-start: var(--spacing-200);</span>
+<span class="add">+          text-align: left;</span>
+<span class="add">+          text-wrap-mode: nowrap</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;h3 style=&quot;</span>
+<span class="add">+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));</span>
+<span class="add">+            font-size: var(--font-size-body);</span>
+<span class="add">+            font-weight: 400;</span>
+<span class="add">+            margin-bottom: 0px;</span>
+<span class="add">+            margin-top: 0px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            Delivered</span>
+<span class="add">+          &lt;/h3></span>
+<span class="add">+          &lt;p style=&quot;</span>
+<span class="add">+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));</span>
+<span class="add">+            margin-bottom: 0px;</span>
+<span class="add">+            margin-top: 0px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            Guaranteed Wednesday, October 09.</span>
+<span class="add">+          &lt;/p></span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+    &lt;/div></span>
+<span class="add">+  &lt;/div></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section>
+</main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
     <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
@@ -34,10 +1235,10 @@
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
-    const PAGE = {"entry":{"component":"progress-stepper","story":"verticalUpcoming","file":"packages/skin/src/sass/progress-stepper/stories/__snapshots__/progress-stepper.snap","dims":[{"suffix":"320px","width":320,"rtl":false,"status":"added","before":"","after":"<div>\n  <div style=\"\n    overflow-x: auto;\n    overflow-y: auto;\n    padding: var(--spacing-200) 0\n  \">\n    <div style=\"align-items: flex-start\">\n      <div style=\"\n        align-items: flex-start;\n        display: flex;\n        height: 24px;\n        width: auto\n      \">\n        <span style=\"\n          display: inline-block;\n          height: 24px;\n          margin-bottom: inherit;\n          margin-left: inherit;\n          margin-right: inherit;\n          margin-top: inherit;\n          width: 24px\n        \">\n          <svg\n            height=\"24\"\n            role=\"img\"\n            style=\"\n              display: inline-block;\n              fill: currentcolor;\n              pointer-events: none;\n              stroke-width: 0;\n              stroke: currentcolor;\n              vertical-align: middle\n            \"\n            width=\"24\"\n          >\n            <use href=\"#icon-stepper-confirmation-24\"/>\n          <\/svg>\n        <\/span>\n        <span style=\"\n          align-self: center;\n          font-size: var(--font-size-body);\n          justify-self: center;\n          margin-inline-start: var(--spacing-200);\n          text-align: left;\n          text-wrap-mode: nowrap\n        \">\n          <h3 style=\"\n            color: var(--progress-stepper-text-color, var(--color-foreground-primary));\n            font-size: var(--font-size-body);\n            margin-bottom: 0px;\n            margin-top: 0px\n          \">\n            Order placed\n          <\/h3>\n          <p style=\"\n            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n            margin-bottom: 0px;\n            margin-top: 0px\n          \">\n            New Mens Addidas Ultra Boost\n          <\/p>\n          <p style=\"\n            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n            margin-bottom: 0px;\n            margin-top: 0px\n          \">\n            Order total $220\n          <\/p>\n        <\/span>\n      <\/div>\n      <hr style=\"\n        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));\n        background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);\n        background: linear-gradient(180deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);\n        border-bottom-color: currentcolor;\n        border-bottom-left-radius: 2px;\n        border-bottom-right-radius: 2px;\n        border-bottom-style: none;\n        border-bottom-width: 0px;\n        border-left-color: currentcolor;\n        border-left-style: none;\n        border-left-width: 0px;\n        border-right-color: currentcolor;\n        border-right-style: none;\n        border-right-width: 0px;\n        border-top-color: currentcolor;\n        border-top-left-radius: 2px;\n        border-top-right-radius: 2px;\n        border-top-style: none;\n        border-top-width: 0px;\n        display: inline-block;\n        flex-basis: inherit;\n        flex-grow: inherit;\n        flex-shrink: inherit;\n        height: 51px;\n        margin-bottom: 12px;\n        margin-left: 10px;\n        margin-top: -4px;\n        min-width: inherit;\n        position: relative;\n        top: 10px;\n        width: 4px\n      \"/>\n      <div style=\"\n        align-items: flex-start;\n        display: flex;\n        height: 24px;\n        width: auto\n      \">\n        <span style=\"\n          display: inline-block;\n          height: 24px;\n          margin-bottom: inherit;\n          margin-left: inherit;\n          margin-right: inherit;\n          margin-top: inherit;\n          width: 24px\n        \">\n          <svg\n            height=\"24\"\n            role=\"img\"\n            style=\"\n              display: inline-block;\n              fill: currentcolor;\n              pointer-events: none;\n              stroke-width: 0;\n              stroke: currentcolor;\n              vertical-align: middle\n            \"\n            width=\"24\"\n          >\n            <use href=\"#icon-stepper-upcoming-24\"/>\n          <\/svg>\n        <\/span>\n        <span style=\"\n          align-self: center;\n          font-size: var(--font-size-body);\n          justify-self: center;\n          margin-inline-start: var(--spacing-200);\n          text-align: left;\n          text-wrap-mode: nowrap\n        \">\n          <h3 style=\"\n            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n            font-size: var(--font-size-body);\n            font-weight: 400;\n            margin-bottom: 0px;\n            margin-top: 0px\n          \">\n            Preparing for shipment\n          <\/h3>\n          <p style=\"\n            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n            margin-bottom: 0px;\n            margin-top: 0px\n          \">\n            We will notify you once it ships.\n          <\/p>\n        <\/span>\n      <\/div>\n      <hr style=\"\n        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));\n        border-bottom-color: currentcolor;\n        border-bottom-left-radius: 2px;\n        border-bottom-right-radius: 2px;\n        border-bottom-style: none;\n        border-bottom-width: 0px;\n        border-left-color: currentcolor;\n        border-left-style: none;\n        border-left-width: 0px;\n        border-right-color: currentcolor;\n        border-right-style: none;\n        border-right-width: 0px;\n        border-top-color: currentcolor;\n        border-top-left-radius: 2px;\n        border-top-right-radius: 2px;\n        border-top-style: none;\n        border-top-width: 0px;\n        display: inline-block;\n        flex-basis: inherit;\n        flex-grow: inherit;\n        flex-shrink: inherit;\n        height: 51px;\n        margin-bottom: 12px;\n        margin-left: 10px;\n        margin-top: -4px;\n        min-width: inherit;\n        position: relative;\n        top: 10px;\n        width: 4px\n      \"/>\n      <div style=\"\n        align-items: flex-start;\n        display: flex;\n        height: 24px;\n        width: auto\n      \">\n        <span style=\"\n          display: inline-block;\n          height: 24px;\n          margin-bottom: inherit;\n          margin-left: inherit;\n          margin-right: inherit;\n          margin-top: inherit;\n          width: 24px\n        \">\n          <svg\n            height=\"24\"\n            role=\"img\"\n            style=\"\n              display: inline-block;\n              fill: currentcolor;\n              pointer-events: none;\n              stroke-width: 0;\n              stroke: currentcolor;\n              vertical-align: middle\n            \"\n            width=\"24\"\n          >\n            <use href=\"#icon-stepper-upcoming-24\"/>\n          <\/svg>\n        <\/span>\n        <span style=\"\n          align-self: center;\n          font-size: var(--font-size-body);\n          justify-self: center;\n          margin-inline-end: var(--spacing-50);\n          margin-inline-start: var(--spacing-200);\n          text-align: left;\n          text-wrap-mode: nowrap\n        \">\n          <h3 style=\"\n            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n            font-size: var(--font-size-body);\n            font-weight: 400;\n            margin-bottom: 0px;\n            margin-top: 0px\n          \">\n            Delivered\n          <\/h3>\n          <p style=\"\n            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n            margin-bottom: 0px;\n            margin-top: 0px\n          \">\n            Guaranteed Wednesday, October 09.\n          <\/p>\n        <\/span>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,252 @@\n+<div>\n+  <div style=\"\n+    overflow-x: auto;\n+    overflow-y: auto;\n+    padding: var(--spacing-200) 0\n+  \">\n+    <div style=\"align-items: flex-start\">\n+      <div style=\"\n+        align-items: flex-start;\n+        display: flex;\n+        height: 24px;\n+        width: auto\n+      \">\n+        <span style=\"\n+          display: inline-block;\n+          height: 24px;\n+          margin-bottom: inherit;\n+          margin-left: inherit;\n+          margin-right: inherit;\n+          margin-top: inherit;\n+          width: 24px\n+        \">\n+          <svg\n+            height=\"24\"\n+            role=\"img\"\n+            style=\"\n+              display: inline-block;\n+              fill: currentcolor;\n+              pointer-events: none;\n+              stroke-width: 0;\n+              stroke: currentcolor;\n+              vertical-align: middle\n+            \"\n+            width=\"24\"\n+          >\n+            <use href=\"#icon-stepper-confirmation-24\"/>\n+          <\/svg>\n+        <\/span>\n+        <span style=\"\n+          align-self: center;\n+          font-size: var(--font-size-body);\n+          justify-self: center;\n+          margin-inline-start: var(--spacing-200);\n+          text-align: left;\n+          text-wrap-mode: nowrap\n+        \">\n+          <h3 style=\"\n+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));\n+            font-size: var(--font-size-body);\n+            margin-bottom: 0px;\n+            margin-top: 0px\n+          \">\n+            Order placed\n+          <\/h3>\n+          <p style=\"\n+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n+            margin-bottom: 0px;\n+            margin-top: 0px\n+          \">\n+            New Mens Addidas Ultra Boost\n+          <\/p>\n+          <p style=\"\n+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n+            margin-bottom: 0px;\n+            margin-top: 0px\n+          \">\n+            Order total $220\n+          <\/p>\n+        <\/span>\n+      <\/div>\n+      <hr style=\"\n+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));\n+        background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);\n+        background: linear-gradient(180deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);\n+        border-bottom-color: currentcolor;\n+        border-bottom-left-radius: 2px;\n+        border-bottom-right-radius: 2px;\n+        border-bottom-style: none;\n+        border-bottom-width: 0px;\n+        border-left-color: currentcolor;\n+        border-left-style: none;\n+        border-left-width: 0px;\n+        border-right-color: currentcolor;\n+        border-right-style: none;\n+        border-right-width: 0px;\n+        border-top-color: currentcolor;\n+        border-top-left-radius: 2px;\n+        border-top-right-radius: 2px;\n+        border-top-style: none;\n+        border-top-width: 0px;\n+        display: inline-block;\n+        flex-basis: inherit;\n+        flex-grow: inherit;\n+        flex-shrink: inherit;\n+        height: 51px;\n+        margin-bottom: 12px;\n+        margin-left: 10px;\n+        margin-top: -4px;\n+        min-width: inherit;\n+        position: relative;\n+        top: 10px;\n+        width: 4px\n+      \"/>\n+      <div style=\"\n+        align-items: flex-start;\n+        display: flex;\n+        height: 24px;\n+        width: auto\n+      \">\n+        <span style=\"\n+          display: inline-block;\n+          height: 24px;\n+          margin-bottom: inherit;\n+          margin-left: inherit;\n+          margin-right: inherit;\n+          margin-top: inherit;\n+          width: 24px\n+        \">\n+          <svg\n+            height=\"24\"\n+            role=\"img\"\n+            style=\"\n+              display: inline-block;\n+              fill: currentcolor;\n+              pointer-events: none;\n+              stroke-width: 0;\n+              stroke: currentcolor;\n+              vertical-align: middle\n+            \"\n+            width=\"24\"\n+          >\n+            <use href=\"#icon-stepper-upcoming-24\"/>\n+          <\/svg>\n+        <\/span>\n+        <span style=\"\n+          align-self: center;\n+          font-size: var(--font-size-body);\n+          justify-self: center;\n+          margin-inline-start: var(--spacing-200);\n+          text-align: left;\n+          text-wrap-mode: nowrap\n+        \">\n+          <h3 style=\"\n+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n+            font-size: var(--font-size-body);\n+            font-weight: 400;\n+            margin-bottom: 0px;\n+            margin-top: 0px\n+          \">\n+            Preparing for shipment\n+          <\/h3>\n+          <p style=\"\n+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n+            margin-bottom: 0px;\n+            margin-top: 0px\n+          \">\n+            We will notify you once it ships.\n+          <\/p>\n+        <\/span>\n+      <\/div>\n+      <hr style=\"\n+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));\n+        border-bottom-color: currentcolor;\n+        border-bottom-left-radius: 2px;\n+        border-bottom-right-radius: 2px;\n+        border-bottom-style: none;\n+        border-bottom-width: 0px;\n+        border-left-color: currentcolor;\n+        border-left-style: none;\n+        border-left-width: 0px;\n+        border-right-color: currentcolor;\n+        border-right-style: none;\n+        border-right-width: 0px;\n+        border-top-color: currentcolor;\n+        border-top-left-radius: 2px;\n+        border-top-right-radius: 2px;\n+        border-top-style: none;\n+        border-top-width: 0px;\n+        display: inline-block;\n+        flex-basis: inherit;\n+        flex-grow: inherit;\n+        flex-shrink: inherit;\n+        height: 51px;\n+        margin-bottom: 12px;\n+        margin-left: 10px;\n+        margin-top: -4px;\n+        min-width: inherit;\n+        position: relative;\n+        top: 10px;\n+        width: 4px\n+      \"/>\n+      <div style=\"\n+        align-items: flex-start;\n+        display: flex;\n+        height: 24px;\n+        width: auto\n+      \">\n+        <span style=\"\n+          display: inline-block;\n+          height: 24px;\n+          margin-bottom: inherit;\n+          margin-left: inherit;\n+          margin-right: inherit;\n+          margin-top: inherit;\n+          width: 24px\n+        \">\n+          <svg\n+            height=\"24\"\n+            role=\"img\"\n+            style=\"\n+              display: inline-block;\n+              fill: currentcolor;\n+              pointer-events: none;\n+              stroke-width: 0;\n+              stroke: currentcolor;\n+              vertical-align: middle\n+            \"\n+            width=\"24\"\n+          >\n+            <use href=\"#icon-stepper-upcoming-24\"/>\n+          <\/svg>\n+        <\/span>\n+        <span style=\"\n+          align-self: center;\n+          font-size: var(--font-size-body);\n+          justify-self: center;\n+          margin-inline-end: var(--spacing-50);\n+          margin-inline-start: var(--spacing-200);\n+          text-align: left;\n+          text-wrap-mode: nowrap\n+        \">\n+          <h3 style=\"\n+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n+            font-size: var(--font-size-body);\n+            font-weight: 400;\n+            margin-bottom: 0px;\n+            margin-top: 0px\n+          \">\n+            Delivered\n+          <\/h3>\n+          <p style=\"\n+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n+            margin-bottom: 0px;\n+            margin-top: 0px\n+          \">\n+            Guaranteed Wednesday, October 09.\n+          <\/p>\n+        <\/span>\n+      <\/div>\n+    <\/div>\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"},{"suffix":"512px","width":512,"rtl":false,"status":"added","before":"","after":"<div>\n  <div style=\"\n    overflow-x: auto;\n    overflow-y: auto;\n    padding: var(--spacing-200) 0\n  \">\n    <div style=\"align-items: flex-start\">\n      <div style=\"\n        align-items: flex-start;\n        display: flex;\n        height: 24px;\n        width: auto\n      \">\n        <span style=\"\n          display: inline-block;\n          height: 24px;\n          margin-bottom: inherit;\n          margin-left: inherit;\n          margin-right: inherit;\n          margin-top: inherit;\n          width: 24px\n        \">\n          <svg\n            height=\"24\"\n            role=\"img\"\n            style=\"\n              display: inline-block;\n              fill: currentcolor;\n              pointer-events: none;\n              stroke-width: 0;\n              stroke: currentcolor;\n              vertical-align: middle\n            \"\n            width=\"24\"\n          >\n            <use href=\"#icon-stepper-confirmation-24\"/>\n          <\/svg>\n        <\/span>\n        <span style=\"\n          align-self: center;\n          font-size: var(--font-size-body);\n          justify-self: center;\n          margin-inline-start: var(--spacing-200);\n          text-align: left;\n          text-wrap-mode: nowrap\n        \">\n          <h3 style=\"\n            color: var(--progress-stepper-text-color, var(--color-foreground-primary));\n            font-size: var(--font-size-body);\n            margin-bottom: 0px;\n            margin-top: 0px\n          \">\n            Order placed\n          <\/h3>\n          <p style=\"\n            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n            margin-bottom: 0px;\n            margin-top: 0px\n          \">\n            New Mens Addidas Ultra Boost\n          <\/p>\n          <p style=\"\n            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n            margin-bottom: 0px;\n            margin-top: 0px\n          \">\n            Order total $220\n          <\/p>\n        <\/span>\n      <\/div>\n      <hr style=\"\n        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));\n        background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);\n        background: linear-gradient(180deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);\n        border-bottom-color: currentcolor;\n        border-bottom-left-radius: 2px;\n        border-bottom-right-radius: 2px;\n        border-bottom-style: none;\n        border-bottom-width: 0px;\n        border-left-color: currentcolor;\n        border-left-style: none;\n        border-left-width: 0px;\n        border-right-color: currentcolor;\n        border-right-style: none;\n        border-right-width: 0px;\n        border-top-color: currentcolor;\n        border-top-left-radius: 2px;\n        border-top-right-radius: 2px;\n        border-top-style: none;\n        border-top-width: 0px;\n        display: inline-block;\n        flex-basis: inherit;\n        flex-grow: inherit;\n        flex-shrink: inherit;\n        height: 51px;\n        margin-bottom: 12px;\n        margin-left: 10px;\n        margin-top: -4px;\n        min-width: inherit;\n        position: relative;\n        top: 10px;\n        width: 4px\n      \"/>\n      <div style=\"\n        align-items: flex-start;\n        display: flex;\n        height: 24px;\n        width: auto\n      \">\n        <span style=\"\n          display: inline-block;\n          height: 24px;\n          margin-bottom: inherit;\n          margin-left: inherit;\n          margin-right: inherit;\n          margin-top: inherit;\n          width: 24px\n        \">\n          <svg\n            height=\"24\"\n            role=\"img\"\n            style=\"\n              display: inline-block;\n              fill: currentcolor;\n              pointer-events: none;\n              stroke-width: 0;\n              stroke: currentcolor;\n              vertical-align: middle\n            \"\n            width=\"24\"\n          >\n            <use href=\"#icon-stepper-upcoming-24\"/>\n          <\/svg>\n        <\/span>\n        <span style=\"\n          align-self: center;\n          font-size: var(--font-size-body);\n          justify-self: center;\n          margin-inline-start: var(--spacing-200);\n          text-align: left;\n          text-wrap-mode: nowrap\n        \">\n          <h3 style=\"\n            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n            font-size: var(--font-size-body);\n            font-weight: 400;\n            margin-bottom: 0px;\n            margin-top: 0px\n          \">\n            Preparing for shipment\n          <\/h3>\n          <p style=\"\n            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n            margin-bottom: 0px;\n            margin-top: 0px\n          \">\n            We will notify you once it ships.\n          <\/p>\n        <\/span>\n      <\/div>\n      <hr style=\"\n        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));\n        border-bottom-color: currentcolor;\n        border-bottom-left-radius: 2px;\n        border-bottom-right-radius: 2px;\n        border-bottom-style: none;\n        border-bottom-width: 0px;\n        border-left-color: currentcolor;\n        border-left-style: none;\n        border-left-width: 0px;\n        border-right-color: currentcolor;\n        border-right-style: none;\n        border-right-width: 0px;\n        border-top-color: currentcolor;\n        border-top-left-radius: 2px;\n        border-top-right-radius: 2px;\n        border-top-style: none;\n        border-top-width: 0px;\n        display: inline-block;\n        flex-basis: inherit;\n        flex-grow: inherit;\n        flex-shrink: inherit;\n        height: 51px;\n        margin-bottom: 12px;\n        margin-left: 10px;\n        margin-top: -4px;\n        min-width: inherit;\n        position: relative;\n        top: 10px;\n        width: 4px\n      \"/>\n      <div style=\"\n        align-items: flex-start;\n        display: flex;\n        height: 24px;\n        width: auto\n      \">\n        <span style=\"\n          display: inline-block;\n          height: 24px;\n          margin-bottom: inherit;\n          margin-left: inherit;\n          margin-right: inherit;\n          margin-top: inherit;\n          width: 24px\n        \">\n          <svg\n            height=\"24\"\n            role=\"img\"\n            style=\"\n              display: inline-block;\n              fill: currentcolor;\n              pointer-events: none;\n              stroke-width: 0;\n              stroke: currentcolor;\n              vertical-align: middle\n            \"\n            width=\"24\"\n          >\n            <use href=\"#icon-stepper-upcoming-24\"/>\n          <\/svg>\n        <\/span>\n        <span style=\"\n          align-self: center;\n          font-size: var(--font-size-body);\n          justify-self: center;\n          margin-inline-end: var(--spacing-50);\n          margin-inline-start: var(--spacing-200);\n          text-align: left;\n          text-wrap-mode: nowrap\n        \">\n          <h3 style=\"\n            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n            font-size: var(--font-size-body);\n            font-weight: 400;\n            margin-bottom: 0px;\n            margin-top: 0px\n          \">\n            Delivered\n          <\/h3>\n          <p style=\"\n            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n            margin-bottom: 0px;\n            margin-top: 0px\n          \">\n            Guaranteed Wednesday, October 09.\n          <\/p>\n        <\/span>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,252 @@\n+<div>\n+  <div style=\"\n+    overflow-x: auto;\n+    overflow-y: auto;\n+    padding: var(--spacing-200) 0\n+  \">\n+    <div style=\"align-items: flex-start\">\n+      <div style=\"\n+        align-items: flex-start;\n+        display: flex;\n+        height: 24px;\n+        width: auto\n+      \">\n+        <span style=\"\n+          display: inline-block;\n+          height: 24px;\n+          margin-bottom: inherit;\n+          margin-left: inherit;\n+          margin-right: inherit;\n+          margin-top: inherit;\n+          width: 24px\n+        \">\n+          <svg\n+            height=\"24\"\n+            role=\"img\"\n+            style=\"\n+              display: inline-block;\n+              fill: currentcolor;\n+              pointer-events: none;\n+              stroke-width: 0;\n+              stroke: currentcolor;\n+              vertical-align: middle\n+            \"\n+            width=\"24\"\n+          >\n+            <use href=\"#icon-stepper-confirmation-24\"/>\n+          <\/svg>\n+        <\/span>\n+        <span style=\"\n+          align-self: center;\n+          font-size: var(--font-size-body);\n+          justify-self: center;\n+          margin-inline-start: var(--spacing-200);\n+          text-align: left;\n+          text-wrap-mode: nowrap\n+        \">\n+          <h3 style=\"\n+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));\n+            font-size: var(--font-size-body);\n+            margin-bottom: 0px;\n+            margin-top: 0px\n+          \">\n+            Order placed\n+          <\/h3>\n+          <p style=\"\n+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n+            margin-bottom: 0px;\n+            margin-top: 0px\n+          \">\n+            New Mens Addidas Ultra Boost\n+          <\/p>\n+          <p style=\"\n+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n+            margin-bottom: 0px;\n+            margin-top: 0px\n+          \">\n+            Order total $220\n+          <\/p>\n+        <\/span>\n+      <\/div>\n+      <hr style=\"\n+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));\n+        background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);\n+        background: linear-gradient(180deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);\n+        border-bottom-color: currentcolor;\n+        border-bottom-left-radius: 2px;\n+        border-bottom-right-radius: 2px;\n+        border-bottom-style: none;\n+        border-bottom-width: 0px;\n+        border-left-color: currentcolor;\n+        border-left-style: none;\n+        border-left-width: 0px;\n+        border-right-color: currentcolor;\n+        border-right-style: none;\n+        border-right-width: 0px;\n+        border-top-color: currentcolor;\n+        border-top-left-radius: 2px;\n+        border-top-right-radius: 2px;\n+        border-top-style: none;\n+        border-top-width: 0px;\n+        display: inline-block;\n+        flex-basis: inherit;\n+        flex-grow: inherit;\n+        flex-shrink: inherit;\n+        height: 51px;\n+        margin-bottom: 12px;\n+        margin-left: 10px;\n+        margin-top: -4px;\n+        min-width: inherit;\n+        position: relative;\n+        top: 10px;\n+        width: 4px\n+      \"/>\n+      <div style=\"\n+        align-items: flex-start;\n+        display: flex;\n+        height: 24px;\n+        width: auto\n+      \">\n+        <span style=\"\n+          display: inline-block;\n+          height: 24px;\n+          margin-bottom: inherit;\n+          margin-left: inherit;\n+          margin-right: inherit;\n+          margin-top: inherit;\n+          width: 24px\n+        \">\n+          <svg\n+            height=\"24\"\n+            role=\"img\"\n+            style=\"\n+              display: inline-block;\n+              fill: currentcolor;\n+              pointer-events: none;\n+              stroke-width: 0;\n+              stroke: currentcolor;\n+              vertical-align: middle\n+            \"\n+            width=\"24\"\n+          >\n+            <use href=\"#icon-stepper-upcoming-24\"/>\n+          <\/svg>\n+        <\/span>\n+        <span style=\"\n+          align-self: center;\n+          font-size: var(--font-size-body);\n+          justify-self: center;\n+          margin-inline-start: var(--spacing-200);\n+          text-align: left;\n+          text-wrap-mode: nowrap\n+        \">\n+          <h3 style=\"\n+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n+            font-size: var(--font-size-body);\n+            font-weight: 400;\n+            margin-bottom: 0px;\n+            margin-top: 0px\n+          \">\n+            Preparing for shipment\n+          <\/h3>\n+          <p style=\"\n+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n+            margin-bottom: 0px;\n+            margin-top: 0px\n+          \">\n+            We will notify you once it ships.\n+          <\/p>\n+        <\/span>\n+      <\/div>\n+      <hr style=\"\n+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));\n+        border-bottom-color: currentcolor;\n+        border-bottom-left-radius: 2px;\n+        border-bottom-right-radius: 2px;\n+        border-bottom-style: none;\n+        border-bottom-width: 0px;\n+        border-left-color: currentcolor;\n+        border-left-style: none;\n+        border-left-width: 0px;\n+        border-right-color: currentcolor;\n+        border-right-style: none;\n+        border-right-width: 0px;\n+        border-top-color: currentcolor;\n+        border-top-left-radius: 2px;\n+        border-top-right-radius: 2px;\n+        border-top-style: none;\n+        border-top-width: 0px;\n+        display: inline-block;\n+        flex-basis: inherit;\n+        flex-grow: inherit;\n+        flex-shrink: inherit;\n+        height: 51px;\n+        margin-bottom: 12px;\n+        margin-left: 10px;\n+        margin-top: -4px;\n+        min-width: inherit;\n+        position: relative;\n+        top: 10px;\n+        width: 4px\n+      \"/>\n+      <div style=\"\n+        align-items: flex-start;\n+        display: flex;\n+        height: 24px;\n+        width: auto\n+      \">\n+        <span style=\"\n+          display: inline-block;\n+          height: 24px;\n+          margin-bottom: inherit;\n+          margin-left: inherit;\n+          margin-right: inherit;\n+          margin-top: inherit;\n+          width: 24px\n+        \">\n+          <svg\n+            height=\"24\"\n+            role=\"img\"\n+            style=\"\n+              display: inline-block;\n+              fill: currentcolor;\n+              pointer-events: none;\n+              stroke-width: 0;\n+              stroke: currentcolor;\n+              vertical-align: middle\n+            \"\n+            width=\"24\"\n+          >\n+            <use href=\"#icon-stepper-upcoming-24\"/>\n+          <\/svg>\n+        <\/span>\n+        <span style=\"\n+          align-self: center;\n+          font-size: var(--font-size-body);\n+          justify-self: center;\n+          margin-inline-end: var(--spacing-50);\n+          margin-inline-start: var(--spacing-200);\n+          text-align: left;\n+          text-wrap-mode: nowrap\n+        \">\n+          <h3 style=\"\n+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n+            font-size: var(--font-size-body);\n+            font-weight: 400;\n+            margin-bottom: 0px;\n+            margin-top: 0px\n+          \">\n+            Delivered\n+          <\/h3>\n+          <p style=\"\n+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n+            margin-bottom: 0px;\n+            margin-top: 0px\n+          \">\n+            Guaranteed Wednesday, October 09.\n+          <\/p>\n+        <\/span>\n+      <\/div>\n+    <\/div>\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"},{"suffix":"1280px","width":1280,"rtl":false,"status":"added","before":"","after":"<div>\n  <div style=\"\n    overflow-x: auto;\n    overflow-y: auto;\n    padding: var(--spacing-200) 0\n  \">\n    <div style=\"align-items: flex-start\">\n      <div style=\"\n        align-items: flex-start;\n        display: flex;\n        height: 24px;\n        width: auto\n      \">\n        <span style=\"\n          display: inline-block;\n          height: 24px;\n          margin-bottom: inherit;\n          margin-left: inherit;\n          margin-right: inherit;\n          margin-top: inherit;\n          width: 24px\n        \">\n          <svg\n            height=\"24\"\n            role=\"img\"\n            style=\"\n              display: inline-block;\n              fill: currentcolor;\n              pointer-events: none;\n              stroke-width: 0;\n              stroke: currentcolor;\n              vertical-align: middle\n            \"\n            width=\"24\"\n          >\n            <use href=\"#icon-stepper-confirmation-24\"/>\n          <\/svg>\n        <\/span>\n        <span style=\"\n          align-self: center;\n          font-size: var(--font-size-body);\n          justify-self: center;\n          margin-inline-start: var(--spacing-200);\n          text-align: left;\n          text-wrap-mode: nowrap\n        \">\n          <h3 style=\"\n            color: var(--progress-stepper-text-color, var(--color-foreground-primary));\n            font-size: var(--font-size-body);\n            margin-bottom: 0px;\n            margin-top: 0px\n          \">\n            Order placed\n          <\/h3>\n          <p style=\"\n            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n            margin-bottom: 0px;\n            margin-top: 0px\n          \">\n            New Mens Addidas Ultra Boost\n          <\/p>\n          <p style=\"\n            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n            margin-bottom: 0px;\n            margin-top: 0px\n          \">\n            Order total $220\n          <\/p>\n        <\/span>\n      <\/div>\n      <hr style=\"\n        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));\n        background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);\n        background: linear-gradient(180deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);\n        border-bottom-color: currentcolor;\n        border-bottom-left-radius: 2px;\n        border-bottom-right-radius: 2px;\n        border-bottom-style: none;\n        border-bottom-width: 0px;\n        border-left-color: currentcolor;\n        border-left-style: none;\n        border-left-width: 0px;\n        border-right-color: currentcolor;\n        border-right-style: none;\n        border-right-width: 0px;\n        border-top-color: currentcolor;\n        border-top-left-radius: 2px;\n        border-top-right-radius: 2px;\n        border-top-style: none;\n        border-top-width: 0px;\n        display: inline-block;\n        flex-basis: inherit;\n        flex-grow: inherit;\n        flex-shrink: inherit;\n        height: 51px;\n        margin-bottom: 12px;\n        margin-left: 10px;\n        margin-top: -4px;\n        min-width: inherit;\n        position: relative;\n        top: 10px;\n        width: 4px\n      \"/>\n      <div style=\"\n        align-items: flex-start;\n        display: flex;\n        height: 24px;\n        width: auto\n      \">\n        <span style=\"\n          display: inline-block;\n          height: 24px;\n          margin-bottom: inherit;\n          margin-left: inherit;\n          margin-right: inherit;\n          margin-top: inherit;\n          width: 24px\n        \">\n          <svg\n            height=\"24\"\n            role=\"img\"\n            style=\"\n              display: inline-block;\n              fill: currentcolor;\n              pointer-events: none;\n              stroke-width: 0;\n              stroke: currentcolor;\n              vertical-align: middle\n            \"\n            width=\"24\"\n          >\n            <use href=\"#icon-stepper-upcoming-24\"/>\n          <\/svg>\n        <\/span>\n        <span style=\"\n          align-self: center;\n          font-size: var(--font-size-body);\n          justify-self: center;\n          margin-inline-start: var(--spacing-200);\n          text-align: left;\n          text-wrap-mode: nowrap\n        \">\n          <h3 style=\"\n            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n            font-size: var(--font-size-body);\n            font-weight: 400;\n            margin-bottom: 0px;\n            margin-top: 0px\n          \">\n            Preparing for shipment\n          <\/h3>\n          <p style=\"\n            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n            margin-bottom: 0px;\n            margin-top: 0px\n          \">\n            We will notify you once it ships.\n          <\/p>\n        <\/span>\n      <\/div>\n      <hr style=\"\n        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));\n        border-bottom-color: currentcolor;\n        border-bottom-left-radius: 2px;\n        border-bottom-right-radius: 2px;\n        border-bottom-style: none;\n        border-bottom-width: 0px;\n        border-left-color: currentcolor;\n        border-left-style: none;\n        border-left-width: 0px;\n        border-right-color: currentcolor;\n        border-right-style: none;\n        border-right-width: 0px;\n        border-top-color: currentcolor;\n        border-top-left-radius: 2px;\n        border-top-right-radius: 2px;\n        border-top-style: none;\n        border-top-width: 0px;\n        display: inline-block;\n        flex-basis: inherit;\n        flex-grow: inherit;\n        flex-shrink: inherit;\n        height: 51px;\n        margin-bottom: 12px;\n        margin-left: 10px;\n        margin-top: -4px;\n        min-width: inherit;\n        position: relative;\n        top: 10px;\n        width: 4px\n      \"/>\n      <div style=\"\n        align-items: flex-start;\n        display: flex;\n        height: 24px;\n        width: auto\n      \">\n        <span style=\"\n          display: inline-block;\n          height: 24px;\n          margin-bottom: inherit;\n          margin-left: inherit;\n          margin-right: inherit;\n          margin-top: inherit;\n          width: 24px\n        \">\n          <svg\n            height=\"24\"\n            role=\"img\"\n            style=\"\n              display: inline-block;\n              fill: currentcolor;\n              pointer-events: none;\n              stroke-width: 0;\n              stroke: currentcolor;\n              vertical-align: middle\n            \"\n            width=\"24\"\n          >\n            <use href=\"#icon-stepper-upcoming-24\"/>\n          <\/svg>\n        <\/span>\n        <span style=\"\n          align-self: center;\n          font-size: var(--font-size-body);\n          justify-self: center;\n          margin-inline-end: var(--spacing-50);\n          margin-inline-start: var(--spacing-200);\n          text-align: left;\n          text-wrap-mode: nowrap\n        \">\n          <h3 style=\"\n            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n            font-size: var(--font-size-body);\n            font-weight: 400;\n            margin-bottom: 0px;\n            margin-top: 0px\n          \">\n            Delivered\n          <\/h3>\n          <p style=\"\n            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n            margin-bottom: 0px;\n            margin-top: 0px\n          \">\n            Guaranteed Wednesday, October 09.\n          <\/p>\n        <\/span>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,252 @@\n+<div>\n+  <div style=\"\n+    overflow-x: auto;\n+    overflow-y: auto;\n+    padding: var(--spacing-200) 0\n+  \">\n+    <div style=\"align-items: flex-start\">\n+      <div style=\"\n+        align-items: flex-start;\n+        display: flex;\n+        height: 24px;\n+        width: auto\n+      \">\n+        <span style=\"\n+          display: inline-block;\n+          height: 24px;\n+          margin-bottom: inherit;\n+          margin-left: inherit;\n+          margin-right: inherit;\n+          margin-top: inherit;\n+          width: 24px\n+        \">\n+          <svg\n+            height=\"24\"\n+            role=\"img\"\n+            style=\"\n+              display: inline-block;\n+              fill: currentcolor;\n+              pointer-events: none;\n+              stroke-width: 0;\n+              stroke: currentcolor;\n+              vertical-align: middle\n+            \"\n+            width=\"24\"\n+          >\n+            <use href=\"#icon-stepper-confirmation-24\"/>\n+          <\/svg>\n+        <\/span>\n+        <span style=\"\n+          align-self: center;\n+          font-size: var(--font-size-body);\n+          justify-self: center;\n+          margin-inline-start: var(--spacing-200);\n+          text-align: left;\n+          text-wrap-mode: nowrap\n+        \">\n+          <h3 style=\"\n+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));\n+            font-size: var(--font-size-body);\n+            margin-bottom: 0px;\n+            margin-top: 0px\n+          \">\n+            Order placed\n+          <\/h3>\n+          <p style=\"\n+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n+            margin-bottom: 0px;\n+            margin-top: 0px\n+          \">\n+            New Mens Addidas Ultra Boost\n+          <\/p>\n+          <p style=\"\n+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n+            margin-bottom: 0px;\n+            margin-top: 0px\n+          \">\n+            Order total $220\n+          <\/p>\n+        <\/span>\n+      <\/div>\n+      <hr style=\"\n+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));\n+        background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);\n+        background: linear-gradient(180deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);\n+        border-bottom-color: currentcolor;\n+        border-bottom-left-radius: 2px;\n+        border-bottom-right-radius: 2px;\n+        border-bottom-style: none;\n+        border-bottom-width: 0px;\n+        border-left-color: currentcolor;\n+        border-left-style: none;\n+        border-left-width: 0px;\n+        border-right-color: currentcolor;\n+        border-right-style: none;\n+        border-right-width: 0px;\n+        border-top-color: currentcolor;\n+        border-top-left-radius: 2px;\n+        border-top-right-radius: 2px;\n+        border-top-style: none;\n+        border-top-width: 0px;\n+        display: inline-block;\n+        flex-basis: inherit;\n+        flex-grow: inherit;\n+        flex-shrink: inherit;\n+        height: 51px;\n+        margin-bottom: 12px;\n+        margin-left: 10px;\n+        margin-top: -4px;\n+        min-width: inherit;\n+        position: relative;\n+        top: 10px;\n+        width: 4px\n+      \"/>\n+      <div style=\"\n+        align-items: flex-start;\n+        display: flex;\n+        height: 24px;\n+        width: auto\n+      \">\n+        <span style=\"\n+          display: inline-block;\n+          height: 24px;\n+          margin-bottom: inherit;\n+          margin-left: inherit;\n+          margin-right: inherit;\n+          margin-top: inherit;\n+          width: 24px\n+        \">\n+          <svg\n+            height=\"24\"\n+            role=\"img\"\n+            style=\"\n+              display: inline-block;\n+              fill: currentcolor;\n+              pointer-events: none;\n+              stroke-width: 0;\n+              stroke: currentcolor;\n+              vertical-align: middle\n+            \"\n+            width=\"24\"\n+          >\n+            <use href=\"#icon-stepper-upcoming-24\"/>\n+          <\/svg>\n+        <\/span>\n+        <span style=\"\n+          align-self: center;\n+          font-size: var(--font-size-body);\n+          justify-self: center;\n+          margin-inline-start: var(--spacing-200);\n+          text-align: left;\n+          text-wrap-mode: nowrap\n+        \">\n+          <h3 style=\"\n+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n+            font-size: var(--font-size-body);\n+            font-weight: 400;\n+            margin-bottom: 0px;\n+            margin-top: 0px\n+          \">\n+            Preparing for shipment\n+          <\/h3>\n+          <p style=\"\n+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n+            margin-bottom: 0px;\n+            margin-top: 0px\n+          \">\n+            We will notify you once it ships.\n+          <\/p>\n+        <\/span>\n+      <\/div>\n+      <hr style=\"\n+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));\n+        border-bottom-color: currentcolor;\n+        border-bottom-left-radius: 2px;\n+        border-bottom-right-radius: 2px;\n+        border-bottom-style: none;\n+        border-bottom-width: 0px;\n+        border-left-color: currentcolor;\n+        border-left-style: none;\n+        border-left-width: 0px;\n+        border-right-color: currentcolor;\n+        border-right-style: none;\n+        border-right-width: 0px;\n+        border-top-color: currentcolor;\n+        border-top-left-radius: 2px;\n+        border-top-right-radius: 2px;\n+        border-top-style: none;\n+        border-top-width: 0px;\n+        display: inline-block;\n+        flex-basis: inherit;\n+        flex-grow: inherit;\n+        flex-shrink: inherit;\n+        height: 51px;\n+        margin-bottom: 12px;\n+        margin-left: 10px;\n+        margin-top: -4px;\n+        min-width: inherit;\n+        position: relative;\n+        top: 10px;\n+        width: 4px\n+      \"/>\n+      <div style=\"\n+        align-items: flex-start;\n+        display: flex;\n+        height: 24px;\n+        width: auto\n+      \">\n+        <span style=\"\n+          display: inline-block;\n+          height: 24px;\n+          margin-bottom: inherit;\n+          margin-left: inherit;\n+          margin-right: inherit;\n+          margin-top: inherit;\n+          width: 24px\n+        \">\n+          <svg\n+            height=\"24\"\n+            role=\"img\"\n+            style=\"\n+              display: inline-block;\n+              fill: currentcolor;\n+              pointer-events: none;\n+              stroke-width: 0;\n+              stroke: currentcolor;\n+              vertical-align: middle\n+            \"\n+            width=\"24\"\n+          >\n+            <use href=\"#icon-stepper-upcoming-24\"/>\n+          <\/svg>\n+        <\/span>\n+        <span style=\"\n+          align-self: center;\n+          font-size: var(--font-size-body);\n+          justify-self: center;\n+          margin-inline-end: var(--spacing-50);\n+          margin-inline-start: var(--spacing-200);\n+          text-align: left;\n+          text-wrap-mode: nowrap\n+        \">\n+          <h3 style=\"\n+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n+            font-size: var(--font-size-body);\n+            font-weight: 400;\n+            margin-bottom: 0px;\n+            margin-top: 0px\n+          \">\n+            Delivered\n+          <\/h3>\n+          <p style=\"\n+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n+            margin-bottom: 0px;\n+            margin-top: 0px\n+          \">\n+            Guaranteed Wednesday, October 09.\n+          <\/p>\n+        <\/span>\n+      <\/div>\n+    <\/div>\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"},{"suffix":"1280px rtl","width":1280,"rtl":true,"status":"added","before":"","after":"<div>\n  <div style=\"\n    overflow-x: auto;\n    overflow-y: auto;\n    padding: var(--spacing-200) 0\n  \">\n    <div style=\"align-items: flex-start\">\n      <div style=\"\n        align-items: flex-start;\n        display: flex;\n        height: 24px;\n        width: auto\n      \">\n        <span style=\"\n          display: inline-block;\n          height: 24px;\n          margin-bottom: inherit;\n          margin-left: inherit;\n          margin-right: inherit;\n          margin-top: inherit;\n          width: 24px\n        \">\n          <svg\n            height=\"24\"\n            role=\"img\"\n            style=\"\n              display: inline-block;\n              fill: currentcolor;\n              pointer-events: none;\n              stroke-width: 0;\n              stroke: currentcolor;\n              vertical-align: middle\n            \"\n            width=\"24\"\n          >\n            <use href=\"#icon-stepper-confirmation-24\"/>\n          <\/svg>\n        <\/span>\n        <span style=\"\n          align-self: center;\n          font-size: var(--font-size-body);\n          justify-self: center;\n          margin-inline-start: var(--spacing-200);\n          text-align: left;\n          text-wrap-mode: nowrap\n        \">\n          <h3 style=\"\n            color: var(--progress-stepper-text-color, var(--color-foreground-primary));\n            font-size: var(--font-size-body);\n            margin-bottom: 0px;\n            margin-top: 0px\n          \">\n            Order placed\n          <\/h3>\n          <p style=\"\n            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n            margin-bottom: 0px;\n            margin-top: 0px\n          \">\n            New Mens Addidas Ultra Boost\n          <\/p>\n          <p style=\"\n            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n            margin-bottom: 0px;\n            margin-top: 0px\n          \">\n            Order total $220\n          <\/p>\n        <\/span>\n      <\/div>\n      <hr style=\"\n        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));\n        background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);\n        background: linear-gradient(180deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);\n        border-bottom-color: currentcolor;\n        border-bottom-left-radius: 2px;\n        border-bottom-right-radius: 2px;\n        border-bottom-style: none;\n        border-bottom-width: 0px;\n        border-left-color: currentcolor;\n        border-left-style: none;\n        border-left-width: 0px;\n        border-right-color: currentcolor;\n        border-right-style: none;\n        border-right-width: 0px;\n        border-top-color: currentcolor;\n        border-top-left-radius: 2px;\n        border-top-right-radius: 2px;\n        border-top-style: none;\n        border-top-width: 0px;\n        display: inline-block;\n        flex-basis: inherit;\n        flex-grow: inherit;\n        flex-shrink: inherit;\n        height: 51px;\n        margin-bottom: 12px;\n        margin-left: 10px;\n        margin-top: -4px;\n        min-width: inherit;\n        position: relative;\n        top: 10px;\n        width: 4px\n      \"/>\n      <div style=\"\n        align-items: flex-start;\n        display: flex;\n        height: 24px;\n        width: auto\n      \">\n        <span style=\"\n          display: inline-block;\n          height: 24px;\n          margin-bottom: inherit;\n          margin-left: inherit;\n          margin-right: inherit;\n          margin-top: inherit;\n          width: 24px\n        \">\n          <svg\n            height=\"24\"\n            role=\"img\"\n            style=\"\n              display: inline-block;\n              fill: currentcolor;\n              pointer-events: none;\n              stroke-width: 0;\n              stroke: currentcolor;\n              vertical-align: middle\n            \"\n            width=\"24\"\n          >\n            <use href=\"#icon-stepper-upcoming-24\"/>\n          <\/svg>\n        <\/span>\n        <span style=\"\n          align-self: center;\n          font-size: var(--font-size-body);\n          justify-self: center;\n          margin-inline-start: var(--spacing-200);\n          text-align: left;\n          text-wrap-mode: nowrap\n        \">\n          <h3 style=\"\n            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n            font-size: var(--font-size-body);\n            font-weight: 400;\n            margin-bottom: 0px;\n            margin-top: 0px\n          \">\n            Preparing for shipment\n          <\/h3>\n          <p style=\"\n            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n            margin-bottom: 0px;\n            margin-top: 0px\n          \">\n            We will notify you once it ships.\n          <\/p>\n        <\/span>\n      <\/div>\n      <hr style=\"\n        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));\n        border-bottom-color: currentcolor;\n        border-bottom-left-radius: 2px;\n        border-bottom-right-radius: 2px;\n        border-bottom-style: none;\n        border-bottom-width: 0px;\n        border-left-color: currentcolor;\n        border-left-style: none;\n        border-left-width: 0px;\n        border-right-color: currentcolor;\n        border-right-style: none;\n        border-right-width: 0px;\n        border-top-color: currentcolor;\n        border-top-left-radius: 2px;\n        border-top-right-radius: 2px;\n        border-top-style: none;\n        border-top-width: 0px;\n        display: inline-block;\n        flex-basis: inherit;\n        flex-grow: inherit;\n        flex-shrink: inherit;\n        height: 51px;\n        margin-bottom: 12px;\n        margin-left: 10px;\n        margin-top: -4px;\n        min-width: inherit;\n        position: relative;\n        top: 10px;\n        width: 4px\n      \"/>\n      <div style=\"\n        align-items: flex-start;\n        display: flex;\n        height: 24px;\n        width: auto\n      \">\n        <span style=\"\n          display: inline-block;\n          height: 24px;\n          margin-bottom: inherit;\n          margin-left: inherit;\n          margin-right: inherit;\n          margin-top: inherit;\n          width: 24px\n        \">\n          <svg\n            height=\"24\"\n            role=\"img\"\n            style=\"\n              display: inline-block;\n              fill: currentcolor;\n              pointer-events: none;\n              stroke-width: 0;\n              stroke: currentcolor;\n              vertical-align: middle\n            \"\n            width=\"24\"\n          >\n            <use href=\"#icon-stepper-upcoming-24\"/>\n          <\/svg>\n        <\/span>\n        <span style=\"\n          align-self: center;\n          font-size: var(--font-size-body);\n          justify-self: center;\n          margin-inline-end: var(--spacing-50);\n          margin-inline-start: var(--spacing-200);\n          text-align: left;\n          text-wrap-mode: nowrap\n        \">\n          <h3 style=\"\n            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n            font-size: var(--font-size-body);\n            font-weight: 400;\n            margin-bottom: 0px;\n            margin-top: 0px\n          \">\n            Delivered\n          <\/h3>\n          <p style=\"\n            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n            margin-bottom: 0px;\n            margin-top: 0px\n          \">\n            Guaranteed Wednesday, October 09.\n          <\/p>\n        <\/span>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,252 @@\n+<div>\n+  <div style=\"\n+    overflow-x: auto;\n+    overflow-y: auto;\n+    padding: var(--spacing-200) 0\n+  \">\n+    <div style=\"align-items: flex-start\">\n+      <div style=\"\n+        align-items: flex-start;\n+        display: flex;\n+        height: 24px;\n+        width: auto\n+      \">\n+        <span style=\"\n+          display: inline-block;\n+          height: 24px;\n+          margin-bottom: inherit;\n+          margin-left: inherit;\n+          margin-right: inherit;\n+          margin-top: inherit;\n+          width: 24px\n+        \">\n+          <svg\n+            height=\"24\"\n+            role=\"img\"\n+            style=\"\n+              display: inline-block;\n+              fill: currentcolor;\n+              pointer-events: none;\n+              stroke-width: 0;\n+              stroke: currentcolor;\n+              vertical-align: middle\n+            \"\n+            width=\"24\"\n+          >\n+            <use href=\"#icon-stepper-confirmation-24\"/>\n+          <\/svg>\n+        <\/span>\n+        <span style=\"\n+          align-self: center;\n+          font-size: var(--font-size-body);\n+          justify-self: center;\n+          margin-inline-start: var(--spacing-200);\n+          text-align: left;\n+          text-wrap-mode: nowrap\n+        \">\n+          <h3 style=\"\n+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));\n+            font-size: var(--font-size-body);\n+            margin-bottom: 0px;\n+            margin-top: 0px\n+          \">\n+            Order placed\n+          <\/h3>\n+          <p style=\"\n+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n+            margin-bottom: 0px;\n+            margin-top: 0px\n+          \">\n+            New Mens Addidas Ultra Boost\n+          <\/p>\n+          <p style=\"\n+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n+            margin-bottom: 0px;\n+            margin-top: 0px\n+          \">\n+            Order total $220\n+          <\/p>\n+        <\/span>\n+      <\/div>\n+      <hr style=\"\n+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));\n+        background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);\n+        background: linear-gradient(180deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);\n+        border-bottom-color: currentcolor;\n+        border-bottom-left-radius: 2px;\n+        border-bottom-right-radius: 2px;\n+        border-bottom-style: none;\n+        border-bottom-width: 0px;\n+        border-left-color: currentcolor;\n+        border-left-style: none;\n+        border-left-width: 0px;\n+        border-right-color: currentcolor;\n+        border-right-style: none;\n+        border-right-width: 0px;\n+        border-top-color: currentcolor;\n+        border-top-left-radius: 2px;\n+        border-top-right-radius: 2px;\n+        border-top-style: none;\n+        border-top-width: 0px;\n+        display: inline-block;\n+        flex-basis: inherit;\n+        flex-grow: inherit;\n+        flex-shrink: inherit;\n+        height: 51px;\n+        margin-bottom: 12px;\n+        margin-left: 10px;\n+        margin-top: -4px;\n+        min-width: inherit;\n+        position: relative;\n+        top: 10px;\n+        width: 4px\n+      \"/>\n+      <div style=\"\n+        align-items: flex-start;\n+        display: flex;\n+        height: 24px;\n+        width: auto\n+      \">\n+        <span style=\"\n+          display: inline-block;\n+          height: 24px;\n+          margin-bottom: inherit;\n+          margin-left: inherit;\n+          margin-right: inherit;\n+          margin-top: inherit;\n+          width: 24px\n+        \">\n+          <svg\n+            height=\"24\"\n+            role=\"img\"\n+            style=\"\n+              display: inline-block;\n+              fill: currentcolor;\n+              pointer-events: none;\n+              stroke-width: 0;\n+              stroke: currentcolor;\n+              vertical-align: middle\n+            \"\n+            width=\"24\"\n+          >\n+            <use href=\"#icon-stepper-upcoming-24\"/>\n+          <\/svg>\n+        <\/span>\n+        <span style=\"\n+          align-self: center;\n+          font-size: var(--font-size-body);\n+          justify-self: center;\n+          margin-inline-start: var(--spacing-200);\n+          text-align: left;\n+          text-wrap-mode: nowrap\n+        \">\n+          <h3 style=\"\n+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n+            font-size: var(--font-size-body);\n+            font-weight: 400;\n+            margin-bottom: 0px;\n+            margin-top: 0px\n+          \">\n+            Preparing for shipment\n+          <\/h3>\n+          <p style=\"\n+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n+            margin-bottom: 0px;\n+            margin-top: 0px\n+          \">\n+            We will notify you once it ships.\n+          <\/p>\n+        <\/span>\n+      <\/div>\n+      <hr style=\"\n+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));\n+        border-bottom-color: currentcolor;\n+        border-bottom-left-radius: 2px;\n+        border-bottom-right-radius: 2px;\n+        border-bottom-style: none;\n+        border-bottom-width: 0px;\n+        border-left-color: currentcolor;\n+        border-left-style: none;\n+        border-left-width: 0px;\n+        border-right-color: currentcolor;\n+        border-right-style: none;\n+        border-right-width: 0px;\n+        border-top-color: currentcolor;\n+        border-top-left-radius: 2px;\n+        border-top-right-radius: 2px;\n+        border-top-style: none;\n+        border-top-width: 0px;\n+        display: inline-block;\n+        flex-basis: inherit;\n+        flex-grow: inherit;\n+        flex-shrink: inherit;\n+        height: 51px;\n+        margin-bottom: 12px;\n+        margin-left: 10px;\n+        margin-top: -4px;\n+        min-width: inherit;\n+        position: relative;\n+        top: 10px;\n+        width: 4px\n+      \"/>\n+      <div style=\"\n+        align-items: flex-start;\n+        display: flex;\n+        height: 24px;\n+        width: auto\n+      \">\n+        <span style=\"\n+          display: inline-block;\n+          height: 24px;\n+          margin-bottom: inherit;\n+          margin-left: inherit;\n+          margin-right: inherit;\n+          margin-top: inherit;\n+          width: 24px\n+        \">\n+          <svg\n+            height=\"24\"\n+            role=\"img\"\n+            style=\"\n+              display: inline-block;\n+              fill: currentcolor;\n+              pointer-events: none;\n+              stroke-width: 0;\n+              stroke: currentcolor;\n+              vertical-align: middle\n+            \"\n+            width=\"24\"\n+          >\n+            <use href=\"#icon-stepper-upcoming-24\"/>\n+          <\/svg>\n+        <\/span>\n+        <span style=\"\n+          align-self: center;\n+          font-size: var(--font-size-body);\n+          justify-self: center;\n+          margin-inline-end: var(--spacing-50);\n+          margin-inline-start: var(--spacing-200);\n+          text-align: left;\n+          text-wrap-mode: nowrap\n+        \">\n+          <h3 style=\"\n+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n+            font-size: var(--font-size-body);\n+            font-weight: 400;\n+            margin-bottom: 0px;\n+            margin-top: 0px\n+          \">\n+            Delivered\n+          <\/h3>\n+          <p style=\"\n+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));\n+            margin-bottom: 0px;\n+            margin-top: 0px\n+          \">\n+            Guaranteed Wednesday, October 09.\n+          <\/p>\n+        <\/span>\n+      <\/div>\n+    <\/div>\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"\n<div class=\"progress-stepper progress-stepper--vertical\">\n    <div class=\"progress-stepper__items\" role=\"list\">\n        <div aria-current=\"current\" class=\"progress-stepper__item\" role=\"listitem\">\n            <span class=\"progress-stepper__icon\">\n                <svg role=\"img\" aria-hidden=\"true\" class=\"icon\" height=\"24\" width=\"24\">\n                    <use href=\"#icon-stepper-confirmation-24\"><\/use>\n                <\/svg>\n            <\/span>\n            <span class=\"progress-stepper__text\">\n                <h3>Order placed<\/h3>\n                <p>New Mens Addidas Ultra Boost<\/p>\n                <p>Order total $220<\/p>\n            <\/span>\n        <\/div>\n        <hr class=\"progress-stepper__separator\" role=\"presentation\" />\n        <div class=\"progress-stepper__item\" role=\"listitem\">\n            <span class=\"progress-stepper__icon\">\n                <svg role=\"img\" aria-hidden=\"true\" class=\"icon\" height=\"24\" width=\"24\">\n                    <use href=\"#icon-stepper-upcoming-24\"><\/use>\n                <\/svg>\n            <\/span>\n            <span class=\"progress-stepper__text\">\n                <h3>Preparing for shipment<\/h3>\n                <p>We will notify you once it ships.<\/p>\n            <\/span>\n        <\/div>\n        <hr class=\"progress-stepper__separator\" role=\"presentation\" />\n        <div class=\"progress-stepper__item\" role=\"listitem\">\n            <span class=\"progress-stepper__icon\">\n                <svg role=\"img\" aria-label=\"upcoming\" class=\"icon\" height=\"24\" width=\"24\">\n                    <use href=\"#icon-stepper-upcoming-24\"><\/use>\n                <\/svg>\n            <\/span>\n           <span class=\"progress-stepper__text\">\n                <h3>Delivered<\/h3>\n                <p>Guaranteed Wednesday, October 09.<\/p>\n            <\/span>\n        <\/div>\n    <\/div>\n<\/div>\n","storyAfter":"\n<div class=\"progress-stepper progress-stepper--vertical\">\n    <div class=\"progress-stepper__items\" role=\"list\">\n        <div aria-current=\"current\" class=\"progress-stepper__item\" role=\"listitem\">\n            <span class=\"progress-stepper__icon\">\n                <svg role=\"img\" aria-hidden=\"true\" class=\"icon\" height=\"24\" width=\"24\">\n                    <use href=\"#icon-stepper-confirmation-24\"><\/use>\n                <\/svg>\n            <\/span>\n            <span class=\"progress-stepper__text\">\n                <h3>Order placed<\/h3>\n                <p>New Mens Addidas Ultra Boost<\/p>\n                <p>Order total $220<\/p>\n            <\/span>\n        <\/div>\n        <hr class=\"progress-stepper__separator\" role=\"presentation\" />\n        <div class=\"progress-stepper__item\" role=\"listitem\">\n            <span class=\"progress-stepper__icon\">\n                <svg role=\"img\" aria-hidden=\"true\" class=\"icon\" height=\"24\" width=\"24\">\n                    <use href=\"#icon-stepper-upcoming-24\"><\/use>\n                <\/svg>\n            <\/span>\n            <span class=\"progress-stepper__text\">\n                <h3>Preparing for shipment<\/h3>\n                <p>We will notify you once it ships.<\/p>\n            <\/span>\n        <\/div>\n        <hr class=\"progress-stepper__separator\" role=\"presentation\" />\n        <div class=\"progress-stepper__item\" role=\"listitem\">\n            <span class=\"progress-stepper__icon\">\n                <svg role=\"img\" aria-label=\"upcoming\" class=\"icon\" height=\"24\" width=\"24\">\n                    <use href=\"#icon-stepper-upcoming-24\"><\/use>\n                <\/svg>\n            <\/span>\n           <span class=\"progress-stepper__text\">\n                <h3>Delivered<\/h3>\n                <p>Guaranteed Wednesday, October 09.<\/p>\n            <\/span>\n        <\/div>\n    <\/div>\n<\/div>\n"},"baseRefShort":"60ee2f496866","prevHref":"progress-stepper-stories-progress-stepper--verticalSingleLine.html","nextHref":"radio-stories-checked--RTL.html","indexHref":"../index.html","pos":691,"total":1012,"slug":"progress-stepper-stories-progress-stepper--verticalUpcoming","hash":"10qhqsy"};
+    const PAGE = {"baseRefShort":"60ee2f496866","prevHref":"progress-stepper-stories-progress-stepper--verticalSingleLine.html","nextHref":"radio-stories-checked--RTL.html","indexHref":"../index.html","pos":691,"total":1012,"slug":"progress-stepper-stories-progress-stepper--verticalUpcoming","hash":"10qhqsy","component":"progress-stepper","story":"verticalUpcoming","file":"packages/skin/src/sass/progress-stepper/stories/__snapshots__/progress-stepper.snap","dims":[{"changes":[]},{"changes":[]},{"changes":[]},{"changes":[]}]};
 </script>
-<script src="../assets/nav.js"></script>
-<script src="../assets/story.js"></script>
+<script src="../assets/nav.js" defer></script>
+<script src="../assets/story.js" defer></script>
 <script src="../assets/prefetch.js" defer></script>
 </body>
 </html>

@@ -9,8 +9,8 @@
 <body class="story-page">
 <header>
     <a class="back" href="../index.html">← All changes</a>
-    <h1 id="title"></h1>
-    <span class="meta" id="path"></span>
+    <h1 id="title">toggle-button / disabledImage</h1>
+    <span class="meta" id="path">packages/skin/src/sass/toggle-button/stories/__snapshots__/gallery-layout.snap</span>
     <span class="pagenav">
         <a id="prev" href="#">‹ prev</a>
         <span class="pos" id="pos"></span>
@@ -21,7 +21,124 @@
     <input id="search" type="search" placeholder="Filter stories… ( / )" />
     <div id="storylist"></div>
 </nav>
-<main id="main"></main>
+<main id="main">
+    <div class="toolbar">
+        <div class="seg" data-seg="mode">
+            <button type="button" data-v="side" class="active">Side by side</button>
+            <button type="button" data-v="swipe">Swipe</button>
+            <button type="button" data-v="onion">Onion</button>
+            <button type="button" data-v="flip">Flip</button>
+        </div>
+        <div class="seg" data-seg="view">
+            <button type="button" data-v="rendered" class="active">Rendered</button>
+            <button type="button" data-v="diff">Text diff</button>
+        </div>
+        <div class="seg" data-seg="theme">
+            <button type="button" data-v="light" class="active">Light</button>
+            <button type="button" data-v="dark">Dark</button>
+        </div>
+        <label class="toggle"><input type="checkbox" id="hl-toggle" checked />Highlights</label>
+        <div class="grow"></div>
+        <button class="flag" id="flag-btn" type="button">⚑ Flag</button>
+    </div>
+    <section class="dim-section" id="dim-0" data-dim="0"><div class="stage"><div class="render-area"><div class="duo mode-side fluid solo"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fluid"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<button type=&quot;button&quot; class=&quot;toggle-button toggle-button--gallery-layout&quot; aria-pressed=&quot;false&quot; disabled>
+    <span class=&quot;toggle-button__image-container&quot;>
+        <span class=&quot;toggle-button__image&quot;>
+            <img src=&quot;https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-square-pic.jpg&quot; alt=&quot;&quot;>
+        </span>
+    </span>
+    <span class=&quot;toggle-button__content&quot;>
+        <span class=&quot;toggle-button__title&quot;>Image Button Title</span>
+        <span class=&quot;toggle-button__subtitle&quot;>Image Button Subtitle</span>
+    </span>
+</button>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,82 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;button</span>
+<span class="add">+    disabled</span>
+<span class="add">+    style=&quot;</span>
+<span class="add">+      background-color: var(--color-background-primary);</span>
+<span class="add">+      box-shadow: transparent 0px 0px 0px 1px;</span>
+<span class="add">+      color: var(--color-foreground-primary);</span>
+<span class="add">+      display: inline-flex;</span>
+<span class="add">+      flex-direction: column;</span>
+<span class="add">+      font-family: inherit;</span>
+<span class="add">+      font-size: var(--font-size-body);</span>
+<span class="add">+      justify-content: left;</span>
+<span class="add">+      margin-right: var(--spacing-100);</span>
+<span class="add">+      margin-top: auto;</span>
+<span class="add">+      max-width: var(--toggle-button-gallery-width-max);</span>
+<span class="add">+      min-height: var(--toggle-button-height-min);</span>
+<span class="add">+      min-width: var(--toggle-button-gallery-width-min);</span>
+<span class="add">+      padding: 0 var(--spacing-200);</span>
+<span class="add">+      vertical-align: top</span>
+<span class="add">+    &quot;</span>
+<span class="add">+  ></span>
+<span class="add">+    &lt;span style=&quot;</span>
+<span class="add">+      align-self: center;</span>
+<span class="add">+      margin-top: var(--spacing-200);</span>
+<span class="add">+      padding-bottom: 60%;</span>
+<span class="add">+      pointer-events: none;</span>
+<span class="add">+      position: relative;</span>
+<span class="add">+      text-align: center;</span>
+<span class="add">+      width: 100%</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;span style=&quot;</span>
+<span class="add">+        bottom: 0px;</span>
+<span class="add">+        display: inline-block;</span>
+<span class="add">+        filter: grayscale(1);</span>
+<span class="add">+        height: 100%;</span>
+<span class="add">+        left: 0px;</span>
+<span class="add">+        opacity: 0.5;</span>
+<span class="add">+        pointer-events: none;</span>
+<span class="add">+        position: absolute;</span>
+<span class="add">+        right: 0px;</span>
+<span class="add">+        top: 0px;</span>
+<span class="add">+        width: 100%</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;img</span>
+<span class="add">+          src=&quot;https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-square-pic.jpg&quot;</span>
+<span class="add">+          style=&quot;</span>
+<span class="add">+            height: 100%;</span>
+<span class="add">+            max-height: 200px;</span>
+<span class="add">+            pointer-events: none</span>
+<span class="add">+          &quot;</span>
+<span class="add">+        /></span>
+<span class="add">+      &lt;/span></span>
+<span class="add">+    &lt;/span></span>
+<span class="add">+    &lt;span style=&quot;</span>
+<span class="add">+      align-self: self-start;</span>
+<span class="add">+      display: flex;</span>
+<span class="add">+      flex-direction: column;</span>
+<span class="add">+      pointer-events: none;</span>
+<span class="add">+      text-align: left</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;span style=&quot;</span>
+<span class="add">+        color: var(--color-foreground-disabled);</span>
+<span class="add">+        font-size: var(--font-size-medium);</span>
+<span class="add">+        font-weight: 700;</span>
+<span class="add">+        line-height: var(--font-size-large-2);</span>
+<span class="add">+        margin-bottom: var(--spacing-50);</span>
+<span class="add">+        margin-top: var(--spacing-200);</span>
+<span class="add">+        pointer-events: none</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        Image Button Title</span>
+<span class="add">+      &lt;/span></span>
+<span class="add">+      &lt;span style=&quot;</span>
+<span class="add">+        color: var(--color-foreground-disabled);</span>
+<span class="add">+        line-height: var(--font-size-large-1);</span>
+<span class="add">+        margin-bottom: var(--spacing-200);</span>
+<span class="add">+        pointer-events: none</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        Image Button Subtitle</span>
+<span class="add">+      &lt;/span></span>
+<span class="add">+    &lt;/span></span>
+<span class="add">+  &lt;/button></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section>
+</main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
     <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
@@ -34,10 +151,10 @@
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
-    const PAGE = {"entry":{"component":"toggle-button","story":"disabledImage","file":"packages/skin/src/sass/toggle-button/stories/__snapshots__/gallery-layout.snap","dims":[{"suffix":"","width":null,"rtl":false,"status":"added","before":"","after":"<div>\n  <button\n    disabled\n    style=\"\n      background-color: var(--color-background-primary);\n      box-shadow: transparent 0px 0px 0px 1px;\n      color: var(--color-foreground-primary);\n      display: inline-flex;\n      flex-direction: column;\n      font-family: inherit;\n      font-size: var(--font-size-body);\n      justify-content: left;\n      margin-right: var(--spacing-100);\n      margin-top: auto;\n      max-width: var(--toggle-button-gallery-width-max);\n      min-height: var(--toggle-button-height-min);\n      min-width: var(--toggle-button-gallery-width-min);\n      padding: 0 var(--spacing-200);\n      vertical-align: top\n    \"\n  >\n    <span style=\"\n      align-self: center;\n      margin-top: var(--spacing-200);\n      padding-bottom: 60%;\n      pointer-events: none;\n      position: relative;\n      text-align: center;\n      width: 100%\n    \">\n      <span style=\"\n        bottom: 0px;\n        display: inline-block;\n        filter: grayscale(1);\n        height: 100%;\n        left: 0px;\n        opacity: 0.5;\n        pointer-events: none;\n        position: absolute;\n        right: 0px;\n        top: 0px;\n        width: 100%\n      \">\n        <img\n          src=\"https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-square-pic.jpg\"\n          style=\"\n            height: 100%;\n            max-height: 200px;\n            pointer-events: none\n          \"\n        />\n      <\/span>\n    <\/span>\n    <span style=\"\n      align-self: self-start;\n      display: flex;\n      flex-direction: column;\n      pointer-events: none;\n      text-align: left\n    \">\n      <span style=\"\n        color: var(--color-foreground-disabled);\n        font-size: var(--font-size-medium);\n        font-weight: 700;\n        line-height: var(--font-size-large-2);\n        margin-bottom: var(--spacing-50);\n        margin-top: var(--spacing-200);\n        pointer-events: none\n      \">\n        Image Button Title\n      <\/span>\n      <span style=\"\n        color: var(--color-foreground-disabled);\n        line-height: var(--font-size-large-1);\n        margin-bottom: var(--spacing-200);\n        pointer-events: none\n      \">\n        Image Button Subtitle\n      <\/span>\n    <\/span>\n  <\/button>\n<\/div>","diff":"@@ -0,0 +1,82 @@\n+<div>\n+  <button\n+    disabled\n+    style=\"\n+      background-color: var(--color-background-primary);\n+      box-shadow: transparent 0px 0px 0px 1px;\n+      color: var(--color-foreground-primary);\n+      display: inline-flex;\n+      flex-direction: column;\n+      font-family: inherit;\n+      font-size: var(--font-size-body);\n+      justify-content: left;\n+      margin-right: var(--spacing-100);\n+      margin-top: auto;\n+      max-width: var(--toggle-button-gallery-width-max);\n+      min-height: var(--toggle-button-height-min);\n+      min-width: var(--toggle-button-gallery-width-min);\n+      padding: 0 var(--spacing-200);\n+      vertical-align: top\n+    \"\n+  >\n+    <span style=\"\n+      align-self: center;\n+      margin-top: var(--spacing-200);\n+      padding-bottom: 60%;\n+      pointer-events: none;\n+      position: relative;\n+      text-align: center;\n+      width: 100%\n+    \">\n+      <span style=\"\n+        bottom: 0px;\n+        display: inline-block;\n+        filter: grayscale(1);\n+        height: 100%;\n+        left: 0px;\n+        opacity: 0.5;\n+        pointer-events: none;\n+        position: absolute;\n+        right: 0px;\n+        top: 0px;\n+        width: 100%\n+      \">\n+        <img\n+          src=\"https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-square-pic.jpg\"\n+          style=\"\n+            height: 100%;\n+            max-height: 200px;\n+            pointer-events: none\n+          \"\n+        />\n+      <\/span>\n+    <\/span>\n+    <span style=\"\n+      align-self: self-start;\n+      display: flex;\n+      flex-direction: column;\n+      pointer-events: none;\n+      text-align: left\n+    \">\n+      <span style=\"\n+        color: var(--color-foreground-disabled);\n+        font-size: var(--font-size-medium);\n+        font-weight: 700;\n+        line-height: var(--font-size-large-2);\n+        margin-bottom: var(--spacing-50);\n+        margin-top: var(--spacing-200);\n+        pointer-events: none\n+      \">\n+        Image Button Title\n+      <\/span>\n+      <span style=\"\n+        color: var(--color-foreground-disabled);\n+        line-height: var(--font-size-large-1);\n+        margin-bottom: var(--spacing-200);\n+        pointer-events: none\n+      \">\n+        Image Button Subtitle\n+      <\/span>\n+    <\/span>\n+  <\/button>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"\n<button type=\"button\" class=\"toggle-button toggle-button--gallery-layout\" aria-pressed=\"false\" disabled>\n    <span class=\"toggle-button__image-container\">\n        <span class=\"toggle-button__image\">\n            <img src=\"https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-square-pic.jpg\" alt=\"\">\n        <\/span>\n    <\/span>\n    <span class=\"toggle-button__content\">\n        <span class=\"toggle-button__title\">Image Button Title<\/span>\n        <span class=\"toggle-button__subtitle\">Image Button Subtitle<\/span>\n    <\/span>\n<\/button>\n","storyAfter":"\n<button type=\"button\" class=\"toggle-button toggle-button--gallery-layout\" aria-pressed=\"false\" disabled>\n    <span class=\"toggle-button__image-container\">\n        <span class=\"toggle-button__image\">\n            <img src=\"https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-square-pic.jpg\" alt=\"\">\n        <\/span>\n    <\/span>\n    <span class=\"toggle-button__content\">\n        <span class=\"toggle-button__title\">Image Button Title<\/span>\n        <span class=\"toggle-button__subtitle\">Image Button Subtitle<\/span>\n    <\/span>\n<\/button>\n"},"baseRefShort":"60ee2f496866","prevHref":"toggle-button-stories-gallery-layout--disabledIconColored.html","nextHref":"toggle-button-stories-gallery-layout--iconTitleSubtitle.html","indexHref":"../index.html","pos":964,"total":1012,"slug":"toggle-button-stories-gallery-layout--disabledImage","hash":"1vkl74c"};
+    const PAGE = {"baseRefShort":"60ee2f496866","prevHref":"toggle-button-stories-gallery-layout--disabledIconColored.html","nextHref":"toggle-button-stories-gallery-layout--iconTitleSubtitle.html","indexHref":"../index.html","pos":964,"total":1012,"slug":"toggle-button-stories-gallery-layout--disabledImage","hash":"1vkl74c","component":"toggle-button","story":"disabledImage","file":"packages/skin/src/sass/toggle-button/stories/__snapshots__/gallery-layout.snap","dims":[{"changes":[]}]};
 </script>
-<script src="../assets/nav.js"></script>
-<script src="../assets/story.js"></script>
+<script src="../assets/nav.js" defer></script>
+<script src="../assets/story.js" defer></script>
 <script src="../assets/prefetch.js" defer></script>
 </body>
 </html>

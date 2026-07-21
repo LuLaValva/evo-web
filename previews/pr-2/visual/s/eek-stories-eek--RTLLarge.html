@@ -9,8 +9,8 @@
 <body class="story-page">
 <header>
     <a class="back" href="../index.html">← All changes</a>
-    <h1 id="title"></h1>
-    <span class="meta" id="path"></span>
+    <h1 id="title">eek / RTLLarge</h1>
+    <span class="meta" id="path">packages/skin/src/sass/eek/stories/__snapshots__/eek.snap</span>
     <span class="pagenav">
         <a id="prev" href="#">‹ prev</a>
         <span class="pos" id="pos"></span>
@@ -21,7 +21,260 @@
     <input id="search" type="search" placeholder="Filter stories… ( / )" />
     <div id="storylist"></div>
 </nav>
-<main id="main"></main>
+<main id="main">
+    <div class="toolbar">
+        <div class="seg" data-seg="mode">
+            <button type="button" data-v="side" class="active">Side by side</button>
+            <button type="button" data-v="swipe">Swipe</button>
+            <button type="button" data-v="onion">Onion</button>
+            <button type="button" data-v="flip">Flip</button>
+        </div>
+        <div class="seg" data-seg="view">
+            <button type="button" data-v="rendered" class="active">Rendered</button>
+            <button type="button" data-v="diff">Text diff</button>
+        </div>
+        <div class="seg" data-seg="theme">
+            <button type="button" data-v="light" class="active">Light</button>
+            <button type="button" data-v="dark">Dark</button>
+        </div>
+        <label class="toggle"><input type="checkbox" id="hl-toggle" checked />Highlights</label>
+        <div class="grow"></div>
+        <button class="flag" id="flag-btn" type="button">⚑ Flag</button>
+    </div>
+    <section class="dim-section" id="dim-0" data-dim="0"><h3 class="dim-label">1280px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<div dir=&quot;rtl&quot;>
+    <div class=&quot;eek eek--large eek--rating-1&quot; role=&quot;img&quot; aria-label=&quot;Energy Rating: A+++. Range: A+++ - D&quot;>
+        <div class=&quot;eek__container&quot;>
+            <span class=&quot;eek__rating-range&quot;>
+                <span aria-hidden=&quot;true&quot;>A+++</span>
+                <svg class=&quot;icon icon--eek-range-arrow&quot; aria-hidden=&quot;true&quot;>
+                    <use href=&quot;#icon-eek-range-arrow&quot;></use>
+                </svg>
+                <span aria-hidden=&quot;true&quot;>D</span>
+            </span>
+            <span class=&quot;eek__rating&quot; aria-hidden=&quot;true&quot;>
+                A+++
+            </span>
+        </div>
+        <svg class=&quot;icon icon--eek-arrow&quot; aria-hidden=&quot;true&quot;>
+            <use href=&quot;#icon-eek-arrow&quot;></use>
+        </svg>
+    </div>
+</div>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,94 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;div dir=&quot;rtl&quot;></span>
+<span class="add">+    &lt;div style=&quot;</span>
+<span class="add">+      align-items: stretch;</span>
+<span class="add">+      display: inline-flex;</span>
+<span class="add">+      flex-direction: row-reverse;</span>
+<span class="add">+      font-family: Arial, sans-serif;</span>
+<span class="add">+      font-weight: 700;</span>
+<span class="add">+      height: 32px;</span>
+<span class="add">+      position: relative</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        align-items: center;</span>
+<span class="add">+        background-color: rgb(0, 166, 80);</span>
+<span class="add">+        border-bottom-right-radius: 2px;</span>
+<span class="add">+        border-bottom-style: solid;</span>
+<span class="add">+        border-bottom-width: 1px;</span>
+<span class="add">+        border-left-color: currentcolor;</span>
+<span class="add">+        border-left-width: medium;</span>
+<span class="add">+        border-right-style: solid;</span>
+<span class="add">+        border-right-width: 1px;</span>
+<span class="add">+        border-top-right-radius: 2px;</span>
+<span class="add">+        border-top-style: solid;</span>
+<span class="add">+        border-top-width: 1px;</span>
+<span class="add">+        display: inline-flex;</span>
+<span class="add">+        flex-direction: row-reverse</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          align-items: center;</span>
+<span class="add">+          background-color: rgb(255, 255, 255);</span>
+<span class="add">+          border-bottom-left-radius: 1px;</span>
+<span class="add">+          border-top-left-radius: 1px;</span>
+<span class="add">+          display: inline-flex;</span>
+<span class="add">+          flex-direction: column;</span>
+<span class="add">+          height: 28px;</span>
+<span class="add">+          line-height: 10px;</span>
+<span class="add">+          margin-bottom: 1px;</span>
+<span class="add">+          margin-left: 1px;</span>
+<span class="add">+          margin-right: 1px;</span>
+<span class="add">+          margin-top: 1px;</span>
+<span class="add">+          padding-left: 1px;</span>
+<span class="add">+          padding-right: 1px</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;span style=&quot;</span>
+<span class="add">+            font-size: 10px;</span>
+<span class="add">+            height: 10px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            A+++</span>
+<span class="add">+          &lt;/span></span>
+<span class="add">+          &lt;svg style=&quot;</span>
+<span class="add">+            display: inline-block;</span>
+<span class="add">+            fill: currentcolor;</span>
+<span class="add">+            height: 7px;</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            stroke-width: 0;</span>
+<span class="add">+            stroke: currentcolor;</span>
+<span class="add">+            vertical-align: middle;</span>
+<span class="add">+            width: 6px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            &lt;use href=&quot;#icon-eek-range-arrow&quot;/></span>
+<span class="add">+          &lt;/svg></span>
+<span class="add">+          &lt;span style=&quot;</span>
+<span class="add">+            font-size: 10px;</span>
+<span class="add">+            height: 10px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            D</span>
+<span class="add">+          &lt;/span></span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          color: rgb(255, 255, 255);</span>
+<span class="add">+          display: inline-block;</span>
+<span class="add">+          font-size: 24px;</span>
+<span class="add">+          line-height: 10px;</span>
+<span class="add">+          margin-inline-end: 8px;</span>
+<span class="add">+          text-shadow: rgb(0, 0, 0) -0.5px 0.5px 0px, rgb(0, 0, 0) 0.5px 0.5px 0px, rgb(0, 0, 0) 0.5px -0.5px 0px, rgb(0, 0, 0) -0.5px -0.5px 0px</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          A+++</span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+      &lt;svg style=&quot;</span>
+<span class="add">+        display: inline-block;</span>
+<span class="add">+        fill: rgb(0, 166, 80);</span>
+<span class="add">+        pointer-events: none;</span>
+<span class="add">+        rotate: 180deg;</span>
+<span class="add">+        stroke-width: 0;</span>
+<span class="add">+        stroke: currentcolor;</span>
+<span class="add">+        vertical-align: middle;</span>
+<span class="add">+        width: 12.5px</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;use href=&quot;#icon-eek-arrow&quot;/></span>
+<span class="add">+      &lt;/svg></span>
+<span class="add">+    &lt;/div></span>
+<span class="add">+  &lt;/div></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section><section class="dim-section" id="dim-1" data-dim="1"><h3 class="dim-label">1280px rtl</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;rtl&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<div dir=&quot;rtl&quot;>
+    <div class=&quot;eek eek--large eek--rating-1&quot; role=&quot;img&quot; aria-label=&quot;Energy Rating: A+++. Range: A+++ - D&quot;>
+        <div class=&quot;eek__container&quot;>
+            <span class=&quot;eek__rating-range&quot;>
+                <span aria-hidden=&quot;true&quot;>A+++</span>
+                <svg class=&quot;icon icon--eek-range-arrow&quot; aria-hidden=&quot;true&quot;>
+                    <use href=&quot;#icon-eek-range-arrow&quot;></use>
+                </svg>
+                <span aria-hidden=&quot;true&quot;>D</span>
+            </span>
+            <span class=&quot;eek__rating&quot; aria-hidden=&quot;true&quot;>
+                A+++
+            </span>
+        </div>
+        <svg class=&quot;icon icon--eek-arrow&quot; aria-hidden=&quot;true&quot;>
+            <use href=&quot;#icon-eek-arrow&quot;></use>
+        </svg>
+    </div>
+</div>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,94 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;div dir=&quot;rtl&quot;></span>
+<span class="add">+    &lt;div style=&quot;</span>
+<span class="add">+      align-items: stretch;</span>
+<span class="add">+      display: inline-flex;</span>
+<span class="add">+      flex-direction: row-reverse;</span>
+<span class="add">+      font-family: Arial, sans-serif;</span>
+<span class="add">+      font-weight: 700;</span>
+<span class="add">+      height: 32px;</span>
+<span class="add">+      position: relative</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        align-items: center;</span>
+<span class="add">+        background-color: rgb(0, 166, 80);</span>
+<span class="add">+        border-bottom-right-radius: 2px;</span>
+<span class="add">+        border-bottom-style: solid;</span>
+<span class="add">+        border-bottom-width: 1px;</span>
+<span class="add">+        border-left-color: currentcolor;</span>
+<span class="add">+        border-left-width: medium;</span>
+<span class="add">+        border-right-style: solid;</span>
+<span class="add">+        border-right-width: 1px;</span>
+<span class="add">+        border-top-right-radius: 2px;</span>
+<span class="add">+        border-top-style: solid;</span>
+<span class="add">+        border-top-width: 1px;</span>
+<span class="add">+        display: inline-flex;</span>
+<span class="add">+        flex-direction: row-reverse</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          align-items: center;</span>
+<span class="add">+          background-color: rgb(255, 255, 255);</span>
+<span class="add">+          border-bottom-left-radius: 1px;</span>
+<span class="add">+          border-top-left-radius: 1px;</span>
+<span class="add">+          display: inline-flex;</span>
+<span class="add">+          flex-direction: column;</span>
+<span class="add">+          height: 28px;</span>
+<span class="add">+          line-height: 10px;</span>
+<span class="add">+          margin-bottom: 1px;</span>
+<span class="add">+          margin-left: 1px;</span>
+<span class="add">+          margin-right: 1px;</span>
+<span class="add">+          margin-top: 1px;</span>
+<span class="add">+          padding-left: 1px;</span>
+<span class="add">+          padding-right: 1px</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;span style=&quot;</span>
+<span class="add">+            font-size: 10px;</span>
+<span class="add">+            height: 10px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            A+++</span>
+<span class="add">+          &lt;/span></span>
+<span class="add">+          &lt;svg style=&quot;</span>
+<span class="add">+            display: inline-block;</span>
+<span class="add">+            fill: currentcolor;</span>
+<span class="add">+            height: 7px;</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            stroke-width: 0;</span>
+<span class="add">+            stroke: currentcolor;</span>
+<span class="add">+            vertical-align: middle;</span>
+<span class="add">+            width: 6px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            &lt;use href=&quot;#icon-eek-range-arrow&quot;/></span>
+<span class="add">+          &lt;/svg></span>
+<span class="add">+          &lt;span style=&quot;</span>
+<span class="add">+            font-size: 10px;</span>
+<span class="add">+            height: 10px</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            D</span>
+<span class="add">+          &lt;/span></span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          color: rgb(255, 255, 255);</span>
+<span class="add">+          display: inline-block;</span>
+<span class="add">+          font-size: 24px;</span>
+<span class="add">+          line-height: 10px;</span>
+<span class="add">+          margin-inline-end: 8px;</span>
+<span class="add">+          text-shadow: rgb(0, 0, 0) -0.5px 0.5px 0px, rgb(0, 0, 0) 0.5px 0.5px 0px, rgb(0, 0, 0) 0.5px -0.5px 0px, rgb(0, 0, 0) -0.5px -0.5px 0px</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          A+++</span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+      &lt;svg style=&quot;</span>
+<span class="add">+        display: inline-block;</span>
+<span class="add">+        fill: rgb(0, 166, 80);</span>
+<span class="add">+        pointer-events: none;</span>
+<span class="add">+        rotate: 180deg;</span>
+<span class="add">+        stroke-width: 0;</span>
+<span class="add">+        stroke: currentcolor;</span>
+<span class="add">+        vertical-align: middle;</span>
+<span class="add">+        width: 12.5px</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;use href=&quot;#icon-eek-arrow&quot;/></span>
+<span class="add">+      &lt;/svg></span>
+<span class="add">+    &lt;/div></span>
+<span class="add">+  &lt;/div></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section>
+</main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
     <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
@@ -34,10 +287,10 @@
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
-    const PAGE = {"entry":{"component":"eek","story":"RTLLarge","file":"packages/skin/src/sass/eek/stories/__snapshots__/eek.snap","dims":[{"suffix":"1280px","width":1280,"rtl":false,"status":"added","before":"","after":"<div>\n  <div dir=\"rtl\">\n    <div style=\"\n      align-items: stretch;\n      display: inline-flex;\n      flex-direction: row-reverse;\n      font-family: Arial, sans-serif;\n      font-weight: 700;\n      height: 32px;\n      position: relative\n    \">\n      <div style=\"\n        align-items: center;\n        background-color: rgb(0, 166, 80);\n        border-bottom-right-radius: 2px;\n        border-bottom-style: solid;\n        border-bottom-width: 1px;\n        border-left-color: currentcolor;\n        border-left-width: medium;\n        border-right-style: solid;\n        border-right-width: 1px;\n        border-top-right-radius: 2px;\n        border-top-style: solid;\n        border-top-width: 1px;\n        display: inline-flex;\n        flex-direction: row-reverse\n      \">\n        <span style=\"\n          align-items: center;\n          background-color: rgb(255, 255, 255);\n          border-bottom-left-radius: 1px;\n          border-top-left-radius: 1px;\n          display: inline-flex;\n          flex-direction: column;\n          height: 28px;\n          line-height: 10px;\n          margin-bottom: 1px;\n          margin-left: 1px;\n          margin-right: 1px;\n          margin-top: 1px;\n          padding-left: 1px;\n          padding-right: 1px\n        \">\n          <span style=\"\n            font-size: 10px;\n            height: 10px\n          \">\n            A+++\n          <\/span>\n          <svg style=\"\n            display: inline-block;\n            fill: currentcolor;\n            height: 7px;\n            pointer-events: none;\n            stroke-width: 0;\n            stroke: currentcolor;\n            vertical-align: middle;\n            width: 6px\n          \">\n            <use href=\"#icon-eek-range-arrow\"/>\n          <\/svg>\n          <span style=\"\n            font-size: 10px;\n            height: 10px\n          \">\n            D\n          <\/span>\n        <\/span>\n        <span style=\"\n          color: rgb(255, 255, 255);\n          display: inline-block;\n          font-size: 24px;\n          line-height: 10px;\n          margin-inline-end: 8px;\n          text-shadow: rgb(0, 0, 0) -0.5px 0.5px 0px, rgb(0, 0, 0) 0.5px 0.5px 0px, rgb(0, 0, 0) 0.5px -0.5px 0px, rgb(0, 0, 0) -0.5px -0.5px 0px\n        \">\n          A+++\n        <\/span>\n      <\/div>\n      <svg style=\"\n        display: inline-block;\n        fill: rgb(0, 166, 80);\n        pointer-events: none;\n        rotate: 180deg;\n        stroke-width: 0;\n        stroke: currentcolor;\n        vertical-align: middle;\n        width: 12.5px\n      \">\n        <use href=\"#icon-eek-arrow\"/>\n      <\/svg>\n    <\/div>\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,94 @@\n+<div>\n+  <div dir=\"rtl\">\n+    <div style=\"\n+      align-items: stretch;\n+      display: inline-flex;\n+      flex-direction: row-reverse;\n+      font-family: Arial, sans-serif;\n+      font-weight: 700;\n+      height: 32px;\n+      position: relative\n+    \">\n+      <div style=\"\n+        align-items: center;\n+        background-color: rgb(0, 166, 80);\n+        border-bottom-right-radius: 2px;\n+        border-bottom-style: solid;\n+        border-bottom-width: 1px;\n+        border-left-color: currentcolor;\n+        border-left-width: medium;\n+        border-right-style: solid;\n+        border-right-width: 1px;\n+        border-top-right-radius: 2px;\n+        border-top-style: solid;\n+        border-top-width: 1px;\n+        display: inline-flex;\n+        flex-direction: row-reverse\n+      \">\n+        <span style=\"\n+          align-items: center;\n+          background-color: rgb(255, 255, 255);\n+          border-bottom-left-radius: 1px;\n+          border-top-left-radius: 1px;\n+          display: inline-flex;\n+          flex-direction: column;\n+          height: 28px;\n+          line-height: 10px;\n+          margin-bottom: 1px;\n+          margin-left: 1px;\n+          margin-right: 1px;\n+          margin-top: 1px;\n+          padding-left: 1px;\n+          padding-right: 1px\n+        \">\n+          <span style=\"\n+            font-size: 10px;\n+            height: 10px\n+          \">\n+            A+++\n+          <\/span>\n+          <svg style=\"\n+            display: inline-block;\n+            fill: currentcolor;\n+            height: 7px;\n+            pointer-events: none;\n+            stroke-width: 0;\n+            stroke: currentcolor;\n+            vertical-align: middle;\n+            width: 6px\n+          \">\n+            <use href=\"#icon-eek-range-arrow\"/>\n+          <\/svg>\n+          <span style=\"\n+            font-size: 10px;\n+            height: 10px\n+          \">\n+            D\n+          <\/span>\n+        <\/span>\n+        <span style=\"\n+          color: rgb(255, 255, 255);\n+          display: inline-block;\n+          font-size: 24px;\n+          line-height: 10px;\n+          margin-inline-end: 8px;\n+          text-shadow: rgb(0, 0, 0) -0.5px 0.5px 0px, rgb(0, 0, 0) 0.5px 0.5px 0px, rgb(0, 0, 0) 0.5px -0.5px 0px, rgb(0, 0, 0) -0.5px -0.5px 0px\n+        \">\n+          A+++\n+        <\/span>\n+      <\/div>\n+      <svg style=\"\n+        display: inline-block;\n+        fill: rgb(0, 166, 80);\n+        pointer-events: none;\n+        rotate: 180deg;\n+        stroke-width: 0;\n+        stroke: currentcolor;\n+        vertical-align: middle;\n+        width: 12.5px\n+      \">\n+        <use href=\"#icon-eek-arrow\"/>\n+      <\/svg>\n+    <\/div>\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"},{"suffix":"1280px rtl","width":1280,"rtl":true,"status":"added","before":"","after":"<div>\n  <div dir=\"rtl\">\n    <div style=\"\n      align-items: stretch;\n      display: inline-flex;\n      flex-direction: row-reverse;\n      font-family: Arial, sans-serif;\n      font-weight: 700;\n      height: 32px;\n      position: relative\n    \">\n      <div style=\"\n        align-items: center;\n        background-color: rgb(0, 166, 80);\n        border-bottom-right-radius: 2px;\n        border-bottom-style: solid;\n        border-bottom-width: 1px;\n        border-left-color: currentcolor;\n        border-left-width: medium;\n        border-right-style: solid;\n        border-right-width: 1px;\n        border-top-right-radius: 2px;\n        border-top-style: solid;\n        border-top-width: 1px;\n        display: inline-flex;\n        flex-direction: row-reverse\n      \">\n        <span style=\"\n          align-items: center;\n          background-color: rgb(255, 255, 255);\n          border-bottom-left-radius: 1px;\n          border-top-left-radius: 1px;\n          display: inline-flex;\n          flex-direction: column;\n          height: 28px;\n          line-height: 10px;\n          margin-bottom: 1px;\n          margin-left: 1px;\n          margin-right: 1px;\n          margin-top: 1px;\n          padding-left: 1px;\n          padding-right: 1px\n        \">\n          <span style=\"\n            font-size: 10px;\n            height: 10px\n          \">\n            A+++\n          <\/span>\n          <svg style=\"\n            display: inline-block;\n            fill: currentcolor;\n            height: 7px;\n            pointer-events: none;\n            stroke-width: 0;\n            stroke: currentcolor;\n            vertical-align: middle;\n            width: 6px\n          \">\n            <use href=\"#icon-eek-range-arrow\"/>\n          <\/svg>\n          <span style=\"\n            font-size: 10px;\n            height: 10px\n          \">\n            D\n          <\/span>\n        <\/span>\n        <span style=\"\n          color: rgb(255, 255, 255);\n          display: inline-block;\n          font-size: 24px;\n          line-height: 10px;\n          margin-inline-end: 8px;\n          text-shadow: rgb(0, 0, 0) -0.5px 0.5px 0px, rgb(0, 0, 0) 0.5px 0.5px 0px, rgb(0, 0, 0) 0.5px -0.5px 0px, rgb(0, 0, 0) -0.5px -0.5px 0px\n        \">\n          A+++\n        <\/span>\n      <\/div>\n      <svg style=\"\n        display: inline-block;\n        fill: rgb(0, 166, 80);\n        pointer-events: none;\n        rotate: 180deg;\n        stroke-width: 0;\n        stroke: currentcolor;\n        vertical-align: middle;\n        width: 12.5px\n      \">\n        <use href=\"#icon-eek-arrow\"/>\n      <\/svg>\n    <\/div>\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,94 @@\n+<div>\n+  <div dir=\"rtl\">\n+    <div style=\"\n+      align-items: stretch;\n+      display: inline-flex;\n+      flex-direction: row-reverse;\n+      font-family: Arial, sans-serif;\n+      font-weight: 700;\n+      height: 32px;\n+      position: relative\n+    \">\n+      <div style=\"\n+        align-items: center;\n+        background-color: rgb(0, 166, 80);\n+        border-bottom-right-radius: 2px;\n+        border-bottom-style: solid;\n+        border-bottom-width: 1px;\n+        border-left-color: currentcolor;\n+        border-left-width: medium;\n+        border-right-style: solid;\n+        border-right-width: 1px;\n+        border-top-right-radius: 2px;\n+        border-top-style: solid;\n+        border-top-width: 1px;\n+        display: inline-flex;\n+        flex-direction: row-reverse\n+      \">\n+        <span style=\"\n+          align-items: center;\n+          background-color: rgb(255, 255, 255);\n+          border-bottom-left-radius: 1px;\n+          border-top-left-radius: 1px;\n+          display: inline-flex;\n+          flex-direction: column;\n+          height: 28px;\n+          line-height: 10px;\n+          margin-bottom: 1px;\n+          margin-left: 1px;\n+          margin-right: 1px;\n+          margin-top: 1px;\n+          padding-left: 1px;\n+          padding-right: 1px\n+        \">\n+          <span style=\"\n+            font-size: 10px;\n+            height: 10px\n+          \">\n+            A+++\n+          <\/span>\n+          <svg style=\"\n+            display: inline-block;\n+            fill: currentcolor;\n+            height: 7px;\n+            pointer-events: none;\n+            stroke-width: 0;\n+            stroke: currentcolor;\n+            vertical-align: middle;\n+            width: 6px\n+          \">\n+            <use href=\"#icon-eek-range-arrow\"/>\n+          <\/svg>\n+          <span style=\"\n+            font-size: 10px;\n+            height: 10px\n+          \">\n+            D\n+          <\/span>\n+        <\/span>\n+        <span style=\"\n+          color: rgb(255, 255, 255);\n+          display: inline-block;\n+          font-size: 24px;\n+          line-height: 10px;\n+          margin-inline-end: 8px;\n+          text-shadow: rgb(0, 0, 0) -0.5px 0.5px 0px, rgb(0, 0, 0) 0.5px 0.5px 0px, rgb(0, 0, 0) 0.5px -0.5px 0px, rgb(0, 0, 0) -0.5px -0.5px 0px\n+        \">\n+          A+++\n+        <\/span>\n+      <\/div>\n+      <svg style=\"\n+        display: inline-block;\n+        fill: rgb(0, 166, 80);\n+        pointer-events: none;\n+        rotate: 180deg;\n+        stroke-width: 0;\n+        stroke: currentcolor;\n+        vertical-align: middle;\n+        width: 12.5px\n+      \">\n+        <use href=\"#icon-eek-arrow\"/>\n+      <\/svg>\n+    <\/div>\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"\n<div dir=\"rtl\">\n    <div class=\"eek eek--large eek--rating-1\" role=\"img\" aria-label=\"Energy Rating: A+++. Range: A+++ - D\">\n        <div class=\"eek__container\">\n            <span class=\"eek__rating-range\">\n                <span aria-hidden=\"true\">A+++<\/span>\n                <svg class=\"icon icon--eek-range-arrow\" aria-hidden=\"true\">\n                    <use href=\"#icon-eek-range-arrow\"><\/use>\n                <\/svg>\n                <span aria-hidden=\"true\">D<\/span>\n            <\/span>\n            <span class=\"eek__rating\" aria-hidden=\"true\">\n                A+++\n            <\/span>\n        <\/div>\n        <svg class=\"icon icon--eek-arrow\" aria-hidden=\"true\">\n            <use href=\"#icon-eek-arrow\"><\/use>\n        <\/svg>\n    <\/div>\n<\/div>\n","storyAfter":"\n<div dir=\"rtl\">\n    <div class=\"eek eek--large eek--rating-1\" role=\"img\" aria-label=\"Energy Rating: A+++. Range: A+++ - D\">\n        <div class=\"eek__container\">\n            <span class=\"eek__rating-range\">\n                <span aria-hidden=\"true\">A+++<\/span>\n                <svg class=\"icon icon--eek-range-arrow\" aria-hidden=\"true\">\n                    <use href=\"#icon-eek-range-arrow\"><\/use>\n                <\/svg>\n                <span aria-hidden=\"true\">D<\/span>\n            <\/span>\n            <span class=\"eek__rating\" aria-hidden=\"true\">\n                A+++\n            <\/span>\n        <\/div>\n        <svg class=\"icon icon--eek-arrow\" aria-hidden=\"true\">\n            <use href=\"#icon-eek-arrow\"><\/use>\n        <\/svg>\n    <\/div>\n<\/div>\n"},"baseRefShort":"60ee2f496866","prevHref":"eek-stories-eek--RTL.html","nextHref":"eek-stories-eek--large.html","indexHref":"../index.html","pos":285,"total":1012,"slug":"eek-stories-eek--RTLLarge","hash":"1emn2ih"};
+    const PAGE = {"baseRefShort":"60ee2f496866","prevHref":"eek-stories-eek--RTL.html","nextHref":"eek-stories-eek--large.html","indexHref":"../index.html","pos":285,"total":1012,"slug":"eek-stories-eek--RTLLarge","hash":"1emn2ih","component":"eek","story":"RTLLarge","file":"packages/skin/src/sass/eek/stories/__snapshots__/eek.snap","dims":[{"changes":[]},{"changes":[]}]};
 </script>
-<script src="../assets/nav.js"></script>
-<script src="../assets/story.js"></script>
+<script src="../assets/nav.js" defer></script>
+<script src="../assets/story.js" defer></script>
 <script src="../assets/prefetch.js" defer></script>
 </body>
 </html>

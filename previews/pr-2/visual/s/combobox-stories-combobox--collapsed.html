@@ -9,8 +9,8 @@
 <body class="story-page">
 <header>
     <a class="back" href="../index.html">← All changes</a>
-    <h1 id="title"></h1>
-    <span class="meta" id="path"></span>
+    <h1 id="title">combobox / collapsed</h1>
+    <span class="meta" id="path">packages/skin/src/sass/combobox/stories/__snapshots__/combobox.snap</span>
     <span class="pagenav">
         <a id="prev" href="#">‹ prev</a>
         <span class="pos" id="pos"></span>
@@ -21,7 +21,132 @@
     <input id="search" type="search" placeholder="Filter stories… ( / )" />
     <div id="storylist"></div>
 </nav>
-<main id="main"></main>
+<main id="main">
+    <div class="toolbar">
+        <div class="seg" data-seg="mode">
+            <button type="button" data-v="side" class="active">Side by side</button>
+            <button type="button" data-v="swipe">Swipe</button>
+            <button type="button" data-v="onion">Onion</button>
+            <button type="button" data-v="flip">Flip</button>
+        </div>
+        <div class="seg" data-seg="view">
+            <button type="button" data-v="rendered" class="active">Rendered</button>
+            <button type="button" data-v="diff">Text diff</button>
+        </div>
+        <div class="seg" data-seg="theme">
+            <button type="button" data-v="light" class="active">Light</button>
+            <button type="button" data-v="dark">Dark</button>
+        </div>
+        <label class="toggle"><input type="checkbox" id="hl-toggle" checked />Highlights</label>
+        <div class="grow"></div>
+        <button class="flag" id="flag-btn" type="button">⚑ Flag</button>
+    </div>
+    <section class="dim-section" id="dim-0" data-dim="0"><h3 class="dim-label">1280px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<span class=&quot;combobox&quot;>
+    <span class=&quot;combobox__control&quot;>
+        <input name=&quot;combobox-default&quot; placeholder=&quot;Combobox&quot; role=&quot;combobox&quot; type=&quot;text&quot; aria-expanded=&quot;false&quot; aria-haspopup=&quot;listbox&quot; />
+    </span>
+    <div class=&quot;combobox__listbox combobox__listbox--set-position&quot;>
+        <div id=&quot;listbox1&quot; class=&quot;combobox__options&quot; role=&quot;listbox&quot;>
+            <div class=&quot;combobox__option&quot; role=&quot;option&quot;>
+                <span>Option 1</span>
+            </div>
+            <div class=&quot;combobox__option&quot; role=&quot;option&quot;>
+                <span>Option 2</span>
+            </div>
+        </div>
+    </div>
+</span>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,34 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;span style=&quot;</span>
+<span class="add">+    box-sizing: border-box;</span>
+<span class="add">+    display: inline-block;</span>
+<span class="add">+    position: relative;</span>
+<span class="add">+    vertical-align: bottom</span>
+<span class="add">+  &quot;></span>
+<span class="add">+    &lt;span></span>
+<span class="add">+      &lt;input</span>
+<span class="add">+        placeholder=&quot;Combobox&quot;</span>
+<span class="add">+        style=&quot;</span>
+<span class="add">+          appearance: none;</span>
+<span class="add">+          background-color: var(--combobox-textbox-background-color, var(--color-background-secondary));</span>
+<span class="add">+          border-bottom-style: solid;</span>
+<span class="add">+          border-bottom-width: 1px;</span>
+<span class="add">+          border-left-style: solid;</span>
+<span class="add">+          border-left-width: 1px;</span>
+<span class="add">+          border-right-style: solid;</span>
+<span class="add">+          border-right-width: 1px;</span>
+<span class="add">+          border-top-style: solid;</span>
+<span class="add">+          border-top-width: 1px;</span>
+<span class="add">+          color: var(--combobox-textbox-foreground-color, var(--color-foreground-primary));</span>
+<span class="add">+          font-family: inherit;</span>
+<span class="add">+          font-size: inherit;</span>
+<span class="add">+          height: 40px;</span>
+<span class="add">+          margin-left: 0px;</span>
+<span class="add">+          margin-right: 0px;</span>
+<span class="add">+          padding-left: 16px;</span>
+<span class="add">+          padding-right: 32px</span>
+<span class="add">+        &quot;</span>
+<span class="add">+      /></span>
+<span class="add">+    &lt;/span></span>
+<span class="add">+  &lt;/span></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section><section class="dim-section" id="dim-1" data-dim="1"><h3 class="dim-label">1280px rtl</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;rtl&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<span class=&quot;combobox&quot;>
+    <span class=&quot;combobox__control&quot;>
+        <input name=&quot;combobox-default&quot; placeholder=&quot;Combobox&quot; role=&quot;combobox&quot; type=&quot;text&quot; aria-expanded=&quot;false&quot; aria-haspopup=&quot;listbox&quot; />
+    </span>
+    <div class=&quot;combobox__listbox combobox__listbox--set-position&quot;>
+        <div id=&quot;listbox1&quot; class=&quot;combobox__options&quot; role=&quot;listbox&quot;>
+            <div class=&quot;combobox__option&quot; role=&quot;option&quot;>
+                <span>Option 1</span>
+            </div>
+            <div class=&quot;combobox__option&quot; role=&quot;option&quot;>
+                <span>Option 2</span>
+            </div>
+        </div>
+    </div>
+</span>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,34 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;span style=&quot;</span>
+<span class="add">+    box-sizing: border-box;</span>
+<span class="add">+    display: inline-block;</span>
+<span class="add">+    position: relative;</span>
+<span class="add">+    vertical-align: bottom</span>
+<span class="add">+  &quot;></span>
+<span class="add">+    &lt;span></span>
+<span class="add">+      &lt;input</span>
+<span class="add">+        placeholder=&quot;Combobox&quot;</span>
+<span class="add">+        style=&quot;</span>
+<span class="add">+          appearance: none;</span>
+<span class="add">+          background-color: var(--combobox-textbox-background-color, var(--color-background-secondary));</span>
+<span class="add">+          border-bottom-style: solid;</span>
+<span class="add">+          border-bottom-width: 1px;</span>
+<span class="add">+          border-left-style: solid;</span>
+<span class="add">+          border-left-width: 1px;</span>
+<span class="add">+          border-right-style: solid;</span>
+<span class="add">+          border-right-width: 1px;</span>
+<span class="add">+          border-top-style: solid;</span>
+<span class="add">+          border-top-width: 1px;</span>
+<span class="add">+          color: var(--combobox-textbox-foreground-color, var(--color-foreground-primary));</span>
+<span class="add">+          font-family: inherit;</span>
+<span class="add">+          font-size: inherit;</span>
+<span class="add">+          height: 40px;</span>
+<span class="add">+          margin-left: 0px;</span>
+<span class="add">+          margin-right: 0px;</span>
+<span class="add">+          padding-left: 16px;</span>
+<span class="add">+          padding-right: 32px</span>
+<span class="add">+        &quot;</span>
+<span class="add">+      /></span>
+<span class="add">+    &lt;/span></span>
+<span class="add">+  &lt;/span></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section>
+</main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
     <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
@@ -34,10 +159,10 @@
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
-    const PAGE = {"entry":{"component":"combobox","story":"collapsed","file":"packages/skin/src/sass/combobox/stories/__snapshots__/combobox.snap","dims":[{"suffix":"1280px","width":1280,"rtl":false,"status":"added","before":"","after":"<div>\n  <span style=\"\n    box-sizing: border-box;\n    display: inline-block;\n    position: relative;\n    vertical-align: bottom\n  \">\n    <span>\n      <input\n        placeholder=\"Combobox\"\n        style=\"\n          appearance: none;\n          background-color: var(--combobox-textbox-background-color, var(--color-background-secondary));\n          border-bottom-style: solid;\n          border-bottom-width: 1px;\n          border-left-style: solid;\n          border-left-width: 1px;\n          border-right-style: solid;\n          border-right-width: 1px;\n          border-top-style: solid;\n          border-top-width: 1px;\n          color: var(--combobox-textbox-foreground-color, var(--color-foreground-primary));\n          font-family: inherit;\n          font-size: inherit;\n          height: 40px;\n          margin-left: 0px;\n          margin-right: 0px;\n          padding-left: 16px;\n          padding-right: 32px\n        \"\n      />\n    <\/span>\n  <\/span>\n<\/div>","diff":"@@ -0,0 +1,34 @@\n+<div>\n+  <span style=\"\n+    box-sizing: border-box;\n+    display: inline-block;\n+    position: relative;\n+    vertical-align: bottom\n+  \">\n+    <span>\n+      <input\n+        placeholder=\"Combobox\"\n+        style=\"\n+          appearance: none;\n+          background-color: var(--combobox-textbox-background-color, var(--color-background-secondary));\n+          border-bottom-style: solid;\n+          border-bottom-width: 1px;\n+          border-left-style: solid;\n+          border-left-width: 1px;\n+          border-right-style: solid;\n+          border-right-width: 1px;\n+          border-top-style: solid;\n+          border-top-width: 1px;\n+          color: var(--combobox-textbox-foreground-color, var(--color-foreground-primary));\n+          font-family: inherit;\n+          font-size: inherit;\n+          height: 40px;\n+          margin-left: 0px;\n+          margin-right: 0px;\n+          padding-left: 16px;\n+          padding-right: 32px\n+        \"\n+      />\n+    <\/span>\n+  <\/span>\n+<\/div>\n\\ No newline at end of file\n"},{"suffix":"1280px rtl","width":1280,"rtl":true,"status":"added","before":"","after":"<div>\n  <span style=\"\n    box-sizing: border-box;\n    display: inline-block;\n    position: relative;\n    vertical-align: bottom\n  \">\n    <span>\n      <input\n        placeholder=\"Combobox\"\n        style=\"\n          appearance: none;\n          background-color: var(--combobox-textbox-background-color, var(--color-background-secondary));\n          border-bottom-style: solid;\n          border-bottom-width: 1px;\n          border-left-style: solid;\n          border-left-width: 1px;\n          border-right-style: solid;\n          border-right-width: 1px;\n          border-top-style: solid;\n          border-top-width: 1px;\n          color: var(--combobox-textbox-foreground-color, var(--color-foreground-primary));\n          font-family: inherit;\n          font-size: inherit;\n          height: 40px;\n          margin-left: 0px;\n          margin-right: 0px;\n          padding-left: 16px;\n          padding-right: 32px\n        \"\n      />\n    <\/span>\n  <\/span>\n<\/div>","diff":"@@ -0,0 +1,34 @@\n+<div>\n+  <span style=\"\n+    box-sizing: border-box;\n+    display: inline-block;\n+    position: relative;\n+    vertical-align: bottom\n+  \">\n+    <span>\n+      <input\n+        placeholder=\"Combobox\"\n+        style=\"\n+          appearance: none;\n+          background-color: var(--combobox-textbox-background-color, var(--color-background-secondary));\n+          border-bottom-style: solid;\n+          border-bottom-width: 1px;\n+          border-left-style: solid;\n+          border-left-width: 1px;\n+          border-right-style: solid;\n+          border-right-width: 1px;\n+          border-top-style: solid;\n+          border-top-width: 1px;\n+          color: var(--combobox-textbox-foreground-color, var(--color-foreground-primary));\n+          font-family: inherit;\n+          font-size: inherit;\n+          height: 40px;\n+          margin-left: 0px;\n+          margin-right: 0px;\n+          padding-left: 16px;\n+          padding-right: 32px\n+        \"\n+      />\n+    <\/span>\n+  <\/span>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"\n<span class=\"combobox\">\n    <span class=\"combobox__control\">\n        <input name=\"combobox-default\" placeholder=\"Combobox\" role=\"combobox\" type=\"text\" aria-expanded=\"false\" aria-haspopup=\"listbox\" />\n    <\/span>\n    <div class=\"combobox__listbox combobox__listbox--set-position\">\n        <div id=\"listbox1\" class=\"combobox__options\" role=\"listbox\">\n            <div class=\"combobox__option\" role=\"option\">\n                <span>Option 1<\/span>\n            <\/div>\n            <div class=\"combobox__option\" role=\"option\">\n                <span>Option 2<\/span>\n            <\/div>\n        <\/div>\n    <\/div>\n<\/span>\n","storyAfter":"\n<span class=\"combobox\">\n    <span class=\"combobox__control\">\n        <input name=\"combobox-default\" placeholder=\"Combobox\" role=\"combobox\" type=\"text\" aria-expanded=\"false\" aria-haspopup=\"listbox\" />\n    <\/span>\n    <div class=\"combobox__listbox combobox__listbox--set-position\">\n        <div id=\"listbox1\" class=\"combobox__options\" role=\"listbox\">\n            <div class=\"combobox__option\" role=\"option\">\n                <span>Option 1<\/span>\n            <\/div>\n            <div class=\"combobox__option\" role=\"option\">\n                <span>Option 2<\/span>\n            <\/div>\n        <\/div>\n    <\/div>\n<\/span>\n"},"baseRefShort":"60ee2f496866","prevHref":"combobox-stories-combobox--actionableRTL.html","nextHref":"combobox-stories-combobox--disabled.html","indexHref":"../index.html","pos":228,"total":1012,"slug":"combobox-stories-combobox--collapsed","hash":"1dl1opb"};
+    const PAGE = {"baseRefShort":"60ee2f496866","prevHref":"combobox-stories-combobox--actionableRTL.html","nextHref":"combobox-stories-combobox--disabled.html","indexHref":"../index.html","pos":228,"total":1012,"slug":"combobox-stories-combobox--collapsed","hash":"1dl1opb","component":"combobox","story":"collapsed","file":"packages/skin/src/sass/combobox/stories/__snapshots__/combobox.snap","dims":[{"changes":[]},{"changes":[]}]};
 </script>
-<script src="../assets/nav.js"></script>
-<script src="../assets/story.js"></script>
+<script src="../assets/nav.js" defer></script>
+<script src="../assets/story.js" defer></script>
 <script src="../assets/prefetch.js" defer></script>
 </body>
 </html>

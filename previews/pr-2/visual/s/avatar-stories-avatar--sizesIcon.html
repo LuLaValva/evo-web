@@ -9,8 +9,8 @@
 <body class="story-page">
 <header>
     <a class="back" href="../index.html">← All changes</a>
-    <h1 id="title"></h1>
-    <span class="meta" id="path"></span>
+    <h1 id="title">avatar / sizesIcon</h1>
+    <span class="meta" id="path">packages/skin/src/sass/avatar/stories/__snapshots__/avatar.snap</span>
     <span class="pagenav">
         <a id="prev" href="#">‹ prev</a>
         <span class="pos" id="pos"></span>
@@ -21,7 +21,401 @@
     <input id="search" type="search" placeholder="Filter stories… ( / )" />
     <div id="storylist"></div>
 </nav>
-<main id="main"></main>
+<main id="main">
+    <div class="toolbar">
+        <div class="seg" data-seg="mode">
+            <button type="button" data-v="side" class="active">Side by side</button>
+            <button type="button" data-v="swipe">Swipe</button>
+            <button type="button" data-v="onion">Onion</button>
+            <button type="button" data-v="flip">Flip</button>
+        </div>
+        <div class="seg" data-seg="view">
+            <button type="button" data-v="rendered" class="active">Rendered</button>
+            <button type="button" data-v="diff">Text diff</button>
+        </div>
+        <div class="seg" data-seg="theme">
+            <button type="button" data-v="light" class="active">Light</button>
+            <button type="button" data-v="dark">Dark</button>
+        </div>
+        <label class="toggle"><input type="checkbox" id="hl-toggle" checked />Highlights</label>
+        <div class="grow"></div>
+        <button class="flag" id="flag-btn" type="button">⚑ Flag</button>
+    </div>
+    <section class="dim-section" id="dim-0" data-dim="0"><div class="stage"><div class="render-area"><div class="duo mode-side fluid solo"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fluid"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+    <div>
+        <div
+            class=&quot;avatar avatar--32&quot;
+            role=&quot;img&quot;
+            aria-label=&quot;Profile picture - Signed out&quot;
+        >
+            <svg class=&quot;icon&quot; aria-hidden=&quot;true&quot;>
+                <use href=&quot;#icon-avatar-signed-out&quot;></use>
+            </svg>
+        </div>
+        <div
+            class=&quot;avatar avatar--40&quot;
+            role=&quot;img&quot;
+            aria-label=&quot;Profile picture - Signed out&quot;
+        >
+            <svg class=&quot;icon&quot; aria-hidden=&quot;true&quot;>
+                <use href=&quot;#icon-avatar-signed-out&quot;></use>
+            </svg>
+        </div>
+        <div
+            class=&quot;avatar avatar--48&quot;
+            role=&quot;img&quot;
+            aria-label=&quot;Profile picture - Signed out&quot;
+        >
+            <svg class=&quot;icon&quot; aria-hidden=&quot;true&quot;>
+                <use href=&quot;#icon-avatar-signed-out&quot;></use>
+            </svg>
+        </div>
+        <div
+            class=&quot;avatar avatar--56&quot;
+            role=&quot;img&quot;
+            aria-label=&quot;Profile picture - Signed out&quot;
+        >
+            <svg class=&quot;icon&quot; aria-hidden=&quot;true&quot;>
+                <use href=&quot;#icon-avatar-signed-out&quot;></use>
+            </svg>
+        </div>
+        <div
+            class=&quot;avatar avatar--64&quot;
+            role=&quot;img&quot;
+            aria-label=&quot;Profile picture - Signed out&quot;
+        >
+            <svg class=&quot;icon&quot; aria-hidden=&quot;true&quot;>
+                <use href=&quot;#icon-avatar-signed-out&quot;></use>
+            </svg>
+        </div>
+        <div
+            class=&quot;avatar avatar--96&quot;
+            role=&quot;img&quot;
+            aria-label=&quot;Profile picture - Signed out&quot;
+        >
+            <svg class=&quot;icon&quot; aria-hidden=&quot;true&quot;>
+                <use href=&quot;#icon-avatar-signed-out&quot;></use>
+            </svg>
+        </div>
+        <div
+            class=&quot;avatar avatar--128&quot;
+            role=&quot;img&quot;
+            aria-label=&quot;Profile picture - Signed out&quot;
+        >
+            <svg class=&quot;icon&quot; aria-hidden=&quot;true&quot;>
+                <use href=&quot;#icon-avatar-signed-out&quot;></use>
+            </svg>
+        </div>
+    </div>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,305 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;div></span>
+<span class="add">+    &lt;div style=&quot;</span>
+<span class="add">+      align-items: center;</span>
+<span class="add">+      border-bottom-left-radius: 50%;</span>
+<span class="add">+      border-bottom-right-radius: 50%;</span>
+<span class="add">+      border-top-left-radius: 50%;</span>
+<span class="add">+      border-top-right-radius: 50%;</span>
+<span class="add">+      display: inline-flex;</span>
+<span class="add">+      font-size: var(--font-size-medium);</span>
+<span class="add">+      font-weight: var(--font-weight-600);</span>
+<span class="add">+      height: 32px;</span>
+<span class="add">+      justify-content: center;</span>
+<span class="add">+      line-height: 32px;</span>
+<span class="add">+      overflow-x: hidden;</span>
+<span class="add">+      overflow-y: hidden;</span>
+<span class="add">+      position: relative;</span>
+<span class="add">+      width: 32px</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;style>@scope{:scope{</span>
+<span class="add">+        &amp;::after {</span>
+<span class="add">+          background-color: rgba(0, 0, 0, 0.05);</span>
+<span class="add">+          bottom: 0px;</span>
+<span class="add">+          content: &quot;&quot;;</span>
+<span class="add">+          display: block;</span>
+<span class="add">+          left: 0px;</span>
+<span class="add">+          pointer-events: none;</span>
+<span class="add">+          position: absolute;</span>
+<span class="add">+          right: 0px;</span>
+<span class="add">+          top: 0px</span>
+<span class="add">+        }</span>
+<span class="add">+      }}&lt;/style></span>
+<span class="add">+      &lt;svg style=&quot;</span>
+<span class="add">+        display: inline-block;</span>
+<span class="add">+        fill: currentcolor;</span>
+<span class="add">+        height: 100%;</span>
+<span class="add">+        pointer-events: none;</span>
+<span class="add">+        stroke-width: 0;</span>
+<span class="add">+        stroke: currentcolor;</span>
+<span class="add">+        vertical-align: middle;</span>
+<span class="add">+        width: 100%</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;use href=&quot;#icon-avatar-signed-out&quot;/></span>
+<span class="add">+      &lt;/svg></span>
+<span class="add">+    &lt;/div></span>
+<span class="add">+    &lt;div style=&quot;</span>
+<span class="add">+      align-items: center;</span>
+<span class="add">+      border-bottom-left-radius: 50%;</span>
+<span class="add">+      border-bottom-right-radius: 50%;</span>
+<span class="add">+      border-top-left-radius: 50%;</span>
+<span class="add">+      border-top-right-radius: 50%;</span>
+<span class="add">+      display: inline-flex;</span>
+<span class="add">+      font-size: var(--font-size-large-1);</span>
+<span class="add">+      font-weight: var(--font-weight-600);</span>
+<span class="add">+      height: 40px;</span>
+<span class="add">+      justify-content: center;</span>
+<span class="add">+      line-height: 40px;</span>
+<span class="add">+      overflow-x: hidden;</span>
+<span class="add">+      overflow-y: hidden;</span>
+<span class="add">+      position: relative;</span>
+<span class="add">+      width: 40px</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;style>@scope{:scope{</span>
+<span class="add">+        &amp;::after {</span>
+<span class="add">+          background-color: rgba(0, 0, 0, 0.05);</span>
+<span class="add">+          bottom: 0px;</span>
+<span class="add">+          content: &quot;&quot;;</span>
+<span class="add">+          display: block;</span>
+<span class="add">+          left: 0px;</span>
+<span class="add">+          pointer-events: none;</span>
+<span class="add">+          position: absolute;</span>
+<span class="add">+          right: 0px;</span>
+<span class="add">+          top: 0px</span>
+<span class="add">+        }</span>
+<span class="add">+      }}&lt;/style></span>
+<span class="add">+      &lt;svg style=&quot;</span>
+<span class="add">+        display: inline-block;</span>
+<span class="add">+        fill: currentcolor;</span>
+<span class="add">+        height: 100%;</span>
+<span class="add">+        pointer-events: none;</span>
+<span class="add">+        stroke-width: 0;</span>
+<span class="add">+        stroke: currentcolor;</span>
+<span class="add">+        vertical-align: middle;</span>
+<span class="add">+        width: 100%</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;use href=&quot;#icon-avatar-signed-out&quot;/></span>
+<span class="add">+      &lt;/svg></span>
+<span class="add">+    &lt;/div></span>
+<span class="add">+    &lt;div style=&quot;</span>
+<span class="add">+      align-items: center;</span>
+<span class="add">+      border-bottom-left-radius: 50%;</span>
+<span class="add">+      border-bottom-right-radius: 50%;</span>
+<span class="add">+      border-top-left-radius: 50%;</span>
+<span class="add">+      border-top-right-radius: 50%;</span>
+<span class="add">+      display: inline-flex;</span>
+<span class="add">+      font-size: var(--font-size-large-2);</span>
+<span class="add">+      font-weight: var(--font-weight-600);</span>
+<span class="add">+      height: 48px;</span>
+<span class="add">+      justify-content: center;</span>
+<span class="add">+      line-height: 48px;</span>
+<span class="add">+      overflow-x: hidden;</span>
+<span class="add">+      overflow-y: hidden;</span>
+<span class="add">+      position: relative;</span>
+<span class="add">+      width: 48px</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;style>@scope{:scope{</span>
+<span class="add">+        &amp;::after {</span>
+<span class="add">+          background-color: rgba(0, 0, 0, 0.05);</span>
+<span class="add">+          bottom: 0px;</span>
+<span class="add">+          content: &quot;&quot;;</span>
+<span class="add">+          display: block;</span>
+<span class="add">+          left: 0px;</span>
+<span class="add">+          pointer-events: none;</span>
+<span class="add">+          position: absolute;</span>
+<span class="add">+          right: 0px;</span>
+<span class="add">+          top: 0px</span>
+<span class="add">+        }</span>
+<span class="add">+      }}&lt;/style></span>
+<span class="add">+      &lt;svg style=&quot;</span>
+<span class="add">+        display: inline-block;</span>
+<span class="add">+        fill: currentcolor;</span>
+<span class="add">+        height: 100%;</span>
+<span class="add">+        pointer-events: none;</span>
+<span class="add">+        stroke-width: 0;</span>
+<span class="add">+        stroke: currentcolor;</span>
+<span class="add">+        vertical-align: middle;</span>
+<span class="add">+        width: 100%</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;use href=&quot;#icon-avatar-signed-out&quot;/></span>
+<span class="add">+      &lt;/svg></span>
+<span class="add">+    &lt;/div></span>
+<span class="add">+    &lt;div style=&quot;</span>
+<span class="add">+      align-items: center;</span>
+<span class="add">+      border-bottom-left-radius: 50%;</span>
+<span class="add">+      border-bottom-right-radius: 50%;</span>
+<span class="add">+      border-top-left-radius: 50%;</span>
+<span class="add">+      border-top-right-radius: 50%;</span>
+<span class="add">+      display: inline-flex;</span>
+<span class="add">+      font-size: var(--font-size-giant-1);</span>
+<span class="add">+      font-weight: var(--font-weight-600);</span>
+<span class="add">+      height: 56px;</span>
+<span class="add">+      justify-content: center;</span>
+<span class="add">+      line-height: 56px;</span>
+<span class="add">+      overflow-x: hidden;</span>
+<span class="add">+      overflow-y: hidden;</span>
+<span class="add">+      position: relative;</span>
+<span class="add">+      width: 56px</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;style>@scope{:scope{</span>
+<span class="add">+        &amp;::after {</span>
+<span class="add">+          background-color: rgba(0, 0, 0, 0.05);</span>
+<span class="add">+          bottom: 0px;</span>
+<span class="add">+          content: &quot;&quot;;</span>
+<span class="add">+          display: block;</span>
+<span class="add">+          left: 0px;</span>
+<span class="add">+          pointer-events: none;</span>
+<span class="add">+          position: absolute;</span>
+<span class="add">+          right: 0px;</span>
+<span class="add">+          top: 0px</span>
+<span class="add">+        }</span>
+<span class="add">+      }}&lt;/style></span>
+<span class="add">+      &lt;svg style=&quot;</span>
+<span class="add">+        display: inline-block;</span>
+<span class="add">+        fill: currentcolor;</span>
+<span class="add">+        height: 100%;</span>
+<span class="add">+        pointer-events: none;</span>
+<span class="add">+        stroke-width: 0;</span>
+<span class="add">+        stroke: currentcolor;</span>
+<span class="add">+        vertical-align: middle;</span>
+<span class="add">+        width: 100%</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;use href=&quot;#icon-avatar-signed-out&quot;/></span>
+<span class="add">+      &lt;/svg></span>
+<span class="add">+    &lt;/div></span>
+<span class="add">+    &lt;div style=&quot;</span>
+<span class="add">+      align-items: center;</span>
+<span class="add">+      border-bottom-left-radius: 50%;</span>
+<span class="add">+      border-bottom-right-radius: 50%;</span>
+<span class="add">+      border-top-left-radius: 50%;</span>
+<span class="add">+      border-top-right-radius: 50%;</span>
+<span class="add">+      display: inline-flex;</span>
+<span class="add">+      font-size: var(--font-size-giant-2);</span>
+<span class="add">+      font-weight: var(--font-weight-600);</span>
+<span class="add">+      height: 64px;</span>
+<span class="add">+      justify-content: center;</span>
+<span class="add">+      line-height: 64px;</span>
+<span class="add">+      overflow-x: hidden;</span>
+<span class="add">+      overflow-y: hidden;</span>
+<span class="add">+      position: relative;</span>
+<span class="add">+      width: 64px</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;style>@scope{:scope{</span>
+<span class="add">+        &amp;::after {</span>
+<span class="add">+          background-color: rgba(0, 0, 0, 0.05);</span>
+<span class="add">+          bottom: 0px;</span>
+<span class="add">+          content: &quot;&quot;;</span>
+<span class="add">+          display: block;</span>
+<span class="add">+          left: 0px;</span>
+<span class="add">+          pointer-events: none;</span>
+<span class="add">+          position: absolute;</span>
+<span class="add">+          right: 0px;</span>
+<span class="add">+          top: 0px</span>
+<span class="add">+        }</span>
+<span class="add">+      }}&lt;/style></span>
+<span class="add">+      &lt;svg style=&quot;</span>
+<span class="add">+        display: inline-block;</span>
+<span class="add">+        fill: currentcolor;</span>
+<span class="add">+        height: 100%;</span>
+<span class="add">+        pointer-events: none;</span>
+<span class="add">+        stroke-width: 0;</span>
+<span class="add">+        stroke: currentcolor;</span>
+<span class="add">+        vertical-align: middle;</span>
+<span class="add">+        width: 100%</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;use href=&quot;#icon-avatar-signed-out&quot;/></span>
+<span class="add">+      &lt;/svg></span>
+<span class="add">+    &lt;/div></span>
+<span class="add">+    &lt;div style=&quot;</span>
+<span class="add">+      align-items: center;</span>
+<span class="add">+      border-bottom-left-radius: 50%;</span>
+<span class="add">+      border-bottom-right-radius: 50%;</span>
+<span class="add">+      border-top-left-radius: 50%;</span>
+<span class="add">+      border-top-right-radius: 50%;</span>
+<span class="add">+      display: inline-flex;</span>
+<span class="add">+      font-size: var(--font-size-giant-3);</span>
+<span class="add">+      font-weight: var(--font-weight-600);</span>
+<span class="add">+      height: 96px;</span>
+<span class="add">+      justify-content: center;</span>
+<span class="add">+      line-height: 96px;</span>
+<span class="add">+      overflow-x: hidden;</span>
+<span class="add">+      overflow-y: hidden;</span>
+<span class="add">+      position: relative;</span>
+<span class="add">+      width: 96px</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;style>@scope{:scope{</span>
+<span class="add">+        &amp;::after {</span>
+<span class="add">+          background-color: rgba(0, 0, 0, 0.05);</span>
+<span class="add">+          bottom: 0px;</span>
+<span class="add">+          content: &quot;&quot;;</span>
+<span class="add">+          display: block;</span>
+<span class="add">+          left: 0px;</span>
+<span class="add">+          pointer-events: none;</span>
+<span class="add">+          position: absolute;</span>
+<span class="add">+          right: 0px;</span>
+<span class="add">+          top: 0px</span>
+<span class="add">+        }</span>
+<span class="add">+      }}&lt;/style></span>
+<span class="add">+      &lt;svg style=&quot;</span>
+<span class="add">+        display: inline-block;</span>
+<span class="add">+        fill: currentcolor;</span>
+<span class="add">+        height: 100%;</span>
+<span class="add">+        pointer-events: none;</span>
+<span class="add">+        stroke-width: 0;</span>
+<span class="add">+        stroke: currentcolor;</span>
+<span class="add">+        vertical-align: middle;</span>
+<span class="add">+        width: 100%</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;use href=&quot;#icon-avatar-signed-out&quot;/></span>
+<span class="add">+      &lt;/svg></span>
+<span class="add">+    &lt;/div></span>
+<span class="add">+    &lt;div style=&quot;</span>
+<span class="add">+      align-items: center;</span>
+<span class="add">+      border-bottom-left-radius: 50%;</span>
+<span class="add">+      border-bottom-right-radius: 50%;</span>
+<span class="add">+      border-top-left-radius: 50%;</span>
+<span class="add">+      border-top-right-radius: 50%;</span>
+<span class="add">+      display: inline-flex;</span>
+<span class="add">+      font-size: var(--font-size-giant-4);</span>
+<span class="add">+      font-weight: var(--font-weight-600);</span>
+<span class="add">+      height: 128px;</span>
+<span class="add">+      justify-content: center;</span>
+<span class="add">+      line-height: 128px;</span>
+<span class="add">+      overflow-x: hidden;</span>
+<span class="add">+      overflow-y: hidden;</span>
+<span class="add">+      position: relative;</span>
+<span class="add">+      width: 128px</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;style>@scope{:scope{</span>
+<span class="add">+        &amp;::after {</span>
+<span class="add">+          background-color: rgba(0, 0, 0, 0.05);</span>
+<span class="add">+          bottom: 0px;</span>
+<span class="add">+          content: &quot;&quot;;</span>
+<span class="add">+          display: block;</span>
+<span class="add">+          left: 0px;</span>
+<span class="add">+          pointer-events: none;</span>
+<span class="add">+          position: absolute;</span>
+<span class="add">+          right: 0px;</span>
+<span class="add">+          top: 0px</span>
+<span class="add">+        }</span>
+<span class="add">+      }}&lt;/style></span>
+<span class="add">+      &lt;svg style=&quot;</span>
+<span class="add">+        display: inline-block;</span>
+<span class="add">+        fill: currentcolor;</span>
+<span class="add">+        height: 100%;</span>
+<span class="add">+        pointer-events: none;</span>
+<span class="add">+        stroke-width: 0;</span>
+<span class="add">+        stroke: currentcolor;</span>
+<span class="add">+        vertical-align: middle;</span>
+<span class="add">+        width: 100%</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;use href=&quot;#icon-avatar-signed-out&quot;/></span>
+<span class="add">+      &lt;/svg></span>
+<span class="add">+    &lt;/div></span>
+<span class="add">+  &lt;/div></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section>
+</main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
     <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
@@ -34,10 +428,10 @@
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
-    const PAGE = {"entry":{"component":"avatar","story":"sizesIcon","file":"packages/skin/src/sass/avatar/stories/__snapshots__/avatar.snap","dims":[{"suffix":"","width":null,"rtl":false,"status":"added","before":"","after":"<div>\n  <div>\n    <div style=\"\n      align-items: center;\n      border-bottom-left-radius: 50%;\n      border-bottom-right-radius: 50%;\n      border-top-left-radius: 50%;\n      border-top-right-radius: 50%;\n      display: inline-flex;\n      font-size: var(--font-size-medium);\n      font-weight: var(--font-weight-600);\n      height: 32px;\n      justify-content: center;\n      line-height: 32px;\n      overflow-x: hidden;\n      overflow-y: hidden;\n      position: relative;\n      width: 32px\n    \">\n      <style>@scope{:scope{\n        &::after {\n          background-color: rgba(0, 0, 0, 0.05);\n          bottom: 0px;\n          content: \"\";\n          display: block;\n          left: 0px;\n          pointer-events: none;\n          position: absolute;\n          right: 0px;\n          top: 0px\n        }\n      }}<\/style>\n      <svg style=\"\n        display: inline-block;\n        fill: currentcolor;\n        height: 100%;\n        pointer-events: none;\n        stroke-width: 0;\n        stroke: currentcolor;\n        vertical-align: middle;\n        width: 100%\n      \">\n        <use href=\"#icon-avatar-signed-out\"/>\n      <\/svg>\n    <\/div>\n    <div style=\"\n      align-items: center;\n      border-bottom-left-radius: 50%;\n      border-bottom-right-radius: 50%;\n      border-top-left-radius: 50%;\n      border-top-right-radius: 50%;\n      display: inline-flex;\n      font-size: var(--font-size-large-1);\n      font-weight: var(--font-weight-600);\n      height: 40px;\n      justify-content: center;\n      line-height: 40px;\n      overflow-x: hidden;\n      overflow-y: hidden;\n      position: relative;\n      width: 40px\n    \">\n      <style>@scope{:scope{\n        &::after {\n          background-color: rgba(0, 0, 0, 0.05);\n          bottom: 0px;\n          content: \"\";\n          display: block;\n          left: 0px;\n          pointer-events: none;\n          position: absolute;\n          right: 0px;\n          top: 0px\n        }\n      }}<\/style>\n      <svg style=\"\n        display: inline-block;\n        fill: currentcolor;\n        height: 100%;\n        pointer-events: none;\n        stroke-width: 0;\n        stroke: currentcolor;\n        vertical-align: middle;\n        width: 100%\n      \">\n        <use href=\"#icon-avatar-signed-out\"/>\n      <\/svg>\n    <\/div>\n    <div style=\"\n      align-items: center;\n      border-bottom-left-radius: 50%;\n      border-bottom-right-radius: 50%;\n      border-top-left-radius: 50%;\n      border-top-right-radius: 50%;\n      display: inline-flex;\n      font-size: var(--font-size-large-2);\n      font-weight: var(--font-weight-600);\n      height: 48px;\n      justify-content: center;\n      line-height: 48px;\n      overflow-x: hidden;\n      overflow-y: hidden;\n      position: relative;\n      width: 48px\n    \">\n      <style>@scope{:scope{\n        &::after {\n          background-color: rgba(0, 0, 0, 0.05);\n          bottom: 0px;\n          content: \"\";\n          display: block;\n          left: 0px;\n          pointer-events: none;\n          position: absolute;\n          right: 0px;\n          top: 0px\n        }\n      }}<\/style>\n      <svg style=\"\n        display: inline-block;\n        fill: currentcolor;\n        height: 100%;\n        pointer-events: none;\n        stroke-width: 0;\n        stroke: currentcolor;\n        vertical-align: middle;\n        width: 100%\n      \">\n        <use href=\"#icon-avatar-signed-out\"/>\n      <\/svg>\n    <\/div>\n    <div style=\"\n      align-items: center;\n      border-bottom-left-radius: 50%;\n      border-bottom-right-radius: 50%;\n      border-top-left-radius: 50%;\n      border-top-right-radius: 50%;\n      display: inline-flex;\n      font-size: var(--font-size-giant-1);\n      font-weight: var(--font-weight-600);\n      height: 56px;\n      justify-content: center;\n      line-height: 56px;\n      overflow-x: hidden;\n      overflow-y: hidden;\n      position: relative;\n      width: 56px\n    \">\n      <style>@scope{:scope{\n        &::after {\n          background-color: rgba(0, 0, 0, 0.05);\n          bottom: 0px;\n          content: \"\";\n          display: block;\n          left: 0px;\n          pointer-events: none;\n          position: absolute;\n          right: 0px;\n          top: 0px\n        }\n      }}<\/style>\n      <svg style=\"\n        display: inline-block;\n        fill: currentcolor;\n        height: 100%;\n        pointer-events: none;\n        stroke-width: 0;\n        stroke: currentcolor;\n        vertical-align: middle;\n        width: 100%\n      \">\n        <use href=\"#icon-avatar-signed-out\"/>\n      <\/svg>\n    <\/div>\n    <div style=\"\n      align-items: center;\n      border-bottom-left-radius: 50%;\n      border-bottom-right-radius: 50%;\n      border-top-left-radius: 50%;\n      border-top-right-radius: 50%;\n      display: inline-flex;\n      font-size: var(--font-size-giant-2);\n      font-weight: var(--font-weight-600);\n      height: 64px;\n      justify-content: center;\n      line-height: 64px;\n      overflow-x: hidden;\n      overflow-y: hidden;\n      position: relative;\n      width: 64px\n    \">\n      <style>@scope{:scope{\n        &::after {\n          background-color: rgba(0, 0, 0, 0.05);\n          bottom: 0px;\n          content: \"\";\n          display: block;\n          left: 0px;\n          pointer-events: none;\n          position: absolute;\n          right: 0px;\n          top: 0px\n        }\n      }}<\/style>\n      <svg style=\"\n        display: inline-block;\n        fill: currentcolor;\n        height: 100%;\n        pointer-events: none;\n        stroke-width: 0;\n        stroke: currentcolor;\n        vertical-align: middle;\n        width: 100%\n      \">\n        <use href=\"#icon-avatar-signed-out\"/>\n      <\/svg>\n    <\/div>\n    <div style=\"\n      align-items: center;\n      border-bottom-left-radius: 50%;\n      border-bottom-right-radius: 50%;\n      border-top-left-radius: 50%;\n      border-top-right-radius: 50%;\n      display: inline-flex;\n      font-size: var(--font-size-giant-3);\n      font-weight: var(--font-weight-600);\n      height: 96px;\n      justify-content: center;\n      line-height: 96px;\n      overflow-x: hidden;\n      overflow-y: hidden;\n      position: relative;\n      width: 96px\n    \">\n      <style>@scope{:scope{\n        &::after {\n          background-color: rgba(0, 0, 0, 0.05);\n          bottom: 0px;\n          content: \"\";\n          display: block;\n          left: 0px;\n          pointer-events: none;\n          position: absolute;\n          right: 0px;\n          top: 0px\n        }\n      }}<\/style>\n      <svg style=\"\n        display: inline-block;\n        fill: currentcolor;\n        height: 100%;\n        pointer-events: none;\n        stroke-width: 0;\n        stroke: currentcolor;\n        vertical-align: middle;\n        width: 100%\n      \">\n        <use href=\"#icon-avatar-signed-out\"/>\n      <\/svg>\n    <\/div>\n    <div style=\"\n      align-items: center;\n      border-bottom-left-radius: 50%;\n      border-bottom-right-radius: 50%;\n      border-top-left-radius: 50%;\n      border-top-right-radius: 50%;\n      display: inline-flex;\n      font-size: var(--font-size-giant-4);\n      font-weight: var(--font-weight-600);\n      height: 128px;\n      justify-content: center;\n      line-height: 128px;\n      overflow-x: hidden;\n      overflow-y: hidden;\n      position: relative;\n      width: 128px\n    \">\n      <style>@scope{:scope{\n        &::after {\n          background-color: rgba(0, 0, 0, 0.05);\n          bottom: 0px;\n          content: \"\";\n          display: block;\n          left: 0px;\n          pointer-events: none;\n          position: absolute;\n          right: 0px;\n          top: 0px\n        }\n      }}<\/style>\n      <svg style=\"\n        display: inline-block;\n        fill: currentcolor;\n        height: 100%;\n        pointer-events: none;\n        stroke-width: 0;\n        stroke: currentcolor;\n        vertical-align: middle;\n        width: 100%\n      \">\n        <use href=\"#icon-avatar-signed-out\"/>\n      <\/svg>\n    <\/div>\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,305 @@\n+<div>\n+  <div>\n+    <div style=\"\n+      align-items: center;\n+      border-bottom-left-radius: 50%;\n+      border-bottom-right-radius: 50%;\n+      border-top-left-radius: 50%;\n+      border-top-right-radius: 50%;\n+      display: inline-flex;\n+      font-size: var(--font-size-medium);\n+      font-weight: var(--font-weight-600);\n+      height: 32px;\n+      justify-content: center;\n+      line-height: 32px;\n+      overflow-x: hidden;\n+      overflow-y: hidden;\n+      position: relative;\n+      width: 32px\n+    \">\n+      <style>@scope{:scope{\n+        &::after {\n+          background-color: rgba(0, 0, 0, 0.05);\n+          bottom: 0px;\n+          content: \"\";\n+          display: block;\n+          left: 0px;\n+          pointer-events: none;\n+          position: absolute;\n+          right: 0px;\n+          top: 0px\n+        }\n+      }}<\/style>\n+      <svg style=\"\n+        display: inline-block;\n+        fill: currentcolor;\n+        height: 100%;\n+        pointer-events: none;\n+        stroke-width: 0;\n+        stroke: currentcolor;\n+        vertical-align: middle;\n+        width: 100%\n+      \">\n+        <use href=\"#icon-avatar-signed-out\"/>\n+      <\/svg>\n+    <\/div>\n+    <div style=\"\n+      align-items: center;\n+      border-bottom-left-radius: 50%;\n+      border-bottom-right-radius: 50%;\n+      border-top-left-radius: 50%;\n+      border-top-right-radius: 50%;\n+      display: inline-flex;\n+      font-size: var(--font-size-large-1);\n+      font-weight: var(--font-weight-600);\n+      height: 40px;\n+      justify-content: center;\n+      line-height: 40px;\n+      overflow-x: hidden;\n+      overflow-y: hidden;\n+      position: relative;\n+      width: 40px\n+    \">\n+      <style>@scope{:scope{\n+        &::after {\n+          background-color: rgba(0, 0, 0, 0.05);\n+          bottom: 0px;\n+          content: \"\";\n+          display: block;\n+          left: 0px;\n+          pointer-events: none;\n+          position: absolute;\n+          right: 0px;\n+          top: 0px\n+        }\n+      }}<\/style>\n+      <svg style=\"\n+        display: inline-block;\n+        fill: currentcolor;\n+        height: 100%;\n+        pointer-events: none;\n+        stroke-width: 0;\n+        stroke: currentcolor;\n+        vertical-align: middle;\n+        width: 100%\n+      \">\n+        <use href=\"#icon-avatar-signed-out\"/>\n+      <\/svg>\n+    <\/div>\n+    <div style=\"\n+      align-items: center;\n+      border-bottom-left-radius: 50%;\n+      border-bottom-right-radius: 50%;\n+      border-top-left-radius: 50%;\n+      border-top-right-radius: 50%;\n+      display: inline-flex;\n+      font-size: var(--font-size-large-2);\n+      font-weight: var(--font-weight-600);\n+      height: 48px;\n+      justify-content: center;\n+      line-height: 48px;\n+      overflow-x: hidden;\n+      overflow-y: hidden;\n+      position: relative;\n+      width: 48px\n+    \">\n+      <style>@scope{:scope{\n+        &::after {\n+          background-color: rgba(0, 0, 0, 0.05);\n+          bottom: 0px;\n+          content: \"\";\n+          display: block;\n+          left: 0px;\n+          pointer-events: none;\n+          position: absolute;\n+          right: 0px;\n+          top: 0px\n+        }\n+      }}<\/style>\n+      <svg style=\"\n+        display: inline-block;\n+        fill: currentcolor;\n+        height: 100%;\n+        pointer-events: none;\n+        stroke-width: 0;\n+        stroke: currentcolor;\n+        vertical-align: middle;\n+        width: 100%\n+      \">\n+        <use href=\"#icon-avatar-signed-out\"/>\n+      <\/svg>\n+    <\/div>\n+    <div style=\"\n+      align-items: center;\n+      border-bottom-left-radius: 50%;\n+      border-bottom-right-radius: 50%;\n+      border-top-left-radius: 50%;\n+      border-top-right-radius: 50%;\n+      display: inline-flex;\n+      font-size: var(--font-size-giant-1);\n+      font-weight: var(--font-weight-600);\n+      height: 56px;\n+      justify-content: center;\n+      line-height: 56px;\n+      overflow-x: hidden;\n+      overflow-y: hidden;\n+      position: relative;\n+      width: 56px\n+    \">\n+      <style>@scope{:scope{\n+        &::after {\n+          background-color: rgba(0, 0, 0, 0.05);\n+          bottom: 0px;\n+          content: \"\";\n+          display: block;\n+          left: 0px;\n+          pointer-events: none;\n+          position: absolute;\n+          right: 0px;\n+          top: 0px\n+        }\n+      }}<\/style>\n+      <svg style=\"\n+        display: inline-block;\n+        fill: currentcolor;\n+        height: 100%;\n+        pointer-events: none;\n+        stroke-width: 0;\n+        stroke: currentcolor;\n+        vertical-align: middle;\n+        width: 100%\n+      \">\n+        <use href=\"#icon-avatar-signed-out\"/>\n+      <\/svg>\n+    <\/div>\n+    <div style=\"\n+      align-items: center;\n+      border-bottom-left-radius: 50%;\n+      border-bottom-right-radius: 50%;\n+      border-top-left-radius: 50%;\n+      border-top-right-radius: 50%;\n+      display: inline-flex;\n+      font-size: var(--font-size-giant-2);\n+      font-weight: var(--font-weight-600);\n+      height: 64px;\n+      justify-content: center;\n+      line-height: 64px;\n+      overflow-x: hidden;\n+      overflow-y: hidden;\n+      position: relative;\n+      width: 64px\n+    \">\n+      <style>@scope{:scope{\n+        &::after {\n+          background-color: rgba(0, 0, 0, 0.05);\n+          bottom: 0px;\n+          content: \"\";\n+          display: block;\n+          left: 0px;\n+          pointer-events: none;\n+          position: absolute;\n+          right: 0px;\n+          top: 0px\n+        }\n+      }}<\/style>\n+      <svg style=\"\n+        display: inline-block;\n+        fill: currentcolor;\n+        height: 100%;\n+        pointer-events: none;\n+        stroke-width: 0;\n+        stroke: currentcolor;\n+        vertical-align: middle;\n+        width: 100%\n+      \">\n+        <use href=\"#icon-avatar-signed-out\"/>\n+      <\/svg>\n+    <\/div>\n+    <div style=\"\n+      align-items: center;\n+      border-bottom-left-radius: 50%;\n+      border-bottom-right-radius: 50%;\n+      border-top-left-radius: 50%;\n+      border-top-right-radius: 50%;\n+      display: inline-flex;\n+      font-size: var(--font-size-giant-3);\n+      font-weight: var(--font-weight-600);\n+      height: 96px;\n+      justify-content: center;\n+      line-height: 96px;\n+      overflow-x: hidden;\n+      overflow-y: hidden;\n+      position: relative;\n+      width: 96px\n+    \">\n+      <style>@scope{:scope{\n+        &::after {\n+          background-color: rgba(0, 0, 0, 0.05);\n+          bottom: 0px;\n+          content: \"\";\n+          display: block;\n+          left: 0px;\n+          pointer-events: none;\n+          position: absolute;\n+          right: 0px;\n+          top: 0px\n+        }\n+      }}<\/style>\n+      <svg style=\"\n+        display: inline-block;\n+        fill: currentcolor;\n+        height: 100%;\n+        pointer-events: none;\n+        stroke-width: 0;\n+        stroke: currentcolor;\n+        vertical-align: middle;\n+        width: 100%\n+      \">\n+        <use href=\"#icon-avatar-signed-out\"/>\n+      <\/svg>\n+    <\/div>\n+    <div style=\"\n+      align-items: center;\n+      border-bottom-left-radius: 50%;\n+      border-bottom-right-radius: 50%;\n+      border-top-left-radius: 50%;\n+      border-top-right-radius: 50%;\n+      display: inline-flex;\n+      font-size: var(--font-size-giant-4);\n+      font-weight: var(--font-weight-600);\n+      height: 128px;\n+      justify-content: center;\n+      line-height: 128px;\n+      overflow-x: hidden;\n+      overflow-y: hidden;\n+      position: relative;\n+      width: 128px\n+    \">\n+      <style>@scope{:scope{\n+        &::after {\n+          background-color: rgba(0, 0, 0, 0.05);\n+          bottom: 0px;\n+          content: \"\";\n+          display: block;\n+          left: 0px;\n+          pointer-events: none;\n+          position: absolute;\n+          right: 0px;\n+          top: 0px\n+        }\n+      }}<\/style>\n+      <svg style=\"\n+        display: inline-block;\n+        fill: currentcolor;\n+        height: 100%;\n+        pointer-events: none;\n+        stroke-width: 0;\n+        stroke: currentcolor;\n+        vertical-align: middle;\n+        width: 100%\n+      \">\n+        <use href=\"#icon-avatar-signed-out\"/>\n+      <\/svg>\n+    <\/div>\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"\n    <div>\n        <div\n            class=\"avatar avatar--32\"\n            role=\"img\"\n            aria-label=\"Profile picture - Signed out\"\n        >\n            <svg class=\"icon\" aria-hidden=\"true\">\n                <use href=\"#icon-avatar-signed-out\"><\/use>\n            <\/svg>\n        <\/div>\n        <div\n            class=\"avatar avatar--40\"\n            role=\"img\"\n            aria-label=\"Profile picture - Signed out\"\n        >\n            <svg class=\"icon\" aria-hidden=\"true\">\n                <use href=\"#icon-avatar-signed-out\"><\/use>\n            <\/svg>\n        <\/div>\n        <div\n            class=\"avatar avatar--48\"\n            role=\"img\"\n            aria-label=\"Profile picture - Signed out\"\n        >\n            <svg class=\"icon\" aria-hidden=\"true\">\n                <use href=\"#icon-avatar-signed-out\"><\/use>\n            <\/svg>\n        <\/div>\n        <div\n            class=\"avatar avatar--56\"\n            role=\"img\"\n            aria-label=\"Profile picture - Signed out\"\n        >\n            <svg class=\"icon\" aria-hidden=\"true\">\n                <use href=\"#icon-avatar-signed-out\"><\/use>\n            <\/svg>\n        <\/div>\n        <div\n            class=\"avatar avatar--64\"\n            role=\"img\"\n            aria-label=\"Profile picture - Signed out\"\n        >\n            <svg class=\"icon\" aria-hidden=\"true\">\n                <use href=\"#icon-avatar-signed-out\"><\/use>\n            <\/svg>\n        <\/div>\n        <div\n            class=\"avatar avatar--96\"\n            role=\"img\"\n            aria-label=\"Profile picture - Signed out\"\n        >\n            <svg class=\"icon\" aria-hidden=\"true\">\n                <use href=\"#icon-avatar-signed-out\"><\/use>\n            <\/svg>\n        <\/div>\n        <div\n            class=\"avatar avatar--128\"\n            role=\"img\"\n            aria-label=\"Profile picture - Signed out\"\n        >\n            <svg class=\"icon\" aria-hidden=\"true\">\n                <use href=\"#icon-avatar-signed-out\"><\/use>\n            <\/svg>\n        <\/div>\n    <\/div>\n","storyAfter":"\n    <div>\n        <div\n            class=\"avatar avatar--32\"\n            role=\"img\"\n            aria-label=\"Profile picture - Signed out\"\n        >\n            <svg class=\"icon\" aria-hidden=\"true\">\n                <use href=\"#icon-avatar-signed-out\"><\/use>\n            <\/svg>\n        <\/div>\n        <div\n            class=\"avatar avatar--40\"\n            role=\"img\"\n            aria-label=\"Profile picture - Signed out\"\n        >\n            <svg class=\"icon\" aria-hidden=\"true\">\n                <use href=\"#icon-avatar-signed-out\"><\/use>\n            <\/svg>\n        <\/div>\n        <div\n            class=\"avatar avatar--48\"\n            role=\"img\"\n            aria-label=\"Profile picture - Signed out\"\n        >\n            <svg class=\"icon\" aria-hidden=\"true\">\n                <use href=\"#icon-avatar-signed-out\"><\/use>\n            <\/svg>\n        <\/div>\n        <div\n            class=\"avatar avatar--56\"\n            role=\"img\"\n            aria-label=\"Profile picture - Signed out\"\n        >\n            <svg class=\"icon\" aria-hidden=\"true\">\n                <use href=\"#icon-avatar-signed-out\"><\/use>\n            <\/svg>\n        <\/div>\n        <div\n            class=\"avatar avatar--64\"\n            role=\"img\"\n            aria-label=\"Profile picture - Signed out\"\n        >\n            <svg class=\"icon\" aria-hidden=\"true\">\n                <use href=\"#icon-avatar-signed-out\"><\/use>\n            <\/svg>\n        <\/div>\n        <div\n            class=\"avatar avatar--96\"\n            role=\"img\"\n            aria-label=\"Profile picture - Signed out\"\n        >\n            <svg class=\"icon\" aria-hidden=\"true\">\n                <use href=\"#icon-avatar-signed-out\"><\/use>\n            <\/svg>\n        <\/div>\n        <div\n            class=\"avatar avatar--128\"\n            role=\"img\"\n            aria-label=\"Profile picture - Signed out\"\n        >\n            <svg class=\"icon\" aria-hidden=\"true\">\n                <use href=\"#icon-avatar-signed-out\"><\/use>\n            <\/svg>\n        <\/div>\n    <\/div>\n"},"baseRefShort":"60ee2f496866","prevHref":"avatar-stories-avatar--sizes.html","nextHref":"avatar-stories-avatar--sizesProfilePic.html","indexHref":"../index.html","pos":19,"total":1012,"slug":"avatar-stories-avatar--sizesIcon","hash":"1roa3p9"};
+    const PAGE = {"baseRefShort":"60ee2f496866","prevHref":"avatar-stories-avatar--sizes.html","nextHref":"avatar-stories-avatar--sizesProfilePic.html","indexHref":"../index.html","pos":19,"total":1012,"slug":"avatar-stories-avatar--sizesIcon","hash":"1roa3p9","component":"avatar","story":"sizesIcon","file":"packages/skin/src/sass/avatar/stories/__snapshots__/avatar.snap","dims":[{"changes":[]}]};
 </script>
-<script src="../assets/nav.js"></script>
-<script src="../assets/story.js"></script>
+<script src="../assets/nav.js" defer></script>
+<script src="../assets/story.js" defer></script>
 <script src="../assets/prefetch.js" defer></script>
 </body>
 </html>

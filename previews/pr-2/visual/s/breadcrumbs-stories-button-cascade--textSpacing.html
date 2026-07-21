@@ -9,8 +9,8 @@
 <body class="story-page">
 <header>
     <a class="back" href="../index.html">← All changes</a>
-    <h1 id="title"></h1>
-    <span class="meta" id="path"></span>
+    <h1 id="title">breadcrumbs / textSpacing</h1>
+    <span class="meta" id="path">packages/skin/src/sass/breadcrumbs/stories/__snapshots__/button-cascade.snap</span>
     <span class="pagenav">
         <a id="prev" href="#">‹ prev</a>
         <span class="pos" id="pos"></span>
@@ -21,7 +21,1072 @@
     <input id="search" type="search" placeholder="Filter stories… ( / )" />
     <div id="storylist"></div>
 </nav>
-<main id="main"></main>
+<main id="main">
+    <div class="toolbar">
+        <div class="seg" data-seg="mode">
+            <button type="button" data-v="side" class="active">Side by side</button>
+            <button type="button" data-v="swipe">Swipe</button>
+            <button type="button" data-v="onion">Onion</button>
+            <button type="button" data-v="flip">Flip</button>
+        </div>
+        <div class="seg" data-seg="view">
+            <button type="button" data-v="rendered" class="active">Rendered</button>
+            <button type="button" data-v="diff">Text diff</button>
+        </div>
+        <div class="seg" data-seg="theme">
+            <button type="button" data-v="light" class="active">Light</button>
+            <button type="button" data-v="dark">Dark</button>
+        </div>
+        <label class="toggle"><input type="checkbox" id="hl-toggle" checked />Highlights</label>
+        <div class="grow"></div>
+        <button class="flag" id="flag-btn" type="button">⚑ Flag</button>
+    </div>
+    <section class="dim-section" id="dim-0" data-dim="0"><h3 class="dim-label">320px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="320"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<nav aria-labelledby=&quot;breadcrumbs-heading&quot; class=&quot;breadcrumbs demo-a11y-text-spacing&quot; role=&quot;navigation&quot;>
+    <h2 id=&quot;breadcrumbs-heading&quot; class=&quot;clipped&quot;>You are here</h2>
+    <ul>
+        <li>
+            <button>ebay</button>
+            <svg class=&quot;icon icon--12&quot; height=&quot;8&quot; width=&quot;8&quot; aria-hidden=&quot;true&quot;>
+                <use href=&quot;#icon-chevron-right-12&quot;></use>
+            </svg>
+        </li>
+        <li>
+            <button>Cell Phones, Smart Watches &amp;amp; Accessories</button>
+            <svg class=&quot;icon icon--12&quot; height=&quot;8&quot; width=&quot;8&quot; aria-hidden=&quot;true&quot;>
+                <use href=&quot;#icon-chevron-right-12&quot;></use>
+            </svg>
+        </li>
+        <li>
+            <button>Smart Watch Accessories</button>
+            <svg class=&quot;icon icon--12&quot; height=&quot;8&quot; width=&quot;8&quot; aria-hidden=&quot;true&quot;>
+                <use href=&quot;#icon-chevron-right-12&quot;></use>
+            </svg>
+        </li>
+        <li>
+            <button aria-current=&quot;location&quot;>Smart Watch Bands</button>
+        </li>
+    </ul>
+</nav>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,232 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;nav style=&quot;</span>
+<span class="add">+    color: var(--breadcrumbs-item-foreground-color, var(--color-foreground-secondary));</span>
+<span class="add">+    font-size: var(--font-size-small);</span>
+<span class="add">+    height: fit-content;</span>
+<span class="add">+    margin-bottom: 8px;</span>
+<span class="add">+    margin-top: 8px;</span>
+<span class="add">+    min-height: 16px;</span>
+<span class="add">+    overflow-x: scroll;</span>
+<span class="add">+    padding-bottom: 8px;</span>
+<span class="add">+    padding-left: 8px;</span>
+<span class="add">+    padding-right: 8px;</span>
+<span class="add">+    padding-top: 8px;</span>
+<span class="add">+    scrollbar-width: none;</span>
+<span class="add">+    text-wrap-mode: nowrap</span>
+<span class="add">+  &quot;></span>
+<span class="add">+    &lt;h2 style=&quot;</span>
+<span class="add">+      border-bottom-color: currentcolor;</span>
+<span class="add">+      border-left-color: currentcolor;</span>
+<span class="add">+      border-right-color: currentcolor;</span>
+<span class="add">+      border-top-color: currentcolor;</span>
+<span class="add">+      clip-path: inset(50%);</span>
+<span class="add">+      height: 1px;</span>
+<span class="add">+      overflow-x: hidden;</span>
+<span class="add">+      overflow-y: hidden;</span>
+<span class="add">+      position: absolute;</span>
+<span class="add">+      text-wrap-mode: nowrap;</span>
+<span class="add">+      width: 1px</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      You are here</span>
+<span class="add">+    &lt;/h2></span>
+<span class="add">+    &lt;ul style=&quot;</span>
+<span class="add">+      display: inline-block;</span>
+<span class="add">+      margin-bottom: 0px;</span>
+<span class="add">+      margin-top: 0px;</span>
+<span class="add">+      min-width: 100%;</span>
+<span class="add">+      padding-left: 0px;</span>
+<span class="add">+      right: 0px</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;li style=&quot;</span>
+<span class="add">+        align-items: center;</span>
+<span class="add">+        display: inline-flex;</span>
+<span class="add">+        vertical-align: middle</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;button style=&quot;</span>
+<span class="add">+          border-bottom-color: currentcolor;</span>
+<span class="add">+          border-bottom-style: none;</span>
+<span class="add">+          border-bottom-width: medium;</span>
+<span class="add">+          border-left-color: currentcolor;</span>
+<span class="add">+          border-left-style: none;</span>
+<span class="add">+          border-left-width: medium;</span>
+<span class="add">+          border-right-color: currentcolor;</span>
+<span class="add">+          border-right-style: none;</span>
+<span class="add">+          border-right-width: medium;</span>
+<span class="add">+          border-top-color: currentcolor;</span>
+<span class="add">+          border-top-style: none;</span>
+<span class="add">+          border-top-width: medium;</span>
+<span class="add">+          color: inherit;</span>
+<span class="add">+          font-family: inherit;</span>
+<span class="add">+          font-size: 1em;</span>
+<span class="add">+          max-width: 168px;</span>
+<span class="add">+          outline-offset: 5px;</span>
+<span class="add">+          overflow-x: hidden;</span>
+<span class="add">+          overflow-y: hidden;</span>
+<span class="add">+          padding-bottom: 0px;</span>
+<span class="add">+          padding-left: 0px;</span>
+<span class="add">+          padding-right: 0px;</span>
+<span class="add">+          padding-top: 0px;</span>
+<span class="add">+          text-overflow: ellipsis</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          ebay</span>
+<span class="add">+        &lt;/button></span>
+<span class="add">+        &lt;svg</span>
+<span class="add">+          height=&quot;8&quot;</span>
+<span class="add">+          style=&quot;</span>
+<span class="add">+            display: inline-block;</span>
+<span class="add">+            fill: currentcolor;</span>
+<span class="add">+            height: 12px;</span>
+<span class="add">+            margin-left: var(--spacing-75);</span>
+<span class="add">+            margin-right: var(--spacing-75);</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            stroke-width: 0;</span>
+<span class="add">+            stroke: currentcolor;</span>
+<span class="add">+            vertical-align: middle;</span>
+<span class="add">+            width: 12px</span>
+<span class="add">+          &quot;</span>
+<span class="add">+          width=&quot;8&quot;</span>
+<span class="add">+        ></span>
+<span class="add">+          &lt;use href=&quot;#icon-chevron-right-12&quot;/></span>
+<span class="add">+        &lt;/svg></span>
+<span class="add">+      &lt;/li></span>
+<span class="add">+      &lt;li style=&quot;</span>
+<span class="add">+        align-items: center;</span>
+<span class="add">+        display: inline-flex;</span>
+<span class="add">+        vertical-align: middle</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;button style=&quot;</span>
+<span class="add">+          border-bottom-color: currentcolor;</span>
+<span class="add">+          border-bottom-style: none;</span>
+<span class="add">+          border-bottom-width: medium;</span>
+<span class="add">+          border-left-color: currentcolor;</span>
+<span class="add">+          border-left-style: none;</span>
+<span class="add">+          border-left-width: medium;</span>
+<span class="add">+          border-right-color: currentcolor;</span>
+<span class="add">+          border-right-style: none;</span>
+<span class="add">+          border-right-width: medium;</span>
+<span class="add">+          border-top-color: currentcolor;</span>
+<span class="add">+          border-top-style: none;</span>
+<span class="add">+          border-top-width: medium;</span>
+<span class="add">+          color: inherit;</span>
+<span class="add">+          font-family: inherit;</span>
+<span class="add">+          font-size: 1em;</span>
+<span class="add">+          max-width: 168px;</span>
+<span class="add">+          outline-offset: 5px;</span>
+<span class="add">+          overflow-x: hidden;</span>
+<span class="add">+          overflow-y: hidden;</span>
+<span class="add">+          padding-bottom: 0px;</span>
+<span class="add">+          padding-left: 0px;</span>
+<span class="add">+          padding-right: 0px;</span>
+<span class="add">+          padding-top: 0px;</span>
+<span class="add">+          text-overflow: ellipsis</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Cell Phones, Smart Watches &amp; Accessories</span>
+<span class="add">+        &lt;/button></span>
+<span class="add">+        &lt;svg</span>
+<span class="add">+          height=&quot;8&quot;</span>
+<span class="add">+          style=&quot;</span>
+<span class="add">+            display: inline-block;</span>
+<span class="add">+            fill: currentcolor;</span>
+<span class="add">+            height: 12px;</span>
+<span class="add">+            margin-left: var(--spacing-75);</span>
+<span class="add">+            margin-right: var(--spacing-75);</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            stroke-width: 0;</span>
+<span class="add">+            stroke: currentcolor;</span>
+<span class="add">+            vertical-align: middle;</span>
+<span class="add">+            width: 12px</span>
+<span class="add">+          &quot;</span>
+<span class="add">+          width=&quot;8&quot;</span>
+<span class="add">+        ></span>
+<span class="add">+          &lt;use href=&quot;#icon-chevron-right-12&quot;/></span>
+<span class="add">+        &lt;/svg></span>
+<span class="add">+      &lt;/li></span>
+<span class="add">+      &lt;li style=&quot;</span>
+<span class="add">+        align-items: center;</span>
+<span class="add">+        display: inline-flex;</span>
+<span class="add">+        vertical-align: middle</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;button style=&quot;</span>
+<span class="add">+          border-bottom-color: currentcolor;</span>
+<span class="add">+          border-bottom-style: none;</span>
+<span class="add">+          border-bottom-width: medium;</span>
+<span class="add">+          border-left-color: currentcolor;</span>
+<span class="add">+          border-left-style: none;</span>
+<span class="add">+          border-left-width: medium;</span>
+<span class="add">+          border-right-color: currentcolor;</span>
+<span class="add">+          border-right-style: none;</span>
+<span class="add">+          border-right-width: medium;</span>
+<span class="add">+          border-top-color: currentcolor;</span>
+<span class="add">+          border-top-style: none;</span>
+<span class="add">+          border-top-width: medium;</span>
+<span class="add">+          color: inherit;</span>
+<span class="add">+          font-family: inherit;</span>
+<span class="add">+          font-size: 1em;</span>
+<span class="add">+          max-width: 168px;</span>
+<span class="add">+          outline-offset: 5px;</span>
+<span class="add">+          overflow-x: hidden;</span>
+<span class="add">+          overflow-y: hidden;</span>
+<span class="add">+          padding-bottom: 0px;</span>
+<span class="add">+          padding-left: 0px;</span>
+<span class="add">+          padding-right: 0px;</span>
+<span class="add">+          padding-top: 0px;</span>
+<span class="add">+          text-overflow: ellipsis</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Smart Watch Accessories</span>
+<span class="add">+        &lt;/button></span>
+<span class="add">+        &lt;svg</span>
+<span class="add">+          height=&quot;8&quot;</span>
+<span class="add">+          style=&quot;</span>
+<span class="add">+            display: inline-block;</span>
+<span class="add">+            fill: currentcolor;</span>
+<span class="add">+            height: 12px;</span>
+<span class="add">+            margin-left: var(--spacing-75);</span>
+<span class="add">+            margin-right: var(--spacing-75);</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            stroke-width: 0;</span>
+<span class="add">+            stroke: currentcolor;</span>
+<span class="add">+            vertical-align: middle;</span>
+<span class="add">+            width: 12px</span>
+<span class="add">+          &quot;</span>
+<span class="add">+          width=&quot;8&quot;</span>
+<span class="add">+        ></span>
+<span class="add">+          &lt;use href=&quot;#icon-chevron-right-12&quot;/></span>
+<span class="add">+        &lt;/svg></span>
+<span class="add">+      &lt;/li></span>
+<span class="add">+      &lt;li style=&quot;</span>
+<span class="add">+        align-items: center;</span>
+<span class="add">+        display: inline-flex;</span>
+<span class="add">+        vertical-align: middle</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;button style=&quot;</span>
+<span class="add">+          border-bottom-color: currentcolor;</span>
+<span class="add">+          border-bottom-style: none;</span>
+<span class="add">+          border-bottom-width: medium;</span>
+<span class="add">+          border-left-color: currentcolor;</span>
+<span class="add">+          border-left-style: none;</span>
+<span class="add">+          border-left-width: medium;</span>
+<span class="add">+          border-right-color: currentcolor;</span>
+<span class="add">+          border-right-style: none;</span>
+<span class="add">+          border-right-width: medium;</span>
+<span class="add">+          border-top-color: currentcolor;</span>
+<span class="add">+          border-top-style: none;</span>
+<span class="add">+          border-top-width: medium;</span>
+<span class="add">+          color: var(--breadcrumbs-item-current-foreground-color, var(--color-foreground-primary));</span>
+<span class="add">+          font-family: inherit;</span>
+<span class="add">+          font-size: 1em;</span>
+<span class="add">+          max-width: 168px;</span>
+<span class="add">+          outline-offset: 5px;</span>
+<span class="add">+          overflow-x: hidden;</span>
+<span class="add">+          overflow-y: hidden;</span>
+<span class="add">+          padding-bottom: 0px;</span>
+<span class="add">+          padding-left: 0px;</span>
+<span class="add">+          padding-right: 0px;</span>
+<span class="add">+          padding-top: 0px;</span>
+<span class="add">+          text-overflow: ellipsis</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Smart Watch Bands</span>
+<span class="add">+        &lt;/button></span>
+<span class="add">+      &lt;/li></span>
+<span class="add">+    &lt;/ul></span>
+<span class="add">+  &lt;/nav></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section><section class="dim-section" id="dim-1" data-dim="1"><h3 class="dim-label">512px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="512"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<nav aria-labelledby=&quot;breadcrumbs-heading&quot; class=&quot;breadcrumbs demo-a11y-text-spacing&quot; role=&quot;navigation&quot;>
+    <h2 id=&quot;breadcrumbs-heading&quot; class=&quot;clipped&quot;>You are here</h2>
+    <ul>
+        <li>
+            <button>ebay</button>
+            <svg class=&quot;icon icon--12&quot; height=&quot;8&quot; width=&quot;8&quot; aria-hidden=&quot;true&quot;>
+                <use href=&quot;#icon-chevron-right-12&quot;></use>
+            </svg>
+        </li>
+        <li>
+            <button>Cell Phones, Smart Watches &amp;amp; Accessories</button>
+            <svg class=&quot;icon icon--12&quot; height=&quot;8&quot; width=&quot;8&quot; aria-hidden=&quot;true&quot;>
+                <use href=&quot;#icon-chevron-right-12&quot;></use>
+            </svg>
+        </li>
+        <li>
+            <button>Smart Watch Accessories</button>
+            <svg class=&quot;icon icon--12&quot; height=&quot;8&quot; width=&quot;8&quot; aria-hidden=&quot;true&quot;>
+                <use href=&quot;#icon-chevron-right-12&quot;></use>
+            </svg>
+        </li>
+        <li>
+            <button aria-current=&quot;location&quot;>Smart Watch Bands</button>
+        </li>
+    </ul>
+</nav>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,232 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;nav style=&quot;</span>
+<span class="add">+    color: var(--breadcrumbs-item-foreground-color, var(--color-foreground-secondary));</span>
+<span class="add">+    font-size: var(--font-size-small);</span>
+<span class="add">+    height: fit-content;</span>
+<span class="add">+    margin-bottom: 16px;</span>
+<span class="add">+    margin-top: 16px;</span>
+<span class="add">+    min-height: 16px;</span>
+<span class="add">+    overflow-x: scroll;</span>
+<span class="add">+    padding-bottom: 8px;</span>
+<span class="add">+    padding-left: 8px;</span>
+<span class="add">+    padding-right: 8px;</span>
+<span class="add">+    padding-top: 8px;</span>
+<span class="add">+    scrollbar-width: none;</span>
+<span class="add">+    text-wrap-mode: nowrap</span>
+<span class="add">+  &quot;></span>
+<span class="add">+    &lt;h2 style=&quot;</span>
+<span class="add">+      border-bottom-color: currentcolor;</span>
+<span class="add">+      border-left-color: currentcolor;</span>
+<span class="add">+      border-right-color: currentcolor;</span>
+<span class="add">+      border-top-color: currentcolor;</span>
+<span class="add">+      clip-path: inset(50%);</span>
+<span class="add">+      height: 1px;</span>
+<span class="add">+      overflow-x: hidden;</span>
+<span class="add">+      overflow-y: hidden;</span>
+<span class="add">+      position: absolute;</span>
+<span class="add">+      text-wrap-mode: nowrap;</span>
+<span class="add">+      width: 1px</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      You are here</span>
+<span class="add">+    &lt;/h2></span>
+<span class="add">+    &lt;ul style=&quot;</span>
+<span class="add">+      display: inline-block;</span>
+<span class="add">+      margin-bottom: 0px;</span>
+<span class="add">+      margin-top: 0px;</span>
+<span class="add">+      min-width: 100%;</span>
+<span class="add">+      padding-left: 0px;</span>
+<span class="add">+      right: 0px</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;li style=&quot;</span>
+<span class="add">+        align-items: center;</span>
+<span class="add">+        display: inline-flex;</span>
+<span class="add">+        vertical-align: middle</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;button style=&quot;</span>
+<span class="add">+          border-bottom-color: currentcolor;</span>
+<span class="add">+          border-bottom-style: none;</span>
+<span class="add">+          border-bottom-width: medium;</span>
+<span class="add">+          border-left-color: currentcolor;</span>
+<span class="add">+          border-left-style: none;</span>
+<span class="add">+          border-left-width: medium;</span>
+<span class="add">+          border-right-color: currentcolor;</span>
+<span class="add">+          border-right-style: none;</span>
+<span class="add">+          border-right-width: medium;</span>
+<span class="add">+          border-top-color: currentcolor;</span>
+<span class="add">+          border-top-style: none;</span>
+<span class="add">+          border-top-width: medium;</span>
+<span class="add">+          color: inherit;</span>
+<span class="add">+          font-family: inherit;</span>
+<span class="add">+          font-size: 1em;</span>
+<span class="add">+          max-width: 168px;</span>
+<span class="add">+          outline-offset: 5px;</span>
+<span class="add">+          overflow-x: hidden;</span>
+<span class="add">+          overflow-y: hidden;</span>
+<span class="add">+          padding-bottom: 0px;</span>
+<span class="add">+          padding-left: 0px;</span>
+<span class="add">+          padding-right: 0px;</span>
+<span class="add">+          padding-top: 0px;</span>
+<span class="add">+          text-overflow: ellipsis</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          ebay</span>
+<span class="add">+        &lt;/button></span>
+<span class="add">+        &lt;svg</span>
+<span class="add">+          height=&quot;8&quot;</span>
+<span class="add">+          style=&quot;</span>
+<span class="add">+            display: inline-block;</span>
+<span class="add">+            fill: currentcolor;</span>
+<span class="add">+            height: 12px;</span>
+<span class="add">+            margin-left: var(--spacing-75);</span>
+<span class="add">+            margin-right: var(--spacing-75);</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            stroke-width: 0;</span>
+<span class="add">+            stroke: currentcolor;</span>
+<span class="add">+            vertical-align: middle;</span>
+<span class="add">+            width: 12px</span>
+<span class="add">+          &quot;</span>
+<span class="add">+          width=&quot;8&quot;</span>
+<span class="add">+        ></span>
+<span class="add">+          &lt;use href=&quot;#icon-chevron-right-12&quot;/></span>
+<span class="add">+        &lt;/svg></span>
+<span class="add">+      &lt;/li></span>
+<span class="add">+      &lt;li style=&quot;</span>
+<span class="add">+        align-items: center;</span>
+<span class="add">+        display: inline-flex;</span>
+<span class="add">+        vertical-align: middle</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;button style=&quot;</span>
+<span class="add">+          border-bottom-color: currentcolor;</span>
+<span class="add">+          border-bottom-style: none;</span>
+<span class="add">+          border-bottom-width: medium;</span>
+<span class="add">+          border-left-color: currentcolor;</span>
+<span class="add">+          border-left-style: none;</span>
+<span class="add">+          border-left-width: medium;</span>
+<span class="add">+          border-right-color: currentcolor;</span>
+<span class="add">+          border-right-style: none;</span>
+<span class="add">+          border-right-width: medium;</span>
+<span class="add">+          border-top-color: currentcolor;</span>
+<span class="add">+          border-top-style: none;</span>
+<span class="add">+          border-top-width: medium;</span>
+<span class="add">+          color: inherit;</span>
+<span class="add">+          font-family: inherit;</span>
+<span class="add">+          font-size: 1em;</span>
+<span class="add">+          max-width: 168px;</span>
+<span class="add">+          outline-offset: 5px;</span>
+<span class="add">+          overflow-x: hidden;</span>
+<span class="add">+          overflow-y: hidden;</span>
+<span class="add">+          padding-bottom: 0px;</span>
+<span class="add">+          padding-left: 0px;</span>
+<span class="add">+          padding-right: 0px;</span>
+<span class="add">+          padding-top: 0px;</span>
+<span class="add">+          text-overflow: ellipsis</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Cell Phones, Smart Watches &amp; Accessories</span>
+<span class="add">+        &lt;/button></span>
+<span class="add">+        &lt;svg</span>
+<span class="add">+          height=&quot;8&quot;</span>
+<span class="add">+          style=&quot;</span>
+<span class="add">+            display: inline-block;</span>
+<span class="add">+            fill: currentcolor;</span>
+<span class="add">+            height: 12px;</span>
+<span class="add">+            margin-left: var(--spacing-75);</span>
+<span class="add">+            margin-right: var(--spacing-75);</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            stroke-width: 0;</span>
+<span class="add">+            stroke: currentcolor;</span>
+<span class="add">+            vertical-align: middle;</span>
+<span class="add">+            width: 12px</span>
+<span class="add">+          &quot;</span>
+<span class="add">+          width=&quot;8&quot;</span>
+<span class="add">+        ></span>
+<span class="add">+          &lt;use href=&quot;#icon-chevron-right-12&quot;/></span>
+<span class="add">+        &lt;/svg></span>
+<span class="add">+      &lt;/li></span>
+<span class="add">+      &lt;li style=&quot;</span>
+<span class="add">+        align-items: center;</span>
+<span class="add">+        display: inline-flex;</span>
+<span class="add">+        vertical-align: middle</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;button style=&quot;</span>
+<span class="add">+          border-bottom-color: currentcolor;</span>
+<span class="add">+          border-bottom-style: none;</span>
+<span class="add">+          border-bottom-width: medium;</span>
+<span class="add">+          border-left-color: currentcolor;</span>
+<span class="add">+          border-left-style: none;</span>
+<span class="add">+          border-left-width: medium;</span>
+<span class="add">+          border-right-color: currentcolor;</span>
+<span class="add">+          border-right-style: none;</span>
+<span class="add">+          border-right-width: medium;</span>
+<span class="add">+          border-top-color: currentcolor;</span>
+<span class="add">+          border-top-style: none;</span>
+<span class="add">+          border-top-width: medium;</span>
+<span class="add">+          color: inherit;</span>
+<span class="add">+          font-family: inherit;</span>
+<span class="add">+          font-size: 1em;</span>
+<span class="add">+          max-width: 168px;</span>
+<span class="add">+          outline-offset: 5px;</span>
+<span class="add">+          overflow-x: hidden;</span>
+<span class="add">+          overflow-y: hidden;</span>
+<span class="add">+          padding-bottom: 0px;</span>
+<span class="add">+          padding-left: 0px;</span>
+<span class="add">+          padding-right: 0px;</span>
+<span class="add">+          padding-top: 0px;</span>
+<span class="add">+          text-overflow: ellipsis</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Smart Watch Accessories</span>
+<span class="add">+        &lt;/button></span>
+<span class="add">+        &lt;svg</span>
+<span class="add">+          height=&quot;8&quot;</span>
+<span class="add">+          style=&quot;</span>
+<span class="add">+            display: inline-block;</span>
+<span class="add">+            fill: currentcolor;</span>
+<span class="add">+            height: 12px;</span>
+<span class="add">+            margin-left: var(--spacing-75);</span>
+<span class="add">+            margin-right: var(--spacing-75);</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            stroke-width: 0;</span>
+<span class="add">+            stroke: currentcolor;</span>
+<span class="add">+            vertical-align: middle;</span>
+<span class="add">+            width: 12px</span>
+<span class="add">+          &quot;</span>
+<span class="add">+          width=&quot;8&quot;</span>
+<span class="add">+        ></span>
+<span class="add">+          &lt;use href=&quot;#icon-chevron-right-12&quot;/></span>
+<span class="add">+        &lt;/svg></span>
+<span class="add">+      &lt;/li></span>
+<span class="add">+      &lt;li style=&quot;</span>
+<span class="add">+        align-items: center;</span>
+<span class="add">+        display: inline-flex;</span>
+<span class="add">+        vertical-align: middle</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;button style=&quot;</span>
+<span class="add">+          border-bottom-color: currentcolor;</span>
+<span class="add">+          border-bottom-style: none;</span>
+<span class="add">+          border-bottom-width: medium;</span>
+<span class="add">+          border-left-color: currentcolor;</span>
+<span class="add">+          border-left-style: none;</span>
+<span class="add">+          border-left-width: medium;</span>
+<span class="add">+          border-right-color: currentcolor;</span>
+<span class="add">+          border-right-style: none;</span>
+<span class="add">+          border-right-width: medium;</span>
+<span class="add">+          border-top-color: currentcolor;</span>
+<span class="add">+          border-top-style: none;</span>
+<span class="add">+          border-top-width: medium;</span>
+<span class="add">+          color: var(--breadcrumbs-item-current-foreground-color, var(--color-foreground-primary));</span>
+<span class="add">+          font-family: inherit;</span>
+<span class="add">+          font-size: 1em;</span>
+<span class="add">+          max-width: 168px;</span>
+<span class="add">+          outline-offset: 5px;</span>
+<span class="add">+          overflow-x: hidden;</span>
+<span class="add">+          overflow-y: hidden;</span>
+<span class="add">+          padding-bottom: 0px;</span>
+<span class="add">+          padding-left: 0px;</span>
+<span class="add">+          padding-right: 0px;</span>
+<span class="add">+          padding-top: 0px;</span>
+<span class="add">+          text-overflow: ellipsis</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Smart Watch Bands</span>
+<span class="add">+        &lt;/button></span>
+<span class="add">+      &lt;/li></span>
+<span class="add">+    &lt;/ul></span>
+<span class="add">+  &lt;/nav></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section><section class="dim-section" id="dim-2" data-dim="2"><h3 class="dim-label">1280px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<nav aria-labelledby=&quot;breadcrumbs-heading&quot; class=&quot;breadcrumbs demo-a11y-text-spacing&quot; role=&quot;navigation&quot;>
+    <h2 id=&quot;breadcrumbs-heading&quot; class=&quot;clipped&quot;>You are here</h2>
+    <ul>
+        <li>
+            <button>ebay</button>
+            <svg class=&quot;icon icon--12&quot; height=&quot;8&quot; width=&quot;8&quot; aria-hidden=&quot;true&quot;>
+                <use href=&quot;#icon-chevron-right-12&quot;></use>
+            </svg>
+        </li>
+        <li>
+            <button>Cell Phones, Smart Watches &amp;amp; Accessories</button>
+            <svg class=&quot;icon icon--12&quot; height=&quot;8&quot; width=&quot;8&quot; aria-hidden=&quot;true&quot;>
+                <use href=&quot;#icon-chevron-right-12&quot;></use>
+            </svg>
+        </li>
+        <li>
+            <button>Smart Watch Accessories</button>
+            <svg class=&quot;icon icon--12&quot; height=&quot;8&quot; width=&quot;8&quot; aria-hidden=&quot;true&quot;>
+                <use href=&quot;#icon-chevron-right-12&quot;></use>
+            </svg>
+        </li>
+        <li>
+            <button aria-current=&quot;location&quot;>Smart Watch Bands</button>
+        </li>
+    </ul>
+</nav>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,232 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;nav style=&quot;</span>
+<span class="add">+    color: var(--breadcrumbs-item-foreground-color, var(--color-foreground-secondary));</span>
+<span class="add">+    font-size: var(--font-size-small);</span>
+<span class="add">+    height: fit-content;</span>
+<span class="add">+    margin-bottom: 16px;</span>
+<span class="add">+    margin-top: 16px;</span>
+<span class="add">+    min-height: 16px;</span>
+<span class="add">+    overflow-x: scroll;</span>
+<span class="add">+    padding-bottom: 8px;</span>
+<span class="add">+    padding-left: 8px;</span>
+<span class="add">+    padding-right: 8px;</span>
+<span class="add">+    padding-top: 8px;</span>
+<span class="add">+    scrollbar-width: none;</span>
+<span class="add">+    text-wrap-mode: nowrap</span>
+<span class="add">+  &quot;></span>
+<span class="add">+    &lt;h2 style=&quot;</span>
+<span class="add">+      border-bottom-color: currentcolor;</span>
+<span class="add">+      border-left-color: currentcolor;</span>
+<span class="add">+      border-right-color: currentcolor;</span>
+<span class="add">+      border-top-color: currentcolor;</span>
+<span class="add">+      clip-path: inset(50%);</span>
+<span class="add">+      height: 1px;</span>
+<span class="add">+      overflow-x: hidden;</span>
+<span class="add">+      overflow-y: hidden;</span>
+<span class="add">+      position: absolute;</span>
+<span class="add">+      text-wrap-mode: nowrap;</span>
+<span class="add">+      width: 1px</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      You are here</span>
+<span class="add">+    &lt;/h2></span>
+<span class="add">+    &lt;ul style=&quot;</span>
+<span class="add">+      display: inline-block;</span>
+<span class="add">+      margin-bottom: 0px;</span>
+<span class="add">+      margin-top: 0px;</span>
+<span class="add">+      min-width: 100%;</span>
+<span class="add">+      padding-left: 0px;</span>
+<span class="add">+      right: 0px</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;li style=&quot;</span>
+<span class="add">+        align-items: center;</span>
+<span class="add">+        display: inline-flex;</span>
+<span class="add">+        vertical-align: middle</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;button style=&quot;</span>
+<span class="add">+          border-bottom-color: currentcolor;</span>
+<span class="add">+          border-bottom-style: none;</span>
+<span class="add">+          border-bottom-width: medium;</span>
+<span class="add">+          border-left-color: currentcolor;</span>
+<span class="add">+          border-left-style: none;</span>
+<span class="add">+          border-left-width: medium;</span>
+<span class="add">+          border-right-color: currentcolor;</span>
+<span class="add">+          border-right-style: none;</span>
+<span class="add">+          border-right-width: medium;</span>
+<span class="add">+          border-top-color: currentcolor;</span>
+<span class="add">+          border-top-style: none;</span>
+<span class="add">+          border-top-width: medium;</span>
+<span class="add">+          color: inherit;</span>
+<span class="add">+          font-family: inherit;</span>
+<span class="add">+          font-size: 1em;</span>
+<span class="add">+          max-width: 168px;</span>
+<span class="add">+          outline-offset: 5px;</span>
+<span class="add">+          overflow-x: hidden;</span>
+<span class="add">+          overflow-y: hidden;</span>
+<span class="add">+          padding-bottom: 0px;</span>
+<span class="add">+          padding-left: 0px;</span>
+<span class="add">+          padding-right: 0px;</span>
+<span class="add">+          padding-top: 0px;</span>
+<span class="add">+          text-overflow: ellipsis</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          ebay</span>
+<span class="add">+        &lt;/button></span>
+<span class="add">+        &lt;svg</span>
+<span class="add">+          height=&quot;8&quot;</span>
+<span class="add">+          style=&quot;</span>
+<span class="add">+            display: inline-block;</span>
+<span class="add">+            fill: currentcolor;</span>
+<span class="add">+            height: 12px;</span>
+<span class="add">+            margin-left: var(--spacing-75);</span>
+<span class="add">+            margin-right: var(--spacing-75);</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            stroke-width: 0;</span>
+<span class="add">+            stroke: currentcolor;</span>
+<span class="add">+            vertical-align: middle;</span>
+<span class="add">+            width: 12px</span>
+<span class="add">+          &quot;</span>
+<span class="add">+          width=&quot;8&quot;</span>
+<span class="add">+        ></span>
+<span class="add">+          &lt;use href=&quot;#icon-chevron-right-12&quot;/></span>
+<span class="add">+        &lt;/svg></span>
+<span class="add">+      &lt;/li></span>
+<span class="add">+      &lt;li style=&quot;</span>
+<span class="add">+        align-items: center;</span>
+<span class="add">+        display: inline-flex;</span>
+<span class="add">+        vertical-align: middle</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;button style=&quot;</span>
+<span class="add">+          border-bottom-color: currentcolor;</span>
+<span class="add">+          border-bottom-style: none;</span>
+<span class="add">+          border-bottom-width: medium;</span>
+<span class="add">+          border-left-color: currentcolor;</span>
+<span class="add">+          border-left-style: none;</span>
+<span class="add">+          border-left-width: medium;</span>
+<span class="add">+          border-right-color: currentcolor;</span>
+<span class="add">+          border-right-style: none;</span>
+<span class="add">+          border-right-width: medium;</span>
+<span class="add">+          border-top-color: currentcolor;</span>
+<span class="add">+          border-top-style: none;</span>
+<span class="add">+          border-top-width: medium;</span>
+<span class="add">+          color: inherit;</span>
+<span class="add">+          font-family: inherit;</span>
+<span class="add">+          font-size: 1em;</span>
+<span class="add">+          max-width: 168px;</span>
+<span class="add">+          outline-offset: 5px;</span>
+<span class="add">+          overflow-x: hidden;</span>
+<span class="add">+          overflow-y: hidden;</span>
+<span class="add">+          padding-bottom: 0px;</span>
+<span class="add">+          padding-left: 0px;</span>
+<span class="add">+          padding-right: 0px;</span>
+<span class="add">+          padding-top: 0px;</span>
+<span class="add">+          text-overflow: ellipsis</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Cell Phones, Smart Watches &amp; Accessories</span>
+<span class="add">+        &lt;/button></span>
+<span class="add">+        &lt;svg</span>
+<span class="add">+          height=&quot;8&quot;</span>
+<span class="add">+          style=&quot;</span>
+<span class="add">+            display: inline-block;</span>
+<span class="add">+            fill: currentcolor;</span>
+<span class="add">+            height: 12px;</span>
+<span class="add">+            margin-left: var(--spacing-75);</span>
+<span class="add">+            margin-right: var(--spacing-75);</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            stroke-width: 0;</span>
+<span class="add">+            stroke: currentcolor;</span>
+<span class="add">+            vertical-align: middle;</span>
+<span class="add">+            width: 12px</span>
+<span class="add">+          &quot;</span>
+<span class="add">+          width=&quot;8&quot;</span>
+<span class="add">+        ></span>
+<span class="add">+          &lt;use href=&quot;#icon-chevron-right-12&quot;/></span>
+<span class="add">+        &lt;/svg></span>
+<span class="add">+      &lt;/li></span>
+<span class="add">+      &lt;li style=&quot;</span>
+<span class="add">+        align-items: center;</span>
+<span class="add">+        display: inline-flex;</span>
+<span class="add">+        vertical-align: middle</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;button style=&quot;</span>
+<span class="add">+          border-bottom-color: currentcolor;</span>
+<span class="add">+          border-bottom-style: none;</span>
+<span class="add">+          border-bottom-width: medium;</span>
+<span class="add">+          border-left-color: currentcolor;</span>
+<span class="add">+          border-left-style: none;</span>
+<span class="add">+          border-left-width: medium;</span>
+<span class="add">+          border-right-color: currentcolor;</span>
+<span class="add">+          border-right-style: none;</span>
+<span class="add">+          border-right-width: medium;</span>
+<span class="add">+          border-top-color: currentcolor;</span>
+<span class="add">+          border-top-style: none;</span>
+<span class="add">+          border-top-width: medium;</span>
+<span class="add">+          color: inherit;</span>
+<span class="add">+          font-family: inherit;</span>
+<span class="add">+          font-size: 1em;</span>
+<span class="add">+          max-width: 168px;</span>
+<span class="add">+          outline-offset: 5px;</span>
+<span class="add">+          overflow-x: hidden;</span>
+<span class="add">+          overflow-y: hidden;</span>
+<span class="add">+          padding-bottom: 0px;</span>
+<span class="add">+          padding-left: 0px;</span>
+<span class="add">+          padding-right: 0px;</span>
+<span class="add">+          padding-top: 0px;</span>
+<span class="add">+          text-overflow: ellipsis</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Smart Watch Accessories</span>
+<span class="add">+        &lt;/button></span>
+<span class="add">+        &lt;svg</span>
+<span class="add">+          height=&quot;8&quot;</span>
+<span class="add">+          style=&quot;</span>
+<span class="add">+            display: inline-block;</span>
+<span class="add">+            fill: currentcolor;</span>
+<span class="add">+            height: 12px;</span>
+<span class="add">+            margin-left: var(--spacing-75);</span>
+<span class="add">+            margin-right: var(--spacing-75);</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            stroke-width: 0;</span>
+<span class="add">+            stroke: currentcolor;</span>
+<span class="add">+            vertical-align: middle;</span>
+<span class="add">+            width: 12px</span>
+<span class="add">+          &quot;</span>
+<span class="add">+          width=&quot;8&quot;</span>
+<span class="add">+        ></span>
+<span class="add">+          &lt;use href=&quot;#icon-chevron-right-12&quot;/></span>
+<span class="add">+        &lt;/svg></span>
+<span class="add">+      &lt;/li></span>
+<span class="add">+      &lt;li style=&quot;</span>
+<span class="add">+        align-items: center;</span>
+<span class="add">+        display: inline-flex;</span>
+<span class="add">+        vertical-align: middle</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;button style=&quot;</span>
+<span class="add">+          border-bottom-color: currentcolor;</span>
+<span class="add">+          border-bottom-style: none;</span>
+<span class="add">+          border-bottom-width: medium;</span>
+<span class="add">+          border-left-color: currentcolor;</span>
+<span class="add">+          border-left-style: none;</span>
+<span class="add">+          border-left-width: medium;</span>
+<span class="add">+          border-right-color: currentcolor;</span>
+<span class="add">+          border-right-style: none;</span>
+<span class="add">+          border-right-width: medium;</span>
+<span class="add">+          border-top-color: currentcolor;</span>
+<span class="add">+          border-top-style: none;</span>
+<span class="add">+          border-top-width: medium;</span>
+<span class="add">+          color: var(--breadcrumbs-item-current-foreground-color, var(--color-foreground-primary));</span>
+<span class="add">+          font-family: inherit;</span>
+<span class="add">+          font-size: 1em;</span>
+<span class="add">+          max-width: 168px;</span>
+<span class="add">+          outline-offset: 5px;</span>
+<span class="add">+          overflow-x: hidden;</span>
+<span class="add">+          overflow-y: hidden;</span>
+<span class="add">+          padding-bottom: 0px;</span>
+<span class="add">+          padding-left: 0px;</span>
+<span class="add">+          padding-right: 0px;</span>
+<span class="add">+          padding-top: 0px;</span>
+<span class="add">+          text-overflow: ellipsis</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Smart Watch Bands</span>
+<span class="add">+        &lt;/button></span>
+<span class="add">+      &lt;/li></span>
+<span class="add">+    &lt;/ul></span>
+<span class="add">+  &lt;/nav></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section><section class="dim-section" id="dim-3" data-dim="3"><h3 class="dim-label">1280px rtl</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;rtl&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<nav aria-labelledby=&quot;breadcrumbs-heading&quot; class=&quot;breadcrumbs demo-a11y-text-spacing&quot; role=&quot;navigation&quot;>
+    <h2 id=&quot;breadcrumbs-heading&quot; class=&quot;clipped&quot;>You are here</h2>
+    <ul>
+        <li>
+            <button>ebay</button>
+            <svg class=&quot;icon icon--12&quot; height=&quot;8&quot; width=&quot;8&quot; aria-hidden=&quot;true&quot;>
+                <use href=&quot;#icon-chevron-right-12&quot;></use>
+            </svg>
+        </li>
+        <li>
+            <button>Cell Phones, Smart Watches &amp;amp; Accessories</button>
+            <svg class=&quot;icon icon--12&quot; height=&quot;8&quot; width=&quot;8&quot; aria-hidden=&quot;true&quot;>
+                <use href=&quot;#icon-chevron-right-12&quot;></use>
+            </svg>
+        </li>
+        <li>
+            <button>Smart Watch Accessories</button>
+            <svg class=&quot;icon icon--12&quot; height=&quot;8&quot; width=&quot;8&quot; aria-hidden=&quot;true&quot;>
+                <use href=&quot;#icon-chevron-right-12&quot;></use>
+            </svg>
+        </li>
+        <li>
+            <button aria-current=&quot;location&quot;>Smart Watch Bands</button>
+        </li>
+    </ul>
+</nav>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,232 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;nav style=&quot;</span>
+<span class="add">+    color: var(--breadcrumbs-item-foreground-color, var(--color-foreground-secondary));</span>
+<span class="add">+    font-size: var(--font-size-small);</span>
+<span class="add">+    height: fit-content;</span>
+<span class="add">+    margin-bottom: 16px;</span>
+<span class="add">+    margin-top: 16px;</span>
+<span class="add">+    min-height: 16px;</span>
+<span class="add">+    overflow-x: scroll;</span>
+<span class="add">+    padding-bottom: 8px;</span>
+<span class="add">+    padding-left: 8px;</span>
+<span class="add">+    padding-right: 8px;</span>
+<span class="add">+    padding-top: 8px;</span>
+<span class="add">+    scrollbar-width: none;</span>
+<span class="add">+    text-wrap-mode: nowrap</span>
+<span class="add">+  &quot;></span>
+<span class="add">+    &lt;h2 style=&quot;</span>
+<span class="add">+      border-bottom-color: currentcolor;</span>
+<span class="add">+      border-left-color: currentcolor;</span>
+<span class="add">+      border-right-color: currentcolor;</span>
+<span class="add">+      border-top-color: currentcolor;</span>
+<span class="add">+      clip-path: inset(50%);</span>
+<span class="add">+      height: 1px;</span>
+<span class="add">+      overflow-x: hidden;</span>
+<span class="add">+      overflow-y: hidden;</span>
+<span class="add">+      position: absolute;</span>
+<span class="add">+      text-wrap-mode: nowrap;</span>
+<span class="add">+      width: 1px</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      You are here</span>
+<span class="add">+    &lt;/h2></span>
+<span class="add">+    &lt;ul style=&quot;</span>
+<span class="add">+      display: inline-block;</span>
+<span class="add">+      margin-bottom: 0px;</span>
+<span class="add">+      margin-top: 0px;</span>
+<span class="add">+      min-width: 100%;</span>
+<span class="add">+      padding-left: 0px;</span>
+<span class="add">+      right: 0px</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;li style=&quot;</span>
+<span class="add">+        align-items: center;</span>
+<span class="add">+        display: inline-flex;</span>
+<span class="add">+        vertical-align: middle</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;button style=&quot;</span>
+<span class="add">+          border-bottom-color: currentcolor;</span>
+<span class="add">+          border-bottom-style: none;</span>
+<span class="add">+          border-bottom-width: medium;</span>
+<span class="add">+          border-left-color: currentcolor;</span>
+<span class="add">+          border-left-style: none;</span>
+<span class="add">+          border-left-width: medium;</span>
+<span class="add">+          border-right-color: currentcolor;</span>
+<span class="add">+          border-right-style: none;</span>
+<span class="add">+          border-right-width: medium;</span>
+<span class="add">+          border-top-color: currentcolor;</span>
+<span class="add">+          border-top-style: none;</span>
+<span class="add">+          border-top-width: medium;</span>
+<span class="add">+          color: inherit;</span>
+<span class="add">+          font-family: inherit;</span>
+<span class="add">+          font-size: 1em;</span>
+<span class="add">+          max-width: 168px;</span>
+<span class="add">+          outline-offset: 5px;</span>
+<span class="add">+          overflow-x: hidden;</span>
+<span class="add">+          overflow-y: hidden;</span>
+<span class="add">+          padding-bottom: 0px;</span>
+<span class="add">+          padding-left: 0px;</span>
+<span class="add">+          padding-right: 0px;</span>
+<span class="add">+          padding-top: 0px;</span>
+<span class="add">+          text-overflow: ellipsis</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          ebay</span>
+<span class="add">+        &lt;/button></span>
+<span class="add">+        &lt;svg</span>
+<span class="add">+          height=&quot;8&quot;</span>
+<span class="add">+          style=&quot;</span>
+<span class="add">+            display: inline-block;</span>
+<span class="add">+            fill: currentcolor;</span>
+<span class="add">+            height: 12px;</span>
+<span class="add">+            margin-left: var(--spacing-75);</span>
+<span class="add">+            margin-right: var(--spacing-75);</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            stroke-width: 0;</span>
+<span class="add">+            stroke: currentcolor;</span>
+<span class="add">+            vertical-align: middle;</span>
+<span class="add">+            width: 12px</span>
+<span class="add">+          &quot;</span>
+<span class="add">+          width=&quot;8&quot;</span>
+<span class="add">+        ></span>
+<span class="add">+          &lt;use href=&quot;#icon-chevron-right-12&quot;/></span>
+<span class="add">+        &lt;/svg></span>
+<span class="add">+      &lt;/li></span>
+<span class="add">+      &lt;li style=&quot;</span>
+<span class="add">+        align-items: center;</span>
+<span class="add">+        display: inline-flex;</span>
+<span class="add">+        vertical-align: middle</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;button style=&quot;</span>
+<span class="add">+          border-bottom-color: currentcolor;</span>
+<span class="add">+          border-bottom-style: none;</span>
+<span class="add">+          border-bottom-width: medium;</span>
+<span class="add">+          border-left-color: currentcolor;</span>
+<span class="add">+          border-left-style: none;</span>
+<span class="add">+          border-left-width: medium;</span>
+<span class="add">+          border-right-color: currentcolor;</span>
+<span class="add">+          border-right-style: none;</span>
+<span class="add">+          border-right-width: medium;</span>
+<span class="add">+          border-top-color: currentcolor;</span>
+<span class="add">+          border-top-style: none;</span>
+<span class="add">+          border-top-width: medium;</span>
+<span class="add">+          color: inherit;</span>
+<span class="add">+          font-family: inherit;</span>
+<span class="add">+          font-size: 1em;</span>
+<span class="add">+          max-width: 168px;</span>
+<span class="add">+          outline-offset: 5px;</span>
+<span class="add">+          overflow-x: hidden;</span>
+<span class="add">+          overflow-y: hidden;</span>
+<span class="add">+          padding-bottom: 0px;</span>
+<span class="add">+          padding-left: 0px;</span>
+<span class="add">+          padding-right: 0px;</span>
+<span class="add">+          padding-top: 0px;</span>
+<span class="add">+          text-overflow: ellipsis</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Cell Phones, Smart Watches &amp; Accessories</span>
+<span class="add">+        &lt;/button></span>
+<span class="add">+        &lt;svg</span>
+<span class="add">+          height=&quot;8&quot;</span>
+<span class="add">+          style=&quot;</span>
+<span class="add">+            display: inline-block;</span>
+<span class="add">+            fill: currentcolor;</span>
+<span class="add">+            height: 12px;</span>
+<span class="add">+            margin-left: var(--spacing-75);</span>
+<span class="add">+            margin-right: var(--spacing-75);</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            stroke-width: 0;</span>
+<span class="add">+            stroke: currentcolor;</span>
+<span class="add">+            vertical-align: middle;</span>
+<span class="add">+            width: 12px</span>
+<span class="add">+          &quot;</span>
+<span class="add">+          width=&quot;8&quot;</span>
+<span class="add">+        ></span>
+<span class="add">+          &lt;use href=&quot;#icon-chevron-right-12&quot;/></span>
+<span class="add">+        &lt;/svg></span>
+<span class="add">+      &lt;/li></span>
+<span class="add">+      &lt;li style=&quot;</span>
+<span class="add">+        align-items: center;</span>
+<span class="add">+        display: inline-flex;</span>
+<span class="add">+        vertical-align: middle</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;button style=&quot;</span>
+<span class="add">+          border-bottom-color: currentcolor;</span>
+<span class="add">+          border-bottom-style: none;</span>
+<span class="add">+          border-bottom-width: medium;</span>
+<span class="add">+          border-left-color: currentcolor;</span>
+<span class="add">+          border-left-style: none;</span>
+<span class="add">+          border-left-width: medium;</span>
+<span class="add">+          border-right-color: currentcolor;</span>
+<span class="add">+          border-right-style: none;</span>
+<span class="add">+          border-right-width: medium;</span>
+<span class="add">+          border-top-color: currentcolor;</span>
+<span class="add">+          border-top-style: none;</span>
+<span class="add">+          border-top-width: medium;</span>
+<span class="add">+          color: inherit;</span>
+<span class="add">+          font-family: inherit;</span>
+<span class="add">+          font-size: 1em;</span>
+<span class="add">+          max-width: 168px;</span>
+<span class="add">+          outline-offset: 5px;</span>
+<span class="add">+          overflow-x: hidden;</span>
+<span class="add">+          overflow-y: hidden;</span>
+<span class="add">+          padding-bottom: 0px;</span>
+<span class="add">+          padding-left: 0px;</span>
+<span class="add">+          padding-right: 0px;</span>
+<span class="add">+          padding-top: 0px;</span>
+<span class="add">+          text-overflow: ellipsis</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Smart Watch Accessories</span>
+<span class="add">+        &lt;/button></span>
+<span class="add">+        &lt;svg</span>
+<span class="add">+          height=&quot;8&quot;</span>
+<span class="add">+          style=&quot;</span>
+<span class="add">+            display: inline-block;</span>
+<span class="add">+            fill: currentcolor;</span>
+<span class="add">+            height: 12px;</span>
+<span class="add">+            margin-left: var(--spacing-75);</span>
+<span class="add">+            margin-right: var(--spacing-75);</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            stroke-width: 0;</span>
+<span class="add">+            stroke: currentcolor;</span>
+<span class="add">+            vertical-align: middle;</span>
+<span class="add">+            width: 12px</span>
+<span class="add">+          &quot;</span>
+<span class="add">+          width=&quot;8&quot;</span>
+<span class="add">+        ></span>
+<span class="add">+          &lt;use href=&quot;#icon-chevron-right-12&quot;/></span>
+<span class="add">+        &lt;/svg></span>
+<span class="add">+      &lt;/li></span>
+<span class="add">+      &lt;li style=&quot;</span>
+<span class="add">+        align-items: center;</span>
+<span class="add">+        display: inline-flex;</span>
+<span class="add">+        vertical-align: middle</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;button style=&quot;</span>
+<span class="add">+          border-bottom-color: currentcolor;</span>
+<span class="add">+          border-bottom-style: none;</span>
+<span class="add">+          border-bottom-width: medium;</span>
+<span class="add">+          border-left-color: currentcolor;</span>
+<span class="add">+          border-left-style: none;</span>
+<span class="add">+          border-left-width: medium;</span>
+<span class="add">+          border-right-color: currentcolor;</span>
+<span class="add">+          border-right-style: none;</span>
+<span class="add">+          border-right-width: medium;</span>
+<span class="add">+          border-top-color: currentcolor;</span>
+<span class="add">+          border-top-style: none;</span>
+<span class="add">+          border-top-width: medium;</span>
+<span class="add">+          color: var(--breadcrumbs-item-current-foreground-color, var(--color-foreground-primary));</span>
+<span class="add">+          font-family: inherit;</span>
+<span class="add">+          font-size: 1em;</span>
+<span class="add">+          max-width: 168px;</span>
+<span class="add">+          outline-offset: 5px;</span>
+<span class="add">+          overflow-x: hidden;</span>
+<span class="add">+          overflow-y: hidden;</span>
+<span class="add">+          padding-bottom: 0px;</span>
+<span class="add">+          padding-left: 0px;</span>
+<span class="add">+          padding-right: 0px;</span>
+<span class="add">+          padding-top: 0px;</span>
+<span class="add">+          text-overflow: ellipsis</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Smart Watch Bands</span>
+<span class="add">+        &lt;/button></span>
+<span class="add">+      &lt;/li></span>
+<span class="add">+    &lt;/ul></span>
+<span class="add">+  &lt;/nav></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section>
+</main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
     <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
@@ -34,10 +1099,10 @@
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
-    const PAGE = {"entry":{"component":"breadcrumbs","story":"textSpacing","file":"packages/skin/src/sass/breadcrumbs/stories/__snapshots__/button-cascade.snap","dims":[{"suffix":"320px","width":320,"rtl":false,"status":"added","before":"","after":"<div>\n  <nav style=\"\n    color: var(--breadcrumbs-item-foreground-color, var(--color-foreground-secondary));\n    font-size: var(--font-size-small);\n    height: fit-content;\n    margin-bottom: 8px;\n    margin-top: 8px;\n    min-height: 16px;\n    overflow-x: scroll;\n    padding-bottom: 8px;\n    padding-left: 8px;\n    padding-right: 8px;\n    padding-top: 8px;\n    scrollbar-width: none;\n    text-wrap-mode: nowrap\n  \">\n    <h2 style=\"\n      border-bottom-color: currentcolor;\n      border-left-color: currentcolor;\n      border-right-color: currentcolor;\n      border-top-color: currentcolor;\n      clip-path: inset(50%);\n      height: 1px;\n      overflow-x: hidden;\n      overflow-y: hidden;\n      position: absolute;\n      text-wrap-mode: nowrap;\n      width: 1px\n    \">\n      You are here\n    <\/h2>\n    <ul style=\"\n      display: inline-block;\n      margin-bottom: 0px;\n      margin-top: 0px;\n      min-width: 100%;\n      padding-left: 0px;\n      right: 0px\n    \">\n      <li style=\"\n        align-items: center;\n        display: inline-flex;\n        vertical-align: middle\n      \">\n        <button style=\"\n          border-bottom-color: currentcolor;\n          border-bottom-style: none;\n          border-bottom-width: medium;\n          border-left-color: currentcolor;\n          border-left-style: none;\n          border-left-width: medium;\n          border-right-color: currentcolor;\n          border-right-style: none;\n          border-right-width: medium;\n          border-top-color: currentcolor;\n          border-top-style: none;\n          border-top-width: medium;\n          color: inherit;\n          font-family: inherit;\n          font-size: 1em;\n          max-width: 168px;\n          outline-offset: 5px;\n          overflow-x: hidden;\n          overflow-y: hidden;\n          padding-bottom: 0px;\n          padding-left: 0px;\n          padding-right: 0px;\n          padding-top: 0px;\n          text-overflow: ellipsis\n        \">\n          ebay\n        <\/button>\n        <svg\n          height=\"8\"\n          style=\"\n            display: inline-block;\n            fill: currentcolor;\n            height: 12px;\n            margin-left: var(--spacing-75);\n            margin-right: var(--spacing-75);\n            pointer-events: none;\n            stroke-width: 0;\n            stroke: currentcolor;\n            vertical-align: middle;\n            width: 12px\n          \"\n          width=\"8\"\n        >\n          <use href=\"#icon-chevron-right-12\"/>\n        <\/svg>\n      <\/li>\n      <li style=\"\n        align-items: center;\n        display: inline-flex;\n        vertical-align: middle\n      \">\n        <button style=\"\n          border-bottom-color: currentcolor;\n          border-bottom-style: none;\n          border-bottom-width: medium;\n          border-left-color: currentcolor;\n          border-left-style: none;\n          border-left-width: medium;\n          border-right-color: currentcolor;\n          border-right-style: none;\n          border-right-width: medium;\n          border-top-color: currentcolor;\n          border-top-style: none;\n          border-top-width: medium;\n          color: inherit;\n          font-family: inherit;\n          font-size: 1em;\n          max-width: 168px;\n          outline-offset: 5px;\n          overflow-x: hidden;\n          overflow-y: hidden;\n          padding-bottom: 0px;\n          padding-left: 0px;\n          padding-right: 0px;\n          padding-top: 0px;\n          text-overflow: ellipsis\n        \">\n          Cell Phones, Smart Watches & Accessories\n        <\/button>\n        <svg\n          height=\"8\"\n          style=\"\n            display: inline-block;\n            fill: currentcolor;\n            height: 12px;\n            margin-left: var(--spacing-75);\n            margin-right: var(--spacing-75);\n            pointer-events: none;\n            stroke-width: 0;\n            stroke: currentcolor;\n            vertical-align: middle;\n            width: 12px\n          \"\n          width=\"8\"\n        >\n          <use href=\"#icon-chevron-right-12\"/>\n        <\/svg>\n      <\/li>\n      <li style=\"\n        align-items: center;\n        display: inline-flex;\n        vertical-align: middle\n      \">\n        <button style=\"\n          border-bottom-color: currentcolor;\n          border-bottom-style: none;\n          border-bottom-width: medium;\n          border-left-color: currentcolor;\n          border-left-style: none;\n          border-left-width: medium;\n          border-right-color: currentcolor;\n          border-right-style: none;\n          border-right-width: medium;\n          border-top-color: currentcolor;\n          border-top-style: none;\n          border-top-width: medium;\n          color: inherit;\n          font-family: inherit;\n          font-size: 1em;\n          max-width: 168px;\n          outline-offset: 5px;\n          overflow-x: hidden;\n          overflow-y: hidden;\n          padding-bottom: 0px;\n          padding-left: 0px;\n          padding-right: 0px;\n          padding-top: 0px;\n          text-overflow: ellipsis\n        \">\n          Smart Watch Accessories\n        <\/button>\n        <svg\n          height=\"8\"\n          style=\"\n            display: inline-block;\n            fill: currentcolor;\n            height: 12px;\n            margin-left: var(--spacing-75);\n            margin-right: var(--spacing-75);\n            pointer-events: none;\n            stroke-width: 0;\n            stroke: currentcolor;\n            vertical-align: middle;\n            width: 12px\n          \"\n          width=\"8\"\n        >\n          <use href=\"#icon-chevron-right-12\"/>\n        <\/svg>\n      <\/li>\n      <li style=\"\n        align-items: center;\n        display: inline-flex;\n        vertical-align: middle\n      \">\n        <button style=\"\n          border-bottom-color: currentcolor;\n          border-bottom-style: none;\n          border-bottom-width: medium;\n          border-left-color: currentcolor;\n          border-left-style: none;\n          border-left-width: medium;\n          border-right-color: currentcolor;\n          border-right-style: none;\n          border-right-width: medium;\n          border-top-color: currentcolor;\n          border-top-style: none;\n          border-top-width: medium;\n          color: var(--breadcrumbs-item-current-foreground-color, var(--color-foreground-primary));\n          font-family: inherit;\n          font-size: 1em;\n          max-width: 168px;\n          outline-offset: 5px;\n          overflow-x: hidden;\n          overflow-y: hidden;\n          padding-bottom: 0px;\n          padding-left: 0px;\n          padding-right: 0px;\n          padding-top: 0px;\n          text-overflow: ellipsis\n        \">\n          Smart Watch Bands\n        <\/button>\n      <\/li>\n    <\/ul>\n  <\/nav>\n<\/div>","diff":"@@ -0,0 +1,232 @@\n+<div>\n+  <nav style=\"\n+    color: var(--breadcrumbs-item-foreground-color, var(--color-foreground-secondary));\n+    font-size: var(--font-size-small);\n+    height: fit-content;\n+    margin-bottom: 8px;\n+    margin-top: 8px;\n+    min-height: 16px;\n+    overflow-x: scroll;\n+    padding-bottom: 8px;\n+    padding-left: 8px;\n+    padding-right: 8px;\n+    padding-top: 8px;\n+    scrollbar-width: none;\n+    text-wrap-mode: nowrap\n+  \">\n+    <h2 style=\"\n+      border-bottom-color: currentcolor;\n+      border-left-color: currentcolor;\n+      border-right-color: currentcolor;\n+      border-top-color: currentcolor;\n+      clip-path: inset(50%);\n+      height: 1px;\n+      overflow-x: hidden;\n+      overflow-y: hidden;\n+      position: absolute;\n+      text-wrap-mode: nowrap;\n+      width: 1px\n+    \">\n+      You are here\n+    <\/h2>\n+    <ul style=\"\n+      display: inline-block;\n+      margin-bottom: 0px;\n+      margin-top: 0px;\n+      min-width: 100%;\n+      padding-left: 0px;\n+      right: 0px\n+    \">\n+      <li style=\"\n+        align-items: center;\n+        display: inline-flex;\n+        vertical-align: middle\n+      \">\n+        <button style=\"\n+          border-bottom-color: currentcolor;\n+          border-bottom-style: none;\n+          border-bottom-width: medium;\n+          border-left-color: currentcolor;\n+          border-left-style: none;\n+          border-left-width: medium;\n+          border-right-color: currentcolor;\n+          border-right-style: none;\n+          border-right-width: medium;\n+          border-top-color: currentcolor;\n+          border-top-style: none;\n+          border-top-width: medium;\n+          color: inherit;\n+          font-family: inherit;\n+          font-size: 1em;\n+          max-width: 168px;\n+          outline-offset: 5px;\n+          overflow-x: hidden;\n+          overflow-y: hidden;\n+          padding-bottom: 0px;\n+          padding-left: 0px;\n+          padding-right: 0px;\n+          padding-top: 0px;\n+          text-overflow: ellipsis\n+        \">\n+          ebay\n+        <\/button>\n+        <svg\n+          height=\"8\"\n+          style=\"\n+            display: inline-block;\n+            fill: currentcolor;\n+            height: 12px;\n+            margin-left: var(--spacing-75);\n+            margin-right: var(--spacing-75);\n+            pointer-events: none;\n+            stroke-width: 0;\n+            stroke: currentcolor;\n+            vertical-align: middle;\n+            width: 12px\n+          \"\n+          width=\"8\"\n+        >\n+          <use href=\"#icon-chevron-right-12\"/>\n+        <\/svg>\n+      <\/li>\n+      <li style=\"\n+        align-items: center;\n+        display: inline-flex;\n+        vertical-align: middle\n+      \">\n+        <button style=\"\n+          border-bottom-color: currentcolor;\n+          border-bottom-style: none;\n+          border-bottom-width: medium;\n+          border-left-color: currentcolor;\n+          border-left-style: none;\n+          border-left-width: medium;\n+          border-right-color: currentcolor;\n+          border-right-style: none;\n+          border-right-width: medium;\n+          border-top-color: currentcolor;\n+          border-top-style: none;\n+          border-top-width: medium;\n+          color: inherit;\n+          font-family: inherit;\n+          font-size: 1em;\n+          max-width: 168px;\n+          outline-offset: 5px;\n+          overflow-x: hidden;\n+          overflow-y: hidden;\n+          padding-bottom: 0px;\n+          padding-left: 0px;\n+          padding-right: 0px;\n+          padding-top: 0px;\n+          text-overflow: ellipsis\n+        \">\n+          Cell Phones, Smart Watches & Accessories\n+        <\/button>\n+        <svg\n+          height=\"8\"\n+          style=\"\n+            display: inline-block;\n+            fill: currentcolor;\n+            height: 12px;\n+            margin-left: var(--spacing-75);\n+            margin-right: var(--spacing-75);\n+            pointer-events: none;\n+            stroke-width: 0;\n+            stroke: currentcolor;\n+            vertical-align: middle;\n+            width: 12px\n+          \"\n+          width=\"8\"\n+        >\n+          <use href=\"#icon-chevron-right-12\"/>\n+        <\/svg>\n+      <\/li>\n+      <li style=\"\n+        align-items: center;\n+        display: inline-flex;\n+        vertical-align: middle\n+      \">\n+        <button style=\"\n+          border-bottom-color: currentcolor;\n+          border-bottom-style: none;\n+          border-bottom-width: medium;\n+          border-left-color: currentcolor;\n+          border-left-style: none;\n+          border-left-width: medium;\n+          border-right-color: currentcolor;\n+          border-right-style: none;\n+          border-right-width: medium;\n+          border-top-color: currentcolor;\n+          border-top-style: none;\n+          border-top-width: medium;\n+          color: inherit;\n+          font-family: inherit;\n+          font-size: 1em;\n+          max-width: 168px;\n+          outline-offset: 5px;\n+          overflow-x: hidden;\n+          overflow-y: hidden;\n+          padding-bottom: 0px;\n+          padding-left: 0px;\n+          padding-right: 0px;\n+          padding-top: 0px;\n+          text-overflow: ellipsis\n+        \">\n+          Smart Watch Accessories\n+        <\/button>\n+        <svg\n+          height=\"8\"\n+          style=\"\n+            display: inline-block;\n+            fill: currentcolor;\n+            height: 12px;\n+            margin-left: var(--spacing-75);\n+            margin-right: var(--spacing-75);\n+            pointer-events: none;\n+            stroke-width: 0;\n+            stroke: currentcolor;\n+            vertical-align: middle;\n+            width: 12px\n+          \"\n+          width=\"8\"\n+        >\n+          <use href=\"#icon-chevron-right-12\"/>\n+        <\/svg>\n+      <\/li>\n+      <li style=\"\n+        align-items: center;\n+        display: inline-flex;\n+        vertical-align: middle\n+      \">\n+        <button style=\"\n+          border-bottom-color: currentcolor;\n+          border-bottom-style: none;\n+          border-bottom-width: medium;\n+          border-left-color: currentcolor;\n+          border-left-style: none;\n+          border-left-width: medium;\n+          border-right-color: currentcolor;\n+          border-right-style: none;\n+          border-right-width: medium;\n+          border-top-color: currentcolor;\n+          border-top-style: none;\n+          border-top-width: medium;\n+          color: var(--breadcrumbs-item-current-foreground-color, var(--color-foreground-primary));\n+          font-family: inherit;\n+          font-size: 1em;\n+          max-width: 168px;\n+          outline-offset: 5px;\n+          overflow-x: hidden;\n+          overflow-y: hidden;\n+          padding-bottom: 0px;\n+          padding-left: 0px;\n+          padding-right: 0px;\n+          padding-top: 0px;\n+          text-overflow: ellipsis\n+        \">\n+          Smart Watch Bands\n+        <\/button>\n+      <\/li>\n+    <\/ul>\n+  <\/nav>\n+<\/div>\n\\ No newline at end of file\n"},{"suffix":"512px","width":512,"rtl":false,"status":"added","before":"","after":"<div>\n  <nav style=\"\n    color: var(--breadcrumbs-item-foreground-color, var(--color-foreground-secondary));\n    font-size: var(--font-size-small);\n    height: fit-content;\n    margin-bottom: 16px;\n    margin-top: 16px;\n    min-height: 16px;\n    overflow-x: scroll;\n    padding-bottom: 8px;\n    padding-left: 8px;\n    padding-right: 8px;\n    padding-top: 8px;\n    scrollbar-width: none;\n    text-wrap-mode: nowrap\n  \">\n    <h2 style=\"\n      border-bottom-color: currentcolor;\n      border-left-color: currentcolor;\n      border-right-color: currentcolor;\n      border-top-color: currentcolor;\n      clip-path: inset(50%);\n      height: 1px;\n      overflow-x: hidden;\n      overflow-y: hidden;\n      position: absolute;\n      text-wrap-mode: nowrap;\n      width: 1px\n    \">\n      You are here\n    <\/h2>\n    <ul style=\"\n      display: inline-block;\n      margin-bottom: 0px;\n      margin-top: 0px;\n      min-width: 100%;\n      padding-left: 0px;\n      right: 0px\n    \">\n      <li style=\"\n        align-items: center;\n        display: inline-flex;\n        vertical-align: middle\n      \">\n        <button style=\"\n          border-bottom-color: currentcolor;\n          border-bottom-style: none;\n          border-bottom-width: medium;\n          border-left-color: currentcolor;\n          border-left-style: none;\n          border-left-width: medium;\n          border-right-color: currentcolor;\n          border-right-style: none;\n          border-right-width: medium;\n          border-top-color: currentcolor;\n          border-top-style: none;\n          border-top-width: medium;\n          color: inherit;\n          font-family: inherit;\n          font-size: 1em;\n          max-width: 168px;\n          outline-offset: 5px;\n          overflow-x: hidden;\n          overflow-y: hidden;\n          padding-bottom: 0px;\n          padding-left: 0px;\n          padding-right: 0px;\n          padding-top: 0px;\n          text-overflow: ellipsis\n        \">\n          ebay\n        <\/button>\n        <svg\n          height=\"8\"\n          style=\"\n            display: inline-block;\n            fill: currentcolor;\n            height: 12px;\n            margin-left: var(--spacing-75);\n            margin-right: var(--spacing-75);\n            pointer-events: none;\n            stroke-width: 0;\n            stroke: currentcolor;\n            vertical-align: middle;\n            width: 12px\n          \"\n          width=\"8\"\n        >\n          <use href=\"#icon-chevron-right-12\"/>\n        <\/svg>\n      <\/li>\n      <li style=\"\n        align-items: center;\n        display: inline-flex;\n        vertical-align: middle\n      \">\n        <button style=\"\n          border-bottom-color: currentcolor;\n          border-bottom-style: none;\n          border-bottom-width: medium;\n          border-left-color: currentcolor;\n          border-left-style: none;\n          border-left-width: medium;\n          border-right-color: currentcolor;\n          border-right-style: none;\n          border-right-width: medium;\n          border-top-color: currentcolor;\n          border-top-style: none;\n          border-top-width: medium;\n          color: inherit;\n          font-family: inherit;\n          font-size: 1em;\n          max-width: 168px;\n          outline-offset: 5px;\n          overflow-x: hidden;\n          overflow-y: hidden;\n          padding-bottom: 0px;\n          padding-left: 0px;\n          padding-right: 0px;\n          padding-top: 0px;\n          text-overflow: ellipsis\n        \">\n          Cell Phones, Smart Watches & Accessories\n        <\/button>\n        <svg\n          height=\"8\"\n          style=\"\n            display: inline-block;\n            fill: currentcolor;\n            height: 12px;\n            margin-left: var(--spacing-75);\n            margin-right: var(--spacing-75);\n            pointer-events: none;\n            stroke-width: 0;\n            stroke: currentcolor;\n            vertical-align: middle;\n            width: 12px\n          \"\n          width=\"8\"\n        >\n          <use href=\"#icon-chevron-right-12\"/>\n        <\/svg>\n      <\/li>\n      <li style=\"\n        align-items: center;\n        display: inline-flex;\n        vertical-align: middle\n      \">\n        <button style=\"\n          border-bottom-color: currentcolor;\n          border-bottom-style: none;\n          border-bottom-width: medium;\n          border-left-color: currentcolor;\n          border-left-style: none;\n          border-left-width: medium;\n          border-right-color: currentcolor;\n          border-right-style: none;\n          border-right-width: medium;\n          border-top-color: currentcolor;\n          border-top-style: none;\n          border-top-width: medium;\n          color: inherit;\n          font-family: inherit;\n          font-size: 1em;\n          max-width: 168px;\n          outline-offset: 5px;\n          overflow-x: hidden;\n          overflow-y: hidden;\n          padding-bottom: 0px;\n          padding-left: 0px;\n          padding-right: 0px;\n          padding-top: 0px;\n          text-overflow: ellipsis\n        \">\n          Smart Watch Accessories\n        <\/button>\n        <svg\n          height=\"8\"\n          style=\"\n            display: inline-block;\n            fill: currentcolor;\n            height: 12px;\n            margin-left: var(--spacing-75);\n            margin-right: var(--spacing-75);\n            pointer-events: none;\n            stroke-width: 0;\n            stroke: currentcolor;\n            vertical-align: middle;\n            width: 12px\n          \"\n          width=\"8\"\n        >\n          <use href=\"#icon-chevron-right-12\"/>\n        <\/svg>\n      <\/li>\n      <li style=\"\n        align-items: center;\n        display: inline-flex;\n        vertical-align: middle\n      \">\n        <button style=\"\n          border-bottom-color: currentcolor;\n          border-bottom-style: none;\n          border-bottom-width: medium;\n          border-left-color: currentcolor;\n          border-left-style: none;\n          border-left-width: medium;\n          border-right-color: currentcolor;\n          border-right-style: none;\n          border-right-width: medium;\n          border-top-color: currentcolor;\n          border-top-style: none;\n          border-top-width: medium;\n          color: var(--breadcrumbs-item-current-foreground-color, var(--color-foreground-primary));\n          font-family: inherit;\n          font-size: 1em;\n          max-width: 168px;\n          outline-offset: 5px;\n          overflow-x: hidden;\n          overflow-y: hidden;\n          padding-bottom: 0px;\n          padding-left: 0px;\n          padding-right: 0px;\n          padding-top: 0px;\n          text-overflow: ellipsis\n        \">\n          Smart Watch Bands\n        <\/button>\n      <\/li>\n    <\/ul>\n  <\/nav>\n<\/div>","diff":"@@ -0,0 +1,232 @@\n+<div>\n+  <nav style=\"\n+    color: var(--breadcrumbs-item-foreground-color, var(--color-foreground-secondary));\n+    font-size: var(--font-size-small);\n+    height: fit-content;\n+    margin-bottom: 16px;\n+    margin-top: 16px;\n+    min-height: 16px;\n+    overflow-x: scroll;\n+    padding-bottom: 8px;\n+    padding-left: 8px;\n+    padding-right: 8px;\n+    padding-top: 8px;\n+    scrollbar-width: none;\n+    text-wrap-mode: nowrap\n+  \">\n+    <h2 style=\"\n+      border-bottom-color: currentcolor;\n+      border-left-color: currentcolor;\n+      border-right-color: currentcolor;\n+      border-top-color: currentcolor;\n+      clip-path: inset(50%);\n+      height: 1px;\n+      overflow-x: hidden;\n+      overflow-y: hidden;\n+      position: absolute;\n+      text-wrap-mode: nowrap;\n+      width: 1px\n+    \">\n+      You are here\n+    <\/h2>\n+    <ul style=\"\n+      display: inline-block;\n+      margin-bottom: 0px;\n+      margin-top: 0px;\n+      min-width: 100%;\n+      padding-left: 0px;\n+      right: 0px\n+    \">\n+      <li style=\"\n+        align-items: center;\n+        display: inline-flex;\n+        vertical-align: middle\n+      \">\n+        <button style=\"\n+          border-bottom-color: currentcolor;\n+          border-bottom-style: none;\n+          border-bottom-width: medium;\n+          border-left-color: currentcolor;\n+          border-left-style: none;\n+          border-left-width: medium;\n+          border-right-color: currentcolor;\n+          border-right-style: none;\n+          border-right-width: medium;\n+          border-top-color: currentcolor;\n+          border-top-style: none;\n+          border-top-width: medium;\n+          color: inherit;\n+          font-family: inherit;\n+          font-size: 1em;\n+          max-width: 168px;\n+          outline-offset: 5px;\n+          overflow-x: hidden;\n+          overflow-y: hidden;\n+          padding-bottom: 0px;\n+          padding-left: 0px;\n+          padding-right: 0px;\n+          padding-top: 0px;\n+          text-overflow: ellipsis\n+        \">\n+          ebay\n+        <\/button>\n+        <svg\n+          height=\"8\"\n+          style=\"\n+            display: inline-block;\n+            fill: currentcolor;\n+            height: 12px;\n+            margin-left: var(--spacing-75);\n+            margin-right: var(--spacing-75);\n+            pointer-events: none;\n+            stroke-width: 0;\n+            stroke: currentcolor;\n+            vertical-align: middle;\n+            width: 12px\n+          \"\n+          width=\"8\"\n+        >\n+          <use href=\"#icon-chevron-right-12\"/>\n+        <\/svg>\n+      <\/li>\n+      <li style=\"\n+        align-items: center;\n+        display: inline-flex;\n+        vertical-align: middle\n+      \">\n+        <button style=\"\n+          border-bottom-color: currentcolor;\n+          border-bottom-style: none;\n+          border-bottom-width: medium;\n+          border-left-color: currentcolor;\n+          border-left-style: none;\n+          border-left-width: medium;\n+          border-right-color: currentcolor;\n+          border-right-style: none;\n+          border-right-width: medium;\n+          border-top-color: currentcolor;\n+          border-top-style: none;\n+          border-top-width: medium;\n+          color: inherit;\n+          font-family: inherit;\n+          font-size: 1em;\n+          max-width: 168px;\n+          outline-offset: 5px;\n+          overflow-x: hidden;\n+          overflow-y: hidden;\n+          padding-bottom: 0px;\n+          padding-left: 0px;\n+          padding-right: 0px;\n+          padding-top: 0px;\n+          text-overflow: ellipsis\n+        \">\n+          Cell Phones, Smart Watches & Accessories\n+        <\/button>\n+        <svg\n+          height=\"8\"\n+          style=\"\n+            display: inline-block;\n+            fill: currentcolor;\n+            height: 12px;\n+            margin-left: var(--spacing-75);\n+            margin-right: var(--spacing-75);\n+            pointer-events: none;\n+            stroke-width: 0;\n+            stroke: currentcolor;\n+            vertical-align: middle;\n+            width: 12px\n+          \"\n+          width=\"8\"\n+        >\n+          <use href=\"#icon-chevron-right-12\"/>\n+        <\/svg>\n+      <\/li>\n+      <li style=\"\n+        align-items: center;\n+        display: inline-flex;\n+        vertical-align: middle\n+      \">\n+        <button style=\"\n+          border-bottom-color: currentcolor;\n+          border-bottom-style: none;\n+          border-bottom-width: medium;\n+          border-left-color: currentcolor;\n+          border-left-style: none;\n+          border-left-width: medium;\n+          border-right-color: currentcolor;\n+          border-right-style: none;\n+          border-right-width: medium;\n+          border-top-color: currentcolor;\n+          border-top-style: none;\n+          border-top-width: medium;\n+          color: inherit;\n+          font-family: inherit;\n+          font-size: 1em;\n+          max-width: 168px;\n+          outline-offset: 5px;\n+          overflow-x: hidden;\n+          overflow-y: hidden;\n+          padding-bottom: 0px;\n+          padding-left: 0px;\n+          padding-right: 0px;\n+          padding-top: 0px;\n+          text-overflow: ellipsis\n+        \">\n+          Smart Watch Accessories\n+        <\/button>\n+        <svg\n+          height=\"8\"\n+          style=\"\n+            display: inline-block;\n+            fill: currentcolor;\n+            height: 12px;\n+            margin-left: var(--spacing-75);\n+            margin-right: var(--spacing-75);\n+            pointer-events: none;\n+            stroke-width: 0;\n+            stroke: currentcolor;\n+            vertical-align: middle;\n+            width: 12px\n+          \"\n+          width=\"8\"\n+        >\n+          <use href=\"#icon-chevron-right-12\"/>\n+        <\/svg>\n+      <\/li>\n+      <li style=\"\n+        align-items: center;\n+        display: inline-flex;\n+        vertical-align: middle\n+      \">\n+        <button style=\"\n+          border-bottom-color: currentcolor;\n+          border-bottom-style: none;\n+          border-bottom-width: medium;\n+          border-left-color: currentcolor;\n+          border-left-style: none;\n+          border-left-width: medium;\n+          border-right-color: currentcolor;\n+          border-right-style: none;\n+          border-right-width: medium;\n+          border-top-color: currentcolor;\n+          border-top-style: none;\n+          border-top-width: medium;\n+          color: var(--breadcrumbs-item-current-foreground-color, var(--color-foreground-primary));\n+          font-family: inherit;\n+          font-size: 1em;\n+          max-width: 168px;\n+          outline-offset: 5px;\n+          overflow-x: hidden;\n+          overflow-y: hidden;\n+          padding-bottom: 0px;\n+          padding-left: 0px;\n+          padding-right: 0px;\n+          padding-top: 0px;\n+          text-overflow: ellipsis\n+        \">\n+          Smart Watch Bands\n+        <\/button>\n+      <\/li>\n+    <\/ul>\n+  <\/nav>\n+<\/div>\n\\ No newline at end of file\n"},{"suffix":"1280px","width":1280,"rtl":false,"status":"added","before":"","after":"<div>\n  <nav style=\"\n    color: var(--breadcrumbs-item-foreground-color, var(--color-foreground-secondary));\n    font-size: var(--font-size-small);\n    height: fit-content;\n    margin-bottom: 16px;\n    margin-top: 16px;\n    min-height: 16px;\n    overflow-x: scroll;\n    padding-bottom: 8px;\n    padding-left: 8px;\n    padding-right: 8px;\n    padding-top: 8px;\n    scrollbar-width: none;\n    text-wrap-mode: nowrap\n  \">\n    <h2 style=\"\n      border-bottom-color: currentcolor;\n      border-left-color: currentcolor;\n      border-right-color: currentcolor;\n      border-top-color: currentcolor;\n      clip-path: inset(50%);\n      height: 1px;\n      overflow-x: hidden;\n      overflow-y: hidden;\n      position: absolute;\n      text-wrap-mode: nowrap;\n      width: 1px\n    \">\n      You are here\n    <\/h2>\n    <ul style=\"\n      display: inline-block;\n      margin-bottom: 0px;\n      margin-top: 0px;\n      min-width: 100%;\n      padding-left: 0px;\n      right: 0px\n    \">\n      <li style=\"\n        align-items: center;\n        display: inline-flex;\n        vertical-align: middle\n      \">\n        <button style=\"\n          border-bottom-color: currentcolor;\n          border-bottom-style: none;\n          border-bottom-width: medium;\n          border-left-color: currentcolor;\n          border-left-style: none;\n          border-left-width: medium;\n          border-right-color: currentcolor;\n          border-right-style: none;\n          border-right-width: medium;\n          border-top-color: currentcolor;\n          border-top-style: none;\n          border-top-width: medium;\n          color: inherit;\n          font-family: inherit;\n          font-size: 1em;\n          max-width: 168px;\n          outline-offset: 5px;\n          overflow-x: hidden;\n          overflow-y: hidden;\n          padding-bottom: 0px;\n          padding-left: 0px;\n          padding-right: 0px;\n          padding-top: 0px;\n          text-overflow: ellipsis\n        \">\n          ebay\n        <\/button>\n        <svg\n          height=\"8\"\n          style=\"\n            display: inline-block;\n            fill: currentcolor;\n            height: 12px;\n            margin-left: var(--spacing-75);\n            margin-right: var(--spacing-75);\n            pointer-events: none;\n            stroke-width: 0;\n            stroke: currentcolor;\n            vertical-align: middle;\n            width: 12px\n          \"\n          width=\"8\"\n        >\n          <use href=\"#icon-chevron-right-12\"/>\n        <\/svg>\n      <\/li>\n      <li style=\"\n        align-items: center;\n        display: inline-flex;\n        vertical-align: middle\n      \">\n        <button style=\"\n          border-bottom-color: currentcolor;\n          border-bottom-style: none;\n          border-bottom-width: medium;\n          border-left-color: currentcolor;\n          border-left-style: none;\n          border-left-width: medium;\n          border-right-color: currentcolor;\n          border-right-style: none;\n          border-right-width: medium;\n          border-top-color: currentcolor;\n          border-top-style: none;\n          border-top-width: medium;\n          color: inherit;\n          font-family: inherit;\n          font-size: 1em;\n          max-width: 168px;\n          outline-offset: 5px;\n          overflow-x: hidden;\n          overflow-y: hidden;\n          padding-bottom: 0px;\n          padding-left: 0px;\n          padding-right: 0px;\n          padding-top: 0px;\n          text-overflow: ellipsis\n        \">\n          Cell Phones, Smart Watches & Accessories\n        <\/button>\n        <svg\n          height=\"8\"\n          style=\"\n            display: inline-block;\n            fill: currentcolor;\n            height: 12px;\n            margin-left: var(--spacing-75);\n            margin-right: var(--spacing-75);\n            pointer-events: none;\n            stroke-width: 0;\n            stroke: currentcolor;\n            vertical-align: middle;\n            width: 12px\n          \"\n          width=\"8\"\n        >\n          <use href=\"#icon-chevron-right-12\"/>\n        <\/svg>\n      <\/li>\n      <li style=\"\n        align-items: center;\n        display: inline-flex;\n        vertical-align: middle\n      \">\n        <button style=\"\n          border-bottom-color: currentcolor;\n          border-bottom-style: none;\n          border-bottom-width: medium;\n          border-left-color: currentcolor;\n          border-left-style: none;\n          border-left-width: medium;\n          border-right-color: currentcolor;\n          border-right-style: none;\n          border-right-width: medium;\n          border-top-color: currentcolor;\n          border-top-style: none;\n          border-top-width: medium;\n          color: inherit;\n          font-family: inherit;\n          font-size: 1em;\n          max-width: 168px;\n          outline-offset: 5px;\n          overflow-x: hidden;\n          overflow-y: hidden;\n          padding-bottom: 0px;\n          padding-left: 0px;\n          padding-right: 0px;\n          padding-top: 0px;\n          text-overflow: ellipsis\n        \">\n          Smart Watch Accessories\n        <\/button>\n        <svg\n          height=\"8\"\n          style=\"\n            display: inline-block;\n            fill: currentcolor;\n            height: 12px;\n            margin-left: var(--spacing-75);\n            margin-right: var(--spacing-75);\n            pointer-events: none;\n            stroke-width: 0;\n            stroke: currentcolor;\n            vertical-align: middle;\n            width: 12px\n          \"\n          width=\"8\"\n        >\n          <use href=\"#icon-chevron-right-12\"/>\n        <\/svg>\n      <\/li>\n      <li style=\"\n        align-items: center;\n        display: inline-flex;\n        vertical-align: middle\n      \">\n        <button style=\"\n          border-bottom-color: currentcolor;\n          border-bottom-style: none;\n          border-bottom-width: medium;\n          border-left-color: currentcolor;\n          border-left-style: none;\n          border-left-width: medium;\n          border-right-color: currentcolor;\n          border-right-style: none;\n          border-right-width: medium;\n          border-top-color: currentcolor;\n          border-top-style: none;\n          border-top-width: medium;\n          color: var(--breadcrumbs-item-current-foreground-color, var(--color-foreground-primary));\n          font-family: inherit;\n          font-size: 1em;\n          max-width: 168px;\n          outline-offset: 5px;\n          overflow-x: hidden;\n          overflow-y: hidden;\n          padding-bottom: 0px;\n          padding-left: 0px;\n          padding-right: 0px;\n          padding-top: 0px;\n          text-overflow: ellipsis\n        \">\n          Smart Watch Bands\n        <\/button>\n      <\/li>\n    <\/ul>\n  <\/nav>\n<\/div>","diff":"@@ -0,0 +1,232 @@\n+<div>\n+  <nav style=\"\n+    color: var(--breadcrumbs-item-foreground-color, var(--color-foreground-secondary));\n+    font-size: var(--font-size-small);\n+    height: fit-content;\n+    margin-bottom: 16px;\n+    margin-top: 16px;\n+    min-height: 16px;\n+    overflow-x: scroll;\n+    padding-bottom: 8px;\n+    padding-left: 8px;\n+    padding-right: 8px;\n+    padding-top: 8px;\n+    scrollbar-width: none;\n+    text-wrap-mode: nowrap\n+  \">\n+    <h2 style=\"\n+      border-bottom-color: currentcolor;\n+      border-left-color: currentcolor;\n+      border-right-color: currentcolor;\n+      border-top-color: currentcolor;\n+      clip-path: inset(50%);\n+      height: 1px;\n+      overflow-x: hidden;\n+      overflow-y: hidden;\n+      position: absolute;\n+      text-wrap-mode: nowrap;\n+      width: 1px\n+    \">\n+      You are here\n+    <\/h2>\n+    <ul style=\"\n+      display: inline-block;\n+      margin-bottom: 0px;\n+      margin-top: 0px;\n+      min-width: 100%;\n+      padding-left: 0px;\n+      right: 0px\n+    \">\n+      <li style=\"\n+        align-items: center;\n+        display: inline-flex;\n+        vertical-align: middle\n+      \">\n+        <button style=\"\n+          border-bottom-color: currentcolor;\n+          border-bottom-style: none;\n+          border-bottom-width: medium;\n+          border-left-color: currentcolor;\n+          border-left-style: none;\n+          border-left-width: medium;\n+          border-right-color: currentcolor;\n+          border-right-style: none;\n+          border-right-width: medium;\n+          border-top-color: currentcolor;\n+          border-top-style: none;\n+          border-top-width: medium;\n+          color: inherit;\n+          font-family: inherit;\n+          font-size: 1em;\n+          max-width: 168px;\n+          outline-offset: 5px;\n+          overflow-x: hidden;\n+          overflow-y: hidden;\n+          padding-bottom: 0px;\n+          padding-left: 0px;\n+          padding-right: 0px;\n+          padding-top: 0px;\n+          text-overflow: ellipsis\n+        \">\n+          ebay\n+        <\/button>\n+        <svg\n+          height=\"8\"\n+          style=\"\n+            display: inline-block;\n+            fill: currentcolor;\n+            height: 12px;\n+            margin-left: var(--spacing-75);\n+            margin-right: var(--spacing-75);\n+            pointer-events: none;\n+            stroke-width: 0;\n+            stroke: currentcolor;\n+            vertical-align: middle;\n+            width: 12px\n+          \"\n+          width=\"8\"\n+        >\n+          <use href=\"#icon-chevron-right-12\"/>\n+        <\/svg>\n+      <\/li>\n+      <li style=\"\n+        align-items: center;\n+        display: inline-flex;\n+        vertical-align: middle\n+      \">\n+        <button style=\"\n+          border-bottom-color: currentcolor;\n+          border-bottom-style: none;\n+          border-bottom-width: medium;\n+          border-left-color: currentcolor;\n+          border-left-style: none;\n+          border-left-width: medium;\n+          border-right-color: currentcolor;\n+          border-right-style: none;\n+          border-right-width: medium;\n+          border-top-color: currentcolor;\n+          border-top-style: none;\n+          border-top-width: medium;\n+          color: inherit;\n+          font-family: inherit;\n+          font-size: 1em;\n+          max-width: 168px;\n+          outline-offset: 5px;\n+          overflow-x: hidden;\n+          overflow-y: hidden;\n+          padding-bottom: 0px;\n+          padding-left: 0px;\n+          padding-right: 0px;\n+          padding-top: 0px;\n+          text-overflow: ellipsis\n+        \">\n+          Cell Phones, Smart Watches & Accessories\n+        <\/button>\n+        <svg\n+          height=\"8\"\n+          style=\"\n+            display: inline-block;\n+            fill: currentcolor;\n+            height: 12px;\n+            margin-left: var(--spacing-75);\n+            margin-right: var(--spacing-75);\n+            pointer-events: none;\n+            stroke-width: 0;\n+            stroke: currentcolor;\n+            vertical-align: middle;\n+            width: 12px\n+          \"\n+          width=\"8\"\n+        >\n+          <use href=\"#icon-chevron-right-12\"/>\n+        <\/svg>\n+      <\/li>\n+      <li style=\"\n+        align-items: center;\n+        display: inline-flex;\n+        vertical-align: middle\n+      \">\n+        <button style=\"\n+          border-bottom-color: currentcolor;\n+          border-bottom-style: none;\n+          border-bottom-width: medium;\n+          border-left-color: currentcolor;\n+          border-left-style: none;\n+          border-left-width: medium;\n+          border-right-color: currentcolor;\n+          border-right-style: none;\n+          border-right-width: medium;\n+          border-top-color: currentcolor;\n+          border-top-style: none;\n+          border-top-width: medium;\n+          color: inherit;\n+          font-family: inherit;\n+          font-size: 1em;\n+          max-width: 168px;\n+          outline-offset: 5px;\n+          overflow-x: hidden;\n+          overflow-y: hidden;\n+          padding-bottom: 0px;\n+          padding-left: 0px;\n+          padding-right: 0px;\n+          padding-top: 0px;\n+          text-overflow: ellipsis\n+        \">\n+          Smart Watch Accessories\n+        <\/button>\n+        <svg\n+          height=\"8\"\n+          style=\"\n+            display: inline-block;\n+            fill: currentcolor;\n+            height: 12px;\n+            margin-left: var(--spacing-75);\n+            margin-right: var(--spacing-75);\n+            pointer-events: none;\n+            stroke-width: 0;\n+            stroke: currentcolor;\n+            vertical-align: middle;\n+            width: 12px\n+          \"\n+          width=\"8\"\n+        >\n+          <use href=\"#icon-chevron-right-12\"/>\n+        <\/svg>\n+      <\/li>\n+      <li style=\"\n+        align-items: center;\n+        display: inline-flex;\n+        vertical-align: middle\n+      \">\n+        <button style=\"\n+          border-bottom-color: currentcolor;\n+          border-bottom-style: none;\n+          border-bottom-width: medium;\n+          border-left-color: currentcolor;\n+          border-left-style: none;\n+          border-left-width: medium;\n+          border-right-color: currentcolor;\n+          border-right-style: none;\n+          border-right-width: medium;\n+          border-top-color: currentcolor;\n+          border-top-style: none;\n+          border-top-width: medium;\n+          color: var(--breadcrumbs-item-current-foreground-color, var(--color-foreground-primary));\n+          font-family: inherit;\n+          font-size: 1em;\n+          max-width: 168px;\n+          outline-offset: 5px;\n+          overflow-x: hidden;\n+          overflow-y: hidden;\n+          padding-bottom: 0px;\n+          padding-left: 0px;\n+          padding-right: 0px;\n+          padding-top: 0px;\n+          text-overflow: ellipsis\n+        \">\n+          Smart Watch Bands\n+        <\/button>\n+      <\/li>\n+    <\/ul>\n+  <\/nav>\n+<\/div>\n\\ No newline at end of file\n"},{"suffix":"1280px rtl","width":1280,"rtl":true,"status":"added","before":"","after":"<div>\n  <nav style=\"\n    color: var(--breadcrumbs-item-foreground-color, var(--color-foreground-secondary));\n    font-size: var(--font-size-small);\n    height: fit-content;\n    margin-bottom: 16px;\n    margin-top: 16px;\n    min-height: 16px;\n    overflow-x: scroll;\n    padding-bottom: 8px;\n    padding-left: 8px;\n    padding-right: 8px;\n    padding-top: 8px;\n    scrollbar-width: none;\n    text-wrap-mode: nowrap\n  \">\n    <h2 style=\"\n      border-bottom-color: currentcolor;\n      border-left-color: currentcolor;\n      border-right-color: currentcolor;\n      border-top-color: currentcolor;\n      clip-path: inset(50%);\n      height: 1px;\n      overflow-x: hidden;\n      overflow-y: hidden;\n      position: absolute;\n      text-wrap-mode: nowrap;\n      width: 1px\n    \">\n      You are here\n    <\/h2>\n    <ul style=\"\n      display: inline-block;\n      margin-bottom: 0px;\n      margin-top: 0px;\n      min-width: 100%;\n      padding-left: 0px;\n      right: 0px\n    \">\n      <li style=\"\n        align-items: center;\n        display: inline-flex;\n        vertical-align: middle\n      \">\n        <button style=\"\n          border-bottom-color: currentcolor;\n          border-bottom-style: none;\n          border-bottom-width: medium;\n          border-left-color: currentcolor;\n          border-left-style: none;\n          border-left-width: medium;\n          border-right-color: currentcolor;\n          border-right-style: none;\n          border-right-width: medium;\n          border-top-color: currentcolor;\n          border-top-style: none;\n          border-top-width: medium;\n          color: inherit;\n          font-family: inherit;\n          font-size: 1em;\n          max-width: 168px;\n          outline-offset: 5px;\n          overflow-x: hidden;\n          overflow-y: hidden;\n          padding-bottom: 0px;\n          padding-left: 0px;\n          padding-right: 0px;\n          padding-top: 0px;\n          text-overflow: ellipsis\n        \">\n          ebay\n        <\/button>\n        <svg\n          height=\"8\"\n          style=\"\n            display: inline-block;\n            fill: currentcolor;\n            height: 12px;\n            margin-left: var(--spacing-75);\n            margin-right: var(--spacing-75);\n            pointer-events: none;\n            stroke-width: 0;\n            stroke: currentcolor;\n            vertical-align: middle;\n            width: 12px\n          \"\n          width=\"8\"\n        >\n          <use href=\"#icon-chevron-right-12\"/>\n        <\/svg>\n      <\/li>\n      <li style=\"\n        align-items: center;\n        display: inline-flex;\n        vertical-align: middle\n      \">\n        <button style=\"\n          border-bottom-color: currentcolor;\n          border-bottom-style: none;\n          border-bottom-width: medium;\n          border-left-color: currentcolor;\n          border-left-style: none;\n          border-left-width: medium;\n          border-right-color: currentcolor;\n          border-right-style: none;\n          border-right-width: medium;\n          border-top-color: currentcolor;\n          border-top-style: none;\n          border-top-width: medium;\n          color: inherit;\n          font-family: inherit;\n          font-size: 1em;\n          max-width: 168px;\n          outline-offset: 5px;\n          overflow-x: hidden;\n          overflow-y: hidden;\n          padding-bottom: 0px;\n          padding-left: 0px;\n          padding-right: 0px;\n          padding-top: 0px;\n          text-overflow: ellipsis\n        \">\n          Cell Phones, Smart Watches & Accessories\n        <\/button>\n        <svg\n          height=\"8\"\n          style=\"\n            display: inline-block;\n            fill: currentcolor;\n            height: 12px;\n            margin-left: var(--spacing-75);\n            margin-right: var(--spacing-75);\n            pointer-events: none;\n            stroke-width: 0;\n            stroke: currentcolor;\n            vertical-align: middle;\n            width: 12px\n          \"\n          width=\"8\"\n        >\n          <use href=\"#icon-chevron-right-12\"/>\n        <\/svg>\n      <\/li>\n      <li style=\"\n        align-items: center;\n        display: inline-flex;\n        vertical-align: middle\n      \">\n        <button style=\"\n          border-bottom-color: currentcolor;\n          border-bottom-style: none;\n          border-bottom-width: medium;\n          border-left-color: currentcolor;\n          border-left-style: none;\n          border-left-width: medium;\n          border-right-color: currentcolor;\n          border-right-style: none;\n          border-right-width: medium;\n          border-top-color: currentcolor;\n          border-top-style: none;\n          border-top-width: medium;\n          color: inherit;\n          font-family: inherit;\n          font-size: 1em;\n          max-width: 168px;\n          outline-offset: 5px;\n          overflow-x: hidden;\n          overflow-y: hidden;\n          padding-bottom: 0px;\n          padding-left: 0px;\n          padding-right: 0px;\n          padding-top: 0px;\n          text-overflow: ellipsis\n        \">\n          Smart Watch Accessories\n        <\/button>\n        <svg\n          height=\"8\"\n          style=\"\n            display: inline-block;\n            fill: currentcolor;\n            height: 12px;\n            margin-left: var(--spacing-75);\n            margin-right: var(--spacing-75);\n            pointer-events: none;\n            stroke-width: 0;\n            stroke: currentcolor;\n            vertical-align: middle;\n            width: 12px\n          \"\n          width=\"8\"\n        >\n          <use href=\"#icon-chevron-right-12\"/>\n        <\/svg>\n      <\/li>\n      <li style=\"\n        align-items: center;\n        display: inline-flex;\n        vertical-align: middle\n      \">\n        <button style=\"\n          border-bottom-color: currentcolor;\n          border-bottom-style: none;\n          border-bottom-width: medium;\n          border-left-color: currentcolor;\n          border-left-style: none;\n          border-left-width: medium;\n          border-right-color: currentcolor;\n          border-right-style: none;\n          border-right-width: medium;\n          border-top-color: currentcolor;\n          border-top-style: none;\n          border-top-width: medium;\n          color: var(--breadcrumbs-item-current-foreground-color, var(--color-foreground-primary));\n          font-family: inherit;\n          font-size: 1em;\n          max-width: 168px;\n          outline-offset: 5px;\n          overflow-x: hidden;\n          overflow-y: hidden;\n          padding-bottom: 0px;\n          padding-left: 0px;\n          padding-right: 0px;\n          padding-top: 0px;\n          text-overflow: ellipsis\n        \">\n          Smart Watch Bands\n        <\/button>\n      <\/li>\n    <\/ul>\n  <\/nav>\n<\/div>","diff":"@@ -0,0 +1,232 @@\n+<div>\n+  <nav style=\"\n+    color: var(--breadcrumbs-item-foreground-color, var(--color-foreground-secondary));\n+    font-size: var(--font-size-small);\n+    height: fit-content;\n+    margin-bottom: 16px;\n+    margin-top: 16px;\n+    min-height: 16px;\n+    overflow-x: scroll;\n+    padding-bottom: 8px;\n+    padding-left: 8px;\n+    padding-right: 8px;\n+    padding-top: 8px;\n+    scrollbar-width: none;\n+    text-wrap-mode: nowrap\n+  \">\n+    <h2 style=\"\n+      border-bottom-color: currentcolor;\n+      border-left-color: currentcolor;\n+      border-right-color: currentcolor;\n+      border-top-color: currentcolor;\n+      clip-path: inset(50%);\n+      height: 1px;\n+      overflow-x: hidden;\n+      overflow-y: hidden;\n+      position: absolute;\n+      text-wrap-mode: nowrap;\n+      width: 1px\n+    \">\n+      You are here\n+    <\/h2>\n+    <ul style=\"\n+      display: inline-block;\n+      margin-bottom: 0px;\n+      margin-top: 0px;\n+      min-width: 100%;\n+      padding-left: 0px;\n+      right: 0px\n+    \">\n+      <li style=\"\n+        align-items: center;\n+        display: inline-flex;\n+        vertical-align: middle\n+      \">\n+        <button style=\"\n+          border-bottom-color: currentcolor;\n+          border-bottom-style: none;\n+          border-bottom-width: medium;\n+          border-left-color: currentcolor;\n+          border-left-style: none;\n+          border-left-width: medium;\n+          border-right-color: currentcolor;\n+          border-right-style: none;\n+          border-right-width: medium;\n+          border-top-color: currentcolor;\n+          border-top-style: none;\n+          border-top-width: medium;\n+          color: inherit;\n+          font-family: inherit;\n+          font-size: 1em;\n+          max-width: 168px;\n+          outline-offset: 5px;\n+          overflow-x: hidden;\n+          overflow-y: hidden;\n+          padding-bottom: 0px;\n+          padding-left: 0px;\n+          padding-right: 0px;\n+          padding-top: 0px;\n+          text-overflow: ellipsis\n+        \">\n+          ebay\n+        <\/button>\n+        <svg\n+          height=\"8\"\n+          style=\"\n+            display: inline-block;\n+            fill: currentcolor;\n+            height: 12px;\n+            margin-left: var(--spacing-75);\n+            margin-right: var(--spacing-75);\n+            pointer-events: none;\n+            stroke-width: 0;\n+            stroke: currentcolor;\n+            vertical-align: middle;\n+            width: 12px\n+          \"\n+          width=\"8\"\n+        >\n+          <use href=\"#icon-chevron-right-12\"/>\n+        <\/svg>\n+      <\/li>\n+      <li style=\"\n+        align-items: center;\n+        display: inline-flex;\n+        vertical-align: middle\n+      \">\n+        <button style=\"\n+          border-bottom-color: currentcolor;\n+          border-bottom-style: none;\n+          border-bottom-width: medium;\n+          border-left-color: currentcolor;\n+          border-left-style: none;\n+          border-left-width: medium;\n+          border-right-color: currentcolor;\n+          border-right-style: none;\n+          border-right-width: medium;\n+          border-top-color: currentcolor;\n+          border-top-style: none;\n+          border-top-width: medium;\n+          color: inherit;\n+          font-family: inherit;\n+          font-size: 1em;\n+          max-width: 168px;\n+          outline-offset: 5px;\n+          overflow-x: hidden;\n+          overflow-y: hidden;\n+          padding-bottom: 0px;\n+          padding-left: 0px;\n+          padding-right: 0px;\n+          padding-top: 0px;\n+          text-overflow: ellipsis\n+        \">\n+          Cell Phones, Smart Watches & Accessories\n+        <\/button>\n+        <svg\n+          height=\"8\"\n+          style=\"\n+            display: inline-block;\n+            fill: currentcolor;\n+            height: 12px;\n+            margin-left: var(--spacing-75);\n+            margin-right: var(--spacing-75);\n+            pointer-events: none;\n+            stroke-width: 0;\n+            stroke: currentcolor;\n+            vertical-align: middle;\n+            width: 12px\n+          \"\n+          width=\"8\"\n+        >\n+          <use href=\"#icon-chevron-right-12\"/>\n+        <\/svg>\n+      <\/li>\n+      <li style=\"\n+        align-items: center;\n+        display: inline-flex;\n+        vertical-align: middle\n+      \">\n+        <button style=\"\n+          border-bottom-color: currentcolor;\n+          border-bottom-style: none;\n+          border-bottom-width: medium;\n+          border-left-color: currentcolor;\n+          border-left-style: none;\n+          border-left-width: medium;\n+          border-right-color: currentcolor;\n+          border-right-style: none;\n+          border-right-width: medium;\n+          border-top-color: currentcolor;\n+          border-top-style: none;\n+          border-top-width: medium;\n+          color: inherit;\n+          font-family: inherit;\n+          font-size: 1em;\n+          max-width: 168px;\n+          outline-offset: 5px;\n+          overflow-x: hidden;\n+          overflow-y: hidden;\n+          padding-bottom: 0px;\n+          padding-left: 0px;\n+          padding-right: 0px;\n+          padding-top: 0px;\n+          text-overflow: ellipsis\n+        \">\n+          Smart Watch Accessories\n+        <\/button>\n+        <svg\n+          height=\"8\"\n+          style=\"\n+            display: inline-block;\n+            fill: currentcolor;\n+            height: 12px;\n+            margin-left: var(--spacing-75);\n+            margin-right: var(--spacing-75);\n+            pointer-events: none;\n+            stroke-width: 0;\n+            stroke: currentcolor;\n+            vertical-align: middle;\n+            width: 12px\n+          \"\n+          width=\"8\"\n+        >\n+          <use href=\"#icon-chevron-right-12\"/>\n+        <\/svg>\n+      <\/li>\n+      <li style=\"\n+        align-items: center;\n+        display: inline-flex;\n+        vertical-align: middle\n+      \">\n+        <button style=\"\n+          border-bottom-color: currentcolor;\n+          border-bottom-style: none;\n+          border-bottom-width: medium;\n+          border-left-color: currentcolor;\n+          border-left-style: none;\n+          border-left-width: medium;\n+          border-right-color: currentcolor;\n+          border-right-style: none;\n+          border-right-width: medium;\n+          border-top-color: currentcolor;\n+          border-top-style: none;\n+          border-top-width: medium;\n+          color: var(--breadcrumbs-item-current-foreground-color, var(--color-foreground-primary));\n+          font-family: inherit;\n+          font-size: 1em;\n+          max-width: 168px;\n+          outline-offset: 5px;\n+          overflow-x: hidden;\n+          overflow-y: hidden;\n+          padding-bottom: 0px;\n+          padding-left: 0px;\n+          padding-right: 0px;\n+          padding-top: 0px;\n+          text-overflow: ellipsis\n+        \">\n+          Smart Watch Bands\n+        <\/button>\n+      <\/li>\n+    <\/ul>\n+  <\/nav>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"\n<nav aria-labelledby=\"breadcrumbs-heading\" class=\"breadcrumbs demo-a11y-text-spacing\" role=\"navigation\">\n    <h2 id=\"breadcrumbs-heading\" class=\"clipped\">You are here<\/h2>\n    <ul>\n        <li>\n            <button>ebay<\/button>\n            <svg class=\"icon icon--12\" height=\"8\" width=\"8\" aria-hidden=\"true\">\n                <use href=\"#icon-chevron-right-12\"><\/use>\n            <\/svg>\n        <\/li>\n        <li>\n            <button>Cell Phones, Smart Watches &amp; Accessories<\/button>\n            <svg class=\"icon icon--12\" height=\"8\" width=\"8\" aria-hidden=\"true\">\n                <use href=\"#icon-chevron-right-12\"><\/use>\n            <\/svg>\n        <\/li>\n        <li>\n            <button>Smart Watch Accessories<\/button>\n            <svg class=\"icon icon--12\" height=\"8\" width=\"8\" aria-hidden=\"true\">\n                <use href=\"#icon-chevron-right-12\"><\/use>\n            <\/svg>\n        <\/li>\n        <li>\n            <button aria-current=\"location\">Smart Watch Bands<\/button>\n        <\/li>\n    <\/ul>\n<\/nav>\n","storyAfter":"\n<nav aria-labelledby=\"breadcrumbs-heading\" class=\"breadcrumbs demo-a11y-text-spacing\" role=\"navigation\">\n    <h2 id=\"breadcrumbs-heading\" class=\"clipped\">You are here<\/h2>\n    <ul>\n        <li>\n            <button>ebay<\/button>\n            <svg class=\"icon icon--12\" height=\"8\" width=\"8\" aria-hidden=\"true\">\n                <use href=\"#icon-chevron-right-12\"><\/use>\n            <\/svg>\n        <\/li>\n        <li>\n            <button>Cell Phones, Smart Watches &amp; Accessories<\/button>\n            <svg class=\"icon icon--12\" height=\"8\" width=\"8\" aria-hidden=\"true\">\n                <use href=\"#icon-chevron-right-12\"><\/use>\n            <\/svg>\n        <\/li>\n        <li>\n            <button>Smart Watch Accessories<\/button>\n            <svg class=\"icon icon--12\" height=\"8\" width=\"8\" aria-hidden=\"true\">\n                <use href=\"#icon-chevron-right-12\"><\/use>\n            <\/svg>\n        <\/li>\n        <li>\n            <button aria-current=\"location\">Smart Watch Bands<\/button>\n        <\/li>\n    <\/ul>\n<\/nav>\n"},"baseRefShort":"60ee2f496866","prevHref":"breadcrumbs-stories-button-cascade--fontSize.html","nextHref":"breadcrumbs-stories-button-overflow--collapsed.html","indexHref":"../index.html","pos":33,"total":1012,"slug":"breadcrumbs-stories-button-cascade--textSpacing","hash":"kd61mf"};
+    const PAGE = {"baseRefShort":"60ee2f496866","prevHref":"breadcrumbs-stories-button-cascade--fontSize.html","nextHref":"breadcrumbs-stories-button-overflow--collapsed.html","indexHref":"../index.html","pos":33,"total":1012,"slug":"breadcrumbs-stories-button-cascade--textSpacing","hash":"kd61mf","component":"breadcrumbs","story":"textSpacing","file":"packages/skin/src/sass/breadcrumbs/stories/__snapshots__/button-cascade.snap","dims":[{"changes":[]},{"changes":[]},{"changes":[]},{"changes":[]}]};
 </script>
-<script src="../assets/nav.js"></script>
-<script src="../assets/story.js"></script>
+<script src="../assets/nav.js" defer></script>
+<script src="../assets/story.js" defer></script>
 <script src="../assets/prefetch.js" defer></script>
 </body>
 </html>

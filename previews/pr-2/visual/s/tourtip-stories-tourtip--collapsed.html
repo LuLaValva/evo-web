@@ -9,8 +9,8 @@
 <body class="story-page">
 <header>
     <a class="back" href="../index.html">← All changes</a>
-    <h1 id="title"></h1>
-    <span class="meta" id="path"></span>
+    <h1 id="title">tourtip / collapsed</h1>
+    <span class="meta" id="path">packages/skin/src/sass/tourtip/stories/__snapshots__/tourtip.snap</span>
     <span class="pagenav">
         <a id="prev" href="#">‹ prev</a>
         <span class="pos" id="pos"></span>
@@ -21,7 +21,112 @@
     <input id="search" type="search" placeholder="Filter stories… ( / )" />
     <div id="storylist"></div>
 </nav>
-<main id="main"></main>
+<main id="main">
+    <div class="toolbar">
+        <div class="seg" data-seg="mode">
+            <button type="button" data-v="side" class="active">Side by side</button>
+            <button type="button" data-v="swipe">Swipe</button>
+            <button type="button" data-v="onion">Onion</button>
+            <button type="button" data-v="flip">Flip</button>
+        </div>
+        <div class="seg" data-seg="view">
+            <button type="button" data-v="rendered" class="active">Rendered</button>
+            <button type="button" data-v="diff">Text diff</button>
+        </div>
+        <div class="seg" data-seg="theme">
+            <button type="button" data-v="light" class="active">Light</button>
+            <button type="button" data-v="dark">Dark</button>
+        </div>
+        <label class="toggle"><input type="checkbox" id="hl-toggle" checked />Highlights</label>
+        <div class="grow"></div>
+        <button class="flag" id="flag-btn" type="button">⚑ Flag</button>
+    </div>
+    <section class="dim-section" id="dim-0" data-dim="0"><h3 class="dim-label">320px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="320"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<div class=&quot;tourtip&quot;>
+    <p class=&quot;tourtip__host&quot;>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div class=&quot;tourtip__overlay&quot; style=&quot;left: calc(50% - 200px); right: auto; top: calc(100% + 12px); bottom: auto&quot; role=&quot;region&quot; aria-labelledby=&quot;tourtip-label&quot;>
+        <span class=&quot;tourtip__pointer tourtip__pointer--top&quot;></span>
+        <div class=&quot;tourtip__mask&quot;>
+            <div class=&quot;tourtip__cell&quot;>
+                <span class=&quot;tourtip__content&quot;>
+                    <h2 class=&quot;tourtip__heading&quot; id=&quot;tourtip-label&quot;>Tourtip</h2>
+                    <p>Here's something new to help you be successful at your task.</p>
+                </span>
+                <button class=&quot;icon-btn tourtip__close&quot; type=&quot;button&quot; aria-label=&quot;Dismiss tourtip&quot;>
+                    <svg class=&quot;icon icon--16&quot; height=&quot;24&quot; width=&quot;24&quot; aria-hidden=&quot;true&quot;>
+                        <use href=&quot;#icon-close-16&quot;></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</div></body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,7 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;div style=&quot;position: relative&quot;></span>
+<span class="add">+    &lt;p></span>
+<span class="add">+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+<span class="add">+    &lt;/p></span>
+<span class="add">+  &lt;/div></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section><section class="dim-section" id="dim-1" data-dim="1"><h3 class="dim-label">512px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="512"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<div class=&quot;tourtip&quot;>
+    <p class=&quot;tourtip__host&quot;>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div class=&quot;tourtip__overlay&quot; style=&quot;left: calc(50% - 200px); right: auto; top: calc(100% + 12px); bottom: auto&quot; role=&quot;region&quot; aria-labelledby=&quot;tourtip-label&quot;>
+        <span class=&quot;tourtip__pointer tourtip__pointer--top&quot;></span>
+        <div class=&quot;tourtip__mask&quot;>
+            <div class=&quot;tourtip__cell&quot;>
+                <span class=&quot;tourtip__content&quot;>
+                    <h2 class=&quot;tourtip__heading&quot; id=&quot;tourtip-label&quot;>Tourtip</h2>
+                    <p>Here's something new to help you be successful at your task.</p>
+                </span>
+                <button class=&quot;icon-btn tourtip__close&quot; type=&quot;button&quot; aria-label=&quot;Dismiss tourtip&quot;>
+                    <svg class=&quot;icon icon--16&quot; height=&quot;24&quot; width=&quot;24&quot; aria-hidden=&quot;true&quot;>
+                        <use href=&quot;#icon-close-16&quot;></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</div></body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,7 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;div style=&quot;position: relative&quot;></span>
+<span class="add">+    &lt;p></span>
+<span class="add">+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+<span class="add">+    &lt;/p></span>
+<span class="add">+  &lt;/div></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section><section class="dim-section" id="dim-2" data-dim="2"><h3 class="dim-label">1280px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<div class=&quot;tourtip&quot;>
+    <p class=&quot;tourtip__host&quot;>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div class=&quot;tourtip__overlay&quot; style=&quot;left: calc(50% - 200px); right: auto; top: calc(100% + 12px); bottom: auto&quot; role=&quot;region&quot; aria-labelledby=&quot;tourtip-label&quot;>
+        <span class=&quot;tourtip__pointer tourtip__pointer--top&quot;></span>
+        <div class=&quot;tourtip__mask&quot;>
+            <div class=&quot;tourtip__cell&quot;>
+                <span class=&quot;tourtip__content&quot;>
+                    <h2 class=&quot;tourtip__heading&quot; id=&quot;tourtip-label&quot;>Tourtip</h2>
+                    <p>Here's something new to help you be successful at your task.</p>
+                </span>
+                <button class=&quot;icon-btn tourtip__close&quot; type=&quot;button&quot; aria-label=&quot;Dismiss tourtip&quot;>
+                    <svg class=&quot;icon icon--16&quot; height=&quot;24&quot; width=&quot;24&quot; aria-hidden=&quot;true&quot;>
+                        <use href=&quot;#icon-close-16&quot;></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</div></body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,7 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;div style=&quot;position: relative&quot;></span>
+<span class="add">+    &lt;p></span>
+<span class="add">+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+<span class="add">+    &lt;/p></span>
+<span class="add">+  &lt;/div></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section>
+</main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
     <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
@@ -34,10 +139,10 @@
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
-    const PAGE = {"entry":{"component":"tourtip","story":"collapsed","file":"packages/skin/src/sass/tourtip/stories/__snapshots__/tourtip.snap","dims":[{"suffix":"320px","width":320,"rtl":false,"status":"added","before":"","after":"<div>\n  <div style=\"position: relative\">\n    <p>\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n    <\/p>\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,7 @@\n+<div>\n+  <div style=\"position: relative\">\n+    <p>\n+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n+    <\/p>\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"},{"suffix":"512px","width":512,"rtl":false,"status":"added","before":"","after":"<div>\n  <div style=\"position: relative\">\n    <p>\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n    <\/p>\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,7 @@\n+<div>\n+  <div style=\"position: relative\">\n+    <p>\n+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n+    <\/p>\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"},{"suffix":"1280px","width":1280,"rtl":false,"status":"added","before":"","after":"<div>\n  <div style=\"position: relative\">\n    <p>\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n    <\/p>\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,7 @@\n+<div>\n+  <div style=\"position: relative\">\n+    <p>\n+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n+    <\/p>\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"\n<div class=\"tourtip\">\n    <p class=\"tourtip__host\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>\n    <div class=\"tourtip__overlay\" style=\"left: calc(50% - 200px); right: auto; top: calc(100% + 12px); bottom: auto\" role=\"region\" aria-labelledby=\"tourtip-label\">\n        <span class=\"tourtip__pointer tourtip__pointer--top\"><\/span>\n        <div class=\"tourtip__mask\">\n            <div class=\"tourtip__cell\">\n                <span class=\"tourtip__content\">\n                    <h2 class=\"tourtip__heading\" id=\"tourtip-label\">Tourtip<\/h2>\n                    <p>Here's something new to help you be successful at your task.<\/p>\n                <\/span>\n                <button class=\"icon-btn tourtip__close\" type=\"button\" aria-label=\"Dismiss tourtip\">\n                    <svg class=\"icon icon--16\" height=\"24\" width=\"24\" aria-hidden=\"true\">\n                        <use href=\"#icon-close-16\"><\/use>\n                    <\/svg>\n                <\/button>\n            <\/div>\n        <\/div>\n    <\/div>\n<\/div>","storyAfter":"\n<div class=\"tourtip\">\n    <p class=\"tourtip__host\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>\n    <div class=\"tourtip__overlay\" style=\"left: calc(50% - 200px); right: auto; top: calc(100% + 12px); bottom: auto\" role=\"region\" aria-labelledby=\"tourtip-label\">\n        <span class=\"tourtip__pointer tourtip__pointer--top\"><\/span>\n        <div class=\"tourtip__mask\">\n            <div class=\"tourtip__cell\">\n                <span class=\"tourtip__content\">\n                    <h2 class=\"tourtip__heading\" id=\"tourtip-label\">Tourtip<\/h2>\n                    <p>Here's something new to help you be successful at your task.<\/p>\n                <\/span>\n                <button class=\"icon-btn tourtip__close\" type=\"button\" aria-label=\"Dismiss tourtip\">\n                    <svg class=\"icon icon--16\" height=\"24\" width=\"24\" aria-hidden=\"true\">\n                        <use href=\"#icon-close-16\"><\/use>\n                    <\/svg>\n                <\/button>\n            <\/div>\n        <\/div>\n    <\/div>\n<\/div>"},"baseRefShort":"60ee2f496866","prevHref":"tooltip-stories-tooltip--textSpacing.html","nextHref":"tourtip-stories-tourtip--expanded.html","indexHref":"../index.html","pos":1008,"total":1012,"slug":"tourtip-stories-tourtip--collapsed","hash":"1g3v2s8"};
+    const PAGE = {"baseRefShort":"60ee2f496866","prevHref":"tooltip-stories-tooltip--textSpacing.html","nextHref":"tourtip-stories-tourtip--expanded.html","indexHref":"../index.html","pos":1008,"total":1012,"slug":"tourtip-stories-tourtip--collapsed","hash":"1g3v2s8","component":"tourtip","story":"collapsed","file":"packages/skin/src/sass/tourtip/stories/__snapshots__/tourtip.snap","dims":[{"changes":[]},{"changes":[]},{"changes":[]}]};
 </script>
-<script src="../assets/nav.js"></script>
-<script src="../assets/story.js"></script>
+<script src="../assets/nav.js" defer></script>
+<script src="../assets/story.js" defer></script>
 <script src="../assets/prefetch.js" defer></script>
 </body>
 </html>

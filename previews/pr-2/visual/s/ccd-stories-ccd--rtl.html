@@ -9,8 +9,8 @@
 <body class="story-page">
 <header>
     <a class="back" href="../index.html">← All changes</a>
-    <h1 id="title"></h1>
-    <span class="meta" id="path"></span>
+    <h1 id="title">ccd / rtl</h1>
+    <span class="meta" id="path">packages/skin/src/sass/ccd/stories/__snapshots__/ccd.snap</span>
     <span class="pagenav">
         <a id="prev" href="#">‹ prev</a>
         <span class="pos" id="pos"></span>
@@ -21,7 +21,120 @@
     <input id="search" type="search" placeholder="Filter stories… ( / )" />
     <div id="storylist"></div>
 </nav>
-<main id="main"></main>
+<main id="main">
+    <div class="toolbar">
+        <div class="seg" data-seg="mode">
+            <button type="button" data-v="side" class="active">Side by side</button>
+            <button type="button" data-v="swipe">Swipe</button>
+            <button type="button" data-v="onion">Onion</button>
+            <button type="button" data-v="flip">Flip</button>
+        </div>
+        <div class="seg" data-seg="view">
+            <button type="button" data-v="rendered" class="active">Rendered</button>
+            <button type="button" data-v="diff">Text diff</button>
+        </div>
+        <div class="seg" data-seg="theme">
+            <button type="button" data-v="light" class="active">Light</button>
+            <button type="button" data-v="dark">Dark</button>
+        </div>
+        <label class="toggle"><input type="checkbox" id="hl-toggle" checked />Highlights</label>
+        <div class="grow"></div>
+        <button class="flag" id="flag-btn" type="button">⚑ Flag</button>
+    </div>
+    <section class="dim-section" id="dim-0" data-dim="0"><div class="stage"><div class="render-area"><div class="duo mode-side fluid solo"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fluid"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<div dir=&quot;rtl&quot;>
+    <div class=&quot;ccd&quot; role=&quot;img&quot; aria-label=&quot;Charger included. 1001 - 2000 watts. USB PD&quot;>
+        <svg class=&quot;icon ccd__charger-icon&quot; aria-hidden=&quot;true&quot;>
+            <use href=&quot;#icon-ccd-charger-included&quot;/>
+        </svg>
+        <div class=&quot;ccd__description-figure&quot;>
+
+            <svg class=&quot;icon ccd__top-icon&quot; aria-hidden=&quot;true&quot;>
+                <use href=&quot;#icon-ccd-top&quot;/>
+            </svg>
+            <div class=&quot;ccd__body&quot;>
+                <div>1001 - 2000</div>
+                <div>W</div>
+                <div>USB PD</div>
+            </div>
+        </div>
+    </div>
+</div></body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,72 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;div dir=&quot;rtl&quot;></span>
+<span class="add">+    &lt;div style=&quot;</span>
+<span class="add">+      column-gap: 8px;</span>
+<span class="add">+      display: inline-flex;</span>
+<span class="add">+      font-family: &quot;Reddit Sans Condensed Bold&quot;, &quot;Market Sans&quot;, Arial, sans-serif;</span>
+<span class="add">+      row-gap: 8px</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;svg style=&quot;</span>
+<span class="add">+        display: inline-block;</span>
+<span class="add">+        fill: currentcolor;</span>
+<span class="add">+        height: 57px;</span>
+<span class="add">+        pointer-events: none;</span>
+<span class="add">+        stroke-width: 0;</span>
+<span class="add">+        stroke: currentcolor;</span>
+<span class="add">+        vertical-align: middle;</span>
+<span class="add">+        width: 42px</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;use href=&quot;#icon-ccd-charger-included&quot;/></span>
+<span class="add">+      &lt;/svg></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        align-items: center;</span>
+<span class="add">+        display: flex;</span>
+<span class="add">+        flex-direction: column;</span>
+<span class="add">+        justify-content: center;</span>
+<span class="add">+        width: 39px</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;svg style=&quot;</span>
+<span class="add">+          display: inline-block;</span>
+<span class="add">+          fill: currentcolor;</span>
+<span class="add">+          height: 18px;</span>
+<span class="add">+          pointer-events: none;</span>
+<span class="add">+          stroke-width: 0;</span>
+<span class="add">+          stroke: currentcolor;</span>
+<span class="add">+          vertical-align: middle;</span>
+<span class="add">+          width: 27px</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;use href=&quot;#icon-ccd-top&quot;/></span>
+<span class="add">+        &lt;/svg></span>
+<span class="add">+        &lt;div style=&quot;</span>
+<span class="add">+          align-items: center;</span>
+<span class="add">+          border-bottom-left-radius: 1.5px;</span>
+<span class="add">+          border-bottom-right-radius: 1.5px;</span>
+<span class="add">+          border-top-left-radius: 1.5px;</span>
+<span class="add">+          border-top-right-radius: 1.5px;</span>
+<span class="add">+          border: 1px solid var(--color-foreground-primary);</span>
+<span class="add">+          display: flex;</span>
+<span class="add">+          flex-direction: column;</span>
+<span class="add">+          font-size: 0.4375rem;</span>
+<span class="add">+          font-weight: var(--font-weight-600);</span>
+<span class="add">+          height: 37px;</span>
+<span class="add">+          justify-content: center;</span>
+<span class="add">+          line-height: 10px;</span>
+<span class="add">+          overflow-x: hidden;</span>
+<span class="add">+          overflow-y: hidden;</span>
+<span class="add">+          text-align: center;</span>
+<span class="add">+          width: 39px</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;div></span>
+<span class="add">+            1001 - 2000</span>
+<span class="add">+          &lt;/div></span>
+<span class="add">+          &lt;div></span>
+<span class="add">+            W</span>
+<span class="add">+          &lt;/div></span>
+<span class="add">+          &lt;div></span>
+<span class="add">+            USB PD</span>
+<span class="add">+          &lt;/div></span>
+<span class="add">+        &lt;/div></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+    &lt;/div></span>
+<span class="add">+  &lt;/div></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section>
+</main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
     <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
@@ -34,10 +147,10 @@
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
-    const PAGE = {"entry":{"component":"ccd","story":"rtl","file":"packages/skin/src/sass/ccd/stories/__snapshots__/ccd.snap","dims":[{"suffix":"","width":null,"rtl":false,"status":"added","before":"","after":"<div>\n  <div dir=\"rtl\">\n    <div style=\"\n      column-gap: 8px;\n      display: inline-flex;\n      font-family: \"Reddit Sans Condensed Bold\", \"Market Sans\", Arial, sans-serif;\n      row-gap: 8px\n    \">\n      <svg style=\"\n        display: inline-block;\n        fill: currentcolor;\n        height: 57px;\n        pointer-events: none;\n        stroke-width: 0;\n        stroke: currentcolor;\n        vertical-align: middle;\n        width: 42px\n      \">\n        <use href=\"#icon-ccd-charger-included\"/>\n      <\/svg>\n      <div style=\"\n        align-items: center;\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n        width: 39px\n      \">\n        <svg style=\"\n          display: inline-block;\n          fill: currentcolor;\n          height: 18px;\n          pointer-events: none;\n          stroke-width: 0;\n          stroke: currentcolor;\n          vertical-align: middle;\n          width: 27px\n        \">\n          <use href=\"#icon-ccd-top\"/>\n        <\/svg>\n        <div style=\"\n          align-items: center;\n          border-bottom-left-radius: 1.5px;\n          border-bottom-right-radius: 1.5px;\n          border-top-left-radius: 1.5px;\n          border-top-right-radius: 1.5px;\n          border: 1px solid var(--color-foreground-primary);\n          display: flex;\n          flex-direction: column;\n          font-size: 0.4375rem;\n          font-weight: var(--font-weight-600);\n          height: 37px;\n          justify-content: center;\n          line-height: 10px;\n          overflow-x: hidden;\n          overflow-y: hidden;\n          text-align: center;\n          width: 39px\n        \">\n          <div>\n            1001 - 2000\n          <\/div>\n          <div>\n            W\n          <\/div>\n          <div>\n            USB PD\n          <\/div>\n        <\/div>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,72 @@\n+<div>\n+  <div dir=\"rtl\">\n+    <div style=\"\n+      column-gap: 8px;\n+      display: inline-flex;\n+      font-family: \"Reddit Sans Condensed Bold\", \"Market Sans\", Arial, sans-serif;\n+      row-gap: 8px\n+    \">\n+      <svg style=\"\n+        display: inline-block;\n+        fill: currentcolor;\n+        height: 57px;\n+        pointer-events: none;\n+        stroke-width: 0;\n+        stroke: currentcolor;\n+        vertical-align: middle;\n+        width: 42px\n+      \">\n+        <use href=\"#icon-ccd-charger-included\"/>\n+      <\/svg>\n+      <div style=\"\n+        align-items: center;\n+        display: flex;\n+        flex-direction: column;\n+        justify-content: center;\n+        width: 39px\n+      \">\n+        <svg style=\"\n+          display: inline-block;\n+          fill: currentcolor;\n+          height: 18px;\n+          pointer-events: none;\n+          stroke-width: 0;\n+          stroke: currentcolor;\n+          vertical-align: middle;\n+          width: 27px\n+        \">\n+          <use href=\"#icon-ccd-top\"/>\n+        <\/svg>\n+        <div style=\"\n+          align-items: center;\n+          border-bottom-left-radius: 1.5px;\n+          border-bottom-right-radius: 1.5px;\n+          border-top-left-radius: 1.5px;\n+          border-top-right-radius: 1.5px;\n+          border: 1px solid var(--color-foreground-primary);\n+          display: flex;\n+          flex-direction: column;\n+          font-size: 0.4375rem;\n+          font-weight: var(--font-weight-600);\n+          height: 37px;\n+          justify-content: center;\n+          line-height: 10px;\n+          overflow-x: hidden;\n+          overflow-y: hidden;\n+          text-align: center;\n+          width: 39px\n+        \">\n+          <div>\n+            1001 - 2000\n+          <\/div>\n+          <div>\n+            W\n+          <\/div>\n+          <div>\n+            USB PD\n+          <\/div>\n+        <\/div>\n+      <\/div>\n+    <\/div>\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"\n<div dir=\"rtl\">\n    <div class=\"ccd\" role=\"img\" aria-label=\"Charger included. 1001 - 2000 watts. USB PD\">\n        <svg class=\"icon ccd__charger-icon\" aria-hidden=\"true\">\n            <use href=\"#icon-ccd-charger-included\"/>\n        <\/svg>\n        <div class=\"ccd__description-figure\">\n\n            <svg class=\"icon ccd__top-icon\" aria-hidden=\"true\">\n                <use href=\"#icon-ccd-top\"/>\n            <\/svg>\n            <div class=\"ccd__body\">\n                <div>1001 - 2000<\/div>\n                <div>W<\/div>\n                <div>USB PD<\/div>\n            <\/div>\n        <\/div>\n    <\/div>\n<\/div>","storyAfter":"\n<div dir=\"rtl\">\n    <div class=\"ccd\" role=\"img\" aria-label=\"Charger included. 1001 - 2000 watts. USB PD\">\n        <svg class=\"icon ccd__charger-icon\" aria-hidden=\"true\">\n            <use href=\"#icon-ccd-charger-included\"/>\n        <\/svg>\n        <div class=\"ccd__description-figure\">\n\n            <svg class=\"icon ccd__top-icon\" aria-hidden=\"true\">\n                <use href=\"#icon-ccd-top\"/>\n            <\/svg>\n            <div class=\"ccd__body\">\n                <div>1001 - 2000<\/div>\n                <div>W<\/div>\n                <div>USB PD<\/div>\n            <\/div>\n        <\/div>\n    <\/div>\n<\/div>"},"baseRefShort":"60ee2f496866","prevHref":"ccd-stories-ccd--largerFontSize.html","nextHref":"ccd-stories-ccd--withChargerAndLargeText.html","indexHref":"../index.html","pos":174,"total":1012,"slug":"ccd-stories-ccd--rtl","hash":"qmwcbi"};
+    const PAGE = {"baseRefShort":"60ee2f496866","prevHref":"ccd-stories-ccd--largerFontSize.html","nextHref":"ccd-stories-ccd--withChargerAndLargeText.html","indexHref":"../index.html","pos":174,"total":1012,"slug":"ccd-stories-ccd--rtl","hash":"qmwcbi","component":"ccd","story":"rtl","file":"packages/skin/src/sass/ccd/stories/__snapshots__/ccd.snap","dims":[{"changes":[]}]};
 </script>
-<script src="../assets/nav.js"></script>
-<script src="../assets/story.js"></script>
+<script src="../assets/nav.js" defer></script>
+<script src="../assets/story.js" defer></script>
 <script src="../assets/prefetch.js" defer></script>
 </body>
 </html>

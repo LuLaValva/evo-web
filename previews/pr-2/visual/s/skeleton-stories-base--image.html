@@ -9,8 +9,8 @@
 <body class="story-page">
 <header>
     <a class="back" href="../index.html">← All changes</a>
-    <h1 id="title"></h1>
-    <span class="meta" id="path"></span>
+    <h1 id="title">skeleton / image</h1>
+    <span class="meta" id="path">packages/skin/src/sass/skeleton/stories/__snapshots__/base.snap</span>
     <span class="pagenav">
         <a id="prev" href="#">‹ prev</a>
         <span class="pos" id="pos"></span>
@@ -21,7 +21,66 @@
     <input id="search" type="search" placeholder="Filter stories… ( / )" />
     <div id="storylist"></div>
 </nav>
-<main id="main"></main>
+<main id="main">
+    <div class="toolbar">
+        <div class="seg" data-seg="mode">
+            <button type="button" data-v="side" class="active">Side by side</button>
+            <button type="button" data-v="swipe">Swipe</button>
+            <button type="button" data-v="onion">Onion</button>
+            <button type="button" data-v="flip">Flip</button>
+        </div>
+        <div class="seg" data-seg="view">
+            <button type="button" data-v="rendered" class="active">Rendered</button>
+            <button type="button" data-v="diff">Text diff</button>
+        </div>
+        <div class="seg" data-seg="theme">
+            <button type="button" data-v="light" class="active">Light</button>
+            <button type="button" data-v="dark">Dark</button>
+        </div>
+        <label class="toggle"><input type="checkbox" id="hl-toggle" checked />Highlights</label>
+        <div class="grow"></div>
+        <button class="flag" id="flag-btn" type="button">⚑ Flag</button>
+    </div>
+    <section class="dim-section" id="dim-0" data-dim="0"><h3 class="dim-label">1280px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script><div class=&quot;skeleton&quot; role=&quot;img&quot; aria-label=&quot;loading&quot;>
+        <div class=&quot;skeleton__image&quot; style=&quot;height: 250px; width: 250px;&quot;></div>
+    </div></body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,15 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;div style=&quot;</span>
+<span class="add">+    container-name: skeleton-container;</span>
+<span class="add">+    container-type: inline-size;</span>
+<span class="add">+    cursor: progress;</span>
+<span class="add">+    width: 100%</span>
+<span class="add">+  &quot;></span>
+<span class="add">+    &lt;div style=&quot;</span>
+<span class="add">+      animation: var(--motion-duration-long-3) var(--motion-easing-continuous) infinite alternate on-primary;</span>
+<span class="add">+      background: var(--skeleton-background, var(--color-loading-fill));</span>
+<span class="add">+      height: 250px;</span>
+<span class="add">+      width: 250px</span>
+<span class="add">+    &quot;/></span>
+<span class="add">+  &lt;/div></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section><section class="dim-section" id="dim-1" data-dim="1"><h3 class="dim-label">1280px rtl</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;rtl&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script><div class=&quot;skeleton&quot; role=&quot;img&quot; aria-label=&quot;loading&quot;>
+        <div class=&quot;skeleton__image&quot; style=&quot;height: 250px; width: 250px;&quot;></div>
+    </div></body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,15 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;div style=&quot;</span>
+<span class="add">+    container-name: skeleton-container;</span>
+<span class="add">+    container-type: inline-size;</span>
+<span class="add">+    cursor: progress;</span>
+<span class="add">+    width: 100%</span>
+<span class="add">+  &quot;></span>
+<span class="add">+    &lt;div style=&quot;</span>
+<span class="add">+      animation: var(--motion-duration-long-3) var(--motion-easing-continuous) infinite alternate on-primary;</span>
+<span class="add">+      background: var(--skeleton-background, var(--color-loading-fill));</span>
+<span class="add">+      height: 250px;</span>
+<span class="add">+      width: 250px</span>
+<span class="add">+    &quot;/></span>
+<span class="add">+  &lt;/div></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section>
+</main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
     <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
@@ -34,10 +93,10 @@
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
-    const PAGE = {"entry":{"component":"skeleton","story":"image","file":"packages/skin/src/sass/skeleton/stories/__snapshots__/base.snap","dims":[{"suffix":"1280px","width":1280,"rtl":false,"status":"added","before":"","after":"<div>\n  <div style=\"\n    container-name: skeleton-container;\n    container-type: inline-size;\n    cursor: progress;\n    width: 100%\n  \">\n    <div style=\"\n      animation: var(--motion-duration-long-3) var(--motion-easing-continuous) infinite alternate on-primary;\n      background: var(--skeleton-background, var(--color-loading-fill));\n      height: 250px;\n      width: 250px\n    \"/>\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,15 @@\n+<div>\n+  <div style=\"\n+    container-name: skeleton-container;\n+    container-type: inline-size;\n+    cursor: progress;\n+    width: 100%\n+  \">\n+    <div style=\"\n+      animation: var(--motion-duration-long-3) var(--motion-easing-continuous) infinite alternate on-primary;\n+      background: var(--skeleton-background, var(--color-loading-fill));\n+      height: 250px;\n+      width: 250px\n+    \"/>\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"},{"suffix":"1280px rtl","width":1280,"rtl":true,"status":"added","before":"","after":"<div>\n  <div style=\"\n    container-name: skeleton-container;\n    container-type: inline-size;\n    cursor: progress;\n    width: 100%\n  \">\n    <div style=\"\n      animation: var(--motion-duration-long-3) var(--motion-easing-continuous) infinite alternate on-primary;\n      background: var(--skeleton-background, var(--color-loading-fill));\n      height: 250px;\n      width: 250px\n    \"/>\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,15 @@\n+<div>\n+  <div style=\"\n+    container-name: skeleton-container;\n+    container-type: inline-size;\n+    cursor: progress;\n+    width: 100%\n+  \">\n+    <div style=\"\n+      animation: var(--motion-duration-long-3) var(--motion-easing-continuous) infinite alternate on-primary;\n+      background: var(--skeleton-background, var(--color-loading-fill));\n+      height: 250px;\n+      width: 250px\n+    \"/>\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"<div class=\"skeleton\" role=\"img\" aria-label=\"loading\">\n        <div class=\"skeleton__image\" style=\"height: 250px; width: 250px;\"><\/div>\n    <\/div>","storyAfter":"<div class=\"skeleton\" role=\"img\" aria-label=\"loading\">\n        <div class=\"skeleton__image\" style=\"height: 250px; width: 250px;\"><\/div>\n    <\/div>"},"baseRefShort":"60ee2f496866","prevHref":"skeleton-stories-base--buttonSmall.html","nextHref":"skeleton-stories-base--smallImage.html","indexHref":"../index.html","pos":779,"total":1012,"slug":"skeleton-stories-base--image","hash":"d79ezd"};
+    const PAGE = {"baseRefShort":"60ee2f496866","prevHref":"skeleton-stories-base--buttonSmall.html","nextHref":"skeleton-stories-base--smallImage.html","indexHref":"../index.html","pos":779,"total":1012,"slug":"skeleton-stories-base--image","hash":"d79ezd","component":"skeleton","story":"image","file":"packages/skin/src/sass/skeleton/stories/__snapshots__/base.snap","dims":[{"changes":[]},{"changes":[]}]};
 </script>
-<script src="../assets/nav.js"></script>
-<script src="../assets/story.js"></script>
+<script src="../assets/nav.js" defer></script>
+<script src="../assets/story.js" defer></script>
 <script src="../assets/prefetch.js" defer></script>
 </body>
 </html>

@@ -9,8 +9,8 @@
 <body class="story-page">
 <header>
     <a class="back" href="../index.html">← All changes</a>
-    <h1 id="title"></h1>
-    <span class="meta" id="path"></span>
+    <h1 id="title">file-input / draggedOver</h1>
+    <span class="meta" id="path">packages/skin/src/sass/file-input/stories/__snapshots__/file-input.snap</span>
     <span class="pagenav">
         <a id="prev" href="#">‹ prev</a>
         <span class="pos" id="pos"></span>
@@ -21,7 +21,373 @@
     <input id="search" type="search" placeholder="Filter stories… ( / )" />
     <div id="storylist"></div>
 </nav>
-<main id="main"></main>
+<main id="main">
+    <div class="toolbar">
+        <div class="seg" data-seg="mode">
+            <button type="button" data-v="side" class="active">Side by side</button>
+            <button type="button" data-v="swipe">Swipe</button>
+            <button type="button" data-v="onion">Onion</button>
+            <button type="button" data-v="flip">Flip</button>
+        </div>
+        <div class="seg" data-seg="view">
+            <button type="button" data-v="rendered" class="active">Rendered</button>
+            <button type="button" data-v="diff">Text diff</button>
+        </div>
+        <div class="seg" data-seg="theme">
+            <button type="button" data-v="light" class="active">Light</button>
+            <button type="button" data-v="dark">Dark</button>
+        </div>
+        <label class="toggle"><input type="checkbox" id="hl-toggle" checked />Highlights</label>
+        <div class="grow"></div>
+        <button class="flag" id="flag-btn" type="button">⚑ Flag</button>
+    </div>
+    <section class="dim-section" id="dim-0" data-dim="0"><h3 class="dim-label">320px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="320"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+    <div class=&quot;file-input&quot;>
+        <div class=&quot;file-input__container file-input___container--dragged-over&quot;>
+            <div class=&quot;file-input__upload-icon&quot;>
+                <svg class=&quot;icon&quot; aria-hidden=&quot;true&quot;>   
+                    <use href=&quot;#icon-upload-24&quot;></use>
+                </svg>
+            </div>
+            <div class=&quot;file-input__content&quot;>
+                <h4 class=&quot;file-input__content-header&quot;>Drag and drop files</h4>
+                <span class=&quot;file-input__content-subheader&quot;>Up to 10MB per file in JPG, JPEG, PNG, MP4.</span>
+                <label for=&quot;file-input-1&quot;>
+                    <span class=&quot;file-input__content-cta&quot;>Browse files</span>
+                </label>
+            </div>
+        </div>
+        <input id=&quot;file-input-1&quot; class=&quot;file-input__input&quot; type=&quot;file&quot; multiple/>
+    </div>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,95 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;div style=&quot;</span>
+<span class="add">+    display: grid;</span>
+<span class="add">+    grid-template-areas: &quot;center&quot;;</span>
+<span class="add">+    grid-template-columns: 1fr;</span>
+<span class="add">+    grid-template-rows: 1fr</span>
+<span class="add">+  &quot;></span>
+<span class="add">+    &lt;div style=&quot;</span>
+<span class="add">+      background-color: var(--file-input-dragged-over-background-color, var(--color-background-tertiary));</span>
+<span class="add">+      border-bottom-color: currentcolor;</span>
+<span class="add">+      border-bottom-style: dashed;</span>
+<span class="add">+      border-bottom-width: 1px;</span>
+<span class="add">+      border-left-color: currentcolor;</span>
+<span class="add">+      border-left-style: dashed;</span>
+<span class="add">+      border-left-width: 1px;</span>
+<span class="add">+      border-right-color: currentcolor;</span>
+<span class="add">+      border-right-style: dashed;</span>
+<span class="add">+      border-right-width: 1px;</span>
+<span class="add">+      border-top-color: currentcolor;</span>
+<span class="add">+      border-top-style: dashed;</span>
+<span class="add">+      border-top-width: 1px;</span>
+<span class="add">+      display: flex;</span>
+<span class="add">+      grid-column-end: center;</span>
+<span class="add">+      grid-column-start: center;</span>
+<span class="add">+      grid-row-end: center;</span>
+<span class="add">+      grid-row-start: center;</span>
+<span class="add">+      min-width: fit-content;</span>
+<span class="add">+      padding: var(--spacing-200);</span>
+<span class="add">+      pointer-events: none;</span>
+<span class="add">+      z-index: 1</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        align-self: center;</span>
+<span class="add">+        background-color: var(--file-input-upload-icon-background-color, var(--color-background-primary));</span>
+<span class="add">+        border-bottom-left-radius: 99px;</span>
+<span class="add">+        border-bottom-right-radius: 99px;</span>
+<span class="add">+        border-top-left-radius: 99px;</span>
+<span class="add">+        border-top-right-radius: 99px;</span>
+<span class="add">+        padding: var(--spacing-150)</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;svg style=&quot;</span>
+<span class="add">+          display: inline-block;</span>
+<span class="add">+          fill: var(--file-input-upload-icon-fill, var(--color-foreground-primary));</span>
+<span class="add">+          height: var(--spacing-300);</span>
+<span class="add">+          pointer-events: none;</span>
+<span class="add">+          stroke-width: 0;</span>
+<span class="add">+          stroke: currentcolor;</span>
+<span class="add">+          vertical-align: middle;</span>
+<span class="add">+          width: var(--spacing-300)</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;use href=&quot;#icon-upload-24&quot;/></span>
+<span class="add">+        &lt;/svg></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        align-items: start;</span>
+<span class="add">+        display: flex;</span>
+<span class="add">+        flex-direction: column;</span>
+<span class="add">+        flex-grow: 1;</span>
+<span class="add">+        justify-content: center</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;h4 style=&quot;</span>
+<span class="add">+          color: var(--file-input-content-header-color, var(--color-foreground-primary));</span>
+<span class="add">+          font-size: var(--font-size-body);</span>
+<span class="add">+          line-height: var(--spacing-250);</span>
+<span class="add">+          margin-block: 0 var(--spacing-50)</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Drag and drop files</span>
+<span class="add">+        &lt;/h4></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          color: var(--file-input-content-subheader-color, var(--color-foreground-secondary));</span>
+<span class="add">+          font-size: var(--font-size-small);</span>
+<span class="add">+          line-height: var(--spacing-200);</span>
+<span class="add">+          margin-block-end: var(--spacing-100)</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Up to 10MB per file in JPG, JPEG, PNG, MP4.</span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+        &lt;label></span>
+<span class="add">+          &lt;span style=&quot;text-decoration-line: underline&quot;></span>
+<span class="add">+            Browse files</span>
+<span class="add">+          &lt;/span></span>
+<span class="add">+        &lt;/label></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+    &lt;/div></span>
+<span class="add">+    &lt;input</span>
+<span class="add">+      multiple</span>
+<span class="add">+      style=&quot;</span>
+<span class="add">+        grid-column-end: center;</span>
+<span class="add">+        grid-column-start: center;</span>
+<span class="add">+        grid-row-end: center;</span>
+<span class="add">+        grid-row-start: center</span>
+<span class="add">+      &quot;</span>
+<span class="add">+      type=&quot;file&quot;</span>
+<span class="add">+    /></span>
+<span class="add">+  &lt;/div></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section><section class="dim-section" id="dim-1" data-dim="1"><h3 class="dim-label">768px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="768"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+    <div class=&quot;file-input&quot;>
+        <div class=&quot;file-input__container file-input___container--dragged-over&quot;>
+            <div class=&quot;file-input__upload-icon&quot;>
+                <svg class=&quot;icon&quot; aria-hidden=&quot;true&quot;>   
+                    <use href=&quot;#icon-upload-24&quot;></use>
+                </svg>
+            </div>
+            <div class=&quot;file-input__content&quot;>
+                <h4 class=&quot;file-input__content-header&quot;>Drag and drop files</h4>
+                <span class=&quot;file-input__content-subheader&quot;>Up to 10MB per file in JPG, JPEG, PNG, MP4.</span>
+                <label for=&quot;file-input-1&quot;>
+                    <span class=&quot;file-input__content-cta&quot;>Browse files</span>
+                </label>
+            </div>
+        </div>
+        <input id=&quot;file-input-1&quot; class=&quot;file-input__input&quot; type=&quot;file&quot; multiple/>
+    </div>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,95 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;div style=&quot;</span>
+<span class="add">+    display: grid;</span>
+<span class="add">+    grid-template-areas: &quot;center&quot;;</span>
+<span class="add">+    grid-template-columns: 1fr;</span>
+<span class="add">+    grid-template-rows: 1fr</span>
+<span class="add">+  &quot;></span>
+<span class="add">+    &lt;div style=&quot;</span>
+<span class="add">+      background-color: var(--file-input-dragged-over-background-color, var(--color-background-tertiary));</span>
+<span class="add">+      border-bottom-color: currentcolor;</span>
+<span class="add">+      border-bottom-style: dashed;</span>
+<span class="add">+      border-bottom-width: 1px;</span>
+<span class="add">+      border-left-color: currentcolor;</span>
+<span class="add">+      border-left-style: dashed;</span>
+<span class="add">+      border-left-width: 1px;</span>
+<span class="add">+      border-right-color: currentcolor;</span>
+<span class="add">+      border-right-style: dashed;</span>
+<span class="add">+      border-right-width: 1px;</span>
+<span class="add">+      border-top-color: currentcolor;</span>
+<span class="add">+      border-top-style: dashed;</span>
+<span class="add">+      border-top-width: 1px;</span>
+<span class="add">+      display: flex;</span>
+<span class="add">+      grid-column-end: center;</span>
+<span class="add">+      grid-column-start: center;</span>
+<span class="add">+      grid-row-end: center;</span>
+<span class="add">+      grid-row-start: center;</span>
+<span class="add">+      min-width: fit-content;</span>
+<span class="add">+      padding: var(--spacing-300);</span>
+<span class="add">+      pointer-events: none;</span>
+<span class="add">+      z-index: 1</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        align-self: center;</span>
+<span class="add">+        background-color: var(--file-input-upload-icon-background-color, var(--color-background-primary));</span>
+<span class="add">+        border-bottom-left-radius: 99px;</span>
+<span class="add">+        border-bottom-right-radius: 99px;</span>
+<span class="add">+        border-top-left-radius: 99px;</span>
+<span class="add">+        border-top-right-radius: 99px;</span>
+<span class="add">+        padding: var(--spacing-300)</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;svg style=&quot;</span>
+<span class="add">+          display: inline-block;</span>
+<span class="add">+          fill: var(--file-input-upload-icon-fill, var(--color-foreground-primary));</span>
+<span class="add">+          height: var(--spacing-300);</span>
+<span class="add">+          pointer-events: none;</span>
+<span class="add">+          stroke-width: 0;</span>
+<span class="add">+          stroke: currentcolor;</span>
+<span class="add">+          vertical-align: middle;</span>
+<span class="add">+          width: var(--spacing-300)</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;use href=&quot;#icon-upload-24&quot;/></span>
+<span class="add">+        &lt;/svg></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        align-items: start;</span>
+<span class="add">+        display: flex;</span>
+<span class="add">+        flex-direction: column;</span>
+<span class="add">+        flex-grow: 1;</span>
+<span class="add">+        justify-content: center</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;h4 style=&quot;</span>
+<span class="add">+          color: var(--file-input-content-header-color, var(--color-foreground-primary));</span>
+<span class="add">+          font-size: var(--font-size-medium);</span>
+<span class="add">+          line-height: var(--spacing-300);</span>
+<span class="add">+          margin-block: 0 var(--spacing-50)</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Drag and drop files</span>
+<span class="add">+        &lt;/h4></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          color: var(--file-input-content-subheader-color, var(--color-foreground-secondary));</span>
+<span class="add">+          font-size: var(--font-size-body);</span>
+<span class="add">+          line-height: var(--spacing-250);</span>
+<span class="add">+          margin-block-end: var(--spacing-100)</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Up to 10MB per file in JPG, JPEG, PNG, MP4.</span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+        &lt;label></span>
+<span class="add">+          &lt;span style=&quot;text-decoration-line: underline&quot;></span>
+<span class="add">+            Browse files</span>
+<span class="add">+          &lt;/span></span>
+<span class="add">+        &lt;/label></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+    &lt;/div></span>
+<span class="add">+    &lt;input</span>
+<span class="add">+      multiple</span>
+<span class="add">+      style=&quot;</span>
+<span class="add">+        grid-column-end: center;</span>
+<span class="add">+        grid-column-start: center;</span>
+<span class="add">+        grid-row-end: center;</span>
+<span class="add">+        grid-row-start: center</span>
+<span class="add">+      &quot;</span>
+<span class="add">+      type=&quot;file&quot;</span>
+<span class="add">+    /></span>
+<span class="add">+  &lt;/div></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section><section class="dim-section" id="dim-2" data-dim="2"><h3 class="dim-label">1280px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+    <div class=&quot;file-input&quot;>
+        <div class=&quot;file-input__container file-input___container--dragged-over&quot;>
+            <div class=&quot;file-input__upload-icon&quot;>
+                <svg class=&quot;icon&quot; aria-hidden=&quot;true&quot;>   
+                    <use href=&quot;#icon-upload-24&quot;></use>
+                </svg>
+            </div>
+            <div class=&quot;file-input__content&quot;>
+                <h4 class=&quot;file-input__content-header&quot;>Drag and drop files</h4>
+                <span class=&quot;file-input__content-subheader&quot;>Up to 10MB per file in JPG, JPEG, PNG, MP4.</span>
+                <label for=&quot;file-input-1&quot;>
+                    <span class=&quot;file-input__content-cta&quot;>Browse files</span>
+                </label>
+            </div>
+        </div>
+        <input id=&quot;file-input-1&quot; class=&quot;file-input__input&quot; type=&quot;file&quot; multiple/>
+    </div>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,95 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;div style=&quot;</span>
+<span class="add">+    display: grid;</span>
+<span class="add">+    grid-template-areas: &quot;center&quot;;</span>
+<span class="add">+    grid-template-columns: 1fr;</span>
+<span class="add">+    grid-template-rows: 1fr</span>
+<span class="add">+  &quot;></span>
+<span class="add">+    &lt;div style=&quot;</span>
+<span class="add">+      background-color: var(--file-input-dragged-over-background-color, var(--color-background-tertiary));</span>
+<span class="add">+      border-bottom-color: currentcolor;</span>
+<span class="add">+      border-bottom-style: dashed;</span>
+<span class="add">+      border-bottom-width: 1px;</span>
+<span class="add">+      border-left-color: currentcolor;</span>
+<span class="add">+      border-left-style: dashed;</span>
+<span class="add">+      border-left-width: 1px;</span>
+<span class="add">+      border-right-color: currentcolor;</span>
+<span class="add">+      border-right-style: dashed;</span>
+<span class="add">+      border-right-width: 1px;</span>
+<span class="add">+      border-top-color: currentcolor;</span>
+<span class="add">+      border-top-style: dashed;</span>
+<span class="add">+      border-top-width: 1px;</span>
+<span class="add">+      display: flex;</span>
+<span class="add">+      grid-column-end: center;</span>
+<span class="add">+      grid-column-start: center;</span>
+<span class="add">+      grid-row-end: center;</span>
+<span class="add">+      grid-row-start: center;</span>
+<span class="add">+      min-width: fit-content;</span>
+<span class="add">+      padding: var(--spacing-300);</span>
+<span class="add">+      pointer-events: none;</span>
+<span class="add">+      z-index: 1</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        align-self: center;</span>
+<span class="add">+        background-color: var(--file-input-upload-icon-background-color, var(--color-background-primary));</span>
+<span class="add">+        border-bottom-left-radius: 99px;</span>
+<span class="add">+        border-bottom-right-radius: 99px;</span>
+<span class="add">+        border-top-left-radius: 99px;</span>
+<span class="add">+        border-top-right-radius: 99px;</span>
+<span class="add">+        padding: var(--spacing-300)</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;svg style=&quot;</span>
+<span class="add">+          display: inline-block;</span>
+<span class="add">+          fill: var(--file-input-upload-icon-fill, var(--color-foreground-primary));</span>
+<span class="add">+          height: var(--spacing-300);</span>
+<span class="add">+          pointer-events: none;</span>
+<span class="add">+          stroke-width: 0;</span>
+<span class="add">+          stroke: currentcolor;</span>
+<span class="add">+          vertical-align: middle;</span>
+<span class="add">+          width: var(--spacing-300)</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;use href=&quot;#icon-upload-24&quot;/></span>
+<span class="add">+        &lt;/svg></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        align-items: start;</span>
+<span class="add">+        display: flex;</span>
+<span class="add">+        flex-direction: column;</span>
+<span class="add">+        flex-grow: 1;</span>
+<span class="add">+        justify-content: center</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;h4 style=&quot;</span>
+<span class="add">+          color: var(--file-input-content-header-color, var(--color-foreground-primary));</span>
+<span class="add">+          font-size: var(--font-size-medium);</span>
+<span class="add">+          line-height: var(--spacing-300);</span>
+<span class="add">+          margin-block: 0 var(--spacing-50)</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Drag and drop files</span>
+<span class="add">+        &lt;/h4></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          color: var(--file-input-content-subheader-color, var(--color-foreground-secondary));</span>
+<span class="add">+          font-size: var(--font-size-body);</span>
+<span class="add">+          line-height: var(--spacing-250);</span>
+<span class="add">+          margin-block-end: var(--spacing-100)</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Up to 10MB per file in JPG, JPEG, PNG, MP4.</span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+        &lt;label></span>
+<span class="add">+          &lt;span style=&quot;text-decoration-line: underline&quot;></span>
+<span class="add">+            Browse files</span>
+<span class="add">+          &lt;/span></span>
+<span class="add">+        &lt;/label></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+    &lt;/div></span>
+<span class="add">+    &lt;input</span>
+<span class="add">+      multiple</span>
+<span class="add">+      style=&quot;</span>
+<span class="add">+        grid-column-end: center;</span>
+<span class="add">+        grid-column-start: center;</span>
+<span class="add">+        grid-row-end: center;</span>
+<span class="add">+        grid-row-start: center</span>
+<span class="add">+      &quot;</span>
+<span class="add">+      type=&quot;file&quot;</span>
+<span class="add">+    /></span>
+<span class="add">+  &lt;/div></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section>
+</main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
     <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
@@ -34,10 +400,10 @@
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
-    const PAGE = {"entry":{"component":"file-input","story":"draggedOver","file":"packages/skin/src/sass/file-input/stories/__snapshots__/file-input.snap","dims":[{"suffix":"320px","width":320,"rtl":false,"status":"added","before":"","after":"<div>\n  <div style=\"\n    display: grid;\n    grid-template-areas: \"center\";\n    grid-template-columns: 1fr;\n    grid-template-rows: 1fr\n  \">\n    <div style=\"\n      background-color: var(--file-input-dragged-over-background-color, var(--color-background-tertiary));\n      border-bottom-color: currentcolor;\n      border-bottom-style: dashed;\n      border-bottom-width: 1px;\n      border-left-color: currentcolor;\n      border-left-style: dashed;\n      border-left-width: 1px;\n      border-right-color: currentcolor;\n      border-right-style: dashed;\n      border-right-width: 1px;\n      border-top-color: currentcolor;\n      border-top-style: dashed;\n      border-top-width: 1px;\n      display: flex;\n      grid-column-end: center;\n      grid-column-start: center;\n      grid-row-end: center;\n      grid-row-start: center;\n      min-width: fit-content;\n      padding: var(--spacing-200);\n      pointer-events: none;\n      z-index: 1\n    \">\n      <div style=\"\n        align-self: center;\n        background-color: var(--file-input-upload-icon-background-color, var(--color-background-primary));\n        border-bottom-left-radius: 99px;\n        border-bottom-right-radius: 99px;\n        border-top-left-radius: 99px;\n        border-top-right-radius: 99px;\n        padding: var(--spacing-150)\n      \">\n        <svg style=\"\n          display: inline-block;\n          fill: var(--file-input-upload-icon-fill, var(--color-foreground-primary));\n          height: var(--spacing-300);\n          pointer-events: none;\n          stroke-width: 0;\n          stroke: currentcolor;\n          vertical-align: middle;\n          width: var(--spacing-300)\n        \">\n          <use href=\"#icon-upload-24\"/>\n        <\/svg>\n      <\/div>\n      <div style=\"\n        align-items: start;\n        display: flex;\n        flex-direction: column;\n        flex-grow: 1;\n        justify-content: center\n      \">\n        <h4 style=\"\n          color: var(--file-input-content-header-color, var(--color-foreground-primary));\n          font-size: var(--font-size-body);\n          line-height: var(--spacing-250);\n          margin-block: 0 var(--spacing-50)\n        \">\n          Drag and drop files\n        <\/h4>\n        <span style=\"\n          color: var(--file-input-content-subheader-color, var(--color-foreground-secondary));\n          font-size: var(--font-size-small);\n          line-height: var(--spacing-200);\n          margin-block-end: var(--spacing-100)\n        \">\n          Up to 10MB per file in JPG, JPEG, PNG, MP4.\n        <\/span>\n        <label>\n          <span style=\"text-decoration-line: underline\">\n            Browse files\n          <\/span>\n        <\/label>\n      <\/div>\n    <\/div>\n    <input\n      multiple\n      style=\"\n        grid-column-end: center;\n        grid-column-start: center;\n        grid-row-end: center;\n        grid-row-start: center\n      \"\n      type=\"file\"\n    />\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,95 @@\n+<div>\n+  <div style=\"\n+    display: grid;\n+    grid-template-areas: \"center\";\n+    grid-template-columns: 1fr;\n+    grid-template-rows: 1fr\n+  \">\n+    <div style=\"\n+      background-color: var(--file-input-dragged-over-background-color, var(--color-background-tertiary));\n+      border-bottom-color: currentcolor;\n+      border-bottom-style: dashed;\n+      border-bottom-width: 1px;\n+      border-left-color: currentcolor;\n+      border-left-style: dashed;\n+      border-left-width: 1px;\n+      border-right-color: currentcolor;\n+      border-right-style: dashed;\n+      border-right-width: 1px;\n+      border-top-color: currentcolor;\n+      border-top-style: dashed;\n+      border-top-width: 1px;\n+      display: flex;\n+      grid-column-end: center;\n+      grid-column-start: center;\n+      grid-row-end: center;\n+      grid-row-start: center;\n+      min-width: fit-content;\n+      padding: var(--spacing-200);\n+      pointer-events: none;\n+      z-index: 1\n+    \">\n+      <div style=\"\n+        align-self: center;\n+        background-color: var(--file-input-upload-icon-background-color, var(--color-background-primary));\n+        border-bottom-left-radius: 99px;\n+        border-bottom-right-radius: 99px;\n+        border-top-left-radius: 99px;\n+        border-top-right-radius: 99px;\n+        padding: var(--spacing-150)\n+      \">\n+        <svg style=\"\n+          display: inline-block;\n+          fill: var(--file-input-upload-icon-fill, var(--color-foreground-primary));\n+          height: var(--spacing-300);\n+          pointer-events: none;\n+          stroke-width: 0;\n+          stroke: currentcolor;\n+          vertical-align: middle;\n+          width: var(--spacing-300)\n+        \">\n+          <use href=\"#icon-upload-24\"/>\n+        <\/svg>\n+      <\/div>\n+      <div style=\"\n+        align-items: start;\n+        display: flex;\n+        flex-direction: column;\n+        flex-grow: 1;\n+        justify-content: center\n+      \">\n+        <h4 style=\"\n+          color: var(--file-input-content-header-color, var(--color-foreground-primary));\n+          font-size: var(--font-size-body);\n+          line-height: var(--spacing-250);\n+          margin-block: 0 var(--spacing-50)\n+        \">\n+          Drag and drop files\n+        <\/h4>\n+        <span style=\"\n+          color: var(--file-input-content-subheader-color, var(--color-foreground-secondary));\n+          font-size: var(--font-size-small);\n+          line-height: var(--spacing-200);\n+          margin-block-end: var(--spacing-100)\n+        \">\n+          Up to 10MB per file in JPG, JPEG, PNG, MP4.\n+        <\/span>\n+        <label>\n+          <span style=\"text-decoration-line: underline\">\n+            Browse files\n+          <\/span>\n+        <\/label>\n+      <\/div>\n+    <\/div>\n+    <input\n+      multiple\n+      style=\"\n+        grid-column-end: center;\n+        grid-column-start: center;\n+        grid-row-end: center;\n+        grid-row-start: center\n+      \"\n+      type=\"file\"\n+    />\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"},{"suffix":"768px","width":768,"rtl":false,"status":"added","before":"","after":"<div>\n  <div style=\"\n    display: grid;\n    grid-template-areas: \"center\";\n    grid-template-columns: 1fr;\n    grid-template-rows: 1fr\n  \">\n    <div style=\"\n      background-color: var(--file-input-dragged-over-background-color, var(--color-background-tertiary));\n      border-bottom-color: currentcolor;\n      border-bottom-style: dashed;\n      border-bottom-width: 1px;\n      border-left-color: currentcolor;\n      border-left-style: dashed;\n      border-left-width: 1px;\n      border-right-color: currentcolor;\n      border-right-style: dashed;\n      border-right-width: 1px;\n      border-top-color: currentcolor;\n      border-top-style: dashed;\n      border-top-width: 1px;\n      display: flex;\n      grid-column-end: center;\n      grid-column-start: center;\n      grid-row-end: center;\n      grid-row-start: center;\n      min-width: fit-content;\n      padding: var(--spacing-300);\n      pointer-events: none;\n      z-index: 1\n    \">\n      <div style=\"\n        align-self: center;\n        background-color: var(--file-input-upload-icon-background-color, var(--color-background-primary));\n        border-bottom-left-radius: 99px;\n        border-bottom-right-radius: 99px;\n        border-top-left-radius: 99px;\n        border-top-right-radius: 99px;\n        padding: var(--spacing-300)\n      \">\n        <svg style=\"\n          display: inline-block;\n          fill: var(--file-input-upload-icon-fill, var(--color-foreground-primary));\n          height: var(--spacing-300);\n          pointer-events: none;\n          stroke-width: 0;\n          stroke: currentcolor;\n          vertical-align: middle;\n          width: var(--spacing-300)\n        \">\n          <use href=\"#icon-upload-24\"/>\n        <\/svg>\n      <\/div>\n      <div style=\"\n        align-items: start;\n        display: flex;\n        flex-direction: column;\n        flex-grow: 1;\n        justify-content: center\n      \">\n        <h4 style=\"\n          color: var(--file-input-content-header-color, var(--color-foreground-primary));\n          font-size: var(--font-size-medium);\n          line-height: var(--spacing-300);\n          margin-block: 0 var(--spacing-50)\n        \">\n          Drag and drop files\n        <\/h4>\n        <span style=\"\n          color: var(--file-input-content-subheader-color, var(--color-foreground-secondary));\n          font-size: var(--font-size-body);\n          line-height: var(--spacing-250);\n          margin-block-end: var(--spacing-100)\n        \">\n          Up to 10MB per file in JPG, JPEG, PNG, MP4.\n        <\/span>\n        <label>\n          <span style=\"text-decoration-line: underline\">\n            Browse files\n          <\/span>\n        <\/label>\n      <\/div>\n    <\/div>\n    <input\n      multiple\n      style=\"\n        grid-column-end: center;\n        grid-column-start: center;\n        grid-row-end: center;\n        grid-row-start: center\n      \"\n      type=\"file\"\n    />\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,95 @@\n+<div>\n+  <div style=\"\n+    display: grid;\n+    grid-template-areas: \"center\";\n+    grid-template-columns: 1fr;\n+    grid-template-rows: 1fr\n+  \">\n+    <div style=\"\n+      background-color: var(--file-input-dragged-over-background-color, var(--color-background-tertiary));\n+      border-bottom-color: currentcolor;\n+      border-bottom-style: dashed;\n+      border-bottom-width: 1px;\n+      border-left-color: currentcolor;\n+      border-left-style: dashed;\n+      border-left-width: 1px;\n+      border-right-color: currentcolor;\n+      border-right-style: dashed;\n+      border-right-width: 1px;\n+      border-top-color: currentcolor;\n+      border-top-style: dashed;\n+      border-top-width: 1px;\n+      display: flex;\n+      grid-column-end: center;\n+      grid-column-start: center;\n+      grid-row-end: center;\n+      grid-row-start: center;\n+      min-width: fit-content;\n+      padding: var(--spacing-300);\n+      pointer-events: none;\n+      z-index: 1\n+    \">\n+      <div style=\"\n+        align-self: center;\n+        background-color: var(--file-input-upload-icon-background-color, var(--color-background-primary));\n+        border-bottom-left-radius: 99px;\n+        border-bottom-right-radius: 99px;\n+        border-top-left-radius: 99px;\n+        border-top-right-radius: 99px;\n+        padding: var(--spacing-300)\n+      \">\n+        <svg style=\"\n+          display: inline-block;\n+          fill: var(--file-input-upload-icon-fill, var(--color-foreground-primary));\n+          height: var(--spacing-300);\n+          pointer-events: none;\n+          stroke-width: 0;\n+          stroke: currentcolor;\n+          vertical-align: middle;\n+          width: var(--spacing-300)\n+        \">\n+          <use href=\"#icon-upload-24\"/>\n+        <\/svg>\n+      <\/div>\n+      <div style=\"\n+        align-items: start;\n+        display: flex;\n+        flex-direction: column;\n+        flex-grow: 1;\n+        justify-content: center\n+      \">\n+        <h4 style=\"\n+          color: var(--file-input-content-header-color, var(--color-foreground-primary));\n+          font-size: var(--font-size-medium);\n+          line-height: var(--spacing-300);\n+          margin-block: 0 var(--spacing-50)\n+        \">\n+          Drag and drop files\n+        <\/h4>\n+        <span style=\"\n+          color: var(--file-input-content-subheader-color, var(--color-foreground-secondary));\n+          font-size: var(--font-size-body);\n+          line-height: var(--spacing-250);\n+          margin-block-end: var(--spacing-100)\n+        \">\n+          Up to 10MB per file in JPG, JPEG, PNG, MP4.\n+        <\/span>\n+        <label>\n+          <span style=\"text-decoration-line: underline\">\n+            Browse files\n+          <\/span>\n+        <\/label>\n+      <\/div>\n+    <\/div>\n+    <input\n+      multiple\n+      style=\"\n+        grid-column-end: center;\n+        grid-column-start: center;\n+        grid-row-end: center;\n+        grid-row-start: center\n+      \"\n+      type=\"file\"\n+    />\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"},{"suffix":"1280px","width":1280,"rtl":false,"status":"added","before":"","after":"<div>\n  <div style=\"\n    display: grid;\n    grid-template-areas: \"center\";\n    grid-template-columns: 1fr;\n    grid-template-rows: 1fr\n  \">\n    <div style=\"\n      background-color: var(--file-input-dragged-over-background-color, var(--color-background-tertiary));\n      border-bottom-color: currentcolor;\n      border-bottom-style: dashed;\n      border-bottom-width: 1px;\n      border-left-color: currentcolor;\n      border-left-style: dashed;\n      border-left-width: 1px;\n      border-right-color: currentcolor;\n      border-right-style: dashed;\n      border-right-width: 1px;\n      border-top-color: currentcolor;\n      border-top-style: dashed;\n      border-top-width: 1px;\n      display: flex;\n      grid-column-end: center;\n      grid-column-start: center;\n      grid-row-end: center;\n      grid-row-start: center;\n      min-width: fit-content;\n      padding: var(--spacing-300);\n      pointer-events: none;\n      z-index: 1\n    \">\n      <div style=\"\n        align-self: center;\n        background-color: var(--file-input-upload-icon-background-color, var(--color-background-primary));\n        border-bottom-left-radius: 99px;\n        border-bottom-right-radius: 99px;\n        border-top-left-radius: 99px;\n        border-top-right-radius: 99px;\n        padding: var(--spacing-300)\n      \">\n        <svg style=\"\n          display: inline-block;\n          fill: var(--file-input-upload-icon-fill, var(--color-foreground-primary));\n          height: var(--spacing-300);\n          pointer-events: none;\n          stroke-width: 0;\n          stroke: currentcolor;\n          vertical-align: middle;\n          width: var(--spacing-300)\n        \">\n          <use href=\"#icon-upload-24\"/>\n        <\/svg>\n      <\/div>\n      <div style=\"\n        align-items: start;\n        display: flex;\n        flex-direction: column;\n        flex-grow: 1;\n        justify-content: center\n      \">\n        <h4 style=\"\n          color: var(--file-input-content-header-color, var(--color-foreground-primary));\n          font-size: var(--font-size-medium);\n          line-height: var(--spacing-300);\n          margin-block: 0 var(--spacing-50)\n        \">\n          Drag and drop files\n        <\/h4>\n        <span style=\"\n          color: var(--file-input-content-subheader-color, var(--color-foreground-secondary));\n          font-size: var(--font-size-body);\n          line-height: var(--spacing-250);\n          margin-block-end: var(--spacing-100)\n        \">\n          Up to 10MB per file in JPG, JPEG, PNG, MP4.\n        <\/span>\n        <label>\n          <span style=\"text-decoration-line: underline\">\n            Browse files\n          <\/span>\n        <\/label>\n      <\/div>\n    <\/div>\n    <input\n      multiple\n      style=\"\n        grid-column-end: center;\n        grid-column-start: center;\n        grid-row-end: center;\n        grid-row-start: center\n      \"\n      type=\"file\"\n    />\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,95 @@\n+<div>\n+  <div style=\"\n+    display: grid;\n+    grid-template-areas: \"center\";\n+    grid-template-columns: 1fr;\n+    grid-template-rows: 1fr\n+  \">\n+    <div style=\"\n+      background-color: var(--file-input-dragged-over-background-color, var(--color-background-tertiary));\n+      border-bottom-color: currentcolor;\n+      border-bottom-style: dashed;\n+      border-bottom-width: 1px;\n+      border-left-color: currentcolor;\n+      border-left-style: dashed;\n+      border-left-width: 1px;\n+      border-right-color: currentcolor;\n+      border-right-style: dashed;\n+      border-right-width: 1px;\n+      border-top-color: currentcolor;\n+      border-top-style: dashed;\n+      border-top-width: 1px;\n+      display: flex;\n+      grid-column-end: center;\n+      grid-column-start: center;\n+      grid-row-end: center;\n+      grid-row-start: center;\n+      min-width: fit-content;\n+      padding: var(--spacing-300);\n+      pointer-events: none;\n+      z-index: 1\n+    \">\n+      <div style=\"\n+        align-self: center;\n+        background-color: var(--file-input-upload-icon-background-color, var(--color-background-primary));\n+        border-bottom-left-radius: 99px;\n+        border-bottom-right-radius: 99px;\n+        border-top-left-radius: 99px;\n+        border-top-right-radius: 99px;\n+        padding: var(--spacing-300)\n+      \">\n+        <svg style=\"\n+          display: inline-block;\n+          fill: var(--file-input-upload-icon-fill, var(--color-foreground-primary));\n+          height: var(--spacing-300);\n+          pointer-events: none;\n+          stroke-width: 0;\n+          stroke: currentcolor;\n+          vertical-align: middle;\n+          width: var(--spacing-300)\n+        \">\n+          <use href=\"#icon-upload-24\"/>\n+        <\/svg>\n+      <\/div>\n+      <div style=\"\n+        align-items: start;\n+        display: flex;\n+        flex-direction: column;\n+        flex-grow: 1;\n+        justify-content: center\n+      \">\n+        <h4 style=\"\n+          color: var(--file-input-content-header-color, var(--color-foreground-primary));\n+          font-size: var(--font-size-medium);\n+          line-height: var(--spacing-300);\n+          margin-block: 0 var(--spacing-50)\n+        \">\n+          Drag and drop files\n+        <\/h4>\n+        <span style=\"\n+          color: var(--file-input-content-subheader-color, var(--color-foreground-secondary));\n+          font-size: var(--font-size-body);\n+          line-height: var(--spacing-250);\n+          margin-block-end: var(--spacing-100)\n+        \">\n+          Up to 10MB per file in JPG, JPEG, PNG, MP4.\n+        <\/span>\n+        <label>\n+          <span style=\"text-decoration-line: underline\">\n+            Browse files\n+          <\/span>\n+        <\/label>\n+      <\/div>\n+    <\/div>\n+    <input\n+      multiple\n+      style=\"\n+        grid-column-end: center;\n+        grid-column-start: center;\n+        grid-row-end: center;\n+        grid-row-start: center\n+      \"\n+      type=\"file\"\n+    />\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"\n    <div class=\"file-input\">\n        <div class=\"file-input__container file-input___container--dragged-over\">\n            <div class=\"file-input__upload-icon\">\n                <svg class=\"icon\" aria-hidden=\"true\">   \n                    <use href=\"#icon-upload-24\"><\/use>\n                <\/svg>\n            <\/div>\n            <div class=\"file-input__content\">\n                <h4 class=\"file-input__content-header\">Drag and drop files<\/h4>\n                <span class=\"file-input__content-subheader\">Up to 10MB per file in JPG, JPEG, PNG, MP4.<\/span>\n                <label for=\"file-input-1\">\n                    <span class=\"file-input__content-cta\">Browse files<\/span>\n                <\/label>\n            <\/div>\n        <\/div>\n        <input id=\"file-input-1\" class=\"file-input__input\" type=\"file\" multiple/>\n    <\/div>\n","storyAfter":"\n    <div class=\"file-input\">\n        <div class=\"file-input__container file-input___container--dragged-over\">\n            <div class=\"file-input__upload-icon\">\n                <svg class=\"icon\" aria-hidden=\"true\">   \n                    <use href=\"#icon-upload-24\"><\/use>\n                <\/svg>\n            <\/div>\n            <div class=\"file-input__content\">\n                <h4 class=\"file-input__content-header\">Drag and drop files<\/h4>\n                <span class=\"file-input__content-subheader\">Up to 10MB per file in JPG, JPEG, PNG, MP4.<\/span>\n                <label for=\"file-input-1\">\n                    <span class=\"file-input__content-cta\">Browse files<\/span>\n                <\/label>\n            <\/div>\n        <\/div>\n        <input id=\"file-input-1\" class=\"file-input__input\" type=\"file\" multiple/>\n    <\/div>\n"},"baseRefShort":"60ee2f496866","prevHref":"file-input-stories-file-input--base.html","nextHref":"file-preview-card-group-stories-file-preview-card-group--RTL.html","indexHref":"../index.html","pos":302,"total":1012,"slug":"file-input-stories-file-input--draggedOver","hash":"1pm59yq"};
+    const PAGE = {"baseRefShort":"60ee2f496866","prevHref":"file-input-stories-file-input--base.html","nextHref":"file-preview-card-group-stories-file-preview-card-group--RTL.html","indexHref":"../index.html","pos":302,"total":1012,"slug":"file-input-stories-file-input--draggedOver","hash":"1pm59yq","component":"file-input","story":"draggedOver","file":"packages/skin/src/sass/file-input/stories/__snapshots__/file-input.snap","dims":[{"changes":[]},{"changes":[]},{"changes":[]}]};
 </script>
-<script src="../assets/nav.js"></script>
-<script src="../assets/story.js"></script>
+<script src="../assets/nav.js" defer></script>
+<script src="../assets/story.js" defer></script>
 <script src="../assets/prefetch.js" defer></script>
 </body>
 </html>

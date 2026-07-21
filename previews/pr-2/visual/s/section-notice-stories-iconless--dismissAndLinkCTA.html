@@ -9,8 +9,8 @@
 <body class="story-page">
 <header>
     <a class="back" href="../index.html">← All changes</a>
-    <h1 id="title"></h1>
-    <span class="meta" id="path"></span>
+    <h1 id="title">section-notice / dismissAndLinkCTA</h1>
+    <span class="meta" id="path">packages/skin/src/sass/section-notice/stories/__snapshots__/iconless.snap</span>
     <span class="pagenav">
         <a id="prev" href="#">‹ prev</a>
         <span class="pos" id="pos"></span>
@@ -21,7 +21,499 @@
     <input id="search" type="search" placeholder="Filter stories… ( / )" />
     <div id="storylist"></div>
 </nav>
-<main id="main"></main>
+<main id="main">
+    <div class="toolbar">
+        <div class="seg" data-seg="mode">
+            <button type="button" data-v="side" class="active">Side by side</button>
+            <button type="button" data-v="swipe">Swipe</button>
+            <button type="button" data-v="onion">Onion</button>
+            <button type="button" data-v="flip">Flip</button>
+        </div>
+        <div class="seg" data-seg="view">
+            <button type="button" data-v="rendered" class="active">Rendered</button>
+            <button type="button" data-v="diff">Text diff</button>
+        </div>
+        <div class="seg" data-seg="theme">
+            <button type="button" data-v="light" class="active">Light</button>
+            <button type="button" data-v="dark">Dark</button>
+        </div>
+        <label class="toggle"><input type="checkbox" id="hl-toggle" checked />Highlights</label>
+        <div class="grow"></div>
+        <button class="flag" id="flag-btn" type="button">⚑ Flag</button>
+    </div>
+    <section class="dim-section" id="dim-0" data-dim="0"><h3 class="dim-label">320px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="320"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<div class=&quot;section-notice&quot; role=&quot;region&quot;>
+    <div class=&quot;section-notice__main&quot;>
+        <h3 class=&quot;section-notice__title&quot;>Notification Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <p class=&quot;section-notice__cta&quot;><a href=&quot;https://www.ebay.com&quot;>Action</a></p>
+    <div class=&quot;section-notice__footer&quot;>
+        <button aria-label=&quot;Close notice&quot; class=&quot;fake-link section-notice__dismiss&quot;>
+            <svg aria-hidden=&quot;true&quot; class=&quot;icon icon--16&quot; height=&quot;16&quot; width=&quot;16&quot;>
+                <use href=&quot;#icon-close-16&quot;></use>
+            </svg>
+        </button>
+    </div>
+</div>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,100 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;div style=&quot;</span>
+<span class="add">+    background-color: var(--section-notice-default-background-color, var(--color-background-secondary));</span>
+<span class="add">+    display: grid;</span>
+<span class="add">+    font-size: var(--font-size-body);</span>
+<span class="add">+    grid-template-columns: 32px auto auto min-content;</span>
+<span class="add">+    margin-bottom: 8px;</span>
+<span class="add">+    margin-top: 8px;</span>
+<span class="add">+    padding-bottom: 16px;</span>
+<span class="add">+    padding-left: 16px;</span>
+<span class="add">+    padding-right: 16px;</span>
+<span class="add">+    padding-top: 16px</span>
+<span class="add">+  &quot;></span>
+<span class="add">+    &lt;div style=&quot;</span>
+<span class="add">+      grid-column-end: 3;</span>
+<span class="add">+      grid-column-start: 1;</span>
+<span class="add">+      grid-row-start: 1;</span>
+<span class="add">+      margin-inline-end: var(--spacing-200)</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;h3 style=&quot;</span>
+<span class="add">+        font-size: var(--font-size-body);</span>
+<span class="add">+        margin-bottom: 0px;</span>
+<span class="add">+        margin-top: 0px</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        Notification Title</span>
+<span class="add">+      &lt;/h3></span>
+<span class="add">+      &lt;p style=&quot;</span>
+<span class="add">+        font-size: var(--font-size-body);</span>
+<span class="add">+        margin-bottom: 0px;</span>
+<span class="add">+        margin-top: 0px;</span>
+<span class="add">+        margin: var(--spacing-50) 0 0</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+<span class="add">+      &lt;/p></span>
+<span class="add">+    &lt;/div></span>
+<span class="add">+    &lt;p style=&quot;</span>
+<span class="add">+      grid-column-end: 3;</span>
+<span class="add">+      grid-column-start: 1;</span>
+<span class="add">+      grid-row-start: 2;</span>
+<span class="add">+      justify-self: flex-start;</span>
+<span class="add">+      margin-bottom: 0px;</span>
+<span class="add">+      margin-top: var(--spacing-200)</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;a style=&quot;</span>
+<span class="add">+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));</span>
+<span class="add">+        font-size: var(--font-size-body);</span>
+<span class="add">+        text-wrap-mode: nowrap</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        Action</span>
+<span class="add">+      &lt;/a></span>
+<span class="add">+    &lt;/p></span>
+<span class="add">+    &lt;div style=&quot;</span>
+<span class="add">+      grid-column-start: 4;</span>
+<span class="add">+      grid-row-start: 1;</span>
+<span class="add">+      justify-self: flex-end;</span>
+<span class="add">+      margin-top: 2px</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;button style=&quot;</span>
+<span class="add">+        border-bottom-color: currentcolor;</span>
+<span class="add">+        border-bottom-style: none;</span>
+<span class="add">+        border-bottom-width: 0px;</span>
+<span class="add">+        border-left-color: currentcolor;</span>
+<span class="add">+        border-left-style: none;</span>
+<span class="add">+        border-left-width: 0px;</span>
+<span class="add">+        border-right-color: currentcolor;</span>
+<span class="add">+        border-right-style: none;</span>
+<span class="add">+        border-right-width: 0px;</span>
+<span class="add">+        border-top-color: currentcolor;</span>
+<span class="add">+        border-top-style: none;</span>
+<span class="add">+        border-top-width: 0px;</span>
+<span class="add">+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));</span>
+<span class="add">+        font-family: inherit;</span>
+<span class="add">+        font-size: var(--font-size-body);</span>
+<span class="add">+        font-weight: 700;</span>
+<span class="add">+        padding-bottom: 0px;</span>
+<span class="add">+        padding-left: 0px;</span>
+<span class="add">+        padding-right: 0px;</span>
+<span class="add">+        padding-top: 0px;</span>
+<span class="add">+        text-decoration-line: underline</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;svg</span>
+<span class="add">+          height=&quot;16&quot;</span>
+<span class="add">+          style=&quot;</span>
+<span class="add">+            display: inline-block;</span>
+<span class="add">+            fill: currentcolor;</span>
+<span class="add">+            height: 16px;</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            stroke-width: 0;</span>
+<span class="add">+            stroke: currentcolor;</span>
+<span class="add">+            vertical-align: top;</span>
+<span class="add">+            width: 16px</span>
+<span class="add">+          &quot;</span>
+<span class="add">+          width=&quot;16&quot;</span>
+<span class="add">+        ></span>
+<span class="add">+          &lt;use href=&quot;#icon-close-16&quot;/></span>
+<span class="add">+        &lt;/svg></span>
+<span class="add">+      &lt;/button></span>
+<span class="add">+    &lt;/div></span>
+<span class="add">+  &lt;/div></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section><section class="dim-section" id="dim-1" data-dim="1"><h3 class="dim-label">512px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="512"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<div class=&quot;section-notice&quot; role=&quot;region&quot;>
+    <div class=&quot;section-notice__main&quot;>
+        <h3 class=&quot;section-notice__title&quot;>Notification Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <p class=&quot;section-notice__cta&quot;><a href=&quot;https://www.ebay.com&quot;>Action</a></p>
+    <div class=&quot;section-notice__footer&quot;>
+        <button aria-label=&quot;Close notice&quot; class=&quot;fake-link section-notice__dismiss&quot;>
+            <svg aria-hidden=&quot;true&quot; class=&quot;icon icon--16&quot; height=&quot;16&quot; width=&quot;16&quot;>
+                <use href=&quot;#icon-close-16&quot;></use>
+            </svg>
+        </button>
+    </div>
+</div>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,101 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;div style=&quot;</span>
+<span class="add">+    background-color: var(--section-notice-default-background-color, var(--color-background-secondary));</span>
+<span class="add">+    display: grid;</span>
+<span class="add">+    font-size: var(--font-size-body);</span>
+<span class="add">+    grid-template-columns: 32px auto auto min-content;</span>
+<span class="add">+    margin-bottom: 8px;</span>
+<span class="add">+    margin-top: 8px;</span>
+<span class="add">+    margin: var(--spacing-200) 0;</span>
+<span class="add">+    padding-bottom: 16px;</span>
+<span class="add">+    padding-left: 16px;</span>
+<span class="add">+    padding-right: 16px;</span>
+<span class="add">+    padding-top: 16px</span>
+<span class="add">+  &quot;></span>
+<span class="add">+    &lt;div style=&quot;</span>
+<span class="add">+      grid-column-end: 3;</span>
+<span class="add">+      grid-column-start: 1;</span>
+<span class="add">+      grid-row-start: 1;</span>
+<span class="add">+      margin-inline-end: var(--spacing-200)</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;h3 style=&quot;</span>
+<span class="add">+        font-size: var(--font-size-body);</span>
+<span class="add">+        margin-bottom: 0px;</span>
+<span class="add">+        margin-top: 0px</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        Notification Title</span>
+<span class="add">+      &lt;/h3></span>
+<span class="add">+      &lt;p style=&quot;</span>
+<span class="add">+        font-size: var(--font-size-body);</span>
+<span class="add">+        margin-bottom: 0px;</span>
+<span class="add">+        margin-top: 0px;</span>
+<span class="add">+        margin: var(--spacing-50) 0 0</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+<span class="add">+      &lt;/p></span>
+<span class="add">+    &lt;/div></span>
+<span class="add">+    &lt;p style=&quot;</span>
+<span class="add">+      grid-column-start: 4;</span>
+<span class="add">+      grid-row-start: 1;</span>
+<span class="add">+      justify-self: flex-end;</span>
+<span class="add">+      margin-bottom: 0px;</span>
+<span class="add">+      margin-top: 0px</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;a style=&quot;</span>
+<span class="add">+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));</span>
+<span class="add">+        font-size: var(--font-size-body);</span>
+<span class="add">+        text-wrap-mode: nowrap</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        Action</span>
+<span class="add">+      &lt;/a></span>
+<span class="add">+    &lt;/p></span>
+<span class="add">+    &lt;div style=&quot;</span>
+<span class="add">+      grid-column-start: 4;</span>
+<span class="add">+      grid-row-start: 1;</span>
+<span class="add">+      justify-self: flex-end;</span>
+<span class="add">+      margin-top: 2px;</span>
+<span class="add">+      padding-inline-start: var(--spacing-200)</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;button style=&quot;</span>
+<span class="add">+        border-bottom-color: currentcolor;</span>
+<span class="add">+        border-bottom-style: none;</span>
+<span class="add">+        border-bottom-width: 0px;</span>
+<span class="add">+        border-left-color: currentcolor;</span>
+<span class="add">+        border-left-style: none;</span>
+<span class="add">+        border-left-width: 0px;</span>
+<span class="add">+        border-right-color: currentcolor;</span>
+<span class="add">+        border-right-style: none;</span>
+<span class="add">+        border-right-width: 0px;</span>
+<span class="add">+        border-top-color: currentcolor;</span>
+<span class="add">+        border-top-style: none;</span>
+<span class="add">+        border-top-width: 0px;</span>
+<span class="add">+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));</span>
+<span class="add">+        font-family: inherit;</span>
+<span class="add">+        font-size: var(--font-size-body);</span>
+<span class="add">+        font-weight: 700;</span>
+<span class="add">+        padding-bottom: 0px;</span>
+<span class="add">+        padding-left: 0px;</span>
+<span class="add">+        padding-right: 0px;</span>
+<span class="add">+        padding-top: 0px;</span>
+<span class="add">+        text-decoration-line: underline</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;svg</span>
+<span class="add">+          height=&quot;16&quot;</span>
+<span class="add">+          style=&quot;</span>
+<span class="add">+            display: inline-block;</span>
+<span class="add">+            fill: currentcolor;</span>
+<span class="add">+            height: 16px;</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            stroke-width: 0;</span>
+<span class="add">+            stroke: currentcolor;</span>
+<span class="add">+            vertical-align: top;</span>
+<span class="add">+            width: 16px</span>
+<span class="add">+          &quot;</span>
+<span class="add">+          width=&quot;16&quot;</span>
+<span class="add">+        ></span>
+<span class="add">+          &lt;use href=&quot;#icon-close-16&quot;/></span>
+<span class="add">+        &lt;/svg></span>
+<span class="add">+      &lt;/button></span>
+<span class="add">+    &lt;/div></span>
+<span class="add">+  &lt;/div></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section><section class="dim-section" id="dim-2" data-dim="2"><h3 class="dim-label">1280px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<div class=&quot;section-notice&quot; role=&quot;region&quot;>
+    <div class=&quot;section-notice__main&quot;>
+        <h3 class=&quot;section-notice__title&quot;>Notification Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <p class=&quot;section-notice__cta&quot;><a href=&quot;https://www.ebay.com&quot;>Action</a></p>
+    <div class=&quot;section-notice__footer&quot;>
+        <button aria-label=&quot;Close notice&quot; class=&quot;fake-link section-notice__dismiss&quot;>
+            <svg aria-hidden=&quot;true&quot; class=&quot;icon icon--16&quot; height=&quot;16&quot; width=&quot;16&quot;>
+                <use href=&quot;#icon-close-16&quot;></use>
+            </svg>
+        </button>
+    </div>
+</div>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,101 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;div style=&quot;</span>
+<span class="add">+    background-color: var(--section-notice-default-background-color, var(--color-background-secondary));</span>
+<span class="add">+    display: grid;</span>
+<span class="add">+    font-size: var(--font-size-body);</span>
+<span class="add">+    grid-template-columns: 32px auto auto min-content;</span>
+<span class="add">+    margin-bottom: 8px;</span>
+<span class="add">+    margin-top: 8px;</span>
+<span class="add">+    margin: var(--spacing-200) 0;</span>
+<span class="add">+    padding-bottom: 16px;</span>
+<span class="add">+    padding-left: 16px;</span>
+<span class="add">+    padding-right: 16px;</span>
+<span class="add">+    padding-top: 16px</span>
+<span class="add">+  &quot;></span>
+<span class="add">+    &lt;div style=&quot;</span>
+<span class="add">+      grid-column-end: 3;</span>
+<span class="add">+      grid-column-start: 1;</span>
+<span class="add">+      grid-row-start: 1;</span>
+<span class="add">+      margin-inline-end: var(--spacing-200)</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;h3 style=&quot;</span>
+<span class="add">+        font-size: var(--font-size-body);</span>
+<span class="add">+        margin-bottom: 0px;</span>
+<span class="add">+        margin-top: 0px</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        Notification Title</span>
+<span class="add">+      &lt;/h3></span>
+<span class="add">+      &lt;p style=&quot;</span>
+<span class="add">+        font-size: var(--font-size-body);</span>
+<span class="add">+        margin-bottom: 0px;</span>
+<span class="add">+        margin-top: 0px;</span>
+<span class="add">+        margin: var(--spacing-50) 0 0</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+<span class="add">+      &lt;/p></span>
+<span class="add">+    &lt;/div></span>
+<span class="add">+    &lt;p style=&quot;</span>
+<span class="add">+      grid-column-start: 4;</span>
+<span class="add">+      grid-row-start: 1;</span>
+<span class="add">+      justify-self: flex-end;</span>
+<span class="add">+      margin-bottom: 0px;</span>
+<span class="add">+      margin-top: 0px</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;a style=&quot;</span>
+<span class="add">+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));</span>
+<span class="add">+        font-size: var(--font-size-body);</span>
+<span class="add">+        text-wrap-mode: nowrap</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        Action</span>
+<span class="add">+      &lt;/a></span>
+<span class="add">+    &lt;/p></span>
+<span class="add">+    &lt;div style=&quot;</span>
+<span class="add">+      grid-column-start: 4;</span>
+<span class="add">+      grid-row-start: 1;</span>
+<span class="add">+      justify-self: flex-end;</span>
+<span class="add">+      margin-top: 2px;</span>
+<span class="add">+      padding-inline-start: var(--spacing-200)</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;button style=&quot;</span>
+<span class="add">+        border-bottom-color: currentcolor;</span>
+<span class="add">+        border-bottom-style: none;</span>
+<span class="add">+        border-bottom-width: 0px;</span>
+<span class="add">+        border-left-color: currentcolor;</span>
+<span class="add">+        border-left-style: none;</span>
+<span class="add">+        border-left-width: 0px;</span>
+<span class="add">+        border-right-color: currentcolor;</span>
+<span class="add">+        border-right-style: none;</span>
+<span class="add">+        border-right-width: 0px;</span>
+<span class="add">+        border-top-color: currentcolor;</span>
+<span class="add">+        border-top-style: none;</span>
+<span class="add">+        border-top-width: 0px;</span>
+<span class="add">+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));</span>
+<span class="add">+        font-family: inherit;</span>
+<span class="add">+        font-size: var(--font-size-body);</span>
+<span class="add">+        font-weight: 700;</span>
+<span class="add">+        padding-bottom: 0px;</span>
+<span class="add">+        padding-left: 0px;</span>
+<span class="add">+        padding-right: 0px;</span>
+<span class="add">+        padding-top: 0px;</span>
+<span class="add">+        text-decoration-line: underline</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;svg</span>
+<span class="add">+          height=&quot;16&quot;</span>
+<span class="add">+          style=&quot;</span>
+<span class="add">+            display: inline-block;</span>
+<span class="add">+            fill: currentcolor;</span>
+<span class="add">+            height: 16px;</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            stroke-width: 0;</span>
+<span class="add">+            stroke: currentcolor;</span>
+<span class="add">+            vertical-align: top;</span>
+<span class="add">+            width: 16px</span>
+<span class="add">+          &quot;</span>
+<span class="add">+          width=&quot;16&quot;</span>
+<span class="add">+        ></span>
+<span class="add">+          &lt;use href=&quot;#icon-close-16&quot;/></span>
+<span class="add">+        &lt;/svg></span>
+<span class="add">+      &lt;/button></span>
+<span class="add">+    &lt;/div></span>
+<span class="add">+  &lt;/div></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section><section class="dim-section" id="dim-3" data-dim="3"><h3 class="dim-label">1280px rtl</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;rtl&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<div class=&quot;section-notice&quot; role=&quot;region&quot;>
+    <div class=&quot;section-notice__main&quot;>
+        <h3 class=&quot;section-notice__title&quot;>Notification Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <p class=&quot;section-notice__cta&quot;><a href=&quot;https://www.ebay.com&quot;>Action</a></p>
+    <div class=&quot;section-notice__footer&quot;>
+        <button aria-label=&quot;Close notice&quot; class=&quot;fake-link section-notice__dismiss&quot;>
+            <svg aria-hidden=&quot;true&quot; class=&quot;icon icon--16&quot; height=&quot;16&quot; width=&quot;16&quot;>
+                <use href=&quot;#icon-close-16&quot;></use>
+            </svg>
+        </button>
+    </div>
+</div>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,101 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;div style=&quot;</span>
+<span class="add">+    background-color: var(--section-notice-default-background-color, var(--color-background-secondary));</span>
+<span class="add">+    display: grid;</span>
+<span class="add">+    font-size: var(--font-size-body);</span>
+<span class="add">+    grid-template-columns: 32px auto auto min-content;</span>
+<span class="add">+    margin-bottom: 8px;</span>
+<span class="add">+    margin-top: 8px;</span>
+<span class="add">+    margin: var(--spacing-200) 0;</span>
+<span class="add">+    padding-bottom: 16px;</span>
+<span class="add">+    padding-left: 16px;</span>
+<span class="add">+    padding-right: 16px;</span>
+<span class="add">+    padding-top: 16px</span>
+<span class="add">+  &quot;></span>
+<span class="add">+    &lt;div style=&quot;</span>
+<span class="add">+      grid-column-end: 3;</span>
+<span class="add">+      grid-column-start: 1;</span>
+<span class="add">+      grid-row-start: 1;</span>
+<span class="add">+      margin-inline-end: var(--spacing-200)</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;h3 style=&quot;</span>
+<span class="add">+        font-size: var(--font-size-body);</span>
+<span class="add">+        margin-bottom: 0px;</span>
+<span class="add">+        margin-top: 0px</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        Notification Title</span>
+<span class="add">+      &lt;/h3></span>
+<span class="add">+      &lt;p style=&quot;</span>
+<span class="add">+        font-size: var(--font-size-body);</span>
+<span class="add">+        margin-bottom: 0px;</span>
+<span class="add">+        margin-top: 0px;</span>
+<span class="add">+        margin: var(--spacing-50) 0 0</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+<span class="add">+      &lt;/p></span>
+<span class="add">+    &lt;/div></span>
+<span class="add">+    &lt;p style=&quot;</span>
+<span class="add">+      grid-column-start: 4;</span>
+<span class="add">+      grid-row-start: 1;</span>
+<span class="add">+      justify-self: flex-end;</span>
+<span class="add">+      margin-bottom: 0px;</span>
+<span class="add">+      margin-top: 0px</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;a style=&quot;</span>
+<span class="add">+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));</span>
+<span class="add">+        font-size: var(--font-size-body);</span>
+<span class="add">+        text-wrap-mode: nowrap</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        Action</span>
+<span class="add">+      &lt;/a></span>
+<span class="add">+    &lt;/p></span>
+<span class="add">+    &lt;div style=&quot;</span>
+<span class="add">+      grid-column-start: 4;</span>
+<span class="add">+      grid-row-start: 1;</span>
+<span class="add">+      justify-self: flex-end;</span>
+<span class="add">+      margin-top: 2px;</span>
+<span class="add">+      padding-inline-start: var(--spacing-200)</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;button style=&quot;</span>
+<span class="add">+        border-bottom-color: currentcolor;</span>
+<span class="add">+        border-bottom-style: none;</span>
+<span class="add">+        border-bottom-width: 0px;</span>
+<span class="add">+        border-left-color: currentcolor;</span>
+<span class="add">+        border-left-style: none;</span>
+<span class="add">+        border-left-width: 0px;</span>
+<span class="add">+        border-right-color: currentcolor;</span>
+<span class="add">+        border-right-style: none;</span>
+<span class="add">+        border-right-width: 0px;</span>
+<span class="add">+        border-top-color: currentcolor;</span>
+<span class="add">+        border-top-style: none;</span>
+<span class="add">+        border-top-width: 0px;</span>
+<span class="add">+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));</span>
+<span class="add">+        font-family: inherit;</span>
+<span class="add">+        font-size: var(--font-size-body);</span>
+<span class="add">+        font-weight: 700;</span>
+<span class="add">+        padding-bottom: 0px;</span>
+<span class="add">+        padding-left: 0px;</span>
+<span class="add">+        padding-right: 0px;</span>
+<span class="add">+        padding-top: 0px;</span>
+<span class="add">+        text-decoration-line: underline</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;svg</span>
+<span class="add">+          height=&quot;16&quot;</span>
+<span class="add">+          style=&quot;</span>
+<span class="add">+            display: inline-block;</span>
+<span class="add">+            fill: currentcolor;</span>
+<span class="add">+            height: 16px;</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            stroke-width: 0;</span>
+<span class="add">+            stroke: currentcolor;</span>
+<span class="add">+            vertical-align: top;</span>
+<span class="add">+            width: 16px</span>
+<span class="add">+          &quot;</span>
+<span class="add">+          width=&quot;16&quot;</span>
+<span class="add">+        ></span>
+<span class="add">+          &lt;use href=&quot;#icon-close-16&quot;/></span>
+<span class="add">+        &lt;/svg></span>
+<span class="add">+      &lt;/button></span>
+<span class="add">+    &lt;/div></span>
+<span class="add">+  &lt;/div></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section>
+</main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
     <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
@@ -34,10 +526,10 @@
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
-    const PAGE = {"entry":{"component":"section-notice","story":"dismissAndLinkCTA","file":"packages/skin/src/sass/section-notice/stories/__snapshots__/iconless.snap","dims":[{"suffix":"320px","width":320,"rtl":false,"status":"added","before":"","after":"<div>\n  <div style=\"\n    background-color: var(--section-notice-default-background-color, var(--color-background-secondary));\n    display: grid;\n    font-size: var(--font-size-body);\n    grid-template-columns: 32px auto auto min-content;\n    margin-bottom: 8px;\n    margin-top: 8px;\n    padding-bottom: 16px;\n    padding-left: 16px;\n    padding-right: 16px;\n    padding-top: 16px\n  \">\n    <div style=\"\n      grid-column-end: 3;\n      grid-column-start: 1;\n      grid-row-start: 1;\n      margin-inline-end: var(--spacing-200)\n    \">\n      <h3 style=\"\n        font-size: var(--font-size-body);\n        margin-bottom: 0px;\n        margin-top: 0px\n      \">\n        Notification Title\n      <\/h3>\n      <p style=\"\n        font-size: var(--font-size-body);\n        margin-bottom: 0px;\n        margin-top: 0px;\n        margin: var(--spacing-50) 0 0\n      \">\n        Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n      <\/p>\n    <\/div>\n    <p style=\"\n      grid-column-end: 3;\n      grid-column-start: 1;\n      grid-row-start: 2;\n      justify-self: flex-start;\n      margin-bottom: 0px;\n      margin-top: var(--spacing-200)\n    \">\n      <a style=\"\n        color: var(--section-notice-foreground-color, var(--color-foreground-primary));\n        font-size: var(--font-size-body);\n        text-wrap-mode: nowrap\n      \">\n        Action\n      <\/a>\n    <\/p>\n    <div style=\"\n      grid-column-start: 4;\n      grid-row-start: 1;\n      justify-self: flex-end;\n      margin-top: 2px\n    \">\n      <button style=\"\n        border-bottom-color: currentcolor;\n        border-bottom-style: none;\n        border-bottom-width: 0px;\n        border-left-color: currentcolor;\n        border-left-style: none;\n        border-left-width: 0px;\n        border-right-color: currentcolor;\n        border-right-style: none;\n        border-right-width: 0px;\n        border-top-color: currentcolor;\n        border-top-style: none;\n        border-top-width: 0px;\n        color: var(--section-notice-foreground-color, var(--color-foreground-primary));\n        font-family: inherit;\n        font-size: var(--font-size-body);\n        font-weight: 700;\n        padding-bottom: 0px;\n        padding-left: 0px;\n        padding-right: 0px;\n        padding-top: 0px;\n        text-decoration-line: underline\n      \">\n        <svg\n          height=\"16\"\n          style=\"\n            display: inline-block;\n            fill: currentcolor;\n            height: 16px;\n            pointer-events: none;\n            stroke-width: 0;\n            stroke: currentcolor;\n            vertical-align: top;\n            width: 16px\n          \"\n          width=\"16\"\n        >\n          <use href=\"#icon-close-16\"/>\n        <\/svg>\n      <\/button>\n    <\/div>\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,100 @@\n+<div>\n+  <div style=\"\n+    background-color: var(--section-notice-default-background-color, var(--color-background-secondary));\n+    display: grid;\n+    font-size: var(--font-size-body);\n+    grid-template-columns: 32px auto auto min-content;\n+    margin-bottom: 8px;\n+    margin-top: 8px;\n+    padding-bottom: 16px;\n+    padding-left: 16px;\n+    padding-right: 16px;\n+    padding-top: 16px\n+  \">\n+    <div style=\"\n+      grid-column-end: 3;\n+      grid-column-start: 1;\n+      grid-row-start: 1;\n+      margin-inline-end: var(--spacing-200)\n+    \">\n+      <h3 style=\"\n+        font-size: var(--font-size-body);\n+        margin-bottom: 0px;\n+        margin-top: 0px\n+      \">\n+        Notification Title\n+      <\/h3>\n+      <p style=\"\n+        font-size: var(--font-size-body);\n+        margin-bottom: 0px;\n+        margin-top: 0px;\n+        margin: var(--spacing-50) 0 0\n+      \">\n+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n+      <\/p>\n+    <\/div>\n+    <p style=\"\n+      grid-column-end: 3;\n+      grid-column-start: 1;\n+      grid-row-start: 2;\n+      justify-self: flex-start;\n+      margin-bottom: 0px;\n+      margin-top: var(--spacing-200)\n+    \">\n+      <a style=\"\n+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));\n+        font-size: var(--font-size-body);\n+        text-wrap-mode: nowrap\n+      \">\n+        Action\n+      <\/a>\n+    <\/p>\n+    <div style=\"\n+      grid-column-start: 4;\n+      grid-row-start: 1;\n+      justify-self: flex-end;\n+      margin-top: 2px\n+    \">\n+      <button style=\"\n+        border-bottom-color: currentcolor;\n+        border-bottom-style: none;\n+        border-bottom-width: 0px;\n+        border-left-color: currentcolor;\n+        border-left-style: none;\n+        border-left-width: 0px;\n+        border-right-color: currentcolor;\n+        border-right-style: none;\n+        border-right-width: 0px;\n+        border-top-color: currentcolor;\n+        border-top-style: none;\n+        border-top-width: 0px;\n+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));\n+        font-family: inherit;\n+        font-size: var(--font-size-body);\n+        font-weight: 700;\n+        padding-bottom: 0px;\n+        padding-left: 0px;\n+        padding-right: 0px;\n+        padding-top: 0px;\n+        text-decoration-line: underline\n+      \">\n+        <svg\n+          height=\"16\"\n+          style=\"\n+            display: inline-block;\n+            fill: currentcolor;\n+            height: 16px;\n+            pointer-events: none;\n+            stroke-width: 0;\n+            stroke: currentcolor;\n+            vertical-align: top;\n+            width: 16px\n+          \"\n+          width=\"16\"\n+        >\n+          <use href=\"#icon-close-16\"/>\n+        <\/svg>\n+      <\/button>\n+    <\/div>\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"},{"suffix":"512px","width":512,"rtl":false,"status":"added","before":"","after":"<div>\n  <div style=\"\n    background-color: var(--section-notice-default-background-color, var(--color-background-secondary));\n    display: grid;\n    font-size: var(--font-size-body);\n    grid-template-columns: 32px auto auto min-content;\n    margin-bottom: 8px;\n    margin-top: 8px;\n    margin: var(--spacing-200) 0;\n    padding-bottom: 16px;\n    padding-left: 16px;\n    padding-right: 16px;\n    padding-top: 16px\n  \">\n    <div style=\"\n      grid-column-end: 3;\n      grid-column-start: 1;\n      grid-row-start: 1;\n      margin-inline-end: var(--spacing-200)\n    \">\n      <h3 style=\"\n        font-size: var(--font-size-body);\n        margin-bottom: 0px;\n        margin-top: 0px\n      \">\n        Notification Title\n      <\/h3>\n      <p style=\"\n        font-size: var(--font-size-body);\n        margin-bottom: 0px;\n        margin-top: 0px;\n        margin: var(--spacing-50) 0 0\n      \">\n        Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n      <\/p>\n    <\/div>\n    <p style=\"\n      grid-column-start: 4;\n      grid-row-start: 1;\n      justify-self: flex-end;\n      margin-bottom: 0px;\n      margin-top: 0px\n    \">\n      <a style=\"\n        color: var(--section-notice-foreground-color, var(--color-foreground-primary));\n        font-size: var(--font-size-body);\n        text-wrap-mode: nowrap\n      \">\n        Action\n      <\/a>\n    <\/p>\n    <div style=\"\n      grid-column-start: 4;\n      grid-row-start: 1;\n      justify-self: flex-end;\n      margin-top: 2px;\n      padding-inline-start: var(--spacing-200)\n    \">\n      <button style=\"\n        border-bottom-color: currentcolor;\n        border-bottom-style: none;\n        border-bottom-width: 0px;\n        border-left-color: currentcolor;\n        border-left-style: none;\n        border-left-width: 0px;\n        border-right-color: currentcolor;\n        border-right-style: none;\n        border-right-width: 0px;\n        border-top-color: currentcolor;\n        border-top-style: none;\n        border-top-width: 0px;\n        color: var(--section-notice-foreground-color, var(--color-foreground-primary));\n        font-family: inherit;\n        font-size: var(--font-size-body);\n        font-weight: 700;\n        padding-bottom: 0px;\n        padding-left: 0px;\n        padding-right: 0px;\n        padding-top: 0px;\n        text-decoration-line: underline\n      \">\n        <svg\n          height=\"16\"\n          style=\"\n            display: inline-block;\n            fill: currentcolor;\n            height: 16px;\n            pointer-events: none;\n            stroke-width: 0;\n            stroke: currentcolor;\n            vertical-align: top;\n            width: 16px\n          \"\n          width=\"16\"\n        >\n          <use href=\"#icon-close-16\"/>\n        <\/svg>\n      <\/button>\n    <\/div>\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,101 @@\n+<div>\n+  <div style=\"\n+    background-color: var(--section-notice-default-background-color, var(--color-background-secondary));\n+    display: grid;\n+    font-size: var(--font-size-body);\n+    grid-template-columns: 32px auto auto min-content;\n+    margin-bottom: 8px;\n+    margin-top: 8px;\n+    margin: var(--spacing-200) 0;\n+    padding-bottom: 16px;\n+    padding-left: 16px;\n+    padding-right: 16px;\n+    padding-top: 16px\n+  \">\n+    <div style=\"\n+      grid-column-end: 3;\n+      grid-column-start: 1;\n+      grid-row-start: 1;\n+      margin-inline-end: var(--spacing-200)\n+    \">\n+      <h3 style=\"\n+        font-size: var(--font-size-body);\n+        margin-bottom: 0px;\n+        margin-top: 0px\n+      \">\n+        Notification Title\n+      <\/h3>\n+      <p style=\"\n+        font-size: var(--font-size-body);\n+        margin-bottom: 0px;\n+        margin-top: 0px;\n+        margin: var(--spacing-50) 0 0\n+      \">\n+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n+      <\/p>\n+    <\/div>\n+    <p style=\"\n+      grid-column-start: 4;\n+      grid-row-start: 1;\n+      justify-self: flex-end;\n+      margin-bottom: 0px;\n+      margin-top: 0px\n+    \">\n+      <a style=\"\n+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));\n+        font-size: var(--font-size-body);\n+        text-wrap-mode: nowrap\n+      \">\n+        Action\n+      <\/a>\n+    <\/p>\n+    <div style=\"\n+      grid-column-start: 4;\n+      grid-row-start: 1;\n+      justify-self: flex-end;\n+      margin-top: 2px;\n+      padding-inline-start: var(--spacing-200)\n+    \">\n+      <button style=\"\n+        border-bottom-color: currentcolor;\n+        border-bottom-style: none;\n+        border-bottom-width: 0px;\n+        border-left-color: currentcolor;\n+        border-left-style: none;\n+        border-left-width: 0px;\n+        border-right-color: currentcolor;\n+        border-right-style: none;\n+        border-right-width: 0px;\n+        border-top-color: currentcolor;\n+        border-top-style: none;\n+        border-top-width: 0px;\n+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));\n+        font-family: inherit;\n+        font-size: var(--font-size-body);\n+        font-weight: 700;\n+        padding-bottom: 0px;\n+        padding-left: 0px;\n+        padding-right: 0px;\n+        padding-top: 0px;\n+        text-decoration-line: underline\n+      \">\n+        <svg\n+          height=\"16\"\n+          style=\"\n+            display: inline-block;\n+            fill: currentcolor;\n+            height: 16px;\n+            pointer-events: none;\n+            stroke-width: 0;\n+            stroke: currentcolor;\n+            vertical-align: top;\n+            width: 16px\n+          \"\n+          width=\"16\"\n+        >\n+          <use href=\"#icon-close-16\"/>\n+        <\/svg>\n+      <\/button>\n+    <\/div>\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"},{"suffix":"1280px","width":1280,"rtl":false,"status":"added","before":"","after":"<div>\n  <div style=\"\n    background-color: var(--section-notice-default-background-color, var(--color-background-secondary));\n    display: grid;\n    font-size: var(--font-size-body);\n    grid-template-columns: 32px auto auto min-content;\n    margin-bottom: 8px;\n    margin-top: 8px;\n    margin: var(--spacing-200) 0;\n    padding-bottom: 16px;\n    padding-left: 16px;\n    padding-right: 16px;\n    padding-top: 16px\n  \">\n    <div style=\"\n      grid-column-end: 3;\n      grid-column-start: 1;\n      grid-row-start: 1;\n      margin-inline-end: var(--spacing-200)\n    \">\n      <h3 style=\"\n        font-size: var(--font-size-body);\n        margin-bottom: 0px;\n        margin-top: 0px\n      \">\n        Notification Title\n      <\/h3>\n      <p style=\"\n        font-size: var(--font-size-body);\n        margin-bottom: 0px;\n        margin-top: 0px;\n        margin: var(--spacing-50) 0 0\n      \">\n        Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n      <\/p>\n    <\/div>\n    <p style=\"\n      grid-column-start: 4;\n      grid-row-start: 1;\n      justify-self: flex-end;\n      margin-bottom: 0px;\n      margin-top: 0px\n    \">\n      <a style=\"\n        color: var(--section-notice-foreground-color, var(--color-foreground-primary));\n        font-size: var(--font-size-body);\n        text-wrap-mode: nowrap\n      \">\n        Action\n      <\/a>\n    <\/p>\n    <div style=\"\n      grid-column-start: 4;\n      grid-row-start: 1;\n      justify-self: flex-end;\n      margin-top: 2px;\n      padding-inline-start: var(--spacing-200)\n    \">\n      <button style=\"\n        border-bottom-color: currentcolor;\n        border-bottom-style: none;\n        border-bottom-width: 0px;\n        border-left-color: currentcolor;\n        border-left-style: none;\n        border-left-width: 0px;\n        border-right-color: currentcolor;\n        border-right-style: none;\n        border-right-width: 0px;\n        border-top-color: currentcolor;\n        border-top-style: none;\n        border-top-width: 0px;\n        color: var(--section-notice-foreground-color, var(--color-foreground-primary));\n        font-family: inherit;\n        font-size: var(--font-size-body);\n        font-weight: 700;\n        padding-bottom: 0px;\n        padding-left: 0px;\n        padding-right: 0px;\n        padding-top: 0px;\n        text-decoration-line: underline\n      \">\n        <svg\n          height=\"16\"\n          style=\"\n            display: inline-block;\n            fill: currentcolor;\n            height: 16px;\n            pointer-events: none;\n            stroke-width: 0;\n            stroke: currentcolor;\n            vertical-align: top;\n            width: 16px\n          \"\n          width=\"16\"\n        >\n          <use href=\"#icon-close-16\"/>\n        <\/svg>\n      <\/button>\n    <\/div>\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,101 @@\n+<div>\n+  <div style=\"\n+    background-color: var(--section-notice-default-background-color, var(--color-background-secondary));\n+    display: grid;\n+    font-size: var(--font-size-body);\n+    grid-template-columns: 32px auto auto min-content;\n+    margin-bottom: 8px;\n+    margin-top: 8px;\n+    margin: var(--spacing-200) 0;\n+    padding-bottom: 16px;\n+    padding-left: 16px;\n+    padding-right: 16px;\n+    padding-top: 16px\n+  \">\n+    <div style=\"\n+      grid-column-end: 3;\n+      grid-column-start: 1;\n+      grid-row-start: 1;\n+      margin-inline-end: var(--spacing-200)\n+    \">\n+      <h3 style=\"\n+        font-size: var(--font-size-body);\n+        margin-bottom: 0px;\n+        margin-top: 0px\n+      \">\n+        Notification Title\n+      <\/h3>\n+      <p style=\"\n+        font-size: var(--font-size-body);\n+        margin-bottom: 0px;\n+        margin-top: 0px;\n+        margin: var(--spacing-50) 0 0\n+      \">\n+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n+      <\/p>\n+    <\/div>\n+    <p style=\"\n+      grid-column-start: 4;\n+      grid-row-start: 1;\n+      justify-self: flex-end;\n+      margin-bottom: 0px;\n+      margin-top: 0px\n+    \">\n+      <a style=\"\n+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));\n+        font-size: var(--font-size-body);\n+        text-wrap-mode: nowrap\n+      \">\n+        Action\n+      <\/a>\n+    <\/p>\n+    <div style=\"\n+      grid-column-start: 4;\n+      grid-row-start: 1;\n+      justify-self: flex-end;\n+      margin-top: 2px;\n+      padding-inline-start: var(--spacing-200)\n+    \">\n+      <button style=\"\n+        border-bottom-color: currentcolor;\n+        border-bottom-style: none;\n+        border-bottom-width: 0px;\n+        border-left-color: currentcolor;\n+        border-left-style: none;\n+        border-left-width: 0px;\n+        border-right-color: currentcolor;\n+        border-right-style: none;\n+        border-right-width: 0px;\n+        border-top-color: currentcolor;\n+        border-top-style: none;\n+        border-top-width: 0px;\n+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));\n+        font-family: inherit;\n+        font-size: var(--font-size-body);\n+        font-weight: 700;\n+        padding-bottom: 0px;\n+        padding-left: 0px;\n+        padding-right: 0px;\n+        padding-top: 0px;\n+        text-decoration-line: underline\n+      \">\n+        <svg\n+          height=\"16\"\n+          style=\"\n+            display: inline-block;\n+            fill: currentcolor;\n+            height: 16px;\n+            pointer-events: none;\n+            stroke-width: 0;\n+            stroke: currentcolor;\n+            vertical-align: top;\n+            width: 16px\n+          \"\n+          width=\"16\"\n+        >\n+          <use href=\"#icon-close-16\"/>\n+        <\/svg>\n+      <\/button>\n+    <\/div>\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"},{"suffix":"1280px rtl","width":1280,"rtl":true,"status":"added","before":"","after":"<div>\n  <div style=\"\n    background-color: var(--section-notice-default-background-color, var(--color-background-secondary));\n    display: grid;\n    font-size: var(--font-size-body);\n    grid-template-columns: 32px auto auto min-content;\n    margin-bottom: 8px;\n    margin-top: 8px;\n    margin: var(--spacing-200) 0;\n    padding-bottom: 16px;\n    padding-left: 16px;\n    padding-right: 16px;\n    padding-top: 16px\n  \">\n    <div style=\"\n      grid-column-end: 3;\n      grid-column-start: 1;\n      grid-row-start: 1;\n      margin-inline-end: var(--spacing-200)\n    \">\n      <h3 style=\"\n        font-size: var(--font-size-body);\n        margin-bottom: 0px;\n        margin-top: 0px\n      \">\n        Notification Title\n      <\/h3>\n      <p style=\"\n        font-size: var(--font-size-body);\n        margin-bottom: 0px;\n        margin-top: 0px;\n        margin: var(--spacing-50) 0 0\n      \">\n        Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n      <\/p>\n    <\/div>\n    <p style=\"\n      grid-column-start: 4;\n      grid-row-start: 1;\n      justify-self: flex-end;\n      margin-bottom: 0px;\n      margin-top: 0px\n    \">\n      <a style=\"\n        color: var(--section-notice-foreground-color, var(--color-foreground-primary));\n        font-size: var(--font-size-body);\n        text-wrap-mode: nowrap\n      \">\n        Action\n      <\/a>\n    <\/p>\n    <div style=\"\n      grid-column-start: 4;\n      grid-row-start: 1;\n      justify-self: flex-end;\n      margin-top: 2px;\n      padding-inline-start: var(--spacing-200)\n    \">\n      <button style=\"\n        border-bottom-color: currentcolor;\n        border-bottom-style: none;\n        border-bottom-width: 0px;\n        border-left-color: currentcolor;\n        border-left-style: none;\n        border-left-width: 0px;\n        border-right-color: currentcolor;\n        border-right-style: none;\n        border-right-width: 0px;\n        border-top-color: currentcolor;\n        border-top-style: none;\n        border-top-width: 0px;\n        color: var(--section-notice-foreground-color, var(--color-foreground-primary));\n        font-family: inherit;\n        font-size: var(--font-size-body);\n        font-weight: 700;\n        padding-bottom: 0px;\n        padding-left: 0px;\n        padding-right: 0px;\n        padding-top: 0px;\n        text-decoration-line: underline\n      \">\n        <svg\n          height=\"16\"\n          style=\"\n            display: inline-block;\n            fill: currentcolor;\n            height: 16px;\n            pointer-events: none;\n            stroke-width: 0;\n            stroke: currentcolor;\n            vertical-align: top;\n            width: 16px\n          \"\n          width=\"16\"\n        >\n          <use href=\"#icon-close-16\"/>\n        <\/svg>\n      <\/button>\n    <\/div>\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,101 @@\n+<div>\n+  <div style=\"\n+    background-color: var(--section-notice-default-background-color, var(--color-background-secondary));\n+    display: grid;\n+    font-size: var(--font-size-body);\n+    grid-template-columns: 32px auto auto min-content;\n+    margin-bottom: 8px;\n+    margin-top: 8px;\n+    margin: var(--spacing-200) 0;\n+    padding-bottom: 16px;\n+    padding-left: 16px;\n+    padding-right: 16px;\n+    padding-top: 16px\n+  \">\n+    <div style=\"\n+      grid-column-end: 3;\n+      grid-column-start: 1;\n+      grid-row-start: 1;\n+      margin-inline-end: var(--spacing-200)\n+    \">\n+      <h3 style=\"\n+        font-size: var(--font-size-body);\n+        margin-bottom: 0px;\n+        margin-top: 0px\n+      \">\n+        Notification Title\n+      <\/h3>\n+      <p style=\"\n+        font-size: var(--font-size-body);\n+        margin-bottom: 0px;\n+        margin-top: 0px;\n+        margin: var(--spacing-50) 0 0\n+      \">\n+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n+      <\/p>\n+    <\/div>\n+    <p style=\"\n+      grid-column-start: 4;\n+      grid-row-start: 1;\n+      justify-self: flex-end;\n+      margin-bottom: 0px;\n+      margin-top: 0px\n+    \">\n+      <a style=\"\n+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));\n+        font-size: var(--font-size-body);\n+        text-wrap-mode: nowrap\n+      \">\n+        Action\n+      <\/a>\n+    <\/p>\n+    <div style=\"\n+      grid-column-start: 4;\n+      grid-row-start: 1;\n+      justify-self: flex-end;\n+      margin-top: 2px;\n+      padding-inline-start: var(--spacing-200)\n+    \">\n+      <button style=\"\n+        border-bottom-color: currentcolor;\n+        border-bottom-style: none;\n+        border-bottom-width: 0px;\n+        border-left-color: currentcolor;\n+        border-left-style: none;\n+        border-left-width: 0px;\n+        border-right-color: currentcolor;\n+        border-right-style: none;\n+        border-right-width: 0px;\n+        border-top-color: currentcolor;\n+        border-top-style: none;\n+        border-top-width: 0px;\n+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));\n+        font-family: inherit;\n+        font-size: var(--font-size-body);\n+        font-weight: 700;\n+        padding-bottom: 0px;\n+        padding-left: 0px;\n+        padding-right: 0px;\n+        padding-top: 0px;\n+        text-decoration-line: underline\n+      \">\n+        <svg\n+          height=\"16\"\n+          style=\"\n+            display: inline-block;\n+            fill: currentcolor;\n+            height: 16px;\n+            pointer-events: none;\n+            stroke-width: 0;\n+            stroke: currentcolor;\n+            vertical-align: top;\n+            width: 16px\n+          \"\n+          width=\"16\"\n+        >\n+          <use href=\"#icon-close-16\"/>\n+        <\/svg>\n+      <\/button>\n+    <\/div>\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"\n<div class=\"section-notice\" role=\"region\">\n    <div class=\"section-notice__main\">\n        <h3 class=\"section-notice__title\">Notification Title<\/h3>\n        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<\/p>\n    <\/div>\n    <p class=\"section-notice__cta\"><a href=\"https://www.ebay.com\">Action<\/a><\/p>\n    <div class=\"section-notice__footer\">\n        <button aria-label=\"Close notice\" class=\"fake-link section-notice__dismiss\">\n            <svg aria-hidden=\"true\" class=\"icon icon--16\" height=\"16\" width=\"16\">\n                <use href=\"#icon-close-16\"><\/use>\n            <\/svg>\n        <\/button>\n    <\/div>\n<\/div>\n","storyAfter":"\n<div class=\"section-notice\" role=\"region\">\n    <div class=\"section-notice__main\">\n        <h3 class=\"section-notice__title\">Notification Title<\/h3>\n        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<\/p>\n    <\/div>\n    <p class=\"section-notice__cta\"><a href=\"https://www.ebay.com\">Action<\/a><\/p>\n    <div class=\"section-notice__footer\">\n        <button aria-label=\"Close notice\" class=\"fake-link section-notice__dismiss\">\n            <svg aria-hidden=\"true\" class=\"icon icon--16\" height=\"16\" width=\"16\">\n                <use href=\"#icon-close-16\"><\/use>\n            <\/svg>\n        <\/button>\n    <\/div>\n<\/div>\n"},"baseRefShort":"60ee2f496866","prevHref":"section-notice-stories-iconless--dismissAndFakeLinkCTA.html","nextHref":"section-notice-stories-iconless--fakeLinkCTA.html","indexHref":"../index.html","pos":720,"total":1012,"slug":"section-notice-stories-iconless--dismissAndLinkCTA","hash":"ifl58n"};
+    const PAGE = {"baseRefShort":"60ee2f496866","prevHref":"section-notice-stories-iconless--dismissAndFakeLinkCTA.html","nextHref":"section-notice-stories-iconless--fakeLinkCTA.html","indexHref":"../index.html","pos":720,"total":1012,"slug":"section-notice-stories-iconless--dismissAndLinkCTA","hash":"ifl58n","component":"section-notice","story":"dismissAndLinkCTA","file":"packages/skin/src/sass/section-notice/stories/__snapshots__/iconless.snap","dims":[{"changes":[]},{"changes":[]},{"changes":[]},{"changes":[]}]};
 </script>
-<script src="../assets/nav.js"></script>
-<script src="../assets/story.js"></script>
+<script src="../assets/nav.js" defer></script>
+<script src="../assets/story.js" defer></script>
 <script src="../assets/prefetch.js" defer></script>
 </body>
 </html>

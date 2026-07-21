@@ -197,11 +197,32 @@ button.flag.on {
 }
 .stage { display: flex; gap: 18px; align-items: flex-start; min-width: 0; }
 .render-area { flex: 1 1 0; min-width: 0; }
-.panes { display: flex; gap: 16px; align-items: flex-start; }
-.pane { flex: 1 1 0; min-width: 0; }
-.pane h3, .stack h3 { margin: 0 0 6px; font-size: 12px; color: var(--fg-muted); font-weight: 600; }
 
-/* Fluid frames fill the pane; fixed-width dims render at capture width
+/* .duo holds the base+head frames for one dimension. Compare modes are
+   pure class/style changes on this container — the iframes are never
+   rebuilt or reparented, so switching modes never reloads them. */
+.duo { display: flex; gap: 16px; align-items: flex-start; min-width: 0; }
+.duo-side { flex: 1 1 0; min-width: 0; }
+.duo .pane-label, .mode-legend {
+    margin: 0 0 6px;
+    font-size: 12px;
+    color: var(--fg-muted);
+    font-weight: 600;
+}
+/* Stacked modes (swipe/onion/flip): head side overlays base in place. */
+.duo.stacked { display: block; position: relative; }
+.duo.stacked .pane-label { display: none; }
+.duo.stacked .duo-side.head {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.duo.stacked .duo-side.head .zoom-note { display: none; }
+.duo.mode-flip iframe { pointer-events: none; }
+.duo.mode-flip { cursor: pointer; }
+
+/* Fluid frames fill their side; fixed-width dims render at capture width
    and scale down to fit. */
 .frame-wrap {
     position: relative;
@@ -215,21 +236,17 @@ button.flag.on {
     border: 0;
     display: block;
     transform-origin: top left;
+    width: 100%;
+    height: 160px;
 }
-.frame-wrap.fixed iframe { position: absolute; top: 0; left: 0; }
-.frame-wrap.fluid iframe { width: 100%; }
-.frame-wrap.fluid.stacked { width: 100%; }
-.frame-wrap.fluid.stacked iframe { position: absolute; top: 0; left: 0; }
+.frame-wrap.fixed iframe { position: absolute; top: 0; left: 0; width: auto; }
 .zoom-note { font-size: 11px; color: var(--fg-muted); margin-top: 4px; }
 
-.stack { max-width: 100%; }
-.stack.fixed { width: fit-content; }
 .divider {
     position: absolute; top: 0; bottom: 0; width: 2px;
     background: var(--highlight); pointer-events: none;
     z-index: 2;
 }
-.frame-wrap.flip iframe { pointer-events: none; }
 .layer-badge {
     position: absolute; top: 6px; right: 6px;
     font-size: 11px; font-weight: 600;
@@ -347,7 +364,7 @@ footer.note {
     .render-area { width: 100%; }
     aside.inspector { width: 100%; max-height: 45vh; }
     footer.note span.kbd-hint { display: none; }
-    .panes { flex-direction: column; }
-    .pane { width: 100%; }
+    .duo:not(.stacked) { flex-direction: column; }
+    .duo-side { width: 100%; }
     header .pagenav { margin-left: 0; }
 }

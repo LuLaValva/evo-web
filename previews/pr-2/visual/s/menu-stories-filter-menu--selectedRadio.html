@@ -9,8 +9,8 @@
 <body class="story-page">
 <header>
     <a class="back" href="../index.html">← All changes</a>
-    <h1 id="title"></h1>
-    <span class="meta" id="path"></span>
+    <h1 id="title">menu / selectedRadio</h1>
+    <span class="meta" id="path">packages/skin/src/sass/menu/stories/__snapshots__/filter-menu.snap</span>
     <span class="pagenav">
         <a id="prev" href="#">‹ prev</a>
         <span class="pos" id="pos"></span>
@@ -21,7 +21,292 @@
     <input id="search" type="search" placeholder="Filter stories… ( / )" />
     <div id="storylist"></div>
 </nav>
-<main id="main"></main>
+<main id="main">
+    <div class="toolbar">
+        <div class="seg" data-seg="mode">
+            <button type="button" data-v="side" class="active">Side by side</button>
+            <button type="button" data-v="swipe">Swipe</button>
+            <button type="button" data-v="onion">Onion</button>
+            <button type="button" data-v="flip">Flip</button>
+        </div>
+        <div class="seg" data-seg="view">
+            <button type="button" data-v="rendered" class="active">Rendered</button>
+            <button type="button" data-v="diff">Text diff</button>
+        </div>
+        <div class="seg" data-seg="theme">
+            <button type="button" data-v="light" class="active">Light</button>
+            <button type="button" data-v="dark">Dark</button>
+        </div>
+        <label class="toggle"><input type="checkbox" id="hl-toggle" checked />Highlights</label>
+        <div class="grow"></div>
+        <button class="flag" id="flag-btn" type="button">⚑ Flag</button>
+    </div>
+    <section class="dim-section" id="dim-0" data-dim="0"><div class="stage"><div class="render-area"><div class="duo mode-side fluid solo"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fluid"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<span class=&quot;menu menu--filter&quot;>
+    <div class=&quot;menu__items&quot; role=&quot;menu&quot;>
+        <div class=&quot;menu__item&quot; role=&quot;menuitemradio&quot; aria-checked=&quot;false&quot; tabindex=&quot;0&quot;>
+            <svg
+                aria-hidden=&quot;true&quot;
+                class=&quot;icon icon--18 icon--unchecked&quot;
+                height=&quot;18&quot;
+                width=&quot;18&quot;
+            >
+                <use href=&quot;#icon-radio-unchecked-18&quot;></use>
+            </svg>
+            <svg
+                aria-hidden=&quot;true&quot;
+                class=&quot;icon icon--18 icon--checked&quot;
+                height=&quot;18&quot;
+                width=&quot;18&quot;
+            >
+                <use href=&quot;#icon-radio-checked-18&quot;></use>
+            </svg>
+            <span>Item 1</span>
+        </div>
+        <div class=&quot;menu__item&quot; role=&quot;menuitemradio&quot; aria-checked=&quot;true&quot;>
+            <svg
+                aria-hidden=&quot;true&quot;
+                class=&quot;icon icon--18 icon--unchecked&quot;
+                height=&quot;18&quot;
+                width=&quot;18&quot;
+            >
+                <use href=&quot;#icon-radio-unchecked-18&quot;></use>
+            </svg>
+            <svg
+                aria-hidden=&quot;true&quot;
+                class=&quot;icon icon--18 icon--checked&quot;
+                height=&quot;18&quot;
+                width=&quot;18&quot;
+            >
+                <use href=&quot;#icon-radio-checked-18&quot;></use>
+            </svg>
+            <span>Item 2</span>
+        </div>
+        <div class=&quot;menu__item&quot; role=&quot;menuitemradio&quot; aria-checked=&quot;false&quot;>
+            <svg
+                aria-hidden=&quot;true&quot;
+                class=&quot;icon icon--18 icon--unchecked&quot;
+                height=&quot;18&quot;
+                width=&quot;18&quot;
+            >
+                <use href=&quot;#icon-radio-unchecked-18&quot;></use>
+            </svg>
+            <svg
+                aria-hidden=&quot;true&quot;
+                class=&quot;icon icon--18 icon--checked&quot;
+                height=&quot;18&quot;
+                width=&quot;18&quot;
+            >
+                <use href=&quot;#icon-radio-checked-18&quot;></use>
+            </svg>
+            <span>Item 3</span>
+        </div>
+    </div>
+</span>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,200 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;span style=&quot;</span>
+<span class="add">+    display: inline-block;</span>
+<span class="add">+    vertical-align: bottom</span>
+<span class="add">+  &quot;></span>
+<span class="add">+    &lt;div style=&quot;</span>
+<span class="add">+      background-color: var(--menu-background-color, var(--color-background-primary));</span>
+<span class="add">+      cursor: default</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        border-bottom-style: solid;</span>
+<span class="add">+        border-bottom-width: 1px;</span>
+<span class="add">+        border-left-style: solid;</span>
+<span class="add">+        border-left-width: 1px;</span>
+<span class="add">+        border-right-style: solid;</span>
+<span class="add">+        border-right-width: 1px;</span>
+<span class="add">+        border-top-style: solid;</span>
+<span class="add">+        border-top-width: 1px;</span>
+<span class="add">+        box-sizing: border-box;</span>
+<span class="add">+        color: var(--menu-menuitem-foreground-color, var(--color-foreground-primary));</span>
+<span class="add">+        display: inline-grid;</span>
+<span class="add">+        font-family: inherit;</span>
+<span class="add">+        grid-template-columns: auto auto;</span>
+<span class="add">+        justify-content: flex-start;</span>
+<span class="add">+        margin-bottom: 1px;</span>
+<span class="add">+        overflow-x: hidden;</span>
+<span class="add">+        overflow-y: hidden;</span>
+<span class="add">+        padding-bottom: 8px;</span>
+<span class="add">+        padding-left: 15px;</span>
+<span class="add">+        padding-right: 15px;</span>
+<span class="add">+        padding-top: 8px;</span>
+<span class="add">+        position: relative;</span>
+<span class="add">+        width: 100%</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;style>@scope{:scope{</span>
+<span class="add">+          &amp;::after {</span>
+<span class="add">+            background-color: var(--color-state-layer-neutral);</span>
+<span class="add">+            bottom: 0px;</span>
+<span class="add">+            content: &quot;&quot;;</span>
+<span class="add">+            left: 0px;</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            position: absolute;</span>
+<span class="add">+            right: 0px;</span>
+<span class="add">+            top: 0px</span>
+<span class="add">+          }</span>
+<span class="add">+        }}&lt;/style></span>
+<span class="add">+        &lt;svg</span>
+<span class="add">+          height=&quot;18&quot;</span>
+<span class="add">+          style=&quot;</span>
+<span class="add">+            color: var(--color-foreground-primary);</span>
+<span class="add">+            display: block;</span>
+<span class="add">+            fill: currentcolor;</span>
+<span class="add">+            height: 18px;</span>
+<span class="add">+            margin-right: var(--spacing-100);</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            stroke-width: 0;</span>
+<span class="add">+            stroke: currentcolor;</span>
+<span class="add">+            vertical-align: middle;</span>
+<span class="add">+            width: 18px</span>
+<span class="add">+          &quot;</span>
+<span class="add">+          width=&quot;18&quot;</span>
+<span class="add">+        ></span>
+<span class="add">+          &lt;use href=&quot;#icon-radio-unchecked-18&quot;/></span>
+<span class="add">+        &lt;/svg></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          flex-shrink: 0;</span>
+<span class="add">+          text-align: left;</span>
+<span class="add">+          text-wrap-mode: nowrap</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Item 1</span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        border-bottom-style: solid;</span>
+<span class="add">+        border-bottom-width: 1px;</span>
+<span class="add">+        border-left-style: solid;</span>
+<span class="add">+        border-left-width: 1px;</span>
+<span class="add">+        border-right-style: solid;</span>
+<span class="add">+        border-right-width: 1px;</span>
+<span class="add">+        border-top-style: solid;</span>
+<span class="add">+        border-top-width: 1px;</span>
+<span class="add">+        box-sizing: border-box;</span>
+<span class="add">+        color: var(--menu-menuitem-foreground-color, var(--color-foreground-primary));</span>
+<span class="add">+        display: inline-grid;</span>
+<span class="add">+        font-family: inherit;</span>
+<span class="add">+        grid-template-columns: auto auto;</span>
+<span class="add">+        justify-content: flex-start;</span>
+<span class="add">+        margin-bottom: 1px;</span>
+<span class="add">+        overflow-x: hidden;</span>
+<span class="add">+        overflow-y: hidden;</span>
+<span class="add">+        padding-bottom: 8px;</span>
+<span class="add">+        padding-left: 15px;</span>
+<span class="add">+        padding-right: 15px;</span>
+<span class="add">+        padding-top: 8px;</span>
+<span class="add">+        position: relative;</span>
+<span class="add">+        width: 100%</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;style>@scope{:scope{</span>
+<span class="add">+          &amp;::after {</span>
+<span class="add">+            background-color: var(--color-state-layer-neutral);</span>
+<span class="add">+            bottom: 0px;</span>
+<span class="add">+            content: &quot;&quot;;</span>
+<span class="add">+            left: 0px;</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            position: absolute;</span>
+<span class="add">+            right: 0px;</span>
+<span class="add">+            top: 0px</span>
+<span class="add">+          }</span>
+<span class="add">+        }}&lt;/style></span>
+<span class="add">+        &lt;svg</span>
+<span class="add">+          height=&quot;18&quot;</span>
+<span class="add">+          style=&quot;</span>
+<span class="add">+            color: var(--color-foreground-primary);</span>
+<span class="add">+            display: block;</span>
+<span class="add">+            fill: currentcolor;</span>
+<span class="add">+            height: 18px;</span>
+<span class="add">+            margin-right: var(--spacing-100);</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            stroke-width: 0;</span>
+<span class="add">+            stroke: currentcolor;</span>
+<span class="add">+            vertical-align: middle;</span>
+<span class="add">+            width: 18px</span>
+<span class="add">+          &quot;</span>
+<span class="add">+          width=&quot;18&quot;</span>
+<span class="add">+        ></span>
+<span class="add">+          &lt;use href=&quot;#icon-radio-checked-18&quot;/></span>
+<span class="add">+        &lt;/svg></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          flex-shrink: 0;</span>
+<span class="add">+          text-align: left;</span>
+<span class="add">+          text-wrap-mode: nowrap</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Item 2</span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        border-bottom-style: solid;</span>
+<span class="add">+        border-bottom-width: 1px;</span>
+<span class="add">+        border-left-style: solid;</span>
+<span class="add">+        border-left-width: 1px;</span>
+<span class="add">+        border-right-style: solid;</span>
+<span class="add">+        border-right-width: 1px;</span>
+<span class="add">+        border-top-style: solid;</span>
+<span class="add">+        border-top-width: 1px;</span>
+<span class="add">+        box-sizing: border-box;</span>
+<span class="add">+        color: var(--menu-menuitem-foreground-color, var(--color-foreground-primary));</span>
+<span class="add">+        display: inline-grid;</span>
+<span class="add">+        font-family: inherit;</span>
+<span class="add">+        grid-template-columns: auto auto;</span>
+<span class="add">+        justify-content: flex-start;</span>
+<span class="add">+        overflow-x: hidden;</span>
+<span class="add">+        overflow-y: hidden;</span>
+<span class="add">+        padding-bottom: 8px;</span>
+<span class="add">+        padding-left: 15px;</span>
+<span class="add">+        padding-right: 15px;</span>
+<span class="add">+        padding-top: 8px;</span>
+<span class="add">+        position: relative;</span>
+<span class="add">+        width: 100%</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;style>@scope{:scope{</span>
+<span class="add">+          &amp;::after {</span>
+<span class="add">+            background-color: var(--color-state-layer-neutral);</span>
+<span class="add">+            bottom: 0px;</span>
+<span class="add">+            content: &quot;&quot;;</span>
+<span class="add">+            left: 0px;</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            position: absolute;</span>
+<span class="add">+            right: 0px;</span>
+<span class="add">+            top: 0px</span>
+<span class="add">+          }</span>
+<span class="add">+        }}&lt;/style></span>
+<span class="add">+        &lt;svg</span>
+<span class="add">+          height=&quot;18&quot;</span>
+<span class="add">+          style=&quot;</span>
+<span class="add">+            color: var(--color-foreground-primary);</span>
+<span class="add">+            display: block;</span>
+<span class="add">+            fill: currentcolor;</span>
+<span class="add">+            height: 18px;</span>
+<span class="add">+            margin-right: var(--spacing-100);</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            stroke-width: 0;</span>
+<span class="add">+            stroke: currentcolor;</span>
+<span class="add">+            vertical-align: middle;</span>
+<span class="add">+            width: 18px</span>
+<span class="add">+          &quot;</span>
+<span class="add">+          width=&quot;18&quot;</span>
+<span class="add">+        ></span>
+<span class="add">+          &lt;use href=&quot;#icon-radio-unchecked-18&quot;/></span>
+<span class="add">+        &lt;/svg></span>
+<span class="add">+        &lt;span style=&quot;</span>
+<span class="add">+          flex-shrink: 0;</span>
+<span class="add">+          text-align: left;</span>
+<span class="add">+          text-wrap-mode: nowrap</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Item 3</span>
+<span class="add">+        &lt;/span></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+    &lt;/div></span>
+<span class="add">+  &lt;/span></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section>
+</main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
     <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
@@ -34,10 +319,10 @@
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
-    const PAGE = {"entry":{"component":"menu","story":"selectedRadio","file":"packages/skin/src/sass/menu/stories/__snapshots__/filter-menu.snap","dims":[{"suffix":"","width":null,"rtl":false,"status":"added","before":"","after":"<div>\n  <span style=\"\n    display: inline-block;\n    vertical-align: bottom\n  \">\n    <div style=\"\n      background-color: var(--menu-background-color, var(--color-background-primary));\n      cursor: default\n    \">\n      <div style=\"\n        border-bottom-style: solid;\n        border-bottom-width: 1px;\n        border-left-style: solid;\n        border-left-width: 1px;\n        border-right-style: solid;\n        border-right-width: 1px;\n        border-top-style: solid;\n        border-top-width: 1px;\n        box-sizing: border-box;\n        color: var(--menu-menuitem-foreground-color, var(--color-foreground-primary));\n        display: inline-grid;\n        font-family: inherit;\n        grid-template-columns: auto auto;\n        justify-content: flex-start;\n        margin-bottom: 1px;\n        overflow-x: hidden;\n        overflow-y: hidden;\n        padding-bottom: 8px;\n        padding-left: 15px;\n        padding-right: 15px;\n        padding-top: 8px;\n        position: relative;\n        width: 100%\n      \">\n        <style>@scope{:scope{\n          &::after {\n            background-color: var(--color-state-layer-neutral);\n            bottom: 0px;\n            content: \"\";\n            left: 0px;\n            pointer-events: none;\n            position: absolute;\n            right: 0px;\n            top: 0px\n          }\n        }}<\/style>\n        <svg\n          height=\"18\"\n          style=\"\n            color: var(--color-foreground-primary);\n            display: block;\n            fill: currentcolor;\n            height: 18px;\n            margin-right: var(--spacing-100);\n            pointer-events: none;\n            stroke-width: 0;\n            stroke: currentcolor;\n            vertical-align: middle;\n            width: 18px\n          \"\n          width=\"18\"\n        >\n          <use href=\"#icon-radio-unchecked-18\"/>\n        <\/svg>\n        <span style=\"\n          flex-shrink: 0;\n          text-align: left;\n          text-wrap-mode: nowrap\n        \">\n          Item 1\n        <\/span>\n      <\/div>\n      <div style=\"\n        border-bottom-style: solid;\n        border-bottom-width: 1px;\n        border-left-style: solid;\n        border-left-width: 1px;\n        border-right-style: solid;\n        border-right-width: 1px;\n        border-top-style: solid;\n        border-top-width: 1px;\n        box-sizing: border-box;\n        color: var(--menu-menuitem-foreground-color, var(--color-foreground-primary));\n        display: inline-grid;\n        font-family: inherit;\n        grid-template-columns: auto auto;\n        justify-content: flex-start;\n        margin-bottom: 1px;\n        overflow-x: hidden;\n        overflow-y: hidden;\n        padding-bottom: 8px;\n        padding-left: 15px;\n        padding-right: 15px;\n        padding-top: 8px;\n        position: relative;\n        width: 100%\n      \">\n        <style>@scope{:scope{\n          &::after {\n            background-color: var(--color-state-layer-neutral);\n            bottom: 0px;\n            content: \"\";\n            left: 0px;\n            pointer-events: none;\n            position: absolute;\n            right: 0px;\n            top: 0px\n          }\n        }}<\/style>\n        <svg\n          height=\"18\"\n          style=\"\n            color: var(--color-foreground-primary);\n            display: block;\n            fill: currentcolor;\n            height: 18px;\n            margin-right: var(--spacing-100);\n            pointer-events: none;\n            stroke-width: 0;\n            stroke: currentcolor;\n            vertical-align: middle;\n            width: 18px\n          \"\n          width=\"18\"\n        >\n          <use href=\"#icon-radio-checked-18\"/>\n        <\/svg>\n        <span style=\"\n          flex-shrink: 0;\n          text-align: left;\n          text-wrap-mode: nowrap\n        \">\n          Item 2\n        <\/span>\n      <\/div>\n      <div style=\"\n        border-bottom-style: solid;\n        border-bottom-width: 1px;\n        border-left-style: solid;\n        border-left-width: 1px;\n        border-right-style: solid;\n        border-right-width: 1px;\n        border-top-style: solid;\n        border-top-width: 1px;\n        box-sizing: border-box;\n        color: var(--menu-menuitem-foreground-color, var(--color-foreground-primary));\n        display: inline-grid;\n        font-family: inherit;\n        grid-template-columns: auto auto;\n        justify-content: flex-start;\n        overflow-x: hidden;\n        overflow-y: hidden;\n        padding-bottom: 8px;\n        padding-left: 15px;\n        padding-right: 15px;\n        padding-top: 8px;\n        position: relative;\n        width: 100%\n      \">\n        <style>@scope{:scope{\n          &::after {\n            background-color: var(--color-state-layer-neutral);\n            bottom: 0px;\n            content: \"\";\n            left: 0px;\n            pointer-events: none;\n            position: absolute;\n            right: 0px;\n            top: 0px\n          }\n        }}<\/style>\n        <svg\n          height=\"18\"\n          style=\"\n            color: var(--color-foreground-primary);\n            display: block;\n            fill: currentcolor;\n            height: 18px;\n            margin-right: var(--spacing-100);\n            pointer-events: none;\n            stroke-width: 0;\n            stroke: currentcolor;\n            vertical-align: middle;\n            width: 18px\n          \"\n          width=\"18\"\n        >\n          <use href=\"#icon-radio-unchecked-18\"/>\n        <\/svg>\n        <span style=\"\n          flex-shrink: 0;\n          text-align: left;\n          text-wrap-mode: nowrap\n        \">\n          Item 3\n        <\/span>\n      <\/div>\n    <\/div>\n  <\/span>\n<\/div>","diff":"@@ -0,0 +1,200 @@\n+<div>\n+  <span style=\"\n+    display: inline-block;\n+    vertical-align: bottom\n+  \">\n+    <div style=\"\n+      background-color: var(--menu-background-color, var(--color-background-primary));\n+      cursor: default\n+    \">\n+      <div style=\"\n+        border-bottom-style: solid;\n+        border-bottom-width: 1px;\n+        border-left-style: solid;\n+        border-left-width: 1px;\n+        border-right-style: solid;\n+        border-right-width: 1px;\n+        border-top-style: solid;\n+        border-top-width: 1px;\n+        box-sizing: border-box;\n+        color: var(--menu-menuitem-foreground-color, var(--color-foreground-primary));\n+        display: inline-grid;\n+        font-family: inherit;\n+        grid-template-columns: auto auto;\n+        justify-content: flex-start;\n+        margin-bottom: 1px;\n+        overflow-x: hidden;\n+        overflow-y: hidden;\n+        padding-bottom: 8px;\n+        padding-left: 15px;\n+        padding-right: 15px;\n+        padding-top: 8px;\n+        position: relative;\n+        width: 100%\n+      \">\n+        <style>@scope{:scope{\n+          &::after {\n+            background-color: var(--color-state-layer-neutral);\n+            bottom: 0px;\n+            content: \"\";\n+            left: 0px;\n+            pointer-events: none;\n+            position: absolute;\n+            right: 0px;\n+            top: 0px\n+          }\n+        }}<\/style>\n+        <svg\n+          height=\"18\"\n+          style=\"\n+            color: var(--color-foreground-primary);\n+            display: block;\n+            fill: currentcolor;\n+            height: 18px;\n+            margin-right: var(--spacing-100);\n+            pointer-events: none;\n+            stroke-width: 0;\n+            stroke: currentcolor;\n+            vertical-align: middle;\n+            width: 18px\n+          \"\n+          width=\"18\"\n+        >\n+          <use href=\"#icon-radio-unchecked-18\"/>\n+        <\/svg>\n+        <span style=\"\n+          flex-shrink: 0;\n+          text-align: left;\n+          text-wrap-mode: nowrap\n+        \">\n+          Item 1\n+        <\/span>\n+      <\/div>\n+      <div style=\"\n+        border-bottom-style: solid;\n+        border-bottom-width: 1px;\n+        border-left-style: solid;\n+        border-left-width: 1px;\n+        border-right-style: solid;\n+        border-right-width: 1px;\n+        border-top-style: solid;\n+        border-top-width: 1px;\n+        box-sizing: border-box;\n+        color: var(--menu-menuitem-foreground-color, var(--color-foreground-primary));\n+        display: inline-grid;\n+        font-family: inherit;\n+        grid-template-columns: auto auto;\n+        justify-content: flex-start;\n+        margin-bottom: 1px;\n+        overflow-x: hidden;\n+        overflow-y: hidden;\n+        padding-bottom: 8px;\n+        padding-left: 15px;\n+        padding-right: 15px;\n+        padding-top: 8px;\n+        position: relative;\n+        width: 100%\n+      \">\n+        <style>@scope{:scope{\n+          &::after {\n+            background-color: var(--color-state-layer-neutral);\n+            bottom: 0px;\n+            content: \"\";\n+            left: 0px;\n+            pointer-events: none;\n+            position: absolute;\n+            right: 0px;\n+            top: 0px\n+          }\n+        }}<\/style>\n+        <svg\n+          height=\"18\"\n+          style=\"\n+            color: var(--color-foreground-primary);\n+            display: block;\n+            fill: currentcolor;\n+            height: 18px;\n+            margin-right: var(--spacing-100);\n+            pointer-events: none;\n+            stroke-width: 0;\n+            stroke: currentcolor;\n+            vertical-align: middle;\n+            width: 18px\n+          \"\n+          width=\"18\"\n+        >\n+          <use href=\"#icon-radio-checked-18\"/>\n+        <\/svg>\n+        <span style=\"\n+          flex-shrink: 0;\n+          text-align: left;\n+          text-wrap-mode: nowrap\n+        \">\n+          Item 2\n+        <\/span>\n+      <\/div>\n+      <div style=\"\n+        border-bottom-style: solid;\n+        border-bottom-width: 1px;\n+        border-left-style: solid;\n+        border-left-width: 1px;\n+        border-right-style: solid;\n+        border-right-width: 1px;\n+        border-top-style: solid;\n+        border-top-width: 1px;\n+        box-sizing: border-box;\n+        color: var(--menu-menuitem-foreground-color, var(--color-foreground-primary));\n+        display: inline-grid;\n+        font-family: inherit;\n+        grid-template-columns: auto auto;\n+        justify-content: flex-start;\n+        overflow-x: hidden;\n+        overflow-y: hidden;\n+        padding-bottom: 8px;\n+        padding-left: 15px;\n+        padding-right: 15px;\n+        padding-top: 8px;\n+        position: relative;\n+        width: 100%\n+      \">\n+        <style>@scope{:scope{\n+          &::after {\n+            background-color: var(--color-state-layer-neutral);\n+            bottom: 0px;\n+            content: \"\";\n+            left: 0px;\n+            pointer-events: none;\n+            position: absolute;\n+            right: 0px;\n+            top: 0px\n+          }\n+        }}<\/style>\n+        <svg\n+          height=\"18\"\n+          style=\"\n+            color: var(--color-foreground-primary);\n+            display: block;\n+            fill: currentcolor;\n+            height: 18px;\n+            margin-right: var(--spacing-100);\n+            pointer-events: none;\n+            stroke-width: 0;\n+            stroke: currentcolor;\n+            vertical-align: middle;\n+            width: 18px\n+          \"\n+          width=\"18\"\n+        >\n+          <use href=\"#icon-radio-unchecked-18\"/>\n+        <\/svg>\n+        <span style=\"\n+          flex-shrink: 0;\n+          text-align: left;\n+          text-wrap-mode: nowrap\n+        \">\n+          Item 3\n+        <\/span>\n+      <\/div>\n+    <\/div>\n+  <\/span>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"\n<span class=\"menu menu--filter\">\n    <div class=\"menu__items\" role=\"menu\">\n        <div class=\"menu__item\" role=\"menuitemradio\" aria-checked=\"false\" tabindex=\"0\">\n            <svg\n                aria-hidden=\"true\"\n                class=\"icon icon--18 icon--unchecked\"\n                height=\"18\"\n                width=\"18\"\n            >\n                <use href=\"#icon-radio-unchecked-18\"><\/use>\n            <\/svg>\n            <svg\n                aria-hidden=\"true\"\n                class=\"icon icon--18 icon--checked\"\n                height=\"18\"\n                width=\"18\"\n            >\n                <use href=\"#icon-radio-checked-18\"><\/use>\n            <\/svg>\n            <span>Item 1<\/span>\n        <\/div>\n        <div class=\"menu__item\" role=\"menuitemradio\" aria-checked=\"true\">\n            <svg\n                aria-hidden=\"true\"\n                class=\"icon icon--18 icon--unchecked\"\n                height=\"18\"\n                width=\"18\"\n            >\n                <use href=\"#icon-radio-unchecked-18\"><\/use>\n            <\/svg>\n            <svg\n                aria-hidden=\"true\"\n                class=\"icon icon--18 icon--checked\"\n                height=\"18\"\n                width=\"18\"\n            >\n                <use href=\"#icon-radio-checked-18\"><\/use>\n            <\/svg>\n            <span>Item 2<\/span>\n        <\/div>\n        <div class=\"menu__item\" role=\"menuitemradio\" aria-checked=\"false\">\n            <svg\n                aria-hidden=\"true\"\n                class=\"icon icon--18 icon--unchecked\"\n                height=\"18\"\n                width=\"18\"\n            >\n                <use href=\"#icon-radio-unchecked-18\"><\/use>\n            <\/svg>\n            <svg\n                aria-hidden=\"true\"\n                class=\"icon icon--18 icon--checked\"\n                height=\"18\"\n                width=\"18\"\n            >\n                <use href=\"#icon-radio-checked-18\"><\/use>\n            <\/svg>\n            <span>Item 3<\/span>\n        <\/div>\n    <\/div>\n<\/span>\n","storyAfter":"\n<span class=\"menu menu--filter\">\n    <div class=\"menu__items\" role=\"menu\">\n        <div class=\"menu__item\" role=\"menuitemradio\" aria-checked=\"false\" tabindex=\"0\">\n            <svg\n                aria-hidden=\"true\"\n                class=\"icon icon--18 icon--unchecked\"\n                height=\"18\"\n                width=\"18\"\n            >\n                <use href=\"#icon-radio-unchecked-18\"><\/use>\n            <\/svg>\n            <svg\n                aria-hidden=\"true\"\n                class=\"icon icon--18 icon--checked\"\n                height=\"18\"\n                width=\"18\"\n            >\n                <use href=\"#icon-radio-checked-18\"><\/use>\n            <\/svg>\n            <span>Item 1<\/span>\n        <\/div>\n        <div class=\"menu__item\" role=\"menuitemradio\" aria-checked=\"true\">\n            <svg\n                aria-hidden=\"true\"\n                class=\"icon icon--18 icon--unchecked\"\n                height=\"18\"\n                width=\"18\"\n            >\n                <use href=\"#icon-radio-unchecked-18\"><\/use>\n            <\/svg>\n            <svg\n                aria-hidden=\"true\"\n                class=\"icon icon--18 icon--checked\"\n                height=\"18\"\n                width=\"18\"\n            >\n                <use href=\"#icon-radio-checked-18\"><\/use>\n            <\/svg>\n            <span>Item 2<\/span>\n        <\/div>\n        <div class=\"menu__item\" role=\"menuitemradio\" aria-checked=\"false\">\n            <svg\n                aria-hidden=\"true\"\n                class=\"icon icon--18 icon--unchecked\"\n                height=\"18\"\n                width=\"18\"\n            >\n                <use href=\"#icon-radio-unchecked-18\"><\/use>\n            <\/svg>\n            <svg\n                aria-hidden=\"true\"\n                class=\"icon icon--18 icon--checked\"\n                height=\"18\"\n                width=\"18\"\n            >\n                <use href=\"#icon-radio-checked-18\"><\/use>\n            <\/svg>\n            <span>Item 3<\/span>\n        <\/div>\n    <\/div>\n<\/span>\n"},"baseRefShort":"60ee2f496866","prevHref":"menu-stories-filter-menu--selectedCheckbox.html","nextHref":"menu-stories-filter-menu--unselectedCheckbox.html","indexHref":"../index.html","pos":589,"total":1012,"slug":"menu-stories-filter-menu--selectedRadio","hash":"1jlnx1v"};
+    const PAGE = {"baseRefShort":"60ee2f496866","prevHref":"menu-stories-filter-menu--selectedCheckbox.html","nextHref":"menu-stories-filter-menu--unselectedCheckbox.html","indexHref":"../index.html","pos":589,"total":1012,"slug":"menu-stories-filter-menu--selectedRadio","hash":"1jlnx1v","component":"menu","story":"selectedRadio","file":"packages/skin/src/sass/menu/stories/__snapshots__/filter-menu.snap","dims":[{"changes":[]}]};
 </script>
-<script src="../assets/nav.js"></script>
-<script src="../assets/story.js"></script>
+<script src="../assets/nav.js" defer></script>
+<script src="../assets/story.js" defer></script>
 <script src="../assets/prefetch.js" defer></script>
 </body>
 </html>

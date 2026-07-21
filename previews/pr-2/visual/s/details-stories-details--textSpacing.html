@@ -9,8 +9,8 @@
 <body class="story-page">
 <header>
     <a class="back" href="../index.html">← All changes</a>
-    <h1 id="title"></h1>
-    <span class="meta" id="path"></span>
+    <h1 id="title">details / textSpacing</h1>
+    <span class="meta" id="path">packages/skin/src/sass/details/stories/__snapshots__/details.snap</span>
     <span class="pagenav">
         <a id="prev" href="#">‹ prev</a>
         <span class="pos" id="pos"></span>
@@ -21,7 +21,102 @@
     <input id="search" type="search" placeholder="Filter stories… ( / )" />
     <div id="storylist"></div>
 </nav>
-<main id="main"></main>
+<main id="main">
+    <div class="toolbar">
+        <div class="seg" data-seg="mode">
+            <button type="button" data-v="side" class="active">Side by side</button>
+            <button type="button" data-v="swipe">Swipe</button>
+            <button type="button" data-v="onion">Onion</button>
+            <button type="button" data-v="flip">Flip</button>
+        </div>
+        <div class="seg" data-seg="view">
+            <button type="button" data-v="rendered" class="active">Rendered</button>
+            <button type="button" data-v="diff">Text diff</button>
+        </div>
+        <div class="seg" data-seg="theme">
+            <button type="button" data-v="light" class="active">Light</button>
+            <button type="button" data-v="dark">Dark</button>
+        </div>
+        <label class="toggle"><input type="checkbox" id="hl-toggle" checked />Highlights</label>
+        <div class="grow"></div>
+        <button class="flag" id="flag-btn" type="button">⚑ Flag</button>
+    </div>
+    <section class="dim-section" id="dim-0" data-dim="0"><div class="stage"><div class="render-area"><div class="duo mode-side fluid solo"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fluid"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<details class=&quot;details demo-a11y-text-spacing&quot; open>
+    <summary class=&quot;details__summary&quot;>
+        <span class=&quot;details__label&quot;>Details</span>
+        <span class=&quot;details__icon&quot; hidden>
+            <svg class=&quot;icon icon--16&quot; aria-hidden=&quot;true&quot;>
+                <use href=&quot;#icon-chevron-down-16&quot;></use>
+            </svg>
+        </span>
+    </summary>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</details>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,60 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;details open></span>
+<span class="add">+    &lt;summary style=&quot;</span>
+<span class="add">+      align-items: center;</span>
+<span class="add">+      box-sizing: border-box;</span>
+<span class="add">+      color: var(--details-summary-foreground-color, var(--color-foreground-primary));</span>
+<span class="add">+      display: inline-flex;</span>
+<span class="add">+      font-size: var(--font-size-body);</span>
+<span class="add">+      font-weight: var(--font-weight-600);</span>
+<span class="add">+      list-style-position: inside;</span>
+<span class="add">+      list-style-type: none;</span>
+<span class="add">+      overflow-x: hidden;</span>
+<span class="add">+      overflow-y: hidden;</span>
+<span class="add">+      padding-bottom: 12px;</span>
+<span class="add">+      padding-left: 8px;</span>
+<span class="add">+      padding-right: 8px;</span>
+<span class="add">+      padding-top: 12px;</span>
+<span class="add">+      position: relative</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;style>@scope{:scope{</span>
+<span class="add">+        &amp;::after {</span>
+<span class="add">+          background-color: var(--color-state-layer-neutral);</span>
+<span class="add">+          bottom: 0px;</span>
+<span class="add">+          content: &quot;&quot;;</span>
+<span class="add">+          left: 0px;</span>
+<span class="add">+          pointer-events: none;</span>
+<span class="add">+          position: absolute;</span>
+<span class="add">+          right: 0px;</span>
+<span class="add">+          top: 0px</span>
+<span class="add">+        }</span>
+<span class="add">+      }}&lt;/style></span>
+<span class="add">+      &lt;span></span>
+<span class="add">+        Details</span>
+<span class="add">+      &lt;/span></span>
+<span class="add">+      &lt;span</span>
+<span class="add">+        hidden</span>
+<span class="add">+        style=&quot;</span>
+<span class="add">+          display: inline-flex;</span>
+<span class="add">+          transform: rotate(180deg)</span>
+<span class="add">+        &quot;</span>
+<span class="add">+      ></span>
+<span class="add">+        &lt;svg style=&quot;</span>
+<span class="add">+          display: inline-block;</span>
+<span class="add">+          fill: currentcolor;</span>
+<span class="add">+          height: 16px;</span>
+<span class="add">+          pointer-events: none;</span>
+<span class="add">+          stroke-width: 0;</span>
+<span class="add">+          stroke: currentcolor;</span>
+<span class="add">+          vertical-align: middle;</span>
+<span class="add">+          width: 16px</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;use href=&quot;#icon-chevron-down-16&quot;/></span>
+<span class="add">+        &lt;/svg></span>
+<span class="add">+      &lt;/span></span>
+<span class="add">+    &lt;/summary></span>
+<span class="add">+    &lt;p></span>
+<span class="add">+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+<span class="add">+    &lt;/p></span>
+<span class="add">+  &lt;/details></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section>
+</main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
     <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
@@ -34,10 +129,10 @@
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
-    const PAGE = {"entry":{"component":"details","story":"textSpacing","file":"packages/skin/src/sass/details/stories/__snapshots__/details.snap","dims":[{"suffix":"","width":null,"rtl":false,"status":"added","before":"","after":"<div>\n  <details open>\n    <summary style=\"\n      align-items: center;\n      box-sizing: border-box;\n      color: var(--details-summary-foreground-color, var(--color-foreground-primary));\n      display: inline-flex;\n      font-size: var(--font-size-body);\n      font-weight: var(--font-weight-600);\n      list-style-position: inside;\n      list-style-type: none;\n      overflow-x: hidden;\n      overflow-y: hidden;\n      padding-bottom: 12px;\n      padding-left: 8px;\n      padding-right: 8px;\n      padding-top: 12px;\n      position: relative\n    \">\n      <style>@scope{:scope{\n        &::after {\n          background-color: var(--color-state-layer-neutral);\n          bottom: 0px;\n          content: \"\";\n          left: 0px;\n          pointer-events: none;\n          position: absolute;\n          right: 0px;\n          top: 0px\n        }\n      }}<\/style>\n      <span>\n        Details\n      <\/span>\n      <span\n        hidden\n        style=\"\n          display: inline-flex;\n          transform: rotate(180deg)\n        \"\n      >\n        <svg style=\"\n          display: inline-block;\n          fill: currentcolor;\n          height: 16px;\n          pointer-events: none;\n          stroke-width: 0;\n          stroke: currentcolor;\n          vertical-align: middle;\n          width: 16px\n        \">\n          <use href=\"#icon-chevron-down-16\"/>\n        <\/svg>\n      <\/span>\n    <\/summary>\n    <p>\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n    <\/p>\n  <\/details>\n<\/div>","diff":"@@ -0,0 +1,60 @@\n+<div>\n+  <details open>\n+    <summary style=\"\n+      align-items: center;\n+      box-sizing: border-box;\n+      color: var(--details-summary-foreground-color, var(--color-foreground-primary));\n+      display: inline-flex;\n+      font-size: var(--font-size-body);\n+      font-weight: var(--font-weight-600);\n+      list-style-position: inside;\n+      list-style-type: none;\n+      overflow-x: hidden;\n+      overflow-y: hidden;\n+      padding-bottom: 12px;\n+      padding-left: 8px;\n+      padding-right: 8px;\n+      padding-top: 12px;\n+      position: relative\n+    \">\n+      <style>@scope{:scope{\n+        &::after {\n+          background-color: var(--color-state-layer-neutral);\n+          bottom: 0px;\n+          content: \"\";\n+          left: 0px;\n+          pointer-events: none;\n+          position: absolute;\n+          right: 0px;\n+          top: 0px\n+        }\n+      }}<\/style>\n+      <span>\n+        Details\n+      <\/span>\n+      <span\n+        hidden\n+        style=\"\n+          display: inline-flex;\n+          transform: rotate(180deg)\n+        \"\n+      >\n+        <svg style=\"\n+          display: inline-block;\n+          fill: currentcolor;\n+          height: 16px;\n+          pointer-events: none;\n+          stroke-width: 0;\n+          stroke: currentcolor;\n+          vertical-align: middle;\n+          width: 16px\n+        \">\n+          <use href=\"#icon-chevron-down-16\"/>\n+        <\/svg>\n+      <\/span>\n+    <\/summary>\n+    <p>\n+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n+    <\/p>\n+  <\/details>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"\n<details class=\"details demo-a11y-text-spacing\" open>\n    <summary class=\"details__summary\">\n        <span class=\"details__label\">Details<\/span>\n        <span class=\"details__icon\" hidden>\n            <svg class=\"icon icon--16\" aria-hidden=\"true\">\n                <use href=\"#icon-chevron-down-16\"><\/use>\n            <\/svg>\n        <\/span>\n    <\/summary>\n    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>\n<\/details>\n","storyAfter":"\n<details class=\"details demo-a11y-text-spacing\" open>\n    <summary class=\"details__summary\">\n        <span class=\"details__label\">Details<\/span>\n        <span class=\"details__icon\" hidden>\n            <svg class=\"icon icon--16\" aria-hidden=\"true\">\n                <use href=\"#icon-chevron-down-16\"><\/use>\n            <\/svg>\n        <\/span>\n    <\/summary>\n    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>\n<\/details>\n"},"baseRefShort":"60ee2f496866","prevHref":"details-stories-details--small.html","nextHref":"dialog-stories-dialog--base.html","indexHref":"../index.html","pos":257,"total":1012,"slug":"details-stories-details--textSpacing","hash":"1ftkadv"};
+    const PAGE = {"baseRefShort":"60ee2f496866","prevHref":"details-stories-details--small.html","nextHref":"dialog-stories-dialog--base.html","indexHref":"../index.html","pos":257,"total":1012,"slug":"details-stories-details--textSpacing","hash":"1ftkadv","component":"details","story":"textSpacing","file":"packages/skin/src/sass/details/stories/__snapshots__/details.snap","dims":[{"changes":[]}]};
 </script>
-<script src="../assets/nav.js"></script>
-<script src="../assets/story.js"></script>
+<script src="../assets/nav.js" defer></script>
+<script src="../assets/story.js" defer></script>
 <script src="../assets/prefetch.js" defer></script>
 </body>
 </html>

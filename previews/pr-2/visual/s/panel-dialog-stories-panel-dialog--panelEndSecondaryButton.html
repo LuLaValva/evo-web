@@ -9,8 +9,8 @@
 <body class="story-page">
 <header>
     <a class="back" href="../index.html">← All changes</a>
-    <h1 id="title"></h1>
-    <span class="meta" id="path"></span>
+    <h1 id="title">panel-dialog / panelEndSecondaryButton</h1>
+    <span class="meta" id="path">packages/skin/src/sass/panel-dialog/stories/__snapshots__/panel-dialog.snap</span>
     <span class="pagenav">
         <a id="prev" href="#">‹ prev</a>
         <span class="pos" id="pos"></span>
@@ -21,7 +21,540 @@
     <input id="search" type="search" placeholder="Filter stories… ( / )" />
     <div id="storylist"></div>
 </nav>
-<main id="main"></main>
+<main id="main">
+    <div class="toolbar">
+        <div class="seg" data-seg="mode">
+            <button type="button" data-v="side" class="active">Side by side</button>
+            <button type="button" data-v="swipe">Swipe</button>
+            <button type="button" data-v="onion">Onion</button>
+            <button type="button" data-v="flip">Flip</button>
+        </div>
+        <div class="seg" data-seg="view">
+            <button type="button" data-v="rendered" class="active">Rendered</button>
+            <button type="button" data-v="diff">Text diff</button>
+        </div>
+        <div class="seg" data-seg="theme">
+            <button type="button" data-v="light" class="active">Light</button>
+            <button type="button" data-v="dark">Dark</button>
+        </div>
+        <label class="toggle"><input type="checkbox" id="hl-toggle" checked />Highlights</label>
+        <div class="grow"></div>
+        <button class="flag" id="flag-btn" type="button">⚑ Flag</button>
+    </div>
+    <section class="dim-section" id="dim-0" data-dim="0"><h3 class="dim-label">320px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="320"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<div aria-labelledby=&quot;panel-title&quot; aria-modal=&quot;true&quot; class=&quot;panel-dialog&quot; role=&quot;dialog&quot;>
+    <div class=&quot;panel-dialog__window panel-dialog__window--end&quot;>
+        <div class=&quot;panel-dialog__header&quot;>
+            <h2 id=&quot;panel-title&quot;>Right Panel</h2>
+            <button class=&quot;fake-link panel-dialog__close&quot; type=&quot;button&quot;>Reset</button>
+        </div>
+        <div class=&quot;panel-dialog__main&quot;>
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.</p>
+            <p><a href=&quot;http://www.ebay.com&quot;>www.ebay.com</a></p>
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.</p>
+            <p><a href=&quot;http://www.ebay.com&quot;>www.ebay.com</a></p>
+        </div>
+    </div>
+</div>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,109 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;div style=&quot;</span>
+<span class="add">+    background-color: var(--dialog-scrim-color-show);</span>
+<span class="add">+    bottom: 0px;</span>
+<span class="add">+    display: flex;</span>
+<span class="add">+    flex-direction: column;</span>
+<span class="add">+    left: 0px;</span>
+<span class="add">+    overflow-x: hidden;</span>
+<span class="add">+    overflow-y: hidden;</span>
+<span class="add">+    position: fixed;</span>
+<span class="add">+    right: 0px;</span>
+<span class="add">+    top: 0px;</span>
+<span class="add">+    will-change: background-color;</span>
+<span class="add">+    z-index: 100000</span>
+<span class="add">+  &quot;></span>
+<span class="add">+    &lt;div style=&quot;</span>
+<span class="add">+      align-self: flex-end;</span>
+<span class="add">+      background-color: var(--dialog-window-background-color, var(--color-background-primary));</span>
+<span class="add">+      border-left-color: rgba(153, 153, 153, 0.18);</span>
+<span class="add">+      border-left-style: solid;</span>
+<span class="add">+      border-left-width: 1px;</span>
+<span class="add">+      border-right-color: rgba(153, 153, 153, 0.18);</span>
+<span class="add">+      border-right-style: solid;</span>
+<span class="add">+      border-right-width: 1px;</span>
+<span class="add">+      display: flex;</span>
+<span class="add">+      flex-direction: column;</span>
+<span class="add">+      flex-grow: 1;</span>
+<span class="add">+      flex-shrink: 0;</span>
+<span class="add">+      min-height: 55px;</span>
+<span class="add">+      overflow-y: auto;</span>
+<span class="add">+      width: 100%;</span>
+<span class="add">+      will-change: opacity, transform</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        display: flex;</span>
+<span class="add">+        flex-shrink: 0;</span>
+<span class="add">+        margin: var(--spacing-200) var(--spacing-200) 0;</span>
+<span class="add">+        position: relative</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;h2 style=&quot;</span>
+<span class="add">+          align-self: center;</span>
+<span class="add">+          flex-grow: 1;</span>
+<span class="add">+          margin-bottom: 0px;</span>
+<span class="add">+          margin-top: 0px;</span>
+<span class="add">+          overflow-wrap: anywhere</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Right Panel</span>
+<span class="add">+        &lt;/h2></span>
+<span class="add">+        &lt;button style=&quot;</span>
+<span class="add">+          align-self: flex-start;</span>
+<span class="add">+          border-bottom-color: currentcolor;</span>
+<span class="add">+          border-bottom-style: none;</span>
+<span class="add">+          border-bottom-width: 0px;</span>
+<span class="add">+          border-left-color: currentcolor;</span>
+<span class="add">+          border-left-style: none;</span>
+<span class="add">+          border-left-width: 0px;</span>
+<span class="add">+          border-right-color: currentcolor;</span>
+<span class="add">+          border-right-style: none;</span>
+<span class="add">+          border-right-width: 0px;</span>
+<span class="add">+          border-top-color: currentcolor;</span>
+<span class="add">+          border-top-style: none;</span>
+<span class="add">+          border-top-width: 0px;</span>
+<span class="add">+          color: var(--fake-link-foreground-color, var(--color-foreground-link-primary));</span>
+<span class="add">+          font-family: inherit;</span>
+<span class="add">+          font-size: inherit;</span>
+<span class="add">+          margin-inline-start: var(--spacing-200);</span>
+<span class="add">+          outline-offset: 4px;</span>
+<span class="add">+          padding-bottom: 0px;</span>
+<span class="add">+          padding-left: 0px;</span>
+<span class="add">+          padding-right: 0px;</span>
+<span class="add">+          padding-top: 0px</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Reset</span>
+<span class="add">+        &lt;/button></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        box-sizing: border-box;</span>
+<span class="add">+        flex-grow: 1;</span>
+<span class="add">+        height: 1px;</span>
+<span class="add">+        overflow-y: auto;</span>
+<span class="add">+        padding: var(--spacing-200);</span>
+<span class="add">+        position: relative</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;h3 style=&quot;margin-top: 0px&quot;></span>
+<span class="add">+          Heading</span>
+<span class="add">+        &lt;/h3></span>
+<span class="add">+        &lt;p></span>
+<span class="add">+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.</span>
+<span class="add">+        &lt;/p></span>
+<span class="add">+        &lt;p></span>
+<span class="add">+          &lt;a style=&quot;color: var(--color-foreground-link-primary)&quot;></span>
+<span class="add">+            www.ebay.com</span>
+<span class="add">+          &lt;/a></span>
+<span class="add">+        &lt;/p></span>
+<span class="add">+        &lt;h3></span>
+<span class="add">+          Heading</span>
+<span class="add">+        &lt;/h3></span>
+<span class="add">+        &lt;p></span>
+<span class="add">+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.</span>
+<span class="add">+        &lt;/p></span>
+<span class="add">+        &lt;p style=&quot;margin-bottom: 0px&quot;></span>
+<span class="add">+          &lt;a style=&quot;color: var(--color-foreground-link-primary)&quot;></span>
+<span class="add">+            www.ebay.com</span>
+<span class="add">+          &lt;/a></span>
+<span class="add">+        &lt;/p></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+    &lt;/div></span>
+<span class="add">+  &lt;/div></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section><section class="dim-section" id="dim-1" data-dim="1"><h3 class="dim-label">512px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="512"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<div aria-labelledby=&quot;panel-title&quot; aria-modal=&quot;true&quot; class=&quot;panel-dialog&quot; role=&quot;dialog&quot;>
+    <div class=&quot;panel-dialog__window panel-dialog__window--end&quot;>
+        <div class=&quot;panel-dialog__header&quot;>
+            <h2 id=&quot;panel-title&quot;>Right Panel</h2>
+            <button class=&quot;fake-link panel-dialog__close&quot; type=&quot;button&quot;>Reset</button>
+        </div>
+        <div class=&quot;panel-dialog__main&quot;>
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.</p>
+            <p><a href=&quot;http://www.ebay.com&quot;>www.ebay.com</a></p>
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.</p>
+            <p><a href=&quot;http://www.ebay.com&quot;>www.ebay.com</a></p>
+        </div>
+    </div>
+</div>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,109 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;div style=&quot;</span>
+<span class="add">+    background-color: var(--dialog-scrim-color-show);</span>
+<span class="add">+    bottom: 0px;</span>
+<span class="add">+    display: flex;</span>
+<span class="add">+    flex-direction: column;</span>
+<span class="add">+    left: 0px;</span>
+<span class="add">+    overflow-x: hidden;</span>
+<span class="add">+    overflow-y: hidden;</span>
+<span class="add">+    position: fixed;</span>
+<span class="add">+    right: 0px;</span>
+<span class="add">+    top: 0px;</span>
+<span class="add">+    will-change: background-color;</span>
+<span class="add">+    z-index: 100000</span>
+<span class="add">+  &quot;></span>
+<span class="add">+    &lt;div style=&quot;</span>
+<span class="add">+      align-self: flex-end;</span>
+<span class="add">+      background-color: var(--dialog-window-background-color, var(--color-background-primary));</span>
+<span class="add">+      border-left-color: rgba(153, 153, 153, 0.18);</span>
+<span class="add">+      border-left-style: solid;</span>
+<span class="add">+      border-left-width: 1px;</span>
+<span class="add">+      border-right-color: rgba(153, 153, 153, 0.18);</span>
+<span class="add">+      border-right-style: solid;</span>
+<span class="add">+      border-right-width: 1px;</span>
+<span class="add">+      display: flex;</span>
+<span class="add">+      flex-direction: column;</span>
+<span class="add">+      flex-grow: 1;</span>
+<span class="add">+      flex-shrink: 0;</span>
+<span class="add">+      min-height: 55px;</span>
+<span class="add">+      overflow-y: auto;</span>
+<span class="add">+      width: 384px;</span>
+<span class="add">+      will-change: opacity, transform</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        display: flex;</span>
+<span class="add">+        flex-shrink: 0;</span>
+<span class="add">+        margin: var(--spacing-200) var(--spacing-200) 0;</span>
+<span class="add">+        position: relative</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;h2 style=&quot;</span>
+<span class="add">+          align-self: center;</span>
+<span class="add">+          flex-grow: 1;</span>
+<span class="add">+          margin-bottom: 0px;</span>
+<span class="add">+          margin-top: 0px;</span>
+<span class="add">+          overflow-wrap: anywhere</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Right Panel</span>
+<span class="add">+        &lt;/h2></span>
+<span class="add">+        &lt;button style=&quot;</span>
+<span class="add">+          align-self: flex-start;</span>
+<span class="add">+          border-bottom-color: currentcolor;</span>
+<span class="add">+          border-bottom-style: none;</span>
+<span class="add">+          border-bottom-width: 0px;</span>
+<span class="add">+          border-left-color: currentcolor;</span>
+<span class="add">+          border-left-style: none;</span>
+<span class="add">+          border-left-width: 0px;</span>
+<span class="add">+          border-right-color: currentcolor;</span>
+<span class="add">+          border-right-style: none;</span>
+<span class="add">+          border-right-width: 0px;</span>
+<span class="add">+          border-top-color: currentcolor;</span>
+<span class="add">+          border-top-style: none;</span>
+<span class="add">+          border-top-width: 0px;</span>
+<span class="add">+          color: var(--fake-link-foreground-color, var(--color-foreground-link-primary));</span>
+<span class="add">+          font-family: inherit;</span>
+<span class="add">+          font-size: inherit;</span>
+<span class="add">+          margin-inline-start: var(--spacing-200);</span>
+<span class="add">+          outline-offset: 4px;</span>
+<span class="add">+          padding-bottom: 0px;</span>
+<span class="add">+          padding-left: 0px;</span>
+<span class="add">+          padding-right: 0px;</span>
+<span class="add">+          padding-top: 0px</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Reset</span>
+<span class="add">+        &lt;/button></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        box-sizing: border-box;</span>
+<span class="add">+        flex-grow: 1;</span>
+<span class="add">+        height: 1px;</span>
+<span class="add">+        overflow-y: auto;</span>
+<span class="add">+        padding: var(--spacing-200);</span>
+<span class="add">+        position: relative</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;h3 style=&quot;margin-top: 0px&quot;></span>
+<span class="add">+          Heading</span>
+<span class="add">+        &lt;/h3></span>
+<span class="add">+        &lt;p></span>
+<span class="add">+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.</span>
+<span class="add">+        &lt;/p></span>
+<span class="add">+        &lt;p></span>
+<span class="add">+          &lt;a style=&quot;color: var(--color-foreground-link-primary)&quot;></span>
+<span class="add">+            www.ebay.com</span>
+<span class="add">+          &lt;/a></span>
+<span class="add">+        &lt;/p></span>
+<span class="add">+        &lt;h3></span>
+<span class="add">+          Heading</span>
+<span class="add">+        &lt;/h3></span>
+<span class="add">+        &lt;p></span>
+<span class="add">+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.</span>
+<span class="add">+        &lt;/p></span>
+<span class="add">+        &lt;p style=&quot;margin-bottom: 0px&quot;></span>
+<span class="add">+          &lt;a style=&quot;color: var(--color-foreground-link-primary)&quot;></span>
+<span class="add">+            www.ebay.com</span>
+<span class="add">+          &lt;/a></span>
+<span class="add">+        &lt;/p></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+    &lt;/div></span>
+<span class="add">+  &lt;/div></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section><section class="dim-section" id="dim-2" data-dim="2"><h3 class="dim-label">1280px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<div aria-labelledby=&quot;panel-title&quot; aria-modal=&quot;true&quot; class=&quot;panel-dialog&quot; role=&quot;dialog&quot;>
+    <div class=&quot;panel-dialog__window panel-dialog__window--end&quot;>
+        <div class=&quot;panel-dialog__header&quot;>
+            <h2 id=&quot;panel-title&quot;>Right Panel</h2>
+            <button class=&quot;fake-link panel-dialog__close&quot; type=&quot;button&quot;>Reset</button>
+        </div>
+        <div class=&quot;panel-dialog__main&quot;>
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.</p>
+            <p><a href=&quot;http://www.ebay.com&quot;>www.ebay.com</a></p>
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.</p>
+            <p><a href=&quot;http://www.ebay.com&quot;>www.ebay.com</a></p>
+        </div>
+    </div>
+</div>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,109 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;div style=&quot;</span>
+<span class="add">+    background-color: var(--dialog-scrim-color-show);</span>
+<span class="add">+    bottom: 0px;</span>
+<span class="add">+    display: flex;</span>
+<span class="add">+    flex-direction: column;</span>
+<span class="add">+    left: 0px;</span>
+<span class="add">+    overflow-x: hidden;</span>
+<span class="add">+    overflow-y: hidden;</span>
+<span class="add">+    position: fixed;</span>
+<span class="add">+    right: 0px;</span>
+<span class="add">+    top: 0px;</span>
+<span class="add">+    will-change: background-color;</span>
+<span class="add">+    z-index: 100000</span>
+<span class="add">+  &quot;></span>
+<span class="add">+    &lt;div style=&quot;</span>
+<span class="add">+      align-self: flex-end;</span>
+<span class="add">+      background-color: var(--dialog-window-background-color, var(--color-background-primary));</span>
+<span class="add">+      border-left-color: rgba(153, 153, 153, 0.18);</span>
+<span class="add">+      border-left-style: solid;</span>
+<span class="add">+      border-left-width: 1px;</span>
+<span class="add">+      border-right-color: rgba(153, 153, 153, 0.18);</span>
+<span class="add">+      border-right-style: solid;</span>
+<span class="add">+      border-right-width: 1px;</span>
+<span class="add">+      display: flex;</span>
+<span class="add">+      flex-direction: column;</span>
+<span class="add">+      flex-grow: 1;</span>
+<span class="add">+      flex-shrink: 0;</span>
+<span class="add">+      min-height: 55px;</span>
+<span class="add">+      overflow-y: auto;</span>
+<span class="add">+      width: 384px;</span>
+<span class="add">+      will-change: opacity, transform</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        display: flex;</span>
+<span class="add">+        flex-shrink: 0;</span>
+<span class="add">+        margin: var(--spacing-200) var(--spacing-200) 0;</span>
+<span class="add">+        position: relative</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;h2 style=&quot;</span>
+<span class="add">+          align-self: center;</span>
+<span class="add">+          flex-grow: 1;</span>
+<span class="add">+          margin-bottom: 0px;</span>
+<span class="add">+          margin-top: 0px;</span>
+<span class="add">+          overflow-wrap: anywhere</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Right Panel</span>
+<span class="add">+        &lt;/h2></span>
+<span class="add">+        &lt;button style=&quot;</span>
+<span class="add">+          align-self: flex-start;</span>
+<span class="add">+          border-bottom-color: currentcolor;</span>
+<span class="add">+          border-bottom-style: none;</span>
+<span class="add">+          border-bottom-width: 0px;</span>
+<span class="add">+          border-left-color: currentcolor;</span>
+<span class="add">+          border-left-style: none;</span>
+<span class="add">+          border-left-width: 0px;</span>
+<span class="add">+          border-right-color: currentcolor;</span>
+<span class="add">+          border-right-style: none;</span>
+<span class="add">+          border-right-width: 0px;</span>
+<span class="add">+          border-top-color: currentcolor;</span>
+<span class="add">+          border-top-style: none;</span>
+<span class="add">+          border-top-width: 0px;</span>
+<span class="add">+          color: var(--fake-link-foreground-color, var(--color-foreground-link-primary));</span>
+<span class="add">+          font-family: inherit;</span>
+<span class="add">+          font-size: inherit;</span>
+<span class="add">+          margin-inline-start: var(--spacing-200);</span>
+<span class="add">+          outline-offset: 4px;</span>
+<span class="add">+          padding-bottom: 0px;</span>
+<span class="add">+          padding-left: 0px;</span>
+<span class="add">+          padding-right: 0px;</span>
+<span class="add">+          padding-top: 0px</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Reset</span>
+<span class="add">+        &lt;/button></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        box-sizing: border-box;</span>
+<span class="add">+        flex-grow: 1;</span>
+<span class="add">+        height: 1px;</span>
+<span class="add">+        overflow-y: auto;</span>
+<span class="add">+        padding: var(--spacing-200);</span>
+<span class="add">+        position: relative</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;h3 style=&quot;margin-top: 0px&quot;></span>
+<span class="add">+          Heading</span>
+<span class="add">+        &lt;/h3></span>
+<span class="add">+        &lt;p></span>
+<span class="add">+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.</span>
+<span class="add">+        &lt;/p></span>
+<span class="add">+        &lt;p></span>
+<span class="add">+          &lt;a style=&quot;color: var(--color-foreground-link-primary)&quot;></span>
+<span class="add">+            www.ebay.com</span>
+<span class="add">+          &lt;/a></span>
+<span class="add">+        &lt;/p></span>
+<span class="add">+        &lt;h3></span>
+<span class="add">+          Heading</span>
+<span class="add">+        &lt;/h3></span>
+<span class="add">+        &lt;p></span>
+<span class="add">+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.</span>
+<span class="add">+        &lt;/p></span>
+<span class="add">+        &lt;p style=&quot;margin-bottom: 0px&quot;></span>
+<span class="add">+          &lt;a style=&quot;color: var(--color-foreground-link-primary)&quot;></span>
+<span class="add">+            www.ebay.com</span>
+<span class="add">+          &lt;/a></span>
+<span class="add">+        &lt;/p></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+    &lt;/div></span>
+<span class="add">+  &lt;/div></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section><section class="dim-section" id="dim-3" data-dim="3"><h3 class="dim-label">1280px rtl</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;rtl&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<div aria-labelledby=&quot;panel-title&quot; aria-modal=&quot;true&quot; class=&quot;panel-dialog&quot; role=&quot;dialog&quot;>
+    <div class=&quot;panel-dialog__window panel-dialog__window--end&quot;>
+        <div class=&quot;panel-dialog__header&quot;>
+            <h2 id=&quot;panel-title&quot;>Right Panel</h2>
+            <button class=&quot;fake-link panel-dialog__close&quot; type=&quot;button&quot;>Reset</button>
+        </div>
+        <div class=&quot;panel-dialog__main&quot;>
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.</p>
+            <p><a href=&quot;http://www.ebay.com&quot;>www.ebay.com</a></p>
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.</p>
+            <p><a href=&quot;http://www.ebay.com&quot;>www.ebay.com</a></p>
+        </div>
+    </div>
+</div>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,109 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;div style=&quot;</span>
+<span class="add">+    background-color: var(--dialog-scrim-color-show);</span>
+<span class="add">+    bottom: 0px;</span>
+<span class="add">+    display: flex;</span>
+<span class="add">+    flex-direction: column;</span>
+<span class="add">+    left: 0px;</span>
+<span class="add">+    overflow-x: hidden;</span>
+<span class="add">+    overflow-y: hidden;</span>
+<span class="add">+    position: fixed;</span>
+<span class="add">+    right: 0px;</span>
+<span class="add">+    top: 0px;</span>
+<span class="add">+    will-change: background-color;</span>
+<span class="add">+    z-index: 100000</span>
+<span class="add">+  &quot;></span>
+<span class="add">+    &lt;div style=&quot;</span>
+<span class="add">+      align-self: flex-end;</span>
+<span class="add">+      background-color: var(--dialog-window-background-color, var(--color-background-primary));</span>
+<span class="add">+      border-left-color: rgba(153, 153, 153, 0.18);</span>
+<span class="add">+      border-left-style: solid;</span>
+<span class="add">+      border-left-width: 1px;</span>
+<span class="add">+      border-right-color: rgba(153, 153, 153, 0.18);</span>
+<span class="add">+      border-right-style: solid;</span>
+<span class="add">+      border-right-width: 1px;</span>
+<span class="add">+      display: flex;</span>
+<span class="add">+      flex-direction: column;</span>
+<span class="add">+      flex-grow: 1;</span>
+<span class="add">+      flex-shrink: 0;</span>
+<span class="add">+      min-height: 55px;</span>
+<span class="add">+      overflow-y: auto;</span>
+<span class="add">+      width: 384px;</span>
+<span class="add">+      will-change: opacity, transform</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        display: flex;</span>
+<span class="add">+        flex-shrink: 0;</span>
+<span class="add">+        margin: var(--spacing-200) var(--spacing-200) 0;</span>
+<span class="add">+        position: relative</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;h2 style=&quot;</span>
+<span class="add">+          align-self: center;</span>
+<span class="add">+          flex-grow: 1;</span>
+<span class="add">+          margin-bottom: 0px;</span>
+<span class="add">+          margin-top: 0px;</span>
+<span class="add">+          overflow-wrap: anywhere</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Right Panel</span>
+<span class="add">+        &lt;/h2></span>
+<span class="add">+        &lt;button style=&quot;</span>
+<span class="add">+          align-self: flex-start;</span>
+<span class="add">+          border-bottom-color: currentcolor;</span>
+<span class="add">+          border-bottom-style: none;</span>
+<span class="add">+          border-bottom-width: 0px;</span>
+<span class="add">+          border-left-color: currentcolor;</span>
+<span class="add">+          border-left-style: none;</span>
+<span class="add">+          border-left-width: 0px;</span>
+<span class="add">+          border-right-color: currentcolor;</span>
+<span class="add">+          border-right-style: none;</span>
+<span class="add">+          border-right-width: 0px;</span>
+<span class="add">+          border-top-color: currentcolor;</span>
+<span class="add">+          border-top-style: none;</span>
+<span class="add">+          border-top-width: 0px;</span>
+<span class="add">+          color: var(--fake-link-foreground-color, var(--color-foreground-link-primary));</span>
+<span class="add">+          font-family: inherit;</span>
+<span class="add">+          font-size: inherit;</span>
+<span class="add">+          margin-inline-start: var(--spacing-200);</span>
+<span class="add">+          outline-offset: 4px;</span>
+<span class="add">+          padding-bottom: 0px;</span>
+<span class="add">+          padding-left: 0px;</span>
+<span class="add">+          padding-right: 0px;</span>
+<span class="add">+          padding-top: 0px</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          Reset</span>
+<span class="add">+        &lt;/button></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        box-sizing: border-box;</span>
+<span class="add">+        flex-grow: 1;</span>
+<span class="add">+        height: 1px;</span>
+<span class="add">+        overflow-y: auto;</span>
+<span class="add">+        padding: var(--spacing-200);</span>
+<span class="add">+        position: relative</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;h3 style=&quot;margin-top: 0px&quot;></span>
+<span class="add">+          Heading</span>
+<span class="add">+        &lt;/h3></span>
+<span class="add">+        &lt;p></span>
+<span class="add">+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.</span>
+<span class="add">+        &lt;/p></span>
+<span class="add">+        &lt;p></span>
+<span class="add">+          &lt;a style=&quot;color: var(--color-foreground-link-primary)&quot;></span>
+<span class="add">+            www.ebay.com</span>
+<span class="add">+          &lt;/a></span>
+<span class="add">+        &lt;/p></span>
+<span class="add">+        &lt;h3></span>
+<span class="add">+          Heading</span>
+<span class="add">+        &lt;/h3></span>
+<span class="add">+        &lt;p></span>
+<span class="add">+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.</span>
+<span class="add">+        &lt;/p></span>
+<span class="add">+        &lt;p style=&quot;margin-bottom: 0px&quot;></span>
+<span class="add">+          &lt;a style=&quot;color: var(--color-foreground-link-primary)&quot;></span>
+<span class="add">+            www.ebay.com</span>
+<span class="add">+          &lt;/a></span>
+<span class="add">+        &lt;/p></span>
+<span class="add">+      &lt;/div></span>
+<span class="add">+    &lt;/div></span>
+<span class="add">+  &lt;/div></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section>
+</main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
     <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
@@ -34,10 +567,10 @@
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
-    const PAGE = {"entry":{"component":"panel-dialog","story":"panelEndSecondaryButton","file":"packages/skin/src/sass/panel-dialog/stories/__snapshots__/panel-dialog.snap","dims":[{"suffix":"320px","width":320,"rtl":false,"status":"added","before":"","after":"<div>\n  <div style=\"\n    background-color: var(--dialog-scrim-color-show);\n    bottom: 0px;\n    display: flex;\n    flex-direction: column;\n    left: 0px;\n    overflow-x: hidden;\n    overflow-y: hidden;\n    position: fixed;\n    right: 0px;\n    top: 0px;\n    will-change: background-color;\n    z-index: 100000\n  \">\n    <div style=\"\n      align-self: flex-end;\n      background-color: var(--dialog-window-background-color, var(--color-background-primary));\n      border-left-color: rgba(153, 153, 153, 0.18);\n      border-left-style: solid;\n      border-left-width: 1px;\n      border-right-color: rgba(153, 153, 153, 0.18);\n      border-right-style: solid;\n      border-right-width: 1px;\n      display: flex;\n      flex-direction: column;\n      flex-grow: 1;\n      flex-shrink: 0;\n      min-height: 55px;\n      overflow-y: auto;\n      width: 100%;\n      will-change: opacity, transform\n    \">\n      <div style=\"\n        display: flex;\n        flex-shrink: 0;\n        margin: var(--spacing-200) var(--spacing-200) 0;\n        position: relative\n      \">\n        <h2 style=\"\n          align-self: center;\n          flex-grow: 1;\n          margin-bottom: 0px;\n          margin-top: 0px;\n          overflow-wrap: anywhere\n        \">\n          Right Panel\n        <\/h2>\n        <button style=\"\n          align-self: flex-start;\n          border-bottom-color: currentcolor;\n          border-bottom-style: none;\n          border-bottom-width: 0px;\n          border-left-color: currentcolor;\n          border-left-style: none;\n          border-left-width: 0px;\n          border-right-color: currentcolor;\n          border-right-style: none;\n          border-right-width: 0px;\n          border-top-color: currentcolor;\n          border-top-style: none;\n          border-top-width: 0px;\n          color: var(--fake-link-foreground-color, var(--color-foreground-link-primary));\n          font-family: inherit;\n          font-size: inherit;\n          margin-inline-start: var(--spacing-200);\n          outline-offset: 4px;\n          padding-bottom: 0px;\n          padding-left: 0px;\n          padding-right: 0px;\n          padding-top: 0px\n        \">\n          Reset\n        <\/button>\n      <\/div>\n      <div style=\"\n        box-sizing: border-box;\n        flex-grow: 1;\n        height: 1px;\n        overflow-y: auto;\n        padding: var(--spacing-200);\n        position: relative\n      \">\n        <h3 style=\"margin-top: 0px\">\n          Heading\n        <\/h3>\n        <p>\n          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.\n        <\/p>\n        <p>\n          <a style=\"color: var(--color-foreground-link-primary)\">\n            www.ebay.com\n          <\/a>\n        <\/p>\n        <h3>\n          Heading\n        <\/h3>\n        <p>\n          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.\n        <\/p>\n        <p style=\"margin-bottom: 0px\">\n          <a style=\"color: var(--color-foreground-link-primary)\">\n            www.ebay.com\n          <\/a>\n        <\/p>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,109 @@\n+<div>\n+  <div style=\"\n+    background-color: var(--dialog-scrim-color-show);\n+    bottom: 0px;\n+    display: flex;\n+    flex-direction: column;\n+    left: 0px;\n+    overflow-x: hidden;\n+    overflow-y: hidden;\n+    position: fixed;\n+    right: 0px;\n+    top: 0px;\n+    will-change: background-color;\n+    z-index: 100000\n+  \">\n+    <div style=\"\n+      align-self: flex-end;\n+      background-color: var(--dialog-window-background-color, var(--color-background-primary));\n+      border-left-color: rgba(153, 153, 153, 0.18);\n+      border-left-style: solid;\n+      border-left-width: 1px;\n+      border-right-color: rgba(153, 153, 153, 0.18);\n+      border-right-style: solid;\n+      border-right-width: 1px;\n+      display: flex;\n+      flex-direction: column;\n+      flex-grow: 1;\n+      flex-shrink: 0;\n+      min-height: 55px;\n+      overflow-y: auto;\n+      width: 100%;\n+      will-change: opacity, transform\n+    \">\n+      <div style=\"\n+        display: flex;\n+        flex-shrink: 0;\n+        margin: var(--spacing-200) var(--spacing-200) 0;\n+        position: relative\n+      \">\n+        <h2 style=\"\n+          align-self: center;\n+          flex-grow: 1;\n+          margin-bottom: 0px;\n+          margin-top: 0px;\n+          overflow-wrap: anywhere\n+        \">\n+          Right Panel\n+        <\/h2>\n+        <button style=\"\n+          align-self: flex-start;\n+          border-bottom-color: currentcolor;\n+          border-bottom-style: none;\n+          border-bottom-width: 0px;\n+          border-left-color: currentcolor;\n+          border-left-style: none;\n+          border-left-width: 0px;\n+          border-right-color: currentcolor;\n+          border-right-style: none;\n+          border-right-width: 0px;\n+          border-top-color: currentcolor;\n+          border-top-style: none;\n+          border-top-width: 0px;\n+          color: var(--fake-link-foreground-color, var(--color-foreground-link-primary));\n+          font-family: inherit;\n+          font-size: inherit;\n+          margin-inline-start: var(--spacing-200);\n+          outline-offset: 4px;\n+          padding-bottom: 0px;\n+          padding-left: 0px;\n+          padding-right: 0px;\n+          padding-top: 0px\n+        \">\n+          Reset\n+        <\/button>\n+      <\/div>\n+      <div style=\"\n+        box-sizing: border-box;\n+        flex-grow: 1;\n+        height: 1px;\n+        overflow-y: auto;\n+        padding: var(--spacing-200);\n+        position: relative\n+      \">\n+        <h3 style=\"margin-top: 0px\">\n+          Heading\n+        <\/h3>\n+        <p>\n+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.\n+        <\/p>\n+        <p>\n+          <a style=\"color: var(--color-foreground-link-primary)\">\n+            www.ebay.com\n+          <\/a>\n+        <\/p>\n+        <h3>\n+          Heading\n+        <\/h3>\n+        <p>\n+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.\n+        <\/p>\n+        <p style=\"margin-bottom: 0px\">\n+          <a style=\"color: var(--color-foreground-link-primary)\">\n+            www.ebay.com\n+          <\/a>\n+        <\/p>\n+      <\/div>\n+    <\/div>\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"},{"suffix":"512px","width":512,"rtl":false,"status":"added","before":"","after":"<div>\n  <div style=\"\n    background-color: var(--dialog-scrim-color-show);\n    bottom: 0px;\n    display: flex;\n    flex-direction: column;\n    left: 0px;\n    overflow-x: hidden;\n    overflow-y: hidden;\n    position: fixed;\n    right: 0px;\n    top: 0px;\n    will-change: background-color;\n    z-index: 100000\n  \">\n    <div style=\"\n      align-self: flex-end;\n      background-color: var(--dialog-window-background-color, var(--color-background-primary));\n      border-left-color: rgba(153, 153, 153, 0.18);\n      border-left-style: solid;\n      border-left-width: 1px;\n      border-right-color: rgba(153, 153, 153, 0.18);\n      border-right-style: solid;\n      border-right-width: 1px;\n      display: flex;\n      flex-direction: column;\n      flex-grow: 1;\n      flex-shrink: 0;\n      min-height: 55px;\n      overflow-y: auto;\n      width: 384px;\n      will-change: opacity, transform\n    \">\n      <div style=\"\n        display: flex;\n        flex-shrink: 0;\n        margin: var(--spacing-200) var(--spacing-200) 0;\n        position: relative\n      \">\n        <h2 style=\"\n          align-self: center;\n          flex-grow: 1;\n          margin-bottom: 0px;\n          margin-top: 0px;\n          overflow-wrap: anywhere\n        \">\n          Right Panel\n        <\/h2>\n        <button style=\"\n          align-self: flex-start;\n          border-bottom-color: currentcolor;\n          border-bottom-style: none;\n          border-bottom-width: 0px;\n          border-left-color: currentcolor;\n          border-left-style: none;\n          border-left-width: 0px;\n          border-right-color: currentcolor;\n          border-right-style: none;\n          border-right-width: 0px;\n          border-top-color: currentcolor;\n          border-top-style: none;\n          border-top-width: 0px;\n          color: var(--fake-link-foreground-color, var(--color-foreground-link-primary));\n          font-family: inherit;\n          font-size: inherit;\n          margin-inline-start: var(--spacing-200);\n          outline-offset: 4px;\n          padding-bottom: 0px;\n          padding-left: 0px;\n          padding-right: 0px;\n          padding-top: 0px\n        \">\n          Reset\n        <\/button>\n      <\/div>\n      <div style=\"\n        box-sizing: border-box;\n        flex-grow: 1;\n        height: 1px;\n        overflow-y: auto;\n        padding: var(--spacing-200);\n        position: relative\n      \">\n        <h3 style=\"margin-top: 0px\">\n          Heading\n        <\/h3>\n        <p>\n          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.\n        <\/p>\n        <p>\n          <a style=\"color: var(--color-foreground-link-primary)\">\n            www.ebay.com\n          <\/a>\n        <\/p>\n        <h3>\n          Heading\n        <\/h3>\n        <p>\n          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.\n        <\/p>\n        <p style=\"margin-bottom: 0px\">\n          <a style=\"color: var(--color-foreground-link-primary)\">\n            www.ebay.com\n          <\/a>\n        <\/p>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,109 @@\n+<div>\n+  <div style=\"\n+    background-color: var(--dialog-scrim-color-show);\n+    bottom: 0px;\n+    display: flex;\n+    flex-direction: column;\n+    left: 0px;\n+    overflow-x: hidden;\n+    overflow-y: hidden;\n+    position: fixed;\n+    right: 0px;\n+    top: 0px;\n+    will-change: background-color;\n+    z-index: 100000\n+  \">\n+    <div style=\"\n+      align-self: flex-end;\n+      background-color: var(--dialog-window-background-color, var(--color-background-primary));\n+      border-left-color: rgba(153, 153, 153, 0.18);\n+      border-left-style: solid;\n+      border-left-width: 1px;\n+      border-right-color: rgba(153, 153, 153, 0.18);\n+      border-right-style: solid;\n+      border-right-width: 1px;\n+      display: flex;\n+      flex-direction: column;\n+      flex-grow: 1;\n+      flex-shrink: 0;\n+      min-height: 55px;\n+      overflow-y: auto;\n+      width: 384px;\n+      will-change: opacity, transform\n+    \">\n+      <div style=\"\n+        display: flex;\n+        flex-shrink: 0;\n+        margin: var(--spacing-200) var(--spacing-200) 0;\n+        position: relative\n+      \">\n+        <h2 style=\"\n+          align-self: center;\n+          flex-grow: 1;\n+          margin-bottom: 0px;\n+          margin-top: 0px;\n+          overflow-wrap: anywhere\n+        \">\n+          Right Panel\n+        <\/h2>\n+        <button style=\"\n+          align-self: flex-start;\n+          border-bottom-color: currentcolor;\n+          border-bottom-style: none;\n+          border-bottom-width: 0px;\n+          border-left-color: currentcolor;\n+          border-left-style: none;\n+          border-left-width: 0px;\n+          border-right-color: currentcolor;\n+          border-right-style: none;\n+          border-right-width: 0px;\n+          border-top-color: currentcolor;\n+          border-top-style: none;\n+          border-top-width: 0px;\n+          color: var(--fake-link-foreground-color, var(--color-foreground-link-primary));\n+          font-family: inherit;\n+          font-size: inherit;\n+          margin-inline-start: var(--spacing-200);\n+          outline-offset: 4px;\n+          padding-bottom: 0px;\n+          padding-left: 0px;\n+          padding-right: 0px;\n+          padding-top: 0px\n+        \">\n+          Reset\n+        <\/button>\n+      <\/div>\n+      <div style=\"\n+        box-sizing: border-box;\n+        flex-grow: 1;\n+        height: 1px;\n+        overflow-y: auto;\n+        padding: var(--spacing-200);\n+        position: relative\n+      \">\n+        <h3 style=\"margin-top: 0px\">\n+          Heading\n+        <\/h3>\n+        <p>\n+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.\n+        <\/p>\n+        <p>\n+          <a style=\"color: var(--color-foreground-link-primary)\">\n+            www.ebay.com\n+          <\/a>\n+        <\/p>\n+        <h3>\n+          Heading\n+        <\/h3>\n+        <p>\n+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.\n+        <\/p>\n+        <p style=\"margin-bottom: 0px\">\n+          <a style=\"color: var(--color-foreground-link-primary)\">\n+            www.ebay.com\n+          <\/a>\n+        <\/p>\n+      <\/div>\n+    <\/div>\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"},{"suffix":"1280px","width":1280,"rtl":false,"status":"added","before":"","after":"<div>\n  <div style=\"\n    background-color: var(--dialog-scrim-color-show);\n    bottom: 0px;\n    display: flex;\n    flex-direction: column;\n    left: 0px;\n    overflow-x: hidden;\n    overflow-y: hidden;\n    position: fixed;\n    right: 0px;\n    top: 0px;\n    will-change: background-color;\n    z-index: 100000\n  \">\n    <div style=\"\n      align-self: flex-end;\n      background-color: var(--dialog-window-background-color, var(--color-background-primary));\n      border-left-color: rgba(153, 153, 153, 0.18);\n      border-left-style: solid;\n      border-left-width: 1px;\n      border-right-color: rgba(153, 153, 153, 0.18);\n      border-right-style: solid;\n      border-right-width: 1px;\n      display: flex;\n      flex-direction: column;\n      flex-grow: 1;\n      flex-shrink: 0;\n      min-height: 55px;\n      overflow-y: auto;\n      width: 384px;\n      will-change: opacity, transform\n    \">\n      <div style=\"\n        display: flex;\n        flex-shrink: 0;\n        margin: var(--spacing-200) var(--spacing-200) 0;\n        position: relative\n      \">\n        <h2 style=\"\n          align-self: center;\n          flex-grow: 1;\n          margin-bottom: 0px;\n          margin-top: 0px;\n          overflow-wrap: anywhere\n        \">\n          Right Panel\n        <\/h2>\n        <button style=\"\n          align-self: flex-start;\n          border-bottom-color: currentcolor;\n          border-bottom-style: none;\n          border-bottom-width: 0px;\n          border-left-color: currentcolor;\n          border-left-style: none;\n          border-left-width: 0px;\n          border-right-color: currentcolor;\n          border-right-style: none;\n          border-right-width: 0px;\n          border-top-color: currentcolor;\n          border-top-style: none;\n          border-top-width: 0px;\n          color: var(--fake-link-foreground-color, var(--color-foreground-link-primary));\n          font-family: inherit;\n          font-size: inherit;\n          margin-inline-start: var(--spacing-200);\n          outline-offset: 4px;\n          padding-bottom: 0px;\n          padding-left: 0px;\n          padding-right: 0px;\n          padding-top: 0px\n        \">\n          Reset\n        <\/button>\n      <\/div>\n      <div style=\"\n        box-sizing: border-box;\n        flex-grow: 1;\n        height: 1px;\n        overflow-y: auto;\n        padding: var(--spacing-200);\n        position: relative\n      \">\n        <h3 style=\"margin-top: 0px\">\n          Heading\n        <\/h3>\n        <p>\n          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.\n        <\/p>\n        <p>\n          <a style=\"color: var(--color-foreground-link-primary)\">\n            www.ebay.com\n          <\/a>\n        <\/p>\n        <h3>\n          Heading\n        <\/h3>\n        <p>\n          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.\n        <\/p>\n        <p style=\"margin-bottom: 0px\">\n          <a style=\"color: var(--color-foreground-link-primary)\">\n            www.ebay.com\n          <\/a>\n        <\/p>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,109 @@\n+<div>\n+  <div style=\"\n+    background-color: var(--dialog-scrim-color-show);\n+    bottom: 0px;\n+    display: flex;\n+    flex-direction: column;\n+    left: 0px;\n+    overflow-x: hidden;\n+    overflow-y: hidden;\n+    position: fixed;\n+    right: 0px;\n+    top: 0px;\n+    will-change: background-color;\n+    z-index: 100000\n+  \">\n+    <div style=\"\n+      align-self: flex-end;\n+      background-color: var(--dialog-window-background-color, var(--color-background-primary));\n+      border-left-color: rgba(153, 153, 153, 0.18);\n+      border-left-style: solid;\n+      border-left-width: 1px;\n+      border-right-color: rgba(153, 153, 153, 0.18);\n+      border-right-style: solid;\n+      border-right-width: 1px;\n+      display: flex;\n+      flex-direction: column;\n+      flex-grow: 1;\n+      flex-shrink: 0;\n+      min-height: 55px;\n+      overflow-y: auto;\n+      width: 384px;\n+      will-change: opacity, transform\n+    \">\n+      <div style=\"\n+        display: flex;\n+        flex-shrink: 0;\n+        margin: var(--spacing-200) var(--spacing-200) 0;\n+        position: relative\n+      \">\n+        <h2 style=\"\n+          align-self: center;\n+          flex-grow: 1;\n+          margin-bottom: 0px;\n+          margin-top: 0px;\n+          overflow-wrap: anywhere\n+        \">\n+          Right Panel\n+        <\/h2>\n+        <button style=\"\n+          align-self: flex-start;\n+          border-bottom-color: currentcolor;\n+          border-bottom-style: none;\n+          border-bottom-width: 0px;\n+          border-left-color: currentcolor;\n+          border-left-style: none;\n+          border-left-width: 0px;\n+          border-right-color: currentcolor;\n+          border-right-style: none;\n+          border-right-width: 0px;\n+          border-top-color: currentcolor;\n+          border-top-style: none;\n+          border-top-width: 0px;\n+          color: var(--fake-link-foreground-color, var(--color-foreground-link-primary));\n+          font-family: inherit;\n+          font-size: inherit;\n+          margin-inline-start: var(--spacing-200);\n+          outline-offset: 4px;\n+          padding-bottom: 0px;\n+          padding-left: 0px;\n+          padding-right: 0px;\n+          padding-top: 0px\n+        \">\n+          Reset\n+        <\/button>\n+      <\/div>\n+      <div style=\"\n+        box-sizing: border-box;\n+        flex-grow: 1;\n+        height: 1px;\n+        overflow-y: auto;\n+        padding: var(--spacing-200);\n+        position: relative\n+      \">\n+        <h3 style=\"margin-top: 0px\">\n+          Heading\n+        <\/h3>\n+        <p>\n+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.\n+        <\/p>\n+        <p>\n+          <a style=\"color: var(--color-foreground-link-primary)\">\n+            www.ebay.com\n+          <\/a>\n+        <\/p>\n+        <h3>\n+          Heading\n+        <\/h3>\n+        <p>\n+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.\n+        <\/p>\n+        <p style=\"margin-bottom: 0px\">\n+          <a style=\"color: var(--color-foreground-link-primary)\">\n+            www.ebay.com\n+          <\/a>\n+        <\/p>\n+      <\/div>\n+    <\/div>\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"},{"suffix":"1280px rtl","width":1280,"rtl":true,"status":"added","before":"","after":"<div>\n  <div style=\"\n    background-color: var(--dialog-scrim-color-show);\n    bottom: 0px;\n    display: flex;\n    flex-direction: column;\n    left: 0px;\n    overflow-x: hidden;\n    overflow-y: hidden;\n    position: fixed;\n    right: 0px;\n    top: 0px;\n    will-change: background-color;\n    z-index: 100000\n  \">\n    <div style=\"\n      align-self: flex-end;\n      background-color: var(--dialog-window-background-color, var(--color-background-primary));\n      border-left-color: rgba(153, 153, 153, 0.18);\n      border-left-style: solid;\n      border-left-width: 1px;\n      border-right-color: rgba(153, 153, 153, 0.18);\n      border-right-style: solid;\n      border-right-width: 1px;\n      display: flex;\n      flex-direction: column;\n      flex-grow: 1;\n      flex-shrink: 0;\n      min-height: 55px;\n      overflow-y: auto;\n      width: 384px;\n      will-change: opacity, transform\n    \">\n      <div style=\"\n        display: flex;\n        flex-shrink: 0;\n        margin: var(--spacing-200) var(--spacing-200) 0;\n        position: relative\n      \">\n        <h2 style=\"\n          align-self: center;\n          flex-grow: 1;\n          margin-bottom: 0px;\n          margin-top: 0px;\n          overflow-wrap: anywhere\n        \">\n          Right Panel\n        <\/h2>\n        <button style=\"\n          align-self: flex-start;\n          border-bottom-color: currentcolor;\n          border-bottom-style: none;\n          border-bottom-width: 0px;\n          border-left-color: currentcolor;\n          border-left-style: none;\n          border-left-width: 0px;\n          border-right-color: currentcolor;\n          border-right-style: none;\n          border-right-width: 0px;\n          border-top-color: currentcolor;\n          border-top-style: none;\n          border-top-width: 0px;\n          color: var(--fake-link-foreground-color, var(--color-foreground-link-primary));\n          font-family: inherit;\n          font-size: inherit;\n          margin-inline-start: var(--spacing-200);\n          outline-offset: 4px;\n          padding-bottom: 0px;\n          padding-left: 0px;\n          padding-right: 0px;\n          padding-top: 0px\n        \">\n          Reset\n        <\/button>\n      <\/div>\n      <div style=\"\n        box-sizing: border-box;\n        flex-grow: 1;\n        height: 1px;\n        overflow-y: auto;\n        padding: var(--spacing-200);\n        position: relative\n      \">\n        <h3 style=\"margin-top: 0px\">\n          Heading\n        <\/h3>\n        <p>\n          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.\n        <\/p>\n        <p>\n          <a style=\"color: var(--color-foreground-link-primary)\">\n            www.ebay.com\n          <\/a>\n        <\/p>\n        <h3>\n          Heading\n        <\/h3>\n        <p>\n          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.\n        <\/p>\n        <p style=\"margin-bottom: 0px\">\n          <a style=\"color: var(--color-foreground-link-primary)\">\n            www.ebay.com\n          <\/a>\n        <\/p>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,109 @@\n+<div>\n+  <div style=\"\n+    background-color: var(--dialog-scrim-color-show);\n+    bottom: 0px;\n+    display: flex;\n+    flex-direction: column;\n+    left: 0px;\n+    overflow-x: hidden;\n+    overflow-y: hidden;\n+    position: fixed;\n+    right: 0px;\n+    top: 0px;\n+    will-change: background-color;\n+    z-index: 100000\n+  \">\n+    <div style=\"\n+      align-self: flex-end;\n+      background-color: var(--dialog-window-background-color, var(--color-background-primary));\n+      border-left-color: rgba(153, 153, 153, 0.18);\n+      border-left-style: solid;\n+      border-left-width: 1px;\n+      border-right-color: rgba(153, 153, 153, 0.18);\n+      border-right-style: solid;\n+      border-right-width: 1px;\n+      display: flex;\n+      flex-direction: column;\n+      flex-grow: 1;\n+      flex-shrink: 0;\n+      min-height: 55px;\n+      overflow-y: auto;\n+      width: 384px;\n+      will-change: opacity, transform\n+    \">\n+      <div style=\"\n+        display: flex;\n+        flex-shrink: 0;\n+        margin: var(--spacing-200) var(--spacing-200) 0;\n+        position: relative\n+      \">\n+        <h2 style=\"\n+          align-self: center;\n+          flex-grow: 1;\n+          margin-bottom: 0px;\n+          margin-top: 0px;\n+          overflow-wrap: anywhere\n+        \">\n+          Right Panel\n+        <\/h2>\n+        <button style=\"\n+          align-self: flex-start;\n+          border-bottom-color: currentcolor;\n+          border-bottom-style: none;\n+          border-bottom-width: 0px;\n+          border-left-color: currentcolor;\n+          border-left-style: none;\n+          border-left-width: 0px;\n+          border-right-color: currentcolor;\n+          border-right-style: none;\n+          border-right-width: 0px;\n+          border-top-color: currentcolor;\n+          border-top-style: none;\n+          border-top-width: 0px;\n+          color: var(--fake-link-foreground-color, var(--color-foreground-link-primary));\n+          font-family: inherit;\n+          font-size: inherit;\n+          margin-inline-start: var(--spacing-200);\n+          outline-offset: 4px;\n+          padding-bottom: 0px;\n+          padding-left: 0px;\n+          padding-right: 0px;\n+          padding-top: 0px\n+        \">\n+          Reset\n+        <\/button>\n+      <\/div>\n+      <div style=\"\n+        box-sizing: border-box;\n+        flex-grow: 1;\n+        height: 1px;\n+        overflow-y: auto;\n+        padding: var(--spacing-200);\n+        position: relative\n+      \">\n+        <h3 style=\"margin-top: 0px\">\n+          Heading\n+        <\/h3>\n+        <p>\n+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.\n+        <\/p>\n+        <p>\n+          <a style=\"color: var(--color-foreground-link-primary)\">\n+            www.ebay.com\n+          <\/a>\n+        <\/p>\n+        <h3>\n+          Heading\n+        <\/h3>\n+        <p>\n+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.\n+        <\/p>\n+        <p style=\"margin-bottom: 0px\">\n+          <a style=\"color: var(--color-foreground-link-primary)\">\n+            www.ebay.com\n+          <\/a>\n+        <\/p>\n+      <\/div>\n+    <\/div>\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"\n<div aria-labelledby=\"panel-title\" aria-modal=\"true\" class=\"panel-dialog\" role=\"dialog\">\n    <div class=\"panel-dialog__window panel-dialog__window--end\">\n        <div class=\"panel-dialog__header\">\n            <h2 id=\"panel-title\">Right Panel<\/h2>\n            <button class=\"fake-link panel-dialog__close\" type=\"button\">Reset<\/button>\n        <\/div>\n        <div class=\"panel-dialog__main\">\n            <h3>Heading<\/h3>\n            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.<\/p>\n            <p><a href=\"http://www.ebay.com\">www.ebay.com<\/a><\/p>\n            <h3>Heading<\/h3>\n            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.<\/p>\n            <p><a href=\"http://www.ebay.com\">www.ebay.com<\/a><\/p>\n        <\/div>\n    <\/div>\n<\/div>\n","storyAfter":"\n<div aria-labelledby=\"panel-title\" aria-modal=\"true\" class=\"panel-dialog\" role=\"dialog\">\n    <div class=\"panel-dialog__window panel-dialog__window--end\">\n        <div class=\"panel-dialog__header\">\n            <h2 id=\"panel-title\">Right Panel<\/h2>\n            <button class=\"fake-link panel-dialog__close\" type=\"button\">Reset<\/button>\n        <\/div>\n        <div class=\"panel-dialog__main\">\n            <h3>Heading<\/h3>\n            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.<\/p>\n            <p><a href=\"http://www.ebay.com\">www.ebay.com<\/a><\/p>\n            <h3>Heading<\/h3>\n            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.<\/p>\n            <p><a href=\"http://www.ebay.com\">www.ebay.com<\/a><\/p>\n        <\/div>\n    <\/div>\n<\/div>\n"},"baseRefShort":"60ee2f496866","prevHref":"panel-dialog-stories-panel-dialog--panelEnd.html","nextHref":"panel-dialog-stories-panel-dialog--panelEndWithFooter.html","indexHref":"../index.html","pos":648,"total":1012,"slug":"panel-dialog-stories-panel-dialog--panelEndSecondaryButton","hash":"1gaf07g"};
+    const PAGE = {"baseRefShort":"60ee2f496866","prevHref":"panel-dialog-stories-panel-dialog--panelEnd.html","nextHref":"panel-dialog-stories-panel-dialog--panelEndWithFooter.html","indexHref":"../index.html","pos":648,"total":1012,"slug":"panel-dialog-stories-panel-dialog--panelEndSecondaryButton","hash":"1gaf07g","component":"panel-dialog","story":"panelEndSecondaryButton","file":"packages/skin/src/sass/panel-dialog/stories/__snapshots__/panel-dialog.snap","dims":[{"changes":[]},{"changes":[]},{"changes":[]},{"changes":[]}]};
 </script>
-<script src="../assets/nav.js"></script>
-<script src="../assets/story.js"></script>
+<script src="../assets/nav.js" defer></script>
+<script src="../assets/story.js" defer></script>
 <script src="../assets/prefetch.js" defer></script>
 </body>
 </html>

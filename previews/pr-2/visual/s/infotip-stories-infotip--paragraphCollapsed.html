@@ -9,8 +9,8 @@
 <body class="story-page">
 <header>
     <a class="back" href="../index.html">← All changes</a>
-    <h1 id="title"></h1>
-    <span class="meta" id="path"></span>
+    <h1 id="title">infotip / paragraphCollapsed</h1>
+    <span class="meta" id="path">packages/skin/src/sass/infotip/stories/__snapshots__/infotip.snap</span>
     <span class="pagenav">
         <a id="prev" href="#">‹ prev</a>
         <span class="pos" id="pos"></span>
@@ -21,7 +21,334 @@
     <input id="search" type="search" placeholder="Filter stories… ( / )" />
     <div id="storylist"></div>
 </nav>
-<main id="main"></main>
+<main id="main">
+    <div class="toolbar">
+        <div class="seg" data-seg="mode">
+            <button type="button" data-v="side" class="active">Side by side</button>
+            <button type="button" data-v="swipe">Swipe</button>
+            <button type="button" data-v="onion">Onion</button>
+            <button type="button" data-v="flip">Flip</button>
+        </div>
+        <div class="seg" data-seg="view">
+            <button type="button" data-v="rendered" class="active">Rendered</button>
+            <button type="button" data-v="diff">Text diff</button>
+        </div>
+        <div class="seg" data-seg="theme">
+            <button type="button" data-v="light" class="active">Light</button>
+            <button type="button" data-v="dark">Dark</button>
+        </div>
+        <label class="toggle"><input type="checkbox" id="hl-toggle" checked />Highlights</label>
+        <div class="grow"></div>
+        <button class="flag" id="flag-btn" type="button">⚑ Flag</button>
+    </div>
+    <section class="dim-section" id="dim-0" data-dim="0"><h3 class="dim-label">320px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="320"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<p>
+    Inside paragraph
+    <span class=&quot;infotip&quot;>
+        <button class=&quot;icon-btn icon-btn--transparent infotip__host&quot; type=&quot;button&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Help&quot;>
+            <svg class=&quot;icon icon--16&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;>
+                <use href=&quot;#icon-information-16&quot;></use>
+            </svg>
+        </button>
+        <span class=&quot;infotip__overlay&quot;>
+            <span class=&quot;infotip__pointer infotip__pointer--top-left&quot;></span>
+            <span class=&quot;infotip__mask&quot;>
+                <span class=&quot;infotip__cell&quot;>
+                    <span class=&quot;infotip__content&quot;>
+                        <span class=&quot;infotip__heading&quot; role=&quot;heading&quot; aria-level=5>Infotip</span>
+                        <span>Here's a tip to help you be successful at your task.</span>
+                    </span>
+                    <button class=&quot;icon-btn infotip__close&quot; type=&quot;button&quot; aria-label=&quot;Dismiss infotip&quot;>
+                        <svg class=&quot;icon icon--16&quot; height=&quot;24&quot; width=&quot;24&quot; aria-hidden=&quot;true&quot;>
+                            <use href=&quot;#icon-close-16&quot;></use>
+                        </svg>
+                    </button>
+                </span>
+            </span>
+        </span>
+    </span>
+</p></body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,74 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;p></span>
+<span class="add">+    Inside paragraph</span>
+<span class="add">+    &lt;span style=&quot;</span>
+<span class="add">+      display: inline-block;</span>
+<span class="add">+      position: relative</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;button style=&quot;</span>
+<span class="add">+        align-items: center;</span>
+<span class="add">+        border-bottom-color: transparent;</span>
+<span class="add">+        border-bottom-left-radius: 50px;</span>
+<span class="add">+        border-bottom-right-radius: 50px;</span>
+<span class="add">+        border-bottom-style: solid;</span>
+<span class="add">+        border-left-color: transparent;</span>
+<span class="add">+        border-left-style: solid;</span>
+<span class="add">+        border-right-color: transparent;</span>
+<span class="add">+        border-right-style: solid;</span>
+<span class="add">+        border-top-color: transparent;</span>
+<span class="add">+        border-top-left-radius: 50px;</span>
+<span class="add">+        border-top-right-radius: 50px;</span>
+<span class="add">+        border-top-style: solid;</span>
+<span class="add">+        display: inline-flex;</span>
+<span class="add">+        flex-shrink: 0;</span>
+<span class="add">+        font-family: inherit;</span>
+<span class="add">+        height: 20px;</span>
+<span class="add">+        justify-content: center;</span>
+<span class="add">+        min-width: 20px;</span>
+<span class="add">+        outline-offset: 2px;</span>
+<span class="add">+        padding-bottom: 0px;</span>
+<span class="add">+        padding-left: 0px;</span>
+<span class="add">+        padding-right: 0px;</span>
+<span class="add">+        padding-top: 0px;</span>
+<span class="add">+        position: relative;</span>
+<span class="add">+        vertical-align: text-bottom;</span>
+<span class="add">+        width: 20px</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;style>@scope{:scope{</span>
+<span class="add">+          &amp;::after {</span>
+<span class="add">+            background-color: var(--color-state-layer-neutral);</span>
+<span class="add">+            border-bottom-left-radius: 50px;</span>
+<span class="add">+            border-bottom-right-radius: 50px;</span>
+<span class="add">+            border-top-left-radius: 50px;</span>
+<span class="add">+            border-top-right-radius: 50px;</span>
+<span class="add">+            bottom: 0px;</span>
+<span class="add">+            content: &quot;&quot;;</span>
+<span class="add">+            left: 0px;</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            position: absolute;</span>
+<span class="add">+            right: 0px;</span>
+<span class="add">+            top: 0px</span>
+<span class="add">+          }</span>
+<span class="add">+        }}&lt;/style></span>
+<span class="add">+        &lt;svg</span>
+<span class="add">+          height=&quot;16&quot;</span>
+<span class="add">+          style=&quot;</span>
+<span class="add">+            display: inline-block;</span>
+<span class="add">+            fill: var(--color-foreground-primary);</span>
+<span class="add">+            height: 16px;</span>
+<span class="add">+            max-width: 100%;</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            position: relative;</span>
+<span class="add">+            stroke-width: 0;</span>
+<span class="add">+            stroke: currentcolor;</span>
+<span class="add">+            vertical-align: middle;</span>
+<span class="add">+            width: 16px</span>
+<span class="add">+          &quot;</span>
+<span class="add">+          width=&quot;16&quot;</span>
+<span class="add">+        ></span>
+<span class="add">+          &lt;use href=&quot;#icon-information-16&quot;/></span>
+<span class="add">+        &lt;/svg></span>
+<span class="add">+      &lt;/button></span>
+<span class="add">+    &lt;/span></span>
+<span class="add">+  &lt;/p></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section><section class="dim-section" id="dim-1" data-dim="1"><h3 class="dim-label">512px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="512"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<p>
+    Inside paragraph
+    <span class=&quot;infotip&quot;>
+        <button class=&quot;icon-btn icon-btn--transparent infotip__host&quot; type=&quot;button&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Help&quot;>
+            <svg class=&quot;icon icon--16&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;>
+                <use href=&quot;#icon-information-16&quot;></use>
+            </svg>
+        </button>
+        <span class=&quot;infotip__overlay&quot;>
+            <span class=&quot;infotip__pointer infotip__pointer--top-left&quot;></span>
+            <span class=&quot;infotip__mask&quot;>
+                <span class=&quot;infotip__cell&quot;>
+                    <span class=&quot;infotip__content&quot;>
+                        <span class=&quot;infotip__heading&quot; role=&quot;heading&quot; aria-level=5>Infotip</span>
+                        <span>Here's a tip to help you be successful at your task.</span>
+                    </span>
+                    <button class=&quot;icon-btn infotip__close&quot; type=&quot;button&quot; aria-label=&quot;Dismiss infotip&quot;>
+                        <svg class=&quot;icon icon--16&quot; height=&quot;24&quot; width=&quot;24&quot; aria-hidden=&quot;true&quot;>
+                            <use href=&quot;#icon-close-16&quot;></use>
+                        </svg>
+                    </button>
+                </span>
+            </span>
+        </span>
+    </span>
+</p></body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,74 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;p></span>
+<span class="add">+    Inside paragraph</span>
+<span class="add">+    &lt;span style=&quot;</span>
+<span class="add">+      display: inline-block;</span>
+<span class="add">+      position: relative</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;button style=&quot;</span>
+<span class="add">+        align-items: center;</span>
+<span class="add">+        border-bottom-color: transparent;</span>
+<span class="add">+        border-bottom-left-radius: 50px;</span>
+<span class="add">+        border-bottom-right-radius: 50px;</span>
+<span class="add">+        border-bottom-style: solid;</span>
+<span class="add">+        border-left-color: transparent;</span>
+<span class="add">+        border-left-style: solid;</span>
+<span class="add">+        border-right-color: transparent;</span>
+<span class="add">+        border-right-style: solid;</span>
+<span class="add">+        border-top-color: transparent;</span>
+<span class="add">+        border-top-left-radius: 50px;</span>
+<span class="add">+        border-top-right-radius: 50px;</span>
+<span class="add">+        border-top-style: solid;</span>
+<span class="add">+        display: inline-flex;</span>
+<span class="add">+        flex-shrink: 0;</span>
+<span class="add">+        font-family: inherit;</span>
+<span class="add">+        height: 20px;</span>
+<span class="add">+        justify-content: center;</span>
+<span class="add">+        min-width: 20px;</span>
+<span class="add">+        outline-offset: 2px;</span>
+<span class="add">+        padding-bottom: 0px;</span>
+<span class="add">+        padding-left: 0px;</span>
+<span class="add">+        padding-right: 0px;</span>
+<span class="add">+        padding-top: 0px;</span>
+<span class="add">+        position: relative;</span>
+<span class="add">+        vertical-align: text-bottom;</span>
+<span class="add">+        width: 20px</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;style>@scope{:scope{</span>
+<span class="add">+          &amp;::after {</span>
+<span class="add">+            background-color: var(--color-state-layer-neutral);</span>
+<span class="add">+            border-bottom-left-radius: 50px;</span>
+<span class="add">+            border-bottom-right-radius: 50px;</span>
+<span class="add">+            border-top-left-radius: 50px;</span>
+<span class="add">+            border-top-right-radius: 50px;</span>
+<span class="add">+            bottom: 0px;</span>
+<span class="add">+            content: &quot;&quot;;</span>
+<span class="add">+            left: 0px;</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            position: absolute;</span>
+<span class="add">+            right: 0px;</span>
+<span class="add">+            top: 0px</span>
+<span class="add">+          }</span>
+<span class="add">+        }}&lt;/style></span>
+<span class="add">+        &lt;svg</span>
+<span class="add">+          height=&quot;16&quot;</span>
+<span class="add">+          style=&quot;</span>
+<span class="add">+            display: inline-block;</span>
+<span class="add">+            fill: var(--color-foreground-primary);</span>
+<span class="add">+            height: 16px;</span>
+<span class="add">+            max-width: 100%;</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            position: relative;</span>
+<span class="add">+            stroke-width: 0;</span>
+<span class="add">+            stroke: currentcolor;</span>
+<span class="add">+            vertical-align: middle;</span>
+<span class="add">+            width: 16px</span>
+<span class="add">+          &quot;</span>
+<span class="add">+          width=&quot;16&quot;</span>
+<span class="add">+        ></span>
+<span class="add">+          &lt;use href=&quot;#icon-information-16&quot;/></span>
+<span class="add">+        &lt;/svg></span>
+<span class="add">+      &lt;/button></span>
+<span class="add">+    &lt;/span></span>
+<span class="add">+  &lt;/p></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section><section class="dim-section" id="dim-2" data-dim="2"><h3 class="dim-label">1280px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<p>
+    Inside paragraph
+    <span class=&quot;infotip&quot;>
+        <button class=&quot;icon-btn icon-btn--transparent infotip__host&quot; type=&quot;button&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Help&quot;>
+            <svg class=&quot;icon icon--16&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;>
+                <use href=&quot;#icon-information-16&quot;></use>
+            </svg>
+        </button>
+        <span class=&quot;infotip__overlay&quot;>
+            <span class=&quot;infotip__pointer infotip__pointer--top-left&quot;></span>
+            <span class=&quot;infotip__mask&quot;>
+                <span class=&quot;infotip__cell&quot;>
+                    <span class=&quot;infotip__content&quot;>
+                        <span class=&quot;infotip__heading&quot; role=&quot;heading&quot; aria-level=5>Infotip</span>
+                        <span>Here's a tip to help you be successful at your task.</span>
+                    </span>
+                    <button class=&quot;icon-btn infotip__close&quot; type=&quot;button&quot; aria-label=&quot;Dismiss infotip&quot;>
+                        <svg class=&quot;icon icon--16&quot; height=&quot;24&quot; width=&quot;24&quot; aria-hidden=&quot;true&quot;>
+                            <use href=&quot;#icon-close-16&quot;></use>
+                        </svg>
+                    </button>
+                </span>
+            </span>
+        </span>
+    </span>
+</p></body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,74 @@</span>
+<span class="add">+&lt;div></span>
+<span class="add">+  &lt;p></span>
+<span class="add">+    Inside paragraph</span>
+<span class="add">+    &lt;span style=&quot;</span>
+<span class="add">+      display: inline-block;</span>
+<span class="add">+      position: relative</span>
+<span class="add">+    &quot;></span>
+<span class="add">+      &lt;button style=&quot;</span>
+<span class="add">+        align-items: center;</span>
+<span class="add">+        border-bottom-color: transparent;</span>
+<span class="add">+        border-bottom-left-radius: 50px;</span>
+<span class="add">+        border-bottom-right-radius: 50px;</span>
+<span class="add">+        border-bottom-style: solid;</span>
+<span class="add">+        border-left-color: transparent;</span>
+<span class="add">+        border-left-style: solid;</span>
+<span class="add">+        border-right-color: transparent;</span>
+<span class="add">+        border-right-style: solid;</span>
+<span class="add">+        border-top-color: transparent;</span>
+<span class="add">+        border-top-left-radius: 50px;</span>
+<span class="add">+        border-top-right-radius: 50px;</span>
+<span class="add">+        border-top-style: solid;</span>
+<span class="add">+        display: inline-flex;</span>
+<span class="add">+        flex-shrink: 0;</span>
+<span class="add">+        font-family: inherit;</span>
+<span class="add">+        height: 20px;</span>
+<span class="add">+        justify-content: center;</span>
+<span class="add">+        min-width: 20px;</span>
+<span class="add">+        outline-offset: 2px;</span>
+<span class="add">+        padding-bottom: 0px;</span>
+<span class="add">+        padding-left: 0px;</span>
+<span class="add">+        padding-right: 0px;</span>
+<span class="add">+        padding-top: 0px;</span>
+<span class="add">+        position: relative;</span>
+<span class="add">+        vertical-align: text-bottom;</span>
+<span class="add">+        width: 20px</span>
+<span class="add">+      &quot;></span>
+<span class="add">+        &lt;style>@scope{:scope{</span>
+<span class="add">+          &amp;::after {</span>
+<span class="add">+            background-color: var(--color-state-layer-neutral);</span>
+<span class="add">+            border-bottom-left-radius: 50px;</span>
+<span class="add">+            border-bottom-right-radius: 50px;</span>
+<span class="add">+            border-top-left-radius: 50px;</span>
+<span class="add">+            border-top-right-radius: 50px;</span>
+<span class="add">+            bottom: 0px;</span>
+<span class="add">+            content: &quot;&quot;;</span>
+<span class="add">+            left: 0px;</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            position: absolute;</span>
+<span class="add">+            right: 0px;</span>
+<span class="add">+            top: 0px</span>
+<span class="add">+          }</span>
+<span class="add">+        }}&lt;/style></span>
+<span class="add">+        &lt;svg</span>
+<span class="add">+          height=&quot;16&quot;</span>
+<span class="add">+          style=&quot;</span>
+<span class="add">+            display: inline-block;</span>
+<span class="add">+            fill: var(--color-foreground-primary);</span>
+<span class="add">+            height: 16px;</span>
+<span class="add">+            max-width: 100%;</span>
+<span class="add">+            pointer-events: none;</span>
+<span class="add">+            position: relative;</span>
+<span class="add">+            stroke-width: 0;</span>
+<span class="add">+            stroke: currentcolor;</span>
+<span class="add">+            vertical-align: middle;</span>
+<span class="add">+            width: 16px</span>
+<span class="add">+          &quot;</span>
+<span class="add">+          width=&quot;16&quot;</span>
+<span class="add">+        ></span>
+<span class="add">+          &lt;use href=&quot;#icon-information-16&quot;/></span>
+<span class="add">+        &lt;/svg></span>
+<span class="add">+      &lt;/button></span>
+<span class="add">+    &lt;/span></span>
+<span class="add">+  &lt;/p></span>
+<span class="add">+&lt;/div></span>
+\ No newline at end of file
+</pre></div></div></section>
+</main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
     <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
@@ -34,10 +361,10 @@
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
-    const PAGE = {"entry":{"component":"infotip","story":"paragraphCollapsed","file":"packages/skin/src/sass/infotip/stories/__snapshots__/infotip.snap","dims":[{"suffix":"320px","width":320,"rtl":false,"status":"added","before":"","after":"<div>\n  <p>\n    Inside paragraph\n    <span style=\"\n      display: inline-block;\n      position: relative\n    \">\n      <button style=\"\n        align-items: center;\n        border-bottom-color: transparent;\n        border-bottom-left-radius: 50px;\n        border-bottom-right-radius: 50px;\n        border-bottom-style: solid;\n        border-left-color: transparent;\n        border-left-style: solid;\n        border-right-color: transparent;\n        border-right-style: solid;\n        border-top-color: transparent;\n        border-top-left-radius: 50px;\n        border-top-right-radius: 50px;\n        border-top-style: solid;\n        display: inline-flex;\n        flex-shrink: 0;\n        font-family: inherit;\n        height: 20px;\n        justify-content: center;\n        min-width: 20px;\n        outline-offset: 2px;\n        padding-bottom: 0px;\n        padding-left: 0px;\n        padding-right: 0px;\n        padding-top: 0px;\n        position: relative;\n        vertical-align: text-bottom;\n        width: 20px\n      \">\n        <style>@scope{:scope{\n          &::after {\n            background-color: var(--color-state-layer-neutral);\n            border-bottom-left-radius: 50px;\n            border-bottom-right-radius: 50px;\n            border-top-left-radius: 50px;\n            border-top-right-radius: 50px;\n            bottom: 0px;\n            content: \"\";\n            left: 0px;\n            pointer-events: none;\n            position: absolute;\n            right: 0px;\n            top: 0px\n          }\n        }}<\/style>\n        <svg\n          height=\"16\"\n          style=\"\n            display: inline-block;\n            fill: var(--color-foreground-primary);\n            height: 16px;\n            max-width: 100%;\n            pointer-events: none;\n            position: relative;\n            stroke-width: 0;\n            stroke: currentcolor;\n            vertical-align: middle;\n            width: 16px\n          \"\n          width=\"16\"\n        >\n          <use href=\"#icon-information-16\"/>\n        <\/svg>\n      <\/button>\n    <\/span>\n  <\/p>\n<\/div>","diff":"@@ -0,0 +1,74 @@\n+<div>\n+  <p>\n+    Inside paragraph\n+    <span style=\"\n+      display: inline-block;\n+      position: relative\n+    \">\n+      <button style=\"\n+        align-items: center;\n+        border-bottom-color: transparent;\n+        border-bottom-left-radius: 50px;\n+        border-bottom-right-radius: 50px;\n+        border-bottom-style: solid;\n+        border-left-color: transparent;\n+        border-left-style: solid;\n+        border-right-color: transparent;\n+        border-right-style: solid;\n+        border-top-color: transparent;\n+        border-top-left-radius: 50px;\n+        border-top-right-radius: 50px;\n+        border-top-style: solid;\n+        display: inline-flex;\n+        flex-shrink: 0;\n+        font-family: inherit;\n+        height: 20px;\n+        justify-content: center;\n+        min-width: 20px;\n+        outline-offset: 2px;\n+        padding-bottom: 0px;\n+        padding-left: 0px;\n+        padding-right: 0px;\n+        padding-top: 0px;\n+        position: relative;\n+        vertical-align: text-bottom;\n+        width: 20px\n+      \">\n+        <style>@scope{:scope{\n+          &::after {\n+            background-color: var(--color-state-layer-neutral);\n+            border-bottom-left-radius: 50px;\n+            border-bottom-right-radius: 50px;\n+            border-top-left-radius: 50px;\n+            border-top-right-radius: 50px;\n+            bottom: 0px;\n+            content: \"\";\n+            left: 0px;\n+            pointer-events: none;\n+            position: absolute;\n+            right: 0px;\n+            top: 0px\n+          }\n+        }}<\/style>\n+        <svg\n+          height=\"16\"\n+          style=\"\n+            display: inline-block;\n+            fill: var(--color-foreground-primary);\n+            height: 16px;\n+            max-width: 100%;\n+            pointer-events: none;\n+            position: relative;\n+            stroke-width: 0;\n+            stroke: currentcolor;\n+            vertical-align: middle;\n+            width: 16px\n+          \"\n+          width=\"16\"\n+        >\n+          <use href=\"#icon-information-16\"/>\n+        <\/svg>\n+      <\/button>\n+    <\/span>\n+  <\/p>\n+<\/div>\n\\ No newline at end of file\n"},{"suffix":"512px","width":512,"rtl":false,"status":"added","before":"","after":"<div>\n  <p>\n    Inside paragraph\n    <span style=\"\n      display: inline-block;\n      position: relative\n    \">\n      <button style=\"\n        align-items: center;\n        border-bottom-color: transparent;\n        border-bottom-left-radius: 50px;\n        border-bottom-right-radius: 50px;\n        border-bottom-style: solid;\n        border-left-color: transparent;\n        border-left-style: solid;\n        border-right-color: transparent;\n        border-right-style: solid;\n        border-top-color: transparent;\n        border-top-left-radius: 50px;\n        border-top-right-radius: 50px;\n        border-top-style: solid;\n        display: inline-flex;\n        flex-shrink: 0;\n        font-family: inherit;\n        height: 20px;\n        justify-content: center;\n        min-width: 20px;\n        outline-offset: 2px;\n        padding-bottom: 0px;\n        padding-left: 0px;\n        padding-right: 0px;\n        padding-top: 0px;\n        position: relative;\n        vertical-align: text-bottom;\n        width: 20px\n      \">\n        <style>@scope{:scope{\n          &::after {\n            background-color: var(--color-state-layer-neutral);\n            border-bottom-left-radius: 50px;\n            border-bottom-right-radius: 50px;\n            border-top-left-radius: 50px;\n            border-top-right-radius: 50px;\n            bottom: 0px;\n            content: \"\";\n            left: 0px;\n            pointer-events: none;\n            position: absolute;\n            right: 0px;\n            top: 0px\n          }\n        }}<\/style>\n        <svg\n          height=\"16\"\n          style=\"\n            display: inline-block;\n            fill: var(--color-foreground-primary);\n            height: 16px;\n            max-width: 100%;\n            pointer-events: none;\n            position: relative;\n            stroke-width: 0;\n            stroke: currentcolor;\n            vertical-align: middle;\n            width: 16px\n          \"\n          width=\"16\"\n        >\n          <use href=\"#icon-information-16\"/>\n        <\/svg>\n      <\/button>\n    <\/span>\n  <\/p>\n<\/div>","diff":"@@ -0,0 +1,74 @@\n+<div>\n+  <p>\n+    Inside paragraph\n+    <span style=\"\n+      display: inline-block;\n+      position: relative\n+    \">\n+      <button style=\"\n+        align-items: center;\n+        border-bottom-color: transparent;\n+        border-bottom-left-radius: 50px;\n+        border-bottom-right-radius: 50px;\n+        border-bottom-style: solid;\n+        border-left-color: transparent;\n+        border-left-style: solid;\n+        border-right-color: transparent;\n+        border-right-style: solid;\n+        border-top-color: transparent;\n+        border-top-left-radius: 50px;\n+        border-top-right-radius: 50px;\n+        border-top-style: solid;\n+        display: inline-flex;\n+        flex-shrink: 0;\n+        font-family: inherit;\n+        height: 20px;\n+        justify-content: center;\n+        min-width: 20px;\n+        outline-offset: 2px;\n+        padding-bottom: 0px;\n+        padding-left: 0px;\n+        padding-right: 0px;\n+        padding-top: 0px;\n+        position: relative;\n+        vertical-align: text-bottom;\n+        width: 20px\n+      \">\n+        <style>@scope{:scope{\n+          &::after {\n+            background-color: var(--color-state-layer-neutral);\n+            border-bottom-left-radius: 50px;\n+            border-bottom-right-radius: 50px;\n+            border-top-left-radius: 50px;\n+            border-top-right-radius: 50px;\n+            bottom: 0px;\n+            content: \"\";\n+            left: 0px;\n+            pointer-events: none;\n+            position: absolute;\n+            right: 0px;\n+            top: 0px\n+          }\n+        }}<\/style>\n+        <svg\n+          height=\"16\"\n+          style=\"\n+            display: inline-block;\n+            fill: var(--color-foreground-primary);\n+            height: 16px;\n+            max-width: 100%;\n+            pointer-events: none;\n+            position: relative;\n+            stroke-width: 0;\n+            stroke: currentcolor;\n+            vertical-align: middle;\n+            width: 16px\n+          \"\n+          width=\"16\"\n+        >\n+          <use href=\"#icon-information-16\"/>\n+        <\/svg>\n+      <\/button>\n+    <\/span>\n+  <\/p>\n+<\/div>\n\\ No newline at end of file\n"},{"suffix":"1280px","width":1280,"rtl":false,"status":"added","before":"","after":"<div>\n  <p>\n    Inside paragraph\n    <span style=\"\n      display: inline-block;\n      position: relative\n    \">\n      <button style=\"\n        align-items: center;\n        border-bottom-color: transparent;\n        border-bottom-left-radius: 50px;\n        border-bottom-right-radius: 50px;\n        border-bottom-style: solid;\n        border-left-color: transparent;\n        border-left-style: solid;\n        border-right-color: transparent;\n        border-right-style: solid;\n        border-top-color: transparent;\n        border-top-left-radius: 50px;\n        border-top-right-radius: 50px;\n        border-top-style: solid;\n        display: inline-flex;\n        flex-shrink: 0;\n        font-family: inherit;\n        height: 20px;\n        justify-content: center;\n        min-width: 20px;\n        outline-offset: 2px;\n        padding-bottom: 0px;\n        padding-left: 0px;\n        padding-right: 0px;\n        padding-top: 0px;\n        position: relative;\n        vertical-align: text-bottom;\n        width: 20px\n      \">\n        <style>@scope{:scope{\n          &::after {\n            background-color: var(--color-state-layer-neutral);\n            border-bottom-left-radius: 50px;\n            border-bottom-right-radius: 50px;\n            border-top-left-radius: 50px;\n            border-top-right-radius: 50px;\n            bottom: 0px;\n            content: \"\";\n            left: 0px;\n            pointer-events: none;\n            position: absolute;\n            right: 0px;\n            top: 0px\n          }\n        }}<\/style>\n        <svg\n          height=\"16\"\n          style=\"\n            display: inline-block;\n            fill: var(--color-foreground-primary);\n            height: 16px;\n            max-width: 100%;\n            pointer-events: none;\n            position: relative;\n            stroke-width: 0;\n            stroke: currentcolor;\n            vertical-align: middle;\n            width: 16px\n          \"\n          width=\"16\"\n        >\n          <use href=\"#icon-information-16\"/>\n        <\/svg>\n      <\/button>\n    <\/span>\n  <\/p>\n<\/div>","diff":"@@ -0,0 +1,74 @@\n+<div>\n+  <p>\n+    Inside paragraph\n+    <span style=\"\n+      display: inline-block;\n+      position: relative\n+    \">\n+      <button style=\"\n+        align-items: center;\n+        border-bottom-color: transparent;\n+        border-bottom-left-radius: 50px;\n+        border-bottom-right-radius: 50px;\n+        border-bottom-style: solid;\n+        border-left-color: transparent;\n+        border-left-style: solid;\n+        border-right-color: transparent;\n+        border-right-style: solid;\n+        border-top-color: transparent;\n+        border-top-left-radius: 50px;\n+        border-top-right-radius: 50px;\n+        border-top-style: solid;\n+        display: inline-flex;\n+        flex-shrink: 0;\n+        font-family: inherit;\n+        height: 20px;\n+        justify-content: center;\n+        min-width: 20px;\n+        outline-offset: 2px;\n+        padding-bottom: 0px;\n+        padding-left: 0px;\n+        padding-right: 0px;\n+        padding-top: 0px;\n+        position: relative;\n+        vertical-align: text-bottom;\n+        width: 20px\n+      \">\n+        <style>@scope{:scope{\n+          &::after {\n+            background-color: var(--color-state-layer-neutral);\n+            border-bottom-left-radius: 50px;\n+            border-bottom-right-radius: 50px;\n+            border-top-left-radius: 50px;\n+            border-top-right-radius: 50px;\n+            bottom: 0px;\n+            content: \"\";\n+            left: 0px;\n+            pointer-events: none;\n+            position: absolute;\n+            right: 0px;\n+            top: 0px\n+          }\n+        }}<\/style>\n+        <svg\n+          height=\"16\"\n+          style=\"\n+            display: inline-block;\n+            fill: var(--color-foreground-primary);\n+            height: 16px;\n+            max-width: 100%;\n+            pointer-events: none;\n+            position: relative;\n+            stroke-width: 0;\n+            stroke: currentcolor;\n+            vertical-align: middle;\n+            width: 16px\n+          \"\n+          width=\"16\"\n+        >\n+          <use href=\"#icon-information-16\"/>\n+        <\/svg>\n+      <\/button>\n+    <\/span>\n+  <\/p>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"\n<p>\n    Inside paragraph\n    <span class=\"infotip\">\n        <button class=\"icon-btn icon-btn--transparent infotip__host\" type=\"button\" aria-expanded=\"false\" aria-label=\"Help\">\n            <svg class=\"icon icon--16\" width=\"16\" height=\"16\" aria-hidden=\"true\">\n                <use href=\"#icon-information-16\"><\/use>\n            <\/svg>\n        <\/button>\n        <span class=\"infotip__overlay\">\n            <span class=\"infotip__pointer infotip__pointer--top-left\"><\/span>\n            <span class=\"infotip__mask\">\n                <span class=\"infotip__cell\">\n                    <span class=\"infotip__content\">\n                        <span class=\"infotip__heading\" role=\"heading\" aria-level=5>Infotip<\/span>\n                        <span>Here's a tip to help you be successful at your task.<\/span>\n                    <\/span>\n                    <button class=\"icon-btn infotip__close\" type=\"button\" aria-label=\"Dismiss infotip\">\n                        <svg class=\"icon icon--16\" height=\"24\" width=\"24\" aria-hidden=\"true\">\n                            <use href=\"#icon-close-16\"><\/use>\n                        <\/svg>\n                    <\/button>\n                <\/span>\n            <\/span>\n        <\/span>\n    <\/span>\n<\/p>","storyAfter":"\n<p>\n    Inside paragraph\n    <span class=\"infotip\">\n        <button class=\"icon-btn icon-btn--transparent infotip__host\" type=\"button\" aria-expanded=\"false\" aria-label=\"Help\">\n            <svg class=\"icon icon--16\" width=\"16\" height=\"16\" aria-hidden=\"true\">\n                <use href=\"#icon-information-16\"><\/use>\n            <\/svg>\n        <\/button>\n        <span class=\"infotip__overlay\">\n            <span class=\"infotip__pointer infotip__pointer--top-left\"><\/span>\n            <span class=\"infotip__mask\">\n                <span class=\"infotip__cell\">\n                    <span class=\"infotip__content\">\n                        <span class=\"infotip__heading\" role=\"heading\" aria-level=5>Infotip<\/span>\n                        <span>Here's a tip to help you be successful at your task.<\/span>\n                    <\/span>\n                    <button class=\"icon-btn infotip__close\" type=\"button\" aria-label=\"Dismiss infotip\">\n                        <svg class=\"icon icon--16\" height=\"24\" width=\"24\" aria-hidden=\"true\">\n                            <use href=\"#icon-close-16\"><\/use>\n                        <\/svg>\n                    <\/button>\n                <\/span>\n            <\/span>\n        <\/span>\n    <\/span>\n<\/p>"},"baseRefShort":"60ee2f496866","prevHref":"infotip-stories-infotip--infotipModal.html","nextHref":"infotip-stories-infotip--paragraphExpanded.html","indexHref":"../index.html","pos":445,"total":1012,"slug":"infotip-stories-infotip--paragraphCollapsed","hash":"kj3tfw"};
+    const PAGE = {"baseRefShort":"60ee2f496866","prevHref":"infotip-stories-infotip--infotipModal.html","nextHref":"infotip-stories-infotip--paragraphExpanded.html","indexHref":"../index.html","pos":445,"total":1012,"slug":"infotip-stories-infotip--paragraphCollapsed","hash":"kj3tfw","component":"infotip","story":"paragraphCollapsed","file":"packages/skin/src/sass/infotip/stories/__snapshots__/infotip.snap","dims":[{"changes":[]},{"changes":[]},{"changes":[]}]};
 </script>
-<script src="../assets/nav.js"></script>
-<script src="../assets/story.js"></script>
+<script src="../assets/nav.js" defer></script>
+<script src="../assets/story.js" defer></script>
 <script src="../assets/prefetch.js" defer></script>
 </body>
 </html>
