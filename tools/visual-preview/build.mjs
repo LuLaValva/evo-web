@@ -427,6 +427,27 @@ const spriteJs = (svg) =>
     ");";
 writeAsset("sprite-base.js", spriteJs(assets.base.sprite));
 writeAsset("sprite-head.js", spriteJs(assets.head.sprite));
+// Story-list data for the sidebar every story page renders — shared and
+// cached instead of duplicated into each page.
+writeAsset(
+    "nav.js",
+    "window.NAV = " +
+        jsonInline({
+            entries: entries.map((e) => ({
+                slug: e.slug,
+                component: e.component,
+                story: e.story,
+                qualifier: e.qualifier,
+                status: worstStatus(e),
+                chip:
+                    e.dims.length > 1
+                        ? e.dims.length + " dims"
+                        : e.dims[0]?.suffix || null,
+                hash: e.hash,
+            })),
+        }) +
+        ";",
+);
 
 // ---- per-story pages ----
 const storyTemplate = fs.readFileSync(
