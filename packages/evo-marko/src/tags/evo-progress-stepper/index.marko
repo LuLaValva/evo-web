@@ -1,22 +1,56 @@
 export interface Step extends Omit<Marko.HTML.Div, `on${string}` | "title"> {
+    /**
+     * The current step. Only the first step that has this attribute will be
+     * considered current. All steps before will be rendered as complete, and
+     * all after will render as upcoming. If not present on any item, then
+     * will render based on `default-state` attribute
+     */
     current?: boolean;
+    /** The accessibility text for the icon. Defaults to either complete, upcoming, current, or blocked depending on type or current */
     a11yText?: string;
+    /** The title of the step, `<h4>` by default */
     title?: Marko.AttrTag<Marko.HTML.H4 & {
+            /**
+             * Overrides the tag used to wrap the title
+             * @default "h4"
+             */
             as?: keyof Marko.NativeTags;
         }
     >;
 }
 export interface Input extends Marko.HTML.Div {
+    /**
+     * Will display stepper as a vertical column or horizontal row.
+     * @default "row"
+     */
     direction?: "row" | "column";
+    /** A step on the progress stepper. Multiple should be included. */
     step?: Marko.AttrTag<Step>;
+    /**
+     * If `complete`, then all items will be in complete state by default. If
+     * `upcoming`, all items will be in upcoming state. If `attention`, then
+     * the current item will show as blocked. Otherwise, the default
+     * (`active`) will change items based on the `current` item (current
+     * defaults to first step if not set).
+     * @default "active"
+     */
     defaultState?: "active" | "complete" | "upcoming" | "attention" | "current";
+    /**
+     * Tag to use to wrap `a11yHeadingText` for screen readers.
+     * @default "h2"
+     */
     headingAs?: keyof Marko.NativeTags;
     /**
      * The clipped text that describes the heading for the progress stepper
-     * 
+     *
      * English default to be overridden is `"Progress"`
+     * @default "Progress"
      */
     a11yHeadingText: string;
+    /**
+     * Tag to wrap the content of each step in.
+     * @default "p"
+     */
     stepContentAs?: keyof Marko.NativeTags;
 }
 <const/{

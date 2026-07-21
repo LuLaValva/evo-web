@@ -18,17 +18,29 @@ export type FilePreviewCardFile = (
       }
 );
 export interface Input extends Marko.HTML.Div {
+    /** Override the tag used to wrap this component */
     as?: keyof Marko.NativeTags;
+    /** File object, can be raw platform `File` or an object containing `name`, `type`, and a `src` for the preview */
     file?: FilePreviewCardFile;
+    /** Status of the file, can be `"uploading"` or `undefined` */
     status?: "uploading";
+    /** If present, wrap the card in an `<a>` tag */
     href?: string;
+    /** File information. If not present, this will default to the file extension */
     infoText?: string;
+    /** The delete button. Requires `a11yText` and `onClick` attributes which will attach to the icon-button. */
     deleteAction?: Marko.AttrTag<IconButtonInput>;
+    /** Array of menu actions, containing `event` and `label` */
     menuActions?: FilePreviewCardMenuAction[];
+    /** Additional action. Requires `a11yText` and `onClick` attributes, and an icon in `content` */
     action?: Marko.AttrTag<IconButtonInput>;
+    /** The "see more" button. Requires `a11yText` and `onClick` attributes which will attach to the icon-button. */
     seeMoreAction?: Marko.AttrTag<IconButtonInput>;
+    /** The "cancel upload" button. Requires `a11yText` and `onClick` attributes which will attach to the icon-button. */
     cancelAction?: Marko.AttrTag<IconButtonInput>;
+    /** Title to display beneath the file, usually the filename */
     footerTitle?: string;
+    /** Subtitle to display beneath the file title */
     footerSubtitle?: string;
 }
 

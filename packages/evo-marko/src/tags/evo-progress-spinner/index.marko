@@ -1,12 +1,14 @@
 export interface Input extends Omit<Marko.HTML.Span, "role" | "aria-label"> {
     /**
      * The `aria-label` for the progress spinner
-     * 
+     *
      * English default to be overridden is `"Loading"`
-     * 
+     *
      * Pass `null` explicitly _only_ if alternative accessibility information is present
+     * @default "Loading"
      */
     a11yText: string | null;
+    /** Size of spinner. Default is `24`, can be `"small"` (`20`) or `"large"` (`30`). */
     size?: "large" | "small";
 }
 <const/{

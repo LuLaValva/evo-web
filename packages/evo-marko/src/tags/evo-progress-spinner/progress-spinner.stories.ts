@@ -16,18 +16,15 @@ export default {
     },
   },
 
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     size: {
-      options: ["normal (default)", "small", "large"],
       control: "inline-radio",
-      description:
-        'size of spinner. Default is `24`, can be "small" (`20`) or "large" (`30`).',
     },
     a11yText: {
-      type: { name: "string", required: true },
       control: "text",
-      description:
-        'Localized, the accessibility label for the progress spinner. This is for internationalization. It should describe the purpose of the spinner, such as "Loading". May be set to `null` only if accessibility is provided through other means.',
     },
     ["<span> attributes" as any]: {
       description:

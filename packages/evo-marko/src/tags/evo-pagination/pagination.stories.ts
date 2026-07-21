@@ -22,32 +22,18 @@ export default {
     },
   },
 
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     a11yCurrentText: {
-      type: { name: "string", required: true },
       control: "text",
-      description:
-        "Localized description for the current page (e.g. Results of Page 1)",
     },
     a11yHeadingTag: {
-      type: "string",
       control: "text",
-      description: "HTML tag to use for the a11y heading",
-      table: { defaultValue: { summary: "h2" } },
     },
     item: {
-      description: "Attribute tag representing a pagination item",
       "@": {
-        current: {
-          type: "boolean",
-          control: "boolean",
-          description: "Indicates that this item is the current page",
-        },
-        href: {
-          type: "string",
-          control: "string",
-          description: "When present, switch to `<a>` instead of `<button>`",
-        },
         ["<button> attributes" as any]: {
           description:
             "All attributes and event handlers from [the native HTML `<button>` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button) will be passed through (or to [the `<a>` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/a) when `href` is present)",
@@ -55,7 +41,6 @@ export default {
       },
     },
     prev: {
-      description: "Attribute tag for the previous button",
       "@": {
         ["<evo-icon-button> attributes" as any]: {
           description:
@@ -64,7 +49,6 @@ export default {
       },
     },
     next: {
-      description: "Attribute tag for the next button",
       "@": {
         ["<evo-icon-button> attributes" as any]: {
           description:
@@ -73,12 +57,7 @@ export default {
       },
     },
     variant: {
-      type: "string",
-      options: ["show-last", "show-range", "overflow"],
       control: "inline-radio",
-      description:
-        "If `show-last` then will show the last page always and will put `…` between the last visible range and the last page. `…` and the last page will take up two items in the range. `…` will be hidden when the range to the last item is fully visible.",
-      table: { defaultValue: { summary: "show-range" } },
     },
     ["<nav> attributes" as any]: {
       description:

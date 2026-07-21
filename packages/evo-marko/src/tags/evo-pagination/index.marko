@@ -2,20 +2,37 @@ import { getMaxWidth } from "../../common/dom";
 import { type Input as IconButtonInput } from "<evo-icon-button>";
 
 export interface Item extends Omit<Marko.HTML.Button, "type"> {
+    /** Indicates that this item is the current page */
     current?: boolean;
+    /** When present, switch to `<a>` instead of `<button>` */
     href?: string;
 }
 
 export interface Input extends Marko.HTML.Nav {
+    /**
+     * HTML tag to use for the a11y heading
+     * @default "h2"
+     */
     a11yHeadingTag?: keyof Marko.NativeTags;
+    /** Attribute tag representing a pagination item */
     item?: Marko.AttrTag<Item>;
+    /** Attribute tag for the previous button */
     prev?: Marko.AttrTag<Omit<IconButtonInput, "content">>;
+    /** Attribute tag for the next button */
     next?: Marko.AttrTag<Omit<IconButtonInput, "content">>;
+    /**
+     * If `show-last` then will show the last page always and will put `…`
+     * between the last visible range and the last page. `…` and the last
+     * page will take up two items in the range. `…` will be hidden when the
+     * range to the last item is fully visible.
+     * @default "show-range"
+     */
     variant?: "show-range" | "show-last" | "overflow";
     /**
      * The clipped text that describes the _whole menu_ in a heading for assistive technology
-     * 
+     *
      * English default to be overridden is `"Results Pagination - Page 1"`
+     * @default "Results Pagination - Page 1"
      */
     a11yCurrentText: Marko.HTMLAttributes["aria-label"];
 }

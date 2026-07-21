@@ -17,28 +17,14 @@ export default {
       },
     },
   },
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
-    a11yHeadingText: {
-      type: { name: "string", required: true },
-      control: "text",
-      description:
-        "Localized heading text for the breadcrumb nav, visually clipped",
-    },
     a11yHeadingTag: {
-      type: "string",
       control: "text",
-      description: "HTML heading tag to use for the a11y heading",
-      table: { defaultValue: { summary: "h2" } },
-    },
-    a11yMenuButtonText: {
-      type: { name: "string", required: true },
-      control: "text",
-      description:
-        "Localized a11y label for the overflow menu button (shown when items collapse)",
     },
     item: {
-      description:
-        "A breadcrumb item. Renders as `<a>` if `href` is provided, otherwise `<button>`.",
       "@": {
         href: {
           description:

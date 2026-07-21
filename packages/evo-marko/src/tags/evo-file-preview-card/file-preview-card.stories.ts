@@ -17,39 +17,20 @@ export default {
       },
     },
   },
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     as: {
-      type: "string",
       control: "text",
-      description: "Override the tag used to wrap this component",
     },
     file: {
-      type: { name: "object", value: {} },
       control: { type: "file" },
-      description:
-        "File object, can be raw platform `File` or an object containing `name`, `type`, and a `src` for the preview",
-      table: { type: { summary: "file" } },
     },
     status: {
-      type: "string",
-      options: ["undefined (default)", "uploading"],
       control: "inline-radio",
-      description: 'Status of the file, can be `"uploading"` or `undefined`',
-    },
-    href: {
-      type: "string",
-      control: "text",
-      description: "If present, wrap the card in an `<a>` tag",
-    },
-    infoText: {
-      type: "string",
-      control: "text",
-      description:
-        "File information. If not present, this will default to the file extension",
     },
     deleteAction: {
-      description:
-        "The delete button. Requires `a11yText` and `onClick` attributes which will attach to the icon-button.",
       "@": {
         ["<evo-icon-button> attributes" as any]: {
           description:
@@ -59,12 +40,8 @@ export default {
     },
     menuActions: {
       control: "object",
-      description: "Array of menu actions, containing `event` and `label`",
-      table: { type: { summary: "{ event: string, label: string }[]" } },
     },
     action: {
-      description:
-        "Additional action. Requires `a11yText` and `onClick` attributes, and an icon in `content`",
       "@": {
         ["<evo-icon-button> attributes" as any]: {
           description:
@@ -73,8 +50,6 @@ export default {
       },
     },
     seeMoreAction: {
-      description:
-        'The "see more" button. Requires `a11yText` and `onClick` attributes which will attach to the icon-button.',
       "@": {
         ["<evo-icon-button> attributes" as any]: {
           description:
@@ -83,24 +58,12 @@ export default {
       },
     },
     cancelAction: {
-      description:
-        'The "cancel upload" button. Requires `a11yText` and `onClick` attributes which will attach to the icon-button.',
       "@": {
         ["<evo-icon-button> attributes" as any]: {
           description:
             "All attributes and event handlers from [the `<evo-icon-button>` tag](?path=/docs/buttons-evo-icon-button--docs) will be passed through to `<@cancelAction>`",
         },
       },
-    },
-    footerTitle: {
-      type: "string",
-      control: "text",
-      description: "Title to display beneath the file, usually the filename",
-    },
-    footerSubtitle: {
-      type: "string",
-      control: "text",
-      description: "Subtitle to display beneath the file title",
     },
     ["<div> attributes" as any]: {
       description:

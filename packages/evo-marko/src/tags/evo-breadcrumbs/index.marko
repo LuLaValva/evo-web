@@ -4,15 +4,22 @@ export interface Input extends Omit<Marko.HTML.Nav, "role"> {
      * The clipped text that describes the heading for the breadcrumb navigation
      *
      * English default to be overridden is `"Page navigation"`
+     * @default "Page navigation"
      */
     a11yHeadingText: string;
+    /**
+     * HTML heading tag to use for the a11y heading
+     * @default "h2"
+     */
     a11yHeadingTag?: keyof Marko.NativeTags;
     /**
      * The clipped text for the overflow menu button (shown when breadcrumbs collapse)
      *
      * English default to be overridden is `"More"`
+     * @default "More"
      */
     a11yMenuButtonText: string;
+    /** A breadcrumb item. Renders as `<a>` if `href` is provided, otherwise `<button>`. */
     item?: Marko.AttrTag<Item>;
 }
 

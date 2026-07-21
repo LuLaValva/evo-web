@@ -17,10 +17,11 @@ export default {
       },
     },
   },
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     card: {
-      description:
-        "A repeatable attribute tag for each file preview card. Takes the same attributes as file-preview-card",
       "@": {
         ["<evo-file-preview-card> attributes" as any]: {
           description:
@@ -29,8 +30,6 @@ export default {
       },
     },
     seeMoreAction: {
-      description:
-        'An additional "See More" tag will be rendered if there are too many cards shown at once',
       "@": {
         ["<evo-icon-button> attributes" as any]: {
           description:
@@ -40,11 +39,6 @@ export default {
     },
     visibleCardCount: {
       controllable: true,
-      type: "number",
-      control: "number",
-      description:
-        'The number of cards visible before a "see more" card is shown as the last one',
-      table: { defaultValue: { summary: "15" } },
     },
   },
 } satisfies Meta<Input>;

@@ -1,7 +1,13 @@
 import type { Input as FilePreviewCardInput } from "../evo-file-preview-card/index.marko";
 export interface Input extends Marko.HTML.Div {
+    /** A repeatable attribute tag for each file preview card. Takes the same attributes as file-preview-card */
     card?: Marko.AttrTag<FilePreviewCardInput>;
+    /** An additional "See More" tag will be rendered if there are too many cards shown at once */
     seeMoreAction?: FilePreviewCardInput["seeMoreAction"];
+    /**
+     * The number of cards visible before a "see more" card is shown as the last one
+     * @default 15
+     */
     visibleCardCount?: number;
     visibleCardCountChange?: (s: number) => void;
 }
