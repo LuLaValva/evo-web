@@ -415,6 +415,7 @@ const writeAsset = (name, content) =>
     fs.writeFileSync(path.join(outDir, "assets", name), content);
 writeAsset("viewer.css", fs.readFileSync(path.join(__dirname, "assets", "viewer.css")));
 writeAsset("story.js", fs.readFileSync(path.join(__dirname, "assets", "story.js")));
+writeAsset("prefetch.js", fs.readFileSync(path.join(__dirname, "assets", "prefetch.js")));
 writeAsset("base.css", assets.base.css);
 writeAsset("head.css", assets.head.css);
 writeAsset("tokens-light.css", tokens.light);
