@@ -22,9 +22,6 @@ export default {
     },
   },
 
-  // Descriptions, types, required-ness and defaults come from the JSDoc on
-  // the component's Input type via docgen; only controls that can't be
-  // inferred from the type and passthrough notes live here.
   argTypes: {
     open: {
       controllable: true,

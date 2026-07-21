@@ -20,9 +20,6 @@ export default {
     },
   },
 
-  // Descriptions, types, required-ness and defaults come from the JSDoc on
-  // the component's Input type via docgen; only controls that can't be
-  // inferred from the type and passthrough notes live here.
   argTypes: {
     open: {
       controllable: true,
@@ -30,8 +27,6 @@ export default {
     size: {
       control: "inline-radio",
     },
-    // `closedby` is inherited from the native `<dialog>` attributes, so
-    // docgen does not list it individually — documented here instead.
     closedby: {
       type: "string",
       options: ["any", "closerequest", "none"],

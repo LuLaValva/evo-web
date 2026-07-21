@@ -17,13 +17,9 @@ export default {
       description: { component: Readme },
     },
   },
-  // Descriptions, types, required-ness and defaults come from the JSDoc on
-  // the component's Input type via docgen; only controls that can't be
-  // inferred from the type and passthrough notes live here.
   argTypes: {
     selectMode: {
       control: "inline-radio",
-      // Kept: the inferred options drop the `undefined` (non-interactive) choice.
       options: [undefined, "day", "range"],
     },
     today: {

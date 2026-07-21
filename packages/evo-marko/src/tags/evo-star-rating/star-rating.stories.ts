@@ -15,9 +15,6 @@ export default {
       description: { component: Readme },
     },
   },
-  // Descriptions, types, required-ness and defaults come from the JSDoc on
-  // the component's Input type via docgen; only controls that can't be
-  // inferred from the type and passthrough notes live here.
   argTypes: {
     value: {
       control: { type: "range", min: 0, max: 5, step: 0.5 },

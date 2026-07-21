@@ -17,15 +17,10 @@ export default {
     },
   },
 
-  // Descriptions, types, required-ness and defaults come from the JSDoc on
-  // the component's Input type via docgen; only controls that can't be
-  // inferred from the type and passthrough notes live here.
   argTypes: {
     size: {
       control: "inline-radio",
     },
-    // `href` is inherited from `Marko.HTML.A` (node_modules), so docgen
-    // cannot see it — the full entry stays handwritten.
     href: {
       type: "string",
       control: "text",

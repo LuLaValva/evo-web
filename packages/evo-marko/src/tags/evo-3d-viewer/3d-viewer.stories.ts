@@ -15,12 +15,7 @@ export default {
       },
     },
   },
-  // Descriptions, types, required-ness and defaults come from the JSDoc on
-  // the component's Input type via docgen; only controls that can't be
-  // inferred from the type and passthrough notes live here.
   argTypes: {
-    // `src` is inherited from `Partial<ModelViewerElement>` (node_modules),
-    // so docgen does not list it — keep its docs here.
     src: {
       control: "text",
       description: "The asset to load",
