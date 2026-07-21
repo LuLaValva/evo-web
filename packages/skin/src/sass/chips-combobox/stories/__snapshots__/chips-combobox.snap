@@ -2872,21 +2872,32 @@
     background-color: var(--color-background-secondary);
     border: 1px solid var(--color-border-medium);
     display: inline-block;
+    letter-spacing: 0.12em;
+    line-height: 1.5;
     padding-block: var(--spacing-100);
     padding-inline: var(--spacing-100) var(--spacing-200);
-    position: relative
+    position: relative;
+    word-spacing: 0.16em
   ">
     <ul style="
       column-gap: 8px;
       display: flex;
       flex-wrap: wrap;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       list-style-type: none;
       margin-bottom: var(--spacing-100);
       margin-top: 0px;
       padding-left: 0px;
-      row-gap: 8px
+      row-gap: 8px;
+      word-spacing: 0.16em
     ">
-      <li style="display: inline-block">
+      <li style="
+        display: inline-block;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
+      ">
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
@@ -2896,17 +2907,23 @@
           font-size: var(--font-size-body);
           height: var(--spacing-400);
           justify-content: space-between;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           max-width: 296px;
           min-width: 32px;
           padding: 0 var(--spacing-150);
-          vertical-align: bottom
+          vertical-align: bottom;
+          word-spacing: 0.16em
         ">
           <span style="
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             overflow-x: hidden;
             overflow-y: hidden;
             padding: var(--spacing-75) 0;
             text-overflow: ellipsis;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            word-spacing: 0.16em
           ">
             Football
           </span>
@@ -2934,13 +2951,15 @@
             font-family: inherit;
             height: var(--spacing-300);
             justify-content: center;
-            line-height: 0;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             margin-inline-end: -8px;
             padding-bottom: 0px;
             padding-left: 0px;
             padding-right: 0px;
             padding-top: 0px;
-            width: var(--spacing-300)
+            width: var(--spacing-300);
+            word-spacing: 0.16em
           ">
             <svg
               height="12"
@@ -2948,20 +2967,35 @@
                 display: inline-block;
                 fill: currentcolor;
                 height: 12px;
+                letter-spacing: 0.12em;
+                line-height: 1.5;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
                 vertical-align: middle;
-                width: 12px
+                width: 12px;
+                word-spacing: 0.16em
               "
               width="13"
             >
-              <use href="#icon-close-12"/>
+              <use
+                href="#icon-close-12"
+                style="
+                  letter-spacing: 0.12em;
+                  line-height: 1.5;
+                  word-spacing: 0.16em
+                "
+              />
             </svg>
           </button>
         </span>
       </li>
-      <li style="display: inline-block">
+      <li style="
+        display: inline-block;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
+      ">
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
@@ -2971,17 +3005,23 @@
           font-size: var(--font-size-body);
           height: var(--spacing-400);
           justify-content: space-between;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           max-width: 296px;
           min-width: 32px;
           padding: 0 var(--spacing-150);
-          vertical-align: bottom
+          vertical-align: bottom;
+          word-spacing: 0.16em
         ">
           <span style="
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             overflow-x: hidden;
             overflow-y: hidden;
             padding: var(--spacing-75) 0;
             text-overflow: ellipsis;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            word-spacing: 0.16em
           ">
             Basketball
           </span>
@@ -3009,13 +3049,15 @@
             font-family: inherit;
             height: var(--spacing-300);
             justify-content: center;
-            line-height: 0;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             margin-inline-end: -8px;
             padding-bottom: 0px;
             padding-left: 0px;
             padding-right: 0px;
             padding-top: 0px;
-            width: var(--spacing-300)
+            width: var(--spacing-300);
+            word-spacing: 0.16em
           ">
             <svg
               height="12"
@@ -3023,20 +3065,35 @@
                 display: inline-block;
                 fill: currentcolor;
                 height: 12px;
+                letter-spacing: 0.12em;
+                line-height: 1.5;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
                 vertical-align: middle;
-                width: 12px
+                width: 12px;
+                word-spacing: 0.16em
               "
               width="13"
             >
-              <use href="#icon-close-12"/>
+              <use
+                href="#icon-close-12"
+                style="
+                  letter-spacing: 0.12em;
+                  line-height: 1.5;
+                  word-spacing: 0.16em
+                "
+              />
             </svg>
           </button>
         </span>
       </li>
-      <li style="display: inline-block">
+      <li style="
+        display: inline-block;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
+      ">
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
@@ -3046,17 +3103,23 @@
           font-size: var(--font-size-body);
           height: var(--spacing-400);
           justify-content: space-between;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           max-width: 296px;
           min-width: 32px;
           padding: 0 var(--spacing-150);
-          vertical-align: bottom
+          vertical-align: bottom;
+          word-spacing: 0.16em
         ">
           <span style="
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             overflow-x: hidden;
             overflow-y: hidden;
             padding: var(--spacing-75) 0;
             text-overflow: ellipsis;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            word-spacing: 0.16em
           ">
             Baseball
           </span>
@@ -3084,13 +3147,15 @@
             font-family: inherit;
             height: var(--spacing-300);
             justify-content: center;
-            line-height: 0;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             margin-inline-end: -8px;
             padding-bottom: 0px;
             padding-left: 0px;
             padding-right: 0px;
             padding-top: 0px;
-            width: var(--spacing-300)
+            width: var(--spacing-300);
+            word-spacing: 0.16em
           ">
             <svg
               height="12"
@@ -3098,15 +3163,25 @@
                 display: inline-block;
                 fill: currentcolor;
                 height: 12px;
+                letter-spacing: 0.12em;
+                line-height: 1.5;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
                 vertical-align: middle;
-                width: 12px
+                width: 12px;
+                word-spacing: 0.16em
               "
               width="13"
             >
-              <use href="#icon-close-12"/>
+              <use
+                href="#icon-close-12"
+                style="
+                  letter-spacing: 0.12em;
+                  line-height: 1.5;
+                  word-spacing: 0.16em
+                "
+              />
             </svg>
           </button>
         </span>
@@ -3115,12 +3190,19 @@
     <span style="
       box-sizing: border-box;
       display: inline-block;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       margin-inline-start: calc(var(--spacing-100)*-1);
       position: relative;
       vertical-align: bottom;
-      width: calc(100% + var(--spacing-300))
+      width: calc(100% + var(--spacing-300));
+      word-spacing: 0.16em
     ">
-      <span>
+      <span style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
+      ">
         <input
           placeholder="Add Sport"
           style="
@@ -3138,13 +3220,16 @@
             font-family: inherit;
             font-size: inherit;
             height: auto;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             margin-left: 0px;
             margin-right: 0px;
             margin: 0 var(--spacing-100);
             padding-left: 16px;
             padding-right: 32px;
             padding: var(--spacing-75) 0;
-            width: calc(100% - var(--spacing-200))
+            width: calc(100% - var(--spacing-200));
+            word-spacing: 0.16em
           "
         />
       </span>
@@ -3153,15 +3238,22 @@
         box-shadow: var(--bubble-shadow);
         box-sizing: border-box;
         left: 0px;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         max-height: 400px;
         min-width: 100%;
         overflow-y: auto;
         position: absolute;
         top: calc(100% + var(--spacing-150));
         width: auto;
+        word-spacing: 0.16em;
         z-index: 2
       ">
-        <div>
+        <div style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        ">
           <div style="
             border-bottom-width: 1px;
             border-left-width: 1px;
@@ -3176,6 +3268,8 @@
             font-family: inherit;
             grid-template-columns: auto auto;
             justify-content: space-between;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             margin-bottom: 1px;
             overflow-x: hidden;
             overflow-y: hidden;
@@ -3184,7 +3278,8 @@
             padding-right: 15px;
             padding-top: 8px;
             position: relative;
-            width: 100%
+            width: 100%;
+            word-spacing: 0.16em
           ">
             <style>@scope{:scope{
               &::after {
@@ -3198,7 +3293,12 @@
                 top: 0px
               }
             }}</style>
-            <span style="pointer-events: none">
+            <span style="
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              pointer-events: none;
+              word-spacing: 0.16em
+            ">
               Soccer
             </span>
           </div>
@@ -3214,6 +3314,8 @@
             font-family: inherit;
             grid-template-columns: auto auto;
             justify-content: space-between;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             margin-bottom: 1px;
             overflow-x: hidden;
             overflow-y: hidden;
@@ -3222,7 +3324,8 @@
             padding-right: 15px;
             padding-top: 8px;
             position: relative;
-            width: 100%
+            width: 100%;
+            word-spacing: 0.16em
           ">
             <style>@scope{:scope{
               &::after {
@@ -3236,7 +3339,12 @@
                 top: 0px
               }
             }}</style>
-            <span style="pointer-events: none">
+            <span style="
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              pointer-events: none;
+              word-spacing: 0.16em
+            ">
               Hockey
             </span>
           </div>
@@ -3254,6 +3362,8 @@
             font-family: inherit;
             grid-template-columns: auto auto;
             justify-content: space-between;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             overflow-x: hidden;
             overflow-y: hidden;
             padding-bottom: 8px;
@@ -3261,7 +3371,8 @@
             padding-right: 15px;
             padding-top: 8px;
             position: relative;
-            width: 100%
+            width: 100%;
+            word-spacing: 0.16em
           ">
             <style>@scope{:scope{
               &::after {
@@ -3275,7 +3386,12 @@
                 top: 0px
               }
             }}</style>
-            <span style="pointer-events: none">
+            <span style="
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              pointer-events: none;
+              word-spacing: 0.16em
+            ">
               Tennis
             </span>
           </div>

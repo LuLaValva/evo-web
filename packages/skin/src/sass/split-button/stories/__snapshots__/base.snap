@@ -2528,7 +2528,12 @@
 
 ┌─ textSpacing
 <div>
-  <span style="display: inline-flex">
+  <span style="
+    display: inline-flex;
+    letter-spacing: 0.12em;
+    line-height: 1.5;
+    word-spacing: 0.16em
+  ">
     <button style="
       align-content: center;
       align-items: center;
@@ -2553,6 +2558,8 @@
       font-family: inherit;
       font-size: var(--font-size-body);
       font-weight: 700;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       min-height: 40px;
       min-width: 88px;
       overflow-x: hidden;
@@ -2563,7 +2570,8 @@
       padding-top: 0px;
       position: relative;
       transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
-      vertical-align: bottom
+      vertical-align: bottom;
+      word-spacing: 0.16em
     ">
       <style>@scope{:scope{
         &::after {
@@ -2581,14 +2589,26 @@
         align-items: center;
         display: flex;
         justify-content: center;
-        width: 100%
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        width: 100%;
+        word-spacing: 0.16em
       ">
-        <span>
+        <span style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        ">
           Button
         </span>
       </span>
     </button>
-    <span style="position: relative">
+    <span style="
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      position: relative;
+      word-spacing: 0.16em
+    ">
       <button style="
         align-content: center;
         align-items: center;
@@ -2613,6 +2633,8 @@
         font-family: inherit;
         font-size: var(--font-size-body);
         font-weight: 700;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         margin-left: -1px;
         min-height: 40px;
         min-width: 40px;
@@ -2624,7 +2646,8 @@
         padding-top: 0px;
         position: relative;
         transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
-        vertical-align: bottom
+        vertical-align: bottom;
+        word-spacing: 0.16em
       ">
         <style>@scope{:scope{
           &::after {
@@ -2645,6 +2668,8 @@
             display: inline-block;
             fill: currentcolor;
             height: 12px;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             margin-inline-end: 8px;
             margin-inline-start: 8px;
             pointer-events: none;
@@ -2652,11 +2677,19 @@
             stroke: currentcolor;
             transform: rotate(180deg);
             vertical-align: middle;
-            width: 12px
+            width: 12px;
+            word-spacing: 0.16em
           "
           width="14"
         >
-          <use href="#icon-chevron-down-12"/>
+          <use
+            href="#icon-chevron-down-12"
+            style="
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          />
         </svg>
       </button>
       <div style="
@@ -2664,6 +2697,8 @@
         box-shadow: var(--bubble-shadow);
         box-sizing: border-box;
         left: unset;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         max-height: 400px;
         min-width: 100%;
         outline-width: 0px;
@@ -2672,9 +2707,14 @@
         right: 0px;
         top: calc(100% + 4px);
         width: auto;
+        word-spacing: 0.16em;
         z-index: 2
       ">
-        <div>
+        <div style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        ">
           <div style="
             border-bottom-style: solid;
             border-bottom-width: 1px;
@@ -2693,6 +2733,8 @@
             font-family: inherit;
             grid-template-columns: auto auto;
             justify-content: space-between;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             margin-bottom: 1px;
             overflow-x: hidden;
             overflow-y: hidden;
@@ -2701,7 +2743,8 @@
             padding-right: 15px;
             padding-top: 8px;
             position: relative;
-            width: 100%
+            width: 100%;
+            word-spacing: 0.16em
           ">
             <style>@scope{:scope{
               &::after {
@@ -2718,7 +2761,10 @@
             <span style="
               flex-grow: 1;
               flex-shrink: 0;
-              text-wrap-mode: nowrap
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              text-wrap-mode: nowrap;
+              word-spacing: 0.16em
             ">
               Item 10000
             </span>
@@ -2739,6 +2785,8 @@
             font-family: inherit;
             grid-template-columns: auto auto;
             justify-content: space-between;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             margin-bottom: 1px;
             overflow-x: hidden;
             overflow-y: hidden;
@@ -2747,7 +2795,8 @@
             padding-right: 15px;
             padding-top: 8px;
             position: relative;
-            width: 100%
+            width: 100%;
+            word-spacing: 0.16em
           ">
             <style>@scope{:scope{
               &::after {
@@ -2764,7 +2813,10 @@
             <span style="
               flex-grow: 1;
               flex-shrink: 0;
-              text-wrap-mode: nowrap
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              text-wrap-mode: nowrap;
+              word-spacing: 0.16em
             ">
               Item 20000
             </span>
@@ -2787,6 +2839,8 @@
             font-family: inherit;
             grid-template-columns: auto auto;
             justify-content: space-between;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             overflow-x: hidden;
             overflow-y: hidden;
             padding-bottom: 8px;
@@ -2794,7 +2848,8 @@
             padding-right: 15px;
             padding-top: 8px;
             position: relative;
-            width: 100%
+            width: 100%;
+            word-spacing: 0.16em
           ">
             <style>@scope{:scope{
               &::after {
@@ -2811,7 +2866,10 @@
             <span style="
               flex-grow: 1;
               flex-shrink: 0;
-              text-wrap-mode: nowrap
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              text-wrap-mode: nowrap;
+              word-spacing: 0.16em
             ">
               Item 30000
             </span>

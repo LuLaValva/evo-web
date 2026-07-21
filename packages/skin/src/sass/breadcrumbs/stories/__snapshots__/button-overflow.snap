@@ -2123,6 +2123,8 @@
     color: var(--breadcrumbs-item-foreground-color, var(--color-foreground-secondary));
     font-size: var(--font-size-small);
     height: fit-content;
+    letter-spacing: 0.12em;
+    line-height: 1.5;
     margin-bottom: 8px;
     margin-top: 8px;
     min-height: 16px;
@@ -2132,7 +2134,8 @@
     padding-right: 8px;
     padding-top: 8px;
     scrollbar-width: unset;
-    text-wrap-mode: nowrap
+    text-wrap-mode: nowrap;
+    word-spacing: 0.16em
   ">
     <h2 style="
       border-bottom-color: currentcolor;
@@ -2141,26 +2144,35 @@
       border-top-color: currentcolor;
       clip-path: inset(50%);
       height: 1px;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       overflow-x: hidden;
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
-      width: 1px
+      width: 1px;
+      word-spacing: 0.16em
     ">
       You are here
     </h2>
     <ul style="
       display: inline-block;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       margin-bottom: 0px;
       margin-top: 0px;
       min-width: 100%;
       padding-left: 0px;
-      right: 0px
+      right: 0px;
+      word-spacing: 0.16em
     ">
       <li style="
         align-items: center;
         display: inline-flex;
-        vertical-align: middle
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        vertical-align: middle;
+        word-spacing: 0.16em
       ">
         <button style="
           border-bottom-color: currentcolor;
@@ -2178,6 +2190,8 @@
           color: inherit;
           font-family: inherit;
           font-size: 1em;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           max-width: 168px;
           outline-offset: 5px;
           overflow-x: hidden;
@@ -2186,7 +2200,8 @@
           padding-left: 0px;
           padding-right: 0px;
           padding-top: 0px;
-          text-overflow: ellipsis
+          text-overflow: ellipsis;
+          word-spacing: 0.16em
         ">
           ebay
         </button>
@@ -2196,25 +2211,43 @@
             display: inline-block;
             fill: currentcolor;
             height: 12px;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             margin-left: var(--spacing-75);
             margin-right: var(--spacing-75);
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
             vertical-align: middle;
-            width: 12px
+            width: 12px;
+            word-spacing: 0.16em
           "
           width="8"
         >
-          <use href="#icon-chevron-right-12"/>
+          <use
+            href="#icon-chevron-right-12"
+            style="
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          />
         </svg>
       </li>
       <li style="
         align-items: center;
         display: inline-flex;
-        vertical-align: middle
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        vertical-align: middle;
+        word-spacing: 0.16em
       ">
-        <span style="position: relative">
+        <span style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          position: relative;
+          word-spacing: 0.16em
+        ">
           <button style="
             align-items: center;
             background-color: var(--icon-button-background-color, var(--color-background-secondary));
@@ -2234,6 +2267,8 @@
             font-family: inherit;
             height: var(--spacing-300);
             justify-content: center;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             min-height: var(--spacing-300);
             min-width: var(--spacing-300);
             outline-offset: 1px;
@@ -2245,7 +2280,8 @@
             padding-top: 0px;
             position: relative;
             vertical-align: text-bottom;
-            width: var(--spacing-300)
+            width: var(--spacing-300);
+            word-spacing: 0.16em
           ">
             <style>@scope{:scope{
               &::after {
@@ -2267,6 +2303,8 @@
               display: inline-block;
               fill: var(--breadcrumbs-overflow-foreground-color, var(--color-foreground-secondary));
               height: 16px;
+              letter-spacing: 0.12em;
+              line-height: 1.5;
               margin-left: 3px;
               margin-right: 3px;
               max-width: 75%;
@@ -2275,9 +2313,17 @@
               stroke-width: 0;
               stroke: currentcolor;
               vertical-align: middle;
-              width: 16px
+              width: 16px;
+              word-spacing: 0.16em
             ">
-              <use href="#icon-overflow-horizontal-16"/>
+              <use
+                href="#icon-overflow-horizontal-16"
+                style="
+                  letter-spacing: 0.12em;
+                  line-height: 1.5;
+                  word-spacing: 0.16em
+                "
+              />
             </svg>
           </button>
         </span>
@@ -2287,23 +2333,36 @@
             display: inline-block;
             fill: currentcolor;
             height: 12px;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             margin-left: var(--spacing-75);
             margin-right: var(--spacing-75);
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
             vertical-align: middle;
-            width: 12px
+            width: 12px;
+            word-spacing: 0.16em
           "
           width="8"
         >
-          <use href="#icon-chevron-right-12"/>
+          <use
+            href="#icon-chevron-right-12"
+            style="
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          />
         </svg>
       </li>
       <li style="
         align-items: center;
         display: inline-flex;
-        vertical-align: middle
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        vertical-align: middle;
+        word-spacing: 0.16em
       ">
         <button style="
           border-bottom-color: currentcolor;
@@ -2321,6 +2380,8 @@
           color: inherit;
           font-family: inherit;
           font-size: 1em;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           max-width: 168px;
           outline-offset: 5px;
           overflow-x: hidden;
@@ -2329,7 +2390,8 @@
           padding-left: 0px;
           padding-right: 0px;
           padding-top: 0px;
-          text-overflow: ellipsis
+          text-overflow: ellipsis;
+          word-spacing: 0.16em
         ">
           Smart Watch Band Long Band Text Type 2
         </button>
@@ -2339,23 +2401,36 @@
             display: inline-block;
             fill: currentcolor;
             height: 12px;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             margin-left: var(--spacing-75);
             margin-right: var(--spacing-75);
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
             vertical-align: middle;
-            width: 12px
+            width: 12px;
+            word-spacing: 0.16em
           "
           width="8"
         >
-          <use href="#icon-chevron-right-12"/>
+          <use
+            href="#icon-chevron-right-12"
+            style="
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          />
         </svg>
       </li>
       <li style="
         align-items: center;
         display: inline-flex;
-        vertical-align: middle
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        vertical-align: middle;
+        word-spacing: 0.16em
       ">
         <button style="
           border-bottom-color: currentcolor;
@@ -2373,6 +2448,8 @@
           color: var(--breadcrumbs-item-current-foreground-color, var(--color-foreground-primary));
           font-family: inherit;
           font-size: 1em;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           max-width: 168px;
           outline-offset: 5px;
           overflow-x: hidden;
@@ -2381,7 +2458,8 @@
           padding-left: 0px;
           padding-right: 0px;
           padding-top: 0px;
-          text-overflow: ellipsis
+          text-overflow: ellipsis;
+          word-spacing: 0.16em
         ">
           Current Band
         </button>
@@ -2399,6 +2477,8 @@
     color: var(--breadcrumbs-item-foreground-color, var(--color-foreground-secondary));
     font-size: var(--font-size-small);
     height: fit-content;
+    letter-spacing: 0.12em;
+    line-height: 1.5;
     margin-bottom: 16px;
     margin-top: 16px;
     min-height: 16px;
@@ -2408,7 +2488,8 @@
     padding-right: 8px;
     padding-top: 8px;
     scrollbar-width: unset;
-    text-wrap-mode: nowrap
+    text-wrap-mode: nowrap;
+    word-spacing: 0.16em
   ">
     <h2 style="
       border-bottom-color: currentcolor;
@@ -2417,26 +2498,35 @@
       border-top-color: currentcolor;
       clip-path: inset(50%);
       height: 1px;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       overflow-x: hidden;
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
-      width: 1px
+      width: 1px;
+      word-spacing: 0.16em
     ">
       You are here
     </h2>
     <ul style="
       display: inline-block;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       margin-bottom: 0px;
       margin-top: 0px;
       min-width: 100%;
       padding-left: 0px;
-      right: 0px
+      right: 0px;
+      word-spacing: 0.16em
     ">
       <li style="
         align-items: center;
         display: inline-flex;
-        vertical-align: middle
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        vertical-align: middle;
+        word-spacing: 0.16em
       ">
         <button style="
           border-bottom-color: currentcolor;
@@ -2454,6 +2544,8 @@
           color: inherit;
           font-family: inherit;
           font-size: 1em;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           max-width: 168px;
           outline-offset: 5px;
           overflow-x: hidden;
@@ -2462,7 +2554,8 @@
           padding-left: 0px;
           padding-right: 0px;
           padding-top: 0px;
-          text-overflow: ellipsis
+          text-overflow: ellipsis;
+          word-spacing: 0.16em
         ">
           ebay
         </button>
@@ -2472,25 +2565,43 @@
             display: inline-block;
             fill: currentcolor;
             height: 12px;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             margin-left: var(--spacing-75);
             margin-right: var(--spacing-75);
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
             vertical-align: middle;
-            width: 12px
+            width: 12px;
+            word-spacing: 0.16em
           "
           width="8"
         >
-          <use href="#icon-chevron-right-12"/>
+          <use
+            href="#icon-chevron-right-12"
+            style="
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          />
         </svg>
       </li>
       <li style="
         align-items: center;
         display: inline-flex;
-        vertical-align: middle
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        vertical-align: middle;
+        word-spacing: 0.16em
       ">
-        <span style="position: relative">
+        <span style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          position: relative;
+          word-spacing: 0.16em
+        ">
           <button style="
             align-items: center;
             background-color: var(--icon-button-background-color, var(--color-background-secondary));
@@ -2510,6 +2621,8 @@
             font-family: inherit;
             height: var(--spacing-300);
             justify-content: center;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             min-height: var(--spacing-300);
             min-width: var(--spacing-300);
             outline-offset: 1px;
@@ -2521,7 +2634,8 @@
             padding-top: 0px;
             position: relative;
             vertical-align: text-bottom;
-            width: var(--spacing-300)
+            width: var(--spacing-300);
+            word-spacing: 0.16em
           ">
             <style>@scope{:scope{
               &::after {
@@ -2543,6 +2657,8 @@
               display: inline-block;
               fill: var(--breadcrumbs-overflow-foreground-color, var(--color-foreground-secondary));
               height: 16px;
+              letter-spacing: 0.12em;
+              line-height: 1.5;
               margin-left: 3px;
               margin-right: 3px;
               max-width: 75%;
@@ -2551,9 +2667,17 @@
               stroke-width: 0;
               stroke: currentcolor;
               vertical-align: middle;
-              width: 16px
+              width: 16px;
+              word-spacing: 0.16em
             ">
-              <use href="#icon-overflow-horizontal-16"/>
+              <use
+                href="#icon-overflow-horizontal-16"
+                style="
+                  letter-spacing: 0.12em;
+                  line-height: 1.5;
+                  word-spacing: 0.16em
+                "
+              />
             </svg>
           </button>
         </span>
@@ -2563,23 +2687,36 @@
             display: inline-block;
             fill: currentcolor;
             height: 12px;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             margin-left: var(--spacing-75);
             margin-right: var(--spacing-75);
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
             vertical-align: middle;
-            width: 12px
+            width: 12px;
+            word-spacing: 0.16em
           "
           width="8"
         >
-          <use href="#icon-chevron-right-12"/>
+          <use
+            href="#icon-chevron-right-12"
+            style="
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          />
         </svg>
       </li>
       <li style="
         align-items: center;
         display: inline-flex;
-        vertical-align: middle
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        vertical-align: middle;
+        word-spacing: 0.16em
       ">
         <button style="
           border-bottom-color: currentcolor;
@@ -2597,6 +2734,8 @@
           color: inherit;
           font-family: inherit;
           font-size: 1em;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           max-width: 168px;
           outline-offset: 5px;
           overflow-x: hidden;
@@ -2605,7 +2744,8 @@
           padding-left: 0px;
           padding-right: 0px;
           padding-top: 0px;
-          text-overflow: ellipsis
+          text-overflow: ellipsis;
+          word-spacing: 0.16em
         ">
           Smart Watch Band Long Band Text Type 2
         </button>
@@ -2615,23 +2755,36 @@
             display: inline-block;
             fill: currentcolor;
             height: 12px;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             margin-left: var(--spacing-75);
             margin-right: var(--spacing-75);
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
             vertical-align: middle;
-            width: 12px
+            width: 12px;
+            word-spacing: 0.16em
           "
           width="8"
         >
-          <use href="#icon-chevron-right-12"/>
+          <use
+            href="#icon-chevron-right-12"
+            style="
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          />
         </svg>
       </li>
       <li style="
         align-items: center;
         display: inline-flex;
-        vertical-align: middle
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        vertical-align: middle;
+        word-spacing: 0.16em
       ">
         <button style="
           border-bottom-color: currentcolor;
@@ -2649,6 +2802,8 @@
           color: var(--breadcrumbs-item-current-foreground-color, var(--color-foreground-primary));
           font-family: inherit;
           font-size: 1em;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           max-width: 168px;
           outline-offset: 5px;
           overflow-x: hidden;
@@ -2657,7 +2812,8 @@
           padding-left: 0px;
           padding-right: 0px;
           padding-top: 0px;
-          text-overflow: ellipsis
+          text-overflow: ellipsis;
+          word-spacing: 0.16em
         ">
           Current Band
         </button>

@@ -217,20 +217,31 @@
 
 ┌─ textSpacing
 <div>
-  <span style="display: inline-block">
+  <span style="
+    display: inline-block;
+    letter-spacing: 0.12em;
+    line-height: 1.5;
+    word-spacing: 0.16em
+  ">
     <div style="
       display: flex;
       flex-wrap: wrap;
       font-size: var(--font-size-body);
-      margin-inline-start: calc(0px - var(--spacing-200))
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      margin-inline-start: calc(0px - var(--spacing-200));
+      word-spacing: 0.16em
     ">
       <div style="
         -webkit-tap-highlight-color: var(--color-background-secondary);
         color: var(--tabs-item-selected-foreground-color, var(--color-foreground-primary));
         cursor: default;
         display: inline-block;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         padding: var(--spacing-150) var(--spacing-200);
-        position: relative
+        position: relative;
+        word-spacing: 0.16em
       ">
         <style>@scope{:scope{
           &::after {
@@ -245,7 +256,11 @@
             position: absolute
           }
         }}</style>
-        <span>
+        <span style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        ">
           Tab 1
         </span>
       </div>
@@ -254,8 +269,11 @@
         color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
         cursor: default;
         display: inline-block;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         padding: var(--spacing-150) var(--spacing-200);
-        position: relative
+        position: relative;
+        word-spacing: 0.16em
       ">
         <style>@scope{:scope{
           &::after {
@@ -269,7 +287,11 @@
             position: absolute
           }
         }}</style>
-        <span>
+        <span style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        ">
           Tab 2
         </span>
       </div>
@@ -278,8 +300,11 @@
         color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
         cursor: default;
         display: inline-block;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         padding: var(--spacing-150) var(--spacing-200);
-        position: relative
+        position: relative;
+        word-spacing: 0.16em
       ">
         <style>@scope{:scope{
           &::after {
@@ -293,7 +318,11 @@
             position: absolute
           }
         }}</style>
-        <span>
+        <span style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        ">
           Tab 3
         </span>
       </div>
@@ -302,8 +331,11 @@
         color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
         cursor: default;
         display: inline-block;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         padding: var(--spacing-150) var(--spacing-200);
-        position: relative
+        position: relative;
+        word-spacing: 0.16em
       ">
         <style>@scope{:scope{
           &::after {
@@ -317,15 +349,37 @@
             position: absolute
           }
         }}</style>
-        <span>
+        <span style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        ">
           Tab 4
         </span>
       </div>
     </div>
-    <div>
-      <div>
-        <div style="margin: var(--spacing-200) 0">
-          <p>
+    <div style="
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      word-spacing: 0.16em
+    ">
+      <div style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
+      ">
+        <div style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin: var(--spacing-200) 0;
+          word-spacing: 0.16em
+        ">
+          <p style="
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            margin-bottom: 2em;
+            word-spacing: 0.16em
+          ">
             Lorem ipsum dolor sit amet.
           </p>
         </div>

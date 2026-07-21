@@ -489,7 +489,10 @@
     color: var(--select-foreground-color, var(--color-foreground-primary));
     display: inline-block;
     font-size: var(--font-size-body);
-    position: relative
+    letter-spacing: 0.12em;
+    line-height: 1.5;
+    position: relative;
+    word-spacing: 0.16em
   ">
     <select style="
       appearance: none;
@@ -498,19 +501,41 @@
       font-family: inherit;
       font-size: 1em;
       height: 40px;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       padding: 0 var(--spacing-400) 0 var(--spacing-200);
-      vertical-align: middle
+      vertical-align: middle;
+      word-spacing: 0.16em
     ">
       <option
         label="Option 1"
         selected
+        style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        "
       >
         Option 1
       </option>
-      <option label="Option 2">
+      <option
+        label="Option 2"
+        style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        "
+      >
         Option 2
       </option>
-      <option label="Option 3">
+      <option
+        label="Option 3"
+        style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        "
+      >
         Option 3
       </option>
     </select>
@@ -520,6 +545,8 @@
         display: inline-block;
         fill: currentcolor;
         height: 100%;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         pointer-events: none;
         position: absolute;
         right: 16px;
@@ -527,11 +554,19 @@
         stroke: currentcolor;
         top: 0px;
         vertical-align: middle;
-        width: 12px
+        width: 12px;
+        word-spacing: 0.16em
       "
       width="8"
     >
-      <use href="#icon-chevron-down-12"/>
+      <use
+        href="#icon-chevron-down-12"
+        style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        "
+      />
     </svg>
   </span>
 </div>

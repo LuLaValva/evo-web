@@ -164,48 +164,65 @@
     display: grid;
     grid-template-columns: 1fr;
     justify-content: end;
+    letter-spacing: 0.12em;
+    line-height: 1.5;
     margin-left: auto;
     margin-right: auto;
     max-width: 375px;
     row-gap: var(--spacing-300);
-    width: 100%
+    width: 100%;
+    word-spacing: 0.16em
   ">
     <div style="
       color: var(--color-foreground-primary);
       font-size: var(--font-size-large-1);
       font-weight: var(--font-weight-400);
-      line-height: calc(var(--spacing-50) + var(--spacing-300));
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       margin: 0 var(--spacing-200);
       min-height: 3rem;
       position: relative;
-      text-align: center
+      text-align: center;
+      word-spacing: 0.16em
     ">
       <div style="
         bottom: 0px;
         left: 0px;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         opacity: 0;
         position: absolute;
-        right: 0px
+        right: 0px;
+        word-spacing: 0.16em
       ">
         Work with a content designer to simplify your messages.
       </div>
       <div style="
         bottom: 0px;
         left: 0px;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         position: absolute;
-        right: 0px
+        right: 0px;
+        word-spacing: 0.16em
       ">
         Ideally, on one line, but not always possible.
       </div>
     </div>
     <div style="
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       margin: 0 var(--spacing-200);
       overflow-x: hidden;
-      overflow-y: hidden
+      overflow-y: hidden;
+      word-spacing: 0.16em
     ">
       <div style="
         display: flex;
-        width: calc(100% - var(--progress-bar-expressive-line-gap)*3)
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        width: calc(100% - var(--progress-bar-expressive-line-gap)*3);
+        word-spacing: 0.16em
       ">
         <div style="
           animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count))*-1);
@@ -214,9 +231,11 @@
           display: inline-block;
           flex-shrink: 0;
           height: var(--progress-bar-expressive-line-height);
-          line-height: 0;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           order: 1;
-          width: var(--progress-bar-expressive-line-width-a1)
+          width: var(--progress-bar-expressive-line-width-a1);
+          word-spacing: 0.16em
         "/>
         <div style="
           animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*2)*-1);
@@ -225,9 +244,11 @@
           display: inline-block;
           flex-shrink: 0;
           height: var(--progress-bar-expressive-line-height);
-          line-height: 0;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           order: 1;
-          width: var(--progress-bar-expressive-line-width-a2)
+          width: var(--progress-bar-expressive-line-width-a2);
+          word-spacing: 0.16em
         "/>
         <div style="
           animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*3)*-1);
@@ -236,9 +257,11 @@
           display: inline-block;
           flex-shrink: 0;
           height: var(--progress-bar-expressive-line-height);
-          line-height: 0;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           order: 1;
-          width: var(--progress-bar-expressive-line-width-a3)
+          width: var(--progress-bar-expressive-line-width-a3);
+          word-spacing: 0.16em
         "/>
         <div style="
           animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*4)*-1);
@@ -247,9 +270,11 @@
           display: inline-block;
           flex-shrink: 0;
           height: var(--progress-bar-expressive-line-height);
-          line-height: 0;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           order: 1;
-          width: var(--progress-bar-expressive-line-width-a4)
+          width: var(--progress-bar-expressive-line-width-a4);
+          word-spacing: 0.16em
         "/>
         <div style="
           animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*5)*-1);
@@ -258,9 +283,11 @@
           display: inline-block;
           flex-shrink: 0;
           height: var(--progress-bar-expressive-line-height);
-          line-height: 0;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           order: 1;
-          width: var(--progress-bar-expressive-line-width-b1)
+          width: var(--progress-bar-expressive-line-width-b1);
+          word-spacing: 0.16em
         "/>
         <div style="
           animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*6)*-1);
@@ -269,9 +296,11 @@
           display: inline-block;
           flex-shrink: 0;
           height: var(--progress-bar-expressive-line-height);
-          line-height: 0;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           order: 1;
-          width: var(--progress-bar-expressive-line-width-b2)
+          width: var(--progress-bar-expressive-line-width-b2);
+          word-spacing: 0.16em
         "/>
         <div style="
           animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*7)*-1);
@@ -280,9 +309,11 @@
           display: inline-block;
           flex-shrink: 0;
           height: var(--progress-bar-expressive-line-height);
-          line-height: 0;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           order: 1;
-          width: var(--progress-bar-expressive-line-width-b3)
+          width: var(--progress-bar-expressive-line-width-b3);
+          word-spacing: 0.16em
         "/>
         <div style="
           animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*8)*-1);
@@ -291,9 +322,11 @@
           display: inline-block;
           flex-shrink: 0;
           height: var(--progress-bar-expressive-line-height);
-          line-height: 0;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           order: 1;
-          width: var(--progress-bar-expressive-line-width-b4)
+          width: var(--progress-bar-expressive-line-width-b4);
+          word-spacing: 0.16em
         "/>
         <div style="
           animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*9)*-1);
@@ -302,9 +335,11 @@
           display: inline-block;
           flex-shrink: 0;
           height: var(--progress-bar-expressive-line-height);
-          line-height: 0;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           order: 1;
-          width: var(--progress-bar-expressive-line-width-c1)
+          width: var(--progress-bar-expressive-line-width-c1);
+          word-spacing: 0.16em
         "/>
         <div style="
           animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*10)*-1);
@@ -313,9 +348,11 @@
           display: inline-block;
           flex-shrink: 0;
           height: var(--progress-bar-expressive-line-height);
-          line-height: 0;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           order: 1;
-          width: var(--progress-bar-expressive-line-width-c2)
+          width: var(--progress-bar-expressive-line-width-c2);
+          word-spacing: 0.16em
         "/>
         <div style="
           animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*11)*-1);
@@ -324,9 +361,11 @@
           display: inline-block;
           flex-shrink: 0;
           height: var(--progress-bar-expressive-line-height);
-          line-height: 0;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           order: 1;
-          width: var(--progress-bar-expressive-line-width-c3)
+          width: var(--progress-bar-expressive-line-width-c3);
+          word-spacing: 0.16em
         "/>
         <div style="
           animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*12)*-1);
@@ -335,9 +374,11 @@
           display: inline-block;
           flex-shrink: 0;
           height: var(--progress-bar-expressive-line-height);
-          line-height: 0;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           order: 1;
-          width: var(--progress-bar-expressive-line-width-c4)
+          width: var(--progress-bar-expressive-line-width-c4);
+          word-spacing: 0.16em
         "/>
       </div>
     </div>

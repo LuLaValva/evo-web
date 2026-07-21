@@ -286,56 +286,87 @@
 
 ┌─ textSpacing @ 320px
 <div>
-  <div style="position: relative">
-    <p>
+  <div style="
+    letter-spacing: 0.12em;
+    line-height: 1.5;
+    position: relative;
+    word-spacing: 0.16em
+  ">
+    <p style="
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      margin-bottom: 2em;
+      word-spacing: 0.16em
+    ">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
     <div style="
       box-shadow: var(--bubble-shadow);
       font-size: 14px;
       left: calc(50% - 200px);
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       max-width: min(344px, 80vw);
       position: absolute;
       top: calc(100% + 12px);
       transform: scaleX(1);
       width: max-content;
+      word-spacing: 0.16em;
       z-index: 1
     ">
       <span style="
         background-color: var(--tourtip-background-color, var(--color-background-inverse));
         height: 8px;
         left: calc(50% - 4px);
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         position: absolute;
         top: -4px;
         transform: rotate(45deg);
         width: 8px;
+        word-spacing: 0.16em;
         z-index: 0
       "/>
       <div style="
         background-color: var(--tourtip-background-color, var(--color-background-inverse));
         color: var(--tourtip-foreground-color, var(--color-foreground-on-inverse));
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         position: relative;
+        word-spacing: 0.16em;
         z-index: 1
       ">
         <div style="
           display: flex;
           flex-wrap: wrap;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           overflow-wrap: anywhere;
-          padding: var(--spacing-200)
+          padding: var(--spacing-200);
+          word-spacing: 0.16em
         ">
           <span style="
             flex-basis: 0px;
-            flex-grow: 1
+            flex-grow: 1;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
           ">
             <h2 style="
               font-size: var(--font-size-large-1);
-              margin: 0 0 var(--spacing-100)
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              margin: 0 0 var(--spacing-100);
+              word-spacing: 0.16em
             ">
               Tourtip
             </h2>
             <p style="
-              margin-bottom: 0px;
-              margin-top: 0px
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              margin-bottom: 2em;
+              margin-top: 0px;
+              word-spacing: 0.16em
             ">
               Here's something new to help you be successful at your task.
             </p>
@@ -364,6 +395,8 @@
             font-family: inherit;
             height: var(--spacing-400);
             justify-content: center;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             margin: calc(var(--spacing-100)*-1) calc(var(--spacing-100)*-1) 0 var(--spacing-100);
             outline-offset: -2px;
             overflow-x: hidden;
@@ -375,7 +408,8 @@
             position: relative;
             text-wrap-mode: nowrap;
             vertical-align: text-bottom;
-            width: 32px
+            width: 32px;
+            word-spacing: 0.16em
           ">
             <style>@scope{:scope{
               &::after {
@@ -399,17 +433,27 @@
                 display: inline-block;
                 fill: var(--tourtip-foreground-color, var(--color-foreground-on-inverse));
                 height: 16px;
+                letter-spacing: 0.12em;
+                line-height: 1.5;
                 max-width: 75%;
                 pointer-events: none;
                 position: relative;
                 stroke-width: 0;
                 stroke: currentcolor;
                 vertical-align: middle;
-                width: 16px
+                width: 16px;
+                word-spacing: 0.16em
               "
               width="24"
             >
-              <use href="#icon-close-16"/>
+              <use
+                href="#icon-close-16"
+                style="
+                  letter-spacing: 0.12em;
+                  line-height: 1.5;
+                  word-spacing: 0.16em
+                "
+              />
             </svg>
           </button>
         </div>
@@ -423,56 +467,87 @@
 
 ┌─ textSpacing @ 1280px
 <div>
-  <div style="position: relative">
-    <p>
+  <div style="
+    letter-spacing: 0.12em;
+    line-height: 1.5;
+    position: relative;
+    word-spacing: 0.16em
+  ">
+    <p style="
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      margin-bottom: 2em;
+      word-spacing: 0.16em
+    ">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
     <div style="
       box-shadow: var(--bubble-shadow);
       font-size: 14px;
       left: calc(50% - 200px);
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       max-width: 400px;
       position: absolute;
       top: calc(100% + 12px);
       transform: scaleX(1);
       width: max-content;
+      word-spacing: 0.16em;
       z-index: 1
     ">
       <span style="
         background-color: var(--tourtip-background-color, var(--color-background-inverse));
         height: 8px;
         left: calc(50% - 4px);
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         position: absolute;
         top: -4px;
         transform: rotate(45deg);
         width: 8px;
+        word-spacing: 0.16em;
         z-index: 0
       "/>
       <div style="
         background-color: var(--tourtip-background-color, var(--color-background-inverse));
         color: var(--tourtip-foreground-color, var(--color-foreground-on-inverse));
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         position: relative;
+        word-spacing: 0.16em;
         z-index: 1
       ">
         <div style="
           display: flex;
           flex-wrap: wrap;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           overflow-wrap: anywhere;
-          padding: var(--spacing-200)
+          padding: var(--spacing-200);
+          word-spacing: 0.16em
         ">
           <span style="
             flex-basis: 0px;
-            flex-grow: 1
+            flex-grow: 1;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
           ">
             <h2 style="
               font-size: var(--font-size-large-1);
-              margin: 0 0 var(--spacing-100)
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              margin: 0 0 var(--spacing-100);
+              word-spacing: 0.16em
             ">
               Tourtip
             </h2>
             <p style="
-              margin-bottom: 0px;
-              margin-top: 0px
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              margin-bottom: 2em;
+              margin-top: 0px;
+              word-spacing: 0.16em
             ">
               Here's something new to help you be successful at your task.
             </p>
@@ -501,6 +576,8 @@
             font-family: inherit;
             height: var(--spacing-400);
             justify-content: center;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             margin: calc(var(--spacing-100)*-1) calc(var(--spacing-100)*-1) 0 var(--spacing-100);
             outline-offset: -2px;
             overflow-x: hidden;
@@ -512,7 +589,8 @@
             position: relative;
             text-wrap-mode: nowrap;
             vertical-align: text-bottom;
-            width: 32px
+            width: 32px;
+            word-spacing: 0.16em
           ">
             <style>@scope{:scope{
               &::after {
@@ -536,17 +614,27 @@
                 display: inline-block;
                 fill: var(--tourtip-foreground-color, var(--color-foreground-on-inverse));
                 height: 16px;
+                letter-spacing: 0.12em;
+                line-height: 1.5;
                 max-width: 75%;
                 pointer-events: none;
                 position: relative;
                 stroke-width: 0;
                 stroke: currentcolor;
                 vertical-align: middle;
-                width: 16px
+                width: 16px;
+                word-spacing: 0.16em
               "
               width="24"
             >
-              <use href="#icon-close-16"/>
+              <use
+                href="#icon-close-16"
+                style="
+                  letter-spacing: 0.12em;
+                  line-height: 1.5;
+                  word-spacing: 0.16em
+                "
+              />
             </svg>
           </button>
         </div>

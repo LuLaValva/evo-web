@@ -1,43 +1,3 @@
-┌─ RTL
-<div>
-  <div dir="rtl">
-    <div style="
-      display: flex;
-      margin: var(--spacing-100) 0
-    ">
-      <span style="
-        display: flex;
-        margin-inline-end: var(--spacing-100);
-        margin-top: var(--spacing-50)
-      ">
-        <svg
-          role="img"
-          style="
-            display: inline-block;
-            fill: currentcolor;
-            height: 16px;
-            pointer-events: none;
-            stroke-width: 0;
-            stroke: currentcolor;
-            vertical-align: middle;
-            width: 16px
-          "
-        >
-          <use href="#icon-confirmation-filled-16"/>
-        </svg>
-      </span>
-      <span>
-        <p style="
-          margin-bottom: 3px;
-          margin-top: 3px
-        ">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </p>
-      </span>
-    </div>
-  </div>
-</div>
-
 ┌─ attention
 <div>
   <div style="
@@ -439,12 +399,18 @@
 <div>
   <div style="
     display: flex;
-    margin: var(--spacing-100) 0
+    letter-spacing: 0.12em;
+    line-height: 1.5;
+    margin: var(--spacing-100) 0;
+    word-spacing: 0.16em
   ">
     <span style="
       display: flex;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       margin-inline-end: var(--spacing-100);
-      margin-top: var(--spacing-50)
+      margin-top: var(--spacing-50);
+      word-spacing: 0.16em
     ">
       <svg
         role="img"
@@ -452,20 +418,37 @@
           display: inline-block;
           fill: currentcolor;
           height: 16px;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
           vertical-align: middle;
-          width: 16px
+          width: 16px;
+          word-spacing: 0.16em
         "
       >
-        <use href="#icon-information-filled-16"/>
+        <use
+          href="#icon-information-filled-16"
+          style="
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
+          "
+        />
       </svg>
     </span>
-    <span>
+    <span style="
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      word-spacing: 0.16em
+    ">
       <p style="
-        margin-bottom: 3px;
-        margin-top: 3px
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-bottom: 2em;
+        margin-top: 3px;
+        word-spacing: 0.16em
       ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </p>

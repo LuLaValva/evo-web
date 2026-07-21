@@ -540,12 +540,18 @@
 <div>
   <span style="
     display: inline-block;
-    vertical-align: bottom
+    letter-spacing: 0.12em;
+    line-height: 1.5;
+    vertical-align: bottom;
+    word-spacing: 0.16em
   ">
     <span style="
       background-color: var(--menu-background-color, var(--color-background-primary));
       cursor: default;
-      display: inline-block
+      display: inline-block;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      word-spacing: 0.16em
     ">
       <div style="
         border-bottom-style: solid;
@@ -562,6 +568,8 @@
         font-family: inherit;
         grid-template-columns: auto auto;
         justify-content: space-between;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         margin-bottom: 1px;
         overflow-x: hidden;
         overflow-y: hidden;
@@ -570,7 +578,8 @@
         padding-right: 15px;
         padding-top: 8px;
         position: relative;
-        width: 100%
+        width: 100%;
+        word-spacing: 0.16em
       ">
         <style>@scope{:scope{
           &::after {
@@ -586,8 +595,11 @@
         }}</style>
         <span style="
           flex-shrink: 0;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          word-spacing: 0.16em
         ">
           Button 1
           <span style="
@@ -604,6 +616,8 @@
             font-size: var(--font-size-smallest);
             height: 2.4em;
             justify-content: center;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             margin-left: var(--spacing-100);
             margin-right: var(--spacing-100);
             min-width: 2.4em;
@@ -615,6 +629,7 @@
             position: absolute;
             text-wrap-mode: nowrap;
             top: 0px;
+            word-spacing: 0.16em;
             z-index: 1
           ">
             1
@@ -636,6 +651,8 @@
         font-family: inherit;
         grid-template-columns: auto auto;
         justify-content: space-between;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         margin-bottom: 1px;
         overflow-x: hidden;
         overflow-y: hidden;
@@ -644,7 +661,8 @@
         padding-right: 15px;
         padding-top: 8px;
         position: relative;
-        width: 100%
+        width: 100%;
+        word-spacing: 0.16em
       ">
         <style>@scope{:scope{
           &::after {
@@ -660,8 +678,11 @@
         }}</style>
         <span style="
           flex-shrink: 0;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          word-spacing: 0.16em
         ">
           Button 2
           <span style="
@@ -678,6 +699,8 @@
             font-size: var(--font-size-smallest);
             height: 2.4em;
             justify-content: center;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             margin-left: var(--spacing-100);
             margin-right: var(--spacing-100);
             min-width: 2.4em;
@@ -689,6 +712,7 @@
             position: absolute;
             text-wrap-mode: nowrap;
             top: 0px;
+            word-spacing: 0.16em;
             z-index: 1
           ">
             10
@@ -710,6 +734,8 @@
         font-family: inherit;
         grid-template-columns: auto auto;
         justify-content: space-between;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         overflow-x: hidden;
         overflow-y: hidden;
         padding-bottom: 8px;
@@ -717,7 +743,8 @@
         padding-right: 15px;
         padding-top: 8px;
         position: relative;
-        width: 100%
+        width: 100%;
+        word-spacing: 0.16em
       ">
         <style>@scope{:scope{
           &::after {
@@ -733,8 +760,11 @@
         }}</style>
         <span style="
           flex-shrink: 0;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          word-spacing: 0.16em
         ">
           Button 3
           <span style="
@@ -751,6 +781,8 @@
             font-size: var(--font-size-smallest);
             height: 2.4em;
             justify-content: center;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             margin-left: var(--spacing-100);
             margin-right: var(--spacing-100);
             min-width: 2.4em;
@@ -762,6 +794,7 @@
             position: absolute;
             text-wrap-mode: nowrap;
             top: 0px;
+            word-spacing: 0.16em;
             z-index: 1
           ">
             99+

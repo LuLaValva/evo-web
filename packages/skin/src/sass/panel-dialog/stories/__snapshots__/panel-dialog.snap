@@ -1,311 +1,3 @@
-┌─ RTL @ 320px
-<div>
-  <div dir="rtl">
-    <div style="
-      background-color: var(--dialog-scrim-color-show);
-      bottom: 0px;
-      display: flex;
-      flex-direction: column;
-      left: 0px;
-      overflow-x: hidden;
-      overflow-y: hidden;
-      position: fixed;
-      right: 0px;
-      top: 0px;
-      will-change: background-color;
-      z-index: 100000
-    ">
-      <div style="
-        background-color: var(--dialog-window-background-color, var(--color-background-primary));
-        border-right-color: rgba(153, 153, 153, 0.18);
-        border-right-style: solid;
-        border-right-width: 1px;
-        display: flex;
-        flex-direction: column;
-        flex-grow: 1;
-        flex-shrink: 0;
-        min-height: 55px;
-        overflow-y: auto;
-        width: 100%;
-        will-change: opacity, transform
-      ">
-        <div style="
-          display: flex;
-          flex-shrink: 0;
-          margin: var(--spacing-200) var(--spacing-200) 0;
-          position: relative
-        ">
-          <h2 style="
-            align-self: center;
-            flex-grow: 1;
-            margin-bottom: 0px;
-            margin-top: 0px;
-            overflow-wrap: anywhere
-          ">
-            Left Panel
-          </h2>
-          <button style="
-            align-items: center;
-            align-self: flex-start;
-            background-color: var(--color-background-secondary);
-            border-bottom-color: currentcolor;
-            border-bottom-left-radius: 50px;
-            border-bottom-right-radius: 50px;
-            border-bottom-style: none;
-            border-bottom-width: 0px;
-            border-left-color: currentcolor;
-            border-left-style: none;
-            border-left-width: 0px;
-            border-right-color: currentcolor;
-            border-right-style: none;
-            border-right-width: 0px;
-            border-top-color: currentcolor;
-            border-top-left-radius: 50px;
-            border-top-right-radius: 50px;
-            border-top-style: none;
-            border-top-width: 0px;
-            display: inline-flex;
-            font-family: inherit;
-            height: 32px;
-            justify-content: center;
-            margin-inline-start: var(--spacing-200);
-            min-width: 32px;
-            overflow-x: hidden;
-            overflow-y: hidden;
-            padding-bottom: 0px;
-            padding-left: 0px;
-            padding-right: 0px;
-            padding-top: 0px;
-            position: relative;
-            vertical-align: text-bottom;
-            width: 32px;
-            z-index: 1
-          ">
-            <style>@scope{:scope{
-              &::after {
-                background-color: var(--color-state-layer-neutral);
-                border-bottom-left-radius: 50px;
-                border-bottom-right-radius: 50px;
-                border-top-left-radius: 50px;
-                border-top-right-radius: 50px;
-                bottom: 0px;
-                content: "";
-                left: 0px;
-                pointer-events: none;
-                position: absolute;
-                right: 0px;
-                top: 0px
-              }
-            }}</style>
-            <svg style="
-              display: inline-block;
-              fill: var(--color-foreground-primary);
-              height: 16px;
-              max-width: 75%;
-              pointer-events: none;
-              position: relative;
-              stroke-width: 0;
-              stroke: currentcolor;
-              vertical-align: middle;
-              width: 16px
-            ">
-              <use href="#icon-close-16"/>
-            </svg>
-          </button>
-        </div>
-        <div style="
-          box-sizing: border-box;
-          flex-grow: 1;
-          height: 1px;
-          overflow-y: auto;
-          padding: var(--spacing-200);
-          position: relative
-        ">
-          <h3 style="margin-top: 0px">
-            Heading
-          </h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
-          </p>
-          <p>
-            <a style="color: var(--color-foreground-link-primary)">
-              www.ebay.com
-            </a>
-          </p>
-          <h3>
-            Heading
-          </h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
-          </p>
-          <p style="margin-bottom: 0px">
-            <a style="color: var(--color-foreground-link-primary)">
-              www.ebay.com
-            </a>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-┌─ RTL @ 512px
-(same as 1280px)
-
-┌─ RTL @ 1280px
-<div>
-  <div dir="rtl">
-    <div style="
-      background-color: var(--dialog-scrim-color-show);
-      bottom: 0px;
-      display: flex;
-      flex-direction: column;
-      left: 0px;
-      overflow-x: hidden;
-      overflow-y: hidden;
-      position: fixed;
-      right: 0px;
-      top: 0px;
-      will-change: background-color;
-      z-index: 100000
-    ">
-      <div style="
-        background-color: var(--dialog-window-background-color, var(--color-background-primary));
-        border-right-color: rgba(153, 153, 153, 0.18);
-        border-right-style: solid;
-        border-right-width: 1px;
-        display: flex;
-        flex-direction: column;
-        flex-grow: 1;
-        flex-shrink: 0;
-        min-height: 55px;
-        overflow-y: auto;
-        width: 384px;
-        will-change: opacity, transform
-      ">
-        <div style="
-          display: flex;
-          flex-shrink: 0;
-          margin: var(--spacing-200) var(--spacing-200) 0;
-          position: relative
-        ">
-          <h2 style="
-            align-self: center;
-            flex-grow: 1;
-            margin-bottom: 0px;
-            margin-top: 0px;
-            overflow-wrap: anywhere
-          ">
-            Left Panel
-          </h2>
-          <button style="
-            align-items: center;
-            align-self: flex-start;
-            background-color: var(--color-background-secondary);
-            border-bottom-color: currentcolor;
-            border-bottom-left-radius: 50px;
-            border-bottom-right-radius: 50px;
-            border-bottom-style: none;
-            border-bottom-width: 0px;
-            border-left-color: currentcolor;
-            border-left-style: none;
-            border-left-width: 0px;
-            border-right-color: currentcolor;
-            border-right-style: none;
-            border-right-width: 0px;
-            border-top-color: currentcolor;
-            border-top-left-radius: 50px;
-            border-top-right-radius: 50px;
-            border-top-style: none;
-            border-top-width: 0px;
-            display: inline-flex;
-            font-family: inherit;
-            height: 32px;
-            justify-content: center;
-            margin-inline-start: var(--spacing-200);
-            min-width: 32px;
-            overflow-x: hidden;
-            overflow-y: hidden;
-            padding-bottom: 0px;
-            padding-left: 0px;
-            padding-right: 0px;
-            padding-top: 0px;
-            position: relative;
-            vertical-align: text-bottom;
-            width: 32px;
-            z-index: 1
-          ">
-            <style>@scope{:scope{
-              &::after {
-                background-color: var(--color-state-layer-neutral);
-                border-bottom-left-radius: 50px;
-                border-bottom-right-radius: 50px;
-                border-top-left-radius: 50px;
-                border-top-right-radius: 50px;
-                bottom: 0px;
-                content: "";
-                left: 0px;
-                pointer-events: none;
-                position: absolute;
-                right: 0px;
-                top: 0px
-              }
-            }}</style>
-            <svg style="
-              display: inline-block;
-              fill: var(--color-foreground-primary);
-              height: 16px;
-              max-width: 75%;
-              pointer-events: none;
-              position: relative;
-              stroke-width: 0;
-              stroke: currentcolor;
-              vertical-align: middle;
-              width: 16px
-            ">
-              <use href="#icon-close-16"/>
-            </svg>
-          </button>
-        </div>
-        <div style="
-          box-sizing: border-box;
-          flex-grow: 1;
-          height: 1px;
-          overflow-y: auto;
-          padding: var(--spacing-200);
-          position: relative
-        ">
-          <h3 style="margin-top: 0px">
-            Heading
-          </h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
-          </p>
-          <p>
-            <a style="color: var(--color-foreground-link-primary)">
-              www.ebay.com
-            </a>
-          </p>
-          <h3>
-            Heading
-          </h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
-          </p>
-          <p style="margin-bottom: 0px">
-            <a style="color: var(--color-foreground-link-primary)">
-              www.ebay.com
-            </a>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-┌─ RTL @ 1280px rtl
-(same as 1280px)
-
 ┌─ panelEnd @ 320px
 <div>
   <div style="
@@ -3434,12 +3126,15 @@
     display: flex;
     flex-direction: column;
     left: 0px;
+    letter-spacing: 0.12em;
+    line-height: 1.5;
     overflow-x: hidden;
     overflow-y: hidden;
     position: fixed;
     right: 0px;
     top: 0px;
     will-change: background-color;
+    word-spacing: 0.16em;
     z-index: 100000
   ">
     <div style="
@@ -3451,23 +3146,32 @@
       flex-direction: column;
       flex-grow: 1;
       flex-shrink: 0;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       min-height: 55px;
       overflow-y: auto;
       width: 100%;
-      will-change: opacity, transform
+      will-change: opacity, transform;
+      word-spacing: 0.16em
     ">
       <div style="
         display: flex;
         flex-shrink: 0;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         margin: var(--spacing-200) var(--spacing-200) 0;
-        position: relative
+        position: relative;
+        word-spacing: 0.16em
       ">
         <h2 style="
           align-self: center;
           flex-grow: 1;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           margin-bottom: 0px;
           margin-top: 0px;
-          overflow-wrap: anywhere
+          overflow-wrap: anywhere;
+          word-spacing: 0.16em
         ">
           Scrolling Panel with Footer
         </h2>
@@ -3495,6 +3199,8 @@
           font-family: inherit;
           height: 32px;
           justify-content: center;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           margin-inline-start: var(--spacing-200);
           min-width: 32px;
           overflow-x: hidden;
@@ -3506,6 +3212,7 @@
           position: relative;
           vertical-align: text-bottom;
           width: 32px;
+          word-spacing: 0.16em;
           z-index: 1
         ">
           <style>@scope{:scope{
@@ -3528,15 +3235,25 @@
             display: inline-block;
             fill: var(--color-foreground-primary);
             height: 16px;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             max-width: 75%;
             pointer-events: none;
             position: relative;
             stroke-width: 0;
             stroke: currentcolor;
             vertical-align: middle;
-            width: 16px
+            width: 16px;
+            word-spacing: 0.16em
           ">
-            <use href="#icon-close-16"/>
+            <use
+              href="#icon-close-16"
+              style="
+                letter-spacing: 0.12em;
+                line-height: 1.5;
+                word-spacing: 0.16em
+              "
+            />
           </svg>
         </button>
       </div>
@@ -3544,95 +3261,251 @@
         box-sizing: border-box;
         flex-grow: 1;
         height: 1px;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         overflow-y: auto;
         padding: var(--spacing-200);
-        position: relative
+        position: relative;
+        word-spacing: 0.16em
       ">
-        <h3 style="margin-top: 0px">
+        <h3 style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-top: 0px;
+          word-spacing: 0.16em
+        ">
           Heading
         </h3>
-        <p>
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
-        <p>
-          <a style="color: var(--color-foreground-link-primary)">
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
+          <a style="
+            color: var(--color-foreground-link-primary);
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
+          ">
             www.ebay.com
           </a>
         </p>
-        <h3>
+        <h3 style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        ">
           Heading
         </h3>
-        <p>
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
-        <p>
-          <a style="color: var(--color-foreground-link-primary)">
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
+          <a style="
+            color: var(--color-foreground-link-primary);
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
+          ">
             www.ebay.com
           </a>
         </p>
-        <h3>
+        <h3 style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        ">
           Heading
         </h3>
-        <p>
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
-        <p>
-          <a style="color: var(--color-foreground-link-primary)">
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
+          <a style="
+            color: var(--color-foreground-link-primary);
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
+          ">
             www.ebay.com
           </a>
         </p>
-        <h3>
+        <h3 style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        ">
           Heading
         </h3>
-        <p>
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
-        <p>
-          <a style="color: var(--color-foreground-link-primary)">
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
+          <a style="
+            color: var(--color-foreground-link-primary);
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
+          ">
             www.ebay.com
           </a>
         </p>
-        <h3>
+        <h3 style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        ">
           Heading
         </h3>
-        <p>
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
-        <p>
-          <a style="color: var(--color-foreground-link-primary)">
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
+          <a style="
+            color: var(--color-foreground-link-primary);
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
+          ">
             www.ebay.com
           </a>
         </p>
-        <h3>
+        <h3 style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        ">
           Heading
         </h3>
-        <p>
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
-        <p>
-          <a style="color: var(--color-foreground-link-primary)">
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
+          <a style="
+            color: var(--color-foreground-link-primary);
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
+          ">
             www.ebay.com
           </a>
         </p>
-        <h3>
+        <h3 style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        ">
           Heading
         </h3>
-        <p>
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
-        <p>
-          <a style="color: var(--color-foreground-link-primary)">
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
+          <a style="
+            color: var(--color-foreground-link-primary);
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
+          ">
             www.ebay.com
           </a>
         </p>
-        <h3>
+        <h3 style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        ">
           Heading
         </h3>
-        <p>
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
-        <p style="margin-bottom: 0px">
-          <a style="color: var(--color-foreground-link-primary)">
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
+          <a style="
+            color: var(--color-foreground-link-primary);
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
+          ">
             www.ebay.com
           </a>
         </p>
@@ -3641,8 +3514,11 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         padding: var(--spacing-200);
-        position: relative
+        position: relative;
+        word-spacing: 0.16em
       ">
         <button style="
           align-content: center;
@@ -3666,6 +3542,8 @@
           font-family: inherit;
           font-size: var(--font-size-body);
           font-weight: 700;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           min-height: 40px;
           min-width: 88px;
           overflow-x: hidden;
@@ -3676,7 +3554,8 @@
           padding-top: 0px;
           position: relative;
           transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
-          vertical-align: bottom
+          vertical-align: bottom;
+          word-spacing: 0.16em
         ">
           <style>@scope{:scope{
             &::after {
@@ -3712,6 +3591,8 @@
           color: inherit;
           font-family: inherit;
           font-size: var(--font-size-body);
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           margin-top: var(--spacing-200);
           min-height: 40px;
           min-width: 88px;
@@ -3719,7 +3600,8 @@
           padding-left: 20px;
           padding-right: 20px;
           padding-top: 0px;
-          vertical-align: bottom
+          vertical-align: bottom;
+          word-spacing: 0.16em
         ">
           Cancel
         </button>
@@ -3739,12 +3621,15 @@
     display: flex;
     flex-direction: column;
     left: 0px;
+    letter-spacing: 0.12em;
+    line-height: 1.5;
     overflow-x: hidden;
     overflow-y: hidden;
     position: fixed;
     right: 0px;
     top: 0px;
     will-change: background-color;
+    word-spacing: 0.16em;
     z-index: 100000
   ">
     <div style="
@@ -3756,23 +3641,32 @@
       flex-direction: column;
       flex-grow: 1;
       flex-shrink: 0;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       min-height: 55px;
       overflow-y: auto;
       width: 384px;
-      will-change: opacity, transform
+      will-change: opacity, transform;
+      word-spacing: 0.16em
     ">
       <div style="
         display: flex;
         flex-shrink: 0;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         margin: var(--spacing-200) var(--spacing-200) 0;
-        position: relative
+        position: relative;
+        word-spacing: 0.16em
       ">
         <h2 style="
           align-self: center;
           flex-grow: 1;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           margin-bottom: 0px;
           margin-top: 0px;
-          overflow-wrap: anywhere
+          overflow-wrap: anywhere;
+          word-spacing: 0.16em
         ">
           Scrolling Panel with Footer
         </h2>
@@ -3800,6 +3694,8 @@
           font-family: inherit;
           height: 32px;
           justify-content: center;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           margin-inline-start: var(--spacing-200);
           min-width: 32px;
           overflow-x: hidden;
@@ -3811,6 +3707,7 @@
           position: relative;
           vertical-align: text-bottom;
           width: 32px;
+          word-spacing: 0.16em;
           z-index: 1
         ">
           <style>@scope{:scope{
@@ -3833,15 +3730,25 @@
             display: inline-block;
             fill: var(--color-foreground-primary);
             height: 16px;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             max-width: 75%;
             pointer-events: none;
             position: relative;
             stroke-width: 0;
             stroke: currentcolor;
             vertical-align: middle;
-            width: 16px
+            width: 16px;
+            word-spacing: 0.16em
           ">
-            <use href="#icon-close-16"/>
+            <use
+              href="#icon-close-16"
+              style="
+                letter-spacing: 0.12em;
+                line-height: 1.5;
+                word-spacing: 0.16em
+              "
+            />
           </svg>
         </button>
       </div>
@@ -3849,95 +3756,251 @@
         box-sizing: border-box;
         flex-grow: 1;
         height: 1px;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         overflow-y: auto;
         padding: var(--spacing-200);
-        position: relative
+        position: relative;
+        word-spacing: 0.16em
       ">
-        <h3 style="margin-top: 0px">
+        <h3 style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-top: 0px;
+          word-spacing: 0.16em
+        ">
           Heading
         </h3>
-        <p>
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
-        <p>
-          <a style="color: var(--color-foreground-link-primary)">
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
+          <a style="
+            color: var(--color-foreground-link-primary);
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
+          ">
             www.ebay.com
           </a>
         </p>
-        <h3>
+        <h3 style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        ">
           Heading
         </h3>
-        <p>
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
-        <p>
-          <a style="color: var(--color-foreground-link-primary)">
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
+          <a style="
+            color: var(--color-foreground-link-primary);
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
+          ">
             www.ebay.com
           </a>
         </p>
-        <h3>
+        <h3 style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        ">
           Heading
         </h3>
-        <p>
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
-        <p>
-          <a style="color: var(--color-foreground-link-primary)">
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
+          <a style="
+            color: var(--color-foreground-link-primary);
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
+          ">
             www.ebay.com
           </a>
         </p>
-        <h3>
+        <h3 style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        ">
           Heading
         </h3>
-        <p>
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
-        <p>
-          <a style="color: var(--color-foreground-link-primary)">
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
+          <a style="
+            color: var(--color-foreground-link-primary);
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
+          ">
             www.ebay.com
           </a>
         </p>
-        <h3>
+        <h3 style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        ">
           Heading
         </h3>
-        <p>
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
-        <p>
-          <a style="color: var(--color-foreground-link-primary)">
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
+          <a style="
+            color: var(--color-foreground-link-primary);
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
+          ">
             www.ebay.com
           </a>
         </p>
-        <h3>
+        <h3 style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        ">
           Heading
         </h3>
-        <p>
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
-        <p>
-          <a style="color: var(--color-foreground-link-primary)">
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
+          <a style="
+            color: var(--color-foreground-link-primary);
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
+          ">
             www.ebay.com
           </a>
         </p>
-        <h3>
+        <h3 style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        ">
           Heading
         </h3>
-        <p>
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
-        <p>
-          <a style="color: var(--color-foreground-link-primary)">
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
+          <a style="
+            color: var(--color-foreground-link-primary);
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
+          ">
             www.ebay.com
           </a>
         </p>
-        <h3>
+        <h3 style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        ">
           Heading
         </h3>
-        <p>
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
-        <p style="margin-bottom: 0px">
-          <a style="color: var(--color-foreground-link-primary)">
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          word-spacing: 0.16em
+        ">
+          <a style="
+            color: var(--color-foreground-link-primary);
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
+          ">
             www.ebay.com
           </a>
         </p>
@@ -3946,8 +4009,11 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         padding: var(--spacing-200);
-        position: relative
+        position: relative;
+        word-spacing: 0.16em
       ">
         <button style="
           align-content: center;
@@ -3971,6 +4037,8 @@
           font-family: inherit;
           font-size: var(--font-size-body);
           font-weight: 700;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           min-height: 40px;
           min-width: 88px;
           overflow-x: hidden;
@@ -3981,7 +4049,8 @@
           padding-top: 0px;
           position: relative;
           transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
-          vertical-align: bottom
+          vertical-align: bottom;
+          word-spacing: 0.16em
         ">
           <style>@scope{:scope{
             &::after {
@@ -4017,6 +4086,8 @@
           color: inherit;
           font-family: inherit;
           font-size: var(--font-size-body);
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           margin-top: var(--spacing-200);
           min-height: 40px;
           min-width: 88px;
@@ -4024,7 +4095,8 @@
           padding-left: 20px;
           padding-right: 20px;
           padding-top: 0px;
-          vertical-align: bottom
+          vertical-align: bottom;
+          word-spacing: 0.16em
         ">
           Cancel
         </button>

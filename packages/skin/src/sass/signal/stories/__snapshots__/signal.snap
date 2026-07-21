@@ -86,12 +86,13 @@
     display: inline-block;
     font-size: var(--font-size-smallest);
     font-weight: 700;
-    letter-spacing: 0.5px;
-    line-height: var(--spacing-150);
+    letter-spacing: 0.12em;
+    line-height: 1.5;
     margin: var(--spacing-100) 0;
     padding: 2px var(--spacing-100) 1px;
     text-align: center;
-    text-transform: uppercase
+    text-transform: uppercase;
+    word-spacing: 0.16em
   ">
     Trustworthy
   </span>

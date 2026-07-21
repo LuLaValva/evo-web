@@ -1,33 +1,3 @@
-┌─ RTL
-<div>
-  <div dir="rtl">
-    <span style="
-      animation-duration: 1.5s;
-      animation-iteration-count: infinite;
-      animation-name: spin;
-      animation-timing-function: cubic-bezier(0.7, 0.2, 0.3, 0.73);
-      display: inline-block;
-      height: 24px;
-      width: 24px
-    ">
-      <svg style="
-        display: inline-block;
-        fill: currentcolor;
-        height: inherit;
-        max-height: inherit;
-        max-width: inherit;
-        pointer-events: none;
-        stroke-width: 0;
-        stroke: currentcolor;
-        vertical-align: middle;
-        width: inherit
-      ">
-        <use href="#icon-spinner-24"/>
-      </svg>
-    </span>
-  </div>
-</div>
-
 ┌─ base
 <div>
   <span style="

@@ -1,487 +1,3 @@
-┌─ RTL @ 320px
-<div>
-  <div dir="rtl">
-    <nav style="
-      color: var(--breadcrumbs-item-foreground-color, var(--color-foreground-secondary));
-      font-size: var(--font-size-small);
-      height: fit-content;
-      margin-bottom: 8px;
-      margin-top: 8px;
-      min-height: 16px;
-      overflow-x: scroll;
-      padding-bottom: 8px;
-      padding-left: 8px;
-      padding-right: 8px;
-      padding-top: 8px;
-      scrollbar-width: none;
-      text-wrap-mode: nowrap
-    ">
-      <h2 style="
-        border-bottom-color: currentcolor;
-        border-left-color: currentcolor;
-        border-right-color: currentcolor;
-        border-top-color: currentcolor;
-        clip-path: inset(50%);
-        height: 1px;
-        overflow-x: hidden;
-        overflow-y: hidden;
-        position: absolute;
-        text-wrap-mode: nowrap;
-        width: 1px
-      ">
-        You are here
-      </h2>
-      <ul style="
-        display: inline-block;
-        margin-bottom: 0px;
-        margin-top: 0px;
-        min-width: 100%;
-        padding-left: 0px;
-        right: 0px
-      ">
-        <li style="
-          align-items: center;
-          display: inline-flex;
-          vertical-align: middle
-        ">
-          <button style="
-            border-bottom-color: currentcolor;
-            border-bottom-style: none;
-            border-bottom-width: medium;
-            border-left-color: currentcolor;
-            border-left-style: none;
-            border-left-width: medium;
-            border-right-color: currentcolor;
-            border-right-style: none;
-            border-right-width: medium;
-            border-top-color: currentcolor;
-            border-top-style: none;
-            border-top-width: medium;
-            color: inherit;
-            font-family: inherit;
-            font-size: 1em;
-            max-width: 168px;
-            outline-offset: 5px;
-            overflow-x: hidden;
-            overflow-y: hidden;
-            padding-bottom: 0px;
-            padding-left: 0px;
-            padding-right: 0px;
-            padding-top: 0px;
-            text-overflow: ellipsis
-          ">
-            ebay
-          </button>
-          <svg
-            height="8"
-            style="
-              display: inline-block;
-              fill: currentcolor;
-              height: 12px;
-              margin-left: var(--spacing-75);
-              margin-right: var(--spacing-75);
-              pointer-events: none;
-              stroke-width: 0;
-              stroke: currentcolor;
-              transform: rotate(180deg);
-              vertical-align: middle;
-              width: 12px
-            "
-            width="8"
-          >
-            <use href="#icon-chevron-right-12"/>
-          </svg>
-        </li>
-        <li style="
-          align-items: center;
-          display: inline-flex;
-          vertical-align: middle
-        ">
-          <button style="
-            border-bottom-color: currentcolor;
-            border-bottom-style: none;
-            border-bottom-width: medium;
-            border-left-color: currentcolor;
-            border-left-style: none;
-            border-left-width: medium;
-            border-right-color: currentcolor;
-            border-right-style: none;
-            border-right-width: medium;
-            border-top-color: currentcolor;
-            border-top-style: none;
-            border-top-width: medium;
-            color: inherit;
-            font-family: inherit;
-            font-size: 1em;
-            max-width: 168px;
-            outline-offset: 5px;
-            overflow-x: hidden;
-            overflow-y: hidden;
-            padding-bottom: 0px;
-            padding-left: 0px;
-            padding-right: 0px;
-            padding-top: 0px;
-            text-overflow: ellipsis
-          ">
-            Cell Phones, Smart Watches & Accessories
-          </button>
-          <svg
-            height="8"
-            style="
-              display: inline-block;
-              fill: currentcolor;
-              height: 12px;
-              margin-left: var(--spacing-75);
-              margin-right: var(--spacing-75);
-              pointer-events: none;
-              stroke-width: 0;
-              stroke: currentcolor;
-              transform: rotate(180deg);
-              vertical-align: middle;
-              width: 12px
-            "
-            width="8"
-          >
-            <use href="#icon-chevron-right-12"/>
-          </svg>
-        </li>
-        <li style="
-          align-items: center;
-          display: inline-flex;
-          vertical-align: middle
-        ">
-          <button style="
-            border-bottom-color: currentcolor;
-            border-bottom-style: none;
-            border-bottom-width: medium;
-            border-left-color: currentcolor;
-            border-left-style: none;
-            border-left-width: medium;
-            border-right-color: currentcolor;
-            border-right-style: none;
-            border-right-width: medium;
-            border-top-color: currentcolor;
-            border-top-style: none;
-            border-top-width: medium;
-            color: inherit;
-            font-family: inherit;
-            font-size: 1em;
-            max-width: 168px;
-            outline-offset: 5px;
-            overflow-x: hidden;
-            overflow-y: hidden;
-            padding-bottom: 0px;
-            padding-left: 0px;
-            padding-right: 0px;
-            padding-top: 0px;
-            text-overflow: ellipsis
-          ">
-            Smart Watch Accessories
-          </button>
-          <svg
-            height="8"
-            style="
-              display: inline-block;
-              fill: currentcolor;
-              height: 12px;
-              margin-left: var(--spacing-75);
-              margin-right: var(--spacing-75);
-              pointer-events: none;
-              stroke-width: 0;
-              stroke: currentcolor;
-              transform: rotate(180deg);
-              vertical-align: middle;
-              width: 12px
-            "
-            width="8"
-          >
-            <use href="#icon-chevron-right-12"/>
-          </svg>
-        </li>
-        <li style="
-          align-items: center;
-          display: inline-flex;
-          vertical-align: middle
-        ">
-          <button style="
-            border-bottom-color: currentcolor;
-            border-bottom-style: none;
-            border-bottom-width: medium;
-            border-left-color: currentcolor;
-            border-left-style: none;
-            border-left-width: medium;
-            border-right-color: currentcolor;
-            border-right-style: none;
-            border-right-width: medium;
-            border-top-color: currentcolor;
-            border-top-style: none;
-            border-top-width: medium;
-            color: var(--breadcrumbs-item-current-foreground-color, var(--color-foreground-primary));
-            font-family: inherit;
-            font-size: 1em;
-            max-width: 168px;
-            outline-offset: 5px;
-            overflow-x: hidden;
-            overflow-y: hidden;
-            padding-bottom: 0px;
-            padding-left: 0px;
-            padding-right: 0px;
-            padding-top: 0px;
-            text-overflow: ellipsis
-          ">
-            Smart Watch Bands
-          </button>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</div>
-
-┌─ RTL @ 512px
-(same as 1280px)
-
-┌─ RTL @ 1280px
-<div>
-  <div dir="rtl">
-    <nav style="
-      color: var(--breadcrumbs-item-foreground-color, var(--color-foreground-secondary));
-      font-size: var(--font-size-small);
-      height: fit-content;
-      margin-bottom: 16px;
-      margin-top: 16px;
-      min-height: 16px;
-      overflow-x: scroll;
-      padding-bottom: 8px;
-      padding-left: 8px;
-      padding-right: 8px;
-      padding-top: 8px;
-      scrollbar-width: none;
-      text-wrap-mode: nowrap
-    ">
-      <h2 style="
-        border-bottom-color: currentcolor;
-        border-left-color: currentcolor;
-        border-right-color: currentcolor;
-        border-top-color: currentcolor;
-        clip-path: inset(50%);
-        height: 1px;
-        overflow-x: hidden;
-        overflow-y: hidden;
-        position: absolute;
-        text-wrap-mode: nowrap;
-        width: 1px
-      ">
-        You are here
-      </h2>
-      <ul style="
-        display: inline-block;
-        margin-bottom: 0px;
-        margin-top: 0px;
-        min-width: 100%;
-        padding-left: 0px;
-        right: 0px
-      ">
-        <li style="
-          align-items: center;
-          display: inline-flex;
-          vertical-align: middle
-        ">
-          <button style="
-            border-bottom-color: currentcolor;
-            border-bottom-style: none;
-            border-bottom-width: medium;
-            border-left-color: currentcolor;
-            border-left-style: none;
-            border-left-width: medium;
-            border-right-color: currentcolor;
-            border-right-style: none;
-            border-right-width: medium;
-            border-top-color: currentcolor;
-            border-top-style: none;
-            border-top-width: medium;
-            color: inherit;
-            font-family: inherit;
-            font-size: 1em;
-            max-width: 168px;
-            outline-offset: 5px;
-            overflow-x: hidden;
-            overflow-y: hidden;
-            padding-bottom: 0px;
-            padding-left: 0px;
-            padding-right: 0px;
-            padding-top: 0px;
-            text-overflow: ellipsis
-          ">
-            ebay
-          </button>
-          <svg
-            height="8"
-            style="
-              display: inline-block;
-              fill: currentcolor;
-              height: 12px;
-              margin-left: var(--spacing-75);
-              margin-right: var(--spacing-75);
-              pointer-events: none;
-              stroke-width: 0;
-              stroke: currentcolor;
-              transform: rotate(180deg);
-              vertical-align: middle;
-              width: 12px
-            "
-            width="8"
-          >
-            <use href="#icon-chevron-right-12"/>
-          </svg>
-        </li>
-        <li style="
-          align-items: center;
-          display: inline-flex;
-          vertical-align: middle
-        ">
-          <button style="
-            border-bottom-color: currentcolor;
-            border-bottom-style: none;
-            border-bottom-width: medium;
-            border-left-color: currentcolor;
-            border-left-style: none;
-            border-left-width: medium;
-            border-right-color: currentcolor;
-            border-right-style: none;
-            border-right-width: medium;
-            border-top-color: currentcolor;
-            border-top-style: none;
-            border-top-width: medium;
-            color: inherit;
-            font-family: inherit;
-            font-size: 1em;
-            max-width: 168px;
-            outline-offset: 5px;
-            overflow-x: hidden;
-            overflow-y: hidden;
-            padding-bottom: 0px;
-            padding-left: 0px;
-            padding-right: 0px;
-            padding-top: 0px;
-            text-overflow: ellipsis
-          ">
-            Cell Phones, Smart Watches & Accessories
-          </button>
-          <svg
-            height="8"
-            style="
-              display: inline-block;
-              fill: currentcolor;
-              height: 12px;
-              margin-left: var(--spacing-75);
-              margin-right: var(--spacing-75);
-              pointer-events: none;
-              stroke-width: 0;
-              stroke: currentcolor;
-              transform: rotate(180deg);
-              vertical-align: middle;
-              width: 12px
-            "
-            width="8"
-          >
-            <use href="#icon-chevron-right-12"/>
-          </svg>
-        </li>
-        <li style="
-          align-items: center;
-          display: inline-flex;
-          vertical-align: middle
-        ">
-          <button style="
-            border-bottom-color: currentcolor;
-            border-bottom-style: none;
-            border-bottom-width: medium;
-            border-left-color: currentcolor;
-            border-left-style: none;
-            border-left-width: medium;
-            border-right-color: currentcolor;
-            border-right-style: none;
-            border-right-width: medium;
-            border-top-color: currentcolor;
-            border-top-style: none;
-            border-top-width: medium;
-            color: inherit;
-            font-family: inherit;
-            font-size: 1em;
-            max-width: 168px;
-            outline-offset: 5px;
-            overflow-x: hidden;
-            overflow-y: hidden;
-            padding-bottom: 0px;
-            padding-left: 0px;
-            padding-right: 0px;
-            padding-top: 0px;
-            text-overflow: ellipsis
-          ">
-            Smart Watch Accessories
-          </button>
-          <svg
-            height="8"
-            style="
-              display: inline-block;
-              fill: currentcolor;
-              height: 12px;
-              margin-left: var(--spacing-75);
-              margin-right: var(--spacing-75);
-              pointer-events: none;
-              stroke-width: 0;
-              stroke: currentcolor;
-              transform: rotate(180deg);
-              vertical-align: middle;
-              width: 12px
-            "
-            width="8"
-          >
-            <use href="#icon-chevron-right-12"/>
-          </svg>
-        </li>
-        <li style="
-          align-items: center;
-          display: inline-flex;
-          vertical-align: middle
-        ">
-          <button style="
-            border-bottom-color: currentcolor;
-            border-bottom-style: none;
-            border-bottom-width: medium;
-            border-left-color: currentcolor;
-            border-left-style: none;
-            border-left-width: medium;
-            border-right-color: currentcolor;
-            border-right-style: none;
-            border-right-width: medium;
-            border-top-color: currentcolor;
-            border-top-style: none;
-            border-top-width: medium;
-            color: var(--breadcrumbs-item-current-foreground-color, var(--color-foreground-primary));
-            font-family: inherit;
-            font-size: 1em;
-            max-width: 168px;
-            outline-offset: 5px;
-            overflow-x: hidden;
-            overflow-y: hidden;
-            padding-bottom: 0px;
-            padding-left: 0px;
-            padding-right: 0px;
-            padding-top: 0px;
-            text-overflow: ellipsis
-          ">
-            Smart Watch Bands
-          </button>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</div>
-
-┌─ RTL @ 1280px rtl
-(same as 1280px)
-
 ┌─ color @ 320px
 <div>
   <nav style="
@@ -954,7 +470,241 @@
 </div>
 
 ┌─ color @ 1280px rtl
-(same as 1280px)
+<div>
+  <nav style="
+    color: green;
+    font-size: var(--font-size-small);
+    height: fit-content;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    min-height: 16px;
+    overflow-x: scroll;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    scrollbar-width: none;
+    text-wrap-mode: nowrap
+  ">
+    <h2 style="
+      border-bottom-color: currentcolor;
+      border-left-color: currentcolor;
+      border-right-color: currentcolor;
+      border-top-color: currentcolor;
+      clip-path: inset(50%);
+      height: 1px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: absolute;
+      text-wrap-mode: nowrap;
+      width: 1px
+    ">
+      You are here
+    </h2>
+    <ul style="
+      display: inline-block;
+      margin-bottom: 0px;
+      margin-top: 0px;
+      min-width: 100%;
+      padding-left: 0px;
+      right: 0px
+    ">
+      <li style="
+        align-items: center;
+        display: inline-flex;
+        vertical-align: middle
+      ">
+        <button style="
+          border-bottom-color: currentcolor;
+          border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-style: none;
+          border-top-width: medium;
+          color: inherit;
+          font-family: inherit;
+          font-size: 1em;
+          max-width: 168px;
+          outline-offset: 5px;
+          overflow-x: hidden;
+          overflow-y: hidden;
+          padding-bottom: 0px;
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-top: 0px;
+          text-overflow: ellipsis
+        ">
+          ebay
+        </button>
+        <svg
+          height="8"
+          style="
+            display: inline-block;
+            fill: currentcolor;
+            height: 12px;
+            margin-left: var(--spacing-75);
+            margin-right: var(--spacing-75);
+            pointer-events: none;
+            stroke-width: 0;
+            stroke: currentcolor;
+            transform: rotate(180deg);
+            vertical-align: middle;
+            width: 12px
+          "
+          width="8"
+        >
+          <use href="#icon-chevron-right-12"/>
+        </svg>
+      </li>
+      <li style="
+        align-items: center;
+        display: inline-flex;
+        vertical-align: middle
+      ">
+        <button style="
+          border-bottom-color: currentcolor;
+          border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-style: none;
+          border-top-width: medium;
+          color: inherit;
+          font-family: inherit;
+          font-size: 1em;
+          max-width: 168px;
+          outline-offset: 5px;
+          overflow-x: hidden;
+          overflow-y: hidden;
+          padding-bottom: 0px;
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-top: 0px;
+          text-overflow: ellipsis
+        ">
+          Cell Phones, Smart Watches & Accessories
+        </button>
+        <svg
+          height="8"
+          style="
+            display: inline-block;
+            fill: currentcolor;
+            height: 12px;
+            margin-left: var(--spacing-75);
+            margin-right: var(--spacing-75);
+            pointer-events: none;
+            stroke-width: 0;
+            stroke: currentcolor;
+            transform: rotate(180deg);
+            vertical-align: middle;
+            width: 12px
+          "
+          width="8"
+        >
+          <use href="#icon-chevron-right-12"/>
+        </svg>
+      </li>
+      <li style="
+        align-items: center;
+        display: inline-flex;
+        vertical-align: middle
+      ">
+        <button style="
+          border-bottom-color: currentcolor;
+          border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-style: none;
+          border-top-width: medium;
+          color: inherit;
+          font-family: inherit;
+          font-size: 1em;
+          max-width: 168px;
+          outline-offset: 5px;
+          overflow-x: hidden;
+          overflow-y: hidden;
+          padding-bottom: 0px;
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-top: 0px;
+          text-overflow: ellipsis
+        ">
+          Smart Watch Accessories
+        </button>
+        <svg
+          height="8"
+          style="
+            display: inline-block;
+            fill: currentcolor;
+            height: 12px;
+            margin-left: var(--spacing-75);
+            margin-right: var(--spacing-75);
+            pointer-events: none;
+            stroke-width: 0;
+            stroke: currentcolor;
+            transform: rotate(180deg);
+            vertical-align: middle;
+            width: 12px
+          "
+          width="8"
+        >
+          <use href="#icon-chevron-right-12"/>
+        </svg>
+      </li>
+      <li style="
+        align-items: center;
+        display: inline-flex;
+        vertical-align: middle
+      ">
+        <button style="
+          border-bottom-color: currentcolor;
+          border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-style: none;
+          border-top-width: medium;
+          color: var(--breadcrumbs-item-current-foreground-color, var(--color-foreground-primary));
+          font-family: inherit;
+          font-size: 1em;
+          max-width: 168px;
+          outline-offset: 5px;
+          overflow-x: hidden;
+          overflow-y: hidden;
+          padding-bottom: 0px;
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-top: 0px;
+          text-overflow: ellipsis
+        ">
+          Smart Watch Bands
+        </button>
+      </li>
+    </ul>
+  </nav>
+</div>
 
 ┌─ fontSize @ 320px
 <div>
@@ -1436,6 +1186,8 @@
     color: var(--breadcrumbs-item-foreground-color, var(--color-foreground-secondary));
     font-size: var(--font-size-small);
     height: fit-content;
+    letter-spacing: 0.12em;
+    line-height: 1.5;
     margin-bottom: 8px;
     margin-top: 8px;
     min-height: 16px;
@@ -1445,7 +1197,8 @@
     padding-right: 8px;
     padding-top: 8px;
     scrollbar-width: none;
-    text-wrap-mode: nowrap
+    text-wrap-mode: nowrap;
+    word-spacing: 0.16em
   ">
     <h2 style="
       border-bottom-color: currentcolor;
@@ -1454,26 +1207,35 @@
       border-top-color: currentcolor;
       clip-path: inset(50%);
       height: 1px;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       overflow-x: hidden;
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
-      width: 1px
+      width: 1px;
+      word-spacing: 0.16em
     ">
       You are here
     </h2>
     <ul style="
       display: inline-block;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       margin-bottom: 0px;
       margin-top: 0px;
       min-width: 100%;
       padding-left: 0px;
-      right: 0px
+      right: 0px;
+      word-spacing: 0.16em
     ">
       <li style="
         align-items: center;
         display: inline-flex;
-        vertical-align: middle
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        vertical-align: middle;
+        word-spacing: 0.16em
       ">
         <button style="
           border-bottom-color: currentcolor;
@@ -1491,6 +1253,8 @@
           color: inherit;
           font-family: inherit;
           font-size: 1em;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           max-width: 168px;
           outline-offset: 5px;
           overflow-x: hidden;
@@ -1499,7 +1263,8 @@
           padding-left: 0px;
           padding-right: 0px;
           padding-top: 0px;
-          text-overflow: ellipsis
+          text-overflow: ellipsis;
+          word-spacing: 0.16em
         ">
           ebay
         </button>
@@ -1509,23 +1274,36 @@
             display: inline-block;
             fill: currentcolor;
             height: 12px;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             margin-left: var(--spacing-75);
             margin-right: var(--spacing-75);
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
             vertical-align: middle;
-            width: 12px
+            width: 12px;
+            word-spacing: 0.16em
           "
           width="8"
         >
-          <use href="#icon-chevron-right-12"/>
+          <use
+            href="#icon-chevron-right-12"
+            style="
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          />
         </svg>
       </li>
       <li style="
         align-items: center;
         display: inline-flex;
-        vertical-align: middle
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        vertical-align: middle;
+        word-spacing: 0.16em
       ">
         <button style="
           border-bottom-color: currentcolor;
@@ -1543,6 +1321,8 @@
           color: inherit;
           font-family: inherit;
           font-size: 1em;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           max-width: 168px;
           outline-offset: 5px;
           overflow-x: hidden;
@@ -1551,7 +1331,8 @@
           padding-left: 0px;
           padding-right: 0px;
           padding-top: 0px;
-          text-overflow: ellipsis
+          text-overflow: ellipsis;
+          word-spacing: 0.16em
         ">
           Cell Phones, Smart Watches & Accessories
         </button>
@@ -1561,23 +1342,36 @@
             display: inline-block;
             fill: currentcolor;
             height: 12px;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             margin-left: var(--spacing-75);
             margin-right: var(--spacing-75);
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
             vertical-align: middle;
-            width: 12px
+            width: 12px;
+            word-spacing: 0.16em
           "
           width="8"
         >
-          <use href="#icon-chevron-right-12"/>
+          <use
+            href="#icon-chevron-right-12"
+            style="
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          />
         </svg>
       </li>
       <li style="
         align-items: center;
         display: inline-flex;
-        vertical-align: middle
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        vertical-align: middle;
+        word-spacing: 0.16em
       ">
         <button style="
           border-bottom-color: currentcolor;
@@ -1595,6 +1389,8 @@
           color: inherit;
           font-family: inherit;
           font-size: 1em;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           max-width: 168px;
           outline-offset: 5px;
           overflow-x: hidden;
@@ -1603,7 +1399,8 @@
           padding-left: 0px;
           padding-right: 0px;
           padding-top: 0px;
-          text-overflow: ellipsis
+          text-overflow: ellipsis;
+          word-spacing: 0.16em
         ">
           Smart Watch Accessories
         </button>
@@ -1613,23 +1410,36 @@
             display: inline-block;
             fill: currentcolor;
             height: 12px;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             margin-left: var(--spacing-75);
             margin-right: var(--spacing-75);
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
             vertical-align: middle;
-            width: 12px
+            width: 12px;
+            word-spacing: 0.16em
           "
           width="8"
         >
-          <use href="#icon-chevron-right-12"/>
+          <use
+            href="#icon-chevron-right-12"
+            style="
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          />
         </svg>
       </li>
       <li style="
         align-items: center;
         display: inline-flex;
-        vertical-align: middle
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        vertical-align: middle;
+        word-spacing: 0.16em
       ">
         <button style="
           border-bottom-color: currentcolor;
@@ -1647,6 +1457,8 @@
           color: var(--breadcrumbs-item-current-foreground-color, var(--color-foreground-primary));
           font-family: inherit;
           font-size: 1em;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           max-width: 168px;
           outline-offset: 5px;
           overflow-x: hidden;
@@ -1655,7 +1467,8 @@
           padding-left: 0px;
           padding-right: 0px;
           padding-top: 0px;
-          text-overflow: ellipsis
+          text-overflow: ellipsis;
+          word-spacing: 0.16em
         ">
           Smart Watch Bands
         </button>
@@ -1673,6 +1486,8 @@
     color: var(--breadcrumbs-item-foreground-color, var(--color-foreground-secondary));
     font-size: var(--font-size-small);
     height: fit-content;
+    letter-spacing: 0.12em;
+    line-height: 1.5;
     margin-bottom: 16px;
     margin-top: 16px;
     min-height: 16px;
@@ -1682,7 +1497,8 @@
     padding-right: 8px;
     padding-top: 8px;
     scrollbar-width: none;
-    text-wrap-mode: nowrap
+    text-wrap-mode: nowrap;
+    word-spacing: 0.16em
   ">
     <h2 style="
       border-bottom-color: currentcolor;
@@ -1691,26 +1507,35 @@
       border-top-color: currentcolor;
       clip-path: inset(50%);
       height: 1px;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       overflow-x: hidden;
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
-      width: 1px
+      width: 1px;
+      word-spacing: 0.16em
     ">
       You are here
     </h2>
     <ul style="
       display: inline-block;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       margin-bottom: 0px;
       margin-top: 0px;
       min-width: 100%;
       padding-left: 0px;
-      right: 0px
+      right: 0px;
+      word-spacing: 0.16em
     ">
       <li style="
         align-items: center;
         display: inline-flex;
-        vertical-align: middle
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        vertical-align: middle;
+        word-spacing: 0.16em
       ">
         <button style="
           border-bottom-color: currentcolor;
@@ -1728,6 +1553,8 @@
           color: inherit;
           font-family: inherit;
           font-size: 1em;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           max-width: 168px;
           outline-offset: 5px;
           overflow-x: hidden;
@@ -1736,7 +1563,8 @@
           padding-left: 0px;
           padding-right: 0px;
           padding-top: 0px;
-          text-overflow: ellipsis
+          text-overflow: ellipsis;
+          word-spacing: 0.16em
         ">
           ebay
         </button>
@@ -1746,23 +1574,36 @@
             display: inline-block;
             fill: currentcolor;
             height: 12px;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             margin-left: var(--spacing-75);
             margin-right: var(--spacing-75);
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
             vertical-align: middle;
-            width: 12px
+            width: 12px;
+            word-spacing: 0.16em
           "
           width="8"
         >
-          <use href="#icon-chevron-right-12"/>
+          <use
+            href="#icon-chevron-right-12"
+            style="
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          />
         </svg>
       </li>
       <li style="
         align-items: center;
         display: inline-flex;
-        vertical-align: middle
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        vertical-align: middle;
+        word-spacing: 0.16em
       ">
         <button style="
           border-bottom-color: currentcolor;
@@ -1780,6 +1621,8 @@
           color: inherit;
           font-family: inherit;
           font-size: 1em;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           max-width: 168px;
           outline-offset: 5px;
           overflow-x: hidden;
@@ -1788,7 +1631,8 @@
           padding-left: 0px;
           padding-right: 0px;
           padding-top: 0px;
-          text-overflow: ellipsis
+          text-overflow: ellipsis;
+          word-spacing: 0.16em
         ">
           Cell Phones, Smart Watches & Accessories
         </button>
@@ -1798,23 +1642,36 @@
             display: inline-block;
             fill: currentcolor;
             height: 12px;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             margin-left: var(--spacing-75);
             margin-right: var(--spacing-75);
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
             vertical-align: middle;
-            width: 12px
+            width: 12px;
+            word-spacing: 0.16em
           "
           width="8"
         >
-          <use href="#icon-chevron-right-12"/>
+          <use
+            href="#icon-chevron-right-12"
+            style="
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          />
         </svg>
       </li>
       <li style="
         align-items: center;
         display: inline-flex;
-        vertical-align: middle
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        vertical-align: middle;
+        word-spacing: 0.16em
       ">
         <button style="
           border-bottom-color: currentcolor;
@@ -1832,6 +1689,8 @@
           color: inherit;
           font-family: inherit;
           font-size: 1em;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           max-width: 168px;
           outline-offset: 5px;
           overflow-x: hidden;
@@ -1840,7 +1699,8 @@
           padding-left: 0px;
           padding-right: 0px;
           padding-top: 0px;
-          text-overflow: ellipsis
+          text-overflow: ellipsis;
+          word-spacing: 0.16em
         ">
           Smart Watch Accessories
         </button>
@@ -1850,23 +1710,36 @@
             display: inline-block;
             fill: currentcolor;
             height: 12px;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             margin-left: var(--spacing-75);
             margin-right: var(--spacing-75);
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
             vertical-align: middle;
-            width: 12px
+            width: 12px;
+            word-spacing: 0.16em
           "
           width="8"
         >
-          <use href="#icon-chevron-right-12"/>
+          <use
+            href="#icon-chevron-right-12"
+            style="
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          />
         </svg>
       </li>
       <li style="
         align-items: center;
         display: inline-flex;
-        vertical-align: middle
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        vertical-align: middle;
+        word-spacing: 0.16em
       ">
         <button style="
           border-bottom-color: currentcolor;
@@ -1884,6 +1757,8 @@
           color: var(--breadcrumbs-item-current-foreground-color, var(--color-foreground-primary));
           font-family: inherit;
           font-size: 1em;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           max-width: 168px;
           outline-offset: 5px;
           overflow-x: hidden;
@@ -1892,7 +1767,8 @@
           padding-left: 0px;
           padding-right: 0px;
           padding-top: 0px;
-          text-overflow: ellipsis
+          text-overflow: ellipsis;
+          word-spacing: 0.16em
         ">
           Smart Watch Bands
         </button>

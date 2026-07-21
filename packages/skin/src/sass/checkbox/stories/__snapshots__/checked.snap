@@ -1,54 +1,3 @@
-┌─ RTL
-<div>
-  <div dir="rtl">
-    <span style="
-      display: inline-flex;
-      position: relative;
-      vertical-align: text-bottom
-    ">
-      <input
-        checked
-        style="
-          font-size: 100%;
-          height: 18px;
-          margin-bottom: 0px;
-          margin-left: 0px;
-          margin-right: 0px;
-          margin-top: 0px;
-          min-width: 18px;
-          opacity: 0;
-          position: absolute;
-          width: 18px;
-          z-index: 1
-        "
-        type="checkbox"
-      />
-      <span
-        hidden
-        style="
-          display: inline-flex;
-          height: 18px;
-          outline-offset: 1px
-        "
-      >
-        <svg style="
-          color: rgb(91, 167, 27);
-          display: inline-block;
-          fill: currentcolor;
-          height: 18px;
-          pointer-events: none;
-          stroke-width: 0;
-          stroke: currentcolor;
-          vertical-align: middle;
-          width: 18px
-        ">
-          <use href="#icon-checkbox-checked-18"/>
-        </svg>
-      </span>
-    </span>
-  </div>
-</div>
-
 ┌─ base
 <div>
   <span style="
@@ -436,24 +385,41 @@
 
 ┌─ textSpacing
 <div>
-  <div>
-    <legend style="margin-bottom: var(--spacing-100)">
+  <div style="
+    letter-spacing: 0.12em;
+    line-height: 1.5;
+    word-spacing: 0.16em
+  ">
+    <legend style="
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      margin-bottom: var(--spacing-100);
+      word-spacing: 0.16em
+    ">
       Choose an Option
     </legend>
     <div style="
       display: flex;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       margin-bottom: 16px;
-      margin-top: 16px
+      margin-top: 16px;
+      word-spacing: 0.16em
     ">
       <span style="
         display: inline-flex;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         position: relative;
-        vertical-align: text-bottom
+        vertical-align: text-bottom;
+        word-spacing: 0.16em
       ">
         <input
           style="
             font-size: 100%;
             height: 18px;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             margin-bottom: 0px;
             margin-left: 0px;
             margin-right: 0px;
@@ -462,6 +428,7 @@
             opacity: 0;
             position: absolute;
             width: 18px;
+            word-spacing: 0.16em;
             z-index: 1
           "
           type="checkbox"
@@ -471,7 +438,10 @@
           style="
             display: inline-flex;
             height: 18px;
-            outline-offset: 1px
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            outline-offset: 1px;
+            word-spacing: 0.16em
           "
         >
           <svg
@@ -481,21 +451,34 @@
               display: inline-block;
               fill: currentcolor;
               height: 18px;
+              letter-spacing: 0.12em;
+              line-height: 1.5;
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
               vertical-align: middle;
-              width: 18px
+              width: 18px;
+              word-spacing: 0.16em
             "
             width="18"
           >
-            <use href="#icon-checkbox-unchecked-18"/>
+            <use
+              href="#icon-checkbox-unchecked-18"
+              style="
+                letter-spacing: 0.12em;
+                line-height: 1.5;
+                word-spacing: 0.16em
+              "
+            />
           </svg>
         </span>
       </span>
       <label style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         margin-left: 4px;
-        margin-right: auto
+        margin-right: auto;
+        word-spacing: 0.16em
       ">
         Option 2
       </label>

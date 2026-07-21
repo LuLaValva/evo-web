@@ -9832,6 +9832,8 @@
       color: var(--color-foreground-primary);
       display: flex;
       flex-direction: column;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       max-height: 90%;
       max-width: 88%;
       min-height: 55px;
@@ -9839,7 +9841,8 @@
       padding-bottom: 0px;
       padding-left: 0px;
       padding-right: 0px;
-      padding-top: 0px
+      padding-top: 0px;
+      word-spacing: 0.16em
     "
   >
     <style>@scope{:scope{
@@ -9848,15 +9851,21 @@
     <div style="
       display: flex;
       flex-shrink: 0;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       padding: var(--spacing-200) var(--spacing-200) 0;
-      position: relative
+      position: relative;
+      word-spacing: 0.16em
     ">
       <h2 style="
         align-self: center;
         flex-grow: 1;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         margin-bottom: 0px;
         margin-top: 0px;
-        overflow-wrap: anywhere
+        overflow-wrap: anywhere;
+        word-spacing: 0.16em
       ">
         Dialog
       </h2>
@@ -9885,6 +9894,8 @@
         font-family: inherit;
         height: 32px;
         justify-content: center;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         margin-inline-start: var(--spacing-200);
         min-width: 32px;
         overflow-x: hidden;
@@ -9896,6 +9907,7 @@
         position: relative;
         vertical-align: text-bottom;
         width: 32px;
+        word-spacing: 0.16em;
         z-index: 1
       ">
         <style>@scope{:scope{
@@ -9918,45 +9930,97 @@
           display: inline-block;
           fill: var(--color-foreground-primary);
           height: 16px;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           max-width: 75%;
           pointer-events: none;
           position: relative;
           stroke-width: 0;
           stroke: currentcolor;
           vertical-align: middle;
-          width: 16px
+          width: 16px;
+          word-spacing: 0.16em
         ">
-          <use href="#icon-close-16"/>
+          <use
+            href="#icon-close-16"
+            style="
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          />
         </svg>
       </button>
     </div>
     <div style="
       box-sizing: border-box;
       flex-grow: 1;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       overflow-x: auto;
       overflow-y: auto;
       padding: var(--spacing-200);
-      position: relative
+      position: relative;
+      word-spacing: 0.16em
     ">
-      <h3 style="margin-top: 0px">
+      <h3 style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-top: 0px;
+        word-spacing: 0.16em
+      ">
         Heading
       </h3>
-      <p>
+      <p style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-bottom: 2em;
+        word-spacing: 0.16em
+      ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
       </p>
-      <p>
-        <a style="color: var(--color-foreground-link-primary)">
+      <p style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-bottom: 2em;
+        word-spacing: 0.16em
+      ">
+        <a style="
+          color: var(--color-foreground-link-primary);
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        ">
           www.ebay.com
         </a>
       </p>
-      <h3>
+      <h3 style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
+      ">
         Heading
       </h3>
-      <p>
+      <p style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-bottom: 2em;
+        word-spacing: 0.16em
+      ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
       </p>
-      <p style="margin-bottom: 0px">
-        <a style="color: var(--color-foreground-link-primary)">
+      <p style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-bottom: 2em;
+        word-spacing: 0.16em
+      ">
+        <a style="
+          color: var(--color-foreground-link-primary);
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        ">
           www.ebay.com
         </a>
       </p>
@@ -9986,6 +10050,8 @@
       color: var(--color-foreground-primary);
       display: flex;
       flex-direction: column;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       max-height: 90%;
       max-width: 88%;
       min-height: 55px;
@@ -9993,7 +10059,8 @@
       padding-bottom: 0px;
       padding-left: 0px;
       padding-right: 0px;
-      padding-top: 0px
+      padding-top: 0px;
+      word-spacing: 0.16em
     "
   >
     <style>@scope{:scope{
@@ -10002,15 +10069,21 @@
     <div style="
       display: flex;
       flex-shrink: 0;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       padding: var(--spacing-200) var(--spacing-200) 0;
-      position: relative
+      position: relative;
+      word-spacing: 0.16em
     ">
       <h2 style="
         align-self: center;
         flex-grow: 1;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         margin-bottom: 0px;
         margin-top: 0px;
-        overflow-wrap: anywhere
+        overflow-wrap: anywhere;
+        word-spacing: 0.16em
       ">
         Dialog
       </h2>
@@ -10039,6 +10112,8 @@
         font-family: inherit;
         height: 32px;
         justify-content: center;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         margin-inline-start: var(--spacing-200);
         min-width: 32px;
         overflow-x: hidden;
@@ -10050,6 +10125,7 @@
         position: relative;
         vertical-align: text-bottom;
         width: 32px;
+        word-spacing: 0.16em;
         z-index: 1
       ">
         <style>@scope{:scope{
@@ -10072,45 +10148,97 @@
           display: inline-block;
           fill: var(--color-foreground-primary);
           height: 16px;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           max-width: 75%;
           pointer-events: none;
           position: relative;
           stroke-width: 0;
           stroke: currentcolor;
           vertical-align: middle;
-          width: 16px
+          width: 16px;
+          word-spacing: 0.16em
         ">
-          <use href="#icon-close-16"/>
+          <use
+            href="#icon-close-16"
+            style="
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          />
         </svg>
       </button>
     </div>
     <div style="
       box-sizing: border-box;
       flex-grow: 1;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       overflow-x: auto;
       overflow-y: auto;
       padding: var(--spacing-200);
-      position: relative
+      position: relative;
+      word-spacing: 0.16em
     ">
-      <h3 style="margin-top: 0px">
+      <h3 style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-top: 0px;
+        word-spacing: 0.16em
+      ">
         Heading
       </h3>
-      <p>
+      <p style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-bottom: 2em;
+        word-spacing: 0.16em
+      ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
       </p>
-      <p>
-        <a style="color: var(--color-foreground-link-primary)">
+      <p style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-bottom: 2em;
+        word-spacing: 0.16em
+      ">
+        <a style="
+          color: var(--color-foreground-link-primary);
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        ">
           www.ebay.com
         </a>
       </p>
-      <h3>
+      <h3 style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
+      ">
         Heading
       </h3>
-      <p>
+      <p style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-bottom: 2em;
+        word-spacing: 0.16em
+      ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
       </p>
-      <p style="margin-bottom: 0px">
-        <a style="color: var(--color-foreground-link-primary)">
+      <p style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-bottom: 2em;
+        word-spacing: 0.16em
+      ">
+        <a style="
+          color: var(--color-foreground-link-primary);
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        ">
           www.ebay.com
         </a>
       </p>
@@ -10146,6 +10274,8 @@
       color: var(--color-foreground-primary);
       display: flex;
       flex-direction: column;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       max-height: 90%;
       max-width: var(--dialog-max-width);
       min-height: 55px;
@@ -10153,7 +10283,8 @@
       padding-bottom: 0px;
       padding-left: 0px;
       padding-right: 0px;
-      padding-top: 0px
+      padding-top: 0px;
+      word-spacing: 0.16em
     "
   >
     <style>@scope{:scope{
@@ -10162,15 +10293,21 @@
     <div style="
       display: flex;
       flex-shrink: 0;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       padding: var(--spacing-200) var(--spacing-200) 0;
-      position: relative
+      position: relative;
+      word-spacing: 0.16em
     ">
       <h2 style="
         align-self: center;
         flex-grow: 1;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         margin-bottom: 0px;
         margin-top: 0px;
-        overflow-wrap: anywhere
+        overflow-wrap: anywhere;
+        word-spacing: 0.16em
       ">
         Dialog
       </h2>
@@ -10199,6 +10336,8 @@
         font-family: inherit;
         height: 32px;
         justify-content: center;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         margin-inline-start: var(--spacing-200);
         min-width: 32px;
         overflow-x: hidden;
@@ -10210,6 +10349,7 @@
         position: relative;
         vertical-align: text-bottom;
         width: 32px;
+        word-spacing: 0.16em;
         z-index: 1
       ">
         <style>@scope{:scope{
@@ -10232,45 +10372,97 @@
           display: inline-block;
           fill: var(--color-foreground-primary);
           height: 16px;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           max-width: 75%;
           pointer-events: none;
           position: relative;
           stroke-width: 0;
           stroke: currentcolor;
           vertical-align: middle;
-          width: 16px
+          width: 16px;
+          word-spacing: 0.16em
         ">
-          <use href="#icon-close-16"/>
+          <use
+            href="#icon-close-16"
+            style="
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          />
         </svg>
       </button>
     </div>
     <div style="
       box-sizing: border-box;
       flex-grow: 1;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       overflow-x: auto;
       overflow-y: auto;
       padding: var(--spacing-200);
-      position: relative
+      position: relative;
+      word-spacing: 0.16em
     ">
-      <h3 style="margin-top: 0px">
+      <h3 style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-top: 0px;
+        word-spacing: 0.16em
+      ">
         Heading
       </h3>
-      <p>
+      <p style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-bottom: 2em;
+        word-spacing: 0.16em
+      ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
       </p>
-      <p>
-        <a style="color: var(--color-foreground-link-primary)">
+      <p style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-bottom: 2em;
+        word-spacing: 0.16em
+      ">
+        <a style="
+          color: var(--color-foreground-link-primary);
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        ">
           www.ebay.com
         </a>
       </p>
-      <h3>
+      <h3 style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
+      ">
         Heading
       </h3>
-      <p>
+      <p style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-bottom: 2em;
+        word-spacing: 0.16em
+      ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
       </p>
-      <p style="margin-bottom: 0px">
-        <a style="color: var(--color-foreground-link-primary)">
+      <p style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-bottom: 2em;
+        word-spacing: 0.16em
+      ">
+        <a style="
+          color: var(--color-foreground-link-primary);
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        ">
           www.ebay.com
         </a>
       </p>

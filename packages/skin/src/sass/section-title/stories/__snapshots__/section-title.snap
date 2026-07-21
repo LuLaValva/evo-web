@@ -785,31 +785,46 @@
   <div style="
     align-items: baseline;
     display: flex;
+    letter-spacing: 0.12em;
+    line-height: 1.5;
     margin-bottom: 10px;
-    margin-top: 30px
+    margin-top: 30px;
+    word-spacing: 0.16em
   ">
-    <div style="margin-inline-end: var(--spacing-300)">
+    <div style="
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      margin-inline-end: var(--spacing-300);
+      word-spacing: 0.16em
+    ">
       <h2 style="
         font-size: var(--font-size-large-1);
         font-weight: var(--font-weight-600);
-        line-height: 28px;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         margin-bottom: 0px;
-        margin-top: 0px
+        margin-top: 0px;
+        word-spacing: 0.16em
       ">
         Marketing Type Content Title
       </h2>
       <span style="
         color: var(--section-title-subtitle-color, var(--color-foreground-secondary));
         font-size: var(--font-size-body);
-        line-height: 20px
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
       ">
         Recommended for you
       </span>
     </div>
     <div style="
       bottom: -3px;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       margin: 0 var(--spacing-300) 0 var(--spacing-100);
-      position: relative
+      position: relative;
+      word-spacing: 0.16em
     ">
       <button style="
         align-items: center;
@@ -830,6 +845,8 @@
         font-family: inherit;
         height: var(--spacing-400);
         justify-content: center;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         min-width: var(--spacing-400);
         overflow-x: hidden;
         overflow-y: hidden;
@@ -839,7 +856,8 @@
         padding-top: 0px;
         position: relative;
         vertical-align: text-bottom;
-        width: var(--spacing-400)
+        width: var(--spacing-400);
+        word-spacing: 0.16em
       ">
         <style>@scope{:scope{
           &::after {
@@ -863,17 +881,27 @@
             display: inline-block;
             fill: var(--color-foreground-primary);
             height: 16px;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             max-width: 75%;
             pointer-events: none;
             position: relative;
             stroke-width: 0;
             stroke: currentcolor;
             vertical-align: middle;
-            width: 16px
+            width: 16px;
+            word-spacing: 0.16em
           "
           width="16"
         >
-          <use href="#icon-heart-16"/>
+          <use
+            href="#icon-heart-16"
+            style="
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          />
         </svg>
       </button>
     </div>
@@ -882,7 +910,10 @@
       color: var(--color-foreground-link-primary);
       display: flex;
       height: var(--spacing-400);
-      margin-left: auto
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      margin-left: auto;
+      word-spacing: 0.16em
     ">
       See all
     </a>
@@ -897,31 +928,46 @@
   <div style="
     align-items: baseline;
     display: flex;
+    letter-spacing: 0.12em;
+    line-height: 1.5;
     margin-bottom: 10px;
-    margin-top: 30px
+    margin-top: 30px;
+    word-spacing: 0.16em
   ">
-    <div style="margin-inline-end: var(--spacing-300)">
+    <div style="
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      margin-inline-end: var(--spacing-300);
+      word-spacing: 0.16em
+    ">
       <h2 style="
         font-size: var(--font-size-large-2);
         font-weight: var(--font-weight-600);
-        line-height: 32px;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         margin-bottom: 0px;
-        margin-top: 0px
+        margin-top: 0px;
+        word-spacing: 0.16em
       ">
         Marketing Type Content Title
       </h2>
       <span style="
         color: var(--section-title-subtitle-color, var(--color-foreground-secondary));
         font-size: var(--font-size-medium);
-        line-height: 24px
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
       ">
         Recommended for you
       </span>
     </div>
     <div style="
       bottom: -3px;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       margin: 0 var(--spacing-300) 0 var(--spacing-100);
-      position: relative
+      position: relative;
+      word-spacing: 0.16em
     ">
       <button style="
         align-items: center;
@@ -942,6 +988,8 @@
         font-family: inherit;
         height: var(--spacing-400);
         justify-content: center;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         min-width: var(--spacing-400);
         overflow-x: hidden;
         overflow-y: hidden;
@@ -951,7 +999,8 @@
         padding-top: 0px;
         position: relative;
         vertical-align: text-bottom;
-        width: var(--spacing-400)
+        width: var(--spacing-400);
+        word-spacing: 0.16em
       ">
         <style>@scope{:scope{
           &::after {
@@ -975,17 +1024,27 @@
             display: inline-block;
             fill: var(--color-foreground-primary);
             height: 16px;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             max-width: 75%;
             pointer-events: none;
             position: relative;
             stroke-width: 0;
             stroke: currentcolor;
             vertical-align: middle;
-            width: 16px
+            width: 16px;
+            word-spacing: 0.16em
           "
           width="16"
         >
-          <use href="#icon-heart-16"/>
+          <use
+            href="#icon-heart-16"
+            style="
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          />
         </svg>
       </button>
     </div>
@@ -994,7 +1053,10 @@
       color: var(--color-foreground-link-primary);
       display: flex;
       height: var(--spacing-400);
-      margin-left: auto
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      margin-left: auto;
+      word-spacing: 0.16em
     ">
       See all
     </a>
