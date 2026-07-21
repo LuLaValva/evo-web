@@ -3,18 +3,35 @@ import { type Input as IconButtonInput } from "<evo-icon-button>";
 static const validSizes = ["wide", "narrow", "large"] as const;
 
 export interface Input extends Marko.HTML.Dialog {
+  /** Whether the dialog is open */
   open?: boolean;
   openChange?: (o: boolean) => void;
+  /** Size variant of the dialog */
   size?: (typeof validSizes)[number];
+  /** Optional banner image displayed at the top of the dialog */
   banner?: Marko.AttrTag<
     Marko.Input<"div"> & {
+      /** URL of the banner image */
       src?: string;
+      /** Position of the image within the banner area using the CSS `background-position` property. Options include [keywords, lengths, and edge distances](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position) */
       position?: Marko.CSS.Properties["background-position"];
     }
   >;
-  header: Marko.AttrTag<Marko.Input<"h2"> & { as?: string }>;
+  /** The header content rendered inside the dialog title */
+  header: Marko.AttrTag<
+    Marko.Input<"h2"> & {
+      /**
+       * The heading element to use for the title.
+       * @default "h2"
+       */
+      as?: string;
+    }
+  >;
+  /** The footer content rendered below the dialog main content area */
   footer?: Marko.AttrTag<Marko.Input<"div">>;
+  /** Close button rendered in the dialog header. Pass `a11yText` for the accessible label */
   close: Marko.AttrTag<IconButtonInput>;
+  /** Optional previous/back button rendered in the header */
   previous?: Marko.AttrTag<IconButtonInput>;
 }
 

@@ -1,9 +1,20 @@
 import { type Input as ButtonInput } from "<evo-button>";
 
 export interface Input extends Omit<Marko.HTML.Dialog, "open" | "closedby" | "role" | "aria-labelledby" | "aria-modal"> {
+  /** Whether the alert dialog is open */
   open?: boolean;
   openChange?: (o: boolean) => void;
-  header: Marko.AttrTag<Marko.HTML.H2 & { as?: string }>;
+  /** The header content rendered inside the dialog title */
+  header: Marko.AttrTag<
+    Marko.HTML.H2 & {
+      /**
+       * The heading element to use for the title.
+       * @default "h2"
+       */
+      as?: string;
+    }
+  >;
+  /** The confirm/acknowledge button. Render body is the button label text */
   confirm: Marko.AttrTag<ButtonInput>;
 }
 

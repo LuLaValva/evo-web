@@ -16,22 +16,15 @@ export default {
     },
   },
 
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     open: {
-      type: "boolean",
       controllable: true,
-      description: "Whether the alert dialog is open",
-      table: { defaultValue: { summary: "false" } },
     },
     header: {
-      description:
-        "The header content rendered inside the dialog title (required)",
       "@": {
-        as: {
-          type: "string",
-          description:
-            "The heading element to use for the title. Defaults to `h2`",
-        },
         ["<h2> attributes" as any]: {
           description:
             "All attributes and event handlers from the heading element will be passed through",
@@ -39,8 +32,6 @@ export default {
       },
     },
     confirm: {
-      description:
-        "The confirm/acknowledge button (required). Render body is the button label text",
       "@": {
         ["<button> attributes" as any]: {
           description:

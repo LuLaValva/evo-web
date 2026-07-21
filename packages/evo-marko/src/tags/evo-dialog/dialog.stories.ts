@@ -20,19 +20,18 @@ export default {
     },
   },
 
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     open: {
-      type: "boolean",
       controllable: true,
-      description: "Whether the dialog is open",
-      table: { defaultValue: { summary: "false" } },
     },
     size: {
-      type: "string",
-      options: ["regular (default)", "wide", "narrow", "large"],
       control: "inline-radio",
-      description: "Size variant of the dialog",
     },
+    // `closedby` is inherited from the native `<dialog>` attributes, so
+    // docgen does not list it individually — documented here instead.
     closedby: {
       type: "string",
       options: ["any", "closerequest", "none"],
@@ -42,14 +41,7 @@ export default {
       table: { defaultValue: { summary: "any" } },
     },
     header: {
-      description:
-        "The header content rendered inside the dialog title (required)",
       "@": {
-        as: {
-          type: "string",
-          description:
-            "The heading element to use for the title. Defaults to `h2`",
-        },
         ["<h2> attributes" as any]: {
           description:
             "All attributes and event handlers from the heading element will be passed through",
@@ -57,8 +49,6 @@ export default {
       },
     },
     footer: {
-      description:
-        "The footer content rendered below the dialog main content area",
       "@": {
         ["<div> attributes" as any]: {
           description:
@@ -67,13 +57,7 @@ export default {
       },
     },
     close: {
-      description:
-        "Close button rendered in the dialog header (required). Pass `a11yText` for the accessible label",
       "@": {
-        a11yText: {
-          type: { name: "string", required: true },
-          description: "Accessible label for the close button",
-        },
         ["<button> attributes" as any]: {
           description:
             "All attributes and event handlers from [the native HTML `<button>` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button) will be passed through",
@@ -81,12 +65,7 @@ export default {
       },
     },
     previous: {
-      description: "Optional previous/back button rendered in the header",
       "@": {
-        a11yText: {
-          type: { name: "string", required: true },
-          description: "Accessible label for the previous button",
-        },
         ["<button> attributes" as any]: {
           description:
             "All attributes and event handlers from [the native HTML `<button>` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button) will be passed through",
@@ -94,17 +73,7 @@ export default {
       },
     },
     banner: {
-      description: "Optional banner image displayed at the top of the dialog",
       "@": {
-        src: {
-          type: "string",
-          description: "URL of the banner image",
-        },
-        position: {
-          type: "string",
-          description:
-            "Position of the image within the banner area using the CSS `background-position` property. Options include [keywords, lengths, and edge distances](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position)",
-        },
         ["<div> attributes" as any]: {
           description:
             "All attributes and event handlers from [the native HTML `<div>` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/div) will be passed through",

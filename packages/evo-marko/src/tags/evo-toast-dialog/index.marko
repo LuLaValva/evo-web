@@ -1,10 +1,22 @@
 import { type Input as IconButtonInput } from "<evo-icon-button>";
 
 export interface Input extends Omit<Marko.HTML.Dialog, "open" | "role" | "aria-modal" | "aria-live" | "closedby"> {
+  /** Whether the toast dialog is open */
   open?: boolean;
   openChange?: (o: boolean) => void;
-  header: Marko.AttrTag<Marko.HTML.H2 & { as?: string }>;
+  /** The header content rendered inside the toast dialog title */
+  header: Marko.AttrTag<
+    Marko.HTML.H2 & {
+      /**
+       * The heading element to use for the title.
+       * @default "h2"
+       */
+      as?: string;
+    }
+  >;
+  /** Optional footer content rendered below the toast dialog main content area */
   footer?: Marko.AttrTag<Marko.HTML.Div>;
+  /** Close button rendered in the toast dialog header. Pass `a11yText` for the accessible label */
   close: Marko.AttrTag<IconButtonInput>;
 }
 
