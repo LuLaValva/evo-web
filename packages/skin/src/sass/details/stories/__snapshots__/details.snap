@@ -247,7 +247,14 @@
 
 ┌─ textSpacing
 <div>
-  <details open>
+  <details
+    open
+    style="
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      word-spacing: 0.16em
+    "
+  >
     <summary style="
       align-items: center;
       box-sizing: border-box;
@@ -255,6 +262,8 @@
       display: inline-flex;
       font-size: var(--font-size-body);
       font-weight: var(--font-weight-600);
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       list-style-position: inside;
       list-style-type: none;
       overflow-x: hidden;
@@ -263,7 +272,8 @@
       padding-left: 8px;
       padding-right: 8px;
       padding-top: 12px;
-      position: relative
+      position: relative;
+      word-spacing: 0.16em
     ">
       <style>@scope{:scope{
         &::after {
@@ -277,31 +287,53 @@
           top: 0px
         }
       }}</style>
-      <span>
+      <span style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
+      ">
         Details
       </span>
       <span
         hidden
         style="
           display: inline-flex;
-          transform: rotate(180deg)
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          transform: rotate(180deg);
+          word-spacing: 0.16em
         "
       >
         <svg style="
           display: inline-block;
           fill: currentcolor;
           height: 16px;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
           vertical-align: middle;
-          width: 16px
+          width: 16px;
+          word-spacing: 0.16em
         ">
-          <use href="#icon-chevron-down-16"/>
+          <use
+            href="#icon-chevron-down-16"
+            style="
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          />
         </svg>
       </span>
     </summary>
-    <p>
+    <p style="
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      margin-bottom: 2em;
+      word-spacing: 0.16em
+    ">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
   </details>

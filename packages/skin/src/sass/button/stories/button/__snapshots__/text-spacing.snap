@@ -20,6 +20,8 @@
     color: inherit;
     font-family: inherit;
     font-size: var(--font-size-body);
+    letter-spacing: 0.12em;
+    line-height: 1.5;
     max-width: 100%;
     min-height: 40px;
     min-width: 88px;
@@ -30,7 +32,8 @@
     padding-right: 20px;
     padding-top: 0px;
     position: relative;
-    vertical-align: bottom
+    vertical-align: bottom;
+    word-spacing: 0.16em
   ">
     <style>@scope{:scope{
       &::after {
@@ -73,19 +76,25 @@
     color: inherit;
     font-family: inherit;
     font-size: var(--font-size-body);
+    letter-spacing: 0.12em;
+    line-height: 1.5;
     min-height: 40px;
     min-width: 88px;
     padding-bottom: 0px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 0px;
-    vertical-align: bottom
+    vertical-align: bottom;
+    word-spacing: 0.16em
   ">
     <span style="
       align-items: center;
       display: flex;
       justify-content: center;
-      width: 100%
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      width: 100%;
+      word-spacing: 0.16em
     ">
       <svg
         height="16"
@@ -94,18 +103,32 @@
           display: inline-block;
           fill: currentcolor;
           height: 16px;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           margin-inline-end: 8px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
           vertical-align: middle;
-          width: 16px
+          width: 16px;
+          word-spacing: 0.16em
         "
         width="16"
       >
-        <use href="#icon-settings-16"/>
+        <use
+          href="#icon-settings-16"
+          style="
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
+          "
+        />
       </svg>
-      <span>
+      <span style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
+      ">
         Button
       </span>
     </span>
@@ -137,13 +160,16 @@
     color: inherit;
     font-family: inherit;
     font-size: var(--font-size-body);
+    letter-spacing: 0.12em;
+    line-height: 1.5;
     min-height: 40px;
     min-width: 88px;
     padding-bottom: 0px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 0px;
-    vertical-align: bottom
+    vertical-align: bottom;
+    word-spacing: 0.16em
   ">
     Button
   </button>

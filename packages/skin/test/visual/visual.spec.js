@@ -2,6 +2,9 @@ import { page } from "vitest/browser";
 import { describe, it, expect } from "vitest";
 import visualHTML from "./visual-html-cached";
 import "../../src/sass/bundles/skin-full.scss";
+// Demo-only styles stories rely on (carousel demo cards, a11y
+// text-spacing, …) — the same file Storybook loads via preview.js.
+import "../../.storybook/custom-styles.css";
 
 const storyModules = import.meta.glob("../../src/sass/**/*.stories.js", {
     eager: true,

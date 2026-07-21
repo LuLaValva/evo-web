@@ -1726,8 +1726,11 @@
 <div>
   <span style="
     display: inline-block;
+    letter-spacing: 0.12em;
+    line-height: 1.5;
     position: relative;
-    vertical-align: bottom
+    vertical-align: bottom;
+    word-spacing: 0.16em
   ">
     <button style="
       align-content: center;
@@ -1749,6 +1752,8 @@
       color: inherit;
       font-family: inherit;
       font-size: var(--font-size-body);
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       max-width: 100%;
       min-height: 40px;
       min-width: 88px;
@@ -1759,7 +1764,8 @@
       padding-right: 15px;
       padding-top: 0px;
       position: relative;
-      vertical-align: bottom
+      vertical-align: bottom;
+      word-spacing: 0.16em
     ">
       <style>@scope{:scope{
         &::after {
@@ -1777,17 +1783,26 @@
         align-items: center;
         display: flex;
         justify-content: space-between;
-        width: 100%
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        width: 100%;
+        word-spacing: 0.16em
       ">
         <span style="
           color: var(--listbox-button-label-color, var(--color-foreground-secondary));
-          margin-right: 3px
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-right: 3px;
+          word-spacing: 0.16em
         ">
           Color:
         </span>
         <span style="
           font-weight: 700;
-          margin-right: auto
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-right: auto;
+          word-spacing: 0.16em
         ">
           Blue
         </span>
@@ -1798,17 +1813,27 @@
             display: inline-block;
             fill: currentcolor;
             height: 12px;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             margin-inline-start: 8px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
             transform: rotate(180deg);
             vertical-align: middle;
-            width: 12px
+            width: 12px;
+            word-spacing: 0.16em
           "
           width="8"
         >
-          <use href="#icon-chevron-down-12"/>
+          <use
+            href="#icon-chevron-down-12"
+            style="
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          />
         </svg>
       </span>
     </button>
@@ -1817,15 +1842,22 @@
       box-shadow: var(--bubble-shadow);
       box-sizing: border-box;
       left: 0px;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       max-height: 400px;
       min-width: 100%;
       overflow-y: auto;
       position: absolute;
       top: calc(100% + 4px);
       width: auto;
+      word-spacing: 0.16em;
       z-index: 2
     ">
-      <div>
+      <div style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
+      ">
         <div style="
           border-bottom-style: solid;
           border-bottom-width: 1px;
@@ -1844,6 +1876,8 @@
           font-family: inherit;
           grid-template-columns: auto auto;
           justify-content: space-between;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           margin-bottom: 1px;
           overflow-x: hidden;
           overflow-y: hidden;
@@ -1852,7 +1886,8 @@
           padding-right: 15px;
           padding-top: 8px;
           position: relative;
-          width: 100%
+          width: 100%;
+          word-spacing: 0.16em
         ">
           <style>@scope{:scope{
             &::after {
@@ -1869,7 +1904,10 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            text-wrap-mode: nowrap;
+            word-spacing: 0.16em
           ">
             Red
           </span>
@@ -1880,6 +1918,8 @@
               display: inline-block;
               fill: currentcolor;
               height: 16px;
+              letter-spacing: 0.12em;
+              line-height: 1.5;
               margin-inline-start: var(--spacing-100);
               margin-left: auto;
               margin-right: auto;
@@ -1888,11 +1928,19 @@
               stroke-width: 0;
               stroke: currentcolor;
               vertical-align: middle;
-              width: 16px
+              width: 16px;
+              word-spacing: 0.16em
             "
             width="8"
           >
-            <use href="#icon-tick-16"/>
+            <use
+              href="#icon-tick-16"
+              style="
+                letter-spacing: 0.12em;
+                line-height: 1.5;
+                word-spacing: 0.16em
+              "
+            />
           </svg>
         </div>
         <div style="
@@ -1911,6 +1959,8 @@
           font-family: inherit;
           grid-template-columns: auto auto;
           justify-content: space-between;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           margin-bottom: 1px;
           overflow-x: hidden;
           overflow-y: hidden;
@@ -1919,7 +1969,8 @@
           padding-right: 15px;
           padding-top: 8px;
           position: relative;
-          width: 100%
+          width: 100%;
+          word-spacing: 0.16em
         ">
           <style>@scope{:scope{
             &::after {
@@ -1936,7 +1987,10 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            text-wrap-mode: nowrap;
+            word-spacing: 0.16em
           ">
             Blue
           </span>
@@ -1947,6 +2001,8 @@
               display: inline-block;
               fill: currentcolor;
               height: 16px;
+              letter-spacing: 0.12em;
+              line-height: 1.5;
               margin-inline-start: var(--spacing-100);
               margin-left: auto;
               margin-right: auto;
@@ -1954,11 +2010,19 @@
               stroke-width: 0;
               stroke: currentcolor;
               vertical-align: middle;
-              width: 16px
+              width: 16px;
+              word-spacing: 0.16em
             "
             width="8"
           >
-            <use href="#icon-tick-16"/>
+            <use
+              href="#icon-tick-16"
+              style="
+                letter-spacing: 0.12em;
+                line-height: 1.5;
+                word-spacing: 0.16em
+              "
+            />
           </svg>
         </div>
         <div style="
@@ -1977,6 +2041,8 @@
           font-family: inherit;
           grid-template-columns: auto auto;
           justify-content: space-between;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           margin-bottom: 1px;
           overflow-x: hidden;
           overflow-y: hidden;
@@ -1985,7 +2051,8 @@
           padding-right: 15px;
           padding-top: 8px;
           position: relative;
-          width: 100%
+          width: 100%;
+          word-spacing: 0.16em
         ">
           <style>@scope{:scope{
             &::after {
@@ -2002,7 +2069,10 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            text-wrap-mode: nowrap;
+            word-spacing: 0.16em
           ">
             Yellow
           </span>
@@ -2013,6 +2083,8 @@
               display: inline-block;
               fill: currentcolor;
               height: 16px;
+              letter-spacing: 0.12em;
+              line-height: 1.5;
               margin-inline-start: var(--spacing-100);
               margin-left: auto;
               margin-right: auto;
@@ -2021,11 +2093,19 @@
               stroke-width: 0;
               stroke: currentcolor;
               vertical-align: middle;
-              width: 16px
+              width: 16px;
+              word-spacing: 0.16em
             "
             width="8"
           >
-            <use href="#icon-tick-16"/>
+            <use
+              href="#icon-tick-16"
+              style="
+                letter-spacing: 0.12em;
+                line-height: 1.5;
+                word-spacing: 0.16em
+              "
+            />
           </svg>
         </div>
         <div style="
@@ -2046,6 +2126,8 @@
           font-family: inherit;
           grid-template-columns: auto auto;
           justify-content: space-between;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           overflow-x: hidden;
           overflow-y: hidden;
           padding-bottom: 8px;
@@ -2053,7 +2135,8 @@
           padding-right: 15px;
           padding-top: 8px;
           position: relative;
-          width: 100%
+          width: 100%;
+          word-spacing: 0.16em
         ">
           <style>@scope{:scope{
             &::after {
@@ -2070,7 +2153,10 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            text-wrap-mode: nowrap;
+            word-spacing: 0.16em
           ">
             Green
           </span>
@@ -2081,6 +2167,8 @@
               display: inline-block;
               fill: currentcolor;
               height: 16px;
+              letter-spacing: 0.12em;
+              line-height: 1.5;
               margin-inline-start: var(--spacing-100);
               margin-left: auto;
               margin-right: auto;
@@ -2089,11 +2177,19 @@
               stroke-width: 0;
               stroke: currentcolor;
               vertical-align: middle;
-              width: 16px
+              width: 16px;
+              word-spacing: 0.16em
             "
             width="8"
           >
-            <use href="#icon-tick-16"/>
+            <use
+              href="#icon-tick-16"
+              style="
+                letter-spacing: 0.12em;
+                line-height: 1.5;
+                word-spacing: 0.16em
+              "
+            />
           </svg>
         </div>
       </div>

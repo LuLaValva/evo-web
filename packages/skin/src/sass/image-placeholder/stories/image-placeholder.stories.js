@@ -8,16 +8,6 @@ export const insideHeading = () => `
 </h2>
 `;
 
-export const RTLInsideHeading = () => `
-<div dir="rtl">
-    <h2>
-        <svg class="image-placeholder">
-            <use href="#image-placeholder"></use>
-        </svg>
-    </h2>
-</div>
-`;
-
 export const differentWidths = () => `
 <p>
     <svg class="image-placeholder" style="border: 1px solid black; width: 50px; height: 50px">

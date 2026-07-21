@@ -1,6 +1,6 @@
 ┌─ action @ 320px
 <div>
-  <div>
+  <div style="font-size: 200%">
     <aside style="
       background-color: var(--snackbar-dialog-background-color, var(--color-background-inverse));
       bottom: 40px;
@@ -69,7 +69,7 @@
 
 ┌─ action @ 1280px
 <div>
-  <div>
+  <div style="font-size: 200%">
     <aside style="
       background-color: var(--snackbar-dialog-background-color, var(--color-background-inverse));
       bottom: 20px;
@@ -135,7 +135,7 @@
 
 ┌─ action @ 1280px rtl
 <div>
-  <div>
+  <div style="font-size: 200%">
     <aside style="
       background-color: var(--snackbar-dialog-background-color, var(--color-background-inverse));
       bottom: 20px;
@@ -200,7 +200,7 @@
 
 ┌─ actionAndDismiss @ 320px
 <div>
-  <div>
+  <div style="font-size: 200%">
     <aside style="
       background-color: var(--snackbar-dialog-background-color, var(--color-background-inverse));
       bottom: 40px;
@@ -296,7 +296,7 @@
 
 ┌─ actionAndDismiss @ 1280px
 <div>
-  <div>
+  <div style="font-size: 200%">
     <aside style="
       background-color: var(--snackbar-dialog-background-color, var(--color-background-inverse));
       bottom: 20px;
@@ -392,7 +392,7 @@
 
 ┌─ actionsStacked @ 320px
 <div>
-  <div>
+  <div style="font-size: 200%">
     <aside style="
       background-color: var(--snackbar-dialog-background-color, var(--color-background-inverse));
       bottom: 40px;
@@ -492,7 +492,7 @@
 
 ┌─ actionsStacked @ 1280px
 <div>
-  <div>
+  <div style="font-size: 200%">
     <aside style="
       background-color: var(--snackbar-dialog-background-color, var(--color-background-inverse));
       bottom: 20px;
@@ -592,7 +592,7 @@
 
 ┌─ noAction @ 320px
 <div>
-  <div>
+  <div style="font-size: 200%">
     <aside style="
       background-color: var(--snackbar-dialog-background-color, var(--color-background-inverse));
       bottom: 40px;
@@ -633,7 +633,7 @@
 
 ┌─ noAction @ 1280px
 <div>
-  <div>
+  <div style="font-size: 200%">
     <aside style="
       background-color: var(--snackbar-dialog-background-color, var(--color-background-inverse));
       bottom: 20px;

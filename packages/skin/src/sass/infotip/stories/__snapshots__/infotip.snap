@@ -1602,7 +1602,10 @@
 <div>
   <span style="
     display: inline-block;
-    position: relative
+    letter-spacing: 0.12em;
+    line-height: 1.5;
+    position: relative;
+    word-spacing: 0.16em
   ">
     <button style="
       align-items: center;
@@ -1623,6 +1626,8 @@
       font-family: inherit;
       height: 20px;
       justify-content: center;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       min-width: 20px;
       outline-offset: 2px;
       padding-bottom: 0px;
@@ -1631,7 +1636,8 @@
       padding-top: 0px;
       position: relative;
       vertical-align: text-bottom;
-      width: 20px
+      width: 20px;
+      word-spacing: 0.16em
     ">
       <style>@scope{:scope{
         &::after {
@@ -1655,17 +1661,27 @@
           display: inline-block;
           fill: var(--color-foreground-primary);
           height: 16px;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           max-width: 100%;
           pointer-events: none;
           position: relative;
           stroke-width: 0;
           stroke: currentcolor;
           vertical-align: middle;
-          width: 16px
+          width: 16px;
+          word-spacing: 0.16em
         "
         width="16"
       >
-        <use href="#icon-information-16"/>
+        <use
+          href="#icon-information-16"
+          style="
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
+          "
+        />
       </svg>
     </button>
     <div style="
@@ -1674,44 +1690,67 @@
       color: var(--infotip-foreground-color, var(--color-foreground-primary));
       font-size: 14px;
       left: calc(50% - 16px);
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       max-width: min(344px, 80vw);
       position: absolute;
       top: calc(100% + 8px);
       transform: scaleX(1);
       width: max-content;
+      word-spacing: 0.16em;
       z-index: 1
     ">
       <span style="
         background-color: var(--infotip-background-color, var(--color-background-elevated));
         height: 8px;
         left: 12px;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         position: absolute;
         top: -4px;
         transform: rotate(45deg);
         width: 8px;
+        word-spacing: 0.16em;
         z-index: 0
       "/>
       <div style="
         background-color: var(--infotip-background-color, var(--color-background-elevated));
         color: var(--infotip-foreground-color, var(--color-foreground-primary));
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         position: relative;
+        word-spacing: 0.16em;
         z-index: 1
       ">
         <div style="
           display: flex;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           overflow-wrap: anywhere;
-          padding: var(--spacing-100) var(--spacing-200)
+          padding: var(--spacing-100) var(--spacing-200);
+          word-spacing: 0.16em
         ">
-          <span style="flex-grow: 1">
+          <span style="
+            flex-grow: 1;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
+          ">
             <h3 style="
               font-size: 1em;
-              margin: 0 0 var(--spacing-50)
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              margin: 0 0 var(--spacing-50);
+              word-spacing: 0.16em
             ">
               Infotip
             </h3>
             <p style="
-              margin-bottom: 0px;
-              margin-top: 0px
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              margin-bottom: 2em;
+              margin-top: 0px;
+              word-spacing: 0.16em
             ">
               Here's a tip to help you be successful at your task.
             </p>
@@ -1735,6 +1774,8 @@
             font-family: inherit;
             height: 20px;
             justify-content: center;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             margin-left: var(--spacing-200);
             min-width: 20px;
             outline-offset: 2px;
@@ -1744,7 +1785,8 @@
             padding-top: 0px;
             position: relative;
             vertical-align: text-bottom;
-            width: 20px
+            width: 20px;
+            word-spacing: 0.16em
           ">
             <style>@scope{:scope{
               &::after {
@@ -1768,17 +1810,27 @@
                 display: inline-block;
                 fill: var(--color-foreground-primary);
                 height: 16px;
+                letter-spacing: 0.12em;
+                line-height: 1.5;
                 max-width: 100%;
                 pointer-events: none;
                 position: relative;
                 stroke-width: 0;
                 stroke: currentcolor;
                 vertical-align: middle;
-                width: 16px
+                width: 16px;
+                word-spacing: 0.16em
               "
               width="24"
             >
-              <use href="#icon-close-16"/>
+              <use
+                href="#icon-close-16"
+                style="
+                  letter-spacing: 0.12em;
+                  line-height: 1.5;
+                  word-spacing: 0.16em
+                "
+              />
             </svg>
           </button>
         </div>
@@ -1794,7 +1846,10 @@
 <div>
   <span style="
     display: inline-block;
-    position: relative
+    letter-spacing: 0.12em;
+    line-height: 1.5;
+    position: relative;
+    word-spacing: 0.16em
   ">
     <button style="
       align-items: center;
@@ -1815,6 +1870,8 @@
       font-family: inherit;
       height: 20px;
       justify-content: center;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       min-width: 20px;
       outline-offset: 2px;
       padding-bottom: 0px;
@@ -1823,7 +1880,8 @@
       padding-top: 0px;
       position: relative;
       vertical-align: text-bottom;
-      width: 20px
+      width: 20px;
+      word-spacing: 0.16em
     ">
       <style>@scope{:scope{
         &::after {
@@ -1847,17 +1905,27 @@
           display: inline-block;
           fill: var(--color-foreground-primary);
           height: 16px;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           max-width: 100%;
           pointer-events: none;
           position: relative;
           stroke-width: 0;
           stroke: currentcolor;
           vertical-align: middle;
-          width: 16px
+          width: 16px;
+          word-spacing: 0.16em
         "
         width="16"
       >
-        <use href="#icon-information-16"/>
+        <use
+          href="#icon-information-16"
+          style="
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
+          "
+        />
       </svg>
     </button>
     <div style="
@@ -1866,44 +1934,67 @@
       color: var(--infotip-foreground-color, var(--color-foreground-primary));
       font-size: 14px;
       left: calc(50% - 16px);
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       max-width: 400px;
       position: absolute;
       top: calc(100% + 8px);
       transform: scaleX(1);
       width: max-content;
+      word-spacing: 0.16em;
       z-index: 1
     ">
       <span style="
         background-color: var(--infotip-background-color, var(--color-background-elevated));
         height: 8px;
         left: 12px;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         position: absolute;
         top: -4px;
         transform: rotate(45deg);
         width: 8px;
+        word-spacing: 0.16em;
         z-index: 0
       "/>
       <div style="
         background-color: var(--infotip-background-color, var(--color-background-elevated));
         color: var(--infotip-foreground-color, var(--color-foreground-primary));
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         position: relative;
+        word-spacing: 0.16em;
         z-index: 1
       ">
         <div style="
           display: flex;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           overflow-wrap: anywhere;
-          padding: var(--spacing-100) var(--spacing-200)
+          padding: var(--spacing-100) var(--spacing-200);
+          word-spacing: 0.16em
         ">
-          <span style="flex-grow: 1">
+          <span style="
+            flex-grow: 1;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
+          ">
             <h3 style="
               font-size: 1em;
-              margin: 0 0 var(--spacing-50)
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              margin: 0 0 var(--spacing-50);
+              word-spacing: 0.16em
             ">
               Infotip
             </h3>
             <p style="
-              margin-bottom: 0px;
-              margin-top: 0px
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              margin-bottom: 2em;
+              margin-top: 0px;
+              word-spacing: 0.16em
             ">
               Here's a tip to help you be successful at your task.
             </p>
@@ -1927,6 +2018,8 @@
             font-family: inherit;
             height: 20px;
             justify-content: center;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             margin-left: var(--spacing-200);
             min-width: 20px;
             outline-offset: 2px;
@@ -1936,7 +2029,8 @@
             padding-top: 0px;
             position: relative;
             vertical-align: text-bottom;
-            width: 20px
+            width: 20px;
+            word-spacing: 0.16em
           ">
             <style>@scope{:scope{
               &::after {
@@ -1960,17 +2054,27 @@
                 display: inline-block;
                 fill: var(--color-foreground-primary);
                 height: 16px;
+                letter-spacing: 0.12em;
+                line-height: 1.5;
                 max-width: 100%;
                 pointer-events: none;
                 position: relative;
                 stroke-width: 0;
                 stroke: currentcolor;
                 vertical-align: middle;
-                width: 16px
+                width: 16px;
+                word-spacing: 0.16em
               "
               width="24"
             >
-              <use href="#icon-close-16"/>
+              <use
+                href="#icon-close-16"
+                style="
+                  letter-spacing: 0.12em;
+                  line-height: 1.5;
+                  word-spacing: 0.16em
+                "
+              />
             </svg>
           </button>
         </div>

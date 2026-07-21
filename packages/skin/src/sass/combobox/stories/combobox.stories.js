@@ -139,26 +139,6 @@ export const actionable = () => `
 </span>
 `;
 
-export const RTL = () => `
-<div dir="rtl">
-    <span class="combobox combobox--expanded">
-        <span class="combobox__control">
-            <input class="pink-placeholder-text" name="combobox-default" placeholder="Combobox" role="combobox" type="text" aria-expanded="true" aria-haspopup="listbox" />
-        </span>
-        <div class="combobox__listbox combobox__listbox--set-position">
-            <div id="listbox1" class="combobox__options" role="listbox">
-                <div class="combobox__option" role="option">
-                    <span>Option 1</span>
-                </div>
-                <div class="combobox__option" role="option">
-                    <span>Option 2</span>
-                </div>
-            </div>
-        </div>
-    </span>
-</div>
-`;
-
 export const actionableRTL = () => `
 <div dir="rtl">
     <span class="combobox combobox--expanded">

@@ -91,21 +91,31 @@
     display: inline-block;
     font-family: inherit;
     font-size: var(--font-size-body);
+    letter-spacing: 0.12em;
+    line-height: 1.5;
     max-width: 100%;
     min-height: 40px;
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
     text-decoration-line: none;
-    vertical-align: bottom
+    vertical-align: bottom;
+    word-spacing: 0.16em
   ">
     <span style="
       align-items: center;
       display: flex;
       justify-content: center;
-      width: 100%
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      width: 100%;
+      word-spacing: 0.16em
     ">
-      <span>
+      <span style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
+      ">
         Link
       </span>
       <svg
@@ -116,16 +126,26 @@
           fill: currentcolor;
           flex-shrink: 0;
           height: 10px;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           margin-inline-start: 8px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
           vertical-align: middle;
-          width: 10px
+          width: 10px;
+          word-spacing: 0.16em
         "
         width="8"
       >
-        <use href="#icon-arrow-right-24"/>
+        <use
+          href="#icon-arrow-right-24"
+          style="
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
+          "
+        />
       </svg>
     </span>
   </a>

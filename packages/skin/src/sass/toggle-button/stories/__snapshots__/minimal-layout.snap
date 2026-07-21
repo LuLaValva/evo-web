@@ -9,30 +9,38 @@
     font-family: inherit;
     font-size: var(--font-size-body);
     justify-content: center;
+    letter-spacing: 0.12em;
+    line-height: 1.5;
     margin-right: var(--spacing-100);
     margin-top: auto;
     max-width: var(--toggle-button-width-max);
     min-height: var(--toggle-button-height-min);
     min-width: var(--toggle-button-width-min);
     padding: 0 var(--spacing-200);
-    vertical-align: top
+    vertical-align: top;
+    word-spacing: 0.16em
   ">
     <span style="
       align-self: center;
       display: flex;
       flex-direction: column;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       pointer-events: none;
-      text-align: left
+      text-align: left;
+      word-spacing: 0.16em
     ">
       <span style="
         font-size: var(--font-size-medium);
         font-weight: 700;
-        line-height: var(--font-size-large-2);
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         margin-bottom: auto;
         margin-top: auto;
         pointer-events: none;
         text-align: center;
-        width: 100%
+        width: 100%;
+        word-spacing: 0.16em
       ">
         4.5
       </span>

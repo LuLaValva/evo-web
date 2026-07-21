@@ -847,10 +847,13 @@
     display: flex;
     justify-content: center;
     left: 0px;
+    letter-spacing: 0.12em;
+    line-height: 1.5;
     position: fixed;
     right: 0px;
     top: 0px;
     will-change: background-color;
+    word-spacing: 0.16em;
     z-index: 100000
   ">
     <div style="
@@ -859,6 +862,8 @@
       flex-direction: column;
       flex-grow: 1;
       flex-shrink: 0;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       margin-bottom: auto;
       margin-left: var(--spacing-200);
       margin-right: var(--spacing-200);
@@ -868,31 +873,49 @@
       min-height: 55px;
       min-width: 208px;
       padding: var(--spacing-200);
-      will-change: opacity, transform
+      will-change: opacity, transform;
+      word-spacing: 0.16em
     ">
-      <div>
+      <div style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
+      ">
         <h2 style="
           font-size: var(--font-size-large-1);
           font-weight: var(--font-weight-600);
-          line-height: 28px;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           margin-bottom: 0px;
-          margin-top: 0px
+          margin-top: 0px;
+          word-spacing: 0.16em
         ">
           Delete Address?
         </h2>
       </div>
       <div style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         margin: var(--spacing-200) 0;
-        min-height: var(--spacing-200)
+        min-height: var(--spacing-200);
+        word-spacing: 0.16em
       ">
         <p style="
-          margin-bottom: 0px;
-          margin-top: 0px
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          margin-top: 0px;
+          word-spacing: 0.16em
         ">
           You will permanently lose this address.
         </p>
       </div>
-      <div style="text-align: right">
+      <div style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        text-align: right;
+        word-spacing: 0.16em
+      ">
         <button style="
           align-content: center;
           align-items: center;
@@ -913,13 +936,16 @@
           color: inherit;
           font-family: inherit;
           font-size: var(--font-size-body);
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           min-height: 40px;
           min-width: 88px;
           padding-bottom: 0px;
           padding-left: 20px;
           padding-right: 20px;
           padding-top: 0px;
-          vertical-align: bottom
+          vertical-align: bottom;
+          word-spacing: 0.16em
         ">
           Cancel
         </button>
@@ -945,6 +971,8 @@
           font-family: inherit;
           font-size: var(--font-size-body);
           font-weight: 700;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           margin-left: var(--spacing-100);
           min-height: 40px;
           min-width: 88px;
@@ -956,7 +984,8 @@
           padding-top: 0px;
           position: relative;
           transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
-          vertical-align: bottom
+          vertical-align: bottom;
+          word-spacing: 0.16em
         ">
           <style>@scope{:scope{
             &::after {
@@ -986,10 +1015,13 @@
     display: flex;
     justify-content: center;
     left: 0px;
+    letter-spacing: 0.12em;
+    line-height: 1.5;
     position: fixed;
     right: 0px;
     top: 0px;
     will-change: background-color;
+    word-spacing: 0.16em;
     z-index: 100000
   ">
     <div style="
@@ -998,6 +1030,8 @@
       flex-direction: column;
       flex-grow: 1;
       flex-shrink: 0;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       margin-bottom: auto;
       margin-left: var(--spacing-200);
       margin-right: var(--spacing-200);
@@ -1007,31 +1041,49 @@
       min-height: 55px;
       min-width: 208px;
       padding: var(--spacing-200);
-      will-change: opacity, transform
+      will-change: opacity, transform;
+      word-spacing: 0.16em
     ">
-      <div>
+      <div style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
+      ">
         <h2 style="
           font-size: var(--font-size-large-1);
           font-weight: var(--font-weight-600);
-          line-height: 28px;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           margin-bottom: 0px;
-          margin-top: 0px
+          margin-top: 0px;
+          word-spacing: 0.16em
         ">
           Delete Address?
         </h2>
       </div>
       <div style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         margin: var(--spacing-200) 0;
-        min-height: var(--spacing-200)
+        min-height: var(--spacing-200);
+        word-spacing: 0.16em
       ">
         <p style="
-          margin-bottom: 0px;
-          margin-top: 0px
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          margin-top: 0px;
+          word-spacing: 0.16em
         ">
           You will permanently lose this address.
         </p>
       </div>
-      <div style="text-align: right">
+      <div style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        text-align: right;
+        word-spacing: 0.16em
+      ">
         <button style="
           align-content: center;
           align-items: center;
@@ -1052,13 +1104,16 @@
           color: inherit;
           font-family: inherit;
           font-size: var(--font-size-body);
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           min-height: 40px;
           min-width: 88px;
           padding-bottom: 0px;
           padding-left: 20px;
           padding-right: 20px;
           padding-top: 0px;
-          vertical-align: bottom
+          vertical-align: bottom;
+          word-spacing: 0.16em
         ">
           Cancel
         </button>
@@ -1084,6 +1139,8 @@
           font-family: inherit;
           font-size: var(--font-size-body);
           font-weight: 700;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           margin-left: var(--spacing-100);
           min-height: 40px;
           min-width: 88px;
@@ -1095,7 +1152,8 @@
           padding-top: 0px;
           position: relative;
           transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
-          vertical-align: bottom
+          vertical-align: bottom;
+          word-spacing: 0.16em
         ">
           <style>@scope{:scope{
             &::after {
@@ -1128,10 +1186,13 @@
     display: flex;
     justify-content: center;
     left: 0px;
+    letter-spacing: 0.12em;
+    line-height: 1.5;
     position: fixed;
     right: 0px;
     top: 0px;
     will-change: background-color;
+    word-spacing: 0.16em;
     z-index: 100000
   ">
     <div style="
@@ -1140,6 +1201,8 @@
       flex-direction: column;
       flex-grow: 1;
       flex-shrink: 0;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       margin-bottom: auto;
       margin-left: var(--spacing-200);
       margin-right: var(--spacing-200);
@@ -1149,31 +1212,49 @@
       min-height: 55px;
       min-width: 208px;
       padding: var(--spacing-200);
-      will-change: opacity, transform
+      will-change: opacity, transform;
+      word-spacing: 0.16em
     ">
-      <div>
+      <div style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
+      ">
         <h2 style="
           font-size: var(--font-size-large-1);
           font-weight: var(--font-weight-600);
-          line-height: 28px;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           margin-bottom: 0px;
-          margin-top: 0px
+          margin-top: 0px;
+          word-spacing: 0.16em
         ">
           Delete Address?
         </h2>
       </div>
       <div style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         margin: var(--spacing-200) 0;
-        min-height: var(--spacing-200)
+        min-height: var(--spacing-200);
+        word-spacing: 0.16em
       ">
         <p style="
-          margin-bottom: 0px;
-          margin-top: 0px
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          margin-top: 0px;
+          word-spacing: 0.16em
         ">
           You will permanently lose this address.
         </p>
       </div>
-      <div style="text-align: right">
+      <div style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        text-align: right;
+        word-spacing: 0.16em
+      ">
         <button style="
           align-content: center;
           align-items: center;
@@ -1194,13 +1275,16 @@
           color: inherit;
           font-family: inherit;
           font-size: var(--font-size-body);
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           min-height: 40px;
           min-width: 88px;
           padding-bottom: 0px;
           padding-left: 20px;
           padding-right: 20px;
           padding-top: 0px;
-          vertical-align: bottom
+          vertical-align: bottom;
+          word-spacing: 0.16em
         ">
           Cancel
         </button>
@@ -1226,6 +1310,8 @@
           font-family: inherit;
           font-size: var(--font-size-body);
           font-weight: 700;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           margin-left: var(--spacing-100);
           min-height: 40px;
           min-width: 88px;
@@ -1237,7 +1323,8 @@
           padding-top: 0px;
           position: relative;
           transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
-          vertical-align: bottom
+          vertical-align: bottom;
+          word-spacing: 0.16em
         ">
           <style>@scope{:scope{
             &::after {

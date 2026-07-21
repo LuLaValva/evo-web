@@ -478,9 +478,9 @@ const HIGHLIGHT_CSS =
 const FRAME_BODY_CSS =
     "body{margin:16px;background:var(--color-background-primary,#fff);" +
     "color:var(--color-foreground-primary,#111)}" +
-    // Storybook helper class (.storybook/custom-styles.css) some
-    // font-size stories rely on.
-    ".font-large{font-size:200%}";
+    // Demo-only styles stories rely on — the same file Storybook loads
+    // via preview.js and the snapshot harness imports.
+    readWorkingTree("packages/skin/.storybook/custom-styles.css");
 
 // Frame asset URLs are written with an explicit ../assets/ prefix
 // (relative to the parent /s/ page — srcdoc documents resolve against
@@ -500,13 +500,21 @@ function frameHead(extraCss) {
         "<style>" + FRAME_BODY_CSS + HIGHLIGHT_CSS + "</style>"
     );
 }
+// Storybook (and the snapshot harness) execute story <script>s AFTER the
+// HTML is inserted; srcdoc parses in document order, which breaks stories
+// whose script precedes its element (dialogs call showModal on a dialog
+// that doesn't exist yet). type="module" defers execution to after parse
+// while preserving order.
+function deferStoryScripts(html) {
+    return html.replace(/<script(\s|>)/gi, '<script type="module"$1');
+}
 function realFrameDoc(storyHtml, rtl, ref) {
     return (
         '<!doctype html><html dir="' + (rtl ? "rtl" : "ltr") + '">' +
         "<head>" + frameHead([ref === "base" ? "base.css" : "head.css"]) + "</head>" +
         '<body>' +
         '<script src="../assets/sprite-' + ref + '.js"></script>' +
-        storyHtml +
+        deferStoryScripts(storyHtml) +
         "</body></html>"
     );
 }
@@ -610,6 +618,10 @@ function staticMain(entry) {
                     '<div class="frame-wrap ' + (fluid ? "fluid" : "fixed") + '">' +
                     '<iframe loading="lazy" data-side="' + side + '"' +
                     (story != null ? ' data-real="1"' : "") +
+                    // fixed dims render at the capture width; without an
+                    // explicit width the iframe falls back to the 300px
+                    // replaced-element default
+                    (fluid ? "" : ' style="width:' + dim.width + 'px"') +
                     ' srcdoc="' + escAttr(doc) + '"></iframe></div>';
             }
             out += '<div class="zoom-note"></div></div>';

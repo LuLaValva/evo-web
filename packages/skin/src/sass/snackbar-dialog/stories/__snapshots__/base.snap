@@ -662,6 +662,8 @@
     box-shadow: rgba(0, 0, 0, 0.28) 0px 0px 3px;
     color: var(--snackbar-dialog-foreground-color, var(--color-foreground-on-inverse));
     left: var(--spacing-100);
+    letter-spacing: 0.12em;
+    line-height: 1.5;
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
@@ -672,24 +674,39 @@
     right: var(--spacing-100);
     transform: translateY(0px);
     will-change: opacity, transform;
+    word-spacing: 0.16em;
     z-index: 2
   ">
     <div style="
       display: flex;
       flex-direction: column;
-      margin: var(--spacing-200) var(--spacing-300)
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      margin: var(--spacing-200) var(--spacing-300);
+      word-spacing: 0.16em
     ">
-      <div style="margin-inline-end: var(--spacing-400)">
+      <div style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-inline-end: var(--spacing-400);
+        word-spacing: 0.16em
+      ">
         <p style="
-          margin-bottom: 0px;
-          margin-top: 0px
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          margin-top: 0px;
+          word-spacing: 0.16em
         ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
       </div>
       <div style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         margin-inline-start: auto;
-        margin-top: var(--spacing-200)
+        margin-top: var(--spacing-200);
+        word-spacing: 0.16em
       ">
         <button style="
           border-bottom-color: currentcolor;
@@ -707,10 +724,13 @@
           color: var(--snackbar-dialog-foreground-color, var(--color-foreground-on-inverse));
           font-family: inherit;
           font-size: inherit;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           padding-bottom: 0px;
           padding-left: 0px;
           padding-right: 0px;
-          padding-top: 0px
+          padding-top: 0px;
+          word-spacing: 0.16em
         ">
           <style>@scope{:scope{
             &::first-letter {text-decoration-line: underline}
@@ -734,10 +754,13 @@
           color: var(--snackbar-dialog-foreground-color, var(--color-foreground-on-inverse));
           font-family: inherit;
           font-size: inherit;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           padding-bottom: 0px;
           padding-left: 0px;
           padding-right: 0px;
-          padding-top: 0px
+          padding-top: 0px;
+          word-spacing: 0.16em
         ">
           <style>@scope{:scope{
             &::first-letter {text-decoration-line: underline}
@@ -760,6 +783,8 @@
     box-shadow: rgba(0, 0, 0, 0.28) 0px 0px 3px;
     color: var(--snackbar-dialog-foreground-color, var(--color-foreground-on-inverse));
     left: var(--spacing-100);
+    letter-spacing: 0.12em;
+    line-height: 1.5;
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
@@ -770,24 +795,39 @@
     right: var(--spacing-100);
     transform: translateY(0px);
     will-change: opacity, transform;
+    word-spacing: 0.16em;
     z-index: 2
   ">
     <div style="
       display: flex;
       flex-direction: column;
-      margin: var(--spacing-200) var(--spacing-300)
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      margin: var(--spacing-200) var(--spacing-300);
+      word-spacing: 0.16em
     ">
-      <div style="margin-inline-end: var(--spacing-400)">
+      <div style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-inline-end: var(--spacing-400);
+        word-spacing: 0.16em
+      ">
         <p style="
-          margin-bottom: 0px;
-          margin-top: 0px
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          margin-top: 0px;
+          word-spacing: 0.16em
         ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
       </div>
       <div style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         margin-inline-start: auto;
-        margin-top: var(--spacing-200)
+        margin-top: var(--spacing-200);
+        word-spacing: 0.16em
       ">
         <button style="
           border-bottom-color: currentcolor;
@@ -805,10 +845,13 @@
           color: var(--snackbar-dialog-foreground-color, var(--color-foreground-on-inverse));
           font-family: inherit;
           font-size: inherit;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           padding-bottom: 0px;
           padding-left: 0px;
           padding-right: 0px;
-          padding-top: 0px
+          padding-top: 0px;
+          word-spacing: 0.16em
         ">
           <style>@scope{:scope{
             &::first-letter {text-decoration-line: underline}
@@ -832,10 +875,13 @@
           color: var(--snackbar-dialog-foreground-color, var(--color-foreground-on-inverse));
           font-family: inherit;
           font-size: inherit;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           padding-bottom: 0px;
           padding-left: 0px;
           padding-right: 0px;
-          padding-top: 0px
+          padding-top: 0px;
+          word-spacing: 0.16em
         ">
           <style>@scope{:scope{
             &::first-letter {text-decoration-line: underline}

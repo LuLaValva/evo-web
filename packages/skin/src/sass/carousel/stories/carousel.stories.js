@@ -157,41 +157,6 @@ export const slideshow = () => `
 </div>
 `;
 
-export const RTL = () => `
-<div dir="rtl">
-    <div class="carousel carousel--slides">
-        <div class="carousel__container">
-            <h4 class="clipped" aria-live="polite">
-                <span>Top Products - Slide 1 of 4</span>
-            </h4>
-            <button class="carousel__control carousel__control--prev" aria-label="Previous Slide - Top Products">
-                <svg aria-hidden="true" class="icon icon--16">
-                    <use href="#icon-chevron-left-16"></use>
-                </svg>
-            </button>
-            <div class="carousel__viewport">
-                <ul class="carousel__list carousel__list--slideshow-demo">
-                    <li>Card 1</li>
-                    <li>Card 2</li>
-                    <li>Card 3</li>
-                    <li>Card 4</li>
-                </ul>
-            </div>
-            <button class="carousel__control carousel__control--next" aria-label="Next Slide - Top Products">
-                <svg aria-hidden="true" class="icon icon--16" >
-                    <use href="#icon-chevron-right-16"></use>
-                </svg>
-            </button>
-        </div>
-        <button class="carousel__playback" aria-label="Play - Top Products">
-            <svg class="icon icon--24" aria-hidden="true">
-                <use href="#icon-play-24"></use>
-            </svg>
-        </button>
-    </div>
-</div>
-`;
-
 export const hiddenScrollbar = () => `
 <div class="carousel carousel--hidden-scrollbar">
     <div class="carousel__container">

@@ -439,7 +439,10 @@
 <div>
   <span style="
     --calendar-month-width: 311px;
-    display: inline-block
+    display: inline-block;
+    letter-spacing: 0.12em;
+    line-height: 1.5;
+    word-spacing: 0.16em
   ">
     <span style="
       align-items: center;
@@ -456,10 +459,13 @@
       color: var(--textbox-foreground-color, var(--color-foreground-primary));
       display: inline-flex;
       font-size: var(--font-size-body);
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       overflow-x: hidden;
       overflow-y: hidden;
       position: relative;
-      width: fit-content
+      width: fit-content;
+      word-spacing: 0.16em
     ">
       <input
         placeholder="YYYY-MM-DD"
@@ -478,12 +484,15 @@
           font-family: inherit;
           font-size: 1em;
           height: calc(var(--input-default-height) - 2px);
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           margin-bottom: 0px;
           margin-left: 0px;
           margin-right: 0px;
           margin-top: 0px;
           padding-inline-start: var(--spacing-200);
-          vertical-align: middle
+          vertical-align: middle;
+          word-spacing: 0.16em
         "
       />
       <button style="
@@ -504,6 +513,8 @@
         font-family: inherit;
         height: 40px;
         justify-content: center;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         margin-inline-start: calc(var(--spacing-100)*-1);
         overflow-x: hidden;
         overflow-y: hidden;
@@ -513,7 +524,8 @@
         padding-top: 0px;
         position: relative;
         vertical-align: text-bottom;
-        width: 40px
+        width: 40px;
+        word-spacing: 0.16em
       ">
         <style>@scope{:scope{
           &::after {
@@ -538,17 +550,27 @@
             display: inline-flex;
             fill: var(--textbox-icon-color, var(--color-foreground-secondary));
             height: 1lh;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             max-width: 100%;
             pointer-events: none;
             position: relative;
             stroke-width: 0;
             stroke: currentcolor;
             vertical-align: middle;
-            width: 24px
+            width: 24px;
+            word-spacing: 0.16em
           "
           width="16"
         >
-          <use href="#icon-calendar-24"/>
+          <use
+            href="#icon-calendar-24"
+            style="
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          />
         </svg>
       </button>
     </span>

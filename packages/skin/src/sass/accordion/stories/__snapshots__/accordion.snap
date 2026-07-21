@@ -1694,20 +1694,31 @@
 ┌─ textSpacing
 <div>
   <ul style="
+    letter-spacing: 0.12em;
+    line-height: 1.5;
     margin-bottom: 0px;
     margin-top: 0px;
     padding-left: 0px;
-    width: 100%
+    width: 100%;
+    word-spacing: 0.16em
   ">
-    <li style="border-bottom: 1px solid var(--color-border-subtle)">
+    <li style="
+      border-bottom: 1px solid var(--color-border-subtle);
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      word-spacing: 0.16em
+    ">
       <style>@scope{:scope{
         &::marker {font-size: 0px}
       }}</style>
       <details
         open
         style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           overflow-x: hidden;
-          overflow-y: hidden
+          overflow-y: hidden;
+          word-spacing: 0.16em
         "
       >
         <style>@scope{:scope{
@@ -1726,6 +1737,8 @@
           display: flex;
           font-size: var(--font-size-medium);
           font-weight: var(--font-weight-600);
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           list-style-position: inside;
           list-style-type: none;
           min-height: 48px;
@@ -1735,7 +1748,8 @@
           padding-left: 16px;
           padding-right: 16px;
           padding-top: 12px;
-          position: relative
+          position: relative;
+          word-spacing: 0.16em
         ">
           <style>@scope{:scope{
             &::after {
@@ -1752,7 +1766,10 @@
           }}</style>
           <span style="
             flex-basis: 0%;
-            flex-grow: 1
+            flex-grow: 1;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
           ">
             <style>@scope{:scope{
               &::marker {font-size: 0px}
@@ -1763,7 +1780,10 @@
             hidden
             style="
               display: inline-flex;
-              transform: rotate(180deg)
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              transform: rotate(180deg);
+              word-spacing: 0.16em
             "
           >
             <style>@scope{:scope{
@@ -1773,16 +1793,26 @@
               display: inline-block;
               fill: currentcolor;
               height: 16px;
+              letter-spacing: 0.12em;
+              line-height: 1.5;
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
               vertical-align: middle;
-              width: 16px
+              width: 16px;
+              word-spacing: 0.16em
             ">
               <style>@scope{:scope{
                 &::marker {font-size: 0px}
               }}</style>
-              <use href="#icon-chevron-down-16">
+              <use
+                href="#icon-chevron-down-16"
+                style="
+                  letter-spacing: 0.12em;
+                  line-height: 1.5;
+                  word-spacing: 0.16em
+                "
+              >
                 <style>@scope{:scope{
                   &::marker {font-size: 0px}
                 }}</style>
@@ -1791,16 +1821,24 @@
           </span>
         </summary>
         <div style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           margin-left: 16px;
           margin-right: 16px;
           overflow-x: hidden;
           overflow-y: hidden;
-          padding-block-end: 6px
+          padding-block-end: 6px;
+          word-spacing: 0.16em
         ">
           <style>@scope{:scope{
             &::marker {font-size: 0px}
           }}</style>
-          <p>
+          <p style="
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            margin-bottom: 2em;
+            word-spacing: 0.16em
+          ">
             <style>@scope{:scope{
               &::marker {font-size: 0px}
             }}</style>
@@ -1809,13 +1847,21 @@
         </div>
       </details>
     </li>
-    <li style="border-bottom: 1px solid var(--color-border-subtle)">
+    <li style="
+      border-bottom: 1px solid var(--color-border-subtle);
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      word-spacing: 0.16em
+    ">
       <style>@scope{:scope{
         &::marker {font-size: 0px}
       }}</style>
       <details style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         overflow-x: hidden;
-        overflow-y: hidden
+        overflow-y: hidden;
+        word-spacing: 0.16em
       ">
         <style>@scope{:scope{
           &::details-content {
@@ -1833,6 +1879,8 @@
           display: flex;
           font-size: var(--font-size-medium);
           font-weight: var(--font-weight-600);
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           list-style-position: inside;
           list-style-type: none;
           min-height: 48px;
@@ -1842,7 +1890,8 @@
           padding-left: 16px;
           padding-right: 16px;
           padding-top: 12px;
-          position: relative
+          position: relative;
+          word-spacing: 0.16em
         ">
           <style>@scope{:scope{
             &::after {
@@ -1859,7 +1908,10 @@
           }}</style>
           <span style="
             flex-basis: 0%;
-            flex-grow: 1
+            flex-grow: 1;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
           ">
             <style>@scope{:scope{
               &::marker {font-size: 0px}
@@ -1868,7 +1920,12 @@
           </span>
           <span
             hidden
-            style="display: inline-flex"
+            style="
+              display: inline-flex;
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
           >
             <style>@scope{:scope{
               &::marker {font-size: 0px}
@@ -1877,16 +1934,26 @@
               display: inline-block;
               fill: var(--color-foreground-secondary);
               height: 16px;
+              letter-spacing: 0.12em;
+              line-height: 1.5;
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
               vertical-align: middle;
-              width: 16px
+              width: 16px;
+              word-spacing: 0.16em
             ">
               <style>@scope{:scope{
                 &::marker {font-size: 0px}
               }}</style>
-              <use href="#icon-chevron-down-16">
+              <use
+                href="#icon-chevron-down-16"
+                style="
+                  letter-spacing: 0.12em;
+                  line-height: 1.5;
+                  word-spacing: 0.16em
+                "
+              >
                 <style>@scope{:scope{
                   &::marker {font-size: 0px}
                 }}</style>
@@ -1895,16 +1962,24 @@
           </span>
         </summary>
         <div style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           margin-left: 16px;
           margin-right: 16px;
           overflow-x: hidden;
           overflow-y: hidden;
-          padding-block-end: 6px
+          padding-block-end: 6px;
+          word-spacing: 0.16em
         ">
           <style>@scope{:scope{
             &::marker {font-size: 0px}
           }}</style>
-          <p>
+          <p style="
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            margin-bottom: 2em;
+            word-spacing: 0.16em
+          ">
             <style>@scope{:scope{
               &::marker {font-size: 0px}
             }}</style>
@@ -1913,13 +1988,20 @@
         </div>
       </details>
     </li>
-    <li>
+    <li style="
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      word-spacing: 0.16em
+    ">
       <style>@scope{:scope{
         &::marker {font-size: 0px}
       }}</style>
       <details style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         overflow-x: hidden;
-        overflow-y: hidden
+        overflow-y: hidden;
+        word-spacing: 0.16em
       ">
         <style>@scope{:scope{
           &::details-content {
@@ -1937,6 +2019,8 @@
           display: flex;
           font-size: var(--font-size-medium);
           font-weight: var(--font-weight-600);
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           list-style-position: inside;
           list-style-type: none;
           min-height: 48px;
@@ -1946,7 +2030,8 @@
           padding-left: 16px;
           padding-right: 16px;
           padding-top: 12px;
-          position: relative
+          position: relative;
+          word-spacing: 0.16em
         ">
           <style>@scope{:scope{
             &::after {
@@ -1963,7 +2048,10 @@
           }}</style>
           <span style="
             flex-basis: 0%;
-            flex-grow: 1
+            flex-grow: 1;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
           ">
             <style>@scope{:scope{
               &::marker {font-size: 0px}
@@ -1972,7 +2060,12 @@
           </span>
           <span
             hidden
-            style="display: inline-flex"
+            style="
+              display: inline-flex;
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
           >
             <style>@scope{:scope{
               &::marker {font-size: 0px}
@@ -1981,16 +2074,26 @@
               display: inline-block;
               fill: var(--color-foreground-secondary);
               height: 16px;
+              letter-spacing: 0.12em;
+              line-height: 1.5;
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
               vertical-align: middle;
-              width: 16px
+              width: 16px;
+              word-spacing: 0.16em
             ">
               <style>@scope{:scope{
                 &::marker {font-size: 0px}
               }}</style>
-              <use href="#icon-chevron-down-16">
+              <use
+                href="#icon-chevron-down-16"
+                style="
+                  letter-spacing: 0.12em;
+                  line-height: 1.5;
+                  word-spacing: 0.16em
+                "
+              >
                 <style>@scope{:scope{
                   &::marker {font-size: 0px}
                 }}</style>
@@ -1999,16 +2102,24 @@
           </span>
         </summary>
         <div style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           margin-left: 16px;
           margin-right: 16px;
           overflow-x: hidden;
           overflow-y: hidden;
-          padding-block-end: 6px
+          padding-block-end: 6px;
+          word-spacing: 0.16em
         ">
           <style>@scope{:scope{
             &::marker {font-size: 0px}
           }}</style>
-          <p>
+          <p style="
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            margin-bottom: 2em;
+            word-spacing: 0.16em
+          ">
             <style>@scope{:scope{
               &::marker {font-size: 0px}
             }}</style>

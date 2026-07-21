@@ -66,6 +66,17 @@ __INTRO__
         }
     }
     searchEl.oninput = applyFilter;
+    // Preserve sidebar scroll position across navigations (shared with
+    // the story pages via the same sessionStorage key).
+    {
+        const listEl = document.getElementById("storylist");
+        const SCROLL_KEY = "vp:sidebar-scroll";
+        const saved = sessionStorage.getItem(SCROLL_KEY);
+        if (saved !== null) listEl.scrollTop = Number(saved);
+        listEl.addEventListener("scroll", () => {
+            try { sessionStorage.setItem(SCROLL_KEY, listEl.scrollTop); } catch {}
+        }, { passive: true });
+    }
     document.addEventListener("keydown", (e) => {
         if (e.ctrlKey || e.metaKey || e.altKey) return;
         if (e.target === searchEl) {

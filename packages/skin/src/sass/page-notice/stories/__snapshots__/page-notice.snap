@@ -2562,13 +2562,19 @@
     display: grid;
     font-size: var(--font-size-body);
     grid-template-columns: 32px auto auto auto;
+    letter-spacing: 0.12em;
+    line-height: 1.5;
     margin: var(--spacing-100) 0;
-    padding: var(--spacing-200)
+    padding: var(--spacing-200);
+    word-spacing: 0.16em
   ">
     <div style="
       grid-column-start: 1;
       grid-row-start: 1;
-      margin-inline-end: var(--spacing-200)
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      margin-inline-end: var(--spacing-200);
+      word-spacing: 0.16em
     ">
       <svg
         height="16"
@@ -2578,34 +2584,53 @@
           display: inline-block;
           fill: currentcolor;
           height: 16px;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
           vertical-align: middle;
-          width: 16px
+          width: 16px;
+          word-spacing: 0.16em
         "
         width="16"
       >
-        <use href="#icon-information-filled-16"/>
+        <use
+          href="#icon-information-filled-16"
+          style="
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
+          "
+        />
       </svg>
     </div>
     <div style="
       grid-column-start: 2;
       grid-row-start: 1;
-      margin-inline-end: var(--spacing-200)
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      margin-inline-end: var(--spacing-200);
+      word-spacing: 0.16em
     ">
       <h3 style="
         font-size: var(--font-size-body);
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         margin-bottom: 0px;
-        margin-top: 1px
+        margin-top: 1px;
+        word-spacing: 0.16em
       ">
         Notice Title
       </h3>
       <p style="
         font-size: var(--font-size-body);
-        margin-bottom: 0px;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-bottom: 2em;
         margin-top: 2px;
-        margin: var(--spacing-50) 0 0
+        margin: var(--spacing-50) 0 0;
+        word-spacing: 0.16em
       ">
         Opt into eBay payments before Jan 12th to pay no selling fees.
       </p>
@@ -2614,14 +2639,20 @@
       grid-column-start: 2;
       grid-row-start: 2;
       justify-self: flex-start;
-      margin-bottom: 0px;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      margin-bottom: 2em;
       margin-right: var(--spacing-200);
-      margin-top: var(--spacing-200)
+      margin-top: var(--spacing-200);
+      word-spacing: 0.16em
     ">
       <a style="
         color: var(--page-notice-color, var(--color-foreground-on-inverse));
         font-size: var(--font-size-body);
-        text-wrap-mode: nowrap
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        text-wrap-mode: nowrap;
+        word-spacing: 0.16em
       ">
         Opt in
       </a>
@@ -2629,7 +2660,10 @@
     <div style="
       grid-column-start: 4;
       grid-row-start: 1;
-      text-align: right
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      text-align: right;
+      word-spacing: 0.16em
     ">
       <button style="
         border-bottom-color: currentcolor;
@@ -2649,11 +2683,14 @@
         font-family: inherit;
         font-size: var(--font-size-body);
         font-weight: 700;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         padding-bottom: 0px;
         padding-left: 0px;
         padding-right: 0px;
         padding-top: 0px;
-        text-decoration-line: underline
+        text-decoration-line: underline;
+        word-spacing: 0.16em
       ">
         <svg
           height="14"
@@ -2661,15 +2698,25 @@
             display: inline-block;
             fill: currentcolor;
             height: 16px;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
             vertical-align: middle;
-            width: 16px
+            width: 16px;
+            word-spacing: 0.16em
           "
           width="14"
         >
-          <use href="#icon-close-16"/>
+          <use
+            href="#icon-close-16"
+            style="
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          />
         </svg>
       </button>
     </div>
@@ -2695,13 +2742,19 @@
     display: grid;
     font-size: var(--font-size-body);
     grid-template-columns: 32px auto auto auto;
+    letter-spacing: 0.12em;
+    line-height: 1.5;
     margin: var(--spacing-200) 0;
-    padding: var(--spacing-200)
+    padding: var(--spacing-200);
+    word-spacing: 0.16em
   ">
     <div style="
       grid-column-start: 1;
       grid-row-start: 1;
-      margin-inline-end: var(--spacing-200)
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      margin-inline-end: var(--spacing-200);
+      word-spacing: 0.16em
     ">
       <svg
         height="16"
@@ -2711,34 +2764,53 @@
           display: inline-block;
           fill: currentcolor;
           height: 16px;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
           vertical-align: middle;
-          width: 16px
+          width: 16px;
+          word-spacing: 0.16em
         "
         width="16"
       >
-        <use href="#icon-information-filled-16"/>
+        <use
+          href="#icon-information-filled-16"
+          style="
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
+          "
+        />
       </svg>
     </div>
     <div style="
       grid-column-start: 2;
       grid-row-start: 1;
-      margin-inline-end: var(--spacing-200)
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      margin-inline-end: var(--spacing-200);
+      word-spacing: 0.16em
     ">
       <h3 style="
         font-size: var(--font-size-body);
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         margin-bottom: 2px;
-        margin-top: 1px
+        margin-top: 1px;
+        word-spacing: 0.16em
       ">
         Notice Title
       </h3>
       <p style="
         font-size: var(--font-size-body);
-        margin-bottom: 0px;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-bottom: 2em;
         margin-top: 2px;
-        margin: var(--spacing-50) 0 0
+        margin: var(--spacing-50) 0 0;
+        word-spacing: 0.16em
       ">
         Opt into eBay payments before Jan 12th to pay no selling fees.
       </p>
@@ -2747,15 +2819,21 @@
       grid-column-start: 4;
       grid-row-start: 1;
       justify-self: flex-end;
-      margin-bottom: 0px;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      margin-bottom: 2em;
       margin-right: var(--spacing-200);
       margin-top: 1px;
-      padding-right: var(--spacing-200)
+      padding-right: var(--spacing-200);
+      word-spacing: 0.16em
     ">
       <a style="
         color: var(--page-notice-color, var(--color-foreground-on-inverse));
         font-size: var(--font-size-body);
-        text-wrap-mode: nowrap
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        text-wrap-mode: nowrap;
+        word-spacing: 0.16em
       ">
         Opt in
       </a>
@@ -2764,7 +2842,10 @@
       grid-column-start: 4;
       grid-row-start: 1;
       justify-self: flex-end;
-      text-align: right
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      text-align: right;
+      word-spacing: 0.16em
     ">
       <button style="
         border-bottom-color: currentcolor;
@@ -2784,11 +2865,14 @@
         font-family: inherit;
         font-size: var(--font-size-body);
         font-weight: 700;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         padding-bottom: 0px;
         padding-left: 0px;
         padding-right: 0px;
         padding-top: 0px;
-        text-decoration-line: underline
+        text-decoration-line: underline;
+        word-spacing: 0.16em
       ">
         <svg
           height="14"
@@ -2796,15 +2880,25 @@
             display: inline-block;
             fill: currentcolor;
             height: 16px;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
             vertical-align: middle;
-            width: 16px
+            width: 16px;
+            word-spacing: 0.16em
           "
           width="14"
         >
-          <use href="#icon-close-16"/>
+          <use
+            href="#icon-close-16"
+            style="
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          />
         </svg>
       </button>
     </div>

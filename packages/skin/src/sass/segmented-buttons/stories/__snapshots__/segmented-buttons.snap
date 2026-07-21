@@ -1182,21 +1182,30 @@
 <div>
   <div style="
     border: 1px solid var(--color-border-medium);
+    letter-spacing: 0.12em;
+    line-height: 1.5;
     max-width: 720px;
     min-width: 215px;
-    padding: var(--spacing-50)
+    padding: var(--spacing-50);
+    word-spacing: 0.16em
   ">
     <ul style="
       display: flex;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       list-style-type: none;
       margin-bottom: 0px;
       margin-top: 0px;
-      padding-left: 0px
+      padding-left: 0px;
+      word-spacing: 0.16em
     ">
       <li style="
         display: flex;
         flex-basis: 0%;
-        flex-grow: 1
+        flex-grow: 1;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
       ">
         <button style="
           background-color: var(--color-foreground-primary);
@@ -1215,9 +1224,12 @@
           color: var(--color-foreground-on-inverse);
           font-family: inherit;
           font-size: var(--font-size-body);
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           min-height: calc(40px - var(--spacing-50)*2);
           padding: var(--spacing-100) var(--spacing-200);
-          width: 100%
+          width: 100%;
+          word-spacing: 0.16em
         ">
           Day
         </button>
@@ -1226,7 +1238,10 @@
         display: flex;
         flex-basis: 0%;
         flex-grow: 1;
-        margin-inline-start: var(--spacing-100)
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-inline-start: var(--spacing-100);
+        word-spacing: 0.16em
       ">
         <button style="
           border-bottom-color: currentcolor;
@@ -1244,12 +1259,15 @@
           color: var(--color-foreground-primary);
           font-family: inherit;
           font-size: var(--font-size-body);
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           min-height: calc(40px - var(--spacing-50)*2);
           overflow-x: hidden;
           overflow-y: hidden;
           padding: var(--spacing-100) var(--spacing-200);
           position: relative;
-          width: 100%
+          width: 100%;
+          word-spacing: 0.16em
         ">
           <style>@scope{:scope{
             &::after {
@@ -1270,7 +1288,10 @@
         display: flex;
         flex-basis: 0%;
         flex-grow: 1;
-        margin-inline-start: var(--spacing-100)
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-inline-start: var(--spacing-100);
+        word-spacing: 0.16em
       ">
         <button style="
           border-bottom-color: currentcolor;
@@ -1288,12 +1309,15 @@
           color: var(--color-foreground-primary);
           font-family: inherit;
           font-size: var(--font-size-body);
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           min-height: calc(40px - var(--spacing-50)*2);
           overflow-x: hidden;
           overflow-y: hidden;
           padding: var(--spacing-100) var(--spacing-200);
           position: relative;
-          width: 100%
+          width: 100%;
+          word-spacing: 0.16em
         ">
           <style>@scope{:scope{
             &::after {

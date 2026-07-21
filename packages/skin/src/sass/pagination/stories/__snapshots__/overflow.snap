@@ -5043,10 +5043,17 @@
     font-family: inherit;
     font-size: 1rem;
     justify-content: center;
+    letter-spacing: 0.12em;
+    line-height: 1.5;
     margin: var(--spacing-100) 0;
-    max-width: 100%
+    max-width: 100%;
+    word-spacing: 0.16em
   ">
-    <span>
+    <span style="
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      word-spacing: 0.16em
+    ">
       <h2 style="
         border-bottom-color: currentcolor;
         border-left-color: currentcolor;
@@ -5054,11 +5061,14 @@
         border-top-color: currentcolor;
         clip-path: inset(50%);
         height: 1px;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         overflow-x: hidden;
         overflow-y: hidden;
         position: absolute;
         text-wrap-mode: nowrap;
-        width: 1px
+        width: 1px;
+        word-spacing: 0.16em
       ">
         Results Pagination - Page 10
       </h2>
@@ -5089,12 +5099,15 @@
       font-size: 1em;
       height: 40px;
       justify-content: center;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       margin-inline-end: var(--spacing-100);
       overflow-x: hidden;
       overflow-y: hidden;
       position: relative;
       vertical-align: text-bottom;
-      width: 40px
+      width: 40px;
+      word-spacing: 0.16em
     ">
       <style>@scope{:scope{
         &::after {
@@ -5118,6 +5131,8 @@
           display: inline-block;
           fill: var(--color-background-disabled);
           height: 16px;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           margin-left: auto;
           margin-right: auto;
           max-width: 75%;
@@ -5126,11 +5141,19 @@
           stroke-width: 0;
           stroke: currentcolor;
           vertical-align: middle;
-          width: 16px
+          width: 16px;
+          word-spacing: 0.16em
         "
         width="24"
       >
-        <use href="#icon-arrow-left-16"/>
+        <use
+          href="#icon-arrow-left-16"
+          style="
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
+          "
+        />
       </svg>
     </a>
     <ol style="
@@ -5139,15 +5162,21 @@
       display: inline-flex;
       height: 44px;
       justify-content: center;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       list-style-type: none;
       margin-bottom: 0px;
       margin-top: 0px;
-      padding-left: 0px
+      padding-left: 0px;
+      word-spacing: 0.16em
     ">
       <li style="
         align-items: center;
         display: flex;
-        justify-content: center
+        justify-content: center;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
       ">
         <a style="
           align-items: center;
@@ -5158,9 +5187,12 @@
           font-weight: var(--font-weight-400);
           height: 44px;
           justify-content: center;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           position: relative;
           text-decoration-line: none;
-          width: 44px
+          width: 44px;
+          word-spacing: 0.16em
         ">
           <style>@scope{:scope{
             &::after {
@@ -5183,7 +5215,10 @@
       <li style="
         align-items: center;
         display: flex;
-        justify-content: center
+        justify-content: center;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
       ">
         <span style="
           align-items: center;
@@ -5192,7 +5227,10 @@
           font-weight: var(--font-weight-400);
           height: 44px;
           justify-content: center;
-          width: 44px
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          width: 44px;
+          word-spacing: 0.16em
         ">
           <svg
             height="8"
@@ -5201,22 +5239,35 @@
               display: inline-block;
               fill: currentcolor;
               height: 24px;
+              letter-spacing: 0.12em;
+              line-height: 1.5;
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
               vertical-align: middle;
-              width: 24px
+              width: 24px;
+              word-spacing: 0.16em
             "
             width="8"
           >
-            <use href="#icon-overflow-horizontal-24"/>
+            <use
+              href="#icon-overflow-horizontal-24"
+              style="
+                letter-spacing: 0.12em;
+                line-height: 1.5;
+                word-spacing: 0.16em
+              "
+            />
           </svg>
         </span>
       </li>
       <li style="
         align-items: center;
         display: flex;
-        justify-content: center
+        justify-content: center;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
       ">
         <a style="
           align-items: center;
@@ -5227,9 +5278,12 @@
           font-weight: var(--font-weight-400);
           height: 44px;
           justify-content: center;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           position: relative;
           text-decoration-line: none;
-          width: 44px
+          width: 44px;
+          word-spacing: 0.16em
         ">
           <style>@scope{:scope{
             &::after {
@@ -5252,7 +5306,10 @@
       <li style="
         align-items: center;
         display: flex;
-        justify-content: center
+        justify-content: center;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
       ">
         <a style="
           align-items: center;
@@ -5263,9 +5320,12 @@
           font-weight: var(--font-weight-600);
           height: 44px;
           justify-content: center;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           position: relative;
           text-decoration-line: none;
-          width: 44px
+          width: 44px;
+          word-spacing: 0.16em
         ">
           <style>@scope{:scope{
             &::after {
@@ -5289,7 +5349,10 @@
       <li style="
         align-items: center;
         display: flex;
-        justify-content: center
+        justify-content: center;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
       ">
         <a style="
           align-items: center;
@@ -5300,9 +5363,12 @@
           font-weight: var(--font-weight-400);
           height: 44px;
           justify-content: center;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           position: relative;
           text-decoration-line: none;
-          width: 44px
+          width: 44px;
+          word-spacing: 0.16em
         ">
           <style>@scope{:scope{
             &::after {
@@ -5325,7 +5391,10 @@
       <li style="
         align-items: center;
         display: flex;
-        justify-content: center
+        justify-content: center;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
       ">
         <span style="
           align-items: center;
@@ -5334,7 +5403,10 @@
           font-weight: var(--font-weight-400);
           height: 44px;
           justify-content: center;
-          width: 44px
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          width: 44px;
+          word-spacing: 0.16em
         ">
           <svg
             height="8"
@@ -5343,22 +5415,35 @@
               display: inline-block;
               fill: currentcolor;
               height: 24px;
+              letter-spacing: 0.12em;
+              line-height: 1.5;
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
               vertical-align: middle;
-              width: 24px
+              width: 24px;
+              word-spacing: 0.16em
             "
             width="8"
           >
-            <use href="#icon-overflow-horizontal-24"/>
+            <use
+              href="#icon-overflow-horizontal-24"
+              style="
+                letter-spacing: 0.12em;
+                line-height: 1.5;
+                word-spacing: 0.16em
+              "
+            />
           </svg>
         </span>
       </li>
       <li style="
         align-items: center;
         display: flex;
-        justify-content: center
+        justify-content: center;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
       ">
         <a style="
           align-items: center;
@@ -5369,9 +5454,12 @@
           font-weight: var(--font-weight-400);
           height: 44px;
           justify-content: center;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           position: relative;
           text-decoration-line: none;
-          width: 44px
+          width: 44px;
+          word-spacing: 0.16em
         ">
           <style>@scope{:scope{
             &::after {
@@ -5418,12 +5506,15 @@
       font-size: 1em;
       height: 40px;
       justify-content: center;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       margin-inline-start: var(--spacing-100);
       overflow-x: hidden;
       overflow-y: hidden;
       position: relative;
       vertical-align: text-bottom;
-      width: 40px
+      width: 40px;
+      word-spacing: 0.16em
     ">
       <style>@scope{:scope{
         &::after {
@@ -5447,6 +5538,8 @@
           display: inline-block;
           fill: var(--color-foreground-primary);
           height: 16px;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           margin-left: auto;
           margin-right: auto;
           max-width: 75%;
@@ -5455,11 +5548,19 @@
           stroke-width: 0;
           stroke: currentcolor;
           vertical-align: middle;
-          width: 16px
+          width: 16px;
+          word-spacing: 0.16em
         "
         width="24"
       >
-        <use href="#icon-arrow-right-16"/>
+        <use
+          href="#icon-arrow-right-16"
+          style="
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
+          "
+        />
       </svg>
     </a>
   </nav>
@@ -5477,10 +5578,17 @@
     font-family: inherit;
     font-size: 1rem;
     justify-content: center;
+    letter-spacing: 0.12em;
+    line-height: 1.5;
     margin: var(--spacing-200) 0;
-    max-width: 100%
+    max-width: 100%;
+    word-spacing: 0.16em
   ">
-    <span>
+    <span style="
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      word-spacing: 0.16em
+    ">
       <h2 style="
         border-bottom-color: currentcolor;
         border-left-color: currentcolor;
@@ -5488,11 +5596,14 @@
         border-top-color: currentcolor;
         clip-path: inset(50%);
         height: 1px;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
         overflow-x: hidden;
         overflow-y: hidden;
         position: absolute;
         text-wrap-mode: nowrap;
-        width: 1px
+        width: 1px;
+        word-spacing: 0.16em
       ">
         Results Pagination - Page 10
       </h2>
@@ -5523,12 +5634,15 @@
       font-size: 1em;
       height: 40px;
       justify-content: center;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       margin-inline-end: var(--spacing-100);
       overflow-x: hidden;
       overflow-y: hidden;
       position: relative;
       vertical-align: text-bottom;
-      width: 40px
+      width: 40px;
+      word-spacing: 0.16em
     ">
       <style>@scope{:scope{
         &::after {
@@ -5552,6 +5666,8 @@
           display: inline-block;
           fill: var(--color-background-disabled);
           height: 16px;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           margin-left: auto;
           margin-right: auto;
           max-width: 75%;
@@ -5560,11 +5676,19 @@
           stroke-width: 0;
           stroke: currentcolor;
           vertical-align: middle;
-          width: 16px
+          width: 16px;
+          word-spacing: 0.16em
         "
         width="24"
       >
-        <use href="#icon-arrow-left-16"/>
+        <use
+          href="#icon-arrow-left-16"
+          style="
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
+          "
+        />
       </svg>
     </a>
     <ol style="
@@ -5573,15 +5697,21 @@
       display: inline-flex;
       height: 44px;
       justify-content: center;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       list-style-type: none;
       margin-bottom: 0px;
       margin-top: 0px;
-      padding-left: 0px
+      padding-left: 0px;
+      word-spacing: 0.16em
     ">
       <li style="
         align-items: center;
         display: flex;
-        justify-content: center
+        justify-content: center;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
       ">
         <a style="
           align-items: center;
@@ -5592,9 +5722,12 @@
           font-weight: var(--font-weight-400);
           height: 44px;
           justify-content: center;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           position: relative;
           text-decoration-line: none;
-          width: 44px
+          width: 44px;
+          word-spacing: 0.16em
         ">
           <style>@scope{:scope{
             &::after {
@@ -5617,7 +5750,10 @@
       <li style="
         align-items: center;
         display: flex;
-        justify-content: center
+        justify-content: center;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
       ">
         <span style="
           align-items: center;
@@ -5626,7 +5762,10 @@
           font-weight: var(--font-weight-400);
           height: 44px;
           justify-content: center;
-          width: 44px
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          width: 44px;
+          word-spacing: 0.16em
         ">
           <svg
             height="8"
@@ -5635,22 +5774,35 @@
               display: inline-block;
               fill: currentcolor;
               height: 24px;
+              letter-spacing: 0.12em;
+              line-height: 1.5;
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
               vertical-align: middle;
-              width: 24px
+              width: 24px;
+              word-spacing: 0.16em
             "
             width="8"
           >
-            <use href="#icon-overflow-horizontal-24"/>
+            <use
+              href="#icon-overflow-horizontal-24"
+              style="
+                letter-spacing: 0.12em;
+                line-height: 1.5;
+                word-spacing: 0.16em
+              "
+            />
           </svg>
         </span>
       </li>
       <li style="
         align-items: center;
         display: flex;
-        justify-content: center
+        justify-content: center;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
       ">
         <a style="
           align-items: center;
@@ -5661,9 +5813,12 @@
           font-weight: var(--font-weight-400);
           height: 44px;
           justify-content: center;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           position: relative;
           text-decoration-line: none;
-          width: 44px
+          width: 44px;
+          word-spacing: 0.16em
         ">
           <style>@scope{:scope{
             &::after {
@@ -5686,7 +5841,10 @@
       <li style="
         align-items: center;
         display: flex;
-        justify-content: center
+        justify-content: center;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
       ">
         <a style="
           align-items: center;
@@ -5697,9 +5855,12 @@
           font-weight: var(--font-weight-600);
           height: 44px;
           justify-content: center;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           position: relative;
           text-decoration-line: none;
-          width: 44px
+          width: 44px;
+          word-spacing: 0.16em
         ">
           <style>@scope{:scope{
             &::after {
@@ -5723,7 +5884,10 @@
       <li style="
         align-items: center;
         display: flex;
-        justify-content: center
+        justify-content: center;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
       ">
         <a style="
           align-items: center;
@@ -5734,9 +5898,12 @@
           font-weight: var(--font-weight-400);
           height: 44px;
           justify-content: center;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           position: relative;
           text-decoration-line: none;
-          width: 44px
+          width: 44px;
+          word-spacing: 0.16em
         ">
           <style>@scope{:scope{
             &::after {
@@ -5759,7 +5926,10 @@
       <li style="
         align-items: center;
         display: flex;
-        justify-content: center
+        justify-content: center;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
       ">
         <span style="
           align-items: center;
@@ -5768,7 +5938,10 @@
           font-weight: var(--font-weight-400);
           height: 44px;
           justify-content: center;
-          width: 44px
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          width: 44px;
+          word-spacing: 0.16em
         ">
           <svg
             height="8"
@@ -5777,22 +5950,35 @@
               display: inline-block;
               fill: currentcolor;
               height: 24px;
+              letter-spacing: 0.12em;
+              line-height: 1.5;
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
               vertical-align: middle;
-              width: 24px
+              width: 24px;
+              word-spacing: 0.16em
             "
             width="8"
           >
-            <use href="#icon-overflow-horizontal-24"/>
+            <use
+              href="#icon-overflow-horizontal-24"
+              style="
+                letter-spacing: 0.12em;
+                line-height: 1.5;
+                word-spacing: 0.16em
+              "
+            />
           </svg>
         </span>
       </li>
       <li style="
         align-items: center;
         display: flex;
-        justify-content: center
+        justify-content: center;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
       ">
         <a style="
           align-items: center;
@@ -5803,9 +5989,12 @@
           font-weight: var(--font-weight-400);
           height: 44px;
           justify-content: center;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           position: relative;
           text-decoration-line: none;
-          width: 44px
+          width: 44px;
+          word-spacing: 0.16em
         ">
           <style>@scope{:scope{
             &::after {
@@ -5852,12 +6041,15 @@
       font-size: 1em;
       height: 40px;
       justify-content: center;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
       margin-inline-start: var(--spacing-100);
       overflow-x: hidden;
       overflow-y: hidden;
       position: relative;
       vertical-align: text-bottom;
-      width: 40px
+      width: 40px;
+      word-spacing: 0.16em
     ">
       <style>@scope{:scope{
         &::after {
@@ -5881,6 +6073,8 @@
           display: inline-block;
           fill: var(--color-foreground-primary);
           height: 16px;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
           margin-left: auto;
           margin-right: auto;
           max-width: 75%;
@@ -5889,11 +6083,19 @@
           stroke-width: 0;
           stroke: currentcolor;
           vertical-align: middle;
-          width: 16px
+          width: 16px;
+          word-spacing: 0.16em
         "
         width="24"
       >
-        <use href="#icon-arrow-right-16"/>
+        <use
+          href="#icon-arrow-right-16"
+          style="
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            word-spacing: 0.16em
+          "
+        />
       </svg>
     </a>
   </nav>

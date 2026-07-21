@@ -167,66 +167,6 @@ export const action = () => `
 </div>
 `;
 
-export const RTL = () => `
-<div dir="rtl">
-    <div class="list">
-        <ul>
-            <li>
-                <button>
-                    <span class="list__leading">
-                        <svg aria-hidden="true" class="icon icon--16" height="16" width="16">
-                            <use href="#icon-folder-16"/>
-                        </svg>
-                    </span>
-
-                    Button
-                </button>
-            </li>
-            <li>
-                <a href="www.ebay.com">
-                    <span class="list__leading">
-                        <svg aria-hidden="true" class="icon icon--16" height="16" width="16">
-                            <use href="#icon-folder-16"/>
-                        </svg>
-                    </span>
-                    <span class="list__body">
-                        Link
-                    </span>
-                    <span class="list__trailing">
-                        <svg aria-hidden="true" class="icon icon--16" height="16" width="16">
-                            <use href="#icon-chevron-left-16"/>
-                        </svg>
-                    </span>
-                </a>
-            </li>
-            <li>
-                <div>
-                    <span class="list__leading">
-                        <svg aria-hidden="true" class="icon icon--16" height="16" width="16">
-                            <use href="#icon-folder-16"/>
-                        </svg>
-                    </span>
-                    <span class="list__body">
-                        Item 1 with an action
-                    </span>
-                    <span class="list__trailing">
-                        <span class="switch">
-                            <input
-                                aria-label="Checkbox switch demo"
-                                class="switch__control"
-                                role="switch"
-                                type="checkbox"
-                                aria-checked="false"
-                            >
-                            <span class="switch__button"/>
-                        </span>
-                    </span>
-                </div>
-            </li>
-        </ul>
-    </div>
-</div>
-`;
 export const variableWidth = () =>
     `<div style="width: 200px">
     <div class="list">
