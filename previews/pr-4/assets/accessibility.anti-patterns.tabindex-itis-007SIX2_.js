@@ -1,0 +1,2 @@
+import{a,w as s,i as $}from"./_QgybNof5.js";import"./_CQznNREB.js";import{$ as o,a as e,b as n,c as m}from"./_CEHQAFNM.js";import{$walks as p,$template as _,$setup as u}from"./_Co53W3OR.js";import"./_DTyL8OwH.js";const i=t=>{u(t.a)},r=s("lOmAAJ_",(t=>`<!>${t}<!>`)(_),(t=>`b/${t}&b`)(p),i),c=t=>{n(t.a),m(t.a,r(t))};a("YTPs$Ad",(t=>`<!>${t}<!>`)(e),(t=>`b/${t}&b`)(o),c);$();
+//# sourceMappingURL=accessibility.anti-patterns.tabindex-itis-007SIX2_.js.map
