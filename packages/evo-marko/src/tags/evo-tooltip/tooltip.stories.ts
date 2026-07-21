@@ -22,74 +22,17 @@ export default {
     },
   },
 
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     open: {
       controllable: true,
-      type: "boolean",
-      control: "boolean",
-      description: "Visibility of the tooltip.",
-    },
-    placement: {
-      type: "string",
-      control: "select",
-      options: [
-        "top",
-        "top-start",
-        "top-end",
-        "right",
-        "right-start",
-        "right-end",
-        "bottom",
-        "bottom-start",
-        "bottom-end",
-        "left",
-        "left-start",
-        "left-end",
-      ],
-      description: "Position of the overlay relative to the host element",
-      table: { defaultValue: { summary: "bottom" } },
-    },
-    offset: {
-      type: "number",
-      control: "number",
-      description: "Offset distance from the host element in pixels",
-      table: { defaultValue: { summary: "8" } },
-    },
-    flip: {
-      type: "boolean",
-      control: "boolean",
-      description: "Enable automatic flipping when near viewport edge",
-      table: { defaultValue: { summary: "true" } },
-    },
-    shift: {
-      type: "boolean",
-      control: "boolean",
-      description: "Enable automatic shifting when near viewport edge",
-      table: { defaultValue: { summary: "true" } },
-    },
-    inline: {
-      type: "boolean",
-      control: "boolean",
-      description: "Enable inline positioning middleware",
-      table: { defaultValue: { summary: "true" } },
-    },
-    noHover: {
-      type: "boolean",
-      control: "boolean",
-      description: "Disable hover behavior (only focus will open the tooltip)",
-      table: { defaultValue: { summary: "false" } },
     },
     host: {
-      type: { name: "object", value: {}, required: true },
-      description: "The host element that triggers the tooltip.",
-      table: { type: { summary: undefined } },
       "@": {
         as: {
-          type: "string",
           control: "text",
-          description:
-            "Override the element that the item is rendered as, instead of `<span>`",
-          table: { defaultValue: { summary: "span" } },
         },
         ["<span> attributes" as any]: {
           description:
@@ -98,14 +41,9 @@ export default {
       },
     },
     heading: {
-      description: "Optional heading content, rendered as a styled `<span>`.",
       "@": {
         as: {
-          type: "string",
           control: "text",
-          description:
-            "Override the element that the item is rendered as, instead of `<span>`",
-          table: { defaultValue: { summary: "span" } },
         },
         ["<span> attributes" as any]: {
           description:

@@ -24,77 +24,14 @@ export default {
     },
   },
 
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     open: {
       controllable: true,
-      type: "boolean",
-      control: "boolean",
-      description: "Whether the infotip is open.",
-    },
-    placement: {
-      type: "string",
-      options: [
-        "top",
-        "top-start",
-        "top-end",
-        "right",
-        "right-start",
-        "right-end",
-        "bottom",
-        "bottom-start",
-        "bottom-end",
-        "left",
-        "left-start",
-        "left-end",
-      ],
-      control: "select",
-      description: "Position of the overlay relative to the trigger button",
-      table: { defaultValue: { summary: "bottom" } },
-    },
-    offset: {
-      type: "number",
-      control: "number",
-      description: "Offset distance from the trigger button in pixels",
-      table: { defaultValue: { summary: "8" } },
-    },
-    flip: {
-      type: "boolean",
-      control: "boolean",
-      description: "Enable automatic flipping when near viewport edge",
-      table: { defaultValue: { summary: "true" } },
-    },
-    shift: {
-      type: "boolean",
-      control: "boolean",
-      description: "Enable automatic shifting when near viewport edge",
-      table: { defaultValue: { summary: "true" } },
-    },
-    inline: {
-      type: "boolean",
-      control: "boolean",
-      description: "Enable inline positioning middleware",
-      table: { defaultValue: { summary: "true" } },
-    },
-    disabled: {
-      type: "boolean",
-      control: "boolean",
-      description: "Disable the trigger button",
-      table: { defaultValue: { summary: "false" } },
-    },
-    a11yIconText: {
-      type: { name: "string", required: true },
-      control: "text",
-      description: "Localized accessibility label for the trigger button",
-      table: { defaultValue: { summary: "Help" } },
-    },
-    a11yCloseText: {
-      type: { name: "string", required: true },
-      control: "text",
-      description: "Localized accessibility label for the close button",
-      table: { defaultValue: { summary: "Dismiss infotip" } },
     },
     icon: {
-      description: "Custom icon to replace the default info icon.",
       "@": {
         ["<span> attributes" as any]: {
           description:
@@ -103,15 +40,10 @@ export default {
       },
     },
     heading: {
-      name: "@heading",
-      description:
-        "Optional heading content. Defaults to `<span>`, but can be overridden",
       "@": {
         as: {
-          type: "string",
           options: ["span", "h1", "h2", "s", "h4", "h5", "h6"],
           control: "select",
-          description: "Overrides the tag used for the header text",
         },
         ["<span> attributes" as any]: {
           description:

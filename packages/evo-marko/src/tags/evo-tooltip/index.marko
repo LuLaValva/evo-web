@@ -1,20 +1,52 @@
 import type { Input as ExpanderInput } from "<evo-expander>";
 export interface Input extends Marko.HTML.Span {
+    /** Visibility of the tooltip. */
     open?: boolean;
     openChange?: (open: boolean) => void;
+    /**
+     * Position of the overlay relative to the host element
+     * @default "bottom"
+     */
     placement?: ExpanderInput["placement"];
+    /**
+     * Offset distance from the host element in pixels
+     * @default 8
+     */
     offset?: number;
+    /**
+     * Enable automatic flipping when near viewport edge
+     * @default true
+     */
     flip?: boolean;
+    /**
+     * Enable automatic shifting when near viewport edge
+     * @default true
+     */
     shift?: boolean;
+    /**
+     * Enable inline positioning middleware
+     * @default true
+     */
     inline?: boolean;
+    /** Disable hover behavior (only focus will open the tooltip) */
     noHover?: boolean;
+    /** The host element that triggers the tooltip. */
     host: Marko.AttrTag<
         Marko.HTML.Span & {
+            /**
+             * Override the element that the item is rendered as, instead of `<span>`
+             * @default "span"
+             */
             as?: Marko.Renderable;
         }
     >;
+    /** Optional heading content, rendered as a styled `<span>`. */
     heading?: Marko.AttrTag<
         Marko.HTML.Span & {
+            /**
+             * Override the element that the item is rendered as, instead of `<span>`
+             * @default "span"
+             */
             as?: Marko.Renderable;
         }
     >;

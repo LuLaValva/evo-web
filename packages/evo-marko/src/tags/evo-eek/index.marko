@@ -9,9 +9,16 @@ export interface Input extends Omit<Marko.HTML.Div, "aria-label"> {
    * Pass `null` explicitly _only_ if alternative accessibility information is present
    */
   a11yText: string | null;
+  /** The maximum range */
   max: string;
+  /** The minimum range */
   min: string;
+  /** The energy rating */
   rating: string;
+  /**
+   * The size of the EEK.
+   * @default "regular"
+   */
   size?: "regular" | "large";
 }
 static const validRanges = {

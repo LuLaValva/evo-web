@@ -1,6 +1,9 @@
 export interface Input extends Omit<Marko.HTML.Div, "aria-label"> {
+    /** The maximum range. If min and max are both not set, then will not show the charger label. */
     max?: string;
+    /** The minimum range. If min and max are both not set, then will not show the charger label. */
     min?: string;
+    /** Toggles the charger icon visible or if it's included or not */
     chargerIcon?: "included" | "not-included";
     /**
      * The `aria-label` accessibility label for the ccd component.
@@ -12,7 +15,12 @@ export interface Input extends Omit<Marko.HTML.Div, "aria-label"> {
      * Pass `null` explicitly _only_ if alternative accessibility information is present
      */
     a11yText: string | null;
+    /** Toggles the usbpd secondary text */
     secondaryType?: "usbpd";
+    /**
+     * The unit label displayed beneath the power range.
+     * @default "W"
+     */
     units?: string;
 }
 <const/{

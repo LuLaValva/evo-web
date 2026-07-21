@@ -25,33 +25,15 @@ export default {
     },
   },
 
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     a11yText: {
-      type: { name: "string", required: true },
       control: "text",
-      description:
-        "Localized, the aria-label accessibility label for the eek component. This is for internationalization. It should use min, max, and rating in the label in order to demonstrate to screen readers the content on the component. Expected value `Energy efficiency class ${rating}. ${min} - ${max}`. May be set to `null` only if accessibility is provided through other means.",
-    },
-    rating: {
-      type: { name: "string", required: true },
-      control: "text",
-      description: "The energy rating",
-    },
-    max: {
-      type: { name: "string", required: true },
-      control: "text",
-      description: "The maximum range",
-    },
-    min: {
-      type: { name: "string", required: true },
-      control: "text",
-      description: "The minimum range",
     },
     size: {
-      type: "string",
-      options: ["regular (default)", "large"],
       control: "inline-radio",
-      description: "The size of the EEK.",
     },
     ["<div> attributes" as any]: {
       description:

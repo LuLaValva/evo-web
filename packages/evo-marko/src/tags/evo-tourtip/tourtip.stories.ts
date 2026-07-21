@@ -22,74 +22,17 @@ export default {
     },
   },
 
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     open: {
       controllable: true,
-      type: "boolean",
-      control: "boolean",
-      description: "Visibility of the tooltip.",
-    },
-    placement: {
-      type: "string",
-      control: "select",
-      options: [
-        "top",
-        "top-start",
-        "top-end",
-        "right",
-        "right-start",
-        "right-end",
-        "bottom",
-        "bottom-start",
-        "bottom-end",
-        "left",
-        "left-start",
-        "left-end",
-      ],
-      description: "Position of the overlay relative to the host element",
-      table: { defaultValue: { summary: "top" } },
-    },
-    offset: {
-      type: "number",
-      control: "number",
-      description: "Offset distance from the host element in pixels",
-      table: { defaultValue: { summary: "6" } },
-    },
-    flip: {
-      type: "boolean",
-      control: "boolean",
-      description: "Enable automatic flipping when near viewport edge",
-      table: { defaultValue: { summary: "true" } },
-    },
-    shift: {
-      type: "boolean",
-      control: "boolean",
-      description: "Enable automatic shifting when near viewport edge",
-      table: { defaultValue: { summary: "false" } },
-    },
-    inline: {
-      type: "boolean",
-      control: "boolean",
-      description: "Enable inline positioning middleware",
-      table: { defaultValue: { summary: "true" } },
-    },
-    a11yCloseText: {
-      type: { name: "string", required: true },
-      control: "text",
-      description: "Localized accessibility label for the close button",
-      table: { defaultValue: { summary: "Dismiss tourtip" } },
     },
     host: {
-      type: { name: "object", value: {}, required: true },
-      description: "The host element that triggers the tooltip.",
-      table: { type: { summary: undefined } },
       "@": {
         as: {
-          type: "string",
           control: "text",
-          description:
-            "Override the element that the item is rendered as, instead of `<span>`",
-          table: { defaultValue: { summary: "span" } },
         },
         ["<span> attributes" as any]: {
           description:
@@ -98,15 +41,9 @@ export default {
       },
     },
     heading: {
-      description:
-        "Optional heading content, rendered as an `<h2>` by default.",
       "@": {
         as: {
-          type: "string",
           control: "text",
-          description:
-            "Override the element that the item is rendered as, instead of `<h2>`",
-          table: { defaultValue: { summary: "h2" } },
         },
         ["<h2> attributes" as any]: {
           description:
@@ -115,14 +52,7 @@ export default {
       },
     },
     footer: {
-      description: "Optional footer content, rendered as a styled `<span>`.",
       "@": {
-        index: {
-          type: "string",
-          control: "text",
-          description: "Text for pagination display`",
-          table: { defaultValue: { summary: "h2" } },
-        },
         ["<span> attributes" as any]: {
           description:
             "All attributes and event handlers from [the native HTML `<span>` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/span) will be passed through",

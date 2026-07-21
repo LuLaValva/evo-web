@@ -16,14 +16,10 @@ export default {
     },
   },
 
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
-    status: {
-      type: "string",
-      options: ["neutral", "trustworthy", "recent", "time-sensitive"],
-      control: "radio",
-      description: "Status of the signal",
-      table: { defaultValue: { summary: "neutral" } },
-    },
     ["<span> attributes" as any]: {
       description:
         "All attributes and event handlers from [the native HTML `<span>` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/span) will be passed through",

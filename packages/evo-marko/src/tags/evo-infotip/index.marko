@@ -1,17 +1,45 @@
 import type { Input as ExpanderInput } from "<evo-expander>";
 
 export interface Input extends Marko.HTML.Span {
+    /** Whether the infotip is open. */
     open?: boolean;
     openChange?: (open: boolean) => void;
+    /**
+     * Position of the overlay relative to the trigger button
+     * @default "bottom"
+     */
     placement?: ExpanderInput["placement"];
+    /**
+     * Offset distance from the trigger button in pixels
+     * @default 8
+     */
     offset?: number;
+    /**
+     * Enable automatic flipping when near viewport edge
+     * @default true
+     */
     flip?: boolean;
+    /**
+     * Enable automatic shifting when near viewport edge
+     * @default true
+     */
     shift?: boolean;
+    /**
+     * Enable inline positioning middleware
+     * @default true
+     */
     inline?: boolean;
+    /** Disable the trigger button */
     disabled?: boolean;
+    /** Custom icon to replace the default info icon. */
     icon?: Marko.AttrTag<Marko.HTML.Span>;
+    /** Optional heading content. Defaults to `<span>`, but can be overridden */
     heading?: Marko.AttrTag<
         Marko.HTML.Span & {
+            /**
+             * Overrides the tag used for the header text
+             * @default "span"
+             */
             as?: Marko.Renderable;
         }
     >;
@@ -19,12 +47,14 @@ export interface Input extends Marko.HTML.Span {
      * The `aria-label` for the infotip trigger button
      *
      * English default to be overridden is `"Help"`
+     * @default "Help"
      */
     a11yIconText: string;
     /**
      * The `aria-label` for the close button
      *
      * English default to be overridden is `"Dismiss infotip"`
+     * @default "Dismiss infotip"
      */
     a11yCloseText: string;
 }

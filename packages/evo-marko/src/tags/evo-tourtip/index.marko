@@ -1,24 +1,60 @@
 import type { Input as ExpanderInput } from "<evo-expander>";
 export interface Input extends Marko.HTML.Span {
+    /**
+     * Visibility of the tourtip.
+     * @default true
+     */
     open?: boolean;
     openChange?: (open: boolean) => void;
+    /**
+     * Position of the overlay relative to the host element
+     * @default "top"
+     */
     placement?: ExpanderInput["placement"];
+    /**
+     * Offset distance from the host element in pixels
+     * @default 6
+     */
     offset?: number;
+    /**
+     * Enable automatic flipping when near viewport edge
+     * @default true
+     */
     flip?: boolean;
+    /**
+     * Enable automatic shifting when near viewport edge
+     * @default false
+     */
     shift?: boolean;
+    /**
+     * Enable inline positioning middleware
+     * @default true
+     */
     inline?: boolean;
+    /** The host element that triggers the tourtip. */
     host: Marko.AttrTag<
         Marko.HTML.Span & {
+            /**
+             * Override the element that the item is rendered as, instead of `<span>`
+             * @default "span"
+             */
             as?: Marko.Renderable;
         }
     >;
+    /** Optional heading content, rendered as an `<h2>` by default. */
     heading?: Marko.AttrTag<
         Marko.HTML.H2 & {
+            /**
+             * Override the element that the item is rendered as, instead of `<h2>`
+             * @default "h2"
+             */
             as?: Marko.Renderable;
         }
     >;
+    /** Optional footer content, rendered as a styled `<span>`. */
     footer?: Marko.AttrTag<
         Marko.HTML.Span & {
+            /** Text for pagination display */
             index?: string;
         }
     >;
@@ -26,6 +62,7 @@ export interface Input extends Marko.HTML.Span {
      * The `aria-label` for the close button
      *
      * English default to be overridden is `"Dismiss tourtip"`
+     * @default "Dismiss tourtip"
      */
     a11yCloseText: string;
 }
