@@ -330,6 +330,19 @@ pre.diff .del { color: var(--removed); }
 pre.diff .hunk { color: var(--accent); }
 
 .empty-state { color: var(--fg-muted); padding: 64px; text-align: center; font-size: 15px; }
+
+/* Index intro pane */
+.intro { max-width: 640px; }
+.intro h2 { font-size: 16px; margin: 4px 0 4px; }
+.intro ul { padding-left: 20px; display: flex; flex-direction: column; gap: 8px; margin: 8px 0; }
+.intro .fine { color: var(--fg-muted); font-size: 12.5px; }
+.todo-demo {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: var(--accent);
+}
 kbd {
     background: var(--bg-inset);
     border: 1px solid var(--border);
