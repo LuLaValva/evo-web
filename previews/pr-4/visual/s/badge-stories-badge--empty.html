@@ -9,8 +9,8 @@
 <body class="story-page">
 <header>
     <a class="back" href="../index.html">← All changes</a>
-    <h1 id="title"></h1>
-    <span class="meta" id="path"></span>
+    <h1 id="title">badge / empty</h1>
+    <span class="meta" id="path">packages/skin/src/sass/badge/stories/__snapshots__/badge.snap</span>
     <span class="pagenav">
         <a id="prev" href="#">‹ prev</a>
         <span class="pos" id="pos"></span>
@@ -21,7 +21,49 @@
     <input id="search" type="search" placeholder="Filter stories… ( / )" />
     <div id="storylist"></div>
 </nav>
-<main id="main"></main>
+<main id="main">
+    <div class="toolbar">
+        <div class="seg" data-seg="mode">
+            <button type="button" data-v="side" class="active">Side by side</button>
+            <button type="button" data-v="swipe">Swipe</button>
+            <button type="button" data-v="onion">Onion</button>
+            <button type="button" data-v="flip">Flip</button>
+        </div>
+        <div class="seg" data-seg="view">
+            <button type="button" data-v="rendered" class="active">Rendered</button>
+            <button type="button" data-v="diff">Text diff</button>
+        </div>
+        <div class="seg" data-seg="theme">
+            <button type="button" data-v="light" class="active">Light</button>
+            <button type="button" data-v="dark">Dark</button>
+        </div>
+        <label class="toggle"><input type="checkbox" id="hl-toggle" checked />Highlights</label>
+        <div class="grow"></div>
+        <button class="flag" id="flag-btn" type="button">⚑ Flag</button>
+    </div>
+    <section class="dim-section" id="dim-0" data-dim="0"><div class="stage"><div class="render-area"><div class="duo mode-side fluid"><div class="duo-side base"><h3 class="pane-label">Base (73b70457c9cb)</h3><div class="frame-wrap fluid"><iframe loading="lazy" data-side="base" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;base.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-base.js&quot;></script>
+<span class=&quot;badge&quot;></span>
+</body></html>"></iframe></div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fluid"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<span class=&quot;badge&quot;></span>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -2,11 +2,11 @@</span>
+   &lt;span style=&quot;
+     align-items: center;
+     background-color: var(--color-background-attention);
+<span class="del">-    border-bottom-left-radius: 1.2em;</span>
+<span class="del">-    border-bottom-right-radius: 1.2em;</span>
+<span class="del">-    border-top-left-radius: 1.2em;</span>
+<span class="del">-    border-top-right-radius: 1.2em;</span>
+<span class="del">-    border: 2px solid var(--color-border-inverse);</span>
+<span class="add">+    border-bottom-left-radius: 0.4em;</span>
+<span class="add">+    border-bottom-right-radius: 0.4em;</span>
+<span class="add">+    border-top-left-radius: 0.4em;</span>
+<span class="add">+    border-top-right-radius: 0.4em;</span>
+<span class="add">+    border: 1px solid var(--color-border-inverse);</span>
+     box-sizing: border-box;
+     color: var(--color-foreground-on-attention);
+     display: inline-flex;
+</pre></div><aside class="inspector"><h3>1 changed element</h3><div class="change-row" data-change-id="vhd1"><button type="button"><span class="where">div › span</span> <span class="count">— 5</span></button><table><tr><td class="prop">border-bottom-left-radius</td><td><span class="b">1.2em</span><span class="a">0.4em</span></td></tr><tr><td class="prop">border-bottom-right-radius</td><td><span class="b">1.2em</span><span class="a">0.4em</span></td></tr><tr><td class="prop">border-top-left-radius</td><td><span class="b">1.2em</span><span class="a">0.4em</span></td></tr><tr><td class="prop">border-top-right-radius</td><td><span class="b">1.2em</span><span class="a">0.4em</span></td></tr><tr><td class="prop">border</td><td><span class="b">2px solid var(--color-border-inverse)</span><span class="a">1px solid var(--color-border-inverse)</span></td></tr></table></div></aside></div></section>
+</main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
     <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
@@ -34,10 +76,10 @@
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
-    const PAGE = {"entry":{"component":"badge","story":"empty","file":"packages/skin/src/sass/badge/stories/__snapshots__/badge.snap","dims":[{"suffix":"","width":null,"rtl":false,"status":"changed","before":"<div>\n  <span style=\"\n    align-items: center;\n    background-color: var(--color-background-attention);\n    border-bottom-left-radius: 1.2em;\n    border-bottom-right-radius: 1.2em;\n    border-top-left-radius: 1.2em;\n    border-top-right-radius: 1.2em;\n    border: 2px solid var(--color-border-inverse);\n    box-sizing: border-box;\n    color: var(--color-foreground-on-attention);\n    display: inline-flex;\n    font-size: var(--font-size-smallest);\n    height: var(--dimension-150);\n    justify-content: center;\n    padding-inline: var(--spacing-50);\n    text-wrap-mode: nowrap;\n    width: var(--dimension-150)\n  \"/>\n<\/div>","after":"<div>\n  <span style=\"\n    align-items: center;\n    background-color: var(--color-background-attention);\n    border-bottom-left-radius: 0.4em;\n    border-bottom-right-radius: 0.4em;\n    border-top-left-radius: 0.4em;\n    border-top-right-radius: 0.4em;\n    border: 1px solid var(--color-border-inverse);\n    box-sizing: border-box;\n    color: var(--color-foreground-on-attention);\n    display: inline-flex;\n    font-size: var(--font-size-smallest);\n    height: var(--dimension-150);\n    justify-content: center;\n    padding-inline: var(--spacing-50);\n    text-wrap-mode: nowrap;\n    width: var(--dimension-150)\n  \"/>\n<\/div>","diff":"@@ -2,11 +2,11 @@\n   <span style=\"\n     align-items: center;\n     background-color: var(--color-background-attention);\n-    border-bottom-left-radius: 1.2em;\n-    border-bottom-right-radius: 1.2em;\n-    border-top-left-radius: 1.2em;\n-    border-top-right-radius: 1.2em;\n-    border: 2px solid var(--color-border-inverse);\n+    border-bottom-left-radius: 0.4em;\n+    border-bottom-right-radius: 0.4em;\n+    border-top-left-radius: 0.4em;\n+    border-top-right-radius: 0.4em;\n+    border: 1px solid var(--color-border-inverse);\n     box-sizing: border-box;\n     color: var(--color-foreground-on-attention);\n     display: inline-flex;\n"}],"storyBefore":"\n<span class=\"badge\"><\/span>\n","storyAfter":"\n<span class=\"badge\"><\/span>\n"},"baseRefShort":"71163be76b59","prevHref":"badge-stories-badge--RTL.html","nextHref":"badge-stories-badge--oneDigit.html","indexHref":"../index.html","pos":2,"total":25,"slug":"badge-stories-badge--empty","hash":"11rcgtj"};
+    const PAGE = {"baseRefShort":"73b70457c9cb","prevHref":"badge-stories-badge--RTL.html","nextHref":"badge-stories-badge--oneDigit.html","indexHref":"../index.html","pos":2,"total":25,"slug":"badge-stories-badge--empty","hash":"11rcgtj","component":"badge","story":"empty","file":"packages/skin/src/sass/badge/stories/__snapshots__/badge.snap","dims":[{"changes":[{"id":"vhd1","kind":"changed","path":["div","span"],"pathB":[0,0],"pathA":[0,0]}]}]};
 </script>
-<script src="../assets/nav.js"></script>
-<script src="../assets/story.js"></script>
+<script src="../assets/nav.js" defer></script>
+<script src="../assets/story.js" defer></script>
 <script src="../assets/prefetch.js" defer></script>
 </body>
 </html>

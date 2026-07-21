@@ -9,8 +9,8 @@
 <body class="story-page">
 <header>
     <a class="back" href="../index.html">← All changes</a>
-    <h1 id="title"></h1>
-    <span class="meta" id="path"></span>
+    <h1 id="title">switch / offDisabled</h1>
+    <span class="meta" id="path">packages/skin/src/sass/switch/stories/__snapshots__/form.snap</span>
     <span class="pagenav">
         <a id="prev" href="#">‹ prev</a>
         <span class="pos" id="pos"></span>
@@ -21,7 +21,68 @@
     <input id="search" type="search" placeholder="Filter stories… ( / )" />
     <div id="storylist"></div>
 </nav>
-<main id="main"></main>
+<main id="main">
+    <div class="toolbar">
+        <div class="seg" data-seg="mode">
+            <button type="button" data-v="side" class="active">Side by side</button>
+            <button type="button" data-v="swipe">Swipe</button>
+            <button type="button" data-v="onion">Onion</button>
+            <button type="button" data-v="flip">Flip</button>
+        </div>
+        <div class="seg" data-seg="view">
+            <button type="button" data-v="rendered" class="active">Rendered</button>
+            <button type="button" data-v="diff">Text diff</button>
+        </div>
+        <div class="seg" data-seg="theme">
+            <button type="button" data-v="light" class="active">Light</button>
+            <button type="button" data-v="dark">Dark</button>
+        </div>
+        <label class="toggle"><input type="checkbox" id="hl-toggle" checked />Highlights</label>
+        <div class="grow"></div>
+        <button class="flag" id="flag-btn" type="button">⚑ Flag</button>
+    </div>
+    <section class="dim-section" id="dim-0" data-dim="0"><div class="stage"><div class="render-area"><div class="duo mode-side fluid"><div class="duo-side base"><h3 class="pane-label">Base (73b70457c9cb)</h3><div class="frame-wrap fluid"><iframe loading="lazy" data-side="base" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;base.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-base.js&quot;></script>
+<div class=&quot;switch&quot;>
+    <input class=&quot;switch__control&quot; role=&quot;switch&quot; type=&quot;checkbox&quot; aria-checked=&quot;false&quot; disabled />
+    <span class=&quot;switch__button&quot;></span>
+</div>
+</body></html>"></iframe></div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fluid"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><base href=&quot;../assets/&quot;><link rel=&quot;stylesheet&quot; href=&quot;head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body class=&quot;vhd-on&quot;><script src=&quot;sprite-head.js&quot;></script>
+<div class=&quot;switch&quot;>
+    <input class=&quot;switch__control&quot; role=&quot;switch&quot; type=&quot;checkbox&quot; aria-checked=&quot;false&quot; disabled />
+    <span class=&quot;switch__button&quot;></span>
+</div>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -27,16 +27,16 @@</span>
+     &lt;span style=&quot;
+       align-self: center;
+       background-color: var(--switch-unchecked-background-color, var(--color-background-secondary));
+<span class="del">-      border-bottom-left-radius: 400px;</span>
+<span class="del">-      border-bottom-right-radius: 400px;</span>
+<span class="add">+      border-bottom-left-radius: 8px;</span>
+<span class="add">+      border-bottom-right-radius: 8px;</span>
+       border-bottom-style: solid;
+       border-bottom-width: 1px;
+       border-left-style: solid;
+       border-left-width: 1px;
+       border-right-style: solid;
+       border-right-width: 1px;
+<span class="del">-      border-top-left-radius: 400px;</span>
+<span class="del">-      border-top-right-radius: 400px;</span>
+<span class="add">+      border-top-left-radius: 8px;</span>
+<span class="add">+      border-top-right-radius: 8px;</span>
+       border-top-style: solid;
+       border-top-width: 1px;
+       color: transparent;
+<span class="hunk">@@ -47,7 +47,7 @@</span>
+       transition-duration: 0.15s;
+       transition-property: left;
+       transition-timing-function: ease-out;
+<span class="del">-      width: 40px</span>
+<span class="add">+      width: 48px</span>
+     &quot;>
+       &lt;style>@scope{:scope{
+         &amp;::after {
+</pre></div><aside class="inspector"><h3>1 changed element</h3><div class="change-row" data-change-id="vhd32"><button type="button"><span class="where">div › div › span</span> <span class="count">— 5</span></button><table><tr><td class="prop">border-bottom-left-radius</td><td><span class="b">400px</span><span class="a">8px</span></td></tr><tr><td class="prop">border-bottom-right-radius</td><td><span class="b">400px</span><span class="a">8px</span></td></tr><tr><td class="prop">border-top-left-radius</td><td><span class="b">400px</span><span class="a">8px</span></td></tr><tr><td class="prop">border-top-right-radius</td><td><span class="b">400px</span><span class="a">8px</span></td></tr><tr><td class="prop">width</td><td><span class="b">40px</span><span class="a">48px</span></td></tr></table></div></aside></div></section>
+</main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
     <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
@@ -34,10 +95,10 @@
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
-    const PAGE = {"entry":{"component":"switch","story":"offDisabled","file":"packages/skin/src/sass/switch/stories/__snapshots__/form.snap","dims":[{"suffix":"","width":null,"rtl":false,"status":"changed","before":"<div>\n  <div style=\"\n    box-sizing: border-box;\n    display: flex;\n    height: 40px;\n    position: relative;\n    vertical-align: middle\n  \">\n    <input\n      disabled\n      style=\"\n        height: 24px;\n        left: 0px;\n        margin-bottom: 0px;\n        margin-left: 0px;\n        margin-right: 0px;\n        margin-top: 0px;\n        opacity: 0;\n        outline-width: 0px;\n        position: absolute;\n        top: 8px;\n        width: 40px;\n        z-index: 1\n      \"\n      type=\"checkbox\"\n    />\n    <span style=\"\n      align-self: center;\n      background-color: var(--switch-unchecked-background-color, var(--color-background-secondary));\n      border-bottom-left-radius: 400px;\n      border-bottom-right-radius: 400px;\n      border-bottom-style: solid;\n      border-bottom-width: 1px;\n      border-left-style: solid;\n      border-left-width: 1px;\n      border-right-style: solid;\n      border-right-width: 1px;\n      border-top-left-radius: 400px;\n      border-top-right-radius: 400px;\n      border-top-style: solid;\n      border-top-width: 1px;\n      color: transparent;\n      display: inline-block;\n      height: 24px;\n      position: relative;\n      text-indent: 100%;\n      transition-duration: 0.15s;\n      transition-property: left;\n      transition-timing-function: ease-out;\n      width: 40px\n    \">\n      <style>@scope{:scope{\n        &::after {\n          background-color: var(--switch-foreground-color, var(--color-background-primary));\n          border-bottom-left-radius: 50%;\n          border-bottom-right-radius: 50%;\n          border-bottom-style: solid;\n          border-bottom-width: 1px;\n          border-left-style: solid;\n          border-left-width: 1px;\n          border-right-style: solid;\n          border-right-width: 1px;\n          border-top-left-radius: 50%;\n          border-top-right-radius: 50%;\n          border-top-style: solid;\n          border-top-width: 1px;\n          content: \"\";\n          display: block;\n          height: 24px;\n          left: -1px;\n          position: absolute;\n          top: -1px;\n          transform: translateZ(0px);\n          transition-duration: 0.15s;\n          transition-property: left;\n          transition-timing-function: ease-out;\n          width: 24px\n        }\n      }}<\/style>\n    <\/span>\n  <\/div>\n<\/div>","after":"<div>\n  <div style=\"\n    box-sizing: border-box;\n    display: flex;\n    height: 40px;\n    position: relative;\n    vertical-align: middle\n  \">\n    <input\n      disabled\n      style=\"\n        height: 24px;\n        left: 0px;\n        margin-bottom: 0px;\n        margin-left: 0px;\n        margin-right: 0px;\n        margin-top: 0px;\n        opacity: 0;\n        outline-width: 0px;\n        position: absolute;\n        top: 8px;\n        width: 40px;\n        z-index: 1\n      \"\n      type=\"checkbox\"\n    />\n    <span style=\"\n      align-self: center;\n      background-color: var(--switch-unchecked-background-color, var(--color-background-secondary));\n      border-bottom-left-radius: 8px;\n      border-bottom-right-radius: 8px;\n      border-bottom-style: solid;\n      border-bottom-width: 1px;\n      border-left-style: solid;\n      border-left-width: 1px;\n      border-right-style: solid;\n      border-right-width: 1px;\n      border-top-left-radius: 8px;\n      border-top-right-radius: 8px;\n      border-top-style: solid;\n      border-top-width: 1px;\n      color: transparent;\n      display: inline-block;\n      height: 24px;\n      position: relative;\n      text-indent: 100%;\n      transition-duration: 0.15s;\n      transition-property: left;\n      transition-timing-function: ease-out;\n      width: 48px\n    \">\n      <style>@scope{:scope{\n        &::after {\n          background-color: var(--switch-foreground-color, var(--color-background-primary));\n          border-bottom-left-radius: 50%;\n          border-bottom-right-radius: 50%;\n          border-bottom-style: solid;\n          border-bottom-width: 1px;\n          border-left-style: solid;\n          border-left-width: 1px;\n          border-right-style: solid;\n          border-right-width: 1px;\n          border-top-left-radius: 50%;\n          border-top-right-radius: 50%;\n          border-top-style: solid;\n          border-top-width: 1px;\n          content: \"\";\n          display: block;\n          height: 24px;\n          left: -1px;\n          position: absolute;\n          top: -1px;\n          transform: translateZ(0px);\n          transition-duration: 0.15s;\n          transition-property: left;\n          transition-timing-function: ease-out;\n          width: 24px\n        }\n      }}<\/style>\n    <\/span>\n  <\/div>\n<\/div>","diff":"@@ -27,16 +27,16 @@\n     <span style=\"\n       align-self: center;\n       background-color: var(--switch-unchecked-background-color, var(--color-background-secondary));\n-      border-bottom-left-radius: 400px;\n-      border-bottom-right-radius: 400px;\n+      border-bottom-left-radius: 8px;\n+      border-bottom-right-radius: 8px;\n       border-bottom-style: solid;\n       border-bottom-width: 1px;\n       border-left-style: solid;\n       border-left-width: 1px;\n       border-right-style: solid;\n       border-right-width: 1px;\n-      border-top-left-radius: 400px;\n-      border-top-right-radius: 400px;\n+      border-top-left-radius: 8px;\n+      border-top-right-radius: 8px;\n       border-top-style: solid;\n       border-top-width: 1px;\n       color: transparent;\n@@ -47,7 +47,7 @@\n       transition-duration: 0.15s;\n       transition-property: left;\n       transition-timing-function: ease-out;\n-      width: 40px\n+      width: 48px\n     \">\n       <style>@scope{:scope{\n         &::after {\n"}],"storyBefore":"\n<div class=\"switch\">\n    <input class=\"switch__control\" role=\"switch\" type=\"checkbox\" aria-checked=\"false\" disabled />\n    <span class=\"switch__button\"><\/span>\n<\/div>\n","storyAfter":"\n<div class=\"switch\">\n    <input class=\"switch__control\" role=\"switch\" type=\"checkbox\" aria-checked=\"false\" disabled />\n    <span class=\"switch__button\"><\/span>\n<\/div>\n"},"baseRefShort":"71163be76b59","prevHref":"switch-stories-form--off.html","nextHref":"switch-stories-form--on.html","indexHref":"../index.html","pos":19,"total":25,"slug":"switch-stories-form--offDisabled","hash":"1jekwaf"};
+    const PAGE = {"baseRefShort":"73b70457c9cb","prevHref":"switch-stories-form--off.html","nextHref":"switch-stories-form--on.html","indexHref":"../index.html","pos":19,"total":25,"slug":"switch-stories-form--offDisabled","hash":"1jekwaf","component":"switch","story":"offDisabled","file":"packages/skin/src/sass/switch/stories/__snapshots__/form.snap","dims":[{"changes":[{"id":"vhd32","kind":"changed","path":["div","div","span"],"pathB":[0,0,1],"pathA":[0,0,1]}]}]};
 </script>
-<script src="../assets/nav.js"></script>
-<script src="../assets/story.js"></script>
+<script src="../assets/nav.js" defer></script>
+<script src="../assets/story.js" defer></script>
 <script src="../assets/prefetch.js" defer></script>
 </body>
 </html>
