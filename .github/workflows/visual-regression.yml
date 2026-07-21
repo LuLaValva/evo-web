@@ -57,22 +57,6 @@ jobs:
             git diff --stat -- 'packages/skin/src/sass/**/__snapshots__/**'
           fi
 
-      # TEMPORARY (remove before merging #2): RTL story removal + shared
-      # demo styles change every snapshot, and snapshot output is coupled
-      # to the Playwright-pinned Chromium (this branch's sandbox runs an
-      # older build), so CI adopts its own regenerated baseline here.
-      - name: "[TEMPORARY] Adopt CI-regenerated snapshots on migration branch"
-        if: >-
-          steps.verify.outputs.stale == 'true' &&
-          github.event.pull_request.head.repo.full_name == github.repository &&
-          github.head_ref == 'claude/percy-visual-html-migration-u4hs5w'
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add 'packages/skin/src/sass/**/__snapshots__/**'
-          git commit --no-verify -m "test: adopt CI-regenerated visual snapshots (RTL removal + demo styles)"
-          git push --no-verify origin "HEAD:refs/heads/${{ github.head_ref }}"
-
       - name: Build preview viewer (PR visual change vs base)
         id: viewer
         env:
