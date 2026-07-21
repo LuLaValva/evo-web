@@ -547,3 +547,12 @@ story** (`dist/s/<slug>.html`, slugs stable across builds):
   emitted once into `dist/assets/` and shared by all pages via `<base>`
   links inside the srcdoc frames, so pages stay small and assets cache.
   View preferences (mode/theme/highlights) persist across pages.
+- **Pages are rendered at compile time.** The element diff runs under
+  jsdom in `build.mjs`, frame documents are baked into static `srcdoc`
+  attributes (with both token themes linked, dark disabled), and the
+  inspector and text diff are pre-rendered markup. Client JS is a thin
+  enhancer: compare modes are class/style changes on a unified `.duo`
+  container (iframes are never rebuilt or reparented, so switching modes
+  or themes never reloads them), plus measuring, stores, and keyboard.
+  Combined with hover/focus prefetching, a prefetched page is a finished
+  page.
