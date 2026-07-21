@@ -18,71 +18,21 @@ export default {
     },
   },
 
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
-    classPrefix: {
-      type: "string",
-      control: "text",
-      description:
-        "A prefix to be added to all classes (used by parent components like menu-button)",
-    },
-    reverse: {
-      type: "boolean",
-      control: "boolean",
-      description: "Whether menu displays in reverse order",
-    },
-    fixed: {
-      type: "boolean",
-      control: "boolean",
-      description: "Whether the menu uses fixed positioning",
-    },
-    fixWidth: {
-      type: "boolean",
-      control: "boolean",
-      description: "Constrain items to the width of the button",
-    },
     item: {
-      description:
-        'A menu item. Can be a link (`href`) or a button (`type="button"`).',
       "@": {
+        // `href` is inherited from `Marko.HTML.A`, so docgen does not list
+        // it individually — documented here instead.
         href: {
           type: "string",
           control: "text",
           description: "URL for the link item. Omit for button items.",
         },
         type: {
-          type: "string",
           control: { type: "select" },
-          options: ["button", "submit"],
-          description:
-            'Set to `"button"` or `"submit"` to render a `<button>` instead of an `<a>`',
-        },
-        current: {
-          type: "boolean",
-          control: "boolean",
-          description:
-            "Whether the item represents the current page (sets `aria-current`)",
-        },
-        itemMatchesUrl: {
-          type: "boolean",
-          control: "boolean",
-          description:
-            'Used with `current`. When `false`, `aria-current` is set to `"true"` instead of `"page"`.',
-        },
-        badgeNumber: {
-          type: "number",
-          control: "number",
-          description: "Number to display in a badge",
-        },
-        disabled: {
-          type: "boolean",
-          control: "boolean",
-          description: "Whether the item is disabled",
-        },
-        separator: {
-          type: "boolean",
-          control: "boolean",
-          description:
-            "When `true`, renders a visual separator instead of a menu item",
         },
         ["<a> attributes" as any]: {
           description:

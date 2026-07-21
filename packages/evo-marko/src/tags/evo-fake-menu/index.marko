@@ -1,16 +1,27 @@
 export interface Item extends Marko.HTML.A {
+    /** Set to `"button"` or `"submit"` to render a `<button>` instead of an `<a>` */
     type?: "button" | "submit";
+    /** Whether the item represents the current page (sets `aria-current`) */
     current?: boolean;
+    /** Used with `current`. When `false`, `aria-current` is set to `"true"` instead of `"page"`. */
     itemMatchesUrl?: boolean;
+    /** Number to display in a badge */
     badgeNumber?: number;
+    /** Whether the item is disabled */
     disabled?: boolean;
+    /** When `true`, renders a visual separator instead of a menu item */
     separator?: boolean;
 }
 export interface Input extends Marko.HTML.Span {
+    /** A menu item. Can be a link (`href`) or a button (`type="button"`). */
     item?: Marko.AttrTag<Item>;
+    /** A prefix to be added to all classes (used by parent components like menu-button) */
     classPrefix?: string;
+    /** Whether menu displays in reverse order */
     reverse?: boolean;
+    /** Whether the menu uses fixed positioning */
     fixed?: boolean;
+    /** Constrain items to the width of the button */
     fixWidth?: boolean;
 }
 

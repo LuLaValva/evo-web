@@ -30,77 +30,26 @@ export default {
     },
   },
 
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     open: {
       controllable: true,
-      type: "boolean",
-      control: "boolean",
-      description: "Allows control over the open state of the menu",
-    },
-    collapseOnSelect: {
-      type: "boolean",
-      control: "boolean",
-      description: "When an option is selected, `open` is toggled to `false`.",
-    },
-    prefixId: {
-      type: "string",
-      control: "text",
-      description:
-        "Id of an external element to use as the prefix label for the listbox button. Should not be used with `prefixLabel`",
     },
     variant: {
-      type: "string",
-      options: ["button (default)", "overflow", "form", "icon", "filter"],
       control: "select",
-      table: { defaultValue: { summary: "button" } },
-      description: "Controls the button style",
-    },
-    borderless: {
-      type: "boolean",
-      control: "boolean",
-      description: 'whether button has borders. Forces `variant="button"`',
-    },
-    partiallyDisabled: {
-      type: "boolean",
-      control: "boolean",
-      description: "programmatically disabled, but remains keyboard focusable",
     },
     priority: {
-      type: "string",
-      options: ["none (default)", "primary", "secondary", "delete", "tertiary"],
       control: "select",
-      description: 'button priority, only used when `variant="button"`',
     },
     size: {
-      type: "string",
-      options: ["regular (default)", "large", "small"],
       control: "inline-radio",
-      description: "The size of the button",
-    },
-    transparent: {
-      type: "boolean",
-      control: "boolean",
-      description: "Removes the background color of the button",
-    },
-    disabled: {
-      type: "boolean",
-      control: "boolean",
-      description:
-        "Will disable the entire dropdown (also disables the `evo-button` label) if set to true",
     },
     split: {
-      type: "string",
-      options: ["none (default)", "start", "end"],
       control: "inline-radio",
-      description: "Apply split button styles.",
-    },
-    noToggleIcon: {
-      type: "boolean",
-      control: "boolean",
-      description: "Hides the chevron toggle icon.",
     },
     label: {
-      description: "The prefix label. Cannot be used in conjunction with text.",
       "@": {
         ["<span> attributes" as any]: {
           description:
@@ -109,8 +58,6 @@ export default {
       },
     },
     footerButton: {
-      description:
-        'The footer content, rendered [an `<evo-button>` component](?path=/docs/buttons-evo-button--docs). Generally used only when `variant="filter"`.',
       "@": {
         ["<evo-button> attributes" as any]: {
           description:
@@ -118,18 +65,8 @@ export default {
         },
       },
     },
-    reverse: {
-      type: "boolean",
-      control: "boolean",
-      description: "Expand the menu flyout to the left",
-    },
     strategy: {
-      type: "string",
-      options: ["absolute", "fixed"],
       control: "inline-radio",
-      table: { defaultValue: { summary: "absolute" } },
-      description:
-        "Positioning strategy for the dropdown. Use fixed when dropdown is in contained in an overflow and needs to be visible as you scroll the screen.",
     },
     ["<evo-menu> attributes" as any]: {
       description:

@@ -2,22 +2,47 @@ import IconButton from "<evo-icon-button>";
 import Button, { type Input as ButtonInput } from "<evo-button>";
 import { type Item as FakeMenuItem } from "<evo-fake-menu>";
 export interface Input extends Marko.HTML.Span {
+    /** Allows control over the open state of the menu */
     open?: boolean;
     openChange?: (open: boolean) => void;
+    /** When an option is selected, `open` is toggled to `false`. */
     collapseOnSelect?: boolean;
+    /**
+     * Controls the button style
+     * @default "button"
+     */
     variant?: "form" | "button" | "icon";
+    /** Whether button has borders. Forces `variant="button"` */
     borderless?: boolean;
+    /**
+     * Button priority, only used when `variant="button"`
+     * @default "none"
+     */
     priority?: "primary" | "secondary" | "tertiary" | "delete" | "none";
+    /** The size of the button */
     size?: ButtonInput["size"];
+    /** Removes the background color of the button */
     transparent?: boolean;
+    /** Will disable the entire dropdown (also disables the button trigger) if set to true */
     disabled?: boolean;
+    /** Hides the chevron toggle icon. */
     noToggleIcon?: boolean;
+    /** Accessible label for the button, especially for cases without visible text */
     a11yText?: string;
+    /** The prefix label. Rendered before the main content. */
     label?: Marko.AttrTag<Marko.HTML.Span>;
+    /** Expand the menu flyout to the left */
     reverse?: boolean;
+    /**
+     * Positioning strategy for the dropdown. Use `fixed` when dropdown is contained in an overflow and needs to be visible as you scroll the screen.
+     * @default "absolute"
+     */
     strategy?: "absolute" | "fixed";
+    /** Constrain items container width to button width */
     fixWidth?: boolean;
+    /** Adds flip to dropdown middleware. This allows the dropdown to flip automatically if it overflows */
     flip?: boolean;
+    /** A menu item. Can be a link (`href`) or a button (`type="button"`). */
     item?: Marko.AttrTag<FakeMenuItem>;
 }
 <const/{

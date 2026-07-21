@@ -1,22 +1,38 @@
 import { type Input as ButtonInput } from "../evo-button/index.marko";
 export interface Item extends Marko.HTML.Div {
+    /** Used for tracking the selected item */
     value?: string;
+    /** Render as a separator instead of an item */
     separator?: boolean;
+    /** Displays [an `<evo-badge>` component](?path=/docs/graphics-icons-evo-badge--docs) after the content containing this number. */
     badgeNumber?: number;
+    /** Item will not be clickable, and keyboard navigation will skip over it */
     disabled?: boolean;
 }
 export interface Input<
     Index extends number | string | (number | string)[],
 > extends Marko.HTML.Span {
+    /** If present, indicates the selected item(s) in the menu and automatically updates them on click. Use a single value for single-select, or an array for multi-select. Compares with `value` if present in `@item`, otherwise index. */
     selected?: Index;
     selectedChange?: (selected: Index) => void;
+    /** Attribute tag representing a menu item */
     item?: Marko.AttrTag<Item>;
+    /**
+     * Setting to `"filter"` changes styles to align with filter components
+     * @default "none"
+     */
     variant?: "filter" | "none";
+    /** Prefix built-in class names */
     classPrefix?: string;
+    /** Time (ms) that users need to wait between typing characters for typeahead to reset */
     typeaheadTimeoutLength?: number;
+    /** Show elements right-to-left instead of left-to-right */
     reverse?: boolean;
+    /** Fixes menu in place */
     fixed?: boolean;
+    /** Fix the dropdown width to match the button width */
     fixWidth?: boolean;
+    /** The footer content, rendered [an `<evo-button>` component](?path=/docs/buttons-evo-button--docs). Generally used only when `variant="filter"`. */
     footerButton?: Marko.AttrTag<ButtonInput>;
 }
 

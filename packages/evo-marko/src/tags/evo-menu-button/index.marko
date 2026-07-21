@@ -5,23 +5,49 @@ import { type Input as MenuInput } from "<evo-menu>";
 export interface Input<
     Index extends number | string | (number | string)[],
 > extends Omit<MenuInput<Index>, "variant"> {
+    /** Allows control over the open state of the menu */
     open?: boolean;
     openChange?: (open: boolean) => void;
+    /** When an option is selected, `open` is toggled to `false`. */
     collapseOnSelect?: boolean;
+    /** Id of an external element to use as the prefix label for the menu button. Should not be used with `@label` */
     prefixId?: string;
+    /**
+     * Controls the button style
+     * @default "button"
+     */
     variant?: "form" | "button" | "icon" | "filter";
+    /** Whether button has borders. Forces `variant="button"` */
     borderless?: boolean;
+    /** Programmatically disabled, but remains keyboard focusable */
     partiallyDisabled?: ButtonInput["partiallyDisabled"];
+    /**
+     * Button priority, only used when `variant="button"`
+     * @default "none"
+     */
     priority?: "primary" | "secondary" | "tertiary" | "delete" | "none";
+    /** The size of the button */
     size?: ButtonInput["size"];
+    /** Removes the background color of the button */
     transparent?: boolean;
+    /** Will disable the entire dropdown (also disables the `evo-button` label) if set to true */
     disabled?: boolean;
+    /** Apply split button styles. */
     split?: ButtonInput["split"];
+    /** Hides the chevron toggle icon. */
     noToggleIcon?: boolean;
+    /** The prefix label. Cannot be used in conjunction with text. */
     label?: Marko.AttrTag<Marko.HTML.Span>;
+    /** The footer content, rendered [an `<evo-button>` component](?path=/docs/buttons-evo-button--docs). Generally used only when `variant="filter"`. */
     footerButton?: Marko.AttrTag<ButtonInput>;
+    /** Expand the menu flyout to the left */
     reverse?: boolean;
+    /**
+     * Positioning strategy for the dropdown. Use `fixed` when dropdown is contained in an overflow and needs to be visible as you scroll the screen.
+     * @default "absolute"
+     */
     strategy?: "absolute" | "fixed";
+    /** Fix the dropdown width to match the button width */
     fixWidth?: boolean;
 }
 <const/{
