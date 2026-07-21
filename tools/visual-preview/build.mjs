@@ -500,7 +500,7 @@ function realFrameDoc(storyHtml, rtl, ref) {
     return (
         '<!doctype html><html dir="' + (rtl ? "rtl" : "ltr") + '">' +
         "<head>" + frameHead([ref === "base" ? "base.css" : "head.css"]) + "</head>" +
-        '<body class="vhd-on">' +
+        '<body>' +
         '<script src="../assets/sprite-' + ref + '.js"></script>' +
         storyHtml +
         "</body></html>"
@@ -523,7 +523,7 @@ function snapshotFrameDoc(annotatedHtml, rtl) {
         '<!doctype html><html dir="' + (rtl ? "rtl" : "ltr") + '">' +
         "<head>" + frameHead([]) +
         '<style>body{font-family:"Market Sans",Arial,sans-serif}</style></head>' +
-        '<body class="vhd-on">' +
+        '<body>' +
         expandSelfClosed(annotatedHtml) +
         "</body></html>"
     );
