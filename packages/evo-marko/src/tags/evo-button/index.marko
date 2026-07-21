@@ -3,25 +3,49 @@ static export const validSizes = ["large", "small"] as const;
 static export const validSplit = ["start", "end"] as const;
 
 export interface Input extends Marko.HTML.Button, Omit<Marko.HTML.A, "type" |`on${string}`> {
+    /** URL for link behavior (switches to anchor tag) */
     href?: string;
+    /** The size of the button */
     size?: (typeof validSizes)[number];
+    /**
+     * Button priority
+     * @default "secondary"
+     */
     priority?: "primary" | "secondary" | "tertiary" | "none";
+    /**
+     * Additional style transformations beyond `priority`.
+     * @default "standard"
+     */
     variant?: "standard" | "destructive" | "form";
+    /**
+     * When state is `loading`, adds a progress spinner. When user interacts with the button, `reset` should be called to reset the aria-live state.
+     * @default "none"
+     */
     bodyState?: "loading" | "expand" | "reset" | "none";
+    /** If `true`, button will fill 100% of the container width. */
     fluid?: boolean;
+    /** If `true`, border is removed. */
     borderless?: boolean;
+    /** Disabled state */
     disabled?: boolean;
+    /** Programmatically disabled, but remains keyboard focusable */
     partiallyDisabled?: boolean;
+    /** Transparent background color (overrides `priority`). */
     transparent?: boolean;
+    /** Fixes the height based on `size` */
     fixedHeight?: boolean;
+    /** Used in conjunction with `fixedHeight`; truncates text to a single line with ellipsis when the text overflows */
     truncate?: boolean;
+    /** Apply split button styles. */
     split?: "start" | "end";
     /**
      * The `aria-label` used while in a loading state
-     * 
+     *
      * English default to be overridden is "loading"
+     * @default "loading"
      */
     a11yLoadingText?: string;
+    /** Called when the `Escape` key is pressed while the button is focused */
     onEscape?: (event: KeyboardEvent) => void;
 }
 

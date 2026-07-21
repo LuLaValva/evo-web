@@ -3,35 +3,70 @@ import { validSplit, type Input as ButtonInput } from "<evo-button>";
 
 export interface Input<Index extends number | string>
     extends Marko.HTML.Div {
+    /** The selected item in the list. Checks for equality with `value` in each `@option` */
     selected?: ListboxInput<Index>["selected"];
     selectedChange?: ListboxInput<Index>["selectedChange"];
+    /** Allows control over the open state of the listbox */
     open?: boolean;
     openChange?: (newOpen: boolean) => void;
+    /** Attribute tag representing a list option */
     option?: ListboxInput<Index>["option"];
+    /** Used for the `name` attribute of the native `<select>` */
     name?: ListboxInput<Index>["name"];
+    /**
+     * If `manual` then user will need to press enter to select an item using keyboard. Otherwise `auto` will automatically select as the user presses up/down
+     * @default "manual"
+     */
     listSelection?: ListboxInput<Index>["listSelection"];
+    /** Id of an external element to use as the prefix label for the listbox button. Should not be used with `prefixLabel` */
     prefixId?: string;
+    /**
+     * The text to be shown when no options are selected. Cannot be used with `floating-label`
+     * @default "-"
+     */
     unselectedText?: string;
+    /**
+     * If `form`, changes appearance to match other form-specific components for visual consistency.
+     * @default "standard"
+     */
     variant?: "standard" | "form";
+    /** Will truncate the text of the button onto a single line, and adds an ellipsis, when the buttons text overflows */
     truncate?: boolean;
+    /** Expands the button to 100% width. */
     fluid?: boolean;
+    /**
+     * Use `fixed` when dropdown is contained in an overflow and needs to be visible as you scroll the screen.
+     * @default "absolute"
+     */
     strategy?: "fixed" | "absolute";
+    /** Removes button borders. */
     borderless?: boolean;
+    /** The label to add that floats to the top when item is selected. Cannot be used with `prefixLabel` */
     floatingLabel?: string;
+    /** Disables the button. */
     disabled?: boolean;
+    /** Used for the `name` attribute of the native `<button>`. */
     buttonName?: string;
+    /** Applies split button styles to the component. */
     split?: ButtonInput["split"];
+    /** Applies `aria-invalid="true"` to the button, which also adjusts styles. */
     invalid?: boolean;
+    /** Indicates error state _without_ a11y. Prefer `invalid` unless other accessible elements of the UI also indicate an error state */
     hasError?: boolean;
     /**
      * The clipped text for screen readers when an option is selected
-     * 
+     *
      * English default to be overridden is `"selected"`
+     * @default "selected"
      **/
     a11ySelectedText: string;
+    /** The label to add before each selected item on the button. Cannot be used with `prefixId` */
     prefixLabel?: string;
+    /** The label to add after each selected item on the button. */
     postfixLabel?: string;
+    /** When an option is selected, `open` is toggled to `false`. */
     collapseOnSelect?: boolean;
+    /** The id of an element that describes the listbox button, applied as `aria-describedby` on the button. */
     a11yDescribedBy?: string;
 }
 <const/{

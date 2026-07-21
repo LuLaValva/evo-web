@@ -1,5 +1,7 @@
 export interface Input extends Omit<Marko.HTML.Span, "role" | "aria-label"> {
+    /** The badge type */
     type?: "menu" | "icon";
+    /** Used as the number to be placed in the badge */
     number?: number | string;
     /**
      * The `aria-label` of the badge
