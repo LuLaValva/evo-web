@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ccd / withChargerAndUsb — visual review</title>
+<link rel="stylesheet" href="../assets/viewer.css" />
+</head>
+<body>
+<header>
+    <a class="back" href="../index.html">← All changes</a>
+    <h1 id="title"></h1>
+    <span class="meta" id="path"></span>
+    <span class="pagenav">
+        <a id="prev" href="#">‹ prev</a>
+        <span class="pos" id="pos"></span>
+        <a id="next" href="#">next ›</a>
+    </span>
+</header>
+<main id="main"></main>
+<footer class="note">
+    <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
+    <span class="kbd-hint"><kbd>1</kbd>–<kbd>9</kbd> dimension</span>
+    <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
+    <span class="kbd-hint"><kbd>f</kbd> flip (in flip mode)</span>
+    <span class="kbd-hint"><kbd>t</kbd> theme</span>
+    <span class="kbd-hint"><kbd>h</kbd> highlights</span>
+    <span class="kbd-hint"><kbd>d</kbd> text diff</span>
+    <span class="kbd-hint"><kbd>x</kbd> flag</span>
+    <span class="kbd-hint"><kbd>Esc</kbd> back to list</span>
+    <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
+</footer>
+<script>
+    const PAGE = {"entry":{"component":"ccd","story":"withChargerAndUsb","file":"packages/skin/src/sass/ccd/stories/__snapshots__/ccd.snap","dims":[{"suffix":"","width":null,"rtl":false,"status":"added","before":"","after":"<div>\n  <div style=\"\n    column-gap: 8px;\n    display: inline-flex;\n    font-family: \"Reddit Sans Condensed Bold\", \"Market Sans\", Arial, sans-serif;\n    row-gap: 8px\n  \">\n    <svg style=\"\n      display: inline-block;\n      fill: currentcolor;\n      height: 57px;\n      pointer-events: none;\n      stroke-width: 0;\n      stroke: currentcolor;\n      vertical-align: middle;\n      width: 42px\n    \">\n      <use href=\"#icon-ccd-charger-included\"/>\n    <\/svg>\n    <div style=\"\n      align-items: center;\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n      width: 39px\n    \">\n      <svg style=\"\n        display: inline-block;\n        fill: currentcolor;\n        height: 18px;\n        pointer-events: none;\n        stroke-width: 0;\n        stroke: currentcolor;\n        vertical-align: middle;\n        width: 27px\n      \">\n        <use href=\"#icon-ccd-top\"/>\n      <\/svg>\n      <div style=\"\n        align-items: center;\n        border-bottom-left-radius: 1.5px;\n        border-bottom-right-radius: 1.5px;\n        border-top-left-radius: 1.5px;\n        border-top-right-radius: 1.5px;\n        border: 1px solid var(--color-foreground-primary);\n        display: flex;\n        flex-direction: column;\n        font-size: 0.4375rem;\n        font-weight: var(--font-weight-600);\n        height: 37px;\n        justify-content: center;\n        line-height: 10px;\n        overflow-x: hidden;\n        overflow-y: hidden;\n        text-align: center;\n        width: 39px\n      \">\n        <div>\n          1001 - 2000\n        <\/div>\n        <div>\n          W\n        <\/div>\n        <div>\n          USB PD\n        <\/div>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,70 @@\n+<div>\n+  <div style=\"\n+    column-gap: 8px;\n+    display: inline-flex;\n+    font-family: \"Reddit Sans Condensed Bold\", \"Market Sans\", Arial, sans-serif;\n+    row-gap: 8px\n+  \">\n+    <svg style=\"\n+      display: inline-block;\n+      fill: currentcolor;\n+      height: 57px;\n+      pointer-events: none;\n+      stroke-width: 0;\n+      stroke: currentcolor;\n+      vertical-align: middle;\n+      width: 42px\n+    \">\n+      <use href=\"#icon-ccd-charger-included\"/>\n+    <\/svg>\n+    <div style=\"\n+      align-items: center;\n+      display: flex;\n+      flex-direction: column;\n+      justify-content: center;\n+      width: 39px\n+    \">\n+      <svg style=\"\n+        display: inline-block;\n+        fill: currentcolor;\n+        height: 18px;\n+        pointer-events: none;\n+        stroke-width: 0;\n+        stroke: currentcolor;\n+        vertical-align: middle;\n+        width: 27px\n+      \">\n+        <use href=\"#icon-ccd-top\"/>\n+      <\/svg>\n+      <div style=\"\n+        align-items: center;\n+        border-bottom-left-radius: 1.5px;\n+        border-bottom-right-radius: 1.5px;\n+        border-top-left-radius: 1.5px;\n+        border-top-right-radius: 1.5px;\n+        border: 1px solid var(--color-foreground-primary);\n+        display: flex;\n+        flex-direction: column;\n+        font-size: 0.4375rem;\n+        font-weight: var(--font-weight-600);\n+        height: 37px;\n+        justify-content: center;\n+        line-height: 10px;\n+        overflow-x: hidden;\n+        overflow-y: hidden;\n+        text-align: center;\n+        width: 39px\n+      \">\n+        <div>\n+          1001 - 2000\n+        <\/div>\n+        <div>\n+          W\n+        <\/div>\n+        <div>\n+          USB PD\n+        <\/div>\n+      <\/div>\n+    <\/div>\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"\n<div class=\"ccd\" role=\"img\" aria-label=\"Charger included. 1001 - 2000 watts. USB PD\">\n    <svg class=\"icon ccd__charger-icon\" aria-hidden=\"true\">\n        <use href=\"#icon-ccd-charger-included\"/>\n    <\/svg>\n    <div class=\"ccd__description-figure\">\n\n        <svg class=\"icon ccd__top-icon\" aria-hidden=\"true\">\n            <use href=\"#icon-ccd-top\"/>\n        <\/svg>\n        <div class=\"ccd__body\">\n            <div>1001 - 2000<\/div>\n            <div>W<\/div>\n            <div>USB PD<\/div>\n        <\/div>\n    <\/div>\n<\/div>\n","storyAfter":"\n<div class=\"ccd\" role=\"img\" aria-label=\"Charger included. 1001 - 2000 watts. USB PD\">\n    <svg class=\"icon ccd__charger-icon\" aria-hidden=\"true\">\n        <use href=\"#icon-ccd-charger-included\"/>\n    <\/svg>\n    <div class=\"ccd__description-figure\">\n\n        <svg class=\"icon ccd__top-icon\" aria-hidden=\"true\">\n            <use href=\"#icon-ccd-top\"/>\n        <\/svg>\n        <div class=\"ccd__body\">\n            <div>1001 - 2000<\/div>\n            <div>W<\/div>\n            <div>USB PD<\/div>\n        <\/div>\n    <\/div>\n<\/div>\n"},"baseRefShort":"60ee2f496866","prevHref":"ccd-stories-ccd--withChargerAndNoUsb.html","nextHref":"ccd-stories-ccd--withoutChargerAndNoUsb.html","indexHref":"../index.html","pos":177,"total":1012,"slug":"ccd-stories-ccd--withChargerAndUsb","hash":"13cvyu2"};
+</script>
+<script src="../assets/story.js"></script>
+</body>
+</html>

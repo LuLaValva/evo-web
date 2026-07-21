@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>filter-chip / button — visual review</title>
+<link rel="stylesheet" href="../assets/viewer.css" />
+</head>
+<body>
+<header>
+    <a class="back" href="../index.html">← All changes</a>
+    <h1 id="title"></h1>
+    <span class="meta" id="path"></span>
+    <span class="pagenav">
+        <a id="prev" href="#">‹ prev</a>
+        <span class="pos" id="pos"></span>
+        <a id="next" href="#">next ›</a>
+    </span>
+</header>
+<main id="main"></main>
+<footer class="note">
+    <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
+    <span class="kbd-hint"><kbd>1</kbd>–<kbd>9</kbd> dimension</span>
+    <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
+    <span class="kbd-hint"><kbd>f</kbd> flip (in flip mode)</span>
+    <span class="kbd-hint"><kbd>t</kbd> theme</span>
+    <span class="kbd-hint"><kbd>h</kbd> highlights</span>
+    <span class="kbd-hint"><kbd>d</kbd> text diff</span>
+    <span class="kbd-hint"><kbd>x</kbd> flag</span>
+    <span class="kbd-hint"><kbd>Esc</kbd> back to list</span>
+    <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
+</footer>
+<script>
+    const PAGE = {"entry":{"component":"filter-chip","story":"button","file":"packages/skin/src/sass/filter-chip/stories/__snapshots__/expressive-filter-chip.snap","dims":[{"suffix":"","width":null,"rtl":false,"status":"added","before":"","after":"<div>\n  <button style=\"\n    align-items: center;\n    background-color: var(--color-background-primary);\n    background-position-x: 50%;\n    background-position-y: center;\n    background-repeat: no-repeat;\n    background-size: 0px 100%;\n    color: var(--color-foreground-primary);\n    display: inline-flex;\n    font-family: inherit;\n    font-size: var(--font-size-body);\n    height: 40px;\n    justify-content: space-between;\n    max-width: 296px;\n    min-width: 32px;\n    overflow-x: hidden;\n    overflow-y: hidden;\n    padding: 0 var(--spacing-150);\n    position: relative;\n    transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);\n    vertical-align: bottom\n  \">\n    <style>@scope{:scope{\n      &::after {\n        background-color: var(--color-state-layer-neutral);\n        bottom: 0px;\n        content: \"\";\n        left: 0px;\n        pointer-events: none;\n        position: absolute;\n        right: 0px;\n        top: 0px\n      }\n    }}<\/style>\n    <span style=\"\n      align-items: center;\n      border-bottom-left-radius: 8px;\n      border-bottom-right-radius: 8px;\n      border-top-left-radius: 8px;\n      border-top-right-radius: 8px;\n      display: flex;\n      justify-content: center;\n      margin-inline-start: -8px;\n      overflow-x: hidden;\n      overflow-y: hidden;\n      position: relative\n    \">\n      <style>@scope{:scope{\n        &::after {\n          background-color: rgba(0, 0, 0, 0.05);\n          bottom: 0px;\n          content: \"\";\n          display: block;\n          left: 0px;\n          pointer-events: none;\n          position: absolute;\n          right: 0px;\n          top: 0px\n        }\n      }}<\/style>\n      <img\n        src=\"https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg\"\n        style=\"\n          display: inline-block;\n          height: var(--spacing-400);\n          max-height: 100%;\n          max-width: 100%;\n          object-fit: cover;\n          width: var(--spacing-400)\n        \"\n      />\n    <\/span>\n    <span style=\"\n      overflow-x: hidden;\n      overflow-y: hidden;\n      padding: var(--spacing-75) 0;\n      text-overflow: ellipsis;\n      text-wrap-mode: nowrap\n    \">\n      Football\n    <\/span>\n  <\/button>\n<\/div>","diff":"@@ -0,0 +1,84 @@\n+<div>\n+  <button style=\"\n+    align-items: center;\n+    background-color: var(--color-background-primary);\n+    background-position-x: 50%;\n+    background-position-y: center;\n+    background-repeat: no-repeat;\n+    background-size: 0px 100%;\n+    color: var(--color-foreground-primary);\n+    display: inline-flex;\n+    font-family: inherit;\n+    font-size: var(--font-size-body);\n+    height: 40px;\n+    justify-content: space-between;\n+    max-width: 296px;\n+    min-width: 32px;\n+    overflow-x: hidden;\n+    overflow-y: hidden;\n+    padding: 0 var(--spacing-150);\n+    position: relative;\n+    transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);\n+    vertical-align: bottom\n+  \">\n+    <style>@scope{:scope{\n+      &::after {\n+        background-color: var(--color-state-layer-neutral);\n+        bottom: 0px;\n+        content: \"\";\n+        left: 0px;\n+        pointer-events: none;\n+        position: absolute;\n+        right: 0px;\n+        top: 0px\n+      }\n+    }}<\/style>\n+    <span style=\"\n+      align-items: center;\n+      border-bottom-left-radius: 8px;\n+      border-bottom-right-radius: 8px;\n+      border-top-left-radius: 8px;\n+      border-top-right-radius: 8px;\n+      display: flex;\n+      justify-content: center;\n+      margin-inline-start: -8px;\n+      overflow-x: hidden;\n+      overflow-y: hidden;\n+      position: relative\n+    \">\n+      <style>@scope{:scope{\n+        &::after {\n+          background-color: rgba(0, 0, 0, 0.05);\n+          bottom: 0px;\n+          content: \"\";\n+          display: block;\n+          left: 0px;\n+          pointer-events: none;\n+          position: absolute;\n+          right: 0px;\n+          top: 0px\n+        }\n+      }}<\/style>\n+      <img\n+        src=\"https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg\"\n+        style=\"\n+          display: inline-block;\n+          height: var(--spacing-400);\n+          max-height: 100%;\n+          max-width: 100%;\n+          object-fit: cover;\n+          width: var(--spacing-400)\n+        \"\n+      />\n+    <\/span>\n+    <span style=\"\n+      overflow-x: hidden;\n+      overflow-y: hidden;\n+      padding: var(--spacing-75) 0;\n+      text-overflow: ellipsis;\n+      text-wrap-mode: nowrap\n+    \">\n+      Football\n+    <\/span>\n+  <\/button>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"\n<button class=\"filter-chip filter-chip--expressive\" type=\"button\" aria-pressed=\"false\">\n    <span class=\"filter-chip__media\">\n        <img\n            src=\"https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg\"\n            alt=\"\"\n        >\n    <\/span>\n    <span class=\"filter-chip__text\">Football<\/span>\n<\/button>\n","storyAfter":"\n<button class=\"filter-chip filter-chip--expressive\" type=\"button\" aria-pressed=\"false\">\n    <span class=\"filter-chip__media\">\n        <img\n            src=\"https://ir.ebaystatic.com/cr/v/c01/skin/docs/dog_profile_optimized.jpg\"\n            alt=\"\"\n        >\n    <\/span>\n    <span class=\"filter-chip__text\">Football<\/span>\n<\/button>\n"},"baseRefShort":"60ee2f496866","prevHref":"filter-chip-stories-expressive-filter-chip--anchorSelected.html","nextHref":"filter-chip-stories-expressive-filter-chip--buttonSelected.html","indexHref":"../index.html","pos":339,"total":1012,"slug":"filter-chip-stories-expressive-filter-chip--button","hash":"1kj881t"};
+</script>
+<script src="../assets/story.js"></script>
+</body>
+</html>
