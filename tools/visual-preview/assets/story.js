@@ -476,8 +476,6 @@ function buildSidebar() {
         }
         if (viewed[item.slug] === item.hash) a.classList.add("viewed");
         if (flags[item.slug] === item.hash) a.classList.add("flagged");
-        const dot = document.createElement("span");
-        dot.className = "dot " + item.status;
         const name = document.createElement("span");
         name.className = "name";
         name.textContent = item.story;
@@ -486,7 +484,14 @@ function buildSidebar() {
             small.textContent = " · " + item.qualifier;
             name.appendChild(small);
         }
-        a.append(dot, name);
+        a.append(name);
+        // "changed" is the common case — only unusual statuses get a chip.
+        if (item.status !== "changed") {
+            const st = document.createElement("span");
+            st.className = "chip " + item.status;
+            st.textContent = item.status;
+            a.appendChild(st);
+        }
         if (item.chip) {
             const chip = document.createElement("span");
             chip.className = "chip";
