@@ -1,7 +1,9 @@
 import { type Input as EvoIconButtonInput } from "<evo-icon-button>";
 
 export interface ComboboxOption extends Marko.HTML.Div {
+    /** Display text for the option. */
     text: string;
+    /** Always shown regardless of `autocomplete` filter. */
     sticky?: boolean;
 }
 
@@ -10,15 +12,33 @@ export interface Input
         Marko.HTML.Input,
         "type" | "role" | "aria-autocomplete" | "aria-haspopup" | "aria-expanded" | "aria-owns" | "aria-controls"
     > {
+    /**
+     * `list` filters displayed options to those matching the typed text. `none` always shows all options.
+     * @default "none"
+     */
     autocomplete?: "list" | "none";
+    /**
+     * Whether arrow-key navigation writes the highlighted option text into the input automatically.
+     * @default "automatic"
+     */
     listSelection?: "manual" | "automatic";
+    /** Floating label text shown above the input when focused or filled. */
     floatingLabel?: string;
+    /** Removes the control border. */
     borderless?: boolean;
+    /** Stretches the component to fill its container. */
     fluid?: boolean;
+    /**
+     * Listbox CSS position strategy.
+     * @default "absolute"
+     */
     strategy?: "fixed" | "absolute";
+    /** Controls listbox visibility. Two-way bindable via `:=`. */
     open?: boolean;
     openChange?: (open: boolean) => void;
+    /** Repeatable `@option` attribute tag. */
     option?: Marko.AttrTag<ComboboxOption>;
+    /** Optional `@button` attr tag — renders an icon button inside the control. */
     button?: Marko.AttrTag<EvoIconButtonInput>;
 }
 

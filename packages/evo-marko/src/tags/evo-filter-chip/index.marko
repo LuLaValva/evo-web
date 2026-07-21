@@ -1,11 +1,20 @@
 export interface Input
     extends Marko.HTML.Button, Omit<Marko.HTML.A, "type" | `on${string}`> {
+    /** Selected state of the chip */
     selected?: boolean;
     selectedChange?: (selected: boolean) => void;
+    /**
+     * The variant of the filter. Default and expressive are toggle buttons, while menu turns it into a dropdown.
+     * @default "default"
+     */
     variant?: "default" | "expressive" | "menu";
+    /** The leading icon. Only used for `default` variant */
     icon?: Marko.AttrTag<{ content?: Marko.Body }>;
+    /** The leading image. Only used for `expressive` variant */
     image?: Marko.AttrTag<Marko.HTML.Img>;
+    /** Localized, for anchor variant: the clipped text to show when the filter is set. This is required to switch to anchor type along with `href` */
     a11ySelectedText?: string;
+    /** Only used for `menu` variant. True/false if the menu is open or not */
     open?: boolean;
     openChange?: (open: boolean) => void;
 }

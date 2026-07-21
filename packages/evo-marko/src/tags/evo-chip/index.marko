@@ -4,10 +4,12 @@ export interface Delete
      * The `aria-label` of the delete button
      *
      * English default to be overridden is `"delete"`
+     * @default "delete"
      */
     a11yText: string;
 }
 export interface Input extends Marko.HTML.Span {
+    /** Attribute tag for the delete button. When present, a delete button with a close icon is rendered. */
     delete?: Marko.AttrTag<Delete>;
 }
 

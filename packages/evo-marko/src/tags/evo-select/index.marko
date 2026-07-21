@@ -3,13 +3,22 @@ static interface OptGroup {
     options: Option[];
 }
 export interface Option extends Marko.HTML.Option {
+    /** If present, this option will be placed inside an `<optgroup>` tag. */
     optgroup?: string;
 }
 export interface Input extends Marko.HTML.Select {
+    /** An option in the `<select>`. */
     option?: Marko.AttrTag<Option>;
+    /** Adds a floating label. For it to float down, the first option must have a nullable value. */
     floatingLabel?: string;
+    /**
+     * Optionally change size of the component.
+     * @default "regular"
+     */
     size?: "regular" | "large";
+    /** Select takes 100% of the container width */
     fluid?: boolean;
+    /** Removes borders of the select */
     borderless?: boolean;
 }
 

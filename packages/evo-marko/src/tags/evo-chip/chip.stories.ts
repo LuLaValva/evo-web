@@ -17,16 +17,12 @@ export default {
       },
     },
   },
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     delete: {
-      description:
-        "Attribute tag for the delete button. When present, a delete button with a close icon is rendered.",
       "@": {
-        a11yText: {
-          type: { name: "string", required: true },
-          control: "text",
-          description: "A descriptive label for the delete button",
-        },
         disabled: {
           type: "boolean",
           description: "Whether the delete button is disabled",

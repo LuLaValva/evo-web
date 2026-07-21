@@ -20,26 +20,17 @@ export default {
     },
   },
 
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     selected: {
       controllable: true,
-      type: "boolean",
-      control: "boolean",
-      description: "Selected state of the chip",
     },
     variant: {
-      type: "string",
-      options: ["default", "expressive", "menu"],
       control: "inline-radio",
-      description:
-        "The variant of the filter. Default and expressive are toggle buttons, while menu turns it into a dropdown.",
-    },
-    icon: {
-      description: "The leading icon. Only used for default variant",
-      "@": {},
     },
     image: {
-      description: "The leading image. Only used for expressive variant",
       "@": {
         ["<img> attributes" as any]: {
           description:
@@ -49,16 +40,6 @@ export default {
     },
     open: {
       controllable: true,
-      type: "boolean",
-      control: "boolean",
-      description:
-        "Only used for menu variant. True/false if the menu is open or not",
-    },
-    a11ySelectedText: {
-      type: "string",
-      control: "text",
-      description:
-        "Localized, for anchor variant: the clipped text to show when the filter is set. This is required to switch to anchor type along with href",
     },
     ["<button> attributes" as any]: {
       description:

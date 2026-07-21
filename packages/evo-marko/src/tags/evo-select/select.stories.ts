@@ -22,43 +22,20 @@ export default {
     },
   },
 
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     option: {
-      description: "An option in the `<select>`.",
       "@": {
-        optgroup: {
-          type: "string",
-          control: "text",
-          description:
-            "If present, this option will be placed inside an `<optgroup>` tag.",
-        },
         ["<option> attributes" as any]: {
           description:
             "All attributes and event handlers from [the native HTML `<option>` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/option) will be passed through",
         },
       },
     },
-    floatingLabel: {
-      type: "string",
-      control: "text",
-      description:
-        "Adds a floating label. For it to float down, the first option must have a nullable value.",
-    },
     size: {
-      type: "string",
-      options: ["regular (default)", "large"],
-      control: "text",
-      description: "Optionally change size of the component.",
-    },
-    borderless: {
-      type: "boolean",
-      control: "boolean",
-      description: "Removes borders of the button",
-    },
-    fluid: {
-      type: "boolean",
-      control: "boolean",
-      description: "Select takes 100% of the container width",
+      control: "inline-radio",
     },
     value: {
       controllable: true,
