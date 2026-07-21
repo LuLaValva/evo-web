@@ -41,7 +41,82 @@
         <div class="grow"></div>
         <button class="flag" id="flag-btn" type="button">⚑ Flag</button>
     </div>
-    <section class="dim-section" id="dim-0" data-dim="0"><h3 class="dim-label">320px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="320"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><link rel=&quot;stylesheet&quot; href=&quot;../assets/head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body><script src=&quot;../assets/sprite-head.js&quot;></script>
+    <section class="dim-section" id="dim-0" data-dim="0"><h3 class="dim-label">320px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="320"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" style="width:320px" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><link rel=&quot;stylesheet&quot; href=&quot;../assets/head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}/* Custom Classes for Storybook — demo-only styles used by stories.
+   Loaded by Storybook (preview.js), the visual snapshot harness
+   (test/visual/visual.spec.js), and the visual-preview viewer frames
+   (tools/visual-preview/build.mjs), so all three render stories the
+   same way. */
+.font-large {
+    font-size: 200%;
+    /* line-height: var(--typography-body-line-height); */
+}
+
+.carousel__list--default-demo li {
+    background-color: grey;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--image-treatment-demo li {
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--discrete-demo li {
+    background-color: grey;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: calc(25% - 24px);
+}
+
+.carousel__list--discrete-demo li:last-child {
+    margin-right: 0;
+}
+
+.carousel__list--slideshow-demo li {
+    background-color: grey;
+    font-size: 36px;
+    font-weight: bold;
+    height: 300px;
+    line-height: 300px;
+    margin-inline-end: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+.carousel__list--slideshow-demo li:last-child {
+    margin-inline-end: 0;
+}
+
+.demo-a11y-text-spacing,
+.demo-a11y-text-spacing * {
+    line-height: 1.5 !important;
+    letter-spacing: 0.12em !important;
+    word-spacing: 0.16em !important;
+}
+.demo-a11y-text-spacing p {
+    margin-bottom: 2em !important;
+}
+
+.phone-input div.listbox-button__listbox {
+    display: block;
+}
+body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body><script src=&quot;../assets/sprite-head.js&quot;></script>
 <div aria-labelledby=&quot;alert-dialog-title&quot; aria-modal=&quot;true&quot; class=&quot;alert-dialog alert-dialog--mask-fade demo-a11y-text-spacing&quot; role=&quot;alertdialog&quot;>
     <div class=&quot;alert-dialog__window alert-dialog__window--fade&quot;>
         <div class=&quot;alert-dialog__header&quot;>
@@ -55,7 +130,7 @@
         </div>
     </div>
 </div>
-</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,106 @@</span>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,132 @@</span>
 <span class="add">+&lt;div></span>
 <span class="add">+  &lt;div style=&quot;</span>
 <span class="add">+    align-items: flex-start;</span>
@@ -64,10 +139,13 @@
 <span class="add">+    display: flex;</span>
 <span class="add">+    justify-content: center;</span>
 <span class="add">+    left: 0px;</span>
+<span class="add">+    letter-spacing: 0.12em;</span>
+<span class="add">+    line-height: 1.5;</span>
 <span class="add">+    position: fixed;</span>
 <span class="add">+    right: 0px;</span>
 <span class="add">+    top: 0px;</span>
 <span class="add">+    will-change: background-color;</span>
+<span class="add">+    word-spacing: 0.16em;</span>
 <span class="add">+    z-index: 100000</span>
 <span class="add">+  &quot;></span>
 <span class="add">+    &lt;div style=&quot;</span>
@@ -76,6 +154,8 @@
 <span class="add">+      flex-direction: column;</span>
 <span class="add">+      flex-grow: 1;</span>
 <span class="add">+      flex-shrink: 0;</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
 <span class="add">+      margin-bottom: auto;</span>
 <span class="add">+      margin-left: var(--spacing-200);</span>
 <span class="add">+      margin-right: var(--spacing-200);</span>
@@ -85,31 +165,49 @@
 <span class="add">+      min-height: 55px;</span>
 <span class="add">+      min-width: 208px;</span>
 <span class="add">+      padding: var(--spacing-200);</span>
-<span class="add">+      will-change: opacity, transform</span>
+<span class="add">+      will-change: opacity, transform;</span>
+<span class="add">+      word-spacing: 0.16em</span>
 <span class="add">+    &quot;></span>
-<span class="add">+      &lt;div></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
+<span class="add">+        word-spacing: 0.16em</span>
+<span class="add">+      &quot;></span>
 <span class="add">+        &lt;h2 style=&quot;</span>
 <span class="add">+          font-size: var(--font-size-large-1);</span>
 <span class="add">+          font-weight: var(--font-weight-600);</span>
-<span class="add">+          line-height: 28px;</span>
+<span class="add">+          letter-spacing: 0.12em;</span>
+<span class="add">+          line-height: 1.5;</span>
 <span class="add">+          margin-bottom: 0px;</span>
-<span class="add">+          margin-top: 0px</span>
+<span class="add">+          margin-top: 0px;</span>
+<span class="add">+          word-spacing: 0.16em</span>
 <span class="add">+        &quot;></span>
 <span class="add">+          Alert!</span>
 <span class="add">+        &lt;/h2></span>
 <span class="add">+      &lt;/div></span>
 <span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
 <span class="add">+        margin: var(--spacing-200) 0;</span>
-<span class="add">+        min-height: var(--spacing-200)</span>
+<span class="add">+        min-height: var(--spacing-200);</span>
+<span class="add">+        word-spacing: 0.16em</span>
 <span class="add">+      &quot;></span>
 <span class="add">+        &lt;p style=&quot;</span>
-<span class="add">+          margin-bottom: 0px;</span>
-<span class="add">+          margin-top: 0px</span>
+<span class="add">+          letter-spacing: 0.12em;</span>
+<span class="add">+          line-height: 1.5;</span>
+<span class="add">+          margin-bottom: 2em;</span>
+<span class="add">+          margin-top: 0px;</span>
+<span class="add">+          word-spacing: 0.16em</span>
 <span class="add">+        &quot;></span>
 <span class="add">+          You must acknowledge this alert to continue.</span>
 <span class="add">+        &lt;/p></span>
 <span class="add">+      &lt;/div></span>
-<span class="add">+      &lt;div style=&quot;text-align: right&quot;></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
+<span class="add">+        text-align: right;</span>
+<span class="add">+        word-spacing: 0.16em</span>
+<span class="add">+      &quot;></span>
 <span class="add">+        &lt;button style=&quot;</span>
 <span class="add">+          align-content: center;</span>
 <span class="add">+          align-items: center;</span>
@@ -132,6 +230,8 @@
 <span class="add">+          font-family: inherit;</span>
 <span class="add">+          font-size: var(--font-size-body);</span>
 <span class="add">+          font-weight: 700;</span>
+<span class="add">+          letter-spacing: 0.12em;</span>
+<span class="add">+          line-height: 1.5;</span>
 <span class="add">+          min-height: 40px;</span>
 <span class="add">+          min-width: 88px;</span>
 <span class="add">+          overflow-x: hidden;</span>
@@ -142,7 +242,8 @@
 <span class="add">+          padding-top: 0px;</span>
 <span class="add">+          position: relative;</span>
 <span class="add">+          transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);</span>
-<span class="add">+          vertical-align: bottom</span>
+<span class="add">+          vertical-align: bottom;</span>
+<span class="add">+          word-spacing: 0.16em</span>
 <span class="add">+        &quot;></span>
 <span class="add">+          &lt;style>@scope{:scope{</span>
 <span class="add">+            &amp;::after {</span>
@@ -163,7 +264,82 @@
 <span class="add">+  &lt;/div></span>
 <span class="add">+&lt;/div></span>
 \ No newline at end of file
-</pre></div></div></section><section class="dim-section" id="dim-1" data-dim="1"><h3 class="dim-label">768px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="768"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><link rel=&quot;stylesheet&quot; href=&quot;../assets/head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body><script src=&quot;../assets/sprite-head.js&quot;></script>
+</pre></div></div></section><section class="dim-section" id="dim-1" data-dim="1"><h3 class="dim-label">768px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="768"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" style="width:768px" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><link rel=&quot;stylesheet&quot; href=&quot;../assets/head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}/* Custom Classes for Storybook — demo-only styles used by stories.
+   Loaded by Storybook (preview.js), the visual snapshot harness
+   (test/visual/visual.spec.js), and the visual-preview viewer frames
+   (tools/visual-preview/build.mjs), so all three render stories the
+   same way. */
+.font-large {
+    font-size: 200%;
+    /* line-height: var(--typography-body-line-height); */
+}
+
+.carousel__list--default-demo li {
+    background-color: grey;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--image-treatment-demo li {
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--discrete-demo li {
+    background-color: grey;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: calc(25% - 24px);
+}
+
+.carousel__list--discrete-demo li:last-child {
+    margin-right: 0;
+}
+
+.carousel__list--slideshow-demo li {
+    background-color: grey;
+    font-size: 36px;
+    font-weight: bold;
+    height: 300px;
+    line-height: 300px;
+    margin-inline-end: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+.carousel__list--slideshow-demo li:last-child {
+    margin-inline-end: 0;
+}
+
+.demo-a11y-text-spacing,
+.demo-a11y-text-spacing * {
+    line-height: 1.5 !important;
+    letter-spacing: 0.12em !important;
+    word-spacing: 0.16em !important;
+}
+.demo-a11y-text-spacing p {
+    margin-bottom: 2em !important;
+}
+
+.phone-input div.listbox-button__listbox {
+    display: block;
+}
+body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body><script src=&quot;../assets/sprite-head.js&quot;></script>
 <div aria-labelledby=&quot;alert-dialog-title&quot; aria-modal=&quot;true&quot; class=&quot;alert-dialog alert-dialog--mask-fade demo-a11y-text-spacing&quot; role=&quot;alertdialog&quot;>
     <div class=&quot;alert-dialog__window alert-dialog__window--fade&quot;>
         <div class=&quot;alert-dialog__header&quot;>
@@ -177,7 +353,7 @@
         </div>
     </div>
 </div>
-</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,106 @@</span>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,132 @@</span>
 <span class="add">+&lt;div></span>
 <span class="add">+  &lt;div style=&quot;</span>
 <span class="add">+    align-items: flex-start;</span>
@@ -186,10 +362,13 @@
 <span class="add">+    display: flex;</span>
 <span class="add">+    justify-content: center;</span>
 <span class="add">+    left: 0px;</span>
+<span class="add">+    letter-spacing: 0.12em;</span>
+<span class="add">+    line-height: 1.5;</span>
 <span class="add">+    position: fixed;</span>
 <span class="add">+    right: 0px;</span>
 <span class="add">+    top: 0px;</span>
 <span class="add">+    will-change: background-color;</span>
+<span class="add">+    word-spacing: 0.16em;</span>
 <span class="add">+    z-index: 100000</span>
 <span class="add">+  &quot;></span>
 <span class="add">+    &lt;div style=&quot;</span>
@@ -198,6 +377,8 @@
 <span class="add">+      flex-direction: column;</span>
 <span class="add">+      flex-grow: 1;</span>
 <span class="add">+      flex-shrink: 0;</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
 <span class="add">+      margin-bottom: auto;</span>
 <span class="add">+      margin-left: var(--spacing-200);</span>
 <span class="add">+      margin-right: var(--spacing-200);</span>
@@ -207,31 +388,49 @@
 <span class="add">+      min-height: 55px;</span>
 <span class="add">+      min-width: 208px;</span>
 <span class="add">+      padding: var(--spacing-200);</span>
-<span class="add">+      will-change: opacity, transform</span>
+<span class="add">+      will-change: opacity, transform;</span>
+<span class="add">+      word-spacing: 0.16em</span>
 <span class="add">+    &quot;></span>
-<span class="add">+      &lt;div></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
+<span class="add">+        word-spacing: 0.16em</span>
+<span class="add">+      &quot;></span>
 <span class="add">+        &lt;h2 style=&quot;</span>
 <span class="add">+          font-size: var(--font-size-large-1);</span>
 <span class="add">+          font-weight: var(--font-weight-600);</span>
-<span class="add">+          line-height: 28px;</span>
+<span class="add">+          letter-spacing: 0.12em;</span>
+<span class="add">+          line-height: 1.5;</span>
 <span class="add">+          margin-bottom: 0px;</span>
-<span class="add">+          margin-top: 0px</span>
+<span class="add">+          margin-top: 0px;</span>
+<span class="add">+          word-spacing: 0.16em</span>
 <span class="add">+        &quot;></span>
 <span class="add">+          Alert!</span>
 <span class="add">+        &lt;/h2></span>
 <span class="add">+      &lt;/div></span>
 <span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
 <span class="add">+        margin: var(--spacing-200) 0;</span>
-<span class="add">+        min-height: var(--spacing-200)</span>
+<span class="add">+        min-height: var(--spacing-200);</span>
+<span class="add">+        word-spacing: 0.16em</span>
 <span class="add">+      &quot;></span>
 <span class="add">+        &lt;p style=&quot;</span>
-<span class="add">+          margin-bottom: 0px;</span>
-<span class="add">+          margin-top: 0px</span>
+<span class="add">+          letter-spacing: 0.12em;</span>
+<span class="add">+          line-height: 1.5;</span>
+<span class="add">+          margin-bottom: 2em;</span>
+<span class="add">+          margin-top: 0px;</span>
+<span class="add">+          word-spacing: 0.16em</span>
 <span class="add">+        &quot;></span>
 <span class="add">+          You must acknowledge this alert to continue.</span>
 <span class="add">+        &lt;/p></span>
 <span class="add">+      &lt;/div></span>
-<span class="add">+      &lt;div style=&quot;text-align: right&quot;></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
+<span class="add">+        text-align: right;</span>
+<span class="add">+        word-spacing: 0.16em</span>
+<span class="add">+      &quot;></span>
 <span class="add">+        &lt;button style=&quot;</span>
 <span class="add">+          align-content: center;</span>
 <span class="add">+          align-items: center;</span>
@@ -254,6 +453,8 @@
 <span class="add">+          font-family: inherit;</span>
 <span class="add">+          font-size: var(--font-size-body);</span>
 <span class="add">+          font-weight: 700;</span>
+<span class="add">+          letter-spacing: 0.12em;</span>
+<span class="add">+          line-height: 1.5;</span>
 <span class="add">+          min-height: 40px;</span>
 <span class="add">+          min-width: 88px;</span>
 <span class="add">+          overflow-x: hidden;</span>
@@ -264,7 +465,8 @@
 <span class="add">+          padding-top: 0px;</span>
 <span class="add">+          position: relative;</span>
 <span class="add">+          transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);</span>
-<span class="add">+          vertical-align: bottom</span>
+<span class="add">+          vertical-align: bottom;</span>
+<span class="add">+          word-spacing: 0.16em</span>
 <span class="add">+        &quot;></span>
 <span class="add">+          &lt;style>@scope{:scope{</span>
 <span class="add">+            &amp;::after {</span>
@@ -285,7 +487,82 @@
 <span class="add">+  &lt;/div></span>
 <span class="add">+&lt;/div></span>
 \ No newline at end of file
-</pre></div></div></section><section class="dim-section" id="dim-2" data-dim="2"><h3 class="dim-label">1024px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1024"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><link rel=&quot;stylesheet&quot; href=&quot;../assets/head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body><script src=&quot;../assets/sprite-head.js&quot;></script>
+</pre></div></div></section><section class="dim-section" id="dim-2" data-dim="2"><h3 class="dim-label">1024px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1024"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" style="width:1024px" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><link rel=&quot;stylesheet&quot; href=&quot;../assets/head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}/* Custom Classes for Storybook — demo-only styles used by stories.
+   Loaded by Storybook (preview.js), the visual snapshot harness
+   (test/visual/visual.spec.js), and the visual-preview viewer frames
+   (tools/visual-preview/build.mjs), so all three render stories the
+   same way. */
+.font-large {
+    font-size: 200%;
+    /* line-height: var(--typography-body-line-height); */
+}
+
+.carousel__list--default-demo li {
+    background-color: grey;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--image-treatment-demo li {
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--discrete-demo li {
+    background-color: grey;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: calc(25% - 24px);
+}
+
+.carousel__list--discrete-demo li:last-child {
+    margin-right: 0;
+}
+
+.carousel__list--slideshow-demo li {
+    background-color: grey;
+    font-size: 36px;
+    font-weight: bold;
+    height: 300px;
+    line-height: 300px;
+    margin-inline-end: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+.carousel__list--slideshow-demo li:last-child {
+    margin-inline-end: 0;
+}
+
+.demo-a11y-text-spacing,
+.demo-a11y-text-spacing * {
+    line-height: 1.5 !important;
+    letter-spacing: 0.12em !important;
+    word-spacing: 0.16em !important;
+}
+.demo-a11y-text-spacing p {
+    margin-bottom: 2em !important;
+}
+
+.phone-input div.listbox-button__listbox {
+    display: block;
+}
+body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body><script src=&quot;../assets/sprite-head.js&quot;></script>
 <div aria-labelledby=&quot;alert-dialog-title&quot; aria-modal=&quot;true&quot; class=&quot;alert-dialog alert-dialog--mask-fade demo-a11y-text-spacing&quot; role=&quot;alertdialog&quot;>
     <div class=&quot;alert-dialog__window alert-dialog__window--fade&quot;>
         <div class=&quot;alert-dialog__header&quot;>
@@ -299,7 +576,7 @@
         </div>
     </div>
 </div>
-</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,106 @@</span>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,132 @@</span>
 <span class="add">+&lt;div></span>
 <span class="add">+  &lt;div style=&quot;</span>
 <span class="add">+    align-items: flex-start;</span>
@@ -308,10 +585,13 @@
 <span class="add">+    display: flex;</span>
 <span class="add">+    justify-content: center;</span>
 <span class="add">+    left: 0px;</span>
+<span class="add">+    letter-spacing: 0.12em;</span>
+<span class="add">+    line-height: 1.5;</span>
 <span class="add">+    position: fixed;</span>
 <span class="add">+    right: 0px;</span>
 <span class="add">+    top: 0px;</span>
 <span class="add">+    will-change: background-color;</span>
+<span class="add">+    word-spacing: 0.16em;</span>
 <span class="add">+    z-index: 100000</span>
 <span class="add">+  &quot;></span>
 <span class="add">+    &lt;div style=&quot;</span>
@@ -320,6 +600,8 @@
 <span class="add">+      flex-direction: column;</span>
 <span class="add">+      flex-grow: 1;</span>
 <span class="add">+      flex-shrink: 0;</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
 <span class="add">+      margin-bottom: auto;</span>
 <span class="add">+      margin-left: var(--spacing-200);</span>
 <span class="add">+      margin-right: var(--spacing-200);</span>
@@ -329,31 +611,49 @@
 <span class="add">+      min-height: 55px;</span>
 <span class="add">+      min-width: 208px;</span>
 <span class="add">+      padding: var(--spacing-200);</span>
-<span class="add">+      will-change: opacity, transform</span>
+<span class="add">+      will-change: opacity, transform;</span>
+<span class="add">+      word-spacing: 0.16em</span>
 <span class="add">+    &quot;></span>
-<span class="add">+      &lt;div></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
+<span class="add">+        word-spacing: 0.16em</span>
+<span class="add">+      &quot;></span>
 <span class="add">+        &lt;h2 style=&quot;</span>
 <span class="add">+          font-size: var(--font-size-large-1);</span>
 <span class="add">+          font-weight: var(--font-weight-600);</span>
-<span class="add">+          line-height: 28px;</span>
+<span class="add">+          letter-spacing: 0.12em;</span>
+<span class="add">+          line-height: 1.5;</span>
 <span class="add">+          margin-bottom: 0px;</span>
-<span class="add">+          margin-top: 0px</span>
+<span class="add">+          margin-top: 0px;</span>
+<span class="add">+          word-spacing: 0.16em</span>
 <span class="add">+        &quot;></span>
 <span class="add">+          Alert!</span>
 <span class="add">+        &lt;/h2></span>
 <span class="add">+      &lt;/div></span>
 <span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
 <span class="add">+        margin: var(--spacing-200) 0;</span>
-<span class="add">+        min-height: var(--spacing-200)</span>
+<span class="add">+        min-height: var(--spacing-200);</span>
+<span class="add">+        word-spacing: 0.16em</span>
 <span class="add">+      &quot;></span>
 <span class="add">+        &lt;p style=&quot;</span>
-<span class="add">+          margin-bottom: 0px;</span>
-<span class="add">+          margin-top: 0px</span>
+<span class="add">+          letter-spacing: 0.12em;</span>
+<span class="add">+          line-height: 1.5;</span>
+<span class="add">+          margin-bottom: 2em;</span>
+<span class="add">+          margin-top: 0px;</span>
+<span class="add">+          word-spacing: 0.16em</span>
 <span class="add">+        &quot;></span>
 <span class="add">+          You must acknowledge this alert to continue.</span>
 <span class="add">+        &lt;/p></span>
 <span class="add">+      &lt;/div></span>
-<span class="add">+      &lt;div style=&quot;text-align: right&quot;></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
+<span class="add">+        text-align: right;</span>
+<span class="add">+        word-spacing: 0.16em</span>
+<span class="add">+      &quot;></span>
 <span class="add">+        &lt;button style=&quot;</span>
 <span class="add">+          align-content: center;</span>
 <span class="add">+          align-items: center;</span>
@@ -376,6 +676,8 @@
 <span class="add">+          font-family: inherit;</span>
 <span class="add">+          font-size: var(--font-size-body);</span>
 <span class="add">+          font-weight: 700;</span>
+<span class="add">+          letter-spacing: 0.12em;</span>
+<span class="add">+          line-height: 1.5;</span>
 <span class="add">+          min-height: 40px;</span>
 <span class="add">+          min-width: 88px;</span>
 <span class="add">+          overflow-x: hidden;</span>
@@ -386,7 +688,8 @@
 <span class="add">+          padding-top: 0px;</span>
 <span class="add">+          position: relative;</span>
 <span class="add">+          transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);</span>
-<span class="add">+          vertical-align: bottom</span>
+<span class="add">+          vertical-align: bottom;</span>
+<span class="add">+          word-spacing: 0.16em</span>
 <span class="add">+        &quot;></span>
 <span class="add">+          &lt;style>@scope{:scope{</span>
 <span class="add">+            &amp;::after {</span>
@@ -407,7 +710,82 @@
 <span class="add">+  &lt;/div></span>
 <span class="add">+&lt;/div></span>
 \ No newline at end of file
-</pre></div></div></section><section class="dim-section" id="dim-3" data-dim="3"><h3 class="dim-label">1280px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><link rel=&quot;stylesheet&quot; href=&quot;../assets/head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body><script src=&quot;../assets/sprite-head.js&quot;></script>
+</pre></div></div></section><section class="dim-section" id="dim-3" data-dim="3"><h3 class="dim-label">1280px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" style="width:1280px" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><link rel=&quot;stylesheet&quot; href=&quot;../assets/head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}/* Custom Classes for Storybook — demo-only styles used by stories.
+   Loaded by Storybook (preview.js), the visual snapshot harness
+   (test/visual/visual.spec.js), and the visual-preview viewer frames
+   (tools/visual-preview/build.mjs), so all three render stories the
+   same way. */
+.font-large {
+    font-size: 200%;
+    /* line-height: var(--typography-body-line-height); */
+}
+
+.carousel__list--default-demo li {
+    background-color: grey;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--image-treatment-demo li {
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--discrete-demo li {
+    background-color: grey;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: calc(25% - 24px);
+}
+
+.carousel__list--discrete-demo li:last-child {
+    margin-right: 0;
+}
+
+.carousel__list--slideshow-demo li {
+    background-color: grey;
+    font-size: 36px;
+    font-weight: bold;
+    height: 300px;
+    line-height: 300px;
+    margin-inline-end: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+.carousel__list--slideshow-demo li:last-child {
+    margin-inline-end: 0;
+}
+
+.demo-a11y-text-spacing,
+.demo-a11y-text-spacing * {
+    line-height: 1.5 !important;
+    letter-spacing: 0.12em !important;
+    word-spacing: 0.16em !important;
+}
+.demo-a11y-text-spacing p {
+    margin-bottom: 2em !important;
+}
+
+.phone-input div.listbox-button__listbox {
+    display: block;
+}
+body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body><script src=&quot;../assets/sprite-head.js&quot;></script>
 <div aria-labelledby=&quot;alert-dialog-title&quot; aria-modal=&quot;true&quot; class=&quot;alert-dialog alert-dialog--mask-fade demo-a11y-text-spacing&quot; role=&quot;alertdialog&quot;>
     <div class=&quot;alert-dialog__window alert-dialog__window--fade&quot;>
         <div class=&quot;alert-dialog__header&quot;>
@@ -421,7 +799,7 @@
         </div>
     </div>
 </div>
-</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,106 @@</span>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,132 @@</span>
 <span class="add">+&lt;div></span>
 <span class="add">+  &lt;div style=&quot;</span>
 <span class="add">+    align-items: flex-start;</span>
@@ -430,10 +808,13 @@
 <span class="add">+    display: flex;</span>
 <span class="add">+    justify-content: center;</span>
 <span class="add">+    left: 0px;</span>
+<span class="add">+    letter-spacing: 0.12em;</span>
+<span class="add">+    line-height: 1.5;</span>
 <span class="add">+    position: fixed;</span>
 <span class="add">+    right: 0px;</span>
 <span class="add">+    top: 0px;</span>
 <span class="add">+    will-change: background-color;</span>
+<span class="add">+    word-spacing: 0.16em;</span>
 <span class="add">+    z-index: 100000</span>
 <span class="add">+  &quot;></span>
 <span class="add">+    &lt;div style=&quot;</span>
@@ -442,6 +823,8 @@
 <span class="add">+      flex-direction: column;</span>
 <span class="add">+      flex-grow: 1;</span>
 <span class="add">+      flex-shrink: 0;</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
 <span class="add">+      margin-bottom: auto;</span>
 <span class="add">+      margin-left: var(--spacing-200);</span>
 <span class="add">+      margin-right: var(--spacing-200);</span>
@@ -451,31 +834,49 @@
 <span class="add">+      min-height: 55px;</span>
 <span class="add">+      min-width: 208px;</span>
 <span class="add">+      padding: var(--spacing-200);</span>
-<span class="add">+      will-change: opacity, transform</span>
+<span class="add">+      will-change: opacity, transform;</span>
+<span class="add">+      word-spacing: 0.16em</span>
 <span class="add">+    &quot;></span>
-<span class="add">+      &lt;div></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
+<span class="add">+        word-spacing: 0.16em</span>
+<span class="add">+      &quot;></span>
 <span class="add">+        &lt;h2 style=&quot;</span>
 <span class="add">+          font-size: var(--font-size-large-1);</span>
 <span class="add">+          font-weight: var(--font-weight-600);</span>
-<span class="add">+          line-height: 28px;</span>
+<span class="add">+          letter-spacing: 0.12em;</span>
+<span class="add">+          line-height: 1.5;</span>
 <span class="add">+          margin-bottom: 0px;</span>
-<span class="add">+          margin-top: 0px</span>
+<span class="add">+          margin-top: 0px;</span>
+<span class="add">+          word-spacing: 0.16em</span>
 <span class="add">+        &quot;></span>
 <span class="add">+          Alert!</span>
 <span class="add">+        &lt;/h2></span>
 <span class="add">+      &lt;/div></span>
 <span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
 <span class="add">+        margin: var(--spacing-200) 0;</span>
-<span class="add">+        min-height: var(--spacing-200)</span>
+<span class="add">+        min-height: var(--spacing-200);</span>
+<span class="add">+        word-spacing: 0.16em</span>
 <span class="add">+      &quot;></span>
 <span class="add">+        &lt;p style=&quot;</span>
-<span class="add">+          margin-bottom: 0px;</span>
-<span class="add">+          margin-top: 0px</span>
+<span class="add">+          letter-spacing: 0.12em;</span>
+<span class="add">+          line-height: 1.5;</span>
+<span class="add">+          margin-bottom: 2em;</span>
+<span class="add">+          margin-top: 0px;</span>
+<span class="add">+          word-spacing: 0.16em</span>
 <span class="add">+        &quot;></span>
 <span class="add">+          You must acknowledge this alert to continue.</span>
 <span class="add">+        &lt;/p></span>
 <span class="add">+      &lt;/div></span>
-<span class="add">+      &lt;div style=&quot;text-align: right&quot;></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
+<span class="add">+        text-align: right;</span>
+<span class="add">+        word-spacing: 0.16em</span>
+<span class="add">+      &quot;></span>
 <span class="add">+        &lt;button style=&quot;</span>
 <span class="add">+          align-content: center;</span>
 <span class="add">+          align-items: center;</span>
@@ -498,6 +899,8 @@
 <span class="add">+          font-family: inherit;</span>
 <span class="add">+          font-size: var(--font-size-body);</span>
 <span class="add">+          font-weight: 700;</span>
+<span class="add">+          letter-spacing: 0.12em;</span>
+<span class="add">+          line-height: 1.5;</span>
 <span class="add">+          min-height: 40px;</span>
 <span class="add">+          min-width: 88px;</span>
 <span class="add">+          overflow-x: hidden;</span>
@@ -508,7 +911,8 @@
 <span class="add">+          padding-top: 0px;</span>
 <span class="add">+          position: relative;</span>
 <span class="add">+          transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);</span>
-<span class="add">+          vertical-align: bottom</span>
+<span class="add">+          vertical-align: bottom;</span>
+<span class="add">+          word-spacing: 0.16em</span>
 <span class="add">+        &quot;></span>
 <span class="add">+          &lt;style>@scope{:scope{</span>
 <span class="add">+            &amp;::after {</span>
@@ -543,7 +947,7 @@
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
-    const PAGE = {"baseRefShort":"60ee2f496866","prevHref":"alert-dialog-stories-alert-dialog--baseWithHeaderOverflow.html","nextHref":"avatar-stories-avatar--base.html","indexHref":"../index.html","pos":14,"total":1012,"slug":"alert-dialog-stories-alert-dialog--textSpacing","hash":"1bhovuw","component":"alert-dialog","story":"textSpacing","file":"packages/skin/src/sass/alert-dialog/stories/__snapshots__/alert-dialog.snap","dims":[{"changes":[]},{"changes":[]},{"changes":[]},{"changes":[]}]};
+    const PAGE = {"baseRefShort":"60ee2f496866","prevHref":"alert-dialog-stories-alert-dialog--baseWithHeaderOverflow.html","nextHref":"avatar-stories-avatar--base.html","indexHref":"../index.html","pos":13,"total":954,"slug":"alert-dialog-stories-alert-dialog--textSpacing","hash":"1714t2c","component":"alert-dialog","story":"textSpacing","file":"packages/skin/src/sass/alert-dialog/stories/__snapshots__/alert-dialog.snap","dims":[{"changes":[]},{"changes":[]},{"changes":[]},{"changes":[]}]};
 </script>
 <script src="../assets/nav.js" defer></script>
 <script src="../assets/story.js" defer></script>

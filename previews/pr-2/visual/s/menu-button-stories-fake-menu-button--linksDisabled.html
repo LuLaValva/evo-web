@@ -41,7 +41,82 @@
         <div class="grow"></div>
         <button class="flag" id="flag-btn" type="button">⚑ Flag</button>
     </div>
-    <section class="dim-section" id="dim-0" data-dim="0"><div class="stage"><div class="render-area"><div class="duo mode-side fluid solo"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fluid"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><link rel=&quot;stylesheet&quot; href=&quot;../assets/head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body><script src=&quot;../assets/sprite-head.js&quot;></script>
+    <section class="dim-section" id="dim-0" data-dim="0"><div class="stage"><div class="render-area"><div class="duo mode-side fluid solo"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fluid"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><link rel=&quot;stylesheet&quot; href=&quot;../assets/head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}/* Custom Classes for Storybook — demo-only styles used by stories.
+   Loaded by Storybook (preview.js), the visual snapshot harness
+   (test/visual/visual.spec.js), and the visual-preview viewer frames
+   (tools/visual-preview/build.mjs), so all three render stories the
+   same way. */
+.font-large {
+    font-size: 200%;
+    /* line-height: var(--typography-body-line-height); */
+}
+
+.carousel__list--default-demo li {
+    background-color: grey;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--image-treatment-demo li {
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--discrete-demo li {
+    background-color: grey;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: calc(25% - 24px);
+}
+
+.carousel__list--discrete-demo li:last-child {
+    margin-right: 0;
+}
+
+.carousel__list--slideshow-demo li {
+    background-color: grey;
+    font-size: 36px;
+    font-weight: bold;
+    height: 300px;
+    line-height: 300px;
+    margin-inline-end: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+.carousel__list--slideshow-demo li:last-child {
+    margin-inline-end: 0;
+}
+
+.demo-a11y-text-spacing,
+.demo-a11y-text-spacing * {
+    line-height: 1.5 !important;
+    letter-spacing: 0.12em !important;
+    word-spacing: 0.16em !important;
+}
+.demo-a11y-text-spacing p {
+    margin-bottom: 2em !important;
+}
+
+.phone-input div.listbox-button__listbox {
+    display: block;
+}
+body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body><script src=&quot;../assets/sprite-head.js&quot;></script>
 <span class=&quot;fake-menu-button&quot;>
     <button class=&quot;btn&quot; aria-expanded=&quot;true&quot; aria-haspopup=&quot;true&quot; type=&quot;button&quot;>
         <span class=&quot;btn__cell&quot;>
@@ -333,7 +408,7 @@
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
-    const PAGE = {"baseRefShort":"60ee2f496866","prevHref":"menu-button-stories-fake-menu-button--links.html","nextHref":"menu-button-stories-fake-menu-button--linksFixedWidth.html","indexHref":"../index.html","pos":571,"total":1012,"slug":"menu-button-stories-fake-menu-button--linksDisabled","hash":"120vt66","component":"menu-button","story":"linksDisabled","file":"packages/skin/src/sass/menu-button/stories/__snapshots__/fake-menu-button.snap","dims":[{"changes":[]}]};
+    const PAGE = {"baseRefShort":"60ee2f496866","prevHref":"menu-button-stories-fake-menu-button--links.html","nextHref":"menu-button-stories-fake-menu-button--linksFixedWidth.html","indexHref":"../index.html","pos":529,"total":954,"slug":"menu-button-stories-fake-menu-button--linksDisabled","hash":"120vt66","component":"menu-button","story":"linksDisabled","file":"packages/skin/src/sass/menu-button/stories/__snapshots__/fake-menu-button.snap","dims":[{"changes":[]}]};
 </script>
 <script src="../assets/nav.js" defer></script>
 <script src="../assets/story.js" defer></script>

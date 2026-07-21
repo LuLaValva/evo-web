@@ -41,7 +41,82 @@
         <div class="grow"></div>
         <button class="flag" id="flag-btn" type="button">⚑ Flag</button>
     </div>
-    <section class="dim-section" id="dim-0" data-dim="0"><h3 class="dim-label">320px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="320"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><link rel=&quot;stylesheet&quot; href=&quot;../assets/head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body><script src=&quot;../assets/sprite-head.js&quot;></script>
+    <section class="dim-section" id="dim-0" data-dim="0"><h3 class="dim-label">320px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="320"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" style="width:320px" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><link rel=&quot;stylesheet&quot; href=&quot;../assets/head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}/* Custom Classes for Storybook — demo-only styles used by stories.
+   Loaded by Storybook (preview.js), the visual snapshot harness
+   (test/visual/visual.spec.js), and the visual-preview viewer frames
+   (tools/visual-preview/build.mjs), so all three render stories the
+   same way. */
+.font-large {
+    font-size: 200%;
+    /* line-height: var(--typography-body-line-height); */
+}
+
+.carousel__list--default-demo li {
+    background-color: grey;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--image-treatment-demo li {
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--discrete-demo li {
+    background-color: grey;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: calc(25% - 24px);
+}
+
+.carousel__list--discrete-demo li:last-child {
+    margin-right: 0;
+}
+
+.carousel__list--slideshow-demo li {
+    background-color: grey;
+    font-size: 36px;
+    font-weight: bold;
+    height: 300px;
+    line-height: 300px;
+    margin-inline-end: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+.carousel__list--slideshow-demo li:last-child {
+    margin-inline-end: 0;
+}
+
+.demo-a11y-text-spacing,
+.demo-a11y-text-spacing * {
+    line-height: 1.5 !important;
+    letter-spacing: 0.12em !important;
+    word-spacing: 0.16em !important;
+}
+.demo-a11y-text-spacing p {
+    margin-bottom: 2em !important;
+}
+
+.phone-input div.listbox-button__listbox {
+    display: block;
+}
+body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body><script src=&quot;../assets/sprite-head.js&quot;></script>
 <div class=&quot;tourtip tourtip--expanded demo-a11y-text-spacing&quot;>
     <p class=&quot;tourtip__host&quot;>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <div class=&quot;tourtip__overlay&quot; style=&quot;left: calc(50% - 200px); right: auto; top: calc(100% + 12px); bottom: auto&quot; role=&quot;region&quot; aria-labelledby=&quot;tourtip-label&quot;>
@@ -60,58 +135,89 @@
             </div>
         </div>
     </div>
-</div></body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,132 @@</span>
+</div></body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,176 @@</span>
 <span class="add">+&lt;div></span>
-<span class="add">+  &lt;div style=&quot;position: relative&quot;></span>
-<span class="add">+    &lt;p></span>
+<span class="add">+  &lt;div style=&quot;</span>
+<span class="add">+    letter-spacing: 0.12em;</span>
+<span class="add">+    line-height: 1.5;</span>
+<span class="add">+    position: relative;</span>
+<span class="add">+    word-spacing: 0.16em</span>
+<span class="add">+  &quot;></span>
+<span class="add">+    &lt;p style=&quot;</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
+<span class="add">+      margin-bottom: 2em;</span>
+<span class="add">+      word-spacing: 0.16em</span>
+<span class="add">+    &quot;></span>
 <span class="add">+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
 <span class="add">+    &lt;/p></span>
 <span class="add">+    &lt;div style=&quot;</span>
 <span class="add">+      box-shadow: var(--bubble-shadow);</span>
 <span class="add">+      font-size: 14px;</span>
 <span class="add">+      left: calc(50% - 200px);</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
 <span class="add">+      max-width: min(344px, 80vw);</span>
 <span class="add">+      position: absolute;</span>
 <span class="add">+      top: calc(100% + 12px);</span>
 <span class="add">+      transform: scaleX(1);</span>
 <span class="add">+      width: max-content;</span>
+<span class="add">+      word-spacing: 0.16em;</span>
 <span class="add">+      z-index: 1</span>
 <span class="add">+    &quot;></span>
 <span class="add">+      &lt;span style=&quot;</span>
 <span class="add">+        background-color: var(--tourtip-background-color, var(--color-background-inverse));</span>
 <span class="add">+        height: 8px;</span>
 <span class="add">+        left: calc(50% - 4px);</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
 <span class="add">+        position: absolute;</span>
 <span class="add">+        top: -4px;</span>
 <span class="add">+        transform: rotate(45deg);</span>
 <span class="add">+        width: 8px;</span>
+<span class="add">+        word-spacing: 0.16em;</span>
 <span class="add">+        z-index: 0</span>
 <span class="add">+      &quot;/></span>
 <span class="add">+      &lt;div style=&quot;</span>
 <span class="add">+        background-color: var(--tourtip-background-color, var(--color-background-inverse));</span>
 <span class="add">+        color: var(--tourtip-foreground-color, var(--color-foreground-on-inverse));</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
 <span class="add">+        position: relative;</span>
+<span class="add">+        word-spacing: 0.16em;</span>
 <span class="add">+        z-index: 1</span>
 <span class="add">+      &quot;></span>
 <span class="add">+        &lt;div style=&quot;</span>
 <span class="add">+          display: flex;</span>
 <span class="add">+          flex-wrap: wrap;</span>
+<span class="add">+          letter-spacing: 0.12em;</span>
+<span class="add">+          line-height: 1.5;</span>
 <span class="add">+          overflow-wrap: anywhere;</span>
-<span class="add">+          padding: var(--spacing-200)</span>
+<span class="add">+          padding: var(--spacing-200);</span>
+<span class="add">+          word-spacing: 0.16em</span>
 <span class="add">+        &quot;></span>
 <span class="add">+          &lt;span style=&quot;</span>
 <span class="add">+            flex-basis: 0px;</span>
-<span class="add">+            flex-grow: 1</span>
+<span class="add">+            flex-grow: 1;</span>
+<span class="add">+            letter-spacing: 0.12em;</span>
+<span class="add">+            line-height: 1.5;</span>
+<span class="add">+            word-spacing: 0.16em</span>
 <span class="add">+          &quot;></span>
 <span class="add">+            &lt;h2 style=&quot;</span>
 <span class="add">+              font-size: var(--font-size-large-1);</span>
-<span class="add">+              margin: 0 0 var(--spacing-100)</span>
+<span class="add">+              letter-spacing: 0.12em;</span>
+<span class="add">+              line-height: 1.5;</span>
+<span class="add">+              margin: 0 0 var(--spacing-100);</span>
+<span class="add">+              word-spacing: 0.16em</span>
 <span class="add">+            &quot;></span>
 <span class="add">+              Tourtip</span>
 <span class="add">+            &lt;/h2></span>
 <span class="add">+            &lt;p style=&quot;</span>
-<span class="add">+              margin-bottom: 0px;</span>
-<span class="add">+              margin-top: 0px</span>
+<span class="add">+              letter-spacing: 0.12em;</span>
+<span class="add">+              line-height: 1.5;</span>
+<span class="add">+              margin-bottom: 2em;</span>
+<span class="add">+              margin-top: 0px;</span>
+<span class="add">+              word-spacing: 0.16em</span>
 <span class="add">+            &quot;></span>
 <span class="add">+              Here's something new to help you be successful at your task.</span>
 <span class="add">+            &lt;/p></span>
@@ -140,6 +246,8 @@
 <span class="add">+            font-family: inherit;</span>
 <span class="add">+            height: var(--spacing-400);</span>
 <span class="add">+            justify-content: center;</span>
+<span class="add">+            letter-spacing: 0.12em;</span>
+<span class="add">+            line-height: 1.5;</span>
 <span class="add">+            margin: calc(var(--spacing-100)*-1) calc(var(--spacing-100)*-1) 0 var(--spacing-100);</span>
 <span class="add">+            outline-offset: -2px;</span>
 <span class="add">+            overflow-x: hidden;</span>
@@ -151,7 +259,8 @@
 <span class="add">+            position: relative;</span>
 <span class="add">+            text-wrap-mode: nowrap;</span>
 <span class="add">+            vertical-align: text-bottom;</span>
-<span class="add">+            width: 32px</span>
+<span class="add">+            width: 32px;</span>
+<span class="add">+            word-spacing: 0.16em</span>
 <span class="add">+          &quot;></span>
 <span class="add">+            &lt;style>@scope{:scope{</span>
 <span class="add">+              &amp;::after {</span>
@@ -175,17 +284,27 @@
 <span class="add">+                display: inline-block;</span>
 <span class="add">+                fill: var(--tourtip-foreground-color, var(--color-foreground-on-inverse));</span>
 <span class="add">+                height: 16px;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                max-width: 75%;</span>
 <span class="add">+                pointer-events: none;</span>
 <span class="add">+                position: relative;</span>
 <span class="add">+                stroke-width: 0;</span>
 <span class="add">+                stroke: currentcolor;</span>
 <span class="add">+                vertical-align: middle;</span>
-<span class="add">+                width: 16px</span>
+<span class="add">+                width: 16px;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;</span>
 <span class="add">+              width=&quot;24&quot;</span>
 <span class="add">+            ></span>
-<span class="add">+              &lt;use href=&quot;#icon-close-16&quot;/></span>
+<span class="add">+              &lt;use</span>
+<span class="add">+                href=&quot;#icon-close-16&quot;</span>
+<span class="add">+                style=&quot;</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  word-spacing: 0.16em</span>
+<span class="add">+                &quot;</span>
+<span class="add">+              /></span>
 <span class="add">+            &lt;/svg></span>
 <span class="add">+          &lt;/button></span>
 <span class="add">+        &lt;/div></span>
@@ -194,7 +313,82 @@
 <span class="add">+  &lt;/div></span>
 <span class="add">+&lt;/div></span>
 \ No newline at end of file
-</pre></div></div></section><section class="dim-section" id="dim-1" data-dim="1"><h3 class="dim-label">512px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="512"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><link rel=&quot;stylesheet&quot; href=&quot;../assets/head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body><script src=&quot;../assets/sprite-head.js&quot;></script>
+</pre></div></div></section><section class="dim-section" id="dim-1" data-dim="1"><h3 class="dim-label">512px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="512"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" style="width:512px" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><link rel=&quot;stylesheet&quot; href=&quot;../assets/head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}/* Custom Classes for Storybook — demo-only styles used by stories.
+   Loaded by Storybook (preview.js), the visual snapshot harness
+   (test/visual/visual.spec.js), and the visual-preview viewer frames
+   (tools/visual-preview/build.mjs), so all three render stories the
+   same way. */
+.font-large {
+    font-size: 200%;
+    /* line-height: var(--typography-body-line-height); */
+}
+
+.carousel__list--default-demo li {
+    background-color: grey;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--image-treatment-demo li {
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--discrete-demo li {
+    background-color: grey;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: calc(25% - 24px);
+}
+
+.carousel__list--discrete-demo li:last-child {
+    margin-right: 0;
+}
+
+.carousel__list--slideshow-demo li {
+    background-color: grey;
+    font-size: 36px;
+    font-weight: bold;
+    height: 300px;
+    line-height: 300px;
+    margin-inline-end: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+.carousel__list--slideshow-demo li:last-child {
+    margin-inline-end: 0;
+}
+
+.demo-a11y-text-spacing,
+.demo-a11y-text-spacing * {
+    line-height: 1.5 !important;
+    letter-spacing: 0.12em !important;
+    word-spacing: 0.16em !important;
+}
+.demo-a11y-text-spacing p {
+    margin-bottom: 2em !important;
+}
+
+.phone-input div.listbox-button__listbox {
+    display: block;
+}
+body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body><script src=&quot;../assets/sprite-head.js&quot;></script>
 <div class=&quot;tourtip tourtip--expanded demo-a11y-text-spacing&quot;>
     <p class=&quot;tourtip__host&quot;>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <div class=&quot;tourtip__overlay&quot; style=&quot;left: calc(50% - 200px); right: auto; top: calc(100% + 12px); bottom: auto&quot; role=&quot;region&quot; aria-labelledby=&quot;tourtip-label&quot;>
@@ -213,58 +407,89 @@
             </div>
         </div>
     </div>
-</div></body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,132 @@</span>
+</div></body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,176 @@</span>
 <span class="add">+&lt;div></span>
-<span class="add">+  &lt;div style=&quot;position: relative&quot;></span>
-<span class="add">+    &lt;p></span>
+<span class="add">+  &lt;div style=&quot;</span>
+<span class="add">+    letter-spacing: 0.12em;</span>
+<span class="add">+    line-height: 1.5;</span>
+<span class="add">+    position: relative;</span>
+<span class="add">+    word-spacing: 0.16em</span>
+<span class="add">+  &quot;></span>
+<span class="add">+    &lt;p style=&quot;</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
+<span class="add">+      margin-bottom: 2em;</span>
+<span class="add">+      word-spacing: 0.16em</span>
+<span class="add">+    &quot;></span>
 <span class="add">+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
 <span class="add">+    &lt;/p></span>
 <span class="add">+    &lt;div style=&quot;</span>
 <span class="add">+      box-shadow: var(--bubble-shadow);</span>
 <span class="add">+      font-size: 14px;</span>
 <span class="add">+      left: calc(50% - 200px);</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
 <span class="add">+      max-width: 400px;</span>
 <span class="add">+      position: absolute;</span>
 <span class="add">+      top: calc(100% + 12px);</span>
 <span class="add">+      transform: scaleX(1);</span>
 <span class="add">+      width: max-content;</span>
+<span class="add">+      word-spacing: 0.16em;</span>
 <span class="add">+      z-index: 1</span>
 <span class="add">+    &quot;></span>
 <span class="add">+      &lt;span style=&quot;</span>
 <span class="add">+        background-color: var(--tourtip-background-color, var(--color-background-inverse));</span>
 <span class="add">+        height: 8px;</span>
 <span class="add">+        left: calc(50% - 4px);</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
 <span class="add">+        position: absolute;</span>
 <span class="add">+        top: -4px;</span>
 <span class="add">+        transform: rotate(45deg);</span>
 <span class="add">+        width: 8px;</span>
+<span class="add">+        word-spacing: 0.16em;</span>
 <span class="add">+        z-index: 0</span>
 <span class="add">+      &quot;/></span>
 <span class="add">+      &lt;div style=&quot;</span>
 <span class="add">+        background-color: var(--tourtip-background-color, var(--color-background-inverse));</span>
 <span class="add">+        color: var(--tourtip-foreground-color, var(--color-foreground-on-inverse));</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
 <span class="add">+        position: relative;</span>
+<span class="add">+        word-spacing: 0.16em;</span>
 <span class="add">+        z-index: 1</span>
 <span class="add">+      &quot;></span>
 <span class="add">+        &lt;div style=&quot;</span>
 <span class="add">+          display: flex;</span>
 <span class="add">+          flex-wrap: wrap;</span>
+<span class="add">+          letter-spacing: 0.12em;</span>
+<span class="add">+          line-height: 1.5;</span>
 <span class="add">+          overflow-wrap: anywhere;</span>
-<span class="add">+          padding: var(--spacing-200)</span>
+<span class="add">+          padding: var(--spacing-200);</span>
+<span class="add">+          word-spacing: 0.16em</span>
 <span class="add">+        &quot;></span>
 <span class="add">+          &lt;span style=&quot;</span>
 <span class="add">+            flex-basis: 0px;</span>
-<span class="add">+            flex-grow: 1</span>
+<span class="add">+            flex-grow: 1;</span>
+<span class="add">+            letter-spacing: 0.12em;</span>
+<span class="add">+            line-height: 1.5;</span>
+<span class="add">+            word-spacing: 0.16em</span>
 <span class="add">+          &quot;></span>
 <span class="add">+            &lt;h2 style=&quot;</span>
 <span class="add">+              font-size: var(--font-size-large-1);</span>
-<span class="add">+              margin: 0 0 var(--spacing-100)</span>
+<span class="add">+              letter-spacing: 0.12em;</span>
+<span class="add">+              line-height: 1.5;</span>
+<span class="add">+              margin: 0 0 var(--spacing-100);</span>
+<span class="add">+              word-spacing: 0.16em</span>
 <span class="add">+            &quot;></span>
 <span class="add">+              Tourtip</span>
 <span class="add">+            &lt;/h2></span>
 <span class="add">+            &lt;p style=&quot;</span>
-<span class="add">+              margin-bottom: 0px;</span>
-<span class="add">+              margin-top: 0px</span>
+<span class="add">+              letter-spacing: 0.12em;</span>
+<span class="add">+              line-height: 1.5;</span>
+<span class="add">+              margin-bottom: 2em;</span>
+<span class="add">+              margin-top: 0px;</span>
+<span class="add">+              word-spacing: 0.16em</span>
 <span class="add">+            &quot;></span>
 <span class="add">+              Here's something new to help you be successful at your task.</span>
 <span class="add">+            &lt;/p></span>
@@ -293,6 +518,8 @@
 <span class="add">+            font-family: inherit;</span>
 <span class="add">+            height: var(--spacing-400);</span>
 <span class="add">+            justify-content: center;</span>
+<span class="add">+            letter-spacing: 0.12em;</span>
+<span class="add">+            line-height: 1.5;</span>
 <span class="add">+            margin: calc(var(--spacing-100)*-1) calc(var(--spacing-100)*-1) 0 var(--spacing-100);</span>
 <span class="add">+            outline-offset: -2px;</span>
 <span class="add">+            overflow-x: hidden;</span>
@@ -304,7 +531,8 @@
 <span class="add">+            position: relative;</span>
 <span class="add">+            text-wrap-mode: nowrap;</span>
 <span class="add">+            vertical-align: text-bottom;</span>
-<span class="add">+            width: 32px</span>
+<span class="add">+            width: 32px;</span>
+<span class="add">+            word-spacing: 0.16em</span>
 <span class="add">+          &quot;></span>
 <span class="add">+            &lt;style>@scope{:scope{</span>
 <span class="add">+              &amp;::after {</span>
@@ -328,17 +556,27 @@
 <span class="add">+                display: inline-block;</span>
 <span class="add">+                fill: var(--tourtip-foreground-color, var(--color-foreground-on-inverse));</span>
 <span class="add">+                height: 16px;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                max-width: 75%;</span>
 <span class="add">+                pointer-events: none;</span>
 <span class="add">+                position: relative;</span>
 <span class="add">+                stroke-width: 0;</span>
 <span class="add">+                stroke: currentcolor;</span>
 <span class="add">+                vertical-align: middle;</span>
-<span class="add">+                width: 16px</span>
+<span class="add">+                width: 16px;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;</span>
 <span class="add">+              width=&quot;24&quot;</span>
 <span class="add">+            ></span>
-<span class="add">+              &lt;use href=&quot;#icon-close-16&quot;/></span>
+<span class="add">+              &lt;use</span>
+<span class="add">+                href=&quot;#icon-close-16&quot;</span>
+<span class="add">+                style=&quot;</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  word-spacing: 0.16em</span>
+<span class="add">+                &quot;</span>
+<span class="add">+              /></span>
 <span class="add">+            &lt;/svg></span>
 <span class="add">+          &lt;/button></span>
 <span class="add">+        &lt;/div></span>
@@ -347,7 +585,82 @@
 <span class="add">+  &lt;/div></span>
 <span class="add">+&lt;/div></span>
 \ No newline at end of file
-</pre></div></div></section><section class="dim-section" id="dim-2" data-dim="2"><h3 class="dim-label">1280px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><link rel=&quot;stylesheet&quot; href=&quot;../assets/head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body><script src=&quot;../assets/sprite-head.js&quot;></script>
+</pre></div></div></section><section class="dim-section" id="dim-2" data-dim="2"><h3 class="dim-label">1280px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" style="width:1280px" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><link rel=&quot;stylesheet&quot; href=&quot;../assets/head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}/* Custom Classes for Storybook — demo-only styles used by stories.
+   Loaded by Storybook (preview.js), the visual snapshot harness
+   (test/visual/visual.spec.js), and the visual-preview viewer frames
+   (tools/visual-preview/build.mjs), so all three render stories the
+   same way. */
+.font-large {
+    font-size: 200%;
+    /* line-height: var(--typography-body-line-height); */
+}
+
+.carousel__list--default-demo li {
+    background-color: grey;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--image-treatment-demo li {
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--discrete-demo li {
+    background-color: grey;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: calc(25% - 24px);
+}
+
+.carousel__list--discrete-demo li:last-child {
+    margin-right: 0;
+}
+
+.carousel__list--slideshow-demo li {
+    background-color: grey;
+    font-size: 36px;
+    font-weight: bold;
+    height: 300px;
+    line-height: 300px;
+    margin-inline-end: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+.carousel__list--slideshow-demo li:last-child {
+    margin-inline-end: 0;
+}
+
+.demo-a11y-text-spacing,
+.demo-a11y-text-spacing * {
+    line-height: 1.5 !important;
+    letter-spacing: 0.12em !important;
+    word-spacing: 0.16em !important;
+}
+.demo-a11y-text-spacing p {
+    margin-bottom: 2em !important;
+}
+
+.phone-input div.listbox-button__listbox {
+    display: block;
+}
+body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body><script src=&quot;../assets/sprite-head.js&quot;></script>
 <div class=&quot;tourtip tourtip--expanded demo-a11y-text-spacing&quot;>
     <p class=&quot;tourtip__host&quot;>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <div class=&quot;tourtip__overlay&quot; style=&quot;left: calc(50% - 200px); right: auto; top: calc(100% + 12px); bottom: auto&quot; role=&quot;region&quot; aria-labelledby=&quot;tourtip-label&quot;>
@@ -366,58 +679,89 @@
             </div>
         </div>
     </div>
-</div></body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,132 @@</span>
+</div></body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,176 @@</span>
 <span class="add">+&lt;div></span>
-<span class="add">+  &lt;div style=&quot;position: relative&quot;></span>
-<span class="add">+    &lt;p></span>
+<span class="add">+  &lt;div style=&quot;</span>
+<span class="add">+    letter-spacing: 0.12em;</span>
+<span class="add">+    line-height: 1.5;</span>
+<span class="add">+    position: relative;</span>
+<span class="add">+    word-spacing: 0.16em</span>
+<span class="add">+  &quot;></span>
+<span class="add">+    &lt;p style=&quot;</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
+<span class="add">+      margin-bottom: 2em;</span>
+<span class="add">+      word-spacing: 0.16em</span>
+<span class="add">+    &quot;></span>
 <span class="add">+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
 <span class="add">+    &lt;/p></span>
 <span class="add">+    &lt;div style=&quot;</span>
 <span class="add">+      box-shadow: var(--bubble-shadow);</span>
 <span class="add">+      font-size: 14px;</span>
 <span class="add">+      left: calc(50% - 200px);</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
 <span class="add">+      max-width: 400px;</span>
 <span class="add">+      position: absolute;</span>
 <span class="add">+      top: calc(100% + 12px);</span>
 <span class="add">+      transform: scaleX(1);</span>
 <span class="add">+      width: max-content;</span>
+<span class="add">+      word-spacing: 0.16em;</span>
 <span class="add">+      z-index: 1</span>
 <span class="add">+    &quot;></span>
 <span class="add">+      &lt;span style=&quot;</span>
 <span class="add">+        background-color: var(--tourtip-background-color, var(--color-background-inverse));</span>
 <span class="add">+        height: 8px;</span>
 <span class="add">+        left: calc(50% - 4px);</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
 <span class="add">+        position: absolute;</span>
 <span class="add">+        top: -4px;</span>
 <span class="add">+        transform: rotate(45deg);</span>
 <span class="add">+        width: 8px;</span>
+<span class="add">+        word-spacing: 0.16em;</span>
 <span class="add">+        z-index: 0</span>
 <span class="add">+      &quot;/></span>
 <span class="add">+      &lt;div style=&quot;</span>
 <span class="add">+        background-color: var(--tourtip-background-color, var(--color-background-inverse));</span>
 <span class="add">+        color: var(--tourtip-foreground-color, var(--color-foreground-on-inverse));</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
 <span class="add">+        position: relative;</span>
+<span class="add">+        word-spacing: 0.16em;</span>
 <span class="add">+        z-index: 1</span>
 <span class="add">+      &quot;></span>
 <span class="add">+        &lt;div style=&quot;</span>
 <span class="add">+          display: flex;</span>
 <span class="add">+          flex-wrap: wrap;</span>
+<span class="add">+          letter-spacing: 0.12em;</span>
+<span class="add">+          line-height: 1.5;</span>
 <span class="add">+          overflow-wrap: anywhere;</span>
-<span class="add">+          padding: var(--spacing-200)</span>
+<span class="add">+          padding: var(--spacing-200);</span>
+<span class="add">+          word-spacing: 0.16em</span>
 <span class="add">+        &quot;></span>
 <span class="add">+          &lt;span style=&quot;</span>
 <span class="add">+            flex-basis: 0px;</span>
-<span class="add">+            flex-grow: 1</span>
+<span class="add">+            flex-grow: 1;</span>
+<span class="add">+            letter-spacing: 0.12em;</span>
+<span class="add">+            line-height: 1.5;</span>
+<span class="add">+            word-spacing: 0.16em</span>
 <span class="add">+          &quot;></span>
 <span class="add">+            &lt;h2 style=&quot;</span>
 <span class="add">+              font-size: var(--font-size-large-1);</span>
-<span class="add">+              margin: 0 0 var(--spacing-100)</span>
+<span class="add">+              letter-spacing: 0.12em;</span>
+<span class="add">+              line-height: 1.5;</span>
+<span class="add">+              margin: 0 0 var(--spacing-100);</span>
+<span class="add">+              word-spacing: 0.16em</span>
 <span class="add">+            &quot;></span>
 <span class="add">+              Tourtip</span>
 <span class="add">+            &lt;/h2></span>
 <span class="add">+            &lt;p style=&quot;</span>
-<span class="add">+              margin-bottom: 0px;</span>
-<span class="add">+              margin-top: 0px</span>
+<span class="add">+              letter-spacing: 0.12em;</span>
+<span class="add">+              line-height: 1.5;</span>
+<span class="add">+              margin-bottom: 2em;</span>
+<span class="add">+              margin-top: 0px;</span>
+<span class="add">+              word-spacing: 0.16em</span>
 <span class="add">+            &quot;></span>
 <span class="add">+              Here's something new to help you be successful at your task.</span>
 <span class="add">+            &lt;/p></span>
@@ -446,6 +790,8 @@
 <span class="add">+            font-family: inherit;</span>
 <span class="add">+            height: var(--spacing-400);</span>
 <span class="add">+            justify-content: center;</span>
+<span class="add">+            letter-spacing: 0.12em;</span>
+<span class="add">+            line-height: 1.5;</span>
 <span class="add">+            margin: calc(var(--spacing-100)*-1) calc(var(--spacing-100)*-1) 0 var(--spacing-100);</span>
 <span class="add">+            outline-offset: -2px;</span>
 <span class="add">+            overflow-x: hidden;</span>
@@ -457,7 +803,8 @@
 <span class="add">+            position: relative;</span>
 <span class="add">+            text-wrap-mode: nowrap;</span>
 <span class="add">+            vertical-align: text-bottom;</span>
-<span class="add">+            width: 32px</span>
+<span class="add">+            width: 32px;</span>
+<span class="add">+            word-spacing: 0.16em</span>
 <span class="add">+          &quot;></span>
 <span class="add">+            &lt;style>@scope{:scope{</span>
 <span class="add">+              &amp;::after {</span>
@@ -481,17 +828,27 @@
 <span class="add">+                display: inline-block;</span>
 <span class="add">+                fill: var(--tourtip-foreground-color, var(--color-foreground-on-inverse));</span>
 <span class="add">+                height: 16px;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                max-width: 75%;</span>
 <span class="add">+                pointer-events: none;</span>
 <span class="add">+                position: relative;</span>
 <span class="add">+                stroke-width: 0;</span>
 <span class="add">+                stroke: currentcolor;</span>
 <span class="add">+                vertical-align: middle;</span>
-<span class="add">+                width: 16px</span>
+<span class="add">+                width: 16px;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;</span>
 <span class="add">+              width=&quot;24&quot;</span>
 <span class="add">+            ></span>
-<span class="add">+              &lt;use href=&quot;#icon-close-16&quot;/></span>
+<span class="add">+              &lt;use</span>
+<span class="add">+                href=&quot;#icon-close-16&quot;</span>
+<span class="add">+                style=&quot;</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  word-spacing: 0.16em</span>
+<span class="add">+                &quot;</span>
+<span class="add">+              /></span>
 <span class="add">+            &lt;/svg></span>
 <span class="add">+          &lt;/button></span>
 <span class="add">+        &lt;/div></span>
@@ -514,7 +871,7 @@
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
-    const PAGE = {"baseRefShort":"60ee2f496866","prevHref":"tourtip-stories-tourtip--expanded.html","nextHref":"tourtip-stories-tourtip--withActions.html","indexHref":"../index.html","pos":1010,"total":1012,"slug":"tourtip-stories-tourtip--textSpacing","hash":"8mybgh","component":"tourtip","story":"textSpacing","file":"packages/skin/src/sass/tourtip/stories/__snapshots__/tourtip.snap","dims":[{"changes":[]},{"changes":[]},{"changes":[]}]};
+    const PAGE = {"baseRefShort":"60ee2f496866","prevHref":"tourtip-stories-tourtip--expanded.html","nextHref":"tourtip-stories-tourtip--withActions.html","indexHref":"../index.html","pos":952,"total":954,"slug":"tourtip-stories-tourtip--textSpacing","hash":"sdg1xu","component":"tourtip","story":"textSpacing","file":"packages/skin/src/sass/tourtip/stories/__snapshots__/tourtip.snap","dims":[{"changes":[]},{"changes":[]},{"changes":[]}]};
 </script>
 <script src="../assets/nav.js" defer></script>
 <script src="../assets/story.js" defer></script>

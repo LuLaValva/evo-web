@@ -41,7 +41,82 @@
         <div class="grow"></div>
         <button class="flag" id="flag-btn" type="button">⚑ Flag</button>
     </div>
-    <section class="dim-section" id="dim-0" data-dim="0"><div class="stage"><div class="render-area"><div class="duo mode-side fluid solo"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fluid"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><link rel=&quot;stylesheet&quot; href=&quot;../assets/head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body><script src=&quot;../assets/sprite-head.js&quot;></script>
+    <section class="dim-section" id="dim-0" data-dim="0"><div class="stage"><div class="render-area"><div class="duo mode-side fluid solo"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fluid"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><link rel=&quot;stylesheet&quot; href=&quot;../assets/head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}/* Custom Classes for Storybook — demo-only styles used by stories.
+   Loaded by Storybook (preview.js), the visual snapshot harness
+   (test/visual/visual.spec.js), and the visual-preview viewer frames
+   (tools/visual-preview/build.mjs), so all three render stories the
+   same way. */
+.font-large {
+    font-size: 200%;
+    /* line-height: var(--typography-body-line-height); */
+}
+
+.carousel__list--default-demo li {
+    background-color: grey;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--image-treatment-demo li {
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--discrete-demo li {
+    background-color: grey;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: calc(25% - 24px);
+}
+
+.carousel__list--discrete-demo li:last-child {
+    margin-right: 0;
+}
+
+.carousel__list--slideshow-demo li {
+    background-color: grey;
+    font-size: 36px;
+    font-weight: bold;
+    height: 300px;
+    line-height: 300px;
+    margin-inline-end: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+.carousel__list--slideshow-demo li:last-child {
+    margin-inline-end: 0;
+}
+
+.demo-a11y-text-spacing,
+.demo-a11y-text-spacing * {
+    line-height: 1.5 !important;
+    letter-spacing: 0.12em !important;
+    word-spacing: 0.16em !important;
+}
+.demo-a11y-text-spacing p {
+    margin-bottom: 2em !important;
+}
+
+.phone-input div.listbox-button__listbox {
+    display: block;
+}
+body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body><script src=&quot;../assets/sprite-head.js&quot;></script>
     <div class=&quot;calendar demo-a11y-text-spacing&quot;>
         <div class=&quot;calendar__header&quot;>
             <div class=&quot;calendar__header--inner&quot;>
@@ -249,17 +324,28 @@
             </div>
         </div>
     </div>
-</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,1568 @@</span>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,1913 @@</span>
 <span class="add">+&lt;div></span>
 <span class="add">+  &lt;div style=&quot;</span>
 <span class="add">+    color: var(--calendar-color-token, var(--color-foreground-primary));</span>
-<span class="add">+    display: table</span>
+<span class="add">+    display: table;</span>
+<span class="add">+    letter-spacing: 0.12em;</span>
+<span class="add">+    line-height: 1.5;</span>
+<span class="add">+    word-spacing: 0.16em</span>
 <span class="add">+  &quot;></span>
-<span class="add">+    &lt;div style=&quot;display: table-caption&quot;></span>
+<span class="add">+    &lt;div style=&quot;</span>
+<span class="add">+      display: table-caption;</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
+<span class="add">+      word-spacing: 0.16em</span>
+<span class="add">+    &quot;></span>
 <span class="add">+      &lt;div style=&quot;</span>
 <span class="add">+        align-items: center;</span>
 <span class="add">+        display: flex;</span>
-<span class="add">+        justify-content: space-between</span>
+<span class="add">+        justify-content: space-between;</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
+<span class="add">+        word-spacing: 0.16em</span>
 <span class="add">+      &quot;></span>
 <span class="add">+        &lt;button style=&quot;</span>
 <span class="add">+          align-items: center;</span>
@@ -279,6 +365,8 @@
 <span class="add">+          font-family: inherit;</span>
 <span class="add">+          height: 32px;</span>
 <span class="add">+          justify-content: center;</span>
+<span class="add">+          letter-spacing: 0.12em;</span>
+<span class="add">+          line-height: 1.5;</span>
 <span class="add">+          overflow-x: hidden;</span>
 <span class="add">+          overflow-y: hidden;</span>
 <span class="add">+          padding-bottom: 0px;</span>
@@ -287,7 +375,8 @@
 <span class="add">+          padding-top: 0px;</span>
 <span class="add">+          position: relative;</span>
 <span class="add">+          vertical-align: text-bottom;</span>
-<span class="add">+          width: 32px</span>
+<span class="add">+          width: 32px;</span>
+<span class="add">+          word-spacing: 0.16em</span>
 <span class="add">+        &quot;></span>
 <span class="add">+          &lt;style>@scope{:scope{</span>
 <span class="add">+            &amp;::after {</span>
@@ -309,23 +398,36 @@
 <span class="add">+            display: inline-block;</span>
 <span class="add">+            fill: var(--color-foreground-primary);</span>
 <span class="add">+            height: 24px;</span>
+<span class="add">+            letter-spacing: 0.12em;</span>
+<span class="add">+            line-height: 1.5;</span>
 <span class="add">+            max-width: 100%;</span>
 <span class="add">+            pointer-events: none;</span>
 <span class="add">+            position: relative;</span>
 <span class="add">+            stroke-width: 0;</span>
 <span class="add">+            stroke: currentcolor;</span>
 <span class="add">+            vertical-align: middle;</span>
-<span class="add">+            width: var(--spacing-200)</span>
+<span class="add">+            width: var(--spacing-200);</span>
+<span class="add">+            word-spacing: 0.16em</span>
 <span class="add">+          &quot;></span>
-<span class="add">+            &lt;use href=&quot;#icon-chevron-left-24&quot;/></span>
+<span class="add">+            &lt;use</span>
+<span class="add">+              href=&quot;#icon-chevron-left-24&quot;</span>
+<span class="add">+              style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
+<span class="add">+                word-spacing: 0.16em</span>
+<span class="add">+              &quot;</span>
+<span class="add">+            /></span>
 <span class="add">+          &lt;/svg></span>
 <span class="add">+        &lt;/button></span>
 <span class="add">+        &lt;h3 style=&quot;</span>
 <span class="add">+          flex-grow: 1;</span>
+<span class="add">+          letter-spacing: 0.12em;</span>
+<span class="add">+          line-height: 1.5;</span>
 <span class="add">+          margin-bottom: 0px;</span>
 <span class="add">+          margin-top: 0px;</span>
 <span class="add">+          text-align: center;</span>
-<span class="add">+          width: 0px</span>
+<span class="add">+          width: 0px;</span>
+<span class="add">+          word-spacing: 0.16em</span>
 <span class="add">+        &quot;></span>
 <span class="add">+          August 2019</span>
 <span class="add">+        &lt;/h3></span>
@@ -347,6 +449,8 @@
 <span class="add">+          font-family: inherit;</span>
 <span class="add">+          height: 32px;</span>
 <span class="add">+          justify-content: center;</span>
+<span class="add">+          letter-spacing: 0.12em;</span>
+<span class="add">+          line-height: 1.5;</span>
 <span class="add">+          overflow-x: hidden;</span>
 <span class="add">+          overflow-y: hidden;</span>
 <span class="add">+          padding-bottom: 0px;</span>
@@ -355,7 +459,8 @@
 <span class="add">+          padding-top: 0px;</span>
 <span class="add">+          position: relative;</span>
 <span class="add">+          vertical-align: text-bottom;</span>
-<span class="add">+          width: 32px</span>
+<span class="add">+          width: 32px;</span>
+<span class="add">+          word-spacing: 0.16em</span>
 <span class="add">+        &quot;></span>
 <span class="add">+          &lt;style>@scope{:scope{</span>
 <span class="add">+            &amp;::after {</span>
@@ -377,96 +482,155 @@
 <span class="add">+            display: inline-block;</span>
 <span class="add">+            fill: var(--color-foreground-primary);</span>
 <span class="add">+            height: 24px;</span>
+<span class="add">+            letter-spacing: 0.12em;</span>
+<span class="add">+            line-height: 1.5;</span>
 <span class="add">+            max-width: 100%;</span>
 <span class="add">+            pointer-events: none;</span>
 <span class="add">+            position: relative;</span>
 <span class="add">+            stroke-width: 0;</span>
 <span class="add">+            stroke: currentcolor;</span>
 <span class="add">+            vertical-align: middle;</span>
-<span class="add">+            width: var(--spacing-200)</span>
+<span class="add">+            width: var(--spacing-200);</span>
+<span class="add">+            word-spacing: 0.16em</span>
 <span class="add">+          &quot;></span>
-<span class="add">+            &lt;use href=&quot;#icon-chevron-right-24&quot;/></span>
+<span class="add">+            &lt;use</span>
+<span class="add">+              href=&quot;#icon-chevron-right-24&quot;</span>
+<span class="add">+              style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
+<span class="add">+                word-spacing: 0.16em</span>
+<span class="add">+              &quot;</span>
+<span class="add">+            /></span>
 <span class="add">+          &lt;/svg></span>
 <span class="add">+        &lt;/button></span>
 <span class="add">+      &lt;/div></span>
 <span class="add">+    &lt;/div></span>
-<span class="add">+    &lt;div style=&quot;display: table-row&quot;></span>
+<span class="add">+    &lt;div style=&quot;</span>
+<span class="add">+      display: table-row;</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
+<span class="add">+      word-spacing: 0.16em</span>
+<span class="add">+    &quot;></span>
 <span class="add">+      &lt;div style=&quot;</span>
 <span class="add">+        display: table-cell;</span>
-<span class="add">+        width: var(--calendar-month-width, 100vw)</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
+<span class="add">+        width: var(--calendar-month-width, 100vw);</span>
+<span class="add">+        word-spacing: 0.16em</span>
 <span class="add">+      &quot;></span>
-<span class="add">+        &lt;table style=&quot;width: 100%&quot;></span>
-<span class="add">+          &lt;thead></span>
-<span class="add">+            &lt;tr></span>
+<span class="add">+        &lt;table style=&quot;</span>
+<span class="add">+          letter-spacing: 0.12em;</span>
+<span class="add">+          line-height: 1.5;</span>
+<span class="add">+          width: 100%;</span>
+<span class="add">+          word-spacing: 0.16em</span>
+<span class="add">+        &quot;></span>
+<span class="add">+          &lt;thead style=&quot;</span>
+<span class="add">+            letter-spacing: 0.12em;</span>
+<span class="add">+            line-height: 1.5;</span>
+<span class="add">+            word-spacing: 0.16em</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            &lt;tr style=&quot;</span>
+<span class="add">+              letter-spacing: 0.12em;</span>
+<span class="add">+              line-height: 1.5;</span>
+<span class="add">+              word-spacing: 0.16em</span>
+<span class="add">+            &quot;></span>
 <span class="add">+              &lt;th style=&quot;</span>
 <span class="add">+                color: var(--calendar-day-label-color, var(--color-foreground-secondary));</span>
 <span class="add">+                font-weight: 400;</span>
-<span class="add">+                line-height: var(--spacing-125)</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                Su</span>
 <span class="add">+              &lt;/th></span>
 <span class="add">+              &lt;th style=&quot;</span>
 <span class="add">+                color: var(--calendar-day-label-color, var(--color-foreground-secondary));</span>
 <span class="add">+                font-weight: 400;</span>
-<span class="add">+                line-height: var(--spacing-125)</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                Mo</span>
 <span class="add">+              &lt;/th></span>
 <span class="add">+              &lt;th style=&quot;</span>
 <span class="add">+                color: var(--calendar-day-label-color, var(--color-foreground-secondary));</span>
 <span class="add">+                font-weight: 400;</span>
-<span class="add">+                line-height: var(--spacing-125)</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                Tu</span>
 <span class="add">+              &lt;/th></span>
 <span class="add">+              &lt;th style=&quot;</span>
 <span class="add">+                color: var(--calendar-day-label-color, var(--color-foreground-secondary));</span>
 <span class="add">+                font-weight: 400;</span>
-<span class="add">+                line-height: var(--spacing-125)</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                We</span>
 <span class="add">+              &lt;/th></span>
 <span class="add">+              &lt;th style=&quot;</span>
 <span class="add">+                color: var(--calendar-day-label-color, var(--color-foreground-secondary));</span>
 <span class="add">+                font-weight: 400;</span>
-<span class="add">+                line-height: var(--spacing-125)</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                Th</span>
 <span class="add">+              &lt;/th></span>
 <span class="add">+              &lt;th style=&quot;</span>
 <span class="add">+                color: var(--calendar-day-label-color, var(--color-foreground-secondary));</span>
 <span class="add">+                font-weight: 400;</span>
-<span class="add">+                line-height: var(--spacing-125)</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                Fr</span>
 <span class="add">+              &lt;/th></span>
 <span class="add">+              &lt;th style=&quot;</span>
 <span class="add">+                color: var(--calendar-day-label-color, var(--color-foreground-secondary));</span>
 <span class="add">+                font-weight: 400;</span>
-<span class="add">+                line-height: var(--spacing-125)</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                Sa</span>
 <span class="add">+              &lt;/th></span>
 <span class="add">+            &lt;/tr></span>
 <span class="add">+          &lt;/thead></span>
-<span class="add">+          &lt;tbody></span>
-<span class="add">+            &lt;tr></span>
+<span class="add">+          &lt;tbody style=&quot;</span>
+<span class="add">+            letter-spacing: 0.12em;</span>
+<span class="add">+            line-height: 1.5;</span>
+<span class="add">+            word-spacing: 0.16em</span>
+<span class="add">+          &quot;></span>
+<span class="add">+            &lt;tr style=&quot;</span>
+<span class="add">+              letter-spacing: 0.12em;</span>
+<span class="add">+              line-height: 1.5;</span>
+<span class="add">+              word-spacing: 0.16em</span>
+<span class="add">+            &quot;></span>
 <span class="add">+              &lt;td</span>
 <span class="add">+                colspan=4</span>
 <span class="add">+                style=&quot;</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
 <span class="add">+                  padding-bottom: 0px;</span>
 <span class="add">+                  padding-left: 0px;</span>
 <span class="add">+                  padding-right: 0px;</span>
 <span class="add">+                  padding-top: 0px;</span>
-<span class="add">+                  text-align: center</span>
+<span class="add">+                  text-align: center;</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;</span>
 <span class="add">+              /></span>
 <span class="add">+              &lt;td style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                padding-bottom: 0px;</span>
 <span class="add">+                padding-left: 0px;</span>
 <span class="add">+                padding-right: 0px;</span>
 <span class="add">+                padding-top: 0px;</span>
-<span class="add">+                text-align: center</span>
+<span class="add">+                text-align: center;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                &lt;span style=&quot;</span>
 <span class="add">+                  align-items: center;</span>
@@ -486,7 +650,10 @@
 <span class="add">+                  font-family: inherit;</span>
 <span class="add">+                  height: var(--spacing-400);</span>
 <span class="add">+                  justify-content: center;</span>
-<span class="add">+                  width: var(--spacing-400)</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  width: var(--spacing-400);</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;></span>
 <span class="add">+                  1</span>
 <span class="add">+                  &lt;span style=&quot;</span>
@@ -496,22 +663,28 @@
 <span class="add">+                    border-top-color: currentcolor;</span>
 <span class="add">+                    clip-path: inset(50%);</span>
 <span class="add">+                    height: 1px;</span>
+<span class="add">+                    letter-spacing: 0.12em;</span>
+<span class="add">+                    line-height: 1.5;</span>
 <span class="add">+                    overflow-x: hidden;</span>
 <span class="add">+                    overflow-y: hidden;</span>
 <span class="add">+                    position: absolute;</span>
 <span class="add">+                    text-wrap-mode: nowrap;</span>
-<span class="add">+                    width: 1px</span>
+<span class="add">+                    width: 1px;</span>
+<span class="add">+                    word-spacing: 0.16em</span>
 <span class="add">+                  &quot;></span>
 <span class="add">+                    - inactive</span>
 <span class="add">+                  &lt;/span></span>
 <span class="add">+                &lt;/span></span>
 <span class="add">+              &lt;/td></span>
 <span class="add">+              &lt;td style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                padding-bottom: 0px;</span>
 <span class="add">+                padding-left: 0px;</span>
 <span class="add">+                padding-right: 0px;</span>
 <span class="add">+                padding-top: 0px;</span>
-<span class="add">+                text-align: center</span>
+<span class="add">+                text-align: center;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                &lt;span style=&quot;</span>
 <span class="add">+                  align-items: center;</span>
@@ -531,7 +704,10 @@
 <span class="add">+                  font-family: inherit;</span>
 <span class="add">+                  height: var(--spacing-400);</span>
 <span class="add">+                  justify-content: center;</span>
-<span class="add">+                  width: var(--spacing-400)</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  width: var(--spacing-400);</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;></span>
 <span class="add">+                  2</span>
 <span class="add">+                  &lt;span style=&quot;</span>
@@ -541,22 +717,28 @@
 <span class="add">+                    border-top-color: currentcolor;</span>
 <span class="add">+                    clip-path: inset(50%);</span>
 <span class="add">+                    height: 1px;</span>
+<span class="add">+                    letter-spacing: 0.12em;</span>
+<span class="add">+                    line-height: 1.5;</span>
 <span class="add">+                    overflow-x: hidden;</span>
 <span class="add">+                    overflow-y: hidden;</span>
 <span class="add">+                    position: absolute;</span>
 <span class="add">+                    text-wrap-mode: nowrap;</span>
-<span class="add">+                    width: 1px</span>
+<span class="add">+                    width: 1px;</span>
+<span class="add">+                    word-spacing: 0.16em</span>
 <span class="add">+                  &quot;></span>
 <span class="add">+                    - inactive</span>
 <span class="add">+                  &lt;/span></span>
 <span class="add">+                &lt;/span></span>
 <span class="add">+              &lt;/td></span>
 <span class="add">+              &lt;td style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                padding-bottom: 0px;</span>
 <span class="add">+                padding-left: 0px;</span>
 <span class="add">+                padding-right: 0px;</span>
 <span class="add">+                padding-top: 0px;</span>
-<span class="add">+                text-align: center</span>
+<span class="add">+                text-align: center;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                &lt;span style=&quot;</span>
 <span class="add">+                  align-items: center;</span>
@@ -576,7 +758,10 @@
 <span class="add">+                  font-family: inherit;</span>
 <span class="add">+                  height: var(--spacing-400);</span>
 <span class="add">+                  justify-content: center;</span>
-<span class="add">+                  width: var(--spacing-400)</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  width: var(--spacing-400);</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;></span>
 <span class="add">+                  3</span>
 <span class="add">+                  &lt;span style=&quot;</span>
@@ -586,24 +771,34 @@
 <span class="add">+                    border-top-color: currentcolor;</span>
 <span class="add">+                    clip-path: inset(50%);</span>
 <span class="add">+                    height: 1px;</span>
+<span class="add">+                    letter-spacing: 0.12em;</span>
+<span class="add">+                    line-height: 1.5;</span>
 <span class="add">+                    overflow-x: hidden;</span>
 <span class="add">+                    overflow-y: hidden;</span>
 <span class="add">+                    position: absolute;</span>
 <span class="add">+                    text-wrap-mode: nowrap;</span>
-<span class="add">+                    width: 1px</span>
+<span class="add">+                    width: 1px;</span>
+<span class="add">+                    word-spacing: 0.16em</span>
 <span class="add">+                  &quot;></span>
 <span class="add">+                    - inactive</span>
 <span class="add">+                  &lt;/span></span>
 <span class="add">+                &lt;/span></span>
 <span class="add">+              &lt;/td></span>
 <span class="add">+            &lt;/tr></span>
-<span class="add">+            &lt;tr></span>
+<span class="add">+            &lt;tr style=&quot;</span>
+<span class="add">+              letter-spacing: 0.12em;</span>
+<span class="add">+              line-height: 1.5;</span>
+<span class="add">+              word-spacing: 0.16em</span>
+<span class="add">+            &quot;></span>
 <span class="add">+              &lt;td style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                padding-bottom: 0px;</span>
 <span class="add">+                padding-left: 0px;</span>
 <span class="add">+                padding-right: 0px;</span>
 <span class="add">+                padding-top: 0px;</span>
-<span class="add">+                text-align: center</span>
+<span class="add">+                text-align: center;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                &lt;span style=&quot;</span>
 <span class="add">+                  align-items: center;</span>
@@ -623,7 +818,10 @@
 <span class="add">+                  font-family: inherit;</span>
 <span class="add">+                  height: var(--spacing-400);</span>
 <span class="add">+                  justify-content: center;</span>
-<span class="add">+                  width: var(--spacing-400)</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  width: var(--spacing-400);</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;></span>
 <span class="add">+                  4</span>
 <span class="add">+                  &lt;span style=&quot;</span>
@@ -633,22 +831,28 @@
 <span class="add">+                    border-top-color: currentcolor;</span>
 <span class="add">+                    clip-path: inset(50%);</span>
 <span class="add">+                    height: 1px;</span>
+<span class="add">+                    letter-spacing: 0.12em;</span>
+<span class="add">+                    line-height: 1.5;</span>
 <span class="add">+                    overflow-x: hidden;</span>
 <span class="add">+                    overflow-y: hidden;</span>
 <span class="add">+                    position: absolute;</span>
 <span class="add">+                    text-wrap-mode: nowrap;</span>
-<span class="add">+                    width: 1px</span>
+<span class="add">+                    width: 1px;</span>
+<span class="add">+                    word-spacing: 0.16em</span>
 <span class="add">+                  &quot;></span>
 <span class="add">+                    - inactive</span>
 <span class="add">+                  &lt;/span></span>
 <span class="add">+                &lt;/span></span>
 <span class="add">+              &lt;/td></span>
 <span class="add">+              &lt;td style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                padding-bottom: 0px;</span>
 <span class="add">+                padding-left: 0px;</span>
 <span class="add">+                padding-right: 0px;</span>
 <span class="add">+                padding-top: 0px;</span>
-<span class="add">+                text-align: center</span>
+<span class="add">+                text-align: center;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                &lt;span style=&quot;</span>
 <span class="add">+                  align-items: center;</span>
@@ -668,7 +872,10 @@
 <span class="add">+                  font-family: inherit;</span>
 <span class="add">+                  height: var(--spacing-400);</span>
 <span class="add">+                  justify-content: center;</span>
-<span class="add">+                  width: var(--spacing-400)</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  width: var(--spacing-400);</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;></span>
 <span class="add">+                  5</span>
 <span class="add">+                  &lt;span style=&quot;</span>
@@ -678,22 +885,28 @@
 <span class="add">+                    border-top-color: currentcolor;</span>
 <span class="add">+                    clip-path: inset(50%);</span>
 <span class="add">+                    height: 1px;</span>
+<span class="add">+                    letter-spacing: 0.12em;</span>
+<span class="add">+                    line-height: 1.5;</span>
 <span class="add">+                    overflow-x: hidden;</span>
 <span class="add">+                    overflow-y: hidden;</span>
 <span class="add">+                    position: absolute;</span>
 <span class="add">+                    text-wrap-mode: nowrap;</span>
-<span class="add">+                    width: 1px</span>
+<span class="add">+                    width: 1px;</span>
+<span class="add">+                    word-spacing: 0.16em</span>
 <span class="add">+                  &quot;></span>
 <span class="add">+                    - inactive</span>
 <span class="add">+                  &lt;/span></span>
 <span class="add">+                &lt;/span></span>
 <span class="add">+              &lt;/td></span>
 <span class="add">+              &lt;td style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                padding-bottom: 0px;</span>
 <span class="add">+                padding-left: 0px;</span>
 <span class="add">+                padding-right: 0px;</span>
 <span class="add">+                padding-top: 0px;</span>
-<span class="add">+                text-align: center</span>
+<span class="add">+                text-align: center;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                &lt;span style=&quot;</span>
 <span class="add">+                  align-items: center;</span>
@@ -713,7 +926,10 @@
 <span class="add">+                  font-family: inherit;</span>
 <span class="add">+                  height: var(--spacing-400);</span>
 <span class="add">+                  justify-content: center;</span>
-<span class="add">+                  width: var(--spacing-400)</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  width: var(--spacing-400);</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;></span>
 <span class="add">+                  6</span>
 <span class="add">+                  &lt;span style=&quot;</span>
@@ -723,22 +939,28 @@
 <span class="add">+                    border-top-color: currentcolor;</span>
 <span class="add">+                    clip-path: inset(50%);</span>
 <span class="add">+                    height: 1px;</span>
+<span class="add">+                    letter-spacing: 0.12em;</span>
+<span class="add">+                    line-height: 1.5;</span>
 <span class="add">+                    overflow-x: hidden;</span>
 <span class="add">+                    overflow-y: hidden;</span>
 <span class="add">+                    position: absolute;</span>
 <span class="add">+                    text-wrap-mode: nowrap;</span>
-<span class="add">+                    width: 1px</span>
+<span class="add">+                    width: 1px;</span>
+<span class="add">+                    word-spacing: 0.16em</span>
 <span class="add">+                  &quot;></span>
 <span class="add">+                    - inactive</span>
 <span class="add">+                  &lt;/span></span>
 <span class="add">+                &lt;/span></span>
 <span class="add">+              &lt;/td></span>
 <span class="add">+              &lt;td style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                padding-bottom: 0px;</span>
 <span class="add">+                padding-left: 0px;</span>
 <span class="add">+                padding-right: 0px;</span>
 <span class="add">+                padding-top: 0px;</span>
-<span class="add">+                text-align: center</span>
+<span class="add">+                text-align: center;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                &lt;span style=&quot;</span>
 <span class="add">+                  align-items: center;</span>
@@ -758,7 +980,10 @@
 <span class="add">+                  font-family: inherit;</span>
 <span class="add">+                  height: var(--spacing-400);</span>
 <span class="add">+                  justify-content: center;</span>
-<span class="add">+                  width: var(--spacing-400)</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  width: var(--spacing-400);</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;></span>
 <span class="add">+                  7</span>
 <span class="add">+                  &lt;span style=&quot;</span>
@@ -768,22 +993,28 @@
 <span class="add">+                    border-top-color: currentcolor;</span>
 <span class="add">+                    clip-path: inset(50%);</span>
 <span class="add">+                    height: 1px;</span>
+<span class="add">+                    letter-spacing: 0.12em;</span>
+<span class="add">+                    line-height: 1.5;</span>
 <span class="add">+                    overflow-x: hidden;</span>
 <span class="add">+                    overflow-y: hidden;</span>
 <span class="add">+                    position: absolute;</span>
 <span class="add">+                    text-wrap-mode: nowrap;</span>
-<span class="add">+                    width: 1px</span>
+<span class="add">+                    width: 1px;</span>
+<span class="add">+                    word-spacing: 0.16em</span>
 <span class="add">+                  &quot;></span>
 <span class="add">+                    - inactive</span>
 <span class="add">+                  &lt;/span></span>
 <span class="add">+                &lt;/span></span>
 <span class="add">+              &lt;/td></span>
 <span class="add">+              &lt;td style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                padding-bottom: 0px;</span>
 <span class="add">+                padding-left: 0px;</span>
 <span class="add">+                padding-right: 0px;</span>
 <span class="add">+                padding-top: 0px;</span>
-<span class="add">+                text-align: center</span>
+<span class="add">+                text-align: center;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                &lt;span style=&quot;</span>
 <span class="add">+                  align-items: center;</span>
@@ -803,7 +1034,10 @@
 <span class="add">+                  font-family: inherit;</span>
 <span class="add">+                  height: var(--spacing-400);</span>
 <span class="add">+                  justify-content: center;</span>
-<span class="add">+                  width: var(--spacing-400)</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  width: var(--spacing-400);</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;></span>
 <span class="add">+                  8</span>
 <span class="add">+                  &lt;span style=&quot;</span>
@@ -813,22 +1047,28 @@
 <span class="add">+                    border-top-color: currentcolor;</span>
 <span class="add">+                    clip-path: inset(50%);</span>
 <span class="add">+                    height: 1px;</span>
+<span class="add">+                    letter-spacing: 0.12em;</span>
+<span class="add">+                    line-height: 1.5;</span>
 <span class="add">+                    overflow-x: hidden;</span>
 <span class="add">+                    overflow-y: hidden;</span>
 <span class="add">+                    position: absolute;</span>
 <span class="add">+                    text-wrap-mode: nowrap;</span>
-<span class="add">+                    width: 1px</span>
+<span class="add">+                    width: 1px;</span>
+<span class="add">+                    word-spacing: 0.16em</span>
 <span class="add">+                  &quot;></span>
 <span class="add">+                    - inactive</span>
 <span class="add">+                  &lt;/span></span>
 <span class="add">+                &lt;/span></span>
 <span class="add">+              &lt;/td></span>
 <span class="add">+              &lt;td style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                padding-bottom: 0px;</span>
 <span class="add">+                padding-left: 0px;</span>
 <span class="add">+                padding-right: 0px;</span>
 <span class="add">+                padding-top: 0px;</span>
-<span class="add">+                text-align: center</span>
+<span class="add">+                text-align: center;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                &lt;span style=&quot;</span>
 <span class="add">+                  align-items: center;</span>
@@ -848,7 +1088,10 @@
 <span class="add">+                  font-family: inherit;</span>
 <span class="add">+                  height: var(--spacing-400);</span>
 <span class="add">+                  justify-content: center;</span>
-<span class="add">+                  width: var(--spacing-400)</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  width: var(--spacing-400);</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;></span>
 <span class="add">+                  9</span>
 <span class="add">+                  &lt;span style=&quot;</span>
@@ -858,22 +1101,28 @@
 <span class="add">+                    border-top-color: currentcolor;</span>
 <span class="add">+                    clip-path: inset(50%);</span>
 <span class="add">+                    height: 1px;</span>
+<span class="add">+                    letter-spacing: 0.12em;</span>
+<span class="add">+                    line-height: 1.5;</span>
 <span class="add">+                    overflow-x: hidden;</span>
 <span class="add">+                    overflow-y: hidden;</span>
 <span class="add">+                    position: absolute;</span>
 <span class="add">+                    text-wrap-mode: nowrap;</span>
-<span class="add">+                    width: 1px</span>
+<span class="add">+                    width: 1px;</span>
+<span class="add">+                    word-spacing: 0.16em</span>
 <span class="add">+                  &quot;></span>
 <span class="add">+                    - inactive</span>
 <span class="add">+                  &lt;/span></span>
 <span class="add">+                &lt;/span></span>
 <span class="add">+              &lt;/td></span>
 <span class="add">+              &lt;td style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                padding-bottom: 0px;</span>
 <span class="add">+                padding-left: 0px;</span>
 <span class="add">+                padding-right: 0px;</span>
 <span class="add">+                padding-top: 0px;</span>
-<span class="add">+                text-align: center</span>
+<span class="add">+                text-align: center;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                &lt;span style=&quot;</span>
 <span class="add">+                  align-items: center;</span>
@@ -893,7 +1142,10 @@
 <span class="add">+                  font-family: inherit;</span>
 <span class="add">+                  height: var(--spacing-400);</span>
 <span class="add">+                  justify-content: center;</span>
-<span class="add">+                  width: var(--spacing-400)</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  width: var(--spacing-400);</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;></span>
 <span class="add">+                  10</span>
 <span class="add">+                  &lt;span style=&quot;</span>
@@ -903,24 +1155,34 @@
 <span class="add">+                    border-top-color: currentcolor;</span>
 <span class="add">+                    clip-path: inset(50%);</span>
 <span class="add">+                    height: 1px;</span>
+<span class="add">+                    letter-spacing: 0.12em;</span>
+<span class="add">+                    line-height: 1.5;</span>
 <span class="add">+                    overflow-x: hidden;</span>
 <span class="add">+                    overflow-y: hidden;</span>
 <span class="add">+                    position: absolute;</span>
 <span class="add">+                    text-wrap-mode: nowrap;</span>
-<span class="add">+                    width: 1px</span>
+<span class="add">+                    width: 1px;</span>
+<span class="add">+                    word-spacing: 0.16em</span>
 <span class="add">+                  &quot;></span>
 <span class="add">+                    - inactive</span>
 <span class="add">+                  &lt;/span></span>
 <span class="add">+                &lt;/span></span>
 <span class="add">+              &lt;/td></span>
 <span class="add">+            &lt;/tr></span>
-<span class="add">+            &lt;tr></span>
+<span class="add">+            &lt;tr style=&quot;</span>
+<span class="add">+              letter-spacing: 0.12em;</span>
+<span class="add">+              line-height: 1.5;</span>
+<span class="add">+              word-spacing: 0.16em</span>
+<span class="add">+            &quot;></span>
 <span class="add">+              &lt;td style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                padding-bottom: 0px;</span>
 <span class="add">+                padding-left: 0px;</span>
 <span class="add">+                padding-right: 0px;</span>
 <span class="add">+                padding-top: 0px;</span>
-<span class="add">+                text-align: center</span>
+<span class="add">+                text-align: center;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                &lt;span style=&quot;</span>
 <span class="add">+                  align-items: center;</span>
@@ -940,7 +1202,10 @@
 <span class="add">+                  font-family: inherit;</span>
 <span class="add">+                  height: var(--spacing-400);</span>
 <span class="add">+                  justify-content: center;</span>
-<span class="add">+                  width: var(--spacing-400)</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  width: var(--spacing-400);</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;></span>
 <span class="add">+                  11</span>
 <span class="add">+                  &lt;span style=&quot;</span>
@@ -950,22 +1215,28 @@
 <span class="add">+                    border-top-color: currentcolor;</span>
 <span class="add">+                    clip-path: inset(50%);</span>
 <span class="add">+                    height: 1px;</span>
+<span class="add">+                    letter-spacing: 0.12em;</span>
+<span class="add">+                    line-height: 1.5;</span>
 <span class="add">+                    overflow-x: hidden;</span>
 <span class="add">+                    overflow-y: hidden;</span>
 <span class="add">+                    position: absolute;</span>
 <span class="add">+                    text-wrap-mode: nowrap;</span>
-<span class="add">+                    width: 1px</span>
+<span class="add">+                    width: 1px;</span>
+<span class="add">+                    word-spacing: 0.16em</span>
 <span class="add">+                  &quot;></span>
 <span class="add">+                    - inactive</span>
 <span class="add">+                  &lt;/span></span>
 <span class="add">+                &lt;/span></span>
 <span class="add">+              &lt;/td></span>
 <span class="add">+              &lt;td style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                padding-bottom: 0px;</span>
 <span class="add">+                padding-left: 0px;</span>
 <span class="add">+                padding-right: 0px;</span>
 <span class="add">+                padding-top: 0px;</span>
-<span class="add">+                text-align: center</span>
+<span class="add">+                text-align: center;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                &lt;span style=&quot;</span>
 <span class="add">+                  align-items: center;</span>
@@ -985,7 +1256,10 @@
 <span class="add">+                  font-family: inherit;</span>
 <span class="add">+                  height: var(--spacing-400);</span>
 <span class="add">+                  justify-content: center;</span>
-<span class="add">+                  width: var(--spacing-400)</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  width: var(--spacing-400);</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;></span>
 <span class="add">+                  12</span>
 <span class="add">+                  &lt;span style=&quot;</span>
@@ -995,22 +1269,28 @@
 <span class="add">+                    border-top-color: currentcolor;</span>
 <span class="add">+                    clip-path: inset(50%);</span>
 <span class="add">+                    height: 1px;</span>
+<span class="add">+                    letter-spacing: 0.12em;</span>
+<span class="add">+                    line-height: 1.5;</span>
 <span class="add">+                    overflow-x: hidden;</span>
 <span class="add">+                    overflow-y: hidden;</span>
 <span class="add">+                    position: absolute;</span>
 <span class="add">+                    text-wrap-mode: nowrap;</span>
-<span class="add">+                    width: 1px</span>
+<span class="add">+                    width: 1px;</span>
+<span class="add">+                    word-spacing: 0.16em</span>
 <span class="add">+                  &quot;></span>
 <span class="add">+                    - inactive</span>
 <span class="add">+                  &lt;/span></span>
 <span class="add">+                &lt;/span></span>
 <span class="add">+              &lt;/td></span>
 <span class="add">+              &lt;td style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                padding-bottom: 0px;</span>
 <span class="add">+                padding-left: 0px;</span>
 <span class="add">+                padding-right: 0px;</span>
 <span class="add">+                padding-top: 0px;</span>
-<span class="add">+                text-align: center</span>
+<span class="add">+                text-align: center;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                &lt;span style=&quot;</span>
 <span class="add">+                  align-items: center;</span>
@@ -1030,7 +1310,10 @@
 <span class="add">+                  font-family: inherit;</span>
 <span class="add">+                  height: var(--spacing-400);</span>
 <span class="add">+                  justify-content: center;</span>
-<span class="add">+                  width: var(--spacing-400)</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  width: var(--spacing-400);</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;></span>
 <span class="add">+                  13</span>
 <span class="add">+                  &lt;span style=&quot;</span>
@@ -1040,22 +1323,28 @@
 <span class="add">+                    border-top-color: currentcolor;</span>
 <span class="add">+                    clip-path: inset(50%);</span>
 <span class="add">+                    height: 1px;</span>
+<span class="add">+                    letter-spacing: 0.12em;</span>
+<span class="add">+                    line-height: 1.5;</span>
 <span class="add">+                    overflow-x: hidden;</span>
 <span class="add">+                    overflow-y: hidden;</span>
 <span class="add">+                    position: absolute;</span>
 <span class="add">+                    text-wrap-mode: nowrap;</span>
-<span class="add">+                    width: 1px</span>
+<span class="add">+                    width: 1px;</span>
+<span class="add">+                    word-spacing: 0.16em</span>
 <span class="add">+                  &quot;></span>
 <span class="add">+                    - inactive</span>
 <span class="add">+                  &lt;/span></span>
 <span class="add">+                &lt;/span></span>
 <span class="add">+              &lt;/td></span>
 <span class="add">+              &lt;td style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                padding-bottom: 0px;</span>
 <span class="add">+                padding-left: 0px;</span>
 <span class="add">+                padding-right: 0px;</span>
 <span class="add">+                padding-top: 0px;</span>
-<span class="add">+                text-align: center</span>
+<span class="add">+                text-align: center;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                &lt;span style=&quot;</span>
 <span class="add">+                  align-items: center;</span>
@@ -1079,7 +1368,10 @@
 <span class="add">+                  font-family: inherit;</span>
 <span class="add">+                  height: var(--spacing-400);</span>
 <span class="add">+                  justify-content: center;</span>
-<span class="add">+                  width: var(--spacing-400)</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  width: var(--spacing-400);</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;></span>
 <span class="add">+                  14</span>
 <span class="add">+                  &lt;span style=&quot;</span>
@@ -1089,22 +1381,28 @@
 <span class="add">+                    border-top-color: currentcolor;</span>
 <span class="add">+                    clip-path: inset(50%);</span>
 <span class="add">+                    height: 1px;</span>
+<span class="add">+                    letter-spacing: 0.12em;</span>
+<span class="add">+                    line-height: 1.5;</span>
 <span class="add">+                    overflow-x: hidden;</span>
 <span class="add">+                    overflow-y: hidden;</span>
 <span class="add">+                    position: absolute;</span>
 <span class="add">+                    text-wrap-mode: nowrap;</span>
-<span class="add">+                    width: 1px</span>
+<span class="add">+                    width: 1px;</span>
+<span class="add">+                    word-spacing: 0.16em</span>
 <span class="add">+                  &quot;></span>
 <span class="add">+                    - today</span>
 <span class="add">+                  &lt;/span></span>
 <span class="add">+                &lt;/span></span>
 <span class="add">+              &lt;/td></span>
 <span class="add">+              &lt;td style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                padding-bottom: 0px;</span>
 <span class="add">+                padding-left: 0px;</span>
 <span class="add">+                padding-right: 0px;</span>
 <span class="add">+                padding-top: 0px;</span>
-<span class="add">+                text-align: center</span>
+<span class="add">+                text-align: center;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                &lt;span style=&quot;</span>
 <span class="add">+                  align-items: center;</span>
@@ -1124,17 +1422,23 @@
 <span class="add">+                  font-family: inherit;</span>
 <span class="add">+                  height: var(--spacing-400);</span>
 <span class="add">+                  justify-content: center;</span>
-<span class="add">+                  width: var(--spacing-400)</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  width: var(--spacing-400);</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;></span>
 <span class="add">+                  15</span>
 <span class="add">+                &lt;/span></span>
 <span class="add">+              &lt;/td></span>
 <span class="add">+              &lt;td style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                padding-bottom: 0px;</span>
 <span class="add">+                padding-left: 0px;</span>
 <span class="add">+                padding-right: 0px;</span>
 <span class="add">+                padding-top: 0px;</span>
-<span class="add">+                text-align: center</span>
+<span class="add">+                text-align: center;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                &lt;span style=&quot;</span>
 <span class="add">+                  align-items: center;</span>
@@ -1154,17 +1458,23 @@
 <span class="add">+                  font-family: inherit;</span>
 <span class="add">+                  height: var(--spacing-400);</span>
 <span class="add">+                  justify-content: center;</span>
-<span class="add">+                  width: var(--spacing-400)</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  width: var(--spacing-400);</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;></span>
 <span class="add">+                  16</span>
 <span class="add">+                &lt;/span></span>
 <span class="add">+              &lt;/td></span>
 <span class="add">+              &lt;td style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                padding-bottom: 0px;</span>
 <span class="add">+                padding-left: 0px;</span>
 <span class="add">+                padding-right: 0px;</span>
 <span class="add">+                padding-top: 0px;</span>
-<span class="add">+                text-align: center</span>
+<span class="add">+                text-align: center;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                &lt;span style=&quot;</span>
 <span class="add">+                  align-items: center;</span>
@@ -1184,19 +1494,29 @@
 <span class="add">+                  font-family: inherit;</span>
 <span class="add">+                  height: var(--spacing-400);</span>
 <span class="add">+                  justify-content: center;</span>
-<span class="add">+                  width: var(--spacing-400)</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  width: var(--spacing-400);</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;></span>
 <span class="add">+                  17</span>
 <span class="add">+                &lt;/span></span>
 <span class="add">+              &lt;/td></span>
 <span class="add">+            &lt;/tr></span>
-<span class="add">+            &lt;tr></span>
+<span class="add">+            &lt;tr style=&quot;</span>
+<span class="add">+              letter-spacing: 0.12em;</span>
+<span class="add">+              line-height: 1.5;</span>
+<span class="add">+              word-spacing: 0.16em</span>
+<span class="add">+            &quot;></span>
 <span class="add">+              &lt;td style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                padding-bottom: 0px;</span>
 <span class="add">+                padding-left: 0px;</span>
 <span class="add">+                padding-right: 0px;</span>
 <span class="add">+                padding-top: 0px;</span>
-<span class="add">+                text-align: center</span>
+<span class="add">+                text-align: center;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                &lt;span style=&quot;</span>
 <span class="add">+                  align-items: center;</span>
@@ -1216,17 +1536,23 @@
 <span class="add">+                  font-family: inherit;</span>
 <span class="add">+                  height: var(--spacing-400);</span>
 <span class="add">+                  justify-content: center;</span>
-<span class="add">+                  width: var(--spacing-400)</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  width: var(--spacing-400);</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;></span>
 <span class="add">+                  18</span>
 <span class="add">+                &lt;/span></span>
 <span class="add">+              &lt;/td></span>
 <span class="add">+              &lt;td style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                padding-bottom: 0px;</span>
 <span class="add">+                padding-left: 0px;</span>
 <span class="add">+                padding-right: 0px;</span>
 <span class="add">+                padding-top: 0px;</span>
-<span class="add">+                text-align: center</span>
+<span class="add">+                text-align: center;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                &lt;span style=&quot;</span>
 <span class="add">+                  align-items: center;</span>
@@ -1246,17 +1572,23 @@
 <span class="add">+                  font-family: inherit;</span>
 <span class="add">+                  height: var(--spacing-400);</span>
 <span class="add">+                  justify-content: center;</span>
-<span class="add">+                  width: var(--spacing-400)</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  width: var(--spacing-400);</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;></span>
 <span class="add">+                  19</span>
 <span class="add">+                &lt;/span></span>
 <span class="add">+              &lt;/td></span>
 <span class="add">+              &lt;td style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                padding-bottom: 0px;</span>
 <span class="add">+                padding-left: 0px;</span>
 <span class="add">+                padding-right: 0px;</span>
 <span class="add">+                padding-top: 0px;</span>
-<span class="add">+                text-align: center</span>
+<span class="add">+                text-align: center;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                &lt;span style=&quot;</span>
 <span class="add">+                  align-items: center;</span>
@@ -1276,17 +1608,23 @@
 <span class="add">+                  font-family: inherit;</span>
 <span class="add">+                  height: var(--spacing-400);</span>
 <span class="add">+                  justify-content: center;</span>
-<span class="add">+                  width: var(--spacing-400)</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  width: var(--spacing-400);</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;></span>
 <span class="add">+                  20</span>
 <span class="add">+                &lt;/span></span>
 <span class="add">+              &lt;/td></span>
 <span class="add">+              &lt;td style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                padding-bottom: 0px;</span>
 <span class="add">+                padding-left: 0px;</span>
 <span class="add">+                padding-right: 0px;</span>
 <span class="add">+                padding-top: 0px;</span>
-<span class="add">+                text-align: center</span>
+<span class="add">+                text-align: center;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                &lt;span style=&quot;</span>
 <span class="add">+                  align-items: center;</span>
@@ -1306,17 +1644,23 @@
 <span class="add">+                  font-family: inherit;</span>
 <span class="add">+                  height: var(--spacing-400);</span>
 <span class="add">+                  justify-content: center;</span>
-<span class="add">+                  width: var(--spacing-400)</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  width: var(--spacing-400);</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;></span>
 <span class="add">+                  21</span>
 <span class="add">+                &lt;/span></span>
 <span class="add">+              &lt;/td></span>
 <span class="add">+              &lt;td style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                padding-bottom: 0px;</span>
 <span class="add">+                padding-left: 0px;</span>
 <span class="add">+                padding-right: 0px;</span>
 <span class="add">+                padding-top: 0px;</span>
-<span class="add">+                text-align: center</span>
+<span class="add">+                text-align: center;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                &lt;span style=&quot;</span>
 <span class="add">+                  align-items: center;</span>
@@ -1336,7 +1680,10 @@
 <span class="add">+                  font-family: inherit;</span>
 <span class="add">+                  height: var(--spacing-400);</span>
 <span class="add">+                  justify-content: center;</span>
-<span class="add">+                  width: var(--spacing-400)</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  width: var(--spacing-400);</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;></span>
 <span class="add">+                  22</span>
 <span class="add">+                &lt;/span></span>
@@ -1344,12 +1691,15 @@
 <span class="add">+              &lt;td style=&quot;</span>
 <span class="add">+                background-color: var(--color-state-layer-pressed);</span>
 <span class="add">+                background: linear-gradient(to right, transparent 50%, var(--color-state-layer-pressed) 50%);</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                padding-bottom: 0px;</span>
 <span class="add">+                padding-left: 0px;</span>
 <span class="add">+                padding-right: 0px;</span>
 <span class="add">+                padding-top: 0px;</span>
 <span class="add">+                position: relative;</span>
-<span class="add">+                text-align: center</span>
+<span class="add">+                text-align: center;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                &lt;style>@scope{:scope{</span>
 <span class="add">+                  &amp;::before {</span>
@@ -1393,7 +1743,10 @@
 <span class="add">+                  font-weight: 700;</span>
 <span class="add">+                  height: var(--spacing-400);</span>
 <span class="add">+                  justify-content: center;</span>
-<span class="add">+                  width: var(--spacing-400)</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  width: var(--spacing-400);</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;></span>
 <span class="add">+                  23</span>
 <span class="add">+                  &lt;span style=&quot;</span>
@@ -1403,11 +1756,14 @@
 <span class="add">+                    border-top-color: currentcolor;</span>
 <span class="add">+                    clip-path: inset(50%);</span>
 <span class="add">+                    height: 1px;</span>
+<span class="add">+                    letter-spacing: 0.12em;</span>
+<span class="add">+                    line-height: 1.5;</span>
 <span class="add">+                    overflow-x: hidden;</span>
 <span class="add">+                    overflow-y: hidden;</span>
 <span class="add">+                    position: absolute;</span>
 <span class="add">+                    text-wrap-mode: nowrap;</span>
-<span class="add">+                    width: 1px</span>
+<span class="add">+                    width: 1px;</span>
+<span class="add">+                    word-spacing: 0.16em</span>
 <span class="add">+                  &quot;></span>
 <span class="add">+                    - selected - start of range</span>
 <span class="add">+                  &lt;/span></span>
@@ -1415,12 +1771,15 @@
 <span class="add">+              &lt;/td></span>
 <span class="add">+              &lt;td style=&quot;</span>
 <span class="add">+                background-color: var(--color-state-layer-pressed);</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                padding-bottom: 0px;</span>
 <span class="add">+                padding-left: 0px;</span>
 <span class="add">+                padding-right: 0px;</span>
 <span class="add">+                padding-top: 0px;</span>
 <span class="add">+                position: relative;</span>
-<span class="add">+                text-align: center</span>
+<span class="add">+                text-align: center;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                &lt;style>@scope{:scope{</span>
 <span class="add">+                  &amp;::before {</span>
@@ -1461,7 +1820,10 @@
 <span class="add">+                  font-family: inherit;</span>
 <span class="add">+                  height: var(--spacing-400);</span>
 <span class="add">+                  justify-content: center;</span>
-<span class="add">+                  width: var(--spacing-400)</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  width: var(--spacing-400);</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;></span>
 <span class="add">+                  24</span>
 <span class="add">+                  &lt;span style=&quot;</span>
@@ -1471,26 +1833,36 @@
 <span class="add">+                    border-top-color: currentcolor;</span>
 <span class="add">+                    clip-path: inset(50%);</span>
 <span class="add">+                    height: 1px;</span>
+<span class="add">+                    letter-spacing: 0.12em;</span>
+<span class="add">+                    line-height: 1.5;</span>
 <span class="add">+                    overflow-x: hidden;</span>
 <span class="add">+                    overflow-y: hidden;</span>
 <span class="add">+                    position: absolute;</span>
 <span class="add">+                    text-wrap-mode: nowrap;</span>
-<span class="add">+                    width: 1px</span>
+<span class="add">+                    width: 1px;</span>
+<span class="add">+                    word-spacing: 0.16em</span>
 <span class="add">+                  &quot;></span>
 <span class="add">+                    - in range</span>
 <span class="add">+                  &lt;/span></span>
 <span class="add">+                &lt;/span></span>
 <span class="add">+              &lt;/td></span>
 <span class="add">+            &lt;/tr></span>
-<span class="add">+            &lt;tr></span>
+<span class="add">+            &lt;tr style=&quot;</span>
+<span class="add">+              letter-spacing: 0.12em;</span>
+<span class="add">+              line-height: 1.5;</span>
+<span class="add">+              word-spacing: 0.16em</span>
+<span class="add">+            &quot;></span>
 <span class="add">+              &lt;td style=&quot;</span>
 <span class="add">+                background-color: var(--color-state-layer-pressed);</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                padding-bottom: 0px;</span>
 <span class="add">+                padding-left: 0px;</span>
 <span class="add">+                padding-right: 0px;</span>
 <span class="add">+                padding-top: 0px;</span>
 <span class="add">+                position: relative;</span>
-<span class="add">+                text-align: center</span>
+<span class="add">+                text-align: center;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                &lt;style>@scope{:scope{</span>
 <span class="add">+                  &amp;::before {</span>
@@ -1531,7 +1903,10 @@
 <span class="add">+                  font-family: inherit;</span>
 <span class="add">+                  height: var(--spacing-400);</span>
 <span class="add">+                  justify-content: center;</span>
-<span class="add">+                  width: var(--spacing-400)</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  width: var(--spacing-400);</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;></span>
 <span class="add">+                  25</span>
 <span class="add">+                  &lt;span style=&quot;</span>
@@ -1541,11 +1916,14 @@
 <span class="add">+                    border-top-color: currentcolor;</span>
 <span class="add">+                    clip-path: inset(50%);</span>
 <span class="add">+                    height: 1px;</span>
+<span class="add">+                    letter-spacing: 0.12em;</span>
+<span class="add">+                    line-height: 1.5;</span>
 <span class="add">+                    overflow-x: hidden;</span>
 <span class="add">+                    overflow-y: hidden;</span>
 <span class="add">+                    position: absolute;</span>
 <span class="add">+                    text-wrap-mode: nowrap;</span>
-<span class="add">+                    width: 1px</span>
+<span class="add">+                    width: 1px;</span>
+<span class="add">+                    word-spacing: 0.16em</span>
 <span class="add">+                  &quot;></span>
 <span class="add">+                    - in range</span>
 <span class="add">+                  &lt;/span></span>
@@ -1553,12 +1931,15 @@
 <span class="add">+              &lt;/td></span>
 <span class="add">+              &lt;td style=&quot;</span>
 <span class="add">+                background-color: var(--color-state-layer-pressed);</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                padding-bottom: 0px;</span>
 <span class="add">+                padding-left: 0px;</span>
 <span class="add">+                padding-right: 0px;</span>
 <span class="add">+                padding-top: 0px;</span>
 <span class="add">+                position: relative;</span>
-<span class="add">+                text-align: center</span>
+<span class="add">+                text-align: center;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                &lt;style>@scope{:scope{</span>
 <span class="add">+                  &amp;::before {</span>
@@ -1599,7 +1980,10 @@
 <span class="add">+                  font-family: inherit;</span>
 <span class="add">+                  height: var(--spacing-400);</span>
 <span class="add">+                  justify-content: center;</span>
-<span class="add">+                  width: var(--spacing-400)</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  width: var(--spacing-400);</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;></span>
 <span class="add">+                  26</span>
 <span class="add">+                  &lt;span style=&quot;</span>
@@ -1609,11 +1993,14 @@
 <span class="add">+                    border-top-color: currentcolor;</span>
 <span class="add">+                    clip-path: inset(50%);</span>
 <span class="add">+                    height: 1px;</span>
+<span class="add">+                    letter-spacing: 0.12em;</span>
+<span class="add">+                    line-height: 1.5;</span>
 <span class="add">+                    overflow-x: hidden;</span>
 <span class="add">+                    overflow-y: hidden;</span>
 <span class="add">+                    position: absolute;</span>
 <span class="add">+                    text-wrap-mode: nowrap;</span>
-<span class="add">+                    width: 1px</span>
+<span class="add">+                    width: 1px;</span>
+<span class="add">+                    word-spacing: 0.16em</span>
 <span class="add">+                  &quot;></span>
 <span class="add">+                    - in range</span>
 <span class="add">+                  &lt;/span></span>
@@ -1622,12 +2009,15 @@
 <span class="add">+              &lt;td style=&quot;</span>
 <span class="add">+                background-color: var(--color-state-layer-pressed);</span>
 <span class="add">+                background: linear-gradient(to left, transparent 50%, var(--color-state-layer-pressed) 50%);</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                padding-bottom: 0px;</span>
 <span class="add">+                padding-left: 0px;</span>
 <span class="add">+                padding-right: 0px;</span>
 <span class="add">+                padding-top: 0px;</span>
 <span class="add">+                position: relative;</span>
-<span class="add">+                text-align: center</span>
+<span class="add">+                text-align: center;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                &lt;style>@scope{:scope{</span>
 <span class="add">+                  &amp;::before {</span>
@@ -1671,7 +2061,10 @@
 <span class="add">+                  font-weight: 700;</span>
 <span class="add">+                  height: var(--spacing-400);</span>
 <span class="add">+                  justify-content: center;</span>
-<span class="add">+                  width: var(--spacing-400)</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  width: var(--spacing-400);</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;></span>
 <span class="add">+                  27</span>
 <span class="add">+                  &lt;span style=&quot;</span>
@@ -1681,22 +2074,28 @@
 <span class="add">+                    border-top-color: currentcolor;</span>
 <span class="add">+                    clip-path: inset(50%);</span>
 <span class="add">+                    height: 1px;</span>
+<span class="add">+                    letter-spacing: 0.12em;</span>
+<span class="add">+                    line-height: 1.5;</span>
 <span class="add">+                    overflow-x: hidden;</span>
 <span class="add">+                    overflow-y: hidden;</span>
 <span class="add">+                    position: absolute;</span>
 <span class="add">+                    text-wrap-mode: nowrap;</span>
-<span class="add">+                    width: 1px</span>
+<span class="add">+                    width: 1px;</span>
+<span class="add">+                    word-spacing: 0.16em</span>
 <span class="add">+                  &quot;></span>
 <span class="add">+                    - selected - end of range</span>
 <span class="add">+                  &lt;/span></span>
 <span class="add">+                &lt;/span></span>
 <span class="add">+              &lt;/td></span>
 <span class="add">+              &lt;td style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                padding-bottom: 0px;</span>
 <span class="add">+                padding-left: 0px;</span>
 <span class="add">+                padding-right: 0px;</span>
 <span class="add">+                padding-top: 0px;</span>
-<span class="add">+                text-align: center</span>
+<span class="add">+                text-align: center;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                &lt;span style=&quot;</span>
 <span class="add">+                  align-items: center;</span>
@@ -1716,17 +2115,23 @@
 <span class="add">+                  font-family: inherit;</span>
 <span class="add">+                  height: var(--spacing-400);</span>
 <span class="add">+                  justify-content: center;</span>
-<span class="add">+                  width: var(--spacing-400)</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  width: var(--spacing-400);</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;></span>
 <span class="add">+                  28</span>
 <span class="add">+                &lt;/span></span>
 <span class="add">+              &lt;/td></span>
 <span class="add">+              &lt;td style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                padding-bottom: 0px;</span>
 <span class="add">+                padding-left: 0px;</span>
 <span class="add">+                padding-right: 0px;</span>
 <span class="add">+                padding-top: 0px;</span>
-<span class="add">+                text-align: center</span>
+<span class="add">+                text-align: center;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                &lt;span style=&quot;</span>
 <span class="add">+                  align-items: center;</span>
@@ -1746,17 +2151,23 @@
 <span class="add">+                  font-family: inherit;</span>
 <span class="add">+                  height: var(--spacing-400);</span>
 <span class="add">+                  justify-content: center;</span>
-<span class="add">+                  width: var(--spacing-400)</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  width: var(--spacing-400);</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;></span>
 <span class="add">+                  29</span>
 <span class="add">+                &lt;/span></span>
 <span class="add">+              &lt;/td></span>
 <span class="add">+              &lt;td style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                padding-bottom: 0px;</span>
 <span class="add">+                padding-left: 0px;</span>
 <span class="add">+                padding-right: 0px;</span>
 <span class="add">+                padding-top: 0px;</span>
-<span class="add">+                text-align: center</span>
+<span class="add">+                text-align: center;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                &lt;span style=&quot;</span>
 <span class="add">+                  align-items: center;</span>
@@ -1776,17 +2187,23 @@
 <span class="add">+                  font-family: inherit;</span>
 <span class="add">+                  height: var(--spacing-400);</span>
 <span class="add">+                  justify-content: center;</span>
-<span class="add">+                  width: var(--spacing-400)</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  width: var(--spacing-400);</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;></span>
 <span class="add">+                  30</span>
 <span class="add">+                &lt;/span></span>
 <span class="add">+              &lt;/td></span>
 <span class="add">+              &lt;td style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
 <span class="add">+                padding-bottom: 0px;</span>
 <span class="add">+                padding-left: 0px;</span>
 <span class="add">+                padding-right: 0px;</span>
 <span class="add">+                padding-top: 0px;</span>
-<span class="add">+                text-align: center</span>
+<span class="add">+                text-align: center;</span>
+<span class="add">+                word-spacing: 0.16em</span>
 <span class="add">+              &quot;></span>
 <span class="add">+                &lt;span style=&quot;</span>
 <span class="add">+                  align-items: center;</span>
@@ -1806,7 +2223,10 @@
 <span class="add">+                  font-family: inherit;</span>
 <span class="add">+                  height: var(--spacing-400);</span>
 <span class="add">+                  justify-content: center;</span>
-<span class="add">+                  width: var(--spacing-400)</span>
+<span class="add">+                  letter-spacing: 0.12em;</span>
+<span class="add">+                  line-height: 1.5;</span>
+<span class="add">+                  width: var(--spacing-400);</span>
+<span class="add">+                  word-spacing: 0.16em</span>
 <span class="add">+                &quot;></span>
 <span class="add">+                  31</span>
 <span class="add">+                &lt;/span></span>
@@ -1833,7 +2253,7 @@
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
-    const PAGE = {"baseRefShort":"60ee2f496866","prevHref":"calendar-stories-calendar--interactive.html","nextHref":"card-stories-card.aspect--verticalAspectSquare.html","indexHref":"../index.html","pos":137,"total":1012,"slug":"calendar-stories-calendar--textSpacing","hash":"1hnhbbc","component":"calendar","story":"textSpacing","file":"packages/skin/src/sass/calendar/stories/__snapshots__/calendar.snap","dims":[{"changes":[]}]};
+    const PAGE = {"baseRefShort":"60ee2f496866","prevHref":"calendar-stories-calendar--interactive.html","nextHref":"card-stories-card.aspect--verticalAspectSquare.html","indexHref":"../index.html","pos":131,"total":954,"slug":"calendar-stories-calendar--textSpacing","hash":"1eeqs3s","component":"calendar","story":"textSpacing","file":"packages/skin/src/sass/calendar/stories/__snapshots__/calendar.snap","dims":[{"changes":[]}]};
 </script>
 <script src="../assets/nav.js" defer></script>
 <script src="../assets/story.js" defer></script>

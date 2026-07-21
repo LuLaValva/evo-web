@@ -41,7 +41,82 @@
         <div class="grow"></div>
         <button class="flag" id="flag-btn" type="button">⚑ Flag</button>
     </div>
-    <section class="dim-section" id="dim-0" data-dim="0"><h3 class="dim-label">320px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="320"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><link rel=&quot;stylesheet&quot; href=&quot;../assets/head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body><script src=&quot;../assets/sprite-head.js&quot;></script>
+    <section class="dim-section" id="dim-0" data-dim="0"><h3 class="dim-label">320px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="320"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" style="width:320px" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><link rel=&quot;stylesheet&quot; href=&quot;../assets/head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}/* Custom Classes for Storybook — demo-only styles used by stories.
+   Loaded by Storybook (preview.js), the visual snapshot harness
+   (test/visual/visual.spec.js), and the visual-preview viewer frames
+   (tools/visual-preview/build.mjs), so all three render stories the
+   same way. */
+.font-large {
+    font-size: 200%;
+    /* line-height: var(--typography-body-line-height); */
+}
+
+.carousel__list--default-demo li {
+    background-color: grey;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--image-treatment-demo li {
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--discrete-demo li {
+    background-color: grey;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: calc(25% - 24px);
+}
+
+.carousel__list--discrete-demo li:last-child {
+    margin-right: 0;
+}
+
+.carousel__list--slideshow-demo li {
+    background-color: grey;
+    font-size: 36px;
+    font-weight: bold;
+    height: 300px;
+    line-height: 300px;
+    margin-inline-end: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+.carousel__list--slideshow-demo li:last-child {
+    margin-inline-end: 0;
+}
+
+.demo-a11y-text-spacing,
+.demo-a11y-text-spacing * {
+    line-height: 1.5 !important;
+    letter-spacing: 0.12em !important;
+    word-spacing: 0.16em !important;
+}
+.demo-a11y-text-spacing p {
+    margin-bottom: 2em !important;
+}
+
+.phone-input div.listbox-button__listbox {
+    display: block;
+}
+body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body><script src=&quot;../assets/sprite-head.js&quot;></script>
 <div class=&quot;section-notice section-notice--confirmation demo-a11y-text-spacing&quot; role=&quot;region&quot;>
     <div class=&quot;section-notice__header&quot; role=&quot;region&quot; aria-roledescription=&quot;Notice&quot;>
         <svg aria-hidden=&quot;true&quot; class=&quot;icon icon--16&quot;>
@@ -63,57 +138,82 @@
         </button>
     </div>
 </div>
-</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,135 @@</span>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,182 @@</span>
 <span class="add">+&lt;div></span>
 <span class="add">+  &lt;div style=&quot;</span>
 <span class="add">+    background-color: var(--section-notice-default-background-color, var(--color-background-secondary));</span>
 <span class="add">+    display: grid;</span>
 <span class="add">+    font-size: var(--font-size-body);</span>
 <span class="add">+    grid-template-columns: 32px auto auto min-content;</span>
+<span class="add">+    letter-spacing: 0.12em;</span>
+<span class="add">+    line-height: 1.5;</span>
 <span class="add">+    margin-bottom: 8px;</span>
 <span class="add">+    margin-top: 8px;</span>
 <span class="add">+    padding-bottom: 16px;</span>
 <span class="add">+    padding-left: 16px;</span>
 <span class="add">+    padding-right: 16px;</span>
-<span class="add">+    padding-top: 16px</span>
+<span class="add">+    padding-top: 16px;</span>
+<span class="add">+    word-spacing: 0.16em</span>
 <span class="add">+  &quot;></span>
 <span class="add">+    &lt;div style=&quot;</span>
 <span class="add">+      grid-column-start: 1;</span>
 <span class="add">+      grid-row-start: 1;</span>
 <span class="add">+      height: var(--spacing-200);</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
 <span class="add">+      margin-inline-end: var(--spacing-200);</span>
-<span class="add">+      margin-top: 1px</span>
+<span class="add">+      margin-top: 1px;</span>
+<span class="add">+      word-spacing: 0.16em</span>
 <span class="add">+    &quot;></span>
 <span class="add">+      &lt;svg style=&quot;</span>
 <span class="add">+        display: inline-block;</span>
 <span class="add">+        fill: currentcolor;</span>
 <span class="add">+        height: 16px;</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
 <span class="add">+        pointer-events: none;</span>
 <span class="add">+        stroke-width: 0;</span>
 <span class="add">+        stroke: currentcolor;</span>
 <span class="add">+        vertical-align: top;</span>
-<span class="add">+        width: 16px</span>
+<span class="add">+        width: 16px;</span>
+<span class="add">+        word-spacing: 0.16em</span>
 <span class="add">+      &quot;></span>
-<span class="add">+        &lt;use href=&quot;#icon-confirmation-filled-16&quot;/></span>
+<span class="add">+        &lt;use</span>
+<span class="add">+          href=&quot;#icon-confirmation-filled-16&quot;</span>
+<span class="add">+          style=&quot;</span>
+<span class="add">+            letter-spacing: 0.12em;</span>
+<span class="add">+            line-height: 1.5;</span>
+<span class="add">+            word-spacing: 0.16em</span>
+<span class="add">+          &quot;</span>
+<span class="add">+        /></span>
 <span class="add">+      &lt;/svg></span>
 <span class="add">+    &lt;/div></span>
 <span class="add">+    &lt;div style=&quot;</span>
 <span class="add">+      grid-column-start: 2;</span>
 <span class="add">+      grid-row-start: 1;</span>
-<span class="add">+      margin-inline-end: var(--spacing-200)</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
+<span class="add">+      margin-inline-end: var(--spacing-200);</span>
+<span class="add">+      word-spacing: 0.16em</span>
 <span class="add">+    &quot;></span>
 <span class="add">+      &lt;h3 style=&quot;</span>
 <span class="add">+        font-size: var(--font-size-body);</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
 <span class="add">+        margin-bottom: 0px;</span>
-<span class="add">+        margin-top: 0px</span>
+<span class="add">+        margin-top: 0px;</span>
+<span class="add">+        word-spacing: 0.16em</span>
 <span class="add">+      &quot;></span>
 <span class="add">+        Notification Title</span>
 <span class="add">+      &lt;/h3></span>
 <span class="add">+      &lt;p style=&quot;</span>
 <span class="add">+        font-size: var(--font-size-body);</span>
-<span class="add">+        margin-bottom: 0px;</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
+<span class="add">+        margin-bottom: 2em;</span>
 <span class="add">+        margin-top: 0px;</span>
-<span class="add">+        margin: var(--spacing-50) 0 0</span>
+<span class="add">+        margin: var(--spacing-50) 0 0;</span>
+<span class="add">+        word-spacing: 0.16em</span>
 <span class="add">+      &quot;></span>
 <span class="add">+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
 <span class="add">+      &lt;/p></span>
@@ -122,8 +222,11 @@
 <span class="add">+      grid-column-start: 2;</span>
 <span class="add">+      grid-row-start: 2;</span>
 <span class="add">+      justify-self: flex-start;</span>
-<span class="add">+      margin-bottom: 0px;</span>
-<span class="add">+      margin-top: var(--spacing-200)</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
+<span class="add">+      margin-bottom: 2em;</span>
+<span class="add">+      margin-top: var(--spacing-200);</span>
+<span class="add">+      word-spacing: 0.16em</span>
 <span class="add">+    &quot;></span>
 <span class="add">+      &lt;button style=&quot;</span>
 <span class="add">+        border-bottom-color: currentcolor;</span>
@@ -141,11 +244,14 @@
 <span class="add">+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));</span>
 <span class="add">+        font-family: inherit;</span>
 <span class="add">+        font-size: var(--font-size-body);</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
 <span class="add">+        padding-bottom: 0px;</span>
 <span class="add">+        padding-left: 0px;</span>
 <span class="add">+        padding-right: 0px;</span>
 <span class="add">+        padding-top: 0px;</span>
-<span class="add">+        text-decoration-line: underline</span>
+<span class="add">+        text-decoration-line: underline;</span>
+<span class="add">+        word-spacing: 0.16em</span>
 <span class="add">+      &quot;></span>
 <span class="add">+        Action</span>
 <span class="add">+      &lt;/button></span>
@@ -154,7 +260,10 @@
 <span class="add">+      grid-column-start: 4;</span>
 <span class="add">+      grid-row-start: 1;</span>
 <span class="add">+      justify-self: flex-end;</span>
-<span class="add">+      margin-top: 2px</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
+<span class="add">+      margin-top: 2px;</span>
+<span class="add">+      word-spacing: 0.16em</span>
 <span class="add">+    &quot;></span>
 <span class="add">+      &lt;button style=&quot;</span>
 <span class="add">+        border-bottom-color: currentcolor;</span>
@@ -173,11 +282,14 @@
 <span class="add">+        font-family: inherit;</span>
 <span class="add">+        font-size: var(--font-size-body);</span>
 <span class="add">+        font-weight: 700;</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
 <span class="add">+        padding-bottom: 0px;</span>
 <span class="add">+        padding-left: 0px;</span>
 <span class="add">+        padding-right: 0px;</span>
 <span class="add">+        padding-top: 0px;</span>
-<span class="add">+        text-decoration-line: underline</span>
+<span class="add">+        text-decoration-line: underline;</span>
+<span class="add">+        word-spacing: 0.16em</span>
 <span class="add">+      &quot;></span>
 <span class="add">+        &lt;svg</span>
 <span class="add">+          height=&quot;16&quot;</span>
@@ -185,22 +297,107 @@
 <span class="add">+            display: inline-block;</span>
 <span class="add">+            fill: currentcolor;</span>
 <span class="add">+            height: 16px;</span>
+<span class="add">+            letter-spacing: 0.12em;</span>
+<span class="add">+            line-height: 1.5;</span>
 <span class="add">+            pointer-events: none;</span>
 <span class="add">+            stroke-width: 0;</span>
 <span class="add">+            stroke: currentcolor;</span>
 <span class="add">+            vertical-align: top;</span>
-<span class="add">+            width: 16px</span>
+<span class="add">+            width: 16px;</span>
+<span class="add">+            word-spacing: 0.16em</span>
 <span class="add">+          &quot;</span>
 <span class="add">+          width=&quot;16&quot;</span>
 <span class="add">+        ></span>
-<span class="add">+          &lt;use href=&quot;#icon-close-16&quot;/></span>
+<span class="add">+          &lt;use</span>
+<span class="add">+            href=&quot;#icon-close-16&quot;</span>
+<span class="add">+            style=&quot;</span>
+<span class="add">+              letter-spacing: 0.12em;</span>
+<span class="add">+              line-height: 1.5;</span>
+<span class="add">+              word-spacing: 0.16em</span>
+<span class="add">+            &quot;</span>
+<span class="add">+          /></span>
 <span class="add">+        &lt;/svg></span>
 <span class="add">+      &lt;/button></span>
 <span class="add">+    &lt;/div></span>
 <span class="add">+  &lt;/div></span>
 <span class="add">+&lt;/div></span>
 \ No newline at end of file
-</pre></div></div></section><section class="dim-section" id="dim-1" data-dim="1"><h3 class="dim-label">512px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="512"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><link rel=&quot;stylesheet&quot; href=&quot;../assets/head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body><script src=&quot;../assets/sprite-head.js&quot;></script>
+</pre></div></div></section><section class="dim-section" id="dim-1" data-dim="1"><h3 class="dim-label">512px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="512"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" style="width:512px" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><link rel=&quot;stylesheet&quot; href=&quot;../assets/head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}/* Custom Classes for Storybook — demo-only styles used by stories.
+   Loaded by Storybook (preview.js), the visual snapshot harness
+   (test/visual/visual.spec.js), and the visual-preview viewer frames
+   (tools/visual-preview/build.mjs), so all three render stories the
+   same way. */
+.font-large {
+    font-size: 200%;
+    /* line-height: var(--typography-body-line-height); */
+}
+
+.carousel__list--default-demo li {
+    background-color: grey;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--image-treatment-demo li {
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--discrete-demo li {
+    background-color: grey;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: calc(25% - 24px);
+}
+
+.carousel__list--discrete-demo li:last-child {
+    margin-right: 0;
+}
+
+.carousel__list--slideshow-demo li {
+    background-color: grey;
+    font-size: 36px;
+    font-weight: bold;
+    height: 300px;
+    line-height: 300px;
+    margin-inline-end: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+.carousel__list--slideshow-demo li:last-child {
+    margin-inline-end: 0;
+}
+
+.demo-a11y-text-spacing,
+.demo-a11y-text-spacing * {
+    line-height: 1.5 !important;
+    letter-spacing: 0.12em !important;
+    word-spacing: 0.16em !important;
+}
+.demo-a11y-text-spacing p {
+    margin-bottom: 2em !important;
+}
+
+.phone-input div.listbox-button__listbox {
+    display: block;
+}
+body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body><script src=&quot;../assets/sprite-head.js&quot;></script>
 <div class=&quot;section-notice section-notice--confirmation demo-a11y-text-spacing&quot; role=&quot;region&quot;>
     <div class=&quot;section-notice__header&quot; role=&quot;region&quot; aria-roledescription=&quot;Notice&quot;>
         <svg aria-hidden=&quot;true&quot; class=&quot;icon icon--16&quot;>
@@ -222,58 +419,83 @@
         </button>
     </div>
 </div>
-</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,137 @@</span>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,184 @@</span>
 <span class="add">+&lt;div></span>
 <span class="add">+  &lt;div style=&quot;</span>
 <span class="add">+    background-color: var(--section-notice-default-background-color, var(--color-background-secondary));</span>
 <span class="add">+    display: grid;</span>
 <span class="add">+    font-size: var(--font-size-body);</span>
 <span class="add">+    grid-template-columns: 32px auto auto min-content;</span>
+<span class="add">+    letter-spacing: 0.12em;</span>
+<span class="add">+    line-height: 1.5;</span>
 <span class="add">+    margin-bottom: 8px;</span>
 <span class="add">+    margin-top: 8px;</span>
 <span class="add">+    margin: var(--spacing-200) 0;</span>
 <span class="add">+    padding-bottom: 16px;</span>
 <span class="add">+    padding-left: 16px;</span>
 <span class="add">+    padding-right: 16px;</span>
-<span class="add">+    padding-top: 16px</span>
+<span class="add">+    padding-top: 16px;</span>
+<span class="add">+    word-spacing: 0.16em</span>
 <span class="add">+  &quot;></span>
 <span class="add">+    &lt;div style=&quot;</span>
 <span class="add">+      grid-column-start: 1;</span>
 <span class="add">+      grid-row-start: 1;</span>
 <span class="add">+      height: var(--spacing-200);</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
 <span class="add">+      margin-inline-end: var(--spacing-200);</span>
-<span class="add">+      margin-top: 1px</span>
+<span class="add">+      margin-top: 1px;</span>
+<span class="add">+      word-spacing: 0.16em</span>
 <span class="add">+    &quot;></span>
 <span class="add">+      &lt;svg style=&quot;</span>
 <span class="add">+        display: inline-block;</span>
 <span class="add">+        fill: currentcolor;</span>
 <span class="add">+        height: 16px;</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
 <span class="add">+        pointer-events: none;</span>
 <span class="add">+        stroke-width: 0;</span>
 <span class="add">+        stroke: currentcolor;</span>
 <span class="add">+        vertical-align: top;</span>
-<span class="add">+        width: 16px</span>
+<span class="add">+        width: 16px;</span>
+<span class="add">+        word-spacing: 0.16em</span>
 <span class="add">+      &quot;></span>
-<span class="add">+        &lt;use href=&quot;#icon-confirmation-filled-16&quot;/></span>
+<span class="add">+        &lt;use</span>
+<span class="add">+          href=&quot;#icon-confirmation-filled-16&quot;</span>
+<span class="add">+          style=&quot;</span>
+<span class="add">+            letter-spacing: 0.12em;</span>
+<span class="add">+            line-height: 1.5;</span>
+<span class="add">+            word-spacing: 0.16em</span>
+<span class="add">+          &quot;</span>
+<span class="add">+        /></span>
 <span class="add">+      &lt;/svg></span>
 <span class="add">+    &lt;/div></span>
 <span class="add">+    &lt;div style=&quot;</span>
 <span class="add">+      grid-column-start: 2;</span>
 <span class="add">+      grid-row-start: 1;</span>
-<span class="add">+      margin-inline-end: var(--spacing-200)</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
+<span class="add">+      margin-inline-end: var(--spacing-200);</span>
+<span class="add">+      word-spacing: 0.16em</span>
 <span class="add">+    &quot;></span>
 <span class="add">+      &lt;h3 style=&quot;</span>
 <span class="add">+        font-size: var(--font-size-body);</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
 <span class="add">+        margin-bottom: 0px;</span>
-<span class="add">+        margin-top: 0px</span>
+<span class="add">+        margin-top: 0px;</span>
+<span class="add">+        word-spacing: 0.16em</span>
 <span class="add">+      &quot;></span>
 <span class="add">+        Notification Title</span>
 <span class="add">+      &lt;/h3></span>
 <span class="add">+      &lt;p style=&quot;</span>
 <span class="add">+        font-size: var(--font-size-body);</span>
-<span class="add">+        margin-bottom: 0px;</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
+<span class="add">+        margin-bottom: 2em;</span>
 <span class="add">+        margin-top: 0px;</span>
-<span class="add">+        margin: var(--spacing-50) 0 0</span>
+<span class="add">+        margin: var(--spacing-50) 0 0;</span>
+<span class="add">+        word-spacing: 0.16em</span>
 <span class="add">+      &quot;></span>
 <span class="add">+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
 <span class="add">+      &lt;/p></span>
@@ -282,8 +504,11 @@
 <span class="add">+      grid-column-start: 3;</span>
 <span class="add">+      grid-row-start: 1;</span>
 <span class="add">+      justify-self: flex-end;</span>
-<span class="add">+      margin-bottom: 0px;</span>
-<span class="add">+      margin-top: 0px</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
+<span class="add">+      margin-bottom: 2em;</span>
+<span class="add">+      margin-top: 0px;</span>
+<span class="add">+      word-spacing: 0.16em</span>
 <span class="add">+    &quot;></span>
 <span class="add">+      &lt;button style=&quot;</span>
 <span class="add">+        border-bottom-color: currentcolor;</span>
@@ -301,11 +526,14 @@
 <span class="add">+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));</span>
 <span class="add">+        font-family: inherit;</span>
 <span class="add">+        font-size: var(--font-size-body);</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
 <span class="add">+        padding-bottom: 0px;</span>
 <span class="add">+        padding-left: 0px;</span>
 <span class="add">+        padding-right: 0px;</span>
 <span class="add">+        padding-top: 0px;</span>
-<span class="add">+        text-decoration-line: underline</span>
+<span class="add">+        text-decoration-line: underline;</span>
+<span class="add">+        word-spacing: 0.16em</span>
 <span class="add">+      &quot;></span>
 <span class="add">+        Action</span>
 <span class="add">+      &lt;/button></span>
@@ -314,8 +542,11 @@
 <span class="add">+      grid-column-start: 4;</span>
 <span class="add">+      grid-row-start: 1;</span>
 <span class="add">+      justify-self: flex-end;</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
 <span class="add">+      margin-top: 2px;</span>
-<span class="add">+      padding-inline-start: var(--spacing-200)</span>
+<span class="add">+      padding-inline-start: var(--spacing-200);</span>
+<span class="add">+      word-spacing: 0.16em</span>
 <span class="add">+    &quot;></span>
 <span class="add">+      &lt;button style=&quot;</span>
 <span class="add">+        border-bottom-color: currentcolor;</span>
@@ -334,11 +565,14 @@
 <span class="add">+        font-family: inherit;</span>
 <span class="add">+        font-size: var(--font-size-body);</span>
 <span class="add">+        font-weight: 700;</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
 <span class="add">+        padding-bottom: 0px;</span>
 <span class="add">+        padding-left: 0px;</span>
 <span class="add">+        padding-right: 0px;</span>
 <span class="add">+        padding-top: 0px;</span>
-<span class="add">+        text-decoration-line: underline</span>
+<span class="add">+        text-decoration-line: underline;</span>
+<span class="add">+        word-spacing: 0.16em</span>
 <span class="add">+      &quot;></span>
 <span class="add">+        &lt;svg</span>
 <span class="add">+          height=&quot;16&quot;</span>
@@ -346,22 +580,107 @@
 <span class="add">+            display: inline-block;</span>
 <span class="add">+            fill: currentcolor;</span>
 <span class="add">+            height: 16px;</span>
+<span class="add">+            letter-spacing: 0.12em;</span>
+<span class="add">+            line-height: 1.5;</span>
 <span class="add">+            pointer-events: none;</span>
 <span class="add">+            stroke-width: 0;</span>
 <span class="add">+            stroke: currentcolor;</span>
 <span class="add">+            vertical-align: top;</span>
-<span class="add">+            width: 16px</span>
+<span class="add">+            width: 16px;</span>
+<span class="add">+            word-spacing: 0.16em</span>
 <span class="add">+          &quot;</span>
 <span class="add">+          width=&quot;16&quot;</span>
 <span class="add">+        ></span>
-<span class="add">+          &lt;use href=&quot;#icon-close-16&quot;/></span>
+<span class="add">+          &lt;use</span>
+<span class="add">+            href=&quot;#icon-close-16&quot;</span>
+<span class="add">+            style=&quot;</span>
+<span class="add">+              letter-spacing: 0.12em;</span>
+<span class="add">+              line-height: 1.5;</span>
+<span class="add">+              word-spacing: 0.16em</span>
+<span class="add">+            &quot;</span>
+<span class="add">+          /></span>
 <span class="add">+        &lt;/svg></span>
 <span class="add">+      &lt;/button></span>
 <span class="add">+    &lt;/div></span>
 <span class="add">+  &lt;/div></span>
 <span class="add">+&lt;/div></span>
 \ No newline at end of file
-</pre></div></div></section><section class="dim-section" id="dim-2" data-dim="2"><h3 class="dim-label">1280px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><link rel=&quot;stylesheet&quot; href=&quot;../assets/head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body><script src=&quot;../assets/sprite-head.js&quot;></script>
+</pre></div></div></section><section class="dim-section" id="dim-2" data-dim="2"><h3 class="dim-label">1280px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" style="width:1280px" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><link rel=&quot;stylesheet&quot; href=&quot;../assets/head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}/* Custom Classes for Storybook — demo-only styles used by stories.
+   Loaded by Storybook (preview.js), the visual snapshot harness
+   (test/visual/visual.spec.js), and the visual-preview viewer frames
+   (tools/visual-preview/build.mjs), so all three render stories the
+   same way. */
+.font-large {
+    font-size: 200%;
+    /* line-height: var(--typography-body-line-height); */
+}
+
+.carousel__list--default-demo li {
+    background-color: grey;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--image-treatment-demo li {
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--discrete-demo li {
+    background-color: grey;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: calc(25% - 24px);
+}
+
+.carousel__list--discrete-demo li:last-child {
+    margin-right: 0;
+}
+
+.carousel__list--slideshow-demo li {
+    background-color: grey;
+    font-size: 36px;
+    font-weight: bold;
+    height: 300px;
+    line-height: 300px;
+    margin-inline-end: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+.carousel__list--slideshow-demo li:last-child {
+    margin-inline-end: 0;
+}
+
+.demo-a11y-text-spacing,
+.demo-a11y-text-spacing * {
+    line-height: 1.5 !important;
+    letter-spacing: 0.12em !important;
+    word-spacing: 0.16em !important;
+}
+.demo-a11y-text-spacing p {
+    margin-bottom: 2em !important;
+}
+
+.phone-input div.listbox-button__listbox {
+    display: block;
+}
+body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body><script src=&quot;../assets/sprite-head.js&quot;></script>
 <div class=&quot;section-notice section-notice--confirmation demo-a11y-text-spacing&quot; role=&quot;region&quot;>
     <div class=&quot;section-notice__header&quot; role=&quot;region&quot; aria-roledescription=&quot;Notice&quot;>
         <svg aria-hidden=&quot;true&quot; class=&quot;icon icon--16&quot;>
@@ -383,58 +702,83 @@
         </button>
     </div>
 </div>
-</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,137 @@</span>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,184 @@</span>
 <span class="add">+&lt;div></span>
 <span class="add">+  &lt;div style=&quot;</span>
 <span class="add">+    background-color: var(--section-notice-default-background-color, var(--color-background-secondary));</span>
 <span class="add">+    display: grid;</span>
 <span class="add">+    font-size: var(--font-size-body);</span>
 <span class="add">+    grid-template-columns: 32px auto auto min-content;</span>
+<span class="add">+    letter-spacing: 0.12em;</span>
+<span class="add">+    line-height: 1.5;</span>
 <span class="add">+    margin-bottom: 8px;</span>
 <span class="add">+    margin-top: 8px;</span>
 <span class="add">+    margin: var(--spacing-200) 0;</span>
 <span class="add">+    padding-bottom: 16px;</span>
 <span class="add">+    padding-left: 16px;</span>
 <span class="add">+    padding-right: 16px;</span>
-<span class="add">+    padding-top: 16px</span>
+<span class="add">+    padding-top: 16px;</span>
+<span class="add">+    word-spacing: 0.16em</span>
 <span class="add">+  &quot;></span>
 <span class="add">+    &lt;div style=&quot;</span>
 <span class="add">+      grid-column-start: 1;</span>
 <span class="add">+      grid-row-start: 1;</span>
 <span class="add">+      height: var(--spacing-200);</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
 <span class="add">+      margin-inline-end: var(--spacing-200);</span>
-<span class="add">+      margin-top: 1px</span>
+<span class="add">+      margin-top: 1px;</span>
+<span class="add">+      word-spacing: 0.16em</span>
 <span class="add">+    &quot;></span>
 <span class="add">+      &lt;svg style=&quot;</span>
 <span class="add">+        display: inline-block;</span>
 <span class="add">+        fill: currentcolor;</span>
 <span class="add">+        height: 16px;</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
 <span class="add">+        pointer-events: none;</span>
 <span class="add">+        stroke-width: 0;</span>
 <span class="add">+        stroke: currentcolor;</span>
 <span class="add">+        vertical-align: top;</span>
-<span class="add">+        width: 16px</span>
+<span class="add">+        width: 16px;</span>
+<span class="add">+        word-spacing: 0.16em</span>
 <span class="add">+      &quot;></span>
-<span class="add">+        &lt;use href=&quot;#icon-confirmation-filled-16&quot;/></span>
+<span class="add">+        &lt;use</span>
+<span class="add">+          href=&quot;#icon-confirmation-filled-16&quot;</span>
+<span class="add">+          style=&quot;</span>
+<span class="add">+            letter-spacing: 0.12em;</span>
+<span class="add">+            line-height: 1.5;</span>
+<span class="add">+            word-spacing: 0.16em</span>
+<span class="add">+          &quot;</span>
+<span class="add">+        /></span>
 <span class="add">+      &lt;/svg></span>
 <span class="add">+    &lt;/div></span>
 <span class="add">+    &lt;div style=&quot;</span>
 <span class="add">+      grid-column-start: 2;</span>
 <span class="add">+      grid-row-start: 1;</span>
-<span class="add">+      margin-inline-end: var(--spacing-200)</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
+<span class="add">+      margin-inline-end: var(--spacing-200);</span>
+<span class="add">+      word-spacing: 0.16em</span>
 <span class="add">+    &quot;></span>
 <span class="add">+      &lt;h3 style=&quot;</span>
 <span class="add">+        font-size: var(--font-size-body);</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
 <span class="add">+        margin-bottom: 0px;</span>
-<span class="add">+        margin-top: 0px</span>
+<span class="add">+        margin-top: 0px;</span>
+<span class="add">+        word-spacing: 0.16em</span>
 <span class="add">+      &quot;></span>
 <span class="add">+        Notification Title</span>
 <span class="add">+      &lt;/h3></span>
 <span class="add">+      &lt;p style=&quot;</span>
 <span class="add">+        font-size: var(--font-size-body);</span>
-<span class="add">+        margin-bottom: 0px;</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
+<span class="add">+        margin-bottom: 2em;</span>
 <span class="add">+        margin-top: 0px;</span>
-<span class="add">+        margin: var(--spacing-50) 0 0</span>
+<span class="add">+        margin: var(--spacing-50) 0 0;</span>
+<span class="add">+        word-spacing: 0.16em</span>
 <span class="add">+      &quot;></span>
 <span class="add">+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
 <span class="add">+      &lt;/p></span>
@@ -443,8 +787,11 @@
 <span class="add">+      grid-column-start: 3;</span>
 <span class="add">+      grid-row-start: 1;</span>
 <span class="add">+      justify-self: flex-end;</span>
-<span class="add">+      margin-bottom: 0px;</span>
-<span class="add">+      margin-top: 0px</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
+<span class="add">+      margin-bottom: 2em;</span>
+<span class="add">+      margin-top: 0px;</span>
+<span class="add">+      word-spacing: 0.16em</span>
 <span class="add">+    &quot;></span>
 <span class="add">+      &lt;button style=&quot;</span>
 <span class="add">+        border-bottom-color: currentcolor;</span>
@@ -462,11 +809,14 @@
 <span class="add">+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));</span>
 <span class="add">+        font-family: inherit;</span>
 <span class="add">+        font-size: var(--font-size-body);</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
 <span class="add">+        padding-bottom: 0px;</span>
 <span class="add">+        padding-left: 0px;</span>
 <span class="add">+        padding-right: 0px;</span>
 <span class="add">+        padding-top: 0px;</span>
-<span class="add">+        text-decoration-line: underline</span>
+<span class="add">+        text-decoration-line: underline;</span>
+<span class="add">+        word-spacing: 0.16em</span>
 <span class="add">+      &quot;></span>
 <span class="add">+        Action</span>
 <span class="add">+      &lt;/button></span>
@@ -475,8 +825,11 @@
 <span class="add">+      grid-column-start: 4;</span>
 <span class="add">+      grid-row-start: 1;</span>
 <span class="add">+      justify-self: flex-end;</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
 <span class="add">+      margin-top: 2px;</span>
-<span class="add">+      padding-inline-start: var(--spacing-200)</span>
+<span class="add">+      padding-inline-start: var(--spacing-200);</span>
+<span class="add">+      word-spacing: 0.16em</span>
 <span class="add">+    &quot;></span>
 <span class="add">+      &lt;button style=&quot;</span>
 <span class="add">+        border-bottom-color: currentcolor;</span>
@@ -495,11 +848,14 @@
 <span class="add">+        font-family: inherit;</span>
 <span class="add">+        font-size: var(--font-size-body);</span>
 <span class="add">+        font-weight: 700;</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
 <span class="add">+        padding-bottom: 0px;</span>
 <span class="add">+        padding-left: 0px;</span>
 <span class="add">+        padding-right: 0px;</span>
 <span class="add">+        padding-top: 0px;</span>
-<span class="add">+        text-decoration-line: underline</span>
+<span class="add">+        text-decoration-line: underline;</span>
+<span class="add">+        word-spacing: 0.16em</span>
 <span class="add">+      &quot;></span>
 <span class="add">+        &lt;svg</span>
 <span class="add">+          height=&quot;16&quot;</span>
@@ -507,22 +863,107 @@
 <span class="add">+            display: inline-block;</span>
 <span class="add">+            fill: currentcolor;</span>
 <span class="add">+            height: 16px;</span>
+<span class="add">+            letter-spacing: 0.12em;</span>
+<span class="add">+            line-height: 1.5;</span>
 <span class="add">+            pointer-events: none;</span>
 <span class="add">+            stroke-width: 0;</span>
 <span class="add">+            stroke: currentcolor;</span>
 <span class="add">+            vertical-align: top;</span>
-<span class="add">+            width: 16px</span>
+<span class="add">+            width: 16px;</span>
+<span class="add">+            word-spacing: 0.16em</span>
 <span class="add">+          &quot;</span>
 <span class="add">+          width=&quot;16&quot;</span>
 <span class="add">+        ></span>
-<span class="add">+          &lt;use href=&quot;#icon-close-16&quot;/></span>
+<span class="add">+          &lt;use</span>
+<span class="add">+            href=&quot;#icon-close-16&quot;</span>
+<span class="add">+            style=&quot;</span>
+<span class="add">+              letter-spacing: 0.12em;</span>
+<span class="add">+              line-height: 1.5;</span>
+<span class="add">+              word-spacing: 0.16em</span>
+<span class="add">+            &quot;</span>
+<span class="add">+          /></span>
 <span class="add">+        &lt;/svg></span>
 <span class="add">+      &lt;/button></span>
 <span class="add">+    &lt;/div></span>
 <span class="add">+  &lt;/div></span>
 <span class="add">+&lt;/div></span>
 \ No newline at end of file
-</pre></div></div></section><section class="dim-section" id="dim-3" data-dim="3"><h3 class="dim-label">1280px rtl</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;rtl&quot;><head><link rel=&quot;stylesheet&quot; href=&quot;../assets/head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body><script src=&quot;../assets/sprite-head.js&quot;></script>
+</pre></div></div></section><section class="dim-section" id="dim-3" data-dim="3"><h3 class="dim-label">1280px rtl</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" style="width:1280px" srcdoc="<!doctype html><html dir=&quot;rtl&quot;><head><link rel=&quot;stylesheet&quot; href=&quot;../assets/head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}/* Custom Classes for Storybook — demo-only styles used by stories.
+   Loaded by Storybook (preview.js), the visual snapshot harness
+   (test/visual/visual.spec.js), and the visual-preview viewer frames
+   (tools/visual-preview/build.mjs), so all three render stories the
+   same way. */
+.font-large {
+    font-size: 200%;
+    /* line-height: var(--typography-body-line-height); */
+}
+
+.carousel__list--default-demo li {
+    background-color: grey;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--image-treatment-demo li {
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--discrete-demo li {
+    background-color: grey;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: calc(25% - 24px);
+}
+
+.carousel__list--discrete-demo li:last-child {
+    margin-right: 0;
+}
+
+.carousel__list--slideshow-demo li {
+    background-color: grey;
+    font-size: 36px;
+    font-weight: bold;
+    height: 300px;
+    line-height: 300px;
+    margin-inline-end: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+.carousel__list--slideshow-demo li:last-child {
+    margin-inline-end: 0;
+}
+
+.demo-a11y-text-spacing,
+.demo-a11y-text-spacing * {
+    line-height: 1.5 !important;
+    letter-spacing: 0.12em !important;
+    word-spacing: 0.16em !important;
+}
+.demo-a11y-text-spacing p {
+    margin-bottom: 2em !important;
+}
+
+.phone-input div.listbox-button__listbox {
+    display: block;
+}
+body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body><script src=&quot;../assets/sprite-head.js&quot;></script>
 <div class=&quot;section-notice section-notice--confirmation demo-a11y-text-spacing&quot; role=&quot;region&quot;>
     <div class=&quot;section-notice__header&quot; role=&quot;region&quot; aria-roledescription=&quot;Notice&quot;>
         <svg aria-hidden=&quot;true&quot; class=&quot;icon icon--16&quot;>
@@ -544,58 +985,83 @@
         </button>
     </div>
 </div>
-</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,137 @@</span>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,184 @@</span>
 <span class="add">+&lt;div></span>
 <span class="add">+  &lt;div style=&quot;</span>
 <span class="add">+    background-color: var(--section-notice-default-background-color, var(--color-background-secondary));</span>
 <span class="add">+    display: grid;</span>
 <span class="add">+    font-size: var(--font-size-body);</span>
 <span class="add">+    grid-template-columns: 32px auto auto min-content;</span>
+<span class="add">+    letter-spacing: 0.12em;</span>
+<span class="add">+    line-height: 1.5;</span>
 <span class="add">+    margin-bottom: 8px;</span>
 <span class="add">+    margin-top: 8px;</span>
 <span class="add">+    margin: var(--spacing-200) 0;</span>
 <span class="add">+    padding-bottom: 16px;</span>
 <span class="add">+    padding-left: 16px;</span>
 <span class="add">+    padding-right: 16px;</span>
-<span class="add">+    padding-top: 16px</span>
+<span class="add">+    padding-top: 16px;</span>
+<span class="add">+    word-spacing: 0.16em</span>
 <span class="add">+  &quot;></span>
 <span class="add">+    &lt;div style=&quot;</span>
 <span class="add">+      grid-column-start: 1;</span>
 <span class="add">+      grid-row-start: 1;</span>
 <span class="add">+      height: var(--spacing-200);</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
 <span class="add">+      margin-inline-end: var(--spacing-200);</span>
-<span class="add">+      margin-top: 1px</span>
+<span class="add">+      margin-top: 1px;</span>
+<span class="add">+      word-spacing: 0.16em</span>
 <span class="add">+    &quot;></span>
 <span class="add">+      &lt;svg style=&quot;</span>
 <span class="add">+        display: inline-block;</span>
 <span class="add">+        fill: currentcolor;</span>
 <span class="add">+        height: 16px;</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
 <span class="add">+        pointer-events: none;</span>
 <span class="add">+        stroke-width: 0;</span>
 <span class="add">+        stroke: currentcolor;</span>
 <span class="add">+        vertical-align: top;</span>
-<span class="add">+        width: 16px</span>
+<span class="add">+        width: 16px;</span>
+<span class="add">+        word-spacing: 0.16em</span>
 <span class="add">+      &quot;></span>
-<span class="add">+        &lt;use href=&quot;#icon-confirmation-filled-16&quot;/></span>
+<span class="add">+        &lt;use</span>
+<span class="add">+          href=&quot;#icon-confirmation-filled-16&quot;</span>
+<span class="add">+          style=&quot;</span>
+<span class="add">+            letter-spacing: 0.12em;</span>
+<span class="add">+            line-height: 1.5;</span>
+<span class="add">+            word-spacing: 0.16em</span>
+<span class="add">+          &quot;</span>
+<span class="add">+        /></span>
 <span class="add">+      &lt;/svg></span>
 <span class="add">+    &lt;/div></span>
 <span class="add">+    &lt;div style=&quot;</span>
 <span class="add">+      grid-column-start: 2;</span>
 <span class="add">+      grid-row-start: 1;</span>
-<span class="add">+      margin-inline-end: var(--spacing-200)</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
+<span class="add">+      margin-inline-end: var(--spacing-200);</span>
+<span class="add">+      word-spacing: 0.16em</span>
 <span class="add">+    &quot;></span>
 <span class="add">+      &lt;h3 style=&quot;</span>
 <span class="add">+        font-size: var(--font-size-body);</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
 <span class="add">+        margin-bottom: 0px;</span>
-<span class="add">+        margin-top: 0px</span>
+<span class="add">+        margin-top: 0px;</span>
+<span class="add">+        word-spacing: 0.16em</span>
 <span class="add">+      &quot;></span>
 <span class="add">+        Notification Title</span>
 <span class="add">+      &lt;/h3></span>
 <span class="add">+      &lt;p style=&quot;</span>
 <span class="add">+        font-size: var(--font-size-body);</span>
-<span class="add">+        margin-bottom: 0px;</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
+<span class="add">+        margin-bottom: 2em;</span>
 <span class="add">+        margin-top: 0px;</span>
-<span class="add">+        margin: var(--spacing-50) 0 0</span>
+<span class="add">+        margin: var(--spacing-50) 0 0;</span>
+<span class="add">+        word-spacing: 0.16em</span>
 <span class="add">+      &quot;></span>
 <span class="add">+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
 <span class="add">+      &lt;/p></span>
@@ -604,8 +1070,11 @@
 <span class="add">+      grid-column-start: 3;</span>
 <span class="add">+      grid-row-start: 1;</span>
 <span class="add">+      justify-self: flex-end;</span>
-<span class="add">+      margin-bottom: 0px;</span>
-<span class="add">+      margin-top: 0px</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
+<span class="add">+      margin-bottom: 2em;</span>
+<span class="add">+      margin-top: 0px;</span>
+<span class="add">+      word-spacing: 0.16em</span>
 <span class="add">+    &quot;></span>
 <span class="add">+      &lt;button style=&quot;</span>
 <span class="add">+        border-bottom-color: currentcolor;</span>
@@ -623,11 +1092,14 @@
 <span class="add">+        color: var(--section-notice-foreground-color, var(--color-foreground-primary));</span>
 <span class="add">+        font-family: inherit;</span>
 <span class="add">+        font-size: var(--font-size-body);</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
 <span class="add">+        padding-bottom: 0px;</span>
 <span class="add">+        padding-left: 0px;</span>
 <span class="add">+        padding-right: 0px;</span>
 <span class="add">+        padding-top: 0px;</span>
-<span class="add">+        text-decoration-line: underline</span>
+<span class="add">+        text-decoration-line: underline;</span>
+<span class="add">+        word-spacing: 0.16em</span>
 <span class="add">+      &quot;></span>
 <span class="add">+        Action</span>
 <span class="add">+      &lt;/button></span>
@@ -636,8 +1108,11 @@
 <span class="add">+      grid-column-start: 4;</span>
 <span class="add">+      grid-row-start: 1;</span>
 <span class="add">+      justify-self: flex-end;</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
 <span class="add">+      margin-top: 2px;</span>
-<span class="add">+      padding-inline-start: var(--spacing-200)</span>
+<span class="add">+      padding-inline-start: var(--spacing-200);</span>
+<span class="add">+      word-spacing: 0.16em</span>
 <span class="add">+    &quot;></span>
 <span class="add">+      &lt;button style=&quot;</span>
 <span class="add">+        border-bottom-color: currentcolor;</span>
@@ -656,11 +1131,14 @@
 <span class="add">+        font-family: inherit;</span>
 <span class="add">+        font-size: var(--font-size-body);</span>
 <span class="add">+        font-weight: 700;</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
 <span class="add">+        padding-bottom: 0px;</span>
 <span class="add">+        padding-left: 0px;</span>
 <span class="add">+        padding-right: 0px;</span>
 <span class="add">+        padding-top: 0px;</span>
-<span class="add">+        text-decoration-line: underline</span>
+<span class="add">+        text-decoration-line: underline;</span>
+<span class="add">+        word-spacing: 0.16em</span>
 <span class="add">+      &quot;></span>
 <span class="add">+        &lt;svg</span>
 <span class="add">+          height=&quot;16&quot;</span>
@@ -668,15 +1146,25 @@
 <span class="add">+            display: inline-block;</span>
 <span class="add">+            fill: currentcolor;</span>
 <span class="add">+            height: 16px;</span>
+<span class="add">+            letter-spacing: 0.12em;</span>
+<span class="add">+            line-height: 1.5;</span>
 <span class="add">+            pointer-events: none;</span>
 <span class="add">+            stroke-width: 0;</span>
 <span class="add">+            stroke: currentcolor;</span>
 <span class="add">+            vertical-align: top;</span>
-<span class="add">+            width: 16px</span>
+<span class="add">+            width: 16px;</span>
+<span class="add">+            word-spacing: 0.16em</span>
 <span class="add">+          &quot;</span>
 <span class="add">+          width=&quot;16&quot;</span>
 <span class="add">+        ></span>
-<span class="add">+          &lt;use href=&quot;#icon-close-16&quot;/></span>
+<span class="add">+          &lt;use</span>
+<span class="add">+            href=&quot;#icon-close-16&quot;</span>
+<span class="add">+            style=&quot;</span>
+<span class="add">+              letter-spacing: 0.12em;</span>
+<span class="add">+              line-height: 1.5;</span>
+<span class="add">+              word-spacing: 0.16em</span>
+<span class="add">+            &quot;</span>
+<span class="add">+          /></span>
 <span class="add">+        &lt;/svg></span>
 <span class="add">+      &lt;/button></span>
 <span class="add">+    &lt;/div></span>
@@ -697,7 +1185,7 @@
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
-    const PAGE = {"baseRefShort":"60ee2f496866","prevHref":"section-notice-stories-icon-16--noDismissAndLinkCTA_RTL.html","nextHref":"section-notice-stories-icon-16--title.html","indexHref":"../index.html","pos":714,"total":1012,"slug":"section-notice-stories-icon-16--textSpacing","hash":"7ltuag","component":"section-notice","story":"textSpacing","file":"packages/skin/src/sass/section-notice/stories/__snapshots__/icon-16.snap","dims":[{"changes":[]},{"changes":[]},{"changes":[]},{"changes":[]}]};
+    const PAGE = {"baseRefShort":"60ee2f496866","prevHref":"section-notice-stories-icon-16--noDismissAndLinkCTA_RTL.html","nextHref":"section-notice-stories-icon-16--title.html","indexHref":"../index.html","pos":663,"total":954,"slug":"section-notice-stories-icon-16--textSpacing","hash":"581vj4","component":"section-notice","story":"textSpacing","file":"packages/skin/src/sass/section-notice/stories/__snapshots__/icon-16.snap","dims":[{"changes":[]},{"changes":[]},{"changes":[]},{"changes":[]}]};
 </script>
 <script src="../assets/nav.js" defer></script>
 <script src="../assets/story.js" defer></script>

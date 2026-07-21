@@ -41,7 +41,82 @@
         <div class="grow"></div>
         <button class="flag" id="flag-btn" type="button">⚑ Flag</button>
     </div>
-    <section class="dim-section" id="dim-0" data-dim="0"><h3 class="dim-label">1280px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><link rel=&quot;stylesheet&quot; href=&quot;../assets/head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body><script src=&quot;../assets/sprite-head.js&quot;></script>
+    <section class="dim-section" id="dim-0" data-dim="0"><h3 class="dim-label">1280px</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" style="width:1280px" srcdoc="<!doctype html><html dir=&quot;ltr&quot;><head><link rel=&quot;stylesheet&quot; href=&quot;../assets/head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}/* Custom Classes for Storybook — demo-only styles used by stories.
+   Loaded by Storybook (preview.js), the visual snapshot harness
+   (test/visual/visual.spec.js), and the visual-preview viewer frames
+   (tools/visual-preview/build.mjs), so all three render stories the
+   same way. */
+.font-large {
+    font-size: 200%;
+    /* line-height: var(--typography-body-line-height); */
+}
+
+.carousel__list--default-demo li {
+    background-color: grey;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--image-treatment-demo li {
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--discrete-demo li {
+    background-color: grey;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: calc(25% - 24px);
+}
+
+.carousel__list--discrete-demo li:last-child {
+    margin-right: 0;
+}
+
+.carousel__list--slideshow-demo li {
+    background-color: grey;
+    font-size: 36px;
+    font-weight: bold;
+    height: 300px;
+    line-height: 300px;
+    margin-inline-end: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+.carousel__list--slideshow-demo li:last-child {
+    margin-inline-end: 0;
+}
+
+.demo-a11y-text-spacing,
+.demo-a11y-text-spacing * {
+    line-height: 1.5 !important;
+    letter-spacing: 0.12em !important;
+    word-spacing: 0.16em !important;
+}
+.demo-a11y-text-spacing p {
+    margin-bottom: 2em !important;
+}
+
+.phone-input div.listbox-button__listbox {
+    display: block;
+}
+body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body><script src=&quot;../assets/sprite-head.js&quot;></script>
 <span class=&quot;listbox-button demo-a11y-text-spacing&quot;>
     <button class=&quot;btn btn--form&quot; aria-expanded=&quot;true&quot; aria-haspopup=&quot;listbox&quot;>
         <span class=&quot;btn__cell&quot;>
@@ -81,12 +156,15 @@
         </div>
     </div>
 </span>
-</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,377 @@</span>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,473 @@</span>
 <span class="add">+&lt;div></span>
 <span class="add">+  &lt;span style=&quot;</span>
 <span class="add">+    display: inline-block;</span>
+<span class="add">+    letter-spacing: 0.12em;</span>
+<span class="add">+    line-height: 1.5;</span>
 <span class="add">+    position: relative;</span>
-<span class="add">+    vertical-align: bottom</span>
+<span class="add">+    vertical-align: bottom;</span>
+<span class="add">+    word-spacing: 0.16em</span>
 <span class="add">+  &quot;></span>
 <span class="add">+    &lt;button style=&quot;</span>
 <span class="add">+      align-content: center;</span>
@@ -108,6 +186,8 @@
 <span class="add">+      color: inherit;</span>
 <span class="add">+      font-family: inherit;</span>
 <span class="add">+      font-size: var(--font-size-body);</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
 <span class="add">+      max-width: 100%;</span>
 <span class="add">+      min-height: 40px;</span>
 <span class="add">+      min-width: 88px;</span>
@@ -118,7 +198,8 @@
 <span class="add">+      padding-right: 15px;</span>
 <span class="add">+      padding-top: 0px;</span>
 <span class="add">+      position: relative;</span>
-<span class="add">+      vertical-align: bottom</span>
+<span class="add">+      vertical-align: bottom;</span>
+<span class="add">+      word-spacing: 0.16em</span>
 <span class="add">+    &quot;></span>
 <span class="add">+      &lt;style>@scope{:scope{</span>
 <span class="add">+        &amp;::after {</span>
@@ -136,17 +217,26 @@
 <span class="add">+        align-items: center;</span>
 <span class="add">+        display: flex;</span>
 <span class="add">+        justify-content: space-between;</span>
-<span class="add">+        width: 100%</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
+<span class="add">+        width: 100%;</span>
+<span class="add">+        word-spacing: 0.16em</span>
 <span class="add">+      &quot;></span>
 <span class="add">+        &lt;span style=&quot;</span>
 <span class="add">+          color: var(--listbox-button-label-color, var(--color-foreground-secondary));</span>
-<span class="add">+          margin-right: 3px</span>
+<span class="add">+          letter-spacing: 0.12em;</span>
+<span class="add">+          line-height: 1.5;</span>
+<span class="add">+          margin-right: 3px;</span>
+<span class="add">+          word-spacing: 0.16em</span>
 <span class="add">+        &quot;></span>
 <span class="add">+          Color:</span>
 <span class="add">+        &lt;/span></span>
 <span class="add">+        &lt;span style=&quot;</span>
 <span class="add">+          font-weight: 700;</span>
-<span class="add">+          margin-right: auto</span>
+<span class="add">+          letter-spacing: 0.12em;</span>
+<span class="add">+          line-height: 1.5;</span>
+<span class="add">+          margin-right: auto;</span>
+<span class="add">+          word-spacing: 0.16em</span>
 <span class="add">+        &quot;></span>
 <span class="add">+          Blue</span>
 <span class="add">+        &lt;/span></span>
@@ -157,17 +247,27 @@
 <span class="add">+            display: inline-block;</span>
 <span class="add">+            fill: currentcolor;</span>
 <span class="add">+            height: 12px;</span>
+<span class="add">+            letter-spacing: 0.12em;</span>
+<span class="add">+            line-height: 1.5;</span>
 <span class="add">+            margin-inline-start: 8px;</span>
 <span class="add">+            pointer-events: none;</span>
 <span class="add">+            stroke-width: 0;</span>
 <span class="add">+            stroke: currentcolor;</span>
 <span class="add">+            transform: rotate(180deg);</span>
 <span class="add">+            vertical-align: middle;</span>
-<span class="add">+            width: 12px</span>
+<span class="add">+            width: 12px;</span>
+<span class="add">+            word-spacing: 0.16em</span>
 <span class="add">+          &quot;</span>
 <span class="add">+          width=&quot;8&quot;</span>
 <span class="add">+        ></span>
-<span class="add">+          &lt;use href=&quot;#icon-chevron-down-12&quot;/></span>
+<span class="add">+          &lt;use</span>
+<span class="add">+            href=&quot;#icon-chevron-down-12&quot;</span>
+<span class="add">+            style=&quot;</span>
+<span class="add">+              letter-spacing: 0.12em;</span>
+<span class="add">+              line-height: 1.5;</span>
+<span class="add">+              word-spacing: 0.16em</span>
+<span class="add">+            &quot;</span>
+<span class="add">+          /></span>
 <span class="add">+        &lt;/svg></span>
 <span class="add">+      &lt;/span></span>
 <span class="add">+    &lt;/button></span>
@@ -176,15 +276,22 @@
 <span class="add">+      box-shadow: var(--bubble-shadow);</span>
 <span class="add">+      box-sizing: border-box;</span>
 <span class="add">+      left: 0px;</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
 <span class="add">+      max-height: 400px;</span>
 <span class="add">+      min-width: 100%;</span>
 <span class="add">+      overflow-y: auto;</span>
 <span class="add">+      position: absolute;</span>
 <span class="add">+      top: calc(100% + 4px);</span>
 <span class="add">+      width: auto;</span>
+<span class="add">+      word-spacing: 0.16em;</span>
 <span class="add">+      z-index: 2</span>
 <span class="add">+    &quot;></span>
-<span class="add">+      &lt;div></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
+<span class="add">+        word-spacing: 0.16em</span>
+<span class="add">+      &quot;></span>
 <span class="add">+        &lt;div style=&quot;</span>
 <span class="add">+          border-bottom-style: solid;</span>
 <span class="add">+          border-bottom-width: 1px;</span>
@@ -203,6 +310,8 @@
 <span class="add">+          font-family: inherit;</span>
 <span class="add">+          grid-template-columns: auto auto;</span>
 <span class="add">+          justify-content: space-between;</span>
+<span class="add">+          letter-spacing: 0.12em;</span>
+<span class="add">+          line-height: 1.5;</span>
 <span class="add">+          margin-bottom: 1px;</span>
 <span class="add">+          overflow-x: hidden;</span>
 <span class="add">+          overflow-y: hidden;</span>
@@ -211,7 +320,8 @@
 <span class="add">+          padding-right: 15px;</span>
 <span class="add">+          padding-top: 8px;</span>
 <span class="add">+          position: relative;</span>
-<span class="add">+          width: 100%</span>
+<span class="add">+          width: 100%;</span>
+<span class="add">+          word-spacing: 0.16em</span>
 <span class="add">+        &quot;></span>
 <span class="add">+          &lt;style>@scope{:scope{</span>
 <span class="add">+            &amp;::after {</span>
@@ -228,7 +338,10 @@
 <span class="add">+          &lt;span style=&quot;</span>
 <span class="add">+            flex-grow: 1;</span>
 <span class="add">+            flex-shrink: 0;</span>
-<span class="add">+            text-wrap-mode: nowrap</span>
+<span class="add">+            letter-spacing: 0.12em;</span>
+<span class="add">+            line-height: 1.5;</span>
+<span class="add">+            text-wrap-mode: nowrap;</span>
+<span class="add">+            word-spacing: 0.16em</span>
 <span class="add">+          &quot;></span>
 <span class="add">+            Red</span>
 <span class="add">+          &lt;/span></span>
@@ -239,6 +352,8 @@
 <span class="add">+              display: inline-block;</span>
 <span class="add">+              fill: currentcolor;</span>
 <span class="add">+              height: 16px;</span>
+<span class="add">+              letter-spacing: 0.12em;</span>
+<span class="add">+              line-height: 1.5;</span>
 <span class="add">+              margin-inline-start: var(--spacing-100);</span>
 <span class="add">+              margin-left: auto;</span>
 <span class="add">+              margin-right: auto;</span>
@@ -247,11 +362,19 @@
 <span class="add">+              stroke-width: 0;</span>
 <span class="add">+              stroke: currentcolor;</span>
 <span class="add">+              vertical-align: middle;</span>
-<span class="add">+              width: 16px</span>
+<span class="add">+              width: 16px;</span>
+<span class="add">+              word-spacing: 0.16em</span>
 <span class="add">+            &quot;</span>
 <span class="add">+            width=&quot;8&quot;</span>
 <span class="add">+          ></span>
-<span class="add">+            &lt;use href=&quot;#icon-tick-16&quot;/></span>
+<span class="add">+            &lt;use</span>
+<span class="add">+              href=&quot;#icon-tick-16&quot;</span>
+<span class="add">+              style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
+<span class="add">+                word-spacing: 0.16em</span>
+<span class="add">+              &quot;</span>
+<span class="add">+            /></span>
 <span class="add">+          &lt;/svg></span>
 <span class="add">+        &lt;/div></span>
 <span class="add">+        &lt;div style=&quot;</span>
@@ -270,6 +393,8 @@
 <span class="add">+          font-family: inherit;</span>
 <span class="add">+          grid-template-columns: auto auto;</span>
 <span class="add">+          justify-content: space-between;</span>
+<span class="add">+          letter-spacing: 0.12em;</span>
+<span class="add">+          line-height: 1.5;</span>
 <span class="add">+          margin-bottom: 1px;</span>
 <span class="add">+          overflow-x: hidden;</span>
 <span class="add">+          overflow-y: hidden;</span>
@@ -278,7 +403,8 @@
 <span class="add">+          padding-right: 15px;</span>
 <span class="add">+          padding-top: 8px;</span>
 <span class="add">+          position: relative;</span>
-<span class="add">+          width: 100%</span>
+<span class="add">+          width: 100%;</span>
+<span class="add">+          word-spacing: 0.16em</span>
 <span class="add">+        &quot;></span>
 <span class="add">+          &lt;style>@scope{:scope{</span>
 <span class="add">+            &amp;::after {</span>
@@ -295,7 +421,10 @@
 <span class="add">+          &lt;span style=&quot;</span>
 <span class="add">+            flex-grow: 1;</span>
 <span class="add">+            flex-shrink: 0;</span>
-<span class="add">+            text-wrap-mode: nowrap</span>
+<span class="add">+            letter-spacing: 0.12em;</span>
+<span class="add">+            line-height: 1.5;</span>
+<span class="add">+            text-wrap-mode: nowrap;</span>
+<span class="add">+            word-spacing: 0.16em</span>
 <span class="add">+          &quot;></span>
 <span class="add">+            Blue</span>
 <span class="add">+          &lt;/span></span>
@@ -306,6 +435,8 @@
 <span class="add">+              display: inline-block;</span>
 <span class="add">+              fill: currentcolor;</span>
 <span class="add">+              height: 16px;</span>
+<span class="add">+              letter-spacing: 0.12em;</span>
+<span class="add">+              line-height: 1.5;</span>
 <span class="add">+              margin-inline-start: var(--spacing-100);</span>
 <span class="add">+              margin-left: auto;</span>
 <span class="add">+              margin-right: auto;</span>
@@ -313,11 +444,19 @@
 <span class="add">+              stroke-width: 0;</span>
 <span class="add">+              stroke: currentcolor;</span>
 <span class="add">+              vertical-align: middle;</span>
-<span class="add">+              width: 16px</span>
+<span class="add">+              width: 16px;</span>
+<span class="add">+              word-spacing: 0.16em</span>
 <span class="add">+            &quot;</span>
 <span class="add">+            width=&quot;8&quot;</span>
 <span class="add">+          ></span>
-<span class="add">+            &lt;use href=&quot;#icon-tick-16&quot;/></span>
+<span class="add">+            &lt;use</span>
+<span class="add">+              href=&quot;#icon-tick-16&quot;</span>
+<span class="add">+              style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
+<span class="add">+                word-spacing: 0.16em</span>
+<span class="add">+              &quot;</span>
+<span class="add">+            /></span>
 <span class="add">+          &lt;/svg></span>
 <span class="add">+        &lt;/div></span>
 <span class="add">+        &lt;div style=&quot;</span>
@@ -336,6 +475,8 @@
 <span class="add">+          font-family: inherit;</span>
 <span class="add">+          grid-template-columns: auto auto;</span>
 <span class="add">+          justify-content: space-between;</span>
+<span class="add">+          letter-spacing: 0.12em;</span>
+<span class="add">+          line-height: 1.5;</span>
 <span class="add">+          margin-bottom: 1px;</span>
 <span class="add">+          overflow-x: hidden;</span>
 <span class="add">+          overflow-y: hidden;</span>
@@ -344,7 +485,8 @@
 <span class="add">+          padding-right: 15px;</span>
 <span class="add">+          padding-top: 8px;</span>
 <span class="add">+          position: relative;</span>
-<span class="add">+          width: 100%</span>
+<span class="add">+          width: 100%;</span>
+<span class="add">+          word-spacing: 0.16em</span>
 <span class="add">+        &quot;></span>
 <span class="add">+          &lt;style>@scope{:scope{</span>
 <span class="add">+            &amp;::after {</span>
@@ -361,7 +503,10 @@
 <span class="add">+          &lt;span style=&quot;</span>
 <span class="add">+            flex-grow: 1;</span>
 <span class="add">+            flex-shrink: 0;</span>
-<span class="add">+            text-wrap-mode: nowrap</span>
+<span class="add">+            letter-spacing: 0.12em;</span>
+<span class="add">+            line-height: 1.5;</span>
+<span class="add">+            text-wrap-mode: nowrap;</span>
+<span class="add">+            word-spacing: 0.16em</span>
 <span class="add">+          &quot;></span>
 <span class="add">+            Yellow</span>
 <span class="add">+          &lt;/span></span>
@@ -372,6 +517,8 @@
 <span class="add">+              display: inline-block;</span>
 <span class="add">+              fill: currentcolor;</span>
 <span class="add">+              height: 16px;</span>
+<span class="add">+              letter-spacing: 0.12em;</span>
+<span class="add">+              line-height: 1.5;</span>
 <span class="add">+              margin-inline-start: var(--spacing-100);</span>
 <span class="add">+              margin-left: auto;</span>
 <span class="add">+              margin-right: auto;</span>
@@ -380,11 +527,19 @@
 <span class="add">+              stroke-width: 0;</span>
 <span class="add">+              stroke: currentcolor;</span>
 <span class="add">+              vertical-align: middle;</span>
-<span class="add">+              width: 16px</span>
+<span class="add">+              width: 16px;</span>
+<span class="add">+              word-spacing: 0.16em</span>
 <span class="add">+            &quot;</span>
 <span class="add">+            width=&quot;8&quot;</span>
 <span class="add">+          ></span>
-<span class="add">+            &lt;use href=&quot;#icon-tick-16&quot;/></span>
+<span class="add">+            &lt;use</span>
+<span class="add">+              href=&quot;#icon-tick-16&quot;</span>
+<span class="add">+              style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
+<span class="add">+                word-spacing: 0.16em</span>
+<span class="add">+              &quot;</span>
+<span class="add">+            /></span>
 <span class="add">+          &lt;/svg></span>
 <span class="add">+        &lt;/div></span>
 <span class="add">+        &lt;div style=&quot;</span>
@@ -405,6 +560,8 @@
 <span class="add">+          font-family: inherit;</span>
 <span class="add">+          grid-template-columns: auto auto;</span>
 <span class="add">+          justify-content: space-between;</span>
+<span class="add">+          letter-spacing: 0.12em;</span>
+<span class="add">+          line-height: 1.5;</span>
 <span class="add">+          overflow-x: hidden;</span>
 <span class="add">+          overflow-y: hidden;</span>
 <span class="add">+          padding-bottom: 8px;</span>
@@ -412,7 +569,8 @@
 <span class="add">+          padding-right: 15px;</span>
 <span class="add">+          padding-top: 8px;</span>
 <span class="add">+          position: relative;</span>
-<span class="add">+          width: 100%</span>
+<span class="add">+          width: 100%;</span>
+<span class="add">+          word-spacing: 0.16em</span>
 <span class="add">+        &quot;></span>
 <span class="add">+          &lt;style>@scope{:scope{</span>
 <span class="add">+            &amp;::after {</span>
@@ -429,7 +587,10 @@
 <span class="add">+          &lt;span style=&quot;</span>
 <span class="add">+            flex-grow: 1;</span>
 <span class="add">+            flex-shrink: 0;</span>
-<span class="add">+            text-wrap-mode: nowrap</span>
+<span class="add">+            letter-spacing: 0.12em;</span>
+<span class="add">+            line-height: 1.5;</span>
+<span class="add">+            text-wrap-mode: nowrap;</span>
+<span class="add">+            word-spacing: 0.16em</span>
 <span class="add">+          &quot;></span>
 <span class="add">+            Green</span>
 <span class="add">+          &lt;/span></span>
@@ -440,6 +601,8 @@
 <span class="add">+              display: inline-block;</span>
 <span class="add">+              fill: currentcolor;</span>
 <span class="add">+              height: 16px;</span>
+<span class="add">+              letter-spacing: 0.12em;</span>
+<span class="add">+              line-height: 1.5;</span>
 <span class="add">+              margin-inline-start: var(--spacing-100);</span>
 <span class="add">+              margin-left: auto;</span>
 <span class="add">+              margin-right: auto;</span>
@@ -448,11 +611,19 @@
 <span class="add">+              stroke-width: 0;</span>
 <span class="add">+              stroke: currentcolor;</span>
 <span class="add">+              vertical-align: middle;</span>
-<span class="add">+              width: 16px</span>
+<span class="add">+              width: 16px;</span>
+<span class="add">+              word-spacing: 0.16em</span>
 <span class="add">+            &quot;</span>
 <span class="add">+            width=&quot;8&quot;</span>
 <span class="add">+          ></span>
-<span class="add">+            &lt;use href=&quot;#icon-tick-16&quot;/></span>
+<span class="add">+            &lt;use</span>
+<span class="add">+              href=&quot;#icon-tick-16&quot;</span>
+<span class="add">+              style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
+<span class="add">+                word-spacing: 0.16em</span>
+<span class="add">+              &quot;</span>
+<span class="add">+            /></span>
 <span class="add">+          &lt;/svg></span>
 <span class="add">+        &lt;/div></span>
 <span class="add">+      &lt;/div></span>
@@ -460,7 +631,82 @@
 <span class="add">+  &lt;/span></span>
 <span class="add">+&lt;/div></span>
 \ No newline at end of file
-</pre></div></div></section><section class="dim-section" id="dim-1" data-dim="1"><h3 class="dim-label">1280px rtl</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" srcdoc="<!doctype html><html dir=&quot;rtl&quot;><head><link rel=&quot;stylesheet&quot; href=&quot;../assets/head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}.font-large{font-size:200%}body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body><script src=&quot;../assets/sprite-head.js&quot;></script>
+</pre></div></div></section><section class="dim-section" id="dim-1" data-dim="1"><h3 class="dim-label">1280px rtl</h3><div class="stage"><div class="render-area"><div class="duo mode-side fixed solo" data-width="1280"><div class="duo-side base"><h3 class="pane-label">Base (60ee2f496866)</h3><div class="not-present">not present in base</div><div class="zoom-note"></div></div><div class="duo-side head"><h3 class="pane-label">This PR</h3><div class="frame-wrap fixed"><iframe loading="lazy" data-side="head" data-real="1" style="width:1280px" srcdoc="<!doctype html><html dir=&quot;rtl&quot;><head><link rel=&quot;stylesheet&quot; href=&quot;../assets/head.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-light.css&quot;><link rel=&quot;stylesheet&quot; href=&quot;../assets/tokens-dark.css&quot; disabled data-vp-dark><style data-vp-scheme>:root{color-scheme:light}</style><style>body{margin:16px;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}/* Custom Classes for Storybook — demo-only styles used by stories.
+   Loaded by Storybook (preview.js), the visual snapshot harness
+   (test/visual/visual.spec.js), and the visual-preview viewer frames
+   (tools/visual-preview/build.mjs), so all three render stories the
+   same way. */
+.font-large {
+    font-size: 200%;
+    /* line-height: var(--typography-body-line-height); */
+}
+
+.carousel__list--default-demo li {
+    background-color: grey;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--image-treatment-demo li {
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--discrete-demo li {
+    background-color: grey;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: calc(25% - 24px);
+}
+
+.carousel__list--discrete-demo li:last-child {
+    margin-right: 0;
+}
+
+.carousel__list--slideshow-demo li {
+    background-color: grey;
+    font-size: 36px;
+    font-weight: bold;
+    height: 300px;
+    line-height: 300px;
+    margin-inline-end: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+.carousel__list--slideshow-demo li:last-child {
+    margin-inline-end: 0;
+}
+
+.demo-a11y-text-spacing,
+.demo-a11y-text-spacing * {
+    line-height: 1.5 !important;
+    letter-spacing: 0.12em !important;
+    word-spacing: 0.16em !important;
+}
+.demo-a11y-text-spacing p {
+    margin-bottom: 2em !important;
+}
+
+.phone-input div.listbox-button__listbox {
+    display: block;
+}
+body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}.vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}</style></head><body><script src=&quot;../assets/sprite-head.js&quot;></script>
 <span class=&quot;listbox-button demo-a11y-text-spacing&quot;>
     <button class=&quot;btn btn--form&quot; aria-expanded=&quot;true&quot; aria-haspopup=&quot;listbox&quot;>
         <span class=&quot;btn__cell&quot;>
@@ -500,12 +746,15 @@
         </div>
     </div>
 </span>
-</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,377 @@</span>
+</body></html>"></iframe></div><div class="zoom-note"></div></div></div><pre class="diff" hidden><span class="hunk">@@ -0,0 +1,473 @@</span>
 <span class="add">+&lt;div></span>
 <span class="add">+  &lt;span style=&quot;</span>
 <span class="add">+    display: inline-block;</span>
+<span class="add">+    letter-spacing: 0.12em;</span>
+<span class="add">+    line-height: 1.5;</span>
 <span class="add">+    position: relative;</span>
-<span class="add">+    vertical-align: bottom</span>
+<span class="add">+    vertical-align: bottom;</span>
+<span class="add">+    word-spacing: 0.16em</span>
 <span class="add">+  &quot;></span>
 <span class="add">+    &lt;button style=&quot;</span>
 <span class="add">+      align-content: center;</span>
@@ -527,6 +776,8 @@
 <span class="add">+      color: inherit;</span>
 <span class="add">+      font-family: inherit;</span>
 <span class="add">+      font-size: var(--font-size-body);</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
 <span class="add">+      max-width: 100%;</span>
 <span class="add">+      min-height: 40px;</span>
 <span class="add">+      min-width: 88px;</span>
@@ -537,7 +788,8 @@
 <span class="add">+      padding-right: 15px;</span>
 <span class="add">+      padding-top: 0px;</span>
 <span class="add">+      position: relative;</span>
-<span class="add">+      vertical-align: bottom</span>
+<span class="add">+      vertical-align: bottom;</span>
+<span class="add">+      word-spacing: 0.16em</span>
 <span class="add">+    &quot;></span>
 <span class="add">+      &lt;style>@scope{:scope{</span>
 <span class="add">+        &amp;::after {</span>
@@ -555,17 +807,26 @@
 <span class="add">+        align-items: center;</span>
 <span class="add">+        display: flex;</span>
 <span class="add">+        justify-content: space-between;</span>
-<span class="add">+        width: 100%</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
+<span class="add">+        width: 100%;</span>
+<span class="add">+        word-spacing: 0.16em</span>
 <span class="add">+      &quot;></span>
 <span class="add">+        &lt;span style=&quot;</span>
 <span class="add">+          color: var(--listbox-button-label-color, var(--color-foreground-secondary));</span>
-<span class="add">+          margin-right: 3px</span>
+<span class="add">+          letter-spacing: 0.12em;</span>
+<span class="add">+          line-height: 1.5;</span>
+<span class="add">+          margin-right: 3px;</span>
+<span class="add">+          word-spacing: 0.16em</span>
 <span class="add">+        &quot;></span>
 <span class="add">+          Color:</span>
 <span class="add">+        &lt;/span></span>
 <span class="add">+        &lt;span style=&quot;</span>
 <span class="add">+          font-weight: 700;</span>
-<span class="add">+          margin-right: auto</span>
+<span class="add">+          letter-spacing: 0.12em;</span>
+<span class="add">+          line-height: 1.5;</span>
+<span class="add">+          margin-right: auto;</span>
+<span class="add">+          word-spacing: 0.16em</span>
 <span class="add">+        &quot;></span>
 <span class="add">+          Blue</span>
 <span class="add">+        &lt;/span></span>
@@ -576,17 +837,27 @@
 <span class="add">+            display: inline-block;</span>
 <span class="add">+            fill: currentcolor;</span>
 <span class="add">+            height: 12px;</span>
+<span class="add">+            letter-spacing: 0.12em;</span>
+<span class="add">+            line-height: 1.5;</span>
 <span class="add">+            margin-inline-start: 8px;</span>
 <span class="add">+            pointer-events: none;</span>
 <span class="add">+            stroke-width: 0;</span>
 <span class="add">+            stroke: currentcolor;</span>
 <span class="add">+            transform: rotate(180deg);</span>
 <span class="add">+            vertical-align: middle;</span>
-<span class="add">+            width: 12px</span>
+<span class="add">+            width: 12px;</span>
+<span class="add">+            word-spacing: 0.16em</span>
 <span class="add">+          &quot;</span>
 <span class="add">+          width=&quot;8&quot;</span>
 <span class="add">+        ></span>
-<span class="add">+          &lt;use href=&quot;#icon-chevron-down-12&quot;/></span>
+<span class="add">+          &lt;use</span>
+<span class="add">+            href=&quot;#icon-chevron-down-12&quot;</span>
+<span class="add">+            style=&quot;</span>
+<span class="add">+              letter-spacing: 0.12em;</span>
+<span class="add">+              line-height: 1.5;</span>
+<span class="add">+              word-spacing: 0.16em</span>
+<span class="add">+            &quot;</span>
+<span class="add">+          /></span>
 <span class="add">+        &lt;/svg></span>
 <span class="add">+      &lt;/span></span>
 <span class="add">+    &lt;/button></span>
@@ -595,15 +866,22 @@
 <span class="add">+      box-shadow: var(--bubble-shadow);</span>
 <span class="add">+      box-sizing: border-box;</span>
 <span class="add">+      left: 0px;</span>
+<span class="add">+      letter-spacing: 0.12em;</span>
+<span class="add">+      line-height: 1.5;</span>
 <span class="add">+      max-height: 400px;</span>
 <span class="add">+      min-width: 100%;</span>
 <span class="add">+      overflow-y: auto;</span>
 <span class="add">+      position: absolute;</span>
 <span class="add">+      top: calc(100% + 4px);</span>
 <span class="add">+      width: auto;</span>
+<span class="add">+      word-spacing: 0.16em;</span>
 <span class="add">+      z-index: 2</span>
 <span class="add">+    &quot;></span>
-<span class="add">+      &lt;div></span>
+<span class="add">+      &lt;div style=&quot;</span>
+<span class="add">+        letter-spacing: 0.12em;</span>
+<span class="add">+        line-height: 1.5;</span>
+<span class="add">+        word-spacing: 0.16em</span>
+<span class="add">+      &quot;></span>
 <span class="add">+        &lt;div style=&quot;</span>
 <span class="add">+          border-bottom-style: solid;</span>
 <span class="add">+          border-bottom-width: 1px;</span>
@@ -622,6 +900,8 @@
 <span class="add">+          font-family: inherit;</span>
 <span class="add">+          grid-template-columns: auto auto;</span>
 <span class="add">+          justify-content: space-between;</span>
+<span class="add">+          letter-spacing: 0.12em;</span>
+<span class="add">+          line-height: 1.5;</span>
 <span class="add">+          margin-bottom: 1px;</span>
 <span class="add">+          overflow-x: hidden;</span>
 <span class="add">+          overflow-y: hidden;</span>
@@ -630,7 +910,8 @@
 <span class="add">+          padding-right: 15px;</span>
 <span class="add">+          padding-top: 8px;</span>
 <span class="add">+          position: relative;</span>
-<span class="add">+          width: 100%</span>
+<span class="add">+          width: 100%;</span>
+<span class="add">+          word-spacing: 0.16em</span>
 <span class="add">+        &quot;></span>
 <span class="add">+          &lt;style>@scope{:scope{</span>
 <span class="add">+            &amp;::after {</span>
@@ -647,7 +928,10 @@
 <span class="add">+          &lt;span style=&quot;</span>
 <span class="add">+            flex-grow: 1;</span>
 <span class="add">+            flex-shrink: 0;</span>
-<span class="add">+            text-wrap-mode: nowrap</span>
+<span class="add">+            letter-spacing: 0.12em;</span>
+<span class="add">+            line-height: 1.5;</span>
+<span class="add">+            text-wrap-mode: nowrap;</span>
+<span class="add">+            word-spacing: 0.16em</span>
 <span class="add">+          &quot;></span>
 <span class="add">+            Red</span>
 <span class="add">+          &lt;/span></span>
@@ -658,6 +942,8 @@
 <span class="add">+              display: inline-block;</span>
 <span class="add">+              fill: currentcolor;</span>
 <span class="add">+              height: 16px;</span>
+<span class="add">+              letter-spacing: 0.12em;</span>
+<span class="add">+              line-height: 1.5;</span>
 <span class="add">+              margin-inline-start: var(--spacing-100);</span>
 <span class="add">+              margin-left: auto;</span>
 <span class="add">+              margin-right: auto;</span>
@@ -666,11 +952,19 @@
 <span class="add">+              stroke-width: 0;</span>
 <span class="add">+              stroke: currentcolor;</span>
 <span class="add">+              vertical-align: middle;</span>
-<span class="add">+              width: 16px</span>
+<span class="add">+              width: 16px;</span>
+<span class="add">+              word-spacing: 0.16em</span>
 <span class="add">+            &quot;</span>
 <span class="add">+            width=&quot;8&quot;</span>
 <span class="add">+          ></span>
-<span class="add">+            &lt;use href=&quot;#icon-tick-16&quot;/></span>
+<span class="add">+            &lt;use</span>
+<span class="add">+              href=&quot;#icon-tick-16&quot;</span>
+<span class="add">+              style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
+<span class="add">+                word-spacing: 0.16em</span>
+<span class="add">+              &quot;</span>
+<span class="add">+            /></span>
 <span class="add">+          &lt;/svg></span>
 <span class="add">+        &lt;/div></span>
 <span class="add">+        &lt;div style=&quot;</span>
@@ -689,6 +983,8 @@
 <span class="add">+          font-family: inherit;</span>
 <span class="add">+          grid-template-columns: auto auto;</span>
 <span class="add">+          justify-content: space-between;</span>
+<span class="add">+          letter-spacing: 0.12em;</span>
+<span class="add">+          line-height: 1.5;</span>
 <span class="add">+          margin-bottom: 1px;</span>
 <span class="add">+          overflow-x: hidden;</span>
 <span class="add">+          overflow-y: hidden;</span>
@@ -697,7 +993,8 @@
 <span class="add">+          padding-right: 15px;</span>
 <span class="add">+          padding-top: 8px;</span>
 <span class="add">+          position: relative;</span>
-<span class="add">+          width: 100%</span>
+<span class="add">+          width: 100%;</span>
+<span class="add">+          word-spacing: 0.16em</span>
 <span class="add">+        &quot;></span>
 <span class="add">+          &lt;style>@scope{:scope{</span>
 <span class="add">+            &amp;::after {</span>
@@ -714,7 +1011,10 @@
 <span class="add">+          &lt;span style=&quot;</span>
 <span class="add">+            flex-grow: 1;</span>
 <span class="add">+            flex-shrink: 0;</span>
-<span class="add">+            text-wrap-mode: nowrap</span>
+<span class="add">+            letter-spacing: 0.12em;</span>
+<span class="add">+            line-height: 1.5;</span>
+<span class="add">+            text-wrap-mode: nowrap;</span>
+<span class="add">+            word-spacing: 0.16em</span>
 <span class="add">+          &quot;></span>
 <span class="add">+            Blue</span>
 <span class="add">+          &lt;/span></span>
@@ -725,6 +1025,8 @@
 <span class="add">+              display: inline-block;</span>
 <span class="add">+              fill: currentcolor;</span>
 <span class="add">+              height: 16px;</span>
+<span class="add">+              letter-spacing: 0.12em;</span>
+<span class="add">+              line-height: 1.5;</span>
 <span class="add">+              margin-inline-start: var(--spacing-100);</span>
 <span class="add">+              margin-left: auto;</span>
 <span class="add">+              margin-right: auto;</span>
@@ -732,11 +1034,19 @@
 <span class="add">+              stroke-width: 0;</span>
 <span class="add">+              stroke: currentcolor;</span>
 <span class="add">+              vertical-align: middle;</span>
-<span class="add">+              width: 16px</span>
+<span class="add">+              width: 16px;</span>
+<span class="add">+              word-spacing: 0.16em</span>
 <span class="add">+            &quot;</span>
 <span class="add">+            width=&quot;8&quot;</span>
 <span class="add">+          ></span>
-<span class="add">+            &lt;use href=&quot;#icon-tick-16&quot;/></span>
+<span class="add">+            &lt;use</span>
+<span class="add">+              href=&quot;#icon-tick-16&quot;</span>
+<span class="add">+              style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
+<span class="add">+                word-spacing: 0.16em</span>
+<span class="add">+              &quot;</span>
+<span class="add">+            /></span>
 <span class="add">+          &lt;/svg></span>
 <span class="add">+        &lt;/div></span>
 <span class="add">+        &lt;div style=&quot;</span>
@@ -755,6 +1065,8 @@
 <span class="add">+          font-family: inherit;</span>
 <span class="add">+          grid-template-columns: auto auto;</span>
 <span class="add">+          justify-content: space-between;</span>
+<span class="add">+          letter-spacing: 0.12em;</span>
+<span class="add">+          line-height: 1.5;</span>
 <span class="add">+          margin-bottom: 1px;</span>
 <span class="add">+          overflow-x: hidden;</span>
 <span class="add">+          overflow-y: hidden;</span>
@@ -763,7 +1075,8 @@
 <span class="add">+          padding-right: 15px;</span>
 <span class="add">+          padding-top: 8px;</span>
 <span class="add">+          position: relative;</span>
-<span class="add">+          width: 100%</span>
+<span class="add">+          width: 100%;</span>
+<span class="add">+          word-spacing: 0.16em</span>
 <span class="add">+        &quot;></span>
 <span class="add">+          &lt;style>@scope{:scope{</span>
 <span class="add">+            &amp;::after {</span>
@@ -780,7 +1093,10 @@
 <span class="add">+          &lt;span style=&quot;</span>
 <span class="add">+            flex-grow: 1;</span>
 <span class="add">+            flex-shrink: 0;</span>
-<span class="add">+            text-wrap-mode: nowrap</span>
+<span class="add">+            letter-spacing: 0.12em;</span>
+<span class="add">+            line-height: 1.5;</span>
+<span class="add">+            text-wrap-mode: nowrap;</span>
+<span class="add">+            word-spacing: 0.16em</span>
 <span class="add">+          &quot;></span>
 <span class="add">+            Yellow</span>
 <span class="add">+          &lt;/span></span>
@@ -791,6 +1107,8 @@
 <span class="add">+              display: inline-block;</span>
 <span class="add">+              fill: currentcolor;</span>
 <span class="add">+              height: 16px;</span>
+<span class="add">+              letter-spacing: 0.12em;</span>
+<span class="add">+              line-height: 1.5;</span>
 <span class="add">+              margin-inline-start: var(--spacing-100);</span>
 <span class="add">+              margin-left: auto;</span>
 <span class="add">+              margin-right: auto;</span>
@@ -799,11 +1117,19 @@
 <span class="add">+              stroke-width: 0;</span>
 <span class="add">+              stroke: currentcolor;</span>
 <span class="add">+              vertical-align: middle;</span>
-<span class="add">+              width: 16px</span>
+<span class="add">+              width: 16px;</span>
+<span class="add">+              word-spacing: 0.16em</span>
 <span class="add">+            &quot;</span>
 <span class="add">+            width=&quot;8&quot;</span>
 <span class="add">+          ></span>
-<span class="add">+            &lt;use href=&quot;#icon-tick-16&quot;/></span>
+<span class="add">+            &lt;use</span>
+<span class="add">+              href=&quot;#icon-tick-16&quot;</span>
+<span class="add">+              style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
+<span class="add">+                word-spacing: 0.16em</span>
+<span class="add">+              &quot;</span>
+<span class="add">+            /></span>
 <span class="add">+          &lt;/svg></span>
 <span class="add">+        &lt;/div></span>
 <span class="add">+        &lt;div style=&quot;</span>
@@ -824,6 +1150,8 @@
 <span class="add">+          font-family: inherit;</span>
 <span class="add">+          grid-template-columns: auto auto;</span>
 <span class="add">+          justify-content: space-between;</span>
+<span class="add">+          letter-spacing: 0.12em;</span>
+<span class="add">+          line-height: 1.5;</span>
 <span class="add">+          overflow-x: hidden;</span>
 <span class="add">+          overflow-y: hidden;</span>
 <span class="add">+          padding-bottom: 8px;</span>
@@ -831,7 +1159,8 @@
 <span class="add">+          padding-right: 15px;</span>
 <span class="add">+          padding-top: 8px;</span>
 <span class="add">+          position: relative;</span>
-<span class="add">+          width: 100%</span>
+<span class="add">+          width: 100%;</span>
+<span class="add">+          word-spacing: 0.16em</span>
 <span class="add">+        &quot;></span>
 <span class="add">+          &lt;style>@scope{:scope{</span>
 <span class="add">+            &amp;::after {</span>
@@ -848,7 +1177,10 @@
 <span class="add">+          &lt;span style=&quot;</span>
 <span class="add">+            flex-grow: 1;</span>
 <span class="add">+            flex-shrink: 0;</span>
-<span class="add">+            text-wrap-mode: nowrap</span>
+<span class="add">+            letter-spacing: 0.12em;</span>
+<span class="add">+            line-height: 1.5;</span>
+<span class="add">+            text-wrap-mode: nowrap;</span>
+<span class="add">+            word-spacing: 0.16em</span>
 <span class="add">+          &quot;></span>
 <span class="add">+            Green</span>
 <span class="add">+          &lt;/span></span>
@@ -859,6 +1191,8 @@
 <span class="add">+              display: inline-block;</span>
 <span class="add">+              fill: currentcolor;</span>
 <span class="add">+              height: 16px;</span>
+<span class="add">+              letter-spacing: 0.12em;</span>
+<span class="add">+              line-height: 1.5;</span>
 <span class="add">+              margin-inline-start: var(--spacing-100);</span>
 <span class="add">+              margin-left: auto;</span>
 <span class="add">+              margin-right: auto;</span>
@@ -867,11 +1201,19 @@
 <span class="add">+              stroke-width: 0;</span>
 <span class="add">+              stroke: currentcolor;</span>
 <span class="add">+              vertical-align: middle;</span>
-<span class="add">+              width: 16px</span>
+<span class="add">+              width: 16px;</span>
+<span class="add">+              word-spacing: 0.16em</span>
 <span class="add">+            &quot;</span>
 <span class="add">+            width=&quot;8&quot;</span>
 <span class="add">+          ></span>
-<span class="add">+            &lt;use href=&quot;#icon-tick-16&quot;/></span>
+<span class="add">+            &lt;use</span>
+<span class="add">+              href=&quot;#icon-tick-16&quot;</span>
+<span class="add">+              style=&quot;</span>
+<span class="add">+                letter-spacing: 0.12em;</span>
+<span class="add">+                line-height: 1.5;</span>
+<span class="add">+                word-spacing: 0.16em</span>
+<span class="add">+              &quot;</span>
+<span class="add">+            /></span>
 <span class="add">+          &lt;/svg></span>
 <span class="add">+        &lt;/div></span>
 <span class="add">+      &lt;/div></span>
@@ -893,7 +1235,7 @@
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
-    const PAGE = {"baseRefShort":"60ee2f496866","prevHref":"listbox-button-stories-base--longOption.html","nextHref":"listbox-button-stories-cascade--RTL.html","indexHref":"../index.html","pos":512,"total":1012,"slug":"listbox-button-stories-base--textSpacing","hash":"1uwbohf","component":"listbox-button","story":"textSpacing","file":"packages/skin/src/sass/listbox-button/stories/__snapshots__/base.snap","dims":[{"changes":[]},{"changes":[]}]};
+    const PAGE = {"baseRefShort":"60ee2f496866","prevHref":"listbox-button-stories-base--longOption.html","nextHref":"listbox-button-stories-cascade--color.html","indexHref":"../index.html","pos":474,"total":954,"slug":"listbox-button-stories-base--textSpacing","hash":"4aeguf","component":"listbox-button","story":"textSpacing","file":"packages/skin/src/sass/listbox-button/stories/__snapshots__/base.snap","dims":[{"changes":[]},{"changes":[]}]};
 </script>
 <script src="../assets/nav.js" defer></script>
 <script src="../assets/story.js" defer></script>

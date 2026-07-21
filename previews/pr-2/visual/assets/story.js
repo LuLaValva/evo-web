@@ -145,7 +145,15 @@ function measureDuo(duo) {
     let h = 120;
     for (const f of frames(duo)) {
         const d = f.contentDocument;
-        if (d) h = Math.max(h, Math.min(d.documentElement.scrollHeight, 900));
+        if (!d) continue;
+        let fh = d.documentElement.scrollHeight;
+        // Top-layer content (open dialogs and their backdrops) doesn't
+        // contribute to scrollHeight; the frame must still be tall enough
+        // to contain a centered dialog with breathing room.
+        for (const dlg of d.querySelectorAll("dialog[open]")) {
+            fh = Math.max(fh, Math.min(dlg.scrollHeight, 760) + 96);
+        }
+        h = Math.max(h, Math.min(fh, 900));
     }
     duo._natH = h;
     for (const f of frames(duo)) f.style.height = h + "px";
@@ -171,6 +179,7 @@ function applyScale(duo) {
     const avail = Math.max(120, availEl.clientWidth);
     const s = Math.min(1, avail / natW);
     for (const f of frames(duo)) {
+        f.style.width = natW + "px";
         f.style.transform = s === 1 ? "" : "scale(" + s + ")";
     }
     for (const wrap of wraps) {
@@ -507,7 +516,7 @@ function buildSidebar() {
         a.append(flagmark, todo);
         listEl.appendChild(a);
     }
-    activeLink?.scrollIntoView({ block: "nearest" });
+    return activeLink;
 }
 {
     const searchEl = document.getElementById("search");
@@ -543,6 +552,10 @@ function onFrameLoad(iframe) {
     applyHighlightsToFrame(iframe);
     const duo = iframe.closest(".duo");
     measureDuo(duo);
+    // Fonts, images, and deferred story scripts can change layout after
+    // load; settle with a couple of delayed re-measures.
+    setTimeout(() => measureDuo(duo), 400);
+    setTimeout(() => measureDuo(duo), 1500);
     duo._loaded = (duo._loaded || 0) + 1;
     if (duo._loaded === 2) {
         const [a, b] = frames(duo);
@@ -575,7 +588,31 @@ for (const iframe of document.querySelectorAll("iframe")) {
 }
 segs.theme._set = segs.theme._set || (() => {});
 syncFlag();
-buildSidebar();
+{
+    // Preserve the sidebar scroll position across page navigations (the
+    // list is identical on every page — jumping to the active row on each
+    // load is disorienting). Falls back to centering the active row the
+    // first time.
+    const activeLink = buildSidebar();
+    const listEl = document.getElementById("storylist");
+    const SCROLL_KEY = "vp:sidebar-scroll";
+    const saved = sessionStorage.getItem(SCROLL_KEY);
+    if (listEl) {
+        if (saved !== null) listEl.scrollTop = Number(saved);
+        else activeLink?.scrollIntoView({ block: "center" });
+        listEl.addEventListener(
+            "scroll",
+            () => {
+                try {
+                    sessionStorage.setItem(SCROLL_KEY, listEl.scrollTop);
+                } catch {
+                    /* session storage unavailable */
+                }
+            },
+            { passive: true },
+        );
+    }
+}
 // Apply persisted prefs to the statically rendered defaults.
 segs.mode?._set?.(state.mode);
 segs.theme?._set?.(state.theme);
