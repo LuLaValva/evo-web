@@ -27,20 +27,32 @@ import {
 export type { DayISO } from "../../common/dates/date-utils"
 export type { Disable } from "./date-utils";
 export interface BaseInput {
+  /**
+   * Number of months to display simultaneously.
+   * @default 1
+   */
   visibleMonthCount?: number;
+  /**
+   * [BCP 47 language tag](https://developer.mozilla.org/en-US/docs/Glossary/BCP_47_language_tag) used for month/weekday labels and first day of week.
+   * @default navigator.language || 'en-US'
+   */
   locale?: string;
+  /** Override the date the calendar treats as today (`YYYY-MM-DD`). Defaults to the current local date. */
   today?: DayISO;
+  /** Config for disabling dates: `{ before?: DayISO, after?: DayISO, weekdays?: number[], list?: DayISO[], callback?: (iso) => boolean }`. Weekdays: 0=Sun … 6=Sat. */
   disable?: Disable;
+  /** The first displayed month (`YYYY-MM`). Defaults to the month containing `today`. */
   visibleMonth?: MonthISO;
   visibleMonthChange?: (m: MonthISO) => void;
   /**
-   * Must be present to allow navigation between months
+   * Returns an accessible label for the prev/next navigation buttons. **Its presence enables the navigation header** — must be present to allow navigation between months.
    *
    * Should return a string like `"Show ${month}"`
    */
   a11yNavigateText?: (monthName: string, dir: "next" | "prev") => string;
   /**
    * Clipped text to communicate range cells to screen readers, required if there is or will be a selected range
+   * @default { start: "start of range", end: "end of range", in: "in range" }
    */
   a11yRangeText?: {
     /**
@@ -58,7 +70,9 @@ export interface BaseInput {
   };
 }
 export interface StaticInput extends BaseInput {
+  /** When set, day cells render as `<button>` elements for date selection. `"day"` selects a single date; `"range"` selects a start/end range. Omit for a non-interactive calendar. */
   selectMode?: undefined;
+  /** The selected date(s). Accepts a single `DayISO` string or a `{ from: DayISO; to: DayISO }` range object. */
   selected?: DayISO | { from?: DayISO; to?: DayISO };
   selectedChange?: (s: DayISO | { from?: DayISO; to?: DayISO }) => void;
   getDayHref?: (iso: DayISO) => string | false | null | undefined;

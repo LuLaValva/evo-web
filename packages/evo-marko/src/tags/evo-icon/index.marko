@@ -8,6 +8,7 @@ export interface Input extends Marko.SVG.SVG {
     _size?: string;
     _type?: string;
     _def?: () => IconDefs;
+    /** Localized text for a non-decorative inline icon; the icon is assumed to be decorative if this is not passed */
     a11yText?: string;
 }
 

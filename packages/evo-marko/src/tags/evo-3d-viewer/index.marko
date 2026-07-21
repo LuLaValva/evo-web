@@ -2,13 +2,16 @@ import type { ModelViewerElement } from "@google/model-viewer";
 import { load as modelViewerLoad } from "@internal/model-viewer";
 export interface Input extends Partial<ModelViewerElement> {
     class?: Marko.HTMLAttributes["class"];
+    /** Localized text to show error message */
     errorText: string;
     /**
      * The `aria-label` for `<evo-progress-spinner>` while model is loading
-     * 
+     *
      * English default to be overridden is `"loading"`
+     * @default "loading"
      **/
     a11yLoadingText: string;
+    /** Triggered when there is an error during loading */
     onLoadError?: (err: CustomEvent) => void;
 }
 <const/{

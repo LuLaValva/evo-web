@@ -15,29 +15,22 @@ export default {
       },
     },
   },
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
+    // `src` is inherited from `Partial<ModelViewerElement>` (node_modules),
+    // so docgen does not list it — keep its docs here.
     src: {
       control: "text",
       description: "The asset to load",
     },
     a11yLoadingText: {
-      type: { name: "string", required: true },
-      control: { type: "text" },
       table: {
         category: "Accessibility",
-        defaultValue: {
-          summary: "Loading",
-        },
       },
-      description: "Localized text for loading icon loading viewer",
-    },
-    errorText: {
-      type: { name: "string", required: true },
-      control: "text",
-      description: "Localized text to show error message",
     },
     onLoadError: {
-      description: "Triggered when there is an error during loading",
       table: {
         category: "Events",
       },

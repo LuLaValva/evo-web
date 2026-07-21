@@ -17,50 +17,32 @@ export default {
       description: { component: Readme },
     },
   },
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     selectMode: {
       control: "inline-radio",
+      // Kept: the inferred options drop the `undefined` (non-interactive) choice.
       options: [undefined, "day", "range"],
-      description:
-        'When set, day cells render as `<button>` elements for date selection. `"day"` selects a single date; `"range"` selects a start/end range. Omit for a non-interactive calendar.',
-    },
-    visibleMonthCount: {
-      type: "number",
-      control: "number",
-      description: "Number of months to display simultaneously.",
-      table: { defaultValue: { summary: "1" } },
-    },
-    locale: {
-      type: "string",
-      control: "text",
-      description:
-        "[BCP 47 language tag](https://developer.mozilla.org/en-US/docs/Glossary/BCP_47_language_tag) used for month/weekday labels and first day of week.",
-      table: { defaultValue: { summary: "navigator.language || 'en-US'" } },
     },
     today: {
-      type: "string",
       control: "text",
-      description:
-        "Override the date the calendar treats as today (`YYYY-MM-DD`). Defaults to the current local date.",
     },
     selected: {
       controllable: true,
       control: "object",
-      description:
-        "The selected date(s). Accepts a single `DayISO` string or a `{ from: DayISO; to: DayISO }` range object.",
     },
     visibleMonth: {
       controllable: true,
-      type: "string",
       control: "text",
-      description:
-        "The first displayed month (`YYYY-MM`). Defaults to the month containing `today`.",
     },
     disable: {
       control: "object",
-      description:
-        "Config for disabling dates: `{ before?: DayISO, after?: DayISO, weekdays?: number[], list?: DayISO[], callback?: (iso) => boolean }`. Weekdays: 0=Sun … 6=Sat.",
     },
+    // `getDayHref`, `a11yTodayText`, `a11yDisabledText` and `a11ySelectedText`
+    // exist only on `StaticInput`, and docgen only lists props common to every
+    // member of the `Input` union — so their docs stay here.
     getDayHref: {
       control: false,
       description:
@@ -68,8 +50,6 @@ export default {
     },
     a11yNavigateText: {
       control: false,
-      description:
-        "Function `(monthName: string, dir: 'next' | 'prev') => string` returning an accessible label for the prev/next navigation buttons. **Its presence enables the navigation header.**",
     },
     a11yTodayText: {
       type: "string",
@@ -94,14 +74,6 @@ export default {
     },
     a11yRangeText: {
       control: "object",
-      description:
-        "Clipped text for range cells. Object with `start`, `end`, and `in` keys. Required when a range is or will be selected.",
-      table: {
-        defaultValue: {
-          summary:
-            '{ start: "start of range", end: "end of range", in: "in range" }',
-        },
-      },
     },
   },
 } satisfies Meta<Input>;
