@@ -6,7 +6,7 @@
 <title>button / textOnly — visual review</title>
 <link rel="stylesheet" href="../assets/viewer.css" />
 </head>
-<body>
+<body class="story-page">
 <header>
     <a class="back" href="../index.html">← All changes</a>
     <h1 id="title"></h1>
@@ -17,22 +17,26 @@
         <a id="next" href="#">next ›</a>
     </span>
 </header>
+<nav id="sidebar">
+    <input id="search" type="search" placeholder="Filter stories… ( / )" />
+    <div id="storylist"></div>
+</nav>
 <main id="main"></main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
-    <span class="kbd-hint"><kbd>1</kbd>–<kbd>9</kbd> dimension</span>
     <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
     <span class="kbd-hint"><kbd>f</kbd> flip (in flip mode)</span>
     <span class="kbd-hint"><kbd>t</kbd> theme</span>
     <span class="kbd-hint"><kbd>h</kbd> highlights</span>
     <span class="kbd-hint"><kbd>d</kbd> text diff</span>
     <span class="kbd-hint"><kbd>x</kbd> flag</span>
-    <span class="kbd-hint"><kbd>Esc</kbd> back to list</span>
+    <span class="kbd-hint"><kbd>/</kbd> filter</span>
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
     const PAGE = {"entry":{"component":"button","story":"textOnly","file":"packages/skin/src/sass/button/stories/button/__snapshots__/text-spacing.snap","dims":[{"suffix":"1280px","width":1280,"rtl":false,"status":"added","before":"","after":"<div>\n  <button style=\"\n    align-content: center;\n    align-items: center;\n    border-bottom-color: currentcolor;\n    border-bottom-style: solid;\n    border-bottom-width: 1px;\n    border-bottom: 1px solid;\n    border-left-color: currentcolor;\n    border-left-style: solid;\n    border-left-width: 1px;\n    border-right-color: currentcolor;\n    border-right-style: solid;\n    border-right-width: 1px;\n    border-top-color: currentcolor;\n    border-top-style: solid;\n    border-top-width: 1px;\n    border-top: 1px solid;\n    color: inherit;\n    font-family: inherit;\n    font-size: var(--font-size-body);\n    min-height: 40px;\n    min-width: 88px;\n    padding-bottom: 0px;\n    padding-left: 20px;\n    padding-right: 20px;\n    padding-top: 0px;\n    vertical-align: bottom\n  \">\n    Button\n  <\/button>\n<\/div>","diff":"@@ -0,0 +1,32 @@\n+<div>\n+  <button style=\"\n+    align-content: center;\n+    align-items: center;\n+    border-bottom-color: currentcolor;\n+    border-bottom-style: solid;\n+    border-bottom-width: 1px;\n+    border-bottom: 1px solid;\n+    border-left-color: currentcolor;\n+    border-left-style: solid;\n+    border-left-width: 1px;\n+    border-right-color: currentcolor;\n+    border-right-style: solid;\n+    border-right-width: 1px;\n+    border-top-color: currentcolor;\n+    border-top-style: solid;\n+    border-top-width: 1px;\n+    border-top: 1px solid;\n+    color: inherit;\n+    font-family: inherit;\n+    font-size: var(--font-size-body);\n+    min-height: 40px;\n+    min-width: 88px;\n+    padding-bottom: 0px;\n+    padding-left: 20px;\n+    padding-right: 20px;\n+    padding-top: 0px;\n+    vertical-align: bottom\n+  \">\n+    Button\n+  <\/button>\n+<\/div>\n\\ No newline at end of file\n"},{"suffix":"1280px rtl","width":1280,"rtl":true,"status":"added","before":"","after":"<div>\n  <button style=\"\n    align-content: center;\n    align-items: center;\n    border-bottom-color: currentcolor;\n    border-bottom-style: solid;\n    border-bottom-width: 1px;\n    border-bottom: 1px solid;\n    border-left-color: currentcolor;\n    border-left-style: solid;\n    border-left-width: 1px;\n    border-right-color: currentcolor;\n    border-right-style: solid;\n    border-right-width: 1px;\n    border-top-color: currentcolor;\n    border-top-style: solid;\n    border-top-width: 1px;\n    border-top: 1px solid;\n    color: inherit;\n    font-family: inherit;\n    font-size: var(--font-size-body);\n    min-height: 40px;\n    min-width: 88px;\n    padding-bottom: 0px;\n    padding-left: 20px;\n    padding-right: 20px;\n    padding-top: 0px;\n    vertical-align: bottom\n  \">\n    Button\n  <\/button>\n<\/div>","diff":"@@ -0,0 +1,32 @@\n+<div>\n+  <button style=\"\n+    align-content: center;\n+    align-items: center;\n+    border-bottom-color: currentcolor;\n+    border-bottom-style: solid;\n+    border-bottom-width: 1px;\n+    border-bottom: 1px solid;\n+    border-left-color: currentcolor;\n+    border-left-style: solid;\n+    border-left-width: 1px;\n+    border-right-color: currentcolor;\n+    border-right-style: solid;\n+    border-right-width: 1px;\n+    border-top-color: currentcolor;\n+    border-top-style: solid;\n+    border-top-width: 1px;\n+    border-top: 1px solid;\n+    color: inherit;\n+    font-family: inherit;\n+    font-size: var(--font-size-body);\n+    min-height: 40px;\n+    min-width: 88px;\n+    padding-bottom: 0px;\n+    padding-left: 20px;\n+    padding-right: 20px;\n+    padding-top: 0px;\n+    vertical-align: bottom\n+  \">\n+    Button\n+  <\/button>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"<button class=\"btn demo-a11y-text-spacing\">Button<\/button>","storyAfter":"<button class=\"btn demo-a11y-text-spacing\">Button<\/button>"},"baseRefShort":"60ee2f496866","prevHref":"button-stories-button-text-spacing--iconAndText.html","nextHref":"button-stories-destructive-button-borderless--base.html","indexHref":"../index.html","pos":92,"total":1012,"slug":"button-stories-button-text-spacing--textOnly","hash":"1u0dc7h"};
 </script>
+<script src="../assets/nav.js"></script>
 <script src="../assets/story.js"></script>
 </body>
 </html>

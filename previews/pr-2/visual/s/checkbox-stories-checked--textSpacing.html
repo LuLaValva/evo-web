@@ -6,7 +6,7 @@
 <title>checkbox / textSpacing — visual review</title>
 <link rel="stylesheet" href="../assets/viewer.css" />
 </head>
-<body>
+<body class="story-page">
 <header>
     <a class="back" href="../index.html">← All changes</a>
     <h1 id="title"></h1>
@@ -17,22 +17,26 @@
         <a id="next" href="#">next ›</a>
     </span>
 </header>
+<nav id="sidebar">
+    <input id="search" type="search" placeholder="Filter stories… ( / )" />
+    <div id="storylist"></div>
+</nav>
 <main id="main"></main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
-    <span class="kbd-hint"><kbd>1</kbd>–<kbd>9</kbd> dimension</span>
     <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
     <span class="kbd-hint"><kbd>f</kbd> flip (in flip mode)</span>
     <span class="kbd-hint"><kbd>t</kbd> theme</span>
     <span class="kbd-hint"><kbd>h</kbd> highlights</span>
     <span class="kbd-hint"><kbd>d</kbd> text diff</span>
     <span class="kbd-hint"><kbd>x</kbd> flag</span>
-    <span class="kbd-hint"><kbd>Esc</kbd> back to list</span>
+    <span class="kbd-hint"><kbd>/</kbd> filter</span>
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
     const PAGE = {"entry":{"component":"checkbox","story":"textSpacing","file":"packages/skin/src/sass/checkbox/stories/__snapshots__/checked.snap","dims":[{"suffix":"","width":null,"rtl":false,"status":"added","before":"","after":"<div>\n  <div>\n    <legend style=\"margin-bottom: var(--spacing-100)\">\n      Choose an Option\n    <\/legend>\n    <div style=\"\n      display: flex;\n      margin-bottom: 16px;\n      margin-top: 16px\n    \">\n      <span style=\"\n        display: inline-flex;\n        position: relative;\n        vertical-align: text-bottom\n      \">\n        <input\n          style=\"\n            font-size: 100%;\n            height: 18px;\n            margin-bottom: 0px;\n            margin-left: 0px;\n            margin-right: 0px;\n            margin-top: 0px;\n            min-width: 18px;\n            opacity: 0;\n            position: absolute;\n            width: 18px;\n            z-index: 1\n          \"\n          type=\"checkbox\"\n        />\n        <span\n          hidden\n          style=\"\n            display: inline-flex;\n            height: 18px;\n            outline-offset: 1px\n          \"\n        >\n          <svg\n            height=\"18\"\n            style=\"\n              color: var(--checkbox-unchecked-color, var(--color-foreground-primary));\n              display: inline-block;\n              fill: currentcolor;\n              height: 18px;\n              pointer-events: none;\n              stroke-width: 0;\n              stroke: currentcolor;\n              vertical-align: middle;\n              width: 18px\n            \"\n            width=\"18\"\n          >\n            <use href=\"#icon-checkbox-unchecked-18\"/>\n          <\/svg>\n        <\/span>\n      <\/span>\n      <label style=\"\n        margin-left: 4px;\n        margin-right: auto\n      \">\n        Option 2\n      <\/label>\n    <\/div>\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,67 @@\n+<div>\n+  <div>\n+    <legend style=\"margin-bottom: var(--spacing-100)\">\n+      Choose an Option\n+    <\/legend>\n+    <div style=\"\n+      display: flex;\n+      margin-bottom: 16px;\n+      margin-top: 16px\n+    \">\n+      <span style=\"\n+        display: inline-flex;\n+        position: relative;\n+        vertical-align: text-bottom\n+      \">\n+        <input\n+          style=\"\n+            font-size: 100%;\n+            height: 18px;\n+            margin-bottom: 0px;\n+            margin-left: 0px;\n+            margin-right: 0px;\n+            margin-top: 0px;\n+            min-width: 18px;\n+            opacity: 0;\n+            position: absolute;\n+            width: 18px;\n+            z-index: 1\n+          \"\n+          type=\"checkbox\"\n+        />\n+        <span\n+          hidden\n+          style=\"\n+            display: inline-flex;\n+            height: 18px;\n+            outline-offset: 1px\n+          \"\n+        >\n+          <svg\n+            height=\"18\"\n+            style=\"\n+              color: var(--checkbox-unchecked-color, var(--color-foreground-primary));\n+              display: inline-block;\n+              fill: currentcolor;\n+              height: 18px;\n+              pointer-events: none;\n+              stroke-width: 0;\n+              stroke: currentcolor;\n+              vertical-align: middle;\n+              width: 18px\n+            \"\n+            width=\"18\"\n+          >\n+            <use href=\"#icon-checkbox-unchecked-18\"/>\n+          <\/svg>\n+        <\/span>\n+      <\/span>\n+      <label style=\"\n+        margin-left: 4px;\n+        margin-right: auto\n+      \">\n+        Option 2\n+      <\/label>\n+    <\/div>\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"\n<div class=\"demo-a11y-text-spacing\">\n    <legend>Choose an Option<\/legend>\n    <div style=\"display: flex;\" class=\"field\">\n        <span class=\"checkbox field__control\">\n            <input aria-label=\"Multiline checkbox 2\" class=\"checkbox__control\" id=\"group-checkbox-2\" type=\"checkbox\" value=\"2\" name=\"checkbox-group\" />\n            <span class=\"checkbox__icon\" hidden>\n                <svg class=\"checkbox__unchecked\" height=\"18\" width=\"18\">\n                    <use href=\"#icon-checkbox-unchecked-18\"><\/use>\n                <\/svg>\n                <svg class=\"checkbox__checked\" height=\"18\" width=\"18\">\n                    <use href=\"#icon-checkbox-checked-18\"><\/use>\n                <\/svg>\n            <\/span>\n        <\/span>\n        <label class=\"field__label field__label--end\" for=\"group-checkbox-2\">Option 2<\/label>\n    <\/div>\n<\/div>\n","storyAfter":"\n<div class=\"demo-a11y-text-spacing\">\n    <legend>Choose an Option<\/legend>\n    <div style=\"display: flex;\" class=\"field\">\n        <span class=\"checkbox field__control\">\n            <input aria-label=\"Multiline checkbox 2\" class=\"checkbox__control\" id=\"group-checkbox-2\" type=\"checkbox\" value=\"2\" name=\"checkbox-group\" />\n            <span class=\"checkbox__icon\" hidden>\n                <svg class=\"checkbox__unchecked\" height=\"18\" width=\"18\">\n                    <use href=\"#icon-checkbox-unchecked-18\"><\/use>\n                <\/svg>\n                <svg class=\"checkbox__checked\" height=\"18\" width=\"18\">\n                    <use href=\"#icon-checkbox-checked-18\"><\/use>\n                <\/svg>\n            <\/span>\n        <\/span>\n        <label class=\"field__label field__label--end\" for=\"group-checkbox-2\">Option 2<\/label>\n    <\/div>\n<\/div>\n"},"baseRefShort":"60ee2f496866","prevHref":"checkbox-stories-checked--multiLineLabel.html","nextHref":"checkbox-stories-mixed--base.html","indexHref":"../index.html","pos":189,"total":1012,"slug":"checkbox-stories-checked--textSpacing","hash":"anie7b"};
 </script>
+<script src="../assets/nav.js"></script>
 <script src="../assets/story.js"></script>
 </body>
 </html>

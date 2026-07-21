@@ -6,7 +6,7 @@
 <title>skeleton / textSmallMultiLine — visual review</title>
 <link rel="stylesheet" href="../assets/viewer.css" />
 </head>
-<body>
+<body class="story-page">
 <header>
     <a class="back" href="../index.html">← All changes</a>
     <h1 id="title"></h1>
@@ -17,22 +17,26 @@
         <a id="next" href="#">next ›</a>
     </span>
 </header>
+<nav id="sidebar">
+    <input id="search" type="search" placeholder="Filter stories… ( / )" />
+    <div id="storylist"></div>
+</nav>
 <main id="main"></main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
-    <span class="kbd-hint"><kbd>1</kbd>–<kbd>9</kbd> dimension</span>
     <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
     <span class="kbd-hint"><kbd>f</kbd> flip (in flip mode)</span>
     <span class="kbd-hint"><kbd>t</kbd> theme</span>
     <span class="kbd-hint"><kbd>h</kbd> highlights</span>
     <span class="kbd-hint"><kbd>d</kbd> text diff</span>
     <span class="kbd-hint"><kbd>x</kbd> flag</span>
-    <span class="kbd-hint"><kbd>Esc</kbd> back to list</span>
+    <span class="kbd-hint"><kbd>/</kbd> filter</span>
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
     const PAGE = {"entry":{"component":"skeleton","story":"textSmallMultiLine","file":"packages/skin/src/sass/skeleton/stories/__snapshots__/base.snap","dims":[{"suffix":"1280px","width":1280,"rtl":false,"status":"added","before":"","after":"<div>\n  <div style=\"\n    container-name: skeleton-container;\n    container-type: inline-size;\n    cursor: progress;\n    width: 100%\n  \">\n    <div style=\"\n      animation: var(--motion-duration-long-3) var(--motion-easing-continuous) infinite alternate on-primary;\n      background: var(--skeleton-background, var(--color-loading-fill));\n      height: 16px;\n      margin-bottom: var(--spacing-300);\n      position: relative;\n      width: calc(100% - var(--spacing-300))\n    \">\n      <style>@scope{:scope{\n        &::after {\n          background-attachment: inherit;\n          background-clip: inherit;\n          background-color: inherit;\n          background-image: inherit;\n          background-origin: inherit;\n          background-position-x: inherit;\n          background-position-y: inherit;\n          background-repeat: inherit;\n          background-size: inherit;\n          content: \"\";\n          height: 16px;\n          margin-top: calc(16px + var(--spacing-100));\n          position: absolute;\n          width: calc(100% - var(--spacing-700))\n        }\n      }}<\/style>\n    <\/div>\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,36 @@\n+<div>\n+  <div style=\"\n+    container-name: skeleton-container;\n+    container-type: inline-size;\n+    cursor: progress;\n+    width: 100%\n+  \">\n+    <div style=\"\n+      animation: var(--motion-duration-long-3) var(--motion-easing-continuous) infinite alternate on-primary;\n+      background: var(--skeleton-background, var(--color-loading-fill));\n+      height: 16px;\n+      margin-bottom: var(--spacing-300);\n+      position: relative;\n+      width: calc(100% - var(--spacing-300))\n+    \">\n+      <style>@scope{:scope{\n+        &::after {\n+          background-attachment: inherit;\n+          background-clip: inherit;\n+          background-color: inherit;\n+          background-image: inherit;\n+          background-origin: inherit;\n+          background-position-x: inherit;\n+          background-position-y: inherit;\n+          background-repeat: inherit;\n+          background-size: inherit;\n+          content: \"\";\n+          height: 16px;\n+          margin-top: calc(16px + var(--spacing-100));\n+          position: absolute;\n+          width: calc(100% - var(--spacing-700))\n+        }\n+      }}<\/style>\n+    <\/div>\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"},{"suffix":"1280px rtl","width":1280,"rtl":true,"status":"added","before":"","after":"<div>\n  <div style=\"\n    container-name: skeleton-container;\n    container-type: inline-size;\n    cursor: progress;\n    width: 100%\n  \">\n    <div style=\"\n      animation: var(--motion-duration-long-3) var(--motion-easing-continuous) infinite alternate on-primary;\n      background: var(--skeleton-background, var(--color-loading-fill));\n      height: 16px;\n      margin-bottom: var(--spacing-300);\n      position: relative;\n      width: calc(100% - var(--spacing-300))\n    \">\n      <style>@scope{:scope{\n        &::after {\n          background-attachment: inherit;\n          background-clip: inherit;\n          background-color: inherit;\n          background-image: inherit;\n          background-origin: inherit;\n          background-position-x: inherit;\n          background-position-y: inherit;\n          background-repeat: inherit;\n          background-size: inherit;\n          content: \"\";\n          height: 16px;\n          margin-top: calc(16px + var(--spacing-100));\n          position: absolute;\n          width: calc(100% - var(--spacing-700))\n        }\n      }}<\/style>\n    <\/div>\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,36 @@\n+<div>\n+  <div style=\"\n+    container-name: skeleton-container;\n+    container-type: inline-size;\n+    cursor: progress;\n+    width: 100%\n+  \">\n+    <div style=\"\n+      animation: var(--motion-duration-long-3) var(--motion-easing-continuous) infinite alternate on-primary;\n+      background: var(--skeleton-background, var(--color-loading-fill));\n+      height: 16px;\n+      margin-bottom: var(--spacing-300);\n+      position: relative;\n+      width: calc(100% - var(--spacing-300))\n+    \">\n+      <style>@scope{:scope{\n+        &::after {\n+          background-attachment: inherit;\n+          background-clip: inherit;\n+          background-color: inherit;\n+          background-image: inherit;\n+          background-origin: inherit;\n+          background-position-x: inherit;\n+          background-position-y: inherit;\n+          background-repeat: inherit;\n+          background-size: inherit;\n+          content: \"\";\n+          height: 16px;\n+          margin-top: calc(16px + var(--spacing-100));\n+          position: absolute;\n+          width: calc(100% - var(--spacing-700))\n+        }\n+      }}<\/style>\n+    <\/div>\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"<div class=\"skeleton\" role=\"img\" aria-label=\"loading\">\n        <div class=\"skeleton__text  skeleton__text--multiline\"><\/div>\n    <\/div>","storyAfter":"<div class=\"skeleton\" role=\"img\" aria-label=\"loading\">\n        <div class=\"skeleton__text  skeleton__text--multiline\"><\/div>\n    <\/div>"},"baseRefShort":"60ee2f496866","prevHref":"skeleton-stories-base--textSmall.html","nextHref":"skeleton-stories-composite--blockSkeletons.html","indexHref":"../index.html","pos":785,"total":1012,"slug":"skeleton-stories-base--textSmallMultiLine","hash":"ob8bab"};
 </script>
+<script src="../assets/nav.js"></script>
 <script src="../assets/story.js"></script>
 </body>
 </html>

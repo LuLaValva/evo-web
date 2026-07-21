@@ -6,7 +6,7 @@
 <title>link / RTL — visual review</title>
 <link rel="stylesheet" href="../assets/viewer.css" />
 </head>
-<body>
+<body class="story-page">
 <header>
     <a class="back" href="../index.html">← All changes</a>
     <h1 id="title"></h1>
@@ -17,22 +17,26 @@
         <a id="next" href="#">next ›</a>
     </span>
 </header>
+<nav id="sidebar">
+    <input id="search" type="search" placeholder="Filter stories… ( / )" />
+    <div id="storylist"></div>
+</nav>
 <main id="main"></main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
-    <span class="kbd-hint"><kbd>1</kbd>–<kbd>9</kbd> dimension</span>
     <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
     <span class="kbd-hint"><kbd>f</kbd> flip (in flip mode)</span>
     <span class="kbd-hint"><kbd>t</kbd> theme</span>
     <span class="kbd-hint"><kbd>h</kbd> highlights</span>
     <span class="kbd-hint"><kbd>d</kbd> text diff</span>
     <span class="kbd-hint"><kbd>x</kbd> flag</span>
-    <span class="kbd-hint"><kbd>Esc</kbd> back to list</span>
+    <span class="kbd-hint"><kbd>/</kbd> filter</span>
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
-    const PAGE = {"entry":{"component":"link","story":"RTL","file":"packages/skin/src/sass/link/stories/__snapshots__/link.snap","dims":[{"suffix":"","width":null,"rtl":false,"status":"added","before":"","after":"<div>\n  <div dir=\"rtl\">\n    <a style=\"color: var(--color-foreground-link-primary)\">\n      See all 17 Reviews\n    <\/a>\n    <div/>\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,8 @@\n+<div>\n+  <div dir=\"rtl\">\n+    <a style=\"color: var(--color-foreground-link-primary)\">\n+      See all 17 Reviews\n+    <\/a>\n+    <div/>\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"\n<div dir=\"rtl\">\n    <a class=\"action-link\" href=\"https://www.ebay.com/?r=925\">See all 17 Reviews<\/a>\n<div>\n","storyAfter":"\n<div dir=\"rtl\">\n    <a class=\"action-link\" href=\"https://www.ebay.com/?r=823\">See all 17 Reviews<\/a>\n<div>\n"},"baseRefShort":"60ee2f496866","prevHref":"lightbox-dialog-stories-lightbox-dialog--wide.html","nextHref":"link-stories-link--action.html","indexHref":"../index.html","pos":486,"total":1012,"slug":"link-stories-link--RTL","hash":"5fdmt9"};
+    const PAGE = {"entry":{"component":"link","story":"RTL","file":"packages/skin/src/sass/link/stories/__snapshots__/link.snap","dims":[{"suffix":"","width":null,"rtl":false,"status":"added","before":"","after":"<div>\n  <div dir=\"rtl\">\n    <a style=\"color: var(--color-foreground-link-primary)\">\n      See all 17 Reviews\n    <\/a>\n    <div/>\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,8 @@\n+<div>\n+  <div dir=\"rtl\">\n+    <a style=\"color: var(--color-foreground-link-primary)\">\n+      See all 17 Reviews\n+    <\/a>\n+    <div/>\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"\n<div dir=\"rtl\">\n    <a class=\"action-link\" href=\"https://www.ebay.com/?r=259\">See all 17 Reviews<\/a>\n<div>\n","storyAfter":"\n<div dir=\"rtl\">\n    <a class=\"action-link\" href=\"https://www.ebay.com/?r=582\">See all 17 Reviews<\/a>\n<div>\n"},"baseRefShort":"60ee2f496866","prevHref":"lightbox-dialog-stories-lightbox-dialog--wide.html","nextHref":"link-stories-link--action.html","indexHref":"../index.html","pos":486,"total":1012,"slug":"link-stories-link--RTL","hash":"5fdmt9"};
 </script>
+<script src="../assets/nav.js"></script>
 <script src="../assets/story.js"></script>
 </body>
 </html>

@@ -6,7 +6,7 @@
 <title>global / RTLHeadings — visual review</title>
 <link rel="stylesheet" href="../assets/viewer.css" />
 </head>
-<body>
+<body class="story-page">
 <header>
     <a class="back" href="../index.html">← All changes</a>
     <h1 id="title"></h1>
@@ -17,22 +17,26 @@
         <a id="next" href="#">next ›</a>
     </span>
 </header>
+<nav id="sidebar">
+    <input id="search" type="search" placeholder="Filter stories… ( / )" />
+    <div id="storylist"></div>
+</nav>
 <main id="main"></main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
-    <span class="kbd-hint"><kbd>1</kbd>–<kbd>9</kbd> dimension</span>
     <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
     <span class="kbd-hint"><kbd>f</kbd> flip (in flip mode)</span>
     <span class="kbd-hint"><kbd>t</kbd> theme</span>
     <span class="kbd-hint"><kbd>h</kbd> highlights</span>
     <span class="kbd-hint"><kbd>d</kbd> text diff</span>
     <span class="kbd-hint"><kbd>x</kbd> flag</span>
-    <span class="kbd-hint"><kbd>Esc</kbd> back to list</span>
+    <span class="kbd-hint"><kbd>/</kbd> filter</span>
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
     const PAGE = {"entry":{"component":"global","story":"RTLHeadings","file":"packages/skin/src/sass/global/stories/__snapshots__/global.snap","dims":[{"suffix":"","width":null,"rtl":false,"status":"added","before":"","after":"<div>\n  <div dir=\"rtl\">\n    <h1>\n      This is a level 1 heading\n    <\/h1>\n    <hr/>\n    <h2>\n      This is a level 2 heading\n    <\/h2>\n    <hr/>\n    <h3>\n      This is a level 3 heading\n    <\/h3>\n    <hr/>\n    <h4>\n      This is a level 4 heading\n    <\/h4>\n    <hr/>\n    <h5>\n      This is a level 5 heading\n    <\/h5>\n    <hr/>\n    <h6>\n      This is a level 6 heading\n    <\/h6>\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,27 @@\n+<div>\n+  <div dir=\"rtl\">\n+    <h1>\n+      This is a level 1 heading\n+    <\/h1>\n+    <hr/>\n+    <h2>\n+      This is a level 2 heading\n+    <\/h2>\n+    <hr/>\n+    <h3>\n+      This is a level 3 heading\n+    <\/h3>\n+    <hr/>\n+    <h4>\n+      This is a level 4 heading\n+    <\/h4>\n+    <hr/>\n+    <h5>\n+      This is a level 5 heading\n+    <\/h5>\n+    <hr/>\n+    <h6>\n+      This is a level 6 heading\n+    <\/h6>\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"\n<div dir=\"rtl\">\n    <h1>This is a level 1 heading<\/h1>\n    <hr/>\n    <h2>This is a level 2 heading<\/h2>\n    <hr/>\n    <h3>This is a level 3 heading<\/h3>\n    <hr/>\n    <h4>This is a level 4 heading<\/h4>\n    <hr/>\n    <h5>This is a level 5 heading<\/h5>\n    <hr/>\n    <h6>This is a level 6 heading<\/h6>\n<\/div>\n","storyAfter":"\n<div dir=\"rtl\">\n    <h1>This is a level 1 heading<\/h1>\n    <hr/>\n    <h2>This is a level 2 heading<\/h2>\n    <hr/>\n    <h3>This is a level 3 heading<\/h3>\n    <hr/>\n    <h4>This is a level 4 heading<\/h4>\n    <hr/>\n    <h5>This is a level 5 heading<\/h5>\n    <hr/>\n    <h6>This is a level 6 heading<\/h6>\n<\/div>\n"},"baseRefShort":"60ee2f496866","prevHref":"global-stories-global--RTLAlignment.html","nextHref":"global-stories-global--alignment.html","indexHref":"../index.html","pos":401,"total":1012,"slug":"global-stories-global--RTLHeadings","hash":"b9i6b2"};
 </script>
+<script src="../assets/nav.js"></script>
 <script src="../assets/story.js"></script>
 </body>
 </html>

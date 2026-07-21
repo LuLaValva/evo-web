@@ -6,7 +6,7 @@
 <title>education-notice / base — visual review</title>
 <link rel="stylesheet" href="../assets/viewer.css" />
 </head>
-<body>
+<body class="story-page">
 <header>
     <a class="back" href="../index.html">← All changes</a>
     <h1 id="title"></h1>
@@ -17,22 +17,26 @@
         <a id="next" href="#">next ›</a>
     </span>
 </header>
+<nav id="sidebar">
+    <input id="search" type="search" placeholder="Filter stories… ( / )" />
+    <div id="storylist"></div>
+</nav>
 <main id="main"></main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
-    <span class="kbd-hint"><kbd>1</kbd>–<kbd>9</kbd> dimension</span>
     <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
     <span class="kbd-hint"><kbd>f</kbd> flip (in flip mode)</span>
     <span class="kbd-hint"><kbd>t</kbd> theme</span>
     <span class="kbd-hint"><kbd>h</kbd> highlights</span>
     <span class="kbd-hint"><kbd>d</kbd> text diff</span>
     <span class="kbd-hint"><kbd>x</kbd> flag</span>
-    <span class="kbd-hint"><kbd>Esc</kbd> back to list</span>
+    <span class="kbd-hint"><kbd>/</kbd> filter</span>
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
     const PAGE = {"entry":{"component":"education-notice","story":"base","file":"packages/skin/src/sass/education-notice/stories/__snapshots__/base.snap","dims":[{"suffix":"","width":null,"rtl":false,"status":"added","before":"","after":"<div>\n  <section style=\"\n    background-color: var(--education-notice-default-background-color, var(--color-background-secondary));\n    color: var(--color-foreground-primary);\n    font-size: var(--font-size-body);\n    padding: var(--spacing-300)\n  \">\n    <div style=\"\n      align-items: center;\n      display: flex\n    \">\n      <svg\n        height=\"24\"\n        style=\"\n          display: inline-block;\n          fill: currentcolor;\n          height: 24px;\n          pointer-events: none;\n          stroke-width: 0;\n          stroke: currentcolor;\n          vertical-align: middle;\n          width: 24px\n        \"\n        width=\"24\"\n      >\n        <use href=\"#icon-lightbulb-24\"/>\n      <\/svg>\n      <h3 style=\"\n        flex-grow: 1;\n        font-size: var(--font-size-medium);\n        line-height: 1.5em;\n        margin-bottom: 0px;\n        margin-inline-start: var(--spacing-150);\n        margin-top: 0px\n      \">\n        Did you know?\n      <\/h3>\n    <\/div>\n    <div style=\"margin-top: var(--spacing-200)\">\n      <p style=\"\n        font-size: var(--font-size-body);\n        margin-bottom: 0px;\n        margin-top: 0px\n      \">\n        You can now split payments on two cards.\n      <\/p>\n    <\/div>\n  <\/section>\n<\/div>","diff":"@@ -0,0 +1,49 @@\n+<div>\n+  <section style=\"\n+    background-color: var(--education-notice-default-background-color, var(--color-background-secondary));\n+    color: var(--color-foreground-primary);\n+    font-size: var(--font-size-body);\n+    padding: var(--spacing-300)\n+  \">\n+    <div style=\"\n+      align-items: center;\n+      display: flex\n+    \">\n+      <svg\n+        height=\"24\"\n+        style=\"\n+          display: inline-block;\n+          fill: currentcolor;\n+          height: 24px;\n+          pointer-events: none;\n+          stroke-width: 0;\n+          stroke: currentcolor;\n+          vertical-align: middle;\n+          width: 24px\n+        \"\n+        width=\"24\"\n+      >\n+        <use href=\"#icon-lightbulb-24\"/>\n+      <\/svg>\n+      <h3 style=\"\n+        flex-grow: 1;\n+        font-size: var(--font-size-medium);\n+        line-height: 1.5em;\n+        margin-bottom: 0px;\n+        margin-inline-start: var(--spacing-150);\n+        margin-top: 0px\n+      \">\n+        Did you know?\n+      <\/h3>\n+    <\/div>\n+    <div style=\"margin-top: var(--spacing-200)\">\n+      <p style=\"\n+        font-size: var(--font-size-body);\n+        margin-bottom: 0px;\n+        margin-top: 0px\n+      \">\n+        You can now split payments on two cards.\n+      <\/p>\n+    <\/div>\n+  <\/section>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"\n<section class=\"education-notice\" role=\"region\" aria-label=\"Education\" aria-roledescription=\"Notice\">\n    <div class=\"education-notice__header\">\n        <svg class=\"icon icon--24\" height=\"24\" width=\"24\" aria-label=\"Education\">\n            <use href=\"#icon-lightbulb-24\"><\/use>\n        <\/svg>\n        <h3 class=\"education-notice__title\">Did you know?<\/h3>\n    <\/div>\n    <div class=\"education-notice__main\">\n        <p>You can now split payments on two cards.<\/p>\n    <\/div>\n<\/section>\n","storyAfter":"\n<section class=\"education-notice\" role=\"region\" aria-label=\"Education\" aria-roledescription=\"Notice\">\n    <div class=\"education-notice__header\">\n        <svg class=\"icon icon--24\" height=\"24\" width=\"24\" aria-label=\"Education\">\n            <use href=\"#icon-lightbulb-24\"><\/use>\n        <\/svg>\n        <h3 class=\"education-notice__title\">Did you know?<\/h3>\n    <\/div>\n    <div class=\"education-notice__main\">\n        <p>You can now split payments on two cards.<\/p>\n    <\/div>\n<\/section>\n"},"baseRefShort":"60ee2f496866","prevHref":"education-notice-stories-base--actionableLink.html","nextHref":"education-notice-stories-base--dismissable.html","indexHref":"../index.html","pos":279,"total":1012,"slug":"education-notice-stories-base--base","hash":"1st9s54"};
 </script>
+<script src="../assets/nav.js"></script>
 <script src="../assets/story.js"></script>
 </body>
 </html>

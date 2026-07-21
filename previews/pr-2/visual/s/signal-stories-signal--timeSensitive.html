@@ -6,7 +6,7 @@
 <title>signal / timeSensitive — visual review</title>
 <link rel="stylesheet" href="../assets/viewer.css" />
 </head>
-<body>
+<body class="story-page">
 <header>
     <a class="back" href="../index.html">← All changes</a>
     <h1 id="title"></h1>
@@ -17,22 +17,26 @@
         <a id="next" href="#">next ›</a>
     </span>
 </header>
+<nav id="sidebar">
+    <input id="search" type="search" placeholder="Filter stories… ( / )" />
+    <div id="storylist"></div>
+</nav>
 <main id="main"></main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
-    <span class="kbd-hint"><kbd>1</kbd>–<kbd>9</kbd> dimension</span>
     <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
     <span class="kbd-hint"><kbd>f</kbd> flip (in flip mode)</span>
     <span class="kbd-hint"><kbd>t</kbd> theme</span>
     <span class="kbd-hint"><kbd>h</kbd> highlights</span>
     <span class="kbd-hint"><kbd>d</kbd> text diff</span>
     <span class="kbd-hint"><kbd>x</kbd> flag</span>
-    <span class="kbd-hint"><kbd>Esc</kbd> back to list</span>
+    <span class="kbd-hint"><kbd>/</kbd> filter</span>
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
     const PAGE = {"entry":{"component":"signal","story":"timeSensitive","file":"packages/skin/src/sass/signal/stories/__snapshots__/signal.snap","dims":[{"suffix":"","width":null,"rtl":false,"status":"added","before":"","after":"<div>\n  <span style=\"\n    border-bottom-color: currentcolor;\n    border-bottom-style: solid;\n    border-bottom-width: 1px;\n    border-bottom: 1px solid;\n    border-left-color: currentcolor;\n    border-left-style: solid;\n    border-left-width: 1px;\n    border-right-color: currentcolor;\n    border-right-style: solid;\n    border-right-width: 1px;\n    border-top-color: currentcolor;\n    border-top-style: solid;\n    border-top-width: 1px;\n    border-top: 1px solid;\n    box-sizing: border-box;\n    color: var(--color-foreground-attention);\n    display: inline-block;\n    font-size: var(--font-size-smallest);\n    font-weight: 700;\n    letter-spacing: 0.5px;\n    line-height: var(--spacing-150);\n    margin: var(--spacing-100) 0;\n    padding: 2px var(--spacing-100) 1px;\n    text-align: center;\n    text-transform: uppercase\n  \">\n    Time Sensitive\n  <\/span>\n<\/div>","diff":"@@ -0,0 +1,31 @@\n+<div>\n+  <span style=\"\n+    border-bottom-color: currentcolor;\n+    border-bottom-style: solid;\n+    border-bottom-width: 1px;\n+    border-bottom: 1px solid;\n+    border-left-color: currentcolor;\n+    border-left-style: solid;\n+    border-left-width: 1px;\n+    border-right-color: currentcolor;\n+    border-right-style: solid;\n+    border-right-width: 1px;\n+    border-top-color: currentcolor;\n+    border-top-style: solid;\n+    border-top-width: 1px;\n+    border-top: 1px solid;\n+    box-sizing: border-box;\n+    color: var(--color-foreground-attention);\n+    display: inline-block;\n+    font-size: var(--font-size-smallest);\n+    font-weight: 700;\n+    letter-spacing: 0.5px;\n+    line-height: var(--spacing-150);\n+    margin: var(--spacing-100) 0;\n+    padding: 2px var(--spacing-100) 1px;\n+    text-align: center;\n+    text-transform: uppercase\n+  \">\n+    Time Sensitive\n+  <\/span>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"\n<span class=\"signal signal--time-sensitive\">\n    Time Sensitive\n<\/span>\n","storyAfter":"\n<span class=\"signal signal--time-sensitive\">\n    Time Sensitive\n<\/span>\n"},"baseRefShort":"60ee2f496866","prevHref":"signal-stories-signal--textSpacing.html","nextHref":"signal-stories-signal--trustWorthy.html","indexHref":"../index.html","pos":773,"total":1012,"slug":"signal-stories-signal--timeSensitive","hash":"ctkkon"};
 </script>
+<script src="../assets/nav.js"></script>
 <script src="../assets/story.js"></script>
 </body>
 </html>

@@ -6,7 +6,7 @@
 <title>avatar / signedOut — visual review</title>
 <link rel="stylesheet" href="../assets/viewer.css" />
 </head>
-<body>
+<body class="story-page">
 <header>
     <a class="back" href="../index.html">← All changes</a>
     <h1 id="title"></h1>
@@ -17,22 +17,26 @@
         <a id="next" href="#">next ›</a>
     </span>
 </header>
+<nav id="sidebar">
+    <input id="search" type="search" placeholder="Filter stories… ( / )" />
+    <div id="storylist"></div>
+</nav>
 <main id="main"></main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
-    <span class="kbd-hint"><kbd>1</kbd>–<kbd>9</kbd> dimension</span>
     <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
     <span class="kbd-hint"><kbd>f</kbd> flip (in flip mode)</span>
     <span class="kbd-hint"><kbd>t</kbd> theme</span>
     <span class="kbd-hint"><kbd>h</kbd> highlights</span>
     <span class="kbd-hint"><kbd>d</kbd> text diff</span>
     <span class="kbd-hint"><kbd>x</kbd> flag</span>
-    <span class="kbd-hint"><kbd>Esc</kbd> back to list</span>
+    <span class="kbd-hint"><kbd>/</kbd> filter</span>
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
     const PAGE = {"entry":{"component":"avatar","story":"signedOut","file":"packages/skin/src/sass/avatar/stories/__snapshots__/avatar.snap","dims":[{"suffix":"","width":null,"rtl":false,"status":"added","before":"","after":"<div>\n  <div style=\"\n    align-items: center;\n    border-bottom-left-radius: 50%;\n    border-bottom-right-radius: 50%;\n    border-top-left-radius: 50%;\n    border-top-right-radius: 50%;\n    display: inline-flex;\n    font-size: var(--font-size-large-2);\n    font-weight: var(--font-weight-600);\n    height: 48px;\n    justify-content: center;\n    line-height: 48px;\n    overflow-x: hidden;\n    overflow-y: hidden;\n    position: relative;\n    width: 48px\n  \">\n    <style>@scope{:scope{\n      &::after {\n        background-color: rgba(0, 0, 0, 0.05);\n        bottom: 0px;\n        content: \"\";\n        display: block;\n        left: 0px;\n        pointer-events: none;\n        position: absolute;\n        right: 0px;\n        top: 0px\n      }\n    }}<\/style>\n    <svg style=\"\n      display: inline-block;\n      fill: currentcolor;\n      height: 100%;\n      pointer-events: none;\n      stroke-width: 0;\n      stroke: currentcolor;\n      vertical-align: middle;\n      width: 100%\n    \">\n      <use href=\"#icon-avatar-signed-out\"/>\n    <\/svg>\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,45 @@\n+<div>\n+  <div style=\"\n+    align-items: center;\n+    border-bottom-left-radius: 50%;\n+    border-bottom-right-radius: 50%;\n+    border-top-left-radius: 50%;\n+    border-top-right-radius: 50%;\n+    display: inline-flex;\n+    font-size: var(--font-size-large-2);\n+    font-weight: var(--font-weight-600);\n+    height: 48px;\n+    justify-content: center;\n+    line-height: 48px;\n+    overflow-x: hidden;\n+    overflow-y: hidden;\n+    position: relative;\n+    width: 48px\n+  \">\n+    <style>@scope{:scope{\n+      &::after {\n+        background-color: rgba(0, 0, 0, 0.05);\n+        bottom: 0px;\n+        content: \"\";\n+        display: block;\n+        left: 0px;\n+        pointer-events: none;\n+        position: absolute;\n+        right: 0px;\n+        top: 0px\n+      }\n+    }}<\/style>\n+    <svg style=\"\n+      display: inline-block;\n+      fill: currentcolor;\n+      height: 100%;\n+      pointer-events: none;\n+      stroke-width: 0;\n+      stroke: currentcolor;\n+      vertical-align: middle;\n+      width: 100%\n+    \">\n+      <use href=\"#icon-avatar-signed-out\"/>\n+    <\/svg>\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"\n    <div class=\"avatar\" role=\"img\" aria-label=\"Profile picture - Signed out\">\n        <svg class=\"icon\" aria-hidden=\"true\">\n            <use href=\"#icon-avatar-signed-out\"><\/use>\n        <\/svg>\n    <\/div>\n","storyAfter":"\n    <div class=\"avatar\" role=\"img\" aria-label=\"Profile picture - Signed out\">\n        <svg class=\"icon\" aria-hidden=\"true\">\n            <use href=\"#icon-avatar-signed-out\"><\/use>\n        <\/svg>\n    <\/div>\n"},"baseRefShort":"60ee2f496866","prevHref":"avatar-stories-avatar--combinations.html","nextHref":"avatar-stories-avatar--sizes.html","indexHref":"../index.html","pos":17,"total":1012,"slug":"avatar-stories-avatar--signedOut","hash":"7h4gzg"};
 </script>
+<script src="../assets/nav.js"></script>
 <script src="../assets/story.js"></script>
 </body>
 </html>

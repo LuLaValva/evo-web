@@ -6,7 +6,7 @@
 <title>toggle-button / disabledIconColored — visual review</title>
 <link rel="stylesheet" href="../assets/viewer.css" />
 </head>
-<body>
+<body class="story-page">
 <header>
     <a class="back" href="../index.html">← All changes</a>
     <h1 id="title"></h1>
@@ -17,22 +17,26 @@
         <a id="next" href="#">next ›</a>
     </span>
 </header>
+<nav id="sidebar">
+    <input id="search" type="search" placeholder="Filter stories… ( / )" />
+    <div id="storylist"></div>
+</nav>
 <main id="main"></main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
-    <span class="kbd-hint"><kbd>1</kbd>–<kbd>9</kbd> dimension</span>
     <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
     <span class="kbd-hint"><kbd>f</kbd> flip (in flip mode)</span>
     <span class="kbd-hint"><kbd>t</kbd> theme</span>
     <span class="kbd-hint"><kbd>h</kbd> highlights</span>
     <span class="kbd-hint"><kbd>d</kbd> text diff</span>
     <span class="kbd-hint"><kbd>x</kbd> flag</span>
-    <span class="kbd-hint"><kbd>Esc</kbd> back to list</span>
+    <span class="kbd-hint"><kbd>/</kbd> filter</span>
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
     const PAGE = {"entry":{"component":"toggle-button","story":"disabledIconColored","file":"packages/skin/src/sass/toggle-button/stories/__snapshots__/gallery-layout.snap","dims":[{"suffix":"","width":null,"rtl":false,"status":"added","before":"","after":"<div>\n  <button\n    disabled\n    style=\"\n      background-color: var(--color-background-primary);\n      box-shadow: transparent 0px 0px 0px 1px;\n      color: var(--color-foreground-primary);\n      display: inline-flex;\n      flex-direction: column;\n      font-family: inherit;\n      font-size: var(--font-size-body);\n      justify-content: left;\n      margin-right: var(--spacing-100);\n      margin-top: auto;\n      max-width: var(--toggle-button-gallery-width-max);\n      min-height: var(--toggle-button-height-min);\n      min-width: var(--toggle-button-gallery-width-min);\n      padding: 0 var(--spacing-200);\n      vertical-align: top\n    \"\n  >\n    <span style=\"\n      filter: grayscale(1);\n      margin-top: var(--spacing-200);\n      opacity: 0.5;\n      pointer-events: none;\n      text-align: left\n    \">\n      <svg\n        height=\"64\"\n        style=\"\n          display: inline-block;\n          fill: currentcolor;\n          height: 32px;\n          pointer-events: none;\n          stroke-width: 0;\n          stroke: currentcolor;\n          vertical-align: middle;\n          width: fit-content\n        \"\n        width=\"64\"\n      >\n        <use\n          href=\"#icon-mastercard-32-colored\"\n          style=\"pointer-events: none\"\n        />\n      <\/svg>\n    <\/span>\n    <span style=\"\n      align-self: flex-start;\n      display: flex;\n      flex-direction: column;\n      pointer-events: none;\n      text-align: left\n    \">\n      <span style=\"\n        color: var(--color-foreground-disabled);\n        font-size: var(--font-size-medium);\n        font-weight: 700;\n        line-height: var(--font-size-large-2);\n        margin-bottom: var(--spacing-50);\n        margin-top: var(--spacing-200);\n        pointer-events: none\n      \">\n        Icon Button Title\n      <\/span>\n      <span style=\"\n        color: var(--color-foreground-disabled);\n        line-height: var(--font-size-large-1);\n        margin-bottom: var(--spacing-200);\n        pointer-events: none\n      \">\n        Icon Button Subtitle\n      <\/span>\n    <\/span>\n  <\/button>\n<\/div>","diff":"@@ -0,0 +1,77 @@\n+<div>\n+  <button\n+    disabled\n+    style=\"\n+      background-color: var(--color-background-primary);\n+      box-shadow: transparent 0px 0px 0px 1px;\n+      color: var(--color-foreground-primary);\n+      display: inline-flex;\n+      flex-direction: column;\n+      font-family: inherit;\n+      font-size: var(--font-size-body);\n+      justify-content: left;\n+      margin-right: var(--spacing-100);\n+      margin-top: auto;\n+      max-width: var(--toggle-button-gallery-width-max);\n+      min-height: var(--toggle-button-height-min);\n+      min-width: var(--toggle-button-gallery-width-min);\n+      padding: 0 var(--spacing-200);\n+      vertical-align: top\n+    \"\n+  >\n+    <span style=\"\n+      filter: grayscale(1);\n+      margin-top: var(--spacing-200);\n+      opacity: 0.5;\n+      pointer-events: none;\n+      text-align: left\n+    \">\n+      <svg\n+        height=\"64\"\n+        style=\"\n+          display: inline-block;\n+          fill: currentcolor;\n+          height: 32px;\n+          pointer-events: none;\n+          stroke-width: 0;\n+          stroke: currentcolor;\n+          vertical-align: middle;\n+          width: fit-content\n+        \"\n+        width=\"64\"\n+      >\n+        <use\n+          href=\"#icon-mastercard-32-colored\"\n+          style=\"pointer-events: none\"\n+        />\n+      <\/svg>\n+    <\/span>\n+    <span style=\"\n+      align-self: flex-start;\n+      display: flex;\n+      flex-direction: column;\n+      pointer-events: none;\n+      text-align: left\n+    \">\n+      <span style=\"\n+        color: var(--color-foreground-disabled);\n+        font-size: var(--font-size-medium);\n+        font-weight: 700;\n+        line-height: var(--font-size-large-2);\n+        margin-bottom: var(--spacing-50);\n+        margin-top: var(--spacing-200);\n+        pointer-events: none\n+      \">\n+        Icon Button Title\n+      <\/span>\n+      <span style=\"\n+        color: var(--color-foreground-disabled);\n+        line-height: var(--font-size-large-1);\n+        margin-bottom: var(--spacing-200);\n+        pointer-events: none\n+      \">\n+        Icon Button Subtitle\n+      <\/span>\n+    <\/span>\n+  <\/button>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"\n<button type=\"button\" class=\"toggle-button toggle-button--gallery-layout\" aria-pressed=\"false\" disabled>\n    <span class=\"toggle-button__icon\">\n        <svg aria-hidden=\"true\" class=\"icon icon--32-colored\" height=\"64\" width=\"64\">\n            <use href=\"#icon-mastercard-32-colored\"><\/use>\n        <\/svg>\n    <\/span>\n    <span class=\"toggle-button__content\">\n        <span class=\"toggle-button__title\">Icon Button Title<\/span>\n        <span class=\"toggle-button__subtitle\">Icon Button Subtitle<\/span>\n    <\/span>\n<\/button>\n","storyAfter":"\n<button type=\"button\" class=\"toggle-button toggle-button--gallery-layout\" aria-pressed=\"false\" disabled>\n    <span class=\"toggle-button__icon\">\n        <svg aria-hidden=\"true\" class=\"icon icon--32-colored\" height=\"64\" width=\"64\">\n            <use href=\"#icon-mastercard-32-colored\"><\/use>\n        <\/svg>\n    <\/span>\n    <span class=\"toggle-button__content\">\n        <span class=\"toggle-button__title\">Icon Button Title<\/span>\n        <span class=\"toggle-button__subtitle\">Icon Button Subtitle<\/span>\n    <\/span>\n<\/button>\n"},"baseRefShort":"60ee2f496866","prevHref":"toggle-button-stories-gallery-layout--disabledIcon.html","nextHref":"toggle-button-stories-gallery-layout--disabledImage.html","indexHref":"../index.html","pos":963,"total":1012,"slug":"toggle-button-stories-gallery-layout--disabledIconColored","hash":"1absasb"};
 </script>
+<script src="../assets/nav.js"></script>
 <script src="../assets/story.js"></script>
 </body>
 </html>

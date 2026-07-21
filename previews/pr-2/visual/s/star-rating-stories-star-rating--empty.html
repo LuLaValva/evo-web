@@ -6,7 +6,7 @@
 <title>star-rating / empty — visual review</title>
 <link rel="stylesheet" href="../assets/viewer.css" />
 </head>
-<body>
+<body class="story-page">
 <header>
     <a class="back" href="../index.html">← All changes</a>
     <h1 id="title"></h1>
@@ -17,22 +17,26 @@
         <a id="next" href="#">next ›</a>
     </span>
 </header>
+<nav id="sidebar">
+    <input id="search" type="search" placeholder="Filter stories… ( / )" />
+    <div id="storylist"></div>
+</nav>
 <main id="main"></main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> next/prev story</span>
-    <span class="kbd-hint"><kbd>1</kbd>–<kbd>9</kbd> dimension</span>
     <span class="kbd-hint"><kbd>m</kbd> compare mode</span>
     <span class="kbd-hint"><kbd>f</kbd> flip (in flip mode)</span>
     <span class="kbd-hint"><kbd>t</kbd> theme</span>
     <span class="kbd-hint"><kbd>h</kbd> highlights</span>
     <span class="kbd-hint"><kbd>d</kbd> text diff</span>
     <span class="kbd-hint"><kbd>x</kbd> flag</span>
-    <span class="kbd-hint"><kbd>Esc</kbd> back to list</span>
+    <span class="kbd-hint"><kbd>/</kbd> filter</span>
     <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
     const PAGE = {"entry":{"component":"star-rating","story":"empty","file":"packages/skin/src/sass/star-rating/stories/__snapshots__/star-rating.snap","dims":[{"suffix":"","width":null,"rtl":false,"status":"added","before":"","after":"<div>\n  <div>\n    <svg\n      height=\"16\"\n      style=\"\n        height: 16px;\n        width: 16px\n      \"\n      width=\"16\"\n    >\n      <use href=\"#icon-star-dynamic\"/>\n    <\/svg>\n    <svg\n      height=\"16\"\n      style=\"\n        height: 16px;\n        width: 16px\n      \"\n      width=\"16\"\n    >\n      <use href=\"#icon-star-dynamic\"/>\n    <\/svg>\n    <svg\n      height=\"16\"\n      style=\"\n        height: 16px;\n        width: 16px\n      \"\n      width=\"16\"\n    >\n      <use href=\"#icon-star-dynamic\"/>\n    <\/svg>\n    <svg\n      height=\"16\"\n      style=\"\n        height: 16px;\n        width: 16px\n      \"\n      width=\"16\"\n    >\n      <use href=\"#icon-star-dynamic\"/>\n    <\/svg>\n    <svg\n      height=\"16\"\n      style=\"\n        height: 16px;\n        width: 16px\n      \"\n      width=\"16\"\n    >\n      <use href=\"#icon-star-dynamic\"/>\n    <\/svg>\n  <\/div>\n<\/div>","diff":"@@ -0,0 +1,54 @@\n+<div>\n+  <div>\n+    <svg\n+      height=\"16\"\n+      style=\"\n+        height: 16px;\n+        width: 16px\n+      \"\n+      width=\"16\"\n+    >\n+      <use href=\"#icon-star-dynamic\"/>\n+    <\/svg>\n+    <svg\n+      height=\"16\"\n+      style=\"\n+        height: 16px;\n+        width: 16px\n+      \"\n+      width=\"16\"\n+    >\n+      <use href=\"#icon-star-dynamic\"/>\n+    <\/svg>\n+    <svg\n+      height=\"16\"\n+      style=\"\n+        height: 16px;\n+        width: 16px\n+      \"\n+      width=\"16\"\n+    >\n+      <use href=\"#icon-star-dynamic\"/>\n+    <\/svg>\n+    <svg\n+      height=\"16\"\n+      style=\"\n+        height: 16px;\n+        width: 16px\n+      \"\n+      width=\"16\"\n+    >\n+      <use href=\"#icon-star-dynamic\"/>\n+    <\/svg>\n+    <svg\n+      height=\"16\"\n+      style=\"\n+        height: 16px;\n+        width: 16px\n+      \"\n+      width=\"16\"\n+    >\n+      <use href=\"#icon-star-dynamic\"/>\n+    <\/svg>\n+  <\/div>\n+<\/div>\n\\ No newline at end of file\n"}],"storyBefore":"\n<div role=\"img\" aria-label=\"Rating: 0/5\" class=\"star-rating\" data-stars=\"0\">\n    <svg class=\"star-rating__icon\" height=\"16\" width=\"16\" aria-hidden=\"true\">\n        <use href=\"#icon-star-dynamic\"><\/use>\n    <\/svg>\n\n    <svg class=\"star-rating__icon\" height=\"16\" width=\"16\" aria-hidden=\"true\">\n        <use href=\"#icon-star-dynamic\"><\/use>\n    <\/svg>\n\n    <svg class=\"star-rating__icon\" height=\"16\" width=\"16\" aria-hidden=\"true\">\n        <use href=\"#icon-star-dynamic\"><\/use>\n    <\/svg>\n\n    <svg class=\"star-rating__icon\" height=\"16\" width=\"16\" aria-hidden=\"true\">\n        <use href=\"#icon-star-dynamic\"><\/use>\n    <\/svg>\n\n    <svg class=\"star-rating__icon\" height=\"16\" width=\"16\" aria-hidden=\"true\">\n        <use href=\"#icon-star-dynamic\"><\/use>\n    <\/svg>\n<\/div>\n","storyAfter":"\n<div role=\"img\" aria-label=\"Rating: 0/5\" class=\"star-rating\" data-stars=\"0\">\n    <svg class=\"star-rating__icon\" height=\"16\" width=\"16\" aria-hidden=\"true\">\n        <use href=\"#icon-star-dynamic\"><\/use>\n    <\/svg>\n\n    <svg class=\"star-rating__icon\" height=\"16\" width=\"16\" aria-hidden=\"true\">\n        <use href=\"#icon-star-dynamic\"><\/use>\n    <\/svg>\n\n    <svg class=\"star-rating__icon\" height=\"16\" width=\"16\" aria-hidden=\"true\">\n        <use href=\"#icon-star-dynamic\"><\/use>\n    <\/svg>\n\n    <svg class=\"star-rating__icon\" height=\"16\" width=\"16\" aria-hidden=\"true\">\n        <use href=\"#icon-star-dynamic\"><\/use>\n    <\/svg>\n\n    <svg class=\"star-rating__icon\" height=\"16\" width=\"16\" aria-hidden=\"true\">\n        <use href=\"#icon-star-dynamic\"><\/use>\n    <\/svg>\n<\/div>\n"},"baseRefShort":"60ee2f496866","prevHref":"star-rating-select-stories-star-rating-select--fourStars.html","nextHref":"star-rating-stories-star-rating--fourStars.html","indexHref":"../index.html","pos":827,"total":1012,"slug":"star-rating-stories-star-rating--empty","hash":"rw3sku"};
 </script>
+<script src="../assets/nav.js"></script>
 <script src="../assets/story.js"></script>
 </body>
 </html>
