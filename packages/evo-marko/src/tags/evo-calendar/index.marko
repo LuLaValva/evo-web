@@ -75,6 +75,7 @@ export interface StaticInput extends BaseInput {
   /** The selected date(s). Accepts a single `DayISO` string or a `{ from: DayISO; to: DayISO }` range object. */
   selected?: DayISO | { from?: DayISO; to?: DayISO };
   selectedChange?: (s: DayISO | { from?: DayISO; to?: DayISO }) => void;
+  /** Returns an href for each day when `selectMode` is not set, rendering the day as a link. A falsy return renders a `<span>`. */
   getDayHref?: (iso: DayISO) => string | false | null | undefined;
   /**
    * Clipped text to communicate the current day cells to screen readers, required for non-interactive calendars

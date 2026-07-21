@@ -40,38 +40,6 @@ export default {
     disable: {
       control: "object",
     },
-    // `getDayHref`, `a11yTodayText`, `a11yDisabledText` and `a11ySelectedText`
-    // exist only on `StaticInput`, and docgen only lists props common to every
-    // member of the `Input` union — so their docs stay here.
-    getDayHref: {
-      control: false,
-      description:
-        "Function `(iso: DayISO) => string | false | null | undefined` that returns an href for each day when `selectMode` is not set. A falsy return renders a `<span>`.",
-    },
-    a11yNavigateText: {
-      control: false,
-    },
-    a11yTodayText: {
-      type: "string",
-      control: "text",
-      description:
-        "Clipped text appended to today's cell for screen readers (non-interactive calendars).",
-      table: { defaultValue: { summary: "today" } },
-    },
-    a11yDisabledText: {
-      type: "string",
-      control: "text",
-      description:
-        "Clipped text appended to disabled cells for screen readers (non-interactive calendars).",
-      table: { defaultValue: { summary: "disabled" } },
-    },
-    a11ySelectedText: {
-      type: "string",
-      control: "text",
-      description:
-        "Clipped text appended to selected cells for screen readers (non-interactive calendars).",
-      table: { defaultValue: { summary: "selected" } },
-    },
     a11yRangeText: {
       control: "object",
     },
