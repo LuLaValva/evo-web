@@ -18,35 +18,15 @@ export default {
     },
   },
 
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     size: {
-      type: "string",
-      options: ["regular (default)", "small", "large"],
       control: "inline-radio",
-      description: "Size variants. Controls the height of the component.",
-    },
-    a11yClearButtonText: {
-      type: "string",
-      control: "text",
-      description:
-        "Localized, text for the clear button. If not provided, then no clear button is rendered",
-    },
-    a11yControlsId: {
-      type: { name: "string", required: true },
-      control: "text",
-      description:
-        "Required. This is the id of the element that this input controls, such as the list of filtered items.",
     },
     placeholder: {
-      type: { name: "string", required: true },
       control: "text",
-      table: {
-        defaultValue: {
-          summary: "Filter",
-        },
-      },
-      description:
-        "Required. Text to show when input is empty. This is not a label",
     },
     ["<evo-input> attributes" as any]: {
       description:

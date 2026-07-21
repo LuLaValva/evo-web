@@ -20,29 +20,12 @@ export default {
     },
   },
 
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
-    string: {
-      type: { name: "string", required: true },
-      control: "text",
-      description:
-        "String to count characters from, or a number representing the current character count",
-    },
-    count: {
-      type: "number",
-      control: "number",
-      description: "Manual count value, used to override string grapheme count",
-    },
-    max: {
-      type: { name: "number", required: true },
-      control: "number",
-      description:
-        "Maximum number of characters allowed in the input, we allow users to go over this limit but `aria-live` should be set to `polite`.",
-    },
     a11yText: {
-      type: "string",
       control: "text",
-      description:
-        'Clipped text for screen readers, announced after the character count. Often something like "characters remaining". May be set to `null` only if accessibility is provided through other means.',
     },
   },
 } satisfies Meta<Input>;

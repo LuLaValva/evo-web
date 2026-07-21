@@ -1,9 +1,18 @@
 export interface Input extends Marko.HTML.TextArea {
+    /**
+     * If `large`, renders larger sized textarea.
+     * @default "regular"
+     */
     inputSize?: "regular" | "large";
+    /** Textarea fills 100% of its container width. */
     fluid?: boolean;
+    /** Only works with floating label. If set, then background is obscured of the floating label. Used to prevent label overlap */
     opaqueLabel?: boolean;
+    /** If set then shows this text as the floating label. */
     floatingLabel?: string;
+    /** Floating label will _always_ stay in the "up" position */
     floatingLabelStatic?: boolean;
+    /** Indicates a field-level error with red border */
     invalid?: boolean;
 }
 

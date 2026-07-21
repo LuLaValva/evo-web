@@ -18,6 +18,9 @@ export default {
     },
   },
 
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     value: {
       controllable: true,
@@ -26,36 +29,7 @@ export default {
       description: "The value of the textarea",
     },
     inputSize: {
-      type: "string",
-      options: ["regular (default)", "large"],
       control: "inline-radio",
-      description: "If large, renders larger sized textarea.",
-    },
-    fluid: {
-      type: "boolean",
-      control: "boolean",
-      description: "Textarea fills 100% of its container width.",
-    },
-    opaqueLabel: {
-      type: "boolean",
-      control: "boolean",
-      description:
-        "Only works with floating label. If set, then background is obscured of the floating label. Used to prevent label overlap",
-    },
-    floatingLabel: {
-      type: "string",
-      control: "text",
-      description: "If set then shows this text as the floating label.",
-    },
-    floatingLabelStatic: {
-      type: "boolean",
-      control: "boolean",
-      description: 'Floating label will _always_ stay in the "up" position',
-    },
-    invalid: {
-      type: "boolean",
-      control: "boolean",
-      description: "Indicates a field-level error with red border",
     },
     ["<textarea> attributes" as any]: {
       description:

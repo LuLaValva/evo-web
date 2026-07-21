@@ -1,6 +1,9 @@
 export interface Input extends Omit<Marko.HTML.Span, "content"> {
+    /** String to count characters from */
     string: string;
+    /** Manual count value, used to override string grapheme count */
     count?: number;
+    /** Maximum number of characters allowed in the input, we allow users to go over this limit but `aria-live` should be set to `polite`. */
     max: number;
     /**
      * Clipped text for screen readers. Often something like `"characters used"`

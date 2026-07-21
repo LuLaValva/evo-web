@@ -32,6 +32,9 @@ export default {
     },
   },
 
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     value: {
       controllable: true,
@@ -40,33 +43,9 @@ export default {
       description: "The value of the input",
     },
     inputSize: {
-      type: "string",
-      options: ["regular (default)", "large"],
       control: "inline-radio",
-      description: "If large, renders larger sized input.",
-    },
-    fluid: {
-      type: "boolean",
-      control: "boolean",
-      description: "Input fills 100% of its container width.",
-    },
-    floatingLabel: {
-      type: "string",
-      control: "text",
-      description: "If set then shows this text as the floating label.",
-    },
-    floatingLabelStatic: {
-      type: "boolean",
-      control: "boolean",
-      description: 'Floating label will _always_ stay in the "up" position',
-    },
-    prefixIcon: {
-      description:
-        "An `<evo-icon-*>` to show before the input. Cannot be used with floatingLabel.",
-      "@": {},
     },
     prefixText: {
-      description: "Text to show before the input.",
       "@": {
         ["<span> attributes" as any]: {
           description:
@@ -75,7 +54,6 @@ export default {
       },
     },
     postfixText: {
-      description: "Text to show after the input.",
       "@": {
         ["<span> attributes" as any]: {
           description:
@@ -84,15 +62,7 @@ export default {
       },
     },
     postfixIcon: {
-      description:
-        "An `<evo-icon-*>` to show after the input. Cannot be used with floatingLabel.",
       "@": {
-        a11yText: {
-          type: "string",
-          control: "text",
-          description:
-            "A descriptive label for the postfix icon button. If set, the icon becomes clickable and wrapped with a `<button>` tag.",
-        },
         "aria-label": {
           type: "string",
           control: "text",
@@ -104,11 +74,6 @@ export default {
             "If `aria-label` is present, all attributes and event handlers from [the native HTML `<button>` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button) will be passed through",
         },
       },
-    },
-    invalid: {
-      type: "boolean",
-      control: "boolean",
-      description: "Indicates a field-level error with red border",
     },
     ["<input> attributes" as any]: {
       description:

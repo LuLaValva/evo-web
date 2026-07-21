@@ -20,38 +20,14 @@ export default {
     },
   },
 
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     value: {
       controllable: true,
-      type: "number",
-      control: "number",
-      description: "The value of the input.",
-    },
-    min: {
-      type: "number",
-      control: "number",
-      description: "The minimum value.",
-    },
-    max: {
-      type: "number",
-      control: "number",
-      description: "The maximum value.",
-    },
-    a11yDeleteText: {
-      type: "string",
-      control: "text",
-      description:
-        "The accessibility text for the delete button. Required for a delete button to render",
-    },
-    a11yText: {
-      type: { name: "string", required: true },
-      control: "text",
-      description:
-        "Either this or `<@label>` is required. Renders text for screen readers",
     },
     label: {
-      description:
-        "Either this or `a11yText` is required. Renders label inside input if set",
       "@": {
         ["<label> attributes" as any]: {
           description:
@@ -65,17 +41,14 @@ export default {
     },
     onIncrement: {
       action: "onIncrement",
-      description: "Triggered when increment button is clicked",
       table: { category: "Events" },
     },
     onDecrement: {
       action: "onDecrement",
-      description: "Triggered when decrement button is clicked",
       table: { category: "Events" },
     },
     onDelete: {
       action: "onDelete",
-      description: "Triggered when delete button is clicked",
       table: { category: "Events" },
     },
   },

@@ -1,16 +1,29 @@
 export interface Input extends Marko.HTML.Input {
+    /**
+     * If `large`, renders larger sized input.
+     * @default "regular"
+     */
     inputSize?: "regular" | "large";
+    /** Input fills 100% of its container width. */
     fluid?: boolean;
+    /** If set then shows this text as the floating label. */
     floatingLabel?: string;
+    /** Floating label will _always_ stay in the "up" position */
     floatingLabelStatic?: boolean;
+    /** An `<evo-icon-*>` to show before the input. Cannot be used with `floatingLabel`. */
     prefixIcon?: Marko.AttrTag<{ content: Marko.Body }>;
+    /** Text to show before the input. */
     prefixText?: Marko.AttrTag<Marko.HTML.Span>;
+    /** Text to show after the input. */
     postfixText?: Marko.AttrTag<Marko.HTML.Span>;
+    /** An `<evo-icon-*>` to show after the input. Cannot be used with `floatingLabel`. */
     postfixIcon?: Marko.AttrTag<
         Marko.HTML.Button & {
+            /** A descriptive label for the postfix icon button. If set, the icon becomes clickable and wrapped with a `<button>` tag. */
             a11yText?: string;
         }
     >;
+    /** Indicates a field-level error with red border */
     invalid?: boolean;
 }
 

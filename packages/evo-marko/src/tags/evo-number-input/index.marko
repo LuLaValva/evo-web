@@ -1,16 +1,31 @@
 import type { Input as TextboxInput } from "<evo-input>";
-export type Input = Omit<TextboxInput, "value" | "valueChange"> & {
+export type Input = Omit<TextboxInput, "value" | "valueChange" | "min" | "max"> & {
+    /** The value of the input. */
     value?: number;
     valueChange?: (value: number) => void;
+    /** The minimum value. */
     min?: number;
+    /** The maximum value. */
     max?: number;
+    /** The accessibility text for the delete button. Required for a delete button to render */
     a11yDeleteText?: string;
+    /** Triggered when increment button is clicked */
     onIncrement?: (event: Event, target: HTMLElement, value:number) => void;
+    /** Triggered when decrement button is clicked */
     onDecrement?: (event: Event, target:HTMLElement, value:number) => void;
+    /** Triggered when delete button is clicked */
     onDelete?: (event: Event, target:HTMLElement) => void;
 } & (
-    | { label: Marko.AttrTag<Marko.HTML.Label>; a11yText?: never }
-    | { a11yText: string; label?: never; }
+    | {
+          /** Either this or `a11yText` is required. Renders label inside input if set */
+          label: Marko.AttrTag<Marko.HTML.Label>;
+          a11yText?: never;
+      }
+    | {
+          /** Either this or `<@label>` is required. Renders text for screen readers */
+          a11yText: string;
+          label?: never;
+      }
 );
 
 <const/defaultMin=(input.a11yDeleteText ? 1 : 0)>
