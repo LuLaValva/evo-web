@@ -505,7 +505,7 @@ for (const entry of entries) {
         '<span class="dot ' + worstStatus(entry) + '"></span>' +
         '<span class="name">' + name + "</span>" +
         chip +
-        '<span class="flagmark">⚑</span><span class="tick">✓</span>' +
+        '<span class="flagmark">⚑</span><span class="todo" title="not viewed yet"></span>' +
         "</a>\n";
 }
 const componentCount = new Set(entries.map((e) => e.component)).size;

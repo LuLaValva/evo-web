@@ -135,8 +135,17 @@ a.story:hover { background: color-mix(in srgb, var(--accent) 10%, transparent); 
 a.story:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
 a.story .name { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 a.story .name small { color: var(--fg-muted); }
-a.story .tick { color: var(--added); visibility: hidden; font-size: 12px; }
-a.story.viewed .tick { visibility: visible; }
+/* Unread-style marker: rows you have NOT opened yet carry a dot, so
+   "anything left?" is answered by scanning for dots, not for gaps
+   between checkmarks. Viewed rows show nothing (and dim via :visited). */
+a.story .todo {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: var(--accent);
+    flex: none;
+}
+a.story.viewed .todo { visibility: hidden; }
 a.story .flagmark { color: var(--flag); visibility: hidden; font-size: 13px; }
 a.story.flagged .flagmark { visibility: visible; }
 .chip {
