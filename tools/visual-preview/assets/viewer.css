@@ -333,16 +333,8 @@ pre.diff .hunk { color: var(--accent); }
 
 /* Index intro pane */
 .intro { max-width: 640px; }
-.intro h2 { font-size: 16px; margin: 4px 0 4px; }
-.intro ul { padding-left: 20px; display: flex; flex-direction: column; gap: 8px; margin: 8px 0; }
-.intro .fine { color: var(--fg-muted); font-size: 12.5px; }
-.todo-demo {
-    display: inline-block;
-    width: 9px;
-    height: 9px;
-    border-radius: 50%;
-    background: var(--accent);
-}
+.intro h1 { font-size: 24px; margin: 8px 0 2px; }
+.intro .subheading { color: var(--fg-muted); font-size: 15px; margin: 0 0 16px; }
 kbd {
     background: var(--bg-inset);
     border: 1px solid var(--border);
