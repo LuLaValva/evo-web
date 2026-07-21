@@ -1,16 +1,14 @@
 #!/usr/bin/env node
 /**
- * Builds the visual-regression preview viewer: a single self-contained HTML
- * file showing rendered before/after for every changed visual-html snapshot
- * section, plus the raw text diff.
- *
- * The same artifact serves local review and CI (workflow artifact or per-PR
- * deploy) — visual-html snapshots are renderable HTML with unresolved
- * var() token references, so the viewer only needs token CSS to render
- * them, not the component CSS of either ref.
+ * Builds the visual-regression preview viewer: an index page plus one
+ * fully rendered HTML page per changed story (s/<slug>.html), with shared
+ * assets (per-ref compiled CSS bundles, tokens, icon sprites, viewer
+ * chrome) emitted once into assets/. The same output serves local review
+ * and CI (workflow artifact or per-PR deploy).
  *
  * Usage:
- *   node tools/visual-preview/build.mjs [--base <git-ref>] [--out <file>]
+ *   node tools/visual-preview/build.mjs [--base <git-ref>] [--out <dir>]
+ *     [--pr-number N --pr-url URL --pr-title TITLE]
  *
  * --base defaults to the merge base with origin/main (falling back to
  * main), so the diff matches what a PR against main would show.
@@ -374,6 +372,12 @@ function worstStatus(e) {
     const st = new Set(e.dims.map((d) => d.status));
     return st.has("removed") ? "removed" : st.has("added") ? "added" : "changed";
 }
+// "changed" is the overwhelmingly common case — only the unusual
+// statuses get a marker in story lists.
+function statusChip(e) {
+    const st = worstStatus(e);
+    return st === "changed" ? "" : '<span class="chip ' + st + '">' + st + "</span>";
+}
 
 const baseRef = resolveBaseRef();
 const { entries, sectionCount, unchangedSections } = buildManifest(baseRef);
@@ -671,8 +675,8 @@ for (const entry of entries) {
         ' data-slug="' + entry.slug + '" data-hash="' + entry.hash + '"' +
         ' data-text="' + escapeHtml(searchText) + '"' +
         ' title="' + escapeHtml(entry.file) + '">' +
-        '<span class="dot ' + worstStatus(entry) + '"></span>' +
         '<span class="name">' + name + "</span>" +
+        statusChip(entry) +
         chip +
         '<span class="flagmark">⚑</span><span class="todo" title="not viewed yet"></span>' +
         "</a>\n";
