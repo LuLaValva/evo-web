@@ -17,10 +17,12 @@
  */
 import { execFileSync } from "node:child_process";
 import fs from "node:fs";
+import { createRequire } from "node:module";
 import os from "node:os";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { createPatch } from "diff";
+import { createAnnotator } from "./lib/diff.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -266,7 +268,6 @@ const BUNDLE_DIST = "packages/skin/dist/bundles/skin-full.css";
 const SPRITE_DIST = "packages/skin/dist/svg/icons.svg";
 
 async function compileBundle(rootDir) {
-    const { createRequire } = await import("node:module");
     const sass = createRequire(path.join(repoRoot, "package.json"))("sass");
     return sass.compile(path.join(rootDir, BUNDLE_SCSS), {
         loadPaths: [path.join(repoRoot, "node_modules")],
@@ -450,21 +451,177 @@ writeAsset(
         ";",
 );
 
-// ---- per-story pages ----
+// ---- per-story pages (fully rendered at build time) ----
+// Pages ship as finished HTML — the element diff runs here under jsdom,
+// frame documents are baked into static srcdoc attributes, and the
+// inspector/text-diff markup is pre-rendered. Client JS only enhances:
+// compare modes, theme/highlight toggles, measuring, review stores.
+const { JSDOM } = createRequire(path.join(repoRoot, "package.json"))("jsdom");
+const jsdomWindow = new JSDOM("").window;
+const annotate = createAnnotator((html) => {
+    const body = jsdomWindow.document.createElement("body");
+    body.innerHTML = html;
+    return body;
+});
+
+const escAttr = (s) => s.replace(/&/g, "&amp;").replace(/"/g, "&quot;");
+
+const HIGHLIGHT_CSS =
+    "body.vhd-on [data-vhd=changed]{outline:2px dashed #c026d3;outline-offset:2px}" +
+    "body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}" +
+    "body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}" +
+    ".vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}";
+const FRAME_BODY_CSS =
+    "body{margin:16px;background:var(--color-background-primary,#fff);" +
+    "color:var(--color-foreground-primary,#111)}" +
+    // Storybook helper class (.storybook/custom-styles.css) some
+    // font-size stories rely on.
+    ".font-large{font-size:200%}";
+
+// Frame heads resolve shared assets through a relative <base> (srcdoc
+// inherits the parent page's base URL). Both token themes are linked with
+// dark disabled; the viewer's theme toggle flips the disabled flag at
+// runtime instead of rebuilding the frame.
+function frameHead(extraCss) {
+    return (
+        '<base href="../assets/">' +
+        extraCss.map((f) => '<link rel="stylesheet" href="' + f + '">').join("") +
+        '<link rel="stylesheet" href="tokens-light.css">' +
+        '<link rel="stylesheet" href="tokens-dark.css" disabled data-vp-dark>' +
+        '<style data-vp-scheme>:root{color-scheme:light}</style>' +
+        "<style>" + FRAME_BODY_CSS + HIGHLIGHT_CSS + "</style>"
+    );
+}
+function realFrameDoc(storyHtml, rtl, ref) {
+    return (
+        '<!doctype html><html dir="' + (rtl ? "rtl" : "ltr") + '">' +
+        "<head>" + frameHead([ref === "base" ? "base.css" : "head.css"]) + "</head>" +
+        '<body class="vhd-on">' +
+        '<script src="sprite-' + ref + '.js"></script>' +
+        storyHtml +
+        "</body></html>"
+    );
+}
+// Fallback when the story source is unavailable at a ref: render the
+// snapshot's inlined-styles HTML (annotated — data-vhd anchors baked in).
+// visual-html self-closes childless non-void elements, which HTML parsers
+// reject — expand them first.
+const VOID_TAGS = /^(?:area|base|br|col|embed|hr|img|input|link|meta|source|track|wbr|use|path|circle|rect|line|polyline|polygon|ellipse|stop)$/;
+function expandSelfClosed(html) {
+    return html.replace(
+        /<([a-z][a-z0-9-]*)((?:[^<>"]|"[^"]*")*)\/>/gi,
+        (m, tag, attrs) =>
+            VOID_TAGS.test(tag.toLowerCase()) ? m : "<" + tag + attrs + "></" + tag + ">",
+    );
+}
+function snapshotFrameDoc(annotatedHtml, rtl) {
+    return (
+        '<!doctype html><html dir="' + (rtl ? "rtl" : "ltr") + '">' +
+        "<head>" + frameHead([]) +
+        '<style>body{font-family:"Market Sans",Arial,sans-serif}</style></head>' +
+        '<body class="vhd-on">' +
+        expandSelfClosed(annotatedHtml) +
+        "</body></html>"
+    );
+}
+
+function diffPreHtml(diff) {
+    return diff
+        .split("\n")
+        .map((line) => {
+            const cls = line.startsWith("+") ? "add" : line.startsWith("-") ? "del" : line.startsWith("@@") ? "hunk" : "";
+            const esc = escapeHtml(line);
+            return cls ? '<span class="' + cls + '">' + esc + "</span>" : esc;
+        })
+        .join("\n");
+}
+
+function inspectorHtml(changes) {
+    let out =
+        '<aside class="inspector"><h3>' +
+        changes.length + " changed element" + (changes.length === 1 ? "" : "s") +
+        "</h3>";
+    for (const c of changes) {
+        out +=
+            '<div class="change-row" data-change-id="' + c.id + '">' +
+            '<button type="button"><span class="where">' +
+            escapeHtml(c.path.join(" › ") || "(root)") +
+            '</span> <span class="count">— ' + c.props.length + "</span></button><table>";
+        for (const p of c.props) {
+            out +=
+                '<tr><td class="prop">' + escapeHtml(p.name) + "</td>" +
+                '<td><span class="b">' + escapeHtml(p.before) + '</span><span class="a">' +
+                escapeHtml(p.after) + "</span></td></tr>";
+        }
+        out += "</table></div>";
+    }
+    return out + "</aside>";
+}
+
+function staticMain(entry) {
+    let out = "";
+    entry.dims.forEach((dim, i) => {
+        const annotated = annotate(dim);
+        // Runtime only needs the change paths to map highlights onto REAL
+        // story frames (fallback frames carry baked data-vhd anchors).
+        dim._changes = annotated.changes.map(({ id, kind, path, pathB, pathA }) => ({
+            id, kind, path, pathB, pathA,
+        }));
+        const fluid = dim.width === null;
+        const solo = !dim.before || !dim.after;
+        out += '<section class="dim-section" id="dim-' + i + '" data-dim="' + i + '">';
+        if (entry.dims.length > 1) {
+            out += '<h3 class="dim-label">' + escapeHtml(dim.suffix || "fluid width") + "</h3>";
+        }
+        out += '<div class="stage"><div class="render-area">';
+        out +=
+            '<div class="duo mode-side ' + (fluid ? "fluid" : "fixed") +
+            (solo ? " solo" : "") + '"' + (fluid ? "" : ' data-width="' + dim.width + '"') + ">";
+        for (const side of ["base", "head"]) {
+            const present = side === "base" ? !!dim.before : !!dim.after;
+            out += '<div class="duo-side ' + side + '">';
+            out +=
+                '<h3 class="pane-label">' +
+                escapeHtml(side === "base" ? "Base (" + baseRefShort + ")" : "This PR") +
+                "</h3>";
+            if (!present) {
+                out +=
+                    '<div class="not-present">not present in ' +
+                    (side === "head" ? "this PR" : "base") +
+                    "</div>";
+            } else {
+                const story = side === "base" ? entry.storyBefore : entry.storyAfter;
+                const doc =
+                    story != null
+                        ? realFrameDoc(story, dim.rtl, side)
+                        : snapshotFrameDoc(
+                              side === "base" ? annotated.beforeHtml : annotated.afterHtml,
+                              dim.rtl,
+                          );
+                out +=
+                    '<div class="frame-wrap ' + (fluid ? "fluid" : "fixed") + '">' +
+                    '<iframe loading="lazy" data-side="' + side + '"' +
+                    (story != null ? ' data-real="1"' : "") +
+                    ' srcdoc="' + escAttr(doc) + '"></iframe></div>';
+            }
+            out += '<div class="zoom-note"></div></div>';
+        }
+        out += "</div>"; // .duo
+        out += '<pre class="diff" hidden>' + diffPreHtml(dim.diff) + "</pre>";
+        out += "</div>"; // .render-area
+        if (annotated.changes.length) out += inspectorHtml(annotated.changes);
+        out += "</div></section>";
+    });
+    return out;
+}
+
 const storyTemplate = fs.readFileSync(
     path.join(__dirname, "templates", "story.html"),
     "utf8",
 );
 entries.forEach((entry, i) => {
+    const main = staticMain(entry);
     const page = {
-        entry: {
-            component: entry.component,
-            story: entry.story,
-            file: entry.file,
-            dims: entry.dims,
-            storyBefore: entry.storyBefore,
-            storyAfter: entry.storyAfter,
-        },
         baseRefShort,
         prevHref: i > 0 ? entries[i - 1].slug + ".html" : null,
         nextHref: i < entries.length - 1 ? entries[i + 1].slug + ".html" : null,
@@ -473,9 +630,16 @@ entries.forEach((entry, i) => {
         total: entries.length,
         slug: entry.slug,
         hash: entry.hash,
+        component: entry.component,
+        story: entry.story,
+        file: entry.file,
+        dims: entry.dims.map((d) => ({ changes: d._changes })),
     };
     const html = storyTemplate
         .replace("__TITLE__", escapeHtml(entry.component + " / " + entry.story) + " — visual review")
+        .replace("__H1__", escapeHtml(entry.component + " / " + entry.story))
+        .replace("__PATH__", escapeHtml(entry.file))
+        .replace("__MAIN__", () => main)
         .replace("/*__PAGE__*/", () => jsonInline(page));
     fs.writeFileSync(path.join(outDir, "s", entry.slug + ".html"), html);
 });
