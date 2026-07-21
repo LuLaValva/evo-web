@@ -44,14 +44,11 @@ function setFlagged(v) {
 const PREF_KEY = "vp:prefs";
 const prefs = readStore(PREF_KEY);
 const state = {
-    dimIdx: (() => {
-        const m = location.hash.match(/^#dim-(\d+)$/);
-        return m ? Math.min(Number(m[1]), entry.dims.length - 1) : 0;
-    })(),
     mode: ["side", "swipe", "onion", "flip"].includes(prefs.mode) ? prefs.mode : "side",
     view: "rendered", // rendered | diff
     theme: prefs.theme === "dark" ? "dark" : "light",
     highlights: prefs.highlights !== false,
+    filter: "",
     swipe: 50,
     onion: 50,
 };
@@ -62,12 +59,8 @@ function savePrefs() {
         highlights: state.highlights,
     });
 }
-function syncDimHash() {
-    // replaceState keeps dim selection shareable without polluting history
-    history.replaceState(null, "", state.dimIdx ? "#dim-" + state.dimIdx : location.pathname);
-}
 
-let flipToggle = null; // set by renderStack in flip mode
+let flipToggles = []; // set by renderStack in flip mode (one per dim)
 let highlightsCheckbox = null;
 let flagButton = null;
 
@@ -215,7 +208,9 @@ function annotate(dim) {
     const bRoot = parseFragment(dim.before);
     const aRoot = parseFragment(dim.after);
     const changes = [];
-    nextId = 0;
+    // nextId is NOT reset here: with every dimension rendered on the same
+    // page, change ids must stay unique across dims or flashChange would
+    // light up elements in other dims' frames.
     if (dim.before && dim.after) diffTrees(bRoot, aRoot, [], changes, [], []);
     return { beforeHtml: bRoot.innerHTML, afterHtml: aRoot.innerHTML, changes };
 }
@@ -553,24 +548,54 @@ function renderSidePanes(dim, annotated) {
     return panes;
 }
 
-function renderStack(dim, annotated, mode) {
+// Stacked frames must scroll together: pointer events reach whichever
+// layer is on top (or through clip-path holes in swipe mode), so wide or
+// tall stories would otherwise drift out of alignment the moment either
+// layer scrolls.
+function syncFrameScroll(a, b) {
+    let lock = false;
+    const mirror = (src, dst) => () => {
+        if (lock) return;
+        lock = true;
+        try {
+            dst.contentWindow?.scrollTo(
+                src.contentWindow.scrollX,
+                src.contentWindow.scrollY,
+            );
+        } finally {
+            lock = false;
+        }
+    };
+    try {
+        a.contentWindow.addEventListener("scroll", mirror(a, b));
+        b.contentWindow.addEventListener("scroll", mirror(b, a));
+    } catch {
+        /* frames are same-origin srcdoc; belt and braces */
+    }
+}
+
+function renderStack(container, dim, annotated, mode) {
     const stack = document.createElement("div");
     stack.className = "stack " + (dim.width === null ? "fluid" : "fixed");
     const h = document.createElement("h3");
     stack.appendChild(h);
 
-    const wrap = makeWrap(dim, () =>
-        mainEl.querySelector(".render-area").clientWidth,
-    );
+    const wrap = makeWrap(dim, () => container.clientWidth);
     wrap.classList.add("stacked");
     const baseDoc = frameDocFor(dim, annotated, "base");
     const headDoc = frameDocFor(dim, annotated, "head");
+    let loaded = 0;
+    const onBothLoaded = () => {
+        if (++loaded === 2) syncFrameScroll(base, top);
+    };
     const base = addFrame(wrap, baseDoc.doc, {
+        onload: onBothLoaded,
         annotate: baseDoc.real
             ? (f) => applyRealHighlights(f, annotated.changes, "before")
             : null,
     });
     const top = addFrame(wrap, headDoc.doc, {
+        onload: onBothLoaded,
         annotate: headDoc.real
             ? (f) => applyRealHighlights(f, annotated.changes, "after")
             : null,
@@ -646,43 +671,31 @@ function renderStack(dim, annotated, mode) {
                 "Flip — showing " + (showing === "after" ? "this PR" : "base") +
                 " (click or press f)";
         };
-        flipToggle = () => {
+        const flip = () => {
             showing = showing === "after" ? "before" : "after";
             apply();
         };
+        flipToggles.push(flip);
         apply();
         wrap.style.cursor = "pointer";
-        wrap.onclick = flipToggle;
+        wrap.onclick = flip;
     }
     stack.appendChild(note);
     return stack;
 }
 
 function render({ preserveScroll = false } = {}) {
-    const keepScroll = preserveScroll ? window.scrollY : 0;
+    const keepScroll = preserveScroll ? mainEl.scrollTop : 0;
     liveFrames = [];
     scaledWraps = [];
-    flipToggle = null;
+    flipToggles = [];
     highlightsCheckbox = null;
     flagButton = null;
     mainEl.textContent = "";
-    if (preserveScroll) requestAnimationFrame(() => window.scrollTo(0, keepScroll));
-    const dim = entry.dims[Math.min(state.dimIdx, entry.dims.length - 1)];
+    if (preserveScroll) requestAnimationFrame(() => (mainEl.scrollTop = keepScroll));
 
     const toolbar = document.createElement("div");
     toolbar.className = "toolbar";
-    if (entry.dims.length > 1) {
-        toolbar.appendChild(
-            segment(
-                entry.dims.map((d, i) => ({
-                    label: d.suffix || "fluid",
-                    value: i,
-                })),
-                Math.min(state.dimIdx, entry.dims.length - 1),
-                (v) => { state.dimIdx = v; syncDimHash(); render({ preserveScroll: true }); },
-            ),
-        );
-    }
     toolbar.appendChild(
         segment(
             [
@@ -731,6 +744,7 @@ function render({ preserveScroll = false } = {}) {
         flag.title = on
             ? "Flagged for follow-up — click to unflag"
             : "Flag this diff for follow-up (x)";
+        buildSidebar();
     };
     flag.onclick = () => {
         setFlagged(!isFlagged());
@@ -741,26 +755,39 @@ function render({ preserveScroll = false } = {}) {
     toolbar.appendChild(flag);
     mainEl.appendChild(toolbar);
 
-    if (state.view === "diff") {
-        mainEl.appendChild(renderDiffPane(dim));
-        return;
-    }
-
-    const annotated = annotate(dim);
-    const stage = document.createElement("div");
-    stage.className = "stage";
-    const renderArea = document.createElement("div");
-    renderArea.className = "render-area";
-    stage.appendChild(renderArea);
-    if (annotated.changes.length) {
-        stage.appendChild(renderInspector(annotated.changes));
-    }
-    mainEl.appendChild(stage);
-    if (state.mode === "side" || !dim.before || !dim.after) {
-        renderArea.appendChild(renderSidePanes(dim, annotated));
-    } else {
-        renderArea.appendChild(renderStack(dim, annotated, state.mode));
-    }
+    // All captured dimensions render stacked — scroll instead of toggling.
+    entry.dims.forEach((dim, i) => {
+        const section = document.createElement("section");
+        section.className = "dim-section";
+        section.id = "dim-" + i;
+        if (entry.dims.length > 1) {
+            const label = document.createElement("h3");
+            label.className = "dim-label";
+            label.textContent = dim.suffix || "fluid width";
+            section.appendChild(label);
+        }
+        if (state.view === "diff") {
+            section.appendChild(renderDiffPane(dim));
+            mainEl.appendChild(section);
+            return;
+        }
+        const annotated = annotate(dim);
+        const stage = document.createElement("div");
+        stage.className = "stage";
+        const renderArea = document.createElement("div");
+        renderArea.className = "render-area";
+        stage.appendChild(renderArea);
+        if (annotated.changes.length) {
+            stage.appendChild(renderInspector(annotated.changes));
+        }
+        section.appendChild(stage);
+        if (state.mode === "side" || !dim.before || !dim.after) {
+            renderArea.appendChild(renderSidePanes(dim, annotated));
+        } else {
+            renderArea.appendChild(renderStack(renderArea, dim, annotated, state.mode));
+        }
+        mainEl.appendChild(section);
+    });
     scaledWraps.forEach(applyScale);
 }
 
@@ -771,6 +798,18 @@ function onKeydown(e) {
     // Never intercept browser/system chords (Ctrl+R must reload, not
     // toggle state).
     if (e.ctrlKey || e.metaKey || e.altKey) return;
+    const searchEl = document.getElementById("search");
+    if (e.target === searchEl) {
+        if (e.key === "Escape") {
+            // The browser clears type=search on Escape without firing
+            // input; keep the filter in sync explicitly.
+            searchEl.value = "";
+            state.filter = "";
+            buildSidebar();
+            searchEl.blur();
+        }
+        return;
+    }
     // Don't steal keys from form controls (sliders use arrows, story
     // content may contain inputs/textareas).
     if (e.target?.closest?.("input, textarea, select, [contenteditable]")) {
@@ -780,20 +819,13 @@ function onKeydown(e) {
         if (PAGE.nextHref) location.href = PAGE.nextHref;
     } else if (e.key === "k" || e.key === "ArrowUp") {
         if (PAGE.prevHref) location.href = PAGE.prevHref;
-    } else if (e.key >= "1" && e.key <= "9") {
-        const i = Number(e.key) - 1;
-        if (i < entry.dims.length) {
-            state.dimIdx = i;
-            syncDimHash();
-            render({ preserveScroll: true });
-        }
     } else if (e.key === "m") {
         state.mode = MODES[(MODES.indexOf(state.mode) + 1) % MODES.length];
         state.view = "rendered";
         savePrefs();
         render({ preserveScroll: true });
-    } else if (e.key === "f" && flipToggle) {
-        flipToggle();
+    } else if (e.key === "f" && flipToggles.length) {
+        flipToggles.forEach((flip) => flip());
     } else if (e.key === "t") {
         state.theme = state.theme === "light" ? "dark" : "light";
         savePrefs();
@@ -806,11 +838,81 @@ function onKeydown(e) {
     } else if (e.key === "x") {
         setFlagged(!isFlagged());
         if (flagButton) flagButton.sync();
+    } else if (e.key === "/") {
+        e.preventDefault();
+        searchEl?.focus();
     } else if (e.key === "Escape") {
         location.href = PAGE.indexHref;
     }
 }
 document.addEventListener("keydown", onKeydown);
+
+// ---------- sidebar (full story list, shared via ../assets/nav.js) ----------
+function buildSidebar() {
+    const listEl = document.getElementById("storylist");
+    if (!listEl || typeof NAV === "undefined") return;
+    const viewed = readStore("vp:viewed");
+    const flags = readStore("vp:flags");
+    const f = state.filter.trim().toLowerCase();
+    listEl.textContent = "";
+    let lastComponent = null;
+    let activeLink = null;
+    for (const item of NAV.entries) {
+        if (f && !(item.component + " " + item.story + " " + (item.qualifier || "")).toLowerCase().includes(f)) {
+            continue;
+        }
+        if (item.component !== lastComponent) {
+            lastComponent = item.component;
+            const h = document.createElement("h2");
+            h.textContent = item.component;
+            listEl.appendChild(h);
+        }
+        const a = document.createElement("a");
+        a.className = "story";
+        a.href = item.slug + ".html";
+        if (item.slug === PAGE.slug) {
+            a.classList.add("active");
+            activeLink = a;
+        }
+        if (viewed[item.slug] === item.hash) a.classList.add("viewed");
+        if (flags[item.slug] === item.hash) a.classList.add("flagged");
+        const dot = document.createElement("span");
+        dot.className = "dot " + item.status;
+        const name = document.createElement("span");
+        name.className = "name";
+        name.textContent = item.story;
+        if (item.qualifier) {
+            const small = document.createElement("small");
+            small.textContent = " · " + item.qualifier;
+            name.appendChild(small);
+        }
+        a.append(dot, name);
+        if (item.chip) {
+            const chip = document.createElement("span");
+            chip.className = "chip";
+            chip.textContent = item.chip;
+            a.appendChild(chip);
+        }
+        const flagmark = document.createElement("span");
+        flagmark.className = "flagmark";
+        flagmark.textContent = "⚑";
+        const tick = document.createElement("span");
+        tick.className = "tick";
+        tick.textContent = "✓";
+        a.append(flagmark, tick);
+        listEl.appendChild(a);
+    }
+    activeLink?.scrollIntoView({ block: "nearest" });
+}
+{
+    const searchEl = document.getElementById("search");
+    if (searchEl) {
+        searchEl.oninput = () => {
+            state.filter = searchEl.value;
+            buildSidebar();
+        };
+    }
+}
 
 // ---------- boot ----------
 document.getElementById("title").textContent = entry.component + " / " + entry.story;
@@ -826,4 +928,9 @@ document.title = entry.component + " / " + entry.story + " — visual review";
     if (PAGE.nextHref) next.href = PAGE.nextHref;
     else next.setAttribute("aria-disabled", "true");
 }
+buildSidebar();
 render();
+// Deep links to a dimension: #dim-N scrolls to that section.
+if (/^#dim-\d+$/.test(location.hash)) {
+    document.querySelector(location.hash)?.scrollIntoView();
+}
