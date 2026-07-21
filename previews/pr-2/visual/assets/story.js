@@ -896,10 +896,10 @@ function buildSidebar() {
         const flagmark = document.createElement("span");
         flagmark.className = "flagmark";
         flagmark.textContent = "⚑";
-        const tick = document.createElement("span");
-        tick.className = "tick";
-        tick.textContent = "✓";
-        a.append(flagmark, tick);
+        const todo = document.createElement("span");
+        todo.className = "todo";
+        todo.title = "not viewed yet";
+        a.append(flagmark, todo);
         listEl.appendChild(a);
     }
     activeLink?.scrollIntoView({ block: "nearest" });
