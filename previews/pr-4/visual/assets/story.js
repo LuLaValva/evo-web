@@ -48,7 +48,7 @@ const state = {
     mode: ["side", "swipe", "onion", "flip"].includes(prefs.mode) ? prefs.mode : "side",
     view: "rendered", // rendered | diff
     theme: prefs.theme === "dark" ? "dark" : "light",
-    highlights: prefs.highlights !== false,
+    highlights: prefs.highlights === true,
     filter: "",
 };
 function savePrefs() {
@@ -421,10 +421,10 @@ function onKeydown(e) {
     if (e.target?.closest?.("input, textarea, select, [contenteditable]")) {
         return;
     }
-    if (e.key === "j" || e.key === "ArrowDown") {
-        if (PAGE.nextHref) location.href = PAGE.nextHref;
-    } else if (e.key === "k" || e.key === "ArrowUp") {
+    if (e.key === "j" || e.key === "ArrowUp") {
         if (PAGE.prevHref) location.href = PAGE.prevHref;
+    } else if (e.key === "k" || e.key === "ArrowDown") {
+        if (PAGE.nextHref) location.href = PAGE.nextHref;
     } else if (e.key === "m") {
         setMode(MODES[(MODES.indexOf(state.mode) + 1) % MODES.length]);
     } else if (e.key === "f" && flipToggles.length) {
