@@ -525,3 +525,25 @@ visible-child index paths (skipping synthetic `<style>` carriers and
 The same design pass fixed viewer usability issues from QA: keyboard
 shortcuts forward from focused frames, flip-on-click, Escape clearing
 search, checkbox/state sync, responsive layout, and scroll preservation.
+
+## 11. Review-flow revision: per-story pages, viewed-on-open, flags (2026-07-21)
+
+User feedback on the single-page viewer's "Reviewed" checkbox: reviewing
+should not be a separate manual action, and diffs should be linkable.
+The viewer now builds an **index page plus one HTML page per changed
+story** (`dist/s/<slug>.html`, slugs stable across builds):
+
+- **Viewed = opened.** Opening a story page is the review action. The
+  index styles links with the browser's native `:visited`, and a
+  localStorage mirror (content-hashed per diff) powers the viewed counter
+  — a diff that changes on a later push reverts to unviewed.
+- **⚑ Flag replaces the checkbox.** The only manual action left is
+  flagging a diff for follow-up (button or `x`); flags roll up on the
+  index and are also content-hashed.
+- **Persistent URLs.** Story pages (and `#dim-N` fragments) can be shared
+  to point a teammate at one specific diff. The old
+  `visual-preview.html` URL redirects to the index.
+- Heavy per-ref assets (compiled CSS bundles, tokens, icon sprites) are
+  emitted once into `dist/assets/` and shared by all pages via `<base>`
+  links inside the srcdoc frames, so pages stay small and assets cache.
+  View preferences (mode/theme/highlights) persist across pages.
