@@ -10,7 +10,12 @@ export interface LayoutOptions {
     xl4?: number;
 }
 export interface Input extends Marko.HTML.UL {
+    /** Repeatable attr tag, acts as an `<li>` tag */
     item?: Marko.AttrTag<Marko.HTML.LI>;
+    /**
+     * Number of columns per screen size. Object keys: `min`, `xs`, `sm`, `md`, `lg`, `xl`, `xl2`, `xl3`, `xl4`
+     * @default { min: 1, xs: 2, sm: 3, md: 4, lg: 6, xl: 8, xl2: 10, xl3: 12, xl4: 14 }
+     */
     columns?: LayoutOptions;
 }
 <const/{ item: items, class: inputClass, columns = {}, ...htmlInput }=input>

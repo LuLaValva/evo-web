@@ -1,16 +1,23 @@
 import type { Input as DetailsInput } from "<evo-details>";
 export interface Input<Open extends number | number[] | undefined>
     extends Omit<Marko.HTML.UL, "aria-roledescription"> {
+    /**
+     * Size of the details
+     * @default "regular"
+     */
     size?: "regular" | "large";
     /**
      * The `aria-roledescription` of the list
      *
      * English default to be overridden is `"accordion"`
+     * @default "accordion"
      */
     a11yText: string;
+    /** Represents an [`<evo-details>` tag](?path=/story/navigation-disclosure-evo-details--default) to be used as part of the group. */
     item?: Marko.AttrTag<
         Omit<DetailsInput, "size" | "alignment" | "open" | "openChange">
     >;
+    /** The index or indices of the open items. Pass a number if only one may be open at a time, or an array for multiple */
     open?: Open;
     openChange?: (open: Open) => void;
 }

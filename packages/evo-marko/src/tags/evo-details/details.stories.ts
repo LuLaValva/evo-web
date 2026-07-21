@@ -18,10 +18,12 @@ export default {
     },
   },
 
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     content: {},
     leading: {
-      description: "Optional leading element (e.g. an icon) rendered before the summary label",
       "@": {
         ["<span> attributes" as any]: {
           description:
@@ -30,7 +32,6 @@ export default {
       },
     },
     summary: {
-      description: "The body which will be wrapped as the details summary",
       "@": {
         ["<span> attributes" as any]: {
           description:
@@ -39,29 +40,16 @@ export default {
       },
     },
     alignment: {
-      type: "string",
-      options: ["regular (default)", "center"],
       control: "inline-radio",
-      description: "The position of the details",
     },
     size: {
-      type: "string",
-      options: ["regular (default)", "small"],
       control: "inline-radio",
-      description: "Size of the details",
     },
     open: {
-      type: "boolean",
       controllable: true,
-      description: "Whether details is open",
-      table: { defaultValue: { summary: "false" } },
     },
     contentAs: {
-      type: "string",
       control: "text",
-      description:
-        "The root element inside the `<details>` that wraps content. Defaults to `<div>`",
-      table: { defaultValue: { summary: "div" } },
     },
     ["<details> attributes" as any]: {
       description:

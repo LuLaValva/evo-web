@@ -7,7 +7,6 @@ import DefaultTemplateCode from "./examples/default.marko?raw";
 import WithCustomColumnsTemplate from "./examples/with-custom-columns.marko";
 import WithCustomColumnsTemplateCode from "./examples/with-custom-columns.marko?raw";
 
-const sizes = ["min", "xs", "sm", "md", "lg", "xl", "xl2", "xl3", "xl4"];
 export default {
   title: "layout/evo-layout-grid",
   component: LayoutGrid,
@@ -19,26 +18,14 @@ export default {
     },
   },
 
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     columns: {
-      type: {
-        name: "object",
-        value: Object.fromEntries(sizes.map((s) => [s, { name: "number" }])),
-      },
       control: "object",
-      description:
-        "Number of columns per screen size. Object keys: " +
-        sizes.map((s) => `\`${s}\``).join(", "),
-
-      table: {
-        defaultValue: {
-          summary:
-            "{ min: 1, xs: 2, sm: 3, md: 4, lg: 6, xl: 8, xl2: 10, xl3: 12, xl4: 14 }",
-        },
-      },
     },
     item: {
-      description: "Repeatable attr tag, acts as an `<li>` tag",
       "@": {
         ["<li> attributes" as any]: {
           description:

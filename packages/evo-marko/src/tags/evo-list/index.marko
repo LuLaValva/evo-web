@@ -1,11 +1,19 @@
 export interface ListItem
     extends Marko.HTML.Button, Omit<Marko.HTML.A, "type" | `on${string}`> {
+    /**
+     * Override the element that the item is rendered as, instead of `<div>`
+     * @default "div"
+     */
     as?: keyof Marko.NativeTags;
+    /** Render a separator instead of a regular list item */
     separator?: boolean;
+    /** Optional leading content, rendered as a `<div>` */
     leading?: Marko.AttrTag<Marko.HTML.Div>;
+    /** Optional trailing content, rendered as a `<div>` */
     trailing?: Marko.AttrTag<Marko.HTML.Div>;
 }
 export interface Input extends Marko.HTML.Div {
+    /** Item to render in the list */
     item?: Marko.AttrTag<ListItem>;
 }
 

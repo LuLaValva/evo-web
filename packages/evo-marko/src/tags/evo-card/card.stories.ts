@@ -22,35 +22,17 @@ export default {
     },
   },
 
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     layout: {
-      type: "string",
-      options: ["vertical (default)", "horizontal"],
       control: "inline-radio",
-      description:
-        "The layout of the card. The default is vertical. The horizontal option takes up more horizontal space and is better for displaying more information.",
-    },
-    href: {
-      type: "string",
-      control: "text",
-      description:
-        "The URL to navigate to when the card is clicked. This can only be used _without_ an action element",
     },
     aspectRatio: {
-      type: "string",
-      options: ["default", "16:9", "5:4"],
       control: "inline-radio",
-      description: "The aspect ratio applied to the image.",
-    },
-    disabled: {
-      type: "boolean",
-      control: "boolean",
-      description: "Disables the interactive elements of the card.",
     },
     image: {
-      type: { name: "object", value: {}, required: true },
-      description:
-        "The top image tag. Will be passed as attributes to the `<img>` tag.",
       "@": {
         ["<img> attributes" as any]: {
           description:
@@ -59,14 +41,10 @@ export default {
       },
     },
     title: {
-      description: "The title element of the card, `<h3>` by default",
       "@": {
         as: {
-          type: "string",
           options: ["h1", "h2", "h3", "h4", "h5", "h6", "span"],
           control: "select",
-          description: "Overrides the tag used to wrap the title",
-          table: { defaultValue: { summary: "h3" } },
         },
         ["<h3> attributes" as any]: {
           description:
@@ -75,8 +53,6 @@ export default {
       },
     },
     action: {
-      description:
-        "The action element of the card. When present, the whole card is no longer clickable. Should contain an interactive element.",
       "@": {
         ["<div> attributes" as any]: {
           description:
@@ -85,8 +61,6 @@ export default {
       },
     },
     overline: {
-      description:
-        "The overline element of the card. Generally used for signals rendered above the title.",
       "@": {
         ["<div> attributes" as any]: {
           description:
@@ -95,8 +69,6 @@ export default {
       },
     },
     description: {
-      description:
-        'The description element of the card. This is to render a description below the title in tertiary element. Defaults to <p> tag (use "as" attribute to change).',
       "@": {
         ["<div> attributes" as any]: {
           description:

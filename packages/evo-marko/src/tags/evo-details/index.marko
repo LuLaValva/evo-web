@@ -1,9 +1,24 @@
 export interface Input extends Marko.Input<"details"> {
+    /** The body which will be wrapped as the details summary */
     summary?: Marko.AttrTag<Marko.Input<"span">>;
+    /** Optional leading element (e.g. an icon) rendered before the summary label */
     leading?: Marko.AttrTag<Marko.Input<"span">>;
+    /**
+     * Size of the details
+     * @default "regular"
+     */
     size?: "regular" | "small";
+    /**
+     * The position of the details
+     * @default "regular"
+     */
     alignment?: "regular" | "center";
+    /**
+     * The root element inside the `<details>` that wraps content.
+     * @default "div"
+     */
     contentAs?: keyof Marko.NativeTags;
+    /** Whether details is open */
     open?: boolean;
     openChange?: (open: boolean) => void;
 }

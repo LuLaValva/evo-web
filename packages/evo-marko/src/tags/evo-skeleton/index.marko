@@ -3,8 +3,9 @@ export interface Input extends Omit<Marko.HTML.Div, "role" | "aria-label"> {
      * The accessibility text for the skeleton
      *
      * English default to be overridden is `"Loading..."`
-     * 
+     *
      * Pass `null` explicitly _only_ if alternative accessibility information is present
+     * @default "Loading..."
      */
     a11yText: string | null;
 }

@@ -17,29 +17,14 @@ export default {
       },
     },
   },
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     size: {
-      type: "string",
-      options: ["regular (default)", "large"],
-      control: {
-        type: "inline-radio",
-      },
-      description: "Size of the details",
-    },
-    a11yText: {
-      type: { name: "string", required: true },
-      control: "text",
-      description:
-        "Localized role description to announce the component role for a11y users. May be set to `null` only if accessibility is provided through other means.",
-      table: {
-        defaultValue: {
-          summary: "accordion",
-        },
-      },
+      control: "inline-radio",
     },
     item: {
-      description:
-        "Represents an [`<evo-details>` tag](?path=/story/navigation-disclosure-evo-details--default) to be used as part of the group.",
       "@": {
         ["<evo-details> attributes" as any]: {
           description:
@@ -50,8 +35,6 @@ export default {
     open: {
       controllable: true,
       control: "number",
-      description:
-        "The index or indices of the open items. Pass a number if only one may be open at a time, or an array for multiple",
       table: { type: { summary: "number | number[]" } },
     },
     ["<ul> attributes" as any]: {

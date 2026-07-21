@@ -2,17 +2,26 @@ import { getColorForText } from "./util";
 static type Size = 32 | 40 | 48 | 56 | 64 | 96 | 128;
 static type ImagePlacement = "cover" | "fit";
 export interface Input extends Omit<Marko.HTML.Div, "role" | "aria-label"> {
+    /** The username to display. If there is no body, then this will determine what the content is. If there is no username passed, then the user is signed out. Based on the username, the icon will change colors and show the first letter if there is no user profile pic. */
     username?: string;
+    /** The color to color the background. This can only be used in the non icon/image case. This is used simply as an override to the username hash */
     color?: string;
+    /**
+     * The pixel size of the avatar. Can only be specific sizes
+     * @default "48"
+     */
     size?: Size | `${Size}`;
+    /** An optional image. Should be passed alongside `knownAspectRatio`, but if not the aspect ratio will be automatically adjusted after the image loads. */
     image?: Marko.AttrTag<Omit<Marko.HTML.Img, "alt">>;
+    /** Optional, as aspect ratio will be calculated when the image loads on the client. This can be passed to help prevent a flash of incorrectly styled content before the image loads */
     knownAspectRatio?: number;
     /**
-     * The `aria-label` of the avatar
+     * The `aria-label` of the avatar. Describes the user's state as well as their username, usually in the format of "Signed in as Bob" or "Signed out"
      *
      * English default to be overridden is `"avatar"`
-     * 
+     *
      * Pass `null` explicitly _only_ if alternative accessibility information is present
+     * @default "avatar"
      */
     a11yText: string | null;
 }

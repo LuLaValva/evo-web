@@ -20,24 +20,16 @@ export default {
     },
   },
 
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     item: {
-      description: "Item to render in the list",
       "@": {
         as: {
-          type: "string",
           control: "text",
-          description:
-            "Override the element that the item is rendered as, instead of `<div>`",
-          table: { defaultValue: { summary: "div" } },
-        },
-        separator: {
-          type: "boolean",
-          control: { type: "boolean" },
-          description: "Render a separator instead of a regular list item",
         },
         leading: {
-          description: "Optional leading content, rendered as a `<div>`",
           "@": {
             ["<div> attributes" as any]: {
               description:
@@ -46,7 +38,6 @@ export default {
           },
         },
         trailing: {
-          description: "Optional trailing content, rendered as a `<div>`",
           "@": {
             ["<div> attributes" as any]: {
               description:

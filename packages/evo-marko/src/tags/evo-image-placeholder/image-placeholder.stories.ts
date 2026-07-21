@@ -17,10 +17,12 @@ export default {
       },
     },
   },
+  // Types and required-ness come from the Input type via docgen; the
+  // `a11yText` description stays here because Input is an alias of
+  // `<evo-icon>`'s Input (auto-generated file) so its JSDoc cannot live
+  // in this component.
   argTypes: {
     a11yText: {
-      type: "string",
-      control: "text",
       description:
         "Localized text for non-decorative inline icon; icon is assumed to be decorative if this is not passed",
     },

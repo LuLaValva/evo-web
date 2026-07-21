@@ -1,12 +1,32 @@
 export interface Input extends Omit<Marko.HTML.Span, "title"> {
+    /**
+     * The layout of the card. The horizontal option takes up more horizontal space and is better for displaying more information.
+     * @default "vertical"
+     */
     layout?: "horizontal" | "vertical";
+    /** The aspect ratio applied to the image. */
     aspectRatio?: "16:9" | "5:4";
+    /** The overline element of the card. Generally used for signals rendered above the title. */
     overline?: Marko.AttrTag<Marko.HTML.Div>;
-    title?: Marko.AttrTag<Marko.HTML.H3 & { as?: keyof Marko.NativeTags }>;
+    /** The title element of the card, `<h3>` by default */
+    title?: Marko.AttrTag<
+        Marko.HTML.H3 & {
+            /**
+             * Overrides the tag used to wrap the title
+             * @default "h3"
+             */
+            as?: keyof Marko.NativeTags;
+        }
+    >;
+    /** The description element of the card. This is to render a description below the title in a tertiary element. */
     description?: Marko.AttrTag<Marko.HTML.Div>;
+    /** Disables the interactive elements of the card. */
     disabled?: boolean;
+    /** The action element of the card. When present, the whole card is no longer clickable. Should contain an interactive element. */
     action?: Marko.AttrTag<Marko.HTML.Div>;
+    /** The URL to navigate to when the card is clicked. This can only be used _without_ an action element */
     href?: string;
+    /** The top image tag. Will be passed as attributes to the `<img>` tag. */
     image: Marko.AttrTag<Marko.HTML.Img>;
 }
 

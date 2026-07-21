@@ -16,12 +16,15 @@ export default {
     },
   },
 
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
+  // `size` and `multiline` are props of the `evo-skeleton-button` /
+  // `evo-skeleton-text` subtags, not of this component's Input, so docgen
+  // cannot see them and they keep their full argTypes entries.
   argTypes: {
     a11yText: {
-      type: { name: "string", required: true },
       control: "text",
-      description:
-        'Localized accessibility text for the component. English default to be overridden is "Loading...". May be set to `null` only if accessibility is provided through other means.',
     },
     size: {
       type: "string",
