@@ -478,16 +478,20 @@ const FRAME_BODY_CSS =
     // font-size stories rely on.
     ".font-large{font-size:200%}";
 
-// Frame heads resolve shared assets through a relative <base> (srcdoc
-// inherits the parent page's base URL). Both token themes are linked with
-// dark disabled; the viewer's theme toggle flips the disabled flag at
-// runtime instead of rebuilding the frame.
+// Frame asset URLs are written with an explicit ../assets/ prefix
+// (relative to the parent /s/ page — srcdoc documents resolve against
+// the parent's base URL). Deliberately NOT a <base> element: Chrome's
+// speculative preload scanner fetches link/script URLs before <base> is
+// applied, producing a wave of aborted /s/* 404s per frame. Both token
+// themes are linked with dark disabled; the viewer's theme toggle flips
+// the disabled flag at runtime instead of rebuilding the frame.
 function frameHead(extraCss) {
     return (
-        '<base href="../assets/">' +
-        extraCss.map((f) => '<link rel="stylesheet" href="' + f + '">').join("") +
-        '<link rel="stylesheet" href="tokens-light.css">' +
-        '<link rel="stylesheet" href="tokens-dark.css" disabled data-vp-dark>' +
+        extraCss
+            .map((f) => '<link rel="stylesheet" href="../assets/' + f + '">')
+            .join("") +
+        '<link rel="stylesheet" href="../assets/tokens-light.css">' +
+        '<link rel="stylesheet" href="../assets/tokens-dark.css" disabled data-vp-dark>' +
         '<style data-vp-scheme>:root{color-scheme:light}</style>' +
         "<style>" + FRAME_BODY_CSS + HIGHLIGHT_CSS + "</style>"
     );
@@ -497,7 +501,7 @@ function realFrameDoc(storyHtml, rtl, ref) {
         '<!doctype html><html dir="' + (rtl ? "rtl" : "ltr") + '">' +
         "<head>" + frameHead([ref === "base" ? "base.css" : "head.css"]) + "</head>" +
         '<body class="vhd-on">' +
-        '<script src="sprite-' + ref + '.js"></script>' +
+        '<script src="../assets/sprite-' + ref + '.js"></script>' +
         storyHtml +
         "</body></html>"
     );
