@@ -1,0 +1,2 @@
+import{a,g as s,ct as n,cu as o,cv as $,i as e}from"./_BLFQ9NUo.js";import"./_CAQ18Kqy.js";import{$ as c,a as _,b as p,c as u}from"./__QPpQzbd.js";import"./_CcIWk0th.js";const m=t=>{$(t.a)},i=s("GecjpPK",(t=>`<!>${t}<!>`)(o),(t=>`b/${t}&b`)(n),m),r=t=>{p(t.a),u(t.a,i(t))};a("Dg1SrT6",(t=>`<!>${t}<!>`)(_),(t=>`b/${t}&b`)(c),r);e();
+//# sourceMappingURL=components.donut-chart.accessibility-B717Ac3v.js.map
