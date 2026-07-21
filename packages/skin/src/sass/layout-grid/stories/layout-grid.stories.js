@@ -1,4 +1,9 @@
-export default { title: "Skin/Layout Grid" };
+export default {
+    title: "Skin/Layout Grid",
+    parameters: {
+        visual: { widths: [320, 512, 768, 1024, 1440, 1680, 1920] },
+    },
+};
 
 export const base = () => `
 <div class="layout-grid">
@@ -80,41 +85,3 @@ export const custom = () => `
 </div>
 `;
 
-export const RTL = () => `
-<div dir="rtl">
-    <div class="layout-grid">
-        <ul aria-label="List of options">
-            <li>
-                <button class="btn btn--fluid">Button 1</button>
-            </li>
-            <li>
-                <button class="btn btn--fluid">Button 2</button>
-            </li>
-            <li>
-                <button class="btn btn--fluid">Button 3</button>
-            </li>
-            <li>
-                <button class="btn btn--fluid">Button 4</button>
-            </li>
-            <li>
-                <button class="btn btn--fluid">Button 5</button>
-            </li>
-            <li>
-                <button class="btn btn--fluid">Button 6</button>
-            </li>
-            <li>
-                <button class="btn btn--fluid">Button 7</button>
-            </li>
-            <li>
-                <button class="btn btn--fluid">Button 8</button>
-            </li>
-            <li>
-                <button class="btn btn--fluid">Button 9</button>
-            </li>
-            <li>
-                <button class="btn btn--fluid">Button 10</button>
-            </li>
-        </ul>
-    </div>
-</div>
-`;

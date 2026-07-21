@@ -14,22 +14,6 @@ export const base = () => `
 </span>
 `;
 
-export const RTL = () => `
-<div dir="rtl">
-    <span class="radio">
-        <input aria-label="Foreground SVG radio example" class="radio__control" name="r1" type="radio" checked />
-        <span class="radio__icon" hidden>
-            <svg aria-hidden="true" class="radio__unchecked">
-                <use href="#icon-radio-unchecked-18"></use>
-            </svg>
-            <svg aria-hidden="true" class="radio__checked">
-                <use href="#icon-radio-checked-18"></use>
-            </svg>
-        </span>
-    </span>
-</div>
-`;
-
 export const disabled = () => `
 <span class="radio">
     <input aria-label="Disabled Foreground SVG radio example" class="radio__control" name="r3" disabled checked type="radio" />

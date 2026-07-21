@@ -1,4 +1,9 @@
-export default { title: "Skin/Panel Dialog" };
+export default {
+    title: "Skin/Panel Dialog",
+    parameters: {
+        visual: { widths: [320, 512], rtl: true },
+    },
+};
 
 export const panelStart = () => `
 <div aria-labelledby="panel-title" aria-modal="true" class="panel-dialog" role="dialog">
@@ -18,31 +23,6 @@ export const panelStart = () => `
             <h3>Heading</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.</p>
             <p><a href="http://www.ebay.com">www.ebay.com</a></p>
-        </div>
-    </div>
-</div>
-`;
-
-export const RTL = () => `
-<div dir="rtl">
-    <div aria-labelledby="panel-title" aria-modal="true" class="panel-dialog" role="dialog">
-        <div class="panel-dialog__window">
-            <div class="panel-dialog__header">
-                <h2 id="panel-title">Left Panel</h2>
-                <button class="icon-btn panel-dialog__close" type="button" aria-label="Close Dialog">
-                    <svg class="icon icon--16" aria-hidden="true">
-                        <use href="#icon-close-16"></use>
-                    </svg>
-                </button>
-            </div>
-            <div class="panel-dialog__main">
-                <h3>Heading</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.</p>
-                <p><a href="http://www.ebay.com">www.ebay.com</a></p>
-                <h3>Heading</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.</p>
-                <p><a href="http://www.ebay.com">www.ebay.com</a></p>
-            </div>
         </div>
     </div>
 </div>

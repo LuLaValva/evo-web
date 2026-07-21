@@ -1,0 +1,144 @@
+┌─ RTL
+<div>
+  <div dir="rtl">
+    <span style="
+      align-items: center;
+      background-color: var(--color-background-attention);
+      border-bottom-left-radius: 1.2em;
+      border-bottom-right-radius: 1.2em;
+      border-top-left-radius: 1.2em;
+      border-top-right-radius: 1.2em;
+      border: 2px solid var(--color-border-inverse);
+      box-sizing: border-box;
+      color: var(--color-foreground-on-attention);
+      display: inline-flex;
+      font-size: var(--font-size-smallest);
+      height: 2.4em;
+      justify-content: center;
+      min-width: 2.4em;
+      padding-inline: var(--spacing-50);
+      text-wrap-mode: nowrap
+    ">
+      +99
+    </span>
+  </div>
+</div>
+
+┌─ empty
+<div>
+  <span style="
+    align-items: center;
+    background-color: var(--color-background-attention);
+    border-bottom-left-radius: 1.2em;
+    border-bottom-right-radius: 1.2em;
+    border-top-left-radius: 1.2em;
+    border-top-right-radius: 1.2em;
+    border: 2px solid var(--color-border-inverse);
+    box-sizing: border-box;
+    color: var(--color-foreground-on-attention);
+    display: inline-flex;
+    font-size: var(--font-size-smallest);
+    height: var(--dimension-150);
+    justify-content: center;
+    padding-inline: var(--spacing-50);
+    text-wrap-mode: nowrap;
+    width: var(--dimension-150)
+  "/>
+</div>
+
+┌─ oneDigit
+<div>
+  <span style="
+    align-items: center;
+    background-color: var(--color-background-attention);
+    border-bottom-left-radius: 1.2em;
+    border-bottom-right-radius: 1.2em;
+    border-top-left-radius: 1.2em;
+    border-top-right-radius: 1.2em;
+    border: 2px solid var(--color-border-inverse);
+    box-sizing: border-box;
+    color: var(--color-foreground-on-attention);
+    display: inline-flex;
+    font-size: var(--font-size-smallest);
+    height: 2.4em;
+    justify-content: center;
+    min-width: 2.4em;
+    padding-inline: var(--spacing-50);
+    text-wrap-mode: nowrap
+  ">
+    1
+  </span>
+</div>
+
+┌─ textSpacing
+<div>
+  <span style="
+    align-items: center;
+    background-color: var(--color-background-attention);
+    border-bottom-left-radius: 1.2em;
+    border-bottom-right-radius: 1.2em;
+    border-top-left-radius: 1.2em;
+    border-top-right-radius: 1.2em;
+    border: 2px solid var(--color-border-inverse);
+    box-sizing: border-box;
+    color: var(--color-foreground-on-attention);
+    display: inline-flex;
+    font-size: var(--font-size-smallest);
+    height: 2.4em;
+    justify-content: center;
+    min-width: 2.4em;
+    padding-inline: var(--spacing-50);
+    text-wrap-mode: nowrap
+  ">
+    99+
+  </span>
+</div>
+
+┌─ threeDigits
+<div>
+  <span style="
+    align-items: center;
+    background-color: var(--color-background-attention);
+    border-bottom-left-radius: 1.2em;
+    border-bottom-right-radius: 1.2em;
+    border-top-left-radius: 1.2em;
+    border-top-right-radius: 1.2em;
+    border: 2px solid var(--color-border-inverse);
+    box-sizing: border-box;
+    color: var(--color-foreground-on-attention);
+    display: inline-flex;
+    font-size: var(--font-size-smallest);
+    height: 2.4em;
+    justify-content: center;
+    min-width: 2.4em;
+    padding-inline: var(--spacing-50);
+    text-wrap-mode: nowrap
+  ">
+    99+
+  </span>
+</div>
+
+┌─ twoDigits
+<div>
+  <span style="
+    align-items: center;
+    background-color: var(--color-background-attention);
+    border-bottom-left-radius: 1.2em;
+    border-bottom-right-radius: 1.2em;
+    border-top-left-radius: 1.2em;
+    border-top-right-radius: 1.2em;
+    border: 2px solid var(--color-border-inverse);
+    box-sizing: border-box;
+    color: var(--color-foreground-on-attention);
+    display: inline-flex;
+    font-size: var(--font-size-smallest);
+    height: 2.4em;
+    justify-content: center;
+    min-width: 2.4em;
+    padding-inline: var(--spacing-50);
+    text-wrap-mode: nowrap
+  ">
+    10
+  </span>
+</div>
+

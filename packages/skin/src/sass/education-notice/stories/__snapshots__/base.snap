@@ -1,0 +1,805 @@
+┌─ RTL
+<div>
+  <div dir="rtl">
+    <section style="
+      background-color: var(--education-notice-default-background-color, var(--color-background-secondary));
+      color: var(--color-foreground-primary);
+      font-size: var(--font-size-body);
+      padding: var(--spacing-300)
+    ">
+      <div style="
+        align-items: center;
+        display: flex
+      ">
+        <svg
+          height="24"
+          style="
+            display: inline-block;
+            fill: currentcolor;
+            height: 24px;
+            pointer-events: none;
+            stroke-width: 0;
+            stroke: currentcolor;
+            vertical-align: middle;
+            width: 24px
+          "
+          width="24"
+        >
+          <use href="#icon-the-ebay-vault-24"/>
+        </svg>
+        <h3 style="
+          flex-grow: 1;
+          font-size: var(--font-size-medium);
+          line-height: 1.5em;
+          margin-bottom: 0px;
+          margin-inline-start: var(--spacing-150);
+          margin-top: 0px
+        ">
+          The Vault
+        </h3>
+        <button style="
+          align-items: center;
+          border-bottom-color: transparent;
+          border-bottom-left-radius: 50px;
+          border-bottom-right-radius: 50px;
+          border-bottom-style: solid;
+          border-left-color: transparent;
+          border-left-style: solid;
+          border-right-color: transparent;
+          border-right-style: solid;
+          border-top-color: transparent;
+          border-top-left-radius: 50px;
+          border-top-right-radius: 50px;
+          border-top-style: solid;
+          display: inline-flex;
+          font-family: inherit;
+          height: 32px;
+          justify-content: center;
+          margin-inline-start: var(--spacing-150);
+          overflow-x: hidden;
+          overflow-y: hidden;
+          padding-bottom: 0px;
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-top: 0px;
+          position: relative;
+          vertical-align: text-bottom;
+          width: 32px
+        ">
+          <style>@scope{:scope{
+            &::after {
+              background-color: var(--color-state-layer-neutral);
+              border-bottom-left-radius: 50px;
+              border-bottom-right-radius: 50px;
+              border-top-left-radius: 50px;
+              border-top-right-radius: 50px;
+              bottom: 0px;
+              content: "";
+              left: 0px;
+              pointer-events: none;
+              position: absolute;
+              right: 0px;
+              top: 0px
+            }
+          }}</style>
+          <svg
+            height="16"
+            style="
+              display: inline-block;
+              fill: var(--color-foreground-primary);
+              height: 16px;
+              max-width: 75%;
+              pointer-events: none;
+              position: relative;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle;
+              width: 16px
+            "
+            width="16"
+          >
+            <use href="#icon-close-16"/>
+          </svg>
+        </button>
+      </div>
+      <div style="margin-top: var(--spacing-200)">
+        <p style="
+          font-size: var(--font-size-body);
+          margin-bottom: 0px;
+          margin-top: 0px
+        ">
+          You can now use the Vault to store items like this securely.
+        </p>
+      </div>
+      <div style="margin-top: var(--spacing-200)">
+        <a style="
+          color: var(--education-notice-foreground-color, var(--color-foreground-primary));
+          font-size: var(--font-size-body);
+          font-weight: 700;
+          text-wrap-mode: nowrap
+        ">
+          Learn more link
+        </a>
+      </div>
+    </section>
+  </div>
+</div>
+
+┌─ actionableButton
+<div>
+  <section style="
+    background-color: var(--education-notice-default-background-color, var(--color-background-secondary));
+    color: var(--color-foreground-primary);
+    font-size: var(--font-size-body);
+    padding: var(--spacing-300)
+  ">
+    <div style="
+      align-items: center;
+      display: flex
+    ">
+      <svg
+        height="24"
+        style="
+          display: inline-block;
+          fill: currentcolor;
+          height: 24px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 24px
+        "
+        width="24"
+      >
+        <use href="#icon-the-ebay-vault-24"/>
+      </svg>
+      <h3 style="
+        flex-grow: 1;
+        font-size: var(--font-size-medium);
+        line-height: 1.5em;
+        margin-bottom: 0px;
+        margin-inline-start: var(--spacing-150);
+        margin-top: 0px
+      ">
+        The Vault
+      </h3>
+      <button style="
+        align-items: center;
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        display: inline-flex;
+        font-family: inherit;
+        height: 32px;
+        justify-content: center;
+        margin-inline-start: var(--spacing-150);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        position: relative;
+        vertical-align: text-bottom;
+        width: 32px
+      ">
+        <style>@scope{:scope{
+          &::after {
+            background-color: var(--color-state-layer-neutral);
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+            bottom: 0px;
+            content: "";
+            left: 0px;
+            pointer-events: none;
+            position: absolute;
+            right: 0px;
+            top: 0px
+          }
+        }}</style>
+        <svg
+          height="16"
+          style="
+            display: inline-block;
+            fill: var(--color-foreground-primary);
+            height: 16px;
+            max-width: 75%;
+            pointer-events: none;
+            position: relative;
+            stroke-width: 0;
+            stroke: currentcolor;
+            vertical-align: middle;
+            width: 16px
+          "
+          width="16"
+        >
+          <use href="#icon-close-16"/>
+        </svg>
+      </button>
+    </div>
+    <div style="margin-top: var(--spacing-200)">
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        You can now use the Vault to store items like this securely.
+      </p>
+    </div>
+    <div style="margin-top: var(--spacing-200)">
+      <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        color: var(--fake-link-foreground-color, var(--color-foreground-link-primary));
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        Learn more button
+      </button>
+    </div>
+  </section>
+</div>
+
+┌─ actionableLink
+<div>
+  <section style="
+    background-color: var(--education-notice-default-background-color, var(--color-background-secondary));
+    color: var(--color-foreground-primary);
+    font-size: var(--font-size-body);
+    padding: var(--spacing-300)
+  ">
+    <div style="
+      align-items: center;
+      display: flex
+    ">
+      <svg
+        height="24"
+        style="
+          display: inline-block;
+          fill: currentcolor;
+          height: 24px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 24px
+        "
+        width="24"
+      >
+        <use href="#icon-the-ebay-vault-24"/>
+      </svg>
+      <h3 style="
+        flex-grow: 1;
+        font-size: var(--font-size-medium);
+        line-height: 1.5em;
+        margin-bottom: 0px;
+        margin-inline-start: var(--spacing-150);
+        margin-top: 0px
+      ">
+        The Vault
+      </h3>
+      <button style="
+        align-items: center;
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        display: inline-flex;
+        font-family: inherit;
+        height: 32px;
+        justify-content: center;
+        margin-inline-start: var(--spacing-150);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        position: relative;
+        vertical-align: text-bottom;
+        width: 32px
+      ">
+        <style>@scope{:scope{
+          &::after {
+            background-color: var(--color-state-layer-neutral);
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+            bottom: 0px;
+            content: "";
+            left: 0px;
+            pointer-events: none;
+            position: absolute;
+            right: 0px;
+            top: 0px
+          }
+        }}</style>
+        <svg
+          height="16"
+          style="
+            display: inline-block;
+            fill: var(--color-foreground-primary);
+            height: 16px;
+            max-width: 75%;
+            pointer-events: none;
+            position: relative;
+            stroke-width: 0;
+            stroke: currentcolor;
+            vertical-align: middle;
+            width: 16px
+          "
+          width="16"
+        >
+          <use href="#icon-close-16"/>
+        </svg>
+      </button>
+    </div>
+    <div style="margin-top: var(--spacing-200)">
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        You can now use the Vault to store items like this securely.
+      </p>
+    </div>
+    <div style="margin-top: var(--spacing-200)">
+      <a style="
+        color: var(--education-notice-foreground-color, var(--color-foreground-primary));
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        text-wrap-mode: nowrap
+      ">
+        Learn more link
+      </a>
+    </div>
+  </section>
+</div>
+
+┌─ base
+<div>
+  <section style="
+    background-color: var(--education-notice-default-background-color, var(--color-background-secondary));
+    color: var(--color-foreground-primary);
+    font-size: var(--font-size-body);
+    padding: var(--spacing-300)
+  ">
+    <div style="
+      align-items: center;
+      display: flex
+    ">
+      <svg
+        height="24"
+        style="
+          display: inline-block;
+          fill: currentcolor;
+          height: 24px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 24px
+        "
+        width="24"
+      >
+        <use href="#icon-lightbulb-24"/>
+      </svg>
+      <h3 style="
+        flex-grow: 1;
+        font-size: var(--font-size-medium);
+        line-height: 1.5em;
+        margin-bottom: 0px;
+        margin-inline-start: var(--spacing-150);
+        margin-top: 0px
+      ">
+        Did you know?
+      </h3>
+    </div>
+    <div style="margin-top: var(--spacing-200)">
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        You can now split payments on two cards.
+      </p>
+    </div>
+  </section>
+</div>
+
+┌─ dismissable
+<div>
+  <section style="
+    background-color: var(--education-notice-default-background-color, var(--color-background-secondary));
+    color: var(--color-foreground-primary);
+    font-size: var(--font-size-body);
+    padding: var(--spacing-300)
+  ">
+    <div style="
+      align-items: center;
+      display: flex
+    ">
+      <svg
+        height="24"
+        style="
+          display: inline-block;
+          fill: currentcolor;
+          height: 24px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 24px
+        "
+        width="24"
+      >
+        <use href="#icon-lightbulb-24"/>
+      </svg>
+      <h3 style="
+        flex-grow: 1;
+        font-size: var(--font-size-medium);
+        line-height: 1.5em;
+        margin-bottom: 0px;
+        margin-inline-start: var(--spacing-150);
+        margin-top: 0px
+      ">
+        Did you know?
+      </h3>
+      <button style="
+        align-items: center;
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        display: inline-flex;
+        font-family: inherit;
+        height: 32px;
+        justify-content: center;
+        margin-inline-start: var(--spacing-150);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        position: relative;
+        vertical-align: text-bottom;
+        width: 32px
+      ">
+        <style>@scope{:scope{
+          &::after {
+            background-color: var(--color-state-layer-neutral);
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+            bottom: 0px;
+            content: "";
+            left: 0px;
+            pointer-events: none;
+            position: absolute;
+            right: 0px;
+            top: 0px
+          }
+        }}</style>
+        <svg
+          height="16"
+          style="
+            display: inline-block;
+            fill: var(--color-foreground-primary);
+            height: 16px;
+            max-width: 75%;
+            pointer-events: none;
+            position: relative;
+            stroke-width: 0;
+            stroke: currentcolor;
+            vertical-align: middle;
+            width: 16px
+          "
+          width="16"
+        >
+          <use href="#icon-close-16"/>
+        </svg>
+      </button>
+    </div>
+    <div style="margin-top: var(--spacing-200)">
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        You can now split payments on two cards.
+      </p>
+    </div>
+  </section>
+</div>
+
+┌─ prominentIcon
+<div>
+  <section style="
+    background-color: var(--education-notice-default-background-color, var(--color-background-secondary));
+    color: var(--color-foreground-primary);
+    font-size: var(--font-size-body);
+    padding: var(--spacing-300)
+  ">
+    <div style="
+      align-items: center;
+      display: flex
+    ">
+      <svg
+        height="24"
+        style="
+          color: var(--color-foreground-accent);
+          display: inline-block;
+          fill: currentcolor;
+          height: 24px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 24px
+        "
+        width="24"
+      >
+        <use href="#icon-lightbulb-24"/>
+      </svg>
+      <h3 style="
+        flex-grow: 1;
+        font-size: var(--font-size-medium);
+        line-height: 1.5em;
+        margin-bottom: 0px;
+        margin-inline-start: var(--spacing-150);
+        margin-top: 0px
+      ">
+        Did you know?
+      </h3>
+    </div>
+    <div style="margin-top: var(--spacing-200)">
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        You can now split payments on two cards.
+      </p>
+    </div>
+  </section>
+</div>
+
+┌─ prominentNotice
+<div>
+  <section style="
+    background-color: var(--education-notice-education-background-color, var(--color-background-education));
+    color: var(--color-foreground-primary);
+    font-size: var(--font-size-body);
+    padding: var(--spacing-300)
+  ">
+    <div style="
+      align-items: center;
+      display: flex
+    ">
+      <svg
+        height="24"
+        style="
+          display: inline-block;
+          fill: currentcolor;
+          height: 24px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 24px
+        "
+        width="24"
+      >
+        <use href="#icon-authenticity-guarantee-24"/>
+      </svg>
+      <h3 style="
+        flex-grow: 1;
+        font-size: var(--font-size-medium);
+        line-height: 1.5em;
+        margin-bottom: 0px;
+        margin-inline-start: var(--spacing-150);
+        margin-top: 0px
+      ">
+        Authenticity Guaranteed
+      </h3>
+    </div>
+    <div style="margin-top: var(--spacing-200)">
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        Authenticity Guarantee means your item is authentic or your money back.
+      </p>
+    </div>
+  </section>
+</div>
+
+┌─ textSpacing
+<div>
+  <section style="
+    background-color: var(--education-notice-default-background-color, var(--color-background-secondary));
+    color: var(--color-foreground-primary);
+    font-size: var(--font-size-body);
+    padding: var(--spacing-300)
+  ">
+    <div style="
+      align-items: center;
+      display: flex
+    ">
+      <svg
+        height="24"
+        style="
+          display: inline-block;
+          fill: currentcolor;
+          height: 24px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 24px
+        "
+        width="24"
+      >
+        <use href="#icon-the-ebay-vault-24"/>
+      </svg>
+      <h3 style="
+        flex-grow: 1;
+        font-size: var(--font-size-medium);
+        line-height: 1.5em;
+        margin-bottom: 0px;
+        margin-inline-start: var(--spacing-150);
+        margin-top: 0px
+      ">
+        The Vault
+      </h3>
+      <button style="
+        align-items: center;
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        display: inline-flex;
+        font-family: inherit;
+        height: 32px;
+        justify-content: center;
+        margin-inline-start: var(--spacing-150);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        position: relative;
+        vertical-align: text-bottom;
+        width: 32px
+      ">
+        <style>@scope{:scope{
+          &::after {
+            background-color: var(--color-state-layer-neutral);
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+            bottom: 0px;
+            content: "";
+            left: 0px;
+            pointer-events: none;
+            position: absolute;
+            right: 0px;
+            top: 0px
+          }
+        }}</style>
+        <svg
+          height="16"
+          style="
+            display: inline-block;
+            fill: var(--color-foreground-primary);
+            height: 16px;
+            max-width: 75%;
+            pointer-events: none;
+            position: relative;
+            stroke-width: 0;
+            stroke: currentcolor;
+            vertical-align: middle;
+            width: 16px
+          "
+          width="16"
+        >
+          <use href="#icon-close-16"/>
+        </svg>
+      </button>
+    </div>
+    <div style="margin-top: var(--spacing-200)">
+      <p style="
+        font-size: var(--font-size-body);
+        margin-bottom: 0px;
+        margin-top: 0px
+      ">
+        You can now use the Vault to store items like this securely.
+      </p>
+    </div>
+    <div style="margin-top: var(--spacing-200)">
+      <button style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+        color: var(--fake-link-foreground-color, var(--color-foreground-link-primary));
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-decoration-line: underline
+      ">
+        Learn more button
+      </button>
+    </div>
+  </section>
+</div>
+

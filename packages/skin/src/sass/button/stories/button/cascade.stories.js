@@ -1,4 +1,9 @@
-export default { title: "Skin/Button/Cascade" };
+export default {
+    title: "Skin/Button/Cascade",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const color = () => `
 <button type="button" class="btn" style="color: red;">
@@ -20,13 +25,3 @@ export const fontSize = () => `
 </div>
 `;
 
-export const RTL = () => `
-<div dir="rtl">
-    <button type="button" class="btn btn--primary">
-        <span class="btn__cell">
-            <svg class="icon icon--16" width="16" height="16"><use href="#icon-close-16"></use></svg>
-            <span>Button</span>
-        </span>
-    </button>
-</div>
-`;

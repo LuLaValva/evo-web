@@ -39,17 +39,6 @@ export const anchorSelected = () => `
 </a>
 `;
 
-export const RTL = () => `
-<div dir="rtl">
-    <button class="filter-chip" type="button" aria-pressed="false">
-        <svg class="icon icon--16" width="16" height="16">
-            <use href="#icon-sneaker-16"/>
-        </svg>
-        <span class="filter-chip__text">Football</span>
-    </button>
-</div>
-`;
-
 export const textSpacing = () => `
 <button class="filter-chip demo-a11y-text-spacing" type="button" aria-pressed="false">
     <svg class="icon icon--16" width="16" height="16">

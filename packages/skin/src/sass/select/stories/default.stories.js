@@ -1,4 +1,9 @@
-export default { title: "Skin/Select" };
+export default {
+    title: "Skin/Select",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const defaultSelection = () => `
 <span class="select">

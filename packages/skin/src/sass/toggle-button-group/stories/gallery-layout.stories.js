@@ -1,4 +1,9 @@
-export default { title: "Skin/Toggle Button Group/Gallery Layout" };
+export default {
+    title: "Skin/Toggle Button Group/Gallery Layout",
+    parameters: {
+        visual: { widths: [320, 512, 768] },
+    },
+};
 
 export const usingIMGTag = () => `
 <div class="toggle-button-group toggle-button-group--gallery-layout">

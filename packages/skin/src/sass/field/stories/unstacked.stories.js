@@ -1,4 +1,9 @@
-export default { title: "Skin/Field/Unstacked" };
+export default {
+    title: "Skin/Field/Unstacked",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const inlineLevel = () => `
 <span class="field">
@@ -33,43 +38,6 @@ export const inlineLevel = () => `
         <textarea class="textbox__control" id="field-unstacked-4" type="text" placeholder="placeholder text"></textarea>
     </span>
 </span>
-`;
-
-export const RTL = () => `
-<div dir="rtl">
-    <span class="field">
-        <label class="field__label" for="field-unstacked-1">Field 1</label>
-        <span class="field__control textbox">
-            <input class="textbox__control" id="field-unstacked-1" type="text" placeholder="placeholder text" />
-        </span>
-    </span>
-    <span class="field">
-        <label class="field__label" for="field-unstacked-2">Field 2</label>
-        <span class="field__control select">
-            <select id="field-unstacked-2" name="options">
-                <option value="item1">Option 1</option>
-                <option value="item2">Option 2</option>
-                <option value="item3">Option 3</option>
-            </select>
-            <svg class="icon icon--12" height="8" width="8" aria-hidden="true">
-                <use href="#icon-chevron-down-12"></use>
-            </svg>
-        </span>
-    </span>
-    <span class="field">
-        <label class="field__label" for="field-unstacked-3">Field 3</label>
-        <span class="field__control switch">
-            <input class="switch__control" id="field-unstacked-3" role="switch" type="checkbox" aria-label="Switch Demo" />
-            <span class="switch__button"></span>
-        </span>
-    </span>
-    <span class="field field--align-top">
-        <label class="field__label" for="field-unstacked-4">Field 4</label>
-        <span class="field__control textbox">
-            <textarea class="textbox__control" id="field-unstacked-4" type="text" placeholder="placeholder text"></textarea>
-        </span>
-    </span>
-</div>
 `;
 
 export const blockLevel = () => `

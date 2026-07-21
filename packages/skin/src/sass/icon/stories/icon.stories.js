@@ -9,17 +9,6 @@ export const insideHeading = () => `
 </h2>
 `;
 
-export const RTLInsideHeading = () => `
-<div dir="rtl">
-    <h2>
-        <svg class="icon icon--24">
-            <use href="#icon-information-24"></use>
-        </svg>
-        <span style="vertical-align: middle;">There was an error with your payment. Please try again.</span>
-    </h2>
-</div>
-`;
-
 export const insideParagraph = () => `
 <p>
     <svg class="icon icon--24">

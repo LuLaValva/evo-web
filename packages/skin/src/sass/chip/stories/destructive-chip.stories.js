@@ -156,15 +156,3 @@ export const letterSpacing = () => `
 </span>
 `;
 
-export const RTL = () => `
-<div dir="rtl">
-    <span class="chip">
-        <span id="chip-interactive-1-text" class="chip__text">Football</span>
-        <button class="chip__button" type="button" aria-label="Remove" aria-describedby="chip-interactive-1-text">
-            <svg class="icon icon--12" width="13" height="12" aria-hidden="true">
-                <use href="#icon-close-12"></use>
-            </svg>
-        </button>
-    </span>
-</div>
-`;

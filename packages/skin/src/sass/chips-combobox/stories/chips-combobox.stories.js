@@ -1,4 +1,9 @@
-export default { title: "Skin/Chips Combobox/Base" };
+export default {
+    title: "Skin/Chips Combobox/Base",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const empty = () => `
 <span class="chips-combobox">

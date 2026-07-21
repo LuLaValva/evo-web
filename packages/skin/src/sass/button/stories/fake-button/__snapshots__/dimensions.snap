@@ -1,0 +1,234 @@
+┌─ fixedWidth @ 1280px
+<div>
+  <a style="
+    align-content: center;
+    align-items: center;
+    border-bottom-color: currentcolor;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom: 1px solid;
+    border-left-color: currentcolor;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: currentcolor;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: currentcolor;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top: 1px solid;
+    box-sizing: border-box;
+    color: inherit;
+    display: inline-block;
+    font-family: inherit;
+    font-size: var(--font-size-body);
+    min-height: 40px;
+    min-width: 88px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    text-decoration-line: none;
+    vertical-align: bottom;
+    width: 200px
+  ">
+    Fake Button with a lot of text that should wrap
+  </a>
+</div>
+
+┌─ fixedWidth @ 1280px rtl
+(same as 1280px)
+
+┌─ fixedWidthAndHeight @ 1280px
+<div>
+  <a style="
+    align-content: center;
+    align-items: center;
+    border-bottom-color: currentcolor;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom: 1px solid;
+    border-left-color: currentcolor;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: currentcolor;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: currentcolor;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top: 1px solid;
+    box-sizing: border-box;
+    color: inherit;
+    display: inline-block;
+    font-family: inherit;
+    font-size: var(--font-size-body);
+    height: 40px;
+    min-height: 40px;
+    min-width: 88px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    text-decoration-line: none;
+    vertical-align: bottom;
+    width: 200px
+  ">
+    Fake Button with a lot of text that should wrap
+  </a>
+</div>
+
+┌─ fixedWidthAndHeight @ 1280px rtl
+(same as 1280px)
+
+┌─ fixedWidthAndHeightTruncated @ 1280px
+<div>
+  <a style="
+    align-content: center;
+    align-items: center;
+    border-bottom-color: currentcolor;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom: 1px solid;
+    border-left-color: currentcolor;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: currentcolor;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: currentcolor;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top: 1px solid;
+    box-sizing: border-box;
+    color: inherit;
+    display: inline-block;
+    font-family: inherit;
+    font-size: var(--font-size-body);
+    height: 40px;
+    line-height: 1.4em;
+    min-height: 40px;
+    min-width: 88px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    text-decoration-line: none;
+    text-overflow: ellipsis;
+    text-wrap-mode: nowrap;
+    vertical-align: bottom;
+    width: 200px
+  ">
+    Fake Button with a lot of text that should wrap
+  </a>
+</div>
+
+┌─ fixedWidthAndHeightTruncated @ 1280px rtl
+(same as 1280px)
+
+┌─ fluid @ 1280px
+<div>
+  <a style="
+    align-content: center;
+    align-items: center;
+    border-bottom-color: currentcolor;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom: 1px solid;
+    border-left-color: currentcolor;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: currentcolor;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: currentcolor;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top: 1px solid;
+    box-sizing: border-box;
+    color: inherit;
+    display: inline-block;
+    font-family: inherit;
+    font-size: var(--font-size-body);
+    min-height: 40px;
+    min-width: 88px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    text-decoration-line: none;
+    vertical-align: bottom;
+    width: 100%
+  ">
+    Fake Button
+  </a>
+</div>
+
+┌─ fluid @ 1280px rtl
+(same as 1280px)
+
+┌─ large @ 1280px
+<div>
+  <a style="
+    align-content: center;
+    align-items: center;
+    border-bottom-color: currentcolor;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom: 1px solid;
+    border-left-color: currentcolor;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: currentcolor;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: currentcolor;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top: 1px solid;
+    box-sizing: border-box;
+    color: inherit;
+    display: inline-block;
+    font-family: inherit;
+    font-size: var(--font-size-medium);
+    min-height: 48px;
+    min-width: 88px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    text-decoration-line: none;
+    vertical-align: bottom
+  ">
+    <span style="
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      width: 100%
+    ">
+      <svg
+        height="16"
+        style="
+          align-self: center;
+          display: inline-block;
+          fill: currentcolor;
+          height: 16px;
+          margin-inline-end: 8px;
+          max-height: 48px;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: 16px
+        "
+        width="16"
+      >
+        <use href="#icon-settings-16"/>
+      </svg>
+      <span>
+        Fake Button
+      </span>
+    </span>
+  </a>
+</div>
+
+┌─ large @ 1280px rtl
+(same as 1280px)
+

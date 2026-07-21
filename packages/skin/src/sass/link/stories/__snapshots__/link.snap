@@ -1,0 +1,132 @@
+┌─ RTL
+<div>
+  <div dir="rtl">
+    <a style="color: var(--color-foreground-link-primary)">
+      See all 17 Reviews
+    </a>
+    <div/>
+  </div>
+</div>
+
+┌─ action
+<div>
+  <a style="color: var(--color-foreground-link-primary)">
+    See all 17 Reviews
+  </a>
+</div>
+
+┌─ base
+<div>
+  <a style="color: var(--color-foreground-link-primary)">
+    Link
+  </a>
+</div>
+
+┌─ disabledFake
+<div>
+  <button style="
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-left-color: currentcolor;
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-color: currentcolor;
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-color: currentcolor;
+    border-top-style: none;
+    border-top-width: 0px;
+    color: var(--fake-link-foreground-color, var(--color-foreground-link-primary));
+    font-family: inherit;
+    font-size: inherit;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    text-decoration-line: underline
+  ">
+    Button
+  </button>
+</div>
+
+┌─ fake
+<div>
+  <button style="
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-left-color: currentcolor;
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-color: currentcolor;
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-color: currentcolor;
+    border-top-style: none;
+    border-top-width: 0px;
+    color: var(--fake-link-foreground-color, var(--color-foreground-link-primary));
+    font-family: inherit;
+    font-size: inherit;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    text-decoration-line: underline
+  ">
+    Button
+  </button>
+</div>
+
+┌─ legal
+<div>
+  <a style="color: var(--legal-link-foreground-color, var(--color-foreground-link-legal))">
+    Link
+  </a>
+</div>
+
+┌─ legalFake
+<div>
+  <button style="
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-left-color: currentcolor;
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-color: currentcolor;
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-color: currentcolor;
+    border-top-style: none;
+    border-top-width: 0px;
+    color: var(--legal-link-foreground-color, var(--color-foreground-link-legal));
+    font-family: inherit;
+    font-size: inherit;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    text-decoration-line: underline
+  ">
+    Button
+  </button>
+</div>
+
+┌─ nav
+<div>
+  <a style="
+    color: var(--nav-link-foreground-color, var(--color-foreground-link-primary));
+    text-decoration-line: none
+  ">
+    Link 1
+  </a>
+</div>
+
+┌─ textSpacing
+<div>
+  <a style="color: var(--color-foreground-link-primary)">
+    Text Spacing
+  </a>
+</div>
+

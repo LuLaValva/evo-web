@@ -1,15 +1,9 @@
-export default { title: "Skin/Fake Button/Cascade" };
-
-export const RTL = () => `
-<div dir="rtl">
-    <a class="fake-btn" href="http://www.ebay.com">
-        <span class="fake-btn__cell">
-            <svg class="icon icon--16" width="16" height="16"><use href="#icon-settings-16"></use></svg>
-            <span>Fake Button</span>
-        </span>
-    </a>
-</div>
-`;
+export default {
+    title: "Skin/Fake Button/Cascade",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const color = () => `
 <div style="color: red;">

@@ -1,0 +1,2637 @@
+┌─ base
+<div>
+  <button style="
+    align-items: center;
+    background-color: var(--color-background-secondary);
+    border-bottom-color: transparent;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-style: solid;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-top-color: transparent;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-style: solid;
+    display: inline-flex;
+    font-family: inherit;
+    height: 48px;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    vertical-align: text-bottom;
+    width: 48px
+  ">
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <svg
+      height="16"
+      style="
+        display: inline-block;
+        fill: var(--color-foreground-primary);
+        height: 24px;
+        max-width: 75%;
+        pointer-events: none;
+        position: relative;
+        stroke-width: 0;
+        stroke: currentcolor;
+        vertical-align: middle;
+        width: 24px
+      "
+      width="16"
+    >
+      <use href="#icon-heart-24"/>
+    </svg>
+  </button>
+  <button style="
+    align-items: center;
+    background-color: var(--color-background-secondary);
+    border-bottom-color: transparent;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-style: solid;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-top-color: transparent;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-style: solid;
+    display: inline-flex;
+    font-family: inherit;
+    height: 40px;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    vertical-align: text-bottom;
+    width: 40px
+  ">
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <svg
+      height="16"
+      style="
+        display: inline-block;
+        fill: var(--color-foreground-primary);
+        height: 20px;
+        max-width: 75%;
+        pointer-events: none;
+        position: relative;
+        stroke-width: 0;
+        stroke: currentcolor;
+        vertical-align: middle;
+        width: 20px
+      "
+      width="16"
+    >
+      <use href="#icon-heart-20"/>
+    </svg>
+  </button>
+  <button style="
+    align-items: center;
+    background-color: var(--color-background-secondary);
+    border-bottom-color: transparent;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-style: solid;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-top-color: transparent;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-style: solid;
+    display: inline-flex;
+    font-family: inherit;
+    height: 32px;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    vertical-align: text-bottom;
+    width: 32px
+  ">
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <svg
+      height="16"
+      style="
+        display: inline-block;
+        fill: var(--color-foreground-primary);
+        height: 16px;
+        max-width: 75%;
+        pointer-events: none;
+        position: relative;
+        stroke-width: 0;
+        stroke: currentcolor;
+        vertical-align: middle;
+        width: 16px
+      "
+      width="16"
+    >
+      <use href="#icon-heart-16"/>
+    </svg>
+  </button>
+</div>
+
+┌─ baseDisabled
+<div>
+  <button
+    disabled
+    style="
+      align-items: center;
+      background-color: var(--color-background-secondary);
+      border-bottom-color: transparent;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-left-color: transparent;
+      border-left-style: solid;
+      border-right-color: transparent;
+      border-right-style: solid;
+      border-top-color: transparent;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      display: inline-flex;
+      font-family: inherit;
+      height: 48px;
+      justify-content: center;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      padding-bottom: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 0px;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 48px
+    "
+  >
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <svg
+      height="16"
+      style="
+        display: inline-block;
+        fill: var(--color-background-disabled);
+        height: 24px;
+        max-width: 75%;
+        pointer-events: none;
+        position: relative;
+        stroke-width: 0;
+        stroke: currentcolor;
+        vertical-align: middle;
+        width: 24px
+      "
+      width="16"
+    >
+      <use href="#icon-heart-24"/>
+    </svg>
+  </button>
+  <button
+    disabled
+    style="
+      align-items: center;
+      background-color: var(--color-background-secondary);
+      border-bottom-color: transparent;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-left-color: transparent;
+      border-left-style: solid;
+      border-right-color: transparent;
+      border-right-style: solid;
+      border-top-color: transparent;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      display: inline-flex;
+      font-family: inherit;
+      height: 40px;
+      justify-content: center;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      padding-bottom: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 0px;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 40px
+    "
+  >
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <svg
+      height="16"
+      style="
+        display: inline-block;
+        fill: var(--color-background-disabled);
+        height: 20px;
+        max-width: 75%;
+        pointer-events: none;
+        position: relative;
+        stroke-width: 0;
+        stroke: currentcolor;
+        vertical-align: middle;
+        width: 20px
+      "
+      width="16"
+    >
+      <use href="#icon-heart-20"/>
+    </svg>
+  </button>
+  <button
+    disabled
+    style="
+      align-items: center;
+      background-color: var(--color-background-secondary);
+      border-bottom-color: transparent;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-left-color: transparent;
+      border-left-style: solid;
+      border-right-color: transparent;
+      border-right-style: solid;
+      border-top-color: transparent;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      display: inline-flex;
+      font-family: inherit;
+      height: 32px;
+      justify-content: center;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      padding-bottom: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 0px;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 32px
+    "
+  >
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <svg
+      height="16"
+      style="
+        display: inline-block;
+        fill: var(--color-background-disabled);
+        height: 16px;
+        max-width: 75%;
+        pointer-events: none;
+        position: relative;
+        stroke-width: 0;
+        stroke: currentcolor;
+        vertical-align: middle;
+        width: 16px
+      "
+      width="16"
+    >
+      <use href="#icon-heart-16"/>
+    </svg>
+  </button>
+</div>
+
+┌─ baseSpinner
+<div>
+  <button style="
+    align-items: center;
+    background-color: var(--color-background-secondary);
+    border-bottom-color: transparent;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-style: solid;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-top-color: transparent;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-style: solid;
+    display: inline-flex;
+    font-family: inherit;
+    height: 48px;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    vertical-align: text-bottom;
+    width: 48px
+  ">
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <span style="
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+      animation-name: spin;
+      animation-timing-function: cubic-bezier(0.7, 0.2, 0.3, 0.73);
+      display: inline-block;
+      height: 30px;
+      width: 30px
+    ">
+      <svg
+        height="24"
+        style="
+          display: inline-block;
+          fill: currentcolor;
+          height: inherit;
+          max-height: inherit;
+          max-width: inherit;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: inherit
+        "
+        width="24"
+      >
+        <use href="#icon-spinner-24"/>
+      </svg>
+    </span>
+  </button>
+  <button style="
+    align-items: center;
+    background-color: var(--color-background-secondary);
+    border-bottom-color: transparent;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-style: solid;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-top-color: transparent;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-style: solid;
+    display: inline-flex;
+    font-family: inherit;
+    height: 40px;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    vertical-align: text-bottom;
+    width: 40px
+  ">
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <span style="
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+      animation-name: spin;
+      animation-timing-function: cubic-bezier(0.7, 0.2, 0.3, 0.73);
+      display: inline-block;
+      height: 24px;
+      width: 24px
+    ">
+      <svg
+        height="24"
+        style="
+          display: inline-block;
+          fill: currentcolor;
+          height: inherit;
+          max-height: inherit;
+          max-width: inherit;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: inherit
+        "
+        width="24"
+      >
+        <use href="#icon-spinner-20"/>
+      </svg>
+    </span>
+  </button>
+  <button style="
+    align-items: center;
+    background-color: var(--color-background-secondary);
+    border-bottom-color: transparent;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-style: solid;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-top-color: transparent;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-style: solid;
+    display: inline-flex;
+    font-family: inherit;
+    height: 32px;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    vertical-align: text-bottom;
+    width: 32px
+  ">
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <span style="
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+      animation-name: spin;
+      animation-timing-function: cubic-bezier(0.7, 0.2, 0.3, 0.73);
+      display: inline-block;
+      height: 20px;
+      width: 20px
+    ">
+      <svg
+        height="24"
+        style="
+          display: inline-block;
+          fill: currentcolor;
+          height: inherit;
+          max-height: inherit;
+          max-width: inherit;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: inherit
+        "
+        width="24"
+      >
+        <use href="#icon-spinner-20"/>
+      </svg>
+    </span>
+  </button>
+</div>
+
+┌─ primary
+<div>
+  <button style="
+    align-items: center;
+    background-color: var(--color-background-accent);
+    border-bottom-color: transparent;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: transparent;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--color-foreground-on-accent);
+    display: inline-flex;
+    font-family: inherit;
+    height: 48px;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    vertical-align: text-bottom;
+    width: 48px
+  ">
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <svg
+      height="16"
+      style="
+        display: inline-block;
+        fill: var(--color-foreground-on-accent);
+        height: 24px;
+        max-width: 75%;
+        pointer-events: none;
+        position: relative;
+        stroke-width: 0;
+        stroke: currentcolor;
+        vertical-align: middle;
+        width: 24px
+      "
+      width="16"
+    >
+      <use href="#icon-heart-24"/>
+    </svg>
+  </button>
+  <button style="
+    align-items: center;
+    background-color: var(--color-background-accent);
+    border-bottom-color: transparent;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: transparent;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--color-foreground-on-accent);
+    display: inline-flex;
+    font-family: inherit;
+    height: 40px;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    vertical-align: text-bottom;
+    width: 40px
+  ">
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <svg
+      height="16"
+      style="
+        display: inline-block;
+        fill: var(--color-foreground-on-accent);
+        height: 20px;
+        max-width: 75%;
+        pointer-events: none;
+        position: relative;
+        stroke-width: 0;
+        stroke: currentcolor;
+        vertical-align: middle;
+        width: 20px
+      "
+      width="16"
+    >
+      <use href="#icon-heart-20"/>
+    </svg>
+  </button>
+  <button style="
+    align-items: center;
+    background-color: var(--color-background-accent);
+    border-bottom-color: transparent;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: transparent;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--color-foreground-on-accent);
+    display: inline-flex;
+    font-family: inherit;
+    height: 32px;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    vertical-align: text-bottom;
+    width: 32px
+  ">
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <svg
+      height="16"
+      style="
+        display: inline-block;
+        fill: var(--color-foreground-on-accent);
+        height: 16px;
+        max-width: 75%;
+        pointer-events: none;
+        position: relative;
+        stroke-width: 0;
+        stroke: currentcolor;
+        vertical-align: middle;
+        width: 16px
+      "
+      width="16"
+    >
+      <use href="#icon-heart-16"/>
+    </svg>
+  </button>
+</div>
+
+┌─ primaryDisabled
+<div>
+  <button
+    disabled
+    style="
+      align-items: center;
+      background-color: var(--color-background-disabled);
+      border-bottom-color: transparent;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-left-color: transparent;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-color: transparent;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-color: transparent;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      color: var(--color-foreground-on-accent);
+      display: inline-flex;
+      font-family: inherit;
+      height: 48px;
+      justify-content: center;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      padding-bottom: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 0px;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 48px
+    "
+  >
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <svg
+      height="16"
+      style="
+        display: inline-block;
+        fill: var(--color-foreground-on-accent);
+        height: 24px;
+        max-width: 75%;
+        pointer-events: none;
+        position: relative;
+        stroke-width: 0;
+        stroke: currentcolor;
+        vertical-align: middle;
+        width: 24px
+      "
+      width="16"
+    >
+      <use href="#icon-heart-24"/>
+    </svg>
+  </button>
+  <button
+    disabled
+    style="
+      align-items: center;
+      background-color: var(--color-background-disabled);
+      border-bottom-color: transparent;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-left-color: transparent;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-color: transparent;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-color: transparent;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      color: var(--color-foreground-on-accent);
+      display: inline-flex;
+      font-family: inherit;
+      height: 40px;
+      justify-content: center;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      padding-bottom: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 0px;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 40px
+    "
+  >
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <svg
+      height="16"
+      style="
+        display: inline-block;
+        fill: var(--color-foreground-on-accent);
+        height: 20px;
+        max-width: 75%;
+        pointer-events: none;
+        position: relative;
+        stroke-width: 0;
+        stroke: currentcolor;
+        vertical-align: middle;
+        width: 20px
+      "
+      width="16"
+    >
+      <use href="#icon-heart-20"/>
+    </svg>
+  </button>
+  <button
+    disabled
+    style="
+      align-items: center;
+      background-color: var(--color-background-disabled);
+      border-bottom-color: transparent;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-left-color: transparent;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-color: transparent;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-color: transparent;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      color: var(--color-foreground-on-accent);
+      display: inline-flex;
+      font-family: inherit;
+      height: 32px;
+      justify-content: center;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      padding-bottom: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 0px;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 32px
+    "
+  >
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <svg
+      height="16"
+      style="
+        display: inline-block;
+        fill: var(--color-foreground-on-accent);
+        height: 16px;
+        max-width: 75%;
+        pointer-events: none;
+        position: relative;
+        stroke-width: 0;
+        stroke: currentcolor;
+        vertical-align: middle;
+        width: 16px
+      "
+      width="16"
+    >
+      <use href="#icon-heart-16"/>
+    </svg>
+  </button>
+</div>
+
+┌─ primarySpinner
+<div>
+  <button style="
+    align-items: center;
+    background-color: var(--color-background-accent);
+    border-bottom-color: transparent;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: transparent;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--color-foreground-on-accent);
+    display: inline-flex;
+    font-family: inherit;
+    height: 48px;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    vertical-align: text-bottom;
+    width: 48px
+  ">
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <span style="
+      --color-spinner-icon-background: var(--color-background-primary);
+      --color-spinner-icon-foreground: #8fa3f8;
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+      animation-name: spin;
+      animation-timing-function: cubic-bezier(0.7, 0.2, 0.3, 0.73);
+      display: inline-block;
+      height: 30px;
+      width: 30px
+    ">
+      <svg
+        height="24"
+        style="
+          display: inline-block;
+          fill: currentcolor;
+          height: inherit;
+          max-height: inherit;
+          max-width: inherit;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: inherit
+        "
+        width="24"
+      >
+        <use href="#icon-spinner-24"/>
+      </svg>
+    </span>
+  </button>
+  <button style="
+    align-items: center;
+    background-color: var(--color-background-accent);
+    border-bottom-color: transparent;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: transparent;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--color-foreground-on-accent);
+    display: inline-flex;
+    font-family: inherit;
+    height: 40px;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    vertical-align: text-bottom;
+    width: 40px
+  ">
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <span style="
+      --color-spinner-icon-background: var(--color-background-primary);
+      --color-spinner-icon-foreground: #8fa3f8;
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+      animation-name: spin;
+      animation-timing-function: cubic-bezier(0.7, 0.2, 0.3, 0.73);
+      display: inline-block;
+      height: 24px;
+      width: 24px
+    ">
+      <svg
+        height="24"
+        style="
+          display: inline-block;
+          fill: currentcolor;
+          height: inherit;
+          max-height: inherit;
+          max-width: inherit;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: inherit
+        "
+        width="24"
+      >
+        <use href="#icon-spinner-20"/>
+      </svg>
+    </span>
+  </button>
+  <button style="
+    align-items: center;
+    background-color: var(--color-background-accent);
+    border-bottom-color: transparent;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: transparent;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--color-foreground-on-accent);
+    display: inline-flex;
+    font-family: inherit;
+    height: 32px;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    vertical-align: text-bottom;
+    width: 32px
+  ">
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <span style="
+      --color-spinner-icon-background: var(--color-background-primary);
+      --color-spinner-icon-foreground: #8fa3f8;
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+      animation-name: spin;
+      animation-timing-function: cubic-bezier(0.7, 0.2, 0.3, 0.73);
+      display: inline-block;
+      height: 20px;
+      width: 20px
+    ">
+      <svg
+        height="24"
+        style="
+          display: inline-block;
+          fill: currentcolor;
+          height: inherit;
+          max-height: inherit;
+          max-width: inherit;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: inherit
+        "
+        width="24"
+      >
+        <use href="#icon-spinner-20"/>
+      </svg>
+    </span>
+  </button>
+</div>
+
+┌─ secondary
+<div>
+  <button style="
+    align-items: center;
+    border-bottom-color: transparent;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: transparent;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--color-foreground-accent);
+    display: inline-flex;
+    font-family: inherit;
+    height: 48px;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    vertical-align: text-bottom;
+    width: 48px
+  ">
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <svg
+      height="16"
+      style="
+        display: inline-block;
+        fill: var(--color-foreground-accent);
+        height: 24px;
+        max-width: 75%;
+        pointer-events: none;
+        position: relative;
+        stroke-width: 0;
+        stroke: currentcolor;
+        vertical-align: middle;
+        width: 24px
+      "
+      width="16"
+    >
+      <use href="#icon-heart-24"/>
+    </svg>
+  </button>
+  <button style="
+    align-items: center;
+    border-bottom-color: transparent;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: transparent;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--color-foreground-accent);
+    display: inline-flex;
+    font-family: inherit;
+    height: 40px;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    vertical-align: text-bottom;
+    width: 40px
+  ">
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <svg
+      height="16"
+      style="
+        display: inline-block;
+        fill: var(--color-foreground-accent);
+        height: 20px;
+        max-width: 75%;
+        pointer-events: none;
+        position: relative;
+        stroke-width: 0;
+        stroke: currentcolor;
+        vertical-align: middle;
+        width: 20px
+      "
+      width="16"
+    >
+      <use href="#icon-heart-20"/>
+    </svg>
+  </button>
+  <button style="
+    align-items: center;
+    border-bottom-color: transparent;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: transparent;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--color-foreground-accent);
+    display: inline-flex;
+    font-family: inherit;
+    height: 32px;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    vertical-align: text-bottom;
+    width: 32px
+  ">
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <svg
+      height="16"
+      style="
+        display: inline-block;
+        fill: var(--color-foreground-accent);
+        height: 16px;
+        max-width: 75%;
+        pointer-events: none;
+        position: relative;
+        stroke-width: 0;
+        stroke: currentcolor;
+        vertical-align: middle;
+        width: 16px
+      "
+      width="16"
+    >
+      <use href="#icon-heart-16"/>
+    </svg>
+  </button>
+</div>
+
+┌─ secondaryDisabled
+<div>
+  <button
+    disabled
+    style="
+      align-items: center;
+      border-bottom-color: transparent;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-left-color: transparent;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-color: transparent;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-color: transparent;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      color: var(--color-foreground-accent);
+      display: inline-flex;
+      font-family: inherit;
+      height: 48px;
+      justify-content: center;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      padding-bottom: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 0px;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 48px
+    "
+  >
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <svg
+      height="16"
+      style="
+        display: inline-block;
+        fill: var(--color-foreground-disabled);
+        height: 24px;
+        max-width: 75%;
+        pointer-events: none;
+        position: relative;
+        stroke-width: 0;
+        stroke: currentcolor;
+        vertical-align: middle;
+        width: 24px
+      "
+      width="16"
+    >
+      <use href="#icon-heart-24"/>
+    </svg>
+  </button>
+  <button
+    disabled
+    style="
+      align-items: center;
+      border-bottom-color: transparent;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-left-color: transparent;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-color: transparent;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-color: transparent;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      color: var(--color-foreground-accent);
+      display: inline-flex;
+      font-family: inherit;
+      height: 40px;
+      justify-content: center;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      padding-bottom: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 0px;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 40px
+    "
+  >
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <svg
+      height="16"
+      style="
+        display: inline-block;
+        fill: var(--color-foreground-disabled);
+        height: 20px;
+        max-width: 75%;
+        pointer-events: none;
+        position: relative;
+        stroke-width: 0;
+        stroke: currentcolor;
+        vertical-align: middle;
+        width: 20px
+      "
+      width="16"
+    >
+      <use href="#icon-heart-20"/>
+    </svg>
+  </button>
+  <button
+    disabled
+    style="
+      align-items: center;
+      border-bottom-color: transparent;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-left-color: transparent;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-color: transparent;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-color: transparent;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      color: var(--color-foreground-accent);
+      display: inline-flex;
+      font-family: inherit;
+      height: 32px;
+      justify-content: center;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      padding-bottom: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 0px;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 32px
+    "
+  >
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <svg
+      height="16"
+      style="
+        display: inline-block;
+        fill: var(--color-foreground-disabled);
+        height: 16px;
+        max-width: 75%;
+        pointer-events: none;
+        position: relative;
+        stroke-width: 0;
+        stroke: currentcolor;
+        vertical-align: middle;
+        width: 16px
+      "
+      width="16"
+    >
+      <use href="#icon-heart-16"/>
+    </svg>
+  </button>
+</div>
+
+┌─ secondarySpinner
+<div>
+  <button style="
+    align-items: center;
+    border-bottom-color: transparent;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: transparent;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--color-foreground-accent);
+    display: inline-flex;
+    font-family: inherit;
+    height: 48px;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    vertical-align: text-bottom;
+    width: 48px
+  ">
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <span style="
+      --color-spinner-icon-foreground: #3665f366;
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+      animation-name: spin;
+      animation-timing-function: cubic-bezier(0.7, 0.2, 0.3, 0.73);
+      display: inline-block;
+      height: 30px;
+      width: 30px
+    ">
+      <svg
+        height="24"
+        style="
+          display: inline-block;
+          fill: currentcolor;
+          height: inherit;
+          max-height: inherit;
+          max-width: inherit;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: inherit
+        "
+        width="24"
+      >
+        <use href="#icon-spinner-24"/>
+      </svg>
+    </span>
+  </button>
+  <button style="
+    align-items: center;
+    border-bottom-color: transparent;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: transparent;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--color-foreground-accent);
+    display: inline-flex;
+    font-family: inherit;
+    height: 40px;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    vertical-align: text-bottom;
+    width: 40px
+  ">
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <span style="
+      --color-spinner-icon-foreground: #3665f366;
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+      animation-name: spin;
+      animation-timing-function: cubic-bezier(0.7, 0.2, 0.3, 0.73);
+      display: inline-block;
+      height: 24px;
+      width: 24px
+    ">
+      <svg
+        height="24"
+        style="
+          display: inline-block;
+          fill: currentcolor;
+          height: inherit;
+          max-height: inherit;
+          max-width: inherit;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: inherit
+        "
+        width="24"
+      >
+        <use href="#icon-spinner-20"/>
+      </svg>
+    </span>
+  </button>
+  <button style="
+    align-items: center;
+    border-bottom-color: transparent;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: transparent;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--color-foreground-accent);
+    display: inline-flex;
+    font-family: inherit;
+    height: 32px;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    vertical-align: text-bottom;
+    width: 32px
+  ">
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <span style="
+      --color-spinner-icon-foreground: #3665f366;
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+      animation-name: spin;
+      animation-timing-function: cubic-bezier(0.7, 0.2, 0.3, 0.73);
+      display: inline-block;
+      height: 20px;
+      width: 20px
+    ">
+      <svg
+        height="24"
+        style="
+          display: inline-block;
+          fill: currentcolor;
+          height: inherit;
+          max-height: inherit;
+          max-width: inherit;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: inherit
+        "
+        width="24"
+      >
+        <use href="#icon-spinner-20"/>
+      </svg>
+    </span>
+  </button>
+</div>
+
+┌─ tertiary
+<div>
+  <button style="
+    align-items: center;
+    border-bottom-color: transparent;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: transparent;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--color-foreground-accent);
+    display: inline-flex;
+    font-family: inherit;
+    height: 48px;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    vertical-align: text-bottom;
+    width: 48px
+  ">
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <svg
+      height="16"
+      style="
+        display: inline-block;
+        fill: var(--color-foreground-primary);
+        height: 24px;
+        max-width: 75%;
+        pointer-events: none;
+        position: relative;
+        stroke-width: 0;
+        stroke: currentcolor;
+        vertical-align: middle;
+        width: 24px
+      "
+      width="16"
+    >
+      <use href="#icon-heart-24"/>
+    </svg>
+  </button>
+  <button style="
+    align-items: center;
+    border-bottom-color: transparent;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: transparent;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--color-foreground-accent);
+    display: inline-flex;
+    font-family: inherit;
+    height: 40px;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    vertical-align: text-bottom;
+    width: 40px
+  ">
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <svg
+      height="16"
+      style="
+        display: inline-block;
+        fill: var(--color-foreground-primary);
+        height: 20px;
+        max-width: 75%;
+        pointer-events: none;
+        position: relative;
+        stroke-width: 0;
+        stroke: currentcolor;
+        vertical-align: middle;
+        width: 20px
+      "
+      width="16"
+    >
+      <use href="#icon-heart-20"/>
+    </svg>
+  </button>
+  <button style="
+    align-items: center;
+    border-bottom-color: transparent;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: transparent;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--color-foreground-accent);
+    display: inline-flex;
+    font-family: inherit;
+    height: 32px;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    vertical-align: text-bottom;
+    width: 32px
+  ">
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <svg
+      height="16"
+      style="
+        display: inline-block;
+        fill: var(--color-foreground-primary);
+        height: 16px;
+        max-width: 75%;
+        pointer-events: none;
+        position: relative;
+        stroke-width: 0;
+        stroke: currentcolor;
+        vertical-align: middle;
+        width: 16px
+      "
+      width="16"
+    >
+      <use href="#icon-heart-16"/>
+    </svg>
+  </button>
+</div>
+
+┌─ tertiaryDisabled
+<div>
+  <button
+    disabled
+    style="
+      align-items: center;
+      border-bottom-color: transparent;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-left-color: transparent;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-color: transparent;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-color: transparent;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      color: var(--color-foreground-accent);
+      display: inline-flex;
+      font-family: inherit;
+      height: 48px;
+      justify-content: center;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      padding-bottom: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 0px;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 48px
+    "
+  >
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <svg
+      height="16"
+      style="
+        display: inline-block;
+        fill: var(--color-background-disabled);
+        height: 24px;
+        max-width: 75%;
+        pointer-events: none;
+        position: relative;
+        stroke-width: 0;
+        stroke: currentcolor;
+        vertical-align: middle;
+        width: 24px
+      "
+      width="16"
+    >
+      <use href="#icon-heart-24"/>
+    </svg>
+  </button>
+  <button
+    disabled
+    style="
+      align-items: center;
+      border-bottom-color: transparent;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-left-color: transparent;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-color: transparent;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-color: transparent;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      color: var(--color-foreground-accent);
+      display: inline-flex;
+      font-family: inherit;
+      height: 40px;
+      justify-content: center;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      padding-bottom: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 0px;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 40px
+    "
+  >
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <svg
+      height="16"
+      style="
+        display: inline-block;
+        fill: var(--color-background-disabled);
+        height: 20px;
+        max-width: 75%;
+        pointer-events: none;
+        position: relative;
+        stroke-width: 0;
+        stroke: currentcolor;
+        vertical-align: middle;
+        width: 20px
+      "
+      width="16"
+    >
+      <use href="#icon-heart-20"/>
+    </svg>
+  </button>
+  <button
+    disabled
+    style="
+      align-items: center;
+      border-bottom-color: transparent;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-left-color: transparent;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-color: transparent;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-color: transparent;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      color: var(--color-foreground-accent);
+      display: inline-flex;
+      font-family: inherit;
+      height: 32px;
+      justify-content: center;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      padding-bottom: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 0px;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 32px
+    "
+  >
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <svg
+      height="16"
+      style="
+        display: inline-block;
+        fill: var(--color-background-disabled);
+        height: 16px;
+        max-width: 75%;
+        pointer-events: none;
+        position: relative;
+        stroke-width: 0;
+        stroke: currentcolor;
+        vertical-align: middle;
+        width: 16px
+      "
+      width="16"
+    >
+      <use href="#icon-heart-16"/>
+    </svg>
+  </button>
+</div>
+
+┌─ tertiarySpinner
+<div>
+  <button style="
+    align-items: center;
+    border-bottom-color: transparent;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: transparent;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--color-foreground-accent);
+    display: inline-flex;
+    font-family: inherit;
+    height: 48px;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    vertical-align: text-bottom;
+    width: 48px
+  ">
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <span style="
+      --color-spinner-icon-foreground: #3665f366;
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+      animation-name: spin;
+      animation-timing-function: cubic-bezier(0.7, 0.2, 0.3, 0.73);
+      display: inline-block;
+      height: 30px;
+      width: 30px
+    ">
+      <svg
+        height="24"
+        style="
+          display: inline-block;
+          fill: currentcolor;
+          height: inherit;
+          max-height: inherit;
+          max-width: inherit;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: inherit
+        "
+        width="24"
+      >
+        <use href="#icon-spinner-24"/>
+      </svg>
+    </span>
+  </button>
+  <button style="
+    align-items: center;
+    border-bottom-color: transparent;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: transparent;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--color-foreground-accent);
+    display: inline-flex;
+    font-family: inherit;
+    height: 40px;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    vertical-align: text-bottom;
+    width: 40px
+  ">
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <span style="
+      --color-spinner-icon-foreground: #3665f366;
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+      animation-name: spin;
+      animation-timing-function: cubic-bezier(0.7, 0.2, 0.3, 0.73);
+      display: inline-block;
+      height: 24px;
+      width: 24px
+    ">
+      <svg
+        height="24"
+        style="
+          display: inline-block;
+          fill: currentcolor;
+          height: inherit;
+          max-height: inherit;
+          max-width: inherit;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: inherit
+        "
+        width="24"
+      >
+        <use href="#icon-spinner-20"/>
+      </svg>
+    </span>
+  </button>
+  <button style="
+    align-items: center;
+    border-bottom-color: transparent;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: transparent;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: var(--color-foreground-accent);
+    display: inline-flex;
+    font-family: inherit;
+    height: 32px;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    vertical-align: text-bottom;
+    width: 32px
+  ">
+    <style>@scope{:scope{
+      &::after {
+        background-color: var(--color-state-layer-neutral);
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        bottom: 0px;
+        content: "";
+        left: 0px;
+        pointer-events: none;
+        position: absolute;
+        right: 0px;
+        top: 0px
+      }
+    }}</style>
+    <span style="
+      --color-spinner-icon-foreground: #3665f366;
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+      animation-name: spin;
+      animation-timing-function: cubic-bezier(0.7, 0.2, 0.3, 0.73);
+      display: inline-block;
+      height: 20px;
+      width: 20px
+    ">
+      <svg
+        height="24"
+        style="
+          display: inline-block;
+          fill: currentcolor;
+          height: inherit;
+          max-height: inherit;
+          max-width: inherit;
+          pointer-events: none;
+          stroke-width: 0;
+          stroke: currentcolor;
+          vertical-align: middle;
+          width: inherit
+        "
+        width="24"
+      >
+        <use href="#icon-spinner-20"/>
+      </svg>
+    </span>
+  </button>
+</div>
+

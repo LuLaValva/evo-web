@@ -1,4 +1,9 @@
-export default { title: "Skin/Listbox Button/Base" };
+export default {
+    title: "Skin/Listbox Button/Base",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const collapsedUnselected = () => `
 <span class="listbox-button">
