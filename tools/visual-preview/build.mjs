@@ -683,9 +683,27 @@ const summaryText = entries.length
       " (" + sectionCount + " sections) across " + componentCount +
       " components — vs " + baseRefShort
     : "No visual snapshot changes vs " + baseRefShort;
+// PR context (passed by CI) drives the index heading; local builds get
+// a plain fallback.
+const prNumber = arg("--pr-number");
+const prUrl = arg("--pr-url");
+const prTitle = arg("--pr-title");
+const intro =
+    (prNumber
+        ? "<h1>Visual Differences from " +
+          (prUrl ? '<a href="' + escAttr(prUrl) + '">' : "<a>") +
+          "PR #" + escapeHtml(prNumber) + "</a></h1>" +
+          (prTitle
+              ? '<p class="subheading">' + escapeHtml(prTitle) + "</p>"
+              : "")
+        : "<h1>Visual Differences</h1>" +
+          '<p class="subheading">working tree vs ' + escapeHtml(baseRefShort) + "</p>") +
+    "<p>Review is local to your browser and won\u2019t be shared, please leave comments in GitHub!</p>";
+
 const indexHtml = fs
     .readFileSync(path.join(__dirname, "templates", "index.html"), "utf8")
     .replace("__SUMMARY__", escapeHtml(summaryText))
+    .replace("__INTRO__", () => intro)
     .replace("__LIST__", () =>
         entries.length
             ? list
