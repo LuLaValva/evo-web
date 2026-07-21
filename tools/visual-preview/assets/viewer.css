@@ -333,8 +333,9 @@ pre.diff .hunk { color: var(--accent); }
 
 /* Index intro pane */
 .intro { max-width: 640px; }
-.intro h1 { font-size: 24px; margin: 8px 0 2px; }
-.intro .subheading { color: var(--fg-muted); font-size: 15px; margin: 0 0 16px; }
+.intro hgroup { margin: 8px 0 16px; }
+.intro h1 { font-size: 24px; margin: 0 0 2px; }
+.intro .subheading { color: var(--fg-muted); font-size: 15px; margin: 0; }
 kbd {
     background: var(--bg-inset);
     border: 1px solid var(--border);
