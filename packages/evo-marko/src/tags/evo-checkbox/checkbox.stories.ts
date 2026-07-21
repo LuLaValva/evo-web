@@ -22,13 +22,12 @@ export default {
     },
   },
 
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     size: {
-      type: "string",
-      options: ["small (default)", "large"],
       control: "inline-radio",
-      description:
-        "Sets the checkbox icon. Default is small. (Note: The dimensions of the checkbox will not change, but only the icon)",
     },
     checked: {
       type: "boolean",

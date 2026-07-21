@@ -19,6 +19,9 @@ export default {
       },
     },
   },
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     multiple: {
       type: "boolean",
@@ -26,7 +29,6 @@ export default {
       description: "Whether multiple files can be uploaded",
     },
     subheader: {
-      description: "an optional subheading",
       "@": {
         ["<span> attributes" as any]: {
           description:
@@ -35,13 +37,10 @@ export default {
       },
     },
     header: {
-      description: "The header text",
       "@": {
         as: {
-          type: "string",
           options: ["h1", "h2", "h3", "h4", "h5", "h6", "span"],
           control: "select",
-          description: "Overrides the tag used for the header text",
         },
         ["<h3> attributes" as any]: {
           description:

@@ -1,10 +1,21 @@
 export interface Input extends Omit<Marko.HTML.Input, "checked" | "checkedChange" | "checkedValue" | "checkedValueChange"> {
+    /**
+     * String enumeration of checkbox state.
+     * @default "false"
+     */
     checked?: Marko.HTMLAttributes["aria-checked"];
     checkedChange?: (checked: "true" | "false" | "mixed") => void;
+    /** Used alongside `checkedValues` for a [controllable](https://markojs.com/docs/explanation/controllable-components) pattern that aligns with [Marko's `checkedValue` checkbox pattern](https://markojs.com/docs/reference/native-tag#input-typeradio-and-input-typecheckbox). List of _all_ "child" checkbox values */
     values?: string[];
+    /** **Must** be accompanied by `values` and `checkedValuesChange` (usually via [the `:=` bind syntax](https://markojs.com/docs/reference/language#shorthand-change-handlers-two-way-binding)). Leverages [Marko's `checkedValue` checkbox pattern](https://markojs.com/docs/reference/native-tag#input-typeradio-and-input-typecheckbox) for "select/deselect all" behavior */
     checkedValues?: string[];
     checkedValuesChange?: (checkedValues: string[]) => void;
+    /** If set, then will skip the mixed toggle when clicking on checkbox. Used if in some cases you want to toggle between all items selected or none. */
     skipMixed?: boolean;
+    /**
+     * Sets the checkbox icon. (Note: The dimensions of the checkbox will not change, but only the icon)
+     * @default "regular"
+     */
     size?: "regular" | "large";
 }
 

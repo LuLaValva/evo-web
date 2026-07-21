@@ -1,9 +1,12 @@
 export interface Input extends Omit<Marko.HTML.Input, "type"> {
+    /** The header text */
     header?: Marko.AttrTag<
         Marko.Input<"h1"> & {
+            /** Overrides the tag used for the header text */
             as?: keyof Marko.NativeTags;
         }
     >;
+    /** An optional subheading */
     subheader?: Marko.AttrTag<Marko.HTML.Span>;
 }
 

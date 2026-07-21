@@ -24,38 +24,20 @@ export default {
     },
   },
 
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     checked: {
       controllable: true,
-      type: "string",
       options: ["false", "mixed", "true"],
       control: "inline-radio",
-      description: "String enumeration of checkbox state.",
-      table: { defaultValue: { summary: "false" } },
-    },
-    skipMixed: {
-      type: "boolean",
-      control: "boolean",
-      description:
-        "If set, then will skip the mixed toggle when clicking on checkbox. Used if in some cases you want to toggle between all items selected or none.",
     },
     size: {
-      type: "string",
-      options: ["regular (default)", "large"],
       control: "inline-radio",
-      description:
-        "Sets the checkbox icon. Default is regular. (Note: The dimensions of the checkbox will not change, but only the icon)",
-    },
-    values: {
-      description:
-        'Used alongside `checkedValues` for a [controllable](https://markojs.com/docs/explanation/controllable-components) pattern that aligns with [Marko\'s `checkedValue` checkbox pattern](https://markojs.com/docs/reference/native-tag#input-typeradio-and-input-typecheckbox). List of _all_ "child" checkbox values',
-      table: { type: { summary: "string[]" } },
     },
     checkedValues: {
       controllable: true,
-      description:
-        '**Must** be accompanied by `values` and `checkedValuesChange` (usually via [the `:=` bind syntax](https://markojs.com/docs/reference/language#shorthand-change-handlers-two-way-binding)). Leverages [Marko\'s `checkedValue` checkbox pattern](https://markojs.com/docs/reference/native-tag#input-typeradio-and-input-typecheckbox) for "select/deselect all" behavior',
-      table: { type: { summary: "string[]" } },
     },
     ["<input> attributes" as any]: {
       description:

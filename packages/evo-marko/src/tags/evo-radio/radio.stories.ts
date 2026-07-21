@@ -22,12 +22,10 @@ export default {
     },
   },
 
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
-    size: {
-      options: ["regular (default)", "large"],
-      description:
-        "Icon size. (Note: The dimensions of the radio will not change, but only the icon)",
-    },
     ["<input> attributes" as any]: {
       description:
         "All attributes and event handlers from [the native HTML `<input>` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input) will be passed through, and its Marko [change handlers](https://markojs.com/docs/reference/native-tag#input-valuechange-checkedchange-checkedvaluechange)",

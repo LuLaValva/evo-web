@@ -15,18 +15,12 @@ export default {
       description: { component: Readme },
     },
   },
+  // Descriptions, types, required-ness and defaults come from the JSDoc on
+  // the component's Input type via docgen; only controls that can't be
+  // inferred from the type and passthrough notes live here.
   argTypes: {
     value: {
-      type: "number",
       control: { type: "range", min: 0, max: 5, step: 0.5 },
-      description:
-        "The star rating value from 0 to 5. Supports half values (e.g. 2.5).",
-    },
-    a11yText: {
-      type: { name: "string", required: true },
-      control: "text",
-      description:
-        'Accessible label for the star rating. English default to be overridden is `"Rating: ${value} out of 5"`.',
     },
     ["<div> attributes" as any]: {
       description:
