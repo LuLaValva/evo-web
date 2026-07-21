@@ -6,14 +6,14 @@
 <title>Skin visual regression review</title>
 <link rel="stylesheet" href="assets/viewer.css" />
 </head>
-<body>
+<body class="story-page">
 <header>
     <h1>Visual regression review</h1>
     <span class="meta">1012 changed stories (2219 sections) across 80 components — vs 60ee2f496866</span>
     <span class="progress" id="progress"></span>
 </header>
-<input id="search" type="search" placeholder="Filter stories… ( / )" />
-<main style="padding:0">
+<nav id="sidebar">
+    <input id="search" type="search" placeholder="Filter stories… ( / )" />
     <div id="storylist"><h2>accordion</h2>
 <a class="story" href="s/accordion-stories-accordion--autoCollapse.html" data-slug="accordion-stories-accordion--autoCollapse" data-hash="j77iso" data-text="accordion autocollapse packages/skin/src/sass/accordion/stories/__snapshots__/accordion.snap" title="packages/skin/src/sass/accordion/stories/__snapshots__/accordion.snap"><span class="dot added"></span><span class="name">autoCollapse</span><span class="flagmark">⚑</span><span class="todo" title="not viewed yet"></span></a>
 <a class="story" href="s/accordion-stories-accordion--closed.html" data-slug="accordion-stories-accordion--closed" data-hash="1op37py" data-text="accordion closed packages/skin/src/sass/accordion/stories/__snapshots__/accordion.snap" title="packages/skin/src/sass/accordion/stories/__snapshots__/accordion.snap"><span class="dot added"></span><span class="name">closed<small> · accordion</small></span><span class="flagmark">⚑</span><span class="todo" title="not viewed yet"></span></a>
@@ -1107,10 +1107,49 @@
 <a class="story" href="s/tourtip-stories-tourtip--withActions.html" data-slug="tourtip-stories-tourtip--withActions" data-hash="f3o7q3" data-text="tourtip withactions packages/skin/src/sass/tourtip/stories/__snapshots__/tourtip.snap" title="packages/skin/src/sass/tourtip/stories/__snapshots__/tourtip.snap"><span class="dot added"></span><span class="name">withActions</span><span class="chip">3 dims</span><span class="flagmark">⚑</span><span class="todo" title="not viewed yet"></span></a>
 <a class="story" href="s/tourtip-stories-tourtip--withOneAction.html" data-slug="tourtip-stories-tourtip--withOneAction" data-hash="px2c62" data-text="tourtip withoneaction packages/skin/src/sass/tourtip/stories/__snapshots__/tourtip.snap" title="packages/skin/src/sass/tourtip/stories/__snapshots__/tourtip.snap"><span class="dot added"></span><span class="name">withOneAction</span><span class="chip">3 dims</span><span class="flagmark">⚑</span><span class="todo" title="not viewed yet"></span></a>
 </div>
+</nav>
+<main>
+    <div class="intro">
+        <h2>How to review</h2>
+        <p>
+            Every changed story in the sidebar is its own page, rendered with
+            each ref's real compiled CSS — <b>Base</b> on the left,
+            <b>This&nbsp;PR</b> on the right. Story URLs are stable, so you
+            can share a link straight to a specific diff.
+        </p>
+        <ul>
+            <li>
+                A <span class="todo-demo"></span> marks a story you haven't
+                opened yet — opening its page is what marks it viewed (your
+                browser also dims visited links). You're done when no dots
+                remain.
+            </li>
+            <li>
+                Press <kbd>x</kbd> (or the ⚑ button) on a story page to flag
+                a diff for follow-up; flags show up here as ⚑.
+            </li>
+            <li>
+                On story pages: compare side-by-side, swipe, onion-skin, or
+                flip; toggle light/dark; outline changed elements with
+                <kbd>h</kbd>; see the raw snapshot diff with <kbd>d</kbd>.
+                The inspector lists each changed element with per-property
+                before/after values — click one to spotlight it.
+            </li>
+            <li>
+                Keyboard: <kbd>j</kbd>/<kbd>k</kbd> prev/next story,
+                <kbd>/</kbd> filter, <kbd>Enter</kbd> open,
+                <kbd>Esc</kbd> back to this page.
+            </li>
+        </ul>
+        <p class="fine">
+            Both marks are keyed to the diff's content — if a story's diff
+            changes on a later push, it reverts to unviewed/unflagged.
+        </p>
+    </div>
 </main>
 <footer class="note">
     <span class="kbd-hint"><kbd>j</kbd>/<kbd>k</kbd> move · <kbd>Enter</kbd> open · <kbd>/</kbd> filter</span>
-    <span>Each story is its own page — share its URL to link a specific diff. A <b>●</b> marks stories you haven't opened yet (opening one clears it; your browser also dims visited links); use ⚑ on a page to flag it for follow-up.</span>
+    <span style="margin-left:auto">Stories render with each ref's real CSS; animations run live.</span>
 </footer>
 <script>
     "use strict";
@@ -1133,7 +1172,7 @@
     document.getElementById("progress").innerHTML =
         (nLeft
             ? "<b>" + nLeft + "</b> of " + rows.length + " left to view"
-            : "all " + rows.length + " viewed") +
+            : rows.length ? "all " + rows.length + " viewed" : "") +
         (nFlagged ? " · <b>" + nFlagged + "</b> ⚑ flagged" : "");
 
     const searchEl = document.getElementById("search");
@@ -1162,10 +1201,10 @@
         if (e.target?.closest?.("input, textarea, select, [contenteditable]")) return;
         const visible = rows.filter((r) => r.style.display !== "none");
         const idx = visible.indexOf(document.activeElement);
-        if (e.key === "j" || e.key === "ArrowDown") {
+        if (e.key === "k" || e.key === "ArrowDown") {
             e.preventDefault();
             (visible[Math.min(idx + 1, visible.length - 1)] ?? visible[0])?.focus();
-        } else if (e.key === "k" || e.key === "ArrowUp") {
+        } else if (e.key === "j" || e.key === "ArrowUp") {
             e.preventDefault();
             visible[idx === -1 ? 0 : Math.max(idx - 1, 0)]?.focus();
         } else if (e.key === "/") {
