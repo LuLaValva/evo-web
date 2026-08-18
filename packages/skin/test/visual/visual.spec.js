@@ -1,6 +1,6 @@
 import { page } from "vitest/browser";
 import { describe, it, expect } from "vitest";
-import visualHTML from "./visual-html-cached";
+import visualHTML, { getDocumentStyleRules } from "visual-html";
 import "../../src/sass/bundles/skin-full.scss";
 // Demo-only styles stories rely on (carousel demo cards, a11y
 // text-spacing, …) — the same file Storybook loads via preview.js.
@@ -23,11 +23,27 @@ function snapshotPathFor(storyPath) {
     return `${dir}/__snapshots__/${base}`;
 }
 
+// Parsing and specificity-sorting the whole CSSOM dominates capture cost, so
+// it happens once per viewport width and is reused for every story at that
+// width. Media-query rules are filtered against the viewport at parse time,
+// hence the width key; direction does not affect the rule list because
+// selectors are matched per element at capture time.
+let cachedWidth;
+let cachedRules;
+function styleRulesFor(width) {
+    if (cachedWidth !== width) {
+        cachedWidth = width;
+        cachedRules = getDocumentStyleRules(document);
+    }
+    return cachedRules;
+}
+
 // Captures every story of a module at one width/direction.
 // Returns Map<storyName, serializedVisualHTML>.
 async function captureStories(mod, width, dir) {
     await page.viewport(width, VIEWPORT_HEIGHT);
     document.documentElement.dir = dir;
+    const styleRules = styleRulesFor(width);
     const bodies = new Map();
     for (const [name, story] of Object.entries(mod)) {
         if (name === "default" || typeof story !== "function") continue;
@@ -43,7 +59,7 @@ async function captureStories(mod, width, dir) {
                 clone.textContent = script.textContent;
                 script.replaceWith(clone);
             }
-            bodies.set(name, visualHTML(container, width));
+            bodies.set(name, visualHTML(container, { styleRules }));
         } finally {
             container.remove();
             document.documentElement.dir = "";
@@ -67,8 +83,8 @@ for (const [storyPath, mod] of Object.entries(storyModules)) {
     describe(title, () => {
         it("matches visual snapshot", async () => {
             // dimension label suffix -> Map<storyName, body>.
-            // Widths are captured in a width-outer order so the cached
-            // rule parse in visual-html-cached is reused across stories.
+            // Widths are captured in a width-outer order so the cached rule
+            // parse is reused across every story at that width.
             const dimensions = new Map();
             for (const width of widths) {
                 dimensions.set(

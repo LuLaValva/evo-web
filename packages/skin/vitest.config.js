@@ -8,8 +8,7 @@ export default mergeConfig(
         test: {
             name: "visual",
             include: ["test/visual/**/*.spec.js"],
-            // Heavy story files (many stories × widths) exceed the default
-            // 5s; visual-html re-parses the full CSSOM per capture today.
+            // Heavy story files (many stories × widths) exceed the default 5s.
             testTimeout: 120_000,
             browser: {
                 enabled: true,

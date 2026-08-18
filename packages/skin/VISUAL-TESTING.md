@@ -11,14 +11,12 @@ stories (`src/sass/<component>/stories/__snapshots__/`), so the visual diff
 is part of the PR diff.
 
 An in-house **preview viewer** renders the before/after of every changed
-story so changes can be reviewed visually — side by side, swipe, onion skin,
-or flip — with the exact changed elements outlined and their changed
-properties listed. Where the story source is available at both refs, the
-viewer renders each story's real HTML against the skin CSS bundle
-compiled from that ref's SCSS sources (with the icon sprite inlined), at
-fluid width — so what you
-review is the true rendered result, not a reconstruction from the
-snapshot.
+story so changes can be reviewed visually — side by side or flipping
+between the two — with the exact changed elements outlined and their
+changed properties listed. Frames render the captured snapshot markup
+itself: visual-html inlines every visual declaration, so the snapshot needs
+only the design tokens its `var()` references resolve against. What you
+review is therefore exactly what the check compares.
 
 ## Why does my PR have a Visual Regression check?
 
@@ -58,7 +56,7 @@ unviewed/unflagged.
 
 The viewer highlights exactly which elements changed and lists each changed
 property (e.g. `padding-left: 20px → 28px`), and supports light/dark, RTL,
-and side-by-side/swipe/onion/flip comparison modes.
+and side-by-side or flip comparison.
 
 ## Which dimensions are captured?
 
