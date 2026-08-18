@@ -19,6 +19,7 @@ export default {
 
   argTypes: {
     size: {
+      options: ["normal (default)", "large"],
       control: "inline-radio",
     },
     href: {

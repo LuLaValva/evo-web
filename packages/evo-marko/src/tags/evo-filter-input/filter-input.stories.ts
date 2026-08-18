@@ -20,6 +20,7 @@ export default {
 
   argTypes: {
     size: {
+      options: ["regular (default)", "small", "large"],
       control: "inline-radio",
     },
     placeholder: {

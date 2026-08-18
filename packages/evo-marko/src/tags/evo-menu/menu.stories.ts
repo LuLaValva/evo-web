@@ -46,6 +46,7 @@ export default {
       },
     },
     variant: {
+      options: ["none (default)", "filter"],
       control: "inline-radio",
     },
     footerButton: {

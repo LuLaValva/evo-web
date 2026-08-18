@@ -26,6 +26,7 @@ export default {
       controllable: true,
     },
     layoutType: {
+      options: ["minimal", "list", "gallery"],
       control: "inline-radio",
     },
     icon: {

@@ -2,6 +2,14 @@ import { type Input as IconButtonInput } from "<evo-icon-button>";
 
 static const validSizes = ["wide", "narrow", "large"] as const;
 
+export type DialogHeader = Marko.Input<"h2"> & {
+  /**
+   * The heading element to use for the title.
+   * @default "h2"
+   */
+  as?: string;
+};
+
 export interface Input extends Marko.HTML.Dialog {
   /** Whether the dialog is open */
   open?: boolean;
@@ -18,15 +26,7 @@ export interface Input extends Marko.HTML.Dialog {
     }
   >;
   /** The header content rendered inside the dialog title */
-  header: Marko.AttrTag<
-    Marko.Input<"h2"> & {
-      /**
-       * The heading element to use for the title.
-       * @default "h2"
-       */
-      as?: string;
-    }
-  >;
+  header: Marko.AttrTag<DialogHeader>;
   /** The footer content rendered below the dialog main content area */
   footer?: Marko.AttrTag<Marko.Input<"div">>;
   /** Close button rendered in the dialog header. Pass `a11yText` for the accessible label */

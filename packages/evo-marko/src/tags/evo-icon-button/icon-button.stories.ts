@@ -25,9 +25,11 @@ export default {
       },
     },
     size: {
+      options: ["regular (default)", "small", "large"],
       control: "inline-radio",
     },
     priority: {
+      options: ["none (default)", "primary", "secondary", "tertiary"],
       control: "inline-radio",
     },
     a11yText: {

@@ -29,12 +29,15 @@ export default {
       controllable: true,
     },
     variant: {
+      options: ["button (default)", "form", "icon"],
       control: "select",
     },
     priority: {
+      options: ["none (default)", "primary", "secondary", "delete", "tertiary"],
       control: "select",
     },
     size: {
+      options: ["regular (default)", "large", "small"],
       control: "inline-radio",
     },
     label: {
@@ -46,6 +49,7 @@ export default {
       },
     },
     strategy: {
+      options: ["absolute", "fixed"],
       control: "inline-radio",
     },
     item: {
@@ -56,6 +60,7 @@ export default {
           description: "URL for the link item. Omit for button items.",
         },
         type: {
+          options: ["button", "submit"],
           control: { type: "select" },
         },
         ["<a> attributes" as any]: {

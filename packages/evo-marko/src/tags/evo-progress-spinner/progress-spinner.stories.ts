@@ -18,6 +18,7 @@ export default {
 
   argTypes: {
     size: {
+      options: ["normal (default)", "small", "large"],
       control: "inline-radio",
     },
     a11yText: {

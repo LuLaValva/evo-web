@@ -1,10 +1,10 @@
 export interface Input extends Omit<Marko.HTML.Div, "aria-label"> {
   /**
    * The `aria-label` for the eek rating.
-   * It should use eekRating, min, and max values in the label in order to demonstrate
+   * It should use rating, min, and max values in the label in order to demonstrate
    * to screen readers the content on the component.
    *
-   * Expected english value is `"Energy Rating: ${eekRating}. Range: ${max} - ${min}."`
+   * Expected english value is `"Energy efficiency class ${rating}. ${min} - ${max}"`
    * 
    * Pass `null` explicitly _only_ if alternative accessibility information is present
    */

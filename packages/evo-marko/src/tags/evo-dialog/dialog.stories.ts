@@ -25,6 +25,7 @@ export default {
       controllable: true,
     },
     size: {
+      options: ["regular (default)", "wide", "narrow", "large"],
       control: "inline-radio",
     },
     closedby: {

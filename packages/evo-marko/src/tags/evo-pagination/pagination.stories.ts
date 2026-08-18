@@ -54,6 +54,7 @@ export default {
       },
     },
     variant: {
+      options: ["show-last", "show-range", "overflow"],
       control: "inline-radio",
     },
     ["<nav> attributes" as any]: {

@@ -43,6 +43,7 @@ export default {
       table: { type: { summary: "string | number | (string | number)[]" } },
     },
     layoutType: {
+      options: ["minimal", "list", "gallery"],
       control: "inline-radio",
     },
   },

@@ -26,6 +26,7 @@ export default {
       control: "text",
     },
     listSelection: {
+      options: ["manual (default)", "auto"],
       control: "inline-radio",
     },
     option: {
