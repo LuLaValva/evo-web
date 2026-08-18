@@ -41,9 +41,9 @@ in-house preview viewer for human visual review.
 1. **Snapshot harness** (`packages/skin/test/visual/`): a Vitest
    browser-mode suite auto-discovers every `*.stories.js`, renders each
    story with the skin bundle in headless Chromium, and writes one snapshot
-   file per story file into colocated `__snapshots__/` directories. A
-   cached wrapper around visual-html's internals parses CSSOM rules once
-   per viewport width instead of per capture.
+   file per story file into colocated `__snapshots__/` directories. It
+   parses the CSSOM once per viewport width and passes the result to every
+   capture via visual-html's `styleRules` option.
 2. **Dimensions are opt-in per component** via CSF
    `parameters.visual = { widths, rtl }`; by default snapshots are
    viewport-independent — one capture per story, labeled by story name
@@ -55,12 +55,13 @@ in-house preview viewer for human visual review.
    `__snapshots__/`. Merging a PR _is_ updating the baseline; there is no
    baseline job and no approval dashboard.
 4. **Preview viewer** (`tools/visual-preview/`): a self-contained HTML
-   report rendering before/after of every changed story — each story's
-   real HTML executed against the skin bundle compiled from that ref's
-   SCSS sources at build time (falling back to snapshot text with token
-   CSS when a story source is missing at a ref), with light/dark toggle and RTL — highlighting the
-   exact changed elements with per-property before/after values, and
-   offering side-by-side/swipe/onion/flip comparison modes. Served locally
+   report rendering before/after of every changed story. Frames render the
+   captured snapshot markup with the design tokens its `var()` references
+   resolve against — the viewer therefore shows exactly what the check
+   compares, with no second rendering path to drift from it. Light/dark
+   toggle and RTL are supported, the exact changed elements are highlighted
+   with per-property before/after values, and the two sides can be compared
+   side by side or by flipping in place. Served locally
    (`npm run visual:preview`), as a CI artifact, and deployed per-PR to the
    existing gh-pages preview site.
 
@@ -87,6 +88,9 @@ in-house preview viewer for human visual review.
 - Pixel-level rendering issues (font rasterization, image content,
   paint-order or browser-specific bugs) are not detected; mitigation is
   human review of rendered output in the preview viewer
+- The viewer renders captured markup, not a live story: interaction states
+  and animations can't be exercised in it. Reviewing those means running
+  Storybook, which is also where they are authored
 - Single-engine capture (headless Chromium) — accepted; Percy's default
   rendering was Chromium-based as well
 - ~12 MB of snapshot text in the repository (bounded by dedupe references;

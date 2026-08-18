@@ -25047,15 +25047,18 @@
           min-width: 120px;
           position: relative
         ">
-          <video style="
-            align-self: center;
-            height: 100%;
-            margin-bottom: auto;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: auto;
-            width: 100%
-          "/>
+          <video
+            src="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4"
+            style="
+              align-self: center;
+              height: 100%;
+              margin-bottom: auto;
+              margin-left: auto;
+              margin-right: auto;
+              margin-top: auto;
+              width: 100%
+            "
+          />
           <button style="
             align-items: center;
             background-color: var(--file-preview-card-action-background-color, var(--color-background-primary));
