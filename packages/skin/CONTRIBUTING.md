@@ -315,102 +315,73 @@ Each story must be isolated to a single test. This allows us to easily run visua
 
 ## Visual Regression Testing
 
-We use Percy for automated visual regression testing. Percy runs automatically in CI/CD for all pull requests to ensure visual changes are reviewed before merging.
+We use [visual-html](https://github.com/eBay/visual-html) snapshots committed
+to git for visual regression testing. Every Storybook story is rendered in
+headless Chromium and serialized to a text snapshot containing only visually
+significant information — element structure plus the author CSS rules that
+match each element, with `var(--token)` references preserved unresolved (so
+snapshots are theme-agnostic). Snapshots live next to their stories in
+`src/sass/<component>/stories/__snapshots__/`.
+
+See [VISUAL-TESTING.md](./VISUAL-TESTING.md) for the full FAQ.
 
 ### How It Works
 
-**For All Contributors:**
+1. Change a component's SCSS, HTML stories, or tokens
+2. Run the visual suite — snapshots regenerate in place:
 
-1. Create a PR with Skin component changes
-2. Percy automatically detects changed components
-3. Percy captures and compares snapshots at multiple viewport widths
-4. Review Percy results in the PR checks tab
-5. Request review from a maintainer to approve Percy changes
-6. Merge PR once Percy and all other checks pass
+    ```bash
+    npm run update-snapshots
+    ```
 
-**Automatic Detection:**
+3. Review the change visually with the preview viewer:
 
-- Percy intelligently detects which components changed in your PR
-- Only changed components are snapshot tested (faster builds)
-- Global changes (tokens, variables, mixins) trigger the full snapshot suite
-- No manual setup required
+    ```bash
+    npm run visual:preview   # from the repo root
+    ```
 
-**CI/CD Behavior:**
+4. Commit the snapshot changes together with your code change
+5. CI (`Visual Regression` check) regenerates snapshots and fails if the
+   committed ones are stale; reviewers approve the snapshot diff in normal
+   PR review, aided by the deployed preview viewer linked from the PR
+   comment
 
-- **Pull Requests**: Percy runs automatically and blocks merge until approved by a maintainer
-- **Main Branch**: Percy runs after merge and auto-approves to update the baseline
+There is no separate approval dashboard and no baseline job — merging a PR
+_is_ updating the baseline.
 
-### Manual Percy Runs (Local Development)
+### Snapshot Dimensions
 
-Internal contributors can run Percy locally for testing before pushing changes.
+By default snapshots are viewport-independent: each story is captured
+once (rendered LTR in a 1280px viewport) and labeled by story name alone —
+most component CSS has no width-dependent rules, so one capture covers
+every viewport. Components with responsive or direction-sensitive styles
+opt into width/RTL-labeled captures in their story file's default export:
 
-#### Prerequisites
-
-Set Percy token in your environment:
-
-```bash
-export PERCY_TOKEN=[TOKEN_FROM_PERCY_DASHBOARD]
+```js
+export default {
+    title: "Skin/Dialog",
+    parameters: {
+        visual: { widths: [320, 512, 768, 1024], rtl: true },
+    },
+};
 ```
 
-#### Run Specific Components
+- `widths`: viewport widths to capture (the 1280px default is always
+  captured alongside). List the breakpoints your `@media` rules actually
+  cross.
+- `rtl: true`: adds one RTL capture at the default width.
 
-```bash
-cd packages/skin
-
-# Single component
-PERCY_PARTIAL_BUILD=1 STORIES="Button" npm run snapshots
-
-# Multiple components
-PERCY_PARTIAL_BUILD=1 STORIES="Button,Icon,Badge" npm run snapshots
-```
-
-#### Run All Components
-
-```bash
-cd packages/skin
-npm run snapshots:all
-```
-
-#### Dry Run
-
-Dry run will print the snapshot names that would be tested without executing the tests or creating a Percy build.
-
-```bash
-cd packages/skin
-
-# Specific components
-STORIES="Button,Icon,Badge" npm run snapshots:dry
-
-# All components
-npm run snapshots:all:dry
-```
+If you add media queries or direction-sensitive styles to a component,
+update its `parameters.visual` accordingly. Secondary dimensions whose
+output matches the default capture are stored as `(same as 1280px)`
+references to keep diffs quiet.
 
 ### External Contributors
 
-External contributors cannot run Percy locally (token required), but Percy runs automatically in CI for all PRs. The eBay team will review and approve Percy builds as part of the PR review process.
-
-### Troubleshooting
-
-**Percy Build Pending:**
-
-- Wait for build to complete (may take 5-10 minutes for partial builds, longer for full builds)
-- Check Percy dashboard for detailed results
-- Request review from maintainer to approve
-
-**Percy Build Failed:**
-
-- Review visual diffs in Percy dashboard
-- If changes are intentional: maintainer approves
-- If changes are bugs: fix and push update
-
-**Percy Skipped:**
-
-- No Skin component changes detected
-- Percy only runs for changes in `packages/skin/src/sass/`, `packages/skin/src/tokens/`, or `packages/skin/.storybook/`
-
-### Technical Notes
-
-As you may see in `package.json`, there are two helper scripts, `snapshots:execute` and `snapshots:execute:dry`. These should not be run directly - they are called by `gulpfile.js` after Percy storybook regexes have been formatted.
+No tokens or accounts are required — the whole pipeline runs locally and in
+CI for fork PRs. If you cannot run headless Chromium locally, the CI check
+uploads the regenerated snapshots as a `visual-preview` artifact you can
+download and commit.
 
 ## Website
 

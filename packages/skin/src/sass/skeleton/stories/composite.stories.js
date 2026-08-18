@@ -1,4 +1,9 @@
-export default { title: "Skin/Skeleton/Composite" };
+export default {
+    title: "Skin/Skeleton/Composite",
+    parameters: {
+        visual: { rtl: true },
+    },
+};
 
 export const tile = () =>
     `<div class="skeleton skeleton--blue" role="img" aria-label="loading" style="width: 225px;">

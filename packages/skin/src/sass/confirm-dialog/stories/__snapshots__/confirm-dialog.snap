@@ -1,0 +1,1347 @@
+┌─ base @ 320px
+<div>
+  <div style="
+    align-items: flex-start;
+    background-color: var(--dialog-scrim-color-show);
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    left: 0px;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    will-change: background-color;
+    z-index: 100000
+  ">
+    <div style="
+      background-color: var(--dialog-window-background-color, var(--color-background-primary));
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      flex-shrink: 0;
+      margin-bottom: auto;
+      margin-left: var(--spacing-200);
+      margin-right: var(--spacing-200);
+      margin-top: auto;
+      max-height: 90%;
+      max-width: calc(100% - 32px);
+      min-height: 55px;
+      min-width: 208px;
+      padding: var(--spacing-200);
+      will-change: opacity, transform
+    ">
+      <div>
+        <h2 style="
+          font-size: var(--font-size-large-1);
+          font-weight: var(--font-weight-600);
+          line-height: 28px;
+          margin-bottom: 0px;
+          margin-top: 0px
+        ">
+          Delete Address?
+        </h2>
+      </div>
+      <div style="
+        margin: var(--spacing-200) 0;
+        min-height: var(--spacing-200)
+      ">
+        <p style="
+          margin-bottom: 0px;
+          margin-top: 0px
+        ">
+          You will permanently lose this address.
+        </p>
+      </div>
+      <div style="text-align: right">
+        <button style="
+          align-content: center;
+          align-items: center;
+          border-bottom-color: currentcolor;
+          border-bottom-style: solid;
+          border-bottom-width: 1px;
+          border-bottom: 1px solid;
+          border-left-color: currentcolor;
+          border-left-style: solid;
+          border-left-width: 1px;
+          border-right-color: currentcolor;
+          border-right-style: solid;
+          border-right-width: 1px;
+          border-top-color: currentcolor;
+          border-top-style: solid;
+          border-top-width: 1px;
+          border-top: 1px solid;
+          color: inherit;
+          font-family: inherit;
+          font-size: var(--font-size-body);
+          min-height: 40px;
+          min-width: 88px;
+          padding-bottom: 0px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 0px;
+          vertical-align: bottom
+        ">
+          Cancel
+        </button>
+        <button style="
+          align-content: center;
+          align-items: center;
+          background-color: var(--color-background-accent);
+          border-bottom-color: currentcolor;
+          border-bottom-style: solid;
+          border-bottom-width: 1px;
+          border-bottom: 1px solid;
+          border-left-color: currentcolor;
+          border-left-style: solid;
+          border-left-width: 1px;
+          border-right-color: currentcolor;
+          border-right-style: solid;
+          border-right-width: 1px;
+          border-top-color: currentcolor;
+          border-top-style: solid;
+          border-top-width: 1px;
+          border-top: 1px solid;
+          color: var(--color-foreground-on-accent);
+          font-family: inherit;
+          font-size: var(--font-size-body);
+          font-weight: 700;
+          margin-left: var(--spacing-100);
+          min-height: 40px;
+          min-width: 88px;
+          overflow-x: hidden;
+          overflow-y: hidden;
+          padding-bottom: 0px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 0px;
+          position: relative;
+          transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
+          vertical-align: bottom
+        ">
+          <style>@scope{:scope{
+            &::after {
+              background-color: var(--color-state-layer-neutral);
+              bottom: 0px;
+              content: "";
+              left: 0px;
+              pointer-events: none;
+              position: absolute;
+              right: 0px;
+              top: 0px
+            }
+          }}</style>
+          Delete
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ base @ 768px
+<div>
+  <div style="
+    align-items: flex-start;
+    background-color: var(--dialog-scrim-color-show);
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    left: 0px;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    will-change: background-color;
+    z-index: 100000
+  ">
+    <div style="
+      background-color: var(--dialog-window-background-color, var(--color-background-primary));
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      flex-shrink: 0;
+      margin-bottom: auto;
+      margin-left: var(--spacing-200);
+      margin-right: var(--spacing-200);
+      margin-top: auto;
+      max-height: 90%;
+      max-width: calc(88% - var(--spacing-400));
+      min-height: 55px;
+      min-width: 208px;
+      padding: var(--spacing-200);
+      will-change: opacity, transform
+    ">
+      <div>
+        <h2 style="
+          font-size: var(--font-size-large-1);
+          font-weight: var(--font-weight-600);
+          line-height: 28px;
+          margin-bottom: 0px;
+          margin-top: 0px
+        ">
+          Delete Address?
+        </h2>
+      </div>
+      <div style="
+        margin: var(--spacing-200) 0;
+        min-height: var(--spacing-200)
+      ">
+        <p style="
+          margin-bottom: 0px;
+          margin-top: 0px
+        ">
+          You will permanently lose this address.
+        </p>
+      </div>
+      <div style="text-align: right">
+        <button style="
+          align-content: center;
+          align-items: center;
+          border-bottom-color: currentcolor;
+          border-bottom-style: solid;
+          border-bottom-width: 1px;
+          border-bottom: 1px solid;
+          border-left-color: currentcolor;
+          border-left-style: solid;
+          border-left-width: 1px;
+          border-right-color: currentcolor;
+          border-right-style: solid;
+          border-right-width: 1px;
+          border-top-color: currentcolor;
+          border-top-style: solid;
+          border-top-width: 1px;
+          border-top: 1px solid;
+          color: inherit;
+          font-family: inherit;
+          font-size: var(--font-size-body);
+          min-height: 40px;
+          min-width: 88px;
+          padding-bottom: 0px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 0px;
+          vertical-align: bottom
+        ">
+          Cancel
+        </button>
+        <button style="
+          align-content: center;
+          align-items: center;
+          background-color: var(--color-background-accent);
+          border-bottom-color: currentcolor;
+          border-bottom-style: solid;
+          border-bottom-width: 1px;
+          border-bottom: 1px solid;
+          border-left-color: currentcolor;
+          border-left-style: solid;
+          border-left-width: 1px;
+          border-right-color: currentcolor;
+          border-right-style: solid;
+          border-right-width: 1px;
+          border-top-color: currentcolor;
+          border-top-style: solid;
+          border-top-width: 1px;
+          border-top: 1px solid;
+          color: var(--color-foreground-on-accent);
+          font-family: inherit;
+          font-size: var(--font-size-body);
+          font-weight: 700;
+          margin-left: var(--spacing-100);
+          min-height: 40px;
+          min-width: 88px;
+          overflow-x: hidden;
+          overflow-y: hidden;
+          padding-bottom: 0px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 0px;
+          position: relative;
+          transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
+          vertical-align: bottom
+        ">
+          <style>@scope{:scope{
+            &::after {
+              background-color: var(--color-state-layer-neutral);
+              bottom: 0px;
+              content: "";
+              left: 0px;
+              pointer-events: none;
+              position: absolute;
+              right: 0px;
+              top: 0px
+            }
+          }}</style>
+          Delete
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ base @ 1024px
+(same as 1280px)
+
+┌─ base @ 1280px
+<div>
+  <div style="
+    align-items: flex-start;
+    background-color: var(--dialog-scrim-color-show);
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    left: 0px;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    will-change: background-color;
+    z-index: 100000
+  ">
+    <div style="
+      background-color: var(--dialog-window-background-color, var(--color-background-primary));
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      flex-shrink: 0;
+      margin-bottom: auto;
+      margin-left: var(--spacing-200);
+      margin-right: var(--spacing-200);
+      margin-top: auto;
+      max-height: 90%;
+      max-width: var(--dialog-lightbox-max-width);
+      min-height: 55px;
+      min-width: 208px;
+      padding: var(--spacing-200);
+      will-change: opacity, transform
+    ">
+      <div>
+        <h2 style="
+          font-size: var(--font-size-large-1);
+          font-weight: var(--font-weight-600);
+          line-height: 28px;
+          margin-bottom: 0px;
+          margin-top: 0px
+        ">
+          Delete Address?
+        </h2>
+      </div>
+      <div style="
+        margin: var(--spacing-200) 0;
+        min-height: var(--spacing-200)
+      ">
+        <p style="
+          margin-bottom: 0px;
+          margin-top: 0px
+        ">
+          You will permanently lose this address.
+        </p>
+      </div>
+      <div style="text-align: right">
+        <button style="
+          align-content: center;
+          align-items: center;
+          border-bottom-color: currentcolor;
+          border-bottom-style: solid;
+          border-bottom-width: 1px;
+          border-bottom: 1px solid;
+          border-left-color: currentcolor;
+          border-left-style: solid;
+          border-left-width: 1px;
+          border-right-color: currentcolor;
+          border-right-style: solid;
+          border-right-width: 1px;
+          border-top-color: currentcolor;
+          border-top-style: solid;
+          border-top-width: 1px;
+          border-top: 1px solid;
+          color: inherit;
+          font-family: inherit;
+          font-size: var(--font-size-body);
+          min-height: 40px;
+          min-width: 88px;
+          padding-bottom: 0px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 0px;
+          vertical-align: bottom
+        ">
+          Cancel
+        </button>
+        <button style="
+          align-content: center;
+          align-items: center;
+          background-color: var(--color-background-accent);
+          border-bottom-color: currentcolor;
+          border-bottom-style: solid;
+          border-bottom-width: 1px;
+          border-bottom: 1px solid;
+          border-left-color: currentcolor;
+          border-left-style: solid;
+          border-left-width: 1px;
+          border-right-color: currentcolor;
+          border-right-style: solid;
+          border-right-width: 1px;
+          border-top-color: currentcolor;
+          border-top-style: solid;
+          border-top-width: 1px;
+          border-top: 1px solid;
+          color: var(--color-foreground-on-accent);
+          font-family: inherit;
+          font-size: var(--font-size-body);
+          font-weight: 700;
+          margin-left: var(--spacing-100);
+          min-height: 40px;
+          min-width: 88px;
+          overflow-x: hidden;
+          overflow-y: hidden;
+          padding-bottom: 0px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 0px;
+          position: relative;
+          transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
+          vertical-align: bottom
+        ">
+          <style>@scope{:scope{
+            &::after {
+              background-color: var(--color-state-layer-neutral);
+              bottom: 0px;
+              content: "";
+              left: 0px;
+              pointer-events: none;
+              position: absolute;
+              right: 0px;
+              top: 0px
+            }
+          }}</style>
+          Delete
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ baseWithHeaderOverflow @ 320px
+<div>
+  <div style="
+    align-items: flex-start;
+    background-color: var(--dialog-scrim-color-show);
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    left: 0px;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    will-change: background-color;
+    z-index: 100000
+  ">
+    <div style="
+      background-color: var(--dialog-window-background-color, var(--color-background-primary));
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      flex-shrink: 0;
+      margin-bottom: auto;
+      margin-left: var(--spacing-200);
+      margin-right: var(--spacing-200);
+      margin-top: auto;
+      max-height: 90%;
+      max-width: calc(100% - 32px);
+      min-height: 55px;
+      min-width: 208px;
+      padding: var(--spacing-200);
+      will-change: opacity, transform
+    ">
+      <div>
+        <h2 style="
+          font-size: var(--font-size-large-1);
+          font-weight: var(--font-weight-600);
+          line-height: 28px;
+          margin-bottom: 0px;
+          margin-top: 0px
+        ">
+          This title is long enough that it needs to wrap into multiple lines. No dialog header should ever be this long.
+        </h2>
+      </div>
+      <div style="
+        margin: var(--spacing-200) 0;
+        min-height: var(--spacing-200)
+      ">
+        <p style="
+          margin-bottom: 0px;
+          margin-top: 0px
+        ">
+          You will permanently lose this address.
+        </p>
+      </div>
+      <div style="text-align: right">
+        <button style="
+          align-content: center;
+          align-items: center;
+          border-bottom-color: currentcolor;
+          border-bottom-style: solid;
+          border-bottom-width: 1px;
+          border-bottom: 1px solid;
+          border-left-color: currentcolor;
+          border-left-style: solid;
+          border-left-width: 1px;
+          border-right-color: currentcolor;
+          border-right-style: solid;
+          border-right-width: 1px;
+          border-top-color: currentcolor;
+          border-top-style: solid;
+          border-top-width: 1px;
+          border-top: 1px solid;
+          color: inherit;
+          font-family: inherit;
+          font-size: var(--font-size-body);
+          min-height: 40px;
+          min-width: 88px;
+          padding-bottom: 0px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 0px;
+          vertical-align: bottom
+        ">
+          Cancel
+        </button>
+        <button style="
+          align-content: center;
+          align-items: center;
+          background-color: var(--color-background-accent);
+          border-bottom-color: currentcolor;
+          border-bottom-style: solid;
+          border-bottom-width: 1px;
+          border-bottom: 1px solid;
+          border-left-color: currentcolor;
+          border-left-style: solid;
+          border-left-width: 1px;
+          border-right-color: currentcolor;
+          border-right-style: solid;
+          border-right-width: 1px;
+          border-top-color: currentcolor;
+          border-top-style: solid;
+          border-top-width: 1px;
+          border-top: 1px solid;
+          color: var(--color-foreground-on-accent);
+          font-family: inherit;
+          font-size: var(--font-size-body);
+          font-weight: 700;
+          margin-left: var(--spacing-100);
+          min-height: 40px;
+          min-width: 88px;
+          overflow-x: hidden;
+          overflow-y: hidden;
+          padding-bottom: 0px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 0px;
+          position: relative;
+          transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
+          vertical-align: bottom
+        ">
+          <style>@scope{:scope{
+            &::after {
+              background-color: var(--color-state-layer-neutral);
+              bottom: 0px;
+              content: "";
+              left: 0px;
+              pointer-events: none;
+              position: absolute;
+              right: 0px;
+              top: 0px
+            }
+          }}</style>
+          Delete
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ baseWithHeaderOverflow @ 768px
+<div>
+  <div style="
+    align-items: flex-start;
+    background-color: var(--dialog-scrim-color-show);
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    left: 0px;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    will-change: background-color;
+    z-index: 100000
+  ">
+    <div style="
+      background-color: var(--dialog-window-background-color, var(--color-background-primary));
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      flex-shrink: 0;
+      margin-bottom: auto;
+      margin-left: var(--spacing-200);
+      margin-right: var(--spacing-200);
+      margin-top: auto;
+      max-height: 90%;
+      max-width: calc(88% - var(--spacing-400));
+      min-height: 55px;
+      min-width: 208px;
+      padding: var(--spacing-200);
+      will-change: opacity, transform
+    ">
+      <div>
+        <h2 style="
+          font-size: var(--font-size-large-1);
+          font-weight: var(--font-weight-600);
+          line-height: 28px;
+          margin-bottom: 0px;
+          margin-top: 0px
+        ">
+          This title is long enough that it needs to wrap into multiple lines. No dialog header should ever be this long.
+        </h2>
+      </div>
+      <div style="
+        margin: var(--spacing-200) 0;
+        min-height: var(--spacing-200)
+      ">
+        <p style="
+          margin-bottom: 0px;
+          margin-top: 0px
+        ">
+          You will permanently lose this address.
+        </p>
+      </div>
+      <div style="text-align: right">
+        <button style="
+          align-content: center;
+          align-items: center;
+          border-bottom-color: currentcolor;
+          border-bottom-style: solid;
+          border-bottom-width: 1px;
+          border-bottom: 1px solid;
+          border-left-color: currentcolor;
+          border-left-style: solid;
+          border-left-width: 1px;
+          border-right-color: currentcolor;
+          border-right-style: solid;
+          border-right-width: 1px;
+          border-top-color: currentcolor;
+          border-top-style: solid;
+          border-top-width: 1px;
+          border-top: 1px solid;
+          color: inherit;
+          font-family: inherit;
+          font-size: var(--font-size-body);
+          min-height: 40px;
+          min-width: 88px;
+          padding-bottom: 0px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 0px;
+          vertical-align: bottom
+        ">
+          Cancel
+        </button>
+        <button style="
+          align-content: center;
+          align-items: center;
+          background-color: var(--color-background-accent);
+          border-bottom-color: currentcolor;
+          border-bottom-style: solid;
+          border-bottom-width: 1px;
+          border-bottom: 1px solid;
+          border-left-color: currentcolor;
+          border-left-style: solid;
+          border-left-width: 1px;
+          border-right-color: currentcolor;
+          border-right-style: solid;
+          border-right-width: 1px;
+          border-top-color: currentcolor;
+          border-top-style: solid;
+          border-top-width: 1px;
+          border-top: 1px solid;
+          color: var(--color-foreground-on-accent);
+          font-family: inherit;
+          font-size: var(--font-size-body);
+          font-weight: 700;
+          margin-left: var(--spacing-100);
+          min-height: 40px;
+          min-width: 88px;
+          overflow-x: hidden;
+          overflow-y: hidden;
+          padding-bottom: 0px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 0px;
+          position: relative;
+          transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
+          vertical-align: bottom
+        ">
+          <style>@scope{:scope{
+            &::after {
+              background-color: var(--color-state-layer-neutral);
+              bottom: 0px;
+              content: "";
+              left: 0px;
+              pointer-events: none;
+              position: absolute;
+              right: 0px;
+              top: 0px
+            }
+          }}</style>
+          Delete
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ baseWithHeaderOverflow @ 1024px
+(same as 1280px)
+
+┌─ baseWithHeaderOverflow @ 1280px
+<div>
+  <div style="
+    align-items: flex-start;
+    background-color: var(--dialog-scrim-color-show);
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    left: 0px;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    will-change: background-color;
+    z-index: 100000
+  ">
+    <div style="
+      background-color: var(--dialog-window-background-color, var(--color-background-primary));
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      flex-shrink: 0;
+      margin-bottom: auto;
+      margin-left: var(--spacing-200);
+      margin-right: var(--spacing-200);
+      margin-top: auto;
+      max-height: 90%;
+      max-width: var(--dialog-lightbox-max-width);
+      min-height: 55px;
+      min-width: 208px;
+      padding: var(--spacing-200);
+      will-change: opacity, transform
+    ">
+      <div>
+        <h2 style="
+          font-size: var(--font-size-large-1);
+          font-weight: var(--font-weight-600);
+          line-height: 28px;
+          margin-bottom: 0px;
+          margin-top: 0px
+        ">
+          This title is long enough that it needs to wrap into multiple lines. No dialog header should ever be this long.
+        </h2>
+      </div>
+      <div style="
+        margin: var(--spacing-200) 0;
+        min-height: var(--spacing-200)
+      ">
+        <p style="
+          margin-bottom: 0px;
+          margin-top: 0px
+        ">
+          You will permanently lose this address.
+        </p>
+      </div>
+      <div style="text-align: right">
+        <button style="
+          align-content: center;
+          align-items: center;
+          border-bottom-color: currentcolor;
+          border-bottom-style: solid;
+          border-bottom-width: 1px;
+          border-bottom: 1px solid;
+          border-left-color: currentcolor;
+          border-left-style: solid;
+          border-left-width: 1px;
+          border-right-color: currentcolor;
+          border-right-style: solid;
+          border-right-width: 1px;
+          border-top-color: currentcolor;
+          border-top-style: solid;
+          border-top-width: 1px;
+          border-top: 1px solid;
+          color: inherit;
+          font-family: inherit;
+          font-size: var(--font-size-body);
+          min-height: 40px;
+          min-width: 88px;
+          padding-bottom: 0px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 0px;
+          vertical-align: bottom
+        ">
+          Cancel
+        </button>
+        <button style="
+          align-content: center;
+          align-items: center;
+          background-color: var(--color-background-accent);
+          border-bottom-color: currentcolor;
+          border-bottom-style: solid;
+          border-bottom-width: 1px;
+          border-bottom: 1px solid;
+          border-left-color: currentcolor;
+          border-left-style: solid;
+          border-left-width: 1px;
+          border-right-color: currentcolor;
+          border-right-style: solid;
+          border-right-width: 1px;
+          border-top-color: currentcolor;
+          border-top-style: solid;
+          border-top-width: 1px;
+          border-top: 1px solid;
+          color: var(--color-foreground-on-accent);
+          font-family: inherit;
+          font-size: var(--font-size-body);
+          font-weight: 700;
+          margin-left: var(--spacing-100);
+          min-height: 40px;
+          min-width: 88px;
+          overflow-x: hidden;
+          overflow-y: hidden;
+          padding-bottom: 0px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 0px;
+          position: relative;
+          transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
+          vertical-align: bottom
+        ">
+          <style>@scope{:scope{
+            &::after {
+              background-color: var(--color-state-layer-neutral);
+              bottom: 0px;
+              content: "";
+              left: 0px;
+              pointer-events: none;
+              position: absolute;
+              right: 0px;
+              top: 0px
+            }
+          }}</style>
+          Delete
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ textSpacing @ 320px
+<div>
+  <div style="
+    align-items: flex-start;
+    background-color: var(--dialog-scrim-color-show);
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    left: 0px;
+    letter-spacing: 0.12em;
+    line-height: 1.5;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    will-change: background-color;
+    word-spacing: 0.16em;
+    z-index: 100000
+  ">
+    <div style="
+      background-color: var(--dialog-window-background-color, var(--color-background-primary));
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      flex-shrink: 0;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      margin-bottom: auto;
+      margin-left: var(--spacing-200);
+      margin-right: var(--spacing-200);
+      margin-top: auto;
+      max-height: 90%;
+      max-width: calc(100% - 32px);
+      min-height: 55px;
+      min-width: 208px;
+      padding: var(--spacing-200);
+      will-change: opacity, transform;
+      word-spacing: 0.16em
+    ">
+      <div style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
+      ">
+        <h2 style="
+          font-size: var(--font-size-large-1);
+          font-weight: var(--font-weight-600);
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 0px;
+          margin-top: 0px;
+          word-spacing: 0.16em
+        ">
+          Delete Address?
+        </h2>
+      </div>
+      <div style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin: var(--spacing-200) 0;
+        min-height: var(--spacing-200);
+        word-spacing: 0.16em
+      ">
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          margin-top: 0px;
+          word-spacing: 0.16em
+        ">
+          You will permanently lose this address.
+        </p>
+      </div>
+      <div style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        text-align: right;
+        word-spacing: 0.16em
+      ">
+        <button style="
+          align-content: center;
+          align-items: center;
+          border-bottom-color: currentcolor;
+          border-bottom-style: solid;
+          border-bottom-width: 1px;
+          border-bottom: 1px solid;
+          border-left-color: currentcolor;
+          border-left-style: solid;
+          border-left-width: 1px;
+          border-right-color: currentcolor;
+          border-right-style: solid;
+          border-right-width: 1px;
+          border-top-color: currentcolor;
+          border-top-style: solid;
+          border-top-width: 1px;
+          border-top: 1px solid;
+          color: inherit;
+          font-family: inherit;
+          font-size: var(--font-size-body);
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          min-height: 40px;
+          min-width: 88px;
+          padding-bottom: 0px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 0px;
+          vertical-align: bottom;
+          word-spacing: 0.16em
+        ">
+          Cancel
+        </button>
+        <button style="
+          align-content: center;
+          align-items: center;
+          background-color: var(--color-background-accent);
+          border-bottom-color: currentcolor;
+          border-bottom-style: solid;
+          border-bottom-width: 1px;
+          border-bottom: 1px solid;
+          border-left-color: currentcolor;
+          border-left-style: solid;
+          border-left-width: 1px;
+          border-right-color: currentcolor;
+          border-right-style: solid;
+          border-right-width: 1px;
+          border-top-color: currentcolor;
+          border-top-style: solid;
+          border-top-width: 1px;
+          border-top: 1px solid;
+          color: var(--color-foreground-on-accent);
+          font-family: inherit;
+          font-size: var(--font-size-body);
+          font-weight: 700;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-left: var(--spacing-100);
+          min-height: 40px;
+          min-width: 88px;
+          overflow-x: hidden;
+          overflow-y: hidden;
+          padding-bottom: 0px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 0px;
+          position: relative;
+          transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
+          vertical-align: bottom;
+          word-spacing: 0.16em
+        ">
+          <style>@scope{:scope{
+            &::after {
+              background-color: var(--color-state-layer-neutral);
+              bottom: 0px;
+              content: "";
+              left: 0px;
+              pointer-events: none;
+              position: absolute;
+              right: 0px;
+              top: 0px
+            }
+          }}</style>
+          Delete
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ textSpacing @ 768px
+<div>
+  <div style="
+    align-items: flex-start;
+    background-color: var(--dialog-scrim-color-show);
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    left: 0px;
+    letter-spacing: 0.12em;
+    line-height: 1.5;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    will-change: background-color;
+    word-spacing: 0.16em;
+    z-index: 100000
+  ">
+    <div style="
+      background-color: var(--dialog-window-background-color, var(--color-background-primary));
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      flex-shrink: 0;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      margin-bottom: auto;
+      margin-left: var(--spacing-200);
+      margin-right: var(--spacing-200);
+      margin-top: auto;
+      max-height: 90%;
+      max-width: calc(88% - var(--spacing-400));
+      min-height: 55px;
+      min-width: 208px;
+      padding: var(--spacing-200);
+      will-change: opacity, transform;
+      word-spacing: 0.16em
+    ">
+      <div style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
+      ">
+        <h2 style="
+          font-size: var(--font-size-large-1);
+          font-weight: var(--font-weight-600);
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 0px;
+          margin-top: 0px;
+          word-spacing: 0.16em
+        ">
+          Delete Address?
+        </h2>
+      </div>
+      <div style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin: var(--spacing-200) 0;
+        min-height: var(--spacing-200);
+        word-spacing: 0.16em
+      ">
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          margin-top: 0px;
+          word-spacing: 0.16em
+        ">
+          You will permanently lose this address.
+        </p>
+      </div>
+      <div style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        text-align: right;
+        word-spacing: 0.16em
+      ">
+        <button style="
+          align-content: center;
+          align-items: center;
+          border-bottom-color: currentcolor;
+          border-bottom-style: solid;
+          border-bottom-width: 1px;
+          border-bottom: 1px solid;
+          border-left-color: currentcolor;
+          border-left-style: solid;
+          border-left-width: 1px;
+          border-right-color: currentcolor;
+          border-right-style: solid;
+          border-right-width: 1px;
+          border-top-color: currentcolor;
+          border-top-style: solid;
+          border-top-width: 1px;
+          border-top: 1px solid;
+          color: inherit;
+          font-family: inherit;
+          font-size: var(--font-size-body);
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          min-height: 40px;
+          min-width: 88px;
+          padding-bottom: 0px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 0px;
+          vertical-align: bottom;
+          word-spacing: 0.16em
+        ">
+          Cancel
+        </button>
+        <button style="
+          align-content: center;
+          align-items: center;
+          background-color: var(--color-background-accent);
+          border-bottom-color: currentcolor;
+          border-bottom-style: solid;
+          border-bottom-width: 1px;
+          border-bottom: 1px solid;
+          border-left-color: currentcolor;
+          border-left-style: solid;
+          border-left-width: 1px;
+          border-right-color: currentcolor;
+          border-right-style: solid;
+          border-right-width: 1px;
+          border-top-color: currentcolor;
+          border-top-style: solid;
+          border-top-width: 1px;
+          border-top: 1px solid;
+          color: var(--color-foreground-on-accent);
+          font-family: inherit;
+          font-size: var(--font-size-body);
+          font-weight: 700;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-left: var(--spacing-100);
+          min-height: 40px;
+          min-width: 88px;
+          overflow-x: hidden;
+          overflow-y: hidden;
+          padding-bottom: 0px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 0px;
+          position: relative;
+          transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
+          vertical-align: bottom;
+          word-spacing: 0.16em
+        ">
+          <style>@scope{:scope{
+            &::after {
+              background-color: var(--color-state-layer-neutral);
+              bottom: 0px;
+              content: "";
+              left: 0px;
+              pointer-events: none;
+              position: absolute;
+              right: 0px;
+              top: 0px
+            }
+          }}</style>
+          Delete
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ textSpacing @ 1024px
+(same as 1280px)
+
+┌─ textSpacing @ 1280px
+<div>
+  <div style="
+    align-items: flex-start;
+    background-color: var(--dialog-scrim-color-show);
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    left: 0px;
+    letter-spacing: 0.12em;
+    line-height: 1.5;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    will-change: background-color;
+    word-spacing: 0.16em;
+    z-index: 100000
+  ">
+    <div style="
+      background-color: var(--dialog-window-background-color, var(--color-background-primary));
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      flex-shrink: 0;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      margin-bottom: auto;
+      margin-left: var(--spacing-200);
+      margin-right: var(--spacing-200);
+      margin-top: auto;
+      max-height: 90%;
+      max-width: var(--dialog-lightbox-max-width);
+      min-height: 55px;
+      min-width: 208px;
+      padding: var(--spacing-200);
+      will-change: opacity, transform;
+      word-spacing: 0.16em
+    ">
+      <div style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
+      ">
+        <h2 style="
+          font-size: var(--font-size-large-1);
+          font-weight: var(--font-weight-600);
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 0px;
+          margin-top: 0px;
+          word-spacing: 0.16em
+        ">
+          Delete Address?
+        </h2>
+      </div>
+      <div style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin: var(--spacing-200) 0;
+        min-height: var(--spacing-200);
+        word-spacing: 0.16em
+      ">
+        <p style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: 2em;
+          margin-top: 0px;
+          word-spacing: 0.16em
+        ">
+          You will permanently lose this address.
+        </p>
+      </div>
+      <div style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        text-align: right;
+        word-spacing: 0.16em
+      ">
+        <button style="
+          align-content: center;
+          align-items: center;
+          border-bottom-color: currentcolor;
+          border-bottom-style: solid;
+          border-bottom-width: 1px;
+          border-bottom: 1px solid;
+          border-left-color: currentcolor;
+          border-left-style: solid;
+          border-left-width: 1px;
+          border-right-color: currentcolor;
+          border-right-style: solid;
+          border-right-width: 1px;
+          border-top-color: currentcolor;
+          border-top-style: solid;
+          border-top-width: 1px;
+          border-top: 1px solid;
+          color: inherit;
+          font-family: inherit;
+          font-size: var(--font-size-body);
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          min-height: 40px;
+          min-width: 88px;
+          padding-bottom: 0px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 0px;
+          vertical-align: bottom;
+          word-spacing: 0.16em
+        ">
+          Cancel
+        </button>
+        <button style="
+          align-content: center;
+          align-items: center;
+          background-color: var(--color-background-accent);
+          border-bottom-color: currentcolor;
+          border-bottom-style: solid;
+          border-bottom-width: 1px;
+          border-bottom: 1px solid;
+          border-left-color: currentcolor;
+          border-left-style: solid;
+          border-left-width: 1px;
+          border-right-color: currentcolor;
+          border-right-style: solid;
+          border-right-width: 1px;
+          border-top-color: currentcolor;
+          border-top-style: solid;
+          border-top-width: 1px;
+          border-top: 1px solid;
+          color: var(--color-foreground-on-accent);
+          font-family: inherit;
+          font-size: var(--font-size-body);
+          font-weight: 700;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-left: var(--spacing-100);
+          min-height: 40px;
+          min-width: 88px;
+          overflow-x: hidden;
+          overflow-y: hidden;
+          padding-bottom: 0px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 0px;
+          position: relative;
+          transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
+          vertical-align: bottom;
+          word-spacing: 0.16em
+        ">
+          <style>@scope{:scope{
+            &::after {
+              background-color: var(--color-state-layer-neutral);
+              bottom: 0px;
+              content: "";
+              left: 0px;
+              pointer-events: none;
+              position: absolute;
+              right: 0px;
+              top: 0px
+            }
+          }}</style>
+          Delete
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+

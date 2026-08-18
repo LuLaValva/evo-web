@@ -1,0 +1,770 @@
+┌─ disabled
+<div>
+  <div>
+    <div style="
+      display: flex;
+      flex-wrap: wrap;
+      font-size: var(--font-size-body);
+      margin-inline-start: calc(0px - var(--spacing-200))
+    ">
+      <div style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        color: var(--tabs-item-selected-foreground-color, var(--color-foreground-primary));
+        cursor: default;
+        display: inline-block;
+        padding: var(--spacing-150) var(--spacing-200);
+        position: relative
+      ">
+        <style>@scope{:scope{
+          &::after {
+            background-color: currentcolor;
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            content: "";
+            display: block;
+            height: 2px;
+            position: absolute
+          }
+        }}</style>
+        <span>
+          Tab 1
+        </span>
+      </div>
+      <div style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        color: var(--color-foreground-disabled);
+        cursor: default;
+        display: inline-block;
+        padding: var(--spacing-150) var(--spacing-200);
+        position: relative
+      ">
+        <style>@scope{:scope{
+          &::after {
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            content: "";
+            display: block;
+            height: 2px;
+            position: absolute
+          }
+        }}</style>
+        <span>
+          Tab 2
+        </span>
+      </div>
+      <div style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
+        cursor: default;
+        display: inline-block;
+        padding: var(--spacing-150) var(--spacing-200);
+        position: relative
+      ">
+        <style>@scope{:scope{
+          &::after {
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            content: "";
+            display: block;
+            height: 2px;
+            position: absolute
+          }
+        }}</style>
+        <span>
+          Tab 3
+        </span>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div style="margin: var(--spacing-200) 0">
+          <p>
+            Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ four
+<div>
+  <div>
+    <div style="
+      display: flex;
+      flex-wrap: wrap;
+      font-size: var(--font-size-body);
+      margin-inline-start: calc(0px - var(--spacing-200))
+    ">
+      <div style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        color: var(--tabs-item-selected-foreground-color, var(--color-foreground-primary));
+        cursor: default;
+        display: inline-block;
+        padding: var(--spacing-150) var(--spacing-200);
+        position: relative
+      ">
+        <style>@scope{:scope{
+          &::after {
+            background-color: currentcolor;
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            content: "";
+            display: block;
+            height: 2px;
+            position: absolute
+          }
+        }}</style>
+        <span>
+          Tab 1
+        </span>
+      </div>
+      <div style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
+        cursor: default;
+        display: inline-block;
+        padding: var(--spacing-150) var(--spacing-200);
+        position: relative
+      ">
+        <style>@scope{:scope{
+          &::after {
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            content: "";
+            display: block;
+            height: 2px;
+            position: absolute
+          }
+        }}</style>
+        <span>
+          Tab 2
+        </span>
+      </div>
+      <div style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
+        cursor: default;
+        display: inline-block;
+        padding: var(--spacing-150) var(--spacing-200);
+        position: relative
+      ">
+        <style>@scope{:scope{
+          &::after {
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            content: "";
+            display: block;
+            height: 2px;
+            position: absolute
+          }
+        }}</style>
+        <span>
+          Tab 3
+        </span>
+      </div>
+      <div style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
+        cursor: default;
+        display: inline-block;
+        padding: var(--spacing-150) var(--spacing-200);
+        position: relative
+      ">
+        <style>@scope{:scope{
+          &::after {
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            content: "";
+            display: block;
+            height: 2px;
+            position: absolute
+          }
+        }}</style>
+        <span>
+          Tab 4
+        </span>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div style="margin: var(--spacing-200) 0">
+          <p>
+            Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ large
+<div>
+  <div>
+    <div style="
+      display: flex;
+      flex-wrap: wrap;
+      font-size: var(--font-size-medium);
+      font-weight: var(--font-weight-600);
+      margin-inline-start: calc(0px - var(--spacing-200))
+    ">
+      <div style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        color: var(--tabs-item-selected-foreground-color, var(--color-foreground-primary));
+        cursor: default;
+        display: inline-block;
+        padding: var(--spacing-150) var(--spacing-200);
+        position: relative
+      ">
+        <style>@scope{:scope{
+          &::after {
+            background-color: currentcolor;
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            content: "";
+            display: block;
+            height: 2px;
+            position: absolute
+          }
+        }}</style>
+        <span>
+          Tab 1
+        </span>
+      </div>
+      <div style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
+        cursor: default;
+        display: inline-block;
+        padding: var(--spacing-150) var(--spacing-200);
+        position: relative
+      ">
+        <style>@scope{:scope{
+          &::after {
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            content: "";
+            display: block;
+            height: 2px;
+            position: absolute
+          }
+        }}</style>
+        <span>
+          Tab 2
+        </span>
+      </div>
+      <div style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
+        cursor: default;
+        display: inline-block;
+        padding: var(--spacing-150) var(--spacing-200);
+        position: relative
+      ">
+        <style>@scope{:scope{
+          &::after {
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            content: "";
+            display: block;
+            height: 2px;
+            position: absolute
+          }
+        }}</style>
+        <span>
+          Tab 3
+        </span>
+      </div>
+      <div style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
+        cursor: default;
+        display: inline-block;
+        padding: var(--spacing-150) var(--spacing-200);
+        position: relative
+      ">
+        <style>@scope{:scope{
+          &::after {
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            content: "";
+            display: block;
+            height: 2px;
+            position: absolute
+          }
+        }}</style>
+        <span>
+          Tab 4
+        </span>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div style="margin: var(--spacing-200) 0">
+          <p>
+            Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ longText
+<div>
+  <div>
+    <div style="
+      display: flex;
+      flex-wrap: wrap;
+      font-size: var(--font-size-body);
+      margin-inline-start: calc(0px - var(--spacing-200))
+    ">
+      <div style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        color: var(--tabs-item-selected-foreground-color, var(--color-foreground-primary));
+        cursor: default;
+        display: inline-block;
+        padding: var(--spacing-150) var(--spacing-200);
+        position: relative
+      ">
+        <style>@scope{:scope{
+          &::after {
+            background-color: currentcolor;
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            content: "";
+            display: block;
+            height: 2px;
+            position: absolute
+          }
+        }}</style>
+        <span>
+          Tab 1 with lots of text that will not truncate or wrap
+        </span>
+      </div>
+      <div style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
+        cursor: default;
+        display: inline-block;
+        padding: var(--spacing-150) var(--spacing-200);
+        position: relative
+      ">
+        <style>@scope{:scope{
+          &::after {
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            content: "";
+            display: block;
+            height: 2px;
+            position: absolute
+          }
+        }}</style>
+        <span>
+          Tab 2
+        </span>
+      </div>
+      <div style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
+        cursor: default;
+        display: inline-block;
+        padding: var(--spacing-150) var(--spacing-200);
+        position: relative
+      ">
+        <style>@scope{:scope{
+          &::after {
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            content: "";
+            display: block;
+            height: 2px;
+            position: absolute
+          }
+        }}</style>
+        <span>
+          Tab 3
+        </span>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div style="margin: var(--spacing-200) 0">
+          <h3>
+            Panel 1 Content
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet assumenda culpa est nisi porro quae quidem ratione repellendus, temporibus. Assumenda atque dolor dolorem eligendi eveniet ipsam modi necessitatibus quos ut?
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ textSpacing
+<div>
+  <div style="
+    letter-spacing: 0.12em;
+    line-height: 1.5;
+    word-spacing: 0.16em
+  ">
+    <div style="
+      display: flex;
+      flex-wrap: wrap;
+      font-size: var(--font-size-body);
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      margin-inline-start: calc(0px - var(--spacing-200));
+      word-spacing: 0.16em
+    ">
+      <div style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        color: var(--tabs-item-selected-foreground-color, var(--color-foreground-primary));
+        cursor: default;
+        display: inline-block;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        padding: var(--spacing-150) var(--spacing-200);
+        position: relative;
+        word-spacing: 0.16em
+      ">
+        <style>@scope{:scope{
+          &::after {
+            background-color: currentcolor;
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            content: "";
+            display: block;
+            height: 2px;
+            position: absolute
+          }
+        }}</style>
+        <span style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        ">
+          Tab 1
+        </span>
+      </div>
+      <div style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
+        cursor: default;
+        display: inline-block;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        padding: var(--spacing-150) var(--spacing-200);
+        position: relative;
+        word-spacing: 0.16em
+      ">
+        <style>@scope{:scope{
+          &::after {
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            content: "";
+            display: block;
+            height: 2px;
+            position: absolute
+          }
+        }}</style>
+        <span style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        ">
+          Tab 2
+        </span>
+      </div>
+      <div style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
+        cursor: default;
+        display: inline-block;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        padding: var(--spacing-150) var(--spacing-200);
+        position: relative;
+        word-spacing: 0.16em
+      ">
+        <style>@scope{:scope{
+          &::after {
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            content: "";
+            display: block;
+            height: 2px;
+            position: absolute
+          }
+        }}</style>
+        <span style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        ">
+          Tab 3
+        </span>
+      </div>
+      <div style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
+        cursor: default;
+        display: inline-block;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        padding: var(--spacing-150) var(--spacing-200);
+        position: relative;
+        word-spacing: 0.16em
+      ">
+        <style>@scope{:scope{
+          &::after {
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            content: "";
+            display: block;
+            height: 2px;
+            position: absolute
+          }
+        }}</style>
+        <span style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        ">
+          Tab 4
+        </span>
+      </div>
+    </div>
+    <div style="
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      word-spacing: 0.16em
+    ">
+      <div style="
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        word-spacing: 0.16em
+      ">
+        <div style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin: var(--spacing-200) 0;
+          word-spacing: 0.16em
+        ">
+          <p style="
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            margin-bottom: 2em;
+            word-spacing: 0.16em
+          ">
+            Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ three
+<div>
+  <div>
+    <div style="
+      display: flex;
+      flex-wrap: wrap;
+      font-size: var(--font-size-body);
+      margin-inline-start: calc(0px - var(--spacing-200))
+    ">
+      <div style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        color: var(--tabs-item-selected-foreground-color, var(--color-foreground-primary));
+        cursor: default;
+        display: inline-block;
+        padding: var(--spacing-150) var(--spacing-200);
+        position: relative
+      ">
+        <style>@scope{:scope{
+          &::after {
+            background-color: currentcolor;
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            content: "";
+            display: block;
+            height: 2px;
+            position: absolute
+          }
+        }}</style>
+        <span>
+          Tab 1
+        </span>
+      </div>
+      <div style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
+        cursor: default;
+        display: inline-block;
+        padding: var(--spacing-150) var(--spacing-200);
+        position: relative
+      ">
+        <style>@scope{:scope{
+          &::after {
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            content: "";
+            display: block;
+            height: 2px;
+            position: absolute
+          }
+        }}</style>
+        <span>
+          Tab 2
+        </span>
+      </div>
+      <div style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
+        cursor: default;
+        display: inline-block;
+        padding: var(--spacing-150) var(--spacing-200);
+        position: relative
+      ">
+        <style>@scope{:scope{
+          &::after {
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            content: "";
+            display: block;
+            height: 2px;
+            position: absolute
+          }
+        }}</style>
+        <span>
+          Tab 3
+        </span>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div style="margin: var(--spacing-200) 0">
+          <p>
+            Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ two
+<div>
+  <div>
+    <div style="
+      display: flex;
+      flex-wrap: wrap;
+      font-size: var(--font-size-body);
+      margin-inline-start: calc(0px - var(--spacing-200))
+    ">
+      <div style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        color: var(--tabs-item-selected-foreground-color, var(--color-foreground-primary));
+        cursor: default;
+        display: inline-block;
+        padding: var(--spacing-150) var(--spacing-200);
+        position: relative
+      ">
+        <style>@scope{:scope{
+          &::after {
+            background-color: currentcolor;
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            content: "";
+            display: block;
+            height: 2px;
+            position: absolute
+          }
+        }}</style>
+        <span>
+          Tab 1
+        </span>
+      </div>
+      <div style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
+        cursor: default;
+        display: inline-block;
+        padding: var(--spacing-150) var(--spacing-200);
+        position: relative
+      ">
+        <style>@scope{:scope{
+          &::after {
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            content: "";
+            display: block;
+            height: 2px;
+            position: absolute
+          }
+        }}</style>
+        <span>
+          Tab 2
+        </span>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div style="margin: var(--spacing-200) 0">
+          <p>
+            Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

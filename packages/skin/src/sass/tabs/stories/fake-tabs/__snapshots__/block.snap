@@ -1,0 +1,499 @@
+┌─ four
+<div>
+  <div>
+    <ul style="
+      display: flex;
+      flex-wrap: wrap;
+      font-size: var(--font-size-body);
+      list-style-type: none;
+      margin-bottom: 0px;
+      margin-inline-start: calc(0px - var(--spacing-200));
+      margin-top: 0px;
+      padding-left: 0px
+    ">
+      <li style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        display: inline-block;
+        position: relative
+      ">
+        <a style="
+          color: var(--tabs-item-selected-foreground-color, var(--color-foreground-primary));
+          display: inline-block;
+          padding: var(--spacing-150) var(--spacing-200);
+          text-decoration-line: none
+        ">
+          <style>@scope{:scope{
+            &::after {
+              background-color: currentcolor;
+              border-bottom-left-radius: 6px;
+              border-bottom-right-radius: 6px;
+              border-top-left-radius: 6px;
+              border-top-right-radius: 6px;
+              content: "";
+              display: block;
+              height: 2px;
+              position: absolute
+            }
+          }}</style>
+          Fake 1
+          <span style="
+            border-bottom-color: currentcolor;
+            border-left-color: currentcolor;
+            border-right-color: currentcolor;
+            border-top-color: currentcolor;
+            clip-path: inset(50%);
+            height: 1px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            position: absolute;
+            text-wrap-mode: nowrap;
+            width: 1px
+          ">
+            - selected
+          </span>
+        </a>
+      </li>
+      <li style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        display: inline-block;
+        position: relative
+      ">
+        <a style="
+          color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
+          display: inline-block;
+          padding: var(--spacing-150) var(--spacing-200);
+          text-decoration-line: none
+        ">
+          <style>@scope{:scope{
+            &::after {
+              border-bottom-left-radius: 6px;
+              border-bottom-right-radius: 6px;
+              border-top-left-radius: 6px;
+              border-top-right-radius: 6px;
+              content: "";
+              display: block;
+              height: 2px;
+              position: absolute
+            }
+          }}</style>
+          Fake 2
+        </a>
+      </li>
+      <li style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        display: inline-block;
+        position: relative
+      ">
+        <a style="
+          color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
+          display: inline-block;
+          padding: var(--spacing-150) var(--spacing-200);
+          text-decoration-line: none
+        ">
+          <style>@scope{:scope{
+            &::after {
+              border-bottom-left-radius: 6px;
+              border-bottom-right-radius: 6px;
+              border-top-left-radius: 6px;
+              border-top-right-radius: 6px;
+              content: "";
+              display: block;
+              height: 2px;
+              position: absolute
+            }
+          }}</style>
+          Fake 3
+        </a>
+      </li>
+      <li style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        display: inline-block;
+        position: relative
+      ">
+        <a style="
+          color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
+          display: inline-block;
+          padding: var(--spacing-150) var(--spacing-200);
+          text-decoration-line: none
+        ">
+          <style>@scope{:scope{
+            &::after {
+              border-bottom-left-radius: 6px;
+              border-bottom-right-radius: 6px;
+              border-top-left-radius: 6px;
+              border-top-right-radius: 6px;
+              content: "";
+              display: block;
+              height: 2px;
+              position: absolute
+            }
+          }}</style>
+          Fake 4
+        </a>
+      </li>
+    </ul>
+    <div>
+      <div style="margin: var(--spacing-200) 0">
+        <p>
+          Lorem ipsum dolor sit amet.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ large
+<div>
+  <div>
+    <ul style="
+      display: flex;
+      flex-wrap: wrap;
+      font-size: var(--font-size-medium);
+      font-weight: var(--font-weight-600);
+      list-style-type: none;
+      margin-bottom: 0px;
+      margin-inline-start: calc(0px - var(--spacing-200));
+      margin-top: 0px;
+      padding-left: 0px
+    ">
+      <li style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        display: inline-block;
+        position: relative
+      ">
+        <a style="
+          color: var(--tabs-item-selected-foreground-color, var(--color-foreground-primary));
+          display: inline-block;
+          padding: var(--spacing-150) var(--spacing-200);
+          text-decoration-line: none
+        ">
+          <style>@scope{:scope{
+            &::after {
+              background-color: currentcolor;
+              border-bottom-left-radius: 6px;
+              border-bottom-right-radius: 6px;
+              border-top-left-radius: 6px;
+              border-top-right-radius: 6px;
+              content: "";
+              display: block;
+              height: 2px;
+              position: absolute
+            }
+          }}</style>
+          Fake 1
+          <span style="
+            border-bottom-color: currentcolor;
+            border-left-color: currentcolor;
+            border-right-color: currentcolor;
+            border-top-color: currentcolor;
+            clip-path: inset(50%);
+            height: 1px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            position: absolute;
+            text-wrap-mode: nowrap;
+            width: 1px
+          ">
+            - selected
+          </span>
+        </a>
+      </li>
+      <li style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        display: inline-block;
+        position: relative
+      ">
+        <a style="
+          color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
+          display: inline-block;
+          padding: var(--spacing-150) var(--spacing-200);
+          text-decoration-line: none
+        ">
+          <style>@scope{:scope{
+            &::after {
+              border-bottom-left-radius: 6px;
+              border-bottom-right-radius: 6px;
+              border-top-left-radius: 6px;
+              border-top-right-radius: 6px;
+              content: "";
+              display: block;
+              height: 2px;
+              position: absolute
+            }
+          }}</style>
+          Fake 2
+        </a>
+      </li>
+      <li style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        display: inline-block;
+        position: relative
+      ">
+        <a style="
+          color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
+          display: inline-block;
+          padding: var(--spacing-150) var(--spacing-200);
+          text-decoration-line: none
+        ">
+          <style>@scope{:scope{
+            &::after {
+              border-bottom-left-radius: 6px;
+              border-bottom-right-radius: 6px;
+              border-top-left-radius: 6px;
+              border-top-right-radius: 6px;
+              content: "";
+              display: block;
+              height: 2px;
+              position: absolute
+            }
+          }}</style>
+          Fake 3
+        </a>
+      </li>
+      <li style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        display: inline-block;
+        position: relative
+      ">
+        <a style="
+          color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
+          display: inline-block;
+          padding: var(--spacing-150) var(--spacing-200);
+          text-decoration-line: none
+        ">
+          <style>@scope{:scope{
+            &::after {
+              border-bottom-left-radius: 6px;
+              border-bottom-right-radius: 6px;
+              border-top-left-radius: 6px;
+              border-top-right-radius: 6px;
+              content: "";
+              display: block;
+              height: 2px;
+              position: absolute
+            }
+          }}</style>
+          Fake 4
+        </a>
+      </li>
+    </ul>
+    <div>
+      <div style="margin: var(--spacing-200) 0">
+        <p>
+          Lorem ipsum dolor sit amet.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ three
+<div>
+  <div>
+    <ul style="
+      display: flex;
+      flex-wrap: wrap;
+      font-size: var(--font-size-body);
+      list-style-type: none;
+      margin-bottom: 0px;
+      margin-inline-start: calc(0px - var(--spacing-200));
+      margin-top: 0px;
+      padding-left: 0px
+    ">
+      <li style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        display: inline-block;
+        position: relative
+      ">
+        <a style="
+          color: var(--tabs-item-selected-foreground-color, var(--color-foreground-primary));
+          display: inline-block;
+          padding: var(--spacing-150) var(--spacing-200);
+          text-decoration-line: none
+        ">
+          <style>@scope{:scope{
+            &::after {
+              background-color: currentcolor;
+              border-bottom-left-radius: 6px;
+              border-bottom-right-radius: 6px;
+              border-top-left-radius: 6px;
+              border-top-right-radius: 6px;
+              content: "";
+              display: block;
+              height: 2px;
+              position: absolute
+            }
+          }}</style>
+          Fake 1
+          <span style="
+            border-bottom-color: currentcolor;
+            border-left-color: currentcolor;
+            border-right-color: currentcolor;
+            border-top-color: currentcolor;
+            clip-path: inset(50%);
+            height: 1px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            position: absolute;
+            text-wrap-mode: nowrap;
+            width: 1px
+          ">
+            - selected
+          </span>
+        </a>
+      </li>
+      <li style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        display: inline-block;
+        position: relative
+      ">
+        <a style="
+          color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
+          display: inline-block;
+          padding: var(--spacing-150) var(--spacing-200);
+          text-decoration-line: none
+        ">
+          <style>@scope{:scope{
+            &::after {
+              border-bottom-left-radius: 6px;
+              border-bottom-right-radius: 6px;
+              border-top-left-radius: 6px;
+              border-top-right-radius: 6px;
+              content: "";
+              display: block;
+              height: 2px;
+              position: absolute
+            }
+          }}</style>
+          Fake 2
+        </a>
+      </li>
+      <li style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        display: inline-block;
+        position: relative
+      ">
+        <a style="
+          color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
+          display: inline-block;
+          padding: var(--spacing-150) var(--spacing-200);
+          text-decoration-line: none
+        ">
+          <style>@scope{:scope{
+            &::after {
+              border-bottom-left-radius: 6px;
+              border-bottom-right-radius: 6px;
+              border-top-left-radius: 6px;
+              border-top-right-radius: 6px;
+              content: "";
+              display: block;
+              height: 2px;
+              position: absolute
+            }
+          }}</style>
+          Fake 3
+        </a>
+      </li>
+    </ul>
+    <div>
+      <div style="margin: var(--spacing-200) 0">
+        <p>
+          Lorem ipsum dolor sit amet.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ two
+<div>
+  <div>
+    <ul style="
+      display: flex;
+      flex-wrap: wrap;
+      font-size: var(--font-size-body);
+      list-style-type: none;
+      margin-bottom: 0px;
+      margin-inline-start: calc(0px - var(--spacing-200));
+      margin-top: 0px;
+      padding-left: 0px
+    ">
+      <li style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        display: inline-block;
+        position: relative
+      ">
+        <a style="
+          color: var(--tabs-item-selected-foreground-color, var(--color-foreground-primary));
+          display: inline-block;
+          padding: var(--spacing-150) var(--spacing-200);
+          text-decoration-line: none
+        ">
+          <style>@scope{:scope{
+            &::after {
+              background-color: currentcolor;
+              border-bottom-left-radius: 6px;
+              border-bottom-right-radius: 6px;
+              border-top-left-radius: 6px;
+              border-top-right-radius: 6px;
+              content: "";
+              display: block;
+              height: 2px;
+              position: absolute
+            }
+          }}</style>
+          Fake 1
+          <span style="
+            border-bottom-color: currentcolor;
+            border-left-color: currentcolor;
+            border-right-color: currentcolor;
+            border-top-color: currentcolor;
+            clip-path: inset(50%);
+            height: 1px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            position: absolute;
+            text-wrap-mode: nowrap;
+            width: 1px
+          ">
+            - current page
+          </span>
+        </a>
+      </li>
+      <li style="
+        -webkit-tap-highlight-color: var(--color-background-secondary);
+        display: inline-block;
+        position: relative
+      ">
+        <a style="
+          color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
+          display: inline-block;
+          padding: var(--spacing-150) var(--spacing-200);
+          text-decoration-line: none
+        ">
+          <style>@scope{:scope{
+            &::after {
+              border-bottom-left-radius: 6px;
+              border-bottom-right-radius: 6px;
+              border-top-left-radius: 6px;
+              border-top-right-radius: 6px;
+              content: "";
+              display: block;
+              height: 2px;
+              position: absolute
+            }
+          }}</style>
+          Fake 2
+        </a>
+      </li>
+    </ul>
+    <div>
+      <div style="margin: var(--spacing-200) 0">
+        <p>
+          Lorem ipsum dolor sit amet.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+

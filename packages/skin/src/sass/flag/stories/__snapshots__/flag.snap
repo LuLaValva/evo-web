@@ -1,0 +1,114 @@
+┌─ beforeLink
+<div>
+  <svg style="
+    display: inline-block;
+    max-height: 48px;
+    max-width: 64px;
+    pointer-events: none;
+    stroke-width: 0;
+    vertical-align: middle
+  ">
+    <use href="#flag-us"/>
+  </svg>
+  <a style="color: var(--color-foreground-link-primary)">
+    <span style="vertical-align: middle">
+      United States of America
+    </span>
+  </a>
+</div>
+
+┌─ insideHeading
+<div>
+  <h2>
+    <svg style="
+      display: inline-block;
+      max-height: 48px;
+      max-width: 64px;
+      pointer-events: none;
+      stroke-width: 0;
+      vertical-align: middle
+    ">
+      <use href="#flag-us"/>
+    </svg>
+    <span style="vertical-align: middle">
+      United States of America
+    </span>
+  </h2>
+</div>
+
+┌─ insideLink
+<div>
+  <a style="color: var(--color-foreground-link-primary)">
+    <svg style="
+      display: inline-block;
+      max-height: 48px;
+      max-width: 64px;
+      pointer-events: none;
+      stroke-width: 0;
+      vertical-align: middle
+    ">
+      <use href="#flag-us"/>
+    </svg>
+    <span>
+      United States of America
+    </span>
+  </a>
+</div>
+
+┌─ insideParagraph
+<div>
+  <p>
+    <svg style="
+      display: inline-block;
+      max-height: 48px;
+      max-width: 64px;
+      pointer-events: none;
+      stroke-width: 0;
+      vertical-align: middle
+    ">
+      <use href="#flag-us"/>
+    </svg>
+    <span style="vertical-align: middle">
+      United States of America
+    </span>
+  </p>
+</div>
+
+┌─ textSpacing
+<div>
+  <p style="
+    letter-spacing: 0.12em;
+    line-height: 1.5;
+    word-spacing: 0.16em
+  ">
+    <svg style="
+      display: inline-block;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      max-height: 48px;
+      max-width: 64px;
+      pointer-events: none;
+      stroke-width: 0;
+      vertical-align: middle;
+      word-spacing: 0.16em
+    ">
+      <use
+        href="#flag-us"
+        style="
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          word-spacing: 0.16em
+        "
+      />
+    </svg>
+    <span style="
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      vertical-align: middle;
+      word-spacing: 0.16em
+    ">
+      United States of America
+    </span>
+  </p>
+</div>
+

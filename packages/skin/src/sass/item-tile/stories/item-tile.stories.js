@@ -1,4 +1,9 @@
-export default { title: "Skin/Item Tile" };
+export default {
+    title: "Skin/Item Tile",
+    parameters: {
+        visual: { widths: [320, 768] },
+    },
+};
 
 export const galleryView = () => `
 <div class="item-tile">

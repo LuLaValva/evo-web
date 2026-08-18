@@ -1,0 +1,1598 @@
+┌─ action @ 1280px
+<div>
+  <div style="max-width: 480px">
+    <ul style="
+      margin-bottom: 0px;
+      margin-top: 0px;
+      padding-left: 0px
+    ">
+      <li>
+        <style>@scope{:scope{
+          &::marker {
+            content: "";
+            font-size: 0px
+          }
+        }}</style>
+        <button style="
+          align-items: center;
+          background-color: var(--list-background-color, var(--color-background-primary));
+          border-bottom-color: currentcolor;
+          border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-style: none;
+          border-top-width: medium;
+          color: var(--color-foreground-primary);
+          display: inline-flex;
+          font-family: inherit;
+          font-size: var(--font-size-medium);
+          margin-block-end: 1px;
+          margin-block-start: 1px;
+          min-height: var(--spacing-600);
+          overflow-x: hidden;
+          overflow-y: hidden;
+          padding: var(--spacing-150) var(--spacing-200);
+          position: relative;
+          text-align: left;
+          width: 100%
+        ">
+          <style>@scope{:scope{
+            &::after {
+              background-color: var(--color-state-layer-neutral);
+              bottom: 0px;
+              content: "";
+              left: 0px;
+              pointer-events: none;
+              position: absolute;
+              right: 0px;
+              top: 0px
+            }
+          }}</style>
+          Button
+        </button>
+      </li>
+      <li>
+        <style>@scope{:scope{
+          &::marker {
+            content: "";
+            font-size: 0px
+          }
+        }}</style>
+        <a style="
+          align-items: center;
+          background-color: var(--list-background-color, var(--color-background-primary));
+          border-bottom-color: currentcolor;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-width: medium;
+          box-sizing: border-box;
+          color: var(--color-foreground-primary);
+          display: inline-flex;
+          font-size: var(--font-size-medium);
+          margin-block-end: 1px;
+          margin-block-start: 1px;
+          min-height: var(--spacing-600);
+          overflow-x: hidden;
+          overflow-y: hidden;
+          padding: var(--spacing-150) var(--spacing-200);
+          position: relative;
+          text-align: left;
+          text-decoration-line: none;
+          width: 100%
+        ">
+          <style>@scope{:scope{
+            &::after {
+              background-color: var(--color-state-layer-neutral);
+              bottom: 0px;
+              content: "";
+              left: 0px;
+              pointer-events: none;
+              position: absolute;
+              right: 0px;
+              top: 0px
+            }
+          }}</style>
+          <span style="
+            flex-basis: 0%;
+            flex-grow: 1
+          ">
+            Link
+          </span>
+          <span style="margin-inline-start: var(--spacing-200)">
+            <svg
+              height="16"
+              style="
+                display: inline-block;
+                fill: currentcolor;
+                height: 16px;
+                pointer-events: none;
+                stroke-width: 0;
+                stroke: currentcolor;
+                vertical-align: middle;
+                width: 16px
+              "
+              width="16"
+            >
+              <use href="#icon-chevron-right-16"/>
+            </svg>
+          </span>
+        </a>
+      </li>
+      <li>
+        <style>@scope{:scope{
+          &::marker {
+            content: "";
+            font-size: 0px
+          }
+        }}</style>
+        <div style="
+          align-items: center;
+          background-color: var(--list-background-color, var(--color-background-primary));
+          box-sizing: border-box;
+          color: var(--color-foreground-primary);
+          display: inline-flex;
+          font-size: var(--font-size-medium);
+          margin-block-end: 1px;
+          margin-block-start: 1px;
+          min-height: var(--spacing-600);
+          padding: var(--spacing-150) var(--spacing-200);
+          width: 100%
+        ">
+          <span style="
+            flex-basis: 0%;
+            flex-grow: 1
+          ">
+            Item 1 with an action
+          </span>
+          <span style="margin-inline-start: var(--spacing-200)">
+            <span style="
+              box-sizing: border-box;
+              display: inline-flex;
+              height: 40px;
+              position: relative;
+              vertical-align: middle
+            ">
+              <input
+                style="
+                  height: 24px;
+                  left: 0px;
+                  margin-bottom: 0px;
+                  margin-left: 0px;
+                  margin-right: 0px;
+                  margin-top: 0px;
+                  opacity: 0;
+                  outline-width: 0px;
+                  position: absolute;
+                  top: 8px;
+                  width: 40px;
+                  z-index: 1
+                "
+                type="checkbox"
+              />
+              <span style="
+                align-self: center;
+                background-color: var(--switch-unchecked-background-color, var(--color-background-secondary));
+                border-bottom-left-radius: 400px;
+                border-bottom-right-radius: 400px;
+                border-bottom-style: solid;
+                border-bottom-width: 1px;
+                border-left-style: solid;
+                border-left-width: 1px;
+                border-right-style: solid;
+                border-right-width: 1px;
+                border-top-left-radius: 400px;
+                border-top-right-radius: 400px;
+                border-top-style: solid;
+                border-top-width: 1px;
+                color: transparent;
+                display: inline-block;
+                height: 24px;
+                position: relative;
+                text-indent: 100%;
+                transition-duration: 0.15s;
+                transition-property: left;
+                transition-timing-function: ease-out;
+                width: 40px
+              ">
+                <style>@scope{:scope{
+                  &::after {
+                    background-color: var(--switch-foreground-color, var(--color-background-primary));
+                    border-bottom-left-radius: 50%;
+                    border-bottom-right-radius: 50%;
+                    border-bottom-style: solid;
+                    border-bottom-width: 1px;
+                    border-left-style: solid;
+                    border-left-width: 1px;
+                    border-right-style: solid;
+                    border-right-width: 1px;
+                    border-top-left-radius: 50%;
+                    border-top-right-radius: 50%;
+                    border-top-style: solid;
+                    border-top-width: 1px;
+                    content: "";
+                    display: block;
+                    height: 24px;
+                    left: -1px;
+                    position: absolute;
+                    top: -1px;
+                    transform: translateZ(0px);
+                    transition-duration: 0.15s;
+                    transition-property: left;
+                    transition-timing-function: ease-out;
+                    width: 24px
+                  }
+                }}</style>
+              </span>
+            </span>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+┌─ action @ 1280px rtl
+<div>
+  <div style="max-width: 480px">
+    <ul style="
+      margin-bottom: 0px;
+      margin-top: 0px;
+      padding-left: 0px
+    ">
+      <li>
+        <style>@scope{:scope{
+          &::marker {
+            content: "";
+            font-size: 0px
+          }
+        }}</style>
+        <button style="
+          align-items: center;
+          background-color: var(--list-background-color, var(--color-background-primary));
+          border-bottom-color: currentcolor;
+          border-bottom-style: none;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-style: none;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-style: none;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-style: none;
+          border-top-width: medium;
+          color: var(--color-foreground-primary);
+          display: inline-flex;
+          font-family: inherit;
+          font-size: var(--font-size-medium);
+          margin-block-end: 1px;
+          margin-block-start: 1px;
+          min-height: var(--spacing-600);
+          overflow-x: hidden;
+          overflow-y: hidden;
+          padding: var(--spacing-150) var(--spacing-200);
+          position: relative;
+          text-align: right;
+          width: 100%
+        ">
+          <style>@scope{:scope{
+            &::after {
+              background-color: var(--color-state-layer-neutral);
+              bottom: 0px;
+              content: "";
+              left: 0px;
+              pointer-events: none;
+              position: absolute;
+              right: 0px;
+              top: 0px
+            }
+          }}</style>
+          Button
+        </button>
+      </li>
+      <li>
+        <style>@scope{:scope{
+          &::marker {
+            content: "";
+            font-size: 0px
+          }
+        }}</style>
+        <a style="
+          align-items: center;
+          background-color: var(--list-background-color, var(--color-background-primary));
+          border-bottom-color: currentcolor;
+          border-bottom-width: medium;
+          border-left-color: currentcolor;
+          border-left-width: medium;
+          border-right-color: currentcolor;
+          border-right-width: medium;
+          border-top-color: currentcolor;
+          border-top-width: medium;
+          box-sizing: border-box;
+          color: var(--color-foreground-primary);
+          display: inline-flex;
+          font-size: var(--font-size-medium);
+          margin-block-end: 1px;
+          margin-block-start: 1px;
+          min-height: var(--spacing-600);
+          overflow-x: hidden;
+          overflow-y: hidden;
+          padding: var(--spacing-150) var(--spacing-200);
+          position: relative;
+          text-align: right;
+          text-decoration-line: none;
+          width: 100%
+        ">
+          <style>@scope{:scope{
+            &::after {
+              background-color: var(--color-state-layer-neutral);
+              bottom: 0px;
+              content: "";
+              left: 0px;
+              pointer-events: none;
+              position: absolute;
+              right: 0px;
+              top: 0px
+            }
+          }}</style>
+          <span style="
+            flex-basis: 0%;
+            flex-grow: 1
+          ">
+            Link
+          </span>
+          <span style="margin-inline-start: var(--spacing-200)">
+            <svg
+              height="16"
+              style="
+                display: inline-block;
+                fill: currentcolor;
+                height: 16px;
+                pointer-events: none;
+                stroke-width: 0;
+                stroke: currentcolor;
+                vertical-align: middle;
+                width: 16px
+              "
+              width="16"
+            >
+              <use href="#icon-chevron-right-16"/>
+            </svg>
+          </span>
+        </a>
+      </li>
+      <li>
+        <style>@scope{:scope{
+          &::marker {
+            content: "";
+            font-size: 0px
+          }
+        }}</style>
+        <div style="
+          align-items: center;
+          background-color: var(--list-background-color, var(--color-background-primary));
+          box-sizing: border-box;
+          color: var(--color-foreground-primary);
+          display: inline-flex;
+          font-size: var(--font-size-medium);
+          margin-block-end: 1px;
+          margin-block-start: 1px;
+          min-height: var(--spacing-600);
+          padding: var(--spacing-150) var(--spacing-200);
+          width: 100%
+        ">
+          <span style="
+            flex-basis: 0%;
+            flex-grow: 1
+          ">
+            Item 1 with an action
+          </span>
+          <span style="margin-inline-start: var(--spacing-200)">
+            <span style="
+              box-sizing: border-box;
+              display: inline-flex;
+              height: 40px;
+              position: relative;
+              vertical-align: middle
+            ">
+              <input
+                style="
+                  height: 24px;
+                  left: 0px;
+                  margin-bottom: 0px;
+                  margin-left: 0px;
+                  margin-right: 0px;
+                  margin-top: 0px;
+                  opacity: 0;
+                  outline-width: 0px;
+                  position: absolute;
+                  top: 8px;
+                  width: 40px;
+                  z-index: 1
+                "
+                type="checkbox"
+              />
+              <span style="
+                align-self: center;
+                background-color: var(--switch-unchecked-background-color, var(--color-background-secondary));
+                border-bottom-left-radius: 400px;
+                border-bottom-right-radius: 400px;
+                border-bottom-style: solid;
+                border-bottom-width: 1px;
+                border-left-style: solid;
+                border-left-width: 1px;
+                border-right-style: solid;
+                border-right-width: 1px;
+                border-top-left-radius: 400px;
+                border-top-right-radius: 400px;
+                border-top-style: solid;
+                border-top-width: 1px;
+                color: transparent;
+                display: inline-block;
+                height: 24px;
+                position: relative;
+                text-indent: 100%;
+                transition-duration: 0.15s;
+                transition-property: left;
+                transition-timing-function: ease-out;
+                width: 40px
+              ">
+                <style>@scope{:scope{
+                  &::after {
+                    background-color: var(--switch-foreground-color, var(--color-background-primary));
+                    border-bottom-left-radius: 50%;
+                    border-bottom-right-radius: 50%;
+                    border-bottom-style: solid;
+                    border-bottom-width: 1px;
+                    border-left-style: solid;
+                    border-left-width: 1px;
+                    border-right-style: solid;
+                    border-right-width: 1px;
+                    border-top-left-radius: 50%;
+                    border-top-right-radius: 50%;
+                    border-top-style: solid;
+                    border-top-width: 1px;
+                    content: "";
+                    display: block;
+                    height: 24px;
+                    left: -1px;
+                    position: absolute;
+                    top: -1px;
+                    transform: translateZ(0px);
+                    transition-duration: 0.15s;
+                    transition-property: left;
+                    transition-timing-function: ease-out;
+                    width: 24px
+                  }
+                }}</style>
+              </span>
+            </span>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+┌─ base @ 1280px
+<div>
+  <div style="max-width: 480px">
+    <ul style="
+      margin-bottom: 0px;
+      margin-top: 0px;
+      padding-left: 0px
+    ">
+      <li>
+        <style>@scope{:scope{
+          &::marker {
+            content: "";
+            font-size: 0px
+          }
+        }}</style>
+        <div style="
+          align-items: center;
+          background-color: var(--list-background-color, var(--color-background-primary));
+          box-sizing: border-box;
+          color: var(--color-foreground-primary);
+          display: inline-flex;
+          font-size: var(--font-size-medium);
+          margin-block-end: 1px;
+          margin-block-start: 1px;
+          min-height: var(--spacing-600);
+          padding: var(--spacing-150) var(--spacing-200);
+          width: 100%
+        ">
+          <span style="
+            flex-basis: 0%;
+            flex-grow: 1
+          ">
+            Text 0
+          </span>
+        </div>
+      </li>
+      <li>
+        <style>@scope{:scope{
+          &::marker {
+            content: "";
+            font-size: 0px
+          }
+        }}</style>
+        <div style="
+          align-items: center;
+          background-color: var(--list-background-color, var(--color-background-primary));
+          box-sizing: border-box;
+          color: var(--color-foreground-primary);
+          display: inline-flex;
+          font-size: var(--font-size-medium);
+          margin-block-end: 1px;
+          margin-block-start: 1px;
+          min-height: var(--spacing-600);
+          padding: var(--spacing-150) var(--spacing-200);
+          width: 100%
+        ">
+          <span style="
+            flex-basis: 0%;
+            flex-grow: 1
+          ">
+            Text 1
+          </span>
+        </div>
+        <div style="
+          align-items: center;
+          background-color: var(--list-background-color, var(--color-background-primary));
+          box-sizing: border-box;
+          color: var(--color-foreground-primary);
+          display: inline-flex;
+          font-size: var(--font-size-medium);
+          margin-block-end: 1px;
+          margin-block-start: 1px;
+          min-height: var(--spacing-600);
+          padding: var(--spacing-150) var(--spacing-200);
+          width: 100%
+        ">
+          <span style="
+            flex-basis: 0%;
+            flex-grow: 1
+          ">
+            Text 2
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+┌─ base @ 1280px rtl
+(same as 1280px)
+
+┌─ multiLine @ 1280px
+<div>
+  <div style="max-width: 480px">
+    <ul style="
+      margin-bottom: 0px;
+      margin-top: 0px;
+      padding-left: 0px
+    ">
+      <li>
+        <style>@scope{:scope{
+          &::marker {
+            content: "";
+            font-size: 0px
+          }
+        }}</style>
+        <div style="
+          align-items: center;
+          background-color: var(--list-background-color, var(--color-background-primary));
+          box-sizing: border-box;
+          color: var(--color-foreground-primary);
+          display: inline-flex;
+          font-size: var(--font-size-medium);
+          margin-block-end: 1px;
+          margin-block-start: 1px;
+          min-height: var(--spacing-600);
+          padding: var(--spacing-150) var(--spacing-200);
+          width: 100%
+        ">
+          <span style="margin-inline-end: var(--spacing-200)">
+            <svg
+              height="16"
+              style="
+                display: inline-block;
+                fill: currentcolor;
+                height: 16px;
+                pointer-events: none;
+                stroke-width: 0;
+                stroke: currentcolor;
+                vertical-align: middle;
+                width: 16px
+              "
+              width="16"
+            >
+              <use href="#icon-folder-16"/>
+            </svg>
+          </span>
+          <span style="
+            flex-basis: 0%;
+            flex-grow: 1
+          ">
+            Text 0 with a long line that should wrap to the next line. This is testing to see how well the component wraps.
+          </span>
+        </div>
+      </li>
+      <li>
+        <style>@scope{:scope{
+          &::marker {
+            content: "";
+            font-size: 0px
+          }
+        }}</style>
+        <div style="
+          align-items: center;
+          background-color: var(--list-background-color, var(--color-background-primary));
+          box-sizing: border-box;
+          color: var(--color-foreground-primary);
+          display: inline-flex;
+          font-size: var(--font-size-medium);
+          margin-block-end: 1px;
+          margin-block-start: 1px;
+          min-height: var(--spacing-600);
+          padding: var(--spacing-150) var(--spacing-200);
+          width: 100%
+        ">
+          <span style="margin-inline-end: var(--spacing-200)">
+            <svg
+              height="16"
+              style="
+                display: inline-block;
+                fill: currentcolor;
+                height: 16px;
+                pointer-events: none;
+                stroke-width: 0;
+                stroke: currentcolor;
+                vertical-align: middle;
+                width: 16px
+              "
+              width="16"
+            >
+              <use href="#icon-file-16"/>
+            </svg>
+          </span>
+          <span style="
+            flex-basis: 0%;
+            flex-grow: 1
+          ">
+            Text 1 with a long line that should wrap to the next line. This is testing to see how well the component wraps, but also has an end item.
+          </span>
+          <span style="margin-inline-start: var(--spacing-200)">
+            <svg
+              height="16"
+              style="
+                display: inline-block;
+                fill: currentcolor;
+                height: 16px;
+                pointer-events: none;
+                stroke-width: 0;
+                stroke: currentcolor;
+                vertical-align: middle;
+                width: 16px
+              "
+              width="16"
+            >
+              <use href="#icon-information-16"/>
+            </svg>
+          </span>
+        </div>
+      </li>
+      <li>
+        <style>@scope{:scope{
+          &::marker {
+            content: "";
+            font-size: 0px
+          }
+        }}</style>
+        <div style="
+          align-items: center;
+          background-color: var(--list-background-color, var(--color-background-primary));
+          box-sizing: border-box;
+          color: var(--color-foreground-primary);
+          display: inline-flex;
+          font-size: var(--font-size-medium);
+          margin-block-end: 1px;
+          margin-block-start: 1px;
+          min-height: var(--spacing-600);
+          padding: var(--spacing-150) var(--spacing-200);
+          width: 100%
+        ">
+          <span style="margin-inline-end: var(--spacing-200)">
+            <svg
+              height="16"
+              style="
+                display: inline-block;
+                fill: currentcolor;
+                height: 16px;
+                pointer-events: none;
+                stroke-width: 0;
+                stroke: currentcolor;
+                vertical-align: middle;
+                width: 16px
+              "
+              width="16"
+            >
+              <use href="#icon-key-16"/>
+            </svg>
+          </span>
+          <span style="
+            flex-basis: 0%;
+            flex-grow: 1
+          ">
+            Text 2, this one is normal.
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+┌─ multiLine @ 1280px rtl
+(same as 1280px)
+
+┌─ variableWidth @ 1280px
+<div>
+  <div style="width: 200px">
+    <div style="max-width: 480px">
+      <ul style="
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding-left: 0px
+      ">
+        <li>
+          <style>@scope{:scope{
+            &::marker {
+              content: "";
+              font-size: 0px
+            }
+          }}</style>
+          <div style="
+            align-items: center;
+            background-color: var(--list-background-color, var(--color-background-primary));
+            box-sizing: border-box;
+            color: var(--color-foreground-primary);
+            display: inline-flex;
+            font-size: var(--font-size-medium);
+            margin-block-end: 1px;
+            margin-block-start: 1px;
+            min-height: var(--spacing-600);
+            padding: var(--spacing-150) var(--spacing-200);
+            width: 100%
+          ">
+            <span style="margin-inline-end: var(--spacing-200)">
+              <svg
+                height="16"
+                style="
+                  display: inline-block;
+                  fill: currentcolor;
+                  height: 16px;
+                  pointer-events: none;
+                  stroke-width: 0;
+                  stroke: currentcolor;
+                  vertical-align: middle;
+                  width: 16px
+                "
+                width="16"
+              >
+                <use href="#icon-file-16"/>
+              </svg>
+            </span>
+            <span style="
+              flex-basis: 0%;
+              flex-grow: 1
+            ">
+              Item 1
+            </span>
+          </div>
+        </li>
+        <li>
+          <style>@scope{:scope{
+            &::marker {
+              content: "";
+              font-size: 0px
+            }
+          }}</style>
+          <div style="
+            align-items: center;
+            background-color: var(--list-background-color, var(--color-background-primary));
+            box-sizing: border-box;
+            color: var(--color-foreground-primary);
+            display: inline-flex;
+            font-size: var(--font-size-medium);
+            margin-block-end: 1px;
+            margin-block-start: 1px;
+            min-height: var(--spacing-600);
+            padding: var(--spacing-150) var(--spacing-200);
+            width: 100%
+          ">
+            <span style="margin-inline-end: var(--spacing-200)">
+              <svg
+                height="16"
+                style="
+                  display: inline-block;
+                  fill: currentcolor;
+                  height: 16px;
+                  pointer-events: none;
+                  stroke-width: 0;
+                  stroke: currentcolor;
+                  vertical-align: middle;
+                  width: 16px
+                "
+                width="16"
+              >
+                <use href="#icon-file-16"/>
+              </svg>
+            </span>
+            <span style="
+              flex-basis: 0%;
+              flex-grow: 1
+            ">
+              Item 2
+            </span>
+            <span style="margin-inline-start: var(--spacing-200)">
+              <svg
+                height="16"
+                style="
+                  display: inline-block;
+                  fill: currentcolor;
+                  height: 16px;
+                  pointer-events: none;
+                  stroke-width: 0;
+                  stroke: currentcolor;
+                  vertical-align: middle;
+                  width: 16px
+                "
+                width="16"
+              >
+                <use href="#icon-money-back-guarantee-16"/>
+              </svg>
+            </span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+┌─ variableWidth @ 1280px rtl
+(same as 1280px)
+
+┌─ withDivider @ 1280px
+<div>
+  <div style="max-width: 480px">
+    <ul style="
+      margin-bottom: 0px;
+      margin-top: 0px;
+      padding-left: 0px
+    ">
+      <li>
+        <style>@scope{:scope{
+          &::marker {
+            content: "";
+            font-size: 0px
+          }
+        }}</style>
+        <div style="
+          align-items: center;
+          background-color: var(--list-background-color, var(--color-background-primary));
+          box-sizing: border-box;
+          color: var(--color-foreground-primary);
+          display: inline-flex;
+          font-size: var(--font-size-medium);
+          margin-block-end: 1px;
+          margin-block-start: 1px;
+          min-height: var(--spacing-600);
+          padding: var(--spacing-150) var(--spacing-200);
+          width: 100%
+        ">
+          <span style="margin-inline-end: var(--spacing-200)">
+            <svg
+              height="16"
+              style="
+                display: inline-block;
+                fill: currentcolor;
+                height: 16px;
+                pointer-events: none;
+                stroke-width: 0;
+                stroke: currentcolor;
+                vertical-align: middle;
+                width: 16px
+              "
+              width="16"
+            >
+              <use href="#icon-folder-16"/>
+            </svg>
+          </span>
+          <span style="
+            flex-basis: 0%;
+            flex-grow: 1
+          ">
+            Item 1
+          </span>
+        </div>
+      </li>
+      <hr style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top: 1px solid var(--color-border-subtle);
+        height: 1px;
+        margin-inline: var(--spacing-200)
+      "/>
+      <li>
+        <style>@scope{:scope{
+          &::marker {
+            content: "";
+            font-size: 0px
+          }
+        }}</style>
+        <div style="
+          align-items: center;
+          background-color: var(--list-background-color, var(--color-background-primary));
+          box-sizing: border-box;
+          color: var(--color-foreground-primary);
+          display: inline-flex;
+          font-size: var(--font-size-medium);
+          margin-block-end: 1px;
+          margin-block-start: 1px;
+          min-height: var(--spacing-600);
+          padding: var(--spacing-150) var(--spacing-200);
+          width: 100%
+        ">
+          <span style="margin-inline-end: var(--spacing-200)">
+            <svg
+              height="16"
+              style="
+                display: inline-block;
+                fill: currentcolor;
+                height: 16px;
+                pointer-events: none;
+                stroke-width: 0;
+                stroke: currentcolor;
+                vertical-align: middle;
+                width: 16px
+              "
+              width="16"
+            >
+              <use href="#icon-file-16"/>
+            </svg>
+          </span>
+          <span style="
+            flex-basis: 0%;
+            flex-grow: 1
+          ">
+            Item 2
+          </span>
+        </div>
+      </li>
+      <li>
+        <style>@scope{:scope{
+          &::marker {
+            content: "";
+            font-size: 0px
+          }
+        }}</style>
+        <div style="
+          align-items: center;
+          background-color: var(--list-background-color, var(--color-background-primary));
+          box-sizing: border-box;
+          color: var(--color-foreground-primary);
+          display: inline-flex;
+          font-size: var(--font-size-medium);
+          margin-block-end: 1px;
+          margin-block-start: 1px;
+          min-height: var(--spacing-600);
+          padding: var(--spacing-150) var(--spacing-200);
+          width: 100%
+        ">
+          <span style="margin-inline-end: var(--spacing-200)">
+            <svg
+              height="16"
+              style="
+                display: inline-block;
+                fill: currentcolor;
+                height: 16px;
+                pointer-events: none;
+                stroke-width: 0;
+                stroke: currentcolor;
+                vertical-align: middle;
+                width: 16px
+              "
+              width="16"
+            >
+              <use href="#icon-file-16"/>
+            </svg>
+          </span>
+          <span style="
+            flex-basis: 0%;
+            flex-grow: 1
+          ">
+            Item 3
+          </span>
+        </div>
+      </li>
+      <li>
+        <style>@scope{:scope{
+          &::marker {
+            content: "";
+            font-size: 0px
+          }
+        }}</style>
+        <div style="
+          align-items: center;
+          background-color: var(--list-background-color, var(--color-background-primary));
+          box-sizing: border-box;
+          color: var(--color-foreground-primary);
+          display: inline-flex;
+          font-size: var(--font-size-medium);
+          margin-block-end: 1px;
+          margin-block-start: 1px;
+          min-height: var(--spacing-600);
+          padding: var(--spacing-150) var(--spacing-200);
+          width: 100%
+        ">
+          <span style="margin-inline-end: var(--spacing-200)">
+            <svg
+              height="16"
+              style="
+                display: inline-block;
+                fill: currentcolor;
+                height: 16px;
+                pointer-events: none;
+                stroke-width: 0;
+                stroke: currentcolor;
+                vertical-align: middle;
+                width: 16px
+              "
+              width="16"
+            >
+              <use href="#icon-file-16"/>
+            </svg>
+          </span>
+          <span style="
+            flex-basis: 0%;
+            flex-grow: 1
+          ">
+            Item 4
+          </span>
+        </div>
+      </li>
+      <hr style="
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top: 1px solid var(--color-border-subtle);
+        height: 1px;
+        margin-inline: var(--spacing-200)
+      "/>
+      <li>
+        <style>@scope{:scope{
+          &::marker {
+            content: "";
+            font-size: 0px
+          }
+        }}</style>
+        <div style="
+          align-items: center;
+          background-color: var(--list-background-color, var(--color-background-primary));
+          box-sizing: border-box;
+          color: var(--color-foreground-primary);
+          display: inline-flex;
+          font-size: var(--font-size-medium);
+          margin-block-end: 1px;
+          margin-block-start: 1px;
+          min-height: var(--spacing-600);
+          padding: var(--spacing-150) var(--spacing-200);
+          width: 100%
+        ">
+          <span style="margin-inline-end: var(--spacing-200)">
+            <svg
+              height="16"
+              style="
+                display: inline-block;
+                fill: currentcolor;
+                height: 16px;
+                pointer-events: none;
+                stroke-width: 0;
+                stroke: currentcolor;
+                vertical-align: middle;
+                width: 16px
+              "
+              width="16"
+            >
+              <use href="#icon-key-16"/>
+            </svg>
+          </span>
+          <span style="
+            flex-basis: 0%;
+            flex-grow: 1
+          ">
+            Item 5
+          </span>
+        </div>
+      </li>
+      <li>
+        <style>@scope{:scope{
+          &::marker {
+            content: "";
+            font-size: 0px
+          }
+        }}</style>
+        <div style="
+          align-items: center;
+          background-color: var(--list-background-color, var(--color-background-primary));
+          box-sizing: border-box;
+          color: var(--color-foreground-primary);
+          display: inline-flex;
+          font-size: var(--font-size-medium);
+          margin-block-end: 1px;
+          margin-block-start: 1px;
+          min-height: var(--spacing-600);
+          padding: var(--spacing-150) var(--spacing-200);
+          width: 100%
+        ">
+          <span style="margin-inline-end: var(--spacing-200)">
+            <svg
+              height="16"
+              style="
+                display: inline-block;
+                fill: currentcolor;
+                height: 16px;
+                pointer-events: none;
+                stroke-width: 0;
+                stroke: currentcolor;
+                vertical-align: middle;
+                width: 16px
+              "
+              width="16"
+            >
+              <use href="#icon-key-16"/>
+            </svg>
+          </span>
+          <span style="
+            flex-basis: 0%;
+            flex-grow: 1
+          ">
+            Item 6
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+┌─ withDivider @ 1280px rtl
+(same as 1280px)
+
+┌─ withLeading @ 1280px
+<div>
+  <div style="max-width: 480px">
+    <ul style="
+      margin-bottom: 0px;
+      margin-top: 0px;
+      padding-left: 0px
+    ">
+      <li>
+        <style>@scope{:scope{
+          &::marker {
+            content: "";
+            font-size: 0px
+          }
+        }}</style>
+        <div style="
+          align-items: center;
+          background-color: var(--list-background-color, var(--color-background-primary));
+          box-sizing: border-box;
+          color: var(--color-foreground-primary);
+          display: inline-flex;
+          font-size: var(--font-size-medium);
+          margin-block-end: 1px;
+          margin-block-start: 1px;
+          min-height: var(--spacing-600);
+          padding: var(--spacing-150) var(--spacing-200);
+          width: 100%
+        ">
+          <span style="margin-inline-end: var(--spacing-200)">
+            <svg
+              height="16"
+              style="
+                display: inline-block;
+                fill: currentcolor;
+                height: 16px;
+                pointer-events: none;
+                stroke-width: 0;
+                stroke: currentcolor;
+                vertical-align: middle;
+                width: 16px
+              "
+              width="16"
+            >
+              <use href="#icon-folder-16"/>
+            </svg>
+          </span>
+          <span style="
+            flex-basis: 0%;
+            flex-grow: 1
+          ">
+            Text 0
+          </span>
+        </div>
+      </li>
+      <li>
+        <style>@scope{:scope{
+          &::marker {
+            content: "";
+            font-size: 0px
+          }
+        }}</style>
+        <div style="
+          align-items: center;
+          background-color: var(--list-background-color, var(--color-background-primary));
+          box-sizing: border-box;
+          color: var(--color-foreground-primary);
+          display: inline-flex;
+          font-size: var(--font-size-medium);
+          margin-block-end: 1px;
+          margin-block-start: 1px;
+          min-height: var(--spacing-600);
+          padding: var(--spacing-150) var(--spacing-200);
+          width: 100%
+        ">
+          <span style="margin-inline-end: var(--spacing-200)">
+            <svg
+              height="16"
+              style="
+                display: inline-block;
+                fill: currentcolor;
+                height: 16px;
+                pointer-events: none;
+                stroke-width: 0;
+                stroke: currentcolor;
+                vertical-align: middle;
+                width: 16px
+              "
+              width="16"
+            >
+              <use href="#icon-file-16"/>
+            </svg>
+          </span>
+          <span style="
+            flex-basis: 0%;
+            flex-grow: 1
+          ">
+            Text 1
+          </span>
+        </div>
+      </li>
+      <li>
+        <style>@scope{:scope{
+          &::marker {
+            content: "";
+            font-size: 0px
+          }
+        }}</style>
+        <div style="
+          align-items: center;
+          background-color: var(--list-background-color, var(--color-background-primary));
+          box-sizing: border-box;
+          color: var(--color-foreground-primary);
+          display: inline-flex;
+          font-size: var(--font-size-medium);
+          margin-block-end: 1px;
+          margin-block-start: 1px;
+          min-height: var(--spacing-600);
+          padding: var(--spacing-150) var(--spacing-200);
+          width: 100%
+        ">
+          <span style="margin-inline-end: var(--spacing-200)">
+            <svg
+              height="16"
+              style="
+                display: inline-block;
+                fill: currentcolor;
+                height: 16px;
+                pointer-events: none;
+                stroke-width: 0;
+                stroke: currentcolor;
+                vertical-align: middle;
+                width: 16px
+              "
+              width="16"
+            >
+              <use href="#icon-key-16"/>
+            </svg>
+          </span>
+          <span style="
+            flex-basis: 0%;
+            flex-grow: 1
+          ">
+            Text 2
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+┌─ withLeading @ 1280px rtl
+(same as 1280px)
+
+┌─ withRadio @ 1280px
+<div>
+  <div style="max-width: 480px">
+    <fieldset style="
+      border-bottom-color: currentcolor;
+      border-bottom-style: none;
+      border-bottom-width: 0px;
+      border-left-color: currentcolor;
+      border-left-style: none;
+      border-left-width: 0px;
+      border-right-color: currentcolor;
+      border-right-style: none;
+      border-right-width: 0px;
+      border-top-color: currentcolor;
+      border-top-style: none;
+      border-top-width: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 0px
+    ">
+      <legend style="
+        align-items: center;
+        background-color: var(--list-background-color, var(--color-background-primary));
+        box-sizing: border-box;
+        color: var(--color-foreground-primary);
+        display: inline-flex;
+        font-size: var(--font-size-medium);
+        margin-block-end: 1px;
+        margin-block-start: 1px;
+        margin-bottom: var(--spacing-100);
+        min-height: var(--spacing-600);
+        padding: var(--spacing-150) var(--spacing-200);
+        width: 100%
+      ">
+        Choose an Option
+      </legend>
+      <div style="
+        align-items: center;
+        background-color: var(--list-background-color, var(--color-background-primary));
+        box-sizing: border-box;
+        color: var(--color-foreground-primary);
+        display: inline-flex;
+        font-size: var(--font-size-medium);
+        margin-block-end: 1px;
+        margin-block-start: 1px;
+        min-height: var(--spacing-600);
+        padding: var(--spacing-150) var(--spacing-200);
+        width: 100%
+      ">
+        <span style="
+          display: inline-flex;
+          margin-inline-end: var(--spacing-200);
+          position: relative;
+          vertical-align: text-bottom
+        ">
+          <input
+            style="
+              font-size: 100%;
+              height: 18px;
+              margin-bottom: 0px;
+              margin-left: 0px;
+              margin-right: 0px;
+              margin-top: 0px;
+              min-width: 18px;
+              opacity: 0;
+              position: absolute;
+              width: 18px;
+              z-index: 1
+            "
+            type="radio"
+          />
+          <span
+            hidden
+            style="
+              display: inline-flex;
+              height: 18px;
+              outline-offset: 1px
+            "
+          >
+            <svg
+              height="18"
+              style="
+                color: var(--radio-unchecked-color, var(--color-foreground-primary));
+                display: inline-block;
+                fill: currentcolor;
+                height: 18px;
+                pointer-events: none;
+                stroke-width: 0;
+                stroke: currentcolor;
+                vertical-align: middle;
+                width: 18px
+              "
+              width="18"
+            >
+              <use href="#icon-radio-unchecked-18"/>
+            </svg>
+          </span>
+        </span>
+        <label style="
+          flex-basis: 0%;
+          flex-grow: 1
+        ">
+          Option 1
+        </label>
+      </div>
+      <div style="
+        align-items: center;
+        background-color: var(--list-background-color, var(--color-background-primary));
+        box-sizing: border-box;
+        color: var(--color-foreground-primary);
+        display: inline-flex;
+        font-size: var(--font-size-medium);
+        margin-block-end: 1px;
+        margin-block-start: 1px;
+        min-height: var(--spacing-600);
+        padding: var(--spacing-150) var(--spacing-200);
+        width: 100%
+      ">
+        <span style="
+          display: inline-flex;
+          margin-inline-end: var(--spacing-200);
+          position: relative;
+          vertical-align: text-bottom
+        ">
+          <input
+            style="
+              font-size: 100%;
+              height: 18px;
+              margin-bottom: 0px;
+              margin-left: 0px;
+              margin-right: 0px;
+              margin-top: 0px;
+              min-width: 18px;
+              opacity: 0;
+              position: absolute;
+              width: 18px;
+              z-index: 1
+            "
+            type="radio"
+          />
+          <span
+            hidden
+            style="
+              display: inline-flex;
+              height: 18px;
+              outline-offset: 1px
+            "
+          >
+            <svg
+              height="18"
+              style="
+                color: var(--radio-unchecked-color, var(--color-foreground-primary));
+                display: inline-block;
+                fill: currentcolor;
+                height: 18px;
+                pointer-events: none;
+                stroke-width: 0;
+                stroke: currentcolor;
+                vertical-align: middle;
+                width: 18px
+              "
+              width="18"
+            >
+              <use href="#icon-radio-unchecked-18"/>
+            </svg>
+          </span>
+        </span>
+        <label style="
+          flex-basis: 0%;
+          flex-grow: 1
+        ">
+          Option 2
+        </label>
+      </div>
+      <div style="
+        align-items: center;
+        background-color: var(--list-background-color, var(--color-background-primary));
+        box-sizing: border-box;
+        color: var(--color-foreground-primary);
+        display: inline-flex;
+        font-size: var(--font-size-medium);
+        margin-block-end: 1px;
+        margin-block-start: 1px;
+        min-height: var(--spacing-600);
+        padding: var(--spacing-150) var(--spacing-200);
+        width: 100%
+      ">
+        <span style="
+          display: inline-flex;
+          margin-inline-end: var(--spacing-200);
+          position: relative;
+          vertical-align: text-bottom
+        ">
+          <input
+            style="
+              font-size: 100%;
+              height: 18px;
+              margin-bottom: 0px;
+              margin-left: 0px;
+              margin-right: 0px;
+              margin-top: 0px;
+              min-width: 18px;
+              opacity: 0;
+              position: absolute;
+              width: 18px;
+              z-index: 1
+            "
+            type="radio"
+          />
+          <span
+            hidden
+            style="
+              display: inline-flex;
+              height: 18px;
+              outline-offset: 1px
+            "
+          >
+            <svg
+              height="18"
+              style="
+                color: var(--radio-unchecked-color, var(--color-foreground-primary));
+                display: inline-block;
+                fill: currentcolor;
+                height: 18px;
+                pointer-events: none;
+                stroke-width: 0;
+                stroke: currentcolor;
+                vertical-align: middle;
+                width: 18px
+              "
+              width="18"
+            >
+              <use href="#icon-radio-unchecked-18"/>
+            </svg>
+          </span>
+        </span>
+        <label style="
+          flex-basis: 0%;
+          flex-grow: 1
+        ">
+          Option 3
+        </label>
+      </div>
+    </fieldset>
+  </div>
+</div>
+
+┌─ withRadio @ 1280px rtl
+(same as 1280px)
+

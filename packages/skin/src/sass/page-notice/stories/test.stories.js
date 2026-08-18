@@ -1,23 +1,9 @@
-export default { title: "Skin/Page Notice/Tests" };
-
-export const RTL = () => `
-<div dir="rtl">
-    <section class="page-notice page-notice--confirmation" role="region" aria-label="Confirmation">
-        <div class="page-notice__header">
-            <svg class="icon icon--16" height="24" width="24" role="img" aria-label="Confirmation">
-                <use href="#icon-confirmation-filled-16"></use>
-            </svg>
-        </div>
-        <div class="page-notice__main">
-            <h2 class="page-notice__title">Your new listing is live.</h2>
-        </div>
-
-        <div class="page-notice__footer">
-            <button class="fake-link">Dismiss</button>
-        </div>
-    </section>
-<div>
-`;
+export default {
+    title: "Skin/Page Notice/Tests",
+    parameters: {
+        visual: { widths: [320, 512], rtl: true },
+    },
+};
 
 export const longText = () => `
 <section class="page-notice page-notice--confirmation" role="region" aria-label="Confirmation">

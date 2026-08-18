@@ -1,4 +1,9 @@
-export default { title: "Skin/Toggle Button Group/List Layout" };
+export default {
+    title: "Skin/Toggle Button Group/List Layout",
+    parameters: {
+        visual: { widths: [320, 512, 768] },
+    },
+};
 
 export const titleOnly = () => `
 <div class="toggle-button-group toggle-button-group--list-layout">

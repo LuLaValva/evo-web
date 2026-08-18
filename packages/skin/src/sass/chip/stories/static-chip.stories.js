@@ -146,10 +146,3 @@ export const letterSpacing = () => `
     </span>
 `;
 
-export const RTL = () => `
-<div dir="rtl">
-    <span class="chip">
-        <span class="chip__text">Football RTL</span>
-    </span>
-</div>
-`;

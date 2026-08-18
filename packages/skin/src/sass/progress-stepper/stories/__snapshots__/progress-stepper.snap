@@ -1,0 +1,6617 @@
+┌─ allSelected @ 320px
+<div>
+  <div style="
+    overflow-x: auto;
+    overflow-y: auto;
+    padding: var(--spacing-200) 0
+  ">
+    <div style="
+      align-items: flex-start;
+      display: flex
+    ">
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: flex-start;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-start: var(--spacing-50);
+          margin-top: 8px;
+          text-align: left;
+          width: 80px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Started
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 3rd
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 80px;
+        position: relative;
+        top: 10px
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-top: 8px;
+          text-align: center;
+          width: 80px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Shipped
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 4th
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 80px;
+        position: relative;
+        top: 10px
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-top: 8px;
+          text-align: center;
+          width: 80px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Transit
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 5th
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 80px;
+        position: relative;
+        top: 10px
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: flex-end;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-end: var(--spacing-50);
+          margin-top: 8px;
+          text-align: right;
+          width: 80px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Delivered
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 6th
+          </p>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ allSelected @ 512px
+(same as 1280px)
+
+┌─ allSelected @ 1280px
+<div>
+  <div style="
+    overflow-x: auto;
+    overflow-y: auto;
+    padding: var(--spacing-200) 0
+  ">
+    <div style="
+      align-items: flex-start;
+      display: flex
+    ">
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: flex-start;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-start: var(--spacing-50);
+          margin-top: 8px;
+          text-align: left;
+          width: 120px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Started
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 3rd
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 120px;
+        position: relative;
+        top: 10px
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-top: 8px;
+          text-align: center;
+          width: 120px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Shipped
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 4th
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 120px;
+        position: relative;
+        top: 10px
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-top: 8px;
+          text-align: center;
+          width: 120px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Transit
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 5th
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 120px;
+        position: relative;
+        top: 10px
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: flex-end;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-end: var(--spacing-50);
+          margin-top: 8px;
+          text-align: right;
+          width: 120px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Delivered
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 6th
+          </p>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ allSelected @ 1280px rtl
+<div>
+  <div style="
+    overflow-x: auto;
+    overflow-y: auto;
+    padding: var(--spacing-200) 0
+  ">
+    <div style="
+      align-items: flex-start;
+      display: flex
+    ">
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: flex-start;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-start: var(--spacing-50);
+          margin-top: 8px;
+          text-align: right;
+          width: 120px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Started
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 3rd
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 120px;
+        position: relative;
+        top: 10px
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-top: 8px;
+          text-align: center;
+          width: 120px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Shipped
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 4th
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 120px;
+        position: relative;
+        top: 10px
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-top: 8px;
+          text-align: center;
+          width: 120px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Transit
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 5th
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 120px;
+        position: relative;
+        top: 10px
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: flex-end;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-end: var(--spacing-50);
+          margin-top: 8px;
+          text-align: left;
+          width: 120px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Delivered
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 6th
+          </p>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ allSelectedVertical @ 320px
+(same as 1280px)
+
+┌─ allSelectedVertical @ 512px
+(same as 1280px)
+
+┌─ allSelectedVertical @ 1280px
+<div>
+  <div style="
+    overflow-x: auto;
+    overflow-y: auto;
+    padding: var(--spacing-200) 0
+  ">
+    <div style="align-items: flex-start">
+      <div style="
+        align-items: flex-start;
+        display: flex;
+        height: 24px;
+        width: auto
+      ">
+        <span style="
+          display: inline-block;
+          height: 24px;
+          margin-bottom: inherit;
+          margin-left: inherit;
+          margin-right: inherit;
+          margin-top: inherit;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: center;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-start: var(--spacing-200);
+          text-align: left;
+          text-wrap-mode: nowrap
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Started
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 3rd
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        display: inline-block;
+        flex-basis: inherit;
+        flex-grow: inherit;
+        flex-shrink: inherit;
+        height: 51px;
+        margin-bottom: 12px;
+        margin-left: 10px;
+        margin-top: -4px;
+        min-width: inherit;
+        position: relative;
+        top: 10px;
+        width: 4px
+      "/>
+      <div style="
+        align-items: flex-start;
+        display: flex;
+        height: 24px;
+        width: auto
+      ">
+        <span style="
+          display: inline-block;
+          height: 24px;
+          margin-bottom: inherit;
+          margin-left: inherit;
+          margin-right: inherit;
+          margin-top: inherit;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: center;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-start: var(--spacing-200);
+          text-align: left;
+          text-wrap-mode: nowrap
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Shipped
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 4th
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        display: inline-block;
+        flex-basis: inherit;
+        flex-grow: inherit;
+        flex-shrink: inherit;
+        height: 51px;
+        margin-bottom: 12px;
+        margin-left: 10px;
+        margin-top: -4px;
+        min-width: inherit;
+        position: relative;
+        top: 10px;
+        width: 4px
+      "/>
+      <div style="
+        align-items: flex-start;
+        display: flex;
+        height: 24px;
+        width: auto
+      ">
+        <span style="
+          display: inline-block;
+          height: 24px;
+          margin-bottom: inherit;
+          margin-left: inherit;
+          margin-right: inherit;
+          margin-top: inherit;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: center;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-start: var(--spacing-200);
+          text-align: left;
+          text-wrap-mode: nowrap
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Transit
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 5th
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        display: inline-block;
+        flex-basis: inherit;
+        flex-grow: inherit;
+        flex-shrink: inherit;
+        height: 51px;
+        margin-bottom: 12px;
+        margin-left: 10px;
+        margin-top: -4px;
+        min-width: inherit;
+        position: relative;
+        top: 10px;
+        width: 4px
+      "/>
+      <div style="
+        align-items: flex-start;
+        display: flex;
+        height: 24px;
+        width: auto
+      ">
+        <span style="
+          display: inline-block;
+          height: 24px;
+          margin-bottom: inherit;
+          margin-left: inherit;
+          margin-right: inherit;
+          margin-top: inherit;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: center;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-end: var(--spacing-50);
+          margin-inline-start: var(--spacing-200);
+          text-align: left;
+          text-wrap-mode: nowrap
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Delivered
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 6th
+          </p>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ allSelectedVertical @ 1280px rtl
+(same as 1280px)
+
+┌─ base @ 320px
+<div>
+  <div style="
+    overflow-x: auto;
+    overflow-y: auto;
+    padding: var(--spacing-200) 0
+  ">
+    <div style="
+      align-items: flex-start;
+      display: flex
+    ">
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: flex-start;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-start: var(--spacing-50);
+          margin-top: 8px;
+          text-align: left;
+          width: 80px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Started
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 3rd
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 80px;
+        position: relative;
+        top: 10px
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-top: 8px;
+          text-align: center;
+          width: 80px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Shipped
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 4th
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 80px;
+        position: relative;
+        top: 10px
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-top: 8px;
+          text-align: center;
+          width: 80px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Transit
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 5th
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 80px;
+        position: relative;
+        top: 10px
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <svg
+          height="24"
+          role="img"
+          style="
+            display: inline-block;
+            fill: currentcolor;
+            pointer-events: none;
+            stroke-width: 0;
+            stroke: currentcolor;
+            vertical-align: middle
+          "
+          width="24"
+        >
+          <use href="#icon-stepper-upcoming-24"/>
+        </svg>
+        <span style="
+          align-self: flex-end;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-end: var(--spacing-50);
+          margin-top: 8px;
+          text-align: right;
+          width: 80px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Delivered
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 6th
+          </p>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ base @ 512px
+(same as 1280px)
+
+┌─ base @ 1280px
+<div>
+  <div style="
+    overflow-x: auto;
+    overflow-y: auto;
+    padding: var(--spacing-200) 0
+  ">
+    <div style="
+      align-items: flex-start;
+      display: flex
+    ">
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: flex-start;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-start: var(--spacing-50);
+          margin-top: 8px;
+          text-align: left;
+          width: 120px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Started
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 3rd
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 120px;
+        position: relative;
+        top: 10px
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-top: 8px;
+          text-align: center;
+          width: 120px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Shipped
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 4th
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 120px;
+        position: relative;
+        top: 10px
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-top: 8px;
+          text-align: center;
+          width: 120px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Transit
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 5th
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 120px;
+        position: relative;
+        top: 10px
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <svg
+          height="24"
+          role="img"
+          style="
+            display: inline-block;
+            fill: currentcolor;
+            pointer-events: none;
+            stroke-width: 0;
+            stroke: currentcolor;
+            vertical-align: middle
+          "
+          width="24"
+        >
+          <use href="#icon-stepper-upcoming-24"/>
+        </svg>
+        <span style="
+          align-self: flex-end;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-end: var(--spacing-50);
+          margin-top: 8px;
+          text-align: right;
+          width: 120px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Delivered
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 6th
+          </p>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ base @ 1280px rtl
+(same as 1280px)
+
+┌─ errorState @ 320px
+<div>
+  <div style="
+    overflow-x: auto;
+    overflow-y: auto;
+    padding: var(--spacing-200) 0
+  ">
+    <div style="
+      align-items: flex-start;
+      display: flex
+    ">
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: flex-start;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-start: var(--spacing-50);
+          margin-top: 8px;
+          text-align: left;
+          width: 80px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Started
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 3rd
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 80px;
+        position: relative;
+        top: 10px
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-attention-24"/>
+          </svg>
+        </span>
+        <span style="
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-top: 8px;
+          text-align: center;
+          width: 80px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Blocked
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 5th
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 80px;
+        position: relative;
+        top: 10px
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-upcoming-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: flex-end;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-end: var(--spacing-50);
+          margin-top: 8px;
+          text-align: right;
+          width: 80px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Delivered
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 6th
+          </p>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ errorState @ 512px
+(same as 1280px)
+
+┌─ errorState @ 1280px
+<div>
+  <div style="
+    overflow-x: auto;
+    overflow-y: auto;
+    padding: var(--spacing-200) 0
+  ">
+    <div style="
+      align-items: flex-start;
+      display: flex
+    ">
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: flex-start;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-start: var(--spacing-50);
+          margin-top: 8px;
+          text-align: left;
+          width: 120px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Started
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 3rd
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 120px;
+        position: relative;
+        top: 10px
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-attention-24"/>
+          </svg>
+        </span>
+        <span style="
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-top: 8px;
+          text-align: center;
+          width: 120px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Blocked
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 5th
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 120px;
+        position: relative;
+        top: 10px
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-upcoming-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: flex-end;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-end: var(--spacing-50);
+          margin-top: 8px;
+          text-align: right;
+          width: 120px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Delivered
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 6th
+          </p>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ errorState @ 1280px rtl
+(same as 1280px)
+
+┌─ errorStateVertical @ 320px
+(same as 1280px)
+
+┌─ errorStateVertical @ 512px
+(same as 1280px)
+
+┌─ errorStateVertical @ 1280px
+<div>
+  <div style="
+    overflow-x: auto;
+    overflow-y: auto;
+    padding: var(--spacing-200) 0
+  ">
+    <div style="align-items: flex-start">
+      <div style="
+        align-items: flex-start;
+        display: flex;
+        height: 24px;
+        width: auto
+      ">
+        <span style="
+          display: inline-block;
+          height: 24px;
+          margin-bottom: inherit;
+          margin-left: inherit;
+          margin-right: inherit;
+          margin-top: inherit;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: center;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-start: var(--spacing-200);
+          text-align: left;
+          text-wrap-mode: nowrap
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Started
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 3rd
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        display: inline-block;
+        flex-basis: inherit;
+        flex-grow: inherit;
+        flex-shrink: inherit;
+        height: 51px;
+        margin-bottom: 12px;
+        margin-left: 10px;
+        margin-top: -4px;
+        min-width: inherit;
+        position: relative;
+        top: 10px;
+        width: 4px
+      "/>
+      <div style="
+        align-items: flex-start;
+        display: flex;
+        height: 24px;
+        width: auto
+      ">
+        <span style="
+          display: inline-block;
+          height: 24px;
+          margin-bottom: inherit;
+          margin-left: inherit;
+          margin-right: inherit;
+          margin-top: inherit;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-attention-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: center;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-start: var(--spacing-200);
+          text-align: left;
+          text-wrap-mode: nowrap
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Blocked
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 5th
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        background: linear-gradient(180deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        display: inline-block;
+        flex-basis: inherit;
+        flex-grow: inherit;
+        flex-shrink: inherit;
+        height: 51px;
+        margin-bottom: 12px;
+        margin-left: 10px;
+        margin-top: -4px;
+        min-width: inherit;
+        position: relative;
+        top: 10px;
+        width: 4px
+      "/>
+      <div style="
+        align-items: flex-start;
+        display: flex;
+        height: 24px;
+        width: auto
+      ">
+        <span style="
+          display: inline-block;
+          height: 24px;
+          margin-bottom: inherit;
+          margin-left: inherit;
+          margin-right: inherit;
+          margin-top: inherit;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-upcoming-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: center;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-end: var(--spacing-50);
+          margin-inline-start: var(--spacing-200);
+          text-align: left;
+          text-wrap-mode: nowrap
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Delivered
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 6th
+          </p>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ errorStateVertical @ 1280px rtl
+(same as 1280px)
+
+┌─ multipleUpcoming @ 320px
+<div>
+  <div style="
+    overflow-x: auto;
+    overflow-y: auto;
+    padding: var(--spacing-200) 0
+  ">
+    <div style="
+      align-items: flex-start;
+      display: flex
+    ">
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: flex-start;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-start: var(--spacing-50);
+          margin-top: 8px;
+          text-align: left;
+          width: 80px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Started
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 3rd
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 80px;
+        position: relative;
+        top: 10px
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-upcoming-24"/>
+          </svg>
+        </span>
+        <span style="
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-top: 8px;
+          text-align: center;
+          width: 80px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Shipped
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 4th
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 80px;
+        position: relative;
+        top: 10px
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-upcoming-24"/>
+          </svg>
+        </span>
+        <span style="
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-top: 8px;
+          text-align: center;
+          width: 80px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Transit
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 5th
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 80px;
+        position: relative;
+        top: 10px
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <svg
+          height="24"
+          role="img"
+          style="
+            display: inline-block;
+            fill: currentcolor;
+            pointer-events: none;
+            stroke-width: 0;
+            stroke: currentcolor;
+            vertical-align: middle
+          "
+          width="24"
+        >
+          <use href="#icon-stepper-upcoming-24"/>
+        </svg>
+        <span style="
+          align-self: flex-end;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-end: var(--spacing-50);
+          margin-top: 8px;
+          text-align: right;
+          width: 80px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Delivered
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 6th
+          </p>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ multipleUpcoming @ 512px
+(same as 1280px)
+
+┌─ multipleUpcoming @ 1280px
+<div>
+  <div style="
+    overflow-x: auto;
+    overflow-y: auto;
+    padding: var(--spacing-200) 0
+  ">
+    <div style="
+      align-items: flex-start;
+      display: flex
+    ">
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: flex-start;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-start: var(--spacing-50);
+          margin-top: 8px;
+          text-align: left;
+          width: 120px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Started
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 3rd
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 120px;
+        position: relative;
+        top: 10px
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-upcoming-24"/>
+          </svg>
+        </span>
+        <span style="
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-top: 8px;
+          text-align: center;
+          width: 120px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Shipped
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 4th
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 120px;
+        position: relative;
+        top: 10px
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-upcoming-24"/>
+          </svg>
+        </span>
+        <span style="
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-top: 8px;
+          text-align: center;
+          width: 120px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Transit
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 5th
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 120px;
+        position: relative;
+        top: 10px
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <svg
+          height="24"
+          role="img"
+          style="
+            display: inline-block;
+            fill: currentcolor;
+            pointer-events: none;
+            stroke-width: 0;
+            stroke: currentcolor;
+            vertical-align: middle
+          "
+          width="24"
+        >
+          <use href="#icon-stepper-upcoming-24"/>
+        </svg>
+        <span style="
+          align-self: flex-end;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-end: var(--spacing-50);
+          margin-top: 8px;
+          text-align: right;
+          width: 120px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Delivered
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 6th
+          </p>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ multipleUpcoming @ 1280px rtl
+(same as 1280px)
+
+┌─ noneSelected @ 320px
+<div>
+  <div style="
+    overflow-x: auto;
+    overflow-y: auto;
+    padding: var(--spacing-200) 0
+  ">
+    <div style="
+      align-items: flex-start;
+      display: flex
+    ">
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-upcoming-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: flex-start;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-start: var(--spacing-50);
+          margin-top: 8px;
+          text-align: left;
+          width: 80px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Started
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 3rd
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 80px;
+        position: relative;
+        top: 10px
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-upcoming-24"/>
+          </svg>
+        </span>
+        <span style="
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-top: 8px;
+          text-align: center;
+          width: 80px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Shipped
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 4th
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 80px;
+        position: relative;
+        top: 10px
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-upcoming-24"/>
+          </svg>
+        </span>
+        <span style="
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-top: 8px;
+          text-align: center;
+          width: 80px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Transit
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 5th
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 80px;
+        position: relative;
+        top: 10px
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-upcoming-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: flex-end;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-end: var(--spacing-50);
+          margin-top: 8px;
+          text-align: right;
+          width: 80px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Delivered
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 6th
+          </p>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ noneSelected @ 512px
+(same as 1280px)
+
+┌─ noneSelected @ 1280px
+<div>
+  <div style="
+    overflow-x: auto;
+    overflow-y: auto;
+    padding: var(--spacing-200) 0
+  ">
+    <div style="
+      align-items: flex-start;
+      display: flex
+    ">
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-upcoming-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: flex-start;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-start: var(--spacing-50);
+          margin-top: 8px;
+          text-align: left;
+          width: 120px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Started
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 3rd
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 120px;
+        position: relative;
+        top: 10px
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-upcoming-24"/>
+          </svg>
+        </span>
+        <span style="
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-top: 8px;
+          text-align: center;
+          width: 120px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Shipped
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 4th
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 120px;
+        position: relative;
+        top: 10px
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-upcoming-24"/>
+          </svg>
+        </span>
+        <span style="
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-top: 8px;
+          text-align: center;
+          width: 120px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Transit
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 5th
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 120px;
+        position: relative;
+        top: 10px
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 32px
+      ">
+        <span style="
+          height: 24px;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-upcoming-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: flex-end;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-end: var(--spacing-50);
+          margin-top: 8px;
+          text-align: right;
+          width: 120px
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Delivered
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 6th
+          </p>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ noneSelected @ 1280px rtl
+(same as 1280px)
+
+┌─ noneSelectedVertical @ 320px
+(same as 1280px)
+
+┌─ noneSelectedVertical @ 512px
+(same as 1280px)
+
+┌─ noneSelectedVertical @ 1280px
+<div>
+  <div style="
+    overflow-x: auto;
+    overflow-y: auto;
+    padding: var(--spacing-200) 0
+  ">
+    <div style="align-items: flex-start">
+      <div style="
+        align-items: flex-start;
+        display: flex;
+        height: 24px;
+        width: auto
+      ">
+        <span style="
+          display: inline-block;
+          height: 24px;
+          margin-bottom: inherit;
+          margin-left: inherit;
+          margin-right: inherit;
+          margin-top: inherit;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-upcoming-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: center;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-start: var(--spacing-200);
+          text-align: left;
+          text-wrap-mode: nowrap
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Started
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 3rd
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        display: inline-block;
+        flex-basis: inherit;
+        flex-grow: inherit;
+        flex-shrink: inherit;
+        height: 51px;
+        margin-bottom: 12px;
+        margin-left: 10px;
+        margin-top: -4px;
+        min-width: inherit;
+        position: relative;
+        top: 10px;
+        width: 4px
+      "/>
+      <div style="
+        align-items: flex-start;
+        display: flex;
+        height: 24px;
+        width: auto
+      ">
+        <span style="
+          display: inline-block;
+          height: 24px;
+          margin-bottom: inherit;
+          margin-left: inherit;
+          margin-right: inherit;
+          margin-top: inherit;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-upcoming-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: center;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-start: var(--spacing-200);
+          text-align: left;
+          text-wrap-mode: nowrap
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Shipped
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 4th
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        display: inline-block;
+        flex-basis: inherit;
+        flex-grow: inherit;
+        flex-shrink: inherit;
+        height: 51px;
+        margin-bottom: 12px;
+        margin-left: 10px;
+        margin-top: -4px;
+        min-width: inherit;
+        position: relative;
+        top: 10px;
+        width: 4px
+      "/>
+      <div style="
+        align-items: flex-start;
+        display: flex;
+        height: 24px;
+        width: auto
+      ">
+        <span style="
+          display: inline-block;
+          height: 24px;
+          margin-bottom: inherit;
+          margin-left: inherit;
+          margin-right: inherit;
+          margin-top: inherit;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-upcoming-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: center;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-start: var(--spacing-200);
+          text-align: left;
+          text-wrap-mode: nowrap
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Transit
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 5th
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        display: inline-block;
+        flex-basis: inherit;
+        flex-grow: inherit;
+        flex-shrink: inherit;
+        height: 51px;
+        margin-bottom: 12px;
+        margin-left: 10px;
+        margin-top: -4px;
+        min-width: inherit;
+        position: relative;
+        top: 10px;
+        width: 4px
+      "/>
+      <div style="
+        align-items: flex-start;
+        display: flex;
+        height: 24px;
+        width: auto
+      ">
+        <span style="
+          display: inline-block;
+          height: 24px;
+          margin-bottom: inherit;
+          margin-left: inherit;
+          margin-right: inherit;
+          margin-top: inherit;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-upcoming-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: center;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-end: var(--spacing-50);
+          margin-inline-start: var(--spacing-200);
+          text-align: left;
+          text-wrap-mode: nowrap
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Delivered
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            July 6th
+          </p>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ noneSelectedVertical @ 1280px rtl
+(same as 1280px)
+
+┌─ smallScreens @ 320px
+<div>
+  <div style="width: 320px">
+    <div style="
+      overflow-x: auto;
+      overflow-y: auto;
+      padding: var(--spacing-200) 0
+    ">
+      <div style="
+        align-items: flex-start;
+        display: flex
+      ">
+        <div style="
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+          width: 32px
+        ">
+          <span style="
+            height: 24px;
+            margin-bottom: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            width: 24px
+          ">
+            <svg
+              height="24"
+              role="img"
+              style="
+                display: inline-block;
+                fill: currentcolor;
+                pointer-events: none;
+                stroke-width: 0;
+                stroke: currentcolor;
+                vertical-align: middle
+              "
+              width="24"
+            >
+              <use href="#icon-stepper-confirmation-24"/>
+            </svg>
+          </span>
+          <span style="
+            align-self: flex-start;
+            font-size: var(--font-size-body);
+            justify-self: center;
+            margin-inline-start: var(--spacing-50);
+            margin-top: 8px;
+            text-align: left;
+            width: 80px
+          ">
+            <h4 style="
+              color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+              font-size: var(--font-size-body);
+              font-weight: 400;
+              margin-bottom: 0px;
+              margin-top: 0px
+            ">
+              Gestartet
+            </h4>
+            <p style="
+              color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+              margin-bottom: 0px;
+              margin-top: 0px
+            ">
+              July 3rd
+            </p>
+          </span>
+        </div>
+        <hr style="
+          background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+          border-bottom-color: currentcolor;
+          border-bottom-left-radius: 2px;
+          border-bottom-right-radius: 2px;
+          border-bottom-style: none;
+          border-bottom-width: 0px;
+          border-left-color: currentcolor;
+          border-left-style: none;
+          border-left-width: 0px;
+          border-right-color: currentcolor;
+          border-right-style: none;
+          border-right-width: 0px;
+          border-top-color: currentcolor;
+          border-top-left-radius: 2px;
+          border-top-right-radius: 2px;
+          border-top-style: none;
+          border-top-width: 0px;
+          flex-basis: 0%;
+          flex-grow: 1;
+          height: 4px;
+          margin-bottom: 0px;
+          margin-top: 0px;
+          min-width: 80px;
+          position: relative;
+          top: 10px
+        "/>
+        <div style="
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+          width: 32px
+        ">
+          <span style="
+            height: 24px;
+            margin-bottom: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            width: 24px
+          ">
+            <svg
+              height="24"
+              role="img"
+              style="
+                display: inline-block;
+                fill: currentcolor;
+                pointer-events: none;
+                stroke-width: 0;
+                stroke: currentcolor;
+                vertical-align: middle
+              "
+              width="24"
+            >
+              <use href="#icon-stepper-confirmation-24"/>
+            </svg>
+          </span>
+          <span style="
+            font-size: var(--font-size-body);
+            justify-self: center;
+            margin-top: 8px;
+            text-align: center;
+            width: 80px
+          ">
+            <h4 style="
+              color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+              font-size: var(--font-size-body);
+              margin-bottom: 0px;
+              margin-top: 0px
+            ">
+              Verschicken
+            </h4>
+            <p style="
+              color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+              margin-bottom: 0px;
+              margin-top: 0px
+            ">
+              bis 27. Jan
+            </p>
+          </span>
+        </div>
+        <hr style="
+          background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+          background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
+          border-bottom-color: currentcolor;
+          border-bottom-left-radius: 2px;
+          border-bottom-right-radius: 2px;
+          border-bottom-style: none;
+          border-bottom-width: 0px;
+          border-left-color: currentcolor;
+          border-left-style: none;
+          border-left-width: 0px;
+          border-right-color: currentcolor;
+          border-right-style: none;
+          border-right-width: 0px;
+          border-top-color: currentcolor;
+          border-top-left-radius: 2px;
+          border-top-right-radius: 2px;
+          border-top-style: none;
+          border-top-width: 0px;
+          flex-basis: 0%;
+          flex-grow: 1;
+          height: 4px;
+          margin-bottom: 0px;
+          margin-top: 0px;
+          min-width: 80px;
+          position: relative;
+          top: 10px
+        "/>
+        <div style="
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+          width: 32px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-upcoming-24"/>
+          </svg>
+          <span style="
+            align-self: flex-end;
+            font-size: var(--font-size-body);
+            justify-self: center;
+            margin-inline-end: var(--spacing-50);
+            margin-top: 8px;
+            text-align: right;
+            width: 80px
+          ">
+            <h4 style="
+              color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+              font-size: var(--font-size-body);
+              font-weight: 400;
+              margin-bottom: 0px;
+              margin-top: 0px
+            ">
+              Ruckerstattung
+            </h4>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ smallScreens @ 512px
+(same as 1280px)
+
+┌─ smallScreens @ 1280px
+<div>
+  <div style="width: 320px">
+    <div style="
+      overflow-x: auto;
+      overflow-y: auto;
+      padding: var(--spacing-200) 0
+    ">
+      <div style="
+        align-items: flex-start;
+        display: flex
+      ">
+        <div style="
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+          width: 32px
+        ">
+          <span style="
+            height: 24px;
+            margin-bottom: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            width: 24px
+          ">
+            <svg
+              height="24"
+              role="img"
+              style="
+                display: inline-block;
+                fill: currentcolor;
+                pointer-events: none;
+                stroke-width: 0;
+                stroke: currentcolor;
+                vertical-align: middle
+              "
+              width="24"
+            >
+              <use href="#icon-stepper-confirmation-24"/>
+            </svg>
+          </span>
+          <span style="
+            align-self: flex-start;
+            font-size: var(--font-size-body);
+            justify-self: center;
+            margin-inline-start: var(--spacing-50);
+            margin-top: 8px;
+            text-align: left;
+            width: 120px
+          ">
+            <h4 style="
+              color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+              font-size: var(--font-size-body);
+              font-weight: 400;
+              margin-bottom: 0px;
+              margin-top: 0px
+            ">
+              Gestartet
+            </h4>
+            <p style="
+              color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+              margin-bottom: 0px;
+              margin-top: 0px
+            ">
+              July 3rd
+            </p>
+          </span>
+        </div>
+        <hr style="
+          background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+          border-bottom-color: currentcolor;
+          border-bottom-left-radius: 2px;
+          border-bottom-right-radius: 2px;
+          border-bottom-style: none;
+          border-bottom-width: 0px;
+          border-left-color: currentcolor;
+          border-left-style: none;
+          border-left-width: 0px;
+          border-right-color: currentcolor;
+          border-right-style: none;
+          border-right-width: 0px;
+          border-top-color: currentcolor;
+          border-top-left-radius: 2px;
+          border-top-right-radius: 2px;
+          border-top-style: none;
+          border-top-width: 0px;
+          flex-basis: 0%;
+          flex-grow: 1;
+          height: 4px;
+          margin-bottom: 0px;
+          margin-top: 0px;
+          min-width: 120px;
+          position: relative;
+          top: 10px
+        "/>
+        <div style="
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+          width: 32px
+        ">
+          <span style="
+            height: 24px;
+            margin-bottom: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            width: 24px
+          ">
+            <svg
+              height="24"
+              role="img"
+              style="
+                display: inline-block;
+                fill: currentcolor;
+                pointer-events: none;
+                stroke-width: 0;
+                stroke: currentcolor;
+                vertical-align: middle
+              "
+              width="24"
+            >
+              <use href="#icon-stepper-confirmation-24"/>
+            </svg>
+          </span>
+          <span style="
+            font-size: var(--font-size-body);
+            justify-self: center;
+            margin-top: 8px;
+            text-align: center;
+            width: 120px
+          ">
+            <h4 style="
+              color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+              font-size: var(--font-size-body);
+              margin-bottom: 0px;
+              margin-top: 0px
+            ">
+              Verschicken
+            </h4>
+            <p style="
+              color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+              margin-bottom: 0px;
+              margin-top: 0px
+            ">
+              bis 27. Jan
+            </p>
+          </span>
+        </div>
+        <hr style="
+          background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+          background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
+          border-bottom-color: currentcolor;
+          border-bottom-left-radius: 2px;
+          border-bottom-right-radius: 2px;
+          border-bottom-style: none;
+          border-bottom-width: 0px;
+          border-left-color: currentcolor;
+          border-left-style: none;
+          border-left-width: 0px;
+          border-right-color: currentcolor;
+          border-right-style: none;
+          border-right-width: 0px;
+          border-top-color: currentcolor;
+          border-top-left-radius: 2px;
+          border-top-right-radius: 2px;
+          border-top-style: none;
+          border-top-width: 0px;
+          flex-basis: 0%;
+          flex-grow: 1;
+          height: 4px;
+          margin-bottom: 0px;
+          margin-top: 0px;
+          min-width: 120px;
+          position: relative;
+          top: 10px
+        "/>
+        <div style="
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+          width: 32px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-upcoming-24"/>
+          </svg>
+          <span style="
+            align-self: flex-end;
+            font-size: var(--font-size-body);
+            justify-self: center;
+            margin-inline-end: var(--spacing-50);
+            margin-top: 8px;
+            text-align: right;
+            width: 120px
+          ">
+            <h4 style="
+              color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+              font-size: var(--font-size-body);
+              font-weight: 400;
+              margin-bottom: 0px;
+              margin-top: 0px
+            ">
+              Ruckerstattung
+            </h4>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ smallScreens @ 1280px rtl
+(same as 1280px)
+
+┌─ textSpacing @ 320px
+<div>
+  <div style="
+    letter-spacing: 0.12em;
+    line-height: 1.5;
+    overflow-x: auto;
+    overflow-y: auto;
+    padding: var(--spacing-200) 0;
+    word-spacing: 0.16em
+  ">
+    <div style="
+      align-items: flex-start;
+      display: flex;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      word-spacing: 0.16em
+    ">
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        width: 32px;
+        word-spacing: 0.16em
+      ">
+        <span style="
+          height: 24px;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px;
+          word-spacing: 0.16em
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle;
+              word-spacing: 0.16em
+            "
+            width="24"
+          >
+            <use
+              href="#icon-stepper-confirmation-24"
+              style="
+                letter-spacing: 0.12em;
+                line-height: 1.5;
+                word-spacing: 0.16em
+              "
+            />
+          </svg>
+        </span>
+        <span style="
+          align-self: flex-start;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-inline-start: var(--spacing-50);
+          margin-top: 8px;
+          text-align: left;
+          width: 80px;
+          word-spacing: 0.16em
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            word-spacing: 0.16em
+          ">
+            Started
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            margin-bottom: 2em;
+            margin-top: 0px;
+            word-spacing: 0.16em
+          ">
+            July 3rd
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 80px;
+        position: relative;
+        top: 10px;
+        word-spacing: 0.16em
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        width: 32px;
+        word-spacing: 0.16em
+      ">
+        <span style="
+          height: 24px;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px;
+          word-spacing: 0.16em
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle;
+              word-spacing: 0.16em
+            "
+            width="24"
+          >
+            <use
+              href="#icon-stepper-upcoming-24"
+              style="
+                letter-spacing: 0.12em;
+                line-height: 1.5;
+                word-spacing: 0.16em
+              "
+            />
+          </svg>
+        </span>
+        <span style="
+          font-size: var(--font-size-body);
+          justify-self: center;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-top: 8px;
+          text-align: center;
+          width: 80px;
+          word-spacing: 0.16em
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            word-spacing: 0.16em
+          ">
+            Shipped
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            margin-bottom: 2em;
+            margin-top: 0px;
+            word-spacing: 0.16em
+          ">
+            July 4th
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 80px;
+        position: relative;
+        top: 10px;
+        word-spacing: 0.16em
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        width: 32px;
+        word-spacing: 0.16em
+      ">
+        <span style="
+          height: 24px;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px;
+          word-spacing: 0.16em
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle;
+              word-spacing: 0.16em
+            "
+            width="24"
+          >
+            <use
+              href="#icon-stepper-upcoming-24"
+              style="
+                letter-spacing: 0.12em;
+                line-height: 1.5;
+                word-spacing: 0.16em
+              "
+            />
+          </svg>
+        </span>
+        <span style="
+          font-size: var(--font-size-body);
+          justify-self: center;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-top: 8px;
+          text-align: center;
+          width: 80px;
+          word-spacing: 0.16em
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            word-spacing: 0.16em
+          ">
+            Transit
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            margin-bottom: 2em;
+            margin-top: 0px;
+            word-spacing: 0.16em
+          ">
+            July 5th
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 80px;
+        position: relative;
+        top: 10px;
+        word-spacing: 0.16em
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        width: 32px;
+        word-spacing: 0.16em
+      ">
+        <svg
+          height="24"
+          role="img"
+          style="
+            display: inline-block;
+            fill: currentcolor;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            pointer-events: none;
+            stroke-width: 0;
+            stroke: currentcolor;
+            vertical-align: middle;
+            word-spacing: 0.16em
+          "
+          width="24"
+        >
+          <use
+            href="#icon-stepper-upcoming-24"
+            style="
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          />
+        </svg>
+        <span style="
+          align-self: flex-end;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-inline-end: var(--spacing-50);
+          margin-top: 8px;
+          text-align: right;
+          width: 80px;
+          word-spacing: 0.16em
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            word-spacing: 0.16em
+          ">
+            Delivered
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            margin-bottom: 2em;
+            margin-top: 0px;
+            word-spacing: 0.16em
+          ">
+            July 6th
+          </p>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ textSpacing @ 512px
+(same as 1280px)
+
+┌─ textSpacing @ 1280px
+<div>
+  <div style="
+    letter-spacing: 0.12em;
+    line-height: 1.5;
+    overflow-x: auto;
+    overflow-y: auto;
+    padding: var(--spacing-200) 0;
+    word-spacing: 0.16em
+  ">
+    <div style="
+      align-items: flex-start;
+      display: flex;
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      word-spacing: 0.16em
+    ">
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        width: 32px;
+        word-spacing: 0.16em
+      ">
+        <span style="
+          height: 24px;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px;
+          word-spacing: 0.16em
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle;
+              word-spacing: 0.16em
+            "
+            width="24"
+          >
+            <use
+              href="#icon-stepper-confirmation-24"
+              style="
+                letter-spacing: 0.12em;
+                line-height: 1.5;
+                word-spacing: 0.16em
+              "
+            />
+          </svg>
+        </span>
+        <span style="
+          align-self: flex-start;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-inline-start: var(--spacing-50);
+          margin-top: 8px;
+          text-align: left;
+          width: 120px;
+          word-spacing: 0.16em
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            word-spacing: 0.16em
+          ">
+            Started
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            margin-bottom: 2em;
+            margin-top: 0px;
+            word-spacing: 0.16em
+          ">
+            July 3rd
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 120px;
+        position: relative;
+        top: 10px;
+        word-spacing: 0.16em
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        width: 32px;
+        word-spacing: 0.16em
+      ">
+        <span style="
+          height: 24px;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px;
+          word-spacing: 0.16em
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle;
+              word-spacing: 0.16em
+            "
+            width="24"
+          >
+            <use
+              href="#icon-stepper-upcoming-24"
+              style="
+                letter-spacing: 0.12em;
+                line-height: 1.5;
+                word-spacing: 0.16em
+              "
+            />
+          </svg>
+        </span>
+        <span style="
+          font-size: var(--font-size-body);
+          justify-self: center;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-top: 8px;
+          text-align: center;
+          width: 120px;
+          word-spacing: 0.16em
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            word-spacing: 0.16em
+          ">
+            Shipped
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            margin-bottom: 2em;
+            margin-top: 0px;
+            word-spacing: 0.16em
+          ">
+            July 4th
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 120px;
+        position: relative;
+        top: 10px;
+        word-spacing: 0.16em
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        width: 32px;
+        word-spacing: 0.16em
+      ">
+        <span style="
+          height: 24px;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          width: 24px;
+          word-spacing: 0.16em
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle;
+              word-spacing: 0.16em
+            "
+            width="24"
+          >
+            <use
+              href="#icon-stepper-upcoming-24"
+              style="
+                letter-spacing: 0.12em;
+                line-height: 1.5;
+                word-spacing: 0.16em
+              "
+            />
+          </svg>
+        </span>
+        <span style="
+          font-size: var(--font-size-body);
+          justify-self: center;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-top: 8px;
+          text-align: center;
+          width: 120px;
+          word-spacing: 0.16em
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            word-spacing: 0.16em
+          ">
+            Transit
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            margin-bottom: 2em;
+            margin-top: 0px;
+            word-spacing: 0.16em
+          ">
+            July 5th
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        flex-basis: 0%;
+        flex-grow: 1;
+        height: 4px;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-width: 120px;
+        position: relative;
+        top: 10px;
+        word-spacing: 0.16em
+      "/>
+      <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        width: 32px;
+        word-spacing: 0.16em
+      ">
+        <svg
+          height="24"
+          role="img"
+          style="
+            display: inline-block;
+            fill: currentcolor;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            pointer-events: none;
+            stroke-width: 0;
+            stroke: currentcolor;
+            vertical-align: middle;
+            word-spacing: 0.16em
+          "
+          width="24"
+        >
+          <use
+            href="#icon-stepper-upcoming-24"
+            style="
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          />
+        </svg>
+        <span style="
+          align-self: flex-end;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          margin-inline-end: var(--spacing-50);
+          margin-top: 8px;
+          text-align: right;
+          width: 120px;
+          word-spacing: 0.16em
+        ">
+          <h4 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            word-spacing: 0.16em
+          ">
+            Delivered
+          </h4>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            margin-bottom: 2em;
+            margin-top: 0px;
+            word-spacing: 0.16em
+          ">
+            July 6th
+          </p>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ textSpacing @ 1280px rtl
+(same as 1280px)
+
+┌─ vertical @ 320px
+(same as 1280px)
+
+┌─ vertical @ 512px
+(same as 1280px)
+
+┌─ vertical @ 1280px
+<div>
+  <div style="
+    overflow-x: auto;
+    overflow-y: auto;
+    padding: var(--spacing-200) 0
+  ">
+    <div style="align-items: flex-start">
+      <div style="
+        align-items: flex-start;
+        display: flex;
+        height: 24px;
+        width: auto
+      ">
+        <span style="
+          display: inline-block;
+          height: 24px;
+          margin-bottom: inherit;
+          margin-left: inherit;
+          margin-right: inherit;
+          margin-top: inherit;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: center;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-start: var(--spacing-200);
+          text-align: left;
+          text-wrap-mode: nowrap
+        ">
+          <h3 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Order placed
+          </h3>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            New Mens Addidas Ultra Boost
+          </p>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Order total $220
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        display: inline-block;
+        flex-basis: inherit;
+        flex-grow: inherit;
+        flex-shrink: inherit;
+        height: 51px;
+        margin-bottom: 12px;
+        margin-left: 10px;
+        margin-top: -4px;
+        min-width: inherit;
+        position: relative;
+        top: 10px;
+        width: 4px
+      "/>
+      <div style="
+        align-items: flex-start;
+        display: flex;
+        height: 24px;
+        width: auto
+      ">
+        <span style="
+          display: inline-block;
+          height: 24px;
+          margin-bottom: inherit;
+          margin-left: inherit;
+          margin-right: inherit;
+          margin-top: inherit;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: center;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-start: var(--spacing-200);
+          text-align: left;
+          text-wrap-mode: nowrap
+        ">
+          <h3 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Preparing for shipment
+          </h3>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            We will notify you once it ships.
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
+        background: linear-gradient(180deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        display: inline-block;
+        flex-basis: inherit;
+        flex-grow: inherit;
+        flex-shrink: inherit;
+        height: 51px;
+        margin-bottom: 12px;
+        margin-left: 10px;
+        margin-top: -4px;
+        min-width: inherit;
+        position: relative;
+        top: 10px;
+        width: 4px
+      "/>
+      <div style="
+        align-items: flex-start;
+        display: flex;
+        height: 24px;
+        width: auto
+      ">
+        <span style="
+          display: inline-block;
+          height: 24px;
+          margin-bottom: inherit;
+          margin-left: inherit;
+          margin-right: inherit;
+          margin-top: inherit;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-upcoming-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: center;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-end: var(--spacing-50);
+          margin-inline-start: var(--spacing-200);
+          text-align: left;
+          text-wrap-mode: nowrap
+        ">
+          <h3 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Delivered
+          </h3>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Guaranteed Wednesday, October 09.
+          </p>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ vertical @ 1280px rtl
+(same as 1280px)
+
+┌─ verticalRTL @ 320px
+(same as 1280px)
+
+┌─ verticalRTL @ 512px
+(same as 1280px)
+
+┌─ verticalRTL @ 1280px
+<div>
+  <div dir="rtl">
+    <div style="
+      overflow-x: auto;
+      overflow-y: auto;
+      padding: var(--spacing-200) 0
+    ">
+      <div style="align-items: flex-start">
+        <div style="
+          align-items: flex-start;
+          display: flex;
+          height: 24px;
+          width: auto
+        ">
+          <span style="
+            display: inline-block;
+            height: 24px;
+            margin-bottom: inherit;
+            margin-left: inherit;
+            margin-right: inherit;
+            margin-top: inherit;
+            width: 24px
+          ">
+            <svg
+              height="24"
+              role="img"
+              style="
+                display: inline-block;
+                fill: currentcolor;
+                pointer-events: none;
+                stroke-width: 0;
+                stroke: currentcolor;
+                vertical-align: middle
+              "
+              width="24"
+            >
+              <use href="#icon-stepper-confirmation-24"/>
+            </svg>
+          </span>
+          <span style="
+            align-self: center;
+            font-size: var(--font-size-body);
+            justify-self: center;
+            margin-inline-start: var(--spacing-200);
+            text-align: right;
+            text-wrap-mode: nowrap
+          ">
+            <h3 style="
+              color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+              font-size: var(--font-size-body);
+              font-weight: 400;
+              margin-bottom: 0px;
+              margin-top: 0px
+            ">
+              Order placed
+            </h3>
+            <p style="
+              color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+              margin-bottom: 0px;
+              margin-top: 0px
+            ">
+              New Mens Addidas Ultra Boost
+            </p>
+            <p style="
+              color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+              margin-bottom: 0px;
+              margin-top: 0px
+            ">
+              Order total $220
+            </p>
+          </span>
+        </div>
+        <hr style="
+          background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+          border-bottom-color: currentcolor;
+          border-bottom-left-radius: 2px;
+          border-bottom-right-radius: 2px;
+          border-bottom-style: none;
+          border-bottom-width: 0px;
+          border-left-color: currentcolor;
+          border-left-style: none;
+          border-left-width: 0px;
+          border-right-color: currentcolor;
+          border-right-style: none;
+          border-right-width: 0px;
+          border-top-color: currentcolor;
+          border-top-left-radius: 2px;
+          border-top-right-radius: 2px;
+          border-top-style: none;
+          border-top-width: 0px;
+          display: inline-block;
+          flex-basis: inherit;
+          flex-grow: inherit;
+          flex-shrink: inherit;
+          height: 51px;
+          margin-bottom: 12px;
+          margin-left: inherit;
+          margin-right: 11px;
+          margin-top: -4px;
+          min-width: inherit;
+          position: relative;
+          top: 10px;
+          width: 4px
+        "/>
+        <div style="
+          align-items: flex-start;
+          display: flex;
+          height: 24px;
+          width: auto
+        ">
+          <span style="
+            display: inline-block;
+            height: 24px;
+            margin-bottom: inherit;
+            margin-left: inherit;
+            margin-right: inherit;
+            margin-top: inherit;
+            width: 24px
+          ">
+            <svg
+              height="24"
+              role="img"
+              style="
+                display: inline-block;
+                fill: currentcolor;
+                pointer-events: none;
+                stroke-width: 0;
+                stroke: currentcolor;
+                vertical-align: middle
+              "
+              width="24"
+            >
+              <use href="#icon-stepper-confirmation-24"/>
+            </svg>
+          </span>
+          <span style="
+            align-self: center;
+            font-size: var(--font-size-body);
+            justify-self: center;
+            margin-inline-start: var(--spacing-200);
+            text-align: right;
+            text-wrap-mode: nowrap
+          ">
+            <h3 style="
+              color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+              font-size: var(--font-size-body);
+              margin-bottom: 0px;
+              margin-top: 0px
+            ">
+              Preparing for shipment
+            </h3>
+            <p style="
+              color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+              margin-bottom: 0px;
+              margin-top: 0px
+            ">
+              We will notify you once it ships.
+            </p>
+          </span>
+        </div>
+        <hr style="
+          background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+          background-image: linear-gradient(90deg, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%, var(--progress-stepper-active-color, var(--color-background-accent)) 50%);
+          background: linear-gradient(180deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
+          border-bottom-color: currentcolor;
+          border-bottom-left-radius: 2px;
+          border-bottom-right-radius: 2px;
+          border-bottom-style: none;
+          border-bottom-width: 0px;
+          border-left-color: currentcolor;
+          border-left-style: none;
+          border-left-width: 0px;
+          border-right-color: currentcolor;
+          border-right-style: none;
+          border-right-width: 0px;
+          border-top-color: currentcolor;
+          border-top-left-radius: 2px;
+          border-top-right-radius: 2px;
+          border-top-style: none;
+          border-top-width: 0px;
+          display: inline-block;
+          flex-basis: inherit;
+          flex-grow: inherit;
+          flex-shrink: inherit;
+          height: 51px;
+          margin-bottom: 12px;
+          margin-left: inherit;
+          margin-right: 11px;
+          margin-top: -4px;
+          min-width: inherit;
+          position: relative;
+          top: 10px;
+          width: 4px
+        "/>
+        <div style="
+          align-items: flex-start;
+          display: flex;
+          height: 24px;
+          width: auto
+        ">
+          <span style="
+            display: inline-block;
+            height: 24px;
+            margin-bottom: inherit;
+            margin-left: inherit;
+            margin-right: inherit;
+            margin-top: inherit;
+            width: 24px
+          ">
+            <svg
+              height="24"
+              role="img"
+              style="
+                display: inline-block;
+                fill: currentcolor;
+                pointer-events: none;
+                stroke-width: 0;
+                stroke: currentcolor;
+                vertical-align: middle
+              "
+              width="24"
+            >
+              <use href="#icon-stepper-upcoming-24"/>
+            </svg>
+          </span>
+          <span style="
+            align-self: center;
+            font-size: var(--font-size-body);
+            justify-self: center;
+            margin-inline-end: var(--spacing-50);
+            margin-inline-start: var(--spacing-200);
+            text-align: right;
+            text-wrap-mode: nowrap
+          ">
+            <h3 style="
+              color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+              font-size: var(--font-size-body);
+              font-weight: 400;
+              margin-bottom: 0px;
+              margin-top: 0px
+            ">
+              Delivered
+            </h3>
+            <p style="
+              color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+              margin-bottom: 0px;
+              margin-top: 0px
+            ">
+              Guaranteed Wednesday, October 09.
+            </p>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ verticalRTL @ 1280px rtl
+(same as 1280px)
+
+┌─ verticalSingleLine @ 320px
+(same as 1280px)
+
+┌─ verticalSingleLine @ 512px
+(same as 1280px)
+
+┌─ verticalSingleLine @ 1280px
+<div>
+  <div style="
+    overflow-x: auto;
+    overflow-y: auto;
+    padding: var(--spacing-200) 0
+  ">
+    <div style="align-items: flex-start">
+      <div style="
+        align-items: flex-start;
+        display: flex;
+        height: 24px;
+        width: auto
+      ">
+        <span style="
+          display: inline-block;
+          height: 24px;
+          margin-bottom: inherit;
+          margin-left: inherit;
+          margin-right: inherit;
+          margin-top: inherit;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: center;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-start: var(--spacing-200);
+          text-align: left;
+          text-wrap-mode: nowrap
+        ">
+          <h3 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Order placed
+          </h3>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-active-color, var(--color-background-accent));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        display: inline-block;
+        flex-basis: inherit;
+        flex-grow: inherit;
+        flex-shrink: inherit;
+        height: 51px;
+        margin-bottom: 12px;
+        margin-left: 10px;
+        margin-top: -4px;
+        min-width: inherit;
+        position: relative;
+        top: 10px;
+        width: 4px
+      "/>
+      <div style="
+        align-items: flex-start;
+        display: flex;
+        height: 24px;
+        width: auto
+      ">
+        <span style="
+          display: inline-block;
+          height: 24px;
+          margin-bottom: inherit;
+          margin-left: inherit;
+          margin-right: inherit;
+          margin-top: inherit;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: center;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-start: var(--spacing-200);
+          text-align: left;
+          text-wrap-mode: nowrap
+        ">
+          <h3 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Preparing for shipment
+          </h3>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
+        background: linear-gradient(180deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        display: inline-block;
+        flex-basis: inherit;
+        flex-grow: inherit;
+        flex-shrink: inherit;
+        height: 51px;
+        margin-bottom: 12px;
+        margin-left: 10px;
+        margin-top: -4px;
+        min-width: inherit;
+        position: relative;
+        top: 10px;
+        width: 4px
+      "/>
+      <div style="
+        align-items: flex-start;
+        display: flex;
+        height: 24px;
+        width: auto
+      ">
+        <span style="
+          display: inline-block;
+          height: 24px;
+          margin-bottom: inherit;
+          margin-left: inherit;
+          margin-right: inherit;
+          margin-top: inherit;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-upcoming-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: center;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-end: var(--spacing-50);
+          margin-inline-start: var(--spacing-200);
+          text-align: left;
+          text-wrap-mode: nowrap
+        ">
+          <h3 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Delivered
+          </h3>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ verticalSingleLine @ 1280px rtl
+(same as 1280px)
+
+┌─ verticalUpcoming @ 320px
+(same as 1280px)
+
+┌─ verticalUpcoming @ 512px
+(same as 1280px)
+
+┌─ verticalUpcoming @ 1280px
+<div>
+  <div style="
+    overflow-x: auto;
+    overflow-y: auto;
+    padding: var(--spacing-200) 0
+  ">
+    <div style="align-items: flex-start">
+      <div style="
+        align-items: flex-start;
+        display: flex;
+        height: 24px;
+        width: auto
+      ">
+        <span style="
+          display: inline-block;
+          height: 24px;
+          margin-bottom: inherit;
+          margin-left: inherit;
+          margin-right: inherit;
+          margin-top: inherit;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-confirmation-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: center;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-start: var(--spacing-200);
+          text-align: left;
+          text-wrap-mode: nowrap
+        ">
+          <h3 style="
+            color: var(--progress-stepper-text-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Order placed
+          </h3>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            New Mens Addidas Ultra Boost
+          </p>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Order total $220
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
+        background: linear-gradient(180deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        display: inline-block;
+        flex-basis: inherit;
+        flex-grow: inherit;
+        flex-shrink: inherit;
+        height: 51px;
+        margin-bottom: 12px;
+        margin-left: 10px;
+        margin-top: -4px;
+        min-width: inherit;
+        position: relative;
+        top: 10px;
+        width: 4px
+      "/>
+      <div style="
+        align-items: flex-start;
+        display: flex;
+        height: 24px;
+        width: auto
+      ">
+        <span style="
+          display: inline-block;
+          height: 24px;
+          margin-bottom: inherit;
+          margin-left: inherit;
+          margin-right: inherit;
+          margin-top: inherit;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-upcoming-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: center;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-start: var(--spacing-200);
+          text-align: left;
+          text-wrap-mode: nowrap
+        ">
+          <h3 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Preparing for shipment
+          </h3>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            We will notify you once it ships.
+          </p>
+        </span>
+      </div>
+      <hr style="
+        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
+        border-bottom-color: currentcolor;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: currentcolor;
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: currentcolor;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-top-style: none;
+        border-top-width: 0px;
+        display: inline-block;
+        flex-basis: inherit;
+        flex-grow: inherit;
+        flex-shrink: inherit;
+        height: 51px;
+        margin-bottom: 12px;
+        margin-left: 10px;
+        margin-top: -4px;
+        min-width: inherit;
+        position: relative;
+        top: 10px;
+        width: 4px
+      "/>
+      <div style="
+        align-items: flex-start;
+        display: flex;
+        height: 24px;
+        width: auto
+      ">
+        <span style="
+          display: inline-block;
+          height: 24px;
+          margin-bottom: inherit;
+          margin-left: inherit;
+          margin-right: inherit;
+          margin-top: inherit;
+          width: 24px
+        ">
+          <svg
+            height="24"
+            role="img"
+            style="
+              display: inline-block;
+              fill: currentcolor;
+              pointer-events: none;
+              stroke-width: 0;
+              stroke: currentcolor;
+              vertical-align: middle
+            "
+            width="24"
+          >
+            <use href="#icon-stepper-upcoming-24"/>
+          </svg>
+        </span>
+        <span style="
+          align-self: center;
+          font-size: var(--font-size-body);
+          justify-self: center;
+          margin-inline-end: var(--spacing-50);
+          margin-inline-start: var(--spacing-200);
+          text-align: left;
+          text-wrap-mode: nowrap
+        ">
+          <h3 style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            font-size: var(--font-size-body);
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Delivered
+          </h3>
+          <p style="
+            color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
+            margin-bottom: 0px;
+            margin-top: 0px
+          ">
+            Guaranteed Wednesday, October 09.
+          </p>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+┌─ verticalUpcoming @ 1280px rtl
+(same as 1280px)
+

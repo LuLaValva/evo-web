@@ -1,4 +1,9 @@
-export default { title: "Skin/File Preview Card Group" };
+export default {
+    title: "Skin/File Preview Card Group",
+    parameters: {
+        visual: { widths: [320, 512, 768, 1024, 1440, 1680, 1920] },
+    },
+};
 
 const squareImage = () => `
     <li class="file-preview-card">
@@ -90,18 +95,6 @@ export const base = () => `
 
 export const mixedTypesWithDetails = () => `
     <div class="file-preview-card-group">
-        <ul>
-            ${withDescription()}
-            ${squareImage()}
-            ${portraitImage()}
-            ${video()}
-            ${landscapeImage()}
-        </ul>
-    </div>
-`;
-
-export const RTL = () => `
-    <div class="file-preview-card-group" dir="rtl">
         <ul>
             ${withDescription()}
             ${squareImage()}

@@ -1,5 +1,75 @@
-/* Custom Classes for Storybook */
+/* Custom Classes for Storybook — demo-only styles used by stories.
+   Loaded by Storybook (preview.js), the visual snapshot harness
+   (test/visual/visual.spec.js), and the visual-preview viewer frames
+   (tools/visual-preview/build.mjs), so all three render stories the
+   same way. */
 .font-large {
     font-size: 200%;
     /* line-height: var(--typography-body-line-height); */
+}
+
+.carousel__list--default-demo li {
+    background-color: grey;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--image-treatment-demo li {
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: 200px;
+}
+
+.carousel__list--discrete-demo li {
+    background-color: grey;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: bold;
+    height: 120px;
+    line-height: 120px;
+    margin-right: 16px;
+    text-align: center;
+    width: calc(25% - 24px);
+}
+
+.carousel__list--discrete-demo li:last-child {
+    margin-right: 0;
+}
+
+.carousel__list--slideshow-demo li {
+    background-color: grey;
+    font-size: 36px;
+    font-weight: bold;
+    height: 300px;
+    line-height: 300px;
+    margin-inline-end: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+.carousel__list--slideshow-demo li:last-child {
+    margin-inline-end: 0;
+}
+
+.demo-a11y-text-spacing,
+.demo-a11y-text-spacing * {
+    line-height: 1.5 !important;
+    letter-spacing: 0.12em !important;
+    word-spacing: 0.16em !important;
+}
+.demo-a11y-text-spacing p {
+    margin-bottom: 2em !important;
+}
+
+.phone-input div.listbox-button__listbox {
+    display: block;
 }
