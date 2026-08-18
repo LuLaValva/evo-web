@@ -18,6 +18,7 @@ export default {
 
   argTypes: {
     direction: {
+      options: ["row (default)", "column"],
       control: "inline-radio",
     },
     step: {
@@ -37,6 +38,7 @@ export default {
       },
     },
     defaultState: {
+      options: ["active (default)", "complete", "upcoming", "attention"],
       control: "inline-radio",
     },
     headingAs: {

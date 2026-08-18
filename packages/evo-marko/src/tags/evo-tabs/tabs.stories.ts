@@ -23,6 +23,7 @@ export default {
       controllable: true,
     },
     activation: {
+      options: ["manual", "auto"],
       control: "inline-radio",
     },
     tab: {

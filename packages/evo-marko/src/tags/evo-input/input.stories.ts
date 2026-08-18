@@ -40,6 +40,7 @@ export default {
       description: "The value of the input",
     },
     inputSize: {
+      options: ["regular (default)", "large"],
       control: "inline-radio",
     },
     prefixText: {
@@ -60,15 +61,9 @@ export default {
     },
     postfixIcon: {
       "@": {
-        "aria-label": {
-          type: "string",
-          control: "text",
-          description:
-            "If present, the icon will be clickable and wrapped with a `<button>` tag",
-        },
         ["<button> attributes" as any]: {
           description:
-            "If `aria-label` is present, all attributes and event handlers from [the native HTML `<button>` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button) will be passed through",
+            "If `a11yText` is present, all attributes and event handlers from [the native HTML `<button>` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button) will be passed through",
         },
       },
     },

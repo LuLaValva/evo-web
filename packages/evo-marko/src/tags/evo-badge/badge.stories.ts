@@ -23,6 +23,7 @@ export default {
       control: "number",
     },
     type: {
+      options: ["menu", "icon"],
       control: "inline-radio",
     },
     a11yText: {

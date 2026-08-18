@@ -18,6 +18,7 @@ export default {
 
   argTypes: {
     chargerIcon: {
+      options: ["none (default)", "included", "not-included"],
       control: "inline-radio",
     },
     a11yText: {

@@ -30,6 +30,7 @@ export default {
       control: "text",
     },
     size: {
+      options: ["regular (default)", "large"],
       control: "inline-radio",
     },
     ["<div> attributes" as any]: {

@@ -24,9 +24,11 @@ export default {
 
   argTypes: {
     layout: {
+      options: ["vertical (default)", "horizontal"],
       control: "inline-radio",
     },
     aspectRatio: {
+      options: ["default", "16:9", "5:4"],
       control: "inline-radio",
     },
     image: {

@@ -32,6 +32,7 @@ export default {
       },
     },
     size: {
+      options: ["regular (default)", "large"],
       control: "inline-radio",
     },
     value: {

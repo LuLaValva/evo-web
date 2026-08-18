@@ -19,12 +19,15 @@ export default {
   },
   argTypes: {
     autocomplete: {
+      options: ["none", "list"],
       control: "inline-radio",
     },
     listSelection: {
+      options: ["automatic", "manual"],
       control: "inline-radio",
     },
     strategy: {
+      options: ["absolute", "fixed"],
       control: "select",
     },
     disabled: {

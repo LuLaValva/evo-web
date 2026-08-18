@@ -31,6 +31,7 @@ export default {
       control: "inline-radio",
     },
     size: {
+      options: ["regular (default)", "large"],
       control: "inline-radio",
     },
     checkedValues: {

@@ -50,15 +50,19 @@ export default {
       },
     },
     listSelection: {
+      options: ["manual (default)", "auto"],
       control: "inline-radio",
     },
     variant: {
+      options: ["standard (default)", "form"],
       control: "inline-radio",
     },
     strategy: {
+      options: ["absolute", "fixed"],
       control: "inline-radio",
     },
     split: {
+      options: ["none (default)", "start", "end"],
       control: "inline-radio",
     },
     ["<div> attributes" as any]: {

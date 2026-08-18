@@ -25,6 +25,7 @@ export default {
       controllable: true,
     },
     variant: {
+      options: ["default", "expressive", "menu"],
       control: "inline-radio",
     },
     image: {

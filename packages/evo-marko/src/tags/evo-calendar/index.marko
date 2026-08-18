@@ -52,7 +52,6 @@ export interface BaseInput {
   a11yNavigateText?: (monthName: string, dir: "next" | "prev") => string;
   /**
    * Clipped text to communicate range cells to screen readers, required if there is or will be a selected range
-   * @default { start: "start of range", end: "end of range", in: "in range" }
    */
   a11yRangeText?: {
     /**
@@ -70,7 +69,7 @@ export interface BaseInput {
   };
 }
 export interface StaticInput extends BaseInput {
-  /** When set, day cells render as `<button>` elements for date selection. `"day"` selects a single date; `"range"` selects a start/end range. Omit for a non-interactive calendar. */
+  /** Omitted: the calendar is non-interactive — day cells render as text, or as links via `getDayHref`. Set to `"day"` or `"range"` for date selection. */
   selectMode?: undefined;
   /** The selected date(s). Accepts a single `DayISO` string or a `{ from: DayISO; to: DayISO }` range object. */
   selected?: DayISO | { from?: DayISO; to?: DayISO };
@@ -97,12 +96,16 @@ export interface StaticInput extends BaseInput {
   a11ySelectedText?: string;
 }
 export interface DayInput extends BaseInput {
+  /** Day cells render as `<button>` elements; selects a single date. */
   selectMode: "day";
+  /** The selected date (`YYYY-MM-DD`). */
   selected?: DayISO;
   selectedChange?: (s: DayISO) => void;
 }
 export interface RangeInput extends BaseInput {
+  /** Day cells render as `<button>` elements; selects a start/end range. */
   selectMode: "range";
+  /** The selected range as `{ from?: DayISO; to?: DayISO }`. */
   selected?: { from?: DayISO; to?: DayISO };
   selectedChange?: (s: { from?: DayISO; to?: DayISO }) => void;
 }

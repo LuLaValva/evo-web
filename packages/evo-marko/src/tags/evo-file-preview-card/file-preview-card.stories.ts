@@ -25,6 +25,7 @@ export default {
       control: { type: "file" },
     },
     status: {
+      options: ["undefined (default)", "uploading"],
       control: "inline-radio",
     },
     deleteAction: {

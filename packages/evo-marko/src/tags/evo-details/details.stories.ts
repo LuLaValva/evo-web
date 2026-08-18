@@ -37,9 +37,11 @@ export default {
       },
     },
     alignment: {
+      options: ["regular (default)", "center"],
       control: "inline-radio",
     },
     size: {
+      options: ["regular (default)", "small"],
       control: "inline-radio",
     },
     open: {

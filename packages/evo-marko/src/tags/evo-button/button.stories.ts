@@ -19,18 +19,23 @@ export default {
   },
   argTypes: {
     size: {
+      options: ["regular (default)", "large", "small"],
       control: "inline-radio",
     },
     priority: {
+      options: ["primary", "secondary", "tertiary", "none"],
       control: "inline-radio",
     },
     bodyState: {
+      options: ["none", "loading", "reset", "expand"],
       control: "inline-radio",
     },
     variant: {
+      options: ["standard (default)", "destructive", "form"],
       control: "inline-radio",
     },
     split: {
+      options: ["none (default)", "start", "end"],
       control: "inline-radio",
     },
     ["<button> attributes" as any]: {

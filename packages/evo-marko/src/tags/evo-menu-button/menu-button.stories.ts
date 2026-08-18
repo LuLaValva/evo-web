@@ -35,15 +35,19 @@ export default {
       controllable: true,
     },
     variant: {
+      options: ["button (default)", "form", "icon", "filter"],
       control: "select",
     },
     priority: {
+      options: ["none (default)", "primary", "secondary", "delete", "tertiary"],
       control: "select",
     },
     size: {
+      options: ["regular (default)", "large", "small"],
       control: "inline-radio",
     },
     split: {
+      options: ["none (default)", "start", "end"],
       control: "inline-radio",
     },
     label: {
@@ -63,6 +67,7 @@ export default {
       },
     },
     strategy: {
+      options: ["absolute", "fixed"],
       control: "inline-radio",
     },
     ["<evo-menu> attributes" as any]: {

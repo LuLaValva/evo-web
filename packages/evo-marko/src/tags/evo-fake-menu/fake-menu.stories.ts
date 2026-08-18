@@ -27,6 +27,7 @@ export default {
           description: "URL for the link item. Omit for button items.",
         },
         type: {
+          options: ["button", "submit"],
           control: { type: "select" },
         },
         ["<a> attributes" as any]: {

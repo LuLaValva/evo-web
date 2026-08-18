@@ -19,6 +19,7 @@ export default {
   },
   argTypes: {
     size: {
+      options: ["regular (default)", "large"],
       control: "inline-radio",
     },
     item: {
