@@ -13,18 +13,6 @@ body.vhd-on [data-vhd=added]{outline:2px dashed #16a34a;outline-offset:2px}
 body.vhd-on [data-vhd=removed]{outline:2px dashed #dc2626;outline-offset:2px}
 .vhd-flash{outline:3px solid #f59e0b !important;outline-offset:2px}`;
 
-// visual-html self-closes childless non-void elements, which HTML parsers
-// reject — expand them so the frame markup nests the way the snapshot means.
-const VOID_TAGS =
-  /^(?:area|base|br|col|embed|hr|img|input|link|meta|source|track|wbr|use|path|circle|rect|line|polyline|polygon|ellipse|stop)$/;
-function expandSelfClosed(markup) {
-  return markup.replace(
-    /<([a-z][a-z0-9-]*)((?:[^<>"]|"[^"]*")*)\/>/gi,
-    (m, tag, attrs) =>
-      VOID_TAGS.test(tag.toLowerCase()) ? m : `<${tag}${attrs}></${tag}>`,
-  );
-}
-
 /**
  * Stories reference Storybook's static files from the site root (/img/…),
  * which is not where the viewer is served from — locally or under the PR
@@ -85,7 +73,7 @@ export function frameDoc(annotatedHtml, { rtl, side }) {
         </head>
         <body>
           <script src="../assets/sprite-${side}.js"></script>
-          ${raw(resolveStaticUrls(expandSelfClosed(annotatedHtml)))}
+          ${raw(resolveStaticUrls(annotatedHtml))}
         </body>
       </html>`,
   );

@@ -27,6 +27,7 @@ import { json, toString } from "./lib/html.mjs";
 import { indexPage, storyPage } from "./lib/render.mjs";
 import {
   buildManifest,
+  expandSelfClosed,
   readAtRef,
   readWorkingTree,
   repoRoot,
@@ -178,7 +179,7 @@ const { JSDOM } = createRequire(path.join(repoRoot, "package.json"))("jsdom");
 const jsdomWindow = new JSDOM("").window;
 const annotate = createAnnotator((markup) => {
   const body = jsdomWindow.document.createElement("body");
-  body.innerHTML = markup;
+  body.innerHTML = expandSelfClosed(markup);
   return body;
 });
 

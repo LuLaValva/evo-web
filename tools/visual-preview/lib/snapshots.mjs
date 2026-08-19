@@ -218,3 +218,19 @@ export function buildManifest(baseRef) {
   }
   return { entries, sectionCount, unchangedSections };
 }
+
+/**
+ * visual-html self-closes childless non-void elements, which HTML parsers do
+ * not accept: they read `<span …/>` as an opening tag and nest everything that
+ * follows inside it. Snapshot markup has to be expanded before it is parsed or
+ * rendered, or a story ends up wearing its pointer's rotation.
+ */
+const VOID_TAGS =
+  /^(?:area|base|br|col|embed|hr|img|input|link|meta|source|track|wbr|use|path|circle|rect|line|polyline|polygon|ellipse|stop)$/;
+export function expandSelfClosed(markup) {
+  return markup.replace(
+    /<([a-z][a-z0-9-]*)((?:[^<>"]|"[^"]*")*)\/>/gi,
+    (m, tag, attrs) =>
+      VOID_TAGS.test(tag.toLowerCase()) ? m : `<${tag}${attrs}></${tag}>`,
+  );
+}

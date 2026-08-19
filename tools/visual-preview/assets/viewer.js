@@ -304,20 +304,28 @@ function syncFrameScroll(a, b) {
 }
 
 // ---------- measuring / scaling ----------
+// Dialogs, tooltips and infotips are taken out of flow, so scrollHeight sees
+// none of them and a frame sized by it clips whatever the story is actually
+// about. The furthest any element reaches is what has to fit.
+function contentHeight(doc) {
+  let bottom = doc.documentElement.scrollHeight;
+  for (const el of doc.body.querySelectorAll("*")) {
+    const box = el.getBoundingClientRect();
+    if (box.width || box.height) {
+      bottom = Math.max(bottom, box.bottom + doc.defaultView.scrollY);
+    }
+  }
+  // Match the margin the frame body carries, so nothing sits flush.
+  return Math.ceil(bottom) + 16;
+}
+
 function measureDuo(duo) {
   if (!duo.isConnected) return;
   let h = 120;
   for (const f of frames(duo)) {
     const d = f.contentDocument;
     if (!d) continue;
-    let fh = d.documentElement.scrollHeight;
-    // Top-layer content (open dialogs and their backdrops) doesn't
-    // contribute to scrollHeight; the frame must still be tall enough to
-    // contain a centered dialog with breathing room.
-    for (const dlg of d.querySelectorAll("dialog[open]")) {
-      fh = Math.max(fh, Math.min(dlg.scrollHeight, 760) + 96);
-    }
-    h = Math.max(h, Math.min(fh, 900));
+    h = Math.max(h, Math.min(contentHeight(d), 900));
   }
   duo._natH = h;
   for (const f of frames(duo)) f.style.height = h + "px";
