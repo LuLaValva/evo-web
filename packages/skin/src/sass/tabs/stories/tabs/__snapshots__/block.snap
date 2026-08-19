@@ -5,6 +5,7 @@
       display: flex;
       flex-wrap: wrap;
       font-size: var(--font-size-body);
+      gap: var(--spacing-50);
       margin-inline-start: calc(0px - var(--spacing-200))
     ">
       <div style="
@@ -25,6 +26,7 @@
             content: "";
             display: block;
             height: 2px;
+            inset: auto var(--spacing-200) 0;
             position: absolute
           }
         }}</style>
@@ -42,6 +44,7 @@
       ">
         <style>@scope{:scope{
           &::after {
+            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;
@@ -49,6 +52,7 @@
             content: "";
             display: block;
             height: 2px;
+            inset: auto var(--spacing-200) 0;
             position: absolute
           }
         }}</style>
@@ -66,6 +70,7 @@
       ">
         <style>@scope{:scope{
           &::after {
+            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;
@@ -73,6 +78,7 @@
             content: "";
             display: block;
             height: 2px;
+            inset: auto var(--spacing-200) 0;
             position: absolute
           }
         }}</style>
@@ -100,6 +106,7 @@
       display: flex;
       flex-wrap: wrap;
       font-size: var(--font-size-body);
+      gap: var(--spacing-50);
       margin-inline-start: calc(0px - var(--spacing-200))
     ">
       <div style="
@@ -120,6 +127,7 @@
             content: "";
             display: block;
             height: 2px;
+            inset: auto var(--spacing-200) 0;
             position: absolute
           }
         }}</style>
@@ -137,6 +145,7 @@
       ">
         <style>@scope{:scope{
           &::after {
+            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;
@@ -144,6 +153,7 @@
             content: "";
             display: block;
             height: 2px;
+            inset: auto var(--spacing-200) 0;
             position: absolute
           }
         }}</style>
@@ -161,6 +171,7 @@
       ">
         <style>@scope{:scope{
           &::after {
+            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;
@@ -168,6 +179,7 @@
             content: "";
             display: block;
             height: 2px;
+            inset: auto var(--spacing-200) 0;
             position: absolute
           }
         }}</style>
@@ -185,6 +197,7 @@
       ">
         <style>@scope{:scope{
           &::after {
+            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;
@@ -192,6 +205,7 @@
             content: "";
             display: block;
             height: 2px;
+            inset: auto var(--spacing-200) 0;
             position: absolute
           }
         }}</style>
@@ -220,6 +234,7 @@
       flex-wrap: wrap;
       font-size: var(--font-size-medium);
       font-weight: var(--font-weight-600);
+      gap: var(--spacing-50);
       margin-inline-start: calc(0px - var(--spacing-200))
     ">
       <div style="
@@ -240,6 +255,7 @@
             content: "";
             display: block;
             height: 2px;
+            inset: auto var(--spacing-200) 0;
             position: absolute
           }
         }}</style>
@@ -257,6 +273,7 @@
       ">
         <style>@scope{:scope{
           &::after {
+            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;
@@ -264,6 +281,7 @@
             content: "";
             display: block;
             height: 2px;
+            inset: auto var(--spacing-200) 0;
             position: absolute
           }
         }}</style>
@@ -281,6 +299,7 @@
       ">
         <style>@scope{:scope{
           &::after {
+            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;
@@ -288,6 +307,7 @@
             content: "";
             display: block;
             height: 2px;
+            inset: auto var(--spacing-200) 0;
             position: absolute
           }
         }}</style>
@@ -305,6 +325,7 @@
       ">
         <style>@scope{:scope{
           &::after {
+            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;
@@ -312,6 +333,7 @@
             content: "";
             display: block;
             height: 2px;
+            inset: auto var(--spacing-200) 0;
             position: absolute
           }
         }}</style>
@@ -339,6 +361,7 @@
       display: flex;
       flex-wrap: wrap;
       font-size: var(--font-size-body);
+      gap: var(--spacing-50);
       margin-inline-start: calc(0px - var(--spacing-200))
     ">
       <div style="
@@ -359,6 +382,7 @@
             content: "";
             display: block;
             height: 2px;
+            inset: auto var(--spacing-200) 0;
             position: absolute
           }
         }}</style>
@@ -376,6 +400,7 @@
       ">
         <style>@scope{:scope{
           &::after {
+            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;
@@ -383,6 +408,7 @@
             content: "";
             display: block;
             height: 2px;
+            inset: auto var(--spacing-200) 0;
             position: absolute
           }
         }}</style>
@@ -400,6 +426,7 @@
       ">
         <style>@scope{:scope{
           &::after {
+            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;
@@ -407,6 +434,7 @@
             content: "";
             display: block;
             height: 2px;
+            inset: auto var(--spacing-200) 0;
             position: absolute
           }
         }}</style>
@@ -441,6 +469,7 @@
       display: flex;
       flex-wrap: wrap;
       font-size: var(--font-size-body);
+      gap: var(--spacing-50);
       letter-spacing: 0.12em;
       line-height: 1.5;
       margin-inline-start: calc(0px - var(--spacing-200));
@@ -467,6 +496,7 @@
             content: "";
             display: block;
             height: 2px;
+            inset: auto var(--spacing-200) 0;
             position: absolute
           }
         }}</style>
@@ -491,6 +521,7 @@
       ">
         <style>@scope{:scope{
           &::after {
+            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;
@@ -498,6 +529,7 @@
             content: "";
             display: block;
             height: 2px;
+            inset: auto var(--spacing-200) 0;
             position: absolute
           }
         }}</style>
@@ -522,6 +554,7 @@
       ">
         <style>@scope{:scope{
           &::after {
+            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;
@@ -529,6 +562,7 @@
             content: "";
             display: block;
             height: 2px;
+            inset: auto var(--spacing-200) 0;
             position: absolute
           }
         }}</style>
@@ -553,6 +587,7 @@
       ">
         <style>@scope{:scope{
           &::after {
+            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;
@@ -560,6 +595,7 @@
             content: "";
             display: block;
             height: 2px;
+            inset: auto var(--spacing-200) 0;
             position: absolute
           }
         }}</style>
@@ -609,6 +645,7 @@
       display: flex;
       flex-wrap: wrap;
       font-size: var(--font-size-body);
+      gap: var(--spacing-50);
       margin-inline-start: calc(0px - var(--spacing-200))
     ">
       <div style="
@@ -629,6 +666,7 @@
             content: "";
             display: block;
             height: 2px;
+            inset: auto var(--spacing-200) 0;
             position: absolute
           }
         }}</style>
@@ -646,6 +684,7 @@
       ">
         <style>@scope{:scope{
           &::after {
+            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;
@@ -653,6 +692,7 @@
             content: "";
             display: block;
             height: 2px;
+            inset: auto var(--spacing-200) 0;
             position: absolute
           }
         }}</style>
@@ -670,6 +710,7 @@
       ">
         <style>@scope{:scope{
           &::after {
+            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;
@@ -677,6 +718,7 @@
             content: "";
             display: block;
             height: 2px;
+            inset: auto var(--spacing-200) 0;
             position: absolute
           }
         }}</style>
@@ -704,6 +746,7 @@
       display: flex;
       flex-wrap: wrap;
       font-size: var(--font-size-body);
+      gap: var(--spacing-50);
       margin-inline-start: calc(0px - var(--spacing-200))
     ">
       <div style="
@@ -724,6 +767,7 @@
             content: "";
             display: block;
             height: 2px;
+            inset: auto var(--spacing-200) 0;
             position: absolute
           }
         }}</style>
@@ -741,6 +785,7 @@
       ">
         <style>@scope{:scope{
           &::after {
+            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;
@@ -748,6 +793,7 @@
             content: "";
             display: block;
             height: 2px;
+            inset: auto var(--spacing-200) 0;
             position: absolute
           }
         }}</style>

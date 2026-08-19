@@ -5,9 +5,15 @@
     border-bottom-color: currentcolor;
     border-bottom-style: none;
     border-bottom-width: medium;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-image-slice: initial;
+    border-image-source: initial;
+    border-image-width: initial;
     border-left-color: currentcolor;
     border-left-style: none;
     border-left-width: medium;
+    border-radius: var(--border-radius-150);
     border-right-color: currentcolor;
     border-right-style: none;
     border-right-width: medium;
@@ -36,6 +42,7 @@
   ">
     <div style="
       aspect-ratio: 1 / 1;
+      border-radius: var(--border-radius-100);
       margin: var(--spacing-150);
       max-width: 160px;
       min-width: 90px;
@@ -47,6 +54,7 @@
         src="/img/cards-card.jpeg"
         style="
           aspect-ratio: 1 / 1;
+          border-radius: var(--border-radius-100);
           display: block;
           height: auto;
           object-fit: cover;
@@ -87,8 +95,14 @@
     background-color: var(--color-background-secondary);
     border-bottom-color: currentcolor;
     border-bottom-width: medium;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-image-slice: initial;
+    border-image-source: initial;
+    border-image-width: initial;
     border-left-color: currentcolor;
     border-left-width: medium;
+    border-radius: var(--border-radius-150);
     border-right-color: currentcolor;
     border-right-width: medium;
     border-top-color: currentcolor;
@@ -107,6 +121,7 @@
   ">
     <div style="
       aspect-ratio: 1 / 1;
+      border-radius: var(--border-radius-100);
       margin: var(--spacing-150);
       max-width: 160px;
       min-width: 90px;
@@ -118,6 +133,7 @@
         src="/img/cards-card.jpeg"
         style="
           aspect-ratio: 1 / 1;
+          border-radius: var(--border-radius-100);
           display: block;
           height: auto;
           object-fit: cover;
@@ -159,9 +175,15 @@
     border-bottom-color: currentcolor;
     border-bottom-style: none;
     border-bottom-width: medium;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-image-slice: initial;
+    border-image-source: initial;
+    border-image-width: initial;
     border-left-color: currentcolor;
     border-left-style: none;
     border-left-width: medium;
+    border-radius: var(--border-radius-150);
     border-right-color: currentcolor;
     border-right-style: none;
     border-right-width: medium;
@@ -190,6 +212,7 @@
   ">
     <div style="
       aspect-ratio: 1 / 1;
+      border-radius: var(--border-radius-100);
       margin-block-end: var(--spacing-200);
       margin: var(--spacing-150);
       overflow-x: hidden;
@@ -198,6 +221,7 @@
       <img
         src="/img/cards-card.jpeg"
         style="
+          border-radius: var(--border-radius-100);
           display: block;
           height: 100%;
           object-fit: cover;
@@ -237,8 +261,14 @@
     background-color: var(--color-background-secondary);
     border-bottom-color: currentcolor;
     border-bottom-width: medium;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-image-slice: initial;
+    border-image-source: initial;
+    border-image-width: initial;
     border-left-color: currentcolor;
     border-left-width: medium;
+    border-radius: var(--border-radius-150);
     border-right-color: currentcolor;
     border-right-width: medium;
     border-top-color: currentcolor;
@@ -257,6 +287,7 @@
   ">
     <div style="
       aspect-ratio: 1 / 1;
+      border-radius: var(--border-radius-100);
       margin-block-end: var(--spacing-200);
       margin: var(--spacing-150);
       overflow-x: hidden;
@@ -265,6 +296,7 @@
       <img
         src="/img/cards-card.jpeg"
         style="
+          border-radius: var(--border-radius-100);
           display: block;
           height: 100%;
           object-fit: cover;

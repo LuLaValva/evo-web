@@ -9,8 +9,10 @@
       cursor: default
     ">
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;
@@ -70,8 +72,10 @@
         </span>
       </div>
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;
@@ -131,8 +135,10 @@
         </span>
       </div>
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;
@@ -205,8 +211,10 @@
       cursor: default
     ">
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;
@@ -266,8 +274,10 @@
         </span>
       </div>
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;
@@ -327,8 +337,10 @@
         </span>
       </div>
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;
@@ -401,8 +413,10 @@
       cursor: default
     ">
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;
@@ -462,8 +476,10 @@
         </span>
       </div>
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;
@@ -523,8 +539,10 @@
         </span>
       </div>
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;
@@ -597,8 +615,10 @@
       cursor: default
     ">
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;
@@ -658,8 +678,10 @@
         </span>
       </div>
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;
@@ -719,8 +741,10 @@
         </span>
       </div>
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;
@@ -793,8 +817,10 @@
       cursor: default
     ">
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;
@@ -854,8 +880,10 @@
         </span>
       </div>
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;
@@ -915,8 +943,10 @@
         </span>
       </div>
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;
@@ -979,6 +1009,12 @@
       align-items: center;
       background-color: var(--color-background-elevated);
       border-bottom-width: medium;
+      border-color: var(--color-border-subtle);
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      border-image-slice: initial;
+      border-image-source: initial;
+      border-image-width: initial;
       border-left-width: medium;
       border-right-width: medium;
       border-top-style: solid;
@@ -990,20 +1026,21 @@
       <button style="
         align-content: center;
         align-items: center;
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: solid;
         border-bottom-width: 1px;
-        border-bottom: 1px solid;
+        border-color: var(--btn-tertiary-border-color, var(--color-border-medium));
         border-left-color: currentcolor;
         border-left-style: solid;
         border-left-width: 1px;
+        border-radius: var(--btn-border-radius, 20px);
         border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
         border-top-color: currentcolor;
         border-top-style: solid;
         border-top-width: 1px;
-        border-top: 1px solid;
         color: inherit;
         font-family: inherit;
         font-size: var(--font-size-body);

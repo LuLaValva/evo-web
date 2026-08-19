@@ -23,6 +23,7 @@
               border-bottom-right-radius: 2px;
               border-bottom-style: solid;
               border-bottom-width: 1px;
+              border-color: var(--color-data-viz-chart-primary);
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
@@ -66,6 +67,7 @@
               border-bottom-right-radius: 2px;
               border-bottom-style: solid;
               border-bottom-width: 1px;
+              border-color: var(--color-data-viz-chart-secondary);
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
@@ -169,6 +171,7 @@
               border-bottom-right-radius: 2px;
               border-bottom-style: solid;
               border-bottom-width: 1px;
+              border-color: var(--color-data-viz-chart-primary);
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
@@ -212,6 +215,7 @@
               border-bottom-right-radius: 2px;
               border-bottom-style: solid;
               border-bottom-width: 1px;
+              border-color: var(--color-data-viz-chart-secondary);
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
@@ -343,6 +347,7 @@
               border-bottom-right-radius: 2px;
               border-bottom-style: solid;
               border-bottom-width: 1px;
+              border-color: var(--color-data-viz-chart-quinary-stroke);
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
@@ -402,6 +407,7 @@
               border-bottom-right-radius: 2px;
               border-bottom-style: solid;
               border-bottom-width: 1px;
+              border-color: var(--color-data-viz-chart-primary);
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
@@ -445,6 +451,7 @@
               border-bottom-right-radius: 2px;
               border-bottom-style: solid;
               border-bottom-width: 1px;
+              border-color: var(--color-data-viz-chart-secondary);
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;

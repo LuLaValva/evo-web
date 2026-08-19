@@ -10,8 +10,10 @@
       cursor: default
     ">
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--color-background-primary);
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;
@@ -75,8 +77,10 @@
         </svg>
       </div>
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--color-background-primary);
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;
@@ -141,8 +145,10 @@
         </svg>
       </div>
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--color-background-primary);
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;
@@ -221,8 +227,10 @@
       font-size: 200%
     ">
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--color-background-primary);
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;
@@ -286,8 +294,10 @@
         </svg>
       </div>
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--color-background-primary);
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;
@@ -352,8 +362,10 @@
         </svg>
       </div>
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--color-background-primary);
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;

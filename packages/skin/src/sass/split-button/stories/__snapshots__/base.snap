@@ -9,10 +9,11 @@
       border-bottom-left-radius: 24px;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
+      border-color: var(--color-border-accent);
       border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 20px);
       border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
@@ -20,7 +21,6 @@
       border-top-left-radius: 24px;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       box-sizing: border-box;
       color: var(--color-foreground-on-accent);
       display: inline-block;
@@ -63,10 +63,11 @@
         border-bottom-right-radius: 24px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
-        border-bottom: 1px solid;
+        border-color: var(--color-border-accent);
         border-left-color: var(--btn-primary-border-split-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
+        border-radius: var(--btn-border-radius, 20px);
         border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
@@ -74,7 +75,6 @@
         border-top-right-radius: 24px;
         border-top-style: solid;
         border-top-width: 1px;
-        border-top: 1px solid;
         color: var(--color-foreground-on-accent);
         font-family: inherit;
         font-size: var(--font-size-body);
@@ -139,10 +139,11 @@
       border-bottom-left-radius: 24px;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
+      border-color: var(--color-border-accent);
       border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 20px);
       border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
@@ -150,7 +151,6 @@
       border-top-left-radius: 24px;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       box-sizing: border-box;
       color: var(--color-foreground-on-accent);
       display: inline-block;
@@ -193,10 +193,11 @@
         border-bottom-right-radius: 24px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
-        border-bottom: 1px solid;
+        border-color: var(--color-border-accent);
         border-left-color: var(--btn-primary-border-split-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
+        border-radius: var(--btn-border-radius, 20px);
         border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
@@ -204,7 +205,6 @@
         border-top-right-radius: 24px;
         border-top-style: solid;
         border-top-width: 1px;
-        border-top: 1px solid;
         color: var(--color-foreground-on-accent);
         font-family: inherit;
         font-size: var(--font-size-body);
@@ -257,6 +257,7 @@
       </button>
       <div style="
         background-color: var(--color-background-elevated);
+        border-radius: var(--border-radius-50);
         box-shadow: var(--bubble-shadow);
         box-sizing: border-box;
         left: unset;
@@ -272,8 +273,10 @@
       ">
         <div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -320,8 +323,10 @@
             </span>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -366,10 +371,12 @@
             </span>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
             border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -429,10 +436,11 @@
       border-bottom-left-radius: 24px;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
+      border-color: var(--color-border-accent);
       border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 20px);
       border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
@@ -440,7 +448,6 @@
       border-top-left-radius: 24px;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       box-sizing: border-box;
       color: var(--color-foreground-accent);
       display: inline-block;
@@ -481,10 +488,11 @@
         border-bottom-right-radius: 24px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
-        border-bottom: 1px solid;
+        border-color: var(--color-border-accent);
         border-left-color: currentcolor;
         border-left-style: solid;
         border-left-width: 1px;
+        border-radius: var(--btn-border-radius, 20px);
         border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
@@ -492,7 +500,6 @@
         border-top-right-radius: 24px;
         border-top-style: solid;
         border-top-width: 1px;
-        border-top: 1px solid;
         color: var(--color-foreground-accent);
         font-family: inherit;
         font-size: var(--font-size-body);
@@ -556,10 +563,11 @@
       border-bottom-left-radius: 24px;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
+      border-color: var(--color-border-accent);
       border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 20px);
       border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
@@ -567,7 +575,6 @@
       border-top-left-radius: 24px;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       box-sizing: border-box;
       color: var(--color-foreground-accent);
       display: inline-block;
@@ -608,10 +615,11 @@
         border-bottom-right-radius: 24px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
-        border-bottom: 1px solid;
+        border-color: var(--color-border-accent);
         border-left-color: currentcolor;
         border-left-style: solid;
         border-left-width: 1px;
+        border-radius: var(--btn-border-radius, 20px);
         border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
@@ -619,7 +627,6 @@
         border-top-right-radius: 24px;
         border-top-style: solid;
         border-top-width: 1px;
-        border-top: 1px solid;
         color: var(--color-foreground-accent);
         font-family: inherit;
         font-size: var(--font-size-body);
@@ -671,6 +678,7 @@
       </button>
       <div style="
         background-color: var(--color-background-elevated);
+        border-radius: var(--border-radius-50);
         box-shadow: var(--bubble-shadow);
         box-sizing: border-box;
         left: unset;
@@ -686,8 +694,10 @@
       ">
         <div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -734,8 +744,10 @@
             </span>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -780,10 +792,12 @@
             </span>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
             border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -838,14 +852,16 @@
     <a style="
       align-content: center;
       align-items: center;
+      background-color: initial;
       border-bottom-color: currentcolor;
       border-bottom-left-radius: 24px;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
+      border-color: var(--btn-tertiary-border-color, var(--color-border-medium));
       border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 20px);
       border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
@@ -853,7 +869,6 @@
       border-top-left-radius: 24px;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       box-sizing: border-box;
       color: inherit;
       display: inline-block;
@@ -889,14 +904,16 @@
       <button style="
         align-content: center;
         align-items: center;
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-right-radius: 24px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
-        border-bottom: 1px solid;
+        border-color: var(--btn-tertiary-border-color, var(--color-border-medium));
         border-left-color: currentcolor;
         border-left-style: solid;
         border-left-width: 1px;
+        border-radius: var(--btn-border-radius, 20px);
         border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
@@ -904,7 +921,6 @@
         border-top-right-radius: 24px;
         border-top-style: solid;
         border-top-width: 1px;
-        border-top: 1px solid;
         color: inherit;
         font-family: inherit;
         font-size: var(--font-size-body);
@@ -963,14 +979,16 @@
     <a style="
       align-content: center;
       align-items: center;
+      background-color: initial;
       border-bottom-color: currentcolor;
       border-bottom-left-radius: 24px;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
+      border-color: var(--btn-tertiary-border-color, var(--color-border-medium));
       border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 20px);
       border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
@@ -978,7 +996,6 @@
       border-top-left-radius: 24px;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       box-sizing: border-box;
       color: inherit;
       display: inline-block;
@@ -1014,14 +1031,16 @@
       <button style="
         align-content: center;
         align-items: center;
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-right-radius: 24px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
-        border-bottom: 1px solid;
+        border-color: var(--btn-tertiary-border-color, var(--color-border-medium));
         border-left-color: currentcolor;
         border-left-style: solid;
         border-left-width: 1px;
+        border-radius: var(--btn-border-radius, 20px);
         border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
@@ -1029,7 +1048,6 @@
         border-top-right-radius: 24px;
         border-top-style: solid;
         border-top-width: 1px;
-        border-top: 1px solid;
         color: inherit;
         font-family: inherit;
         font-size: var(--font-size-body);
@@ -1081,6 +1099,7 @@
       </button>
       <div style="
         background-color: var(--color-background-elevated);
+        border-radius: var(--border-radius-50);
         box-shadow: var(--bubble-shadow);
         box-sizing: border-box;
         left: unset;
@@ -1096,8 +1115,10 @@
       ">
         <div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -1144,8 +1165,10 @@
             </span>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -1190,10 +1213,12 @@
             </span>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
             border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -1253,10 +1278,11 @@
       border-bottom-left-radius: 24px;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
+      border-color: var(--color-border-accent);
       border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 20px);
       border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
@@ -1264,7 +1290,6 @@
       border-top-left-radius: 24px;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       color: var(--color-foreground-on-accent);
       font-family: inherit;
       font-size: var(--font-size-body);
@@ -1313,10 +1338,11 @@
         border-bottom-right-radius: 24px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
-        border-bottom: 1px solid;
+        border-color: var(--color-border-accent);
         border-left-color: var(--btn-primary-border-split-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
+        border-radius: var(--btn-border-radius, 20px);
         border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
@@ -1324,7 +1350,6 @@
         border-top-right-radius: 24px;
         border-top-style: solid;
         border-top-width: 1px;
-        border-top: 1px solid;
         color: var(--color-foreground-on-accent);
         font-family: inherit;
         font-size: var(--font-size-body);
@@ -1389,10 +1414,11 @@
       border-bottom-left-radius: 24px;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
+      border-color: var(--color-border-accent);
       border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 20px);
       border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
@@ -1400,7 +1426,6 @@
       border-top-left-radius: 24px;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       color: var(--color-foreground-on-accent);
       font-family: inherit;
       font-size: var(--font-size-body);
@@ -1449,10 +1474,11 @@
         border-bottom-right-radius: 24px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
-        border-bottom: 1px solid;
+        border-color: var(--color-border-accent);
         border-left-color: var(--btn-primary-border-split-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
+        border-radius: var(--btn-border-radius, 20px);
         border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
@@ -1460,7 +1486,6 @@
         border-top-right-radius: 24px;
         border-top-style: solid;
         border-top-width: 1px;
-        border-top: 1px solid;
         color: var(--color-foreground-on-accent);
         font-family: inherit;
         font-size: var(--font-size-body);
@@ -1513,6 +1538,7 @@
       </button>
       <div style="
         background-color: var(--color-background-elevated);
+        border-radius: var(--border-radius-50);
         box-shadow: var(--bubble-shadow);
         box-sizing: border-box;
         left: unset;
@@ -1528,8 +1554,10 @@
       ">
         <div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -1576,8 +1604,10 @@
             </span>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -1622,10 +1652,12 @@
             </span>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
             border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -1685,10 +1717,11 @@
       border-bottom-left-radius: 24px;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
+      border-color: var(--color-border-accent);
       border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 20px);
       border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
@@ -1696,7 +1729,6 @@
       border-top-left-radius: 24px;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       color: var(--color-foreground-accent);
       font-family: inherit;
       font-size: var(--font-size-body);
@@ -1744,10 +1776,11 @@
         border-bottom-right-radius: 24px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
-        border-bottom: 1px solid;
+        border-color: var(--color-border-accent);
         border-left-color: currentcolor;
         border-left-style: solid;
         border-left-width: 1px;
+        border-radius: var(--btn-border-radius, 20px);
         border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
@@ -1755,7 +1788,6 @@
         border-top-right-radius: 24px;
         border-top-style: solid;
         border-top-width: 1px;
-        border-top: 1px solid;
         color: var(--color-foreground-accent);
         font-family: inherit;
         font-size: var(--font-size-body);
@@ -1819,10 +1851,11 @@
       border-bottom-left-radius: 24px;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
+      border-color: var(--color-border-accent);
       border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 20px);
       border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
@@ -1830,7 +1863,6 @@
       border-top-left-radius: 24px;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       color: var(--color-foreground-accent);
       font-family: inherit;
       font-size: var(--font-size-body);
@@ -1878,10 +1910,11 @@
         border-bottom-right-radius: 24px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
-        border-bottom: 1px solid;
+        border-color: var(--color-border-accent);
         border-left-color: currentcolor;
         border-left-style: solid;
         border-left-width: 1px;
+        border-radius: var(--btn-border-radius, 20px);
         border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
@@ -1889,7 +1922,6 @@
         border-top-right-radius: 24px;
         border-top-style: solid;
         border-top-width: 1px;
-        border-top: 1px solid;
         color: var(--color-foreground-accent);
         font-family: inherit;
         font-size: var(--font-size-body);
@@ -1941,6 +1973,7 @@
       </button>
       <div style="
         background-color: var(--color-background-elevated);
+        border-radius: var(--border-radius-50);
         box-shadow: var(--bubble-shadow);
         box-sizing: border-box;
         left: unset;
@@ -1956,8 +1989,10 @@
       ">
         <div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -2004,8 +2039,10 @@
             </span>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -2050,10 +2087,12 @@
             </span>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
             border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -2108,14 +2147,16 @@
     <button style="
       align-content: center;
       align-items: center;
+      background-color: initial;
       border-bottom-color: currentcolor;
       border-bottom-left-radius: 24px;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
+      border-color: var(--btn-tertiary-border-color, var(--color-border-medium));
       border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 20px);
       border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
@@ -2123,7 +2164,6 @@
       border-top-left-radius: 24px;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       color: inherit;
       font-family: inherit;
       font-size: var(--font-size-body);
@@ -2166,14 +2206,16 @@
       <button style="
         align-content: center;
         align-items: center;
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-right-radius: 24px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
-        border-bottom: 1px solid;
+        border-color: var(--btn-tertiary-border-color, var(--color-border-medium));
         border-left-color: currentcolor;
         border-left-style: solid;
         border-left-width: 1px;
+        border-radius: var(--btn-border-radius, 20px);
         border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
@@ -2181,7 +2223,6 @@
         border-top-right-radius: 24px;
         border-top-style: solid;
         border-top-width: 1px;
-        border-top: 1px solid;
         color: inherit;
         font-family: inherit;
         font-size: var(--font-size-body);
@@ -2240,14 +2281,16 @@
     <button style="
       align-content: center;
       align-items: center;
+      background-color: initial;
       border-bottom-color: currentcolor;
       border-bottom-left-radius: 24px;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
+      border-color: var(--btn-tertiary-border-color, var(--color-border-medium));
       border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 20px);
       border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
@@ -2255,7 +2298,6 @@
       border-top-left-radius: 24px;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       color: inherit;
       font-family: inherit;
       font-size: var(--font-size-body);
@@ -2298,14 +2340,16 @@
       <button style="
         align-content: center;
         align-items: center;
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-right-radius: 24px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
-        border-bottom: 1px solid;
+        border-color: var(--btn-tertiary-border-color, var(--color-border-medium));
         border-left-color: currentcolor;
         border-left-style: solid;
         border-left-width: 1px;
+        border-radius: var(--btn-border-radius, 20px);
         border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
@@ -2313,7 +2357,6 @@
         border-top-right-radius: 24px;
         border-top-style: solid;
         border-top-width: 1px;
-        border-top: 1px solid;
         color: inherit;
         font-family: inherit;
         font-size: var(--font-size-body);
@@ -2365,6 +2408,7 @@
       </button>
       <div style="
         background-color: var(--color-background-elevated);
+        border-radius: var(--border-radius-50);
         box-shadow: var(--bubble-shadow);
         box-sizing: border-box;
         left: unset;
@@ -2380,8 +2424,10 @@
       ">
         <div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -2428,8 +2474,10 @@
             </span>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -2474,10 +2522,12 @@
             </span>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
             border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -2542,10 +2592,11 @@
       border-bottom-left-radius: 24px;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
+      border-color: var(--color-border-accent);
       border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 20px);
       border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
@@ -2553,7 +2604,6 @@
       border-top-left-radius: 24px;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       color: var(--color-foreground-on-accent);
       font-family: inherit;
       font-size: var(--font-size-body);
@@ -2617,10 +2667,11 @@
         border-bottom-right-radius: 24px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
-        border-bottom: 1px solid;
+        border-color: var(--color-border-accent);
         border-left-color: var(--btn-primary-border-split-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
+        border-radius: var(--btn-border-radius, 20px);
         border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
@@ -2628,7 +2679,6 @@
         border-top-right-radius: 24px;
         border-top-style: solid;
         border-top-width: 1px;
-        border-top: 1px solid;
         color: var(--color-foreground-on-accent);
         font-family: inherit;
         font-size: var(--font-size-body);
@@ -2694,6 +2744,7 @@
       </button>
       <div style="
         background-color: var(--color-background-elevated);
+        border-radius: var(--border-radius-50);
         box-shadow: var(--bubble-shadow);
         box-sizing: border-box;
         left: unset;
@@ -2716,8 +2767,10 @@
           word-spacing: 0.16em
         ">
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -2770,8 +2823,10 @@
             </span>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -2822,10 +2877,12 @@
             </span>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
             border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;

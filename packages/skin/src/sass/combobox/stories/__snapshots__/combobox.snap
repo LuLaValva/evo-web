@@ -14,8 +14,10 @@
           background-color: var(--combobox-textbox-background-color, var(--color-background-secondary));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--combobox-textbox-border-color, var(--color-border-medium));
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--combobox-textbox-border-radius, var(--border-radius-50));
           border-right-style: solid;
           border-right-width: 1px;
           border-top-style: solid;
@@ -104,6 +106,7 @@
     </span>
     <div style="
       background-color: var(--color-background-elevated);
+      border-radius: var(--border-radius-50);
       box-shadow: var(--bubble-shadow);
       box-sizing: border-box;
       left: 0px;
@@ -117,8 +120,10 @@
     ">
       <div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--color-background-primary);
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -161,8 +166,10 @@
           </span>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--color-background-primary);
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -203,10 +210,12 @@
           </span>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-left-radius: var(--combobox-listbox-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--combobox-listbox-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--color-background-primary);
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -266,8 +275,10 @@
           background-color: var(--combobox-textbox-background-color, var(--color-background-secondary));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--combobox-textbox-border-color, var(--color-border-medium));
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--combobox-textbox-border-radius, var(--border-radius-50));
           border-right-style: solid;
           border-right-width: 1px;
           border-top-style: solid;
@@ -357,6 +368,7 @@
     </span>
     <div style="
       background-color: var(--color-background-elevated);
+      border-radius: var(--border-radius-50);
       box-shadow: var(--bubble-shadow);
       box-sizing: border-box;
       left: unset;
@@ -371,8 +383,10 @@
     ">
       <div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--color-background-primary);
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -415,8 +429,10 @@
           </span>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--color-background-primary);
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -457,10 +473,12 @@
           </span>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-left-radius: var(--combobox-listbox-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--combobox-listbox-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--color-background-primary);
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -521,8 +539,10 @@
             background-color: var(--combobox-textbox-background-color, var(--color-background-secondary));
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--combobox-textbox-border-color, var(--color-border-medium));
             border-left-style: solid;
             border-left-width: 1px;
+            border-radius: var(--combobox-textbox-border-radius, var(--border-radius-50));
             border-right-style: solid;
             border-right-width: 1px;
             border-top-style: solid;
@@ -612,6 +632,7 @@
       </span>
       <div style="
         background-color: var(--color-background-elevated);
+        border-radius: var(--border-radius-50);
         box-shadow: var(--bubble-shadow);
         box-sizing: border-box;
         left: unset;
@@ -626,8 +647,10 @@
       ">
         <div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -670,8 +693,10 @@
             </span>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -712,10 +737,12 @@
             </span>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-left-radius: var(--combobox-listbox-border-radius, var(--border-radius-50));
             border-bottom-right-radius: var(--combobox-listbox-border-radius, var(--border-radius-50));
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -779,8 +806,10 @@
           background-color: var(--combobox-textbox-background-color, var(--color-background-secondary));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--combobox-textbox-border-color, var(--color-border-medium));
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--combobox-textbox-border-radius, var(--border-radius-50));
           border-right-style: solid;
           border-right-width: 1px;
           border-top-style: solid;
@@ -820,8 +849,10 @@
           background-color: var(--combobox-textbox-disabled-background-color, var(--color-background-secondary));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--combobox-textbox-disabled-border-color, var(--color-background-disabled));
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--combobox-textbox-border-radius, var(--border-radius-50));
           border-right-style: solid;
           border-right-width: 1px;
           border-top-style: solid;
@@ -860,8 +891,10 @@
           background-color: var(--combobox-textbox-background-color, var(--color-background-secondary));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--combobox-textbox-border-color, var(--color-border-medium));
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--combobox-textbox-border-radius, var(--border-radius-50));
           border-right-style: solid;
           border-right-width: 1px;
           border-top-style: solid;
@@ -880,6 +913,7 @@
     </span>
     <div style="
       background-color: var(--color-background-elevated);
+      border-radius: var(--border-radius-50);
       box-shadow: var(--bubble-shadow);
       box-sizing: border-box;
       left: 0px;
@@ -893,8 +927,10 @@
     ">
       <div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--color-background-primary);
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -937,10 +973,12 @@
           </span>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-left-radius: var(--combobox-listbox-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--combobox-listbox-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--color-background-primary);
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -1004,8 +1042,10 @@
             background-color: var(--combobox-textbox-background-color, var(--color-background-secondary));
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--combobox-textbox-border-color, var(--color-border-medium));
             border-left-style: solid;
             border-left-width: 1px;
+            border-radius: var(--combobox-textbox-border-radius, var(--border-radius-50));
             border-right-style: solid;
             border-right-width: 1px;
             border-top-style: solid;
@@ -1024,6 +1064,7 @@
       </span>
       <div style="
         background-color: var(--color-background-elevated);
+        border-radius: var(--border-radius-50);
         box-shadow: var(--bubble-shadow);
         box-sizing: border-box;
         left: 0px;
@@ -1037,8 +1078,10 @@
       ">
         <div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -1081,10 +1124,12 @@
             </span>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-left-radius: var(--combobox-listbox-border-radius, var(--border-radius-50));
             border-bottom-right-radius: var(--combobox-listbox-border-radius, var(--border-radius-50));
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -1149,8 +1194,10 @@
             background-color: var(--combobox-textbox-background-color, var(--color-background-secondary));
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--combobox-textbox-border-color, var(--color-border-medium));
             border-left-style: solid;
             border-left-width: 1px;
+            border-radius: var(--combobox-textbox-border-radius, var(--border-radius-50));
             border-right-style: solid;
             border-right-width: 1px;
             border-top-style: solid;
@@ -1169,6 +1216,7 @@
       </span>
       <div style="
         background-color: var(--color-background-elevated);
+        border-radius: var(--border-radius-50);
         box-shadow: var(--bubble-shadow);
         box-sizing: border-box;
         left: 0px;
@@ -1182,8 +1230,10 @@
       ">
         <div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -1226,10 +1276,12 @@
             </span>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-left-radius: var(--combobox-listbox-border-radius, var(--border-radius-50));
             border-bottom-right-radius: var(--combobox-listbox-border-radius, var(--border-radius-50));
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -1293,8 +1345,10 @@
           background-color: var(--combobox-textbox-background-color, var(--color-background-secondary));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--combobox-textbox-border-color, var(--color-border-medium));
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--combobox-textbox-border-radius, var(--border-radius-50));
           border-right-style: solid;
           border-right-width: 1px;
           border-top-style: solid;
@@ -1313,6 +1367,7 @@
     </span>
     <div style="
       background-color: var(--color-background-elevated);
+      border-radius: var(--border-radius-50);
       box-shadow: var(--bubble-shadow);
       box-sizing: border-box;
       left: 0px;
@@ -1326,8 +1381,10 @@
     ">
       <div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--color-background-primary);
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -1370,10 +1427,12 @@
           </span>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-left-radius: var(--combobox-listbox-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--combobox-listbox-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--color-background-primary);
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -1436,8 +1495,10 @@
           background-color: var(--combobox-textbox-background-color, var(--color-background-secondary));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--combobox-textbox-border-color, var(--color-border-medium));
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--combobox-textbox-border-radius, var(--border-radius-50));
           border-right-style: solid;
           border-right-width: 1px;
           border-top-style: solid;
@@ -1456,6 +1517,7 @@
     </span>
     <div style="
       background-color: var(--color-background-elevated);
+      border-radius: var(--border-radius-50);
       box-shadow: var(--bubble-shadow);
       box-sizing: border-box;
       left: 0px;
@@ -1469,8 +1531,10 @@
     ">
       <div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--color-background-primary);
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -1513,10 +1577,12 @@
           </span>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-left-radius: var(--combobox-listbox-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--combobox-listbox-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--color-background-primary);
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -1586,8 +1652,10 @@
           background-color: var(--combobox-textbox-background-color, var(--color-background-secondary));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--combobox-textbox-border-color, var(--color-border-medium));
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--combobox-textbox-border-radius, var(--border-radius-50));
           border-right-style: solid;
           border-right-width: 1px;
           border-top-style: solid;
@@ -1609,6 +1677,7 @@
     </span>
     <div style="
       background-color: var(--color-background-elevated);
+      border-radius: var(--border-radius-50);
       box-shadow: var(--bubble-shadow);
       box-sizing: border-box;
       left: 0px;
@@ -1629,8 +1698,10 @@
         word-spacing: 0.16em
       ">
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--color-background-primary);
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -1680,10 +1751,12 @@
           </span>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-left-radius: var(--combobox-listbox-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--combobox-listbox-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--color-background-primary);
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;

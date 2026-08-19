@@ -31,6 +31,7 @@
         <button style="
           align-items: center;
           align-self: flex-start;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-left-radius: 50px;
           border-bottom-right-radius: 50px;
@@ -113,17 +114,17 @@
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
+          border-color: var(--color-foreground-on-accent);
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: var(--color-foreground-accent);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -168,6 +169,7 @@
 <div>
   <aside style="
     background-color: var(--color-background-accent);
+    border-radius: var(--border-radius-100);
     border-top-left-radius: var(--border-radius-100);
     border-top-right-radius: var(--border-radius-100);
     bottom: var(--spacing-200);
@@ -198,6 +200,7 @@
         <button style="
           align-items: center;
           align-self: flex-start;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-left-radius: 50px;
           border-bottom-right-radius: 50px;
@@ -280,17 +283,17 @@
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
+          border-color: var(--color-foreground-on-accent);
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: var(--color-foreground-accent);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -361,6 +364,7 @@
         <button style="
           align-items: center;
           align-self: flex-start;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-left-radius: 50px;
           border-bottom-right-radius: 50px;
@@ -443,17 +447,17 @@
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
+          border-color: var(--color-foreground-on-accent);
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: var(--color-foreground-accent);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -498,6 +502,7 @@
 <div>
   <aside style="
     background-color: var(--color-background-accent);
+    border-radius: var(--border-radius-100);
     border-top-left-radius: var(--border-radius-100);
     border-top-right-radius: var(--border-radius-100);
     bottom: var(--spacing-200);
@@ -528,6 +533,7 @@
         <button style="
           align-items: center;
           align-self: flex-start;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-left-radius: 50px;
           border-bottom-right-radius: 50px;
@@ -610,17 +616,17 @@
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
+          border-color: var(--color-foreground-on-accent);
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: var(--color-foreground-accent);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -691,6 +697,7 @@
         <button style="
           align-items: center;
           align-self: flex-start;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-left-radius: 50px;
           border-bottom-right-radius: 50px;
@@ -769,20 +776,21 @@
         <button style="
           align-content: center;
           align-items: center;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
+          border-color: var(--color-foreground-on-accent);
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: var(--color-background-primary);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -823,17 +831,17 @@
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
+          border-color: var(--color-foreground-on-accent);
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: var(--color-foreground-accent);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -878,6 +886,7 @@
 <div>
   <aside style="
     background-color: var(--color-background-accent);
+    border-radius: var(--border-radius-100);
     border-top-left-radius: var(--border-radius-100);
     border-top-right-radius: var(--border-radius-100);
     bottom: var(--spacing-200);
@@ -908,6 +917,7 @@
         <button style="
           align-items: center;
           align-self: flex-start;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-left-radius: 50px;
           border-bottom-right-radius: 50px;
@@ -986,20 +996,21 @@
         <button style="
           align-content: center;
           align-items: center;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
+          border-color: var(--color-foreground-on-accent);
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: var(--color-background-primary);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -1040,17 +1051,17 @@
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
+          border-color: var(--color-foreground-on-accent);
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: var(--color-foreground-accent);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -1135,6 +1146,7 @@
         <button style="
           align-items: center;
           align-self: flex-start;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-left-radius: 50px;
           border-bottom-right-radius: 50px;
@@ -1238,20 +1250,21 @@
         <button style="
           align-content: center;
           align-items: center;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
+          border-color: var(--color-foreground-on-accent);
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: var(--color-background-primary);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -1295,17 +1308,17 @@
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
+          border-color: var(--color-foreground-on-accent);
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: var(--color-foreground-accent);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -1353,6 +1366,7 @@
 <div>
   <aside style="
     background-color: var(--color-background-accent);
+    border-radius: var(--border-radius-100);
     border-top-left-radius: var(--border-radius-100);
     border-top-right-radius: var(--border-radius-100);
     bottom: var(--spacing-200);
@@ -1397,6 +1411,7 @@
         <button style="
           align-items: center;
           align-self: flex-start;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-left-radius: 50px;
           border-bottom-right-radius: 50px;
@@ -1500,20 +1515,21 @@
         <button style="
           align-content: center;
           align-items: center;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
+          border-color: var(--color-foreground-on-accent);
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: var(--color-background-primary);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -1557,17 +1573,17 @@
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
+          border-color: var(--color-foreground-on-accent);
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: var(--color-foreground-accent);
           font-family: inherit;
           font-size: var(--font-size-body);

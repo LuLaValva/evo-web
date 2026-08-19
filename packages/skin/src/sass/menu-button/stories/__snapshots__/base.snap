@@ -4,20 +4,20 @@
     <button style="
       align-content: center;
       align-items: center;
+      background-color: initial;
       border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
       border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 20px);
       border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
       border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       color: inherit;
       font-family: inherit;
       font-size: var(--font-size-body);
@@ -61,6 +61,7 @@
     </button>
     <div style="
       background-color: var(--color-background-elevated);
+      border-radius: var(--border-radius-50);
       box-shadow: var(--bubble-shadow);
       box-sizing: border-box;
       left: 0px;
@@ -75,8 +76,10 @@
     ">
       <div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -147,8 +150,10 @@
           </span>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -217,10 +222,12 @@
           </span>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -298,20 +305,20 @@
     <button style="
       align-content: center;
       align-items: center;
+      background-color: initial;
       border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
       border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 20px);
       border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
       border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       color: inherit;
       font-family: inherit;
       font-size: var(--font-size-body);
@@ -355,6 +362,7 @@
     </button>
     <div style="
       background-color: var(--color-background-elevated);
+      border-radius: var(--border-radius-50);
       box-shadow: var(--bubble-shadow);
       box-sizing: border-box;
       left: 0px;
@@ -369,8 +377,10 @@
     ">
       <div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -436,8 +446,10 @@
           </svg>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -502,10 +514,12 @@
           </svg>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -578,20 +592,20 @@
     <button style="
       align-content: center;
       align-items: center;
+      background-color: initial;
       border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
       border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 20px);
       border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
       border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       color: inherit;
       font-family: inherit;
       font-size: var(--font-size-body);
@@ -635,6 +649,7 @@
     </button>
     <div style="
       background-color: var(--color-background-elevated);
+      border-radius: var(--border-radius-50);
       box-shadow: var(--bubble-shadow);
       box-sizing: border-box;
       left: 0px;
@@ -649,8 +664,10 @@
     ">
       <div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -716,8 +733,10 @@
           </svg>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -782,10 +801,12 @@
           </svg>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -862,17 +883,17 @@
       border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
+      border-color: var(--color-border-accent);
       border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 20px);
       border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
       border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       color: var(--color-foreground-accent);
       font-family: inherit;
       font-size: var(--font-size-body);
@@ -938,20 +959,20 @@
     <button style="
       align-content: center;
       align-items: center;
+      background-color: initial;
       border-bottom-color: inherit;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
       border-left-color: inherit;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
       border-right-color: inherit;
       border-right-style: solid;
       border-right-width: 1px;
       border-top-color: inherit;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       color: inherit;
       font-family: inherit;
       font-size: var(--font-size-body);
@@ -1023,17 +1044,17 @@
         border-bottom-color: currentcolor;
         border-bottom-style: solid;
         border-bottom-width: 1px;
-        border-bottom: 1px solid;
+        border-color: var(--btn-secondary-disabled-border-color, var(--color-border-disabled));
         border-left-color: currentcolor;
         border-left-style: solid;
         border-left-width: 1px;
+        border-radius: var(--btn-border-radius, 20px);
         border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
         border-top-color: currentcolor;
         border-top-style: solid;
         border-top-width: 1px;
-        border-top: 1px solid;
         color: var(--btn-secondary-disabled-foreground-color, var(--color-background-disabled));
         font-family: inherit;
         font-size: var(--font-size-body);
@@ -1104,17 +1125,17 @@
       border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
+      border-color: var(--color-border-accent);
       border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 20px);
       border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
       border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       color: var(--color-foreground-accent);
       font-family: inherit;
       font-size: var(--font-size-body);
@@ -1174,6 +1195,7 @@
     </button>
     <div style="
       background-color: var(--color-background-elevated);
+      border-radius: var(--border-radius-50);
       box-shadow: var(--bubble-shadow);
       box-sizing: border-box;
       left: 0px;
@@ -1188,8 +1210,10 @@
     ">
       <div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -1236,8 +1260,10 @@
           </span>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -1282,10 +1308,12 @@
           </span>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -1339,20 +1367,20 @@
     <button style="
       align-content: center;
       align-items: center;
+      background-color: initial;
       border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
       border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 20px);
       border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
       border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       color: inherit;
       font-family: inherit;
       font-size: var(--font-size-body);
@@ -1396,6 +1424,7 @@
     </button>
     <div style="
       background-color: var(--color-background-elevated);
+      border-radius: var(--border-radius-50);
       box-shadow: var(--bubble-shadow);
       box-sizing: border-box;
       left: 0px;
@@ -1410,8 +1439,10 @@
     ">
       <div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -1458,8 +1489,10 @@
           </span>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -1504,10 +1537,12 @@
           </span>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -1561,20 +1596,20 @@
     <button style="
       align-content: center;
       align-items: center;
+      background-color: initial;
       border-bottom-color: inherit;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
       border-left-color: inherit;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
       border-right-color: inherit;
       border-right-style: solid;
       border-right-width: 1px;
       border-top-color: inherit;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       color: inherit;
       font-family: inherit;
       font-size: var(--font-size-body);
@@ -1634,6 +1669,7 @@
     </button>
     <div style="
       background-color: var(--color-background-elevated);
+      border-radius: var(--border-radius-50);
       box-shadow: var(--bubble-shadow);
       box-sizing: border-box;
       left: 0px;
@@ -1648,8 +1684,10 @@
     ">
       <div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -1696,8 +1734,10 @@
           </span>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -1742,10 +1782,12 @@
           </span>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -1799,20 +1841,20 @@
     <button style="
       align-content: center;
       align-items: center;
+      background-color: initial;
       border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
       border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 20px);
       border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
       border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       color: inherit;
       font-family: inherit;
       font-size: var(--font-size-body);
@@ -1856,6 +1898,7 @@
     </button>
     <div style="
       background-color: var(--color-background-elevated);
+      border-radius: var(--border-radius-50);
       box-shadow: var(--bubble-shadow);
       box-sizing: border-box;
       left: 0px;
@@ -1870,8 +1913,10 @@
     ">
       <div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -1918,8 +1963,10 @@
           </span>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -1964,10 +2011,12 @@
           </span>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -2021,20 +2070,20 @@
     <button style="
       align-content: center;
       align-items: center;
+      background-color: initial;
       border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
       border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 20px);
       border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
       border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       color: inherit;
       font-family: inherit;
       font-size: var(--font-size-body);
@@ -2078,6 +2127,7 @@
     </button>
     <div style="
       background-color: var(--color-background-elevated);
+      border-radius: var(--border-radius-50);
       box-shadow: var(--bubble-shadow);
       box-sizing: border-box;
       left: 0px;
@@ -2092,8 +2142,10 @@
     ">
       <div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -2159,8 +2211,10 @@
           </span>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -2224,10 +2278,12 @@
           </span>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -2300,20 +2356,20 @@
     <button style="
       align-content: center;
       align-items: center;
+      background-color: initial;
       border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
       border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 20px);
       border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
       border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       color: inherit;
       font-family: inherit;
       font-size: var(--font-size-body);
@@ -2357,6 +2413,7 @@
     </button>
     <div style="
       background-color: var(--color-background-elevated);
+      border-radius: var(--border-radius-50);
       box-shadow: var(--bubble-shadow);
       box-sizing: border-box;
       left: 0px;
@@ -2371,8 +2428,10 @@
     ">
       <div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -2438,8 +2497,10 @@
           </svg>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -2504,10 +2565,12 @@
           </svg>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -2581,20 +2644,20 @@
     <button style="
       align-content: center;
       align-items: center;
+      background-color: initial;
       border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
       border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 20px);
       border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
       border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       color: inherit;
       font-family: inherit;
       font-size: var(--font-size-body);
@@ -2638,6 +2701,7 @@
     </button>
     <div style="
       background-color: var(--color-background-elevated);
+      border-radius: var(--border-radius-50);
       box-shadow: var(--bubble-shadow);
       box-sizing: border-box;
       left: 0px;
@@ -2652,8 +2716,10 @@
     ">
       <div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -2719,8 +2785,10 @@
           </svg>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -2785,10 +2853,12 @@
           </svg>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -2862,20 +2932,20 @@
     <button style="
       align-content: center;
       align-items: center;
+      background-color: initial;
       border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
       border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 20px);
       border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
       border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       color: inherit;
       font-family: inherit;
       font-size: var(--font-size-body);
@@ -2919,6 +2989,7 @@
     </button>
     <div style="
       background-color: var(--color-background-elevated);
+      border-radius: var(--border-radius-50);
       box-shadow: var(--bubble-shadow);
       box-sizing: border-box;
       left: 0px;
@@ -2933,8 +3004,10 @@
     ">
       <div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -2982,6 +3055,7 @@
         </div>
         <hr style="
           border-bottom-style: solid;
+          border-color: var(--menu-button-separator-color, var(--color-border-subtle));
           border-left-style: solid;
           border-right-style: solid;
           border-top-style: solid;
@@ -2989,8 +3063,10 @@
           margin-top: 0px
         "/>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -3035,10 +3111,12 @@
           </span>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -3097,20 +3175,20 @@
     <button style="
       align-content: center;
       align-items: center;
+      background-color: initial;
       border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
       border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 20px);
       border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
       border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       color: inherit;
       font-family: inherit;
       font-size: var(--font-size-body);
@@ -3174,6 +3252,7 @@
     </button>
     <div style="
       background-color: var(--color-background-elevated);
+      border-radius: var(--border-radius-50);
       box-shadow: var(--bubble-shadow);
       box-sizing: border-box;
       left: 0px;
@@ -3195,8 +3274,10 @@
         word-spacing: 0.16em
       ">
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -3249,8 +3330,10 @@
           </span>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -3301,10 +3384,12 @@
           </span>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;

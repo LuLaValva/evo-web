@@ -9,6 +9,7 @@
     <table style="
       -webkit-border-horizontal-spacing: 0px;
       -webkit-border-vertical-spacing: 0px;
+      border-collapse: initial;
       width: 100%
     ">
       <thead>
@@ -223,6 +224,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -301,17 +303,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-success);
               display: inline-block;
@@ -497,6 +498,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -575,17 +577,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-success);
               display: inline-block;
@@ -769,6 +770,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -847,17 +849,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-attention);
               display: inline-block;
@@ -1041,6 +1042,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -1119,17 +1121,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               display: inline-block;
               font-size: var(--font-size-smallest);
@@ -1316,6 +1317,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -1396,17 +1398,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-accent);
               display: inline-block;
@@ -1584,6 +1585,7 @@
     <table style="
       -webkit-border-horizontal-spacing: 0px;
       -webkit-border-vertical-spacing: 0px;
+      border-collapse: initial;
       width: 100%
     ">
       <thead>
@@ -1798,6 +1800,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -1876,17 +1879,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-success);
               display: inline-block;
@@ -2072,6 +2074,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -2150,17 +2153,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-success);
               display: inline-block;
@@ -2344,6 +2346,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -2422,17 +2425,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-attention);
               display: inline-block;
@@ -2616,6 +2618,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -2694,17 +2697,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               display: inline-block;
               font-size: var(--font-size-smallest);
@@ -2891,6 +2893,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -2971,17 +2974,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-accent);
               display: inline-block;
@@ -3159,6 +3161,7 @@
     <table style="
       -webkit-border-horizontal-spacing: 0px;
       -webkit-border-vertical-spacing: 0px;
+      border-collapse: initial;
       width: 100%
     ">
       <thead>
@@ -3373,6 +3376,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -3451,17 +3455,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-success);
               display: inline-block;
@@ -3647,6 +3650,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -3725,17 +3729,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-success);
               display: inline-block;
@@ -3919,6 +3922,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -3997,17 +4001,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-attention);
               display: inline-block;
@@ -4191,6 +4194,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -4269,17 +4273,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               display: inline-block;
               font-size: var(--font-size-smallest);
@@ -4466,6 +4469,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -4546,17 +4550,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-accent);
               display: inline-block;
@@ -4738,6 +4741,7 @@
     <table style="
       -webkit-border-horizontal-spacing: 0px;
       -webkit-border-vertical-spacing: 0px;
+      border-collapse: initial;
       width: 100%
     ">
       <thead style="
@@ -4956,6 +4960,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -5034,17 +5039,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-success);
               display: inline-block;
@@ -5230,6 +5234,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -5308,17 +5313,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-success);
               display: inline-block;
@@ -5502,6 +5506,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -5580,17 +5585,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-attention);
               display: inline-block;
@@ -5774,6 +5778,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -5852,17 +5857,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               display: inline-block;
               font-size: var(--font-size-smallest);
@@ -6045,6 +6049,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -6123,17 +6128,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-accent);
               display: inline-block;
@@ -6317,6 +6321,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -6395,17 +6400,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-accent);
               display: inline-block;
@@ -6589,6 +6593,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -6667,17 +6672,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-accent);
               display: inline-block;
@@ -6861,6 +6865,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -6939,17 +6944,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-accent);
               display: inline-block;
@@ -7133,6 +7137,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -7211,17 +7216,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-accent);
               display: inline-block;
@@ -7405,6 +7409,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -7483,17 +7488,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-accent);
               display: inline-block;
@@ -7677,6 +7681,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -7755,17 +7760,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-accent);
               display: inline-block;
@@ -7949,6 +7953,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -8027,17 +8032,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-accent);
               display: inline-block;
@@ -8221,6 +8225,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -8299,17 +8304,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-accent);
               display: inline-block;
@@ -8497,6 +8501,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -8577,17 +8582,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-accent);
               display: inline-block;
@@ -8768,6 +8772,7 @@
     <table style="
       -webkit-border-horizontal-spacing: 0px;
       -webkit-border-vertical-spacing: 0px;
+      border-collapse: initial;
       width: 100%
     ">
       <thead>
@@ -8982,6 +8987,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -9060,17 +9066,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-success);
               display: inline-block;
@@ -9256,6 +9261,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -9334,17 +9340,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-success);
               display: inline-block;
@@ -9528,6 +9533,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -9606,17 +9612,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-attention);
               display: inline-block;
@@ -9800,6 +9805,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -9878,17 +9884,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               display: inline-block;
               font-size: var(--font-size-smallest);
@@ -10075,6 +10080,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -10155,17 +10161,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-accent);
               display: inline-block;

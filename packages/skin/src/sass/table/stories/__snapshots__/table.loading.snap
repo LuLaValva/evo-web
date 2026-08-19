@@ -10,6 +10,7 @@
     <table style="
       -webkit-border-horizontal-spacing: 0px;
       -webkit-border-vertical-spacing: 0px;
+      border-collapse: initial;
       opacity: 0.15;
       user-select: none;
       width: 100%
@@ -35,6 +36,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -62,7 +64,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Seller
@@ -103,6 +106,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -130,7 +134,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Item
@@ -171,6 +176,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -198,7 +204,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Status
@@ -239,6 +246,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -266,7 +274,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               List Price
@@ -307,6 +316,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -334,7 +344,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Quantity Available
@@ -375,6 +386,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -402,7 +414,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Orders
@@ -443,6 +456,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -470,7 +484,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Watchers
@@ -511,6 +526,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -538,7 +554,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Protection
@@ -579,6 +596,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -606,7 +624,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Shipping
@@ -648,6 +667,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -675,7 +695,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Delivery
@@ -736,6 +757,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -815,17 +837,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-success);
               display: inline-block;
@@ -1016,6 +1037,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -1095,17 +1117,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-success);
               display: inline-block;
@@ -1294,6 +1315,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -1373,17 +1395,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-attention);
               display: inline-block;
@@ -1572,6 +1593,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -1651,17 +1673,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               display: inline-block;
               filter: var(--color-media-disabled-filter);
@@ -1853,6 +1874,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -1934,17 +1956,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-accent);
               display: inline-block;
@@ -2130,6 +2151,7 @@
         width: 100%
       ">
         <div style="
+          border-radius: var(--progress-bar-expressive-line-border-radius);
           margin: 0 var(--spacing-200);
           overflow-x: hidden;
           overflow-y: hidden
@@ -2142,6 +2164,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count))*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-4);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -2153,6 +2176,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*2)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-3);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -2164,6 +2188,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*3)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-2);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -2175,6 +2200,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*4)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-1);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -2186,6 +2212,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*5)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-4);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -2197,6 +2224,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*6)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-3);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -2208,6 +2236,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*7)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-2);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -2219,6 +2248,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*8)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-1);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -2230,6 +2260,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*9)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-4);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -2241,6 +2272,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*10)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-3);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -2252,6 +2284,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*11)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-2);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -2263,6 +2296,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*12)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-1);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -2289,6 +2323,7 @@
     <table style="
       -webkit-border-horizontal-spacing: 0px;
       -webkit-border-vertical-spacing: 0px;
+      border-collapse: initial;
       opacity: 0.15;
       user-select: none;
       width: 100%
@@ -2314,6 +2349,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -2341,7 +2377,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Seller
@@ -2382,6 +2419,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -2409,7 +2447,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Item
@@ -2450,6 +2489,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -2477,7 +2517,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Status
@@ -2518,6 +2559,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -2545,7 +2587,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               List Price
@@ -2586,6 +2629,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -2613,7 +2657,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Quantity Available
@@ -2654,6 +2699,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -2681,7 +2727,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Orders
@@ -2722,6 +2769,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -2749,7 +2797,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Watchers
@@ -2790,6 +2839,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -2817,7 +2867,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Protection
@@ -2858,6 +2909,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -2885,7 +2937,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Shipping
@@ -2927,6 +2980,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -2954,7 +3008,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Delivery
@@ -3015,6 +3070,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -3094,17 +3150,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-success);
               display: inline-block;
@@ -3295,6 +3350,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -3374,17 +3430,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-success);
               display: inline-block;
@@ -3573,6 +3628,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -3652,17 +3708,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-attention);
               display: inline-block;
@@ -3851,6 +3906,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -3930,17 +3986,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               display: inline-block;
               filter: var(--color-media-disabled-filter);
@@ -4132,6 +4187,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -4213,17 +4269,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-accent);
               display: inline-block;
@@ -4409,6 +4464,7 @@
         width: 100%
       ">
         <div style="
+          border-radius: var(--progress-bar-expressive-line-border-radius);
           margin: 0 var(--spacing-200);
           overflow-x: hidden;
           overflow-y: hidden
@@ -4421,6 +4477,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count))*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-4);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -4432,6 +4489,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*2)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-3);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -4443,6 +4501,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*3)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-2);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -4454,6 +4513,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*4)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-1);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -4465,6 +4525,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*5)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-4);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -4476,6 +4537,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*6)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-3);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -4487,6 +4549,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*7)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-2);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -4498,6 +4561,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*8)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-1);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -4509,6 +4573,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*9)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-4);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -4520,6 +4585,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*10)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-3);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -4531,6 +4597,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*11)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-2);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -4542,6 +4609,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*12)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-1);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -4568,6 +4636,7 @@
     <table style="
       -webkit-border-horizontal-spacing: 0px;
       -webkit-border-vertical-spacing: 0px;
+      border-collapse: initial;
       opacity: 0.15;
       user-select: none;
       width: 100%
@@ -4593,6 +4662,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -4620,7 +4690,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Seller
@@ -4661,6 +4732,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -4688,7 +4760,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Item
@@ -4729,6 +4802,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -4756,7 +4830,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Status
@@ -4797,6 +4872,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -4824,7 +4900,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               List Price
@@ -4865,6 +4942,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -4892,7 +4970,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Quantity Available
@@ -4933,6 +5012,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -4960,7 +5040,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Orders
@@ -5001,6 +5082,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -5028,7 +5110,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Watchers
@@ -5069,6 +5152,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -5096,7 +5180,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Protection
@@ -5137,6 +5222,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -5164,7 +5250,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Shipping
@@ -5206,6 +5293,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -5233,7 +5321,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Delivery
@@ -5294,6 +5383,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -5373,17 +5463,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-success);
               display: inline-block;
@@ -5574,6 +5663,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -5653,17 +5743,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-success);
               display: inline-block;
@@ -5852,6 +5941,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -5931,17 +6021,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-attention);
               display: inline-block;
@@ -6130,6 +6219,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -6209,17 +6299,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               display: inline-block;
               filter: var(--color-media-disabled-filter);
@@ -6411,6 +6500,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -6492,17 +6582,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-accent);
               display: inline-block;
@@ -6688,6 +6777,7 @@
         width: 100%
       ">
         <div style="
+          border-radius: var(--progress-bar-expressive-line-border-radius);
           margin: 0 var(--spacing-200);
           overflow-x: hidden;
           overflow-y: hidden
@@ -6700,6 +6790,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count))*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-4);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -6711,6 +6802,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*2)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-3);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -6722,6 +6814,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*3)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-2);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -6733,6 +6826,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*4)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-1);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -6744,6 +6838,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*5)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-4);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -6755,6 +6850,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*6)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-3);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -6766,6 +6862,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*7)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-2);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -6777,6 +6874,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*8)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-1);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -6788,6 +6886,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*9)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-4);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -6799,6 +6898,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*10)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-3);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -6810,6 +6910,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*11)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-2);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -6821,6 +6922,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*12)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-1);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -6850,6 +6952,7 @@
     <table style="
       -webkit-border-horizontal-spacing: 0px;
       -webkit-border-vertical-spacing: 0px;
+      border-collapse: initial;
       opacity: 0.15;
       user-select: none;
       width: 100%
@@ -6875,6 +6978,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -6902,7 +7006,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Seller
@@ -6943,6 +7048,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -6970,7 +7076,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Item
@@ -7011,6 +7118,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -7038,7 +7146,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Status
@@ -7079,6 +7188,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -7106,7 +7216,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               List Price
@@ -7147,6 +7258,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -7174,7 +7286,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Quantity Available
@@ -7215,6 +7328,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -7242,7 +7356,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Orders
@@ -7283,6 +7398,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -7310,7 +7426,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Watchers
@@ -7351,6 +7468,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -7378,7 +7496,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Protection
@@ -7419,6 +7538,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -7446,7 +7566,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Shipping
@@ -7488,6 +7609,7 @@
               disabled
               style="
                 align-items: center;
+                background-color: initial;
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -7515,7 +7637,8 @@
                 padding-right: 3px;
                 padding-top: 3px;
                 text-wrap-mode: nowrap;
-                transform: translateZ(0px)
+                transform: translateZ(0px);
+                vertical-align: initial
               "
             >
               Delivery
@@ -7576,6 +7699,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -7655,17 +7779,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-success);
               display: inline-block;
@@ -7856,6 +7979,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -7935,17 +8059,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-success);
               display: inline-block;
@@ -8134,6 +8257,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -8213,17 +8337,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-attention);
               display: inline-block;
@@ -8412,6 +8535,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -8491,17 +8615,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               display: inline-block;
               filter: var(--color-media-disabled-filter);
@@ -8693,6 +8816,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <div style="
@@ -8774,17 +8898,16 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--border-radius-100);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               box-sizing: border-box;
               color: var(--color-foreground-accent);
               display: inline-block;
@@ -8970,6 +9093,7 @@
         width: 100%
       ">
         <div style="
+          border-radius: var(--progress-bar-expressive-line-border-radius);
           margin: 0 var(--spacing-200);
           overflow-x: hidden;
           overflow-y: hidden
@@ -8982,6 +9106,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count))*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-4);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -8993,6 +9118,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*2)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-3);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -9004,6 +9130,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*3)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-2);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -9015,6 +9142,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*4)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-1);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -9026,6 +9154,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*5)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-4);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -9037,6 +9166,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*6)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-3);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -9048,6 +9178,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*7)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-2);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -9059,6 +9190,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*8)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-1);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -9070,6 +9202,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*9)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-4);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -9081,6 +9214,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*10)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-3);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -9092,6 +9226,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*11)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-2);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);
@@ -9103,6 +9238,7 @@
               animation-delay: calc((var(--progress-bar-expressive-line-scale-duration) - var(--progress-bar-expressive-line-scale-duration)/var(--progress-bar-expressive-line-count)*12)*-1);
               animation: progress-bar-expressive-line-reorder var(--progress-bar-expressive-line-scale-duration) steps(var(--progress-bar-expressive-line-count)) infinite, progress-bar-expressive-line-scale-width var(--progress-bar-expressive-line-scale-duration) infinite;
               background-color: var(--progress-bar-expressive-color-1);
+              border-radius: var(--progress-bar-expressive-line-border-radius);
               display: inline-block;
               flex-shrink: 0;
               height: var(--progress-bar-expressive-line-height);

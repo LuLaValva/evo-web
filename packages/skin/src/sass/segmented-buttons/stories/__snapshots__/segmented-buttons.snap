@@ -1,6 +1,7 @@
 ┌─ base
 <div>
   <div style="
+    border-radius: var(--segmented-button-border-radius, 24px);
     border: 1px solid var(--color-border-medium);
     max-width: 720px;
     min-width: 215px;
@@ -23,9 +24,15 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: none;
           border-right-width: medium;
@@ -49,12 +56,19 @@
         margin-inline-start: var(--spacing-100)
       ">
         <button style="
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: none;
           border-right-width: medium;
@@ -93,12 +107,19 @@
         margin-inline-start: var(--spacing-100)
       ">
         <button style="
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: none;
           border-right-width: medium;
@@ -138,6 +159,7 @@
 <div>
   <div style="width: 300px">
     <div style="
+      border-radius: var(--segmented-button-border-radius, 24px);
       border: 1px solid var(--color-border-medium);
       max-width: 720px;
       min-width: 215px;
@@ -156,12 +178,19 @@
           flex-grow: 1
         ">
           <button style="
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
+            border-radius: var(--btn-border-radius, 20px);
             border-right-color: currentcolor;
             border-right-style: none;
             border-right-width: medium;
@@ -200,12 +229,19 @@
           margin-inline-start: var(--spacing-100)
         ">
           <button style="
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
+            border-radius: var(--btn-border-radius, 20px);
             border-right-color: currentcolor;
             border-right-style: none;
             border-right-width: medium;
@@ -248,9 +284,15 @@
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
+            border-radius: var(--btn-border-radius, 20px);
             border-right-color: currentcolor;
             border-right-style: none;
             border-right-width: medium;
@@ -274,12 +316,19 @@
           margin-inline-start: var(--spacing-100)
         ">
           <button style="
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
+            border-radius: var(--btn-border-radius, 20px);
             border-right-color: currentcolor;
             border-right-style: none;
             border-right-width: medium;
@@ -320,6 +369,7 @@
 <div>
   <div style="color: red">
     <div style="
+      border-radius: var(--segmented-button-border-radius, 24px);
       border: 1px solid var(--color-border-medium);
       max-width: 720px;
       min-width: 215px;
@@ -338,12 +388,19 @@
           flex-grow: 1
         ">
           <button style="
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
+            border-radius: var(--btn-border-radius, 20px);
             border-right-color: currentcolor;
             border-right-style: none;
             border-right-width: medium;
@@ -382,12 +439,19 @@
           margin-inline-start: var(--spacing-100)
         ">
           <button style="
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
+            border-radius: var(--btn-border-radius, 20px);
             border-right-color: currentcolor;
             border-right-style: none;
             border-right-width: medium;
@@ -430,9 +494,15 @@
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
+            border-radius: var(--btn-border-radius, 20px);
             border-right-color: currentcolor;
             border-right-style: none;
             border-right-width: medium;
@@ -456,12 +526,19 @@
           margin-inline-start: var(--spacing-100)
         ">
           <button style="
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
+            border-radius: var(--btn-border-radius, 20px);
             border-right-color: currentcolor;
             border-right-style: none;
             border-right-width: medium;
@@ -502,6 +579,7 @@
 <div>
   <div style="font-size: 300%">
     <div style="
+      border-radius: var(--segmented-button-border-radius, 24px);
       border: 1px solid var(--color-border-medium);
       max-width: 720px;
       min-width: 215px;
@@ -520,12 +598,19 @@
           flex-grow: 1
         ">
           <button style="
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
+            border-radius: var(--btn-border-radius, 20px);
             border-right-color: currentcolor;
             border-right-style: none;
             border-right-width: medium;
@@ -564,12 +649,19 @@
           margin-inline-start: var(--spacing-100)
         ">
           <button style="
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
+            border-radius: var(--btn-border-radius, 20px);
             border-right-color: currentcolor;
             border-right-style: none;
             border-right-width: medium;
@@ -612,9 +704,15 @@
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
+            border-radius: var(--btn-border-radius, 20px);
             border-right-color: currentcolor;
             border-right-style: none;
             border-right-width: medium;
@@ -638,12 +736,19 @@
           margin-inline-start: var(--spacing-100)
         ">
           <button style="
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
+            border-radius: var(--btn-border-radius, 20px);
             border-right-color: currentcolor;
             border-right-style: none;
             border-right-width: medium;
@@ -683,6 +788,7 @@
 ┌─ large
 <div>
   <div style="
+    border-radius: var(--segmented-button-border-radius, 24px);
     border: 1px solid var(--color-border-medium);
     max-width: 720px;
     min-width: 215px;
@@ -705,9 +811,15 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: none;
           border-right-width: medium;
@@ -731,12 +843,19 @@
         margin-inline-start: var(--spacing-100)
       ">
         <button style="
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: none;
           border-right-width: medium;
@@ -775,12 +894,19 @@
         margin-inline-start: var(--spacing-100)
       ">
         <button style="
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: none;
           border-right-width: medium;
@@ -820,6 +946,7 @@
 <div>
   <div dir="rtl">
     <div style="
+      border-radius: var(--segmented-button-border-radius, 24px);
       border: 1px solid var(--color-border-medium);
       max-width: 720px;
       min-width: 215px;
@@ -838,12 +965,19 @@
           flex-grow: 1
         ">
           <button style="
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
+            border-radius: var(--btn-border-radius, 20px);
             border-right-color: currentcolor;
             border-right-style: none;
             border-right-width: medium;
@@ -882,12 +1016,19 @@
           margin-inline-start: var(--spacing-100)
         ">
           <button style="
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
+            border-radius: var(--btn-border-radius, 20px);
             border-right-color: currentcolor;
             border-right-style: none;
             border-right-width: medium;
@@ -930,9 +1071,15 @@
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
+            border-radius: var(--btn-border-radius, 20px);
             border-right-color: currentcolor;
             border-right-style: none;
             border-right-width: medium;
@@ -956,12 +1103,19 @@
           margin-inline-start: var(--spacing-100)
         ">
           <button style="
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
+            border-radius: var(--btn-border-radius, 20px);
             border-right-color: currentcolor;
             border-right-style: none;
             border-right-width: medium;
@@ -1001,6 +1155,7 @@
 ┌─ shortItems
 <div>
   <div style="
+    border-radius: var(--segmented-button-border-radius, 24px);
     border: 1px solid var(--color-border-medium);
     max-width: 720px;
     min-width: 215px;
@@ -1019,12 +1174,19 @@
         flex-grow: 1
       ">
         <button style="
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: none;
           border-right-width: medium;
@@ -1067,9 +1229,15 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: none;
           border-right-width: medium;
@@ -1093,12 +1261,19 @@
         margin-inline-start: var(--spacing-100)
       ">
         <button style="
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: none;
           border-right-width: medium;
@@ -1137,12 +1312,19 @@
         margin-inline-start: var(--spacing-100)
       ">
         <button style="
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: none;
           border-right-width: medium;
@@ -1181,6 +1363,7 @@
 ┌─ textSpacing
 <div>
   <div style="
+    border-radius: var(--segmented-button-border-radius, 24px);
     border: 1px solid var(--color-border-medium);
     letter-spacing: 0.12em;
     line-height: 1.5;
@@ -1212,9 +1395,15 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: none;
           border-right-width: medium;
@@ -1244,12 +1433,19 @@
         word-spacing: 0.16em
       ">
         <button style="
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: none;
           border-right-width: medium;
@@ -1294,12 +1490,19 @@
         word-spacing: 0.16em
       ">
         <button style="
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: none;
           border-right-width: medium;
@@ -1341,6 +1544,7 @@
 ┌─ withIcons
 <div>
   <div style="
+    border-radius: var(--segmented-button-border-radius, 24px);
     border: 1px solid var(--color-border-medium);
     max-width: 720px;
     min-width: 215px;
@@ -1363,9 +1567,15 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: none;
           border-right-width: medium;
@@ -1416,12 +1626,19 @@
         margin-inline-start: var(--spacing-100)
       ">
         <button style="
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: none;
           border-right-width: medium;

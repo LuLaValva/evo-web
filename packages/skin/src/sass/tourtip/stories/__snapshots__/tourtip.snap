@@ -20,6 +20,7 @@
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
     <div style="
+      border-radius: var(--bubble-border-radius, var(--border-radius-100));
       box-shadow: var(--bubble-shadow);
       font-size: 14px;
       left: calc(50% - 200px);
@@ -42,6 +43,7 @@
       "/>
       <div style="
         background-color: var(--tourtip-background-color, var(--color-background-inverse));
+        border-radius: var(--bubble-border-radius, var(--border-radius-100));
         color: var(--tourtip-foreground-color, var(--color-foreground-on-inverse));
         position: relative;
         z-index: 1
@@ -157,6 +159,7 @@
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
     <div style="
+      border-radius: var(--bubble-border-radius, var(--border-radius-100));
       box-shadow: var(--bubble-shadow);
       font-size: 14px;
       left: calc(50% - 200px);
@@ -179,6 +182,7 @@
       "/>
       <div style="
         background-color: var(--tourtip-background-color, var(--color-background-inverse));
+        border-radius: var(--bubble-border-radius, var(--border-radius-100));
         color: var(--tourtip-foreground-color, var(--color-foreground-on-inverse));
         position: relative;
         z-index: 1
@@ -301,6 +305,7 @@
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
     <div style="
+      border-radius: var(--bubble-border-radius, var(--border-radius-100));
       box-shadow: var(--bubble-shadow);
       font-size: 14px;
       left: calc(50% - 200px);
@@ -329,6 +334,7 @@
       "/>
       <div style="
         background-color: var(--tourtip-background-color, var(--color-background-inverse));
+        border-radius: var(--bubble-border-radius, var(--border-radius-100));
         color: var(--tourtip-foreground-color, var(--color-foreground-on-inverse));
         letter-spacing: 0.12em;
         line-height: 1.5;
@@ -482,6 +488,7 @@
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
     <div style="
+      border-radius: var(--bubble-border-radius, var(--border-radius-100));
       box-shadow: var(--bubble-shadow);
       font-size: 14px;
       left: calc(50% - 200px);
@@ -510,6 +517,7 @@
       "/>
       <div style="
         background-color: var(--tourtip-background-color, var(--color-background-inverse));
+        border-radius: var(--bubble-border-radius, var(--border-radius-100));
         color: var(--tourtip-foreground-color, var(--color-foreground-on-inverse));
         letter-spacing: 0.12em;
         line-height: 1.5;
@@ -650,6 +658,7 @@
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
     <div style="
+      border-radius: var(--bubble-border-radius, var(--border-radius-100));
       box-shadow: var(--bubble-shadow);
       font-size: 14px;
       left: calc(50% - 200px);
@@ -672,6 +681,7 @@
       "/>
       <div style="
         background-color: var(--tourtip-background-color, var(--color-background-inverse));
+        border-radius: var(--bubble-border-radius, var(--border-radius-100));
         color: var(--tourtip-foreground-color, var(--color-foreground-on-inverse));
         position: relative;
         z-index: 1
@@ -785,6 +795,7 @@
               1 of 3
             </span>
             <button style="
+              background-color: initial;
               border-bottom-color: currentcolor;
               border-bottom-style: none;
               border-bottom-width: 0px;
@@ -815,17 +826,17 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
+              border-color: var(--color-border-accent);
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--btn-border-radius, 20px);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               color: var(--tourtip-foreground-color, var(--color-background-inverse));
               font-family: inherit;
               font-size: var(--font-size-body);
@@ -873,6 +884,7 @@
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
     <div style="
+      border-radius: var(--bubble-border-radius, var(--border-radius-100));
       box-shadow: var(--bubble-shadow);
       font-size: 14px;
       left: calc(50% - 200px);
@@ -895,6 +907,7 @@
       "/>
       <div style="
         background-color: var(--tourtip-background-color, var(--color-background-inverse));
+        border-radius: var(--bubble-border-radius, var(--border-radius-100));
         color: var(--tourtip-foreground-color, var(--color-foreground-on-inverse));
         position: relative;
         z-index: 1
@@ -1008,6 +1021,7 @@
               1 of 3
             </span>
             <button style="
+              background-color: initial;
               border-bottom-color: currentcolor;
               border-bottom-style: none;
               border-bottom-width: 0px;
@@ -1038,17 +1052,17 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
+              border-color: var(--color-border-accent);
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--btn-border-radius, 20px);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               color: var(--tourtip-foreground-color, var(--color-background-inverse));
               font-family: inherit;
               font-size: var(--font-size-body);
@@ -1093,6 +1107,7 @@
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
     <div style="
+      border-radius: var(--bubble-border-radius, var(--border-radius-100));
       box-shadow: var(--bubble-shadow);
       font-size: 14px;
       left: calc(50% - 200px);
@@ -1115,6 +1130,7 @@
       "/>
       <div style="
         background-color: var(--tourtip-background-color, var(--color-background-inverse));
+        border-radius: var(--bubble-border-radius, var(--border-radius-100));
         color: var(--tourtip-foreground-color, var(--color-foreground-on-inverse));
         position: relative;
         z-index: 1
@@ -1234,17 +1250,17 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
+              border-color: var(--color-border-accent);
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--btn-border-radius, 20px);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               color: var(--tourtip-foreground-color, var(--color-background-inverse));
               font-family: inherit;
               font-size: var(--font-size-body);
@@ -1292,6 +1308,7 @@
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
     <div style="
+      border-radius: var(--bubble-border-radius, var(--border-radius-100));
       box-shadow: var(--bubble-shadow);
       font-size: 14px;
       left: calc(50% - 200px);
@@ -1314,6 +1331,7 @@
       "/>
       <div style="
         background-color: var(--tourtip-background-color, var(--color-background-inverse));
+        border-radius: var(--bubble-border-radius, var(--border-radius-100));
         color: var(--tourtip-foreground-color, var(--color-foreground-on-inverse));
         position: relative;
         z-index: 1
@@ -1433,17 +1451,17 @@
               border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
-              border-bottom: 1px solid;
+              border-color: var(--color-border-accent);
               border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
+              border-radius: var(--btn-border-radius, 20px);
               border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
               border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
-              border-top: 1px solid;
               color: var(--tourtip-foreground-color, var(--color-background-inverse));
               font-family: inherit;
               font-size: var(--font-size-body);

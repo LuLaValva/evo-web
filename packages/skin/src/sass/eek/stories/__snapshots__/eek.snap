@@ -15,6 +15,11 @@
       border-bottom-right-radius: 2px;
       border-bottom-style: solid;
       border-bottom-width: 1px;
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      border-image-slice: initial;
+      border-image-source: initial;
+      border-image-width: initial;
       border-left-color: currentcolor;
       border-left-width: medium;
       border-right-style: solid;
@@ -112,6 +117,11 @@
       border-bottom-right-radius: 2px;
       border-bottom-style: solid;
       border-bottom-width: 1px;
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      border-image-slice: initial;
+      border-image-source: initial;
+      border-image-width: initial;
       border-left-color: currentcolor;
       border-left-width: medium;
       border-right-style: solid;

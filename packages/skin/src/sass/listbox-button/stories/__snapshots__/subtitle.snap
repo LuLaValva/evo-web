@@ -8,20 +8,21 @@
     <button style="
       align-content: center;
       align-items: center;
+      background-color: initial;
       border-bottom-color: inherit;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
+      border-color: var(--listbox-button-border-color, var(--color-border-medium));
       border-left-color: inherit;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
       border-right-color: inherit;
       border-right-style: solid;
       border-right-width: 1px;
       border-top-color: inherit;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       color: inherit;
       font-family: inherit;
       font-size: var(--font-size-body);
@@ -100,20 +101,21 @@
     <button style="
       align-content: center;
       align-items: center;
+      background-color: initial;
       border-bottom-color: inherit;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
+      border-color: var(--listbox-button-border-color, var(--color-border-medium));
       border-left-color: inherit;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
       border-right-color: inherit;
       border-right-style: solid;
       border-right-width: 1px;
       border-top-color: inherit;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       color: inherit;
       font-family: inherit;
       font-size: var(--font-size-body);
@@ -192,20 +194,21 @@
     <button style="
       align-content: center;
       align-items: center;
+      background-color: initial;
       border-bottom-color: inherit;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
+      border-color: var(--listbox-button-border-color, var(--color-border-medium));
       border-left-color: inherit;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
       border-right-color: inherit;
       border-right-style: solid;
       border-right-width: 1px;
       border-top-color: inherit;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       color: inherit;
       font-family: inherit;
       font-size: var(--font-size-body);
@@ -289,20 +292,21 @@
       style="
         align-content: center;
         align-items: center;
+        background-color: initial;
         border-bottom-color: inherit;
         border-bottom-style: solid;
         border-bottom-width: 1px;
-        border-bottom: 1px solid;
+        border-color: var(--expand-btn-disabled-border-color, var(--color-border-disabled));
         border-left-color: inherit;
         border-left-style: solid;
         border-left-width: 1px;
+        border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
         border-right-color: inherit;
         border-right-style: solid;
         border-right-width: 1px;
         border-top-color: inherit;
         border-top-style: solid;
         border-top-width: 1px;
-        border-top: 1px solid;
         color: var(--expand-btn-disabled-foreground-color, var(--color-foreground-disabled));
         font-family: inherit;
         font-size: var(--font-size-body);
@@ -385,20 +389,21 @@
     <button style="
       align-content: center;
       align-items: center;
+      background-color: initial;
       border-bottom-color: inherit;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
+      border-color: var(--listbox-button-border-color, var(--color-border-medium));
       border-left-color: inherit;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
       border-right-color: inherit;
       border-right-style: solid;
       border-right-width: 1px;
       border-top-color: inherit;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       color: inherit;
       font-family: inherit;
       font-size: var(--font-size-body);
@@ -467,6 +472,7 @@
     </button>
     <div style="
       background-color: var(--color-background-elevated);
+      border-radius: var(--border-radius-50);
       box-shadow: var(--bubble-shadow);
       box-sizing: border-box;
       left: 0px;
@@ -478,10 +484,12 @@
       width: auto;
       z-index: 2
     ">
-      <div>
+      <div style="border-radius: var(--listbox-button-border-radius, var(--border-radius-50))">
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--color-background-primary);
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -571,8 +579,10 @@
           </svg>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--color-background-primary);
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -659,8 +669,10 @@
           </svg>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--color-background-primary);
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -748,10 +760,12 @@
           </svg>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-left-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--color-background-primary);
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -855,20 +869,21 @@
     <button style="
       align-content: center;
       align-items: center;
+      background-color: initial;
       border-bottom-color: inherit;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
+      border-color: var(--listbox-button-border-color, var(--color-border-medium));
       border-left-color: inherit;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
       border-right-color: inherit;
       border-right-style: solid;
       border-right-width: 1px;
       border-top-color: inherit;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       color: inherit;
       font-family: inherit;
       font-size: var(--font-size-body);
@@ -937,6 +952,7 @@
     </button>
     <div style="
       background-color: var(--color-background-elevated);
+      border-radius: var(--border-radius-50);
       box-shadow: var(--bubble-shadow);
       box-sizing: border-box;
       left: 0px;
@@ -948,10 +964,12 @@
       width: auto;
       z-index: 2
     ">
-      <div>
+      <div style="border-radius: var(--listbox-button-border-radius, var(--border-radius-50))">
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--color-background-primary);
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -1041,8 +1059,10 @@
           </svg>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--color-background-primary);
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -1130,8 +1150,10 @@
           </svg>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--color-background-primary);
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -1219,10 +1241,12 @@
           </svg>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-left-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--color-background-primary);
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -1326,20 +1350,21 @@
     <button style="
       align-content: center;
       align-items: center;
+      background-color: initial;
       border-bottom-color: inherit;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
+      border-color: var(--listbox-button-invalid-border-color, var(--color-border-attention));
       border-left-color: inherit;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
       border-right-color: inherit;
       border-right-style: solid;
       border-right-width: 1px;
       border-top-color: inherit;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       color: inherit;
       font-family: inherit;
       font-size: var(--font-size-body);
@@ -1421,20 +1446,21 @@
     <button style="
       align-content: center;
       align-items: center;
+      background-color: initial;
       border-bottom-color: inherit;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
+      border-color: var(--listbox-button-border-color, var(--color-border-medium));
       border-left-color: inherit;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
       border-right-color: inherit;
       border-right-style: solid;
       border-right-width: 1px;
       border-top-color: inherit;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       color: inherit;
       font-family: inherit;
       font-size: var(--font-size-body);
@@ -1503,6 +1529,7 @@
     </button>
     <div style="
       background-color: var(--color-background-elevated);
+      border-radius: var(--border-radius-50);
       box-shadow: var(--bubble-shadow);
       box-sizing: border-box;
       left: 0px;
@@ -1514,10 +1541,12 @@
       width: auto;
       z-index: 2
     ">
-      <div>
+      <div style="border-radius: var(--listbox-button-border-radius, var(--border-radius-50))">
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--color-background-primary);
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -1606,8 +1635,10 @@
           </svg>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--color-background-primary);
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -1695,10 +1726,12 @@
           </svg>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-left-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--color-background-primary);
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -1802,20 +1835,21 @@
     <button style="
       align-content: center;
       align-items: center;
+      background-color: initial;
       border-bottom-color: inherit;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
+      border-color: var(--listbox-button-border-color, var(--color-border-medium));
       border-left-color: inherit;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
       border-right-color: inherit;
       border-right-style: solid;
       border-right-width: 1px;
       border-top-color: inherit;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       color: inherit;
       font-family: inherit;
       font-size: var(--font-size-body);
@@ -1884,6 +1918,7 @@
     </button>
     <div style="
       background-color: var(--color-background-elevated);
+      border-radius: var(--border-radius-50);
       box-shadow: var(--bubble-shadow);
       box-sizing: border-box;
       left: 0px;
@@ -1895,10 +1930,12 @@
       width: auto;
       z-index: 2
     ">
-      <div>
+      <div style="border-radius: var(--listbox-button-border-radius, var(--border-radius-50))">
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--color-background-primary);
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -1987,8 +2024,10 @@
           </svg>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--color-background-primary);
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -2076,10 +2115,12 @@
           </svg>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-left-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--color-background-primary);
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;

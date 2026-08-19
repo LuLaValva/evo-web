@@ -3,10 +3,12 @@
   <span style="
     align-items: center;
     background-color: var(--color-background-strong);
+    border-radius: var(--border-radius-50);
     box-sizing: border-box;
     color: var(--color-foreground-on-strong);
     display: inline-flex;
     font-size: 200%;
+    gap: var(--spacing-75);
     height: var(--spacing-400);
     justify-content: space-between;
     max-width: 296px;
@@ -25,11 +27,17 @@
     </span>
     <button style="
       align-items: center;
+      background-color: initial;
       border-bottom-color: currentcolor;
       border-bottom-left-radius: 50px;
       border-bottom-right-radius: 50px;
       border-bottom-style: none;
       border-bottom-width: medium;
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      border-image-slice: initial;
+      border-image-source: initial;
+      border-image-width: initial;
       border-left-color: currentcolor;
       border-left-style: none;
       border-left-width: medium;
@@ -79,10 +87,12 @@
   <span style="
     align-items: center;
     background-color: var(--color-background-strong);
+    border-radius: var(--border-radius-50);
     box-sizing: border-box;
     color: var(--color-foreground-on-strong);
     display: inline-flex;
     font-size: var(--font-size-body);
+    gap: var(--spacing-75);
     height: var(--spacing-400);
     justify-content: space-between;
     max-width: 296px;
@@ -101,11 +111,17 @@
     </span>
     <button style="
       align-items: center;
+      background-color: initial;
       border-bottom-color: currentcolor;
       border-bottom-left-radius: 50px;
       border-bottom-right-radius: 50px;
       border-bottom-style: none;
       border-bottom-width: medium;
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      border-image-slice: initial;
+      border-image-source: initial;
+      border-image-width: initial;
       border-left-color: currentcolor;
       border-left-style: none;
       border-left-width: medium;
@@ -155,10 +171,12 @@
   <span style="
     align-items: center;
     background-color: var(--color-background-strong);
+    border-radius: var(--border-radius-50);
     box-sizing: border-box;
     color: var(--color-foreground-on-strong);
     display: inline-flex;
     font-size: var(--font-size-body);
+    gap: var(--spacing-75);
     height: var(--spacing-400);
     justify-content: space-between;
     letter-spacing: calc(1.68px);
@@ -178,11 +196,17 @@
     </span>
     <button style="
       align-items: center;
+      background-color: initial;
       border-bottom-color: currentcolor;
       border-bottom-left-radius: 50px;
       border-bottom-right-radius: 50px;
       border-bottom-style: none;
       border-bottom-width: medium;
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      border-image-slice: initial;
+      border-image-source: initial;
+      border-image-width: initial;
       border-left-color: currentcolor;
       border-left-style: none;
       border-left-width: medium;
@@ -232,10 +256,12 @@
   <span style="
     align-items: center;
     background-color: var(--color-background-strong);
+    border-radius: var(--border-radius-50);
     box-sizing: border-box;
     color: var(--color-foreground-on-strong);
     display: inline-flex;
     font-size: var(--font-size-body);
+    gap: var(--spacing-75);
     height: var(--spacing-400);
     justify-content: space-between;
     max-width: 296px;
@@ -254,11 +280,17 @@
     </span>
     <button style="
       align-items: center;
+      background-color: initial;
       border-bottom-color: currentcolor;
       border-bottom-left-radius: 50px;
       border-bottom-right-radius: 50px;
       border-bottom-style: none;
       border-bottom-width: medium;
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      border-image-slice: initial;
+      border-image-source: initial;
+      border-image-width: initial;
       border-left-color: currentcolor;
       border-left-style: none;
       border-left-width: medium;
@@ -308,10 +340,12 @@
   <span style="
     align-items: center;
     background-color: var(--color-background-strong);
+    border-radius: var(--border-radius-50);
     box-sizing: border-box;
     color: var(--color-foreground-on-strong);
     display: inline-flex;
     font-size: var(--font-size-body);
+    gap: var(--spacing-75);
     height: var(--spacing-400);
     justify-content: space-between;
     max-width: 296px;
@@ -330,11 +364,17 @@
     </span>
     <button style="
       align-items: center;
+      background-color: initial;
       border-bottom-color: currentcolor;
       border-bottom-left-radius: 50px;
       border-bottom-right-radius: 50px;
       border-bottom-style: none;
       border-bottom-width: medium;
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      border-image-slice: initial;
+      border-image-source: initial;
+      border-image-width: initial;
       border-left-color: currentcolor;
       border-left-style: none;
       border-left-width: medium;
@@ -380,10 +420,12 @@
   <span style="
     align-items: center;
     background-color: var(--color-background-strong);
+    border-radius: var(--border-radius-50);
     box-sizing: border-box;
     color: var(--color-foreground-on-strong);
     display: inline-flex;
     font-size: var(--font-size-body);
+    gap: var(--spacing-75);
     height: var(--spacing-400);
     justify-content: space-between;
     max-width: 296px;
@@ -402,11 +444,17 @@
     </span>
     <button style="
       align-items: center;
+      background-color: initial;
       border-bottom-color: currentcolor;
       border-bottom-left-radius: 50px;
       border-bottom-right-radius: 50px;
       border-bottom-style: none;
       border-bottom-width: medium;
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      border-image-slice: initial;
+      border-image-source: initial;
+      border-image-width: initial;
       border-left-color: currentcolor;
       border-left-style: none;
       border-left-width: medium;
@@ -452,10 +500,12 @@
   <span style="
     align-items: center;
     background-color: var(--color-background-strong);
+    border-radius: var(--border-radius-50);
     box-sizing: border-box;
     color: var(--color-foreground-on-strong);
     display: inline-flex;
     font-size: var(--font-size-body);
+    gap: var(--spacing-75);
     height: var(--spacing-400);
     justify-content: space-between;
     max-width: 296px;
@@ -474,11 +524,17 @@
     </span>
     <button style="
       align-items: center;
+      background-color: initial;
       border-bottom-color: currentcolor;
       border-bottom-left-radius: 50px;
       border-bottom-right-radius: 50px;
       border-bottom-style: none;
       border-bottom-width: medium;
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      border-image-slice: initial;
+      border-image-source: initial;
+      border-image-width: initial;
       border-left-color: currentcolor;
       border-left-style: none;
       border-left-width: medium;
@@ -524,10 +580,12 @@
   <span style="
     align-items: center;
     background-color: var(--color-background-strong);
+    border-radius: var(--border-radius-50);
     box-sizing: border-box;
     color: var(--color-foreground-on-strong);
     display: inline-flex;
     font-size: var(--font-size-body);
+    gap: var(--spacing-75);
     height: var(--spacing-400);
     justify-content: space-between;
     max-width: 296px;
@@ -546,11 +604,17 @@
     </span>
     <button style="
       align-items: center;
+      background-color: initial;
       border-bottom-color: currentcolor;
       border-bottom-left-radius: 50px;
       border-bottom-right-radius: 50px;
       border-bottom-style: none;
       border-bottom-width: medium;
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      border-image-slice: initial;
+      border-image-source: initial;
+      border-image-width: initial;
       border-left-color: currentcolor;
       border-left-style: none;
       border-left-width: medium;
@@ -596,10 +660,12 @@
   <span style="
     align-items: center;
     background-color: var(--color-background-strong);
+    border-radius: var(--border-radius-50);
     box-sizing: border-box;
     color: var(--color-foreground-on-strong);
     display: inline-flex;
     font-size: var(--font-size-body);
+    gap: var(--spacing-75);
     height: var(--spacing-400);
     justify-content: space-between;
     max-width: 296px;
@@ -618,11 +684,17 @@
     </span>
     <button style="
       align-items: center;
+      background-color: initial;
       border-bottom-color: currentcolor;
       border-bottom-left-radius: 50px;
       border-bottom-right-radius: 50px;
       border-bottom-style: none;
       border-bottom-width: medium;
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      border-image-slice: initial;
+      border-image-source: initial;
+      border-image-width: initial;
       border-left-color: currentcolor;
       border-left-style: none;
       border-left-width: medium;
@@ -668,10 +740,12 @@
   <span style="
     align-items: center;
     background-color: var(--color-background-strong);
+    border-radius: var(--border-radius-50);
     box-sizing: border-box;
     color: var(--color-foreground-on-strong);
     display: inline-flex;
     font-size: var(--font-size-body);
+    gap: var(--spacing-75);
     height: var(--spacing-400);
     justify-content: space-between;
     max-width: 296px;
@@ -690,11 +764,17 @@
     </span>
     <button style="
       align-items: center;
+      background-color: initial;
       border-bottom-color: currentcolor;
       border-bottom-left-radius: 50px;
       border-bottom-right-radius: 50px;
       border-bottom-style: none;
       border-bottom-width: medium;
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      border-image-slice: initial;
+      border-image-source: initial;
+      border-image-width: initial;
       border-left-color: currentcolor;
       border-left-style: none;
       border-left-width: medium;
@@ -740,10 +820,12 @@
   <span style="
     align-items: center;
     background-color: var(--color-background-strong);
+    border-radius: var(--border-radius-50);
     box-sizing: border-box;
     color: var(--color-foreground-on-strong);
     display: inline-flex;
     font-size: var(--font-size-body);
+    gap: var(--spacing-75);
     height: var(--spacing-400);
     justify-content: space-between;
     max-width: 296px;
@@ -762,11 +844,17 @@
     </span>
     <button style="
       align-items: center;
+      background-color: initial;
       border-bottom-color: currentcolor;
       border-bottom-left-radius: 50px;
       border-bottom-right-radius: 50px;
       border-bottom-style: none;
       border-bottom-width: medium;
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      border-image-slice: initial;
+      border-image-source: initial;
+      border-image-width: initial;
       border-left-color: currentcolor;
       border-left-style: none;
       border-left-width: medium;
@@ -812,10 +900,12 @@
   <span style="
     align-items: center;
     background-color: var(--color-background-strong);
+    border-radius: var(--border-radius-50);
     box-sizing: border-box;
     color: var(--color-foreground-on-strong);
     display: inline-flex;
     font-size: var(--font-size-body);
+    gap: var(--spacing-75);
     height: var(--spacing-400);
     justify-content: space-between;
     max-width: 296px;
@@ -834,11 +924,17 @@
     </span>
     <button style="
       align-items: center;
+      background-color: initial;
       border-bottom-color: currentcolor;
       border-bottom-left-radius: 50px;
       border-bottom-right-radius: 50px;
       border-bottom-style: none;
       border-bottom-width: medium;
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      border-image-slice: initial;
+      border-image-source: initial;
+      border-image-width: initial;
       border-left-color: currentcolor;
       border-left-style: none;
       border-left-width: medium;
@@ -884,10 +980,12 @@
   <span style="
     align-items: center;
     background-color: var(--color-background-strong);
+    border-radius: var(--border-radius-50);
     box-sizing: border-box;
     color: var(--color-foreground-on-strong);
     display: inline-flex;
     font-size: var(--font-size-body);
+    gap: var(--spacing-75);
     height: var(--spacing-400);
     justify-content: space-between;
     max-width: 296px;
@@ -906,11 +1004,17 @@
     </span>
     <button style="
       align-items: center;
+      background-color: initial;
       border-bottom-color: currentcolor;
       border-bottom-left-radius: 50px;
       border-bottom-right-radius: 50px;
       border-bottom-style: none;
       border-bottom-width: medium;
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      border-image-slice: initial;
+      border-image-source: initial;
+      border-image-width: initial;
       border-left-color: currentcolor;
       border-left-style: none;
       border-left-width: medium;
@@ -956,10 +1060,12 @@
   <span style="
     align-items: center;
     background-color: var(--color-background-strong);
+    border-radius: var(--border-radius-50);
     box-sizing: border-box;
     color: var(--color-foreground-on-strong);
     display: inline-flex;
     font-size: var(--font-size-body);
+    gap: var(--spacing-75);
     height: var(--spacing-400);
     justify-content: space-between;
     max-width: 296px;
@@ -978,11 +1084,17 @@
     </span>
     <button style="
       align-items: center;
+      background-color: initial;
       border-bottom-color: currentcolor;
       border-bottom-left-radius: 50px;
       border-bottom-right-radius: 50px;
       border-bottom-style: none;
       border-bottom-width: medium;
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      border-image-slice: initial;
+      border-image-source: initial;
+      border-image-width: initial;
       border-left-color: currentcolor;
       border-left-style: none;
       border-left-width: medium;
@@ -1028,10 +1140,12 @@
   <span style="
     align-items: center;
     background-color: var(--color-background-strong);
+    border-radius: var(--border-radius-50);
     box-sizing: border-box;
     color: var(--color-foreground-on-strong);
     display: inline-flex;
     font-size: var(--font-size-body);
+    gap: var(--spacing-75);
     height: var(--spacing-400);
     justify-content: space-between;
     max-width: 296px;
@@ -1050,11 +1164,17 @@
     </span>
     <button style="
       align-items: center;
+      background-color: initial;
       border-bottom-color: currentcolor;
       border-bottom-left-radius: 50px;
       border-bottom-right-radius: 50px;
       border-bottom-style: none;
       border-bottom-width: medium;
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      border-image-slice: initial;
+      border-image-source: initial;
+      border-image-width: initial;
       border-left-color: currentcolor;
       border-left-style: none;
       border-left-width: medium;
@@ -1104,10 +1224,12 @@
   <span style="
     align-items: center;
     background-color: var(--color-background-strong);
+    border-radius: var(--border-radius-50);
     box-sizing: border-box;
     color: var(--color-foreground-on-strong);
     display: inline-flex;
     font-size: var(--font-size-body);
+    gap: var(--spacing-75);
     height: var(--spacing-400);
     justify-content: space-between;
     max-width: 296px;
@@ -1126,11 +1248,17 @@
     </span>
     <button style="
       align-items: center;
+      background-color: initial;
       border-bottom-color: currentcolor;
       border-bottom-left-radius: 50px;
       border-bottom-right-radius: 50px;
       border-bottom-style: none;
       border-bottom-width: medium;
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      border-image-slice: initial;
+      border-image-source: initial;
+      border-image-width: initial;
       border-left-color: currentcolor;
       border-left-style: none;
       border-left-width: medium;

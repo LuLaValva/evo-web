@@ -2,6 +2,9 @@
 <div>
   <span style="
     background-color: var(--color-background-secondary);
+    border-color: var(--color-border-disabled);
+    border-radius: var(--border-radius-50);
+    border: 1px solid var(--color-border-medium);
     display: inline-block;
     padding-block: var(--spacing-100);
     padding-inline: var(--spacing-100) var(--spacing-200);
@@ -22,10 +25,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-disabled);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           max-width: 296px;
@@ -44,11 +49,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -96,10 +107,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-disabled);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           max-width: 296px;
@@ -118,11 +131,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -170,10 +189,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-disabled);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           max-width: 296px;
@@ -192,11 +213,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -259,9 +286,16 @@
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-color: var(--combobox-textbox-disabled-border-color, var(--color-background-disabled));
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
+            border-radius: var(--combobox-textbox-border-radius, var(--border-radius-50));
             border-right-color: currentcolor;
             border-right-style: none;
             border-right-width: medium;
@@ -291,6 +325,9 @@
 <div>
   <span style="
     background-color: var(--color-background-secondary);
+    border-color: var(--color-border-disabled);
+    border-radius: var(--border-radius-50);
+    border: 1px solid var(--color-border-medium);
     display: inline-block;
     padding-block: var(--spacing-100);
     padding-inline: var(--spacing-100) var(--spacing-200);
@@ -311,10 +348,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-disabled);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           max-width: 296px;
@@ -333,11 +372,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -385,10 +430,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-disabled);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           max-width: 296px;
@@ -407,11 +454,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -459,10 +512,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-disabled);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           max-width: 296px;
@@ -481,11 +536,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -548,9 +609,16 @@
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-color: var(--combobox-textbox-disabled-border-color, var(--color-background-disabled));
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
+            border-radius: var(--combobox-textbox-border-radius, var(--border-radius-50));
             border-right-color: currentcolor;
             border-right-style: none;
             border-right-width: medium;
@@ -580,6 +648,7 @@
 <div>
   <span style="
     background-color: var(--color-background-secondary);
+    border-radius: var(--border-radius-50);
     border: 1px solid var(--color-border-medium);
     display: inline-block;
     padding-block: var(--spacing-100);
@@ -603,9 +672,16 @@
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-color: var(--combobox-textbox-border-color, var(--color-border-medium));
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
+            border-radius: var(--combobox-textbox-border-radius, var(--border-radius-50));
             border-right-color: currentcolor;
             border-right-style: none;
             border-right-width: medium;
@@ -638,6 +714,9 @@
 <div>
   <span style="
     background-color: var(--color-background-secondary);
+    border-color: var(--color-border-attention);
+    border-radius: var(--border-radius-50);
+    border: 1px solid var(--color-border-medium);
     display: inline-block;
     padding-block: var(--spacing-100);
     padding-inline: var(--spacing-100) var(--spacing-200);
@@ -657,10 +736,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-on-strong);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           max-width: 296px;
@@ -679,11 +760,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -731,10 +818,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-on-strong);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           max-width: 296px;
@@ -753,11 +842,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -805,10 +900,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-on-strong);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           max-width: 296px;
@@ -827,11 +924,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -893,9 +996,16 @@
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-color: var(--combobox-textbox-border-color, var(--color-border-medium));
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
+            border-radius: var(--combobox-textbox-border-radius, var(--border-radius-50));
             border-right-color: currentcolor;
             border-right-style: none;
             border-right-width: medium;
@@ -928,6 +1038,7 @@
 <div>
   <span style="
     background-color: var(--color-background-secondary);
+    border-radius: var(--border-radius-50);
     border: 1px solid var(--color-border-medium);
     display: inline-block;
     padding-block: var(--spacing-100);
@@ -948,10 +1059,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-on-strong);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           max-width: 296px;
@@ -970,11 +1083,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -1022,10 +1141,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-on-strong);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           max-width: 296px;
@@ -1044,11 +1165,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -1096,10 +1223,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-on-strong);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           max-width: 296px;
@@ -1118,11 +1247,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -1184,9 +1319,16 @@
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-color: var(--combobox-textbox-border-color, var(--color-border-medium));
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
+            border-radius: var(--combobox-textbox-border-radius, var(--border-radius-50));
             border-right-color: currentcolor;
             border-right-style: none;
             border-right-width: medium;
@@ -1210,6 +1352,7 @@
       </span>
       <div style="
         background-color: var(--color-background-elevated);
+        border-radius: var(--border-radius-50);
         box-shadow: var(--bubble-shadow);
         box-sizing: border-box;
         left: 0px;
@@ -1223,7 +1366,9 @@
       ">
         <div>
           <div style="
+            background-color: initial;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-width: 1px;
             border-right-width: 1px;
             border-top-left-radius: var(--combobox-listbox-border-radius, var(--border-radius-50));
@@ -1263,7 +1408,9 @@
             </span>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-width: 1px;
             border-right-width: 1px;
             border-top-width: 1px;
@@ -1301,9 +1448,11 @@
             </span>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-left-radius: var(--combobox-listbox-border-radius, var(--border-radius-50));
             border-bottom-right-radius: var(--combobox-listbox-border-radius, var(--border-radius-50));
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-width: 1px;
             border-right-width: 1px;
             border-top-width: 1px;
@@ -1352,6 +1501,7 @@
 <div>
   <span style="
     background-color: var(--color-background-secondary);
+    border-radius: var(--border-radius-50);
     border: 1px solid var(--color-border-medium);
     display: block;
     padding-block: var(--spacing-100);
@@ -1375,9 +1525,16 @@
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-color: var(--combobox-textbox-border-color, var(--color-border-medium));
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
+            border-radius: var(--combobox-textbox-border-radius, var(--border-radius-50));
             border-right-color: currentcolor;
             border-right-style: none;
             border-right-width: medium;
@@ -1410,6 +1567,7 @@
 <div>
   <span style="
     background-color: var(--color-background-secondary);
+    border-radius: var(--border-radius-50);
     border: 1px solid var(--color-border-medium);
     display: inline-block;
     padding-block: var(--spacing-100);
@@ -1430,10 +1588,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-on-strong);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           max-width: 296px;
@@ -1452,11 +1612,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -1504,10 +1670,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-on-strong);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           max-width: 296px;
@@ -1526,11 +1694,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -1578,10 +1752,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-on-strong);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           max-width: 296px;
@@ -1600,11 +1776,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -1652,10 +1834,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-on-strong);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           max-width: 296px;
@@ -1674,11 +1858,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -1726,10 +1916,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-on-strong);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           max-width: 296px;
@@ -1748,11 +1940,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -1800,10 +1998,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-on-strong);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           max-width: 296px;
@@ -1822,11 +2022,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -1874,10 +2080,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-on-strong);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           max-width: 296px;
@@ -1896,11 +2104,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -1948,10 +2162,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-on-strong);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           max-width: 296px;
@@ -1970,11 +2186,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -2022,10 +2244,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-on-strong);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           max-width: 296px;
@@ -2044,11 +2268,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -2096,10 +2326,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-on-strong);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           max-width: 296px;
@@ -2118,11 +2350,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -2170,10 +2408,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-on-strong);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           max-width: 296px;
@@ -2192,11 +2432,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -2244,10 +2490,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-on-strong);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           max-width: 296px;
@@ -2266,11 +2514,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -2318,10 +2572,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-on-strong);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           max-width: 296px;
@@ -2340,11 +2596,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -2392,10 +2654,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-on-strong);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           max-width: 296px;
@@ -2414,11 +2678,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -2466,10 +2736,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-on-strong);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           max-width: 296px;
@@ -2488,11 +2760,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -2554,9 +2832,16 @@
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-color: var(--combobox-textbox-border-color, var(--color-border-medium));
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
+            border-radius: var(--combobox-textbox-border-radius, var(--border-radius-50));
             border-right-color: currentcolor;
             border-right-style: none;
             border-right-width: medium;
@@ -2589,6 +2874,7 @@
 <div>
   <span style="
     background-color: var(--color-background-secondary);
+    border-radius: var(--border-radius-50);
     border: 1px solid var(--color-border-medium);
     display: inline-block;
     padding-block: var(--spacing-100);
@@ -2609,10 +2895,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-on-strong);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           max-width: 296px;
@@ -2631,11 +2919,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -2683,10 +2977,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-on-strong);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           max-width: 296px;
@@ -2705,11 +3001,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -2757,10 +3059,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-on-strong);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           max-width: 296px;
@@ -2779,11 +3083,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -2845,9 +3155,16 @@
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-color: var(--combobox-textbox-border-color, var(--color-border-medium));
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
+            border-radius: var(--combobox-textbox-border-radius, var(--border-radius-50));
             border-right-color: currentcolor;
             border-right-style: none;
             border-right-width: medium;
@@ -2880,6 +3197,7 @@
 <div>
   <span style="
     background-color: var(--color-background-secondary);
+    border-radius: var(--border-radius-50);
     border: 1px solid var(--color-border-medium);
     display: inline-block;
     letter-spacing: 0.12em;
@@ -2911,10 +3229,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-on-strong);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           letter-spacing: 0.12em;
@@ -2939,11 +3259,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -3008,10 +3334,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-on-strong);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           letter-spacing: 0.12em;
@@ -3036,11 +3364,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -3105,10 +3439,12 @@
         <span style="
           align-items: center;
           background-color: var(--color-background-strong);
+          border-radius: var(--border-radius-50);
           box-sizing: border-box;
           color: var(--color-foreground-on-strong);
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-75);
           height: var(--spacing-400);
           justify-content: space-between;
           letter-spacing: 0.12em;
@@ -3133,11 +3469,17 @@
           </span>
           <button style="
             align-items: center;
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
@@ -3218,9 +3560,16 @@
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: medium;
+            border-color: var(--combobox-textbox-border-color, var(--color-border-medium));
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-image-slice: initial;
+            border-image-source: initial;
+            border-image-width: initial;
             border-left-color: currentcolor;
             border-left-style: none;
             border-left-width: medium;
+            border-radius: var(--combobox-textbox-border-radius, var(--border-radius-50));
             border-right-color: currentcolor;
             border-right-style: none;
             border-right-width: medium;
@@ -3247,6 +3596,7 @@
       </span>
       <div style="
         background-color: var(--color-background-elevated);
+        border-radius: var(--border-radius-50);
         box-shadow: var(--bubble-shadow);
         box-sizing: border-box;
         left: 0px;
@@ -3267,7 +3617,9 @@
           word-spacing: 0.16em
         ">
           <div style="
+            background-color: initial;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-width: 1px;
             border-right-width: 1px;
             border-top-left-radius: var(--combobox-listbox-border-radius, var(--border-radius-50));
@@ -3315,7 +3667,9 @@
             </span>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-width: 1px;
             border-right-width: 1px;
             border-top-width: 1px;
@@ -3361,9 +3715,11 @@
             </span>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-left-radius: var(--combobox-listbox-border-radius, var(--border-radius-50));
             border-bottom-right-radius: var(--combobox-listbox-border-radius, var(--border-radius-50));
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-width: 1px;
             border-right-width: 1px;
             border-top-width: 1px;

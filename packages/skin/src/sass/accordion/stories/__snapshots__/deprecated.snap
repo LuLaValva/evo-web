@@ -25,11 +25,13 @@
         }}</style>
         <summary style="
           align-items: center;
+          border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
           box-sizing: border-box;
           color: var(--details-summary-foreground-color, var(--color-foreground-primary));
           display: flex;
           font-size: var(--font-size-medium);
           font-weight: var(--font-weight-600);
+          gap: var(--spacing-100);
           list-style-position: inside;
           list-style-type: none;
           min-height: 48px;
@@ -131,11 +133,13 @@
         }}</style>
         <summary style="
           align-items: center;
+          border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
           box-sizing: border-box;
           color: var(--details-summary-foreground-color, var(--color-foreground-primary));
           display: flex;
           font-size: var(--font-size-medium);
           font-weight: var(--font-weight-600);
+          gap: var(--spacing-100);
           list-style-position: inside;
           list-style-type: none;
           min-height: 48px;
@@ -237,11 +241,13 @@
         }}</style>
         <summary style="
           align-items: center;
+          border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
           box-sizing: border-box;
           color: var(--details-summary-foreground-color, var(--color-foreground-primary));
           display: flex;
           font-size: var(--font-size-medium);
           font-weight: var(--font-weight-600);
+          gap: var(--spacing-100);
           list-style-position: inside;
           list-style-type: none;
           min-height: 48px;
@@ -357,11 +363,13 @@
         }}</style>
         <summary style="
           align-items: center;
+          border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
           box-sizing: border-box;
           color: var(--details-summary-foreground-color, var(--color-foreground-primary));
           display: flex;
           font-size: var(--font-size-medium);
           font-weight: var(--font-weight-600);
+          gap: var(--spacing-100);
           list-style-position: inside;
           list-style-type: none;
           min-height: 48px;
@@ -466,11 +474,13 @@
         }}</style>
         <summary style="
           align-items: center;
+          border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
           box-sizing: border-box;
           color: var(--details-summary-foreground-color, var(--color-foreground-primary));
           display: flex;
           font-size: var(--font-size-medium);
           font-weight: var(--font-weight-600);
+          gap: var(--spacing-100);
           list-style-position: inside;
           list-style-type: none;
           min-height: 48px;
@@ -572,11 +582,13 @@
         }}</style>
         <summary style="
           align-items: center;
+          border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
           box-sizing: border-box;
           color: var(--details-summary-foreground-color, var(--color-foreground-primary));
           display: flex;
           font-size: var(--font-size-medium);
           font-weight: var(--font-weight-600);
+          gap: var(--spacing-100);
           list-style-position: inside;
           list-style-type: none;
           min-height: 48px;

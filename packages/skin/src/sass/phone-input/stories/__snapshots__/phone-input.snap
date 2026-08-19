@@ -17,10 +17,11 @@
         border-bottom-left-radius: 8px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
-        border-bottom: 1px solid;
+        border-color: var(--listbox-button-border-color, var(--color-border-medium));
         border-left-color: inherit;
         border-left-style: solid;
         border-left-width: 1px;
+        border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
         border-right-color: inherit;
         border-right-style: none;
         border-right-width: 1px;
@@ -28,7 +29,6 @@
         border-top-left-radius: 8px;
         border-top-style: solid;
         border-top-width: 1px;
-        border-top: 1px solid;
         color: var(--listbox-button-foreground-color, var(--color-foreground-primary));
         font-family: inherit;
         font-size: var(--font-size-body);
@@ -74,6 +74,7 @@
               background-repeat: no-repeat;
               background-size: 100% 49494%;
               box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+              box-sizing: initial;
               display: inline-block;
               height: 18px;
               overflow-x: hidden;
@@ -106,6 +107,7 @@
       </button>
       <div style="
         background-color: var(--color-background-elevated);
+        border-radius: var(--border-radius-50);
         box-shadow: var(--bubble-shadow);
         box-sizing: border-box;
         left: 0px;
@@ -117,10 +119,12 @@
         width: auto;
         z-index: 2
       ">
-        <div>
+        <div style="border-radius: var(--listbox-button-border-radius, var(--border-radius-50))">
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -171,6 +175,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 height: 18px;
                 margin-inline-end: var(--spacing-100);
@@ -217,8 +222,10 @@
             </svg>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -267,6 +274,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 height: 18px;
                 margin-inline-end: var(--spacing-100);
@@ -313,8 +321,10 @@
             </svg>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -363,6 +373,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 height: 18px;
                 margin-inline-end: var(--spacing-100);
@@ -409,8 +420,10 @@
             </svg>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -459,6 +472,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 height: 18px;
                 margin-inline-end: var(--spacing-100);
@@ -505,10 +519,12 @@
             </svg>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-left-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
             border-bottom-right-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -556,6 +572,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 height: 18px;
                 margin-inline-end: var(--spacing-100);
@@ -608,8 +625,10 @@
       background-color: var(--textbox-background-color, var(--color-background-secondary));
       border-bottom-style: solid;
       border-bottom-width: 1px;
+      border-color: var(--textbox-border-color, var(--color-border-medium));
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: 0 var(--border-radius-50) var(--border-radius-50) 0;
       border-right-style: solid;
       border-right-width: 1px;
       border-top-style: solid;
@@ -618,6 +637,7 @@
       color: var(--textbox-foreground-color, var(--color-foreground-primary));
       display: inline-flex;
       font-size: var(--font-size-body);
+      gap: var(--spacing-100);
       overflow-x: hidden;
       overflow-y: hidden;
       position: relative;
@@ -632,9 +652,15 @@
       <input
         style="
           appearance: none;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -679,10 +705,11 @@
         border-bottom-right-radius: 8px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
-        border-bottom: 1px solid;
+        border-color: var(--listbox-button-border-color, var(--color-border-medium));
         border-left-color: inherit;
         border-left-style: solid;
         border-left-width: 1px;
+        border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
         border-right-color: inherit;
         border-right-style: none;
         border-right-width: 1px;
@@ -690,7 +717,6 @@
         border-top-right-radius: 8px;
         border-top-style: solid;
         border-top-width: 1px;
-        border-top: 1px solid;
         color: var(--listbox-button-foreground-color, var(--color-foreground-primary));
         font-family: inherit;
         font-size: var(--font-size-body);
@@ -736,6 +762,7 @@
               background-repeat: no-repeat;
               background-size: 100% 49494%;
               box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+              box-sizing: initial;
               display: inline-block;
               height: 18px;
               overflow-x: hidden;
@@ -768,6 +795,7 @@
       </button>
       <div style="
         background-color: var(--color-background-elevated);
+        border-radius: var(--border-radius-50);
         box-shadow: var(--bubble-shadow);
         box-sizing: border-box;
         left: unset;
@@ -780,10 +808,12 @@
         width: auto;
         z-index: 2
       ">
-        <div>
+        <div style="border-radius: var(--listbox-button-border-radius, var(--border-radius-50))">
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -834,6 +864,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 height: 18px;
                 margin-inline-end: var(--spacing-100);
@@ -880,8 +911,10 @@
             </svg>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -930,6 +963,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 height: 18px;
                 margin-inline-end: var(--spacing-100);
@@ -976,8 +1010,10 @@
             </svg>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -1026,6 +1062,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 height: 18px;
                 margin-inline-end: var(--spacing-100);
@@ -1072,8 +1109,10 @@
             </svg>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -1122,6 +1161,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 height: 18px;
                 margin-inline-end: var(--spacing-100);
@@ -1168,10 +1208,12 @@
             </svg>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-left-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
             border-bottom-right-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -1219,6 +1261,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 height: 18px;
                 margin-inline-end: var(--spacing-100);
@@ -1271,8 +1314,10 @@
       background-color: var(--textbox-background-color, var(--color-background-secondary));
       border-bottom-style: solid;
       border-bottom-width: 1px;
+      border-color: var(--textbox-border-color, var(--color-border-medium));
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--border-radius-50) 0 0 var(--border-radius-50);
       border-right-style: solid;
       border-right-width: 1px;
       border-top-style: solid;
@@ -1281,6 +1326,7 @@
       color: var(--textbox-foreground-color, var(--color-foreground-primary));
       display: inline-flex;
       font-size: var(--font-size-body);
+      gap: var(--spacing-100);
       margin-right: -1px;
       overflow-x: hidden;
       overflow-y: hidden;
@@ -1296,9 +1342,15 @@
       <input
         style="
           appearance: none;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1348,10 +1400,11 @@
           border-bottom-left-radius: 8px;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
+          border-color: var(--listbox-button-disabled-border-color, var(--color-background-disabled));
           border-left-color: inherit;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
           border-right-color: inherit;
           border-right-style: none;
           border-right-width: 1px;
@@ -1359,7 +1412,6 @@
           border-top-left-radius: 8px;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: var(--listbox-button-disabled-foreground-color, var(--color-foreground-disabled));
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -1406,6 +1458,7 @@
               background-repeat: no-repeat;
               background-size: 100% 49494%;
               box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+              box-sizing: initial;
               display: inline-block;
               filter: var(--color-media-disabled-filter);
               height: 18px;
@@ -1439,6 +1492,7 @@
       </button>
       <div style="
         background-color: var(--color-background-elevated);
+        border-radius: var(--border-radius-50);
         box-shadow: var(--bubble-shadow);
         box-sizing: border-box;
         left: 0px;
@@ -1450,10 +1504,12 @@
         width: auto;
         z-index: 2
       ">
-        <div>
+        <div style="border-radius: var(--listbox-button-border-radius, var(--border-radius-50))">
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -1504,6 +1560,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 filter: var(--color-media-disabled-filter);
                 height: 18px;
@@ -1551,8 +1608,10 @@
             </svg>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -1601,6 +1660,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 filter: var(--color-media-disabled-filter);
                 height: 18px;
@@ -1648,8 +1708,10 @@
             </svg>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -1698,6 +1760,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 filter: var(--color-media-disabled-filter);
                 height: 18px;
@@ -1745,8 +1808,10 @@
             </svg>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -1795,6 +1860,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 filter: var(--color-media-disabled-filter);
                 height: 18px;
@@ -1842,10 +1908,12 @@
             </svg>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-left-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
             border-bottom-right-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -1893,6 +1961,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 filter: var(--color-media-disabled-filter);
                 height: 18px;
@@ -1946,8 +2015,10 @@
       background-color: var(--textbox-background-color, var(--color-background-secondary));
       border-bottom-style: solid;
       border-bottom-width: 1px;
+      border-color: var(--textbox-disabled-border-color, var(--color-background-disabled));
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: 0 var(--border-radius-50) var(--border-radius-50) 0;
       border-right-style: solid;
       border-right-width: 1px;
       border-top-style: solid;
@@ -1956,6 +2027,7 @@
       color: var(--textbox-disabled-foreground-color, var(--color-foreground-disabled));
       display: inline-flex;
       font-size: var(--font-size-body);
+      gap: var(--spacing-100);
       overflow-x: hidden;
       overflow-y: hidden;
       position: relative;
@@ -1972,9 +2044,16 @@
         disabled
         style="
           appearance: none;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-color: var(--textbox-disabled-border-color, var(--color-background-disabled));
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -2025,10 +2104,11 @@
         border-bottom-left-radius: 8px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
-        border-bottom: 1px solid;
+        border-color: var(--listbox-button-border-color, var(--color-border-attention));
         border-left-color: inherit;
         border-left-style: solid;
         border-left-width: 1px;
+        border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
         border-right-color: inherit;
         border-right-style: none;
         border-right-width: 1px;
@@ -2036,7 +2116,6 @@
         border-top-left-radius: 8px;
         border-top-style: solid;
         border-top-width: 1px;
-        border-top: 1px solid;
         color: var(--listbox-button-foreground-color, var(--color-foreground-primary));
         font-family: inherit;
         font-size: var(--font-size-body);
@@ -2082,6 +2161,7 @@
               background-repeat: no-repeat;
               background-size: 100% 49494%;
               box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+              box-sizing: initial;
               display: inline-block;
               height: 18px;
               overflow-x: hidden;
@@ -2114,6 +2194,7 @@
       </button>
       <div style="
         background-color: var(--color-background-elevated);
+        border-radius: var(--border-radius-50);
         box-shadow: var(--bubble-shadow);
         box-sizing: border-box;
         left: 0px;
@@ -2125,10 +2206,12 @@
         width: auto;
         z-index: 2
       ">
-        <div>
+        <div style="border-radius: var(--listbox-button-border-radius, var(--border-radius-50))">
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -2179,6 +2262,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 height: 18px;
                 margin-inline-end: var(--spacing-100);
@@ -2225,8 +2309,10 @@
             </svg>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -2275,6 +2361,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 height: 18px;
                 margin-inline-end: var(--spacing-100);
@@ -2321,8 +2408,10 @@
             </svg>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -2371,6 +2460,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 height: 18px;
                 margin-inline-end: var(--spacing-100);
@@ -2417,8 +2507,10 @@
             </svg>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -2467,6 +2559,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 height: 18px;
                 margin-inline-end: var(--spacing-100);
@@ -2513,10 +2606,12 @@
             </svg>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-left-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
             border-bottom-right-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -2564,6 +2659,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 height: 18px;
                 margin-inline-end: var(--spacing-100);
@@ -2616,9 +2712,11 @@
       background-color: var(--textbox-background-color, var(--color-background-secondary));
       border-bottom-style: solid;
       border-bottom-width: 1px;
+      border-color: var(--textbox-invalid-border-color, var(--color-border-attention));
       border-left-color: var(--textbox-border-color, var(--color-border-medium));
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: 0 var(--border-radius-50) var(--border-radius-50) 0;
       border-right-style: solid;
       border-right-width: 1px;
       border-top-style: solid;
@@ -2627,6 +2725,7 @@
       color: var(--textbox-foreground-color, var(--color-foreground-primary));
       display: inline-flex;
       font-size: var(--font-size-body);
+      gap: var(--spacing-100);
       overflow-x: hidden;
       overflow-y: hidden;
       position: relative;
@@ -2641,9 +2740,16 @@
       <input
         style="
           appearance: none;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-color: var(--textbox-invalid-foreground-color, var(--color-border-attention));
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -2697,10 +2803,11 @@
         border-bottom-left-radius: 8px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
-        border-bottom: 1px solid;
+        border-color: var(--listbox-button-border-color, var(--color-border-medium));
         border-left-color: inherit;
         border-left-style: solid;
         border-left-width: 1px;
+        border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
         border-right-color: inherit;
         border-right-style: none;
         border-right-width: 1px;
@@ -2708,7 +2815,6 @@
         border-top-left-radius: 8px;
         border-top-style: solid;
         border-top-width: 1px;
-        border-top: 1px solid;
         color: var(--listbox-button-foreground-color, var(--color-foreground-primary));
         font-family: inherit;
         font-size: var(--font-size-body);
@@ -2754,6 +2860,7 @@
               background-repeat: no-repeat;
               background-size: 100% 49494%;
               box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+              box-sizing: initial;
               display: inline-block;
               height: 18px;
               overflow-x: hidden;
@@ -2786,6 +2893,7 @@
       </button>
       <div style="
         background-color: var(--color-background-elevated);
+        border-radius: var(--border-radius-50);
         box-shadow: var(--bubble-shadow);
         box-sizing: border-box;
         left: 0px;
@@ -2797,10 +2905,12 @@
         width: auto;
         z-index: 2
       ">
-        <div>
+        <div style="border-radius: var(--listbox-button-border-radius, var(--border-radius-50))">
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -2851,6 +2961,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 height: 18px;
                 margin-inline-end: var(--spacing-100);
@@ -2897,8 +3008,10 @@
             </svg>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -2947,6 +3060,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 height: 18px;
                 margin-inline-end: var(--spacing-100);
@@ -2993,8 +3107,10 @@
             </svg>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -3043,6 +3159,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 height: 18px;
                 margin-inline-end: var(--spacing-100);
@@ -3089,8 +3206,10 @@
             </svg>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -3139,6 +3258,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 height: 18px;
                 margin-inline-end: var(--spacing-100);
@@ -3185,10 +3305,12 @@
             </svg>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-left-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
             border-bottom-right-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -3236,6 +3358,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 height: 18px;
                 margin-inline-end: var(--spacing-100);
@@ -3288,8 +3411,10 @@
       background-color: var(--textbox-background-color, var(--color-background-secondary));
       border-bottom-style: solid;
       border-bottom-width: 1px;
+      border-color: var(--textbox-border-color, var(--color-border-medium));
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: 0 var(--border-radius-50) var(--border-radius-50) 0;
       border-right-style: solid;
       border-right-width: 1px;
       border-top-style: solid;
@@ -3298,6 +3423,7 @@
       color: var(--textbox-foreground-color, var(--color-foreground-primary));
       display: inline-flex;
       font-size: var(--font-size-body);
+      gap: var(--spacing-100);
       overflow-x: hidden;
       overflow-y: hidden;
       position: relative;
@@ -3312,9 +3438,15 @@
       <input
         style="
           appearance: none;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -3368,10 +3500,11 @@
         border-bottom-left-radius: 8px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
-        border-bottom: 1px solid;
+        border-color: var(--listbox-button-border-color, var(--color-border-medium));
         border-left-color: inherit;
         border-left-style: solid;
         border-left-width: 1px;
+        border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
         border-right-color: inherit;
         border-right-style: none;
         border-right-width: 1px;
@@ -3379,7 +3512,6 @@
         border-top-left-radius: 8px;
         border-top-style: solid;
         border-top-width: 1px;
-        border-top: 1px solid;
         color: var(--listbox-button-foreground-color, var(--color-foreground-primary));
         font-family: inherit;
         font-size: var(--font-size-medium);
@@ -3426,6 +3558,7 @@
               background-repeat: no-repeat;
               background-size: 100% 49494%;
               box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+              box-sizing: initial;
               display: inline-block;
               height: 18px;
               overflow-x: hidden;
@@ -3459,6 +3592,7 @@
       </button>
       <div style="
         background-color: var(--color-background-elevated);
+        border-radius: var(--border-radius-50);
         box-shadow: var(--bubble-shadow);
         box-sizing: border-box;
         left: 0px;
@@ -3470,10 +3604,12 @@
         width: auto;
         z-index: 2
       ">
-        <div>
+        <div style="border-radius: var(--listbox-button-border-radius, var(--border-radius-50))">
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -3524,6 +3660,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 height: 18px;
                 margin-inline-end: var(--spacing-100);
@@ -3570,8 +3707,10 @@
             </svg>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -3620,6 +3759,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 height: 18px;
                 margin-inline-end: var(--spacing-100);
@@ -3666,8 +3806,10 @@
             </svg>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -3716,6 +3858,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 height: 18px;
                 margin-inline-end: var(--spacing-100);
@@ -3762,8 +3905,10 @@
             </svg>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -3812,6 +3957,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 height: 18px;
                 margin-inline-end: var(--spacing-100);
@@ -3858,10 +4004,12 @@
             </svg>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-left-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
             border-bottom-right-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -3909,6 +4057,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 height: 18px;
                 margin-inline-end: var(--spacing-100);
@@ -3961,8 +4110,10 @@
       background-color: var(--textbox-background-color, var(--color-background-secondary));
       border-bottom-style: solid;
       border-bottom-width: 1px;
+      border-color: var(--textbox-border-color, var(--color-border-medium));
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: 0 var(--border-radius-50) var(--border-radius-50) 0;
       border-right-style: solid;
       border-right-width: 1px;
       border-top-style: solid;
@@ -3971,6 +4122,7 @@
       color: var(--textbox-foreground-color, var(--color-foreground-primary));
       display: inline-flex;
       font-size: var(--font-size-body);
+      gap: var(--spacing-100);
       overflow-x: hidden;
       overflow-y: hidden;
       position: relative;
@@ -3985,9 +4137,15 @@
       <input
         style="
           appearance: none;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -4040,10 +4198,11 @@
           border-bottom-left-radius: 8px;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
+          border-color: var(--textbox-border-color, var(--color-border-medium));
           border-left-color: inherit;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
           border-right-color: inherit;
           border-right-style: none;
           border-right-width: 1px;
@@ -4051,7 +4210,6 @@
           border-top-left-radius: 8px;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: var(--listbox-button-disabled-foreground-color, var(--color-foreground-disabled));
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -4098,6 +4256,7 @@
               background-repeat: no-repeat;
               background-size: 100% 49494%;
               box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+              box-sizing: initial;
               display: inline-block;
               height: 18px;
               overflow-x: hidden;
@@ -4130,6 +4289,7 @@
       </button>
       <div style="
         background-color: var(--color-background-elevated);
+        border-radius: var(--border-radius-50);
         box-shadow: var(--bubble-shadow);
         box-sizing: border-box;
         left: 0px;
@@ -4141,10 +4301,12 @@
         width: auto;
         z-index: 2
       ">
-        <div>
+        <div style="border-radius: var(--listbox-button-border-radius, var(--border-radius-50))">
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -4195,6 +4357,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 height: 18px;
                 margin-inline-end: var(--spacing-100);
@@ -4241,8 +4404,10 @@
             </svg>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -4291,6 +4456,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 height: 18px;
                 margin-inline-end: var(--spacing-100);
@@ -4337,8 +4503,10 @@
             </svg>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -4387,6 +4555,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 height: 18px;
                 margin-inline-end: var(--spacing-100);
@@ -4433,8 +4602,10 @@
             </svg>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -4483,6 +4654,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 height: 18px;
                 margin-inline-end: var(--spacing-100);
@@ -4529,10 +4701,12 @@
             </svg>
           </div>
           <div style="
+            background-color: initial;
             border-bottom-left-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
             border-bottom-right-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
             border-bottom-style: solid;
             border-bottom-width: 1px;
+            border-color: var(--color-background-primary);
             border-left-style: solid;
             border-left-width: 1px;
             border-right-style: solid;
@@ -4580,6 +4754,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% 49494%;
                 box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                box-sizing: initial;
                 display: inline-block;
                 height: 18px;
                 margin-inline-end: var(--spacing-100);
@@ -4633,9 +4808,16 @@
       border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
+      border-color: var(--textbox-border-color, var(--color-border-medium));
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      border-image-slice: initial;
+      border-image-source: initial;
+      border-image-width: initial;
       border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: 0 var(--border-radius-50) var(--border-radius-50) 0;
       border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
@@ -4646,6 +4828,7 @@
       color: var(--textbox-foreground-color, var(--color-foreground-primary));
       display: inline-flex;
       font-size: var(--font-size-body);
+      gap: var(--spacing-100);
       overflow-x: hidden;
       overflow-y: hidden;
       position: relative;
@@ -4662,9 +4845,15 @@
         readonly
         style="
           appearance: none;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -4743,10 +4932,11 @@
             border-bottom-left-radius: 8px;
             border-bottom-style: solid;
             border-bottom-width: 1px;
-            border-bottom: 1px solid;
+            border-color: var(--listbox-button-border-color, var(--color-border-medium));
             border-left-color: inherit;
             border-left-style: solid;
             border-left-width: 1px;
+            border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
             border-right-color: inherit;
             border-right-style: none;
             border-right-width: 1px;
@@ -4754,7 +4944,6 @@
             border-top-left-radius: 8px;
             border-top-style: solid;
             border-top-width: 1px;
-            border-top: 1px solid;
             color: var(--listbox-button-foreground-color, var(--color-foreground-primary));
             font-family: inherit;
             font-size: var(--font-size-body);
@@ -4809,6 +4998,7 @@
                   background-repeat: no-repeat;
                   background-size: 100% 49494%;
                   box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                  box-sizing: initial;
                   display: inline-block;
                   height: 18px;
                   letter-spacing: 0.12em;
@@ -4854,6 +5044,7 @@
           </button>
           <div style="
             background-color: var(--color-background-elevated);
+            border-radius: var(--border-radius-50);
             box-shadow: var(--bubble-shadow);
             box-sizing: border-box;
             left: 0px;
@@ -4869,13 +5060,16 @@
             z-index: 2
           ">
             <div style="
+              border-radius: var(--listbox-button-border-radius, var(--border-radius-50));
               letter-spacing: 0.12em;
               line-height: 1.5;
               word-spacing: 0.16em
             ">
               <div style="
+                background-color: initial;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
+                border-color: var(--color-background-primary);
                 border-left-style: solid;
                 border-left-width: 1px;
                 border-right-style: solid;
@@ -4932,6 +5126,7 @@
                     background-repeat: no-repeat;
                     background-size: 100% 49494%;
                     box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                    box-sizing: initial;
                     display: inline-block;
                     height: 18px;
                     letter-spacing: 0.12em;
@@ -4999,8 +5194,10 @@
                 </svg>
               </div>
               <div style="
+                background-color: initial;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
+                border-color: var(--color-background-primary);
                 border-left-style: solid;
                 border-left-width: 1px;
                 border-right-style: solid;
@@ -5055,6 +5252,7 @@
                     background-repeat: no-repeat;
                     background-size: 100% 49494%;
                     box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                    box-sizing: initial;
                     display: inline-block;
                     height: 18px;
                     letter-spacing: 0.12em;
@@ -5122,8 +5320,10 @@
                 </svg>
               </div>
               <div style="
+                background-color: initial;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
+                border-color: var(--color-background-primary);
                 border-left-style: solid;
                 border-left-width: 1px;
                 border-right-style: solid;
@@ -5178,6 +5378,7 @@
                     background-repeat: no-repeat;
                     background-size: 100% 49494%;
                     box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                    box-sizing: initial;
                     display: inline-block;
                     height: 18px;
                     letter-spacing: 0.12em;
@@ -5245,8 +5446,10 @@
                 </svg>
               </div>
               <div style="
+                background-color: initial;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
+                border-color: var(--color-background-primary);
                 border-left-style: solid;
                 border-left-width: 1px;
                 border-right-style: solid;
@@ -5301,6 +5504,7 @@
                     background-repeat: no-repeat;
                     background-size: 100% 49494%;
                     box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                    box-sizing: initial;
                     display: inline-block;
                     height: 18px;
                     letter-spacing: 0.12em;
@@ -5368,10 +5572,12 @@
                 </svg>
               </div>
               <div style="
+                background-color: initial;
                 border-bottom-left-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
                 border-bottom-right-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
+                border-color: var(--color-background-primary);
                 border-left-style: solid;
                 border-left-width: 1px;
                 border-right-style: solid;
@@ -5425,6 +5631,7 @@
                     background-repeat: no-repeat;
                     background-size: 100% 49494%;
                     box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                    box-sizing: initial;
                     display: inline-block;
                     height: 18px;
                     letter-spacing: 0.12em;
@@ -5498,8 +5705,10 @@
           background-color: var(--textbox-background-color, var(--color-background-secondary));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--textbox-border-color, var(--color-border-medium));
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: 0 var(--border-radius-50) var(--border-radius-50) 0;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-style: solid;
@@ -5508,6 +5717,7 @@
           color: var(--textbox-foreground-color, var(--color-foreground-primary));
           display: inline-flex;
           font-size: var(--font-size-body);
+          gap: var(--spacing-100);
           letter-spacing: 0.12em;
           line-height: 1.5;
           overflow-x: hidden;
@@ -5528,9 +5738,15 @@
           <input
             style="
               appearance: none;
+              background-color: initial;
               border-bottom-color: currentcolor;
               border-bottom-style: none;
               border-bottom-width: medium;
+              border-image-outset: initial;
+              border-image-repeat: initial;
+              border-image-slice: initial;
+              border-image-source: initial;
+              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
@@ -5597,10 +5813,11 @@
             border-bottom-left-radius: 8px;
             border-bottom-style: solid;
             border-bottom-width: 1px;
-            border-bottom: 1px solid;
+            border-color: var(--listbox-button-border-color, var(--color-border-medium));
             border-left-color: inherit;
             border-left-style: solid;
             border-left-width: 1px;
+            border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
             border-right-color: inherit;
             border-right-style: none;
             border-right-width: 1px;
@@ -5608,7 +5825,6 @@
             border-top-left-radius: 8px;
             border-top-style: solid;
             border-top-width: 1px;
-            border-top: 1px solid;
             color: var(--listbox-button-foreground-color, var(--color-foreground-primary));
             font-family: inherit;
             font-size: var(--font-size-body);
@@ -5654,6 +5870,7 @@
                   background-repeat: no-repeat;
                   background-size: 100% 49494%;
                   box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                  box-sizing: initial;
                   display: inline-block;
                   height: 18px;
                   overflow-x: hidden;
@@ -5686,6 +5903,7 @@
           </button>
           <div style="
             background-color: var(--color-background-elevated);
+            border-radius: var(--border-radius-50);
             box-shadow: var(--bubble-shadow);
             box-sizing: border-box;
             left: 0px;
@@ -5697,10 +5915,12 @@
             width: auto;
             z-index: 2
           ">
-            <div>
+            <div style="border-radius: var(--listbox-button-border-radius, var(--border-radius-50))">
               <div style="
+                background-color: initial;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
+                border-color: var(--color-background-primary);
                 border-left-style: solid;
                 border-left-width: 1px;
                 border-right-style: solid;
@@ -5751,6 +5971,7 @@
                     background-repeat: no-repeat;
                     background-size: 100% 49494%;
                     box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                    box-sizing: initial;
                     display: inline-block;
                     height: 18px;
                     margin-inline-end: var(--spacing-100);
@@ -5797,8 +6018,10 @@
                 </svg>
               </div>
               <div style="
+                background-color: initial;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
+                border-color: var(--color-background-primary);
                 border-left-style: solid;
                 border-left-width: 1px;
                 border-right-style: solid;
@@ -5847,6 +6070,7 @@
                     background-repeat: no-repeat;
                     background-size: 100% 49494%;
                     box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                    box-sizing: initial;
                     display: inline-block;
                     height: 18px;
                     margin-inline-end: var(--spacing-100);
@@ -5893,8 +6117,10 @@
                 </svg>
               </div>
               <div style="
+                background-color: initial;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
+                border-color: var(--color-background-primary);
                 border-left-style: solid;
                 border-left-width: 1px;
                 border-right-style: solid;
@@ -5943,6 +6169,7 @@
                     background-repeat: no-repeat;
                     background-size: 100% 49494%;
                     box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                    box-sizing: initial;
                     display: inline-block;
                     height: 18px;
                     margin-inline-end: var(--spacing-100);
@@ -5989,8 +6216,10 @@
                 </svg>
               </div>
               <div style="
+                background-color: initial;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
+                border-color: var(--color-background-primary);
                 border-left-style: solid;
                 border-left-width: 1px;
                 border-right-style: solid;
@@ -6039,6 +6268,7 @@
                     background-repeat: no-repeat;
                     background-size: 100% 49494%;
                     box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                    box-sizing: initial;
                     display: inline-block;
                     height: 18px;
                     margin-inline-end: var(--spacing-100);
@@ -6085,10 +6315,12 @@
                 </svg>
               </div>
               <div style="
+                background-color: initial;
                 border-bottom-left-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
                 border-bottom-right-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
+                border-color: var(--color-background-primary);
                 border-left-style: solid;
                 border-left-width: 1px;
                 border-right-style: solid;
@@ -6136,6 +6368,7 @@
                     background-repeat: no-repeat;
                     background-size: 100% 49494%;
                     box-shadow: rgb(90, 90, 90) 0px 0px 0px 1px;
+                    box-sizing: initial;
                     display: inline-block;
                     height: 18px;
                     margin-inline-end: var(--spacing-100);
@@ -6188,8 +6421,10 @@
           background-color: var(--textbox-background-color, var(--color-background-secondary));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--textbox-border-color, var(--color-border-medium));
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: 0 var(--border-radius-50) var(--border-radius-50) 0;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-style: solid;
@@ -6198,6 +6433,7 @@
           color: var(--textbox-foreground-color, var(--color-foreground-primary));
           display: inline-flex;
           font-size: 200%;
+          gap: var(--spacing-100);
           overflow-x: hidden;
           overflow-y: hidden;
           position: relative;
@@ -6212,9 +6448,15 @@
           <input
             style="
               appearance: none;
+              background-color: initial;
               border-bottom-color: currentcolor;
               border-bottom-style: none;
               border-bottom-width: medium;
+              border-image-outset: initial;
+              border-image-repeat: initial;
+              border-image-slice: initial;
+              border-image-source: initial;
+              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;

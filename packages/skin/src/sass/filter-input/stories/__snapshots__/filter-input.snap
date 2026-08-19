@@ -9,8 +9,10 @@
       background-color: var(--textbox-background-color, var(--color-background-secondary));
       border-bottom-style: solid;
       border-bottom-width: 1px;
+      border-color: var(--textbox-border-color, var(--color-border-medium));
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--border-radius-150);
       border-right-style: solid;
       border-right-width: 1px;
       border-top-style: solid;
@@ -19,6 +21,7 @@
       color: var(--textbox-foreground-color, var(--color-foreground-primary));
       display: inline-flex;
       font-size: var(--font-size-body);
+      gap: var(--spacing-100);
       max-width: 480px;
       min-width: 200px;
       overflow-x: hidden;
@@ -48,9 +51,15 @@
         placeholder="Filter list"
         style="
           appearance: none;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -76,6 +85,7 @@
       />
       <button style="
         align-items: center;
+        background-color: initial;
         border-bottom-color: transparent;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
@@ -155,8 +165,10 @@
       background-color: var(--textbox-background-color, var(--color-background-secondary));
       border-bottom-style: solid;
       border-bottom-width: 1px;
+      border-color: var(--textbox-border-color, var(--color-border-medium));
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--border-radius-150);
       border-right-style: solid;
       border-right-width: 1px;
       border-top-style: solid;
@@ -165,6 +177,7 @@
       color: var(--textbox-foreground-color, var(--color-foreground-primary));
       display: inline-flex;
       font-size: var(--font-size-body);
+      gap: var(--spacing-100);
       max-width: 480px;
       min-width: 200px;
       overflow-x: hidden;
@@ -194,9 +207,15 @@
         placeholder="Filter list"
         style="
           appearance: none;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -222,6 +241,7 @@
       />
       <button style="
         align-items: center;
+        background-color: initial;
         border-bottom-color: transparent;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
@@ -301,8 +321,10 @@
       background-color: var(--textbox-background-color, var(--color-background-secondary));
       border-bottom-style: solid;
       border-bottom-width: 1px;
+      border-color: var(--textbox-border-color, var(--color-border-medium));
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--border-radius-150);
       border-right-style: solid;
       border-right-width: 1px;
       border-top-style: solid;
@@ -311,6 +333,7 @@
       color: var(--textbox-foreground-color, var(--color-foreground-primary));
       display: inline-flex;
       font-size: var(--font-size-body);
+      gap: var(--spacing-100);
       max-width: 480px;
       min-width: 200px;
       overflow-x: hidden;
@@ -340,9 +363,15 @@
         placeholder="Filter list"
         style="
           appearance: none;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -368,6 +397,7 @@
       />
       <button style="
         align-items: center;
+        background-color: initial;
         border-bottom-color: transparent;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
@@ -447,8 +477,10 @@
       background-color: var(--textbox-background-color, var(--color-background-secondary));
       border-bottom-style: solid;
       border-bottom-width: 1px;
+      border-color: var(--textbox-border-color, var(--color-border-medium));
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--border-radius-150);
       border-right-style: solid;
       border-right-width: 1px;
       border-top-style: solid;
@@ -457,6 +489,7 @@
       color: var(--textbox-foreground-color, var(--color-foreground-primary));
       display: inline-flex;
       font-size: var(--font-size-body);
+      gap: var(--spacing-100);
       max-width: 480px;
       min-width: 200px;
       overflow-x: hidden;
@@ -486,9 +519,15 @@
         placeholder="Filter list"
         style="
           appearance: none;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -514,6 +553,7 @@
       />
       <button style="
         align-items: center;
+        background-color: initial;
         border-bottom-color: transparent;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
@@ -595,8 +635,10 @@
       background-color: var(--textbox-background-color, var(--color-background-secondary));
       border-bottom-style: solid;
       border-bottom-width: 1px;
+      border-color: var(--textbox-border-color, var(--color-border-medium));
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--border-radius-150);
       border-right-style: solid;
       border-right-width: 1px;
       border-top-style: solid;
@@ -605,6 +647,7 @@
       color: var(--textbox-foreground-color, var(--color-foreground-primary));
       display: inline-flex;
       font-size: var(--font-size-body);
+      gap: var(--spacing-100);
       letter-spacing: 0.12em;
       line-height: 1.5;
       max-width: 480px;
@@ -647,9 +690,15 @@
         placeholder="Filter list"
         style="
           appearance: none;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -678,6 +727,7 @@
       />
       <button style="
         align-items: center;
+        background-color: initial;
         border-bottom-color: transparent;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;

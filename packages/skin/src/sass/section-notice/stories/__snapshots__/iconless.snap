@@ -2,6 +2,7 @@
 <div>
   <div style="
     background-color: var(--section-notice-default-background-color, var(--color-background-secondary));
+    border-radius: var(--section-notice-border-radius, var(--border-radius-50));
     display: grid;
     font-size: var(--font-size-body);
     grid-template-columns: 32px auto auto;
@@ -36,6 +37,7 @@
 <div>
   <div style="
     background-color: var(--section-notice-default-background-color, var(--color-background-secondary));
+    border-radius: var(--section-notice-border-radius, var(--border-radius-50));
     display: grid;
     font-size: var(--font-size-body);
     grid-template-columns: 32px auto auto;
@@ -71,6 +73,7 @@
 <div>
   <div style="
     background-color: var(--section-notice-default-background-color, var(--color-background-secondary));
+    border-radius: var(--section-notice-border-radius, var(--border-radius-50));
     display: grid;
     font-size: var(--font-size-body);
     grid-template-columns: 32px auto auto;
@@ -110,6 +113,7 @@
       margin-top: 2px
     ">
       <button style="
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -158,6 +162,7 @@
 <div>
   <div style="
     background-color: var(--section-notice-default-background-color, var(--color-background-secondary));
+    border-radius: var(--section-notice-border-radius, var(--border-radius-50));
     display: grid;
     font-size: var(--font-size-body);
     grid-template-columns: 32px auto auto;
@@ -199,6 +204,7 @@
       padding-inline-start: var(--spacing-200)
     ">
       <button style="
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -247,6 +253,7 @@
 <div>
   <div style="
     background-color: var(--section-notice-default-background-color, var(--color-background-secondary));
+    border-radius: var(--section-notice-border-radius, var(--border-radius-50));
     display: grid;
     font-size: var(--font-size-body);
     grid-template-columns: 32px auto auto min-content;
@@ -288,6 +295,7 @@
       margin-top: var(--spacing-200)
     ">
       <button style="
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -319,6 +327,7 @@
       margin-top: 2px
     ">
       <button style="
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -367,6 +376,7 @@
 <div>
   <div style="
     background-color: var(--section-notice-default-background-color, var(--color-background-secondary));
+    border-radius: var(--section-notice-border-radius, var(--border-radius-50));
     display: grid;
     font-size: var(--font-size-body);
     grid-template-columns: 32px auto auto min-content;
@@ -408,6 +418,7 @@
       margin-top: 0px
     ">
       <button style="
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -440,6 +451,7 @@
       padding-inline-start: var(--spacing-200)
     ">
       <button style="
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -488,6 +500,7 @@
 <div>
   <div style="
     background-color: var(--section-notice-default-background-color, var(--color-background-secondary));
+    border-radius: var(--section-notice-border-radius, var(--border-radius-50));
     display: grid;
     font-size: var(--font-size-body);
     grid-template-columns: 32px auto auto min-content;
@@ -543,6 +556,7 @@
       margin-top: 2px
     ">
       <button style="
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -591,6 +605,7 @@
 <div>
   <div style="
     background-color: var(--section-notice-default-background-color, var(--color-background-secondary));
+    border-radius: var(--section-notice-border-radius, var(--border-radius-50));
     display: grid;
     font-size: var(--font-size-body);
     grid-template-columns: 32px auto auto min-content;
@@ -647,6 +662,7 @@
       padding-inline-start: var(--spacing-200)
     ">
       <button style="
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -695,6 +711,7 @@
 <div>
   <div style="
     background-color: var(--section-notice-default-background-color, var(--color-background-secondary));
+    border-radius: var(--section-notice-border-radius, var(--border-radius-50));
     display: grid;
     font-size: var(--font-size-body);
     grid-template-columns: 32px auto auto;
@@ -734,6 +751,7 @@
       margin-top: 2px
     ">
       <button style="
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -769,6 +787,7 @@
 <div>
   <div style="
     background-color: var(--section-notice-default-background-color, var(--color-background-secondary));
+    border-radius: var(--section-notice-border-radius, var(--border-radius-50));
     display: grid;
     font-size: var(--font-size-body);
     grid-template-columns: 32px auto auto;
@@ -810,6 +829,7 @@
       padding-inline-start: var(--spacing-200)
     ">
       <button style="
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -845,6 +865,7 @@
 <div>
   <div style="
     background-color: var(--section-notice-default-background-color, var(--color-background-secondary));
+    border-radius: var(--section-notice-border-radius, var(--border-radius-50));
     display: grid;
     font-size: var(--font-size-body);
     grid-template-columns: 32px auto auto;
@@ -901,6 +922,7 @@
 <div>
   <div style="
     background-color: var(--section-notice-default-background-color, var(--color-background-secondary));
+    border-radius: var(--section-notice-border-radius, var(--border-radius-50));
     display: grid;
     font-size: var(--font-size-body);
     grid-template-columns: 32px auto auto;
@@ -959,6 +981,7 @@
 <div>
   <div style="
     background-color: var(--section-notice-default-background-color, var(--color-background-secondary));
+    border-radius: var(--section-notice-border-radius, var(--border-radius-50));
     display: grid;
     font-size: var(--font-size-body);
     grid-template-columns: 32px auto auto;
@@ -1001,6 +1024,7 @@
 <div>
   <div style="
     background-color: var(--section-notice-default-background-color, var(--color-background-secondary));
+    border-radius: var(--section-notice-border-radius, var(--border-radius-50));
     display: grid;
     font-size: var(--font-size-body);
     grid-template-columns: 32px auto auto;

@@ -78,6 +78,7 @@
       <svg
         height="24"
         style="
+          background-color: initial;
           display: inline-block;
           fill: var(--color-background-disabled);
           height: 16px;
@@ -115,6 +116,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -163,6 +169,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -184,6 +195,7 @@
         ">
           <style>@scope{:scope{
             &::after {
+              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -210,6 +222,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -231,6 +248,7 @@
         ">
           <style>@scope{:scope{
             &::after {
+              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -257,6 +275,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -278,6 +301,7 @@
         ">
           <style>@scope{:scope{
             &::after {
+              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -304,6 +328,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -325,6 +354,7 @@
         ">
           <style>@scope{:scope{
             &::after {
+              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -351,6 +381,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -372,6 +407,7 @@
         ">
           <style>@scope{:scope{
             &::after {
+              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -398,6 +434,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -419,6 +460,7 @@
         ">
           <style>@scope{:scope{
             &::after {
+              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -589,6 +631,7 @@
       <svg
         height="24"
         style="
+          background-color: initial;
           display: inline-block;
           fill: var(--color-background-disabled);
           height: 16px;
@@ -626,6 +669,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -674,6 +722,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -695,6 +748,7 @@
         ">
           <style>@scope{:scope{
             &::after {
+              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -721,6 +775,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -742,6 +801,7 @@
         ">
           <style>@scope{:scope{
             &::after {
+              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -768,6 +828,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -789,6 +854,7 @@
         ">
           <style>@scope{:scope{
             &::after {
+              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -815,6 +881,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -836,6 +907,7 @@
         ">
           <style>@scope{:scope{
             &::after {
+              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -862,6 +934,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -883,6 +960,7 @@
         ">
           <style>@scope{:scope{
             &::after {
+              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -909,6 +987,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -930,6 +1013,7 @@
         ">
           <style>@scope{:scope{
             &::after {
+              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -1100,6 +1184,7 @@
       <svg
         height="24"
         style="
+          background-color: initial;
           display: inline-block;
           fill: var(--color-background-disabled);
           height: 16px;
@@ -1137,6 +1222,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1185,6 +1275,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1206,6 +1301,7 @@
         ">
           <style>@scope{:scope{
             &::after {
+              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -1232,6 +1328,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1253,6 +1354,7 @@
         ">
           <style>@scope{:scope{
             &::after {
+              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -1279,6 +1381,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1300,6 +1407,7 @@
         ">
           <style>@scope{:scope{
             &::after {
+              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -1326,6 +1434,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1347,6 +1460,7 @@
         ">
           <style>@scope{:scope{
             &::after {
+              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -1373,6 +1487,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1394,6 +1513,7 @@
         ">
           <style>@scope{:scope{
             &::after {
+              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -1420,6 +1540,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1441,6 +1566,7 @@
         ">
           <style>@scope{:scope{
             &::after {
+              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -1611,6 +1737,7 @@
       <svg
         height="24"
         style="
+          background-color: initial;
           display: inline-block;
           fill: var(--color-background-disabled);
           height: 16px;
@@ -1648,6 +1775,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1696,6 +1828,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1717,6 +1854,7 @@
         ">
           <style>@scope{:scope{
             &::after {
+              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -1743,6 +1881,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1764,6 +1907,7 @@
         ">
           <style>@scope{:scope{
             &::after {
+              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -1790,6 +1934,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1811,6 +1960,7 @@
         ">
           <style>@scope{:scope{
             &::after {
+              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -1837,6 +1987,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1858,6 +2013,7 @@
         ">
           <style>@scope{:scope{
             &::after {
+              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -1884,6 +2040,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1905,6 +2066,7 @@
         ">
           <style>@scope{:scope{
             &::after {
+              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -1931,6 +2093,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1952,6 +2119,7 @@
         ">
           <style>@scope{:scope{
             &::after {
+              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;

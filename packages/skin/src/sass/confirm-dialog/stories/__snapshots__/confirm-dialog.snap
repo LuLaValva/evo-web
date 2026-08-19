@@ -15,6 +15,7 @@
   ">
     <div style="
       background-color: var(--dialog-window-background-color, var(--color-background-primary));
+      border-radius: var(--lightbox-border-radius, var(--border-radius-100));
       display: flex;
       flex-direction: column;
       flex-grow: 1;
@@ -56,20 +57,20 @@
         <button style="
           align-content: center;
           align-items: center;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: inherit;
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -90,17 +91,17 @@
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
+          border-color: var(--color-border-accent);
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: var(--color-foreground-on-accent);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -154,6 +155,7 @@
   ">
     <div style="
       background-color: var(--dialog-window-background-color, var(--color-background-primary));
+      border-radius: var(--lightbox-border-radius, var(--border-radius-100));
       display: flex;
       flex-direction: column;
       flex-grow: 1;
@@ -195,20 +197,20 @@
         <button style="
           align-content: center;
           align-items: center;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: inherit;
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -229,17 +231,17 @@
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
+          border-color: var(--color-border-accent);
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: var(--color-foreground-on-accent);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -296,6 +298,7 @@
   ">
     <div style="
       background-color: var(--dialog-window-background-color, var(--color-background-primary));
+      border-radius: var(--lightbox-border-radius, var(--border-radius-100));
       display: flex;
       flex-direction: column;
       flex-grow: 1;
@@ -337,20 +340,20 @@
         <button style="
           align-content: center;
           align-items: center;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: inherit;
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -371,17 +374,17 @@
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
+          border-color: var(--color-border-accent);
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: var(--color-foreground-on-accent);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -435,6 +438,7 @@
   ">
     <div style="
       background-color: var(--dialog-window-background-color, var(--color-background-primary));
+      border-radius: var(--lightbox-border-radius, var(--border-radius-100));
       display: flex;
       flex-direction: column;
       flex-grow: 1;
@@ -476,20 +480,20 @@
         <button style="
           align-content: center;
           align-items: center;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: inherit;
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -510,17 +514,17 @@
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
+          border-color: var(--color-border-accent);
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: var(--color-foreground-on-accent);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -574,6 +578,7 @@
   ">
     <div style="
       background-color: var(--dialog-window-background-color, var(--color-background-primary));
+      border-radius: var(--lightbox-border-radius, var(--border-radius-100));
       display: flex;
       flex-direction: column;
       flex-grow: 1;
@@ -615,20 +620,20 @@
         <button style="
           align-content: center;
           align-items: center;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: inherit;
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -649,17 +654,17 @@
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
+          border-color: var(--color-border-accent);
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: var(--color-foreground-on-accent);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -716,6 +721,7 @@
   ">
     <div style="
       background-color: var(--dialog-window-background-color, var(--color-background-primary));
+      border-radius: var(--lightbox-border-radius, var(--border-radius-100));
       display: flex;
       flex-direction: column;
       flex-grow: 1;
@@ -757,20 +763,20 @@
         <button style="
           align-content: center;
           align-items: center;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: inherit;
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -791,17 +797,17 @@
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
+          border-color: var(--color-border-accent);
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: var(--color-foreground-on-accent);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -858,6 +864,7 @@
   ">
     <div style="
       background-color: var(--dialog-window-background-color, var(--color-background-primary));
+      border-radius: var(--lightbox-border-radius, var(--border-radius-100));
       display: flex;
       flex-direction: column;
       flex-grow: 1;
@@ -919,20 +926,20 @@
         <button style="
           align-content: center;
           align-items: center;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: inherit;
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -956,17 +963,17 @@
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
+          border-color: var(--color-border-accent);
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: var(--color-foreground-on-accent);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -1026,6 +1033,7 @@
   ">
     <div style="
       background-color: var(--dialog-window-background-color, var(--color-background-primary));
+      border-radius: var(--lightbox-border-radius, var(--border-radius-100));
       display: flex;
       flex-direction: column;
       flex-grow: 1;
@@ -1087,20 +1095,20 @@
         <button style="
           align-content: center;
           align-items: center;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: inherit;
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -1124,17 +1132,17 @@
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
+          border-color: var(--color-border-accent);
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: var(--color-foreground-on-accent);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -1197,6 +1205,7 @@
   ">
     <div style="
       background-color: var(--dialog-window-background-color, var(--color-background-primary));
+      border-radius: var(--lightbox-border-radius, var(--border-radius-100));
       display: flex;
       flex-direction: column;
       flex-grow: 1;
@@ -1258,20 +1267,20 @@
         <button style="
           align-content: center;
           align-items: center;
+          background-color: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: inherit;
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -1295,17 +1304,17 @@
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
+          border-color: var(--color-border-accent);
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: var(--color-foreground-on-accent);
           font-family: inherit;
           font-size: var(--font-size-body);

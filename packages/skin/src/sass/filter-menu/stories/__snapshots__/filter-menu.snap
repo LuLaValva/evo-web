@@ -460,6 +460,12 @@
         background-color: var(--color-background-elevated);
         border-bottom-style: none;
         border-bottom-width: medium;
+        border-color: var(--filter-menu-border-color, var(--color-border-subtle));
+        border-image-outset: initial;
+        border-image-repeat: initial;
+        border-image-slice: initial;
+        border-image-source: initial;
+        border-image-width: initial;
         border-left-style: none;
         border-left-width: medium;
         border-right-style: none;
@@ -514,6 +520,7 @@
       align-items: center;
       background-color: var(--color-background-secondary);
       display: flex;
+      gap: var(--spacing-100);
       letter-spacing: 0.12em;
       line-height: 1.5;
       padding: 14px var(--spacing-200);
@@ -553,6 +560,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -573,20 +585,25 @@
       <button style="
         align-content: center;
         align-items: center;
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: medium;
-        border-bottom: 1px solid;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+        border-image-slice: initial;
+        border-image-source: initial;
+        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
+        border-radius: var(--btn-border-radius, 20px);
         border-right-color: currentcolor;
         border-right-style: none;
         border-right-width: medium;
         border-top-color: currentcolor;
         border-top-style: none;
         border-top-width: medium;
-        border-top: 1px solid;
         color: inherit;
         font-family: inherit;
         font-size: var(--font-size-body);
@@ -876,6 +893,12 @@
       background-color: var(--color-background-elevated);
       border-bottom-style: none;
       border-bottom-width: medium;
+      border-color: var(--filter-menu-border-color, var(--color-border-subtle));
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      border-image-slice: initial;
+      border-image-source: initial;
+      border-image-width: initial;
       border-left-style: none;
       border-left-width: medium;
       border-right-style: none;
@@ -1300,6 +1323,12 @@
       background-color: var(--color-background-elevated);
       border-bottom-style: none;
       border-bottom-width: medium;
+      border-color: var(--filter-menu-border-color, var(--color-border-subtle));
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      border-image-slice: initial;
+      border-image-source: initial;
+      border-image-width: initial;
       border-left-style: none;
       border-left-width: medium;
       border-right-style: none;
@@ -1350,6 +1379,7 @@
       align-items: center;
       background-color: var(--color-background-secondary);
       display: flex;
+      gap: var(--spacing-100);
       padding: 14px var(--spacing-200)
     ">
       <svg
@@ -1376,6 +1406,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1393,20 +1428,25 @@
       <button style="
         align-content: center;
         align-items: center;
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: medium;
-        border-bottom: 1px solid;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+        border-image-slice: initial;
+        border-image-source: initial;
+        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
+        border-radius: var(--btn-border-radius, 20px);
         border-right-color: currentcolor;
         border-right-style: none;
         border-right-width: medium;
         border-top-color: currentcolor;
         border-top-style: none;
         border-top-width: medium;
-        border-top: 1px solid;
         color: inherit;
         font-family: inherit;
         font-size: var(--font-size-body);
@@ -1626,6 +1666,12 @@
       background-color: var(--color-background-elevated);
       border-bottom-style: none;
       border-bottom-width: medium;
+      border-color: var(--filter-menu-border-color, var(--color-border-subtle));
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      border-image-slice: initial;
+      border-image-source: initial;
+      border-image-width: initial;
       border-left-style: none;
       border-left-width: medium;
       border-right-style: none;

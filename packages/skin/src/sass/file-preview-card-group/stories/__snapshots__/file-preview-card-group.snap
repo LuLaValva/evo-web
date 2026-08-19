@@ -33,6 +33,7 @@
     ">
       <ul style="
         display: grid;
+        gap: var(--spacing-100);
         grid-template-columns: repeat(2, 1fr);
         list-style-type: none;
         margin-bottom: 0px;
@@ -48,6 +49,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -58,6 +60,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -142,6 +145,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -152,6 +156,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -236,6 +241,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -246,6 +252,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -330,6 +337,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -340,6 +348,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -424,6 +433,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -434,6 +444,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -518,6 +529,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -528,6 +540,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -612,6 +625,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -622,6 +636,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -706,6 +721,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -716,6 +732,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -800,6 +817,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -810,6 +828,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -894,6 +913,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -904,6 +924,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -988,6 +1009,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -998,6 +1020,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -1082,6 +1105,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -1092,6 +1116,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -1176,6 +1201,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -1186,6 +1212,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -1270,6 +1297,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -1280,6 +1308,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -1364,6 +1393,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -1374,6 +1404,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -1458,6 +1489,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -1468,6 +1500,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -1552,6 +1585,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -1562,6 +1596,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -1646,6 +1681,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -1656,6 +1692,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -1740,6 +1777,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -1750,6 +1788,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -1834,6 +1873,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -1844,6 +1884,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -1928,6 +1969,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -1938,6 +1980,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -2022,6 +2065,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -2032,6 +2076,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -2116,6 +2161,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -2126,6 +2172,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -2210,6 +2257,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -2220,6 +2268,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -2304,6 +2353,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -2314,6 +2364,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -2398,6 +2449,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -2408,6 +2460,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -2492,6 +2545,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -2502,6 +2556,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -2586,6 +2641,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -2596,6 +2652,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -2721,6 +2778,7 @@
     ">
       <ul style="
         display: grid;
+        gap: var(--spacing-100);
         grid-template-columns: repeat(2, 1fr);
         list-style-type: none;
         margin-bottom: 0px;
@@ -2736,6 +2794,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -2746,6 +2805,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -2830,6 +2890,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -2840,6 +2901,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -2924,6 +2986,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -2934,6 +2997,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -3018,6 +3082,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -3028,6 +3093,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -3112,6 +3178,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -3122,6 +3189,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -3206,6 +3274,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -3216,6 +3285,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -3300,6 +3370,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -3310,6 +3381,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -3394,6 +3466,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -3404,6 +3477,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -3488,6 +3562,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -3498,6 +3573,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -3582,6 +3658,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -3592,6 +3669,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -3676,6 +3754,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -3686,6 +3765,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -3770,6 +3850,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -3780,6 +3861,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -3864,6 +3946,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -3874,6 +3957,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -3958,6 +4042,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -3968,6 +4053,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -4052,6 +4138,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -4062,6 +4149,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -4146,6 +4234,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -4156,6 +4245,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -4240,6 +4330,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -4250,6 +4341,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -4334,6 +4426,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -4344,6 +4437,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -4428,6 +4522,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -4438,6 +4533,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -4522,6 +4618,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -4532,6 +4629,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -4616,6 +4714,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -4626,6 +4725,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -4710,6 +4810,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -4720,6 +4821,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -4804,6 +4906,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -4814,6 +4917,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -4898,6 +5002,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -4908,6 +5013,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -4992,6 +5098,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -5002,6 +5109,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -5086,6 +5194,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -5096,6 +5205,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -5180,6 +5290,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -5190,6 +5301,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -5274,6 +5386,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -5284,6 +5397,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -5409,6 +5523,7 @@
     ">
       <ul style="
         display: grid;
+        gap: var(--spacing-100);
         grid-template-columns: repeat(2, 1fr);
         list-style-type: none;
         margin-bottom: 0px;
@@ -5424,6 +5539,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -5434,6 +5550,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -5518,6 +5635,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -5528,6 +5646,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -5612,6 +5731,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -5622,6 +5742,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -5706,6 +5827,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -5716,6 +5838,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -5800,6 +5923,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -5810,6 +5934,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -5894,6 +6019,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -5904,6 +6030,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -5988,6 +6115,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -5998,6 +6126,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -6082,6 +6211,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -6092,6 +6222,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -6176,6 +6307,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -6186,6 +6318,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -6270,6 +6403,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -6280,6 +6414,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -6364,6 +6499,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -6374,6 +6510,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -6458,6 +6595,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -6468,6 +6606,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -6552,6 +6691,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -6562,6 +6702,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -6646,6 +6787,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -6656,6 +6798,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -6740,6 +6883,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -6750,6 +6894,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -6834,6 +6979,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -6844,6 +6990,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -6928,6 +7075,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -6938,6 +7086,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -7022,6 +7171,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -7032,6 +7182,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -7116,6 +7267,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -7126,6 +7278,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -7210,6 +7363,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -7220,6 +7374,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -7304,6 +7459,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -7314,6 +7470,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -7398,6 +7555,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -7408,6 +7566,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -7492,6 +7651,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -7502,6 +7662,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -7586,6 +7747,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -7596,6 +7758,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -7680,6 +7843,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -7690,6 +7854,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -7774,6 +7939,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -7784,6 +7950,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -7868,6 +8035,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -7878,6 +8046,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -7962,6 +8131,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -7972,6 +8142,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -8097,6 +8268,7 @@
     ">
       <ul style="
         display: grid;
+        gap: var(--spacing-100);
         grid-template-columns: repeat(2, 1fr);
         list-style-type: none;
         margin-bottom: 0px;
@@ -8112,6 +8284,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -8122,6 +8295,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -8206,6 +8380,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -8216,6 +8391,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -8300,6 +8476,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -8310,6 +8487,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -8394,6 +8572,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -8404,6 +8583,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -8488,6 +8668,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -8498,6 +8679,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -8582,6 +8764,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -8592,6 +8775,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -8676,6 +8860,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -8686,6 +8871,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -8770,6 +8956,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -8780,6 +8967,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -8864,6 +9052,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -8874,6 +9063,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -8958,6 +9148,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -8968,6 +9159,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -9052,6 +9244,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -9062,6 +9255,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -9146,6 +9340,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -9156,6 +9351,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -9240,6 +9436,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -9250,6 +9447,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -9334,6 +9532,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -9344,6 +9543,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -9428,6 +9628,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -9438,6 +9639,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -9522,6 +9724,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -9532,6 +9735,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -9616,6 +9820,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -9626,6 +9831,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -9710,6 +9916,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -9720,6 +9927,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -9804,6 +10012,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -9814,6 +10023,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -9898,6 +10108,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -9908,6 +10119,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -9992,6 +10204,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -10002,6 +10215,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -10086,6 +10300,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -10096,6 +10311,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -10180,6 +10396,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -10190,6 +10407,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -10274,6 +10492,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -10284,6 +10503,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -10368,6 +10588,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -10378,6 +10599,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -10462,6 +10684,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -10472,6 +10695,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -10556,6 +10780,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -10566,6 +10791,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -10650,6 +10876,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -10660,6 +10887,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -10785,6 +11013,7 @@
     ">
       <ul style="
         display: grid;
+        gap: var(--spacing-100);
         grid-template-columns: repeat(2, 1fr);
         list-style-type: none;
         margin-bottom: 0px;
@@ -10800,6 +11029,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -10810,6 +11040,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -10894,6 +11125,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -10904,6 +11136,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -10988,6 +11221,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -10998,6 +11232,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -11082,6 +11317,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -11092,6 +11328,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -11176,6 +11413,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -11186,6 +11424,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -11270,6 +11509,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -11280,6 +11520,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -11364,6 +11605,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -11374,6 +11616,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -11458,6 +11701,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -11468,6 +11712,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -11552,6 +11797,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -11562,6 +11808,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -11646,6 +11893,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -11656,6 +11904,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -11740,6 +11989,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -11750,6 +12000,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -11834,6 +12085,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -11844,6 +12096,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -11928,6 +12181,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -11938,6 +12192,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -12022,6 +12277,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -12032,6 +12288,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -12116,6 +12373,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -12126,6 +12384,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -12210,6 +12469,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -12220,6 +12480,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -12304,6 +12565,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -12314,6 +12576,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -12398,6 +12661,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -12408,6 +12672,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -12492,6 +12757,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -12502,6 +12768,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -12586,6 +12853,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -12596,6 +12864,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -12680,6 +12949,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -12690,6 +12960,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -12774,6 +13045,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -12784,6 +13056,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -12868,6 +13141,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -12878,6 +13152,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -12962,6 +13237,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -12972,6 +13248,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -13056,6 +13333,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -13066,6 +13344,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -13150,6 +13429,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -13160,6 +13440,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -13244,6 +13525,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -13254,6 +13536,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -13338,6 +13621,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -13348,6 +13632,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -13473,6 +13758,7 @@
     ">
       <ul style="
         display: grid;
+        gap: var(--spacing-100);
         grid-template-columns: repeat(2, 1fr);
         list-style-type: none;
         margin-bottom: 0px;
@@ -13488,6 +13774,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -13498,6 +13785,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -13582,6 +13870,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -13592,6 +13881,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -13676,6 +13966,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -13686,6 +13977,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -13770,6 +14062,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -13780,6 +14073,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -13864,6 +14158,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -13874,6 +14169,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -13958,6 +14254,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -13968,6 +14265,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -14052,6 +14350,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -14062,6 +14361,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -14146,6 +14446,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -14156,6 +14457,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -14240,6 +14542,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -14250,6 +14553,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -14334,6 +14638,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -14344,6 +14649,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -14428,6 +14734,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -14438,6 +14745,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -14522,6 +14830,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -14532,6 +14841,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -14616,6 +14926,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -14626,6 +14937,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -14710,6 +15022,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -14720,6 +15033,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -14804,6 +15118,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -14814,6 +15129,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -14898,6 +15214,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -14908,6 +15225,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -14992,6 +15310,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -15002,6 +15321,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -15086,6 +15406,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -15096,6 +15417,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -15180,6 +15502,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -15190,6 +15513,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -15274,6 +15598,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -15284,6 +15609,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -15368,6 +15694,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -15378,6 +15705,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -15462,6 +15790,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -15472,6 +15801,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -15556,6 +15886,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -15566,6 +15897,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -15650,6 +15982,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -15660,6 +15993,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -15744,6 +16078,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -15754,6 +16089,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -15838,6 +16174,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -15848,6 +16185,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -15932,6 +16270,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -15942,6 +16281,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -16026,6 +16366,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -16036,6 +16377,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -16161,6 +16503,7 @@
     ">
       <ul style="
         display: grid;
+        gap: var(--spacing-100);
         grid-template-columns: repeat(2, 1fr);
         list-style-type: none;
         margin-bottom: 0px;
@@ -16176,6 +16519,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -16186,6 +16530,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -16270,6 +16615,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -16280,6 +16626,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -16364,6 +16711,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -16374,6 +16722,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -16458,6 +16807,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -16468,6 +16818,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -16552,6 +16903,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -16562,6 +16914,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -16646,6 +16999,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -16656,6 +17010,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -16740,6 +17095,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -16750,6 +17106,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -16834,6 +17191,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -16844,6 +17202,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -16928,6 +17287,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -16938,6 +17298,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -17022,6 +17383,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -17032,6 +17394,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -17116,6 +17479,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -17126,6 +17490,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -17210,6 +17575,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -17220,6 +17586,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -17304,6 +17671,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -17314,6 +17682,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -17398,6 +17767,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -17408,6 +17778,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -17492,6 +17863,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -17502,6 +17874,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -17586,6 +17959,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -17596,6 +17970,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -17680,6 +18055,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -17690,6 +18066,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -17774,6 +18151,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -17784,6 +18162,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -17868,6 +18247,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -17878,6 +18258,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -17962,6 +18343,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -17972,6 +18354,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -18056,6 +18439,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -18066,6 +18450,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -18150,6 +18535,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -18160,6 +18546,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -18244,6 +18631,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -18254,6 +18642,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -18338,6 +18727,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -18348,6 +18738,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -18432,6 +18823,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -18442,6 +18834,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -18526,6 +18919,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -18536,6 +18930,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -18620,6 +19015,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -18630,6 +19026,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -18714,6 +19111,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -18724,6 +19122,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -18849,6 +19248,7 @@
     ">
       <ul style="
         display: grid;
+        gap: var(--spacing-100);
         grid-template-columns: repeat(2, 1fr);
         list-style-type: none;
         margin-bottom: 0px;
@@ -18864,6 +19264,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -18874,6 +19275,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -18958,6 +19360,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -18968,6 +19371,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -19052,6 +19456,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -19062,6 +19467,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -19146,6 +19552,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -19156,6 +19563,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -19240,6 +19648,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -19250,6 +19659,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -19334,6 +19744,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -19344,6 +19755,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -19428,6 +19840,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -19438,6 +19851,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -19522,6 +19936,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -19532,6 +19947,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -19616,6 +20032,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -19626,6 +20043,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -19710,6 +20128,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -19720,6 +20139,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -19804,6 +20224,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -19814,6 +20235,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -19898,6 +20320,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -19908,6 +20331,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -19992,6 +20416,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -20002,6 +20427,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -20086,6 +20512,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -20096,6 +20523,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -20180,6 +20608,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -20190,6 +20619,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -20274,6 +20704,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -20284,6 +20715,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -20368,6 +20800,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -20378,6 +20811,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -20462,6 +20896,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -20472,6 +20907,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -20556,6 +20992,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -20566,6 +21003,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -20650,6 +21088,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -20660,6 +21099,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -20744,6 +21184,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -20754,6 +21195,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -20838,6 +21280,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -20848,6 +21291,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -20932,6 +21376,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -20942,6 +21387,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -21026,6 +21472,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -21036,6 +21483,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -21120,6 +21568,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -21130,6 +21579,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -21214,6 +21664,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -21224,6 +21675,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -21308,6 +21760,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -21318,6 +21771,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -21402,6 +21856,7 @@
           <div style="
             aspect-ratio: 1 / 1;
             background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+            border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
             display: flex;
             max-width: 396px;
             min-height: 120px;
@@ -21412,6 +21867,7 @@
               src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
               style="
                 align-self: center;
+                border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
                 height: 100%;
                 margin-bottom: auto;
                 margin-left: auto;
@@ -21522,6 +21978,7 @@
   ">
     <ul style="
       display: grid;
+      gap: var(--spacing-100);
       grid-template-columns: repeat(2, 1fr);
       list-style-type: none;
       margin-bottom: 0px;
@@ -21537,6 +21994,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -21547,6 +22005,7 @@
             src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;
@@ -21631,6 +22090,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -21641,6 +22101,7 @@
             src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;
@@ -21725,6 +22186,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -21735,6 +22197,7 @@
             src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;
@@ -21819,6 +22282,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -21829,6 +22293,7 @@
             src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;
@@ -21913,6 +22378,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -21923,6 +22389,7 @@
             src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;
@@ -22007,6 +22474,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -22017,6 +22485,7 @@
             src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;
@@ -22101,6 +22570,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -22111,6 +22581,7 @@
             src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;
@@ -22195,6 +22666,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -22205,6 +22677,7 @@
             src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;
@@ -22289,6 +22762,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -22299,6 +22773,7 @@
             src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;
@@ -22383,6 +22858,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -22393,6 +22869,7 @@
             src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;
@@ -22477,6 +22954,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -22487,6 +22965,7 @@
             src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;
@@ -22571,6 +23050,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -22581,6 +23061,7 @@
             src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;
@@ -22665,6 +23146,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -22675,6 +23157,7 @@
             src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;
@@ -22759,6 +23242,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -22769,6 +23253,7 @@
             src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;
@@ -22853,6 +23338,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -22863,6 +23349,7 @@
             src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;
@@ -22947,6 +23434,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -22957,6 +23445,7 @@
             src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;
@@ -23041,6 +23530,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -23051,6 +23541,7 @@
             src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;
@@ -23135,6 +23626,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -23145,6 +23637,7 @@
             src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;
@@ -23229,6 +23722,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -23239,6 +23733,7 @@
             src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;
@@ -23323,6 +23818,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -23333,6 +23829,7 @@
             src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;
@@ -23417,6 +23914,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -23427,6 +23925,7 @@
             src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;
@@ -23511,6 +24010,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -23521,6 +24021,7 @@
             src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;
@@ -23605,6 +24106,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -23615,6 +24117,7 @@
             src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;
@@ -23699,6 +24202,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -23709,6 +24213,7 @@
             src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;
@@ -23793,6 +24298,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -23803,6 +24309,7 @@
             src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;
@@ -23887,6 +24394,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -23897,6 +24405,7 @@
             src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;
@@ -23981,6 +24490,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -23991,6 +24501,7 @@
             src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;
@@ -24075,6 +24586,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -24085,6 +24597,7 @@
             src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;
@@ -24194,6 +24707,7 @@
   ">
     <ul style="
       display: grid;
+      gap: var(--spacing-100);
       grid-template-columns: repeat(2, 1fr);
       list-style-type: none;
       margin-bottom: 0px;
@@ -24209,6 +24723,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -24306,6 +24821,7 @@
             bottom: var(--spacing-100);
             display: flex;
             font-size: var(--font-size-small);
+            gap: var(--spacing-50);
             left: var(--spacing-100);
             padding: var(--spacing-50) var(--spacing-100);
             position: absolute;
@@ -24343,6 +24859,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -24353,6 +24870,7 @@
             src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;
@@ -24437,6 +24955,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -24447,6 +24966,7 @@
             src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;
@@ -24531,6 +25051,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -24541,6 +25062,7 @@
             src="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;
@@ -24624,6 +25146,7 @@
             bottom: var(--spacing-100);
             display: flex;
             font-size: var(--font-size-small);
+            gap: var(--spacing-50);
             left: var(--spacing-100);
             padding: var(--spacing-50) var(--spacing-100);
             position: absolute;
@@ -24653,6 +25176,7 @@
         <div style="
           aspect-ratio: 1 / 1;
           background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           display: flex;
           max-width: 396px;
           min-height: 120px;
@@ -24663,6 +25187,7 @@
             src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
             style="
               align-self: center;
+              border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
               height: 100%;
               margin-bottom: auto;
               margin-left: auto;

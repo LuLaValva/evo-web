@@ -7,6 +7,7 @@
     <div style="
       aspect-ratio: 1 / 1;
       background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+      border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
       display: flex;
       max-width: 396px;
       min-height: 120px;
@@ -104,6 +105,7 @@
         bottom: var(--spacing-100);
         display: flex;
         font-size: var(--font-size-small);
+        gap: var(--spacing-50);
         left: var(--spacing-100);
         padding: var(--spacing-50) var(--spacing-100);
         position: absolute;
@@ -124,6 +126,7 @@
     <div style="
       aspect-ratio: 1 / 1;
       background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+      border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
       display: flex;
       max-width: 396px;
       min-height: 120px;
@@ -221,6 +224,7 @@
         bottom: var(--spacing-100);
         display: flex;
         font-size: var(--font-size-small);
+        gap: var(--spacing-50);
         padding: var(--spacing-50) var(--spacing-100);
         position: absolute;
         right: var(--spacing-100);
@@ -241,6 +245,7 @@
     <div style="
       aspect-ratio: 1 / 1;
       background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+      border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
       display: flex;
       max-width: 396px;
       min-height: 120px;
@@ -251,6 +256,7 @@
         src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg"
         style="
           align-self: center;
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           height: 100%;
           margin-bottom: auto;
           margin-left: auto;
@@ -341,6 +347,7 @@
     <div style="
       aspect-ratio: 1 / 1;
       background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+      border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
       display: flex;
       max-width: 396px;
       min-height: 120px;
@@ -351,6 +358,7 @@
         src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg"
         style="
           align-self: center;
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           height: 100%;
           margin-bottom: auto;
           margin-left: auto;
@@ -441,6 +449,7 @@
     <div style="
       aspect-ratio: 1 / 1;
       background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+      border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
       display: flex;
       max-width: 396px;
       min-height: 120px;
@@ -541,6 +550,7 @@
     <div style="
       aspect-ratio: 1 / 1;
       background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+      border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
       display: flex;
       max-width: 396px;
       min-height: 120px;
@@ -552,6 +562,7 @@
         style="
           align-self: center;
           background-color: inherit;
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           height: 100%;
           margin-bottom: auto;
           margin-left: auto;
@@ -570,6 +581,11 @@
         border-bottom-right-radius: 50%;
         border-bottom-style: none;
         border-bottom-width: medium;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+        border-image-slice: initial;
+        border-image-source: initial;
+        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
@@ -629,6 +645,7 @@
       style="
         aspect-ratio: 1 / 1;
         background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+        border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
         display: flex;
         max-width: 396px;
         min-height: 120px;
@@ -641,6 +658,7 @@
         style="
           align-self: center;
           background-color: inherit;
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           height: 100%;
           margin-bottom: auto;
           margin-left: auto;
@@ -659,6 +677,11 @@
         border-bottom-right-radius: 50%;
         border-bottom-style: none;
         border-bottom-width: medium;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+        border-image-slice: initial;
+        border-image-source: initial;
+        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
@@ -716,6 +739,7 @@
     <div style="
       aspect-ratio: 1 / 1;
       background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+      border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
       display: flex;
       max-width: 396px;
       min-height: 120px;
@@ -726,6 +750,7 @@
         src="https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-real-square-pic.jpg"
         style="
           align-self: center;
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           height: 100%;
           margin-bottom: auto;
           margin-left: auto;
@@ -816,6 +841,7 @@
     <div style="
       aspect-ratio: 1 / 1;
       background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+      border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
       display: flex;
       max-width: 396px;
       min-height: 120px;
@@ -931,6 +957,7 @@
     <div style="
       aspect-ratio: 1 / 1;
       background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+      border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
       display: flex;
       max-width: 396px;
       min-height: 120px;
@@ -941,6 +968,7 @@
         src="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4"
         style="
           align-self: center;
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           height: 100%;
           margin-bottom: auto;
           margin-left: auto;
@@ -1024,6 +1052,7 @@
         bottom: var(--spacing-100);
         display: flex;
         font-size: var(--font-size-small);
+        gap: var(--spacing-50);
         left: var(--spacing-100);
         padding: var(--spacing-50) var(--spacing-100);
         position: absolute;
@@ -1061,6 +1090,7 @@
       style="
         aspect-ratio: 1 / 1;
         background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+        border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
         display: flex;
         max-width: 396px;
         min-height: 120px;
@@ -1072,6 +1102,7 @@
         src="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4"
         style="
           align-self: center;
+          border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
           height: 100%;
           margin-bottom: auto;
           margin-left: auto;
@@ -1155,6 +1186,7 @@
         bottom: var(--spacing-100);
         display: flex;
         font-size: var(--font-size-small);
+        gap: var(--spacing-50);
         padding: var(--spacing-50) var(--spacing-100);
         position: absolute;
         right: var(--spacing-100);
@@ -1190,6 +1222,7 @@
     <div style="
       aspect-ratio: 1 / 1;
       background-color: var(--file-preview-card-background-color, var(--color-background-secondary));
+      border-radius: var(--file-preview-card-border-radius, var(--border-radius-100));
       display: flex;
       max-width: 396px;
       min-height: 120px;
@@ -1287,6 +1320,7 @@
         bottom: var(--spacing-100);
         display: flex;
         font-size: var(--font-size-small);
+        gap: var(--spacing-50);
         left: var(--spacing-100);
         padding: var(--spacing-50) var(--spacing-100);
         position: absolute;

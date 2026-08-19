@@ -3,6 +3,7 @@
   <div style="font-size: 200%">
     <aside style="
       background-color: var(--snackbar-dialog-background-color, var(--color-background-inverse));
+      border-radius: var(--snackbar-dialog-border-radius, var(--border-radius-100));
       bottom: 40px;
       box-shadow: rgba(0, 0, 0, 0.28) 0px 0px 3px;
       color: var(--snackbar-dialog-foreground-color, var(--color-foreground-on-inverse));
@@ -33,6 +34,7 @@
         </div>
         <div style="margin-inline-start: auto">
           <button style="
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: 0px;
@@ -72,6 +74,7 @@
   <div style="font-size: 200%">
     <aside style="
       background-color: var(--snackbar-dialog-background-color, var(--color-background-inverse));
+      border-radius: var(--snackbar-dialog-border-radius, var(--border-radius-100));
       bottom: 20px;
       box-shadow: rgba(0, 0, 0, 0.28) 0px 0px 3px;
       color: var(--snackbar-dialog-foreground-color, var(--color-foreground-on-inverse));
@@ -102,6 +105,7 @@
         </div>
         <div style="margin-inline-start: auto">
           <button style="
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: 0px;
@@ -138,6 +142,7 @@
   <div style="font-size: 200%">
     <aside style="
       background-color: var(--snackbar-dialog-background-color, var(--color-background-inverse));
+      border-radius: var(--snackbar-dialog-border-radius, var(--border-radius-100));
       bottom: 20px;
       box-shadow: rgba(0, 0, 0, 0.28) 0px 0px 3px;
       color: var(--snackbar-dialog-foreground-color, var(--color-foreground-on-inverse));
@@ -167,6 +172,7 @@
         </div>
         <div style="margin-inline-start: auto">
           <button style="
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: 0px;
@@ -203,6 +209,7 @@
   <div style="font-size: 200%">
     <aside style="
       background-color: var(--snackbar-dialog-background-color, var(--color-background-inverse));
+      border-radius: var(--snackbar-dialog-border-radius, var(--border-radius-100));
       bottom: 40px;
       box-shadow: rgba(0, 0, 0, 0.28) 0px 0px 3px;
       color: var(--snackbar-dialog-foreground-color, var(--color-foreground-on-inverse));
@@ -233,6 +240,7 @@
         </div>
         <div style="margin-inline-start: auto">
           <button style="
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: 0px;
@@ -260,6 +268,7 @@
           </button>
           |
           <button style="
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: 0px;
@@ -299,6 +308,7 @@
   <div style="font-size: 200%">
     <aside style="
       background-color: var(--snackbar-dialog-background-color, var(--color-background-inverse));
+      border-radius: var(--snackbar-dialog-border-radius, var(--border-radius-100));
       bottom: 20px;
       box-shadow: rgba(0, 0, 0, 0.28) 0px 0px 3px;
       color: var(--snackbar-dialog-foreground-color, var(--color-foreground-on-inverse));
@@ -329,6 +339,7 @@
         </div>
         <div style="margin-inline-start: auto">
           <button style="
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: 0px;
@@ -356,6 +367,7 @@
           </button>
           |
           <button style="
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: 0px;
@@ -395,6 +407,7 @@
   <div style="font-size: 200%">
     <aside style="
       background-color: var(--snackbar-dialog-background-color, var(--color-background-inverse));
+      border-radius: var(--snackbar-dialog-border-radius, var(--border-radius-100));
       bottom: 40px;
       box-shadow: rgba(0, 0, 0, 0.28) 0px 0px 3px;
       color: var(--snackbar-dialog-foreground-color, var(--color-foreground-on-inverse));
@@ -429,6 +442,7 @@
           margin-top: var(--spacing-200)
         ">
           <button style="
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: 0px;
@@ -456,6 +470,7 @@
           </button>
           |
           <button style="
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: 0px;
@@ -495,6 +510,7 @@
   <div style="font-size: 200%">
     <aside style="
       background-color: var(--snackbar-dialog-background-color, var(--color-background-inverse));
+      border-radius: var(--snackbar-dialog-border-radius, var(--border-radius-100));
       bottom: 20px;
       box-shadow: rgba(0, 0, 0, 0.28) 0px 0px 3px;
       color: var(--snackbar-dialog-foreground-color, var(--color-foreground-on-inverse));
@@ -529,6 +545,7 @@
           margin-top: var(--spacing-200)
         ">
           <button style="
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: 0px;
@@ -556,6 +573,7 @@
           </button>
           |
           <button style="
+            background-color: initial;
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: 0px;
@@ -595,6 +613,7 @@
   <div style="font-size: 200%">
     <aside style="
       background-color: var(--snackbar-dialog-background-color, var(--color-background-inverse));
+      border-radius: var(--snackbar-dialog-border-radius, var(--border-radius-100));
       bottom: 40px;
       box-shadow: rgba(0, 0, 0, 0.28) 0px 0px 3px;
       color: var(--snackbar-dialog-foreground-color, var(--color-foreground-on-inverse));
@@ -636,6 +655,7 @@
   <div style="font-size: 200%">
     <aside style="
       background-color: var(--snackbar-dialog-background-color, var(--color-background-inverse));
+      border-radius: var(--snackbar-dialog-border-radius, var(--border-radius-100));
       bottom: 20px;
       box-shadow: rgba(0, 0, 0, 0.28) 0px 0px 3px;
       color: var(--snackbar-dialog-foreground-color, var(--color-foreground-on-inverse));

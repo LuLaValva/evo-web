@@ -256,6 +256,7 @@
     <svg
       height="16"
       style="
+        background-color: initial;
         display: inline-block;
         fill: var(--color-background-disabled);
         height: 24px;
@@ -324,6 +325,7 @@
     <svg
       height="16"
       style="
+        background-color: initial;
         display: inline-block;
         fill: var(--color-background-disabled);
         height: 20px;
@@ -392,6 +394,7 @@
     <svg
       height="16"
       style="
+        background-color: initial;
         display: inline-block;
         fill: var(--color-background-disabled);
         margin-left: auto;
@@ -652,6 +655,7 @@
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--color-border-accent);
     border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
@@ -720,6 +724,7 @@
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--color-border-accent);
     border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
@@ -788,6 +793,7 @@
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--color-border-accent);
     border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
@@ -858,6 +864,7 @@
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--color-border-disabled);
     border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
@@ -900,6 +907,7 @@
     <svg
       height="16"
       style="
+        background-color: initial;
         display: inline-block;
         fill: var(--color-foreground-on-accent);
         height: 24px;
@@ -926,6 +934,7 @@
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--color-border-disabled);
     border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
@@ -968,6 +977,7 @@
     <svg
       height="16"
       style="
+        background-color: initial;
         display: inline-block;
         fill: var(--color-foreground-on-accent);
         height: 20px;
@@ -994,6 +1004,7 @@
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--color-border-disabled);
     border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
@@ -1036,6 +1047,7 @@
     <svg
       height="16"
       style="
+        background-color: initial;
         display: inline-block;
         fill: var(--color-foreground-on-accent);
         margin-left: auto;
@@ -1064,6 +1076,7 @@
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--color-border-accent);
     border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
@@ -1142,6 +1155,7 @@
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--color-border-accent);
     border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
@@ -1220,6 +1234,7 @@
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--color-border-accent);
     border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
@@ -1296,11 +1311,13 @@
 <div>
   <a style="
     align-items: center;
+    background-color: initial;
     border-bottom-color: transparent;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--color-border-accent);
     border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
@@ -1363,11 +1380,13 @@
   </a>
   <a style="
     align-items: center;
+    background-color: initial;
     border-bottom-color: transparent;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--color-border-accent);
     border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
@@ -1430,11 +1449,13 @@
   </a>
   <a style="
     align-items: center;
+    background-color: initial;
     border-bottom-color: transparent;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--color-border-accent);
     border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
@@ -1499,11 +1520,13 @@
 <div>
   <a style="
     align-items: center;
+    background-color: initial;
     border-bottom-color: transparent;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--color-border-disabled);
     border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
@@ -1546,6 +1569,7 @@
     <svg
       height="16"
       style="
+        background-color: initial;
         display: inline-block;
         fill: var(--color-background-disabled);
         height: 24px;
@@ -1566,11 +1590,13 @@
   </a>
   <a style="
     align-items: center;
+    background-color: initial;
     border-bottom-color: transparent;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--color-border-disabled);
     border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
@@ -1613,6 +1639,7 @@
     <svg
       height="16"
       style="
+        background-color: initial;
         display: inline-block;
         fill: var(--color-background-disabled);
         height: 20px;
@@ -1633,11 +1660,13 @@
   </a>
   <a style="
     align-items: center;
+    background-color: initial;
     border-bottom-color: transparent;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--color-border-disabled);
     border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
@@ -1680,6 +1709,7 @@
     <svg
       height="16"
       style="
+        background-color: initial;
         display: inline-block;
         fill: var(--color-background-disabled);
         margin-left: auto;
@@ -1702,11 +1732,13 @@
 <div>
   <a style="
     align-items: center;
+    background-color: initial;
     border-bottom-color: transparent;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--color-border-accent);
     border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
@@ -1778,11 +1810,13 @@
   </a>
   <a style="
     align-items: center;
+    background-color: initial;
     border-bottom-color: transparent;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--color-border-accent);
     border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
@@ -1854,11 +1888,13 @@
   </a>
   <a style="
     align-items: center;
+    background-color: initial;
     border-bottom-color: transparent;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--color-border-accent);
     border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
@@ -1934,11 +1970,13 @@
 <div>
   <a style="
     align-items: center;
+    background-color: initial;
     border-bottom-color: transparent;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--color-border-medium);
     border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
@@ -2001,11 +2039,13 @@
   </a>
   <a style="
     align-items: center;
+    background-color: initial;
     border-bottom-color: transparent;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--color-border-medium);
     border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
@@ -2068,11 +2108,13 @@
   </a>
   <a style="
     align-items: center;
+    background-color: initial;
     border-bottom-color: transparent;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--color-border-medium);
     border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
@@ -2137,11 +2179,13 @@
 <div>
   <a style="
     align-items: center;
+    background-color: initial;
     border-bottom-color: transparent;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--color-border-disabled);
     border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
@@ -2184,6 +2228,7 @@
     <svg
       height="16"
       style="
+        background-color: initial;
         display: inline-block;
         fill: var(--color-background-disabled);
         height: 24px;
@@ -2204,11 +2249,13 @@
   </a>
   <a style="
     align-items: center;
+    background-color: initial;
     border-bottom-color: transparent;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--color-border-disabled);
     border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
@@ -2251,6 +2298,7 @@
     <svg
       height="16"
       style="
+        background-color: initial;
         display: inline-block;
         fill: var(--color-background-disabled);
         height: 20px;
@@ -2271,11 +2319,13 @@
   </a>
   <a style="
     align-items: center;
+    background-color: initial;
     border-bottom-color: transparent;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--color-border-disabled);
     border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
@@ -2318,6 +2368,7 @@
     <svg
       height="16"
       style="
+        background-color: initial;
         display: inline-block;
         fill: var(--color-background-disabled);
         margin-left: auto;
@@ -2340,11 +2391,13 @@
 <div>
   <a style="
     align-items: center;
+    background-color: initial;
     border-bottom-color: transparent;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--color-border-medium);
     border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
@@ -2416,11 +2469,13 @@
   </a>
   <a style="
     align-items: center;
+    background-color: initial;
     border-bottom-color: transparent;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--color-border-medium);
     border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
@@ -2492,11 +2547,13 @@
   </a>
   <a style="
     align-items: center;
+    background-color: initial;
     border-bottom-color: transparent;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--color-border-medium);
     border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;

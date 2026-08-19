@@ -4,11 +4,13 @@
     <details open>
       <summary style="
         align-items: center;
+        border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
         box-sizing: border-box;
         color: var(--details-summary-foreground-color, var(--color-foreground-primary));
         display: inline-flex;
         font-size: var(--font-size-body);
         font-weight: var(--font-weight-600);
+        gap: var(--spacing-100);
         list-style-position: inside;
         list-style-type: none;
         overflow-x: hidden;
@@ -68,11 +70,13 @@
     <details open>
       <summary style="
         align-items: center;
+        border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
         box-sizing: border-box;
         color: var(--details-summary-foreground-color, var(--color-foreground-primary));
         display: inline-flex;
         font-size: var(--font-size-body);
         font-weight: var(--font-weight-600);
+        gap: var(--spacing-100);
         list-style-position: inside;
         list-style-type: none;
         overflow-x: hidden;

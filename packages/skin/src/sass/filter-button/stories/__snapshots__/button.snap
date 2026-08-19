@@ -137,6 +137,7 @@
     border-bottom-right-radius: 16px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--filter-button-selected-border-color, var(--color-border-strong));
     border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;

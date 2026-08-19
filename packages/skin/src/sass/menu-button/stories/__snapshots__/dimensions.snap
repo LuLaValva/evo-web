@@ -4,20 +4,20 @@
     <button style="
       align-content: center;
       align-items: center;
+      background-color: initial;
       border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
-      border-bottom: 1px solid;
       border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 20px);
       border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
       border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
-      border-top: 1px solid;
       color: inherit;
       font-family: inherit;
       font-size: var(--font-size-body);
@@ -61,6 +61,7 @@
     </button>
     <div style="
       background-color: var(--color-background-elevated);
+      border-radius: var(--border-radius-50);
       box-shadow: var(--bubble-shadow);
       box-sizing: border-box;
       left: 0px;
@@ -75,8 +76,10 @@
     ">
       <div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -127,8 +130,10 @@
           </span>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;
@@ -177,10 +182,12 @@
           </span>
         </div>
         <div style="
+          background-color: initial;
           border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
           border-bottom-width: 1px;
+          border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
           border-left-style: solid;
           border-left-width: 1px;
           border-right-style: solid;

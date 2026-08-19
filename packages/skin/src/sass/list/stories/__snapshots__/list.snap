@@ -19,6 +19,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -69,6 +74,11 @@
           background-color: var(--list-background-color, var(--color-background-primary));
           border-bottom-color: currentcolor;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-width: medium;
           border-right-color: currentcolor;
@@ -184,6 +194,7 @@
                 border-bottom-right-radius: 400px;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
+                border-color: var(--switch-border-color, var(--color-border-strong));
                 border-left-style: solid;
                 border-left-width: 1px;
                 border-right-style: solid;
@@ -209,6 +220,7 @@
                     border-bottom-right-radius: 50%;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
+                    border-color: var(--switch-foreground-border-color, var(--color-border-strong));
                     border-left-style: solid;
                     border-left-width: 1px;
                     border-right-style: solid;
@@ -260,6 +272,11 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -310,6 +327,11 @@
           background-color: var(--list-background-color, var(--color-background-primary));
           border-bottom-color: currentcolor;
           border-bottom-width: medium;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          border-image-slice: initial;
+          border-image-source: initial;
+          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-width: medium;
           border-right-color: currentcolor;
@@ -425,6 +447,7 @@
                 border-bottom-right-radius: 400px;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
+                border-color: var(--switch-border-color, var(--color-border-strong));
                 border-left-style: solid;
                 border-left-width: 1px;
                 border-right-style: solid;
@@ -450,6 +473,7 @@
                     border-bottom-right-radius: 50%;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
+                    border-color: var(--switch-foreground-border-color, var(--color-border-strong));
                     border-left-style: solid;
                     border-left-width: 1px;
                     border-right-style: solid;
@@ -911,6 +935,11 @@
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+        border-image-slice: initial;
+        border-image-source: initial;
+        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: 0px;
@@ -1057,6 +1086,11 @@
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+        border-image-slice: initial;
+        border-image-source: initial;
+        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: 0px;

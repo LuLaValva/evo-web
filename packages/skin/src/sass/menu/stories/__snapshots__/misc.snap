@@ -10,8 +10,10 @@
       display: inline-block
     ">
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;
@@ -84,8 +86,10 @@
         </span>
       </div>
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;
@@ -158,8 +162,10 @@
         </span>
       </div>
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;
@@ -245,8 +251,10 @@
       cursor: default
     ">
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;
@@ -291,13 +299,16 @@
       </div>
       <hr style="
         border-bottom-style: solid;
+        border-color: var(--menu-separator-color, var(--color-border-subtle));
         border-left-style: solid;
         border-right-style: solid;
         border-top-style: solid
       "/>
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;
@@ -341,8 +352,10 @@
         </span>
       </div>
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;
@@ -399,8 +412,10 @@
       cursor: default
     ">
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;
@@ -444,8 +459,10 @@
         </span>
       </div>
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;
@@ -489,8 +506,10 @@
         </span>
       </div>
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;
@@ -554,8 +573,10 @@
       word-spacing: 0.16em
     ">
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;
@@ -637,8 +658,10 @@
         </span>
       </div>
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;
@@ -720,8 +743,10 @@
         </span>
       </div>
       <div style="
+        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
+        border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
         border-right-style: solid;

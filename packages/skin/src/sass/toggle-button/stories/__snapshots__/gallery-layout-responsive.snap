@@ -2,6 +2,7 @@
 <div>
   <button style="
     background-color: var(--color-background-primary);
+    border-radius: var(--spacing-100);
     border: 1px solid var(--color-border-medium);
     box-shadow: transparent 0px 0px 0px 1px;
     color: var(--color-foreground-primary);
@@ -78,6 +79,7 @@
 <div>
   <button style="
     background-color: var(--color-background-primary);
+    border-radius: var(--spacing-100);
     border: 1px solid var(--color-border-medium);
     box-shadow: transparent 0px 0px 0px 1px;
     color: var(--color-foreground-primary);
@@ -154,6 +156,7 @@
 <div>
   <button style="
     background-color: var(--color-background-primary);
+    border-radius: var(--spacing-100);
     border: 1px solid var(--color-border-medium);
     box-shadow: transparent 0px 0px 0px 1px;
     color: var(--color-foreground-primary);
@@ -234,6 +237,7 @@
 <div>
   <button style="
     background-color: var(--color-background-primary);
+    border-radius: var(--spacing-100);
     border: 1px solid var(--color-border-medium);
     box-shadow: transparent 0px 0px 0px 1px;
     color: var(--color-foreground-primary);
@@ -310,6 +314,7 @@
 <div>
   <button style="
     background-color: var(--color-background-primary);
+    border-radius: var(--spacing-100);
     border: 1px solid var(--color-border-medium);
     box-shadow: transparent 0px 0px 0px 1px;
     color: var(--color-foreground-primary);
@@ -386,6 +391,7 @@
 <div>
   <button style="
     background-color: var(--color-background-primary);
+    border-radius: var(--spacing-100);
     border: 1px solid var(--color-border-medium);
     box-shadow: transparent 0px 0px 0px 1px;
     color: var(--color-foreground-primary);
@@ -466,6 +472,7 @@
 <div>
   <button style="
     background-color: var(--color-background-primary);
+    border-radius: var(--spacing-100);
     border: 1px solid var(--color-border-medium);
     box-shadow: transparent 0px 0px 0px 1px;
     color: var(--color-foreground-primary);
@@ -541,6 +548,7 @@
 <div>
   <button style="
     background-color: var(--color-background-primary);
+    border-radius: var(--spacing-100);
     border: 1px solid var(--color-border-medium);
     box-shadow: transparent 0px 0px 0px 1px;
     color: var(--color-foreground-primary);
@@ -616,6 +624,7 @@
 <div>
   <button style="
     background-color: var(--color-background-primary);
+    border-radius: var(--spacing-100);
     border: 1px solid var(--color-border-medium);
     box-shadow: transparent 0px 0px 0px 1px;
     color: var(--color-foreground-primary);

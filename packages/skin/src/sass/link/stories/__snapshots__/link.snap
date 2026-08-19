@@ -15,6 +15,7 @@
 ┌─ disabledFake
 <div>
   <button style="
+    background-color: initial;
     border-bottom-color: currentcolor;
     border-bottom-style: none;
     border-bottom-width: 0px;
@@ -43,6 +44,7 @@
 ┌─ fake
 <div>
   <button style="
+    background-color: initial;
     border-bottom-color: currentcolor;
     border-bottom-style: none;
     border-bottom-width: 0px;
@@ -78,6 +80,7 @@
 ┌─ legalFake
 <div>
   <button style="
+    background-color: initial;
     border-bottom-color: currentcolor;
     border-bottom-style: none;
     border-bottom-width: 0px;

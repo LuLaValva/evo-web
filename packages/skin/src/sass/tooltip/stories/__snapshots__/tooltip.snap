@@ -148,6 +148,7 @@
       </svg>
     </button>
     <div style="
+      border-radius: var(--bubble-border-radius, var(--border-radius-50));
       box-shadow: var(--bubble-shadow);
       font-size: 14px;
       left: calc(50% - 16px);
@@ -170,6 +171,7 @@
       "/>
       <div style="
         background-color: var(--tooltip-background-color, var(--color-background-inverse));
+        border-radius: var(--bubble-border-radius, var(--border-radius-50));
         color: var(--tooltip-foreground-color, var(--color-foreground-on-inverse));
         position: relative;
         z-index: 1
@@ -267,6 +269,7 @@
       </svg>
     </button>
     <div style="
+      border-radius: var(--bubble-border-radius, var(--border-radius-50));
       box-shadow: var(--bubble-shadow);
       font-size: 14px;
       left: calc(50% - 16px);
@@ -289,6 +292,7 @@
       "/>
       <div style="
         background-color: var(--tooltip-background-color, var(--color-background-inverse));
+        border-radius: var(--bubble-border-radius, var(--border-radius-50));
         color: var(--tooltip-foreground-color, var(--color-foreground-on-inverse));
         position: relative;
         z-index: 1
@@ -399,6 +403,7 @@
       </svg>
     </button>
     <div style="
+      border-radius: var(--bubble-border-radius, var(--border-radius-50));
       box-shadow: var(--bubble-shadow);
       font-size: 14px;
       left: calc(50% - 16px);
@@ -427,6 +432,7 @@
       "/>
       <div style="
         background-color: var(--tooltip-background-color, var(--color-background-inverse));
+        border-radius: var(--bubble-border-radius, var(--border-radius-50));
         color: var(--tooltip-foreground-color, var(--color-foreground-on-inverse));
         letter-spacing: 0.12em;
         line-height: 1.5;
@@ -554,6 +560,7 @@
       </svg>
     </button>
     <div style="
+      border-radius: var(--bubble-border-radius, var(--border-radius-50));
       box-shadow: var(--bubble-shadow);
       font-size: 14px;
       left: calc(50% - 16px);
@@ -582,6 +589,7 @@
       "/>
       <div style="
         background-color: var(--tooltip-background-color, var(--color-background-inverse));
+        border-radius: var(--bubble-border-radius, var(--border-radius-50));
         color: var(--tooltip-foreground-color, var(--color-foreground-on-inverse));
         letter-spacing: 0.12em;
         line-height: 1.5;

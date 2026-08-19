@@ -3,20 +3,20 @@
   <button style="
     align-content: center;
     align-items: center;
+    background-color: initial;
     border-bottom-color: transparent;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-bottom: 1px solid;
     border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
+    border-radius: var(--btn-border-radius, 20px);
     border-right-color: transparent;
     border-right-style: solid;
     border-right-width: 1px;
     border-top-color: transparent;
     border-top-style: solid;
     border-top-width: 1px;
-    border-top: 1px solid;
     color: var(--btn-secondary-destructive-foreground-color, var(--color-foreground-attention));
     font-family: inherit;
     font-size: var(--font-size-body);
@@ -25,7 +25,8 @@
     padding-bottom: 0px;
     padding-left: 0px;
     padding-right: 20px;
-    padding-top: 0px
+    padding-top: 0px;
+    vertical-align: initial
   ">
     Destructive Borderless Button
   </button>

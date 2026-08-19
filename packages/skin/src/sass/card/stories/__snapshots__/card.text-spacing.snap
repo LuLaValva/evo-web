@@ -4,8 +4,14 @@
     background-color: var(--color-background-secondary);
     border-bottom-color: currentcolor;
     border-bottom-width: medium;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-image-slice: initial;
+    border-image-source: initial;
+    border-image-width: initial;
     border-left-color: currentcolor;
     border-left-width: medium;
+    border-radius: var(--border-radius-150);
     border-right-color: currentcolor;
     border-right-width: medium;
     border-top-color: currentcolor;
@@ -26,6 +32,7 @@
   ">
     <div style="
       aspect-ratio: 1 / 1;
+      border-radius: var(--border-radius-100);
       letter-spacing: 0.12em;
       line-height: 1.5;
       margin: var(--spacing-150);
@@ -40,6 +47,7 @@
         src="/img/cards-card.jpeg"
         style="
           aspect-ratio: 1 / 1;
+          border-radius: var(--border-radius-100);
           display: block;
           height: auto;
           letter-spacing: 0.12em;
@@ -66,6 +74,7 @@
         align-items: center;
         display: flex;
         font-weight: 700;
+        gap: var(--spacing-100);
         letter-spacing: 0.12em;
         line-height: 1.5;
         margin-block-end: var(--spacing-100);
@@ -136,17 +145,17 @@
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
+          border-color: var(--color-border-accent);
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: var(--color-foreground-on-accent);
           font-family: inherit;
           font-size: var(--font-size-body);
@@ -191,8 +200,14 @@
     background-color: var(--color-background-secondary);
     border-bottom-color: currentcolor;
     border-bottom-width: medium;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-image-slice: initial;
+    border-image-source: initial;
+    border-image-width: initial;
     border-left-color: currentcolor;
     border-left-width: medium;
+    border-radius: var(--border-radius-150);
     border-right-color: currentcolor;
     border-right-width: medium;
     border-top-color: currentcolor;
@@ -213,6 +228,7 @@
   ">
     <div style="
       aspect-ratio: 1 / 1;
+      border-radius: var(--border-radius-100);
       letter-spacing: 0.12em;
       line-height: 1.5;
       margin-block-end: var(--spacing-200);
@@ -224,6 +240,7 @@
       <img
         src="/img/cards-card.jpeg"
         style="
+          border-radius: var(--border-radius-100);
           display: block;
           height: 100%;
           letter-spacing: 0.12em;
@@ -249,6 +266,7 @@
         align-items: center;
         display: flex;
         font-weight: 700;
+        gap: var(--spacing-100);
         letter-spacing: 0.12em;
         line-height: 1.5;
         margin-block-end: var(--spacing-100);
@@ -319,17 +337,17 @@
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
-          border-bottom: 1px solid;
+          border-color: var(--color-border-accent);
           border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
+          border-radius: var(--btn-border-radius, 20px);
           border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
           border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
-          border-top: 1px solid;
           color: var(--color-foreground-on-accent);
           font-family: inherit;
           font-size: var(--font-size-body);

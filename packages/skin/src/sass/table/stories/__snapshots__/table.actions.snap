@@ -9,6 +9,7 @@
     <table style="
       -webkit-border-horizontal-spacing: 0px;
       -webkit-border-vertical-spacing: 0px;
+      border-collapse: initial;
       width: 100%
     ">
       <thead>
@@ -30,6 +31,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -57,7 +59,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Seller
               <svg
@@ -95,6 +98,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -122,7 +126,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Item
               <svg
@@ -211,6 +216,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -238,7 +244,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               List Price
               <svg
@@ -276,6 +283,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -303,7 +311,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Quantity Available
               <svg
@@ -341,6 +350,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -368,7 +378,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Orders
               <svg
@@ -406,6 +417,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -433,7 +445,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Watchers
               <svg
@@ -471,6 +484,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -498,7 +512,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Protection
               <svg
@@ -536,6 +551,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -563,7 +579,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Shipping
               <svg
@@ -602,6 +619,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -629,7 +647,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Delivery
               <svg
@@ -711,12 +730,15 @@
             ">
               <select style="
                 appearance: none;
+                background-color: initial;
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
+                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
+                border-radius: var(--select-border-radius, var(--border-radius-50));
                 border-right-color: currentcolor;
                 border-right-style: none;
                 border-right-width: 0px;
@@ -782,6 +804,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <a style="
@@ -791,17 +814,16 @@
                 border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
-                border-bottom: 1px solid;
                 border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-radius: var(--cta-btn-border-radius, 20px);
                 border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
                 border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
-                border-top: 1px solid;
                 box-sizing: border-box;
                 color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
                 display: inline-block;
@@ -1157,12 +1179,15 @@
             ">
               <select style="
                 appearance: none;
+                background-color: initial;
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
+                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
+                border-radius: var(--select-border-radius, var(--border-radius-50));
                 border-right-color: currentcolor;
                 border-right-style: none;
                 border-right-width: 0px;
@@ -1228,6 +1253,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <a style="
@@ -1237,17 +1263,16 @@
                 border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
-                border-bottom: 1px solid;
                 border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-radius: var(--cta-btn-border-radius, 20px);
                 border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
                 border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
-                border-top: 1px solid;
                 box-sizing: border-box;
                 color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
                 display: inline-block;
@@ -1603,12 +1628,15 @@
             ">
               <select style="
                 appearance: none;
+                background-color: initial;
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
+                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
+                border-radius: var(--select-border-radius, var(--border-radius-50));
                 border-right-color: currentcolor;
                 border-right-style: none;
                 border-right-width: 0px;
@@ -1674,6 +1702,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <a style="
@@ -1683,17 +1712,16 @@
                 border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
-                border-bottom: 1px solid;
                 border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-radius: var(--cta-btn-border-radius, 20px);
                 border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
                 border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
-                border-top: 1px solid;
                 box-sizing: border-box;
                 color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
                 display: inline-block;
@@ -2049,12 +2077,15 @@
             ">
               <select style="
                 appearance: none;
+                background-color: initial;
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
+                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
+                border-radius: var(--select-border-radius, var(--border-radius-50));
                 border-right-color: currentcolor;
                 border-right-style: none;
                 border-right-width: 0px;
@@ -2120,6 +2151,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <a style="
@@ -2129,17 +2161,16 @@
                 border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
-                border-bottom: 1px solid;
                 border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-radius: var(--cta-btn-border-radius, 20px);
                 border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
                 border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
-                border-top: 1px solid;
                 box-sizing: border-box;
                 color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
                 display: inline-block;
@@ -2501,12 +2532,15 @@
             ">
               <select style="
                 appearance: none;
+                background-color: initial;
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
+                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
+                border-radius: var(--select-border-radius, var(--border-radius-50));
                 border-right-color: currentcolor;
                 border-right-style: none;
                 border-right-width: 0px;
@@ -2574,6 +2608,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <a style="
@@ -2583,17 +2618,16 @@
                 border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
-                border-bottom: 1px solid;
                 border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-radius: var(--cta-btn-border-radius, 20px);
                 border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
                 border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
-                border-top: 1px solid;
                 box-sizing: border-box;
                 color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
                 display: inline-block;
@@ -2923,6 +2957,7 @@
     <table style="
       -webkit-border-horizontal-spacing: 0px;
       -webkit-border-vertical-spacing: 0px;
+      border-collapse: initial;
       width: 100%
     ">
       <thead>
@@ -2944,6 +2979,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -2971,7 +3007,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Seller
               <svg
@@ -3009,6 +3046,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -3036,7 +3074,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Item
               <svg
@@ -3126,6 +3165,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -3153,7 +3193,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               List Price
               <svg
@@ -3191,6 +3232,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -3218,7 +3260,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Quantity Available
               <svg
@@ -3256,6 +3299,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -3283,7 +3327,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Orders
               <svg
@@ -3321,6 +3366,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -3348,7 +3394,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Watchers
               <svg
@@ -3386,6 +3433,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -3413,7 +3461,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Protection
               <svg
@@ -3451,6 +3500,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -3478,7 +3528,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Shipping
               <svg
@@ -3517,6 +3568,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -3544,7 +3596,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Delivery
               <svg
@@ -3626,12 +3679,15 @@
             ">
               <select style="
                 appearance: none;
+                background-color: initial;
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
+                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
+                border-radius: var(--select-border-radius, var(--border-radius-50));
                 border-right-color: currentcolor;
                 border-right-style: none;
                 border-right-width: 0px;
@@ -3699,6 +3755,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <a style="
@@ -3708,17 +3765,16 @@
                 border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
-                border-bottom: 1px solid;
                 border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-radius: var(--cta-btn-border-radius, 20px);
                 border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
                 border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
-                border-top: 1px solid;
                 box-sizing: border-box;
                 color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
                 display: inline-block;
@@ -4074,12 +4130,15 @@
             ">
               <select style="
                 appearance: none;
+                background-color: initial;
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
+                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
+                border-radius: var(--select-border-radius, var(--border-radius-50));
                 border-right-color: currentcolor;
                 border-right-style: none;
                 border-right-width: 0px;
@@ -4147,6 +4206,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <a style="
@@ -4156,17 +4216,16 @@
                 border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
-                border-bottom: 1px solid;
                 border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-radius: var(--cta-btn-border-radius, 20px);
                 border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
                 border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
-                border-top: 1px solid;
                 box-sizing: border-box;
                 color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
                 display: inline-block;
@@ -4522,12 +4581,15 @@
             ">
               <select style="
                 appearance: none;
+                background-color: initial;
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
+                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
+                border-radius: var(--select-border-radius, var(--border-radius-50));
                 border-right-color: currentcolor;
                 border-right-style: none;
                 border-right-width: 0px;
@@ -4595,6 +4657,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <a style="
@@ -4604,17 +4667,16 @@
                 border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
-                border-bottom: 1px solid;
                 border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-radius: var(--cta-btn-border-radius, 20px);
                 border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
                 border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
-                border-top: 1px solid;
                 box-sizing: border-box;
                 color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
                 display: inline-block;
@@ -4970,12 +5032,15 @@
             ">
               <select style="
                 appearance: none;
+                background-color: initial;
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
+                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
+                border-radius: var(--select-border-radius, var(--border-radius-50));
                 border-right-color: currentcolor;
                 border-right-style: none;
                 border-right-width: 0px;
@@ -5043,6 +5108,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <a style="
@@ -5052,17 +5118,16 @@
                 border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
-                border-bottom: 1px solid;
                 border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-radius: var(--cta-btn-border-radius, 20px);
                 border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
                 border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
-                border-top: 1px solid;
                 box-sizing: border-box;
                 color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
                 display: inline-block;
@@ -5424,12 +5489,15 @@
             ">
               <select style="
                 appearance: none;
+                background-color: initial;
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
+                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
+                border-radius: var(--select-border-radius, var(--border-radius-50));
                 border-right-color: currentcolor;
                 border-right-style: none;
                 border-right-width: 0px;
@@ -5499,6 +5567,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <a style="
@@ -5508,17 +5577,16 @@
                 border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
-                border-bottom: 1px solid;
                 border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-radius: var(--cta-btn-border-radius, 20px);
                 border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
                 border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
-                border-top: 1px solid;
                 box-sizing: border-box;
                 color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
                 display: inline-block;
@@ -5848,6 +5916,7 @@
     <table style="
       -webkit-border-horizontal-spacing: 0px;
       -webkit-border-vertical-spacing: 0px;
+      border-collapse: initial;
       width: 100%
     ">
       <thead>
@@ -5869,6 +5938,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -5896,7 +5966,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Seller
               <svg
@@ -5934,6 +6005,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -5961,7 +6033,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Item
               <svg
@@ -6050,6 +6123,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -6077,7 +6151,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               List Price
               <svg
@@ -6115,6 +6190,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -6142,7 +6218,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Quantity Available
               <svg
@@ -6180,6 +6257,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -6207,7 +6285,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Orders
               <svg
@@ -6245,6 +6324,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -6272,7 +6352,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Watchers
               <svg
@@ -6310,6 +6391,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -6337,7 +6419,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Protection
               <svg
@@ -6375,6 +6458,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -6402,7 +6486,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Shipping
               <svg
@@ -6441,6 +6526,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -6468,7 +6554,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Delivery
               <svg
@@ -6550,12 +6637,15 @@
             ">
               <select style="
                 appearance: none;
+                background-color: initial;
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
+                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
+                border-radius: var(--select-border-radius, var(--border-radius-50));
                 border-right-color: currentcolor;
                 border-right-style: none;
                 border-right-width: 0px;
@@ -6621,6 +6711,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <a style="
@@ -6630,17 +6721,16 @@
                 border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
-                border-bottom: 1px solid;
                 border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-radius: var(--cta-btn-border-radius, 20px);
                 border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
                 border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
-                border-top: 1px solid;
                 box-sizing: border-box;
                 color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
                 display: inline-block;
@@ -6996,12 +7086,15 @@
             ">
               <select style="
                 appearance: none;
+                background-color: initial;
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
+                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
+                border-radius: var(--select-border-radius, var(--border-radius-50));
                 border-right-color: currentcolor;
                 border-right-style: none;
                 border-right-width: 0px;
@@ -7067,6 +7160,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <a style="
@@ -7076,17 +7170,16 @@
                 border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
-                border-bottom: 1px solid;
                 border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-radius: var(--cta-btn-border-radius, 20px);
                 border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
                 border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
-                border-top: 1px solid;
                 box-sizing: border-box;
                 color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
                 display: inline-block;
@@ -7442,12 +7535,15 @@
             ">
               <select style="
                 appearance: none;
+                background-color: initial;
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
+                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
+                border-radius: var(--select-border-radius, var(--border-radius-50));
                 border-right-color: currentcolor;
                 border-right-style: none;
                 border-right-width: 0px;
@@ -7513,6 +7609,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <a style="
@@ -7522,17 +7619,16 @@
                 border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
-                border-bottom: 1px solid;
                 border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-radius: var(--cta-btn-border-radius, 20px);
                 border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
                 border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
-                border-top: 1px solid;
                 box-sizing: border-box;
                 color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
                 display: inline-block;
@@ -7888,12 +7984,15 @@
             ">
               <select style="
                 appearance: none;
+                background-color: initial;
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
+                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
+                border-radius: var(--select-border-radius, var(--border-radius-50));
                 border-right-color: currentcolor;
                 border-right-style: none;
                 border-right-width: 0px;
@@ -7959,6 +8058,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <a style="
@@ -7968,17 +8068,16 @@
                 border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
-                border-bottom: 1px solid;
                 border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-radius: var(--cta-btn-border-radius, 20px);
                 border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
                 border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
-                border-top: 1px solid;
                 box-sizing: border-box;
                 color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
                 display: inline-block;
@@ -8340,12 +8439,15 @@
             ">
               <select style="
                 appearance: none;
+                background-color: initial;
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
+                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
+                border-radius: var(--select-border-radius, var(--border-radius-50));
                 border-right-color: currentcolor;
                 border-right-style: none;
                 border-right-width: 0px;
@@ -8413,6 +8515,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <a style="
@@ -8422,17 +8525,16 @@
                 border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
-                border-bottom: 1px solid;
                 border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-radius: var(--cta-btn-border-radius, 20px);
                 border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
                 border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
-                border-top: 1px solid;
                 box-sizing: border-box;
                 color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
                 display: inline-block;
@@ -8765,6 +8867,7 @@
     <table style="
       -webkit-border-horizontal-spacing: 0px;
       -webkit-border-vertical-spacing: 0px;
+      border-collapse: initial;
       width: 100%
     ">
       <thead>
@@ -8786,6 +8889,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -8813,7 +8917,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Seller
               <svg
@@ -8851,6 +8956,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -8878,7 +8984,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Item
               <svg
@@ -8967,6 +9074,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -8994,7 +9102,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               List Price
               <svg
@@ -9032,6 +9141,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -9059,7 +9169,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Quantity Available
               <svg
@@ -9097,6 +9208,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -9124,7 +9236,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Orders
               <svg
@@ -9162,6 +9275,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -9189,7 +9303,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Watchers
               <svg
@@ -9227,6 +9342,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -9254,7 +9370,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Protection
               <svg
@@ -9292,6 +9409,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -9319,7 +9437,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Shipping
               <svg
@@ -9358,6 +9477,7 @@
           ">
             <button style="
               align-items: center;
+              background-color: initial;
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -9385,7 +9505,8 @@
               padding-right: 3px;
               padding-top: 3px;
               text-wrap-mode: nowrap;
-              transform: translateZ(0px)
+              transform: translateZ(0px);
+              vertical-align: initial
             ">
               Delivery
               <svg
@@ -9467,12 +9588,15 @@
             ">
               <select style="
                 appearance: none;
+                background-color: initial;
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
+                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
+                border-radius: var(--select-border-radius, var(--border-radius-50));
                 border-right-color: currentcolor;
                 border-right-style: none;
                 border-right-width: 0px;
@@ -9538,6 +9662,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <a style="
@@ -9547,17 +9672,16 @@
                 border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
-                border-bottom: 1px solid;
                 border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-radius: var(--cta-btn-border-radius, 20px);
                 border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
                 border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
-                border-top: 1px solid;
                 box-sizing: border-box;
                 color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
                 display: inline-block;
@@ -9913,12 +10037,15 @@
             ">
               <select style="
                 appearance: none;
+                background-color: initial;
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
+                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
+                border-radius: var(--select-border-radius, var(--border-radius-50));
                 border-right-color: currentcolor;
                 border-right-style: none;
                 border-right-width: 0px;
@@ -9984,6 +10111,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <a style="
@@ -9993,17 +10121,16 @@
                 border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
-                border-bottom: 1px solid;
                 border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-radius: var(--cta-btn-border-radius, 20px);
                 border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
                 border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
-                border-top: 1px solid;
                 box-sizing: border-box;
                 color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
                 display: inline-block;
@@ -10359,12 +10486,15 @@
             ">
               <select style="
                 appearance: none;
+                background-color: initial;
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
+                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
+                border-radius: var(--select-border-radius, var(--border-radius-50));
                 border-right-color: currentcolor;
                 border-right-style: none;
                 border-right-width: 0px;
@@ -10430,6 +10560,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <a style="
@@ -10439,17 +10570,16 @@
                 border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
-                border-bottom: 1px solid;
                 border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-radius: var(--cta-btn-border-radius, 20px);
                 border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
                 border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
-                border-top: 1px solid;
                 box-sizing: border-box;
                 color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
                 display: inline-block;
@@ -10805,12 +10935,15 @@
             ">
               <select style="
                 appearance: none;
+                background-color: initial;
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
+                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
+                border-radius: var(--select-border-radius, var(--border-radius-50));
                 border-right-color: currentcolor;
                 border-right-style: none;
                 border-right-width: 0px;
@@ -10876,6 +11009,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <a style="
@@ -10885,17 +11019,16 @@
                 border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
-                border-bottom: 1px solid;
                 border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-radius: var(--cta-btn-border-radius, 20px);
                 border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
                 border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
-                border-top: 1px solid;
                 box-sizing: border-box;
                 color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
                 display: inline-block;
@@ -11257,12 +11390,15 @@
             ">
               <select style="
                 appearance: none;
+                background-color: initial;
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
+                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
+                border-radius: var(--select-border-radius, var(--border-radius-50));
                 border-right-color: currentcolor;
                 border-right-style: none;
                 border-right-width: 0px;
@@ -11330,6 +11466,7 @@
             <div style="
               align-items: center;
               display: flex;
+              gap: var(--spacing-200);
               width: max-content
             ">
               <a style="
@@ -11339,17 +11476,16 @@
                 border-bottom-color: currentcolor;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
-                border-bottom: 1px solid;
                 border-left-color: currentcolor;
                 border-left-style: solid;
                 border-left-width: 1px;
+                border-radius: var(--cta-btn-border-radius, 20px);
                 border-right-color: currentcolor;
                 border-right-style: solid;
                 border-right-width: 1px;
                 border-top-color: currentcolor;
                 border-top-style: solid;
                 border-top-width: 1px;
-                border-top: 1px solid;
                 box-sizing: border-box;
                 color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
                 display: inline-block;

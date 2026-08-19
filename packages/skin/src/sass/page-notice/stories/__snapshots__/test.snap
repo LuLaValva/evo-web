@@ -4,6 +4,7 @@
     background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-confirmation-border-color, var(--color-border-success));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -74,6 +75,7 @@
     background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-confirmation-border-color, var(--color-border-success));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -144,6 +146,7 @@
     background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-confirmation-border-color, var(--color-border-success));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -214,6 +217,7 @@
     background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-confirmation-border-color, var(--color-border-success));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -284,6 +288,7 @@
     background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-confirmation-border-color, var(--color-border-success));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -369,6 +374,7 @@
     background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-confirmation-border-color, var(--color-border-success));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -455,6 +461,7 @@
     background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-confirmation-border-color, var(--color-border-success));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -533,6 +540,7 @@
     background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-confirmation-border-color, var(--color-border-success));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -611,6 +619,7 @@
     background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-confirmation-border-color, var(--color-border-success));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -704,6 +713,7 @@
     background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-confirmation-border-color, var(--color-border-success));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -798,6 +808,7 @@
     background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-confirmation-border-color, var(--color-border-success));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -855,6 +866,7 @@
       text-align: right
     ">
       <button style="
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -892,6 +904,7 @@
     background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-confirmation-border-color, var(--color-border-success));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -950,6 +963,7 @@
       text-align: right
     ">
       <button style="
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;

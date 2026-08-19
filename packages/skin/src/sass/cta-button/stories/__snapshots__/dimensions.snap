@@ -9,10 +9,10 @@
     border-bottom-right-radius: 24px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-bottom: 1px solid;
     border-left-color: currentcolor;
     border-left-style: solid;
     border-left-width: 1px;
+    border-radius: var(--cta-btn-border-radius, 20px);
     border-right-color: currentcolor;
     border-right-style: solid;
     border-right-width: 1px;
@@ -21,7 +21,6 @@
     border-top-right-radius: 24px;
     border-top-style: solid;
     border-top-width: 1px;
-    border-top: 1px solid;
     box-sizing: border-box;
     color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
     display: inline-flex;
@@ -81,10 +80,10 @@
     border-bottom-right-radius: 24px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-bottom: 1px solid;
     border-left-color: currentcolor;
     border-left-style: solid;
     border-left-width: 1px;
+    border-radius: var(--cta-btn-border-radius, 20px);
     border-right-color: currentcolor;
     border-right-style: solid;
     border-right-width: 1px;
@@ -93,7 +92,6 @@
     border-top-right-radius: 24px;
     border-top-style: solid;
     border-top-width: 1px;
-    border-top: 1px solid;
     box-sizing: border-box;
     color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
     display: inline-flex;

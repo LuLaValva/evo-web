@@ -3,11 +3,13 @@
   <details open>
     <summary style="
       align-items: center;
+      border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
       box-sizing: border-box;
       color: var(--details-summary-foreground-color, var(--color-foreground-primary));
       display: inline-flex;
       font-size: var(--font-size-body);
       font-weight: var(--font-weight-600);
+      gap: var(--spacing-100);
       justify-content: center;
       list-style-position: inside;
       list-style-type: none;
@@ -67,11 +69,13 @@
   <details>
     <summary style="
       align-items: center;
+      border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
       box-sizing: border-box;
       color: var(--details-summary-foreground-color, var(--color-foreground-primary));
       display: inline-flex;
       font-size: var(--font-size-body);
       font-weight: var(--font-weight-600);
+      gap: var(--spacing-100);
       list-style-position: inside;
       list-style-type: none;
       overflow-x: hidden;
@@ -126,11 +130,13 @@
   <details open>
     <summary style="
       align-items: center;
+      border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
       box-sizing: border-box;
       color: var(--details-summary-foreground-color, var(--color-foreground-primary));
       display: inline-flex;
       font-size: var(--font-size-body);
       font-weight: var(--font-weight-600);
+      gap: var(--spacing-100);
       list-style-position: inside;
       list-style-type: none;
       overflow-x: hidden;
@@ -188,11 +194,13 @@
   <details open>
     <summary style="
       align-items: center;
+      border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
       box-sizing: border-box;
       color: var(--details-summary-foreground-color, var(--color-foreground-primary));
       display: inline-flex;
       font-size: var(--font-size-small);
       font-weight: var(--font-weight-600);
+      gap: var(--spacing-100);
       list-style-position: inside;
       list-style-type: none;
       overflow-x: hidden;
@@ -257,11 +265,13 @@
   >
     <summary style="
       align-items: center;
+      border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
       box-sizing: border-box;
       color: var(--details-summary-foreground-color, var(--color-foreground-primary));
       display: inline-flex;
       font-size: var(--font-size-body);
       font-weight: var(--font-weight-600);
+      gap: var(--spacing-100);
       letter-spacing: 0.12em;
       line-height: 1.5;
       list-style-position: inside;

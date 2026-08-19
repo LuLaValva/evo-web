@@ -4,6 +4,7 @@
     background-color: var(--page-notice-information-background-color, var(--color-background-accent));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-information-border-color, var(--color-border-accent));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -58,6 +59,7 @@
       text-align: right
     ">
       <button style="
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -95,6 +97,7 @@
     background-color: var(--page-notice-information-background-color, var(--color-background-accent));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-information-border-color, var(--color-border-accent));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -150,6 +153,7 @@
       text-align: right
     ">
       <button style="
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -184,6 +188,7 @@
     background-color: var(--page-notice-information-background-color, var(--color-background-accent));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-information-border-color, var(--color-border-accent));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -241,6 +246,7 @@
       text-align: right
     ">
       <button style="
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -275,6 +281,7 @@
     background-color: var(--page-notice-attention-background-color, var(--color-background-attention));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-attention-border-color, var(--color-border-attention));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -330,6 +337,7 @@
       text-align: right
     ">
       <button style="
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -367,6 +375,7 @@
     background-color: var(--page-notice-attention-background-color, var(--color-background-attention));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-attention-border-color, var(--color-border-attention));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -423,6 +432,7 @@
       text-align: right
     ">
       <button style="
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -460,6 +470,7 @@
     background-color: var(--page-notice-attention-background-color, var(--color-background-attention));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-attention-border-color, var(--color-border-attention));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -534,6 +545,7 @@
     background-color: var(--page-notice-attention-background-color, var(--color-background-attention));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-attention-border-color, var(--color-border-attention));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -609,6 +621,7 @@
     background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-confirmation-border-color, var(--color-border-success));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -664,6 +677,7 @@
       text-align: right
     ">
       <button style="
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -701,6 +715,7 @@
     background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-confirmation-border-color, var(--color-border-success));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -757,6 +772,7 @@
       text-align: right
     ">
       <button style="
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -794,6 +810,7 @@
     background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-confirmation-border-color, var(--color-border-success));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -868,6 +885,7 @@
     background-color: var(--page-notice-confirmation-background-color, var(--color-background-success));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-confirmation-border-color, var(--color-border-success));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -943,6 +961,7 @@
     background-color: var(--page-notice-information-background-color, var(--color-background-accent));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-information-border-color, var(--color-border-accent));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -1021,6 +1040,7 @@
       text-align: right
     ">
       <button style="
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -1074,6 +1094,7 @@
     background-color: var(--page-notice-information-background-color, var(--color-background-accent));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-information-border-color, var(--color-border-accent));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -1154,6 +1175,7 @@
       text-align: right
     ">
       <button style="
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -1207,6 +1229,7 @@
     background-color: var(--page-notice-information-background-color, var(--color-background-accent));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-information-border-color, var(--color-border-accent));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -1278,6 +1301,7 @@
       text-align: right
     ">
       <button style="
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -1331,6 +1355,7 @@
     background-color: var(--page-notice-information-background-color, var(--color-background-accent));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-information-border-color, var(--color-border-accent));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -1404,6 +1429,7 @@
       text-align: right
     ">
       <button style="
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -1457,6 +1483,7 @@
     background-color: var(--page-notice-information-background-color, var(--color-background-accent));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-information-border-color, var(--color-border-accent));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -1522,6 +1549,7 @@
       margin-top: var(--spacing-200)
     ">
       <button style="
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -1558,6 +1586,7 @@
     background-color: var(--page-notice-information-background-color, var(--color-background-accent));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-information-border-color, var(--color-border-accent));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -1624,6 +1653,7 @@
       padding-right: var(--spacing-200)
     ">
       <button style="
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -1660,6 +1690,7 @@
     background-color: var(--page-notice-attention-background-color, var(--color-background-attention));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-attention-border-color, var(--color-border-attention));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -1751,6 +1782,7 @@
     background-color: var(--page-notice-attention-background-color, var(--color-background-attention));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-attention-border-color, var(--color-border-attention));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -1842,6 +1874,7 @@
     background-color: var(--page-notice-general-background-color, var(--color-background-inverse));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-general-border-color, var(--color-background-inverse));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -1882,6 +1915,7 @@
     background-color: var(--page-notice-general-background-color, var(--color-background-inverse));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-general-border-color, var(--color-background-inverse));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -1922,6 +1956,7 @@
     background-color: var(--page-notice-general-background-color, var(--color-background-inverse));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-general-border-color, var(--color-background-inverse));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -1956,6 +1991,7 @@
       text-align: right
     ">
       <button style="
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -1993,6 +2029,7 @@
     background-color: var(--page-notice-general-background-color, var(--color-background-inverse));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-general-border-color, var(--color-background-inverse));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -2028,6 +2065,7 @@
       text-align: right
     ">
       <button style="
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -2065,6 +2103,7 @@
     background-color: var(--page-notice-general-background-color, var(--color-background-inverse));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-general-border-color, var(--color-background-inverse));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -2118,6 +2157,7 @@
     background-color: var(--page-notice-general-background-color, var(--color-background-inverse));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-general-border-color, var(--color-background-inverse));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -2172,6 +2212,7 @@
     background-color: var(--page-notice-information-background-color, var(--color-background-accent));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-information-border-color, var(--color-border-accent));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -2227,6 +2268,7 @@
       text-align: right
     ">
       <button style="
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -2264,6 +2306,7 @@
     background-color: var(--page-notice-information-background-color, var(--color-background-accent));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-information-border-color, var(--color-border-accent));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -2320,6 +2363,7 @@
       text-align: right
     ">
       <button style="
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -2357,6 +2401,7 @@
     background-color: var(--page-notice-information-background-color, var(--color-background-accent));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-information-border-color, var(--color-border-accent));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -2431,6 +2476,7 @@
     background-color: var(--page-notice-information-background-color, var(--color-background-accent));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-information-border-color, var(--color-border-accent));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -2506,6 +2552,7 @@
     background-color: var(--page-notice-information-background-color, var(--color-background-accent));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-information-border-color, var(--color-border-accent));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -2618,6 +2665,7 @@
       word-spacing: 0.16em
     ">
       <button style="
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -2684,6 +2732,7 @@
     background-color: var(--page-notice-information-background-color, var(--color-background-accent));
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-color: var(--page-notice-information-border-color, var(--color-border-accent));
     border-left-style: solid;
     border-left-width: 1px;
     border-right-style: solid;
@@ -2798,6 +2847,7 @@
       word-spacing: 0.16em
     ">
       <button style="
+        background-color: initial;
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
