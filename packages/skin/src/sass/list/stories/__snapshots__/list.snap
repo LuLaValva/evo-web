@@ -182,16 +182,16 @@
               <span style="
                 align-self: center;
                 background-color: var(--switch-unchecked-background-color, var(--color-background-secondary));
-                border-bottom-left-radius: 400px;
-                border-bottom-right-radius: 400px;
+                border-bottom-left-radius: 8px;
+                border-bottom-right-radius: 8px;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-left-style: solid;
                 border-left-width: 1px;
                 border-right-style: solid;
                 border-right-width: 1px;
-                border-top-left-radius: 400px;
-                border-top-right-radius: 400px;
+                border-top-left-radius: 8px;
+                border-top-right-radius: 8px;
                 border-top-style: solid;
                 border-top-width: 1px;
                 color: transparent;
@@ -202,7 +202,7 @@
                 transition-duration: 0.15s;
                 transition-property: left;
                 transition-timing-function: ease-out;
-                width: 40px
+                width: 48px
               ">
                 <style>@scope{:scope{
                   &::after {
@@ -425,16 +425,16 @@
               <span style="
                 align-self: center;
                 background-color: var(--switch-unchecked-background-color, var(--color-background-secondary));
-                border-bottom-left-radius: 400px;
-                border-bottom-right-radius: 400px;
+                border-bottom-left-radius: 8px;
+                border-bottom-right-radius: 8px;
                 border-bottom-style: solid;
                 border-bottom-width: 1px;
                 border-left-style: solid;
                 border-left-width: 1px;
                 border-right-style: solid;
                 border-right-width: 1px;
-                border-top-left-radius: 400px;
-                border-top-right-radius: 400px;
+                border-top-left-radius: 8px;
+                border-top-right-radius: 8px;
                 border-top-style: solid;
                 border-top-width: 1px;
                 color: transparent;
@@ -445,7 +445,7 @@
                 transition-duration: 0.15s;
                 transition-property: left;
                 transition-timing-function: ease-out;
-                width: 40px
+                width: 48px
               ">
                 <style>@scope{:scope{
                   &::after {
