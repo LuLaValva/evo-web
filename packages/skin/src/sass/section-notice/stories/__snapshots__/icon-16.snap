@@ -60,8 +60,6 @@
     display: grid;
     font-size: var(--font-size-body);
     grid-template-columns: 32px auto auto;
-    margin-bottom: 8px;
-    margin-top: 8px;
     margin: var(--spacing-200) 0;
     padding-bottom: 16px;
     padding-left: 16px;
@@ -149,6 +147,7 @@
     ">
       <h3 style="
         font-size: var(--font-size-body);
+        font-weight: 700;
         margin-bottom: 0px;
         margin-top: 0px
       ">
@@ -156,8 +155,6 @@
       </h3>
       <p style="
         font-size: var(--font-size-body);
-        margin-bottom: 0px;
-        margin-top: 0px;
         margin: var(--spacing-50) 0 0
       ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -170,7 +167,7 @@
       margin-top: 2px
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -223,8 +220,6 @@
     display: grid;
     font-size: var(--font-size-body);
     grid-template-columns: 32px auto auto;
-    margin-bottom: 8px;
-    margin-top: 8px;
     margin: var(--spacing-200) 0;
     padding-bottom: 16px;
     padding-left: 16px;
@@ -258,6 +253,7 @@
     ">
       <h3 style="
         font-size: var(--font-size-body);
+        font-weight: 700;
         margin-bottom: 0px;
         margin-top: 0px
       ">
@@ -265,8 +261,6 @@
       </h3>
       <p style="
         font-size: var(--font-size-body);
-        margin-bottom: 0px;
-        margin-top: 0px;
         margin: var(--spacing-50) 0 0
       ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -280,7 +274,7 @@
       padding-inline-start: var(--spacing-200)
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -367,6 +361,7 @@
     ">
       <h3 style="
         font-size: var(--font-size-body);
+        font-weight: 700;
         margin-bottom: 0px;
         margin-top: 0px
       ">
@@ -374,8 +369,6 @@
       </h3>
       <p style="
         font-size: var(--font-size-body);
-        margin-bottom: 0px;
-        margin-top: 0px;
         margin: var(--spacing-50) 0 0
       ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -389,7 +382,7 @@
       margin-top: var(--spacing-200)
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -421,7 +414,7 @@
       margin-top: 2px
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -474,8 +467,6 @@
     display: grid;
     font-size: var(--font-size-body);
     grid-template-columns: 32px auto auto min-content;
-    margin-bottom: 8px;
-    margin-top: 8px;
     margin: var(--spacing-200) 0;
     padding-bottom: 16px;
     padding-left: 16px;
@@ -509,6 +500,7 @@
     ">
       <h3 style="
         font-size: var(--font-size-body);
+        font-weight: 700;
         margin-bottom: 0px;
         margin-top: 0px
       ">
@@ -516,8 +508,6 @@
       </h3>
       <p style="
         font-size: var(--font-size-body);
-        margin-bottom: 0px;
-        margin-top: 0px;
         margin: var(--spacing-50) 0 0
       ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -531,7 +521,7 @@
       margin-top: 0px
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -564,7 +554,7 @@
       padding-inline-start: var(--spacing-200)
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -651,6 +641,7 @@
     ">
       <h3 style="
         font-size: var(--font-size-body);
+        font-weight: 700;
         margin-bottom: 0px;
         margin-top: 0px
       ">
@@ -658,8 +649,6 @@
       </h3>
       <p style="
         font-size: var(--font-size-body);
-        margin-bottom: 0px;
-        margin-top: 0px;
         margin: var(--spacing-50) 0 0
       ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -672,11 +661,15 @@
       margin-bottom: 0px;
       margin-top: var(--spacing-200)
     ">
-      <a style="
-        color: var(--section-notice-foreground-color, var(--color-foreground-primary));
-        font-size: var(--font-size-body);
-        text-wrap-mode: nowrap
-      ">
+      <a
+        href="https://www.ebay.com"
+        style="
+          color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+          font-size: var(--font-size-body);
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
+        "
+      >
         Action
       </a>
     </p>
@@ -687,7 +680,7 @@
       margin-top: 2px
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -740,8 +733,6 @@
     display: grid;
     font-size: var(--font-size-body);
     grid-template-columns: 32px auto auto min-content;
-    margin-bottom: 8px;
-    margin-top: 8px;
     margin: var(--spacing-200) 0;
     padding-bottom: 16px;
     padding-left: 16px;
@@ -775,6 +766,7 @@
     ">
       <h3 style="
         font-size: var(--font-size-body);
+        font-weight: 700;
         margin-bottom: 0px;
         margin-top: 0px
       ">
@@ -782,8 +774,6 @@
       </h3>
       <p style="
         font-size: var(--font-size-body);
-        margin-bottom: 0px;
-        margin-top: 0px;
         margin: var(--spacing-50) 0 0
       ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -796,11 +786,15 @@
       margin-bottom: 0px;
       margin-top: 0px
     ">
-      <a style="
-        color: var(--section-notice-foreground-color, var(--color-foreground-primary));
-        font-size: var(--font-size-body);
-        text-wrap-mode: nowrap
-      ">
+      <a
+        href="https://www.ebay.com"
+        style="
+          color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+          font-size: var(--font-size-body);
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
+        "
+      >
         Action
       </a>
     </p>
@@ -812,7 +806,7 @@
       padding-inline-start: var(--spacing-200)
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -899,6 +893,7 @@
     ">
       <h3 style="
         font-size: var(--font-size-body);
+        font-weight: 700;
         margin-bottom: 0px;
         margin-top: 0px
       ">
@@ -906,19 +901,21 @@
       </h3>
       <p style="
         font-size: var(--font-size-body);
-        margin-bottom: 0px;
-        margin-top: 0px;
         margin: var(--spacing-50) 0 0
       ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </p>
     </div>
     <div style="grid-column-start: 2">
-      <a style="
-        color: var(--section-notice-foreground-color, var(--color-foreground-primary));
-        font-size: var(--font-size-body);
-        text-wrap-mode: nowrap
-      ">
+      <a
+        href="https://www.ebay.com"
+        style="
+          color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+          font-size: var(--font-size-body);
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
+        "
+      >
         View detailed report from catalog
       </a>
     </div>
@@ -929,7 +926,7 @@
       margin-top: 2px
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -982,8 +979,6 @@
     display: grid;
     font-size: var(--font-size-body);
     grid-template-columns: 32px auto auto min-content;
-    margin-bottom: 8px;
-    margin-top: 8px;
     margin: var(--spacing-200) 0;
     padding-bottom: 16px;
     padding-left: 16px;
@@ -1017,6 +1012,7 @@
     ">
       <h3 style="
         font-size: var(--font-size-body);
+        font-weight: 700;
         margin-bottom: 0px;
         margin-top: 0px
       ">
@@ -1024,19 +1020,21 @@
       </h3>
       <p style="
         font-size: var(--font-size-body);
-        margin-bottom: 0px;
-        margin-top: 0px;
         margin: var(--spacing-50) 0 0
       ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </p>
     </div>
     <div style="grid-column-start: 3">
-      <a style="
-        color: var(--section-notice-foreground-color, var(--color-foreground-primary));
-        font-size: var(--font-size-body);
-        text-wrap-mode: nowrap
-      ">
+      <a
+        href="https://www.ebay.com"
+        style="
+          color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+          font-size: var(--font-size-body);
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
+        "
+      >
         View detailed report from catalog
       </a>
     </div>
@@ -1048,7 +1046,7 @@
       padding-inline-start: var(--spacing-200)
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -1135,6 +1133,7 @@
     ">
       <h3 style="
         font-size: var(--font-size-body);
+        font-weight: 700;
         margin-bottom: 0px;
         margin-top: 0px
       ">
@@ -1142,8 +1141,6 @@
       </h3>
       <p style="
         font-size: var(--font-size-body);
-        margin-bottom: 0px;
-        margin-top: 0px;
         margin: var(--spacing-50) 0 0
       ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -1156,7 +1153,7 @@
       margin-top: 2px
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -1196,8 +1193,6 @@
     display: grid;
     font-size: var(--font-size-body);
     grid-template-columns: 32px auto auto;
-    margin-bottom: 8px;
-    margin-top: 8px;
     margin: var(--spacing-200) 0;
     padding-bottom: 16px;
     padding-left: 16px;
@@ -1231,6 +1226,7 @@
     ">
       <h3 style="
         font-size: var(--font-size-body);
+        font-weight: 700;
         margin-bottom: 0px;
         margin-top: 0px
       ">
@@ -1238,8 +1234,6 @@
       </h3>
       <p style="
         font-size: var(--font-size-body);
-        margin-bottom: 0px;
-        margin-top: 0px;
         margin: var(--spacing-50) 0 0
       ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -1253,7 +1247,7 @@
       padding-inline-start: var(--spacing-200)
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -1327,6 +1321,7 @@
     ">
       <h3 style="
         font-size: var(--font-size-body);
+        font-weight: 700;
         margin-bottom: 0px;
         margin-top: 0px
       ">
@@ -1334,8 +1329,6 @@
       </h3>
       <p style="
         font-size: var(--font-size-body);
-        margin-bottom: 0px;
-        margin-top: 0px;
         margin: var(--spacing-50) 0 0
       ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -1347,11 +1340,14 @@
       justify-self: flex-end;
       margin-top: 2px
     ">
-      <a style="
-        color: var(--section-notice-foreground-color, var(--color-foreground-primary));
-        font-size: var(--font-size-body);
-        font-weight: 700
-      ">
+      <a
+        href="https://www.ebay.com"
+        style="
+          color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+          font-size: var(--font-size-body);
+          font-weight: 700
+        "
+      >
         Action
       </a>
     </div>
@@ -1369,8 +1365,6 @@
     display: grid;
     font-size: var(--font-size-body);
     grid-template-columns: 32px auto auto;
-    margin-bottom: 8px;
-    margin-top: 8px;
     margin: var(--spacing-200) 0;
     padding-bottom: 16px;
     padding-left: 16px;
@@ -1404,6 +1398,7 @@
     ">
       <h3 style="
         font-size: var(--font-size-body);
+        font-weight: 700;
         margin-bottom: 0px;
         margin-top: 0px
       ">
@@ -1411,8 +1406,6 @@
       </h3>
       <p style="
         font-size: var(--font-size-body);
-        margin-bottom: 0px;
-        margin-top: 0px;
         margin: var(--spacing-50) 0 0
       ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -1425,11 +1418,14 @@
       margin-top: 2px;
       padding-inline-start: var(--spacing-200)
     ">
-      <a style="
-        color: var(--section-notice-foreground-color, var(--color-foreground-primary));
-        font-size: var(--font-size-body);
-        font-weight: 700
-      ">
+      <a
+        href="https://www.ebay.com"
+        style="
+          color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+          font-size: var(--font-size-body);
+          font-weight: 700
+        "
+      >
         Action
       </a>
     </div>
@@ -1481,6 +1477,7 @@
     ">
       <h3 style="
         font-size: var(--font-size-body);
+        font-weight: 700;
         margin-bottom: 0px;
         margin-top: 0px
       ">
@@ -1488,8 +1485,6 @@
       </h3>
       <p style="
         font-size: var(--font-size-body);
-        margin-bottom: 0px;
-        margin-top: 0px;
         margin: var(--spacing-50) 0 0
       ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -1501,11 +1496,14 @@
       justify-self: flex-end;
       margin-top: 2px
     ">
-      <a style="
-        color: var(--section-notice-foreground-color, var(--color-foreground-primary));
-        font-size: var(--font-size-body);
-        font-weight: 700
-      ">
+      <a
+        href="https://www.ebay.com"
+        style="
+          color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+          font-size: var(--font-size-body);
+          font-weight: 700
+        "
+      >
         View detailed report from catalog
       </a>
     </div>
@@ -1523,8 +1521,6 @@
     display: grid;
     font-size: var(--font-size-body);
     grid-template-columns: 32px auto auto;
-    margin-bottom: 8px;
-    margin-top: 8px;
     margin: var(--spacing-200) 0;
     padding-bottom: 16px;
     padding-left: 16px;
@@ -1558,6 +1554,7 @@
     ">
       <h3 style="
         font-size: var(--font-size-body);
+        font-weight: 700;
         margin-bottom: 0px;
         margin-top: 0px
       ">
@@ -1565,8 +1562,6 @@
       </h3>
       <p style="
         font-size: var(--font-size-body);
-        margin-bottom: 0px;
-        margin-top: 0px;
         margin: var(--spacing-50) 0 0
       ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -1579,11 +1574,14 @@
       margin-top: 2px;
       padding-inline-start: var(--spacing-200)
     ">
-      <a style="
-        color: var(--section-notice-foreground-color, var(--color-foreground-primary));
-        font-size: var(--font-size-body);
-        font-weight: 700
-      ">
+      <a
+        href="https://www.ebay.com"
+        style="
+          color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+          font-size: var(--font-size-body);
+          font-weight: 700
+        "
+      >
         View detailed report from catalog
       </a>
     </div>
@@ -1635,6 +1633,7 @@
     ">
       <h3 style="
         font-size: var(--font-size-body);
+        font-weight: 700;
         margin-bottom: 0px;
         margin-top: 0px
       ">
@@ -1642,8 +1641,6 @@
       </h3>
       <p style="
         font-size: var(--font-size-body);
-        margin-bottom: 0px;
-        margin-top: 0px;
         margin: var(--spacing-50) 0 0
       ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -1656,11 +1653,15 @@
       margin-bottom: 0px;
       margin-top: var(--spacing-200)
     ">
-      <a style="
-        color: var(--section-notice-foreground-color, var(--color-foreground-primary));
-        font-size: var(--font-size-body);
-        text-wrap-mode: nowrap
-      ">
+      <a
+        href="https://www.ebay.com"
+        style="
+          color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+          font-size: var(--font-size-body);
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
+        "
+      >
         Action
       </a>
     </p>
@@ -1678,8 +1679,6 @@
     display: grid;
     font-size: var(--font-size-body);
     grid-template-columns: 32px auto auto min-content;
-    margin-bottom: 8px;
-    margin-top: 8px;
     margin: var(--spacing-200) 0;
     padding-bottom: 16px;
     padding-left: 16px;
@@ -1713,6 +1712,7 @@
     ">
       <h3 style="
         font-size: var(--font-size-body);
+        font-weight: 700;
         margin-bottom: 0px;
         margin-top: 0px
       ">
@@ -1720,8 +1720,6 @@
       </h3>
       <p style="
         font-size: var(--font-size-body);
-        margin-bottom: 0px;
-        margin-top: 0px;
         margin: var(--spacing-50) 0 0
       ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -1734,11 +1732,15 @@
       margin-bottom: 0px;
       margin-top: 0px
     ">
-      <a style="
-        color: var(--section-notice-foreground-color, var(--color-foreground-primary));
-        font-size: var(--font-size-body);
-        text-wrap-mode: nowrap
-      ">
+      <a
+        href="https://www.ebay.com"
+        style="
+          color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+          font-size: var(--font-size-body);
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
+        "
+      >
         Action
       </a>
     </p>
@@ -1791,6 +1793,7 @@
       ">
         <h3 style="
           font-size: var(--font-size-body);
+          font-weight: 700;
           margin-bottom: 0px;
           margin-top: 0px
         ">
@@ -1798,8 +1801,6 @@
         </h3>
         <p style="
           font-size: var(--font-size-body);
-          margin-bottom: 0px;
-          margin-top: 0px;
           margin: var(--spacing-50) 0 0
         ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -1812,11 +1813,15 @@
         margin-bottom: 0px;
         margin-top: var(--spacing-200)
       ">
-        <a style="
-          color: var(--section-notice-foreground-color, var(--color-foreground-primary));
-          font-size: var(--font-size-body);
-          text-wrap-mode: nowrap
-        ">
+        <a
+          href="https://www.ebay.com"
+          style="
+            color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
+          "
+        >
           Action
         </a>
       </p>
@@ -1836,8 +1841,6 @@
       display: grid;
       font-size: var(--font-size-body);
       grid-template-columns: 32px auto auto min-content;
-      margin-bottom: 8px;
-      margin-top: 8px;
       margin: var(--spacing-200) 0;
       padding-bottom: 16px;
       padding-left: 16px;
@@ -1871,6 +1874,7 @@
       ">
         <h3 style="
           font-size: var(--font-size-body);
+          font-weight: 700;
           margin-bottom: 0px;
           margin-top: 0px
         ">
@@ -1878,8 +1882,6 @@
         </h3>
         <p style="
           font-size: var(--font-size-body);
-          margin-bottom: 0px;
-          margin-top: 0px;
           margin: var(--spacing-50) 0 0
         ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -1892,11 +1894,15 @@
         margin-bottom: 0px;
         margin-top: 0px
       ">
-        <a style="
-          color: var(--section-notice-foreground-color, var(--color-foreground-primary));
-          font-size: var(--font-size-body);
-          text-wrap-mode: nowrap
-        ">
+        <a
+          href="https://www.ebay.com"
+          style="
+            color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+            font-size: var(--font-size-body);
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
+          "
+        >
           Action
         </a>
       </p>
@@ -1968,6 +1974,7 @@
     ">
       <h3 style="
         font-size: var(--font-size-body);
+        font-weight: 700;
         letter-spacing: 0.12em;
         line-height: 1.5;
         margin-bottom: 0px;
@@ -1981,7 +1988,6 @@
         letter-spacing: 0.12em;
         line-height: 1.5;
         margin-bottom: 2em;
-        margin-top: 0px;
         margin: var(--spacing-50) 0 0;
         word-spacing: 0.16em
       ">
@@ -1999,7 +2005,7 @@
       word-spacing: 0.16em
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -2037,7 +2043,7 @@
       word-spacing: 0.16em
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -2105,8 +2111,6 @@
     grid-template-columns: 32px auto auto min-content;
     letter-spacing: 0.12em;
     line-height: 1.5;
-    margin-bottom: 8px;
-    margin-top: 8px;
     margin: var(--spacing-200) 0;
     padding-bottom: 16px;
     padding-left: 16px;
@@ -2157,6 +2161,7 @@
     ">
       <h3 style="
         font-size: var(--font-size-body);
+        font-weight: 700;
         letter-spacing: 0.12em;
         line-height: 1.5;
         margin-bottom: 0px;
@@ -2170,7 +2175,6 @@
         letter-spacing: 0.12em;
         line-height: 1.5;
         margin-bottom: 2em;
-        margin-top: 0px;
         margin: var(--spacing-50) 0 0;
         word-spacing: 0.16em
       ">
@@ -2188,7 +2192,7 @@
       word-spacing: 0.16em
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -2227,7 +2231,7 @@
       word-spacing: 0.16em
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -2327,6 +2331,7 @@
     ">
       <h3 style="
         font-size: var(--font-size-body);
+        font-weight: 700;
         margin-bottom: 0px;
         margin-top: 0px
       ">
@@ -2334,8 +2339,6 @@
       </h3>
       <p style="
         font-size: var(--font-size-body);
-        margin-bottom: 0px;
-        margin-top: 0px;
         margin: var(--spacing-50) 0 0
       ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -2355,8 +2358,6 @@
     display: grid;
     font-size: var(--font-size-body);
     grid-template-columns: 32px auto auto;
-    margin-bottom: 8px;
-    margin-top: 8px;
     margin: var(--spacing-200) 0;
     padding-bottom: 16px;
     padding-left: 16px;
@@ -2390,6 +2391,7 @@
     ">
       <h3 style="
         font-size: var(--font-size-body);
+        font-weight: 700;
         margin-bottom: 0px;
         margin-top: 0px
       ">
@@ -2397,8 +2399,6 @@
       </h3>
       <p style="
         font-size: var(--font-size-body);
-        margin-bottom: 0px;
-        margin-top: 0px;
         margin: var(--spacing-50) 0 0
       ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.

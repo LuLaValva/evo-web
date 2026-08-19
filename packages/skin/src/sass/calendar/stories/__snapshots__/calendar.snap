@@ -6,7 +6,6 @@
   ">
     <div style="display: table-row">
       <div style="
-        box-sizing: initial;
         display: table-cell;
         width: var(--calendar-month-width, 100vw)
       ">
@@ -91,6 +90,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -120,6 +121,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -135,6 +137,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -164,6 +168,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -179,6 +184,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -208,6 +215,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -225,6 +233,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -254,6 +264,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -269,6 +280,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -298,6 +311,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -313,6 +327,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -342,6 +358,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -357,6 +374,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -386,6 +405,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -401,6 +421,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -430,6 +452,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -445,6 +468,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -474,6 +499,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -489,6 +515,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -518,6 +546,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -535,6 +564,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -564,6 +595,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -579,6 +611,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -608,6 +642,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -623,6 +658,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -652,6 +689,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -667,18 +705,16 @@
               ">
                 <span style="
                   align-items: center;
-                  border-bottom-color: transparent;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-style: solid;
                   border-bottom-width: 1px;
                   border-color: var(--calendar-day-today-border-color, var(--color-foreground-primary));
-                  border-left-color: transparent;
                   border-left-style: solid;
                   border-left-width: 1px;
                   border-radius: var(--spacing-200);
-                  border-right-color: transparent;
                   border-right-style: solid;
                   border-right-width: 1px;
-                  border-top-color: transparent;
                   border-top-style: solid;
                   border-top-width: 1px;
                   box-sizing: border-box;
@@ -701,6 +737,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - today
@@ -716,6 +753,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -745,6 +784,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -774,6 +815,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -805,6 +848,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -834,6 +879,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -863,6 +910,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -892,6 +941,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -921,6 +972,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -942,7 +995,6 @@
                 </span>
               </td>
               <td style="
-                background-color: var(--color-state-layer-pressed);
                 background: linear-gradient(to right, transparent 50%, var(--color-state-layer-pressed) 50%);
                 padding-bottom: 0px;
                 padding-left: 0px;
@@ -956,11 +1008,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-left-width: 1px;
@@ -981,6 +1028,8 @@
                 <span style="
                   align-items: center;
                   background-color: var(--calendar-day-selected-background-color, var(--color-background-inverse));
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -1011,6 +1060,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - selected - start of range
@@ -1031,11 +1081,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -1054,6 +1099,8 @@
                 }}</style>
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -1083,6 +1130,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - in range
@@ -1105,11 +1153,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -1128,6 +1171,8 @@
                 }}</style>
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -1157,6 +1202,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - in range
@@ -1177,11 +1223,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -1200,6 +1241,8 @@
                 }}</style>
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -1229,6 +1272,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - in range
@@ -1236,7 +1280,6 @@
                 </span>
               </td>
               <td style="
-                background-color: var(--color-state-layer-pressed);
                 background: linear-gradient(to left, transparent 50%, var(--color-state-layer-pressed) 50%);
                 padding-bottom: 0px;
                 padding-left: 0px;
@@ -1250,11 +1293,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -1275,6 +1313,8 @@
                 <span style="
                   align-items: center;
                   background-color: var(--calendar-day-selected-background-color, var(--color-background-inverse));
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -1305,6 +1345,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - selected - end of range
@@ -1320,6 +1361,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -1349,6 +1392,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -1378,6 +1423,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -1407,6 +1454,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -1443,7 +1492,6 @@
   ">
     <div style="display: table-row">
       <div style="
-        box-sizing: initial;
         display: table-cell;
         width: var(--calendar-month-width, 100vw)
       ">
@@ -1528,6 +1576,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -1557,6 +1607,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -1572,6 +1623,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -1601,6 +1654,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -1616,6 +1670,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -1645,6 +1701,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -1662,6 +1719,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -1691,6 +1750,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -1706,6 +1766,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -1735,6 +1797,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -1750,6 +1813,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -1779,6 +1844,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -1794,6 +1860,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -1823,6 +1891,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -1838,6 +1907,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -1867,6 +1938,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -1882,6 +1954,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -1911,6 +1985,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -1926,6 +2001,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -1955,6 +2032,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -1972,6 +2050,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -2001,6 +2081,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -2016,6 +2097,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -2045,6 +2128,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -2060,6 +2144,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -2089,6 +2175,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -2104,18 +2191,16 @@
               ">
                 <span style="
                   align-items: center;
-                  border-bottom-color: transparent;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-style: solid;
                   border-bottom-width: 1px;
                   border-color: var(--calendar-day-today-border-color, var(--color-foreground-primary));
-                  border-left-color: transparent;
                   border-left-style: solid;
                   border-left-width: 1px;
                   border-radius: var(--spacing-200);
-                  border-right-color: transparent;
                   border-right-style: solid;
                   border-right-width: 1px;
-                  border-top-color: transparent;
                   border-top-style: solid;
                   border-top-width: 1px;
                   box-sizing: border-box;
@@ -2138,6 +2223,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - today
@@ -2153,6 +2239,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -2182,6 +2270,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -2211,6 +2301,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -2242,6 +2334,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -2271,6 +2365,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -2300,6 +2396,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -2329,6 +2427,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -2358,6 +2458,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -2387,6 +2489,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -2416,6 +2520,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -2447,6 +2553,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -2476,6 +2584,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -2505,6 +2615,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -2534,6 +2646,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -2563,6 +2677,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -2592,6 +2708,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -2621,6 +2739,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -2646,7 +2766,6 @@
         </table>
       </div>
       <div style="
-        box-sizing: initial;
         display: table-cell;
         padding-left: var(--spacing-200);
         width: var(--calendar-month-width, 100vw)
@@ -2722,6 +2841,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -2751,6 +2872,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -2780,6 +2903,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -2809,6 +2934,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -2838,6 +2965,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -2867,6 +2996,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -2896,6 +3027,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -2927,6 +3060,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -2956,6 +3091,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -2985,6 +3122,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -3014,6 +3153,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -3043,6 +3184,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -3072,6 +3215,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -3101,6 +3246,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -3132,6 +3279,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -3153,7 +3302,6 @@
                 </span>
               </td>
               <td style="
-                background-color: var(--color-state-layer-pressed);
                 background: linear-gradient(to right, transparent 50%, var(--color-state-layer-pressed) 50%);
                 padding-bottom: 0px;
                 padding-left: 0px;
@@ -3167,11 +3315,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-left-width: 1px;
@@ -3192,6 +3335,8 @@
                 <span style="
                   align-items: center;
                   background-color: var(--calendar-day-selected-background-color, var(--color-background-inverse));
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -3222,6 +3367,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - selected - start of range
@@ -3242,11 +3388,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -3265,6 +3406,8 @@
                 }}</style>
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -3294,6 +3437,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - in range
@@ -3314,11 +3458,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -3337,6 +3476,8 @@
                 }}</style>
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -3366,6 +3507,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - in range
@@ -3386,11 +3528,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -3409,6 +3546,8 @@
                 }}</style>
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -3438,6 +3577,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - in range
@@ -3458,11 +3598,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -3481,6 +3616,8 @@
                 }}</style>
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -3510,6 +3647,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - in range
@@ -3530,11 +3668,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -3553,6 +3686,8 @@
                 }}</style>
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -3582,6 +3717,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - in range
@@ -3604,11 +3740,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -3627,6 +3758,8 @@
                 }}</style>
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -3656,6 +3789,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - in range
@@ -3676,11 +3810,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -3699,6 +3828,8 @@
                 }}</style>
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -3728,6 +3859,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - in range
@@ -3748,11 +3880,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -3771,6 +3898,8 @@
                 }}</style>
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -3800,6 +3929,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - in range
@@ -3807,7 +3937,6 @@
                 </span>
               </td>
               <td style="
-                background-color: var(--color-state-layer-pressed);
                 background: linear-gradient(to left, transparent 50%, var(--color-state-layer-pressed) 50%);
                 padding-bottom: 0px;
                 padding-left: 0px;
@@ -3821,11 +3950,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -3846,6 +3970,8 @@
                 <span style="
                   align-items: center;
                   background-color: var(--calendar-day-selected-background-color, var(--color-background-inverse));
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -3876,6 +4002,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - selected - end of range
@@ -3891,6 +4018,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -3920,6 +4049,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -3949,6 +4080,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -3980,6 +4113,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -4009,6 +4144,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -4051,7 +4188,7 @@
       ">
         <button style="
           align-items: center;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: transparent;
           border-bottom-left-radius: 50px;
           border-bottom-right-radius: 50px;
@@ -4131,7 +4268,7 @@
         </h3>
         <button style="
           align-items: center;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: transparent;
           border-bottom-left-radius: 50px;
           border-bottom-right-radius: 50px;
@@ -4193,7 +4330,6 @@
     </div>
     <div style="display: table-row">
       <div style="
-        box-sizing: initial;
         display: table-cell;
         width: var(--calendar-month-width, 100vw)
       ">
@@ -4275,6 +4411,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -4304,6 +4442,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -4319,6 +4458,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -4348,6 +4489,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -4363,6 +4505,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -4392,6 +4536,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -4409,6 +4554,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -4438,6 +4585,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -4453,6 +4601,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -4482,6 +4632,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -4497,6 +4648,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -4526,6 +4679,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -4541,6 +4695,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -4570,6 +4726,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -4585,6 +4742,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -4614,6 +4773,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -4629,6 +4789,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -4658,6 +4820,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -4673,6 +4836,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -4702,6 +4867,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -4719,6 +4885,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -4748,6 +4916,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -4763,6 +4932,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -4792,6 +4963,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -4807,6 +4979,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -4836,6 +5010,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -4851,18 +5026,16 @@
               ">
                 <span style="
                   align-items: center;
-                  border-bottom-color: transparent;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-style: solid;
                   border-bottom-width: 1px;
                   border-color: var(--calendar-day-today-border-color, var(--color-foreground-primary));
-                  border-left-color: transparent;
                   border-left-style: solid;
                   border-left-width: 1px;
                   border-radius: var(--spacing-200);
-                  border-right-color: transparent;
                   border-right-style: solid;
                   border-right-width: 1px;
-                  border-top-color: transparent;
                   border-top-style: solid;
                   border-top-width: 1px;
                   box-sizing: border-box;
@@ -4885,6 +5058,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - today
@@ -4900,6 +5074,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -4929,6 +5105,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -4958,6 +5136,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -4989,6 +5169,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -5018,6 +5200,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -5047,6 +5231,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -5076,6 +5262,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -5105,6 +5293,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -5134,6 +5324,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -5163,6 +5355,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -5194,6 +5388,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -5223,6 +5419,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -5252,6 +5450,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -5281,6 +5481,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -5310,6 +5512,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -5339,6 +5543,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -5368,6 +5574,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -5393,7 +5601,6 @@
         </table>
       </div>
       <div style="
-        box-sizing: initial;
         display: table-cell;
         padding-left: var(--spacing-200);
         width: var(--calendar-month-width, 100vw)
@@ -5466,6 +5673,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -5495,6 +5704,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -5524,6 +5735,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -5553,6 +5766,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -5582,6 +5797,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -5611,6 +5828,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -5640,6 +5859,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -5671,6 +5892,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -5700,6 +5923,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -5729,6 +5954,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -5758,6 +5985,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -5787,6 +6016,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -5816,6 +6047,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -5845,6 +6078,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -5876,6 +6111,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -5897,7 +6134,6 @@
                 </span>
               </td>
               <td style="
-                background-color: var(--color-state-layer-pressed);
                 background: linear-gradient(to right, transparent 50%, var(--color-state-layer-pressed) 50%);
                 padding-bottom: 0px;
                 padding-left: 0px;
@@ -5911,11 +6147,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-left-width: 1px;
@@ -5936,6 +6167,8 @@
                 <span style="
                   align-items: center;
                   background-color: var(--calendar-day-selected-background-color, var(--color-background-inverse));
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -5966,6 +6199,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - selected - start of range
@@ -5986,11 +6220,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -6009,6 +6238,8 @@
                 }}</style>
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -6038,6 +6269,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - in range
@@ -6058,11 +6290,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -6081,6 +6308,8 @@
                 }}</style>
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -6110,6 +6339,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - in range
@@ -6130,11 +6360,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -6153,6 +6378,8 @@
                 }}</style>
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -6182,6 +6409,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - in range
@@ -6202,11 +6430,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -6225,6 +6448,8 @@
                 }}</style>
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -6254,6 +6479,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - in range
@@ -6274,11 +6500,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -6297,6 +6518,8 @@
                 }}</style>
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -6326,6 +6549,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - in range
@@ -6348,11 +6572,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -6371,6 +6590,8 @@
                 }}</style>
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -6400,6 +6621,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - in range
@@ -6420,11 +6642,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -6443,6 +6660,8 @@
                 }}</style>
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -6472,6 +6691,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - in range
@@ -6492,11 +6712,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -6515,6 +6730,8 @@
                 }}</style>
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -6544,6 +6761,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - in range
@@ -6551,7 +6769,6 @@
                 </span>
               </td>
               <td style="
-                background-color: var(--color-state-layer-pressed);
                 background: linear-gradient(to left, transparent 50%, var(--color-state-layer-pressed) 50%);
                 padding-bottom: 0px;
                 padding-left: 0px;
@@ -6565,11 +6782,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -6590,6 +6802,8 @@
                 <span style="
                   align-items: center;
                   background-color: var(--calendar-day-selected-background-color, var(--color-background-inverse));
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -6620,6 +6834,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - selected - end of range
@@ -6635,6 +6850,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -6664,6 +6881,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -6693,6 +6912,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -6724,6 +6945,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -6753,6 +6976,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -6795,7 +7020,7 @@
       ">
         <button style="
           align-items: center;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: transparent;
           border-bottom-left-radius: 50px;
           border-bottom-right-radius: 50px;
@@ -6864,7 +7089,7 @@
         </h3>
         <button style="
           align-items: center;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: transparent;
           border-bottom-left-radius: 50px;
           border-bottom-right-radius: 50px;
@@ -6926,7 +7151,6 @@
     </div>
     <div style="display: table-row">
       <div style="
-        box-sizing: initial;
         display: table-cell;
         width: var(--calendar-month-width, 100vw)
       ">
@@ -7008,6 +7232,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -7037,6 +7263,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -7052,6 +7279,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -7081,6 +7310,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -7096,6 +7326,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -7125,6 +7357,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -7142,6 +7375,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -7171,6 +7406,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -7186,6 +7422,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -7215,6 +7453,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -7230,6 +7469,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -7259,6 +7500,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -7274,6 +7516,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -7303,6 +7547,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -7318,6 +7563,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -7347,6 +7594,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -7362,6 +7610,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -7391,6 +7641,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -7406,6 +7657,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -7435,6 +7688,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -7452,6 +7706,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -7481,6 +7737,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -7496,6 +7753,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -7525,6 +7784,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -7540,6 +7800,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -7569,6 +7831,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - inactive
@@ -7584,18 +7847,16 @@
               ">
                 <span style="
                   align-items: center;
-                  border-bottom-color: transparent;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-style: solid;
                   border-bottom-width: 1px;
                   border-color: var(--calendar-day-today-border-color, var(--color-foreground-primary));
-                  border-left-color: transparent;
                   border-left-style: solid;
                   border-left-width: 1px;
                   border-radius: var(--spacing-200);
-                  border-right-color: transparent;
                   border-right-style: solid;
                   border-right-width: 1px;
-                  border-top-color: transparent;
                   border-top-style: solid;
                   border-top-width: 1px;
                   box-sizing: border-box;
@@ -7618,6 +7879,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - today
@@ -7633,6 +7895,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -7662,6 +7926,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -7691,6 +7957,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -7722,6 +7990,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -7751,6 +8021,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -7780,6 +8052,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -7809,6 +8083,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -7838,6 +8114,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -7859,7 +8137,6 @@
                 </span>
               </td>
               <td style="
-                background-color: var(--color-state-layer-pressed);
                 background: linear-gradient(to right, transparent 50%, var(--color-state-layer-pressed) 50%);
                 padding-bottom: 0px;
                 padding-left: 0px;
@@ -7873,11 +8150,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-left-width: 1px;
@@ -7898,6 +8170,8 @@
                 <span style="
                   align-items: center;
                   background-color: var(--calendar-day-selected-background-color, var(--color-background-inverse));
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -7928,6 +8202,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - selected - start of range
@@ -7948,11 +8223,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -7971,6 +8241,8 @@
                 }}</style>
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -8000,6 +8272,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - in range
@@ -8022,11 +8295,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -8045,6 +8313,8 @@
                 }}</style>
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -8074,6 +8344,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - in range
@@ -8094,11 +8365,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -8117,6 +8383,8 @@
                 }}</style>
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -8146,6 +8414,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - in range
@@ -8153,7 +8422,6 @@
                 </span>
               </td>
               <td style="
-                background-color: var(--color-state-layer-pressed);
                 background: linear-gradient(to left, transparent 50%, var(--color-state-layer-pressed) 50%);
                 padding-bottom: 0px;
                 padding-left: 0px;
@@ -8167,11 +8435,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -8192,6 +8455,8 @@
                 <span style="
                   align-items: center;
                   background-color: var(--calendar-day-selected-background-color, var(--color-background-inverse));
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -8222,6 +8487,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px
                   ">
                     - selected - end of range
@@ -8237,6 +8503,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -8266,6 +8534,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -8295,6 +8565,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -8324,6 +8596,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -8360,7 +8634,6 @@
   ">
     <div style="display: table-row">
       <div style="
-        box-sizing: initial;
         display: table-cell;
         width: var(--calendar-month-width, 100vw)
       ">
@@ -8447,6 +8720,9 @@
                   disabled
                   style="
                     align-items: center;
+                    background-color: rgba(0, 0, 0, 0);
+                    background-position-x: initial;
+                    background-position-y: initial;
                     border-bottom-color: transparent;
                     border-bottom-style: none;
                     border-bottom-width: 1px;
@@ -8497,6 +8773,9 @@
                   disabled
                   style="
                     align-items: center;
+                    background-color: rgba(0, 0, 0, 0);
+                    background-position-x: initial;
+                    background-position-y: initial;
                     border-bottom-color: transparent;
                     border-bottom-style: none;
                     border-bottom-width: 1px;
@@ -8547,6 +8826,9 @@
                   disabled
                   style="
                     align-items: center;
+                    background-color: rgba(0, 0, 0, 0);
+                    background-position-x: initial;
+                    background-position-y: initial;
                     border-bottom-color: transparent;
                     border-bottom-style: none;
                     border-bottom-width: 1px;
@@ -8599,6 +8881,9 @@
                   disabled
                   style="
                     align-items: center;
+                    background-color: rgba(0, 0, 0, 0);
+                    background-position-x: initial;
+                    background-position-y: initial;
                     border-bottom-color: transparent;
                     border-bottom-style: none;
                     border-bottom-width: 1px;
@@ -8649,6 +8934,9 @@
                   disabled
                   style="
                     align-items: center;
+                    background-color: rgba(0, 0, 0, 0);
+                    background-position-x: initial;
+                    background-position-y: initial;
                     border-bottom-color: transparent;
                     border-bottom-style: none;
                     border-bottom-width: 1px;
@@ -8699,6 +8987,9 @@
                   disabled
                   style="
                     align-items: center;
+                    background-color: rgba(0, 0, 0, 0);
+                    background-position-x: initial;
+                    background-position-y: initial;
                     border-bottom-color: transparent;
                     border-bottom-style: none;
                     border-bottom-width: 1px;
@@ -8749,6 +9040,9 @@
                   disabled
                   style="
                     align-items: center;
+                    background-color: rgba(0, 0, 0, 0);
+                    background-position-x: initial;
+                    background-position-y: initial;
                     border-bottom-color: transparent;
                     border-bottom-style: none;
                     border-bottom-width: 1px;
@@ -8799,6 +9093,9 @@
                   disabled
                   style="
                     align-items: center;
+                    background-color: rgba(0, 0, 0, 0);
+                    background-position-x: initial;
+                    background-position-y: initial;
                     border-bottom-color: transparent;
                     border-bottom-style: none;
                     border-bottom-width: 1px;
@@ -8849,6 +9146,9 @@
                   disabled
                   style="
                     align-items: center;
+                    background-color: rgba(0, 0, 0, 0);
+                    background-position-x: initial;
+                    background-position-y: initial;
                     border-bottom-color: transparent;
                     border-bottom-style: none;
                     border-bottom-width: 1px;
@@ -8899,6 +9199,9 @@
                   disabled
                   style="
                     align-items: center;
+                    background-color: rgba(0, 0, 0, 0);
+                    background-position-x: initial;
+                    background-position-y: initial;
                     border-bottom-color: transparent;
                     border-bottom-style: none;
                     border-bottom-width: 1px;
@@ -8951,6 +9254,9 @@
                   disabled
                   style="
                     align-items: center;
+                    background-color: rgba(0, 0, 0, 0);
+                    background-position-x: initial;
+                    background-position-y: initial;
                     border-bottom-color: transparent;
                     border-bottom-style: none;
                     border-bottom-width: 1px;
@@ -9001,6 +9307,9 @@
                   disabled
                   style="
                     align-items: center;
+                    background-color: rgba(0, 0, 0, 0);
+                    background-position-x: initial;
+                    background-position-y: initial;
                     border-bottom-color: transparent;
                     border-bottom-style: none;
                     border-bottom-width: 1px;
@@ -9051,6 +9360,9 @@
                   disabled
                   style="
                     align-items: center;
+                    background-color: rgba(0, 0, 0, 0);
+                    background-position-x: initial;
+                    background-position-y: initial;
                     border-bottom-color: transparent;
                     border-bottom-style: none;
                     border-bottom-width: 1px;
@@ -9099,18 +9411,17 @@
               ">
                 <button style="
                   align-items: center;
-                  border-bottom-color: transparent;
+                  background-color: rgba(0, 0, 0, 0);
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-style: solid;
                   border-bottom-width: 1px;
                   border-color: var(--calendar-day-today-border-color, var(--color-foreground-primary));
-                  border-left-color: transparent;
                   border-left-style: solid;
                   border-left-width: 1px;
                   border-radius: var(--spacing-200);
-                  border-right-color: transparent;
                   border-right-style: solid;
                   border-right-width: 1px;
-                  border-top-color: transparent;
                   border-top-style: solid;
                   border-top-width: 1px;
                   color: inherit;
@@ -9147,6 +9458,9 @@
               ">
                 <button style="
                   align-items: center;
+                  background-color: rgba(0, 0, 0, 0);
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-style: none;
                   border-bottom-width: 1px;
@@ -9194,6 +9508,9 @@
               ">
                 <button style="
                   align-items: center;
+                  background-color: rgba(0, 0, 0, 0);
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-style: none;
                   border-bottom-width: 1px;
@@ -9241,6 +9558,9 @@
               ">
                 <button style="
                   align-items: center;
+                  background-color: rgba(0, 0, 0, 0);
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-style: none;
                   border-bottom-width: 1px;
@@ -9290,6 +9610,9 @@
               ">
                 <button style="
                   align-items: center;
+                  background-color: rgba(0, 0, 0, 0);
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-style: none;
                   border-bottom-width: 1px;
@@ -9337,6 +9660,9 @@
               ">
                 <button style="
                   align-items: center;
+                  background-color: rgba(0, 0, 0, 0);
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-style: none;
                   border-bottom-width: 1px;
@@ -9384,6 +9710,9 @@
               ">
                 <button style="
                   align-items: center;
+                  background-color: rgba(0, 0, 0, 0);
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-style: none;
                   border-bottom-width: 1px;
@@ -9431,6 +9760,9 @@
               ">
                 <button style="
                   align-items: center;
+                  background-color: rgba(0, 0, 0, 0);
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-style: none;
                   border-bottom-width: 1px;
@@ -9478,6 +9810,9 @@
               ">
                 <button style="
                   align-items: center;
+                  background-color: rgba(0, 0, 0, 0);
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-style: none;
                   border-bottom-width: 1px;
@@ -9517,7 +9852,6 @@
                 </button>
               </td>
               <td style="
-                background-color: var(--color-state-layer-pressed);
                 background: linear-gradient(to right, transparent 50%, var(--color-state-layer-pressed) 50%);
                 padding-bottom: 0px;
                 padding-left: 0px;
@@ -9531,11 +9865,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-left-width: 1px;
@@ -9556,6 +9885,8 @@
                 <button style="
                   align-items: center;
                   background-color: var(--calendar-day-selected-background-color, var(--color-background-inverse));
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-style: none;
                   border-bottom-width: 1px;
@@ -9594,11 +9925,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -9617,6 +9943,9 @@
                 }}</style>
                 <button style="
                   align-items: center;
+                  background-color: rgba(0, 0, 0, 0);
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-style: none;
                   border-bottom-width: 1px;
@@ -9656,11 +9985,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -9679,6 +10003,9 @@
                 }}</style>
                 <button style="
                   align-items: center;
+                  background-color: rgba(0, 0, 0, 0);
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-style: none;
                   border-bottom-width: 1px;
@@ -9716,11 +10043,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -9739,6 +10061,9 @@
                 }}</style>
                 <button style="
                   align-items: center;
+                  background-color: rgba(0, 0, 0, 0);
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-style: none;
                   border-bottom-width: 1px;
@@ -9763,7 +10088,6 @@
                 </button>
               </td>
               <td style="
-                background-color: var(--color-state-layer-pressed);
                 background: linear-gradient(to left, transparent 50%, var(--color-state-layer-pressed) 50%);
                 padding-bottom: 0px;
                 padding-left: 0px;
@@ -9777,11 +10101,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -9802,6 +10121,8 @@
                 <button style="
                   align-items: center;
                   background-color: var(--calendar-day-selected-background-color, var(--color-background-inverse));
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-style: none;
                   border-bottom-width: 1px;
@@ -9835,6 +10156,9 @@
               ">
                 <button style="
                   align-items: center;
+                  background-color: rgba(0, 0, 0, 0);
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-style: none;
                   border-bottom-width: 1px;
@@ -9882,6 +10206,9 @@
               ">
                 <button style="
                   align-items: center;
+                  background-color: rgba(0, 0, 0, 0);
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-style: none;
                   border-bottom-width: 1px;
@@ -9929,6 +10256,9 @@
               ">
                 <button style="
                   align-items: center;
+                  background-color: rgba(0, 0, 0, 0);
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-style: none;
                   border-bottom-width: 1px;
@@ -9976,6 +10306,9 @@
               ">
                 <button style="
                   align-items: center;
+                  background-color: rgba(0, 0, 0, 0);
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-style: none;
                   border-bottom-width: 1px;
@@ -10047,7 +10380,7 @@
       ">
         <button style="
           align-items: center;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: transparent;
           border-bottom-left-radius: 50px;
           border-bottom-right-radius: 50px;
@@ -10132,7 +10465,7 @@
         </h3>
         <button style="
           align-items: center;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: transparent;
           border-bottom-left-radius: 50px;
           border-bottom-right-radius: 50px;
@@ -10212,7 +10545,6 @@
       word-spacing: 0.16em
     ">
       <div style="
-        box-sizing: initial;
         display: table-cell;
         letter-spacing: 0.12em;
         line-height: 1.5;
@@ -10336,6 +10668,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -10370,6 +10704,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px;
                     word-spacing: 0.16em
                   ">
@@ -10389,6 +10724,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -10423,6 +10760,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px;
                     word-spacing: 0.16em
                   ">
@@ -10442,6 +10780,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -10476,6 +10816,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px;
                     word-spacing: 0.16em
                   ">
@@ -10501,6 +10842,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -10535,6 +10878,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px;
                     word-spacing: 0.16em
                   ">
@@ -10554,6 +10898,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -10588,6 +10934,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px;
                     word-spacing: 0.16em
                   ">
@@ -10607,6 +10954,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -10641,6 +10990,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px;
                     word-spacing: 0.16em
                   ">
@@ -10660,6 +11010,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -10694,6 +11046,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px;
                     word-spacing: 0.16em
                   ">
@@ -10713,6 +11066,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -10747,6 +11102,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px;
                     word-spacing: 0.16em
                   ">
@@ -10766,6 +11122,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -10800,6 +11158,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px;
                     word-spacing: 0.16em
                   ">
@@ -10819,6 +11178,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -10853,6 +11214,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px;
                     word-spacing: 0.16em
                   ">
@@ -10878,6 +11240,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -10912,6 +11276,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px;
                     word-spacing: 0.16em
                   ">
@@ -10931,6 +11296,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -10965,6 +11332,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px;
                     word-spacing: 0.16em
                   ">
@@ -10984,6 +11352,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -11018,6 +11388,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px;
                     word-spacing: 0.16em
                   ">
@@ -11037,18 +11408,16 @@
               ">
                 <span style="
                   align-items: center;
-                  border-bottom-color: transparent;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-style: solid;
                   border-bottom-width: 1px;
                   border-color: var(--calendar-day-today-border-color, var(--color-foreground-primary));
-                  border-left-color: transparent;
                   border-left-style: solid;
                   border-left-width: 1px;
                   border-radius: var(--spacing-200);
-                  border-right-color: transparent;
                   border-right-style: solid;
                   border-right-width: 1px;
-                  border-top-color: transparent;
                   border-top-style: solid;
                   border-top-width: 1px;
                   box-sizing: border-box;
@@ -11076,6 +11445,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px;
                     word-spacing: 0.16em
                   ">
@@ -11095,6 +11465,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -11130,6 +11502,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -11165,6 +11539,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -11206,6 +11582,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -11241,6 +11619,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -11276,6 +11656,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -11311,6 +11693,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -11346,6 +11730,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -11370,7 +11756,6 @@
                 </span>
               </td>
               <td style="
-                background-color: var(--color-state-layer-pressed);
                 background: linear-gradient(to right, transparent 50%, var(--color-state-layer-pressed) 50%);
                 letter-spacing: 0.12em;
                 line-height: 1.5;
@@ -11387,11 +11772,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-left-width: 1px;
@@ -11412,6 +11792,8 @@
                 <span style="
                   align-items: center;
                   background-color: var(--calendar-day-selected-background-color, var(--color-background-inverse));
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -11447,6 +11829,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px;
                     word-spacing: 0.16em
                   ">
@@ -11471,11 +11854,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -11494,6 +11872,8 @@
                 }}</style>
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -11528,6 +11908,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px;
                     word-spacing: 0.16em
                   ">
@@ -11558,11 +11939,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -11581,6 +11957,8 @@
                 }}</style>
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -11615,6 +11993,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px;
                     word-spacing: 0.16em
                   ">
@@ -11639,11 +12018,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -11662,6 +12036,8 @@
                 }}</style>
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -11696,6 +12072,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px;
                     word-spacing: 0.16em
                   ">
@@ -11704,7 +12081,6 @@
                 </span>
               </td>
               <td style="
-                background-color: var(--color-state-layer-pressed);
                 background: linear-gradient(to left, transparent 50%, var(--color-state-layer-pressed) 50%);
                 letter-spacing: 0.12em;
                 line-height: 1.5;
@@ -11721,11 +12097,6 @@
                     border-bottom-color: transparent;
                     border-bottom-style: solid;
                     border-bottom-width: 1px;
-                    border-image-outset: initial;
-                    border-image-repeat: initial;
-                    border-image-slice: initial;
-                    border-image-source: initial;
-                    border-image-width: initial;
                     border-left-color: transparent;
                     border-left-style: solid;
                     border-right-color: transparent;
@@ -11746,6 +12117,8 @@
                 <span style="
                   align-items: center;
                   background-color: var(--calendar-day-selected-background-color, var(--color-background-inverse));
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -11781,6 +12154,7 @@
                     overflow-y: hidden;
                     position: absolute;
                     text-wrap-mode: nowrap;
+                    white-space-collapse: collapse;
                     width: 1px;
                     word-spacing: 0.16em
                   ">
@@ -11800,6 +12174,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -11835,6 +12211,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -11870,6 +12248,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;
@@ -11905,6 +12285,8 @@
               ">
                 <span style="
                   align-items: center;
+                  background-position-x: initial;
+                  background-position-y: initial;
                   border-bottom-color: transparent;
                   border-bottom-width: 1px;
                   border-left-color: transparent;

@@ -18,19 +18,15 @@
           <style>@scope{:scope{
             &::before {
               background: var(--color-data-viz-chart-primary);
-              border-bottom-color: currentcolor;
               border-bottom-left-radius: 2px;
               border-bottom-right-radius: 2px;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-color: var(--color-data-viz-chart-primary);
-              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
-              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
-              border-top-color: currentcolor;
               border-top-left-radius: 2px;
               border-top-right-radius: 2px;
               border-top-style: solid;
@@ -62,19 +58,15 @@
           <style>@scope{:scope{
             &::before {
               background: var(--color-data-viz-chart-secondary);
-              border-bottom-color: currentcolor;
               border-bottom-left-radius: 2px;
               border-bottom-right-radius: 2px;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-color: var(--color-data-viz-chart-secondary);
-              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
-              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
-              border-top-color: currentcolor;
               border-top-left-radius: 2px;
               border-top-right-radius: 2px;
               border-top-style: solid;
@@ -106,22 +98,10 @@
           <style>@scope{:scope{
             &::before {
               background: repeating-linear-gradient(30deg, var(--color-data-viz-chart-tertiary-background), var(--color-data-viz-chart-tertiary-background) 2px, var(--color-data-viz-chart-tertiary-stroke) 2px, var(--color-data-viz-chart-tertiary-stroke) 3px, var(--color-data-viz-chart-tertiary-background) 3px, var(--color-data-viz-chart-tertiary-background) 4px);
-              border-bottom-color: currentcolor;
               border-bottom-left-radius: 2px;
               border-bottom-right-radius: 2px;
-              border-bottom-style: solid;
-              border-bottom-width: 1px;
-              border-left-color: currentcolor;
-              border-left-style: solid;
-              border-left-width: 1px;
-              border-right-color: currentcolor;
-              border-right-style: solid;
-              border-right-width: 1px;
-              border-top-color: currentcolor;
               border-top-left-radius: 2px;
               border-top-right-radius: 2px;
-              border-top-style: solid;
-              border-top-width: 1px;
               border: 1px solid var(--color-data-viz-chart-tertiary-stroke);
               box-sizing: border-box;
               content: "";
@@ -166,19 +146,15 @@
           <style>@scope{:scope{
             &::before {
               background: var(--color-data-viz-chart-primary);
-              border-bottom-color: currentcolor;
               border-bottom-left-radius: 2px;
               border-bottom-right-radius: 2px;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-color: var(--color-data-viz-chart-primary);
-              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
-              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
-              border-top-color: currentcolor;
               border-top-left-radius: 2px;
               border-top-right-radius: 2px;
               border-top-style: solid;
@@ -210,19 +186,15 @@
           <style>@scope{:scope{
             &::before {
               background: var(--color-data-viz-chart-secondary);
-              border-bottom-color: currentcolor;
               border-bottom-left-radius: 2px;
               border-bottom-right-radius: 2px;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-color: var(--color-data-viz-chart-secondary);
-              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
-              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
-              border-top-color: currentcolor;
               border-top-left-radius: 2px;
               border-top-right-radius: 2px;
               border-top-style: solid;
@@ -254,22 +226,10 @@
           <style>@scope{:scope{
             &::before {
               background: repeating-linear-gradient(30deg, var(--color-data-viz-chart-tertiary-background), var(--color-data-viz-chart-tertiary-background) 2px, var(--color-data-viz-chart-tertiary-stroke) 2px, var(--color-data-viz-chart-tertiary-stroke) 3px, var(--color-data-viz-chart-tertiary-background) 3px, var(--color-data-viz-chart-tertiary-background) 4px);
-              border-bottom-color: currentcolor;
               border-bottom-left-radius: 2px;
               border-bottom-right-radius: 2px;
-              border-bottom-style: solid;
-              border-bottom-width: 1px;
-              border-left-color: currentcolor;
-              border-left-style: solid;
-              border-left-width: 1px;
-              border-right-color: currentcolor;
-              border-right-style: solid;
-              border-right-width: 1px;
-              border-top-color: currentcolor;
               border-top-left-radius: 2px;
               border-top-right-radius: 2px;
-              border-top-style: solid;
-              border-top-width: 1px;
               border: 1px solid var(--color-data-viz-chart-tertiary-stroke);
               box-sizing: border-box;
               content: "";
@@ -298,22 +258,10 @@
           <style>@scope{:scope{
             &::before {
               background: repeating-linear-gradient(0deg, var(--color-data-viz-chart-quaternary-background), var(--color-data-viz-chart-quaternary-background) 2px, var(--color-data-viz-chart-quaternary-stroke) 2px, var(--color-data-viz-chart-quaternary-stroke) 3px, var(--color-data-viz-chart-quaternary-background) 3px, var(--color-data-viz-chart-quaternary-background) 4px);
-              border-bottom-color: currentcolor;
               border-bottom-left-radius: 2px;
               border-bottom-right-radius: 2px;
-              border-bottom-style: solid;
-              border-bottom-width: 1px;
-              border-left-color: currentcolor;
-              border-left-style: solid;
-              border-left-width: 1px;
-              border-right-color: currentcolor;
-              border-right-style: solid;
-              border-right-width: 1px;
-              border-top-color: currentcolor;
               border-top-left-radius: 2px;
               border-top-right-radius: 2px;
-              border-top-style: solid;
-              border-top-width: 1px;
               border: 1px solid var(--color-data-viz-chart-quaternary-stroke);
               box-sizing: border-box;
               content: "";
@@ -342,19 +290,15 @@
           <style>@scope{:scope{
             &::before {
               background: var(--color-data-viz-chart-quinary-background);
-              border-bottom-color: currentcolor;
               border-bottom-left-radius: 2px;
               border-bottom-right-radius: 2px;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-color: var(--color-data-viz-chart-quinary-stroke);
-              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
-              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
-              border-top-color: currentcolor;
               border-top-left-radius: 2px;
               border-top-right-radius: 2px;
               border-top-style: solid;
@@ -402,19 +346,15 @@
           <style>@scope{:scope{
             &::before {
               background: var(--color-data-viz-chart-primary);
-              border-bottom-color: currentcolor;
               border-bottom-left-radius: 2px;
               border-bottom-right-radius: 2px;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-color: var(--color-data-viz-chart-primary);
-              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
-              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
-              border-top-color: currentcolor;
               border-top-left-radius: 2px;
               border-top-right-radius: 2px;
               border-top-style: solid;
@@ -446,19 +386,15 @@
           <style>@scope{:scope{
             &::before {
               background: var(--color-data-viz-chart-secondary);
-              border-bottom-color: currentcolor;
               border-bottom-left-radius: 2px;
               border-bottom-right-radius: 2px;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-color: var(--color-data-viz-chart-secondary);
-              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
-              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
-              border-top-color: currentcolor;
               border-top-left-radius: 2px;
               border-top-right-radius: 2px;
               border-top-style: solid;

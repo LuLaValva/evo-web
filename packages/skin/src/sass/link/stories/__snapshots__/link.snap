@@ -1,13 +1,19 @@
 ┌─ action
 <div>
-  <a style="color: var(--color-foreground-link-primary)">
+  <a
+    href="https://www.ebay.com/?r=481"
+    style="color: var(--color-foreground-link-primary)"
+  >
     See all 17 Reviews
   </a>
 </div>
 
 ┌─ base
 <div>
-  <a style="color: var(--color-foreground-link-primary)">
+  <a
+    href="https://www.ebay.com/urw/ZTE-AXON-7-Mini-32GB-Ion-Gold-Unlocked-Smartphone/product-reviews/230215749?_itm=222972816761"
+    style="color: var(--color-foreground-link-primary)"
+  >
     Link
   </a>
 </div>
@@ -15,7 +21,7 @@
 ┌─ disabledFake
 <div>
   <button style="
-    background-color: initial;
+    background-color: rgba(0, 0, 0, 0);
     border-bottom-color: currentcolor;
     border-bottom-style: none;
     border-bottom-width: 0px;
@@ -44,7 +50,7 @@
 ┌─ fake
 <div>
   <button style="
-    background-color: initial;
+    background-color: rgba(0, 0, 0, 0);
     border-bottom-color: currentcolor;
     border-bottom-style: none;
     border-bottom-width: 0px;
@@ -72,7 +78,13 @@
 
 ┌─ legal
 <div>
-  <a style="color: var(--legal-link-foreground-color, var(--color-foreground-link-legal))">
+  <a
+    href="https://www.ebay.com/urw/ZTE-AXON-7-Mini-32GB-Ion-Gold-Unlocked-Smartphone/product-reviews/230215749?_itm=222972816761"
+    style="
+      color: var(--legal-link-foreground-color, var(--color-foreground-link-legal));
+      text-decoration-color: rgb(0, 0, 0)
+    "
+  >
     Link
   </a>
 </div>
@@ -80,7 +92,7 @@
 ┌─ legalFake
 <div>
   <button style="
-    background-color: initial;
+    background-color: rgba(0, 0, 0, 0);
     border-bottom-color: currentcolor;
     border-bottom-style: none;
     border-bottom-width: 0px;
@@ -108,22 +120,29 @@
 
 ┌─ nav
 <div>
-  <a style="
-    color: var(--nav-link-foreground-color, var(--color-foreground-link-primary));
-    text-decoration-line: none
-  ">
+  <a
+    href="https://www.ebay.com/?r=19"
+    style="
+      color: var(--nav-link-foreground-color, var(--color-foreground-link-primary));
+      text-decoration-color: rgb(0, 0, 0);
+      text-decoration-line: none
+    "
+  >
     Link 1
   </a>
 </div>
 
 ┌─ textSpacing
 <div>
-  <a style="
-    color: var(--color-foreground-link-primary);
-    letter-spacing: 0.12em;
-    line-height: 1.5;
-    word-spacing: 0.16em
-  ">
+  <a
+    href="https://www.ebay.com/?r=735"
+    style="
+      color: var(--color-foreground-link-primary);
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      word-spacing: 0.16em
+    "
+  >
     Text Spacing
   </a>
 </div>

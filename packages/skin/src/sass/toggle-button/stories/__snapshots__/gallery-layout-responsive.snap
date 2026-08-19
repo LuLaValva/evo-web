@@ -29,7 +29,7 @@
       text-align: center;
       width: 100%
     ">
-      <span style="
+      <span style='
         background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg");
         background-position-x: center;
         background-position-y: 20%;
@@ -44,7 +44,7 @@
         right: 0px;
         top: 0px;
         width: 100%
-      "/>
+      '/>
     </span>
     <span style="
       align-self: self-start;
@@ -106,7 +106,7 @@
       text-align: center;
       width: 100%
     ">
-      <span style="
+      <span style='
         background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg");
         background-position-x: center;
         background-position-y: 20%;
@@ -121,7 +121,7 @@
         right: 0px;
         top: 0px;
         width: 100%
-      "/>
+      '/>
     </span>
     <span style="
       align-self: self-start;
@@ -264,7 +264,7 @@
       text-align: center;
       width: 100%
     ">
-      <span style="
+      <span style='
         background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg");
         background-position-x: center;
         background-position-y: 20%;
@@ -279,7 +279,7 @@
         right: 0px;
         top: 0px;
         width: 100%
-      "/>
+      '/>
     </span>
     <span style="
       align-self: self-start;
@@ -341,7 +341,7 @@
       text-align: center;
       width: 100%
     ">
-      <span style="
+      <span style='
         background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg");
         background-position-x: center;
         background-position-y: 20%;
@@ -356,7 +356,7 @@
         right: 0px;
         top: 0px;
         width: 100%
-      "/>
+      '/>
     </span>
     <span style="
       align-self: self-start;
@@ -498,7 +498,7 @@
       text-align: center;
       width: 100%
     ">
-      <span style="
+      <span style='
         background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg");
         background-position-x: center;
         background-position-y: 20%;
@@ -513,7 +513,7 @@
         right: 0px;
         top: 0px;
         width: 100%
-      "/>
+      '/>
     </span>
     <span style="
       align-self: self-start;
@@ -574,7 +574,7 @@
       text-align: center;
       width: 100%
     ">
-      <span style="
+      <span style='
         background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg");
         background-position-x: center;
         background-position-y: 20%;
@@ -589,7 +589,7 @@
         right: 0px;
         top: 0px;
         width: 100%
-      "/>
+      '/>
     </span>
     <span style="
       align-self: self-start;

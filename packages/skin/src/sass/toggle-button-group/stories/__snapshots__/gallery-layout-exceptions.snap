@@ -33,6 +33,8 @@
         gap: var(--spacing-100);
         grid-auto-rows: 1fr;
         grid-template-columns: repeat(var(--row-gallery-toggle-buttons-min), 1fr);
+        list-style-image: none;
+        list-style-position: outside;
         list-style-type: none;
         margin-bottom: 0px;
         margin-top: 0px;
@@ -73,7 +75,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -88,7 +90,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -152,7 +154,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -167,7 +169,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -231,7 +233,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-square-pic.jpg");
                 background-position-x: center;
                 background-position-y: 30%;
@@ -246,7 +248,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -310,7 +312,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -325,7 +327,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -389,7 +391,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -404,7 +406,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -468,7 +470,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-square-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -483,7 +485,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -547,7 +549,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -562,7 +564,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -626,7 +628,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -641,7 +643,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -705,7 +707,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-square-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -720,7 +722,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -790,6 +792,8 @@
         gap: var(--spacing-100);
         grid-auto-rows: 1fr;
         grid-template-columns: repeat(var(--row-gallery-toggle-buttons-min), 1fr);
+        list-style-image: none;
+        list-style-position: outside;
         list-style-type: none;
         margin-bottom: 0px;
         margin-top: 0px;
@@ -830,7 +834,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -845,7 +849,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -909,7 +913,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -924,7 +928,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -988,7 +992,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-square-pic.jpg");
                 background-position-x: center;
                 background-position-y: 30%;
@@ -1003,7 +1007,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -1067,7 +1071,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -1082,7 +1086,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -1146,7 +1150,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -1161,7 +1165,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -1225,7 +1229,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-square-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -1240,7 +1244,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -1304,7 +1308,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -1319,7 +1323,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -1383,7 +1387,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -1398,7 +1402,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -1462,7 +1466,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-square-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -1477,7 +1481,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -1547,6 +1551,8 @@
         gap: var(--spacing-100);
         grid-auto-rows: 1fr;
         grid-template-columns: repeat(var(--row-gallery-toggle-buttons-min), 1fr);
+        list-style-image: none;
+        list-style-position: outside;
         list-style-type: none;
         margin-bottom: 0px;
         margin-top: 0px;
@@ -1587,7 +1593,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -1602,7 +1608,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -1666,7 +1672,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -1681,7 +1687,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -1745,7 +1751,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-square-pic.jpg");
                 background-position-x: center;
                 background-position-y: 30%;
@@ -1760,7 +1766,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -1824,7 +1830,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -1839,7 +1845,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -1903,7 +1909,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -1918,7 +1924,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -1982,7 +1988,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-square-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -1997,7 +2003,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -2061,7 +2067,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -2076,7 +2082,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -2140,7 +2146,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -2155,7 +2161,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -2219,7 +2225,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-square-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -2234,7 +2240,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -2304,6 +2310,8 @@
         gap: var(--spacing-100);
         grid-auto-rows: 1fr;
         grid-template-columns: repeat(var(--row-gallery-toggle-buttons-min), 1fr);
+        list-style-image: none;
+        list-style-position: outside;
         list-style-type: none;
         margin-bottom: 0px;
         margin-top: 0px;
@@ -2344,7 +2352,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -2359,7 +2367,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -2423,7 +2431,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -2438,7 +2446,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -2502,7 +2510,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-square-pic.jpg");
                 background-position-x: center;
                 background-position-y: 30%;
@@ -2517,7 +2525,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -2581,7 +2589,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -2596,7 +2604,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -2660,7 +2668,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -2675,7 +2683,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -2739,7 +2747,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-square-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -2754,7 +2762,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -2818,7 +2826,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -2833,7 +2841,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -2897,7 +2905,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -2912,7 +2920,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -2976,7 +2984,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-square-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -2991,7 +2999,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -3061,6 +3069,8 @@
         gap: var(--spacing-100);
         grid-auto-rows: 1fr;
         grid-template-columns: repeat(var(--row-gallery-toggle-buttons-min), 1fr);
+        list-style-image: none;
+        list-style-position: outside;
         list-style-type: none;
         margin-bottom: 0px;
         margin-top: 0px;
@@ -3101,7 +3111,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -3116,7 +3126,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -3180,7 +3190,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -3195,7 +3205,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -3259,7 +3269,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-square-pic.jpg");
                 background-position-x: center;
                 background-position-y: 30%;
@@ -3274,7 +3284,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -3338,7 +3348,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -3353,7 +3363,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -3417,7 +3427,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -3432,7 +3442,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -3496,7 +3506,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-square-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -3511,7 +3521,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -3575,7 +3585,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -3590,7 +3600,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -3654,7 +3664,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-landscape-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -3669,7 +3679,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;
@@ -3733,7 +3743,7 @@
               text-align: center;
               width: 100%
             ">
-              <span style="
+              <span style='
                 background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-square-pic.jpg");
                 background-position-x: center;
                 background-position-y: 15%;
@@ -3748,7 +3758,7 @@
                 right: 0px;
                 top: 0px;
                 width: 100%
-              "/>
+              '/>
             </span>
             <span style="
               align-self: flex-start;

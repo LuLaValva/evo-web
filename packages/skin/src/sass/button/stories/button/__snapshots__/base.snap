@@ -3,7 +3,7 @@
   <button style="
     align-content: center;
     align-items: center;
-    background-color: initial;
+    background-color: rgba(0, 0, 0, 0);
     border-bottom-color: currentcolor;
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -26,6 +26,7 @@
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 0px;
+    text-align: center;
     vertical-align: bottom
   ">
     <span style="
@@ -50,8 +51,6 @@
           display: inline-block;
           fill: currentcolor;
           height: inherit;
-          margin-inline-end: 8px;
-          margin-inline-start: 8px;
           max-height: inherit;
           max-width: inherit;
           pointer-events: none;
@@ -75,7 +74,7 @@
   <button style="
     align-content: center;
     align-items: center;
-    background-color: initial;
+    background-color: rgba(0, 0, 0, 0);
     border-bottom-color: currentcolor;
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -98,6 +97,7 @@
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 0px;
+    text-align: center;
     vertical-align: bottom
   ">
     <span style="
@@ -122,8 +122,6 @@
           display: inline-block;
           fill: currentcolor;
           height: inherit;
-          margin-inline-end: 8px;
-          margin-inline-start: 8px;
           max-height: inherit;
           max-width: inherit;
           pointer-events: none;
@@ -149,19 +147,15 @@
     style="
       align-content: center;
       align-items: center;
-      background-color: initial;
-      border-bottom-color: currentcolor;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--expand-btn-disabled-border-color, var(--color-border-disabled));
-      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
       border-radius: var(--btn-border-radius, 20px);
-      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
-      border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
       color: var(--expand-btn-disabled-foreground-color, var(--color-foreground-disabled));
@@ -173,6 +167,8 @@
       padding-left: 20px;
       padding-right: 20px;
       padding-top: 0px;
+      text-align: center;
+      text-decoration-color: rgb(0, 0, 0);
       vertical-align: bottom
     "
   >
@@ -213,7 +209,7 @@
   <button style="
     align-content: center;
     align-items: center;
-    background-color: initial;
+    background-color: rgba(0, 0, 0, 0);
     border-bottom-color: inherit;
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -240,6 +236,7 @@
     padding-right: 20px;
     padding-top: 0px;
     position: relative;
+    text-align: center;
     vertical-align: bottom
   ">
     <style>@scope{:scope{
@@ -266,7 +263,7 @@
   <button style="
     align-content: center;
     align-items: center;
-    background-color: initial;
+    background-color: rgba(0, 0, 0, 0);
     border-bottom-color: inherit;
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -293,6 +290,7 @@
     padding-right: 20px;
     padding-top: 0px;
     position: relative;
+    text-align: center;
     vertical-align: bottom
   ">
     <style>@scope{:scope{
@@ -331,8 +329,6 @@
           display: inline-block;
           fill: currentcolor;
           height: inherit;
-          margin-inline-end: 8px;
-          margin-inline-start: 8px;
           max-height: inherit;
           max-width: inherit;
           pointer-events: none;
@@ -356,7 +352,7 @@
   <button style="
     align-content: center;
     align-items: center;
-    background-color: initial;
+    background-color: rgba(0, 0, 0, 0);
     border-bottom-color: inherit;
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -384,6 +380,7 @@
     padding-right: var(--spacing-100);
     padding-top: 0px;
     position: relative;
+    text-align: center;
     vertical-align: bottom
   ">
     <style>@scope{:scope{
@@ -405,8 +402,6 @@
         display: inline-block;
         fill: currentcolor;
         height: 12px;
-        margin-inline-end: 8px;
-        margin-inline-start: 8px;
         pointer-events: none;
         stroke-width: 0;
         stroke: currentcolor;
@@ -428,7 +423,7 @@
   <button style="
     align-content: center;
     align-items: center;
-    background-color: initial;
+    background-color: rgba(0, 0, 0, 0);
     border-bottom-color: currentcolor;
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -451,6 +446,7 @@
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 0px;
+    text-align: center;
     vertical-align: bottom
   ">
     <span style="
@@ -490,7 +486,7 @@
   <button style="
     align-content: center;
     align-items: center;
-    background-color: initial;
+    background-color: rgba(0, 0, 0, 0);
     border-bottom-color: currentcolor;
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -513,6 +509,7 @@
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 0px;
+    text-align: center;
     vertical-align: bottom
   ">
     Reset
@@ -527,7 +524,7 @@
   <button style="
     align-content: center;
     align-items: center;
-    background-color: initial;
+    background-color: rgba(0, 0, 0, 0);
     border-bottom-color: currentcolor;
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -550,6 +547,7 @@
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 0px;
+    text-align: center;
     vertical-align: bottom
   ">
     Submit
@@ -564,7 +562,7 @@
   <button style="
     align-content: center;
     align-items: center;
-    background-color: initial;
+    background-color: rgba(0, 0, 0, 0);
     border-bottom-color: currentcolor;
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -587,6 +585,7 @@
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 0px;
+    text-align: center;
     vertical-align: bottom
   ">
     Button

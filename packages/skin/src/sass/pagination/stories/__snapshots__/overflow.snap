@@ -22,44 +22,49 @@
         overflow-y: hidden;
         position: absolute;
         text-wrap-mode: nowrap;
+        white-space-collapse: collapse;
         width: 1px
       ">
         Results Pagination - Page 1
       </h2>
     </span>
-    <a style="
-      align-items: center;
-      background-color: var(--color-background-secondary);
-      border-bottom-color: transparent;
-      border-bottom-left-radius: 50px;
-      border-bottom-right-radius: 50px;
-      border-bottom-style: solid;
-      border-bottom-width: 2px;
-      border-left-color: transparent;
-      border-left-style: solid;
-      border-left-width: 2px;
-      border-right-color: transparent;
-      border-right-style: solid;
-      border-right-width: 2px;
-      border-top-color: transparent;
-      border-top-left-radius: 50px;
-      border-top-right-radius: 50px;
-      border-top-style: solid;
-      border-top-width: 2px;
-      box-sizing: border-box;
-      color: inherit;
-      display: inline-flex;
-      font-family: inherit;
-      font-size: 1em;
-      height: 40px;
-      justify-content: center;
-      margin-inline-end: var(--spacing-100);
-      overflow-x: hidden;
-      overflow-y: hidden;
-      position: relative;
-      vertical-align: text-bottom;
-      width: 40px
-    ">
+    <a
+      href="http://www.ebay.com/sch/i.html?_nkw=guitars"
+      style="
+        align-items: center;
+        background-color: var(--color-background-secondary);
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 2px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 2px;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        border-top-width: 2px;
+        box-sizing: border-box;
+        color: inherit;
+        display: inline-flex;
+        font-family: inherit;
+        font-size: 1em;
+        height: 40px;
+        justify-content: center;
+        margin-inline-end: var(--spacing-100);
+        outline-color: rgb(0, 0, 0);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        vertical-align: text-bottom;
+        width: 40px
+      "
+    >
       <style>@scope{:scope{
         &::after {
           background-color: var(--color-state-layer-neutral);
@@ -79,7 +84,6 @@
       <svg
         height="24"
         style="
-          background-color: initial;
           display: inline-block;
           fill: var(--color-background-disabled);
           height: 16px;
@@ -114,19 +118,23 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: var(--pagination-item-current-foreground-color, var(--color-foreground-primary));
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-600);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=1"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: var(--pagination-item-current-foreground-color, var(--color-foreground-primary));
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-600);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
               background-color: currentcolor;
@@ -151,22 +159,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=2"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -188,22 +199,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=3"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -225,22 +239,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=4"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -262,22 +279,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=5"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -332,22 +352,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=10"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -365,39 +388,43 @@
         </a>
       </li>
     </ol>
-    <a style="
-      align-items: center;
-      background-color: var(--color-background-secondary);
-      border-bottom-color: transparent;
-      border-bottom-left-radius: 50px;
-      border-bottom-right-radius: 50px;
-      border-bottom-style: solid;
-      border-bottom-width: 2px;
-      border-left-color: transparent;
-      border-left-style: solid;
-      border-left-width: 2px;
-      border-right-color: transparent;
-      border-right-style: solid;
-      border-right-width: 2px;
-      border-top-color: transparent;
-      border-top-left-radius: 50px;
-      border-top-right-radius: 50px;
-      border-top-style: solid;
-      border-top-width: 2px;
-      box-sizing: border-box;
-      color: inherit;
-      display: inline-flex;
-      font-family: inherit;
-      font-size: 1em;
-      height: 40px;
-      justify-content: center;
-      margin-inline-start: var(--spacing-100);
-      overflow-x: hidden;
-      overflow-y: hidden;
-      position: relative;
-      vertical-align: text-bottom;
-      width: 40px
-    ">
+    <a
+      href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=2"
+      style="
+        align-items: center;
+        background-color: var(--color-background-secondary);
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 2px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 2px;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        border-top-width: 2px;
+        box-sizing: border-box;
+        color: inherit;
+        display: inline-flex;
+        font-family: inherit;
+        font-size: 1em;
+        height: 40px;
+        justify-content: center;
+        margin-inline-start: var(--spacing-100);
+        outline-color: rgb(0, 0, 0);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        vertical-align: text-bottom;
+        width: 40px
+      "
+    >
       <style>@scope{:scope{
         &::after {
           background-color: var(--color-state-layer-neutral);
@@ -465,44 +492,49 @@
         overflow-y: hidden;
         position: absolute;
         text-wrap-mode: nowrap;
+        white-space-collapse: collapse;
         width: 1px
       ">
         Results Pagination - Page 1
       </h2>
     </span>
-    <a style="
-      align-items: center;
-      background-color: var(--color-background-secondary);
-      border-bottom-color: transparent;
-      border-bottom-left-radius: 50px;
-      border-bottom-right-radius: 50px;
-      border-bottom-style: solid;
-      border-bottom-width: 2px;
-      border-left-color: transparent;
-      border-left-style: solid;
-      border-left-width: 2px;
-      border-right-color: transparent;
-      border-right-style: solid;
-      border-right-width: 2px;
-      border-top-color: transparent;
-      border-top-left-radius: 50px;
-      border-top-right-radius: 50px;
-      border-top-style: solid;
-      border-top-width: 2px;
-      box-sizing: border-box;
-      color: inherit;
-      display: inline-flex;
-      font-family: inherit;
-      font-size: 1em;
-      height: 40px;
-      justify-content: center;
-      margin-inline-end: var(--spacing-100);
-      overflow-x: hidden;
-      overflow-y: hidden;
-      position: relative;
-      vertical-align: text-bottom;
-      width: 40px
-    ">
+    <a
+      href="http://www.ebay.com/sch/i.html?_nkw=guitars"
+      style="
+        align-items: center;
+        background-color: var(--color-background-secondary);
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 2px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 2px;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        border-top-width: 2px;
+        box-sizing: border-box;
+        color: inherit;
+        display: inline-flex;
+        font-family: inherit;
+        font-size: 1em;
+        height: 40px;
+        justify-content: center;
+        margin-inline-end: var(--spacing-100);
+        outline-color: rgb(0, 0, 0);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        vertical-align: text-bottom;
+        width: 40px
+      "
+    >
       <style>@scope{:scope{
         &::after {
           background-color: var(--color-state-layer-neutral);
@@ -522,7 +554,6 @@
       <svg
         height="24"
         style="
-          background-color: initial;
           display: inline-block;
           fill: var(--color-background-disabled);
           height: 16px;
@@ -557,19 +588,23 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: var(--pagination-item-current-foreground-color, var(--color-foreground-primary));
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-600);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=1"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: var(--pagination-item-current-foreground-color, var(--color-foreground-primary));
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-600);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
               background-color: currentcolor;
@@ -594,22 +629,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=2"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -631,22 +669,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=3"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -668,22 +709,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=4"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -705,22 +749,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=5"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -775,22 +822,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=10"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -808,39 +858,43 @@
         </a>
       </li>
     </ol>
-    <a style="
-      align-items: center;
-      background-color: var(--color-background-secondary);
-      border-bottom-color: transparent;
-      border-bottom-left-radius: 50px;
-      border-bottom-right-radius: 50px;
-      border-bottom-style: solid;
-      border-bottom-width: 2px;
-      border-left-color: transparent;
-      border-left-style: solid;
-      border-left-width: 2px;
-      border-right-color: transparent;
-      border-right-style: solid;
-      border-right-width: 2px;
-      border-top-color: transparent;
-      border-top-left-radius: 50px;
-      border-top-right-radius: 50px;
-      border-top-style: solid;
-      border-top-width: 2px;
-      box-sizing: border-box;
-      color: inherit;
-      display: inline-flex;
-      font-family: inherit;
-      font-size: 1em;
-      height: 40px;
-      justify-content: center;
-      margin-inline-start: var(--spacing-100);
-      overflow-x: hidden;
-      overflow-y: hidden;
-      position: relative;
-      vertical-align: text-bottom;
-      width: 40px
-    ">
+    <a
+      href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=2"
+      style="
+        align-items: center;
+        background-color: var(--color-background-secondary);
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 2px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 2px;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        border-top-width: 2px;
+        box-sizing: border-box;
+        color: inherit;
+        display: inline-flex;
+        font-family: inherit;
+        font-size: 1em;
+        height: 40px;
+        justify-content: center;
+        margin-inline-start: var(--spacing-100);
+        outline-color: rgb(0, 0, 0);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        vertical-align: text-bottom;
+        width: 40px
+      "
+    >
       <style>@scope{:scope{
         &::after {
           background-color: var(--color-state-layer-neutral);
@@ -908,44 +962,49 @@
         overflow-y: hidden;
         position: absolute;
         text-wrap-mode: nowrap;
+        white-space-collapse: collapse;
         width: 1px
       ">
         Results Pagination - Page 1
       </h2>
     </span>
-    <a style="
-      align-items: center;
-      background-color: var(--color-background-secondary);
-      border-bottom-color: transparent;
-      border-bottom-left-radius: 50px;
-      border-bottom-right-radius: 50px;
-      border-bottom-style: solid;
-      border-bottom-width: 2px;
-      border-left-color: transparent;
-      border-left-style: solid;
-      border-left-width: 2px;
-      border-right-color: transparent;
-      border-right-style: solid;
-      border-right-width: 2px;
-      border-top-color: transparent;
-      border-top-left-radius: 50px;
-      border-top-right-radius: 50px;
-      border-top-style: solid;
-      border-top-width: 2px;
-      box-sizing: border-box;
-      color: inherit;
-      display: inline-flex;
-      font-family: inherit;
-      font-size: 1em;
-      height: 40px;
-      justify-content: center;
-      margin-inline-end: var(--spacing-100);
-      overflow-x: hidden;
-      overflow-y: hidden;
-      position: relative;
-      vertical-align: text-bottom;
-      width: 40px
-    ">
+    <a
+      href="http://www.ebay.com/sch/i.html?_nkw=guitars"
+      style="
+        align-items: center;
+        background-color: var(--color-background-secondary);
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 2px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 2px;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        border-top-width: 2px;
+        box-sizing: border-box;
+        color: inherit;
+        display: inline-flex;
+        font-family: inherit;
+        font-size: 1em;
+        height: 40px;
+        justify-content: center;
+        margin-inline-end: var(--spacing-100);
+        outline-color: rgb(0, 0, 0);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        vertical-align: text-bottom;
+        width: 40px
+      "
+    >
       <style>@scope{:scope{
         &::after {
           background-color: var(--color-state-layer-neutral);
@@ -965,7 +1024,6 @@
       <svg
         height="24"
         style="
-          background-color: initial;
           display: inline-block;
           fill: var(--color-background-disabled);
           height: 16px;
@@ -1000,19 +1058,23 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: var(--pagination-item-current-foreground-color, var(--color-foreground-primary));
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-600);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=1"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: var(--pagination-item-current-foreground-color, var(--color-foreground-primary));
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-600);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
               background-color: currentcolor;
@@ -1037,22 +1099,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=2"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -1074,22 +1139,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=3"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -1111,22 +1179,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=4"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -1148,22 +1219,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=5"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -1194,10 +1268,13 @@
           justify-content: center;
           width: 44px
         ">
-          <span style="position: relative">
+          <span style="
+            line-height: normal;
+            position: relative
+          ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
@@ -1270,22 +1347,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=10"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -1303,39 +1383,43 @@
         </a>
       </li>
     </ol>
-    <a style="
-      align-items: center;
-      background-color: var(--color-background-secondary);
-      border-bottom-color: transparent;
-      border-bottom-left-radius: 50px;
-      border-bottom-right-radius: 50px;
-      border-bottom-style: solid;
-      border-bottom-width: 2px;
-      border-left-color: transparent;
-      border-left-style: solid;
-      border-left-width: 2px;
-      border-right-color: transparent;
-      border-right-style: solid;
-      border-right-width: 2px;
-      border-top-color: transparent;
-      border-top-left-radius: 50px;
-      border-top-right-radius: 50px;
-      border-top-style: solid;
-      border-top-width: 2px;
-      box-sizing: border-box;
-      color: inherit;
-      display: inline-flex;
-      font-family: inherit;
-      font-size: 1em;
-      height: 40px;
-      justify-content: center;
-      margin-inline-start: var(--spacing-100);
-      overflow-x: hidden;
-      overflow-y: hidden;
-      position: relative;
-      vertical-align: text-bottom;
-      width: 40px
-    ">
+    <a
+      href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=2"
+      style="
+        align-items: center;
+        background-color: var(--color-background-secondary);
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 2px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 2px;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        border-top-width: 2px;
+        box-sizing: border-box;
+        color: inherit;
+        display: inline-flex;
+        font-family: inherit;
+        font-size: 1em;
+        height: 40px;
+        justify-content: center;
+        margin-inline-start: var(--spacing-100);
+        outline-color: rgb(0, 0, 0);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        vertical-align: text-bottom;
+        width: 40px
+      "
+    >
       <style>@scope{:scope{
         &::after {
           background-color: var(--color-state-layer-neutral);
@@ -1403,44 +1487,49 @@
         overflow-y: hidden;
         position: absolute;
         text-wrap-mode: nowrap;
+        white-space-collapse: collapse;
         width: 1px
       ">
         Results Pagination - Page 1
       </h2>
     </span>
-    <a style="
-      align-items: center;
-      background-color: var(--color-background-secondary);
-      border-bottom-color: transparent;
-      border-bottom-left-radius: 50px;
-      border-bottom-right-radius: 50px;
-      border-bottom-style: solid;
-      border-bottom-width: 2px;
-      border-left-color: transparent;
-      border-left-style: solid;
-      border-left-width: 2px;
-      border-right-color: transparent;
-      border-right-style: solid;
-      border-right-width: 2px;
-      border-top-color: transparent;
-      border-top-left-radius: 50px;
-      border-top-right-radius: 50px;
-      border-top-style: solid;
-      border-top-width: 2px;
-      box-sizing: border-box;
-      color: inherit;
-      display: inline-flex;
-      font-family: inherit;
-      font-size: 1em;
-      height: 40px;
-      justify-content: center;
-      margin-inline-end: var(--spacing-100);
-      overflow-x: hidden;
-      overflow-y: hidden;
-      position: relative;
-      vertical-align: text-bottom;
-      width: 40px
-    ">
+    <a
+      href="http://www.ebay.com/sch/i.html?_nkw=guitars"
+      style="
+        align-items: center;
+        background-color: var(--color-background-secondary);
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 2px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 2px;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        border-top-width: 2px;
+        box-sizing: border-box;
+        color: inherit;
+        display: inline-flex;
+        font-family: inherit;
+        font-size: 1em;
+        height: 40px;
+        justify-content: center;
+        margin-inline-end: var(--spacing-100);
+        outline-color: rgb(0, 0, 0);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        vertical-align: text-bottom;
+        width: 40px
+      "
+    >
       <style>@scope{:scope{
         &::after {
           background-color: var(--color-state-layer-neutral);
@@ -1460,7 +1549,6 @@
       <svg
         height="24"
         style="
-          background-color: initial;
           display: inline-block;
           fill: var(--color-background-disabled);
           height: 16px;
@@ -1495,19 +1583,23 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: var(--pagination-item-current-foreground-color, var(--color-foreground-primary));
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-600);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=1"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: var(--pagination-item-current-foreground-color, var(--color-foreground-primary));
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-600);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
               background-color: currentcolor;
@@ -1532,22 +1624,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=2"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -1569,22 +1664,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=3"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -1606,22 +1704,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=4"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -1643,22 +1744,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=5"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -1689,10 +1793,13 @@
           justify-content: center;
           width: 44px
         ">
-          <span style="position: relative">
+          <span style="
+            line-height: normal;
+            position: relative
+          ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
@@ -1765,22 +1872,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=10"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -1798,39 +1908,43 @@
         </a>
       </li>
     </ol>
-    <a style="
-      align-items: center;
-      background-color: var(--color-background-secondary);
-      border-bottom-color: transparent;
-      border-bottom-left-radius: 50px;
-      border-bottom-right-radius: 50px;
-      border-bottom-style: solid;
-      border-bottom-width: 2px;
-      border-left-color: transparent;
-      border-left-style: solid;
-      border-left-width: 2px;
-      border-right-color: transparent;
-      border-right-style: solid;
-      border-right-width: 2px;
-      border-top-color: transparent;
-      border-top-left-radius: 50px;
-      border-top-right-radius: 50px;
-      border-top-style: solid;
-      border-top-width: 2px;
-      box-sizing: border-box;
-      color: inherit;
-      display: inline-flex;
-      font-family: inherit;
-      font-size: 1em;
-      height: 40px;
-      justify-content: center;
-      margin-inline-start: var(--spacing-100);
-      overflow-x: hidden;
-      overflow-y: hidden;
-      position: relative;
-      vertical-align: text-bottom;
-      width: 40px
-    ">
+    <a
+      href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=2"
+      style="
+        align-items: center;
+        background-color: var(--color-background-secondary);
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 2px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 2px;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        border-top-width: 2px;
+        box-sizing: border-box;
+        color: inherit;
+        display: inline-flex;
+        font-family: inherit;
+        font-size: 1em;
+        height: 40px;
+        justify-content: center;
+        margin-inline-start: var(--spacing-100);
+        outline-color: rgb(0, 0, 0);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        vertical-align: text-bottom;
+        width: 40px
+      "
+    >
       <style>@scope{:scope{
         &::after {
           background-color: var(--color-state-layer-neutral);
@@ -1898,44 +2012,49 @@
         overflow-y: hidden;
         position: absolute;
         text-wrap-mode: nowrap;
+        white-space-collapse: collapse;
         width: 1px
       ">
         Results Pagination - Page 1
       </h2>
     </span>
-    <a style="
-      align-items: center;
-      background-color: var(--color-background-secondary);
-      border-bottom-color: transparent;
-      border-bottom-left-radius: 50px;
-      border-bottom-right-radius: 50px;
-      border-bottom-style: solid;
-      border-bottom-width: 2px;
-      border-left-color: transparent;
-      border-left-style: solid;
-      border-left-width: 2px;
-      border-right-color: transparent;
-      border-right-style: solid;
-      border-right-width: 2px;
-      border-top-color: transparent;
-      border-top-left-radius: 50px;
-      border-top-right-radius: 50px;
-      border-top-style: solid;
-      border-top-width: 2px;
-      box-sizing: border-box;
-      color: inherit;
-      display: inline-flex;
-      font-family: inherit;
-      font-size: 1em;
-      height: 40px;
-      justify-content: center;
-      margin-inline-end: var(--spacing-100);
-      overflow-x: hidden;
-      overflow-y: hidden;
-      position: relative;
-      vertical-align: text-bottom;
-      width: 40px
-    ">
+    <a
+      href="http://www.ebay.com/sch/i.html?_nkw=guitars"
+      style="
+        align-items: center;
+        background-color: var(--color-background-secondary);
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 2px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 2px;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        border-top-width: 2px;
+        box-sizing: border-box;
+        color: inherit;
+        display: inline-flex;
+        font-family: inherit;
+        font-size: 1em;
+        height: 40px;
+        justify-content: center;
+        margin-inline-end: var(--spacing-100);
+        outline-color: rgb(0, 0, 0);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        vertical-align: text-bottom;
+        width: 40px
+      "
+    >
       <style>@scope{:scope{
         &::after {
           background-color: var(--color-state-layer-neutral);
@@ -1955,7 +2074,6 @@
       <svg
         height="24"
         style="
-          background-color: initial;
           display: inline-block;
           fill: var(--color-background-disabled);
           height: 16px;
@@ -1990,19 +2108,23 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: var(--pagination-item-current-foreground-color, var(--color-foreground-primary));
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-600);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=1"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: var(--pagination-item-current-foreground-color, var(--color-foreground-primary));
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-600);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
               background-color: currentcolor;
@@ -2027,22 +2149,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=2"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -2064,22 +2189,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=3"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -2101,22 +2229,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=4"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -2138,22 +2269,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=5"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -2184,10 +2318,13 @@
           justify-content: center;
           width: 44px
         ">
-          <span style="position: relative">
+          <span style="
+            line-height: normal;
+            position: relative
+          ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
@@ -2276,36 +2413,39 @@
                 display: flex;
                 justify-content: center
               ">
-                <a style="
-                  background-color: initial;
-                  border-bottom-style: solid;
-                  border-bottom-width: 1px;
-                  border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
-                  border-left-style: solid;
-                  border-left-width: 1px;
-                  border-right-style: solid;
-                  border-right-width: 1px;
-                  border-top-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
-                  border-top-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
-                  border-top-style: solid;
-                  border-top-width: 1px;
-                  box-sizing: border-box;
-                  color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
-                  display: inline-grid;
-                  font-family: inherit;
-                  font-size: 1em;
-                  grid-template-columns: auto auto;
-                  justify-content: space-between;
-                  overflow-x: hidden;
-                  overflow-y: hidden;
-                  padding-bottom: 8px;
-                  padding-left: 15px;
-                  padding-right: 15px;
-                  padding-top: 8px;
-                  position: relative;
-                  text-decoration-line: none;
-                  width: 100%
-                ">
+                <a
+                  href="http://www.ebay.com"
+                  style="
+                    border-bottom-style: solid;
+                    border-bottom-width: 1px;
+                    border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
+                    border-left-style: solid;
+                    border-left-width: 1px;
+                    border-right-style: solid;
+                    border-right-width: 1px;
+                    border-top-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+                    border-top-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+                    border-top-style: solid;
+                    border-top-width: 1px;
+                    box-sizing: border-box;
+                    color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
+                    display: inline-grid;
+                    font-family: inherit;
+                    font-size: 1em;
+                    grid-template-columns: auto auto;
+                    justify-content: space-between;
+                    overflow-x: hidden;
+                    overflow-y: hidden;
+                    padding-bottom: 8px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    padding-top: 8px;
+                    position: relative;
+                    text-decoration-color: rgb(0, 0, 0);
+                    text-decoration-line: none;
+                    width: 100%
+                  "
+                >
                   <style>@scope{:scope{
                     &::after {
                       background-color: var(--color-state-layer-neutral);
@@ -2321,7 +2461,8 @@
                   <span style="
                     flex-grow: 1;
                     flex-shrink: 0;
-                    text-wrap-mode: nowrap
+                    text-wrap-mode: nowrap;
+                    white-space-collapse: collapse
                   ">
                     6
                   </span>
@@ -2332,34 +2473,37 @@
                 display: flex;
                 justify-content: center
               ">
-                <a style="
-                  background-color: initial;
-                  border-bottom-style: solid;
-                  border-bottom-width: 1px;
-                  border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
-                  border-left-style: solid;
-                  border-left-width: 1px;
-                  border-right-style: solid;
-                  border-right-width: 1px;
-                  border-top-style: solid;
-                  border-top-width: 1px;
-                  box-sizing: border-box;
-                  color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
-                  display: inline-grid;
-                  font-family: inherit;
-                  font-size: 1em;
-                  grid-template-columns: auto auto;
-                  justify-content: space-between;
-                  overflow-x: hidden;
-                  overflow-y: hidden;
-                  padding-bottom: 8px;
-                  padding-left: 15px;
-                  padding-right: 15px;
-                  padding-top: 8px;
-                  position: relative;
-                  text-decoration-line: none;
-                  width: 100%
-                ">
+                <a
+                  href="http://www.ebay.com"
+                  style="
+                    border-bottom-style: solid;
+                    border-bottom-width: 1px;
+                    border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
+                    border-left-style: solid;
+                    border-left-width: 1px;
+                    border-right-style: solid;
+                    border-right-width: 1px;
+                    border-top-style: solid;
+                    border-top-width: 1px;
+                    box-sizing: border-box;
+                    color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
+                    display: inline-grid;
+                    font-family: inherit;
+                    font-size: 1em;
+                    grid-template-columns: auto auto;
+                    justify-content: space-between;
+                    overflow-x: hidden;
+                    overflow-y: hidden;
+                    padding-bottom: 8px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    padding-top: 8px;
+                    position: relative;
+                    text-decoration-color: rgb(0, 0, 0);
+                    text-decoration-line: none;
+                    width: 100%
+                  "
+                >
                   <style>@scope{:scope{
                     &::after {
                       background-color: var(--color-state-layer-neutral);
@@ -2375,7 +2519,8 @@
                   <span style="
                     flex-grow: 1;
                     flex-shrink: 0;
-                    text-wrap-mode: nowrap
+                    text-wrap-mode: nowrap;
+                    white-space-collapse: collapse
                   ">
                     7
                     <span/>
@@ -2387,34 +2532,37 @@
                 display: flex;
                 justify-content: center
               ">
-                <a style="
-                  background-color: initial;
-                  border-bottom-style: solid;
-                  border-bottom-width: 1px;
-                  border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
-                  border-left-style: solid;
-                  border-left-width: 1px;
-                  border-right-style: solid;
-                  border-right-width: 1px;
-                  border-top-style: solid;
-                  border-top-width: 1px;
-                  box-sizing: border-box;
-                  color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
-                  display: inline-grid;
-                  font-family: inherit;
-                  font-size: 1em;
-                  grid-template-columns: auto auto;
-                  justify-content: space-between;
-                  overflow-x: hidden;
-                  overflow-y: hidden;
-                  padding-bottom: 8px;
-                  padding-left: 15px;
-                  padding-right: 15px;
-                  padding-top: 8px;
-                  position: relative;
-                  text-decoration-line: none;
-                  width: 100%
-                ">
+                <a
+                  href="http://www.ebay.com"
+                  style="
+                    border-bottom-style: solid;
+                    border-bottom-width: 1px;
+                    border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
+                    border-left-style: solid;
+                    border-left-width: 1px;
+                    border-right-style: solid;
+                    border-right-width: 1px;
+                    border-top-style: solid;
+                    border-top-width: 1px;
+                    box-sizing: border-box;
+                    color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
+                    display: inline-grid;
+                    font-family: inherit;
+                    font-size: 1em;
+                    grid-template-columns: auto auto;
+                    justify-content: space-between;
+                    overflow-x: hidden;
+                    overflow-y: hidden;
+                    padding-bottom: 8px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    padding-top: 8px;
+                    position: relative;
+                    text-decoration-color: rgb(0, 0, 0);
+                    text-decoration-line: none;
+                    width: 100%
+                  "
+                >
                   <style>@scope{:scope{
                     &::after {
                       background-color: var(--color-state-layer-neutral);
@@ -2430,7 +2578,8 @@
                   <span style="
                     flex-grow: 1;
                     flex-shrink: 0;
-                    text-wrap-mode: nowrap
+                    text-wrap-mode: nowrap;
+                    white-space-collapse: collapse
                   ">
                     8
                     <span/>
@@ -2442,36 +2591,39 @@
                 display: flex;
                 justify-content: center
               ">
-                <a style="
-                  background-color: initial;
-                  border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
-                  border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
-                  border-bottom-style: solid;
-                  border-bottom-width: 1px;
-                  border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
-                  border-left-style: solid;
-                  border-left-width: 1px;
-                  border-right-style: solid;
-                  border-right-width: 1px;
-                  border-top-style: solid;
-                  border-top-width: 1px;
-                  box-sizing: border-box;
-                  color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
-                  display: inline-grid;
-                  font-family: inherit;
-                  font-size: 1em;
-                  grid-template-columns: auto auto;
-                  justify-content: space-between;
-                  overflow-x: hidden;
-                  overflow-y: hidden;
-                  padding-bottom: 8px;
-                  padding-left: 15px;
-                  padding-right: 15px;
-                  padding-top: 8px;
-                  position: relative;
-                  text-decoration-line: none;
-                  width: 100%
-                ">
+                <a
+                  href="http://www.ebay.com"
+                  style="
+                    border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+                    border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+                    border-bottom-style: solid;
+                    border-bottom-width: 1px;
+                    border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
+                    border-left-style: solid;
+                    border-left-width: 1px;
+                    border-right-style: solid;
+                    border-right-width: 1px;
+                    border-top-style: solid;
+                    border-top-width: 1px;
+                    box-sizing: border-box;
+                    color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
+                    display: inline-grid;
+                    font-family: inherit;
+                    font-size: 1em;
+                    grid-template-columns: auto auto;
+                    justify-content: space-between;
+                    overflow-x: hidden;
+                    overflow-y: hidden;
+                    padding-bottom: 8px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    padding-top: 8px;
+                    position: relative;
+                    text-decoration-color: rgb(0, 0, 0);
+                    text-decoration-line: none;
+                    width: 100%
+                  "
+                >
                   <style>@scope{:scope{
                     &::after {
                       background-color: var(--color-state-layer-neutral);
@@ -2487,7 +2639,8 @@
                   <span style="
                     flex-grow: 1;
                     flex-shrink: 0;
-                    text-wrap-mode: nowrap
+                    text-wrap-mode: nowrap;
+                    white-space-collapse: collapse
                   ">
                     9
                     <span/>
@@ -2503,22 +2656,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=10"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -2536,39 +2692,43 @@
         </a>
       </li>
     </ol>
-    <a style="
-      align-items: center;
-      background-color: var(--color-background-secondary);
-      border-bottom-color: transparent;
-      border-bottom-left-radius: 50px;
-      border-bottom-right-radius: 50px;
-      border-bottom-style: solid;
-      border-bottom-width: 2px;
-      border-left-color: transparent;
-      border-left-style: solid;
-      border-left-width: 2px;
-      border-right-color: transparent;
-      border-right-style: solid;
-      border-right-width: 2px;
-      border-top-color: transparent;
-      border-top-left-radius: 50px;
-      border-top-right-radius: 50px;
-      border-top-style: solid;
-      border-top-width: 2px;
-      box-sizing: border-box;
-      color: inherit;
-      display: inline-flex;
-      font-family: inherit;
-      font-size: 1em;
-      height: 40px;
-      justify-content: center;
-      margin-inline-start: var(--spacing-100);
-      overflow-x: hidden;
-      overflow-y: hidden;
-      position: relative;
-      vertical-align: text-bottom;
-      width: 40px
-    ">
+    <a
+      href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=2"
+      style="
+        align-items: center;
+        background-color: var(--color-background-secondary);
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 2px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 2px;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        border-top-width: 2px;
+        box-sizing: border-box;
+        color: inherit;
+        display: inline-flex;
+        font-family: inherit;
+        font-size: 1em;
+        height: 40px;
+        justify-content: center;
+        margin-inline-start: var(--spacing-100);
+        outline-color: rgb(0, 0, 0);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        vertical-align: text-bottom;
+        width: 40px
+      "
+    >
       <style>@scope{:scope{
         &::after {
           background-color: var(--color-state-layer-neutral);
@@ -2636,44 +2796,49 @@
         overflow-y: hidden;
         position: absolute;
         text-wrap-mode: nowrap;
+        white-space-collapse: collapse;
         width: 1px
       ">
         Results Pagination - Page 1
       </h2>
     </span>
-    <a style="
-      align-items: center;
-      background-color: var(--color-background-secondary);
-      border-bottom-color: transparent;
-      border-bottom-left-radius: 50px;
-      border-bottom-right-radius: 50px;
-      border-bottom-style: solid;
-      border-bottom-width: 2px;
-      border-left-color: transparent;
-      border-left-style: solid;
-      border-left-width: 2px;
-      border-right-color: transparent;
-      border-right-style: solid;
-      border-right-width: 2px;
-      border-top-color: transparent;
-      border-top-left-radius: 50px;
-      border-top-right-radius: 50px;
-      border-top-style: solid;
-      border-top-width: 2px;
-      box-sizing: border-box;
-      color: inherit;
-      display: inline-flex;
-      font-family: inherit;
-      font-size: 1em;
-      height: 40px;
-      justify-content: center;
-      margin-inline-end: var(--spacing-100);
-      overflow-x: hidden;
-      overflow-y: hidden;
-      position: relative;
-      vertical-align: text-bottom;
-      width: 40px
-    ">
+    <a
+      href="http://www.ebay.com/sch/i.html?_nkw=guitars"
+      style="
+        align-items: center;
+        background-color: var(--color-background-secondary);
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 2px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 2px;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        border-top-width: 2px;
+        box-sizing: border-box;
+        color: inherit;
+        display: inline-flex;
+        font-family: inherit;
+        font-size: 1em;
+        height: 40px;
+        justify-content: center;
+        margin-inline-end: var(--spacing-100);
+        outline-color: rgb(0, 0, 0);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        vertical-align: text-bottom;
+        width: 40px
+      "
+    >
       <style>@scope{:scope{
         &::after {
           background-color: var(--color-state-layer-neutral);
@@ -2693,7 +2858,6 @@
       <svg
         height="24"
         style="
-          background-color: initial;
           display: inline-block;
           fill: var(--color-background-disabled);
           height: 16px;
@@ -2728,19 +2892,23 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: var(--pagination-item-current-foreground-color, var(--color-foreground-primary));
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-600);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=1"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: var(--pagination-item-current-foreground-color, var(--color-foreground-primary));
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-600);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
               background-color: currentcolor;
@@ -2765,22 +2933,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=2"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -2802,22 +2973,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=3"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -2839,22 +3013,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=4"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -2876,22 +3053,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=5"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -2922,10 +3102,13 @@
           justify-content: center;
           width: 44px
         ">
-          <span style="position: relative">
+          <span style="
+            line-height: normal;
+            position: relative
+          ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
@@ -3014,36 +3197,39 @@
                 display: flex;
                 justify-content: center
               ">
-                <a style="
-                  background-color: initial;
-                  border-bottom-style: solid;
-                  border-bottom-width: 1px;
-                  border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
-                  border-left-style: solid;
-                  border-left-width: 1px;
-                  border-right-style: solid;
-                  border-right-width: 1px;
-                  border-top-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
-                  border-top-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
-                  border-top-style: solid;
-                  border-top-width: 1px;
-                  box-sizing: border-box;
-                  color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
-                  display: inline-grid;
-                  font-family: inherit;
-                  font-size: 1em;
-                  grid-template-columns: auto auto;
-                  justify-content: space-between;
-                  overflow-x: hidden;
-                  overflow-y: hidden;
-                  padding-bottom: 8px;
-                  padding-left: 15px;
-                  padding-right: 15px;
-                  padding-top: 8px;
-                  position: relative;
-                  text-decoration-line: none;
-                  width: 100%
-                ">
+                <a
+                  href="http://www.ebay.com"
+                  style="
+                    border-bottom-style: solid;
+                    border-bottom-width: 1px;
+                    border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
+                    border-left-style: solid;
+                    border-left-width: 1px;
+                    border-right-style: solid;
+                    border-right-width: 1px;
+                    border-top-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+                    border-top-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+                    border-top-style: solid;
+                    border-top-width: 1px;
+                    box-sizing: border-box;
+                    color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
+                    display: inline-grid;
+                    font-family: inherit;
+                    font-size: 1em;
+                    grid-template-columns: auto auto;
+                    justify-content: space-between;
+                    overflow-x: hidden;
+                    overflow-y: hidden;
+                    padding-bottom: 8px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    padding-top: 8px;
+                    position: relative;
+                    text-decoration-color: rgb(0, 0, 0);
+                    text-decoration-line: none;
+                    width: 100%
+                  "
+                >
                   <style>@scope{:scope{
                     &::after {
                       background-color: var(--color-state-layer-neutral);
@@ -3059,7 +3245,8 @@
                   <span style="
                     flex-grow: 1;
                     flex-shrink: 0;
-                    text-wrap-mode: nowrap
+                    text-wrap-mode: nowrap;
+                    white-space-collapse: collapse
                   ">
                     6
                   </span>
@@ -3070,34 +3257,37 @@
                 display: flex;
                 justify-content: center
               ">
-                <a style="
-                  background-color: initial;
-                  border-bottom-style: solid;
-                  border-bottom-width: 1px;
-                  border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
-                  border-left-style: solid;
-                  border-left-width: 1px;
-                  border-right-style: solid;
-                  border-right-width: 1px;
-                  border-top-style: solid;
-                  border-top-width: 1px;
-                  box-sizing: border-box;
-                  color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
-                  display: inline-grid;
-                  font-family: inherit;
-                  font-size: 1em;
-                  grid-template-columns: auto auto;
-                  justify-content: space-between;
-                  overflow-x: hidden;
-                  overflow-y: hidden;
-                  padding-bottom: 8px;
-                  padding-left: 15px;
-                  padding-right: 15px;
-                  padding-top: 8px;
-                  position: relative;
-                  text-decoration-line: none;
-                  width: 100%
-                ">
+                <a
+                  href="http://www.ebay.com"
+                  style="
+                    border-bottom-style: solid;
+                    border-bottom-width: 1px;
+                    border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
+                    border-left-style: solid;
+                    border-left-width: 1px;
+                    border-right-style: solid;
+                    border-right-width: 1px;
+                    border-top-style: solid;
+                    border-top-width: 1px;
+                    box-sizing: border-box;
+                    color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
+                    display: inline-grid;
+                    font-family: inherit;
+                    font-size: 1em;
+                    grid-template-columns: auto auto;
+                    justify-content: space-between;
+                    overflow-x: hidden;
+                    overflow-y: hidden;
+                    padding-bottom: 8px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    padding-top: 8px;
+                    position: relative;
+                    text-decoration-color: rgb(0, 0, 0);
+                    text-decoration-line: none;
+                    width: 100%
+                  "
+                >
                   <style>@scope{:scope{
                     &::after {
                       background-color: var(--color-state-layer-neutral);
@@ -3113,7 +3303,8 @@
                   <span style="
                     flex-grow: 1;
                     flex-shrink: 0;
-                    text-wrap-mode: nowrap
+                    text-wrap-mode: nowrap;
+                    white-space-collapse: collapse
                   ">
                     7
                     <span/>
@@ -3125,34 +3316,37 @@
                 display: flex;
                 justify-content: center
               ">
-                <a style="
-                  background-color: initial;
-                  border-bottom-style: solid;
-                  border-bottom-width: 1px;
-                  border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
-                  border-left-style: solid;
-                  border-left-width: 1px;
-                  border-right-style: solid;
-                  border-right-width: 1px;
-                  border-top-style: solid;
-                  border-top-width: 1px;
-                  box-sizing: border-box;
-                  color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
-                  display: inline-grid;
-                  font-family: inherit;
-                  font-size: 1em;
-                  grid-template-columns: auto auto;
-                  justify-content: space-between;
-                  overflow-x: hidden;
-                  overflow-y: hidden;
-                  padding-bottom: 8px;
-                  padding-left: 15px;
-                  padding-right: 15px;
-                  padding-top: 8px;
-                  position: relative;
-                  text-decoration-line: none;
-                  width: 100%
-                ">
+                <a
+                  href="http://www.ebay.com"
+                  style="
+                    border-bottom-style: solid;
+                    border-bottom-width: 1px;
+                    border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
+                    border-left-style: solid;
+                    border-left-width: 1px;
+                    border-right-style: solid;
+                    border-right-width: 1px;
+                    border-top-style: solid;
+                    border-top-width: 1px;
+                    box-sizing: border-box;
+                    color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
+                    display: inline-grid;
+                    font-family: inherit;
+                    font-size: 1em;
+                    grid-template-columns: auto auto;
+                    justify-content: space-between;
+                    overflow-x: hidden;
+                    overflow-y: hidden;
+                    padding-bottom: 8px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    padding-top: 8px;
+                    position: relative;
+                    text-decoration-color: rgb(0, 0, 0);
+                    text-decoration-line: none;
+                    width: 100%
+                  "
+                >
                   <style>@scope{:scope{
                     &::after {
                       background-color: var(--color-state-layer-neutral);
@@ -3168,7 +3362,8 @@
                   <span style="
                     flex-grow: 1;
                     flex-shrink: 0;
-                    text-wrap-mode: nowrap
+                    text-wrap-mode: nowrap;
+                    white-space-collapse: collapse
                   ">
                     8
                     <span/>
@@ -3180,36 +3375,39 @@
                 display: flex;
                 justify-content: center
               ">
-                <a style="
-                  background-color: initial;
-                  border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
-                  border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
-                  border-bottom-style: solid;
-                  border-bottom-width: 1px;
-                  border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
-                  border-left-style: solid;
-                  border-left-width: 1px;
-                  border-right-style: solid;
-                  border-right-width: 1px;
-                  border-top-style: solid;
-                  border-top-width: 1px;
-                  box-sizing: border-box;
-                  color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
-                  display: inline-grid;
-                  font-family: inherit;
-                  font-size: 1em;
-                  grid-template-columns: auto auto;
-                  justify-content: space-between;
-                  overflow-x: hidden;
-                  overflow-y: hidden;
-                  padding-bottom: 8px;
-                  padding-left: 15px;
-                  padding-right: 15px;
-                  padding-top: 8px;
-                  position: relative;
-                  text-decoration-line: none;
-                  width: 100%
-                ">
+                <a
+                  href="http://www.ebay.com"
+                  style="
+                    border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+                    border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+                    border-bottom-style: solid;
+                    border-bottom-width: 1px;
+                    border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
+                    border-left-style: solid;
+                    border-left-width: 1px;
+                    border-right-style: solid;
+                    border-right-width: 1px;
+                    border-top-style: solid;
+                    border-top-width: 1px;
+                    box-sizing: border-box;
+                    color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
+                    display: inline-grid;
+                    font-family: inherit;
+                    font-size: 1em;
+                    grid-template-columns: auto auto;
+                    justify-content: space-between;
+                    overflow-x: hidden;
+                    overflow-y: hidden;
+                    padding-bottom: 8px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    padding-top: 8px;
+                    position: relative;
+                    text-decoration-color: rgb(0, 0, 0);
+                    text-decoration-line: none;
+                    width: 100%
+                  "
+                >
                   <style>@scope{:scope{
                     &::after {
                       background-color: var(--color-state-layer-neutral);
@@ -3225,7 +3423,8 @@
                   <span style="
                     flex-grow: 1;
                     flex-shrink: 0;
-                    text-wrap-mode: nowrap
+                    text-wrap-mode: nowrap;
+                    white-space-collapse: collapse
                   ">
                     9
                     <span/>
@@ -3241,22 +3440,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=10"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -3274,39 +3476,43 @@
         </a>
       </li>
     </ol>
-    <a style="
-      align-items: center;
-      background-color: var(--color-background-secondary);
-      border-bottom-color: transparent;
-      border-bottom-left-radius: 50px;
-      border-bottom-right-radius: 50px;
-      border-bottom-style: solid;
-      border-bottom-width: 2px;
-      border-left-color: transparent;
-      border-left-style: solid;
-      border-left-width: 2px;
-      border-right-color: transparent;
-      border-right-style: solid;
-      border-right-width: 2px;
-      border-top-color: transparent;
-      border-top-left-radius: 50px;
-      border-top-right-radius: 50px;
-      border-top-style: solid;
-      border-top-width: 2px;
-      box-sizing: border-box;
-      color: inherit;
-      display: inline-flex;
-      font-family: inherit;
-      font-size: 1em;
-      height: 40px;
-      justify-content: center;
-      margin-inline-start: var(--spacing-100);
-      overflow-x: hidden;
-      overflow-y: hidden;
-      position: relative;
-      vertical-align: text-bottom;
-      width: 40px
-    ">
+    <a
+      href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=2"
+      style="
+        align-items: center;
+        background-color: var(--color-background-secondary);
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 2px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 2px;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        border-top-width: 2px;
+        box-sizing: border-box;
+        color: inherit;
+        display: inline-flex;
+        font-family: inherit;
+        font-size: 1em;
+        height: 40px;
+        justify-content: center;
+        margin-inline-start: var(--spacing-100);
+        outline-color: rgb(0, 0, 0);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        vertical-align: text-bottom;
+        width: 40px
+      "
+    >
       <style>@scope{:scope{
         &::after {
           background-color: var(--color-state-layer-neutral);
@@ -3374,44 +3580,49 @@
         overflow-y: hidden;
         position: absolute;
         text-wrap-mode: nowrap;
+        white-space-collapse: collapse;
         width: 1px
       ">
         Results Pagination - Page 10
       </h2>
     </span>
-    <a style="
-      align-items: center;
-      background-color: var(--color-background-secondary);
-      border-bottom-color: transparent;
-      border-bottom-left-radius: 50px;
-      border-bottom-right-radius: 50px;
-      border-bottom-style: solid;
-      border-bottom-width: 2px;
-      border-left-color: transparent;
-      border-left-style: solid;
-      border-left-width: 2px;
-      border-right-color: transparent;
-      border-right-style: solid;
-      border-right-width: 2px;
-      border-top-color: transparent;
-      border-top-left-radius: 50px;
-      border-top-right-radius: 50px;
-      border-top-style: solid;
-      border-top-width: 2px;
-      box-sizing: border-box;
-      color: inherit;
-      display: inline-flex;
-      font-family: inherit;
-      font-size: 1em;
-      height: 40px;
-      justify-content: center;
-      margin-inline-end: var(--spacing-100);
-      overflow-x: hidden;
-      overflow-y: hidden;
-      position: relative;
-      vertical-align: text-bottom;
-      width: 40px
-    ">
+    <a
+      href="http://www.ebay.com/sch/i.html?_nkw=guitars"
+      style="
+        align-items: center;
+        background-color: var(--color-background-secondary);
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 2px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 2px;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        border-top-width: 2px;
+        box-sizing: border-box;
+        color: inherit;
+        display: inline-flex;
+        font-family: inherit;
+        font-size: 1em;
+        height: 40px;
+        justify-content: center;
+        margin-inline-end: var(--spacing-100);
+        outline-color: rgb(0, 0, 0);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        vertical-align: text-bottom;
+        width: 40px
+      "
+    >
       <style>@scope{:scope{
         &::after {
           background-color: var(--color-state-layer-neutral);
@@ -3431,7 +3642,6 @@
       <svg
         height="24"
         style="
-          background-color: initial;
           display: inline-block;
           fill: var(--color-background-disabled);
           height: 16px;
@@ -3466,22 +3676,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=1"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -3536,22 +3749,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=43"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -3573,19 +3789,23 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: var(--pagination-item-current-foreground-color, var(--color-foreground-primary));
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-600);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=44"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: var(--pagination-item-current-foreground-color, var(--color-foreground-primary));
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-600);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
               background-color: currentcolor;
@@ -3610,22 +3830,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=45"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -3680,22 +3903,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=80"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -3713,39 +3939,43 @@
         </a>
       </li>
     </ol>
-    <a style="
-      align-items: center;
-      background-color: var(--color-background-secondary);
-      border-bottom-color: transparent;
-      border-bottom-left-radius: 50px;
-      border-bottom-right-radius: 50px;
-      border-bottom-style: solid;
-      border-bottom-width: 2px;
-      border-left-color: transparent;
-      border-left-style: solid;
-      border-left-width: 2px;
-      border-right-color: transparent;
-      border-right-style: solid;
-      border-right-width: 2px;
-      border-top-color: transparent;
-      border-top-left-radius: 50px;
-      border-top-right-radius: 50px;
-      border-top-style: solid;
-      border-top-width: 2px;
-      box-sizing: border-box;
-      color: inherit;
-      display: inline-flex;
-      font-family: inherit;
-      font-size: 1em;
-      height: 40px;
-      justify-content: center;
-      margin-inline-start: var(--spacing-100);
-      overflow-x: hidden;
-      overflow-y: hidden;
-      position: relative;
-      vertical-align: text-bottom;
-      width: 40px
-    ">
+    <a
+      href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=2"
+      style="
+        align-items: center;
+        background-color: var(--color-background-secondary);
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 2px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 2px;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        border-top-width: 2px;
+        box-sizing: border-box;
+        color: inherit;
+        display: inline-flex;
+        font-family: inherit;
+        font-size: 1em;
+        height: 40px;
+        justify-content: center;
+        margin-inline-start: var(--spacing-100);
+        outline-color: rgb(0, 0, 0);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        vertical-align: text-bottom;
+        width: 40px
+      "
+    >
       <style>@scope{:scope{
         &::after {
           background-color: var(--color-state-layer-neutral);
@@ -3813,44 +4043,49 @@
         overflow-y: hidden;
         position: absolute;
         text-wrap-mode: nowrap;
+        white-space-collapse: collapse;
         width: 1px
       ">
         Results Pagination - Page 10
       </h2>
     </span>
-    <a style="
-      align-items: center;
-      background-color: var(--color-background-secondary);
-      border-bottom-color: transparent;
-      border-bottom-left-radius: 50px;
-      border-bottom-right-radius: 50px;
-      border-bottom-style: solid;
-      border-bottom-width: 2px;
-      border-left-color: transparent;
-      border-left-style: solid;
-      border-left-width: 2px;
-      border-right-color: transparent;
-      border-right-style: solid;
-      border-right-width: 2px;
-      border-top-color: transparent;
-      border-top-left-radius: 50px;
-      border-top-right-radius: 50px;
-      border-top-style: solid;
-      border-top-width: 2px;
-      box-sizing: border-box;
-      color: inherit;
-      display: inline-flex;
-      font-family: inherit;
-      font-size: 1em;
-      height: 40px;
-      justify-content: center;
-      margin-inline-end: var(--spacing-100);
-      overflow-x: hidden;
-      overflow-y: hidden;
-      position: relative;
-      vertical-align: text-bottom;
-      width: 40px
-    ">
+    <a
+      href="http://www.ebay.com/sch/i.html?_nkw=guitars"
+      style="
+        align-items: center;
+        background-color: var(--color-background-secondary);
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 2px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 2px;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        border-top-width: 2px;
+        box-sizing: border-box;
+        color: inherit;
+        display: inline-flex;
+        font-family: inherit;
+        font-size: 1em;
+        height: 40px;
+        justify-content: center;
+        margin-inline-end: var(--spacing-100);
+        outline-color: rgb(0, 0, 0);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        vertical-align: text-bottom;
+        width: 40px
+      "
+    >
       <style>@scope{:scope{
         &::after {
           background-color: var(--color-state-layer-neutral);
@@ -3870,7 +4105,6 @@
       <svg
         height="24"
         style="
-          background-color: initial;
           display: inline-block;
           fill: var(--color-background-disabled);
           height: 16px;
@@ -3905,22 +4139,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=1"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -3975,22 +4212,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=43"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -4012,19 +4252,23 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: var(--pagination-item-current-foreground-color, var(--color-foreground-primary));
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-600);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=44"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: var(--pagination-item-current-foreground-color, var(--color-foreground-primary));
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-600);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
               background-color: currentcolor;
@@ -4049,22 +4293,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=45"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -4119,22 +4366,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=80"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -4152,39 +4402,43 @@
         </a>
       </li>
     </ol>
-    <a style="
-      align-items: center;
-      background-color: var(--color-background-secondary);
-      border-bottom-color: transparent;
-      border-bottom-left-radius: 50px;
-      border-bottom-right-radius: 50px;
-      border-bottom-style: solid;
-      border-bottom-width: 2px;
-      border-left-color: transparent;
-      border-left-style: solid;
-      border-left-width: 2px;
-      border-right-color: transparent;
-      border-right-style: solid;
-      border-right-width: 2px;
-      border-top-color: transparent;
-      border-top-left-radius: 50px;
-      border-top-right-radius: 50px;
-      border-top-style: solid;
-      border-top-width: 2px;
-      box-sizing: border-box;
-      color: inherit;
-      display: inline-flex;
-      font-family: inherit;
-      font-size: 1em;
-      height: 40px;
-      justify-content: center;
-      margin-inline-start: var(--spacing-100);
-      overflow-x: hidden;
-      overflow-y: hidden;
-      position: relative;
-      vertical-align: text-bottom;
-      width: 40px
-    ">
+    <a
+      href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=2"
+      style="
+        align-items: center;
+        background-color: var(--color-background-secondary);
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 2px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 2px;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        border-top-width: 2px;
+        box-sizing: border-box;
+        color: inherit;
+        display: inline-flex;
+        font-family: inherit;
+        font-size: 1em;
+        height: 40px;
+        justify-content: center;
+        margin-inline-start: var(--spacing-100);
+        outline-color: rgb(0, 0, 0);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        vertical-align: text-bottom;
+        width: 40px
+      "
+    >
       <style>@scope{:scope{
         &::after {
           background-color: var(--color-state-layer-neutral);
@@ -4252,44 +4506,49 @@
         overflow-y: hidden;
         position: absolute;
         text-wrap-mode: nowrap;
+        white-space-collapse: collapse;
         width: 1px
       ">
         Results Pagination - Page 1
       </h2>
     </span>
-    <a style="
-      align-items: center;
-      background-color: var(--color-background-secondary);
-      border-bottom-color: transparent;
-      border-bottom-left-radius: 50px;
-      border-bottom-right-radius: 50px;
-      border-bottom-style: solid;
-      border-bottom-width: 2px;
-      border-left-color: transparent;
-      border-left-style: solid;
-      border-left-width: 2px;
-      border-right-color: transparent;
-      border-right-style: solid;
-      border-right-width: 2px;
-      border-top-color: transparent;
-      border-top-left-radius: 50px;
-      border-top-right-radius: 50px;
-      border-top-style: solid;
-      border-top-width: 2px;
-      box-sizing: border-box;
-      color: inherit;
-      display: inline-flex;
-      font-family: inherit;
-      font-size: 1em;
-      height: 40px;
-      justify-content: center;
-      margin-inline-end: var(--spacing-100);
-      overflow-x: hidden;
-      overflow-y: hidden;
-      position: relative;
-      vertical-align: text-bottom;
-      width: 40px
-    ">
+    <a
+      href="http://www.ebay.com/sch/i.html?_nkw=guitars"
+      style="
+        align-items: center;
+        background-color: var(--color-background-secondary);
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 2px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 2px;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        border-top-width: 2px;
+        box-sizing: border-box;
+        color: inherit;
+        display: inline-flex;
+        font-family: inherit;
+        font-size: 1em;
+        height: 40px;
+        justify-content: center;
+        margin-inline-end: var(--spacing-100);
+        outline-color: rgb(0, 0, 0);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        vertical-align: text-bottom;
+        width: 40px
+      "
+    >
       <style>@scope{:scope{
         &::after {
           background-color: var(--color-state-layer-neutral);
@@ -4309,7 +4568,6 @@
       <svg
         height="24"
         style="
-          background-color: initial;
           display: inline-block;
           fill: var(--color-background-disabled);
           height: 16px;
@@ -4344,22 +4602,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=1"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -4414,22 +4675,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=76"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -4451,22 +4715,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=77"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -4488,22 +4755,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=78"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -4525,22 +4795,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=79"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -4562,19 +4835,23 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: var(--pagination-item-current-foreground-color, var(--color-foreground-primary));
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-600);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=80"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: var(--pagination-item-current-foreground-color, var(--color-foreground-primary));
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-600);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
               background-color: currentcolor;
@@ -4595,39 +4872,43 @@
         </a>
       </li>
     </ol>
-    <a style="
-      align-items: center;
-      background-color: var(--color-background-secondary);
-      border-bottom-color: transparent;
-      border-bottom-left-radius: 50px;
-      border-bottom-right-radius: 50px;
-      border-bottom-style: solid;
-      border-bottom-width: 2px;
-      border-left-color: transparent;
-      border-left-style: solid;
-      border-left-width: 2px;
-      border-right-color: transparent;
-      border-right-style: solid;
-      border-right-width: 2px;
-      border-top-color: transparent;
-      border-top-left-radius: 50px;
-      border-top-right-radius: 50px;
-      border-top-style: solid;
-      border-top-width: 2px;
-      box-sizing: border-box;
-      color: inherit;
-      display: inline-flex;
-      font-family: inherit;
-      font-size: 1em;
-      height: 40px;
-      justify-content: center;
-      margin-inline-start: var(--spacing-100);
-      overflow-x: hidden;
-      overflow-y: hidden;
-      position: relative;
-      vertical-align: text-bottom;
-      width: 40px
-    ">
+    <a
+      href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=2"
+      style="
+        align-items: center;
+        background-color: var(--color-background-secondary);
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 2px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 2px;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        border-top-width: 2px;
+        box-sizing: border-box;
+        color: inherit;
+        display: inline-flex;
+        font-family: inherit;
+        font-size: 1em;
+        height: 40px;
+        justify-content: center;
+        margin-inline-start: var(--spacing-100);
+        outline-color: rgb(0, 0, 0);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        vertical-align: text-bottom;
+        width: 40px
+      "
+    >
       <style>@scope{:scope{
         &::after {
           background-color: var(--color-state-layer-neutral);
@@ -4695,44 +4976,49 @@
         overflow-y: hidden;
         position: absolute;
         text-wrap-mode: nowrap;
+        white-space-collapse: collapse;
         width: 1px
       ">
         Results Pagination - Page 1
       </h2>
     </span>
-    <a style="
-      align-items: center;
-      background-color: var(--color-background-secondary);
-      border-bottom-color: transparent;
-      border-bottom-left-radius: 50px;
-      border-bottom-right-radius: 50px;
-      border-bottom-style: solid;
-      border-bottom-width: 2px;
-      border-left-color: transparent;
-      border-left-style: solid;
-      border-left-width: 2px;
-      border-right-color: transparent;
-      border-right-style: solid;
-      border-right-width: 2px;
-      border-top-color: transparent;
-      border-top-left-radius: 50px;
-      border-top-right-radius: 50px;
-      border-top-style: solid;
-      border-top-width: 2px;
-      box-sizing: border-box;
-      color: inherit;
-      display: inline-flex;
-      font-family: inherit;
-      font-size: 1em;
-      height: 40px;
-      justify-content: center;
-      margin-inline-end: var(--spacing-100);
-      overflow-x: hidden;
-      overflow-y: hidden;
-      position: relative;
-      vertical-align: text-bottom;
-      width: 40px
-    ">
+    <a
+      href="http://www.ebay.com/sch/i.html?_nkw=guitars"
+      style="
+        align-items: center;
+        background-color: var(--color-background-secondary);
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 2px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 2px;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        border-top-width: 2px;
+        box-sizing: border-box;
+        color: inherit;
+        display: inline-flex;
+        font-family: inherit;
+        font-size: 1em;
+        height: 40px;
+        justify-content: center;
+        margin-inline-end: var(--spacing-100);
+        outline-color: rgb(0, 0, 0);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        vertical-align: text-bottom;
+        width: 40px
+      "
+    >
       <style>@scope{:scope{
         &::after {
           background-color: var(--color-state-layer-neutral);
@@ -4752,7 +5038,6 @@
       <svg
         height="24"
         style="
-          background-color: initial;
           display: inline-block;
           fill: var(--color-background-disabled);
           height: 16px;
@@ -4787,22 +5072,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=1"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -4857,22 +5145,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=76"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -4894,22 +5185,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=77"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -4931,22 +5225,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=78"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -4968,22 +5265,25 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=79"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -5005,19 +5305,23 @@
         display: flex;
         justify-content: center
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: var(--pagination-item-current-foreground-color, var(--color-foreground-primary));
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-600);
-          height: 44px;
-          justify-content: center;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=80"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: var(--pagination-item-current-foreground-color, var(--color-foreground-primary));
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-600);
+            height: 44px;
+            justify-content: center;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px
+          "
+        >
           <style>@scope{:scope{
             &::after {
               background-color: currentcolor;
@@ -5038,39 +5342,43 @@
         </a>
       </li>
     </ol>
-    <a style="
-      align-items: center;
-      background-color: var(--color-background-secondary);
-      border-bottom-color: transparent;
-      border-bottom-left-radius: 50px;
-      border-bottom-right-radius: 50px;
-      border-bottom-style: solid;
-      border-bottom-width: 2px;
-      border-left-color: transparent;
-      border-left-style: solid;
-      border-left-width: 2px;
-      border-right-color: transparent;
-      border-right-style: solid;
-      border-right-width: 2px;
-      border-top-color: transparent;
-      border-top-left-radius: 50px;
-      border-top-right-radius: 50px;
-      border-top-style: solid;
-      border-top-width: 2px;
-      box-sizing: border-box;
-      color: inherit;
-      display: inline-flex;
-      font-family: inherit;
-      font-size: 1em;
-      height: 40px;
-      justify-content: center;
-      margin-inline-start: var(--spacing-100);
-      overflow-x: hidden;
-      overflow-y: hidden;
-      position: relative;
-      vertical-align: text-bottom;
-      width: 40px
-    ">
+    <a
+      href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=2"
+      style="
+        align-items: center;
+        background-color: var(--color-background-secondary);
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 2px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 2px;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        border-top-width: 2px;
+        box-sizing: border-box;
+        color: inherit;
+        display: inline-flex;
+        font-family: inherit;
+        font-size: 1em;
+        height: 40px;
+        justify-content: center;
+        margin-inline-start: var(--spacing-100);
+        outline-color: rgb(0, 0, 0);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        vertical-align: text-bottom;
+        width: 40px
+      "
+    >
       <style>@scope{:scope{
         &::after {
           background-color: var(--color-state-layer-neutral);
@@ -5147,48 +5455,53 @@
         overflow-y: hidden;
         position: absolute;
         text-wrap-mode: nowrap;
+        white-space-collapse: collapse;
         width: 1px;
         word-spacing: 0.16em
       ">
         Results Pagination - Page 10
       </h2>
     </span>
-    <a style="
-      align-items: center;
-      background-color: var(--color-background-secondary);
-      border-bottom-color: transparent;
-      border-bottom-left-radius: 50px;
-      border-bottom-right-radius: 50px;
-      border-bottom-style: solid;
-      border-bottom-width: 2px;
-      border-left-color: transparent;
-      border-left-style: solid;
-      border-left-width: 2px;
-      border-right-color: transparent;
-      border-right-style: solid;
-      border-right-width: 2px;
-      border-top-color: transparent;
-      border-top-left-radius: 50px;
-      border-top-right-radius: 50px;
-      border-top-style: solid;
-      border-top-width: 2px;
-      box-sizing: border-box;
-      color: inherit;
-      display: inline-flex;
-      font-family: inherit;
-      font-size: 1em;
-      height: 40px;
-      justify-content: center;
-      letter-spacing: 0.12em;
-      line-height: 1.5;
-      margin-inline-end: var(--spacing-100);
-      overflow-x: hidden;
-      overflow-y: hidden;
-      position: relative;
-      vertical-align: text-bottom;
-      width: 40px;
-      word-spacing: 0.16em
-    ">
+    <a
+      href="http://www.ebay.com/sch/i.html?_nkw=guitars"
+      style="
+        align-items: center;
+        background-color: var(--color-background-secondary);
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 2px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 2px;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        border-top-width: 2px;
+        box-sizing: border-box;
+        color: inherit;
+        display: inline-flex;
+        font-family: inherit;
+        font-size: 1em;
+        height: 40px;
+        justify-content: center;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-inline-end: var(--spacing-100);
+        outline-color: rgb(0, 0, 0);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        vertical-align: text-bottom;
+        width: 40px;
+        word-spacing: 0.16em
+      "
+    >
       <style>@scope{:scope{
         &::after {
           background-color: var(--color-state-layer-neutral);
@@ -5208,7 +5521,6 @@
       <svg
         height="24"
         style="
-          background-color: initial;
           display: inline-block;
           fill: var(--color-background-disabled);
           height: 16px;
@@ -5259,25 +5571,28 @@
         line-height: 1.5;
         word-spacing: 0.16em
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          letter-spacing: 0.12em;
-          line-height: 1.5;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px;
-          word-spacing: 0.16em
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=1"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px;
+            word-spacing: 0.16em
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -5351,25 +5666,28 @@
         line-height: 1.5;
         word-spacing: 0.16em
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          letter-spacing: 0.12em;
-          line-height: 1.5;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px;
-          word-spacing: 0.16em
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=43"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px;
+            word-spacing: 0.16em
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -5394,22 +5712,26 @@
         line-height: 1.5;
         word-spacing: 0.16em
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: var(--pagination-item-current-foreground-color, var(--color-foreground-primary));
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-600);
-          height: 44px;
-          justify-content: center;
-          letter-spacing: 0.12em;
-          line-height: 1.5;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px;
-          word-spacing: 0.16em
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=44"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: var(--pagination-item-current-foreground-color, var(--color-foreground-primary));
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-600);
+            height: 44px;
+            justify-content: center;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px;
+            word-spacing: 0.16em
+          "
+        >
           <style>@scope{:scope{
             &::after {
               background-color: currentcolor;
@@ -5437,25 +5759,28 @@
         line-height: 1.5;
         word-spacing: 0.16em
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          letter-spacing: 0.12em;
-          line-height: 1.5;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px;
-          word-spacing: 0.16em
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=45"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px;
+            word-spacing: 0.16em
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -5529,25 +5854,28 @@
         line-height: 1.5;
         word-spacing: 0.16em
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          letter-spacing: 0.12em;
-          line-height: 1.5;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px;
-          word-spacing: 0.16em
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=80"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px;
+            word-spacing: 0.16em
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -5565,42 +5893,46 @@
         </a>
       </li>
     </ol>
-    <a style="
-      align-items: center;
-      background-color: var(--color-background-secondary);
-      border-bottom-color: transparent;
-      border-bottom-left-radius: 50px;
-      border-bottom-right-radius: 50px;
-      border-bottom-style: solid;
-      border-bottom-width: 2px;
-      border-left-color: transparent;
-      border-left-style: solid;
-      border-left-width: 2px;
-      border-right-color: transparent;
-      border-right-style: solid;
-      border-right-width: 2px;
-      border-top-color: transparent;
-      border-top-left-radius: 50px;
-      border-top-right-radius: 50px;
-      border-top-style: solid;
-      border-top-width: 2px;
-      box-sizing: border-box;
-      color: inherit;
-      display: inline-flex;
-      font-family: inherit;
-      font-size: 1em;
-      height: 40px;
-      justify-content: center;
-      letter-spacing: 0.12em;
-      line-height: 1.5;
-      margin-inline-start: var(--spacing-100);
-      overflow-x: hidden;
-      overflow-y: hidden;
-      position: relative;
-      vertical-align: text-bottom;
-      width: 40px;
-      word-spacing: 0.16em
-    ">
+    <a
+      href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=2"
+      style="
+        align-items: center;
+        background-color: var(--color-background-secondary);
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 2px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 2px;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        border-top-width: 2px;
+        box-sizing: border-box;
+        color: inherit;
+        display: inline-flex;
+        font-family: inherit;
+        font-size: 1em;
+        height: 40px;
+        justify-content: center;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-inline-start: var(--spacing-100);
+        outline-color: rgb(0, 0, 0);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        vertical-align: text-bottom;
+        width: 40px;
+        word-spacing: 0.16em
+      "
+    >
       <style>@scope{:scope{
         &::after {
           background-color: var(--color-state-layer-neutral);
@@ -5687,48 +6019,53 @@
         overflow-y: hidden;
         position: absolute;
         text-wrap-mode: nowrap;
+        white-space-collapse: collapse;
         width: 1px;
         word-spacing: 0.16em
       ">
         Results Pagination - Page 10
       </h2>
     </span>
-    <a style="
-      align-items: center;
-      background-color: var(--color-background-secondary);
-      border-bottom-color: transparent;
-      border-bottom-left-radius: 50px;
-      border-bottom-right-radius: 50px;
-      border-bottom-style: solid;
-      border-bottom-width: 2px;
-      border-left-color: transparent;
-      border-left-style: solid;
-      border-left-width: 2px;
-      border-right-color: transparent;
-      border-right-style: solid;
-      border-right-width: 2px;
-      border-top-color: transparent;
-      border-top-left-radius: 50px;
-      border-top-right-radius: 50px;
-      border-top-style: solid;
-      border-top-width: 2px;
-      box-sizing: border-box;
-      color: inherit;
-      display: inline-flex;
-      font-family: inherit;
-      font-size: 1em;
-      height: 40px;
-      justify-content: center;
-      letter-spacing: 0.12em;
-      line-height: 1.5;
-      margin-inline-end: var(--spacing-100);
-      overflow-x: hidden;
-      overflow-y: hidden;
-      position: relative;
-      vertical-align: text-bottom;
-      width: 40px;
-      word-spacing: 0.16em
-    ">
+    <a
+      href="http://www.ebay.com/sch/i.html?_nkw=guitars"
+      style="
+        align-items: center;
+        background-color: var(--color-background-secondary);
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 2px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 2px;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        border-top-width: 2px;
+        box-sizing: border-box;
+        color: inherit;
+        display: inline-flex;
+        font-family: inherit;
+        font-size: 1em;
+        height: 40px;
+        justify-content: center;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-inline-end: var(--spacing-100);
+        outline-color: rgb(0, 0, 0);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        vertical-align: text-bottom;
+        width: 40px;
+        word-spacing: 0.16em
+      "
+    >
       <style>@scope{:scope{
         &::after {
           background-color: var(--color-state-layer-neutral);
@@ -5748,7 +6085,6 @@
       <svg
         height="24"
         style="
-          background-color: initial;
           display: inline-block;
           fill: var(--color-background-disabled);
           height: 16px;
@@ -5799,25 +6135,28 @@
         line-height: 1.5;
         word-spacing: 0.16em
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          letter-spacing: 0.12em;
-          line-height: 1.5;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px;
-          word-spacing: 0.16em
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=1"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px;
+            word-spacing: 0.16em
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -5891,25 +6230,28 @@
         line-height: 1.5;
         word-spacing: 0.16em
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          letter-spacing: 0.12em;
-          line-height: 1.5;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px;
-          word-spacing: 0.16em
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=43"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px;
+            word-spacing: 0.16em
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -5934,22 +6276,26 @@
         line-height: 1.5;
         word-spacing: 0.16em
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: var(--pagination-item-current-foreground-color, var(--color-foreground-primary));
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-600);
-          height: 44px;
-          justify-content: center;
-          letter-spacing: 0.12em;
-          line-height: 1.5;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px;
-          word-spacing: 0.16em
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=44"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: var(--pagination-item-current-foreground-color, var(--color-foreground-primary));
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-600);
+            height: 44px;
+            justify-content: center;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px;
+            word-spacing: 0.16em
+          "
+        >
           <style>@scope{:scope{
             &::after {
               background-color: currentcolor;
@@ -5977,25 +6323,28 @@
         line-height: 1.5;
         word-spacing: 0.16em
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          letter-spacing: 0.12em;
-          line-height: 1.5;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px;
-          word-spacing: 0.16em
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=45"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px;
+            word-spacing: 0.16em
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -6069,25 +6418,28 @@
         line-height: 1.5;
         word-spacing: 0.16em
       ">
-        <a style="
-          align-items: center;
-          box-sizing: border-box;
-          color: inherit;
-          display: inline-flex;
-          font-size: 1em;
-          font-weight: var(--font-weight-400);
-          height: 44px;
-          justify-content: center;
-          letter-spacing: 0.12em;
-          line-height: 1.5;
-          position: relative;
-          text-decoration-line: none;
-          width: 44px;
-          word-spacing: 0.16em
-        ">
+        <a
+          href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=80"
+          style="
+            align-items: center;
+            box-sizing: border-box;
+            color: inherit;
+            display: inline-flex;
+            font-size: 1em;
+            font-weight: var(--font-weight-400);
+            height: 44px;
+            justify-content: center;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            position: relative;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            width: 44px;
+            word-spacing: 0.16em
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -6105,42 +6457,46 @@
         </a>
       </li>
     </ol>
-    <a style="
-      align-items: center;
-      background-color: var(--color-background-secondary);
-      border-bottom-color: transparent;
-      border-bottom-left-radius: 50px;
-      border-bottom-right-radius: 50px;
-      border-bottom-style: solid;
-      border-bottom-width: 2px;
-      border-left-color: transparent;
-      border-left-style: solid;
-      border-left-width: 2px;
-      border-right-color: transparent;
-      border-right-style: solid;
-      border-right-width: 2px;
-      border-top-color: transparent;
-      border-top-left-radius: 50px;
-      border-top-right-radius: 50px;
-      border-top-style: solid;
-      border-top-width: 2px;
-      box-sizing: border-box;
-      color: inherit;
-      display: inline-flex;
-      font-family: inherit;
-      font-size: 1em;
-      height: 40px;
-      justify-content: center;
-      letter-spacing: 0.12em;
-      line-height: 1.5;
-      margin-inline-start: var(--spacing-100);
-      overflow-x: hidden;
-      overflow-y: hidden;
-      position: relative;
-      vertical-align: text-bottom;
-      width: 40px;
-      word-spacing: 0.16em
-    ">
+    <a
+      href="http://www.ebay.com/sch/i.html?_nkw=guitars&amp;_pgn=2"
+      style="
+        align-items: center;
+        background-color: var(--color-background-secondary);
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 2px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 2px;
+        border-top-color: transparent;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top-style: solid;
+        border-top-width: 2px;
+        box-sizing: border-box;
+        color: inherit;
+        display: inline-flex;
+        font-family: inherit;
+        font-size: 1em;
+        height: 40px;
+        justify-content: center;
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-inline-start: var(--spacing-100);
+        outline-color: rgb(0, 0, 0);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        vertical-align: text-bottom;
+        width: 40px;
+        word-spacing: 0.16em
+      "
+    >
       <style>@scope{:scope{
         &::after {
           background-color: var(--color-state-layer-neutral);

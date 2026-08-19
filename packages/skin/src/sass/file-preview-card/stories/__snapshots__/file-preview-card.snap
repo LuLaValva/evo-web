@@ -105,6 +105,7 @@
         bottom: var(--spacing-100);
         display: flex;
         font-size: var(--font-size-small);
+        font-weight: 400;
         gap: var(--spacing-50);
         left: var(--spacing-100);
         padding: var(--spacing-50) var(--spacing-100);
@@ -224,6 +225,7 @@
         bottom: var(--spacing-100);
         display: flex;
         font-size: var(--font-size-small);
+        font-weight: 400;
         gap: var(--spacing-50);
         padding: var(--spacing-50) var(--spacing-100);
         position: absolute;
@@ -456,7 +458,7 @@
       min-width: 120px;
       position: relative
     ">
-      <span style="
+      <span style='
         background-image: url("https://ir.ebaystatic.com/cr/v/c01/skin/docs/tb-profile-pic.jpg");
         background-position-x: center;
         background-position-y: center;
@@ -468,7 +470,7 @@
         margin-right: auto;
         margin-top: auto;
         width: 100%
-      "/>
+      '/>
       <button style="
         align-items: center;
         background-color: var(--file-preview-card-action-background-color, var(--color-background-primary));
@@ -581,11 +583,6 @@
         border-bottom-right-radius: 50%;
         border-bottom-style: none;
         border-bottom-width: medium;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
@@ -677,11 +674,6 @@
         border-bottom-right-radius: 50%;
         border-bottom-style: none;
         border-bottom-width: medium;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
@@ -1052,6 +1044,7 @@
         bottom: var(--spacing-100);
         display: flex;
         font-size: var(--font-size-small);
+        font-weight: 400;
         gap: var(--spacing-50);
         left: var(--spacing-100);
         padding: var(--spacing-50) var(--spacing-100);
@@ -1186,6 +1179,7 @@
         bottom: var(--spacing-100);
         display: flex;
         font-size: var(--font-size-small);
+        font-weight: 400;
         gap: var(--spacing-50);
         padding: var(--spacing-50) var(--spacing-100);
         position: absolute;
@@ -1320,6 +1314,7 @@
         bottom: var(--spacing-100);
         display: flex;
         font-size: var(--font-size-small);
+        font-weight: 400;
         gap: var(--spacing-50);
         left: var(--spacing-100);
         padding: var(--spacing-50) var(--spacing-100);
@@ -1334,7 +1329,8 @@
         overflow-x: hidden;
         overflow-y: hidden;
         text-overflow: ellipsis;
-        text-wrap-mode: nowrap
+        text-wrap-mode: nowrap;
+        white-space-collapse: collapse
       ">
         countries.csv
       </span>
@@ -1344,7 +1340,8 @@
         overflow-x: hidden;
         overflow-y: hidden;
         text-overflow: ellipsis;
-        text-wrap-mode: nowrap
+        text-wrap-mode: nowrap;
+        white-space-collapse: collapse
       ">
         English, German, Spanish, French, Polish, Dutch, Italian, Japanese, Portuguese, Arabic
       </span>

@@ -35,6 +35,8 @@
         display: grid;
         gap: var(--spacing-100);
         grid-template-columns: repeat(2, 1fr);
+        list-style-image: none;
+        list-style-position: outside;
         list-style-type: none;
         margin-bottom: 0px;
         margin-top: 0px;
@@ -2780,6 +2782,8 @@
         display: grid;
         gap: var(--spacing-100);
         grid-template-columns: repeat(2, 1fr);
+        list-style-image: none;
+        list-style-position: outside;
         list-style-type: none;
         margin-bottom: 0px;
         margin-top: 0px;
@@ -5525,6 +5529,8 @@
         display: grid;
         gap: var(--spacing-100);
         grid-template-columns: repeat(2, 1fr);
+        list-style-image: none;
+        list-style-position: outside;
         list-style-type: none;
         margin-bottom: 0px;
         margin-top: 0px;
@@ -8270,6 +8276,8 @@
         display: grid;
         gap: var(--spacing-100);
         grid-template-columns: repeat(2, 1fr);
+        list-style-image: none;
+        list-style-position: outside;
         list-style-type: none;
         margin-bottom: 0px;
         margin-top: 0px;
@@ -11015,6 +11023,8 @@
         display: grid;
         gap: var(--spacing-100);
         grid-template-columns: repeat(2, 1fr);
+        list-style-image: none;
+        list-style-position: outside;
         list-style-type: none;
         margin-bottom: 0px;
         margin-top: 0px;
@@ -13760,6 +13770,8 @@
         display: grid;
         gap: var(--spacing-100);
         grid-template-columns: repeat(2, 1fr);
+        list-style-image: none;
+        list-style-position: outside;
         list-style-type: none;
         margin-bottom: 0px;
         margin-top: 0px;
@@ -16505,6 +16517,8 @@
         display: grid;
         gap: var(--spacing-100);
         grid-template-columns: repeat(2, 1fr);
+        list-style-image: none;
+        list-style-position: outside;
         list-style-type: none;
         margin-bottom: 0px;
         margin-top: 0px;
@@ -19250,6 +19264,8 @@
         display: grid;
         gap: var(--spacing-100);
         grid-template-columns: repeat(2, 1fr);
+        list-style-image: none;
+        list-style-position: outside;
         list-style-type: none;
         margin-bottom: 0px;
         margin-top: 0px;
@@ -21980,6 +21996,8 @@
       display: grid;
       gap: var(--spacing-100);
       grid-template-columns: repeat(2, 1fr);
+      list-style-image: none;
+      list-style-position: outside;
       list-style-type: none;
       margin-bottom: 0px;
       margin-top: 0px;
@@ -24709,6 +24727,8 @@
       display: grid;
       gap: var(--spacing-100);
       grid-template-columns: repeat(2, 1fr);
+      list-style-image: none;
+      list-style-position: outside;
       list-style-type: none;
       margin-bottom: 0px;
       margin-top: 0px;
@@ -24821,6 +24841,7 @@
             bottom: var(--spacing-100);
             display: flex;
             font-size: var(--font-size-small);
+            font-weight: 400;
             gap: var(--spacing-50);
             left: var(--spacing-100);
             padding: var(--spacing-50) var(--spacing-100);
@@ -24835,7 +24856,8 @@
             overflow-x: hidden;
             overflow-y: hidden;
             text-overflow: ellipsis;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             countries.csv
           </span>
@@ -24845,7 +24867,8 @@
             overflow-x: hidden;
             overflow-y: hidden;
             text-overflow: ellipsis;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             English, German, Spanish, French, Polish, Dutch, Italian, Japanese, Portuguese, Arabic
           </span>
@@ -25146,6 +25169,7 @@
             bottom: var(--spacing-100);
             display: flex;
             font-size: var(--font-size-small);
+            font-weight: 400;
             gap: var(--spacing-50);
             left: var(--spacing-100);
             padding: var(--spacing-50) var(--spacing-100);

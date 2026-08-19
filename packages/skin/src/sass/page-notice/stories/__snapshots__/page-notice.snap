@@ -59,7 +59,7 @@
       text-align: right
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -153,7 +153,7 @@
       text-align: right
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -246,7 +246,7 @@
       text-align: right
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -337,7 +337,7 @@
       text-align: right
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -432,7 +432,7 @@
       text-align: right
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -525,11 +525,14 @@
       grid-row-start: 1;
       text-align: right
     ">
-      <a style="
-        color: var(--page-notice-color, var(--color-foreground-on-inverse));
-        font-size: var(--font-size-body);
-        font-weight: 700
-      ">
+      <a
+        href="https://ebay.com"
+        style="
+          color: var(--page-notice-color, var(--color-foreground-on-inverse));
+          font-size: var(--font-size-body);
+          font-weight: 700
+        "
+      >
         Learn More
       </a>
     </div>
@@ -601,11 +604,14 @@
       justify-self: flex-end;
       text-align: right
     ">
-      <a style="
-        color: var(--page-notice-color, var(--color-foreground-on-inverse));
-        font-size: var(--font-size-body);
-        font-weight: 700
-      ">
+      <a
+        href="https://ebay.com"
+        style="
+          color: var(--page-notice-color, var(--color-foreground-on-inverse));
+          font-size: var(--font-size-body);
+          font-weight: 700
+        "
+      >
         Learn More
       </a>
     </div>
@@ -677,7 +683,7 @@
       text-align: right
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -772,7 +778,7 @@
       text-align: right
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -865,11 +871,14 @@
       grid-row-start: 1;
       text-align: right
     ">
-      <a style="
-        color: var(--page-notice-color, var(--color-foreground-on-inverse));
-        font-size: var(--font-size-body);
-        font-weight: 700
-      ">
+      <a
+        href="https://ebay.com"
+        style="
+          color: var(--page-notice-color, var(--color-foreground-on-inverse));
+          font-size: var(--font-size-body);
+          font-weight: 700
+        "
+      >
         Learn More
       </a>
     </div>
@@ -941,11 +950,14 @@
       justify-self: flex-end;
       text-align: right
     ">
-      <a style="
-        color: var(--page-notice-color, var(--color-foreground-on-inverse));
-        font-size: var(--font-size-body);
-        font-weight: 700
-      ">
+      <a
+        href="https://ebay.com"
+        style="
+          color: var(--page-notice-color, var(--color-foreground-on-inverse));
+          font-size: var(--font-size-body);
+          font-weight: 700
+        "
+      >
         Learn More
       </a>
     </div>
@@ -1004,6 +1016,7 @@
     ">
       <h3 style="
         font-size: var(--font-size-body);
+        font-weight: 700;
         margin-bottom: 0px;
         margin-top: 1px
       ">
@@ -1011,8 +1024,6 @@
       </h3>
       <p style="
         font-size: var(--font-size-body);
-        margin-bottom: 0px;
-        margin-top: 2px;
         margin: var(--spacing-50) 0 0
       ">
         Opt into eBay payments before Jan 12th to pay no selling fees.
@@ -1026,11 +1037,15 @@
       margin-right: var(--spacing-200);
       margin-top: var(--spacing-200)
     ">
-      <a style="
-        color: var(--page-notice-color, var(--color-foreground-on-inverse));
-        font-size: var(--font-size-body);
-        text-wrap-mode: nowrap
-      ">
+      <a
+        href="https://www.ebay.com"
+        style="
+          color: var(--page-notice-color, var(--color-foreground-on-inverse));
+          font-size: var(--font-size-body);
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
+        "
+      >
         Opt in
       </a>
     </p>
@@ -1040,7 +1055,7 @@
       text-align: right
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -1137,6 +1152,7 @@
     ">
       <h3 style="
         font-size: var(--font-size-body);
+        font-weight: 700;
         margin-bottom: 2px;
         margin-top: 1px
       ">
@@ -1144,8 +1160,6 @@
       </h3>
       <p style="
         font-size: var(--font-size-body);
-        margin-bottom: 0px;
-        margin-top: 2px;
         margin: var(--spacing-50) 0 0
       ">
         Opt into eBay payments before Jan 12th to pay no selling fees.
@@ -1160,11 +1174,15 @@
       margin-top: 1px;
       padding-right: var(--spacing-200)
     ">
-      <a style="
-        color: var(--page-notice-color, var(--color-foreground-on-inverse));
-        font-size: var(--font-size-body);
-        text-wrap-mode: nowrap
-      ">
+      <a
+        href="https://www.ebay.com"
+        style="
+          color: var(--page-notice-color, var(--color-foreground-on-inverse));
+          font-size: var(--font-size-body);
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
+        "
+      >
         Opt in
       </a>
     </p>
@@ -1175,7 +1193,7 @@
       text-align: right
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -1287,11 +1305,15 @@
       margin-right: var(--spacing-200);
       margin-top: var(--spacing-200)
     ">
-      <a style="
-        color: var(--page-notice-color, var(--color-foreground-on-inverse));
-        font-size: var(--font-size-body);
-        text-wrap-mode: nowrap
-      ">
+      <a
+        href="https://www.ebay.com"
+        style="
+          color: var(--page-notice-color, var(--color-foreground-on-inverse));
+          font-size: var(--font-size-body);
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
+        "
+      >
         Opt in
       </a>
     </p>
@@ -1301,7 +1323,7 @@
       text-align: right
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -1414,11 +1436,15 @@
       margin-top: 1px;
       padding-right: var(--spacing-200)
     ">
-      <a style="
-        color: var(--page-notice-color, var(--color-foreground-on-inverse));
-        font-size: var(--font-size-body);
-        text-wrap-mode: nowrap
-      ">
+      <a
+        href="https://www.ebay.com"
+        style="
+          color: var(--page-notice-color, var(--color-foreground-on-inverse));
+          font-size: var(--font-size-body);
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
+        "
+      >
         Opt in
       </a>
     </p>
@@ -1429,7 +1455,7 @@
       text-align: right
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -1526,6 +1552,7 @@
     ">
       <h3 style="
         font-size: var(--font-size-body);
+        font-weight: 700;
         margin-bottom: 0px;
         margin-top: 1px
       ">
@@ -1533,8 +1560,6 @@
       </h3>
       <p style="
         font-size: var(--font-size-body);
-        margin-bottom: 0px;
-        margin-top: 2px;
         margin: var(--spacing-50) 0 0
       ">
         Opt into eBay payments before Jan 12th to pay no selling fees.
@@ -1549,7 +1574,7 @@
       margin-top: var(--spacing-200)
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -1629,6 +1654,7 @@
     ">
       <h3 style="
         font-size: var(--font-size-body);
+        font-weight: 700;
         margin-bottom: 2px;
         margin-top: 1px
       ">
@@ -1636,8 +1662,6 @@
       </h3>
       <p style="
         font-size: var(--font-size-body);
-        margin-bottom: 0px;
-        margin-top: 2px;
         margin: var(--spacing-50) 0 0
       ">
         Opt into eBay payments before Jan 12th to pay no selling fees.
@@ -1653,7 +1677,7 @@
       padding-right: var(--spacing-200)
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -1733,6 +1757,7 @@
     ">
       <h2 style="
         font-size: var(--font-size-body);
+        font-weight: 700;
         margin-bottom: 0px;
         margin-top: 1px
       ">
@@ -1740,31 +1765,38 @@
       </h2>
       <p style="
         font-size: var(--font-size-body);
-        margin-bottom: 0px;
-        margin-top: 2px;
         margin: var(--spacing-50) 0 0
       ">
-        <a style="
-          color: var(--page-notice-color, var(--color-foreground-on-inverse));
-          font-size: var(--font-size-body);
-          font-weight: 700
-        ">
+        <a
+          href="#"
+          style="
+            color: var(--page-notice-color, var(--color-foreground-on-inverse));
+            font-size: var(--font-size-body);
+            font-weight: 700
+          "
+        >
           Error 1
         </a>
         ,
-        <a style="
-          color: var(--page-notice-color, var(--color-foreground-on-inverse));
-          font-size: var(--font-size-body);
-          font-weight: 700
-        ">
+        <a
+          href="#"
+          style="
+            color: var(--page-notice-color, var(--color-foreground-on-inverse));
+            font-size: var(--font-size-body);
+            font-weight: 700
+          "
+        >
           Error 2
         </a>
         ,
-        <a style="
-          color: var(--page-notice-color, var(--color-foreground-on-inverse));
-          font-size: var(--font-size-body);
-          font-weight: 700
-        ">
+        <a
+          href="#"
+          style="
+            color: var(--page-notice-color, var(--color-foreground-on-inverse));
+            font-size: var(--font-size-body);
+            font-weight: 700
+          "
+        >
           Error 3
         </a>
         .
@@ -1825,6 +1857,7 @@
     ">
       <h2 style="
         font-size: var(--font-size-body);
+        font-weight: 700;
         margin-bottom: 2px;
         margin-top: 1px
       ">
@@ -1832,31 +1865,38 @@
       </h2>
       <p style="
         font-size: var(--font-size-body);
-        margin-bottom: 0px;
-        margin-top: 2px;
         margin: var(--spacing-50) 0 0
       ">
-        <a style="
-          color: var(--page-notice-color, var(--color-foreground-on-inverse));
-          font-size: var(--font-size-body);
-          font-weight: 700
-        ">
+        <a
+          href="#"
+          style="
+            color: var(--page-notice-color, var(--color-foreground-on-inverse));
+            font-size: var(--font-size-body);
+            font-weight: 700
+          "
+        >
           Error 1
         </a>
         ,
-        <a style="
-          color: var(--page-notice-color, var(--color-foreground-on-inverse));
-          font-size: var(--font-size-body);
-          font-weight: 700
-        ">
+        <a
+          href="#"
+          style="
+            color: var(--page-notice-color, var(--color-foreground-on-inverse));
+            font-size: var(--font-size-body);
+            font-weight: 700
+          "
+        >
           Error 2
         </a>
         ,
-        <a style="
-          color: var(--page-notice-color, var(--color-foreground-on-inverse));
-          font-size: var(--font-size-body);
-          font-weight: 700
-        ">
+        <a
+          href="#"
+          style="
+            color: var(--page-notice-color, var(--color-foreground-on-inverse));
+            font-size: var(--font-size-body);
+            font-weight: 700
+          "
+        >
           Error 3
         </a>
         .
@@ -1991,7 +2031,7 @@
       text-align: right
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -2065,7 +2105,7 @@
       text-align: right
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -2137,11 +2177,14 @@
       grid-row-start: 1;
       text-align: right
     ">
-      <a style="
-        color: var(--page-notice-color, var(--color-foreground-on-inverse));
-        font-size: var(--font-size-body);
-        font-weight: 700
-      ">
+      <a
+        href="https://ebay.com"
+        style="
+          color: var(--page-notice-color, var(--color-foreground-on-inverse));
+          font-size: var(--font-size-body);
+          font-weight: 700
+        "
+      >
         Learn More
       </a>
     </div>
@@ -2192,11 +2235,14 @@
       justify-self: flex-end;
       text-align: right
     ">
-      <a style="
-        color: var(--page-notice-color, var(--color-foreground-on-inverse));
-        font-size: var(--font-size-body);
-        font-weight: 700
-      ">
+      <a
+        href="https://ebay.com"
+        style="
+          color: var(--page-notice-color, var(--color-foreground-on-inverse));
+          font-size: var(--font-size-body);
+          font-weight: 700
+        "
+      >
         Learn More
       </a>
     </div>
@@ -2268,7 +2314,7 @@
       text-align: right
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -2363,7 +2409,7 @@
       text-align: right
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -2456,11 +2502,14 @@
       grid-row-start: 1;
       text-align: right
     ">
-      <a style="
-        color: var(--page-notice-color, var(--color-foreground-on-inverse));
-        font-size: var(--font-size-body);
-        font-weight: 700
-      ">
+      <a
+        href="https://ebay.com"
+        style="
+          color: var(--page-notice-color, var(--color-foreground-on-inverse));
+          font-size: var(--font-size-body);
+          font-weight: 700
+        "
+      >
         Learn more
       </a>
     </div>
@@ -2532,11 +2581,14 @@
       justify-self: flex-end;
       text-align: right
     ">
-      <a style="
-        color: var(--page-notice-color, var(--color-foreground-on-inverse));
-        font-size: var(--font-size-body);
-        font-weight: 700
-      ">
+      <a
+        href="https://ebay.com"
+        style="
+          color: var(--page-notice-color, var(--color-foreground-on-inverse));
+          font-size: var(--font-size-body);
+          font-weight: 700
+        "
+      >
         Learn more
       </a>
     </div>
@@ -2614,6 +2666,7 @@
     ">
       <h3 style="
         font-size: var(--font-size-body);
+        font-weight: 700;
         letter-spacing: 0.12em;
         line-height: 1.5;
         margin-bottom: 0px;
@@ -2627,7 +2680,6 @@
         letter-spacing: 0.12em;
         line-height: 1.5;
         margin-bottom: 2em;
-        margin-top: 2px;
         margin: var(--spacing-50) 0 0;
         word-spacing: 0.16em
       ">
@@ -2645,14 +2697,18 @@
       margin-top: var(--spacing-200);
       word-spacing: 0.16em
     ">
-      <a style="
-        color: var(--page-notice-color, var(--color-foreground-on-inverse));
-        font-size: var(--font-size-body);
-        letter-spacing: 0.12em;
-        line-height: 1.5;
-        text-wrap-mode: nowrap;
-        word-spacing: 0.16em
-      ">
+      <a
+        href="https://www.ebay.com"
+        style="
+          color: var(--page-notice-color, var(--color-foreground-on-inverse));
+          font-size: var(--font-size-body);
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse;
+          word-spacing: 0.16em
+        "
+      >
         Opt in
       </a>
     </p>
@@ -2665,7 +2721,7 @@
       word-spacing: 0.16em
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -2794,6 +2850,7 @@
     ">
       <h3 style="
         font-size: var(--font-size-body);
+        font-weight: 700;
         letter-spacing: 0.12em;
         line-height: 1.5;
         margin-bottom: 2px;
@@ -2807,7 +2864,6 @@
         letter-spacing: 0.12em;
         line-height: 1.5;
         margin-bottom: 2em;
-        margin-top: 2px;
         margin: var(--spacing-50) 0 0;
         word-spacing: 0.16em
       ">
@@ -2826,14 +2882,18 @@
       padding-right: var(--spacing-200);
       word-spacing: 0.16em
     ">
-      <a style="
-        color: var(--page-notice-color, var(--color-foreground-on-inverse));
-        font-size: var(--font-size-body);
-        letter-spacing: 0.12em;
-        line-height: 1.5;
-        text-wrap-mode: nowrap;
-        word-spacing: 0.16em
-      ">
+      <a
+        href="https://www.ebay.com"
+        style="
+          color: var(--page-notice-color, var(--color-foreground-on-inverse));
+          font-size: var(--font-size-body);
+          letter-spacing: 0.12em;
+          line-height: 1.5;
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse;
+          word-spacing: 0.16em
+        "
+      >
         Opt in
       </a>
     </p>
@@ -2847,7 +2907,7 @@
       word-spacing: 0.16em
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;

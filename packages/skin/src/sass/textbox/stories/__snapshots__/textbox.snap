@@ -27,23 +27,14 @@
       placeholder="placeholder text"
       style="
         appearance: none;
-        background-color: initial;
-        border-bottom-color: currentcolor;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-style: none;
         border-bottom-width: medium;
         border-color: var(--textbox-invalid-foreground-color, var(--color-border-attention));
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
-        border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
-        border-right-color: currentcolor;
         border-right-style: none;
         border-right-width: medium;
-        border-top-color: currentcolor;
         border-top-style: none;
         border-top-width: medium;
         box-sizing: border-box;
@@ -55,8 +46,6 @@
         padding-bottom: 0px;
         padding-inline-end: var(--spacing-200);
         padding-inline-start: var(--spacing-200);
-        padding-left: 0px;
-        padding-right: 0px;
         padding-top: 0px;
         vertical-align: middle
       "
@@ -93,23 +82,14 @@
       placeholder="placeholder text"
       style="
         appearance: none;
-        background-color: initial;
-        border-bottom-color: currentcolor;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-style: none;
         border-bottom-width: medium;
         border-color: var(--textbox-invalid-foreground-color, var(--color-border-attention));
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
-        border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
-        border-right-color: currentcolor;
         border-right-style: none;
         border-right-width: medium;
-        border-top-color: currentcolor;
         border-top-style: none;
         border-top-width: medium;
         box-sizing: border-box;
@@ -121,8 +101,6 @@
         padding-bottom: 0px;
         padding-inline-end: var(--spacing-200);
         padding-inline-start: var(--spacing-200);
-        padding-left: 0px;
-        padding-right: 0px;
         padding-top: 0px;
         vertical-align: middle
       "
@@ -159,15 +137,10 @@
       placeholder="placeholder text"
       style="
         appearance: none;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: medium;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
@@ -186,8 +159,6 @@
         padding-bottom: 0px;
         padding-inline-end: var(--spacing-200);
         padding-inline-start: var(--spacing-200);
-        padding-left: 0px;
-        padding-right: 0px;
         padding-top: 0px;
         vertical-align: middle;
         width: 100%
@@ -226,15 +197,10 @@
         placeholder="placeholder text"
         style="
           appearance: none;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -253,8 +219,6 @@
           padding-bottom: 0px;
           padding-inline-end: var(--spacing-200);
           padding-inline-start: var(--spacing-200);
-          padding-left: 0px;
-          padding-right: 0px;
           padding-top: 0px;
           vertical-align: middle
         "
@@ -293,15 +257,10 @@
         placeholder="placeholder text"
         style="
           appearance: none;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -320,8 +279,6 @@
           padding-bottom: 0px;
           padding-inline-end: var(--spacing-200);
           padding-inline-start: var(--spacing-200);
-          padding-left: 0px;
-          padding-right: 0px;
           padding-top: 0px;
           vertical-align: middle
         "
@@ -359,15 +316,10 @@
       placeholder="placeholder text"
       style="
         appearance: none;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: medium;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
@@ -386,8 +338,6 @@
         padding-bottom: 0px;
         padding-inline-end: var(--spacing-200);
         padding-inline-start: var(--spacing-200);
-        padding-left: 0px;
-        padding-right: 0px;
         padding-top: 0px;
         vertical-align: middle
       "
@@ -424,15 +374,10 @@
       placeholder="placeholder text"
       style="
         appearance: none;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: medium;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
@@ -486,15 +431,10 @@
       placeholder="placeholder text"
       style="
         appearance: none;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: medium;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
@@ -513,8 +453,6 @@
         padding-bottom: 0px;
         padding-inline-end: var(--spacing-200);
         padding-inline-start: var(--spacing-200);
-        padding-left: 0px;
-        padding-right: 0px;
         padding-top: 0px;
         vertical-align: middle
       "
@@ -551,15 +489,10 @@
       placeholder="placeholder text"
       style="
         appearance: none;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: medium;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
@@ -578,8 +511,6 @@
         padding-bottom: 0px;
         padding-inline-end: var(--spacing-200);
         padding-inline-start: var(--spacing-200);
-        padding-left: 0px;
-        padding-right: 0px;
         padding-top: 0px;
         vertical-align: middle
       "
@@ -620,15 +551,10 @@
     </span>
     <input style="
       appearance: none;
-      background-color: initial;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-color: currentcolor;
       border-bottom-style: none;
       border-bottom-width: medium;
-      border-image-outset: initial;
-      border-image-repeat: initial;
-      border-image-slice: initial;
-      border-image-source: initial;
-      border-image-width: initial;
       border-left-color: currentcolor;
       border-left-style: none;
       border-left-width: medium;
@@ -647,7 +573,6 @@
       padding-bottom: 0px;
       padding-inline-end: var(--spacing-200);
       padding-left: 0px;
-      padding-right: 0px;
       padding-top: 0px;
       vertical-align: middle
     "/>
@@ -689,15 +614,10 @@
       placeholder="0.00"
       style="
         appearance: none;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: medium;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
@@ -755,15 +675,10 @@
       placeholder="placeholder text"
       style="
         appearance: none;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: medium;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
@@ -782,8 +697,6 @@
         padding-bottom: 0px;
         padding-inline-end: var(--spacing-200);
         padding-inline-start: var(--spacing-200);
-        padding-left: 0px;
-        padding-right: 0px;
         padding-top: 0px;
         vertical-align: middle
       "
@@ -820,15 +733,10 @@
       placeholder="percentage"
       style="
         appearance: none;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: medium;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
@@ -846,7 +754,6 @@
         height: calc(var(--input-default-height) - 2px);
         padding-bottom: 0px;
         padding-inline-start: var(--spacing-200);
-        padding-left: 0px;
         padding-right: 0px;
         padding-top: 0px;
         vertical-align: middle
@@ -890,15 +797,10 @@
       placeholder="placeholder text"
       style="
         appearance: none;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: medium;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
@@ -919,8 +821,6 @@
         padding-bottom: 0px;
         padding-inline-end: var(--spacing-200);
         padding-inline-start: var(--spacing-200);
-        padding-left: 0px;
-        padding-right: 0px;
         padding-top: 0px;
         vertical-align: middle;
         word-spacing: 0.16em

@@ -3,19 +3,15 @@
   <button style="
     align-content: center;
     align-items: center;
-    background-color: initial;
-    border-bottom-color: currentcolor;
+    background-color: rgba(0, 0, 0, 0);
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-color: var(--btn-tertiary-border-color, var(--color-border-medium));
-    border-left-color: currentcolor;
     border-left-style: solid;
     border-left-width: 1px;
     border-radius: var(--btn-border-radius, 20px);
-    border-right-color: currentcolor;
     border-right-style: solid;
     border-right-width: 1px;
-    border-top-color: currentcolor;
     border-top-style: solid;
     border-top-width: 1px;
     color: inherit;
@@ -30,6 +26,7 @@
     padding-right: 20px;
     padding-top: 0px;
     position: relative;
+    text-align: center;
     transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
     vertical-align: bottom
   ">
@@ -67,8 +64,6 @@
           display: inline-block;
           fill: currentcolor;
           height: inherit;
-          margin-inline-end: 8px;
-          margin-inline-start: 8px;
           max-height: inherit;
           max-width: inherit;
           pointer-events: none;
@@ -94,19 +89,15 @@
     style="
       align-content: center;
       align-items: center;
-      background-color: initial;
-      border-bottom-color: currentcolor;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--expand-btn-disabled-border-color, var(--color-border-disabled));
-      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
       border-radius: var(--btn-border-radius, 20px);
-      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
-      border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
       color: var(--btn-tertiary-disabled-foreground-color, var(--color-background-disabled));
@@ -121,6 +112,8 @@
       padding-right: 20px;
       padding-top: 0px;
       position: relative;
+      text-align: center;
+      text-decoration-color: rgb(0, 0, 0);
       transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
       vertical-align: bottom
     "
@@ -174,19 +167,15 @@
   <button style="
     align-content: center;
     align-items: center;
-    background-color: initial;
-    border-bottom-color: currentcolor;
+    background-color: rgba(0, 0, 0, 0);
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-color: var(--btn-tertiary-border-color, var(--color-border-medium));
-    border-left-color: currentcolor;
     border-left-style: solid;
     border-left-width: 1px;
     border-radius: var(--btn-border-radius, 20px);
-    border-right-color: currentcolor;
     border-right-style: solid;
     border-right-width: 1px;
-    border-top-color: currentcolor;
     border-top-style: solid;
     border-top-width: 1px;
     color: inherit;
@@ -201,6 +190,7 @@
     padding-right: 20px;
     padding-top: 0px;
     position: relative;
+    text-align: center;
     transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
     vertical-align: bottom
   ">
@@ -253,19 +243,15 @@
   <button style="
     align-content: center;
     align-items: center;
-    background-color: initial;
-    border-bottom-color: currentcolor;
+    background-color: rgba(0, 0, 0, 0);
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-color: var(--expand-btn-disabled-border-color, var(--color-border-disabled));
-    border-left-color: currentcolor;
     border-left-style: solid;
     border-left-width: 1px;
     border-radius: var(--btn-border-radius, 20px);
-    border-right-color: currentcolor;
     border-right-style: solid;
     border-right-width: 1px;
-    border-top-color: currentcolor;
     border-top-style: solid;
     border-top-width: 1px;
     color: var(--btn-tertiary-disabled-foreground-color, var(--color-background-disabled));
@@ -280,6 +266,7 @@
     padding-right: 20px;
     padding-top: 0px;
     position: relative;
+    text-align: center;
     transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
     vertical-align: bottom
   ">
@@ -332,19 +319,15 @@
   <button style="
     align-content: center;
     align-items: center;
-    background-color: initial;
-    border-bottom-color: currentcolor;
+    background-color: rgba(0, 0, 0, 0);
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-color: var(--btn-tertiary-border-color, var(--color-border-medium));
-    border-left-color: currentcolor;
     border-left-style: solid;
     border-left-width: 1px;
     border-radius: var(--btn-border-radius, 20px);
-    border-right-color: currentcolor;
     border-right-style: solid;
     border-right-width: 1px;
-    border-top-color: currentcolor;
     border-top-style: solid;
     border-top-width: 1px;
     color: inherit;
@@ -359,6 +342,7 @@
     padding-right: 20px;
     padding-top: 0px;
     position: relative;
+    text-align: center;
     transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
     vertical-align: bottom
   ">

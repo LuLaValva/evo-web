@@ -131,7 +131,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -142,7 +145,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p style="margin-bottom: 0px">
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -287,7 +293,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -298,7 +307,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p style="margin-bottom: 0px">
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -361,7 +373,7 @@
         </h2>
         <button style="
           align-self: flex-start;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: 0px;
@@ -402,7 +414,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -413,7 +428,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p style="margin-bottom: 0px">
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -476,7 +494,7 @@
         </h2>
         <button style="
           align-self: flex-start;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: 0px;
@@ -517,7 +535,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -528,7 +549,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p style="margin-bottom: 0px">
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -673,7 +697,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -684,7 +711,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p style="margin-bottom: 0px">
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -700,18 +730,14 @@
           align-content: center;
           align-items: center;
           background-color: var(--color-background-accent);
-          border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--color-border-accent);
-          border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
           border-radius: var(--btn-border-radius, 20px);
-          border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
-          border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
           color: var(--color-foreground-on-accent);
@@ -727,6 +753,7 @@
           padding-right: 20px;
           padding-top: 0px;
           position: relative;
+          text-align: center;
           transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
           vertical-align: bottom
         ">
@@ -747,7 +774,7 @@
         <button style="
           align-content: center;
           align-items: center;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
@@ -771,6 +798,7 @@
           padding-left: 20px;
           padding-right: 20px;
           padding-top: 0px;
+          text-align: center;
           vertical-align: bottom
         ">
           Cancel
@@ -916,7 +944,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -927,7 +958,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p style="margin-bottom: 0px">
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -943,18 +977,14 @@
           align-content: center;
           align-items: center;
           background-color: var(--color-background-accent);
-          border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--color-border-accent);
-          border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
           border-radius: var(--btn-border-radius, 20px);
-          border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
-          border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
           color: var(--color-foreground-on-accent);
@@ -970,6 +1000,7 @@
           padding-right: 20px;
           padding-top: 0px;
           position: relative;
+          text-align: center;
           transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
           vertical-align: bottom
         ">
@@ -990,7 +1021,7 @@
         <button style="
           align-content: center;
           align-items: center;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
@@ -1014,6 +1045,7 @@
           padding-left: 20px;
           padding-right: 20px;
           padding-top: 0px;
+          text-align: center;
           vertical-align: bottom
         ">
           Cancel
@@ -1155,7 +1187,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1166,7 +1201,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1177,7 +1215,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1188,7 +1229,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1199,7 +1243,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1210,7 +1257,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1221,7 +1271,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1232,7 +1285,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p style="margin-bottom: 0px">
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1373,7 +1429,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1384,7 +1443,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1395,7 +1457,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1406,7 +1471,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1417,7 +1485,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1428,7 +1499,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1439,7 +1513,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1450,7 +1527,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p style="margin-bottom: 0px">
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1591,7 +1671,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1602,7 +1685,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1613,7 +1699,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1624,7 +1713,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1635,7 +1727,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1646,7 +1741,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1657,7 +1755,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1668,7 +1769,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p style="margin-bottom: 0px">
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1684,18 +1788,14 @@
           align-content: center;
           align-items: center;
           background-color: var(--color-background-accent);
-          border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--color-border-accent);
-          border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
           border-radius: var(--btn-border-radius, 20px);
-          border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
-          border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
           color: var(--color-foreground-on-accent);
@@ -1711,6 +1811,7 @@
           padding-right: 20px;
           padding-top: 0px;
           position: relative;
+          text-align: center;
           transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
           vertical-align: bottom
         ">
@@ -1731,7 +1832,7 @@
         <button style="
           align-content: center;
           align-items: center;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
@@ -1755,6 +1856,7 @@
           padding-left: 20px;
           padding-right: 20px;
           padding-top: 0px;
+          text-align: center;
           vertical-align: bottom
         ">
           Cancel
@@ -1896,7 +1998,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1907,7 +2012,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1918,7 +2026,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1929,7 +2040,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1940,7 +2054,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1951,7 +2068,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1962,7 +2082,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1973,7 +2096,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p style="margin-bottom: 0px">
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -1989,18 +2115,14 @@
           align-content: center;
           align-items: center;
           background-color: var(--color-background-accent);
-          border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--color-border-accent);
-          border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
           border-radius: var(--btn-border-radius, 20px);
-          border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
-          border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
           color: var(--color-foreground-on-accent);
@@ -2016,6 +2138,7 @@
           padding-right: 20px;
           padding-top: 0px;
           position: relative;
+          text-align: center;
           transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
           vertical-align: bottom
         ">
@@ -2036,7 +2159,7 @@
         <button style="
           align-content: center;
           align-items: center;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
@@ -2060,6 +2183,7 @@
           padding-left: 20px;
           padding-right: 20px;
           padding-top: 0px;
+          text-align: center;
           vertical-align: bottom
         ">
           Cancel
@@ -2201,7 +2325,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -2212,7 +2339,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p style="margin-bottom: 0px">
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -2353,7 +2483,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -2364,7 +2497,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p style="margin-bottom: 0px">
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -2505,7 +2641,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -2516,7 +2655,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p style="margin-bottom: 0px">
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -2657,7 +2799,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -2668,7 +2813,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p style="margin-bottom: 0px">
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -2877,7 +3025,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -2888,7 +3039,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p style="margin-bottom: 0px">
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -3097,7 +3251,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p>
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -3108,7 +3265,10 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis molestie erat, ut adipiscing risus blandit vel. Vivamus luctus elementum lorem, eu sodales velit sagittis id.
         </p>
         <p style="margin-bottom: 0px">
-          <a style="color: var(--color-foreground-link-primary)">
+          <a
+            href="http://www.ebay.com"
+            style="color: var(--color-foreground-link-primary)"
+          >
             www.ebay.com
           </a>
         </p>
@@ -3292,12 +3452,15 @@
           margin-bottom: 2em;
           word-spacing: 0.16em
         ">
-          <a style="
-            color: var(--color-foreground-link-primary);
-            letter-spacing: 0.12em;
-            line-height: 1.5;
-            word-spacing: 0.16em
-          ">
+          <a
+            href="http://www.ebay.com"
+            style="
+              color: var(--color-foreground-link-primary);
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          >
             www.ebay.com
           </a>
         </p>
@@ -3322,12 +3485,15 @@
           margin-bottom: 2em;
           word-spacing: 0.16em
         ">
-          <a style="
-            color: var(--color-foreground-link-primary);
-            letter-spacing: 0.12em;
-            line-height: 1.5;
-            word-spacing: 0.16em
-          ">
+          <a
+            href="http://www.ebay.com"
+            style="
+              color: var(--color-foreground-link-primary);
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          >
             www.ebay.com
           </a>
         </p>
@@ -3352,12 +3518,15 @@
           margin-bottom: 2em;
           word-spacing: 0.16em
         ">
-          <a style="
-            color: var(--color-foreground-link-primary);
-            letter-spacing: 0.12em;
-            line-height: 1.5;
-            word-spacing: 0.16em
-          ">
+          <a
+            href="http://www.ebay.com"
+            style="
+              color: var(--color-foreground-link-primary);
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          >
             www.ebay.com
           </a>
         </p>
@@ -3382,12 +3551,15 @@
           margin-bottom: 2em;
           word-spacing: 0.16em
         ">
-          <a style="
-            color: var(--color-foreground-link-primary);
-            letter-spacing: 0.12em;
-            line-height: 1.5;
-            word-spacing: 0.16em
-          ">
+          <a
+            href="http://www.ebay.com"
+            style="
+              color: var(--color-foreground-link-primary);
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          >
             www.ebay.com
           </a>
         </p>
@@ -3412,12 +3584,15 @@
           margin-bottom: 2em;
           word-spacing: 0.16em
         ">
-          <a style="
-            color: var(--color-foreground-link-primary);
-            letter-spacing: 0.12em;
-            line-height: 1.5;
-            word-spacing: 0.16em
-          ">
+          <a
+            href="http://www.ebay.com"
+            style="
+              color: var(--color-foreground-link-primary);
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          >
             www.ebay.com
           </a>
         </p>
@@ -3442,12 +3617,15 @@
           margin-bottom: 2em;
           word-spacing: 0.16em
         ">
-          <a style="
-            color: var(--color-foreground-link-primary);
-            letter-spacing: 0.12em;
-            line-height: 1.5;
-            word-spacing: 0.16em
-          ">
+          <a
+            href="http://www.ebay.com"
+            style="
+              color: var(--color-foreground-link-primary);
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          >
             www.ebay.com
           </a>
         </p>
@@ -3472,12 +3650,15 @@
           margin-bottom: 2em;
           word-spacing: 0.16em
         ">
-          <a style="
-            color: var(--color-foreground-link-primary);
-            letter-spacing: 0.12em;
-            line-height: 1.5;
-            word-spacing: 0.16em
-          ">
+          <a
+            href="http://www.ebay.com"
+            style="
+              color: var(--color-foreground-link-primary);
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          >
             www.ebay.com
           </a>
         </p>
@@ -3502,12 +3683,15 @@
           margin-bottom: 2em;
           word-spacing: 0.16em
         ">
-          <a style="
-            color: var(--color-foreground-link-primary);
-            letter-spacing: 0.12em;
-            line-height: 1.5;
-            word-spacing: 0.16em
-          ">
+          <a
+            href="http://www.ebay.com"
+            style="
+              color: var(--color-foreground-link-primary);
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          >
             www.ebay.com
           </a>
         </p>
@@ -3526,18 +3710,14 @@
           align-content: center;
           align-items: center;
           background-color: var(--color-background-accent);
-          border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--color-border-accent);
-          border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
           border-radius: var(--btn-border-radius, 20px);
-          border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
-          border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
           color: var(--color-foreground-on-accent);
@@ -3555,6 +3735,7 @@
           padding-right: 20px;
           padding-top: 0px;
           position: relative;
+          text-align: center;
           transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
           vertical-align: bottom;
           word-spacing: 0.16em
@@ -3576,7 +3757,7 @@
         <button style="
           align-content: center;
           align-items: center;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
@@ -3602,6 +3783,7 @@
           padding-left: 20px;
           padding-right: 20px;
           padding-top: 0px;
+          text-align: center;
           vertical-align: bottom;
           word-spacing: 0.16em
         ">
@@ -3787,12 +3969,15 @@
           margin-bottom: 2em;
           word-spacing: 0.16em
         ">
-          <a style="
-            color: var(--color-foreground-link-primary);
-            letter-spacing: 0.12em;
-            line-height: 1.5;
-            word-spacing: 0.16em
-          ">
+          <a
+            href="http://www.ebay.com"
+            style="
+              color: var(--color-foreground-link-primary);
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          >
             www.ebay.com
           </a>
         </p>
@@ -3817,12 +4002,15 @@
           margin-bottom: 2em;
           word-spacing: 0.16em
         ">
-          <a style="
-            color: var(--color-foreground-link-primary);
-            letter-spacing: 0.12em;
-            line-height: 1.5;
-            word-spacing: 0.16em
-          ">
+          <a
+            href="http://www.ebay.com"
+            style="
+              color: var(--color-foreground-link-primary);
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          >
             www.ebay.com
           </a>
         </p>
@@ -3847,12 +4035,15 @@
           margin-bottom: 2em;
           word-spacing: 0.16em
         ">
-          <a style="
-            color: var(--color-foreground-link-primary);
-            letter-spacing: 0.12em;
-            line-height: 1.5;
-            word-spacing: 0.16em
-          ">
+          <a
+            href="http://www.ebay.com"
+            style="
+              color: var(--color-foreground-link-primary);
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          >
             www.ebay.com
           </a>
         </p>
@@ -3877,12 +4068,15 @@
           margin-bottom: 2em;
           word-spacing: 0.16em
         ">
-          <a style="
-            color: var(--color-foreground-link-primary);
-            letter-spacing: 0.12em;
-            line-height: 1.5;
-            word-spacing: 0.16em
-          ">
+          <a
+            href="http://www.ebay.com"
+            style="
+              color: var(--color-foreground-link-primary);
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          >
             www.ebay.com
           </a>
         </p>
@@ -3907,12 +4101,15 @@
           margin-bottom: 2em;
           word-spacing: 0.16em
         ">
-          <a style="
-            color: var(--color-foreground-link-primary);
-            letter-spacing: 0.12em;
-            line-height: 1.5;
-            word-spacing: 0.16em
-          ">
+          <a
+            href="http://www.ebay.com"
+            style="
+              color: var(--color-foreground-link-primary);
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          >
             www.ebay.com
           </a>
         </p>
@@ -3937,12 +4134,15 @@
           margin-bottom: 2em;
           word-spacing: 0.16em
         ">
-          <a style="
-            color: var(--color-foreground-link-primary);
-            letter-spacing: 0.12em;
-            line-height: 1.5;
-            word-spacing: 0.16em
-          ">
+          <a
+            href="http://www.ebay.com"
+            style="
+              color: var(--color-foreground-link-primary);
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          >
             www.ebay.com
           </a>
         </p>
@@ -3967,12 +4167,15 @@
           margin-bottom: 2em;
           word-spacing: 0.16em
         ">
-          <a style="
-            color: var(--color-foreground-link-primary);
-            letter-spacing: 0.12em;
-            line-height: 1.5;
-            word-spacing: 0.16em
-          ">
+          <a
+            href="http://www.ebay.com"
+            style="
+              color: var(--color-foreground-link-primary);
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          >
             www.ebay.com
           </a>
         </p>
@@ -3997,12 +4200,15 @@
           margin-bottom: 2em;
           word-spacing: 0.16em
         ">
-          <a style="
-            color: var(--color-foreground-link-primary);
-            letter-spacing: 0.12em;
-            line-height: 1.5;
-            word-spacing: 0.16em
-          ">
+          <a
+            href="http://www.ebay.com"
+            style="
+              color: var(--color-foreground-link-primary);
+              letter-spacing: 0.12em;
+              line-height: 1.5;
+              word-spacing: 0.16em
+            "
+          >
             www.ebay.com
           </a>
         </p>
@@ -4021,18 +4227,14 @@
           align-content: center;
           align-items: center;
           background-color: var(--color-background-accent);
-          border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--color-border-accent);
-          border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
           border-radius: var(--btn-border-radius, 20px);
-          border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
-          border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
           color: var(--color-foreground-on-accent);
@@ -4050,6 +4252,7 @@
           padding-right: 20px;
           padding-top: 0px;
           position: relative;
+          text-align: center;
           transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
           vertical-align: bottom;
           word-spacing: 0.16em
@@ -4071,7 +4274,7 @@
         <button style="
           align-content: center;
           align-items: center;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
@@ -4097,6 +4300,7 @@
           padding-left: 20px;
           padding-right: 20px;
           padding-top: 0px;
+          text-align: center;
           vertical-align: bottom;
           word-spacing: 0.16em
         ">

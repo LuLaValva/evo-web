@@ -21,7 +21,8 @@
       overflow-y: hidden;
       padding: var(--spacing-75) 0;
       text-overflow: ellipsis;
-      text-wrap-mode: nowrap
+      text-wrap-mode: nowrap;
+      white-space-collapse: collapse
     ">
       Large Text
     </span>
@@ -51,7 +52,8 @@
       overflow-y: hidden;
       padding: var(--spacing-75) 0;
       text-overflow: ellipsis;
-      text-wrap-mode: nowrap
+      text-wrap-mode: nowrap;
+      white-space-collapse: collapse
     ">
       I
     </span>
@@ -82,7 +84,8 @@
       overflow-y: hidden;
       padding: var(--spacing-75) 0;
       text-overflow: ellipsis;
-      text-wrap-mode: nowrap
+      text-wrap-mode: nowrap;
+      white-space-collapse: collapse
     ">
       Letter Spacing
     </span>
@@ -114,7 +117,8 @@
           overflow-y: hidden;
           padding: var(--spacing-75) 0;
           text-overflow: ellipsis;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Football
         </span>
@@ -142,7 +146,8 @@
           overflow-y: hidden;
           padding: var(--spacing-75) 0;
           text-overflow: ellipsis;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Basketball
         </span>
@@ -170,7 +175,8 @@
           overflow-y: hidden;
           padding: var(--spacing-75) 0;
           text-overflow: ellipsis;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Baseball
         </span>
@@ -198,7 +204,8 @@
           overflow-y: hidden;
           padding: var(--spacing-75) 0;
           text-overflow: ellipsis;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Hockey
         </span>
@@ -226,7 +233,8 @@
           overflow-y: hidden;
           padding: var(--spacing-75) 0;
           text-overflow: ellipsis;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Tennis
         </span>
@@ -254,7 +262,8 @@
           overflow-y: hidden;
           padding: var(--spacing-75) 0;
           text-overflow: ellipsis;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Golf
         </span>
@@ -282,7 +291,8 @@
           overflow-y: hidden;
           padding: var(--spacing-75) 0;
           text-overflow: ellipsis;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Gymnastics
         </span>
@@ -310,7 +320,8 @@
           overflow-y: hidden;
           padding: var(--spacing-75) 0;
           text-overflow: ellipsis;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Swimming
         </span>
@@ -338,7 +349,8 @@
           overflow-y: hidden;
           padding: var(--spacing-75) 0;
           text-overflow: ellipsis;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Cricket
         </span>
@@ -366,7 +378,8 @@
           overflow-y: hidden;
           padding: var(--spacing-75) 0;
           text-overflow: ellipsis;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Volleyball
         </span>
@@ -394,7 +407,8 @@
           overflow-y: hidden;
           padding: var(--spacing-75) 0;
           text-overflow: ellipsis;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Rugby
         </span>
@@ -426,7 +440,8 @@
       overflow-y: hidden;
       padding: var(--spacing-75) 0;
       text-overflow: ellipsis;
-      text-wrap-mode: nowrap
+      text-wrap-mode: nowrap;
+      white-space-collapse: collapse
     ">
       Chip with the longest potentially possible content
     </span>
@@ -456,7 +471,8 @@
       overflow-y: hidden;
       padding: var(--spacing-75) 0;
       text-overflow: ellipsis;
-      text-wrap-mode: nowrap
+      text-wrap-mode: nowrap;
+      white-space-collapse: collapse
     ">
       Football
     </span>
@@ -482,7 +498,8 @@
       overflow-y: hidden;
       padding: var(--spacing-75) 0;
       text-overflow: ellipsis;
-      text-wrap-mode: nowrap
+      text-wrap-mode: nowrap;
+      white-space-collapse: collapse
     ">
       Basketball
     </span>
@@ -508,7 +525,8 @@
       overflow-y: hidden;
       padding: var(--spacing-75) 0;
       text-overflow: ellipsis;
-      text-wrap-mode: nowrap
+      text-wrap-mode: nowrap;
+      white-space-collapse: collapse
     ">
       Baseball
     </span>
@@ -534,7 +552,8 @@
       overflow-y: hidden;
       padding: var(--spacing-75) 0;
       text-overflow: ellipsis;
-      text-wrap-mode: nowrap
+      text-wrap-mode: nowrap;
+      white-space-collapse: collapse
     ">
       Hockey
     </span>
@@ -560,7 +579,8 @@
       overflow-y: hidden;
       padding: var(--spacing-75) 0;
       text-overflow: ellipsis;
-      text-wrap-mode: nowrap
+      text-wrap-mode: nowrap;
+      white-space-collapse: collapse
     ">
       Tennis
     </span>
@@ -586,7 +606,8 @@
       overflow-y: hidden;
       padding: var(--spacing-75) 0;
       text-overflow: ellipsis;
-      text-wrap-mode: nowrap
+      text-wrap-mode: nowrap;
+      white-space-collapse: collapse
     ">
       Golf
     </span>
@@ -612,7 +633,8 @@
       overflow-y: hidden;
       padding: var(--spacing-75) 0;
       text-overflow: ellipsis;
-      text-wrap-mode: nowrap
+      text-wrap-mode: nowrap;
+      white-space-collapse: collapse
     ">
       Gymnastics
     </span>
@@ -638,7 +660,8 @@
       overflow-y: hidden;
       padding: var(--spacing-75) 0;
       text-overflow: ellipsis;
-      text-wrap-mode: nowrap
+      text-wrap-mode: nowrap;
+      white-space-collapse: collapse
     ">
       Swimming
     </span>
@@ -664,7 +687,8 @@
       overflow-y: hidden;
       padding: var(--spacing-75) 0;
       text-overflow: ellipsis;
-      text-wrap-mode: nowrap
+      text-wrap-mode: nowrap;
+      white-space-collapse: collapse
     ">
       Cricket
     </span>
@@ -690,7 +714,8 @@
       overflow-y: hidden;
       padding: var(--spacing-75) 0;
       text-overflow: ellipsis;
-      text-wrap-mode: nowrap
+      text-wrap-mode: nowrap;
+      white-space-collapse: collapse
     ">
       Volleyball
     </span>
@@ -716,7 +741,8 @@
       overflow-y: hidden;
       padding: var(--spacing-75) 0;
       text-overflow: ellipsis;
-      text-wrap-mode: nowrap
+      text-wrap-mode: nowrap;
+      white-space-collapse: collapse
     ">
       Rugby
     </span>
@@ -746,7 +772,8 @@
       overflow-y: hidden;
       padding: var(--spacing-75) 0;
       text-overflow: ellipsis;
-      text-wrap-mode: nowrap
+      text-wrap-mode: nowrap;
+      white-space-collapse: collapse
     ">
       Football
     </span>

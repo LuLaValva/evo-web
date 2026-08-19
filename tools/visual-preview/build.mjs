@@ -46,37 +46,35 @@ const TOKENS_DIR = "packages/skin/dist/tokens";
 const SPRITE_DIST = "packages/skin/dist/svg/icons.svg";
 const BUNDLE_DIST = "packages/skin/dist/bundles/skin-full.css";
 
+const ROOT_SELECTOR = /(^|,)\s*(html|body|:root)\s*(,|$)/;
+
 /**
- * The custom properties skin declares on :root in its own bundle
- * (--input-default-height and friends). Snapshots keep var() references
- * unresolved, and these resolve against the bundle rather than the token
- * files, so frames need them to compute the same lengths and colors.
+ * What the bundle declares on the document itself: the custom properties every
+ * captured var() resolves against, and the typography and colors captured
+ * elements inherit rather than declare. A snapshot records neither — it starts
+ * at the story's own container — so frames have to supply them to lay out the
+ * way the captured page did.
  *
- * Only top level :root rules are the light defaults — the bundle also has a
- * prefers-color-scheme block whose :root would otherwise be hoisted out of
- * its media query and applied unconditionally.
+ * Only top level rules are the light defaults; the bundle's
+ * prefers-color-scheme block is kept apart for the viewer's dark toggle rather
+ * than hoisted out of its media query and applied unconditionally.
  */
-function rootVariables(css) {
+function baseStyles(css) {
   const light = [];
   const dark = [];
-  const collect = (body, into) => {
-    for (const declaration of body.split(";")) {
-      if (declaration.trim().startsWith("--")) into.push(declaration.trim());
-    }
-  };
   for (const rule of topLevelRules(css)) {
     const prelude = rule.slice(0, rule.indexOf("{"));
-    if (prelude.includes(":root")) {
-      collect(rule.slice(rule.indexOf("{") + 1, rule.lastIndexOf("}")), light);
+    if (ROOT_SELECTOR.test(prelude)) {
+      light.push(rule);
     } else if (/prefers-color-scheme:\s*dark/.test(prelude)) {
-      for (const [, body] of rule.matchAll(/:root\s*\{([^}]*)\}/g)) {
-        collect(body, dark);
+      for (const nested of topLevelRules(rule.slice(rule.indexOf("{") + 1))) {
+        if (ROOT_SELECTOR.test(nested.slice(0, nested.indexOf("{")))) {
+          dark.push(nested);
+        }
       }
     }
   }
-  const wrap = (declarations) =>
-    declarations.length ? `:root{${declarations.join(";")}}` : "";
-  return { light: wrap(light), dark: wrap(dark) };
+  return { light: light.join("\n"), dark: dark.join("\n") };
 }
 
 function* topLevelRules(css) {
@@ -127,9 +125,9 @@ for (const [side, bundle] of [
   ["head", headBundle],
   ["base", readAtRef(baseRef, BUNDLE_DIST) || headBundle],
 ]) {
-  const variables = rootVariables(bundle);
-  writeAsset(`vars-${side}.css`, variables.light);
-  writeAsset(`vars-${side}-dark.css`, variables.dark);
+  const base = baseStyles(bundle);
+  writeAsset(`base-${side}.css`, base.light);
+  writeAsset(`base-${side}-dark.css`, base.dark);
 }
 // Sprites are injected into srcdoc frames by a script file: frames can't
 // fetch() under file://, but <script src> works and is cached.

@@ -32,6 +32,7 @@
     overflow-y: hidden;
     padding: 0 var(--spacing-200);
     position: relative;
+    text-align: center;
     vertical-align: bottom
   ">
     <style>@scope{:scope{
@@ -53,7 +54,8 @@
       overflow-y: hidden;
       pointer-events: none;
       text-overflow: ellipsis;
-      text-wrap-mode: nowrap
+      text-wrap-mode: nowrap;
+      white-space-collapse: collapse
     ">
       <span>
         Button
@@ -90,6 +92,7 @@
       flex-direction: column;
       font-family: inherit;
       font-size: var(--font-size-body);
+      font-weight: 400;
       height: 32px;
       justify-content: center;
       max-width: 280px;
@@ -98,6 +101,8 @@
       overflow-y: hidden;
       padding: 0 var(--spacing-200);
       position: relative;
+      text-align: center;
+      text-decoration-color: rgb(0, 0, 0);
       vertical-align: bottom
     "
   >
@@ -120,7 +125,8 @@
       overflow-y: hidden;
       pointer-events: none;
       text-overflow: ellipsis;
-      text-wrap-mode: nowrap
+      text-wrap-mode: nowrap;
+      white-space-collapse: collapse
     ">
       Button
     </span>
@@ -132,19 +138,15 @@
   <button style="
     align-items: center;
     background-color: var(--color-background-secondary);
-    border-bottom-color: transparent;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-color: var(--filter-button-selected-border-color, var(--color-border-strong));
-    border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
-    border-right-color: transparent;
     border-right-style: solid;
     border-right-width: 1px;
-    border-top-color: transparent;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
     border-top-style: solid;
@@ -163,6 +165,7 @@
     overflow-y: hidden;
     padding: 0 var(--spacing-200);
     position: relative;
+    text-align: center;
     vertical-align: bottom
   ">
     <style>@scope{:scope{
@@ -184,7 +187,8 @@
       overflow-y: hidden;
       pointer-events: none;
       text-overflow: ellipsis;
-      text-wrap-mode: nowrap
+      text-wrap-mode: nowrap;
+      white-space-collapse: collapse
     ">
       Button
     </span>
@@ -227,6 +231,7 @@
     overflow-y: hidden;
     padding: 0 var(--spacing-200);
     position: relative;
+    text-align: center;
     vertical-align: bottom;
     word-spacing: 0.16em
   ">
@@ -252,6 +257,7 @@
       pointer-events: none;
       text-overflow: ellipsis;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       word-spacing: 0.16em
     ">
       <span style="
@@ -299,6 +305,7 @@
     overflow-y: hidden;
     padding: 0 var(--spacing-200);
     position: relative;
+    text-align: center;
     vertical-align: bottom
   ">
     <style>@scope{:scope{
@@ -320,7 +327,8 @@
       overflow-y: hidden;
       pointer-events: none;
       text-overflow: ellipsis;
-      text-wrap-mode: nowrap
+      text-wrap-mode: nowrap;
+      white-space-collapse: collapse
     ">
       Button with lots of text that will become truncated
     </span>

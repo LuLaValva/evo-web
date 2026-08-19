@@ -13,7 +13,8 @@
     padding-right: 8px;
     padding-top: 8px;
     scrollbar-width: unset;
-    text-wrap-mode: nowrap
+    text-wrap-mode: nowrap;
+    white-space-collapse: collapse
   ">
     <h2 style="
       border-bottom-color: currentcolor;
@@ -26,6 +27,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px
     ">
       You are here
@@ -44,14 +46,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -100,7 +100,10 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <span style="position: relative">
+        <span style="
+          line-height: normal;
+          position: relative
+        ">
           <button style="
             align-items: center;
             background-color: var(--icon-button-background-color, var(--color-background-secondary));
@@ -192,14 +195,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -249,14 +250,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -304,7 +303,8 @@
     padding-right: 8px;
     padding-top: 8px;
     scrollbar-width: unset;
-    text-wrap-mode: nowrap
+    text-wrap-mode: nowrap;
+    white-space-collapse: collapse
   ">
     <h2 style="
       border-bottom-color: currentcolor;
@@ -317,6 +317,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px
     ">
       You are here
@@ -335,14 +336,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -391,7 +390,10 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <span style="position: relative">
+        <span style="
+          line-height: normal;
+          position: relative
+        ">
           <button style="
             align-items: center;
             background-color: var(--icon-button-background-color, var(--color-background-secondary));
@@ -483,14 +485,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -540,14 +540,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -592,7 +590,8 @@
     padding-right: 8px;
     padding-top: 8px;
     scrollbar-width: unset;
-    text-wrap-mode: nowrap
+    text-wrap-mode: nowrap;
+    white-space-collapse: collapse
   ">
     <h2 style="
       border-bottom-color: currentcolor;
@@ -605,6 +604,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px
     ">
       You are here
@@ -623,14 +623,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -680,7 +678,10 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <span style="position: relative">
+        <span style="
+          line-height: normal;
+          position: relative
+        ">
           <button style="
             align-items: center;
             background-color: var(--icon-button-background-color, var(--color-background-secondary));
@@ -773,14 +774,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -831,14 +830,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -883,7 +880,8 @@
     padding-right: 8px;
     padding-top: 8px;
     scrollbar-width: unset;
-    text-wrap-mode: nowrap
+    text-wrap-mode: nowrap;
+    white-space-collapse: collapse
   ">
     <h2 style="
       border-bottom-color: currentcolor;
@@ -896,6 +894,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px
     ">
       You are here
@@ -914,14 +913,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -970,7 +967,10 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <span style="position: relative">
+        <span style="
+          line-height: normal;
+          position: relative
+        ">
           <button style="
             align-items: center;
             background-color: var(--icon-button-background-color, var(--color-background-secondary));
@@ -1057,35 +1057,38 @@
             z-index: 2
           ">
             <li>
-              <a style="
-                background-color: initial;
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
-                border-top-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
-                display: inline-grid;
-                font-family: inherit;
-                grid-template-columns: auto auto;
-                justify-content: space-between;
-                overflow-x: hidden;
-                overflow-y: hidden;
-                padding-bottom: 8px;
-                padding-left: 15px;
-                padding-right: 15px;
-                padding-top: 8px;
-                position: relative;
-                text-decoration-line: none;
-                width: 100%
-              ">
+              <a
+                href="https://www.ebay.com/rpp/cell-phone-pda"
+                style="
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+                  border-top-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
+                  display: inline-grid;
+                  font-family: inherit;
+                  grid-template-columns: auto auto;
+                  justify-content: space-between;
+                  overflow-x: hidden;
+                  overflow-y: hidden;
+                  padding-bottom: 8px;
+                  padding-left: 15px;
+                  padding-right: 15px;
+                  padding-top: 8px;
+                  position: relative;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  width: 100%
+                "
+              >
                 <style>@scope{:scope{
                   &::after {
                     background-color: var(--color-state-layer-neutral);
@@ -1102,33 +1105,36 @@
               </a>
             </li>
             <li>
-              <a style="
-                background-color: initial;
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
-                display: inline-grid;
-                font-family: inherit;
-                grid-template-columns: auto auto;
-                justify-content: space-between;
-                overflow-x: hidden;
-                overflow-y: hidden;
-                padding-bottom: 8px;
-                padding-left: 15px;
-                padding-right: 15px;
-                padding-top: 8px;
-                position: relative;
-                text-decoration-line: none;
-                width: 100%
-              ">
+              <a
+                href="https://www.ebay.com/b/Smart-Watch-Accessories/182064/bn_16565905"
+                style="
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
+                  display: inline-grid;
+                  font-family: inherit;
+                  grid-template-columns: auto auto;
+                  justify-content: space-between;
+                  overflow-x: hidden;
+                  overflow-y: hidden;
+                  padding-bottom: 8px;
+                  padding-left: 15px;
+                  padding-right: 15px;
+                  padding-top: 8px;
+                  position: relative;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  width: 100%
+                "
+              >
                 <style>@scope{:scope{
                   &::after {
                     background-color: var(--color-state-layer-neutral);
@@ -1145,35 +1151,38 @@
               </a>
             </li>
             <li>
-              <a style="
-                background-color: initial;
-                border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
-                border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
-                display: inline-grid;
-                font-family: inherit;
-                grid-template-columns: auto auto;
-                justify-content: space-between;
-                overflow-x: hidden;
-                overflow-y: hidden;
-                padding-bottom: 8px;
-                padding-left: 15px;
-                padding-right: 15px;
-                padding-top: 8px;
-                position: relative;
-                text-decoration-line: none;
-                width: 100%
-              ">
+              <a
+                href="#"
+                style="
+                  border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+                  border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
+                  display: inline-grid;
+                  font-family: inherit;
+                  grid-template-columns: auto auto;
+                  justify-content: space-between;
+                  overflow-x: hidden;
+                  overflow-y: hidden;
+                  padding-bottom: 8px;
+                  padding-left: 15px;
+                  padding-right: 15px;
+                  padding-top: 8px;
+                  position: relative;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  width: 100%
+                "
+              >
                 <style>@scope{:scope{
                   &::after {
                     background-color: var(--color-state-layer-neutral);
@@ -1216,14 +1225,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1273,14 +1280,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1328,7 +1333,8 @@
     padding-right: 8px;
     padding-top: 8px;
     scrollbar-width: unset;
-    text-wrap-mode: nowrap
+    text-wrap-mode: nowrap;
+    white-space-collapse: collapse
   ">
     <h2 style="
       border-bottom-color: currentcolor;
@@ -1341,6 +1347,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px
     ">
       You are here
@@ -1359,14 +1366,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1415,7 +1420,10 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <span style="position: relative">
+        <span style="
+          line-height: normal;
+          position: relative
+        ">
           <button style="
             align-items: center;
             background-color: var(--icon-button-background-color, var(--color-background-secondary));
@@ -1502,35 +1510,38 @@
             z-index: 2
           ">
             <li>
-              <a style="
-                background-color: initial;
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
-                border-top-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
-                display: inline-grid;
-                font-family: inherit;
-                grid-template-columns: auto auto;
-                justify-content: space-between;
-                overflow-x: hidden;
-                overflow-y: hidden;
-                padding-bottom: 8px;
-                padding-left: 15px;
-                padding-right: 15px;
-                padding-top: 8px;
-                position: relative;
-                text-decoration-line: none;
-                width: 100%
-              ">
+              <a
+                href="https://www.ebay.com/rpp/cell-phone-pda"
+                style="
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+                  border-top-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
+                  display: inline-grid;
+                  font-family: inherit;
+                  grid-template-columns: auto auto;
+                  justify-content: space-between;
+                  overflow-x: hidden;
+                  overflow-y: hidden;
+                  padding-bottom: 8px;
+                  padding-left: 15px;
+                  padding-right: 15px;
+                  padding-top: 8px;
+                  position: relative;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  width: 100%
+                "
+              >
                 <style>@scope{:scope{
                   &::after {
                     background-color: var(--color-state-layer-neutral);
@@ -1547,33 +1558,36 @@
               </a>
             </li>
             <li>
-              <a style="
-                background-color: initial;
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
-                display: inline-grid;
-                font-family: inherit;
-                grid-template-columns: auto auto;
-                justify-content: space-between;
-                overflow-x: hidden;
-                overflow-y: hidden;
-                padding-bottom: 8px;
-                padding-left: 15px;
-                padding-right: 15px;
-                padding-top: 8px;
-                position: relative;
-                text-decoration-line: none;
-                width: 100%
-              ">
+              <a
+                href="https://www.ebay.com/b/Smart-Watch-Accessories/182064/bn_16565905"
+                style="
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
+                  display: inline-grid;
+                  font-family: inherit;
+                  grid-template-columns: auto auto;
+                  justify-content: space-between;
+                  overflow-x: hidden;
+                  overflow-y: hidden;
+                  padding-bottom: 8px;
+                  padding-left: 15px;
+                  padding-right: 15px;
+                  padding-top: 8px;
+                  position: relative;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  width: 100%
+                "
+              >
                 <style>@scope{:scope{
                   &::after {
                     background-color: var(--color-state-layer-neutral);
@@ -1590,35 +1604,38 @@
               </a>
             </li>
             <li>
-              <a style="
-                background-color: initial;
-                border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
-                border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
-                display: inline-grid;
-                font-family: inherit;
-                grid-template-columns: auto auto;
-                justify-content: space-between;
-                overflow-x: hidden;
-                overflow-y: hidden;
-                padding-bottom: 8px;
-                padding-left: 15px;
-                padding-right: 15px;
-                padding-top: 8px;
-                position: relative;
-                text-decoration-line: none;
-                width: 100%
-              ">
+              <a
+                href="#"
+                style="
+                  border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+                  border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
+                  display: inline-grid;
+                  font-family: inherit;
+                  grid-template-columns: auto auto;
+                  justify-content: space-between;
+                  overflow-x: hidden;
+                  overflow-y: hidden;
+                  padding-bottom: 8px;
+                  padding-left: 15px;
+                  padding-right: 15px;
+                  padding-top: 8px;
+                  position: relative;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  width: 100%
+                "
+              >
                 <style>@scope{:scope{
                   &::after {
                     background-color: var(--color-state-layer-neutral);
@@ -1661,14 +1678,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1718,14 +1733,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1773,7 +1786,8 @@
     padding-right: 8px;
     padding-top: 8px;
     scrollbar-width: unset;
-    text-wrap-mode: nowrap
+    text-wrap-mode: nowrap;
+    white-space-collapse: collapse
   ">
     <h2 style="
       border-bottom-color: currentcolor;
@@ -1786,6 +1800,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px
     ">
       You are here
@@ -1804,14 +1819,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1860,7 +1873,10 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <span style="position: relative">
+        <span style="
+          line-height: normal;
+          position: relative
+        ">
           <button style="
             align-items: center;
             background-color: var(--icon-button-background-color, var(--color-background-secondary));
@@ -1952,14 +1968,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -2007,7 +2021,8 @@
     padding-right: 8px;
     padding-top: 8px;
     scrollbar-width: unset;
-    text-wrap-mode: nowrap
+    text-wrap-mode: nowrap;
+    white-space-collapse: collapse
   ">
     <h2 style="
       border-bottom-color: currentcolor;
@@ -2020,6 +2035,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px
     ">
       You are here
@@ -2038,14 +2054,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -2094,7 +2108,10 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <span style="position: relative">
+        <span style="
+          line-height: normal;
+          position: relative
+        ">
           <button style="
             align-items: center;
             background-color: var(--icon-button-background-color, var(--color-background-secondary));
@@ -2186,14 +2203,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -2244,6 +2259,7 @@
     padding-top: 8px;
     scrollbar-width: unset;
     text-wrap-mode: nowrap;
+    white-space-collapse: collapse;
     word-spacing: 0.16em
   ">
     <h2 style="
@@ -2259,6 +2275,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px;
       word-spacing: 0.16em
     ">
@@ -2284,14 +2301,12 @@
         word-spacing: 0.16em
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -2479,14 +2494,12 @@
         word-spacing: 0.16em
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -2552,14 +2565,12 @@
         word-spacing: 0.16em
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -2613,6 +2624,7 @@
     padding-top: 8px;
     scrollbar-width: unset;
     text-wrap-mode: nowrap;
+    white-space-collapse: collapse;
     word-spacing: 0.16em
   ">
     <h2 style="
@@ -2628,6 +2640,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px;
       word-spacing: 0.16em
     ">
@@ -2653,14 +2666,12 @@
         word-spacing: 0.16em
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -2848,14 +2859,12 @@
         word-spacing: 0.16em
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -2921,14 +2930,12 @@
         word-spacing: 0.16em
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;

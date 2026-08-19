@@ -2,25 +2,22 @@
 <div>
   <span style="
     display: inline-block;
+    line-height: normal;
     position: relative;
     vertical-align: bottom
   ">
     <button style="
       align-content: center;
       align-items: center;
-      background-color: initial;
-      border-bottom-color: inherit;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--listbox-button-border-color, var(--color-border-medium));
-      border-left-color: inherit;
       border-left-style: solid;
       border-left-width: 1px;
       border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
-      border-right-color: inherit;
       border-right-style: solid;
       border-right-width: 1px;
-      border-top-color: inherit;
       border-top-style: solid;
       border-top-width: 1px;
       color: inherit;
@@ -36,6 +33,7 @@
       padding-right: 15px;
       padding-top: 0px;
       position: relative;
+      text-align: center;
       vertical-align: bottom
     ">
       <style>@scope{:scope{
@@ -95,25 +93,22 @@
 <div>
   <span style="
     display: inline-block;
+    line-height: normal;
     position: relative;
     vertical-align: bottom
   ">
     <button style="
       align-content: center;
       align-items: center;
-      background-color: initial;
-      border-bottom-color: inherit;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--listbox-button-border-color, var(--color-border-medium));
-      border-left-color: inherit;
       border-left-style: solid;
       border-left-width: 1px;
       border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
-      border-right-color: inherit;
       border-right-style: solid;
       border-right-width: 1px;
-      border-top-color: inherit;
       border-top-style: solid;
       border-top-width: 1px;
       color: inherit;
@@ -129,6 +124,7 @@
       padding-right: 15px;
       padding-top: 0px;
       position: relative;
+      text-align: center;
       vertical-align: bottom
     ">
       <style>@scope{:scope{
@@ -188,25 +184,22 @@
 <div>
   <span style="
     display: inline-block;
+    line-height: normal;
     position: relative;
     vertical-align: bottom
   ">
     <button style="
       align-content: center;
       align-items: center;
-      background-color: initial;
-      border-bottom-color: inherit;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--listbox-button-border-color, var(--color-border-medium));
-      border-left-color: inherit;
       border-left-style: solid;
       border-left-width: 1px;
       border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
-      border-right-color: inherit;
       border-right-style: solid;
       border-right-width: 1px;
-      border-top-color: inherit;
       border-top-style: solid;
       border-top-width: 1px;
       color: inherit;
@@ -222,6 +215,7 @@
       padding-right: 15px;
       padding-top: 0px;
       position: relative;
+      text-align: center;
       vertical-align: bottom
     ">
       <style>@scope{:scope{
@@ -284,6 +278,7 @@
 <div>
   <span style="
     display: inline-block;
+    line-height: normal;
     position: relative;
     vertical-align: bottom
   ">
@@ -292,19 +287,15 @@
       style="
         align-content: center;
         align-items: center;
-        background-color: initial;
-        border-bottom-color: inherit;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--expand-btn-disabled-border-color, var(--color-border-disabled));
-        border-left-color: inherit;
         border-left-style: solid;
         border-left-width: 1px;
         border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
-        border-right-color: inherit;
         border-right-style: solid;
         border-right-width: 1px;
-        border-top-color: inherit;
         border-top-style: solid;
         border-top-width: 1px;
         color: var(--expand-btn-disabled-foreground-color, var(--color-foreground-disabled));
@@ -320,6 +311,8 @@
         padding-right: 15px;
         padding-top: 0px;
         position: relative;
+        text-align: center;
+        text-decoration-color: rgb(0, 0, 0);
         vertical-align: bottom
       "
     >
@@ -383,25 +376,22 @@
 <div>
   <span style="
     display: inline-block;
+    line-height: normal;
     position: relative;
     vertical-align: bottom
   ">
     <button style="
       align-content: center;
       align-items: center;
-      background-color: initial;
-      border-bottom-color: inherit;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--listbox-button-border-color, var(--color-border-medium));
-      border-left-color: inherit;
       border-left-style: solid;
       border-left-width: 1px;
       border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
-      border-right-color: inherit;
       border-right-style: solid;
       border-right-width: 1px;
-      border-top-color: inherit;
       border-top-style: solid;
       border-top-width: 1px;
       color: inherit;
@@ -417,6 +407,7 @@
       padding-right: 15px;
       padding-top: 0px;
       position: relative;
+      text-align: center;
       vertical-align: bottom
     ">
       <style>@scope{:scope{
@@ -486,7 +477,6 @@
     ">
       <div style="border-radius: var(--listbox-button-border-radius, var(--border-radius-50))">
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--color-background-primary);
@@ -530,13 +520,15 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Red
           </span>
           <span style="
             color: var(--listbox-button-subtitle-color, var(--color-foreground-secondary));
             font-size: var(--font-size-small);
+            font-weight: 400;
             grid-row-start: 2
           ">
             <span style="
@@ -550,6 +542,7 @@
               overflow-y: hidden;
               position: absolute;
               text-wrap-mode: nowrap;
+              white-space-collapse: collapse;
               width: 1px
             ">
               .
@@ -564,7 +557,6 @@
               fill: currentcolor;
               height: 16px;
               margin-inline-start: var(--spacing-100);
-              margin-left: auto;
               margin-right: auto;
               opacity: 0;
               pointer-events: none;
@@ -579,7 +571,6 @@
           </svg>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--color-background-primary);
@@ -621,13 +612,15 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Blue
           </span>
           <span style="
             color: var(--listbox-button-subtitle-color, var(--color-foreground-secondary));
             font-size: var(--font-size-small);
+            font-weight: 400;
             grid-row-start: 2
           ">
             <span style="
@@ -641,6 +634,7 @@
               overflow-y: hidden;
               position: absolute;
               text-wrap-mode: nowrap;
+              white-space-collapse: collapse;
               width: 1px
             ">
               .
@@ -655,7 +649,6 @@
               fill: currentcolor;
               height: 16px;
               margin-inline-start: var(--spacing-100);
-              margin-left: auto;
               margin-right: auto;
               pointer-events: none;
               stroke-width: 0;
@@ -669,7 +662,6 @@
           </svg>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--color-background-primary);
@@ -711,13 +703,15 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Yellow
           </span>
           <span style="
             color: var(--listbox-button-subtitle-color, var(--color-foreground-secondary));
             font-size: var(--font-size-small);
+            font-weight: 400;
             grid-row-start: 2
           ">
             <span style="
@@ -731,6 +725,7 @@
               overflow-y: hidden;
               position: absolute;
               text-wrap-mode: nowrap;
+              white-space-collapse: collapse;
               width: 1px
             ">
               .
@@ -745,7 +740,6 @@
               fill: currentcolor;
               height: 16px;
               margin-inline-start: var(--spacing-100);
-              margin-left: auto;
               margin-right: auto;
               opacity: 0;
               pointer-events: none;
@@ -760,7 +754,6 @@
           </svg>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-left-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
@@ -803,13 +796,15 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Green
           </span>
           <span style="
             color: var(--listbox-button-subtitle-color, var(--color-foreground-secondary));
             font-size: var(--font-size-small);
+            font-weight: 400;
             grid-row-start: 2
           ">
             <span style="
@@ -823,6 +818,7 @@
               overflow-y: hidden;
               position: absolute;
               text-wrap-mode: nowrap;
+              white-space-collapse: collapse;
               width: 1px
             ">
               .
@@ -837,7 +833,6 @@
               fill: currentcolor;
               height: 16px;
               margin-inline-start: var(--spacing-100);
-              margin-left: auto;
               margin-right: auto;
               opacity: 0;
               pointer-events: none;
@@ -863,25 +858,22 @@
 <div>
   <span style="
     display: inline-block;
+    line-height: normal;
     position: relative;
     vertical-align: bottom
   ">
     <button style="
       align-content: center;
       align-items: center;
-      background-color: initial;
-      border-bottom-color: inherit;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--listbox-button-border-color, var(--color-border-medium));
-      border-left-color: inherit;
       border-left-style: solid;
       border-left-width: 1px;
       border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
-      border-right-color: inherit;
       border-right-style: solid;
       border-right-width: 1px;
-      border-top-color: inherit;
       border-top-style: solid;
       border-top-width: 1px;
       color: inherit;
@@ -897,6 +889,7 @@
       padding-right: 15px;
       padding-top: 0px;
       position: relative;
+      text-align: center;
       vertical-align: bottom
     ">
       <style>@scope{:scope{
@@ -966,7 +959,6 @@
     ">
       <div style="border-radius: var(--listbox-button-border-radius, var(--border-radius-50))">
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--color-background-primary);
@@ -1010,13 +1002,15 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Red
           </span>
           <span style="
             color: var(--listbox-button-subtitle-color, var(--color-foreground-secondary));
             font-size: var(--font-size-small);
+            font-weight: 400;
             grid-row-start: 2
           ">
             <span style="
@@ -1030,6 +1024,7 @@
               overflow-y: hidden;
               position: absolute;
               text-wrap-mode: nowrap;
+              white-space-collapse: collapse;
               width: 1px
             ">
               .
@@ -1044,7 +1039,6 @@
               fill: currentcolor;
               height: 16px;
               margin-inline-start: var(--spacing-100);
-              margin-left: auto;
               margin-right: auto;
               opacity: 0;
               pointer-events: none;
@@ -1059,7 +1053,6 @@
           </svg>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--color-background-primary);
@@ -1101,13 +1094,15 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Blue
           </span>
           <span style="
             color: var(--listbox-button-subtitle-color, var(--color-foreground-secondary));
             font-size: var(--font-size-small);
+            font-weight: 400;
             grid-row-start: 2
           ">
             <span style="
@@ -1121,6 +1116,7 @@
               overflow-y: hidden;
               position: absolute;
               text-wrap-mode: nowrap;
+              white-space-collapse: collapse;
               width: 1px
             ">
               .
@@ -1135,7 +1131,6 @@
               fill: currentcolor;
               height: 16px;
               margin-inline-start: var(--spacing-100);
-              margin-left: auto;
               margin-right: auto;
               opacity: 0;
               pointer-events: none;
@@ -1150,7 +1145,6 @@
           </svg>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--color-background-primary);
@@ -1192,13 +1186,15 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Yellow
           </span>
           <span style="
             color: var(--listbox-button-subtitle-color, var(--color-foreground-secondary));
             font-size: var(--font-size-small);
+            font-weight: 400;
             grid-row-start: 2
           ">
             <span style="
@@ -1212,6 +1208,7 @@
               overflow-y: hidden;
               position: absolute;
               text-wrap-mode: nowrap;
+              white-space-collapse: collapse;
               width: 1px
             ">
               .
@@ -1226,7 +1223,6 @@
               fill: currentcolor;
               height: 16px;
               margin-inline-start: var(--spacing-100);
-              margin-left: auto;
               margin-right: auto;
               opacity: 0;
               pointer-events: none;
@@ -1241,7 +1237,6 @@
           </svg>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-left-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
@@ -1284,13 +1279,15 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Green
           </span>
           <span style="
             color: var(--listbox-button-subtitle-color, var(--color-foreground-secondary));
             font-size: var(--font-size-small);
+            font-weight: 400;
             grid-row-start: 2
           ">
             <span style="
@@ -1304,6 +1301,7 @@
               overflow-y: hidden;
               position: absolute;
               text-wrap-mode: nowrap;
+              white-space-collapse: collapse;
               width: 1px
             ">
               .
@@ -1318,7 +1316,6 @@
               fill: currentcolor;
               height: 16px;
               margin-inline-start: var(--spacing-100);
-              margin-left: auto;
               margin-right: auto;
               opacity: 0;
               pointer-events: none;
@@ -1344,25 +1341,22 @@
 <div>
   <span style="
     display: inline-block;
+    line-height: normal;
     position: relative;
     vertical-align: bottom
   ">
     <button style="
       align-content: center;
       align-items: center;
-      background-color: initial;
-      border-bottom-color: inherit;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--listbox-button-invalid-border-color, var(--color-border-attention));
-      border-left-color: inherit;
       border-left-style: solid;
       border-left-width: 1px;
       border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
-      border-right-color: inherit;
       border-right-style: solid;
       border-right-width: 1px;
-      border-top-color: inherit;
       border-top-style: solid;
       border-top-width: 1px;
       color: inherit;
@@ -1378,6 +1372,7 @@
       padding-right: 15px;
       padding-top: 0px;
       position: relative;
+      text-align: center;
       vertical-align: bottom
     ">
       <style>@scope{:scope{
@@ -1440,25 +1435,22 @@
 <div>
   <span style="
     display: inline-block;
+    line-height: normal;
     position: relative;
     vertical-align: bottom
   ">
     <button style="
       align-content: center;
       align-items: center;
-      background-color: initial;
-      border-bottom-color: inherit;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--listbox-button-border-color, var(--color-border-medium));
-      border-left-color: inherit;
       border-left-style: solid;
       border-left-width: 1px;
       border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
-      border-right-color: inherit;
       border-right-style: solid;
       border-right-width: 1px;
-      border-top-color: inherit;
       border-top-style: solid;
       border-top-width: 1px;
       color: inherit;
@@ -1474,6 +1466,7 @@
       padding-right: 15px;
       padding-top: 0px;
       position: relative;
+      text-align: center;
       vertical-align: bottom
     ">
       <style>@scope{:scope{
@@ -1543,7 +1536,6 @@
     ">
       <div style="border-radius: var(--listbox-button-border-radius, var(--border-radius-50))">
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--color-background-primary);
@@ -1587,13 +1579,15 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Red with very very very long text
           </span>
           <span style="
             color: var(--listbox-button-subtitle-color, var(--color-foreground-secondary));
             font-size: var(--font-size-small);
+            font-weight: 400;
             grid-row-start: 2
           ">
             <span style="
@@ -1607,6 +1601,7 @@
               overflow-y: hidden;
               position: absolute;
               text-wrap-mode: nowrap;
+              white-space-collapse: collapse;
               width: 1px
             ">
               .
@@ -1621,7 +1616,6 @@
               fill: currentcolor;
               height: 16px;
               margin-inline-start: var(--spacing-100);
-              margin-left: auto;
               margin-right: auto;
               pointer-events: none;
               stroke-width: 0;
@@ -1635,7 +1629,6 @@
           </svg>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--color-background-primary);
@@ -1677,13 +1670,15 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Blue
           </span>
           <span style="
             color: var(--listbox-button-subtitle-color, var(--color-foreground-secondary));
             font-size: var(--font-size-small);
+            font-weight: 400;
             grid-row-start: 2
           ">
             <span style="
@@ -1697,6 +1692,7 @@
               overflow-y: hidden;
               position: absolute;
               text-wrap-mode: nowrap;
+              white-space-collapse: collapse;
               width: 1px
             ">
               .
@@ -1711,7 +1707,6 @@
               fill: currentcolor;
               height: 16px;
               margin-inline-start: var(--spacing-100);
-              margin-left: auto;
               margin-right: auto;
               opacity: 0;
               pointer-events: none;
@@ -1726,7 +1721,6 @@
           </svg>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-left-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
@@ -1769,13 +1763,15 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Yellow
           </span>
           <span style="
             color: var(--listbox-button-subtitle-color, var(--color-foreground-secondary));
             font-size: var(--font-size-small);
+            font-weight: 400;
             grid-row-start: 2
           ">
             <span style="
@@ -1789,6 +1785,7 @@
               overflow-y: hidden;
               position: absolute;
               text-wrap-mode: nowrap;
+              white-space-collapse: collapse;
               width: 1px
             ">
               .
@@ -1803,7 +1800,6 @@
               fill: currentcolor;
               height: 16px;
               margin-inline-start: var(--spacing-100);
-              margin-left: auto;
               margin-right: auto;
               opacity: 0;
               pointer-events: none;
@@ -1829,25 +1825,22 @@
 <div>
   <span style="
     display: inline-block;
+    line-height: normal;
     position: relative;
     vertical-align: bottom
   ">
     <button style="
       align-content: center;
       align-items: center;
-      background-color: initial;
-      border-bottom-color: inherit;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--listbox-button-border-color, var(--color-border-medium));
-      border-left-color: inherit;
       border-left-style: solid;
       border-left-width: 1px;
       border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
-      border-right-color: inherit;
       border-right-style: solid;
       border-right-width: 1px;
-      border-top-color: inherit;
       border-top-style: solid;
       border-top-width: 1px;
       color: inherit;
@@ -1863,6 +1856,7 @@
       padding-right: 15px;
       padding-top: 0px;
       position: relative;
+      text-align: center;
       vertical-align: bottom
     ">
       <style>@scope{:scope{
@@ -1932,7 +1926,6 @@
     ">
       <div style="border-radius: var(--listbox-button-border-radius, var(--border-radius-50))">
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--color-background-primary);
@@ -1976,13 +1969,15 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Red
           </span>
           <span style="
             color: var(--listbox-button-subtitle-color, var(--color-foreground-secondary));
             font-size: var(--font-size-small);
+            font-weight: 400;
             grid-row-start: 2
           ">
             <span style="
@@ -1996,6 +1991,7 @@
               overflow-y: hidden;
               position: absolute;
               text-wrap-mode: nowrap;
+              white-space-collapse: collapse;
               width: 1px
             ">
               .
@@ -2010,7 +2006,6 @@
               fill: currentcolor;
               height: 16px;
               margin-inline-start: var(--spacing-100);
-              margin-left: auto;
               margin-right: auto;
               pointer-events: none;
               stroke-width: 0;
@@ -2024,7 +2019,6 @@
           </svg>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--color-background-primary);
@@ -2066,13 +2060,15 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Blue
           </span>
           <span style="
             color: var(--listbox-button-subtitle-color, var(--color-foreground-secondary));
             font-size: var(--font-size-small);
+            font-weight: 400;
             grid-row-start: 2
           ">
             <span style="
@@ -2086,6 +2082,7 @@
               overflow-y: hidden;
               position: absolute;
               text-wrap-mode: nowrap;
+              white-space-collapse: collapse;
               width: 1px
             ">
               .
@@ -2100,7 +2097,6 @@
               fill: currentcolor;
               height: 16px;
               margin-inline-start: var(--spacing-100);
-              margin-left: auto;
               margin-right: auto;
               opacity: 0;
               pointer-events: none;
@@ -2115,7 +2111,6 @@
           </svg>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-left-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--listbox-button-listbox-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
@@ -2158,13 +2153,15 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Yellow
           </span>
           <span style="
             color: var(--listbox-button-subtitle-color, var(--color-foreground-secondary));
             font-size: var(--font-size-small);
+            font-weight: 400;
             grid-row-start: 2
           ">
             <span style="
@@ -2178,6 +2175,7 @@
               overflow-y: hidden;
               position: absolute;
               text-wrap-mode: nowrap;
+              white-space-collapse: collapse;
               width: 1px
             ">
               .
@@ -2192,7 +2190,6 @@
               fill: currentcolor;
               height: 16px;
               margin-inline-start: var(--spacing-100);
-              margin-left: auto;
               margin-right: auto;
               opacity: 0;
               pointer-events: none;

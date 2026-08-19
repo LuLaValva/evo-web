@@ -1,11 +1,11 @@
 ┌─ base @ 320px
 <div>
-  <div style="
+  <div style='
     display: grid;
     grid-template-areas: "center";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr
-  ">
+  '>
     <div style="
       background-color: var(--file-input-background-color, var(--color-background-secondary));
       border-bottom-color: currentcolor;
@@ -64,6 +64,7 @@
         <h4 style="
           color: var(--file-input-content-header-color, var(--color-foreground-primary));
           font-size: var(--font-size-body);
+          font-weight: 700;
           line-height: var(--spacing-250);
           margin-block: 0 var(--spacing-50)
         ">
@@ -72,6 +73,7 @@
         <span style="
           color: var(--file-input-content-subheader-color, var(--color-foreground-secondary));
           font-size: var(--font-size-small);
+          font-weight: 400;
           line-height: var(--spacing-200);
           margin-block-end: var(--spacing-100)
         ">
@@ -103,12 +105,12 @@
 
 ┌─ base @ 1280px
 <div>
-  <div style="
+  <div style='
     display: grid;
     grid-template-areas: "center";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr
-  ">
+  '>
     <div style="
       background-color: var(--file-input-background-color, var(--color-background-secondary));
       border-bottom-color: currentcolor;
@@ -167,6 +169,7 @@
         <h4 style="
           color: var(--file-input-content-header-color, var(--color-foreground-primary));
           font-size: var(--font-size-medium);
+          font-weight: 700;
           line-height: var(--spacing-300);
           margin-block: 0 var(--spacing-50)
         ">
@@ -175,6 +178,7 @@
         <span style="
           color: var(--file-input-content-subheader-color, var(--color-foreground-secondary));
           font-size: var(--font-size-body);
+          font-weight: 400;
           line-height: var(--spacing-250);
           margin-block-end: var(--spacing-100)
         ">
@@ -203,12 +207,12 @@
 
 ┌─ draggedOver @ 320px
 <div>
-  <div style="
+  <div style='
     display: grid;
     grid-template-areas: "center";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr
-  ">
+  '>
     <div style="
       background-color: var(--file-input-dragged-over-background-color, var(--color-background-tertiary));
       border-bottom-color: currentcolor;
@@ -267,6 +271,7 @@
         <h4 style="
           color: var(--file-input-content-header-color, var(--color-foreground-primary));
           font-size: var(--font-size-body);
+          font-weight: 700;
           line-height: var(--spacing-250);
           margin-block: 0 var(--spacing-50)
         ">
@@ -275,6 +280,7 @@
         <span style="
           color: var(--file-input-content-subheader-color, var(--color-foreground-secondary));
           font-size: var(--font-size-small);
+          font-weight: 400;
           line-height: var(--spacing-200);
           margin-block-end: var(--spacing-100)
         ">
@@ -306,12 +312,12 @@
 
 ┌─ draggedOver @ 1280px
 <div>
-  <div style="
+  <div style='
     display: grid;
     grid-template-areas: "center";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr
-  ">
+  '>
     <div style="
       background-color: var(--file-input-dragged-over-background-color, var(--color-background-tertiary));
       border-bottom-color: currentcolor;
@@ -370,6 +376,7 @@
         <h4 style="
           color: var(--file-input-content-header-color, var(--color-foreground-primary));
           font-size: var(--font-size-medium);
+          font-weight: 700;
           line-height: var(--spacing-300);
           margin-block: 0 var(--spacing-50)
         ">
@@ -378,6 +385,7 @@
         <span style="
           color: var(--file-input-content-subheader-color, var(--color-foreground-secondary));
           font-size: var(--font-size-body);
+          font-weight: 400;
           line-height: var(--spacing-250);
           margin-block-end: var(--spacing-100)
         ">

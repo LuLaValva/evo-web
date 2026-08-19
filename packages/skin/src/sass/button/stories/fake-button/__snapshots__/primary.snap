@@ -4,18 +4,14 @@
     align-content: center;
     align-items: center;
     background-color: var(--btn-primary-disabled-background-color, var(--color-foreground-disabled));
-    border-bottom-color: currentcolor;
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-color: var(--btn-primary-disabled-border-color, var(--color-foreground-disabled));
-    border-left-color: currentcolor;
     border-left-style: solid;
     border-left-width: 1px;
     border-radius: var(--btn-border-radius, 20px);
-    border-right-color: currentcolor;
     border-right-style: solid;
     border-right-width: 1px;
-    border-top-color: currentcolor;
     border-top-style: solid;
     border-top-width: 1px;
     box-sizing: border-box;
@@ -82,43 +78,43 @@
 
 ┌─ iconAndText @ 1280px
 <div>
-  <a style="
-    align-content: center;
-    align-items: center;
-    background-color: var(--color-background-accent);
-    border-bottom-color: currentcolor;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-color: var(--color-border-accent);
-    border-left-color: currentcolor;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-radius: var(--btn-border-radius, 20px);
-    border-right-color: currentcolor;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-top-color: currentcolor;
-    border-top-style: solid;
-    border-top-width: 1px;
-    box-sizing: border-box;
-    color: var(--color-foreground-on-accent);
-    display: inline-block;
-    font-family: inherit;
-    font-size: var(--font-size-body);
-    font-weight: 700;
-    min-height: 40px;
-    min-width: 88px;
-    outline-color: var(--color-foreground-primary);
-    overflow-x: hidden;
-    overflow-y: hidden;
-    padding-left: 20px;
-    padding-right: 20px;
-    position: relative;
-    text-align: center;
-    text-decoration-line: none;
-    transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
-    vertical-align: bottom
-  ">
+  <a
+    href="http://www.ebay.com"
+    style="
+      align-content: center;
+      align-items: center;
+      background-color: var(--color-background-accent);
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-color: var(--color-border-accent);
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 20px);
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--color-foreground-on-accent);
+      display: inline-block;
+      font-family: inherit;
+      font-size: var(--font-size-body);
+      font-weight: 700;
+      min-height: 40px;
+      min-width: 88px;
+      outline-color: var(--color-foreground-primary);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      padding-left: 20px;
+      padding-right: 20px;
+      position: relative;
+      text-align: center;
+      text-decoration-color: rgb(0, 0, 0);
+      text-decoration-line: none;
+      transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
+      vertical-align: bottom
+    "
+  >
     <style>@scope{:scope{
       &::after {
         background-color: var(--color-state-layer-neutral);
@@ -165,43 +161,43 @@
 
 ┌─ iconOnly @ 1280px
 <div>
-  <a style="
-    align-content: center;
-    align-items: center;
-    background-color: var(--color-background-accent);
-    border-bottom-color: currentcolor;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-color: var(--color-border-accent);
-    border-left-color: currentcolor;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-radius: var(--btn-border-radius, 20px);
-    border-right-color: currentcolor;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-top-color: currentcolor;
-    border-top-style: solid;
-    border-top-width: 1px;
-    box-sizing: border-box;
-    color: var(--color-foreground-on-accent);
-    display: inline-block;
-    font-family: inherit;
-    font-size: var(--font-size-body);
-    font-weight: 700;
-    min-height: 40px;
-    min-width: 88px;
-    outline-color: var(--color-foreground-primary);
-    overflow-x: hidden;
-    overflow-y: hidden;
-    padding-left: 20px;
-    padding-right: 20px;
-    position: relative;
-    text-align: center;
-    text-decoration-line: none;
-    transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
-    vertical-align: bottom
-  ">
+  <a
+    href="http://www.ebay.com"
+    style="
+      align-content: center;
+      align-items: center;
+      background-color: var(--color-background-accent);
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-color: var(--color-border-accent);
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 20px);
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--color-foreground-on-accent);
+      display: inline-block;
+      font-family: inherit;
+      font-size: var(--font-size-body);
+      font-weight: 700;
+      min-height: 40px;
+      min-width: 88px;
+      outline-color: var(--color-foreground-primary);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      padding-left: 20px;
+      padding-right: 20px;
+      position: relative;
+      text-align: center;
+      text-decoration-color: rgb(0, 0, 0);
+      text-decoration-line: none;
+      transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
+      vertical-align: bottom
+    "
+  >
     <style>@scope{:scope{
       &::after {
         background-color: var(--color-state-layer-neutral);
@@ -226,8 +222,6 @@
           align-self: center;
           display: inline-block;
           fill: currentcolor;
-          margin-inline-end: 8px;
-          margin-inline-start: 8px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
@@ -246,43 +240,43 @@
 
 ┌─ partiallyDisabled @ 1280px
 <div>
-  <a style="
-    align-content: center;
-    align-items: center;
-    background-color: var(--btn-primary-disabled-background-color, var(--color-foreground-disabled));
-    border-bottom-color: currentcolor;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-color: var(--btn-primary-disabled-border-color, var(--color-foreground-disabled));
-    border-left-color: currentcolor;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-radius: var(--btn-border-radius, 20px);
-    border-right-color: currentcolor;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-top-color: currentcolor;
-    border-top-style: solid;
-    border-top-width: 1px;
-    box-sizing: border-box;
-    color: var(--btn-primary-foreground-color, var(--color-foreground-on-accent));
-    display: inline-block;
-    font-family: inherit;
-    font-size: var(--font-size-body);
-    font-weight: 700;
-    min-height: 40px;
-    min-width: 88px;
-    outline-color: var(--color-foreground-primary);
-    overflow-x: hidden;
-    overflow-y: hidden;
-    padding-left: 20px;
-    padding-right: 20px;
-    position: relative;
-    text-align: center;
-    text-decoration-line: none;
-    transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
-    vertical-align: bottom
-  ">
+  <a
+    href="http://www.ebay.com"
+    style="
+      align-content: center;
+      align-items: center;
+      background-color: var(--btn-primary-disabled-background-color, var(--color-foreground-disabled));
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-color: var(--btn-primary-disabled-border-color, var(--color-foreground-disabled));
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 20px);
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--btn-primary-foreground-color, var(--color-foreground-on-accent));
+      display: inline-block;
+      font-family: inherit;
+      font-size: var(--font-size-body);
+      font-weight: 700;
+      min-height: 40px;
+      min-width: 88px;
+      outline-color: var(--color-foreground-primary);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      padding-left: 20px;
+      padding-right: 20px;
+      position: relative;
+      text-align: center;
+      text-decoration-color: rgb(0, 0, 0);
+      text-decoration-line: none;
+      transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
+      vertical-align: bottom
+    "
+  >
     <style>@scope{:scope{
       &::after {
         background-color: var(--color-state-layer-neutral);
@@ -329,43 +323,43 @@
 
 ┌─ textOnly @ 1280px
 <div>
-  <a style="
-    align-content: center;
-    align-items: center;
-    background-color: var(--color-background-accent);
-    border-bottom-color: currentcolor;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-color: var(--color-border-accent);
-    border-left-color: currentcolor;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-radius: var(--btn-border-radius, 20px);
-    border-right-color: currentcolor;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-top-color: currentcolor;
-    border-top-style: solid;
-    border-top-width: 1px;
-    box-sizing: border-box;
-    color: var(--color-foreground-on-accent);
-    display: inline-block;
-    font-family: inherit;
-    font-size: var(--font-size-body);
-    font-weight: 700;
-    min-height: 40px;
-    min-width: 88px;
-    outline-color: var(--color-foreground-primary);
-    overflow-x: hidden;
-    overflow-y: hidden;
-    padding-left: 20px;
-    padding-right: 20px;
-    position: relative;
-    text-align: center;
-    text-decoration-line: none;
-    transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
-    vertical-align: bottom
-  ">
+  <a
+    href="http://www.ebay/com"
+    style="
+      align-content: center;
+      align-items: center;
+      background-color: var(--color-background-accent);
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-color: var(--color-border-accent);
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 20px);
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--color-foreground-on-accent);
+      display: inline-block;
+      font-family: inherit;
+      font-size: var(--font-size-body);
+      font-weight: 700;
+      min-height: 40px;
+      min-width: 88px;
+      outline-color: var(--color-foreground-primary);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      padding-left: 20px;
+      padding-right: 20px;
+      position: relative;
+      text-align: center;
+      text-decoration-color: rgb(0, 0, 0);
+      text-decoration-line: none;
+      transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
+      vertical-align: bottom
+    "
+  >
     <style>@scope{:scope{
       &::after {
         background-color: var(--color-state-layer-neutral);

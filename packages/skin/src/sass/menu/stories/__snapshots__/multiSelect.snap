@@ -51,7 +51,8 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Item 1
         </span>
@@ -118,7 +119,8 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Item 2
         </span>
@@ -184,7 +186,8 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Item 3
         </span>
@@ -223,7 +226,6 @@
       cursor: default
     ">
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -264,7 +266,8 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Item 1
         </span>
@@ -289,7 +292,6 @@
         </svg>
       </div>
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -330,7 +332,8 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Item 2
         </span>
@@ -355,7 +358,6 @@
         </svg>
       </div>
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -395,7 +397,8 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Item 3
         </span>
@@ -434,7 +437,6 @@
       cursor: default
     ">
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -475,7 +477,8 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Item 1
         </span>
@@ -501,7 +504,6 @@
         </svg>
       </div>
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -542,7 +544,8 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Item 2
         </span>
@@ -568,7 +571,6 @@
         </svg>
       </div>
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -608,7 +610,8 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Item 3
         </span>

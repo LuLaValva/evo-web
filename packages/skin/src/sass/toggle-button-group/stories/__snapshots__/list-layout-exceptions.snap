@@ -33,6 +33,8 @@
         gap: var(--spacing-100);
         grid-auto-rows: 1fr;
         grid-template-columns: repeat(var(--row-list-toggle-buttons-min), 1fr);
+        list-style-image: none;
+        list-style-position: outside;
         list-style-type: none;
         margin-bottom: 0px;
         margin-top: 0px;
@@ -754,6 +756,8 @@
         gap: var(--spacing-100);
         grid-auto-rows: 1fr;
         grid-template-columns: repeat(var(--row-list-toggle-buttons-min), 1fr);
+        list-style-image: none;
+        list-style-position: outside;
         list-style-type: none;
         margin-bottom: 0px;
         margin-top: 0px;
@@ -1475,6 +1479,8 @@
         gap: var(--spacing-100);
         grid-auto-rows: 1fr;
         grid-template-columns: repeat(var(--row-list-toggle-buttons-min), 1fr);
+        list-style-image: none;
+        list-style-position: outside;
         list-style-type: none;
         margin-bottom: 0px;
         margin-top: 0px;
@@ -2196,6 +2202,8 @@
         gap: var(--spacing-100);
         grid-auto-rows: 1fr;
         grid-template-columns: repeat(var(--row-list-toggle-buttons-min), 1fr);
+        list-style-image: none;
+        list-style-position: outside;
         list-style-type: none;
         margin-bottom: 0px;
         margin-top: 0px;
@@ -2917,6 +2925,8 @@
         gap: var(--spacing-100);
         grid-auto-rows: 1fr;
         grid-template-columns: repeat(var(--row-list-toggle-buttons-min), 1fr);
+        list-style-image: none;
+        list-style-position: outside;
         list-style-type: none;
         margin-bottom: 0px;
         margin-top: 0px;

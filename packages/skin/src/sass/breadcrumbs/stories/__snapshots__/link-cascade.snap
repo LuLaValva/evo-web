@@ -13,7 +13,8 @@
     padding-right: 8px;
     padding-top: 8px;
     scrollbar-width: none;
-    text-wrap-mode: nowrap
+    text-wrap-mode: nowrap;
+    white-space-collapse: collapse
   ">
     <h2 style="
       border-bottom-color: currentcolor;
@@ -26,6 +27,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px
     ">
       You are here
@@ -43,15 +45,19 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <a style="
-          color: inherit;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis
-        ">
+        <a
+          href="https://www.ebay.com/"
+          style="
+            color: inherit;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis
+          "
+        >
           ebay
         </a>
         <svg
@@ -78,15 +84,19 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <a style="
-          color: inherit;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis
-        ">
+        <a
+          href="https://www.ebay.com/rpp/cell-phone-pda"
+          style="
+            color: inherit;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis
+          "
+        >
           Cell Phones, Smart Watches & Accessories
         </a>
         <svg
@@ -113,15 +123,19 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <a style="
-          color: inherit;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis
-        ">
+        <a
+          href="https://www.ebay.com/b/Smart-Watch-Accessories/182064/bn_16565905"
+          style="
+            color: inherit;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis
+          "
+        >
           Smart Watch Accessories
         </a>
         <svg
@@ -181,7 +195,8 @@
     padding-right: 8px;
     padding-top: 8px;
     scrollbar-width: none;
-    text-wrap-mode: nowrap
+    text-wrap-mode: nowrap;
+    white-space-collapse: collapse
   ">
     <h2 style="
       border-bottom-color: currentcolor;
@@ -194,6 +209,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px
     ">
       You are here
@@ -211,15 +227,19 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <a style="
-          color: inherit;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis
-        ">
+        <a
+          href="https://www.ebay.com/"
+          style="
+            color: inherit;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis
+          "
+        >
           ebay
         </a>
         <svg
@@ -246,15 +266,19 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <a style="
-          color: inherit;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis
-        ">
+        <a
+          href="https://www.ebay.com/rpp/cell-phone-pda"
+          style="
+            color: inherit;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis
+          "
+        >
           Cell Phones, Smart Watches & Accessories
         </a>
         <svg
@@ -281,15 +305,19 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <a style="
-          color: inherit;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis
-        ">
+        <a
+          href="https://www.ebay.com/b/Smart-Watch-Accessories/182064/bn_16565905"
+          style="
+            color: inherit;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis
+          "
+        >
           Smart Watch Accessories
         </a>
         <svg
@@ -346,7 +374,8 @@
     padding-right: 8px;
     padding-top: 8px;
     scrollbar-width: none;
-    text-wrap-mode: nowrap
+    text-wrap-mode: nowrap;
+    white-space-collapse: collapse
   ">
     <h2 style="
       border-bottom-color: currentcolor;
@@ -359,6 +388,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px
     ">
       You are here
@@ -376,15 +406,19 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <a style="
-          color: inherit;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis
-        ">
+        <a
+          href="https://www.ebay.com/"
+          style="
+            color: inherit;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis
+          "
+        >
           ebay
         </a>
         <svg
@@ -412,15 +446,19 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <a style="
-          color: inherit;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis
-        ">
+        <a
+          href="https://www.ebay.com/rpp/cell-phone-pda"
+          style="
+            color: inherit;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis
+          "
+        >
           Cell Phones, Smart Watches & Accessories
         </a>
         <svg
@@ -448,15 +486,19 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <a style="
-          color: inherit;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis
-        ">
+        <a
+          href="https://www.ebay.com/b/Smart-Watch-Accessories/182064/bn_16565905"
+          style="
+            color: inherit;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis
+          "
+        >
           Smart Watch Accessories
         </a>
         <svg
@@ -514,7 +556,8 @@
     padding-right: 8px;
     padding-top: 8px;
     scrollbar-width: none;
-    text-wrap-mode: nowrap
+    text-wrap-mode: nowrap;
+    white-space-collapse: collapse
   ">
     <h2 style="
       border-bottom-color: currentcolor;
@@ -527,6 +570,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px
     ">
       You are here
@@ -544,15 +588,19 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <a style="
-          color: inherit;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis
-        ">
+        <a
+          href="https://www.ebay.com/"
+          style="
+            color: inherit;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis
+          "
+        >
           ebay
         </a>
         <svg
@@ -579,15 +627,19 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <a style="
-          color: inherit;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis
-        ">
+        <a
+          href="https://www.ebay.com/rpp/cell-phone-pda"
+          style="
+            color: inherit;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis
+          "
+        >
           Cell Phones, Smart Watches & Accessories
         </a>
         <svg
@@ -614,15 +666,19 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <a style="
-          color: inherit;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis
-        ">
+        <a
+          href="https://www.ebay.com/b/Smart-Watch-Accessories/182064/bn_16565905"
+          style="
+            color: inherit;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis
+          "
+        >
           Smart Watch Accessories
         </a>
         <svg
@@ -682,7 +738,8 @@
     padding-right: 8px;
     padding-top: 8px;
     scrollbar-width: none;
-    text-wrap-mode: nowrap
+    text-wrap-mode: nowrap;
+    white-space-collapse: collapse
   ">
     <h2 style="
       border-bottom-color: currentcolor;
@@ -695,6 +752,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px
     ">
       You are here
@@ -712,15 +770,19 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <a style="
-          color: inherit;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis
-        ">
+        <a
+          href="https://www.ebay.com/"
+          style="
+            color: inherit;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis
+          "
+        >
           ebay
         </a>
         <svg
@@ -747,15 +809,19 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <a style="
-          color: inherit;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis
-        ">
+        <a
+          href="https://www.ebay.com/rpp/cell-phone-pda"
+          style="
+            color: inherit;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis
+          "
+        >
           Cell Phones, Smart Watches & Accessories
         </a>
         <svg
@@ -782,15 +848,19 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <a style="
-          color: inherit;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis
-        ">
+        <a
+          href="https://www.ebay.com/b/Smart-Watch-Accessories/182064/bn_16565905"
+          style="
+            color: inherit;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis
+          "
+        >
           Smart Watch Accessories
         </a>
         <svg
@@ -853,6 +923,7 @@
     padding-top: 8px;
     scrollbar-width: none;
     text-wrap-mode: nowrap;
+    white-space-collapse: collapse;
     word-spacing: 0.16em
   ">
     <h2 style="
@@ -868,6 +939,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px;
       word-spacing: 0.16em
     ">
@@ -892,18 +964,22 @@
         vertical-align: middle;
         word-spacing: 0.16em
       ">
-        <a style="
-          color: inherit;
-          letter-spacing: 0.12em;
-          line-height: 1.5;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis;
-          word-spacing: 0.16em
-        ">
+        <a
+          href="https://www.ebay.com/"
+          style="
+            color: inherit;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis;
+            word-spacing: 0.16em
+          "
+        >
           ebay
         </a>
         <svg
@@ -943,18 +1019,22 @@
         vertical-align: middle;
         word-spacing: 0.16em
       ">
-        <a style="
-          color: inherit;
-          letter-spacing: 0.12em;
-          line-height: 1.5;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis;
-          word-spacing: 0.16em
-        ">
+        <a
+          href="https://www.ebay.com/rpp/cell-phone-pda"
+          style="
+            color: inherit;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis;
+            word-spacing: 0.16em
+          "
+        >
           Cell Phones, Smart Watches & Accessories
         </a>
         <svg
@@ -994,18 +1074,22 @@
         vertical-align: middle;
         word-spacing: 0.16em
       ">
-        <a style="
-          color: inherit;
-          letter-spacing: 0.12em;
-          line-height: 1.5;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis;
-          word-spacing: 0.16em
-        ">
+        <a
+          href="https://www.ebay.com/b/Smart-Watch-Accessories/182064/bn_16565905"
+          style="
+            color: inherit;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis;
+            word-spacing: 0.16em
+          "
+        >
           Smart Watch Accessories
         </a>
         <svg
@@ -1084,6 +1168,7 @@
     padding-top: 8px;
     scrollbar-width: none;
     text-wrap-mode: nowrap;
+    white-space-collapse: collapse;
     word-spacing: 0.16em
   ">
     <h2 style="
@@ -1099,6 +1184,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px;
       word-spacing: 0.16em
     ">
@@ -1123,18 +1209,22 @@
         vertical-align: middle;
         word-spacing: 0.16em
       ">
-        <a style="
-          color: inherit;
-          letter-spacing: 0.12em;
-          line-height: 1.5;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis;
-          word-spacing: 0.16em
-        ">
+        <a
+          href="https://www.ebay.com/"
+          style="
+            color: inherit;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis;
+            word-spacing: 0.16em
+          "
+        >
           ebay
         </a>
         <svg
@@ -1174,18 +1264,22 @@
         vertical-align: middle;
         word-spacing: 0.16em
       ">
-        <a style="
-          color: inherit;
-          letter-spacing: 0.12em;
-          line-height: 1.5;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis;
-          word-spacing: 0.16em
-        ">
+        <a
+          href="https://www.ebay.com/rpp/cell-phone-pda"
+          style="
+            color: inherit;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis;
+            word-spacing: 0.16em
+          "
+        >
           Cell Phones, Smart Watches & Accessories
         </a>
         <svg
@@ -1225,18 +1319,22 @@
         vertical-align: middle;
         word-spacing: 0.16em
       ">
-        <a style="
-          color: inherit;
-          letter-spacing: 0.12em;
-          line-height: 1.5;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis;
-          word-spacing: 0.16em
-        ">
+        <a
+          href="https://www.ebay.com/b/Smart-Watch-Accessories/182064/bn_16565905"
+          style="
+            color: inherit;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis;
+            word-spacing: 0.16em
+          "
+        >
           Smart Watch Accessories
         </a>
         <svg

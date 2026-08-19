@@ -9,7 +9,6 @@
       cursor: default
     ">
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -66,13 +65,13 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Item 1
         </span>
       </div>
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -129,13 +128,13 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Item 2
         </span>
       </div>
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -191,7 +190,8 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Item 3
         </span>
@@ -211,7 +211,6 @@
       cursor: default
     ">
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -268,13 +267,13 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Item 1
         </span>
       </div>
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -331,13 +330,13 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Item 2
         </span>
       </div>
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -393,7 +392,8 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Item 3
         </span>
@@ -413,7 +413,6 @@
       cursor: default
     ">
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -470,13 +469,13 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Item 1
         </span>
       </div>
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -533,13 +532,13 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Item 2
         </span>
       </div>
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -595,7 +594,8 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Item 3
         </span>
@@ -615,7 +615,6 @@
       cursor: default
     ">
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -672,13 +671,13 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Item 1
         </span>
       </div>
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -735,13 +734,13 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Item 2
         </span>
       </div>
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -797,7 +796,8 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Item 3
         </span>
@@ -817,7 +817,6 @@
       cursor: default
     ">
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -874,13 +873,13 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Item 1
         </span>
       </div>
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -937,13 +936,13 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Item 2
         </span>
       </div>
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -999,7 +998,8 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Item 3
         </span>
@@ -1010,11 +1010,6 @@
       background-color: var(--color-background-elevated);
       border-bottom-width: medium;
       border-color: var(--color-border-subtle);
-      border-image-outset: initial;
-      border-image-repeat: initial;
-      border-image-slice: initial;
-      border-image-source: initial;
-      border-image-width: initial;
       border-left-width: medium;
       border-right-width: medium;
       border-top-style: solid;
@@ -1026,19 +1021,15 @@
       <button style="
         align-content: center;
         align-items: center;
-        background-color: initial;
-        border-bottom-color: currentcolor;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--btn-tertiary-border-color, var(--color-border-medium));
-        border-left-color: currentcolor;
         border-left-style: solid;
         border-left-width: 1px;
         border-radius: var(--btn-border-radius, 20px);
-        border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
-        border-top-color: currentcolor;
         border-top-style: solid;
         border-top-width: 1px;
         color: inherit;
@@ -1053,6 +1044,7 @@
         padding-right: 20px;
         padding-top: 0px;
         position: relative;
+        text-align: center;
         transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
         vertical-align: bottom
       ">

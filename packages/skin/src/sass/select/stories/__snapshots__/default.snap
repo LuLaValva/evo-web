@@ -8,11 +8,10 @@
   ">
     <select style="
       appearance: none;
-      background-color: initial;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-color: currentcolor;
       border-bottom-style: none;
       border-bottom-width: 0px;
-      border-color: var(--select-border-color, var(--color-border-medium));
       border-left-color: currentcolor;
       border-left-style: none;
       border-left-width: 0px;
@@ -80,11 +79,10 @@
   ">
     <select style="
       appearance: none;
-      background-color: initial;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-color: currentcolor;
       border-bottom-style: none;
       border-bottom-width: 0px;
-      border-color: var(--select-border-color, var(--color-border-medium));
       border-left-color: currentcolor;
       border-left-style: none;
       border-left-width: 0px;

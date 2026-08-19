@@ -36,15 +36,10 @@
     ">
       <input style="
         appearance: none;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: medium;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
@@ -63,8 +58,6 @@
         padding-bottom: 0px;
         padding-inline-end: var(--spacing-200);
         padding-inline-start: var(--spacing-200);
-        padding-left: 0px;
-        padding-right: 0px;
         padding-top: 0px;
         vertical-align: middle
       "/>
@@ -73,7 +66,6 @@
       color: var(--field-description-color, var(--color-foreground-secondary));
       font-size: var(--font-size-small);
       line-height: var(--spacing-200);
-      margin-top: var(--spacing-50);
       margin: var(--spacing-100) 0 0
     ">
       <span>
@@ -117,15 +109,10 @@
     ">
       <input style="
         appearance: none;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: medium;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
@@ -144,8 +131,6 @@
         padding-bottom: 0px;
         padding-inline-end: var(--spacing-200);
         padding-inline-start: var(--spacing-200);
-        padding-left: 0px;
-        padding-right: 0px;
         padding-top: 0px;
         vertical-align: middle
       "/>
@@ -154,7 +139,6 @@
       color: var(--field-description-confirmation-color, var(--color-foreground-success));
       font-size: var(--font-size-small);
       line-height: var(--spacing-200);
-      margin-top: var(--spacing-50);
       margin: var(--spacing-100) 0 0
     ">
       <span>
@@ -198,15 +182,10 @@
     ">
       <input style="
         appearance: none;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: medium;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
@@ -225,8 +204,6 @@
         padding-bottom: 0px;
         padding-inline-end: var(--spacing-200);
         padding-inline-start: var(--spacing-200);
-        padding-left: 0px;
-        padding-right: 0px;
         padding-top: 0px;
         vertical-align: middle
       "/>
@@ -235,7 +212,6 @@
       color: var(--field-description-information-color, var(--color-foreground-accent));
       font-size: var(--font-size-small);
       line-height: var(--spacing-200);
-      margin-top: var(--spacing-50);
       margin: var(--spacing-100) 0 0
     ">
       <span>
@@ -279,23 +255,14 @@
     ">
       <input style="
         appearance: none;
-        background-color: initial;
-        border-bottom-color: currentcolor;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-style: none;
         border-bottom-width: medium;
         border-color: var(--textbox-invalid-foreground-color, var(--color-border-attention));
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
-        border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
-        border-right-color: currentcolor;
         border-right-style: none;
         border-right-width: medium;
-        border-top-color: currentcolor;
         border-top-style: none;
         border-top-width: medium;
         box-sizing: border-box;
@@ -307,8 +274,6 @@
         padding-bottom: 0px;
         padding-inline-end: var(--spacing-200);
         padding-inline-start: var(--spacing-200);
-        padding-left: 0px;
-        padding-right: 0px;
         padding-top: 0px;
         vertical-align: middle
       "/>
@@ -317,7 +282,6 @@
       color: var(--field-description-attention-color, var(--color-foreground-attention));
       font-size: var(--font-size-small);
       line-height: var(--spacing-200);
-      margin-top: var(--spacing-50);
       margin: var(--spacing-100) 0 0
     ">
       <svg
@@ -376,6 +340,7 @@
       <span style="
         display: inline-block;
         flex-shrink: 0;
+        line-height: normal;
         margin-inline-end: var(--spacing-200);
         margin-inline-start: var(--spacing-200);
         position: relative;
@@ -385,18 +350,14 @@
           align-content: center;
           align-items: center;
           background-color: var(--listbox-button-background-color, var(--color-background-secondary));
-          border-bottom-color: inherit;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--listbox-button-border-color, var(--color-border-attention));
-          border-left-color: inherit;
           border-left-style: solid;
           border-left-width: 1px;
           border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
-          border-right-color: inherit;
           border-right-style: solid;
           border-right-width: 1px;
-          border-top-color: inherit;
           border-top-style: solid;
           border-top-width: 1px;
           color: var(--listbox-button-foreground-color, var(--color-foreground-primary));
@@ -412,6 +373,7 @@
           padding-right: 15px;
           padding-top: 0px;
           position: relative;
+          text-align: center;
           vertical-align: bottom
         ">
           <style>@scope{:scope{
@@ -470,7 +432,6 @@
       color: var(--field-description-attention-color, var(--color-foreground-attention));
       font-size: var(--font-size-small);
       line-height: var(--spacing-200);
-      margin-top: var(--spacing-50);
       margin: var(--spacing-100) 0 0
     ">
       <svg
@@ -535,15 +496,10 @@
     ">
       <input style="
         appearance: none;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: medium;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
@@ -562,8 +518,6 @@
         padding-bottom: 0px;
         padding-inline-end: var(--spacing-200);
         padding-inline-start: var(--spacing-200);
-        padding-left: 0px;
-        padding-right: 0px;
         padding-top: 0px;
         vertical-align: middle
       "/>
@@ -572,7 +526,6 @@
       color: var(--field-description-color, var(--color-foreground-secondary));
       font-size: var(--font-size-small);
       line-height: var(--spacing-200);
-      margin-top: var(--spacing-50);
       margin: var(--spacing-100) 0 0
     ">
       <span>
@@ -616,15 +569,10 @@
     ">
       <input style="
         appearance: none;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: medium;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
@@ -643,8 +591,6 @@
         padding-bottom: 0px;
         padding-inline-end: var(--spacing-200);
         padding-inline-start: var(--spacing-200);
-        padding-left: 0px;
-        padding-right: 0px;
         padding-top: 0px;
         vertical-align: middle
       "/>
@@ -653,7 +599,6 @@
       color: var(--field-description-confirmation-color, var(--color-foreground-success));
       font-size: var(--font-size-small);
       line-height: var(--spacing-200);
-      margin-top: var(--spacing-50);
       margin: var(--spacing-100) 0 0
     ">
       <span>
@@ -697,15 +642,10 @@
     ">
       <input style="
         appearance: none;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: medium;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
@@ -724,8 +664,6 @@
         padding-bottom: 0px;
         padding-inline-end: var(--spacing-200);
         padding-inline-start: var(--spacing-200);
-        padding-left: 0px;
-        padding-right: 0px;
         padding-top: 0px;
         vertical-align: middle
       "/>
@@ -734,7 +672,6 @@
       color: var(--field-description-information-color, var(--color-foreground-accent));
       font-size: var(--font-size-small);
       line-height: var(--spacing-200);
-      margin-top: var(--spacing-50);
       margin: var(--spacing-100) 0 0
     ">
       <span>
@@ -778,23 +715,14 @@
     ">
       <input style="
         appearance: none;
-        background-color: initial;
-        border-bottom-color: currentcolor;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-style: none;
         border-bottom-width: medium;
         border-color: var(--textbox-invalid-foreground-color, var(--color-border-attention));
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
-        border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
-        border-right-color: currentcolor;
         border-right-style: none;
         border-right-width: medium;
-        border-top-color: currentcolor;
         border-top-style: none;
         border-top-width: medium;
         box-sizing: border-box;
@@ -806,8 +734,6 @@
         padding-bottom: 0px;
         padding-inline-end: var(--spacing-200);
         padding-inline-start: var(--spacing-200);
-        padding-left: 0px;
-        padding-right: 0px;
         padding-top: 0px;
         vertical-align: middle
       "/>
@@ -816,7 +742,6 @@
       color: var(--field-description-attention-color, var(--color-foreground-attention));
       font-size: var(--font-size-small);
       line-height: var(--spacing-200);
-      margin-top: var(--spacing-50);
       margin: var(--spacing-100) 0 0
     ">
       <svg
@@ -875,6 +800,7 @@
       <span style="
         display: inline-block;
         flex-shrink: 0;
+        line-height: normal;
         margin-inline-end: var(--spacing-200);
         margin-inline-start: var(--spacing-200);
         position: relative;
@@ -884,18 +810,14 @@
           align-content: center;
           align-items: center;
           background-color: var(--listbox-button-background-color, var(--color-background-secondary));
-          border-bottom-color: inherit;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--listbox-button-border-color, var(--color-border-attention));
-          border-left-color: inherit;
           border-left-style: solid;
           border-left-width: 1px;
           border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
-          border-right-color: inherit;
           border-right-style: solid;
           border-right-width: 1px;
-          border-top-color: inherit;
           border-top-style: solid;
           border-top-width: 1px;
           color: var(--listbox-button-foreground-color, var(--color-foreground-primary));
@@ -911,6 +833,7 @@
           padding-right: 15px;
           padding-top: 0px;
           position: relative;
+          text-align: center;
           vertical-align: bottom
         ">
           <style>@scope{:scope{
@@ -969,7 +892,6 @@
       color: var(--field-description-attention-color, var(--color-foreground-attention));
       font-size: var(--font-size-small);
       line-height: var(--spacing-200);
-      margin-top: var(--spacing-50);
       margin: var(--spacing-100) 0 0
     ">
       <svg
@@ -1030,6 +952,7 @@
       padding-right: 0px;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px
     ">
       Account Type
@@ -1186,15 +1109,10 @@
     ">
       <input style="
         appearance: none;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: medium;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
@@ -1213,8 +1131,6 @@
         padding-bottom: 0px;
         padding-inline-end: var(--spacing-200);
         padding-inline-start: var(--spacing-200);
-        padding-left: 0px;
-        padding-right: 0px;
         padding-top: 0px;
         vertical-align: middle
       "/>
@@ -1257,15 +1173,10 @@
       <input
         style="
           appearance: none;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1284,8 +1195,6 @@
           padding-bottom: 0px;
           padding-inline-end: var(--spacing-200);
           padding-inline-start: var(--spacing-200);
-          padding-left: 0px;
-          padding-right: 0px;
           padding-top: 0px;
           vertical-align: middle
         "
@@ -1331,15 +1240,10 @@
       ">
         <input style="
           appearance: none;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1358,8 +1262,6 @@
           padding-bottom: 0px;
           padding-inline-end: var(--spacing-200);
           padding-inline-start: var(--spacing-200);
-          padding-left: 0px;
-          padding-right: 0px;
           padding-top: 0px;
           vertical-align: middle
         "/>
@@ -1401,15 +1303,10 @@
       ">
         <input style="
           appearance: none;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1428,8 +1325,6 @@
           padding-bottom: 0px;
           padding-inline-end: var(--spacing-200);
           padding-inline-start: var(--spacing-200);
-          padding-left: 0px;
-          padding-right: 0px;
           padding-top: 0px;
           vertical-align: middle
         "/>
@@ -1536,15 +1431,10 @@
       ">
         <input style="
           appearance: none;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1563,8 +1453,6 @@
           padding-bottom: 0px;
           padding-inline-end: var(--spacing-200);
           padding-inline-start: var(--spacing-200);
-          padding-left: 0px;
-          padding-right: 0px;
           padding-top: 0px;
           vertical-align: middle
         "/>
@@ -1579,18 +1467,14 @@
       align-content: center;
       align-items: center;
       background-color: var(--color-background-accent);
-      border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--color-border-accent);
-      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
       border-radius: var(--btn-border-radius, 20px);
-      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
-      border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
       color: var(--color-foreground-on-accent);
@@ -1606,6 +1490,7 @@
       padding-right: 20px;
       padding-top: 0px;
       position: relative;
+      text-align: center;
       transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
       vertical-align: bottom;
       width: 100%

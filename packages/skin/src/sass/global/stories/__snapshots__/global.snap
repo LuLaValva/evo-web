@@ -27,15 +27,10 @@
       placeholder="placeholder text"
       style="
         appearance: none;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: medium;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
@@ -54,8 +49,6 @@
         padding-bottom: 0px;
         padding-inline-end: var(--spacing-200);
         padding-inline-start: var(--spacing-200);
-        padding-left: 0px;
-        padding-right: 0px;
         padding-top: 0px;
         vertical-align: middle
       "
@@ -115,7 +108,7 @@
   <button style="
     align-content: center;
     align-items: center;
-    background-color: initial;
+    background-color: rgba(0, 0, 0, 0);
     border-bottom-color: currentcolor;
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -139,46 +132,51 @@
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 0px;
+    text-align: center;
     vertical-align: bottom
   ">
     Button
   </button>
-  <a style="
-    align-content: center;
-    align-items: center;
-    background-color: initial;
-    border-bottom-color: currentcolor;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-left-color: currentcolor;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-radius: var(--btn-border-radius, 20px);
-    border-right-color: currentcolor;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-top-color: currentcolor;
-    border-top-style: solid;
-    border-top-width: 1px;
-    box-sizing: border-box;
-    color: inherit;
-    display: inline-block;
-    font-family: inherit;
-    font-size: var(--font-size-body);
-    height: 40px;
-    min-height: 40px;
-    min-width: 88px;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: center;
-    text-decoration-line: none;
-    vertical-align: bottom
-  ">
+  <a
+    href="http://www.ebay.com"
+    style="
+      align-content: center;
+      align-items: center;
+      border-bottom-color: currentcolor;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-left-color: currentcolor;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 20px);
+      border-right-color: currentcolor;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-color: currentcolor;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: inherit;
+      display: inline-block;
+      font-family: inherit;
+      font-size: var(--font-size-body);
+      height: 40px;
+      min-height: 40px;
+      min-width: 88px;
+      padding-left: 20px;
+      padding-right: 20px;
+      text-align: center;
+      text-decoration-color: rgb(0, 0, 0);
+      text-decoration-line: none;
+      vertical-align: bottom
+    "
+  >
     Link
   </a>
   <span style="
     box-sizing: border-box;
     display: inline-block;
+    line-height: normal;
     position: relative;
     vertical-align: bottom
   ">
@@ -234,25 +232,22 @@
   </span>
   <span style="
     display: inline-block;
+    line-height: normal;
     position: relative;
     vertical-align: bottom
   ">
     <button style="
       align-content: center;
       align-items: center;
-      background-color: initial;
-      border-bottom-color: inherit;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--listbox-button-border-color, var(--color-border-medium));
-      border-left-color: inherit;
       border-left-style: solid;
       border-left-width: 1px;
       border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
-      border-right-color: inherit;
       border-right-style: solid;
       border-right-width: 1px;
-      border-top-color: inherit;
       border-top-style: solid;
       border-top-width: 1px;
       color: inherit;
@@ -269,6 +264,7 @@
       padding-right: 15px;
       padding-top: 0px;
       position: relative;
+      text-align: center;
       vertical-align: bottom
     ">
       <style>@scope{:scope{
@@ -316,11 +312,14 @@
       </span>
     </button>
   </span>
-  <span style="position: relative">
+  <span style="
+    line-height: normal;
+    position: relative
+  ">
     <button style="
       align-content: center;
       align-items: center;
-      background-color: initial;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-color: inherit;
       border-bottom-style: solid;
       border-bottom-width: 1px;
@@ -348,6 +347,7 @@
       padding-right: 20px;
       padding-top: 0px;
       position: relative;
+      text-align: center;
       vertical-align: bottom
     ">
       <style>@scope{:scope{
@@ -423,15 +423,10 @@
       placeholder="placeholder text"
       style="
         appearance: none;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: medium;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
@@ -450,8 +445,6 @@
         padding-bottom: 0px;
         padding-inline-end: var(--spacing-200);
         padding-inline-start: var(--spacing-200);
-        padding-left: 0px;
-        padding-right: 0px;
         padding-top: 0px;
         vertical-align: middle
       "
@@ -511,7 +504,7 @@
   <button style="
     align-content: center;
     align-items: center;
-    background-color: initial;
+    background-color: rgba(0, 0, 0, 0);
     border-bottom-color: currentcolor;
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -535,46 +528,51 @@
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 0px;
+    text-align: center;
     vertical-align: bottom
   ">
     Button
   </button>
-  <a style="
-    align-content: center;
-    align-items: center;
-    background-color: initial;
-    border-bottom-color: currentcolor;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-left-color: currentcolor;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-radius: var(--btn-border-radius, 24px);
-    border-right-color: currentcolor;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-top-color: currentcolor;
-    border-top-style: solid;
-    border-top-width: 1px;
-    box-sizing: border-box;
-    color: inherit;
-    display: inline-block;
-    font-family: inherit;
-    font-size: var(--font-size-medium);
-    height: 48px;
-    min-height: 48px;
-    min-width: 88px;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: center;
-    text-decoration-line: none;
-    vertical-align: bottom
-  ">
+  <a
+    href="http://www.ebay.com"
+    style="
+      align-content: center;
+      align-items: center;
+      border-bottom-color: currentcolor;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-left-color: currentcolor;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-radius: var(--btn-border-radius, 24px);
+      border-right-color: currentcolor;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-color: currentcolor;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: inherit;
+      display: inline-block;
+      font-family: inherit;
+      font-size: var(--font-size-medium);
+      height: 48px;
+      min-height: 48px;
+      min-width: 88px;
+      padding-left: 20px;
+      padding-right: 20px;
+      text-align: center;
+      text-decoration-color: rgb(0, 0, 0);
+      text-decoration-line: none;
+      vertical-align: bottom
+    "
+  >
     Link
   </a>
   <span style="
     box-sizing: border-box;
     display: inline-block;
+    line-height: normal;
     position: relative;
     vertical-align: bottom
   ">
@@ -630,25 +628,22 @@
   </span>
   <span style="
     display: inline-block;
+    line-height: normal;
     position: relative;
     vertical-align: bottom
   ">
     <button style="
       align-content: center;
       align-items: center;
-      background-color: initial;
-      border-bottom-color: inherit;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--listbox-button-border-color, var(--color-border-medium));
-      border-left-color: inherit;
       border-left-style: solid;
       border-left-width: 1px;
       border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
-      border-right-color: inherit;
       border-right-style: solid;
       border-right-width: 1px;
-      border-top-color: inherit;
       border-top-style: solid;
       border-top-width: 1px;
       color: inherit;
@@ -665,6 +660,7 @@
       padding-right: 20px;
       padding-top: 0px;
       position: relative;
+      text-align: center;
       vertical-align: bottom
     ">
       <style>@scope{:scope{
@@ -713,11 +709,14 @@
       </span>
     </button>
   </span>
-  <span style="position: relative">
+  <span style="
+    line-height: normal;
+    position: relative
+  ">
     <button style="
       align-content: center;
       align-items: center;
-      background-color: initial;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-color: inherit;
       border-bottom-style: solid;
       border-bottom-width: 1px;
@@ -745,6 +744,7 @@
       padding-right: 20px;
       padding-top: 0px;
       position: relative;
+      text-align: center;
       vertical-align: bottom
     ">
       <style>@scope{:scope{

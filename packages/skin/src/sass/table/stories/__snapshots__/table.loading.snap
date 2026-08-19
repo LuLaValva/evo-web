@@ -10,7 +10,7 @@
     <table style="
       -webkit-border-horizontal-spacing: 0px;
       -webkit-border-vertical-spacing: 0px;
-      border-collapse: initial;
+      border-collapse: separate;
       opacity: 0.15;
       user-select: none;
       width: 100%
@@ -30,13 +30,14 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -63,9 +64,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Seller
@@ -100,13 +103,14 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -133,9 +137,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Item
@@ -170,13 +176,14 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -203,9 +210,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Status
@@ -240,13 +249,14 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -273,9 +283,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               List Price
@@ -310,13 +322,14 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -343,9 +356,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Quantity Available
@@ -380,13 +395,14 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -413,9 +429,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Orders
@@ -450,13 +468,14 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -483,9 +502,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Watchers
@@ -520,13 +541,14 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -553,9 +575,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Protection
@@ -590,13 +614,14 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -623,9 +648,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Shipping
@@ -658,16 +685,16 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -694,9 +721,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Delivery
@@ -736,7 +765,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Nintendo
           </th>
@@ -798,7 +828,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   Nintendo Switch Brand New Gaming System with Four Controllers
                 </div>
@@ -812,7 +843,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   SKU : A43BTR5678  •  Quantity : 1
                 </div>
@@ -859,7 +891,8 @@
               padding: 2px var(--spacing-100) 1px;
               text-align: center;
               text-transform: uppercase;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Ready to Ship
             </span>
@@ -994,7 +1027,6 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left
           ">
@@ -1016,7 +1048,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Nintendo
           </th>
@@ -1078,7 +1111,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   Nintendo SNES Brand New Gaming System with Four Controllers
                 </div>
@@ -1092,7 +1126,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   SKU : A43BTR5678  •  Quantity : 1
                 </div>
@@ -1139,7 +1174,8 @@
               padding: 2px var(--spacing-100) 1px;
               text-align: center;
               text-transform: uppercase;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Ready to Ship
             </span>
@@ -1272,7 +1308,6 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left
           ">
@@ -1294,7 +1329,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Microsoft
           </th>
@@ -1356,7 +1392,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   Microsoft XBOX 360 Brand New Gaming System with Four Controllers
                 </div>
@@ -1370,7 +1407,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   SKU : A43BTR5678  •  Quantity : 1
                 </div>
@@ -1417,7 +1455,8 @@
               padding: 2px var(--spacing-100) 1px;
               text-align: center;
               text-transform: uppercase;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Backorder
             </span>
@@ -1550,7 +1589,6 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left
           ">
@@ -1572,7 +1610,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Microsoft
           </th>
@@ -1634,7 +1673,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   Microsoft XBOX One Brand New Gaming System with Four Controllers
                 </div>
@@ -1648,7 +1688,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   SKU : A43BTR5678  •  Quantity : 1
                 </div>
@@ -1694,7 +1735,8 @@
               padding: 2px var(--spacing-100) 1px;
               text-align: center;
               text-transform: uppercase;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Preparing
             </span>
@@ -1827,7 +1869,6 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left
           ">
@@ -1839,7 +1880,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             font-weight: 400;
             height: 80px;
@@ -1851,7 +1891,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Sony
           </th>
@@ -1859,7 +1900,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -1915,7 +1955,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   Sony Playstation 5 Brand New Gaming System with Four Controllers
                 </div>
@@ -1929,7 +1970,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   SKU : A43BTR5678  •  Quantity : 1
                 </div>
@@ -1940,7 +1982,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -1978,7 +2019,8 @@
               padding: 2px var(--spacing-100) 1px;
               text-align: center;
               text-transform: uppercase;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Restocking
             </span>
@@ -1987,7 +2029,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -2005,7 +2046,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -2023,7 +2063,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -2062,7 +2101,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -2080,7 +2118,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -2098,7 +2135,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -2116,7 +2152,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -2125,7 +2160,6 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left
           ">
@@ -2323,7 +2357,7 @@
     <table style="
       -webkit-border-horizontal-spacing: 0px;
       -webkit-border-vertical-spacing: 0px;
-      border-collapse: initial;
+      border-collapse: separate;
       opacity: 0.15;
       user-select: none;
       width: 100%
@@ -2343,13 +2377,14 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -2376,9 +2411,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Seller
@@ -2413,13 +2450,14 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -2446,9 +2484,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Item
@@ -2483,13 +2523,14 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -2516,9 +2557,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Status
@@ -2553,13 +2596,14 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -2586,9 +2630,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               List Price
@@ -2623,13 +2669,14 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -2656,9 +2703,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Quantity Available
@@ -2693,13 +2742,14 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -2726,9 +2776,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Orders
@@ -2763,13 +2815,14 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -2796,9 +2849,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Watchers
@@ -2833,13 +2888,14 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -2866,9 +2922,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Protection
@@ -2903,13 +2961,14 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -2936,9 +2995,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Shipping
@@ -2970,17 +3031,17 @@
             min-width: 124px;
             padding-bottom: 12px;
             padding-inline-end: 0px;
-            padding-left: 12px;
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -3007,9 +3068,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Delivery
@@ -3049,7 +3112,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Nintendo
           </th>
@@ -3111,7 +3175,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   Nintendo Switch Brand New Gaming System with Four Controllers
                 </div>
@@ -3125,7 +3190,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   SKU : A43BTR5678  •  Quantity : 1
                 </div>
@@ -3172,7 +3238,8 @@
               padding: 2px var(--spacing-100) 1px;
               text-align: center;
               text-transform: uppercase;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Ready to Ship
             </span>
@@ -3306,7 +3373,6 @@
             min-width: 124px;
             padding-bottom: 12px;
             padding-inline-end: 0px;
-            padding-left: 12px;
             padding-right: 12px;
             padding-top: 12px;
             text-align: right
@@ -3329,7 +3395,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Nintendo
           </th>
@@ -3391,7 +3458,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   Nintendo SNES Brand New Gaming System with Four Controllers
                 </div>
@@ -3405,7 +3473,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   SKU : A43BTR5678  •  Quantity : 1
                 </div>
@@ -3452,7 +3521,8 @@
               padding: 2px var(--spacing-100) 1px;
               text-align: center;
               text-transform: uppercase;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Ready to Ship
             </span>
@@ -3584,7 +3654,6 @@
             min-width: 124px;
             padding-bottom: 12px;
             padding-inline-end: 0px;
-            padding-left: 12px;
             padding-right: 12px;
             padding-top: 12px;
             text-align: right
@@ -3607,7 +3676,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Microsoft
           </th>
@@ -3669,7 +3739,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   Microsoft XBOX 360 Brand New Gaming System with Four Controllers
                 </div>
@@ -3683,7 +3754,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   SKU : A43BTR5678  •  Quantity : 1
                 </div>
@@ -3730,7 +3802,8 @@
               padding: 2px var(--spacing-100) 1px;
               text-align: center;
               text-transform: uppercase;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Backorder
             </span>
@@ -3862,7 +3935,6 @@
             min-width: 124px;
             padding-bottom: 12px;
             padding-inline-end: 0px;
-            padding-left: 12px;
             padding-right: 12px;
             padding-top: 12px;
             text-align: right
@@ -3885,7 +3957,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Microsoft
           </th>
@@ -3947,7 +4020,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   Microsoft XBOX One Brand New Gaming System with Four Controllers
                 </div>
@@ -3961,7 +4035,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   SKU : A43BTR5678  •  Quantity : 1
                 </div>
@@ -4007,7 +4082,8 @@
               padding: 2px var(--spacing-100) 1px;
               text-align: center;
               text-transform: uppercase;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Preparing
             </span>
@@ -4139,7 +4215,6 @@
             min-width: 124px;
             padding-bottom: 12px;
             padding-inline-end: 0px;
-            padding-left: 12px;
             padding-right: 12px;
             padding-top: 12px;
             text-align: right
@@ -4152,7 +4227,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             font-weight: 400;
             height: 80px;
@@ -4164,7 +4238,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Sony
           </th>
@@ -4172,7 +4247,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -4228,7 +4302,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   Sony Playstation 5 Brand New Gaming System with Four Controllers
                 </div>
@@ -4242,7 +4317,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   SKU : A43BTR5678  •  Quantity : 1
                 </div>
@@ -4253,7 +4329,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -4291,7 +4366,8 @@
               padding: 2px var(--spacing-100) 1px;
               text-align: center;
               text-transform: uppercase;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Restocking
             </span>
@@ -4300,7 +4376,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -4318,7 +4393,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -4336,7 +4410,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -4375,7 +4448,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -4393,7 +4465,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -4411,7 +4482,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -4429,7 +4499,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -4437,7 +4506,6 @@
             min-width: 124px;
             padding-bottom: 12px;
             padding-inline-end: 0px;
-            padding-left: 12px;
             padding-right: 12px;
             padding-top: 12px;
             text-align: right
@@ -4636,7 +4704,7 @@
     <table style="
       -webkit-border-horizontal-spacing: 0px;
       -webkit-border-vertical-spacing: 0px;
-      border-collapse: initial;
+      border-collapse: separate;
       opacity: 0.15;
       user-select: none;
       width: 100%
@@ -4656,13 +4724,14 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -4689,9 +4758,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Seller
@@ -4726,13 +4797,14 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -4759,9 +4831,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Item
@@ -4796,13 +4870,14 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -4829,9 +4904,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Status
@@ -4866,13 +4943,14 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -4899,9 +4977,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               List Price
@@ -4936,13 +5016,14 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -4969,9 +5050,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Quantity Available
@@ -5006,13 +5089,14 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -5039,9 +5123,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Orders
@@ -5076,13 +5162,14 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -5109,9 +5196,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Watchers
@@ -5146,13 +5235,14 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -5179,9 +5269,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Protection
@@ -5216,13 +5308,14 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -5249,9 +5342,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Shipping
@@ -5284,16 +5379,16 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -5320,9 +5415,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Delivery
@@ -5362,7 +5459,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Nintendo
           </th>
@@ -5424,7 +5522,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   Nintendo Switch Brand New Gaming System with Four Controllers
                 </div>
@@ -5438,7 +5537,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   SKU : A43BTR5678  •  Quantity : 1
                 </div>
@@ -5485,7 +5585,8 @@
               padding: 2px var(--spacing-100) 1px;
               text-align: center;
               text-transform: uppercase;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Ready to Ship
             </span>
@@ -5620,7 +5721,6 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left
           ">
@@ -5642,7 +5742,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Nintendo
           </th>
@@ -5704,7 +5805,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   Nintendo SNES Brand New Gaming System with Four Controllers
                 </div>
@@ -5718,7 +5820,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   SKU : A43BTR5678  •  Quantity : 1
                 </div>
@@ -5765,7 +5868,8 @@
               padding: 2px var(--spacing-100) 1px;
               text-align: center;
               text-transform: uppercase;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Ready to Ship
             </span>
@@ -5898,7 +6002,6 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left
           ">
@@ -5920,7 +6023,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Microsoft
           </th>
@@ -5982,7 +6086,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   Microsoft XBOX 360 Brand New Gaming System with Four Controllers
                 </div>
@@ -5996,7 +6101,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   SKU : A43BTR5678  •  Quantity : 1
                 </div>
@@ -6043,7 +6149,8 @@
               padding: 2px var(--spacing-100) 1px;
               text-align: center;
               text-transform: uppercase;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Backorder
             </span>
@@ -6176,7 +6283,6 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left
           ">
@@ -6198,7 +6304,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Microsoft
           </th>
@@ -6260,7 +6367,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   Microsoft XBOX One Brand New Gaming System with Four Controllers
                 </div>
@@ -6274,7 +6382,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   SKU : A43BTR5678  •  Quantity : 1
                 </div>
@@ -6320,7 +6429,8 @@
               padding: 2px var(--spacing-100) 1px;
               text-align: center;
               text-transform: uppercase;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Preparing
             </span>
@@ -6453,7 +6563,6 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left
           ">
@@ -6465,7 +6574,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             font-weight: 400;
             height: 64px;
@@ -6477,7 +6585,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Sony
           </th>
@@ -6485,7 +6594,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
             max-height: 64px;
@@ -6541,7 +6649,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   Sony Playstation 5 Brand New Gaming System with Four Controllers
                 </div>
@@ -6555,7 +6664,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   SKU : A43BTR5678  •  Quantity : 1
                 </div>
@@ -6566,7 +6676,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
             max-height: 64px;
@@ -6604,7 +6713,8 @@
               padding: 2px var(--spacing-100) 1px;
               text-align: center;
               text-transform: uppercase;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Restocking
             </span>
@@ -6613,7 +6723,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
             max-height: 64px;
@@ -6631,7 +6740,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
             max-height: 64px;
@@ -6649,7 +6757,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
             max-height: 64px;
@@ -6688,7 +6795,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
             max-height: 64px;
@@ -6706,7 +6812,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
             max-height: 64px;
@@ -6724,7 +6829,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
             max-height: 64px;
@@ -6742,7 +6846,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
             max-height: 64px;
@@ -6751,7 +6854,6 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left
           ">
@@ -6952,7 +7054,7 @@
     <table style="
       -webkit-border-horizontal-spacing: 0px;
       -webkit-border-vertical-spacing: 0px;
-      border-collapse: initial;
+      border-collapse: separate;
       opacity: 0.15;
       user-select: none;
       width: 100%
@@ -6972,13 +7074,14 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -7005,9 +7108,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Seller
@@ -7042,13 +7147,14 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -7075,9 +7181,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Item
@@ -7112,13 +7220,14 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -7145,9 +7254,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Status
@@ -7182,13 +7293,14 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -7215,9 +7327,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               List Price
@@ -7252,13 +7366,14 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -7285,9 +7400,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Quantity Available
@@ -7322,13 +7439,14 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -7355,9 +7473,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Orders
@@ -7392,13 +7512,14 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -7425,9 +7546,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Watchers
@@ -7462,13 +7585,14 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -7495,9 +7619,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Protection
@@ -7532,13 +7658,14 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -7565,9 +7692,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Shipping
@@ -7600,16 +7729,16 @@
             padding-bottom: 16px;
             padding-inline-end: 0px;
             padding-left: 16px;
-            padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button
               disabled
               style="
                 align-items: center;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: transparent;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -7636,9 +7765,11 @@
                 padding-left: 3px;
                 padding-right: 3px;
                 padding-top: 3px;
+                text-align: center;
+                text-decoration-color: rgb(0, 0, 0);
                 text-wrap-mode: nowrap;
                 transform: translateZ(0px);
-                vertical-align: initial
+                white-space-collapse: collapse
               "
             >
               Delivery
@@ -7678,7 +7809,8 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Nintendo
           </th>
@@ -7740,7 +7872,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   Nintendo Switch Brand New Gaming System with Four Controllers
                 </div>
@@ -7754,7 +7887,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   SKU : A43BTR5678  •  Quantity : 1
                 </div>
@@ -7801,7 +7935,8 @@
               padding: 2px var(--spacing-100) 1px;
               text-align: center;
               text-transform: uppercase;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Ready to Ship
             </span>
@@ -7936,7 +8071,6 @@
             padding-bottom: 16px;
             padding-inline-end: 0px;
             padding-left: 16px;
-            padding-right: 16px;
             padding-top: 16px;
             text-align: left
           ">
@@ -7958,7 +8092,8 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Nintendo
           </th>
@@ -8020,7 +8155,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   Nintendo SNES Brand New Gaming System with Four Controllers
                 </div>
@@ -8034,7 +8170,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   SKU : A43BTR5678  •  Quantity : 1
                 </div>
@@ -8081,7 +8218,8 @@
               padding: 2px var(--spacing-100) 1px;
               text-align: center;
               text-transform: uppercase;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Ready to Ship
             </span>
@@ -8214,7 +8352,6 @@
             padding-bottom: 16px;
             padding-inline-end: 0px;
             padding-left: 16px;
-            padding-right: 16px;
             padding-top: 16px;
             text-align: left
           ">
@@ -8236,7 +8373,8 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Microsoft
           </th>
@@ -8298,7 +8436,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   Microsoft XBOX 360 Brand New Gaming System with Four Controllers
                 </div>
@@ -8312,7 +8451,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   SKU : A43BTR5678  •  Quantity : 1
                 </div>
@@ -8359,7 +8499,8 @@
               padding: 2px var(--spacing-100) 1px;
               text-align: center;
               text-transform: uppercase;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Backorder
             </span>
@@ -8492,7 +8633,6 @@
             padding-bottom: 16px;
             padding-inline-end: 0px;
             padding-left: 16px;
-            padding-right: 16px;
             padding-top: 16px;
             text-align: left
           ">
@@ -8514,7 +8654,8 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Microsoft
           </th>
@@ -8576,7 +8717,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   Microsoft XBOX One Brand New Gaming System with Four Controllers
                 </div>
@@ -8590,7 +8732,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   SKU : A43BTR5678  •  Quantity : 1
                 </div>
@@ -8636,7 +8779,8 @@
               padding: 2px var(--spacing-100) 1px;
               text-align: center;
               text-transform: uppercase;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Preparing
             </span>
@@ -8769,7 +8913,6 @@
             padding-bottom: 16px;
             padding-inline-end: 0px;
             padding-left: 16px;
-            padding-right: 16px;
             padding-top: 16px;
             text-align: left
           ">
@@ -8781,7 +8924,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             font-weight: 400;
             height: 112px;
@@ -8793,7 +8935,8 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Sony
           </th>
@@ -8801,7 +8944,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
             max-height: 112px;
@@ -8857,7 +8999,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   Sony Playstation 5 Brand New Gaming System with Four Controllers
                 </div>
@@ -8871,7 +9014,8 @@
                   overflow-x: hidden;
                   overflow-y: hidden;
                   text-overflow: ellipsis;
-                  text-wrap-mode: nowrap
+                  text-wrap-mode: nowrap;
+                  white-space-collapse: collapse
                 ">
                   SKU : A43BTR5678  •  Quantity : 1
                 </div>
@@ -8882,7 +9026,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
             max-height: 112px;
@@ -8920,7 +9063,8 @@
               padding: 2px var(--spacing-100) 1px;
               text-align: center;
               text-transform: uppercase;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Restocking
             </span>
@@ -8929,7 +9073,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
             max-height: 112px;
@@ -8947,7 +9090,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
             max-height: 112px;
@@ -8965,7 +9107,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
             max-height: 112px;
@@ -9004,7 +9145,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
             max-height: 112px;
@@ -9022,7 +9162,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
             max-height: 112px;
@@ -9040,7 +9179,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
             max-height: 112px;
@@ -9058,7 +9196,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
             max-height: 112px;
@@ -9067,7 +9204,6 @@
             padding-bottom: 16px;
             padding-inline-end: 0px;
             padding-left: 16px;
-            padding-right: 16px;
             padding-top: 16px;
             text-align: left
           ">

@@ -13,7 +13,8 @@
     padding-right: 8px;
     padding-top: 8px;
     scrollbar-width: unset;
-    text-wrap-mode: nowrap
+    text-wrap-mode: nowrap;
+    white-space-collapse: collapse
   ">
     <h2 style="
       border-bottom-color: currentcolor;
@@ -26,6 +27,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px
     ">
       You are here
@@ -43,15 +45,19 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <a style="
-          color: inherit;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis
-        ">
+        <a
+          href="https://www.ebay.com/"
+          style="
+            color: inherit;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis
+          "
+        >
           ebay
         </a>
         <svg
@@ -78,7 +84,10 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <span style="position: relative">
+        <span style="
+          line-height: normal;
+          position: relative
+        ">
           <button style="
             align-items: center;
             background-color: var(--icon-button-background-color, var(--color-background-secondary));
@@ -169,15 +178,19 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <a style="
-          color: inherit;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis
-        ">
+        <a
+          href="https://www.ebay.com/b/Smart-Watch-Bands/182068/bn_16565906/Some-Random-Watch-Pand2"
+          style="
+            color: inherit;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis
+          "
+        >
           Smart Watch Band Long Band Text Type 2
         </a>
         <svg
@@ -237,7 +250,8 @@
     padding-right: 8px;
     padding-top: 8px;
     scrollbar-width: unset;
-    text-wrap-mode: nowrap
+    text-wrap-mode: nowrap;
+    white-space-collapse: collapse
   ">
     <h2 style="
       border-bottom-color: currentcolor;
@@ -250,6 +264,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px
     ">
       You are here
@@ -267,15 +282,19 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <a style="
-          color: inherit;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis
-        ">
+        <a
+          href="https://www.ebay.com/"
+          style="
+            color: inherit;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis
+          "
+        >
           ebay
         </a>
         <svg
@@ -302,7 +321,10 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <span style="position: relative">
+        <span style="
+          line-height: normal;
+          position: relative
+        ">
           <button style="
             align-items: center;
             background-color: var(--icon-button-background-color, var(--color-background-secondary));
@@ -393,15 +415,19 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <a style="
-          color: inherit;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis
-        ">
+        <a
+          href="https://www.ebay.com/b/Smart-Watch-Bands/182068/bn_16565906/Some-Random-Watch-Pand2"
+          style="
+            color: inherit;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis
+          "
+        >
           Smart Watch Band Long Band Text Type 2
         </a>
         <svg
@@ -458,7 +484,8 @@
     padding-right: 8px;
     padding-top: 8px;
     scrollbar-width: unset;
-    text-wrap-mode: nowrap
+    text-wrap-mode: nowrap;
+    white-space-collapse: collapse
   ">
     <h2 style="
       border-bottom-color: currentcolor;
@@ -471,6 +498,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px
     ">
       You are here
@@ -488,15 +516,19 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <a style="
-          color: inherit;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis
-        ">
+        <a
+          href="https://www.ebay.com/"
+          style="
+            color: inherit;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis
+          "
+        >
           ebay
         </a>
         <svg
@@ -524,7 +556,10 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <span style="position: relative">
+        <span style="
+          line-height: normal;
+          position: relative
+        ">
           <button style="
             align-items: center;
             background-color: var(--icon-button-background-color, var(--color-background-secondary));
@@ -616,15 +651,19 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <a style="
-          color: inherit;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis
-        ">
+        <a
+          href="https://www.ebay.com/b/Smart-Watch-Bands/182068/bn_16565906/Some-Random-Watch-Pand2"
+          style="
+            color: inherit;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis
+          "
+        >
           Smart Watch Band Long Band Text Type 2
         </a>
         <svg
@@ -682,7 +721,8 @@
     padding-right: 8px;
     padding-top: 8px;
     scrollbar-width: unset;
-    text-wrap-mode: nowrap
+    text-wrap-mode: nowrap;
+    white-space-collapse: collapse
   ">
     <h2 style="
       border-bottom-color: currentcolor;
@@ -695,6 +735,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px
     ">
       You are here
@@ -712,15 +753,19 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <a style="
-          color: inherit;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis
-        ">
+        <a
+          href="https://www.ebay.com/"
+          style="
+            color: inherit;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis
+          "
+        >
           ebay
         </a>
         <svg
@@ -747,7 +792,10 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <span style="position: relative">
+        <span style="
+          line-height: normal;
+          position: relative
+        ">
           <button style="
             align-items: center;
             background-color: var(--icon-button-background-color, var(--color-background-secondary));
@@ -834,35 +882,38 @@
             z-index: 2
           ">
             <li>
-              <a style="
-                background-color: initial;
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
-                border-top-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
-                display: inline-grid;
-                font-family: inherit;
-                grid-template-columns: auto auto;
-                justify-content: space-between;
-                overflow-x: hidden;
-                overflow-y: hidden;
-                padding-bottom: 8px;
-                padding-left: 15px;
-                padding-right: 15px;
-                padding-top: 8px;
-                position: relative;
-                text-decoration-line: none;
-                width: 100%
-              ">
+              <a
+                href="https://www.ebay.com/rpp/cell-phone-pda"
+                style="
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+                  border-top-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
+                  display: inline-grid;
+                  font-family: inherit;
+                  grid-template-columns: auto auto;
+                  justify-content: space-between;
+                  overflow-x: hidden;
+                  overflow-y: hidden;
+                  padding-bottom: 8px;
+                  padding-left: 15px;
+                  padding-right: 15px;
+                  padding-top: 8px;
+                  position: relative;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  width: 100%
+                "
+              >
                 <style>@scope{:scope{
                   &::after {
                     background-color: var(--color-state-layer-neutral);
@@ -879,33 +930,36 @@
               </a>
             </li>
             <li>
-              <a style="
-                background-color: initial;
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
-                display: inline-grid;
-                font-family: inherit;
-                grid-template-columns: auto auto;
-                justify-content: space-between;
-                overflow-x: hidden;
-                overflow-y: hidden;
-                padding-bottom: 8px;
-                padding-left: 15px;
-                padding-right: 15px;
-                padding-top: 8px;
-                position: relative;
-                text-decoration-line: none;
-                width: 100%
-              ">
+              <a
+                href="https://www.ebay.com/b/Smart-Watch-Accessories/182064/bn_16565905"
+                style="
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
+                  display: inline-grid;
+                  font-family: inherit;
+                  grid-template-columns: auto auto;
+                  justify-content: space-between;
+                  overflow-x: hidden;
+                  overflow-y: hidden;
+                  padding-bottom: 8px;
+                  padding-left: 15px;
+                  padding-right: 15px;
+                  padding-top: 8px;
+                  position: relative;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  width: 100%
+                "
+              >
                 <style>@scope{:scope{
                   &::after {
                     background-color: var(--color-state-layer-neutral);
@@ -922,35 +976,38 @@
               </a>
             </li>
             <li>
-              <a style="
-                background-color: initial;
-                border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
-                border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
-                display: inline-grid;
-                font-family: inherit;
-                grid-template-columns: auto auto;
-                justify-content: space-between;
-                overflow-x: hidden;
-                overflow-y: hidden;
-                padding-bottom: 8px;
-                padding-left: 15px;
-                padding-right: 15px;
-                padding-top: 8px;
-                position: relative;
-                text-decoration-line: none;
-                width: 100%
-              ">
+              <a
+                href="https://www.ebay.com/b/Smart-Watch-Bands/182068/bn_16565906"
+                style="
+                  border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+                  border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
+                  display: inline-grid;
+                  font-family: inherit;
+                  grid-template-columns: auto auto;
+                  justify-content: space-between;
+                  overflow-x: hidden;
+                  overflow-y: hidden;
+                  padding-bottom: 8px;
+                  padding-left: 15px;
+                  padding-right: 15px;
+                  padding-top: 8px;
+                  position: relative;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  width: 100%
+                "
+              >
                 <style>@scope{:scope{
                   &::after {
                     background-color: var(--color-state-layer-neutral);
@@ -992,15 +1049,19 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <a style="
-          color: inherit;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis
-        ">
+        <a
+          href="https://www.ebay.com/b/Smart-Watch-Bands/182068/bn_16565906/Some-Random-Watch-Pand1"
+          style="
+            color: inherit;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis
+          "
+        >
           Smart Watch Band Long Band Text Type 2
         </a>
         <svg
@@ -1060,7 +1121,8 @@
     padding-right: 8px;
     padding-top: 8px;
     scrollbar-width: unset;
-    text-wrap-mode: nowrap
+    text-wrap-mode: nowrap;
+    white-space-collapse: collapse
   ">
     <h2 style="
       border-bottom-color: currentcolor;
@@ -1073,6 +1135,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px
     ">
       You are here
@@ -1090,15 +1153,19 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <a style="
-          color: inherit;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis
-        ">
+        <a
+          href="https://www.ebay.com/"
+          style="
+            color: inherit;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis
+          "
+        >
           ebay
         </a>
         <svg
@@ -1125,7 +1192,10 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <span style="position: relative">
+        <span style="
+          line-height: normal;
+          position: relative
+        ">
           <button style="
             align-items: center;
             background-color: var(--icon-button-background-color, var(--color-background-secondary));
@@ -1212,35 +1282,38 @@
             z-index: 2
           ">
             <li>
-              <a style="
-                background-color: initial;
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
-                border-top-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
-                display: inline-grid;
-                font-family: inherit;
-                grid-template-columns: auto auto;
-                justify-content: space-between;
-                overflow-x: hidden;
-                overflow-y: hidden;
-                padding-bottom: 8px;
-                padding-left: 15px;
-                padding-right: 15px;
-                padding-top: 8px;
-                position: relative;
-                text-decoration-line: none;
-                width: 100%
-              ">
+              <a
+                href="https://www.ebay.com/rpp/cell-phone-pda"
+                style="
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+                  border-top-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
+                  display: inline-grid;
+                  font-family: inherit;
+                  grid-template-columns: auto auto;
+                  justify-content: space-between;
+                  overflow-x: hidden;
+                  overflow-y: hidden;
+                  padding-bottom: 8px;
+                  padding-left: 15px;
+                  padding-right: 15px;
+                  padding-top: 8px;
+                  position: relative;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  width: 100%
+                "
+              >
                 <style>@scope{:scope{
                   &::after {
                     background-color: var(--color-state-layer-neutral);
@@ -1257,33 +1330,36 @@
               </a>
             </li>
             <li>
-              <a style="
-                background-color: initial;
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
-                display: inline-grid;
-                font-family: inherit;
-                grid-template-columns: auto auto;
-                justify-content: space-between;
-                overflow-x: hidden;
-                overflow-y: hidden;
-                padding-bottom: 8px;
-                padding-left: 15px;
-                padding-right: 15px;
-                padding-top: 8px;
-                position: relative;
-                text-decoration-line: none;
-                width: 100%
-              ">
+              <a
+                href="https://www.ebay.com/b/Smart-Watch-Accessories/182064/bn_16565905"
+                style="
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
+                  display: inline-grid;
+                  font-family: inherit;
+                  grid-template-columns: auto auto;
+                  justify-content: space-between;
+                  overflow-x: hidden;
+                  overflow-y: hidden;
+                  padding-bottom: 8px;
+                  padding-left: 15px;
+                  padding-right: 15px;
+                  padding-top: 8px;
+                  position: relative;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  width: 100%
+                "
+              >
                 <style>@scope{:scope{
                   &::after {
                     background-color: var(--color-state-layer-neutral);
@@ -1300,35 +1376,38 @@
               </a>
             </li>
             <li>
-              <a style="
-                background-color: initial;
-                border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
-                border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
-                display: inline-grid;
-                font-family: inherit;
-                grid-template-columns: auto auto;
-                justify-content: space-between;
-                overflow-x: hidden;
-                overflow-y: hidden;
-                padding-bottom: 8px;
-                padding-left: 15px;
-                padding-right: 15px;
-                padding-top: 8px;
-                position: relative;
-                text-decoration-line: none;
-                width: 100%
-              ">
+              <a
+                href="https://www.ebay.com/b/Smart-Watch-Bands/182068/bn_16565906"
+                style="
+                  border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+                  border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--menu-button-menuitem-foreground-color, var(--color-foreground-primary));
+                  display: inline-grid;
+                  font-family: inherit;
+                  grid-template-columns: auto auto;
+                  justify-content: space-between;
+                  overflow-x: hidden;
+                  overflow-y: hidden;
+                  padding-bottom: 8px;
+                  padding-left: 15px;
+                  padding-right: 15px;
+                  padding-top: 8px;
+                  position: relative;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  width: 100%
+                "
+              >
                 <style>@scope{:scope{
                   &::after {
                     background-color: var(--color-state-layer-neutral);
@@ -1370,15 +1449,19 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <a style="
-          color: inherit;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis
-        ">
+        <a
+          href="https://www.ebay.com/b/Smart-Watch-Bands/182068/bn_16565906/Some-Random-Watch-Pand1"
+          style="
+            color: inherit;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis
+          "
+        >
           Smart Watch Band Long Band Text Type 2
         </a>
         <svg
@@ -1438,7 +1521,8 @@
     padding-right: 8px;
     padding-top: 8px;
     scrollbar-width: unset;
-    text-wrap-mode: nowrap
+    text-wrap-mode: nowrap;
+    white-space-collapse: collapse
   ">
     <h2 style="
       border-bottom-color: currentcolor;
@@ -1451,6 +1535,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px
     ">
       You are here
@@ -1468,15 +1553,19 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <a style="
-          color: inherit;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis
-        ">
+        <a
+          href="https://www.ebay.com/"
+          style="
+            color: inherit;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis
+          "
+        >
           ebay
         </a>
         <svg
@@ -1503,7 +1592,10 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <span style="position: relative">
+        <span style="
+          line-height: normal;
+          position: relative
+        ">
           <button style="
             align-items: center;
             background-color: var(--icon-button-background-color, var(--color-background-secondary));
@@ -1627,7 +1719,8 @@
     padding-right: 8px;
     padding-top: 8px;
     scrollbar-width: unset;
-    text-wrap-mode: nowrap
+    text-wrap-mode: nowrap;
+    white-space-collapse: collapse
   ">
     <h2 style="
       border-bottom-color: currentcolor;
@@ -1640,6 +1733,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px
     ">
       You are here
@@ -1657,15 +1751,19 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <a style="
-          color: inherit;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis
-        ">
+        <a
+          href="https://www.ebay.com/"
+          style="
+            color: inherit;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis
+          "
+        >
           ebay
         </a>
         <svg
@@ -1692,7 +1790,10 @@
         display: inline-flex;
         vertical-align: middle
       ">
-        <span style="position: relative">
+        <span style="
+          line-height: normal;
+          position: relative
+        ">
           <button style="
             align-items: center;
             background-color: var(--icon-button-background-color, var(--color-background-secondary));
@@ -1819,6 +1920,7 @@
     padding-top: 8px;
     scrollbar-width: unset;
     text-wrap-mode: nowrap;
+    white-space-collapse: collapse;
     word-spacing: 0.16em
   ">
     <h2 style="
@@ -1834,6 +1936,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px;
       word-spacing: 0.16em
     ">
@@ -1858,18 +1961,22 @@
         vertical-align: middle;
         word-spacing: 0.16em
       ">
-        <a style="
-          color: inherit;
-          letter-spacing: 0.12em;
-          line-height: 1.5;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis;
-          word-spacing: 0.16em
-        ">
+        <a
+          href="https://www.ebay.com/"
+          style="
+            color: inherit;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis;
+            word-spacing: 0.16em
+          "
+        >
           ebay
         </a>
         <svg
@@ -2031,18 +2138,22 @@
         vertical-align: middle;
         word-spacing: 0.16em
       ">
-        <a style="
-          color: inherit;
-          letter-spacing: 0.12em;
-          line-height: 1.5;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis;
-          word-spacing: 0.16em
-        ">
+        <a
+          href="https://www.ebay.com/b/Smart-Watch-Bands/182068/bn_16565906/Some-Random-Watch-Pand2"
+          style="
+            color: inherit;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis;
+            word-spacing: 0.16em
+          "
+        >
           Smart Watch Band Long Band Text Type 2
         </a>
         <svg
@@ -2121,6 +2232,7 @@
     padding-top: 8px;
     scrollbar-width: unset;
     text-wrap-mode: nowrap;
+    white-space-collapse: collapse;
     word-spacing: 0.16em
   ">
     <h2 style="
@@ -2136,6 +2248,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px;
       word-spacing: 0.16em
     ">
@@ -2160,18 +2273,22 @@
         vertical-align: middle;
         word-spacing: 0.16em
       ">
-        <a style="
-          color: inherit;
-          letter-spacing: 0.12em;
-          line-height: 1.5;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis;
-          word-spacing: 0.16em
-        ">
+        <a
+          href="https://www.ebay.com/"
+          style="
+            color: inherit;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis;
+            word-spacing: 0.16em
+          "
+        >
           ebay
         </a>
         <svg
@@ -2333,18 +2450,22 @@
         vertical-align: middle;
         word-spacing: 0.16em
       ">
-        <a style="
-          color: inherit;
-          letter-spacing: 0.12em;
-          line-height: 1.5;
-          max-width: 168px;
-          outline-offset: 5px;
-          overflow-x: hidden;
-          overflow-y: hidden;
-          text-decoration-line: none;
-          text-overflow: ellipsis;
-          word-spacing: 0.16em
-        ">
+        <a
+          href="https://www.ebay.com/b/Smart-Watch-Bands/182068/bn_16565906/Some-Random-Watch-Pand2"
+          style="
+            color: inherit;
+            letter-spacing: 0.12em;
+            line-height: 1.5;
+            max-width: 168px;
+            outline-offset: 5px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none;
+            text-overflow: ellipsis;
+            word-spacing: 0.16em
+          "
+        >
           Smart Watch Band Long Band Text Type 2
         </a>
         <svg

@@ -461,11 +461,6 @@
         border-bottom-style: none;
         border-bottom-width: medium;
         border-color: var(--filter-menu-border-color, var(--color-border-subtle));
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-style: none;
         border-left-width: medium;
         border-right-style: none;
@@ -560,11 +555,6 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -585,15 +575,10 @@
       <button style="
         align-content: center;
         align-items: center;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: medium;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
@@ -615,6 +600,7 @@
         padding-left: 0px;
         padding-right: 0px;
         padding-top: 0px;
+        text-align: center;
         vertical-align: bottom;
         width: var(--spacing-250);
         word-spacing: 0.16em
@@ -629,8 +615,6 @@
             height: 20px;
             letter-spacing: 0.12em;
             line-height: 1.5;
-            margin-inline-end: 8px;
-            margin-inline-start: 8px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
@@ -894,11 +878,6 @@
       border-bottom-style: none;
       border-bottom-width: medium;
       border-color: var(--filter-menu-border-color, var(--color-border-subtle));
-      border-image-outset: initial;
-      border-image-repeat: initial;
-      border-image-slice: initial;
-      border-image-source: initial;
-      border-image-width: initial;
       border-left-style: none;
       border-left-width: medium;
       border-right-style: none;
@@ -1324,11 +1303,6 @@
       border-bottom-style: none;
       border-bottom-width: medium;
       border-color: var(--filter-menu-border-color, var(--color-border-subtle));
-      border-image-outset: initial;
-      border-image-repeat: initial;
-      border-image-slice: initial;
-      border-image-source: initial;
-      border-image-width: initial;
       border-left-style: none;
       border-left-width: medium;
       border-right-style: none;
@@ -1406,11 +1380,6 @@
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1428,15 +1397,10 @@
       <button style="
         align-content: center;
         align-items: center;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: medium;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
@@ -1456,6 +1420,7 @@
         padding-left: 0px;
         padding-right: 0px;
         padding-top: 0px;
+        text-align: center;
         vertical-align: bottom;
         width: var(--spacing-250)
       ">
@@ -1467,8 +1432,6 @@
             display: inline-block;
             fill: currentcolor;
             height: 20px;
-            margin-inline-end: 8px;
-            margin-inline-start: 8px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
@@ -1667,11 +1630,6 @@
       border-bottom-style: none;
       border-bottom-width: medium;
       border-color: var(--filter-menu-border-color, var(--color-border-subtle));
-      border-image-outset: initial;
-      border-image-repeat: initial;
-      border-image-slice: initial;
-      border-image-source: initial;
-      border-image-width: initial;
       border-left-style: none;
       border-left-width: medium;
       border-right-style: none;

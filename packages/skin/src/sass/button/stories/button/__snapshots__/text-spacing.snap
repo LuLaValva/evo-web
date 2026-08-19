@@ -3,7 +3,7 @@
   <button style="
     align-content: center;
     align-items: center;
-    background-color: initial;
+    background-color: rgba(0, 0, 0, 0);
     border-bottom-color: inherit;
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -32,6 +32,7 @@
     padding-right: 20px;
     padding-top: 0px;
     position: relative;
+    text-align: center;
     vertical-align: bottom;
     word-spacing: 0.16em
   ">
@@ -59,7 +60,7 @@
   <button style="
     align-content: center;
     align-items: center;
-    background-color: initial;
+    background-color: rgba(0, 0, 0, 0);
     border-bottom-color: currentcolor;
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -84,6 +85,7 @@
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 0px;
+    text-align: center;
     vertical-align: bottom;
     word-spacing: 0.16em
   ">
@@ -141,7 +143,7 @@
   <button style="
     align-content: center;
     align-items: center;
-    background-color: initial;
+    background-color: rgba(0, 0, 0, 0);
     border-bottom-color: currentcolor;
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -166,6 +168,7 @@
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 0px;
+    text-align: center;
     vertical-align: bottom;
     word-spacing: 0.16em
   ">

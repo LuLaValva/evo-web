@@ -12,7 +12,7 @@
   ">
     <button style="
       align-items: center;
-      background-color: initial;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-color: transparent;
       border-bottom-left-radius: 50px;
       border-bottom-right-radius: 50px;
@@ -84,7 +84,7 @@
   ">
     <button style="
       align-items: center;
-      background-color: initial;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-color: transparent;
       border-bottom-left-radius: 50px;
       border-bottom-right-radius: 50px;
@@ -179,11 +179,13 @@
         <div style="
           display: flex;
           overflow-wrap: anywhere;
-          padding: var(--spacing-100) var(--spacing-200)
+          padding: var(--spacing-100) var(--spacing-200);
+          word-break: normal
         ">
           <span style="flex-grow: 1">
             <h3 style="
               font-size: 1em;
+              font-weight: 700;
               margin: 0 0 var(--spacing-50)
             ">
               Infotip
@@ -197,7 +199,7 @@
           </span>
           <button style="
             align-items: center;
-            background-color: initial;
+            background-color: rgba(0, 0, 0, 0);
             border-bottom-color: transparent;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
@@ -278,7 +280,7 @@
   ">
     <button style="
       align-items: center;
-      background-color: initial;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-color: transparent;
       border-bottom-left-radius: 50px;
       border-bottom-right-radius: 50px;
@@ -373,11 +375,13 @@
         <div style="
           display: flex;
           overflow-wrap: anywhere;
-          padding: var(--spacing-100) var(--spacing-200)
+          padding: var(--spacing-100) var(--spacing-200);
+          word-break: normal
         ">
           <span style="flex-grow: 1">
             <h3 style="
               font-size: 1em;
+              font-weight: 700;
               margin: 0 0 var(--spacing-50)
             ">
               Infotip
@@ -391,7 +395,7 @@
           </span>
           <button style="
             align-items: center;
-            background-color: initial;
+            background-color: rgba(0, 0, 0, 0);
             border-bottom-color: transparent;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
@@ -469,7 +473,7 @@
   ">
     <button style="
       align-items: center;
-      background-color: initial;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-color: transparent;
       border-bottom-left-radius: 50px;
       border-bottom-right-radius: 50px;
@@ -690,7 +694,7 @@
   ">
     <button style="
       align-items: center;
-      background-color: initial;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-color: transparent;
       border-bottom-left-radius: 50px;
       border-bottom-right-radius: 50px;
@@ -911,7 +915,7 @@
   ">
     <button style="
       align-items: center;
-      background-color: initial;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-color: transparent;
       border-bottom-left-radius: 50px;
       border-bottom-right-radius: 50px;
@@ -1140,7 +1144,7 @@
     ">
       <button style="
         align-items: center;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: transparent;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
@@ -1215,7 +1219,7 @@
     ">
       <button style="
         align-items: center;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: transparent;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
@@ -1312,7 +1316,8 @@
           <span style="
             display: flex;
             overflow-wrap: anywhere;
-            padding: var(--spacing-100) var(--spacing-200)
+            padding: var(--spacing-100) var(--spacing-200);
+            word-break: normal
           ">
             <span style="flex-grow: 1">
               <span style="
@@ -1329,7 +1334,7 @@
             </span>
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
@@ -1413,7 +1418,7 @@
     ">
       <button style="
         align-items: center;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: transparent;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
@@ -1510,7 +1515,8 @@
           <span style="
             display: flex;
             overflow-wrap: anywhere;
-            padding: var(--spacing-100) var(--spacing-200)
+            padding: var(--spacing-100) var(--spacing-200);
+            word-break: normal
           ">
             <span style="flex-grow: 1">
               <span style="
@@ -1527,7 +1533,7 @@
             </span>
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
@@ -1609,7 +1615,7 @@
   ">
     <button style="
       align-items: center;
-      background-color: initial;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-color: transparent;
       border-bottom-left-radius: 50px;
       border-bottom-right-radius: 50px;
@@ -1729,6 +1735,7 @@
           line-height: 1.5;
           overflow-wrap: anywhere;
           padding: var(--spacing-100) var(--spacing-200);
+          word-break: normal;
           word-spacing: 0.16em
         ">
           <span style="
@@ -1739,6 +1746,7 @@
           ">
             <h3 style="
               font-size: 1em;
+              font-weight: 700;
               letter-spacing: 0.12em;
               line-height: 1.5;
               margin: 0 0 var(--spacing-50);
@@ -1758,7 +1766,7 @@
           </span>
           <button style="
             align-items: center;
-            background-color: initial;
+            background-color: rgba(0, 0, 0, 0);
             border-bottom-color: transparent;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
@@ -1855,7 +1863,7 @@
   ">
     <button style="
       align-items: center;
-      background-color: initial;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-color: transparent;
       border-bottom-left-radius: 50px;
       border-bottom-right-radius: 50px;
@@ -1975,6 +1983,7 @@
           line-height: 1.5;
           overflow-wrap: anywhere;
           padding: var(--spacing-100) var(--spacing-200);
+          word-break: normal;
           word-spacing: 0.16em
         ">
           <span style="
@@ -1985,6 +1994,7 @@
           ">
             <h3 style="
               font-size: 1em;
+              font-weight: 700;
               letter-spacing: 0.12em;
               line-height: 1.5;
               margin: 0 0 var(--spacing-50);
@@ -2004,7 +2014,7 @@
           </span>
           <button style="
             align-items: center;
-            background-color: initial;
+            background-color: rgba(0, 0, 0, 0);
             border-bottom-color: transparent;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;

@@ -22,6 +22,7 @@
         overflow-y: hidden;
         position: absolute;
         text-wrap-mode: nowrap;
+        white-space-collapse: collapse;
         width: 1px
       ">
         Results Pagination - Page 1
@@ -78,7 +79,6 @@
       <svg
         height="24"
         style="
-          background-color: initial;
           display: inline-block;
           fill: var(--color-background-disabled);
           height: 16px;
@@ -113,14 +113,12 @@
       ">
         <button style="
           align-items: center;
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -166,14 +164,12 @@
       ">
         <button style="
           align-items: center;
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -195,7 +191,6 @@
         ">
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -219,14 +214,12 @@
       ">
         <button style="
           align-items: center;
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -248,7 +241,6 @@
         ">
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -272,14 +264,12 @@
       ">
         <button style="
           align-items: center;
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -301,7 +291,6 @@
         ">
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -325,14 +314,12 @@
       ">
         <button style="
           align-items: center;
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -354,7 +341,6 @@
         ">
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -378,14 +364,12 @@
       ">
         <button style="
           align-items: center;
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -407,7 +391,6 @@
         ">
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -431,14 +414,12 @@
       ">
         <button style="
           align-items: center;
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -460,7 +441,6 @@
         ">
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -575,6 +555,7 @@
         overflow-y: hidden;
         position: absolute;
         text-wrap-mode: nowrap;
+        white-space-collapse: collapse;
         width: 1px
       ">
         Results Pagination - Page 1
@@ -631,7 +612,6 @@
       <svg
         height="24"
         style="
-          background-color: initial;
           display: inline-block;
           fill: var(--color-background-disabled);
           height: 16px;
@@ -666,14 +646,12 @@
       ">
         <button style="
           align-items: center;
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -719,14 +697,12 @@
       ">
         <button style="
           align-items: center;
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -748,7 +724,6 @@
         ">
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -772,14 +747,12 @@
       ">
         <button style="
           align-items: center;
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -801,7 +774,6 @@
         ">
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -825,14 +797,12 @@
       ">
         <button style="
           align-items: center;
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -854,7 +824,6 @@
         ">
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -878,14 +847,12 @@
       ">
         <button style="
           align-items: center;
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -907,7 +874,6 @@
         ">
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -931,14 +897,12 @@
       ">
         <button style="
           align-items: center;
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -960,7 +924,6 @@
         ">
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -984,14 +947,12 @@
       ">
         <button style="
           align-items: center;
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1013,7 +974,6 @@
         ">
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -1129,6 +1089,7 @@
         overflow-y: hidden;
         position: absolute;
         text-wrap-mode: nowrap;
+        white-space-collapse: collapse;
         width: 1px
       ">
         Results Pagination - Page 1
@@ -1185,7 +1146,6 @@
       <svg
         height="24"
         style="
-          background-color: initial;
           display: inline-block;
           fill: var(--color-background-disabled);
           height: 16px;
@@ -1222,14 +1182,12 @@
       ">
         <button style="
           align-items: center;
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1276,14 +1234,12 @@
       ">
         <button style="
           align-items: center;
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1305,7 +1261,6 @@
         ">
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -1330,14 +1285,12 @@
       ">
         <button style="
           align-items: center;
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1359,7 +1312,6 @@
         ">
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -1384,14 +1336,12 @@
       ">
         <button style="
           align-items: center;
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1413,7 +1363,6 @@
         ">
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -1438,14 +1387,12 @@
       ">
         <button style="
           align-items: center;
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1467,7 +1414,6 @@
         ">
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -1492,14 +1438,12 @@
       ">
         <button style="
           align-items: center;
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1521,7 +1465,6 @@
         ">
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -1546,14 +1489,12 @@
       ">
         <button style="
           align-items: center;
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1575,7 +1516,6 @@
         ">
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -1691,6 +1631,7 @@
         overflow-y: hidden;
         position: absolute;
         text-wrap-mode: nowrap;
+        white-space-collapse: collapse;
         width: 1px
       ">
         Results Pagination - Page 1
@@ -1747,7 +1688,6 @@
       <svg
         height="24"
         style="
-          background-color: initial;
           display: inline-block;
           fill: var(--color-background-disabled);
           height: 16px;
@@ -1784,14 +1724,12 @@
       ">
         <button style="
           align-items: center;
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1838,14 +1776,12 @@
       ">
         <button style="
           align-items: center;
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1867,7 +1803,6 @@
         ">
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -1892,14 +1827,12 @@
       ">
         <button style="
           align-items: center;
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1921,7 +1854,6 @@
         ">
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -1946,14 +1878,12 @@
       ">
         <button style="
           align-items: center;
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1975,7 +1905,6 @@
         ">
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -2000,14 +1929,12 @@
       ">
         <button style="
           align-items: center;
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -2029,7 +1956,6 @@
         ">
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -2054,14 +1980,12 @@
       ">
         <button style="
           align-items: center;
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -2083,7 +2007,6 @@
         ">
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;
@@ -2108,14 +2031,12 @@
       ">
         <button style="
           align-items: center;
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -2137,7 +2058,6 @@
         ">
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 4px;
               border-bottom-right-radius: 4px;
               border-top-left-radius: 4px;

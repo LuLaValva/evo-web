@@ -1,12 +1,12 @@
 ┌─ largerFontSize
 <div>
   <div style="font-size: 200%">
-    <div style="
+    <div style='
       column-gap: 8px;
       display: inline-flex;
       font-family: "Reddit Sans Condensed Bold", "Market Sans", Arial, sans-serif;
       row-gap: 8px
-    ">
+    '>
       <svg style="
         display: inline-block;
         fill: currentcolor;
@@ -75,12 +75,12 @@
 ┌─ rtl
 <div>
   <div dir="rtl">
-    <div style="
+    <div style='
       column-gap: 8px;
       display: inline-flex;
       font-family: "Reddit Sans Condensed Bold", "Market Sans", Arial, sans-serif;
       row-gap: 8px
-    ">
+    '>
       <svg style="
         display: inline-block;
         fill: currentcolor;
@@ -148,12 +148,12 @@
 
 ┌─ withChargerAndLargeText
 <div>
-  <div style="
+  <div style='
     column-gap: 8px;
     display: inline-flex;
     font-family: "Reddit Sans Condensed Bold", "Market Sans", Arial, sans-serif;
     row-gap: 8px
-  ">
+  '>
     <svg style="
       display: inline-block;
       fill: currentcolor;
@@ -220,12 +220,12 @@
 
 ┌─ withChargerAndNoUsb
 <div>
-  <div style="
+  <div style='
     column-gap: 8px;
     display: inline-flex;
     font-family: "Reddit Sans Condensed Bold", "Market Sans", Arial, sans-serif;
     row-gap: 8px
-  ">
+  '>
     <svg style="
       display: inline-block;
       fill: currentcolor;
@@ -289,12 +289,12 @@
 
 ┌─ withChargerAndUsb
 <div>
-  <div style="
+  <div style='
     column-gap: 8px;
     display: inline-flex;
     font-family: "Reddit Sans Condensed Bold", "Market Sans", Arial, sans-serif;
     row-gap: 8px
-  ">
+  '>
     <svg style="
       display: inline-block;
       fill: currentcolor;
@@ -361,12 +361,12 @@
 
 ┌─ withoutChargerAndNoUsb
 <div>
-  <div style="
+  <div style='
     column-gap: 8px;
     display: inline-flex;
     font-family: "Reddit Sans Condensed Bold", "Market Sans", Arial, sans-serif;
     row-gap: 8px
-  ">
+  '>
     <svg style="
       display: inline-block;
       fill: currentcolor;
@@ -430,12 +430,12 @@
 
 ┌─ withoutChargerAndUsb
 <div>
-  <div style="
+  <div style='
     column-gap: 8px;
     display: inline-flex;
     font-family: "Reddit Sans Condensed Bold", "Market Sans", Arial, sans-serif;
     row-gap: 8px
-  ">
+  '>
     <svg style="
       display: inline-block;
       fill: currentcolor;

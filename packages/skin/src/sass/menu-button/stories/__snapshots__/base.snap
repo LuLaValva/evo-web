@@ -1,10 +1,13 @@
 ┌─ badged
 <div>
-  <span style="position: relative">
+  <span style="
+    line-height: normal;
+    position: relative
+  ">
     <button style="
       align-content: center;
       align-items: center;
-      background-color: initial;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
@@ -27,6 +30,7 @@
       padding-left: 20px;
       padding-right: 20px;
       padding-top: 0px;
+      text-align: center;
       vertical-align: bottom
     ">
       <span style="
@@ -76,7 +80,6 @@
     ">
       <div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -120,7 +123,8 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Item 10000
             <span style="
@@ -143,6 +147,7 @@
               position: absolute;
               text-wrap-mode: nowrap;
               top: 6px;
+              white-space-collapse: collapse;
               z-index: 1
             ">
               2
@@ -150,7 +155,6 @@
           </span>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -192,7 +196,8 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Item 20000
             <span style="
@@ -215,6 +220,7 @@
               position: absolute;
               text-wrap-mode: nowrap;
               top: 6px;
+              white-space-collapse: collapse;
               z-index: 1
             ">
               24
@@ -222,7 +228,6 @@
           </span>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
@@ -265,7 +270,8 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Item 30000
             <span style="
@@ -288,6 +294,7 @@
               position: absolute;
               text-wrap-mode: nowrap;
               top: 6px;
+              white-space-collapse: collapse;
               z-index: 1
             ">
               99+
@@ -301,11 +308,14 @@
 
 ┌─ checkboxItems
 <div>
-  <span style="position: relative">
+  <span style="
+    line-height: normal;
+    position: relative
+  ">
     <button style="
       align-content: center;
       align-items: center;
-      background-color: initial;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
@@ -328,6 +338,7 @@
       padding-left: 20px;
       padding-right: 20px;
       padding-top: 0px;
+      text-align: center;
       vertical-align: bottom
     ">
       <span style="
@@ -377,7 +388,6 @@
     ">
       <div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -421,7 +431,8 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Item 10000
           </span>
@@ -446,7 +457,6 @@
           </svg>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -488,7 +498,8 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Item 20000
           </span>
@@ -514,7 +525,6 @@
           </svg>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
@@ -557,7 +567,8 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Item 30000
           </span>
@@ -588,11 +599,14 @@
 
 ┌─ checkboxItemsDisabledItem
 <div>
-  <span style="position: relative">
+  <span style="
+    line-height: normal;
+    position: relative
+  ">
     <button style="
       align-content: center;
       align-items: center;
-      background-color: initial;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
@@ -615,6 +629,7 @@
       padding-left: 20px;
       padding-right: 20px;
       padding-top: 0px;
+      text-align: center;
       vertical-align: bottom
     ">
       <span style="
@@ -664,7 +679,6 @@
     ">
       <div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -708,7 +722,8 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Item 10000
           </span>
@@ -733,7 +748,6 @@
           </svg>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -775,7 +789,8 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Item 20000
           </span>
@@ -801,7 +816,6 @@
           </svg>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
@@ -844,7 +858,8 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Item 30000
           </span>
@@ -875,23 +890,22 @@
 
 ┌─ collapsed
 <div>
-  <span style="position: relative">
+  <span style="
+    line-height: normal;
+    position: relative
+  ">
     <button style="
       align-content: center;
       align-items: center;
       background-color: var(--btn-secondary-background-color, transparent);
-      border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--color-border-accent);
-      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
       border-radius: var(--btn-border-radius, 20px);
-      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
-      border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
       color: var(--color-foreground-accent);
@@ -906,6 +920,7 @@
       padding-right: 20px;
       padding-top: 0px;
       position: relative;
+      text-align: center;
       transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
       vertical-align: bottom
     ">
@@ -955,11 +970,14 @@
 
 ┌─ collapsedForm
 <div>
-  <span style="position: relative">
+  <span style="
+    line-height: normal;
+    position: relative
+  ">
     <button style="
       align-content: center;
       align-items: center;
-      background-color: initial;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-color: inherit;
       border-bottom-style: solid;
       border-bottom-width: 1px;
@@ -986,6 +1004,7 @@
       padding-right: 20px;
       padding-top: 0px;
       position: relative;
+      text-align: center;
       vertical-align: bottom
     ">
       <style>@scope{:scope{
@@ -1034,25 +1053,24 @@
 
 ┌─ disabled
 <div>
-  <span style="position: relative">
+  <span style="
+    line-height: normal;
+    position: relative
+  ">
     <button
       disabled
       style="
         align-content: center;
         align-items: center;
         background-color: var(--btn-secondary-disabled-background-color, var(--color-background-primary));
-        border-bottom-color: currentcolor;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--btn-secondary-disabled-border-color, var(--color-border-disabled));
-        border-left-color: currentcolor;
         border-left-style: solid;
         border-left-width: 1px;
         border-radius: var(--btn-border-radius, 20px);
-        border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
-        border-top-color: currentcolor;
         border-top-style: solid;
         border-top-width: 1px;
         color: var(--btn-secondary-disabled-foreground-color, var(--color-background-disabled));
@@ -1067,6 +1085,8 @@
         padding-right: 20px;
         padding-top: 0px;
         position: relative;
+        text-align: center;
+        text-decoration-color: rgb(0, 0, 0);
         transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
         vertical-align: bottom
       "
@@ -1117,23 +1137,22 @@
 
 ┌─ expanded
 <div>
-  <span style="position: relative">
+  <span style="
+    line-height: normal;
+    position: relative
+  ">
     <button style="
       align-content: center;
       align-items: center;
       background-color: var(--btn-secondary-background-color, transparent);
-      border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--color-border-accent);
-      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
       border-radius: var(--btn-border-radius, 20px);
-      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
-      border-top-color: currentcolor;
       border-top-style: solid;
       border-top-width: 1px;
       color: var(--color-foreground-accent);
@@ -1148,6 +1167,7 @@
       padding-right: 20px;
       padding-top: 0px;
       position: relative;
+      text-align: center;
       transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
       vertical-align: bottom
     ">
@@ -1210,7 +1230,6 @@
     ">
       <div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -1254,13 +1273,13 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Item 10000
           </span>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -1302,13 +1321,13 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Item 20000
           </span>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
@@ -1351,7 +1370,8 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Item 30000
           </span>
@@ -1363,11 +1383,14 @@
 
 ┌─ expandedDisabledItem
 <div>
-  <span style="position: relative">
+  <span style="
+    line-height: normal;
+    position: relative
+  ">
     <button style="
       align-content: center;
       align-items: center;
-      background-color: initial;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
@@ -1390,6 +1413,7 @@
       padding-left: 20px;
       padding-right: 20px;
       padding-top: 0px;
+      text-align: center;
       vertical-align: bottom
     ">
       <span style="
@@ -1439,7 +1463,6 @@
     ">
       <div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -1483,13 +1506,13 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Item 10000
           </span>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -1531,13 +1554,13 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Item 20000
           </span>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
@@ -1580,7 +1603,8 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Item 30000
           </span>
@@ -1592,11 +1616,14 @@
 
 ┌─ expandedForm
 <div>
-  <span style="position: relative">
+  <span style="
+    line-height: normal;
+    position: relative
+  ">
     <button style="
       align-content: center;
       align-items: center;
-      background-color: initial;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-color: inherit;
       border-bottom-style: solid;
       border-bottom-width: 1px;
@@ -1623,6 +1650,7 @@
       padding-right: 20px;
       padding-top: 0px;
       position: relative;
+      text-align: center;
       vertical-align: bottom
     ">
       <style>@scope{:scope{
@@ -1684,7 +1712,6 @@
     ">
       <div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -1728,13 +1755,13 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Item 10000
           </span>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -1776,13 +1803,13 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Item 20000
           </span>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
@@ -1825,7 +1852,8 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Item 30000
           </span>
@@ -1837,11 +1865,14 @@
 
 ┌─ longOptionText
 <div>
-  <span style="position: relative">
+  <span style="
+    line-height: normal;
+    position: relative
+  ">
     <button style="
       align-content: center;
       align-items: center;
-      background-color: initial;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
@@ -1864,6 +1895,7 @@
       padding-left: 20px;
       padding-right: 20px;
       padding-top: 0px;
+      text-align: center;
       vertical-align: bottom
     ">
       <span style="
@@ -1913,7 +1945,6 @@
     ">
       <div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -1957,13 +1988,13 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Item 1 with a very very very long string
           </span>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -2005,13 +2036,13 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Item 20000
           </span>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
@@ -2054,7 +2085,8 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Item 30000
           </span>
@@ -2066,11 +2098,14 @@
 
 ┌─ menuIcons
 <div>
-  <span style="position: relative">
+  <span style="
+    line-height: normal;
+    position: relative
+  ">
     <button style="
       align-content: center;
       align-items: center;
-      background-color: initial;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
@@ -2093,6 +2128,7 @@
       padding-left: 20px;
       padding-right: 20px;
       padding-top: 0px;
+      text-align: center;
       vertical-align: bottom
     ">
       <span style="
@@ -2142,7 +2178,6 @@
     ">
       <div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -2205,13 +2240,13 @@
             margin-left: 5px;
             margin-right: 5px;
             margin-top: auto;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Profile
           </span>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -2272,13 +2307,13 @@
             margin-left: 5px;
             margin-right: 5px;
             margin-top: auto;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Calendar
           </span>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
@@ -2340,7 +2375,8 @@
             margin-left: 5px;
             margin-right: 5px;
             margin-top: auto;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Profile
           </span>
@@ -2352,11 +2388,14 @@
 
 ┌─ radioItems
 <div>
-  <span style="position: relative">
+  <span style="
+    line-height: normal;
+    position: relative
+  ">
     <button style="
       align-content: center;
       align-items: center;
-      background-color: initial;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
@@ -2379,6 +2418,7 @@
       padding-left: 20px;
       padding-right: 20px;
       padding-top: 0px;
+      text-align: center;
       vertical-align: bottom
     ">
       <span style="
@@ -2428,7 +2468,6 @@
     ">
       <div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -2472,7 +2511,8 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Item 10000
           </span>
@@ -2497,7 +2537,6 @@
           </svg>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -2539,7 +2578,8 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Item 20000
           </span>
@@ -2565,7 +2605,6 @@
           </svg>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
@@ -2608,7 +2647,8 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Item 30000
           </span>
@@ -2640,11 +2680,14 @@
 
 ┌─ radioItemsDisabledItem
 <div>
-  <span style="position: relative">
+  <span style="
+    line-height: normal;
+    position: relative
+  ">
     <button style="
       align-content: center;
       align-items: center;
-      background-color: initial;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
@@ -2667,6 +2710,7 @@
       padding-left: 20px;
       padding-right: 20px;
       padding-top: 0px;
+      text-align: center;
       vertical-align: bottom
     ">
       <span style="
@@ -2716,7 +2760,6 @@
     ">
       <div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -2760,7 +2803,8 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Item 10000
           </span>
@@ -2785,7 +2829,6 @@
           </svg>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -2827,7 +2870,8 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Item 20000
           </span>
@@ -2853,7 +2897,6 @@
           </svg>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
@@ -2896,7 +2939,8 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Item 30000
           </span>
@@ -2928,11 +2972,14 @@
 
 ┌─ separator
 <div>
-  <span style="position: relative">
+  <span style="
+    line-height: normal;
+    position: relative
+  ">
     <button style="
       align-content: center;
       align-items: center;
-      background-color: initial;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
@@ -2955,6 +3002,7 @@
       padding-left: 20px;
       padding-right: 20px;
       padding-top: 0px;
+      text-align: center;
       vertical-align: bottom
     ">
       <span style="
@@ -3004,7 +3052,6 @@
     ">
       <div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -3048,7 +3095,8 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Item 10000
           </span>
@@ -3063,7 +3111,6 @@
           margin-top: 0px
         "/>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -3105,13 +3152,13 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Item 20000
           </span>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
@@ -3154,7 +3201,8 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Item 30000
           </span>
@@ -3175,7 +3223,7 @@
     <button style="
       align-content: center;
       align-items: center;
-      background-color: initial;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-color: currentcolor;
       border-bottom-style: solid;
       border-bottom-width: 1px;
@@ -3200,6 +3248,7 @@
       padding-left: 20px;
       padding-right: 20px;
       padding-top: 0px;
+      text-align: center;
       vertical-align: bottom;
       word-spacing: 0.16em
     ">
@@ -3274,7 +3323,6 @@
         word-spacing: 0.16em
       ">
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -3324,13 +3372,13 @@
             letter-spacing: 0.12em;
             line-height: 1.5;
             text-wrap-mode: nowrap;
+            white-space-collapse: collapse;
             word-spacing: 0.16em
           ">
             Item 1 with a very very very long string
           </span>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -3378,13 +3426,13 @@
             letter-spacing: 0.12em;
             line-height: 1.5;
             text-wrap-mode: nowrap;
+            white-space-collapse: collapse;
             word-spacing: 0.16em
           ">
             Item 20000
           </span>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
@@ -3433,6 +3481,7 @@
             letter-spacing: 0.12em;
             line-height: 1.5;
             text-wrap-mode: nowrap;
+            white-space-collapse: collapse;
             word-spacing: 0.16em
           ">
             Item 30000

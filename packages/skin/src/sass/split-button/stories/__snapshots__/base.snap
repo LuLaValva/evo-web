@@ -1,45 +1,44 @@
 ┌─ fakePrimaryCollapsed
 <div>
   <span style="display: inline-flex">
-    <a style="
-      align-content: center;
-      align-items: center;
-      background-color: var(--color-background-accent);
-      border-bottom-color: currentcolor;
-      border-bottom-left-radius: 24px;
-      border-bottom-style: solid;
-      border-bottom-width: 1px;
-      border-color: var(--color-border-accent);
-      border-left-color: currentcolor;
-      border-left-style: solid;
-      border-left-width: 1px;
-      border-radius: var(--btn-border-radius, 20px);
-      border-right-color: currentcolor;
-      border-right-style: solid;
-      border-right-width: 1px;
-      border-top-color: currentcolor;
-      border-top-left-radius: 24px;
-      border-top-style: solid;
-      border-top-width: 1px;
-      box-sizing: border-box;
-      color: var(--color-foreground-on-accent);
-      display: inline-block;
-      font-family: inherit;
-      font-size: var(--font-size-body);
-      font-weight: 700;
-      min-height: 40px;
-      min-width: 88px;
-      outline-color: var(--color-foreground-primary);
-      overflow-x: hidden;
-      overflow-y: hidden;
-      padding-left: 20px;
-      padding-right: 20px;
-      position: relative;
-      text-align: center;
-      text-decoration-line: none;
-      transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
-      vertical-align: bottom
-    ">
+    <a
+      href="https://ebay.com"
+      style="
+        align-content: center;
+        align-items: center;
+        background-color: var(--color-background-accent);
+        border-bottom-left-radius: 24px;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-color: var(--color-border-accent);
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-top-left-radius: 24px;
+        border-top-style: solid;
+        border-top-width: 1px;
+        box-sizing: border-box;
+        color: var(--color-foreground-on-accent);
+        display: inline-block;
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        min-height: 40px;
+        min-width: 88px;
+        outline-color: var(--color-foreground-primary);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: relative;
+        text-align: center;
+        text-decoration-color: rgb(0, 0, 0);
+        text-decoration-line: none;
+        transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
+        vertical-align: bottom
+      "
+    >
       <style>@scope{:scope{
         &::after {
           background-color: var(--color-state-layer-neutral);
@@ -54,12 +53,14 @@
       }}</style>
       Link
     </a>
-    <span style="position: relative">
+    <span style="
+      line-height: normal;
+      position: relative
+    ">
       <button style="
         align-content: center;
         align-items: center;
         background-color: var(--color-background-accent);
-        border-bottom-color: currentcolor;
         border-bottom-right-radius: 24px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
@@ -67,11 +68,8 @@
         border-left-color: var(--btn-primary-border-split-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
-        border-radius: var(--btn-border-radius, 20px);
-        border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
-        border-top-color: currentcolor;
         border-top-right-radius: 24px;
         border-top-style: solid;
         border-top-width: 1px;
@@ -89,6 +87,7 @@
         padding-right: 8px;
         padding-top: 0px;
         position: relative;
+        text-align: center;
         transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
         vertical-align: bottom
       ">
@@ -111,8 +110,6 @@
             display: inline-block;
             fill: currentcolor;
             height: 12px;
-            margin-inline-end: 8px;
-            margin-inline-start: 8px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
@@ -131,45 +128,44 @@
 ┌─ fakePrimaryExpanded
 <div>
   <span style="display: inline-flex">
-    <a style="
-      align-content: center;
-      align-items: center;
-      background-color: var(--color-background-accent);
-      border-bottom-color: currentcolor;
-      border-bottom-left-radius: 24px;
-      border-bottom-style: solid;
-      border-bottom-width: 1px;
-      border-color: var(--color-border-accent);
-      border-left-color: currentcolor;
-      border-left-style: solid;
-      border-left-width: 1px;
-      border-radius: var(--btn-border-radius, 20px);
-      border-right-color: currentcolor;
-      border-right-style: solid;
-      border-right-width: 1px;
-      border-top-color: currentcolor;
-      border-top-left-radius: 24px;
-      border-top-style: solid;
-      border-top-width: 1px;
-      box-sizing: border-box;
-      color: var(--color-foreground-on-accent);
-      display: inline-block;
-      font-family: inherit;
-      font-size: var(--font-size-body);
-      font-weight: 700;
-      min-height: 40px;
-      min-width: 88px;
-      outline-color: var(--color-foreground-primary);
-      overflow-x: hidden;
-      overflow-y: hidden;
-      padding-left: 20px;
-      padding-right: 20px;
-      position: relative;
-      text-align: center;
-      text-decoration-line: none;
-      transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
-      vertical-align: bottom
-    ">
+    <a
+      href="https://ebay.com"
+      style="
+        align-content: center;
+        align-items: center;
+        background-color: var(--color-background-accent);
+        border-bottom-left-radius: 24px;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-color: var(--color-border-accent);
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-top-left-radius: 24px;
+        border-top-style: solid;
+        border-top-width: 1px;
+        box-sizing: border-box;
+        color: var(--color-foreground-on-accent);
+        display: inline-block;
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        font-weight: 700;
+        min-height: 40px;
+        min-width: 88px;
+        outline-color: var(--color-foreground-primary);
+        overflow-x: hidden;
+        overflow-y: hidden;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: relative;
+        text-align: center;
+        text-decoration-color: rgb(0, 0, 0);
+        text-decoration-line: none;
+        transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
+        vertical-align: bottom
+      "
+    >
       <style>@scope{:scope{
         &::after {
           background-color: var(--color-state-layer-neutral);
@@ -184,12 +180,14 @@
       }}</style>
       Link
     </a>
-    <span style="position: relative">
+    <span style="
+      line-height: normal;
+      position: relative
+    ">
       <button style="
         align-content: center;
         align-items: center;
         background-color: var(--color-background-accent);
-        border-bottom-color: currentcolor;
         border-bottom-right-radius: 24px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
@@ -197,11 +195,8 @@
         border-left-color: var(--btn-primary-border-split-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
-        border-radius: var(--btn-border-radius, 20px);
-        border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
-        border-top-color: currentcolor;
         border-top-right-radius: 24px;
         border-top-style: solid;
         border-top-width: 1px;
@@ -219,6 +214,7 @@
         padding-right: 8px;
         padding-top: 0px;
         position: relative;
+        text-align: center;
         transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
         vertical-align: bottom
       ">
@@ -241,8 +237,6 @@
             display: inline-block;
             fill: currentcolor;
             height: 12px;
-            margin-inline-end: 8px;
-            margin-inline-start: 8px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
@@ -273,7 +267,6 @@
       ">
         <div>
           <div style="
-            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
             border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -317,13 +310,13 @@
             <span style="
               flex-grow: 1;
               flex-shrink: 0;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Item 10000
             </span>
           </div>
           <div style="
-            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
             border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -365,13 +358,13 @@
             <span style="
               flex-grow: 1;
               flex-shrink: 0;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Item 20000
             </span>
           </div>
           <div style="
-            background-color: initial;
             border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
             border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
             border-bottom-style: solid;
@@ -414,7 +407,8 @@
             <span style="
               flex-grow: 1;
               flex-shrink: 0;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Item 30000
             </span>
@@ -428,43 +422,42 @@
 ┌─ fakeSecondaryCollapsed
 <div>
   <span style="display: inline-flex">
-    <a style="
-      align-content: center;
-      align-items: center;
-      background-color: var(--btn-secondary-background-color, transparent);
-      border-bottom-color: currentcolor;
-      border-bottom-left-radius: 24px;
-      border-bottom-style: solid;
-      border-bottom-width: 1px;
-      border-color: var(--color-border-accent);
-      border-left-color: currentcolor;
-      border-left-style: solid;
-      border-left-width: 1px;
-      border-radius: var(--btn-border-radius, 20px);
-      border-right-color: currentcolor;
-      border-right-style: solid;
-      border-right-width: 1px;
-      border-top-color: currentcolor;
-      border-top-left-radius: 24px;
-      border-top-style: solid;
-      border-top-width: 1px;
-      box-sizing: border-box;
-      color: var(--color-foreground-accent);
-      display: inline-block;
-      font-family: inherit;
-      font-size: var(--font-size-body);
-      min-height: 40px;
-      min-width: 88px;
-      overflow-x: hidden;
-      overflow-y: hidden;
-      padding-left: 20px;
-      padding-right: 20px;
-      position: relative;
-      text-align: center;
-      text-decoration-line: none;
-      transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
-      vertical-align: bottom
-    ">
+    <a
+      href="https://ebay.com"
+      style="
+        align-content: center;
+        align-items: center;
+        background-color: var(--btn-secondary-background-color, transparent);
+        border-bottom-left-radius: 24px;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-color: var(--color-border-accent);
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-top-left-radius: 24px;
+        border-top-style: solid;
+        border-top-width: 1px;
+        box-sizing: border-box;
+        color: var(--color-foreground-accent);
+        display: inline-block;
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        min-height: 40px;
+        min-width: 88px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: relative;
+        text-align: center;
+        text-decoration-color: rgb(0, 0, 0);
+        text-decoration-line: none;
+        transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
+        vertical-align: bottom
+      "
+    >
       <style>@scope{:scope{
         &::after {
           background-color: var(--color-state-layer-neutral);
@@ -479,24 +472,22 @@
       }}</style>
       Link
     </a>
-    <span style="position: relative">
+    <span style="
+      line-height: normal;
+      position: relative
+    ">
       <button style="
         align-content: center;
         align-items: center;
         background-color: var(--btn-secondary-background-color, transparent);
-        border-bottom-color: currentcolor;
         border-bottom-right-radius: 24px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--color-border-accent);
-        border-left-color: currentcolor;
         border-left-style: solid;
         border-left-width: 1px;
-        border-radius: var(--btn-border-radius, 20px);
-        border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
-        border-top-color: currentcolor;
         border-top-right-radius: 24px;
         border-top-style: solid;
         border-top-width: 1px;
@@ -513,6 +504,7 @@
         padding-right: 8px;
         padding-top: 0px;
         position: relative;
+        text-align: center;
         transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
         vertical-align: bottom
       ">
@@ -535,8 +527,6 @@
             display: inline-block;
             fill: currentcolor;
             height: 12px;
-            margin-inline-end: 8px;
-            margin-inline-start: 8px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
@@ -555,43 +545,42 @@
 ┌─ fakeSecondaryExpanded
 <div>
   <span style="display: inline-flex">
-    <a style="
-      align-content: center;
-      align-items: center;
-      background-color: var(--btn-secondary-background-color, transparent);
-      border-bottom-color: currentcolor;
-      border-bottom-left-radius: 24px;
-      border-bottom-style: solid;
-      border-bottom-width: 1px;
-      border-color: var(--color-border-accent);
-      border-left-color: currentcolor;
-      border-left-style: solid;
-      border-left-width: 1px;
-      border-radius: var(--btn-border-radius, 20px);
-      border-right-color: currentcolor;
-      border-right-style: solid;
-      border-right-width: 1px;
-      border-top-color: currentcolor;
-      border-top-left-radius: 24px;
-      border-top-style: solid;
-      border-top-width: 1px;
-      box-sizing: border-box;
-      color: var(--color-foreground-accent);
-      display: inline-block;
-      font-family: inherit;
-      font-size: var(--font-size-body);
-      min-height: 40px;
-      min-width: 88px;
-      overflow-x: hidden;
-      overflow-y: hidden;
-      padding-left: 20px;
-      padding-right: 20px;
-      position: relative;
-      text-align: center;
-      text-decoration-line: none;
-      transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
-      vertical-align: bottom
-    ">
+    <a
+      href="https://ebay.com"
+      style="
+        align-content: center;
+        align-items: center;
+        background-color: var(--btn-secondary-background-color, transparent);
+        border-bottom-left-radius: 24px;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-color: var(--color-border-accent);
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-top-left-radius: 24px;
+        border-top-style: solid;
+        border-top-width: 1px;
+        box-sizing: border-box;
+        color: var(--color-foreground-accent);
+        display: inline-block;
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        min-height: 40px;
+        min-width: 88px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: relative;
+        text-align: center;
+        text-decoration-color: rgb(0, 0, 0);
+        text-decoration-line: none;
+        transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
+        vertical-align: bottom
+      "
+    >
       <style>@scope{:scope{
         &::after {
           background-color: var(--color-state-layer-neutral);
@@ -606,24 +595,22 @@
       }}</style>
       Link
     </a>
-    <span style="position: relative">
+    <span style="
+      line-height: normal;
+      position: relative
+    ">
       <button style="
         align-content: center;
         align-items: center;
         background-color: var(--btn-secondary-background-color, transparent);
-        border-bottom-color: currentcolor;
         border-bottom-right-radius: 24px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--color-border-accent);
-        border-left-color: currentcolor;
         border-left-style: solid;
         border-left-width: 1px;
-        border-radius: var(--btn-border-radius, 20px);
-        border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
-        border-top-color: currentcolor;
         border-top-right-radius: 24px;
         border-top-style: solid;
         border-top-width: 1px;
@@ -640,6 +627,7 @@
         padding-right: 8px;
         padding-top: 0px;
         position: relative;
+        text-align: center;
         transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
         vertical-align: bottom
       ">
@@ -662,8 +650,6 @@
             display: inline-block;
             fill: currentcolor;
             height: 12px;
-            margin-inline-end: 8px;
-            margin-inline-start: 8px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
@@ -694,7 +680,6 @@
       ">
         <div>
           <div style="
-            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
             border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -738,13 +723,13 @@
             <span style="
               flex-grow: 1;
               flex-shrink: 0;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Item 10000
             </span>
           </div>
           <div style="
-            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
             border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -786,13 +771,13 @@
             <span style="
               flex-grow: 1;
               flex-shrink: 0;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Item 20000
             </span>
           </div>
           <div style="
-            background-color: initial;
             border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
             border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
             border-bottom-style: solid;
@@ -835,7 +820,8 @@
             <span style="
               flex-grow: 1;
               flex-shrink: 0;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Item 30000
             </span>
@@ -849,43 +835,41 @@
 ┌─ fakeTertiaryCollapsed
 <div>
   <span style="display: inline-flex">
-    <a style="
-      align-content: center;
-      align-items: center;
-      background-color: initial;
-      border-bottom-color: currentcolor;
-      border-bottom-left-radius: 24px;
-      border-bottom-style: solid;
-      border-bottom-width: 1px;
-      border-color: var(--btn-tertiary-border-color, var(--color-border-medium));
-      border-left-color: currentcolor;
-      border-left-style: solid;
-      border-left-width: 1px;
-      border-radius: var(--btn-border-radius, 20px);
-      border-right-color: currentcolor;
-      border-right-style: solid;
-      border-right-width: 1px;
-      border-top-color: currentcolor;
-      border-top-left-radius: 24px;
-      border-top-style: solid;
-      border-top-width: 1px;
-      box-sizing: border-box;
-      color: inherit;
-      display: inline-block;
-      font-family: inherit;
-      font-size: var(--font-size-body);
-      min-height: 40px;
-      min-width: 88px;
-      overflow-x: hidden;
-      overflow-y: hidden;
-      padding-left: 20px;
-      padding-right: 20px;
-      position: relative;
-      text-align: center;
-      text-decoration-line: none;
-      transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
-      vertical-align: bottom
-    ">
+    <a
+      href="https://ebay.com"
+      style="
+        align-content: center;
+        align-items: center;
+        border-bottom-left-radius: 24px;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-color: var(--btn-tertiary-border-color, var(--color-border-medium));
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-top-left-radius: 24px;
+        border-top-style: solid;
+        border-top-width: 1px;
+        box-sizing: border-box;
+        color: inherit;
+        display: inline-block;
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        min-height: 40px;
+        min-width: 88px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: relative;
+        text-align: center;
+        text-decoration-color: rgb(0, 0, 0);
+        text-decoration-line: none;
+        transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
+        vertical-align: bottom
+      "
+    >
       <style>@scope{:scope{
         &::after {
           background-color: var(--color-state-layer-neutral);
@@ -900,24 +884,22 @@
       }}</style>
       Link
     </a>
-    <span style="position: relative">
+    <span style="
+      line-height: normal;
+      position: relative
+    ">
       <button style="
         align-content: center;
         align-items: center;
-        background-color: initial;
-        border-bottom-color: currentcolor;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-right-radius: 24px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--btn-tertiary-border-color, var(--color-border-medium));
-        border-left-color: currentcolor;
         border-left-style: solid;
         border-left-width: 1px;
-        border-radius: var(--btn-border-radius, 20px);
-        border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
-        border-top-color: currentcolor;
         border-top-right-radius: 24px;
         border-top-style: solid;
         border-top-width: 1px;
@@ -934,6 +916,7 @@
         padding-right: 8px;
         padding-top: 0px;
         position: relative;
+        text-align: center;
         transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
         vertical-align: bottom
       ">
@@ -956,8 +939,6 @@
             display: inline-block;
             fill: currentcolor;
             height: 12px;
-            margin-inline-end: 8px;
-            margin-inline-start: 8px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
@@ -976,43 +957,41 @@
 ┌─ fakeTertiaryExpanded
 <div>
   <span style="display: inline-flex">
-    <a style="
-      align-content: center;
-      align-items: center;
-      background-color: initial;
-      border-bottom-color: currentcolor;
-      border-bottom-left-radius: 24px;
-      border-bottom-style: solid;
-      border-bottom-width: 1px;
-      border-color: var(--btn-tertiary-border-color, var(--color-border-medium));
-      border-left-color: currentcolor;
-      border-left-style: solid;
-      border-left-width: 1px;
-      border-radius: var(--btn-border-radius, 20px);
-      border-right-color: currentcolor;
-      border-right-style: solid;
-      border-right-width: 1px;
-      border-top-color: currentcolor;
-      border-top-left-radius: 24px;
-      border-top-style: solid;
-      border-top-width: 1px;
-      box-sizing: border-box;
-      color: inherit;
-      display: inline-block;
-      font-family: inherit;
-      font-size: var(--font-size-body);
-      min-height: 40px;
-      min-width: 88px;
-      overflow-x: hidden;
-      overflow-y: hidden;
-      padding-left: 20px;
-      padding-right: 20px;
-      position: relative;
-      text-align: center;
-      text-decoration-line: none;
-      transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
-      vertical-align: bottom
-    ">
+    <a
+      href="https://ebay.com"
+      style="
+        align-content: center;
+        align-items: center;
+        border-bottom-left-radius: 24px;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-color: var(--btn-tertiary-border-color, var(--color-border-medium));
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-top-left-radius: 24px;
+        border-top-style: solid;
+        border-top-width: 1px;
+        box-sizing: border-box;
+        color: inherit;
+        display: inline-block;
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        min-height: 40px;
+        min-width: 88px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: relative;
+        text-align: center;
+        text-decoration-color: rgb(0, 0, 0);
+        text-decoration-line: none;
+        transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
+        vertical-align: bottom
+      "
+    >
       <style>@scope{:scope{
         &::after {
           background-color: var(--color-state-layer-neutral);
@@ -1027,24 +1006,22 @@
       }}</style>
       Link
     </a>
-    <span style="position: relative">
+    <span style="
+      line-height: normal;
+      position: relative
+    ">
       <button style="
         align-content: center;
         align-items: center;
-        background-color: initial;
-        border-bottom-color: currentcolor;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-right-radius: 24px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--btn-tertiary-border-color, var(--color-border-medium));
-        border-left-color: currentcolor;
         border-left-style: solid;
         border-left-width: 1px;
-        border-radius: var(--btn-border-radius, 20px);
-        border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
-        border-top-color: currentcolor;
         border-top-right-radius: 24px;
         border-top-style: solid;
         border-top-width: 1px;
@@ -1061,6 +1038,7 @@
         padding-right: 8px;
         padding-top: 0px;
         position: relative;
+        text-align: center;
         transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
         vertical-align: bottom
       ">
@@ -1083,8 +1061,6 @@
             display: inline-block;
             fill: currentcolor;
             height: 12px;
-            margin-inline-end: 8px;
-            margin-inline-start: 8px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
@@ -1115,7 +1091,6 @@
       ">
         <div>
           <div style="
-            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
             border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -1159,13 +1134,13 @@
             <span style="
               flex-grow: 1;
               flex-shrink: 0;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Item 10000
             </span>
           </div>
           <div style="
-            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
             border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -1207,13 +1182,13 @@
             <span style="
               flex-grow: 1;
               flex-shrink: 0;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Item 20000
             </span>
           </div>
           <div style="
-            background-color: initial;
             border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
             border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
             border-bottom-style: solid;
@@ -1256,7 +1231,8 @@
             <span style="
               flex-grow: 1;
               flex-shrink: 0;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Item 30000
             </span>
@@ -1274,19 +1250,14 @@
       align-content: center;
       align-items: center;
       background-color: var(--color-background-accent);
-      border-bottom-color: currentcolor;
       border-bottom-left-radius: 24px;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--color-border-accent);
-      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
-      border-radius: var(--btn-border-radius, 20px);
-      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
-      border-top-color: currentcolor;
       border-top-left-radius: 24px;
       border-top-style: solid;
       border-top-width: 1px;
@@ -1303,6 +1274,7 @@
       padding-right: 20px;
       padding-top: 0px;
       position: relative;
+      text-align: center;
       transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
       vertical-align: bottom
     ">
@@ -1329,12 +1301,14 @@
         </span>
       </span>
     </button>
-    <span style="position: relative">
+    <span style="
+      line-height: normal;
+      position: relative
+    ">
       <button style="
         align-content: center;
         align-items: center;
         background-color: var(--color-background-accent);
-        border-bottom-color: currentcolor;
         border-bottom-right-radius: 24px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
@@ -1342,11 +1316,8 @@
         border-left-color: var(--btn-primary-border-split-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
-        border-radius: var(--btn-border-radius, 20px);
-        border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
-        border-top-color: currentcolor;
         border-top-right-radius: 24px;
         border-top-style: solid;
         border-top-width: 1px;
@@ -1364,6 +1335,7 @@
         padding-right: 8px;
         padding-top: 0px;
         position: relative;
+        text-align: center;
         transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
         vertical-align: bottom
       ">
@@ -1386,8 +1358,6 @@
             display: inline-block;
             fill: currentcolor;
             height: 12px;
-            margin-inline-end: 8px;
-            margin-inline-start: 8px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
@@ -1410,19 +1380,14 @@
       align-content: center;
       align-items: center;
       background-color: var(--color-background-accent);
-      border-bottom-color: currentcolor;
       border-bottom-left-radius: 24px;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--color-border-accent);
-      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
-      border-radius: var(--btn-border-radius, 20px);
-      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
-      border-top-color: currentcolor;
       border-top-left-radius: 24px;
       border-top-style: solid;
       border-top-width: 1px;
@@ -1439,6 +1404,7 @@
       padding-right: 20px;
       padding-top: 0px;
       position: relative;
+      text-align: center;
       transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
       vertical-align: bottom
     ">
@@ -1465,12 +1431,14 @@
         </span>
       </span>
     </button>
-    <span style="position: relative">
+    <span style="
+      line-height: normal;
+      position: relative
+    ">
       <button style="
         align-content: center;
         align-items: center;
         background-color: var(--color-background-accent);
-        border-bottom-color: currentcolor;
         border-bottom-right-radius: 24px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
@@ -1478,11 +1446,8 @@
         border-left-color: var(--btn-primary-border-split-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
-        border-radius: var(--btn-border-radius, 20px);
-        border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
-        border-top-color: currentcolor;
         border-top-right-radius: 24px;
         border-top-style: solid;
         border-top-width: 1px;
@@ -1500,6 +1465,7 @@
         padding-right: 8px;
         padding-top: 0px;
         position: relative;
+        text-align: center;
         transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
         vertical-align: bottom
       ">
@@ -1522,8 +1488,6 @@
             display: inline-block;
             fill: currentcolor;
             height: 12px;
-            margin-inline-end: 8px;
-            margin-inline-start: 8px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
@@ -1554,7 +1518,6 @@
       ">
         <div>
           <div style="
-            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
             border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -1598,13 +1561,13 @@
             <span style="
               flex-grow: 1;
               flex-shrink: 0;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Item 10000
             </span>
           </div>
           <div style="
-            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
             border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -1646,13 +1609,13 @@
             <span style="
               flex-grow: 1;
               flex-shrink: 0;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Item 20000
             </span>
           </div>
           <div style="
-            background-color: initial;
             border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
             border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
             border-bottom-style: solid;
@@ -1695,7 +1658,8 @@
             <span style="
               flex-grow: 1;
               flex-shrink: 0;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Item 30000
             </span>
@@ -1713,19 +1677,14 @@
       align-content: center;
       align-items: center;
       background-color: var(--btn-secondary-background-color, transparent);
-      border-bottom-color: currentcolor;
       border-bottom-left-radius: 24px;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--color-border-accent);
-      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
-      border-radius: var(--btn-border-radius, 20px);
-      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
-      border-top-color: currentcolor;
       border-top-left-radius: 24px;
       border-top-style: solid;
       border-top-width: 1px;
@@ -1741,6 +1700,7 @@
       padding-right: 20px;
       padding-top: 0px;
       position: relative;
+      text-align: center;
       transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
       vertical-align: bottom
     ">
@@ -1767,24 +1727,22 @@
         </span>
       </span>
     </button>
-    <span style="position: relative">
+    <span style="
+      line-height: normal;
+      position: relative
+    ">
       <button style="
         align-content: center;
         align-items: center;
         background-color: var(--btn-secondary-background-color, transparent);
-        border-bottom-color: currentcolor;
         border-bottom-right-radius: 24px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--color-border-accent);
-        border-left-color: currentcolor;
         border-left-style: solid;
         border-left-width: 1px;
-        border-radius: var(--btn-border-radius, 20px);
-        border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
-        border-top-color: currentcolor;
         border-top-right-radius: 24px;
         border-top-style: solid;
         border-top-width: 1px;
@@ -1801,6 +1759,7 @@
         padding-right: 8px;
         padding-top: 0px;
         position: relative;
+        text-align: center;
         transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
         vertical-align: bottom
       ">
@@ -1823,8 +1782,6 @@
             display: inline-block;
             fill: currentcolor;
             height: 12px;
-            margin-inline-end: 8px;
-            margin-inline-start: 8px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
@@ -1847,19 +1804,14 @@
       align-content: center;
       align-items: center;
       background-color: var(--btn-secondary-background-color, transparent);
-      border-bottom-color: currentcolor;
       border-bottom-left-radius: 24px;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--color-border-accent);
-      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
-      border-radius: var(--btn-border-radius, 20px);
-      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
-      border-top-color: currentcolor;
       border-top-left-radius: 24px;
       border-top-style: solid;
       border-top-width: 1px;
@@ -1875,6 +1827,7 @@
       padding-right: 20px;
       padding-top: 0px;
       position: relative;
+      text-align: center;
       transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
       vertical-align: bottom
     ">
@@ -1901,24 +1854,22 @@
         </span>
       </span>
     </button>
-    <span style="position: relative">
+    <span style="
+      line-height: normal;
+      position: relative
+    ">
       <button style="
         align-content: center;
         align-items: center;
         background-color: var(--btn-secondary-background-color, transparent);
-        border-bottom-color: currentcolor;
         border-bottom-right-radius: 24px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--color-border-accent);
-        border-left-color: currentcolor;
         border-left-style: solid;
         border-left-width: 1px;
-        border-radius: var(--btn-border-radius, 20px);
-        border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
-        border-top-color: currentcolor;
         border-top-right-radius: 24px;
         border-top-style: solid;
         border-top-width: 1px;
@@ -1935,6 +1886,7 @@
         padding-right: 8px;
         padding-top: 0px;
         position: relative;
+        text-align: center;
         transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
         vertical-align: bottom
       ">
@@ -1957,8 +1909,6 @@
             display: inline-block;
             fill: currentcolor;
             height: 12px;
-            margin-inline-end: 8px;
-            margin-inline-start: 8px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
@@ -1989,7 +1939,6 @@
       ">
         <div>
           <div style="
-            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
             border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -2033,13 +1982,13 @@
             <span style="
               flex-grow: 1;
               flex-shrink: 0;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Item 10000
             </span>
           </div>
           <div style="
-            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
             border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -2081,13 +2030,13 @@
             <span style="
               flex-grow: 1;
               flex-shrink: 0;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Item 20000
             </span>
           </div>
           <div style="
-            background-color: initial;
             border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
             border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
             border-bottom-style: solid;
@@ -2130,7 +2079,8 @@
             <span style="
               flex-grow: 1;
               flex-shrink: 0;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Item 30000
             </span>
@@ -2147,20 +2097,15 @@
     <button style="
       align-content: center;
       align-items: center;
-      background-color: initial;
-      border-bottom-color: currentcolor;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-left-radius: 24px;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--btn-tertiary-border-color, var(--color-border-medium));
-      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
-      border-radius: var(--btn-border-radius, 20px);
-      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
-      border-top-color: currentcolor;
       border-top-left-radius: 24px;
       border-top-style: solid;
       border-top-width: 1px;
@@ -2176,6 +2121,7 @@
       padding-right: 20px;
       padding-top: 0px;
       position: relative;
+      text-align: center;
       transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
       vertical-align: bottom
     ">
@@ -2202,24 +2148,22 @@
         </span>
       </span>
     </button>
-    <span style="position: relative">
+    <span style="
+      line-height: normal;
+      position: relative
+    ">
       <button style="
         align-content: center;
         align-items: center;
-        background-color: initial;
-        border-bottom-color: currentcolor;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-right-radius: 24px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--btn-tertiary-border-color, var(--color-border-medium));
-        border-left-color: currentcolor;
         border-left-style: solid;
         border-left-width: 1px;
-        border-radius: var(--btn-border-radius, 20px);
-        border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
-        border-top-color: currentcolor;
         border-top-right-radius: 24px;
         border-top-style: solid;
         border-top-width: 1px;
@@ -2236,6 +2180,7 @@
         padding-right: 8px;
         padding-top: 0px;
         position: relative;
+        text-align: center;
         transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
         vertical-align: bottom
       ">
@@ -2258,8 +2203,6 @@
             display: inline-block;
             fill: currentcolor;
             height: 12px;
-            margin-inline-end: 8px;
-            margin-inline-start: 8px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
@@ -2281,20 +2224,15 @@
     <button style="
       align-content: center;
       align-items: center;
-      background-color: initial;
-      border-bottom-color: currentcolor;
+      background-color: rgba(0, 0, 0, 0);
       border-bottom-left-radius: 24px;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--btn-tertiary-border-color, var(--color-border-medium));
-      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
-      border-radius: var(--btn-border-radius, 20px);
-      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
-      border-top-color: currentcolor;
       border-top-left-radius: 24px;
       border-top-style: solid;
       border-top-width: 1px;
@@ -2310,6 +2248,7 @@
       padding-right: 20px;
       padding-top: 0px;
       position: relative;
+      text-align: center;
       transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
       vertical-align: bottom
     ">
@@ -2336,24 +2275,22 @@
         </span>
       </span>
     </button>
-    <span style="position: relative">
+    <span style="
+      line-height: normal;
+      position: relative
+    ">
       <button style="
         align-content: center;
         align-items: center;
-        background-color: initial;
-        border-bottom-color: currentcolor;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-right-radius: 24px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--btn-tertiary-border-color, var(--color-border-medium));
-        border-left-color: currentcolor;
         border-left-style: solid;
         border-left-width: 1px;
-        border-radius: var(--btn-border-radius, 20px);
-        border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
-        border-top-color: currentcolor;
         border-top-right-radius: 24px;
         border-top-style: solid;
         border-top-width: 1px;
@@ -2370,6 +2307,7 @@
         padding-right: 8px;
         padding-top: 0px;
         position: relative;
+        text-align: center;
         transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
         vertical-align: bottom
       ">
@@ -2392,8 +2330,6 @@
             display: inline-block;
             fill: currentcolor;
             height: 12px;
-            margin-inline-end: 8px;
-            margin-inline-start: 8px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
@@ -2424,7 +2360,6 @@
       ">
         <div>
           <div style="
-            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
             border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -2468,13 +2403,13 @@
             <span style="
               flex-grow: 1;
               flex-shrink: 0;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Item 10000
             </span>
           </div>
           <div style="
-            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
             border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -2516,13 +2451,13 @@
             <span style="
               flex-grow: 1;
               flex-shrink: 0;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Item 20000
             </span>
           </div>
           <div style="
-            background-color: initial;
             border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
             border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
             border-bottom-style: solid;
@@ -2565,7 +2500,8 @@
             <span style="
               flex-grow: 1;
               flex-shrink: 0;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Item 30000
             </span>
@@ -2588,19 +2524,14 @@
       align-content: center;
       align-items: center;
       background-color: var(--color-background-accent);
-      border-bottom-color: currentcolor;
       border-bottom-left-radius: 24px;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--color-border-accent);
-      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
-      border-radius: var(--btn-border-radius, 20px);
-      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
-      border-top-color: currentcolor;
       border-top-left-radius: 24px;
       border-top-style: solid;
       border-top-width: 1px;
@@ -2619,6 +2550,7 @@
       padding-right: 20px;
       padding-top: 0px;
       position: relative;
+      text-align: center;
       transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
       vertical-align: bottom;
       word-spacing: 0.16em
@@ -2663,7 +2595,6 @@
         align-content: center;
         align-items: center;
         background-color: var(--color-background-accent);
-        border-bottom-color: currentcolor;
         border-bottom-right-radius: 24px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
@@ -2671,11 +2602,8 @@
         border-left-color: var(--btn-primary-border-split-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
-        border-radius: var(--btn-border-radius, 20px);
-        border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
-        border-top-color: currentcolor;
         border-top-right-radius: 24px;
         border-top-style: solid;
         border-top-width: 1px;
@@ -2695,6 +2623,7 @@
         padding-right: 8px;
         padding-top: 0px;
         position: relative;
+        text-align: center;
         transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
         vertical-align: bottom;
         word-spacing: 0.16em
@@ -2720,8 +2649,6 @@
             height: 12px;
             letter-spacing: 0.12em;
             line-height: 1.5;
-            margin-inline-end: 8px;
-            margin-inline-start: 8px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
@@ -2767,7 +2694,6 @@
           word-spacing: 0.16em
         ">
           <div style="
-            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
             border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -2817,13 +2743,13 @@
               letter-spacing: 0.12em;
               line-height: 1.5;
               text-wrap-mode: nowrap;
+              white-space-collapse: collapse;
               word-spacing: 0.16em
             ">
               Item 10000
             </span>
           </div>
           <div style="
-            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
             border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -2871,13 +2797,13 @@
               letter-spacing: 0.12em;
               line-height: 1.5;
               text-wrap-mode: nowrap;
+              white-space-collapse: collapse;
               word-spacing: 0.16em
             ">
               Item 20000
             </span>
           </div>
           <div style="
-            background-color: initial;
             border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
             border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
             border-bottom-style: solid;
@@ -2926,6 +2852,7 @@
               letter-spacing: 0.12em;
               line-height: 1.5;
               text-wrap-mode: nowrap;
+              white-space-collapse: collapse;
               word-spacing: 0.16em
             ">
               Item 30000

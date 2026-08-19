@@ -2,20 +2,7 @@
 <div>
   <div style="
     background-color: inherit;
-    border-bottom-color: currentcolor;
-    border-bottom-width: medium;
-    border-image-outset: initial;
-    border-image-repeat: initial;
-    border-image-slice: initial;
-    border-image-source: initial;
-    border-image-width: initial;
-    border-left-color: currentcolor;
-    border-left-width: medium;
     border-radius: var(--border-radius-150);
-    border-right-color: currentcolor;
-    border-right-width: medium;
-    border-top-color: currentcolor;
-    border-top-width: medium;
     border: 1px solid var(--color-border-subtle);
     color: var(--color-foreground-primary);
     display: flex;
@@ -102,18 +89,14 @@
           align-content: center;
           align-items: center;
           background-color: var(--color-background-accent);
-          border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--color-border-accent);
-          border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
           border-radius: var(--btn-border-radius, 20px);
-          border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
-          border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
           color: var(--color-foreground-on-accent);
@@ -129,6 +112,7 @@
           padding-right: 20px;
           padding-top: 0px;
           position: relative;
+          text-align: center;
           transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
           vertical-align: bottom
         ">
@@ -155,20 +139,7 @@
 <div>
   <div style="
     background-color: inherit;
-    border-bottom-color: currentcolor;
-    border-bottom-width: medium;
-    border-image-outset: initial;
-    border-image-repeat: initial;
-    border-image-slice: initial;
-    border-image-source: initial;
-    border-image-width: initial;
-    border-left-color: currentcolor;
-    border-left-width: medium;
     border-radius: var(--border-radius-150);
-    border-right-color: currentcolor;
-    border-right-width: medium;
-    border-top-color: currentcolor;
-    border-top-width: medium;
     border: 1px solid var(--color-border-subtle);
     color: var(--color-foreground-primary);
     display: flex;
@@ -251,18 +222,14 @@
           align-content: center;
           align-items: center;
           background-color: var(--color-background-accent);
-          border-bottom-color: currentcolor;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--color-border-accent);
-          border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
           border-radius: var(--btn-border-radius, 20px);
-          border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
-          border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
           color: var(--color-foreground-on-accent);
@@ -278,6 +245,7 @@
           padding-right: 20px;
           padding-top: 0px;
           position: relative;
+          text-align: center;
           transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
           vertical-align: bottom;
           width: 100%

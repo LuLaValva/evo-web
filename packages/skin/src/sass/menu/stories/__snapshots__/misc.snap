@@ -10,7 +10,6 @@
       display: inline-block
     ">
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -51,7 +50,8 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Button 1
           <span style="
@@ -72,13 +72,13 @@
             margin-right: var(--spacing-100);
             min-width: 2.4em;
             padding-bottom: 1px;
-            padding-inline: var(--spacing-50);
             padding-left: 5px;
             padding-right: 5px;
             padding-top: 1px;
             position: absolute;
             text-wrap-mode: nowrap;
             top: 0px;
+            white-space-collapse: collapse;
             z-index: 1
           ">
             1
@@ -86,7 +86,6 @@
         </span>
       </div>
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -127,7 +126,8 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Button 2
           <span style="
@@ -148,13 +148,13 @@
             margin-right: var(--spacing-100);
             min-width: 2.4em;
             padding-bottom: 1px;
-            padding-inline: var(--spacing-50);
             padding-left: 5px;
             padding-right: 5px;
             padding-top: 1px;
             position: absolute;
             text-wrap-mode: nowrap;
             top: 0px;
+            white-space-collapse: collapse;
             z-index: 1
           ">
             10
@@ -162,7 +162,6 @@
         </span>
       </div>
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -202,7 +201,8 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Button 3
           <span style="
@@ -223,13 +223,13 @@
             margin-right: var(--spacing-100);
             min-width: 2.4em;
             padding-bottom: 1px;
-            padding-inline: var(--spacing-50);
             padding-left: 5px;
             padding-right: 5px;
             padding-top: 1px;
             position: absolute;
             text-wrap-mode: nowrap;
             top: 0px;
+            white-space-collapse: collapse;
             z-index: 1
           ">
             99+
@@ -251,7 +251,6 @@
       cursor: default
     ">
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -292,7 +291,8 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Item 1
         </span>
@@ -305,7 +305,6 @@
         border-top-style: solid
       "/>
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -346,13 +345,13 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Item 2
         </span>
       </div>
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -392,7 +391,8 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Item 3
         </span>
@@ -412,7 +412,6 @@
       cursor: default
     ">
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -453,13 +452,13 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Item 1
         </span>
       </div>
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -500,13 +499,13 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Item 2
         </span>
       </div>
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -546,7 +545,8 @@
         <span style="
           flex-shrink: 0;
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Item 3
         </span>
@@ -573,7 +573,6 @@
       word-spacing: 0.16em
     ">
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -620,6 +619,7 @@
           line-height: 1.5;
           text-align: left;
           text-wrap-mode: nowrap;
+          white-space-collapse: collapse;
           word-spacing: 0.16em
         ">
           Button 1
@@ -643,13 +643,13 @@
             margin-right: var(--spacing-100);
             min-width: 2.4em;
             padding-bottom: 1px;
-            padding-inline: var(--spacing-50);
             padding-left: 5px;
             padding-right: 5px;
             padding-top: 1px;
             position: absolute;
             text-wrap-mode: nowrap;
             top: 0px;
+            white-space-collapse: collapse;
             word-spacing: 0.16em;
             z-index: 1
           ">
@@ -658,7 +658,6 @@
         </span>
       </div>
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -705,6 +704,7 @@
           line-height: 1.5;
           text-align: left;
           text-wrap-mode: nowrap;
+          white-space-collapse: collapse;
           word-spacing: 0.16em
         ">
           Button 2
@@ -728,13 +728,13 @@
             margin-right: var(--spacing-100);
             min-width: 2.4em;
             padding-bottom: 1px;
-            padding-inline: var(--spacing-50);
             padding-left: 5px;
             padding-right: 5px;
             padding-top: 1px;
             position: absolute;
             text-wrap-mode: nowrap;
             top: 0px;
+            white-space-collapse: collapse;
             word-spacing: 0.16em;
             z-index: 1
           ">
@@ -743,7 +743,6 @@
         </span>
       </div>
       <div style="
-        background-color: initial;
         border-bottom-style: solid;
         border-bottom-width: 1px;
         border-color: var(--menu-menuitem-border-color, var(--color-background-primary));
@@ -789,6 +788,7 @@
           line-height: 1.5;
           text-align: left;
           text-wrap-mode: nowrap;
+          white-space-collapse: collapse;
           word-spacing: 0.16em
         ">
           Button 3
@@ -812,13 +812,13 @@
             margin-right: var(--spacing-100);
             min-width: 2.4em;
             padding-bottom: 1px;
-            padding-inline: var(--spacing-50);
             padding-left: 5px;
             padding-right: 5px;
             padding-top: 1px;
             position: absolute;
             text-wrap-mode: nowrap;
             top: 0px;
+            white-space-collapse: collapse;
             word-spacing: 0.16em;
             z-index: 1
           ">

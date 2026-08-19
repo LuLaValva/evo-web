@@ -42,7 +42,8 @@
       overflow-y: hidden;
       padding: var(--spacing-75) 0;
       text-overflow: ellipsis;
-      text-wrap-mode: nowrap
+      text-wrap-mode: nowrap;
+      white-space-collapse: collapse
     ">
       Football
     </span>
@@ -112,7 +113,8 @@
       overflow-y: hidden;
       padding: var(--spacing-75) 0;
       text-overflow: ellipsis;
-      text-wrap-mode: nowrap
+      text-wrap-mode: nowrap;
+      white-space-collapse: collapse
     ">
       Football
     </span>
@@ -144,6 +146,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px
     ">
       Filter Applied
@@ -195,7 +198,8 @@
       overflow-y: hidden;
       padding: var(--spacing-75) 0;
       text-overflow: ellipsis;
-      text-wrap-mode: nowrap
+      text-wrap-mode: nowrap;
+      white-space-collapse: collapse
     ">
       Football
     </span>
@@ -265,7 +269,8 @@
       overflow-y: hidden;
       padding: var(--spacing-75) 0;
       text-overflow: ellipsis;
-      text-wrap-mode: nowrap
+      text-wrap-mode: nowrap;
+      white-space-collapse: collapse
     ">
       Football
     </span>
@@ -297,6 +302,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px
     ">
       Filter Applied
@@ -359,6 +365,8 @@
       <style>@scope{:scope{
         &::after {
           background-color: rgba(0, 0, 0, 0.05);
+          background-position-x: initial;
+          background-position-y: initial;
           bottom: 0px;
           content: "";
           display: block;
@@ -386,7 +394,8 @@
       overflow-y: hidden;
       padding: var(--spacing-75) 0;
       text-overflow: ellipsis;
-      text-wrap-mode: nowrap
+      text-wrap-mode: nowrap;
+      white-space-collapse: collapse
     ">
       Football
     </span>
@@ -467,6 +476,8 @@
       <style>@scope{:scope{
         &::after {
           background-color: rgba(0, 0, 0, 0.05);
+          background-position-x: initial;
+          background-position-y: initial;
           bottom: 0px;
           content: "";
           display: block;
@@ -494,7 +505,8 @@
       overflow-y: hidden;
       padding: var(--spacing-75) 0;
       text-overflow: ellipsis;
-      text-wrap-mode: nowrap
+      text-wrap-mode: nowrap;
+      white-space-collapse: collapse
     ">
       Football
     </span>
@@ -526,6 +538,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px
     ">
       Filter Applied
@@ -583,6 +596,7 @@
       padding: var(--spacing-75) 0;
       text-overflow: ellipsis;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       word-spacing: 0.16em
     ">
       Football

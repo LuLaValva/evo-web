@@ -37,15 +37,10 @@
         placeholder="YYYY-MM-DD"
         style="
           appearance: none;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -63,7 +58,6 @@
           height: calc(var(--input-default-height) - 2px);
           padding-bottom: 0px;
           padding-inline-start: var(--spacing-200);
-          padding-left: 0px;
           padding-right: 0px;
           padding-top: 0px;
           vertical-align: middle
@@ -71,7 +65,7 @@
       />
       <button style="
         align-items: center;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: transparent;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
@@ -181,23 +175,14 @@
         placeholder="YYYY-MM-DD"
         style="
           appearance: none;
-          background-color: initial;
-          border-bottom-color: currentcolor;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-style: none;
           border-bottom-width: medium;
           border-color: var(--textbox-disabled-border-color, var(--color-background-disabled));
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
-          border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
-          border-right-color: currentcolor;
           border-right-style: none;
           border-right-width: medium;
-          border-top-color: currentcolor;
           border-top-style: none;
           border-top-width: medium;
           box-sizing: border-box;
@@ -206,9 +191,9 @@
           font-family: inherit;
           font-size: 1em;
           height: calc(var(--input-default-height) - 2px);
+          outline-color: rgb(0, 0, 0);
           padding-bottom: 0px;
           padding-inline-start: var(--spacing-200);
-          padding-left: 0px;
           padding-right: 0px;
           padding-top: 0px;
           vertical-align: middle
@@ -218,7 +203,7 @@
         disabled
         style="
           align-items: center;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: transparent;
           border-bottom-left-radius: 50px;
           border-bottom-right-radius: 50px;
@@ -236,6 +221,7 @@
           height: 40px;
           justify-content: center;
           margin-inline-start: calc(var(--spacing-100)*-1);
+          outline-color: rgb(0, 0, 0);
           overflow-x: hidden;
           overflow-y: hidden;
           padding-bottom: 0px;
@@ -266,7 +252,6 @@
         <svg
           height="16"
           style="
-            background-color: initial;
             color: var(--textbox-icon-color, var(--color-foreground-secondary));
             display: inline-flex;
             fill: var(--color-background-disabled);
@@ -327,15 +312,10 @@
         placeholder="YYYY-MM-DD"
         style="
           appearance: none;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -354,8 +334,6 @@
           padding-bottom: 0px;
           padding-inline-end: var(--spacing-200);
           padding-inline-start: var(--spacing-200);
-          padding-left: 0px;
-          padding-right: 0px;
           padding-top: 0px;
           vertical-align: middle
         "
@@ -389,15 +367,10 @@
         placeholder="YYYY-MM-DD"
         style="
           appearance: none;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -415,7 +388,6 @@
           height: calc(var(--input-default-height) - 2px);
           padding-bottom: 0px;
           padding-inline-start: var(--spacing-200);
-          padding-left: 0px;
           padding-right: 0px;
           padding-top: 0px;
           vertical-align: middle
@@ -423,7 +395,7 @@
       />
       <button style="
         align-items: center;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: transparent;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
@@ -536,15 +508,10 @@
         placeholder="YYYY-MM-DD"
         style="
           appearance: none;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -564,7 +531,6 @@
           line-height: 1.5;
           padding-bottom: 0px;
           padding-inline-start: var(--spacing-200);
-          padding-left: 0px;
           padding-right: 0px;
           padding-top: 0px;
           vertical-align: middle;
@@ -573,7 +539,7 @@
       />
       <button style="
         align-items: center;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: transparent;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;

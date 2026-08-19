@@ -5,19 +5,14 @@
       align-content: center;
       align-items: center;
       background-color: var(--color-background-accent);
-      border-bottom-color: currentcolor;
       border-bottom-left-radius: 24px;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--color-border-accent);
-      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
-      border-radius: var(--btn-border-radius, 20px);
-      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
-      border-top-color: currentcolor;
       border-top-left-radius: 24px;
       border-top-style: solid;
       border-top-width: 1px;
@@ -36,10 +31,12 @@
       padding-right: 20px;
       padding-top: 0px;
       position: relative;
+      text-align: center;
       text-overflow: ellipsis;
       text-wrap-mode: nowrap;
       transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
-      vertical-align: bottom
+      vertical-align: bottom;
+      white-space-collapse: collapse
     ">
       <style>@scope{:scope{
         &::after {
@@ -62,6 +59,7 @@
         overflow-y: hidden;
         text-overflow: ellipsis;
         text-wrap-mode: nowrap;
+        white-space-collapse: collapse;
         width: 100%
       ">
         <span style="
@@ -69,18 +67,21 @@
           overflow-x: hidden;
           overflow-y: hidden;
           text-overflow: ellipsis;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Longest Button Text Example Lorem Ipsum Dolor
         </span>
       </span>
     </button>
-    <span style="position: relative">
+    <span style="
+      line-height: normal;
+      position: relative
+    ">
       <button style="
         align-content: center;
         align-items: center;
         background-color: var(--color-background-accent);
-        border-bottom-color: currentcolor;
         border-bottom-right-radius: 24px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
@@ -88,11 +89,8 @@
         border-left-color: var(--btn-primary-border-split-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
-        border-radius: var(--btn-border-radius, 20px);
-        border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
-        border-top-color: currentcolor;
         border-top-right-radius: 24px;
         border-top-style: solid;
         border-top-width: 1px;
@@ -110,6 +108,7 @@
         padding-right: 8px;
         padding-top: 0px;
         position: relative;
+        text-align: center;
         transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
         vertical-align: bottom
       ">
@@ -132,8 +131,6 @@
             display: inline-block;
             fill: currentcolor;
             height: 12px;
-            margin-inline-end: 8px;
-            margin-inline-start: 8px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
@@ -156,19 +153,14 @@
       align-content: center;
       align-items: center;
       background-color: var(--color-background-accent);
-      border-bottom-color: currentcolor;
       border-bottom-left-radius: 24px;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--color-border-accent);
-      border-left-color: currentcolor;
       border-left-style: solid;
       border-left-width: 1px;
-      border-radius: var(--btn-border-radius, 20px);
-      border-right-color: currentcolor;
       border-right-style: solid;
       border-right-width: 1px;
-      border-top-color: currentcolor;
       border-top-left-radius: 24px;
       border-top-style: solid;
       border-top-width: 1px;
@@ -187,10 +179,12 @@
       padding-right: 20px;
       padding-top: 0px;
       position: relative;
+      text-align: center;
       text-overflow: ellipsis;
       text-wrap-mode: nowrap;
       transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
-      vertical-align: bottom
+      vertical-align: bottom;
+      white-space-collapse: collapse
     ">
       <style>@scope{:scope{
         &::after {
@@ -213,6 +207,7 @@
         overflow-y: hidden;
         text-overflow: ellipsis;
         text-wrap-mode: nowrap;
+        white-space-collapse: collapse;
         width: 100%
       ">
         <span style="
@@ -220,18 +215,21 @@
           overflow-x: hidden;
           overflow-y: hidden;
           text-overflow: ellipsis;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Longest Button Text Example Lorem Ipsum Dolor
         </span>
       </span>
     </button>
-    <span style="position: relative">
+    <span style="
+      line-height: normal;
+      position: relative
+    ">
       <button style="
         align-content: center;
         align-items: center;
         background-color: var(--color-background-accent);
-        border-bottom-color: currentcolor;
         border-bottom-right-radius: 24px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
@@ -239,11 +237,8 @@
         border-left-color: var(--btn-primary-border-split-color, var(--color-background-primary));
         border-left-style: solid;
         border-left-width: 1px;
-        border-radius: var(--btn-border-radius, 20px);
-        border-right-color: currentcolor;
         border-right-style: solid;
         border-right-width: 1px;
-        border-top-color: currentcolor;
         border-top-right-radius: 24px;
         border-top-style: solid;
         border-top-width: 1px;
@@ -261,6 +256,7 @@
         padding-right: 8px;
         padding-top: 0px;
         position: relative;
+        text-align: center;
         transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
         vertical-align: bottom
       ">
@@ -283,8 +279,6 @@
             display: inline-block;
             fill: currentcolor;
             height: 12px;
-            margin-inline-end: 8px;
-            margin-inline-start: 8px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
@@ -315,7 +309,6 @@
       ">
         <div>
           <div style="
-            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
             border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -359,13 +352,13 @@
             <span style="
               flex-grow: 1;
               flex-shrink: 0;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Item 10000
             </span>
           </div>
           <div style="
-            background-color: initial;
             border-bottom-style: solid;
             border-bottom-width: 1px;
             border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -407,13 +400,13 @@
             <span style="
               flex-grow: 1;
               flex-shrink: 0;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Item 20000
             </span>
           </div>
           <div style="
-            background-color: initial;
             border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
             border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
             border-bottom-style: solid;
@@ -456,7 +449,8 @@
             <span style="
               flex-grow: 1;
               flex-shrink: 0;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Item 30000
             </span>

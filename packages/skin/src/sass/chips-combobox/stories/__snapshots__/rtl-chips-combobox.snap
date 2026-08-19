@@ -16,6 +16,8 @@
         column-gap: 8px;
         display: flex;
         flex-wrap: wrap;
+        list-style-image: none;
+        list-style-position: outside;
         list-style-type: none;
         margin-bottom: var(--spacing-100);
         margin-top: 0px;
@@ -44,23 +46,19 @@
               overflow-y: hidden;
               padding: var(--spacing-75) 0;
               text-overflow: ellipsis;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Football
             </span>
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: currentcolor;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
@@ -126,23 +124,19 @@
               overflow-y: hidden;
               padding: var(--spacing-75) 0;
               text-overflow: ellipsis;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Basketball
             </span>
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: currentcolor;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
@@ -208,23 +202,19 @@
               overflow-y: hidden;
               padding: var(--spacing-75) 0;
               text-overflow: ellipsis;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Baseball
             </span>
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: currentcolor;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
@@ -272,6 +262,7 @@
       <span style="
         box-sizing: border-box;
         display: inline-block;
+        line-height: normal;
         margin-inline-start: calc(var(--spacing-100)*-1);
         position: relative;
         vertical-align: bottom;
@@ -287,16 +278,9 @@
               border-bottom-color: currentcolor;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-color: var(--combobox-textbox-disabled-border-color, var(--color-background-disabled));
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
-              border-radius: var(--combobox-textbox-border-radius, var(--border-radius-50));
               border-right-color: currentcolor;
               border-right-style: none;
               border-right-width: medium;
@@ -309,10 +293,6 @@
               font-size: inherit;
               height: auto;
               margin: 0 var(--spacing-100);
-              padding-bottom: 0px;
-              padding-left: 32px;
-              padding-right: 16px;
-              padding-top: 0px;
               padding: var(--spacing-75) 0;
               width: calc(100% - var(--spacing-200))
             "
@@ -341,6 +321,7 @@
       <span style="
         box-sizing: border-box;
         display: inline-block;
+        line-height: normal;
         margin-inline-start: calc(var(--spacing-100)*-1);
         position: relative;
         vertical-align: bottom;
@@ -355,16 +336,9 @@
               border-bottom-color: currentcolor;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-color: var(--combobox-textbox-border-color, var(--color-border-medium));
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
-              border-radius: var(--combobox-textbox-border-radius, var(--border-radius-50));
               border-right-color: currentcolor;
               border-right-style: none;
               border-right-width: medium;
@@ -377,10 +351,6 @@
               font-size: inherit;
               height: auto;
               margin: 0 var(--spacing-100);
-              padding-bottom: 0px;
-              padding-left: 32px;
-              padding-right: 16px;
-              padding-top: 0px;
               padding: var(--spacing-75) 0;
               width: calc(100% - var(--spacing-200))
             "
@@ -411,6 +381,8 @@
         column-gap: 8px;
         display: flex;
         flex-wrap: wrap;
+        list-style-image: none;
+        list-style-position: outside;
         list-style-type: none;
         margin-bottom: var(--spacing-100);
         margin-top: 0px;
@@ -439,23 +411,19 @@
               overflow-y: hidden;
               padding: var(--spacing-75) 0;
               text-overflow: ellipsis;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Football
             </span>
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: currentcolor;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
@@ -521,23 +489,19 @@
               overflow-y: hidden;
               padding: var(--spacing-75) 0;
               text-overflow: ellipsis;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Basketball
             </span>
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: currentcolor;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
@@ -603,23 +567,19 @@
               overflow-y: hidden;
               padding: var(--spacing-75) 0;
               text-overflow: ellipsis;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Baseball
             </span>
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: currentcolor;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
@@ -667,6 +627,7 @@
       <span style="
         box-sizing: border-box;
         display: inline-block;
+        line-height: normal;
         margin-inline-start: calc(var(--spacing-100)*-1);
         position: relative;
         vertical-align: bottom;
@@ -681,16 +642,9 @@
               border-bottom-color: currentcolor;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-color: var(--combobox-textbox-border-color, var(--color-border-medium));
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
-              border-radius: var(--combobox-textbox-border-radius, var(--border-radius-50));
               border-right-color: currentcolor;
               border-right-style: none;
               border-right-width: medium;
@@ -703,10 +657,6 @@
               font-size: inherit;
               height: auto;
               margin: 0 var(--spacing-100);
-              padding-bottom: 0px;
-              padding-left: 32px;
-              padding-right: 16px;
-              padding-top: 0px;
               padding: var(--spacing-75) 0;
               width: calc(100% - var(--spacing-200))
             "
@@ -736,6 +686,8 @@
         column-gap: 8px;
         display: flex;
         flex-wrap: wrap;
+        list-style-image: none;
+        list-style-position: outside;
         list-style-type: none;
         margin-bottom: var(--spacing-100);
         margin-top: 0px;
@@ -764,23 +716,19 @@
               overflow-y: hidden;
               padding: var(--spacing-75) 0;
               text-overflow: ellipsis;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Football
             </span>
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: currentcolor;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
@@ -846,23 +794,19 @@
               overflow-y: hidden;
               padding: var(--spacing-75) 0;
               text-overflow: ellipsis;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Basketball
             </span>
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: currentcolor;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
@@ -928,23 +872,19 @@
               overflow-y: hidden;
               padding: var(--spacing-75) 0;
               text-overflow: ellipsis;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Baseball
             </span>
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: currentcolor;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
@@ -992,6 +932,7 @@
       <span style="
         box-sizing: border-box;
         display: inline-block;
+        line-height: normal;
         margin-inline-start: calc(var(--spacing-100)*-1);
         position: relative;
         vertical-align: bottom;
@@ -1006,16 +947,9 @@
               border-bottom-color: currentcolor;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-color: var(--combobox-textbox-border-color, var(--color-border-medium));
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
-              border-radius: var(--combobox-textbox-border-radius, var(--border-radius-50));
               border-right-color: currentcolor;
               border-right-style: none;
               border-right-width: medium;
@@ -1028,10 +962,6 @@
               font-size: inherit;
               height: auto;
               margin: 0 var(--spacing-100);
-              padding-bottom: 0px;
-              padding-left: 32px;
-              padding-right: 16px;
-              padding-top: 0px;
               padding: var(--spacing-75) 0;
               width: calc(100% - var(--spacing-200))
             "
@@ -1054,7 +984,6 @@
         ">
           <div>
             <div style="
-              background-color: initial;
               border-bottom-width: 1px;
               border-color: var(--color-background-primary);
               border-left-width: 1px;
@@ -1096,7 +1025,6 @@
               </span>
             </div>
             <div style="
-              background-color: initial;
               border-bottom-width: 1px;
               border-color: var(--color-background-primary);
               border-left-width: 1px;
@@ -1136,7 +1064,6 @@
               </span>
             </div>
             <div style="
-              background-color: initial;
               border-bottom-left-radius: var(--combobox-listbox-border-radius, var(--border-radius-50));
               border-bottom-right-radius: var(--combobox-listbox-border-radius, var(--border-radius-50));
               border-bottom-width: 1px;
@@ -1201,6 +1128,7 @@
       <span style="
         box-sizing: border-box;
         display: inline-block;
+        line-height: normal;
         margin-inline-start: calc(var(--spacing-100)*-1);
         position: relative;
         vertical-align: bottom;
@@ -1215,16 +1143,9 @@
               border-bottom-color: currentcolor;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-color: var(--combobox-textbox-border-color, var(--color-border-medium));
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
-              border-radius: var(--combobox-textbox-border-radius, var(--border-radius-50));
               border-right-color: currentcolor;
               border-right-style: none;
               border-right-width: medium;
@@ -1237,10 +1158,6 @@
               font-size: inherit;
               height: auto;
               margin: 0 var(--spacing-100);
-              padding-bottom: 0px;
-              padding-left: 32px;
-              padding-right: 16px;
-              padding-top: 0px;
               padding: var(--spacing-75) 0;
               width: calc(100% - var(--spacing-200))
             "
@@ -1270,6 +1187,8 @@
         column-gap: 8px;
         display: flex;
         flex-wrap: wrap;
+        list-style-image: none;
+        list-style-position: outside;
         list-style-type: none;
         margin-bottom: var(--spacing-100);
         margin-top: 0px;
@@ -1298,23 +1217,19 @@
               overflow-y: hidden;
               padding: var(--spacing-75) 0;
               text-overflow: ellipsis;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Football
             </span>
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: currentcolor;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
@@ -1380,23 +1295,19 @@
               overflow-y: hidden;
               padding: var(--spacing-75) 0;
               text-overflow: ellipsis;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Basketball
             </span>
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: currentcolor;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
@@ -1462,23 +1373,19 @@
               overflow-y: hidden;
               padding: var(--spacing-75) 0;
               text-overflow: ellipsis;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Baseball
             </span>
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: currentcolor;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
@@ -1544,23 +1451,19 @@
               overflow-y: hidden;
               padding: var(--spacing-75) 0;
               text-overflow: ellipsis;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Soccer
             </span>
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: currentcolor;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
@@ -1626,23 +1529,19 @@
               overflow-y: hidden;
               padding: var(--spacing-75) 0;
               text-overflow: ellipsis;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Hockey
             </span>
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: currentcolor;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
@@ -1708,23 +1607,19 @@
               overflow-y: hidden;
               padding: var(--spacing-75) 0;
               text-overflow: ellipsis;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Tennis
             </span>
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: currentcolor;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
@@ -1790,23 +1685,19 @@
               overflow-y: hidden;
               padding: var(--spacing-75) 0;
               text-overflow: ellipsis;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Swimming
             </span>
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: currentcolor;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
@@ -1872,23 +1763,19 @@
               overflow-y: hidden;
               padding: var(--spacing-75) 0;
               text-overflow: ellipsis;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Cricket
             </span>
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: currentcolor;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
@@ -1954,23 +1841,19 @@
               overflow-y: hidden;
               padding: var(--spacing-75) 0;
               text-overflow: ellipsis;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Table Tennis
             </span>
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: currentcolor;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
@@ -2036,23 +1919,19 @@
               overflow-y: hidden;
               padding: var(--spacing-75) 0;
               text-overflow: ellipsis;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Rugby
             </span>
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: currentcolor;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
@@ -2118,23 +1997,19 @@
               overflow-y: hidden;
               padding: var(--spacing-75) 0;
               text-overflow: ellipsis;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Boxing
             </span>
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: currentcolor;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
@@ -2200,23 +2075,19 @@
               overflow-y: hidden;
               padding: var(--spacing-75) 0;
               text-overflow: ellipsis;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Judo
             </span>
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: currentcolor;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
@@ -2282,23 +2153,19 @@
               overflow-y: hidden;
               padding: var(--spacing-75) 0;
               text-overflow: ellipsis;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Fencing
             </span>
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: currentcolor;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
@@ -2364,23 +2231,19 @@
               overflow-y: hidden;
               padding: var(--spacing-75) 0;
               text-overflow: ellipsis;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Volleyball
             </span>
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: currentcolor;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
@@ -2446,23 +2309,19 @@
               overflow-y: hidden;
               padding: var(--spacing-75) 0;
               text-overflow: ellipsis;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Golf
             </span>
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: currentcolor;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
@@ -2510,6 +2369,7 @@
       <span style="
         box-sizing: border-box;
         display: inline-block;
+        line-height: normal;
         margin-inline-start: calc(var(--spacing-100)*-1);
         position: relative;
         vertical-align: bottom;
@@ -2524,16 +2384,9 @@
               border-bottom-color: currentcolor;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-color: var(--combobox-textbox-border-color, var(--color-border-medium));
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
-              border-radius: var(--combobox-textbox-border-radius, var(--border-radius-50));
               border-right-color: currentcolor;
               border-right-style: none;
               border-right-width: medium;
@@ -2546,10 +2399,6 @@
               font-size: inherit;
               height: auto;
               margin: 0 var(--spacing-100);
-              padding-bottom: 0px;
-              padding-left: 32px;
-              padding-right: 16px;
-              padding-top: 0px;
               padding: var(--spacing-75) 0;
               width: calc(100% - var(--spacing-200))
             "
@@ -2579,6 +2428,8 @@
         column-gap: 8px;
         display: flex;
         flex-wrap: wrap;
+        list-style-image: none;
+        list-style-position: outside;
         list-style-type: none;
         margin-bottom: var(--spacing-100);
         margin-top: 0px;
@@ -2607,23 +2458,19 @@
               overflow-y: hidden;
               padding: var(--spacing-75) 0;
               text-overflow: ellipsis;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Football
             </span>
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: currentcolor;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
@@ -2689,23 +2536,19 @@
               overflow-y: hidden;
               padding: var(--spacing-75) 0;
               text-overflow: ellipsis;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Basketball
             </span>
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: currentcolor;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
@@ -2771,23 +2614,19 @@
               overflow-y: hidden;
               padding: var(--spacing-75) 0;
               text-overflow: ellipsis;
-              text-wrap-mode: nowrap
+              text-wrap-mode: nowrap;
+              white-space-collapse: collapse
             ">
               Baseball
             </span>
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: currentcolor;
               border-bottom-left-radius: 50px;
               border-bottom-right-radius: 50px;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
@@ -2835,6 +2674,7 @@
       <span style="
         box-sizing: border-box;
         display: inline-block;
+        line-height: normal;
         margin-inline-start: calc(var(--spacing-100)*-1);
         position: relative;
         vertical-align: bottom;
@@ -2849,16 +2689,9 @@
               border-bottom-color: currentcolor;
               border-bottom-style: none;
               border-bottom-width: medium;
-              border-color: var(--combobox-textbox-border-color, var(--color-border-medium));
-              border-image-outset: initial;
-              border-image-repeat: initial;
-              border-image-slice: initial;
-              border-image-source: initial;
-              border-image-width: initial;
               border-left-color: currentcolor;
               border-left-style: none;
               border-left-width: medium;
-              border-radius: var(--combobox-textbox-border-radius, var(--border-radius-50));
               border-right-color: currentcolor;
               border-right-style: none;
               border-right-width: medium;
@@ -2871,10 +2704,6 @@
               font-size: inherit;
               height: auto;
               margin: 0 var(--spacing-100);
-              padding-bottom: 0px;
-              padding-left: 32px;
-              padding-right: 16px;
-              padding-top: 0px;
               padding: var(--spacing-75) 0;
               width: calc(100% - var(--spacing-200))
             "

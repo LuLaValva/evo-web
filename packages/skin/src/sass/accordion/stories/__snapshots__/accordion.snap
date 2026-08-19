@@ -25,7 +25,6 @@
         }}</style>
         <summary style="
           align-items: center;
-          border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
           box-sizing: border-box;
           color: var(--details-summary-foreground-color, var(--color-foreground-primary));
           display: flex;
@@ -131,7 +130,6 @@
         }}</style>
         <summary style="
           align-items: center;
-          border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
           box-sizing: border-box;
           color: var(--details-summary-foreground-color, var(--color-foreground-primary));
           display: flex;
@@ -237,7 +235,6 @@
         }}</style>
         <summary style="
           align-items: center;
-          border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
           box-sizing: border-box;
           color: var(--details-summary-foreground-color, var(--color-foreground-primary));
           display: flex;
@@ -354,7 +351,6 @@
         }}</style>
         <summary style="
           align-items: center;
-          border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
           box-sizing: border-box;
           color: var(--details-summary-foreground-color, var(--color-foreground-primary));
           display: flex;
@@ -460,7 +456,6 @@
         }}</style>
         <summary style="
           align-items: center;
-          border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
           box-sizing: border-box;
           color: var(--details-summary-foreground-color, var(--color-foreground-primary));
           display: flex;
@@ -566,7 +561,6 @@
         }}</style>
         <summary style="
           align-items: center;
-          border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
           box-sizing: border-box;
           color: var(--details-summary-foreground-color, var(--color-foreground-primary));
           display: flex;
@@ -683,7 +677,6 @@
         }}</style>
         <summary style="
           align-items: center;
-          border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
           box-sizing: border-box;
           color: var(--details-summary-foreground-color, var(--color-foreground-primary));
           display: flex;
@@ -789,7 +782,6 @@
         }}</style>
         <summary style="
           align-items: center;
-          border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
           box-sizing: border-box;
           color: var(--details-summary-foreground-color, var(--color-foreground-primary));
           display: flex;
@@ -895,7 +887,6 @@
         }}</style>
         <summary style="
           align-items: center;
-          border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
           box-sizing: border-box;
           color: var(--details-summary-foreground-color, var(--color-foreground-primary));
           display: flex;
@@ -1012,7 +1003,6 @@
         }}</style>
         <summary style="
           align-items: center;
-          border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
           box-sizing: border-box;
           color: var(--details-summary-foreground-color, var(--color-foreground-primary));
           display: flex;
@@ -1142,7 +1132,6 @@
         }}</style>
         <summary style="
           align-items: center;
-          border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
           box-sizing: border-box;
           color: var(--details-summary-foreground-color, var(--color-foreground-primary));
           display: flex;
@@ -1272,7 +1261,6 @@
         }}</style>
         <summary style="
           align-items: center;
-          border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
           box-sizing: border-box;
           color: var(--details-summary-foreground-color, var(--color-foreground-primary));
           display: flex;
@@ -1416,7 +1404,6 @@
         }}</style>
         <summary style="
           align-items: center;
-          border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
           box-sizing: border-box;
           color: var(--details-summary-foreground-color, var(--color-foreground-primary));
           display: flex;
@@ -1525,7 +1512,6 @@
         }}</style>
         <summary style="
           align-items: center;
-          border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
           box-sizing: border-box;
           color: var(--details-summary-foreground-color, var(--color-foreground-primary));
           display: flex;
@@ -1631,7 +1617,6 @@
         }}</style>
         <summary style="
           align-items: center;
-          border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
           box-sizing: border-box;
           color: var(--details-summary-foreground-color, var(--color-foreground-primary));
           display: flex;
@@ -1762,7 +1747,6 @@
         }}</style>
         <summary style="
           align-items: center;
-          border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
           box-sizing: border-box;
           color: var(--details-summary-foreground-color, var(--color-foreground-primary));
           display: flex;
@@ -1906,7 +1890,6 @@
         }}</style>
         <summary style="
           align-items: center;
-          border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
           box-sizing: border-box;
           color: var(--details-summary-foreground-color, var(--color-foreground-primary));
           display: flex;
@@ -2048,7 +2031,6 @@
         }}</style>
         <summary style="
           align-items: center;
-          border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
           box-sizing: border-box;
           color: var(--details-summary-foreground-color, var(--color-foreground-primary));
           display: flex;

@@ -33,15 +33,10 @@
     ">
       <input style="
         appearance: none;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: medium;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
@@ -60,8 +55,6 @@
         padding-bottom: 0px;
         padding-inline-end: var(--spacing-200);
         padding-inline-start: var(--spacing-200);
-        padding-left: 0px;
-        padding-right: 0px;
         padding-top: 0px;
         vertical-align: middle
       "/>
@@ -72,7 +65,6 @@
       font-size: var(--font-size-small);
       justify-content: flex-end;
       line-height: var(--spacing-200);
-      margin-top: var(--spacing-50);
       margin: var(--spacing-100) 0 0
     ">
       <span style="
@@ -122,15 +114,10 @@
     ">
       <input style="
         appearance: none;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: medium;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
@@ -149,8 +136,6 @@
         padding-bottom: 0px;
         padding-inline-end: var(--spacing-200);
         padding-inline-start: var(--spacing-200);
-        padding-left: 0px;
-        padding-right: 0px;
         padding-top: 0px;
         vertical-align: middle
       "/>
@@ -161,7 +146,6 @@
       font-size: var(--font-size-small);
       justify-content: flex-end;
       line-height: var(--spacing-200);
-      margin-top: var(--spacing-50);
       margin: var(--spacing-100) 0 0
     ">
       <span style="
@@ -211,15 +195,10 @@
     ">
       <input style="
         appearance: none;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: medium;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
@@ -238,8 +217,6 @@
         padding-bottom: 0px;
         padding-inline-end: var(--spacing-200);
         padding-inline-start: var(--spacing-200);
-        padding-left: 0px;
-        padding-right: 0px;
         padding-top: 0px;
         vertical-align: middle
       "/>
@@ -250,7 +227,6 @@
       font-size: var(--font-size-small);
       justify-content: flex-end;
       line-height: var(--spacing-200);
-      margin-top: var(--spacing-50);
       margin: var(--spacing-100) 0 0
     ">
       <span style="
@@ -310,15 +286,10 @@
     ">
       <input style="
         appearance: none;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: medium;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
@@ -337,8 +308,6 @@
         padding-bottom: 0px;
         padding-inline-end: var(--spacing-200);
         padding-inline-start: var(--spacing-200);
-        padding-left: 0px;
-        padding-right: 0px;
         padding-top: 0px;
         vertical-align: middle
       "/>
@@ -349,7 +318,6 @@
       font-size: var(--font-size-small);
       justify-content: flex-end;
       line-height: var(--spacing-200);
-      margin-top: var(--spacing-50);
       margin: var(--spacing-100) 0 0
     ">
       <span style="
@@ -409,15 +377,10 @@
     ">
       <input style="
         appearance: none;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: medium;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
@@ -436,8 +399,6 @@
         padding-bottom: 0px;
         padding-inline-end: var(--spacing-200);
         padding-inline-start: var(--spacing-200);
-        padding-left: 0px;
-        padding-right: 0px;
         padding-top: 0px;
         vertical-align: middle
       "/>
@@ -448,7 +409,6 @@
       font-size: var(--font-size-small);
       justify-content: flex-end;
       line-height: var(--spacing-200);
-      margin-top: var(--spacing-50);
       margin: var(--spacing-100) 0 0
     ">
       <span style="
@@ -517,15 +477,10 @@
     ">
       <input style="
         appearance: none;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: medium;
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-color: currentcolor;
         border-left-style: none;
         border-left-width: medium;
@@ -546,8 +501,6 @@
         padding-bottom: 0px;
         padding-inline-end: var(--spacing-200);
         padding-inline-start: var(--spacing-200);
-        padding-left: 0px;
-        padding-right: 0px;
         padding-top: 0px;
         vertical-align: middle;
         word-spacing: 0.16em
@@ -560,7 +513,6 @@
       justify-content: flex-end;
       letter-spacing: 0.12em;
       line-height: 1.5;
-      margin-top: var(--spacing-50);
       margin: var(--spacing-100) 0 0;
       word-spacing: 0.16em
     ">

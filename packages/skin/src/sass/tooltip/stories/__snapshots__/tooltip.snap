@@ -179,7 +179,8 @@
         <div style="
           display: flex;
           overflow-wrap: anywhere;
-          padding: var(--spacing-100) var(--spacing-200)
+          padding: var(--spacing-100) var(--spacing-200);
+          word-break: normal
         ">
           <div style="flex-grow: 1">
             <p style="
@@ -300,7 +301,8 @@
         <div style="
           display: flex;
           overflow-wrap: anywhere;
-          padding: var(--spacing-100) var(--spacing-200)
+          padding: var(--spacing-100) var(--spacing-200);
+          word-break: normal
         ">
           <div style="flex-grow: 1">
             <p style="
@@ -446,6 +448,7 @@
           line-height: 1.5;
           overflow-wrap: anywhere;
           padding: var(--spacing-100) var(--spacing-200);
+          word-break: normal;
           word-spacing: 0.16em
         ">
           <div style="
@@ -603,6 +606,7 @@
           line-height: 1.5;
           overflow-wrap: anywhere;
           padding: var(--spacing-100) var(--spacing-200);
+          word-break: normal;
           word-spacing: 0.16em
         ">
           <div style="

@@ -2,6 +2,7 @@
 <div>
   <span style="
     display: inline-block;
+    line-height: normal;
     position: relative;
     vertical-align: bottom
   ">
@@ -9,18 +10,14 @@
       align-content: center;
       align-items: center;
       background-color: var(--listbox-button-background-color, var(--color-background-secondary));
-      border-bottom-color: inherit;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--listbox-button-border-color, var(--color-border-attention));
-      border-left-color: inherit;
       border-left-style: solid;
       border-left-width: 1px;
       border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
-      border-right-color: inherit;
       border-right-style: solid;
       border-right-width: 1px;
-      border-top-color: inherit;
       border-top-style: solid;
       border-top-width: 1px;
       color: var(--listbox-button-foreground-color, var(--color-foreground-primary));
@@ -36,6 +33,7 @@
       padding-right: 15px;
       padding-top: 0px;
       position: relative;
+      text-align: center;
       vertical-align: bottom
     ">
       <style>@scope{:scope{
@@ -95,6 +93,7 @@
 <div>
   <span style="
     display: inline-block;
+    line-height: normal;
     position: relative;
     vertical-align: bottom
   ">
@@ -102,18 +101,14 @@
       align-content: center;
       align-items: center;
       background-color: var(--listbox-button-background-color, var(--color-background-secondary));
-      border-bottom-color: inherit;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--listbox-button-border-color, var(--color-border-attention));
-      border-left-color: inherit;
       border-left-style: solid;
       border-left-width: 1px;
       border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
-      border-right-color: inherit;
       border-right-style: solid;
       border-right-width: 1px;
-      border-top-color: inherit;
       border-top-style: solid;
       border-top-width: 1px;
       color: var(--listbox-button-foreground-color, var(--color-foreground-primary));
@@ -129,6 +124,7 @@
       padding-right: 15px;
       padding-top: 0px;
       position: relative;
+      text-align: center;
       vertical-align: bottom
     ">
       <style>@scope{:scope{
@@ -188,6 +184,7 @@
 <div>
   <span style="
     display: inline-block;
+    line-height: normal;
     position: relative;
     vertical-align: bottom
   ">
@@ -195,18 +192,14 @@
       align-content: center;
       align-items: center;
       background-color: var(--listbox-button-background-color, var(--color-background-secondary));
-      border-bottom-color: inherit;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--listbox-button-border-color, var(--color-border-attention));
-      border-left-color: inherit;
       border-left-style: solid;
       border-left-width: 1px;
       border-radius: var(--expand-btn-border-radius, var(--border-radius-50));
-      border-right-color: inherit;
       border-right-style: solid;
       border-right-width: 1px;
-      border-top-color: inherit;
       border-top-style: solid;
       border-top-width: 1px;
       color: var(--listbox-button-foreground-color, var(--color-foreground-primary));
@@ -222,6 +215,7 @@
       padding-right: 15px;
       padding-top: 0px;
       position: relative;
+      text-align: center;
       vertical-align: bottom
     ">
       <style>@scope{:scope{

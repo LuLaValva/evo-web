@@ -4,6 +4,8 @@
     <span style="
       align-items: center;
       background-color: transparent;
+      background-position-x: initial;
+      background-position-y: initial;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--textbox-border-color, var(--color-border-medium));
@@ -26,7 +28,7 @@
     ">
       <button style="
         align-items: center;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: transparent;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
@@ -95,15 +97,10 @@
         min="0"
         style="
           appearance: textfield;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -132,7 +129,7 @@
       />
       <button style="
         align-items: center;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: transparent;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
@@ -207,6 +204,8 @@
     <span style="
       align-items: center;
       background-color: transparent;
+      background-position-x: initial;
+      background-position-y: initial;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--textbox-border-color, var(--color-border-medium));
@@ -229,7 +228,7 @@
     ">
       <button style="
         align-items: center;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: transparent;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
@@ -298,15 +297,10 @@
         min="0"
         style="
           appearance: textfield;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -335,7 +329,7 @@
       />
       <button style="
         align-items: center;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: transparent;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
@@ -410,6 +404,8 @@
     <span style="
       align-items: center;
       background-color: transparent;
+      background-position-x: initial;
+      background-position-y: initial;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--textbox-border-color, var(--color-border-medium));
@@ -432,7 +428,7 @@
     ">
       <button style="
         align-items: center;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: transparent;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
@@ -501,15 +497,10 @@
         min="0"
         style="
           appearance: textfield;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -538,7 +529,7 @@
       />
       <button style="
         align-items: center;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: transparent;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
@@ -613,6 +604,8 @@
     <span style="
       align-items: center;
       background-color: transparent;
+      background-position-x: initial;
+      background-position-y: initial;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--textbox-border-color, var(--color-border-medium));
@@ -635,7 +628,7 @@
     ">
       <button style="
         align-items: center;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: transparent;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
@@ -704,15 +697,10 @@
         min="1"
         style="
           appearance: textfield;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -741,7 +729,7 @@
       />
       <button style="
         align-items: center;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: transparent;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
@@ -816,6 +804,8 @@
     <span style="
       align-items: center;
       background-color: transparent;
+      background-position-x: initial;
+      background-position-y: initial;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--textbox-border-color, var(--color-border-medium));
@@ -840,15 +830,10 @@
         min="1"
         style="
           appearance: textfield;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -877,7 +862,7 @@
       />
       <button style="
         align-items: center;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: transparent;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
@@ -899,7 +884,6 @@
         overflow-x: hidden;
         overflow-y: hidden;
         padding-bottom: 0px;
-        padding-inline-start: var(--spacing-200);
         padding-left: 0px;
         padding-right: 0px;
         padding-top: 0px;
@@ -946,7 +930,7 @@
       </button>
       <button style="
         align-items: center;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: transparent;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;

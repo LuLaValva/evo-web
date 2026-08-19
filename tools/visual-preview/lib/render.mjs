@@ -42,10 +42,13 @@ export function frameDoc(annotatedHtml, { rtl, side }) {
     html`<!doctype html>
       <html dir="${rtl ? "rtl" : "ltr"}">
         <head>
-          <link rel="stylesheet" href="../assets/vars-${side}.css" />
+          <style>
+            body{margin:16px;font-family:Arial,sans-serif;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}
+          </style>
+          <link rel="stylesheet" href="../assets/base-${side}.css" />
           <link
             rel="stylesheet"
-            href="../assets/vars-${side}-dark.css"
+            href="../assets/base-${side}-dark.css"
             disabled
             data-vp-dark
           />
@@ -62,9 +65,7 @@ export function frameDoc(annotatedHtml, { rtl, side }) {
             }
           </style>
           <style>
-            body{margin:16px;font-family:"Market Sans",Arial,sans-serif;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}${raw(
-              HIGHLIGHT_CSS,
-            )}
+            ${raw(HIGHLIGHT_CSS)}
           </style>
         </head>
         <body>

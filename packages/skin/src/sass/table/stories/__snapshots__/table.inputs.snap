@@ -9,7 +9,7 @@
     <table style="
       -webkit-border-horizontal-spacing: 0px;
       -webkit-border-vertical-spacing: 0px;
-      border-collapse: initial;
+      border-collapse: separate;
       width: 100%
     ">
       <thead>
@@ -27,11 +27,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -58,9 +59,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Seller
               <svg
@@ -94,11 +96,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -125,9 +128,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Item
               <svg
@@ -161,11 +165,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -192,9 +197,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Image
               <svg
@@ -228,11 +234,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -259,9 +266,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               List Price
               <svg
@@ -295,11 +303,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -326,9 +335,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Quantity Available
               <svg
@@ -362,11 +372,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -393,9 +404,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Orders
               <svg
@@ -429,11 +441,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -460,9 +473,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Watchers
               <svg
@@ -496,11 +510,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -527,9 +542,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Protection
               <svg
@@ -563,11 +579,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -594,9 +611,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Shipping
               <svg
@@ -628,14 +646,14 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -662,9 +680,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Delivery
               <svg
@@ -703,7 +722,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <span style="
               align-items: center;
@@ -732,15 +752,10 @@
                 placeholder="Seller"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -759,8 +774,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -791,11 +804,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -909,15 +921,10 @@
                 placeholder="List price"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -936,8 +943,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   text-align: right;
                   vertical-align: middle;
@@ -1051,15 +1056,10 @@
                 placeholder="Shipping"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -1078,8 +1078,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -1098,7 +1096,6 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left
           ">
@@ -1120,7 +1117,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <span style="
               align-items: center;
@@ -1149,15 +1147,10 @@
                 placeholder="Seller"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -1176,8 +1169,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -1208,11 +1199,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -1326,15 +1316,10 @@
                 placeholder="List price"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -1353,8 +1338,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   text-align: right;
                   vertical-align: middle;
@@ -1468,15 +1451,10 @@
                 placeholder="Shipping"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -1495,8 +1473,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -1515,7 +1491,6 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left
           ">
@@ -1537,7 +1512,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <span style="
               align-items: center;
@@ -1566,15 +1542,10 @@
                 placeholder="Seller"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -1593,8 +1564,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -1625,11 +1594,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -1743,15 +1711,10 @@
                 placeholder="List price"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -1770,8 +1733,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   text-align: right;
                   vertical-align: middle;
@@ -1885,15 +1846,10 @@
                 placeholder="Shipping"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -1912,8 +1868,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -1932,7 +1886,6 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left
           ">
@@ -1954,7 +1907,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <span style="
               align-items: center;
@@ -1983,15 +1937,10 @@
                 placeholder="Seller"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -2010,8 +1959,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -2042,11 +1989,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -2160,15 +2106,10 @@
                 placeholder="List price"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -2187,8 +2128,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   text-align: right;
                   vertical-align: middle;
@@ -2302,15 +2241,10 @@
                 placeholder="Shipping"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -2329,8 +2263,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -2349,7 +2281,6 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left
           ">
@@ -2361,7 +2292,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             font-weight: 400;
             height: 80px;
@@ -2373,7 +2303,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <span style="
               align-items: center;
@@ -2402,15 +2333,10 @@
                 placeholder="Seller"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -2429,8 +2355,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -2442,7 +2366,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -2463,11 +2386,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -2530,7 +2452,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -2546,7 +2467,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -2585,15 +2505,10 @@
                 placeholder="List price"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -2612,8 +2527,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   text-align: right;
                   vertical-align: middle;
@@ -2626,7 +2539,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -2644,7 +2556,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -2662,7 +2573,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -2680,7 +2590,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -2698,7 +2607,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -2737,15 +2645,10 @@
                 placeholder="Shipping"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -2764,8 +2667,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -2777,7 +2678,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -2786,7 +2686,6 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left
           ">
@@ -2809,7 +2708,7 @@
     <table style="
       -webkit-border-horizontal-spacing: 0px;
       -webkit-border-vertical-spacing: 0px;
-      border-collapse: initial;
+      border-collapse: separate;
       width: 100%
     ">
       <thead>
@@ -2827,11 +2726,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -2858,9 +2758,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Seller
               <svg
@@ -2894,11 +2795,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -2925,9 +2827,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Item
               <svg
@@ -2961,11 +2864,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -2992,9 +2896,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Image
               <svg
@@ -3028,11 +2933,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -3059,9 +2965,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               List Price
               <svg
@@ -3095,11 +3002,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -3126,9 +3034,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Quantity Available
               <svg
@@ -3162,11 +3071,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -3193,9 +3103,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Orders
               <svg
@@ -3229,11 +3140,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -3260,9 +3172,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Watchers
               <svg
@@ -3296,11 +3209,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -3327,9 +3241,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Protection
               <svg
@@ -3363,11 +3278,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -3394,9 +3310,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Shipping
               <svg
@@ -3427,15 +3344,15 @@
             min-width: 124px;
             padding-bottom: 12px;
             padding-inline-end: 0px;
-            padding-left: 12px;
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -3462,9 +3379,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Delivery
               <svg
@@ -3503,7 +3421,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <span style="
               align-items: center;
@@ -3532,15 +3451,10 @@
                 placeholder="Seller"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -3559,8 +3473,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -3591,11 +3503,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -3711,15 +3622,10 @@
                 placeholder="List price"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -3738,8 +3644,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   text-align: right;
                   vertical-align: middle;
@@ -3853,15 +3757,10 @@
                 placeholder="Shipping"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -3880,8 +3779,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -3899,7 +3796,6 @@
             min-width: 124px;
             padding-bottom: 12px;
             padding-inline-end: 0px;
-            padding-left: 12px;
             padding-right: 12px;
             padding-top: 12px;
             text-align: right
@@ -3922,7 +3818,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <span style="
               align-items: center;
@@ -3951,15 +3848,10 @@
                 placeholder="Seller"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -3978,8 +3870,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -4010,11 +3900,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -4130,15 +4019,10 @@
                 placeholder="List price"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -4157,8 +4041,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   text-align: right;
                   vertical-align: middle;
@@ -4272,15 +4154,10 @@
                 placeholder="Shipping"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -4299,8 +4176,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -4318,7 +4193,6 @@
             min-width: 124px;
             padding-bottom: 12px;
             padding-inline-end: 0px;
-            padding-left: 12px;
             padding-right: 12px;
             padding-top: 12px;
             text-align: right
@@ -4341,7 +4215,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <span style="
               align-items: center;
@@ -4370,15 +4245,10 @@
                 placeholder="Seller"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -4397,8 +4267,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -4429,11 +4297,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -4549,15 +4416,10 @@
                 placeholder="List price"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -4576,8 +4438,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   text-align: right;
                   vertical-align: middle;
@@ -4691,15 +4551,10 @@
                 placeholder="Shipping"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -4718,8 +4573,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -4737,7 +4590,6 @@
             min-width: 124px;
             padding-bottom: 12px;
             padding-inline-end: 0px;
-            padding-left: 12px;
             padding-right: 12px;
             padding-top: 12px;
             text-align: right
@@ -4760,7 +4612,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <span style="
               align-items: center;
@@ -4789,15 +4642,10 @@
                 placeholder="Seller"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -4816,8 +4664,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -4848,11 +4694,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -4968,15 +4813,10 @@
                 placeholder="List price"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -4995,8 +4835,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   text-align: right;
                   vertical-align: middle;
@@ -5110,15 +4948,10 @@
                 placeholder="Shipping"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -5137,8 +4970,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -5156,7 +4987,6 @@
             min-width: 124px;
             padding-bottom: 12px;
             padding-inline-end: 0px;
-            padding-left: 12px;
             padding-right: 12px;
             padding-top: 12px;
             text-align: right
@@ -5169,7 +4999,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             font-weight: 400;
             height: 80px;
@@ -5181,7 +5010,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <span style="
               align-items: center;
@@ -5210,15 +5040,10 @@
                 placeholder="Seller"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -5237,8 +5062,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -5250,7 +5073,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -5271,11 +5093,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -5340,7 +5161,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -5356,7 +5176,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -5395,15 +5214,10 @@
                 placeholder="List price"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -5422,8 +5236,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   text-align: right;
                   vertical-align: middle;
@@ -5436,7 +5248,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -5454,7 +5265,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -5472,7 +5282,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -5490,7 +5299,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -5508,7 +5316,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -5547,15 +5354,10 @@
                 placeholder="Shipping"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -5574,8 +5376,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -5587,7 +5387,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -5595,7 +5394,6 @@
             min-width: 124px;
             padding-bottom: 12px;
             padding-inline-end: 0px;
-            padding-left: 12px;
             padding-right: 12px;
             padding-top: 12px;
             text-align: right
@@ -5619,7 +5417,7 @@
     <table style="
       -webkit-border-horizontal-spacing: 0px;
       -webkit-border-vertical-spacing: 0px;
-      border-collapse: initial;
+      border-collapse: separate;
       width: 100%
     ">
       <thead>
@@ -5637,11 +5435,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -5668,9 +5467,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Seller
               <svg
@@ -5704,11 +5504,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -5735,9 +5536,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Item
               <svg
@@ -5771,11 +5573,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -5802,9 +5605,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Image
               <svg
@@ -5838,11 +5642,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -5869,9 +5674,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               List Price
               <svg
@@ -5905,11 +5711,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -5936,9 +5743,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Quantity Available
               <svg
@@ -5972,11 +5780,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -6003,9 +5812,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Orders
               <svg
@@ -6039,11 +5849,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -6070,9 +5881,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Watchers
               <svg
@@ -6106,11 +5918,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -6137,9 +5950,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Protection
               <svg
@@ -6173,11 +5987,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -6204,9 +6019,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Shipping
               <svg
@@ -6238,14 +6054,14 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -6272,9 +6088,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Delivery
               <svg
@@ -6313,7 +6130,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <span style="
               align-items: center;
@@ -6342,15 +6160,10 @@
                 placeholder="Seller"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -6369,8 +6182,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -6401,11 +6212,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -6519,15 +6329,10 @@
                 placeholder="List price"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -6546,8 +6351,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   text-align: right;
                   vertical-align: middle;
@@ -6661,15 +6464,10 @@
                 placeholder="Shipping"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -6688,8 +6486,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -6708,7 +6504,6 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left
           ">
@@ -6730,7 +6525,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <span style="
               align-items: center;
@@ -6759,15 +6555,10 @@
                 placeholder="Seller"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -6786,8 +6577,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -6818,11 +6607,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -6936,15 +6724,10 @@
                 placeholder="List price"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -6963,8 +6746,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   text-align: right;
                   vertical-align: middle;
@@ -7078,15 +6859,10 @@
                 placeholder="Shipping"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -7105,8 +6881,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -7125,7 +6899,6 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left
           ">
@@ -7147,7 +6920,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <span style="
               align-items: center;
@@ -7176,15 +6950,10 @@
                 placeholder="Seller"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -7203,8 +6972,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -7235,11 +7002,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -7353,15 +7119,10 @@
                 placeholder="List price"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -7380,8 +7141,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   text-align: right;
                   vertical-align: middle;
@@ -7495,15 +7254,10 @@
                 placeholder="Shipping"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -7522,8 +7276,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -7542,7 +7294,6 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left
           ">
@@ -7564,7 +7315,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <span style="
               align-items: center;
@@ -7593,15 +7345,10 @@
                 placeholder="Seller"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -7620,8 +7367,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -7652,11 +7397,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -7770,15 +7514,10 @@
                 placeholder="List price"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -7797,8 +7536,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   text-align: right;
                   vertical-align: middle;
@@ -7912,15 +7649,10 @@
                 placeholder="Shipping"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -7939,8 +7671,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -7959,7 +7689,6 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left
           ">
@@ -7971,7 +7700,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             font-weight: 400;
             height: 64px;
@@ -7983,7 +7711,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <span style="
               align-items: center;
@@ -8012,15 +7741,10 @@
                 placeholder="Seller"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -8039,8 +7763,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -8052,7 +7774,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
             max-height: 64px;
@@ -8073,11 +7794,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -8140,7 +7860,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
             max-height: 64px;
@@ -8156,7 +7875,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
             max-height: 64px;
@@ -8195,15 +7913,10 @@
                 placeholder="List price"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -8222,8 +7935,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   text-align: right;
                   vertical-align: middle;
@@ -8236,7 +7947,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
             max-height: 64px;
@@ -8254,7 +7964,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
             max-height: 64px;
@@ -8272,7 +7981,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
             max-height: 64px;
@@ -8290,7 +7998,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
             max-height: 64px;
@@ -8308,7 +8015,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
             max-height: 64px;
@@ -8347,15 +8053,10 @@
                 placeholder="Shipping"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -8374,8 +8075,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -8387,7 +8086,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
             max-height: 64px;
@@ -8396,7 +8094,6 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left
           ">
@@ -8422,7 +8119,7 @@
     <table style="
       -webkit-border-horizontal-spacing: 0px;
       -webkit-border-vertical-spacing: 0px;
-      border-collapse: initial;
+      border-collapse: separate;
       width: 100%
     ">
       <thead>
@@ -8440,11 +8137,12 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -8471,9 +8169,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Seller
               <svg
@@ -8507,11 +8206,12 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -8538,9 +8238,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Item
               <svg
@@ -8574,11 +8275,12 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -8605,9 +8307,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Image
               <svg
@@ -8641,11 +8344,12 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -8672,9 +8376,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               List Price
               <svg
@@ -8708,11 +8413,12 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -8739,9 +8445,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Quantity Available
               <svg
@@ -8775,11 +8482,12 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -8806,9 +8514,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Orders
               <svg
@@ -8842,11 +8551,12 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -8873,9 +8583,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Watchers
               <svg
@@ -8909,11 +8620,12 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -8940,9 +8652,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Protection
               <svg
@@ -8976,11 +8689,12 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -9007,9 +8721,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Shipping
               <svg
@@ -9041,14 +8756,14 @@
             padding-bottom: 16px;
             padding-inline-end: 0px;
             padding-left: 16px;
-            padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -9075,9 +8790,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Delivery
               <svg
@@ -9116,7 +8832,8 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <span style="
               align-items: center;
@@ -9145,15 +8862,10 @@
                 placeholder="Seller"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -9172,8 +8884,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -9204,11 +8914,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -9322,15 +9031,10 @@
                 placeholder="List price"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -9349,8 +9053,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   text-align: right;
                   vertical-align: middle;
@@ -9464,15 +9166,10 @@
                 placeholder="Shipping"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -9491,8 +9188,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -9511,7 +9206,6 @@
             padding-bottom: 16px;
             padding-inline-end: 0px;
             padding-left: 16px;
-            padding-right: 16px;
             padding-top: 16px;
             text-align: left
           ">
@@ -9533,7 +9227,8 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <span style="
               align-items: center;
@@ -9562,15 +9257,10 @@
                 placeholder="Seller"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -9589,8 +9279,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -9621,11 +9309,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -9739,15 +9426,10 @@
                 placeholder="List price"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -9766,8 +9448,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   text-align: right;
                   vertical-align: middle;
@@ -9881,15 +9561,10 @@
                 placeholder="Shipping"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -9908,8 +9583,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -9928,7 +9601,6 @@
             padding-bottom: 16px;
             padding-inline-end: 0px;
             padding-left: 16px;
-            padding-right: 16px;
             padding-top: 16px;
             text-align: left
           ">
@@ -9950,7 +9622,8 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <span style="
               align-items: center;
@@ -9979,15 +9652,10 @@
                 placeholder="Seller"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -10006,8 +9674,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -10038,11 +9704,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -10156,15 +9821,10 @@
                 placeholder="List price"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -10183,8 +9843,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   text-align: right;
                   vertical-align: middle;
@@ -10298,15 +9956,10 @@
                 placeholder="Shipping"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -10325,8 +9978,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -10345,7 +9996,6 @@
             padding-bottom: 16px;
             padding-inline-end: 0px;
             padding-left: 16px;
-            padding-right: 16px;
             padding-top: 16px;
             text-align: left
           ">
@@ -10367,7 +10017,8 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <span style="
               align-items: center;
@@ -10396,15 +10047,10 @@
                 placeholder="Seller"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -10423,8 +10069,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -10455,11 +10099,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -10573,15 +10216,10 @@
                 placeholder="List price"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -10600,8 +10238,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   text-align: right;
                   vertical-align: middle;
@@ -10715,15 +10351,10 @@
                 placeholder="Shipping"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -10742,8 +10373,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -10762,7 +10391,6 @@
             padding-bottom: 16px;
             padding-inline-end: 0px;
             padding-left: 16px;
-            padding-right: 16px;
             padding-top: 16px;
             text-align: left
           ">
@@ -10774,7 +10402,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             font-weight: 400;
             height: 112px;
@@ -10786,7 +10413,8 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <span style="
               align-items: center;
@@ -10815,15 +10443,10 @@
                 placeholder="Seller"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -10842,8 +10465,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -10855,7 +10476,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
             max-height: 112px;
@@ -10876,11 +10496,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -10943,7 +10562,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
             max-height: 112px;
@@ -10959,7 +10577,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
             max-height: 112px;
@@ -10998,15 +10615,10 @@
                 placeholder="List price"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -11025,8 +10637,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   text-align: right;
                   vertical-align: middle;
@@ -11039,7 +10649,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
             max-height: 112px;
@@ -11057,7 +10666,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
             max-height: 112px;
@@ -11075,7 +10683,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
             max-height: 112px;
@@ -11093,7 +10700,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
             max-height: 112px;
@@ -11111,7 +10717,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
             max-height: 112px;
@@ -11150,15 +10755,10 @@
                 placeholder="Shipping"
                 style="
                   appearance: none;
-                  background-color: initial;
+                  background-color: rgba(0, 0, 0, 0);
                   border-bottom-color: currentcolor;
                   border-bottom-style: none;
                   border-bottom-width: medium;
-                  border-image-outset: initial;
-                  border-image-repeat: initial;
-                  border-image-slice: initial;
-                  border-image-source: initial;
-                  border-image-width: initial;
                   border-left-color: currentcolor;
                   border-left-style: none;
                   border-left-width: medium;
@@ -11177,8 +10777,6 @@
                   padding-bottom: 0px;
                   padding-inline-end: var(--spacing-200);
                   padding-inline-start: var(--spacing-200);
-                  padding-left: 0px;
-                  padding-right: 0px;
                   padding-top: 0px;
                   vertical-align: middle;
                   width: 100%
@@ -11190,7 +10788,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
             max-height: 112px;
@@ -11199,7 +10796,6 @@
             padding-bottom: 16px;
             padding-inline-end: 0px;
             padding-left: 16px;
-            padding-right: 16px;
             padding-top: 16px;
             text-align: left
           ">

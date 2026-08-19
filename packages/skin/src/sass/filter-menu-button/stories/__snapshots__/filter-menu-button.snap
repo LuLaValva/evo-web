@@ -36,6 +36,7 @@
       overflow-y: hidden;
       padding: 0 var(--spacing-200);
       position: relative;
+      text-align: center;
       vertical-align: bottom
     ">
       <style>@scope{:scope{
@@ -57,7 +58,8 @@
           overflow-x: hidden;
           overflow-y: hidden;
           text-overflow: ellipsis;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Filter Menu Button
         </span>
@@ -118,6 +120,7 @@
         flex-direction: column;
         font-family: inherit;
         font-size: var(--font-size-body);
+        font-weight: 400;
         height: 32px;
         justify-content: center;
         max-width: 280px;
@@ -126,6 +129,8 @@
         overflow-y: hidden;
         padding: 0 var(--spacing-200);
         position: relative;
+        text-align: center;
+        text-decoration-color: rgb(0, 0, 0);
         vertical-align: bottom
       "
     >
@@ -148,7 +153,8 @@
           overflow-x: hidden;
           overflow-y: hidden;
           text-overflow: ellipsis;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Filter Menu Button
         </span>
@@ -215,6 +221,7 @@
       overflow-y: hidden;
       padding: 0 var(--spacing-200);
       position: relative;
+      text-align: center;
       vertical-align: bottom
     ">
       <style>@scope{:scope{
@@ -236,7 +243,8 @@
           overflow-x: hidden;
           overflow-y: hidden;
           text-overflow: ellipsis;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Filter Menu Button
         </span>
@@ -266,11 +274,6 @@
       border-bottom-left-radius: 16px;
       border-bottom-right-radius: 16px;
       border-bottom-width: medium;
-      border-image-outset: initial;
-      border-image-repeat: initial;
-      border-image-slice: initial;
-      border-image-source: initial;
-      border-image-width: initial;
       border-left-color: currentcolor;
       border-left-width: medium;
       border-right-color: currentcolor;
@@ -480,11 +483,6 @@
         border-bottom-style: none;
         border-bottom-width: medium;
         border-color: var(--filter-menu-border-color, var(--color-border-subtle));
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-style: none;
         border-left-width: medium;
         border-right-style: none;
@@ -566,6 +564,7 @@
       overflow-y: hidden;
       padding: 0 var(--spacing-200);
       position: relative;
+      text-align: center;
       vertical-align: bottom
     ">
       <style>@scope{:scope{
@@ -587,7 +586,8 @@
           overflow-x: hidden;
           overflow-y: hidden;
           text-overflow: ellipsis;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Filter Menu Button
         </span>
@@ -617,11 +617,6 @@
       border-bottom-left-radius: 16px;
       border-bottom-right-radius: 16px;
       border-bottom-width: medium;
-      border-image-outset: initial;
-      border-image-repeat: initial;
-      border-image-slice: initial;
-      border-image-source: initial;
-      border-image-width: initial;
       border-left-color: currentcolor;
       border-left-width: medium;
       border-right-color: currentcolor;
@@ -1834,11 +1829,6 @@
         border-bottom-style: none;
         border-bottom-width: medium;
         border-color: var(--filter-menu-border-color, var(--color-border-subtle));
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-style: none;
         border-left-width: medium;
         border-right-style: none;
@@ -1891,19 +1881,15 @@
     <button style="
       align-items: center;
       background-color: var(--color-background-secondary);
-      border-bottom-color: transparent;
       border-bottom-left-radius: 16px;
       border-bottom-right-radius: 16px;
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: var(--filter-button-foreground-color, var(--color-border-strong));
-      border-left-color: transparent;
       border-left-style: solid;
       border-left-width: 1px;
-      border-right-color: transparent;
       border-right-style: solid;
       border-right-width: 1px;
-      border-top-color: transparent;
       border-top-left-radius: 16px;
       border-top-right-radius: 16px;
       border-top-style: solid;
@@ -1922,6 +1908,7 @@
       overflow-y: hidden;
       padding: 0 var(--spacing-200);
       position: relative;
+      text-align: center;
       vertical-align: bottom
     ">
       <style>@scope{:scope{
@@ -1943,7 +1930,8 @@
           overflow-x: hidden;
           overflow-y: hidden;
           text-overflow: ellipsis;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Filter Menu Button
         </span>
@@ -1973,11 +1961,6 @@
       border-bottom-left-radius: 16px;
       border-bottom-right-radius: 16px;
       border-bottom-width: medium;
-      border-image-outset: initial;
-      border-image-repeat: initial;
-      border-image-slice: initial;
-      border-image-source: initial;
-      border-image-width: initial;
       border-left-color: currentcolor;
       border-left-width: medium;
       border-right-color: currentcolor;
@@ -2187,11 +2170,6 @@
         border-bottom-style: none;
         border-bottom-width: medium;
         border-color: var(--filter-menu-border-color, var(--color-border-subtle));
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-style: none;
         border-left-width: medium;
         border-right-style: none;
@@ -2278,6 +2256,7 @@
       overflow-y: hidden;
       padding: 0 var(--spacing-200);
       position: relative;
+      text-align: center;
       vertical-align: bottom;
       word-spacing: 0.16em
     ">
@@ -2308,6 +2287,7 @@
           overflow-y: hidden;
           text-overflow: ellipsis;
           text-wrap-mode: nowrap;
+          white-space-collapse: collapse;
           word-spacing: 0.16em
         ">
           Filter Menu Button
@@ -2348,11 +2328,6 @@
       border-bottom-left-radius: 16px;
       border-bottom-right-radius: 16px;
       border-bottom-width: medium;
-      border-image-outset: initial;
-      border-image-repeat: initial;
-      border-image-slice: initial;
-      border-image-source: initial;
-      border-image-width: initial;
       border-left-color: currentcolor;
       border-left-width: medium;
       border-right-color: currentcolor;
@@ -3931,11 +3906,6 @@
         border-bottom-style: none;
         border-bottom-width: medium;
         border-color: var(--filter-menu-border-color, var(--color-border-subtle));
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-style: none;
         border-left-width: medium;
         border-right-style: none;
@@ -4019,6 +3989,7 @@
       overflow-y: hidden;
       padding: 0 var(--spacing-200);
       position: relative;
+      text-align: center;
       vertical-align: bottom
     ">
       <style>@scope{:scope{
@@ -4040,7 +4011,8 @@
           overflow-x: hidden;
           overflow-y: hidden;
           text-overflow: ellipsis;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           Filter Menu Button with a lot of text that will truncate
         </span>
@@ -4070,11 +4042,6 @@
       border-bottom-left-radius: 16px;
       border-bottom-right-radius: 16px;
       border-bottom-width: medium;
-      border-image-outset: initial;
-      border-image-repeat: initial;
-      border-image-slice: initial;
-      border-image-source: initial;
-      border-image-width: initial;
       border-left-color: currentcolor;
       border-left-width: medium;
       border-right-color: currentcolor;
@@ -4284,11 +4251,6 @@
         border-bottom-style: none;
         border-bottom-width: medium;
         border-color: var(--filter-menu-border-color, var(--color-border-subtle));
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-style: none;
         border-left-width: medium;
         border-right-style: none;

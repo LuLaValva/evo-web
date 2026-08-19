@@ -4,11 +4,6 @@
     background-color: var(--color-background-secondary);
     border-bottom-color: currentcolor;
     border-bottom-width: medium;
-    border-image-outset: initial;
-    border-image-repeat: initial;
-    border-image-slice: initial;
-    border-image-source: initial;
-    border-image-width: initial;
     border-left-color: currentcolor;
     border-left-width: medium;
     border-radius: var(--border-radius-150);
@@ -67,18 +62,14 @@
             align-content: center;
             align-items: center;
             background-color: var(--btn-primary-disabled-background-color, var(--color-foreground-disabled));
-            border-bottom-color: currentcolor;
             border-bottom-style: solid;
             border-bottom-width: 1px;
             border-color: var(--btn-primary-disabled-border-color, var(--color-foreground-disabled));
-            border-left-color: currentcolor;
             border-left-style: solid;
             border-left-width: 1px;
             border-radius: var(--btn-border-radius, 20px);
-            border-right-color: currentcolor;
             border-right-style: solid;
             border-right-width: 1px;
-            border-top-color: currentcolor;
             border-top-style: solid;
             border-top-width: 1px;
             color: var(--btn-primary-foreground-color, var(--color-foreground-on-accent));
@@ -94,6 +85,8 @@
             padding-right: 20px;
             padding-top: 0px;
             position: relative;
+            text-align: center;
+            text-decoration-color: rgb(0, 0, 0);
             transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
             vertical-align: bottom;
             width: 100%
@@ -127,11 +120,6 @@
       border-bottom-color: currentcolor;
       border-bottom-style: none;
       border-bottom-width: medium;
-      border-image-outset: initial;
-      border-image-repeat: initial;
-      border-image-slice: initial;
-      border-image-source: initial;
-      border-image-width: initial;
       border-left-color: currentcolor;
       border-left-style: none;
       border-left-width: medium;
@@ -157,7 +145,6 @@
       outline-style: solid;
       outline-width: 6px;
       padding-block-end: var(--spacing-150);
-      padding-bottom: 0px;
       padding-left: 0px;
       padding-right: 0px;
       padding-top: 0px;
@@ -205,37 +192,36 @@
 
 ┌─ selfActionableLink
 <div>
-  <a style="
-    background-color: var(--color-background-secondary);
-    border-bottom-color: currentcolor;
-    border-bottom-width: medium;
-    border-image-outset: initial;
-    border-image-repeat: initial;
-    border-image-slice: initial;
-    border-image-source: initial;
-    border-image-width: initial;
-    border-left-color: currentcolor;
-    border-left-width: medium;
-    border-radius: var(--border-radius-150);
-    border-right-color: currentcolor;
-    border-right-width: medium;
-    border-top-color: currentcolor;
-    border-top-width: medium;
-    color: inherit;
-    display: flex;
-    filter: grayscale(1);
-    flex-direction: column;
-    max-width: 400px;
-    min-width: 200px;
-    opacity: 0.5;
-    outline-color: transparent;
-    outline-offset: 4px;
-    outline-style: solid;
-    outline-width: 6px;
-    padding-block-end: var(--spacing-150);
-    pointer-events: none;
-    text-decoration-line: none
-  ">
+  <a
+    href
+    style="
+      background-color: var(--color-background-secondary);
+      border-bottom-color: currentcolor;
+      border-bottom-width: medium;
+      border-left-color: currentcolor;
+      border-left-width: medium;
+      border-radius: var(--border-radius-150);
+      border-right-color: currentcolor;
+      border-right-width: medium;
+      border-top-color: currentcolor;
+      border-top-width: medium;
+      color: inherit;
+      display: flex;
+      filter: grayscale(1);
+      flex-direction: column;
+      max-width: 400px;
+      min-width: 200px;
+      opacity: 0.5;
+      outline-color: transparent;
+      outline-offset: 4px;
+      outline-style: solid;
+      outline-width: 6px;
+      padding-block-end: var(--spacing-150);
+      pointer-events: none;
+      text-decoration-color: rgb(0, 0, 0);
+      text-decoration-line: none
+    "
+  >
     <div style="
       aspect-ratio: 16 / 9;
       border-radius: var(--border-radius-100);

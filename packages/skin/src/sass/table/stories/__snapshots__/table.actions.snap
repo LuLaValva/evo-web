@@ -9,7 +9,7 @@
     <table style="
       -webkit-border-horizontal-spacing: 0px;
       -webkit-border-vertical-spacing: 0px;
-      border-collapse: initial;
+      border-collapse: separate;
       width: 100%
     ">
       <thead>
@@ -27,11 +27,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -58,9 +59,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Seller
               <svg
@@ -94,11 +96,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -125,9 +128,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Item
               <svg
@@ -161,7 +165,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Condition
           </th>
@@ -178,7 +183,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Multiple Actions
           </th>
@@ -194,7 +200,9 @@
             padding-left: 12px;
             padding-right: 12px;
             padding-top: 12px;
+            text-align: center;
             text-wrap-mode: nowrap;
+            white-space-collapse: collapse;
             width: 64px
           ">
             Actions Plus
@@ -212,11 +220,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -243,9 +252,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               List Price
               <svg
@@ -279,11 +289,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -310,9 +321,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Quantity Available
               <svg
@@ -346,11 +358,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -377,9 +390,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Orders
               <svg
@@ -413,11 +427,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -444,9 +459,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Watchers
               <svg
@@ -480,11 +496,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -511,9 +528,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Protection
               <svg
@@ -547,11 +565,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -578,9 +597,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Shipping
               <svg
@@ -612,14 +632,14 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -646,9 +666,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Delivery
               <svg
@@ -687,7 +708,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Nintendo
           </th>
@@ -730,11 +752,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -807,37 +828,41 @@
               gap: var(--spacing-200);
               width: max-content
             ">
-              <a style="
-                align-content: center;
-                align-items: center;
-                background-color: var(--cta-btn-background-color, var(--color-background-primary));
-                border-bottom-color: currentcolor;
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-left-color: currentcolor;
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-radius: var(--cta-btn-border-radius, 20px);
-                border-right-color: currentcolor;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-color: currentcolor;
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
-                display: inline-block;
-                flex-shrink: 0;
-                font-family: inherit;
-                font-size: var(--font-size-body);
-                max-width: 100%;
-                min-height: 40px;
-                padding-left: 20px;
-                padding-right: 20px;
-                text-align: center;
-                text-decoration-line: none;
-                vertical-align: bottom
-              ">
+              <a
+                href="https://www.ebay.com"
+                style="
+                  align-content: center;
+                  align-items: center;
+                  background-color: var(--cta-btn-background-color, var(--color-background-primary));
+                  border-bottom-color: currentcolor;
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-left-color: currentcolor;
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-radius: var(--cta-btn-border-radius, 20px);
+                  border-right-color: currentcolor;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-color: currentcolor;
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
+                  display: inline-block;
+                  flex-shrink: 0;
+                  font-family: inherit;
+                  font-size: var(--font-size-body);
+                  max-width: 100%;
+                  min-height: 40px;
+                  padding-left: 20px;
+                  padding-right: 20px;
+                  text-align: center;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  vertical-align: bottom
+                "
+              >
                 <span style="
                   align-items: center;
                   display: flex;
@@ -1114,7 +1139,6 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left
           ">
@@ -1136,7 +1160,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Nintendo
           </th>
@@ -1179,11 +1204,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -1256,37 +1280,41 @@
               gap: var(--spacing-200);
               width: max-content
             ">
-              <a style="
-                align-content: center;
-                align-items: center;
-                background-color: var(--cta-btn-background-color, var(--color-background-primary));
-                border-bottom-color: currentcolor;
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-left-color: currentcolor;
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-radius: var(--cta-btn-border-radius, 20px);
-                border-right-color: currentcolor;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-color: currentcolor;
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
-                display: inline-block;
-                flex-shrink: 0;
-                font-family: inherit;
-                font-size: var(--font-size-body);
-                max-width: 100%;
-                min-height: 40px;
-                padding-left: 20px;
-                padding-right: 20px;
-                text-align: center;
-                text-decoration-line: none;
-                vertical-align: bottom
-              ">
+              <a
+                href="https://www.ebay.com"
+                style="
+                  align-content: center;
+                  align-items: center;
+                  background-color: var(--cta-btn-background-color, var(--color-background-primary));
+                  border-bottom-color: currentcolor;
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-left-color: currentcolor;
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-radius: var(--cta-btn-border-radius, 20px);
+                  border-right-color: currentcolor;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-color: currentcolor;
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
+                  display: inline-block;
+                  flex-shrink: 0;
+                  font-family: inherit;
+                  font-size: var(--font-size-body);
+                  max-width: 100%;
+                  min-height: 40px;
+                  padding-left: 20px;
+                  padding-right: 20px;
+                  text-align: center;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  vertical-align: bottom
+                "
+              >
                 <span style="
                   align-items: center;
                   display: flex;
@@ -1563,7 +1591,6 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left
           ">
@@ -1585,7 +1612,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Microsoft
           </th>
@@ -1628,11 +1656,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -1705,37 +1732,41 @@
               gap: var(--spacing-200);
               width: max-content
             ">
-              <a style="
-                align-content: center;
-                align-items: center;
-                background-color: var(--cta-btn-background-color, var(--color-background-primary));
-                border-bottom-color: currentcolor;
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-left-color: currentcolor;
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-radius: var(--cta-btn-border-radius, 20px);
-                border-right-color: currentcolor;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-color: currentcolor;
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
-                display: inline-block;
-                flex-shrink: 0;
-                font-family: inherit;
-                font-size: var(--font-size-body);
-                max-width: 100%;
-                min-height: 40px;
-                padding-left: 20px;
-                padding-right: 20px;
-                text-align: center;
-                text-decoration-line: none;
-                vertical-align: bottom
-              ">
+              <a
+                href="https://www.ebay.com"
+                style="
+                  align-content: center;
+                  align-items: center;
+                  background-color: var(--cta-btn-background-color, var(--color-background-primary));
+                  border-bottom-color: currentcolor;
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-left-color: currentcolor;
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-radius: var(--cta-btn-border-radius, 20px);
+                  border-right-color: currentcolor;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-color: currentcolor;
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
+                  display: inline-block;
+                  flex-shrink: 0;
+                  font-family: inherit;
+                  font-size: var(--font-size-body);
+                  max-width: 100%;
+                  min-height: 40px;
+                  padding-left: 20px;
+                  padding-right: 20px;
+                  text-align: center;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  vertical-align: bottom
+                "
+              >
                 <span style="
                   align-items: center;
                   display: flex;
@@ -2012,7 +2043,6 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left
           ">
@@ -2034,7 +2064,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Microsoft
           </th>
@@ -2077,11 +2108,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -2154,37 +2184,41 @@
               gap: var(--spacing-200);
               width: max-content
             ">
-              <a style="
-                align-content: center;
-                align-items: center;
-                background-color: var(--cta-btn-background-color, var(--color-background-primary));
-                border-bottom-color: currentcolor;
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-left-color: currentcolor;
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-radius: var(--cta-btn-border-radius, 20px);
-                border-right-color: currentcolor;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-color: currentcolor;
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
-                display: inline-block;
-                flex-shrink: 0;
-                font-family: inherit;
-                font-size: var(--font-size-body);
-                max-width: 100%;
-                min-height: 40px;
-                padding-left: 20px;
-                padding-right: 20px;
-                text-align: center;
-                text-decoration-line: none;
-                vertical-align: bottom
-              ">
+              <a
+                href="https://www.ebay.com"
+                style="
+                  align-content: center;
+                  align-items: center;
+                  background-color: var(--cta-btn-background-color, var(--color-background-primary));
+                  border-bottom-color: currentcolor;
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-left-color: currentcolor;
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-radius: var(--cta-btn-border-radius, 20px);
+                  border-right-color: currentcolor;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-color: currentcolor;
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
+                  display: inline-block;
+                  flex-shrink: 0;
+                  font-family: inherit;
+                  font-size: var(--font-size-body);
+                  max-width: 100%;
+                  min-height: 40px;
+                  padding-left: 20px;
+                  padding-right: 20px;
+                  text-align: center;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  vertical-align: bottom
+                "
+              >
                 <span style="
                   align-items: center;
                   display: flex;
@@ -2461,7 +2495,6 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left
           ">
@@ -2473,7 +2506,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             font-weight: 400;
             height: 80px;
@@ -2485,7 +2517,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Sony
           </th>
@@ -2493,7 +2526,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -2511,7 +2543,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -2532,11 +2563,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -2593,7 +2623,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -2611,37 +2640,41 @@
               gap: var(--spacing-200);
               width: max-content
             ">
-              <a style="
-                align-content: center;
-                align-items: center;
-                background-color: var(--cta-btn-background-color, var(--color-background-primary));
-                border-bottom-color: currentcolor;
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-left-color: currentcolor;
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-radius: var(--cta-btn-border-radius, 20px);
-                border-right-color: currentcolor;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-color: currentcolor;
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
-                display: inline-block;
-                flex-shrink: 0;
-                font-family: inherit;
-                font-size: var(--font-size-body);
-                max-width: 100%;
-                min-height: 40px;
-                padding-left: 20px;
-                padding-right: 20px;
-                text-align: center;
-                text-decoration-line: none;
-                vertical-align: bottom
-              ">
+              <a
+                href="https://www.ebay.com"
+                style="
+                  align-content: center;
+                  align-items: center;
+                  background-color: var(--cta-btn-background-color, var(--color-background-primary));
+                  border-bottom-color: currentcolor;
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-left-color: currentcolor;
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-radius: var(--cta-btn-border-radius, 20px);
+                  border-right-color: currentcolor;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-color: currentcolor;
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
+                  display: inline-block;
+                  flex-shrink: 0;
+                  font-family: inherit;
+                  font-size: var(--font-size-body);
+                  max-width: 100%;
+                  min-height: 40px;
+                  padding-left: 20px;
+                  padding-right: 20px;
+                  text-align: center;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  vertical-align: bottom
+                "
+              >
                 <span style="
                   align-items: center;
                   display: flex;
@@ -2739,7 +2772,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -2817,7 +2849,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -2835,7 +2866,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -2853,7 +2883,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -2871,7 +2900,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -2889,7 +2917,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -2907,7 +2934,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -2925,7 +2951,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -2934,7 +2959,6 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left
           ">
@@ -2957,7 +2981,7 @@
     <table style="
       -webkit-border-horizontal-spacing: 0px;
       -webkit-border-vertical-spacing: 0px;
-      border-collapse: initial;
+      border-collapse: separate;
       width: 100%
     ">
       <thead>
@@ -2975,11 +2999,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -3006,9 +3031,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Seller
               <svg
@@ -3042,11 +3068,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -3073,9 +3100,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Item
               <svg
@@ -3109,7 +3137,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Condition
           </th>
@@ -3126,7 +3155,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Multiple Actions
           </th>
@@ -3144,6 +3174,7 @@
             padding-top: 12px;
             text-align: right;
             text-wrap-mode: nowrap;
+            white-space-collapse: collapse;
             width: 64px
           ">
             Actions Plus
@@ -3161,11 +3192,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -3192,9 +3224,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               List Price
               <svg
@@ -3228,11 +3261,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -3259,9 +3293,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Quantity Available
               <svg
@@ -3295,11 +3330,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -3326,9 +3362,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Orders
               <svg
@@ -3362,11 +3399,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -3393,9 +3431,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Watchers
               <svg
@@ -3429,11 +3468,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -3460,9 +3500,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Protection
               <svg
@@ -3496,11 +3537,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -3527,9 +3569,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Shipping
               <svg
@@ -3560,15 +3603,15 @@
             min-width: 124px;
             padding-bottom: 12px;
             padding-inline-end: 0px;
-            padding-left: 12px;
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -3595,9 +3638,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Delivery
               <svg
@@ -3636,7 +3680,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Nintendo
           </th>
@@ -3679,11 +3724,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -3758,37 +3802,41 @@
               gap: var(--spacing-200);
               width: max-content
             ">
-              <a style="
-                align-content: center;
-                align-items: center;
-                background-color: var(--cta-btn-background-color, var(--color-background-primary));
-                border-bottom-color: currentcolor;
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-left-color: currentcolor;
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-radius: var(--cta-btn-border-radius, 20px);
-                border-right-color: currentcolor;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-color: currentcolor;
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
-                display: inline-block;
-                flex-shrink: 0;
-                font-family: inherit;
-                font-size: var(--font-size-body);
-                max-width: 100%;
-                min-height: 40px;
-                padding-left: 20px;
-                padding-right: 20px;
-                text-align: center;
-                text-decoration-line: none;
-                vertical-align: bottom
-              ">
+              <a
+                href="https://www.ebay.com"
+                style="
+                  align-content: center;
+                  align-items: center;
+                  background-color: var(--cta-btn-background-color, var(--color-background-primary));
+                  border-bottom-color: currentcolor;
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-left-color: currentcolor;
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-radius: var(--cta-btn-border-radius, 20px);
+                  border-right-color: currentcolor;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-color: currentcolor;
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
+                  display: inline-block;
+                  flex-shrink: 0;
+                  font-family: inherit;
+                  font-size: var(--font-size-body);
+                  max-width: 100%;
+                  min-height: 40px;
+                  padding-left: 20px;
+                  padding-right: 20px;
+                  text-align: center;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  vertical-align: bottom
+                "
+              >
                 <span style="
                   align-items: center;
                   display: flex;
@@ -4064,7 +4112,6 @@
             min-width: 124px;
             padding-bottom: 12px;
             padding-inline-end: 0px;
-            padding-left: 12px;
             padding-right: 12px;
             padding-top: 12px;
             text-align: right
@@ -4087,7 +4134,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Nintendo
           </th>
@@ -4130,11 +4178,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -4209,37 +4256,41 @@
               gap: var(--spacing-200);
               width: max-content
             ">
-              <a style="
-                align-content: center;
-                align-items: center;
-                background-color: var(--cta-btn-background-color, var(--color-background-primary));
-                border-bottom-color: currentcolor;
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-left-color: currentcolor;
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-radius: var(--cta-btn-border-radius, 20px);
-                border-right-color: currentcolor;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-color: currentcolor;
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
-                display: inline-block;
-                flex-shrink: 0;
-                font-family: inherit;
-                font-size: var(--font-size-body);
-                max-width: 100%;
-                min-height: 40px;
-                padding-left: 20px;
-                padding-right: 20px;
-                text-align: center;
-                text-decoration-line: none;
-                vertical-align: bottom
-              ">
+              <a
+                href="https://www.ebay.com"
+                style="
+                  align-content: center;
+                  align-items: center;
+                  background-color: var(--cta-btn-background-color, var(--color-background-primary));
+                  border-bottom-color: currentcolor;
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-left-color: currentcolor;
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-radius: var(--cta-btn-border-radius, 20px);
+                  border-right-color: currentcolor;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-color: currentcolor;
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
+                  display: inline-block;
+                  flex-shrink: 0;
+                  font-family: inherit;
+                  font-size: var(--font-size-body);
+                  max-width: 100%;
+                  min-height: 40px;
+                  padding-left: 20px;
+                  padding-right: 20px;
+                  text-align: center;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  vertical-align: bottom
+                "
+              >
                 <span style="
                   align-items: center;
                   display: flex;
@@ -4515,7 +4566,6 @@
             min-width: 124px;
             padding-bottom: 12px;
             padding-inline-end: 0px;
-            padding-left: 12px;
             padding-right: 12px;
             padding-top: 12px;
             text-align: right
@@ -4538,7 +4588,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Microsoft
           </th>
@@ -4581,11 +4632,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -4660,37 +4710,41 @@
               gap: var(--spacing-200);
               width: max-content
             ">
-              <a style="
-                align-content: center;
-                align-items: center;
-                background-color: var(--cta-btn-background-color, var(--color-background-primary));
-                border-bottom-color: currentcolor;
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-left-color: currentcolor;
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-radius: var(--cta-btn-border-radius, 20px);
-                border-right-color: currentcolor;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-color: currentcolor;
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
-                display: inline-block;
-                flex-shrink: 0;
-                font-family: inherit;
-                font-size: var(--font-size-body);
-                max-width: 100%;
-                min-height: 40px;
-                padding-left: 20px;
-                padding-right: 20px;
-                text-align: center;
-                text-decoration-line: none;
-                vertical-align: bottom
-              ">
+              <a
+                href="https://www.ebay.com"
+                style="
+                  align-content: center;
+                  align-items: center;
+                  background-color: var(--cta-btn-background-color, var(--color-background-primary));
+                  border-bottom-color: currentcolor;
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-left-color: currentcolor;
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-radius: var(--cta-btn-border-radius, 20px);
+                  border-right-color: currentcolor;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-color: currentcolor;
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
+                  display: inline-block;
+                  flex-shrink: 0;
+                  font-family: inherit;
+                  font-size: var(--font-size-body);
+                  max-width: 100%;
+                  min-height: 40px;
+                  padding-left: 20px;
+                  padding-right: 20px;
+                  text-align: center;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  vertical-align: bottom
+                "
+              >
                 <span style="
                   align-items: center;
                   display: flex;
@@ -4966,7 +5020,6 @@
             min-width: 124px;
             padding-bottom: 12px;
             padding-inline-end: 0px;
-            padding-left: 12px;
             padding-right: 12px;
             padding-top: 12px;
             text-align: right
@@ -4989,7 +5042,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Microsoft
           </th>
@@ -5032,11 +5086,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -5111,37 +5164,41 @@
               gap: var(--spacing-200);
               width: max-content
             ">
-              <a style="
-                align-content: center;
-                align-items: center;
-                background-color: var(--cta-btn-background-color, var(--color-background-primary));
-                border-bottom-color: currentcolor;
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-left-color: currentcolor;
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-radius: var(--cta-btn-border-radius, 20px);
-                border-right-color: currentcolor;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-color: currentcolor;
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
-                display: inline-block;
-                flex-shrink: 0;
-                font-family: inherit;
-                font-size: var(--font-size-body);
-                max-width: 100%;
-                min-height: 40px;
-                padding-left: 20px;
-                padding-right: 20px;
-                text-align: center;
-                text-decoration-line: none;
-                vertical-align: bottom
-              ">
+              <a
+                href="https://www.ebay.com"
+                style="
+                  align-content: center;
+                  align-items: center;
+                  background-color: var(--cta-btn-background-color, var(--color-background-primary));
+                  border-bottom-color: currentcolor;
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-left-color: currentcolor;
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-radius: var(--cta-btn-border-radius, 20px);
+                  border-right-color: currentcolor;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-color: currentcolor;
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
+                  display: inline-block;
+                  flex-shrink: 0;
+                  font-family: inherit;
+                  font-size: var(--font-size-body);
+                  max-width: 100%;
+                  min-height: 40px;
+                  padding-left: 20px;
+                  padding-right: 20px;
+                  text-align: center;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  vertical-align: bottom
+                "
+              >
                 <span style="
                   align-items: center;
                   display: flex;
@@ -5417,7 +5474,6 @@
             min-width: 124px;
             padding-bottom: 12px;
             padding-inline-end: 0px;
-            padding-left: 12px;
             padding-right: 12px;
             padding-top: 12px;
             text-align: right
@@ -5430,7 +5486,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             font-weight: 400;
             height: 80px;
@@ -5442,7 +5497,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Sony
           </th>
@@ -5450,7 +5506,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -5468,7 +5523,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -5489,11 +5543,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -5552,7 +5605,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -5570,37 +5622,41 @@
               gap: var(--spacing-200);
               width: max-content
             ">
-              <a style="
-                align-content: center;
-                align-items: center;
-                background-color: var(--cta-btn-background-color, var(--color-background-primary));
-                border-bottom-color: currentcolor;
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-left-color: currentcolor;
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-radius: var(--cta-btn-border-radius, 20px);
-                border-right-color: currentcolor;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-color: currentcolor;
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
-                display: inline-block;
-                flex-shrink: 0;
-                font-family: inherit;
-                font-size: var(--font-size-body);
-                max-width: 100%;
-                min-height: 40px;
-                padding-left: 20px;
-                padding-right: 20px;
-                text-align: center;
-                text-decoration-line: none;
-                vertical-align: bottom
-              ">
+              <a
+                href="https://www.ebay.com"
+                style="
+                  align-content: center;
+                  align-items: center;
+                  background-color: var(--cta-btn-background-color, var(--color-background-primary));
+                  border-bottom-color: currentcolor;
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-left-color: currentcolor;
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-radius: var(--cta-btn-border-radius, 20px);
+                  border-right-color: currentcolor;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-color: currentcolor;
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
+                  display: inline-block;
+                  flex-shrink: 0;
+                  font-family: inherit;
+                  font-size: var(--font-size-body);
+                  max-width: 100%;
+                  min-height: 40px;
+                  padding-left: 20px;
+                  padding-right: 20px;
+                  text-align: center;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  vertical-align: bottom
+                "
+              >
                 <span style="
                   align-items: center;
                   display: flex;
@@ -5698,7 +5754,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -5776,7 +5831,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -5794,7 +5848,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -5812,7 +5865,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -5830,7 +5882,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -5848,7 +5899,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -5866,7 +5916,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -5884,7 +5933,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 80px;
             max-height: 80px;
@@ -5892,7 +5940,6 @@
             min-width: 124px;
             padding-bottom: 12px;
             padding-inline-end: 0px;
-            padding-left: 12px;
             padding-right: 12px;
             padding-top: 12px;
             text-align: right
@@ -5916,7 +5963,7 @@
     <table style="
       -webkit-border-horizontal-spacing: 0px;
       -webkit-border-vertical-spacing: 0px;
-      border-collapse: initial;
+      border-collapse: separate;
       width: 100%
     ">
       <thead>
@@ -5934,11 +5981,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -5965,9 +6013,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Seller
               <svg
@@ -6001,11 +6050,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -6032,9 +6082,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Item
               <svg
@@ -6068,7 +6119,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Condition
           </th>
@@ -6085,7 +6137,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Multiple Actions
           </th>
@@ -6101,7 +6154,9 @@
             padding-left: 12px;
             padding-right: 12px;
             padding-top: 12px;
+            text-align: center;
             text-wrap-mode: nowrap;
+            white-space-collapse: collapse;
             width: 64px
           ">
             Actions Plus
@@ -6119,11 +6174,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -6150,9 +6206,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               List Price
               <svg
@@ -6186,11 +6243,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -6217,9 +6275,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Quantity Available
               <svg
@@ -6253,11 +6312,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -6284,9 +6344,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Orders
               <svg
@@ -6320,11 +6381,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -6351,9 +6413,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Watchers
               <svg
@@ -6387,11 +6450,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -6418,9 +6482,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Protection
               <svg
@@ -6454,11 +6519,12 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -6485,9 +6551,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Shipping
               <svg
@@ -6519,14 +6586,14 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -6553,9 +6620,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Delivery
               <svg
@@ -6594,7 +6662,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Nintendo
           </th>
@@ -6637,11 +6706,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -6714,37 +6782,41 @@
               gap: var(--spacing-200);
               width: max-content
             ">
-              <a style="
-                align-content: center;
-                align-items: center;
-                background-color: var(--cta-btn-background-color, var(--color-background-primary));
-                border-bottom-color: currentcolor;
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-left-color: currentcolor;
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-radius: var(--cta-btn-border-radius, 20px);
-                border-right-color: currentcolor;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-color: currentcolor;
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
-                display: inline-block;
-                flex-shrink: 0;
-                font-family: inherit;
-                font-size: var(--font-size-body);
-                max-width: 100%;
-                min-height: 40px;
-                padding-left: 20px;
-                padding-right: 20px;
-                text-align: center;
-                text-decoration-line: none;
-                vertical-align: bottom
-              ">
+              <a
+                href="https://www.ebay.com"
+                style="
+                  align-content: center;
+                  align-items: center;
+                  background-color: var(--cta-btn-background-color, var(--color-background-primary));
+                  border-bottom-color: currentcolor;
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-left-color: currentcolor;
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-radius: var(--cta-btn-border-radius, 20px);
+                  border-right-color: currentcolor;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-color: currentcolor;
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
+                  display: inline-block;
+                  flex-shrink: 0;
+                  font-family: inherit;
+                  font-size: var(--font-size-body);
+                  max-width: 100%;
+                  min-height: 40px;
+                  padding-left: 20px;
+                  padding-right: 20px;
+                  text-align: center;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  vertical-align: bottom
+                "
+              >
                 <span style="
                   align-items: center;
                   display: flex;
@@ -7021,7 +7093,6 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left
           ">
@@ -7043,7 +7114,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Nintendo
           </th>
@@ -7086,11 +7158,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -7163,37 +7234,41 @@
               gap: var(--spacing-200);
               width: max-content
             ">
-              <a style="
-                align-content: center;
-                align-items: center;
-                background-color: var(--cta-btn-background-color, var(--color-background-primary));
-                border-bottom-color: currentcolor;
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-left-color: currentcolor;
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-radius: var(--cta-btn-border-radius, 20px);
-                border-right-color: currentcolor;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-color: currentcolor;
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
-                display: inline-block;
-                flex-shrink: 0;
-                font-family: inherit;
-                font-size: var(--font-size-body);
-                max-width: 100%;
-                min-height: 40px;
-                padding-left: 20px;
-                padding-right: 20px;
-                text-align: center;
-                text-decoration-line: none;
-                vertical-align: bottom
-              ">
+              <a
+                href="https://www.ebay.com"
+                style="
+                  align-content: center;
+                  align-items: center;
+                  background-color: var(--cta-btn-background-color, var(--color-background-primary));
+                  border-bottom-color: currentcolor;
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-left-color: currentcolor;
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-radius: var(--cta-btn-border-radius, 20px);
+                  border-right-color: currentcolor;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-color: currentcolor;
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
+                  display: inline-block;
+                  flex-shrink: 0;
+                  font-family: inherit;
+                  font-size: var(--font-size-body);
+                  max-width: 100%;
+                  min-height: 40px;
+                  padding-left: 20px;
+                  padding-right: 20px;
+                  text-align: center;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  vertical-align: bottom
+                "
+              >
                 <span style="
                   align-items: center;
                   display: flex;
@@ -7470,7 +7545,6 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left
           ">
@@ -7492,7 +7566,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Microsoft
           </th>
@@ -7535,11 +7610,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -7612,37 +7686,41 @@
               gap: var(--spacing-200);
               width: max-content
             ">
-              <a style="
-                align-content: center;
-                align-items: center;
-                background-color: var(--cta-btn-background-color, var(--color-background-primary));
-                border-bottom-color: currentcolor;
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-left-color: currentcolor;
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-radius: var(--cta-btn-border-radius, 20px);
-                border-right-color: currentcolor;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-color: currentcolor;
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
-                display: inline-block;
-                flex-shrink: 0;
-                font-family: inherit;
-                font-size: var(--font-size-body);
-                max-width: 100%;
-                min-height: 40px;
-                padding-left: 20px;
-                padding-right: 20px;
-                text-align: center;
-                text-decoration-line: none;
-                vertical-align: bottom
-              ">
+              <a
+                href="https://www.ebay.com"
+                style="
+                  align-content: center;
+                  align-items: center;
+                  background-color: var(--cta-btn-background-color, var(--color-background-primary));
+                  border-bottom-color: currentcolor;
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-left-color: currentcolor;
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-radius: var(--cta-btn-border-radius, 20px);
+                  border-right-color: currentcolor;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-color: currentcolor;
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
+                  display: inline-block;
+                  flex-shrink: 0;
+                  font-family: inherit;
+                  font-size: var(--font-size-body);
+                  max-width: 100%;
+                  min-height: 40px;
+                  padding-left: 20px;
+                  padding-right: 20px;
+                  text-align: center;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  vertical-align: bottom
+                "
+              >
                 <span style="
                   align-items: center;
                   display: flex;
@@ -7919,7 +7997,6 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left
           ">
@@ -7941,7 +8018,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Microsoft
           </th>
@@ -7984,11 +8062,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -8061,37 +8138,41 @@
               gap: var(--spacing-200);
               width: max-content
             ">
-              <a style="
-                align-content: center;
-                align-items: center;
-                background-color: var(--cta-btn-background-color, var(--color-background-primary));
-                border-bottom-color: currentcolor;
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-left-color: currentcolor;
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-radius: var(--cta-btn-border-radius, 20px);
-                border-right-color: currentcolor;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-color: currentcolor;
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
-                display: inline-block;
-                flex-shrink: 0;
-                font-family: inherit;
-                font-size: var(--font-size-body);
-                max-width: 100%;
-                min-height: 40px;
-                padding-left: 20px;
-                padding-right: 20px;
-                text-align: center;
-                text-decoration-line: none;
-                vertical-align: bottom
-              ">
+              <a
+                href="https://www.ebay.com"
+                style="
+                  align-content: center;
+                  align-items: center;
+                  background-color: var(--cta-btn-background-color, var(--color-background-primary));
+                  border-bottom-color: currentcolor;
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-left-color: currentcolor;
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-radius: var(--cta-btn-border-radius, 20px);
+                  border-right-color: currentcolor;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-color: currentcolor;
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
+                  display: inline-block;
+                  flex-shrink: 0;
+                  font-family: inherit;
+                  font-size: var(--font-size-body);
+                  max-width: 100%;
+                  min-height: 40px;
+                  padding-left: 20px;
+                  padding-right: 20px;
+                  text-align: center;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  vertical-align: bottom
+                "
+              >
                 <span style="
                   align-items: center;
                   display: flex;
@@ -8368,7 +8449,6 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left
           ">
@@ -8380,7 +8460,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             font-weight: 400;
             height: 64px;
@@ -8392,7 +8471,8 @@
             padding-right: 12px;
             padding-top: 12px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Sony
           </th>
@@ -8400,7 +8480,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
             max-height: 64px;
@@ -8418,7 +8497,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
             max-height: 64px;
@@ -8439,11 +8517,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -8500,7 +8577,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
             max-height: 64px;
@@ -8518,37 +8594,41 @@
               gap: var(--spacing-200);
               width: max-content
             ">
-              <a style="
-                align-content: center;
-                align-items: center;
-                background-color: var(--cta-btn-background-color, var(--color-background-primary));
-                border-bottom-color: currentcolor;
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-left-color: currentcolor;
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-radius: var(--cta-btn-border-radius, 20px);
-                border-right-color: currentcolor;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-color: currentcolor;
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
-                display: inline-block;
-                flex-shrink: 0;
-                font-family: inherit;
-                font-size: var(--font-size-body);
-                max-width: 100%;
-                min-height: 40px;
-                padding-left: 20px;
-                padding-right: 20px;
-                text-align: center;
-                text-decoration-line: none;
-                vertical-align: bottom
-              ">
+              <a
+                href="https://www.ebay.com"
+                style="
+                  align-content: center;
+                  align-items: center;
+                  background-color: var(--cta-btn-background-color, var(--color-background-primary));
+                  border-bottom-color: currentcolor;
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-left-color: currentcolor;
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-radius: var(--cta-btn-border-radius, 20px);
+                  border-right-color: currentcolor;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-color: currentcolor;
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
+                  display: inline-block;
+                  flex-shrink: 0;
+                  font-family: inherit;
+                  font-size: var(--font-size-body);
+                  max-width: 100%;
+                  min-height: 40px;
+                  padding-left: 20px;
+                  padding-right: 20px;
+                  text-align: center;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  vertical-align: bottom
+                "
+              >
                 <span style="
                   align-items: center;
                   display: flex;
@@ -8646,7 +8726,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
             max-height: 64px;
@@ -8724,7 +8803,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
             max-height: 64px;
@@ -8742,7 +8820,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
             max-height: 64px;
@@ -8760,7 +8837,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
             max-height: 64px;
@@ -8778,7 +8854,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
             max-height: 64px;
@@ -8796,7 +8871,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
             max-height: 64px;
@@ -8814,7 +8888,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
             max-height: 64px;
@@ -8832,7 +8905,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 64px;
             max-height: 64px;
@@ -8841,7 +8913,6 @@
             padding-bottom: 12px;
             padding-inline-end: 0px;
             padding-left: 12px;
-            padding-right: 12px;
             padding-top: 12px;
             text-align: left
           ">
@@ -8867,7 +8938,7 @@
     <table style="
       -webkit-border-horizontal-spacing: 0px;
       -webkit-border-vertical-spacing: 0px;
-      border-collapse: initial;
+      border-collapse: separate;
       width: 100%
     ">
       <thead>
@@ -8885,11 +8956,12 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -8916,9 +8988,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Seller
               <svg
@@ -8952,11 +9025,12 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -8983,9 +9057,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Item
               <svg
@@ -9019,7 +9094,8 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Condition
           </th>
@@ -9036,7 +9112,8 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Multiple Actions
           </th>
@@ -9052,7 +9129,9 @@
             padding-left: 16px;
             padding-right: 16px;
             padding-top: 16px;
+            text-align: center;
             text-wrap-mode: nowrap;
+            white-space-collapse: collapse;
             width: 64px
           ">
             Actions Plus
@@ -9070,11 +9149,12 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -9101,9 +9181,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               List Price
               <svg
@@ -9137,11 +9218,12 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -9168,9 +9250,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Quantity Available
               <svg
@@ -9204,11 +9287,12 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -9235,9 +9319,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Orders
               <svg
@@ -9271,11 +9356,12 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -9302,9 +9388,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Watchers
               <svg
@@ -9338,11 +9425,12 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -9369,9 +9457,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Protection
               <svg
@@ -9405,11 +9494,12 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -9436,9 +9526,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Shipping
               <svg
@@ -9470,14 +9561,14 @@
             padding-bottom: 16px;
             padding-inline-end: 0px;
             padding-left: 16px;
-            padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <button style="
               align-items: center;
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: transparent;
               border-bottom-left-radius: 10px;
               border-bottom-right-radius: 10px;
@@ -9504,9 +9595,10 @@
               padding-left: 3px;
               padding-right: 3px;
               padding-top: 3px;
+              text-align: center;
               text-wrap-mode: nowrap;
               transform: translateZ(0px);
-              vertical-align: initial
+              white-space-collapse: collapse
             ">
               Delivery
               <svg
@@ -9545,7 +9637,8 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Nintendo
           </th>
@@ -9588,11 +9681,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -9665,37 +9757,41 @@
               gap: var(--spacing-200);
               width: max-content
             ">
-              <a style="
-                align-content: center;
-                align-items: center;
-                background-color: var(--cta-btn-background-color, var(--color-background-primary));
-                border-bottom-color: currentcolor;
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-left-color: currentcolor;
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-radius: var(--cta-btn-border-radius, 20px);
-                border-right-color: currentcolor;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-color: currentcolor;
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
-                display: inline-block;
-                flex-shrink: 0;
-                font-family: inherit;
-                font-size: var(--font-size-body);
-                max-width: 100%;
-                min-height: 40px;
-                padding-left: 20px;
-                padding-right: 20px;
-                text-align: center;
-                text-decoration-line: none;
-                vertical-align: bottom
-              ">
+              <a
+                href="https://www.ebay.com"
+                style="
+                  align-content: center;
+                  align-items: center;
+                  background-color: var(--cta-btn-background-color, var(--color-background-primary));
+                  border-bottom-color: currentcolor;
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-left-color: currentcolor;
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-radius: var(--cta-btn-border-radius, 20px);
+                  border-right-color: currentcolor;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-color: currentcolor;
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
+                  display: inline-block;
+                  flex-shrink: 0;
+                  font-family: inherit;
+                  font-size: var(--font-size-body);
+                  max-width: 100%;
+                  min-height: 40px;
+                  padding-left: 20px;
+                  padding-right: 20px;
+                  text-align: center;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  vertical-align: bottom
+                "
+              >
                 <span style="
                   align-items: center;
                   display: flex;
@@ -9972,7 +10068,6 @@
             padding-bottom: 16px;
             padding-inline-end: 0px;
             padding-left: 16px;
-            padding-right: 16px;
             padding-top: 16px;
             text-align: left
           ">
@@ -9994,7 +10089,8 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Nintendo
           </th>
@@ -10037,11 +10133,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -10114,37 +10209,41 @@
               gap: var(--spacing-200);
               width: max-content
             ">
-              <a style="
-                align-content: center;
-                align-items: center;
-                background-color: var(--cta-btn-background-color, var(--color-background-primary));
-                border-bottom-color: currentcolor;
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-left-color: currentcolor;
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-radius: var(--cta-btn-border-radius, 20px);
-                border-right-color: currentcolor;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-color: currentcolor;
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
-                display: inline-block;
-                flex-shrink: 0;
-                font-family: inherit;
-                font-size: var(--font-size-body);
-                max-width: 100%;
-                min-height: 40px;
-                padding-left: 20px;
-                padding-right: 20px;
-                text-align: center;
-                text-decoration-line: none;
-                vertical-align: bottom
-              ">
+              <a
+                href="https://www.ebay.com"
+                style="
+                  align-content: center;
+                  align-items: center;
+                  background-color: var(--cta-btn-background-color, var(--color-background-primary));
+                  border-bottom-color: currentcolor;
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-left-color: currentcolor;
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-radius: var(--cta-btn-border-radius, 20px);
+                  border-right-color: currentcolor;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-color: currentcolor;
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
+                  display: inline-block;
+                  flex-shrink: 0;
+                  font-family: inherit;
+                  font-size: var(--font-size-body);
+                  max-width: 100%;
+                  min-height: 40px;
+                  padding-left: 20px;
+                  padding-right: 20px;
+                  text-align: center;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  vertical-align: bottom
+                "
+              >
                 <span style="
                   align-items: center;
                   display: flex;
@@ -10421,7 +10520,6 @@
             padding-bottom: 16px;
             padding-inline-end: 0px;
             padding-left: 16px;
-            padding-right: 16px;
             padding-top: 16px;
             text-align: left
           ">
@@ -10443,7 +10541,8 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Microsoft
           </th>
@@ -10486,11 +10585,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -10563,37 +10661,41 @@
               gap: var(--spacing-200);
               width: max-content
             ">
-              <a style="
-                align-content: center;
-                align-items: center;
-                background-color: var(--cta-btn-background-color, var(--color-background-primary));
-                border-bottom-color: currentcolor;
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-left-color: currentcolor;
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-radius: var(--cta-btn-border-radius, 20px);
-                border-right-color: currentcolor;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-color: currentcolor;
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
-                display: inline-block;
-                flex-shrink: 0;
-                font-family: inherit;
-                font-size: var(--font-size-body);
-                max-width: 100%;
-                min-height: 40px;
-                padding-left: 20px;
-                padding-right: 20px;
-                text-align: center;
-                text-decoration-line: none;
-                vertical-align: bottom
-              ">
+              <a
+                href="https://www.ebay.com"
+                style="
+                  align-content: center;
+                  align-items: center;
+                  background-color: var(--cta-btn-background-color, var(--color-background-primary));
+                  border-bottom-color: currentcolor;
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-left-color: currentcolor;
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-radius: var(--cta-btn-border-radius, 20px);
+                  border-right-color: currentcolor;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-color: currentcolor;
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
+                  display: inline-block;
+                  flex-shrink: 0;
+                  font-family: inherit;
+                  font-size: var(--font-size-body);
+                  max-width: 100%;
+                  min-height: 40px;
+                  padding-left: 20px;
+                  padding-right: 20px;
+                  text-align: center;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  vertical-align: bottom
+                "
+              >
                 <span style="
                   align-items: center;
                   display: flex;
@@ -10870,7 +10972,6 @@
             padding-bottom: 16px;
             padding-inline-end: 0px;
             padding-left: 16px;
-            padding-right: 16px;
             padding-top: 16px;
             text-align: left
           ">
@@ -10892,7 +10993,8 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Microsoft
           </th>
@@ -10935,11 +11037,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -11012,37 +11113,41 @@
               gap: var(--spacing-200);
               width: max-content
             ">
-              <a style="
-                align-content: center;
-                align-items: center;
-                background-color: var(--cta-btn-background-color, var(--color-background-primary));
-                border-bottom-color: currentcolor;
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-left-color: currentcolor;
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-radius: var(--cta-btn-border-radius, 20px);
-                border-right-color: currentcolor;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-color: currentcolor;
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
-                display: inline-block;
-                flex-shrink: 0;
-                font-family: inherit;
-                font-size: var(--font-size-body);
-                max-width: 100%;
-                min-height: 40px;
-                padding-left: 20px;
-                padding-right: 20px;
-                text-align: center;
-                text-decoration-line: none;
-                vertical-align: bottom
-              ">
+              <a
+                href="https://www.ebay.com"
+                style="
+                  align-content: center;
+                  align-items: center;
+                  background-color: var(--cta-btn-background-color, var(--color-background-primary));
+                  border-bottom-color: currentcolor;
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-left-color: currentcolor;
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-radius: var(--cta-btn-border-radius, 20px);
+                  border-right-color: currentcolor;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-color: currentcolor;
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
+                  display: inline-block;
+                  flex-shrink: 0;
+                  font-family: inherit;
+                  font-size: var(--font-size-body);
+                  max-width: 100%;
+                  min-height: 40px;
+                  padding-left: 20px;
+                  padding-right: 20px;
+                  text-align: center;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  vertical-align: bottom
+                "
+              >
                 <span style="
                   align-items: center;
                   display: flex;
@@ -11319,7 +11424,6 @@
             padding-bottom: 16px;
             padding-inline-end: 0px;
             padding-left: 16px;
-            padding-right: 16px;
             padding-top: 16px;
             text-align: left
           ">
@@ -11331,7 +11435,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             font-weight: 400;
             height: 112px;
@@ -11343,7 +11446,8 @@
             padding-right: 16px;
             padding-top: 16px;
             text-align: left;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Sony
           </th>
@@ -11351,7 +11455,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
             max-height: 112px;
@@ -11369,7 +11472,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
             max-height: 112px;
@@ -11390,11 +11492,10 @@
             ">
               <select style="
                 appearance: none;
-                background-color: initial;
+                background-color: rgba(0, 0, 0, 0);
                 border-bottom-color: currentcolor;
                 border-bottom-style: none;
                 border-bottom-width: 0px;
-                border-color: var(--select-border-color, var(--color-border-medium));
                 border-left-color: currentcolor;
                 border-left-style: none;
                 border-left-width: 0px;
@@ -11451,7 +11552,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
             max-height: 112px;
@@ -11469,37 +11569,41 @@
               gap: var(--spacing-200);
               width: max-content
             ">
-              <a style="
-                align-content: center;
-                align-items: center;
-                background-color: var(--cta-btn-background-color, var(--color-background-primary));
-                border-bottom-color: currentcolor;
-                border-bottom-style: solid;
-                border-bottom-width: 1px;
-                border-left-color: currentcolor;
-                border-left-style: solid;
-                border-left-width: 1px;
-                border-radius: var(--cta-btn-border-radius, 20px);
-                border-right-color: currentcolor;
-                border-right-style: solid;
-                border-right-width: 1px;
-                border-top-color: currentcolor;
-                border-top-style: solid;
-                border-top-width: 1px;
-                box-sizing: border-box;
-                color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
-                display: inline-block;
-                flex-shrink: 0;
-                font-family: inherit;
-                font-size: var(--font-size-body);
-                max-width: 100%;
-                min-height: 40px;
-                padding-left: 20px;
-                padding-right: 20px;
-                text-align: center;
-                text-decoration-line: none;
-                vertical-align: bottom
-              ">
+              <a
+                href="https://www.ebay.com"
+                style="
+                  align-content: center;
+                  align-items: center;
+                  background-color: var(--cta-btn-background-color, var(--color-background-primary));
+                  border-bottom-color: currentcolor;
+                  border-bottom-style: solid;
+                  border-bottom-width: 1px;
+                  border-left-color: currentcolor;
+                  border-left-style: solid;
+                  border-left-width: 1px;
+                  border-radius: var(--cta-btn-border-radius, 20px);
+                  border-right-color: currentcolor;
+                  border-right-style: solid;
+                  border-right-width: 1px;
+                  border-top-color: currentcolor;
+                  border-top-style: solid;
+                  border-top-width: 1px;
+                  box-sizing: border-box;
+                  color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
+                  display: inline-block;
+                  flex-shrink: 0;
+                  font-family: inherit;
+                  font-size: var(--font-size-body);
+                  max-width: 100%;
+                  min-height: 40px;
+                  padding-left: 20px;
+                  padding-right: 20px;
+                  text-align: center;
+                  text-decoration-color: rgb(0, 0, 0);
+                  text-decoration-line: none;
+                  vertical-align: bottom
+                "
+              >
                 <span style="
                   align-items: center;
                   display: flex;
@@ -11597,7 +11701,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
             max-height: 112px;
@@ -11675,7 +11778,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
             max-height: 112px;
@@ -11693,7 +11795,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
             max-height: 112px;
@@ -11711,7 +11812,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
             max-height: 112px;
@@ -11729,7 +11829,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
             max-height: 112px;
@@ -11747,7 +11846,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
             max-height: 112px;
@@ -11765,7 +11863,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
             max-height: 112px;
@@ -11783,7 +11880,6 @@
             background-color: var(--color-background-primary);
             border-bottom-color: currentcolor;
             border-bottom-width: medium;
-            border-bottom: 1px solid var(--color-border-subtle);
             box-sizing: border-box;
             height: 112px;
             max-height: 112px;
@@ -11792,7 +11888,6 @@
             padding-bottom: 16px;
             padding-inline-end: 0px;
             padding-left: 16px;
-            padding-right: 16px;
             padding-top: 16px;
             text-align: left
           ">

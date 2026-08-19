@@ -62,37 +62,41 @@
       <use href="#icon-close-16"/>
     </svg>
   </button>
-  <a style="
-    align-items: center;
-    background-color: var(--color-background-secondary);
-    border-bottom-color: transparent;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-left-color: transparent;
-    border-left-style: solid;
-    border-left-width: 2px;
-    border-right-color: transparent;
-    border-right-style: solid;
-    border-right-width: 2px;
-    border-top-color: transparent;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-top-style: solid;
-    border-top-width: 2px;
-    box-sizing: border-box;
-    color: var(--color-foreground-link-primary);
-    display: inline-flex;
-    font-family: inherit;
-    height: 40px;
-    justify-content: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
-    vertical-align: text-bottom;
-    width: 40px
-  ">
+  <a
+    href="http://www.ebay.com"
+    style="
+      align-items: center;
+      background-color: var(--color-background-secondary);
+      border-bottom-color: transparent;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 2px;
+      border-left-color: transparent;
+      border-left-style: solid;
+      border-left-width: 2px;
+      border-right-color: transparent;
+      border-right-style: solid;
+      border-right-width: 2px;
+      border-top-color: transparent;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 2px;
+      box-sizing: border-box;
+      color: var(--color-foreground-link-primary);
+      display: inline-flex;
+      font-family: inherit;
+      height: 40px;
+      justify-content: center;
+      outline-color: rgb(0, 0, 0);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 40px
+    "
+  >
     <style>@scope{:scope{
       &::after {
         background-color: var(--color-state-layer-neutral);
@@ -196,37 +200,41 @@
       <use href="#icon-menu-20"/>
     </svg>
   </button>
-  <a style="
-    align-items: center;
-    background-color: var(--color-background-secondary);
-    border-bottom-color: transparent;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-left-color: transparent;
-    border-left-style: solid;
-    border-left-width: 2px;
-    border-right-color: transparent;
-    border-right-style: solid;
-    border-right-width: 2px;
-    border-top-color: transparent;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-top-style: solid;
-    border-top-width: 2px;
-    box-sizing: border-box;
-    color: var(--color-foreground-link-primary);
-    display: inline-flex;
-    font-family: inherit;
-    height: 40px;
-    justify-content: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
-    vertical-align: text-bottom;
-    width: 40px
-  ">
+  <a
+    href="http://www.ebay.com"
+    style="
+      align-items: center;
+      background-color: var(--color-background-secondary);
+      border-bottom-color: transparent;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 2px;
+      border-left-color: transparent;
+      border-left-style: solid;
+      border-left-width: 2px;
+      border-right-color: transparent;
+      border-right-style: solid;
+      border-right-width: 2px;
+      border-top-color: transparent;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 2px;
+      box-sizing: border-box;
+      color: var(--color-foreground-link-primary);
+      display: inline-flex;
+      font-family: inherit;
+      height: 40px;
+      justify-content: center;
+      outline-color: rgb(0, 0, 0);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 40px
+    "
+  >
     <style>@scope{:scope{
       &::after {
         background-color: var(--color-state-layer-neutral);
@@ -332,37 +340,41 @@
       <use href="#icon-settings-24"/>
     </svg>
   </button>
-  <a style="
-    align-items: center;
-    background-color: var(--color-background-secondary);
-    border-bottom-color: transparent;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-left-color: transparent;
-    border-left-style: solid;
-    border-left-width: 2px;
-    border-right-color: transparent;
-    border-right-style: solid;
-    border-right-width: 2px;
-    border-top-color: transparent;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-top-style: solid;
-    border-top-width: 2px;
-    box-sizing: border-box;
-    color: var(--color-foreground-link-primary);
-    display: inline-flex;
-    font-family: inherit;
-    height: 40px;
-    justify-content: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
-    vertical-align: text-bottom;
-    width: 40px
-  ">
+  <a
+    href="http://www.ebay.com"
+    style="
+      align-items: center;
+      background-color: var(--color-background-secondary);
+      border-bottom-color: transparent;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 2px;
+      border-left-color: transparent;
+      border-left-style: solid;
+      border-left-width: 2px;
+      border-right-color: transparent;
+      border-right-style: solid;
+      border-right-width: 2px;
+      border-top-color: transparent;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 2px;
+      box-sizing: border-box;
+      color: var(--color-foreground-link-primary);
+      display: inline-flex;
+      font-family: inherit;
+      height: 40px;
+      justify-content: center;
+      outline-color: rgb(0, 0, 0);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 40px
+    "
+  >
     <style>@scope{:scope{
       &::after {
         background-color: var(--color-state-layer-neutral);

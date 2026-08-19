@@ -67,13 +67,16 @@
         Marketing Type Content Title
       </h2>
     </div>
-    <a style="
-      align-items: baseline;
-      color: var(--color-foreground-link-primary);
-      display: flex;
-      height: var(--spacing-400);
-      margin-left: auto
-    ">
+    <a
+      href="https://www.ebay.com"
+      style="
+        align-items: baseline;
+        color: var(--color-foreground-link-primary);
+        display: flex;
+        height: var(--spacing-400);
+        margin-left: auto
+      "
+    >
       See all
     </a>
   </div>
@@ -101,13 +104,16 @@
         Marketing Type Content Title
       </h2>
     </div>
-    <a style="
-      align-items: baseline;
-      color: var(--color-foreground-link-primary);
-      display: flex;
-      height: var(--spacing-400);
-      margin-left: auto
-    ">
+    <a
+      href="https://www.ebay.com"
+      style="
+        align-items: baseline;
+        color: var(--color-foreground-link-primary);
+        display: flex;
+        height: var(--spacing-400);
+        margin-left: auto
+      "
+    >
       See all
     </a>
   </div>
@@ -142,13 +148,16 @@
         Recommended for you
       </span>
     </div>
-    <a style="
-      align-items: baseline;
-      color: var(--color-foreground-link-primary);
-      display: flex;
-      height: var(--spacing-400);
-      margin-left: auto
-    ">
+    <a
+      href="https://www.ebay.com"
+      style="
+        align-items: baseline;
+        color: var(--color-foreground-link-primary);
+        display: flex;
+        height: var(--spacing-400);
+        margin-left: auto
+      "
+    >
       See all
     </a>
   </div>
@@ -183,13 +192,16 @@
         Recommended for you
       </span>
     </div>
-    <a style="
-      align-items: baseline;
-      color: var(--color-foreground-link-primary);
-      display: flex;
-      height: var(--spacing-400);
-      margin-left: auto
-    ">
+    <a
+      href="https://www.ebay.com"
+      style="
+        align-items: baseline;
+        color: var(--color-foreground-link-primary);
+        display: flex;
+        height: var(--spacing-400);
+        margin-left: auto
+      "
+    >
       See all
     </a>
   </div>
@@ -224,7 +236,10 @@
       margin-left: auto;
       margin: 0 var(--spacing-300) 0 auto
     ">
-      <span style="position: relative">
+      <span style="
+        line-height: normal;
+        position: relative
+      ">
         <button style="
           align-items: center;
           background-color: var(--color-background-secondary);
@@ -306,7 +321,6 @@
         ">
           <div>
             <div style="
-              background-color: initial;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -350,13 +364,13 @@
               <span style="
                 flex-grow: 1;
                 flex-shrink: 0;
-                text-wrap-mode: nowrap
+                text-wrap-mode: nowrap;
+                white-space-collapse: collapse
               ">
                 Item 1
               </span>
             </div>
             <div style="
-              background-color: initial;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -398,13 +412,13 @@
               <span style="
                 flex-grow: 1;
                 flex-shrink: 0;
-                text-wrap-mode: nowrap
+                text-wrap-mode: nowrap;
+                white-space-collapse: collapse
               ">
                 Item 2
               </span>
             </div>
             <div style="
-              background-color: initial;
               border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
               border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
               border-bottom-style: solid;
@@ -447,7 +461,8 @@
               <span style="
                 flex-grow: 1;
                 flex-shrink: 0;
-                text-wrap-mode: nowrap
+                text-wrap-mode: nowrap;
+                white-space-collapse: collapse
               ">
                 Item 3
               </span>
@@ -488,7 +503,10 @@
       margin-left: auto;
       margin: 0 var(--spacing-300) 0 auto
     ">
-      <span style="position: relative">
+      <span style="
+        line-height: normal;
+        position: relative
+      ">
         <button style="
           align-items: center;
           background-color: var(--color-background-secondary);
@@ -570,7 +588,6 @@
         ">
           <div>
             <div style="
-              background-color: initial;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -614,13 +631,13 @@
               <span style="
                 flex-grow: 1;
                 flex-shrink: 0;
-                text-wrap-mode: nowrap
+                text-wrap-mode: nowrap;
+                white-space-collapse: collapse
               ">
                 Item 1
               </span>
             </div>
             <div style="
-              background-color: initial;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -662,13 +679,13 @@
               <span style="
                 flex-grow: 1;
                 flex-shrink: 0;
-                text-wrap-mode: nowrap
+                text-wrap-mode: nowrap;
+                white-space-collapse: collapse
               ">
                 Item 2
               </span>
             </div>
             <div style="
-              background-color: initial;
               border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
               border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
               border-bottom-style: solid;
@@ -711,7 +728,8 @@
               <span style="
                 flex-grow: 1;
                 flex-shrink: 0;
-                text-wrap-mode: nowrap
+                text-wrap-mode: nowrap;
+                white-space-collapse: collapse
               ">
                 Item 3
               </span>
@@ -914,16 +932,19 @@
         </svg>
       </button>
     </div>
-    <a style="
-      align-items: baseline;
-      color: var(--color-foreground-link-primary);
-      display: flex;
-      height: var(--spacing-400);
-      letter-spacing: 0.12em;
-      line-height: 1.5;
-      margin-left: auto;
-      word-spacing: 0.16em
-    ">
+    <a
+      href="https://www.ebay.com"
+      style="
+        align-items: baseline;
+        color: var(--color-foreground-link-primary);
+        display: flex;
+        height: var(--spacing-400);
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-left: auto;
+        word-spacing: 0.16em
+      "
+    >
       See all
     </a>
   </div>
@@ -1056,16 +1077,19 @@
         </svg>
       </button>
     </div>
-    <a style="
-      align-items: baseline;
-      color: var(--color-foreground-link-primary);
-      display: flex;
-      height: var(--spacing-400);
-      letter-spacing: 0.12em;
-      line-height: 1.5;
-      margin-left: auto;
-      word-spacing: 0.16em
-    ">
+    <a
+      href="https://www.ebay.com"
+      style="
+        align-items: baseline;
+        color: var(--color-foreground-link-primary);
+        display: flex;
+        height: var(--spacing-400);
+        letter-spacing: 0.12em;
+        line-height: 1.5;
+        margin-left: auto;
+        word-spacing: 0.16em
+      "
+    >
       See all
     </a>
   </div>
@@ -1374,13 +1398,16 @@
         </svg>
       </button>
     </div>
-    <a style="
-      align-items: baseline;
-      color: var(--color-foreground-link-primary);
-      display: flex;
-      height: var(--spacing-400);
-      margin-left: auto
-    ">
+    <a
+      href="https://www.ebay.com"
+      style="
+        align-items: baseline;
+        color: var(--color-foreground-link-primary);
+        display: flex;
+        height: var(--spacing-400);
+        margin-left: auto
+      "
+    >
       See all
     </a>
   </div>
@@ -1485,13 +1512,16 @@
         </svg>
       </button>
     </div>
-    <a style="
-      align-items: baseline;
-      color: var(--color-foreground-link-primary);
-      display: flex;
-      height: var(--spacing-400);
-      margin-left: auto
-    ">
+    <a
+      href="https://www.ebay.com"
+      style="
+        align-items: baseline;
+        color: var(--color-foreground-link-primary);
+        display: flex;
+        height: var(--spacing-400);
+        margin-left: auto
+      "
+    >
       See all
     </a>
   </div>

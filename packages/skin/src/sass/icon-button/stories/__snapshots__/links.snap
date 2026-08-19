@@ -1,36 +1,40 @@
 ┌─ base
 <div>
-  <a style="
-    align-items: center;
-    background-color: var(--color-background-secondary);
-    border-bottom-color: transparent;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-left-color: transparent;
-    border-left-style: solid;
-    border-left-width: 2px;
-    border-right-color: transparent;
-    border-right-style: solid;
-    border-right-width: 2px;
-    border-top-color: transparent;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-top-style: solid;
-    border-top-width: 2px;
-    box-sizing: border-box;
-    color: var(--color-foreground-link-primary);
-    display: inline-flex;
-    font-family: inherit;
-    height: 48px;
-    justify-content: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
-    vertical-align: text-bottom;
-    width: 48px
-  ">
+  <a
+    href="https://www.ebay.com"
+    style="
+      align-items: center;
+      background-color: var(--color-background-secondary);
+      border-bottom-color: transparent;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 2px;
+      border-left-color: transparent;
+      border-left-style: solid;
+      border-left-width: 2px;
+      border-right-color: transparent;
+      border-right-style: solid;
+      border-right-width: 2px;
+      border-top-color: transparent;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 2px;
+      box-sizing: border-box;
+      color: var(--color-foreground-link-primary);
+      display: inline-flex;
+      font-family: inherit;
+      height: 48px;
+      justify-content: center;
+      outline-color: rgb(0, 0, 0);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 48px
+    "
+  >
     <style>@scope{:scope{
       &::after {
         background-color: var(--color-state-layer-neutral);
@@ -68,37 +72,41 @@
       <use href="#icon-heart-24"/>
     </svg>
   </a>
-  <a style="
-    align-items: center;
-    background-color: var(--color-background-secondary);
-    border-bottom-color: transparent;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-left-color: transparent;
-    border-left-style: solid;
-    border-left-width: 2px;
-    border-right-color: transparent;
-    border-right-style: solid;
-    border-right-width: 2px;
-    border-top-color: transparent;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-top-style: solid;
-    border-top-width: 2px;
-    box-sizing: border-box;
-    color: var(--color-foreground-link-primary);
-    display: inline-flex;
-    font-family: inherit;
-    height: 40px;
-    justify-content: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
-    vertical-align: text-bottom;
-    width: 40px
-  ">
+  <a
+    href="https://www.ebay.com"
+    style="
+      align-items: center;
+      background-color: var(--color-background-secondary);
+      border-bottom-color: transparent;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 2px;
+      border-left-color: transparent;
+      border-left-style: solid;
+      border-left-width: 2px;
+      border-right-color: transparent;
+      border-right-style: solid;
+      border-right-width: 2px;
+      border-top-color: transparent;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 2px;
+      box-sizing: border-box;
+      color: var(--color-foreground-link-primary);
+      display: inline-flex;
+      font-family: inherit;
+      height: 40px;
+      justify-content: center;
+      outline-color: rgb(0, 0, 0);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 40px
+    "
+  >
     <style>@scope{:scope{
       &::after {
         background-color: var(--color-state-layer-neutral);
@@ -136,37 +144,41 @@
       <use href="#icon-heart-20"/>
     </svg>
   </a>
-  <a style="
-    align-items: center;
-    background-color: var(--color-background-secondary);
-    border-bottom-color: transparent;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-left-color: transparent;
-    border-left-style: solid;
-    border-left-width: 2px;
-    border-right-color: transparent;
-    border-right-style: solid;
-    border-right-width: 2px;
-    border-top-color: transparent;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-top-style: solid;
-    border-top-width: 2px;
-    box-sizing: border-box;
-    color: var(--color-foreground-link-primary);
-    display: inline-flex;
-    font-family: inherit;
-    height: 32px;
-    justify-content: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
-    vertical-align: text-bottom;
-    width: 32px
-  ">
+  <a
+    href="https://www.ebay.com"
+    style="
+      align-items: center;
+      background-color: var(--color-background-secondary);
+      border-bottom-color: transparent;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 2px;
+      border-left-color: transparent;
+      border-left-style: solid;
+      border-left-width: 2px;
+      border-right-color: transparent;
+      border-right-style: solid;
+      border-right-width: 2px;
+      border-top-color: transparent;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 2px;
+      box-sizing: border-box;
+      color: var(--color-foreground-link-primary);
+      display: inline-flex;
+      font-family: inherit;
+      height: 32px;
+      justify-content: center;
+      outline-color: rgb(0, 0, 0);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 32px
+    "
+  >
     <style>@scope{:scope{
       &::after {
         background-color: var(--color-state-layer-neutral);
@@ -256,7 +268,6 @@
     <svg
       height="16"
       style="
-        background-color: initial;
         display: inline-block;
         fill: var(--color-background-disabled);
         height: 24px;
@@ -325,7 +336,6 @@
     <svg
       height="16"
       style="
-        background-color: initial;
         display: inline-block;
         fill: var(--color-background-disabled);
         height: 20px;
@@ -394,7 +404,6 @@
     <svg
       height="16"
       style="
-        background-color: initial;
         display: inline-block;
         fill: var(--color-background-disabled);
         margin-left: auto;
@@ -415,37 +424,41 @@
 
 ┌─ baseSpinner
 <div>
-  <a style="
-    align-items: center;
-    background-color: var(--color-background-secondary);
-    border-bottom-color: transparent;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-left-color: transparent;
-    border-left-style: solid;
-    border-left-width: 2px;
-    border-right-color: transparent;
-    border-right-style: solid;
-    border-right-width: 2px;
-    border-top-color: transparent;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-top-style: solid;
-    border-top-width: 2px;
-    box-sizing: border-box;
-    color: var(--color-foreground-link-primary);
-    display: inline-flex;
-    font-family: inherit;
-    height: 48px;
-    justify-content: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
-    vertical-align: text-bottom;
-    width: 48px
-  ">
+  <a
+    href="https://www.ebay.com"
+    style="
+      align-items: center;
+      background-color: var(--color-background-secondary);
+      border-bottom-color: transparent;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 2px;
+      border-left-color: transparent;
+      border-left-style: solid;
+      border-left-width: 2px;
+      border-right-color: transparent;
+      border-right-style: solid;
+      border-right-width: 2px;
+      border-top-color: transparent;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 2px;
+      box-sizing: border-box;
+      color: var(--color-foreground-link-primary);
+      display: inline-flex;
+      font-family: inherit;
+      height: 48px;
+      justify-content: center;
+      outline-color: rgb(0, 0, 0);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 48px
+    "
+  >
     <style>@scope{:scope{
       &::after {
         background-color: var(--color-state-layer-neutral);
@@ -491,37 +504,41 @@
       </svg>
     </span>
   </a>
-  <a style="
-    align-items: center;
-    background-color: var(--color-background-secondary);
-    border-bottom-color: transparent;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-left-color: transparent;
-    border-left-style: solid;
-    border-left-width: 2px;
-    border-right-color: transparent;
-    border-right-style: solid;
-    border-right-width: 2px;
-    border-top-color: transparent;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-top-style: solid;
-    border-top-width: 2px;
-    box-sizing: border-box;
-    color: var(--color-foreground-link-primary);
-    display: inline-flex;
-    font-family: inherit;
-    height: 40px;
-    justify-content: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
-    vertical-align: text-bottom;
-    width: 40px
-  ">
+  <a
+    href="https://www.ebay.com"
+    style="
+      align-items: center;
+      background-color: var(--color-background-secondary);
+      border-bottom-color: transparent;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 2px;
+      border-left-color: transparent;
+      border-left-style: solid;
+      border-left-width: 2px;
+      border-right-color: transparent;
+      border-right-style: solid;
+      border-right-width: 2px;
+      border-top-color: transparent;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 2px;
+      box-sizing: border-box;
+      color: var(--color-foreground-link-primary);
+      display: inline-flex;
+      font-family: inherit;
+      height: 40px;
+      justify-content: center;
+      outline-color: rgb(0, 0, 0);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 40px
+    "
+  >
     <style>@scope{:scope{
       &::after {
         background-color: var(--color-state-layer-neutral);
@@ -567,37 +584,41 @@
       </svg>
     </span>
   </a>
-  <a style="
-    align-items: center;
-    background-color: var(--color-background-secondary);
-    border-bottom-color: transparent;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-left-color: transparent;
-    border-left-style: solid;
-    border-left-width: 2px;
-    border-right-color: transparent;
-    border-right-style: solid;
-    border-right-width: 2px;
-    border-top-color: transparent;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-top-style: solid;
-    border-top-width: 2px;
-    box-sizing: border-box;
-    color: var(--color-foreground-link-primary);
-    display: inline-flex;
-    font-family: inherit;
-    height: 32px;
-    justify-content: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
-    vertical-align: text-bottom;
-    width: 32px
-  ">
+  <a
+    href="https://www.ebay.com"
+    style="
+      align-items: center;
+      background-color: var(--color-background-secondary);
+      border-bottom-color: transparent;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 2px;
+      border-left-color: transparent;
+      border-left-style: solid;
+      border-left-width: 2px;
+      border-right-color: transparent;
+      border-right-style: solid;
+      border-right-width: 2px;
+      border-top-color: transparent;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 2px;
+      box-sizing: border-box;
+      color: var(--color-foreground-link-primary);
+      display: inline-flex;
+      font-family: inherit;
+      height: 32px;
+      justify-content: center;
+      outline-color: rgb(0, 0, 0);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 32px
+    "
+  >
     <style>@scope{:scope{
       &::after {
         background-color: var(--color-state-layer-neutral);
@@ -647,38 +668,38 @@
 
 ┌─ primary
 <div>
-  <a style="
-    align-items: center;
-    background-color: var(--color-background-accent);
-    border-bottom-color: transparent;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-color: var(--color-border-accent);
-    border-left-color: transparent;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-right-color: transparent;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-top-color: transparent;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-top-style: solid;
-    border-top-width: 1px;
-    box-sizing: border-box;
-    color: var(--color-foreground-on-accent);
-    display: inline-flex;
-    font-family: inherit;
-    height: 48px;
-    justify-content: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
-    vertical-align: text-bottom;
-    width: 48px
-  ">
+  <a
+    href="https://www.ebay.com"
+    style="
+      align-items: center;
+      background-color: var(--color-background-accent);
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-color: var(--color-border-accent);
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--color-foreground-on-accent);
+      display: inline-flex;
+      font-family: inherit;
+      height: 48px;
+      justify-content: center;
+      outline-color: rgb(0, 0, 0);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 48px
+    "
+  >
     <style>@scope{:scope{
       &::after {
         background-color: var(--color-state-layer-neutral);
@@ -716,38 +737,38 @@
       <use href="#icon-heart-24"/>
     </svg>
   </a>
-  <a style="
-    align-items: center;
-    background-color: var(--color-background-accent);
-    border-bottom-color: transparent;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-color: var(--color-border-accent);
-    border-left-color: transparent;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-right-color: transparent;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-top-color: transparent;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-top-style: solid;
-    border-top-width: 1px;
-    box-sizing: border-box;
-    color: var(--color-foreground-on-accent);
-    display: inline-flex;
-    font-family: inherit;
-    height: 40px;
-    justify-content: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
-    vertical-align: text-bottom;
-    width: 40px
-  ">
+  <a
+    href="https://www.ebay.com"
+    style="
+      align-items: center;
+      background-color: var(--color-background-accent);
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-color: var(--color-border-accent);
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--color-foreground-on-accent);
+      display: inline-flex;
+      font-family: inherit;
+      height: 40px;
+      justify-content: center;
+      outline-color: rgb(0, 0, 0);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 40px
+    "
+  >
     <style>@scope{:scope{
       &::after {
         background-color: var(--color-state-layer-neutral);
@@ -785,38 +806,38 @@
       <use href="#icon-heart-20"/>
     </svg>
   </a>
-  <a style="
-    align-items: center;
-    background-color: var(--color-background-accent);
-    border-bottom-color: transparent;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-color: var(--color-border-accent);
-    border-left-color: transparent;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-right-color: transparent;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-top-color: transparent;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-top-style: solid;
-    border-top-width: 1px;
-    box-sizing: border-box;
-    color: var(--color-foreground-on-accent);
-    display: inline-flex;
-    font-family: inherit;
-    height: 32px;
-    justify-content: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
-    vertical-align: text-bottom;
-    width: 32px
-  ">
+  <a
+    href="https://www.ebay.com"
+    style="
+      align-items: center;
+      background-color: var(--color-background-accent);
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-color: var(--color-border-accent);
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--color-foreground-on-accent);
+      display: inline-flex;
+      font-family: inherit;
+      height: 32px;
+      justify-content: center;
+      outline-color: rgb(0, 0, 0);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 32px
+    "
+  >
     <style>@scope{:scope{
       &::after {
         background-color: var(--color-state-layer-neutral);
@@ -859,19 +880,15 @@
   <a style="
     align-items: center;
     background-color: var(--color-background-disabled);
-    border-bottom-color: transparent;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-color: var(--color-border-disabled);
-    border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
-    border-right-color: transparent;
     border-right-style: solid;
     border-right-width: 1px;
-    border-top-color: transparent;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border-top-style: solid;
@@ -907,7 +924,6 @@
     <svg
       height="16"
       style="
-        background-color: initial;
         display: inline-block;
         fill: var(--color-foreground-on-accent);
         height: 24px;
@@ -929,19 +945,15 @@
   <a style="
     align-items: center;
     background-color: var(--color-background-disabled);
-    border-bottom-color: transparent;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-color: var(--color-border-disabled);
-    border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
-    border-right-color: transparent;
     border-right-style: solid;
     border-right-width: 1px;
-    border-top-color: transparent;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border-top-style: solid;
@@ -977,7 +989,6 @@
     <svg
       height="16"
       style="
-        background-color: initial;
         display: inline-block;
         fill: var(--color-foreground-on-accent);
         height: 20px;
@@ -999,19 +1010,15 @@
   <a style="
     align-items: center;
     background-color: var(--color-background-disabled);
-    border-bottom-color: transparent;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-color: var(--color-border-disabled);
-    border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
-    border-right-color: transparent;
     border-right-style: solid;
     border-right-width: 1px;
-    border-top-color: transparent;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border-top-style: solid;
@@ -1047,7 +1054,6 @@
     <svg
       height="16"
       style="
-        background-color: initial;
         display: inline-block;
         fill: var(--color-foreground-on-accent);
         margin-left: auto;
@@ -1068,38 +1074,38 @@
 
 ┌─ primarySpinner
 <div>
-  <a style="
-    align-items: center;
-    background-color: var(--color-background-accent);
-    border-bottom-color: transparent;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-color: var(--color-border-accent);
-    border-left-color: transparent;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-right-color: transparent;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-top-color: transparent;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-top-style: solid;
-    border-top-width: 1px;
-    box-sizing: border-box;
-    color: var(--color-foreground-on-accent);
-    display: inline-flex;
-    font-family: inherit;
-    height: 48px;
-    justify-content: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
-    vertical-align: text-bottom;
-    width: 48px
-  ">
+  <a
+    href="https://www.ebay.com"
+    style="
+      align-items: center;
+      background-color: var(--color-background-accent);
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-color: var(--color-border-accent);
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--color-foreground-on-accent);
+      display: inline-flex;
+      font-family: inherit;
+      height: 48px;
+      justify-content: center;
+      outline-color: rgb(0, 0, 0);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 48px
+    "
+  >
     <style>@scope{:scope{
       &::after {
         background-color: var(--color-state-layer-neutral);
@@ -1147,38 +1153,38 @@
       </svg>
     </span>
   </a>
-  <a style="
-    align-items: center;
-    background-color: var(--color-background-accent);
-    border-bottom-color: transparent;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-color: var(--color-border-accent);
-    border-left-color: transparent;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-right-color: transparent;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-top-color: transparent;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-top-style: solid;
-    border-top-width: 1px;
-    box-sizing: border-box;
-    color: var(--color-foreground-on-accent);
-    display: inline-flex;
-    font-family: inherit;
-    height: 40px;
-    justify-content: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
-    vertical-align: text-bottom;
-    width: 40px
-  ">
+  <a
+    href="https://www.ebay.com"
+    style="
+      align-items: center;
+      background-color: var(--color-background-accent);
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-color: var(--color-border-accent);
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--color-foreground-on-accent);
+      display: inline-flex;
+      font-family: inherit;
+      height: 40px;
+      justify-content: center;
+      outline-color: rgb(0, 0, 0);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 40px
+    "
+  >
     <style>@scope{:scope{
       &::after {
         background-color: var(--color-state-layer-neutral);
@@ -1226,38 +1232,38 @@
       </svg>
     </span>
   </a>
-  <a style="
-    align-items: center;
-    background-color: var(--color-background-accent);
-    border-bottom-color: transparent;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-color: var(--color-border-accent);
-    border-left-color: transparent;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-right-color: transparent;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-top-color: transparent;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-top-style: solid;
-    border-top-width: 1px;
-    box-sizing: border-box;
-    color: var(--color-foreground-on-accent);
-    display: inline-flex;
-    font-family: inherit;
-    height: 32px;
-    justify-content: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
-    vertical-align: text-bottom;
-    width: 32px
-  ">
+  <a
+    href="https://www.ebay.com"
+    style="
+      align-items: center;
+      background-color: var(--color-background-accent);
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-color: var(--color-border-accent);
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--color-foreground-on-accent);
+      display: inline-flex;
+      font-family: inherit;
+      height: 32px;
+      justify-content: center;
+      outline-color: rgb(0, 0, 0);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 32px
+    "
+  >
     <style>@scope{:scope{
       &::after {
         background-color: var(--color-state-layer-neutral);
@@ -1309,38 +1315,37 @@
 
 ┌─ secondary
 <div>
-  <a style="
-    align-items: center;
-    background-color: initial;
-    border-bottom-color: transparent;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-color: var(--color-border-accent);
-    border-left-color: transparent;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-right-color: transparent;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-top-color: transparent;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-top-style: solid;
-    border-top-width: 1px;
-    box-sizing: border-box;
-    color: var(--color-foreground-accent);
-    display: inline-flex;
-    font-family: inherit;
-    height: 48px;
-    justify-content: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
-    vertical-align: text-bottom;
-    width: 48px
-  ">
+  <a
+    href="https://www.ebay.com"
+    style="
+      align-items: center;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-color: var(--color-border-accent);
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--color-foreground-accent);
+      display: inline-flex;
+      font-family: inherit;
+      height: 48px;
+      justify-content: center;
+      outline-color: rgb(0, 0, 0);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 48px
+    "
+  >
     <style>@scope{:scope{
       &::after {
         background-color: var(--color-state-layer-neutral);
@@ -1378,38 +1383,37 @@
       <use href="#icon-heart-24"/>
     </svg>
   </a>
-  <a style="
-    align-items: center;
-    background-color: initial;
-    border-bottom-color: transparent;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-color: var(--color-border-accent);
-    border-left-color: transparent;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-right-color: transparent;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-top-color: transparent;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-top-style: solid;
-    border-top-width: 1px;
-    box-sizing: border-box;
-    color: var(--color-foreground-accent);
-    display: inline-flex;
-    font-family: inherit;
-    height: 40px;
-    justify-content: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
-    vertical-align: text-bottom;
-    width: 40px
-  ">
+  <a
+    href="https://www.ebay.com"
+    style="
+      align-items: center;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-color: var(--color-border-accent);
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--color-foreground-accent);
+      display: inline-flex;
+      font-family: inherit;
+      height: 40px;
+      justify-content: center;
+      outline-color: rgb(0, 0, 0);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 40px
+    "
+  >
     <style>@scope{:scope{
       &::after {
         background-color: var(--color-state-layer-neutral);
@@ -1447,38 +1451,37 @@
       <use href="#icon-heart-20"/>
     </svg>
   </a>
-  <a style="
-    align-items: center;
-    background-color: initial;
-    border-bottom-color: transparent;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-color: var(--color-border-accent);
-    border-left-color: transparent;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-right-color: transparent;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-top-color: transparent;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-top-style: solid;
-    border-top-width: 1px;
-    box-sizing: border-box;
-    color: var(--color-foreground-accent);
-    display: inline-flex;
-    font-family: inherit;
-    height: 32px;
-    justify-content: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
-    vertical-align: text-bottom;
-    width: 32px
-  ">
+  <a
+    href="https://www.ebay.com"
+    style="
+      align-items: center;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-color: var(--color-border-accent);
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--color-foreground-accent);
+      display: inline-flex;
+      font-family: inherit;
+      height: 32px;
+      justify-content: center;
+      outline-color: rgb(0, 0, 0);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 32px
+    "
+  >
     <style>@scope{:scope{
       &::after {
         background-color: var(--color-state-layer-neutral);
@@ -1520,20 +1523,15 @@
 <div>
   <a style="
     align-items: center;
-    background-color: initial;
-    border-bottom-color: transparent;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-color: var(--color-border-disabled);
-    border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
-    border-right-color: transparent;
     border-right-style: solid;
     border-right-width: 1px;
-    border-top-color: transparent;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border-top-style: solid;
@@ -1569,7 +1567,6 @@
     <svg
       height="16"
       style="
-        background-color: initial;
         display: inline-block;
         fill: var(--color-background-disabled);
         height: 24px;
@@ -1590,20 +1587,15 @@
   </a>
   <a style="
     align-items: center;
-    background-color: initial;
-    border-bottom-color: transparent;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-color: var(--color-border-disabled);
-    border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
-    border-right-color: transparent;
     border-right-style: solid;
     border-right-width: 1px;
-    border-top-color: transparent;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border-top-style: solid;
@@ -1639,7 +1631,6 @@
     <svg
       height="16"
       style="
-        background-color: initial;
         display: inline-block;
         fill: var(--color-background-disabled);
         height: 20px;
@@ -1660,20 +1651,15 @@
   </a>
   <a style="
     align-items: center;
-    background-color: initial;
-    border-bottom-color: transparent;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-color: var(--color-border-disabled);
-    border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
-    border-right-color: transparent;
     border-right-style: solid;
     border-right-width: 1px;
-    border-top-color: transparent;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border-top-style: solid;
@@ -1709,7 +1695,6 @@
     <svg
       height="16"
       style="
-        background-color: initial;
         display: inline-block;
         fill: var(--color-background-disabled);
         margin-left: auto;
@@ -1730,38 +1715,37 @@
 
 ┌─ secondarySpinner
 <div>
-  <a style="
-    align-items: center;
-    background-color: initial;
-    border-bottom-color: transparent;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-color: var(--color-border-accent);
-    border-left-color: transparent;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-right-color: transparent;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-top-color: transparent;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-top-style: solid;
-    border-top-width: 1px;
-    box-sizing: border-box;
-    color: var(--color-foreground-accent);
-    display: inline-flex;
-    font-family: inherit;
-    height: 48px;
-    justify-content: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
-    vertical-align: text-bottom;
-    width: 48px
-  ">
+  <a
+    href="https://www.ebay.com"
+    style="
+      align-items: center;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-color: var(--color-border-accent);
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--color-foreground-accent);
+      display: inline-flex;
+      font-family: inherit;
+      height: 48px;
+      justify-content: center;
+      outline-color: rgb(0, 0, 0);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 48px
+    "
+  >
     <style>@scope{:scope{
       &::after {
         background-color: var(--color-state-layer-neutral);
@@ -1808,38 +1792,37 @@
       </svg>
     </span>
   </a>
-  <a style="
-    align-items: center;
-    background-color: initial;
-    border-bottom-color: transparent;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-color: var(--color-border-accent);
-    border-left-color: transparent;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-right-color: transparent;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-top-color: transparent;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-top-style: solid;
-    border-top-width: 1px;
-    box-sizing: border-box;
-    color: var(--color-foreground-accent);
-    display: inline-flex;
-    font-family: inherit;
-    height: 40px;
-    justify-content: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
-    vertical-align: text-bottom;
-    width: 40px
-  ">
+  <a
+    href="https://www.ebay.com"
+    style="
+      align-items: center;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-color: var(--color-border-accent);
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--color-foreground-accent);
+      display: inline-flex;
+      font-family: inherit;
+      height: 40px;
+      justify-content: center;
+      outline-color: rgb(0, 0, 0);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 40px
+    "
+  >
     <style>@scope{:scope{
       &::after {
         background-color: var(--color-state-layer-neutral);
@@ -1886,38 +1869,37 @@
       </svg>
     </span>
   </a>
-  <a style="
-    align-items: center;
-    background-color: initial;
-    border-bottom-color: transparent;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-color: var(--color-border-accent);
-    border-left-color: transparent;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-right-color: transparent;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-top-color: transparent;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-top-style: solid;
-    border-top-width: 1px;
-    box-sizing: border-box;
-    color: var(--color-foreground-accent);
-    display: inline-flex;
-    font-family: inherit;
-    height: 32px;
-    justify-content: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
-    vertical-align: text-bottom;
-    width: 32px
-  ">
+  <a
+    href="https://www.ebay.com"
+    style="
+      align-items: center;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-color: var(--color-border-accent);
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--color-foreground-accent);
+      display: inline-flex;
+      font-family: inherit;
+      height: 32px;
+      justify-content: center;
+      outline-color: rgb(0, 0, 0);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 32px
+    "
+  >
     <style>@scope{:scope{
       &::after {
         background-color: var(--color-state-layer-neutral);
@@ -1968,38 +1950,37 @@
 
 ┌─ tertiary
 <div>
-  <a style="
-    align-items: center;
-    background-color: initial;
-    border-bottom-color: transparent;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-color: var(--color-border-medium);
-    border-left-color: transparent;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-right-color: transparent;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-top-color: transparent;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-top-style: solid;
-    border-top-width: 1px;
-    box-sizing: border-box;
-    color: var(--color-foreground-accent);
-    display: inline-flex;
-    font-family: inherit;
-    height: 48px;
-    justify-content: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
-    vertical-align: text-bottom;
-    width: 48px
-  ">
+  <a
+    href="https://www.ebay.com"
+    style="
+      align-items: center;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-color: var(--color-border-medium);
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--color-foreground-accent);
+      display: inline-flex;
+      font-family: inherit;
+      height: 48px;
+      justify-content: center;
+      outline-color: rgb(0, 0, 0);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 48px
+    "
+  >
     <style>@scope{:scope{
       &::after {
         background-color: var(--color-state-layer-neutral);
@@ -2037,38 +2018,37 @@
       <use href="#icon-heart-24"/>
     </svg>
   </a>
-  <a style="
-    align-items: center;
-    background-color: initial;
-    border-bottom-color: transparent;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-color: var(--color-border-medium);
-    border-left-color: transparent;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-right-color: transparent;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-top-color: transparent;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-top-style: solid;
-    border-top-width: 1px;
-    box-sizing: border-box;
-    color: var(--color-foreground-accent);
-    display: inline-flex;
-    font-family: inherit;
-    height: 40px;
-    justify-content: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
-    vertical-align: text-bottom;
-    width: 40px
-  ">
+  <a
+    href="https://www.ebay.com"
+    style="
+      align-items: center;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-color: var(--color-border-medium);
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--color-foreground-accent);
+      display: inline-flex;
+      font-family: inherit;
+      height: 40px;
+      justify-content: center;
+      outline-color: rgb(0, 0, 0);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 40px
+    "
+  >
     <style>@scope{:scope{
       &::after {
         background-color: var(--color-state-layer-neutral);
@@ -2106,38 +2086,37 @@
       <use href="#icon-heart-20"/>
     </svg>
   </a>
-  <a style="
-    align-items: center;
-    background-color: initial;
-    border-bottom-color: transparent;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-color: var(--color-border-medium);
-    border-left-color: transparent;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-right-color: transparent;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-top-color: transparent;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-top-style: solid;
-    border-top-width: 1px;
-    box-sizing: border-box;
-    color: var(--color-foreground-accent);
-    display: inline-flex;
-    font-family: inherit;
-    height: 32px;
-    justify-content: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
-    vertical-align: text-bottom;
-    width: 32px
-  ">
+  <a
+    href="https://www.ebay.com"
+    style="
+      align-items: center;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-color: var(--color-border-medium);
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--color-foreground-accent);
+      display: inline-flex;
+      font-family: inherit;
+      height: 32px;
+      justify-content: center;
+      outline-color: rgb(0, 0, 0);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 32px
+    "
+  >
     <style>@scope{:scope{
       &::after {
         background-color: var(--color-state-layer-neutral);
@@ -2179,20 +2158,15 @@
 <div>
   <a style="
     align-items: center;
-    background-color: initial;
-    border-bottom-color: transparent;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-color: var(--color-border-disabled);
-    border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
-    border-right-color: transparent;
     border-right-style: solid;
     border-right-width: 1px;
-    border-top-color: transparent;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border-top-style: solid;
@@ -2228,7 +2202,6 @@
     <svg
       height="16"
       style="
-        background-color: initial;
         display: inline-block;
         fill: var(--color-background-disabled);
         height: 24px;
@@ -2249,20 +2222,15 @@
   </a>
   <a style="
     align-items: center;
-    background-color: initial;
-    border-bottom-color: transparent;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-color: var(--color-border-disabled);
-    border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
-    border-right-color: transparent;
     border-right-style: solid;
     border-right-width: 1px;
-    border-top-color: transparent;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border-top-style: solid;
@@ -2298,7 +2266,6 @@
     <svg
       height="16"
       style="
-        background-color: initial;
         display: inline-block;
         fill: var(--color-background-disabled);
         height: 20px;
@@ -2319,20 +2286,15 @@
   </a>
   <a style="
     align-items: center;
-    background-color: initial;
-    border-bottom-color: transparent;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-color: var(--color-border-disabled);
-    border-left-color: transparent;
     border-left-style: solid;
     border-left-width: 1px;
-    border-right-color: transparent;
     border-right-style: solid;
     border-right-width: 1px;
-    border-top-color: transparent;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border-top-style: solid;
@@ -2368,7 +2330,6 @@
     <svg
       height="16"
       style="
-        background-color: initial;
         display: inline-block;
         fill: var(--color-background-disabled);
         margin-left: auto;
@@ -2389,38 +2350,37 @@
 
 ┌─ tertiarySpinner
 <div>
-  <a style="
-    align-items: center;
-    background-color: initial;
-    border-bottom-color: transparent;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-color: var(--color-border-medium);
-    border-left-color: transparent;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-right-color: transparent;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-top-color: transparent;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-top-style: solid;
-    border-top-width: 1px;
-    box-sizing: border-box;
-    color: var(--color-foreground-accent);
-    display: inline-flex;
-    font-family: inherit;
-    height: 48px;
-    justify-content: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
-    vertical-align: text-bottom;
-    width: 48px
-  ">
+  <a
+    href="https://www.ebay.com"
+    style="
+      align-items: center;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-color: var(--color-border-medium);
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--color-foreground-accent);
+      display: inline-flex;
+      font-family: inherit;
+      height: 48px;
+      justify-content: center;
+      outline-color: rgb(0, 0, 0);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 48px
+    "
+  >
     <style>@scope{:scope{
       &::after {
         background-color: var(--color-state-layer-neutral);
@@ -2467,38 +2427,37 @@
       </svg>
     </span>
   </a>
-  <a style="
-    align-items: center;
-    background-color: initial;
-    border-bottom-color: transparent;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-color: var(--color-border-medium);
-    border-left-color: transparent;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-right-color: transparent;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-top-color: transparent;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-top-style: solid;
-    border-top-width: 1px;
-    box-sizing: border-box;
-    color: var(--color-foreground-accent);
-    display: inline-flex;
-    font-family: inherit;
-    height: 40px;
-    justify-content: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
-    vertical-align: text-bottom;
-    width: 40px
-  ">
+  <a
+    href="https://www.ebay.com"
+    style="
+      align-items: center;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-color: var(--color-border-medium);
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--color-foreground-accent);
+      display: inline-flex;
+      font-family: inherit;
+      height: 40px;
+      justify-content: center;
+      outline-color: rgb(0, 0, 0);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 40px
+    "
+  >
     <style>@scope{:scope{
       &::after {
         background-color: var(--color-state-layer-neutral);
@@ -2545,38 +2504,37 @@
       </svg>
     </span>
   </a>
-  <a style="
-    align-items: center;
-    background-color: initial;
-    border-bottom-color: transparent;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-color: var(--color-border-medium);
-    border-left-color: transparent;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-right-color: transparent;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-top-color: transparent;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-top-style: solid;
-    border-top-width: 1px;
-    box-sizing: border-box;
-    color: var(--color-foreground-accent);
-    display: inline-flex;
-    font-family: inherit;
-    height: 32px;
-    justify-content: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
-    vertical-align: text-bottom;
-    width: 32px
-  ">
+  <a
+    href="https://www.ebay.com"
+    style="
+      align-items: center;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-color: var(--color-border-medium);
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--color-foreground-accent);
+      display: inline-flex;
+      font-family: inherit;
+      height: 32px;
+      justify-content: center;
+      outline-color: rgb(0, 0, 0);
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: relative;
+      vertical-align: text-bottom;
+      width: 32px
+    "
+  >
     <style>@scope{:scope{
       &::after {
         background-color: var(--color-state-layer-neutral);

@@ -53,11 +53,15 @@
       margin-bottom: 0px;
       margin-top: var(--spacing-200)
     ">
-      <a style="
-        color: var(--section-notice-foreground-color, var(--color-foreground-primary));
-        font-size: var(--font-size-body);
-        text-wrap-mode: nowrap
-      ">
+      <a
+        href="https://www.ebay.com"
+        style="
+          color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+          font-size: var(--font-size-body);
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
+        "
+      >
         Action
       </a>
     </p>
@@ -68,7 +72,7 @@
       margin-top: 2px
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -121,8 +125,6 @@
     display: grid;
     font-size: var(--font-size-body);
     grid-template-columns: 32px auto auto min-content;
-    margin-bottom: 8px;
-    margin-top: 8px;
     margin: var(--spacing-200) 0;
     padding-bottom: 16px;
     padding-left: 16px;
@@ -169,11 +171,15 @@
       margin-bottom: 0px;
       margin-top: 0px
     ">
-      <a style="
-        color: var(--section-notice-foreground-color, var(--color-foreground-primary));
-        font-size: var(--font-size-body);
-        text-wrap-mode: nowrap
-      ">
+      <a
+        href="https://www.ebay.com"
+        style="
+          color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+          font-size: var(--font-size-body);
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
+        "
+      >
         Action
       </a>
     </p>
@@ -185,7 +191,7 @@
       padding-inline-start: var(--spacing-200)
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -235,8 +241,6 @@
     display: grid;
     font-size: var(--font-size-body);
     grid-template-columns: 32px auto auto min-content;
-    margin-bottom: 8px;
-    margin-top: 8px;
     margin: var(--spacing-200) 0;
     padding-bottom: 16px;
     padding-left: 16px;
@@ -283,11 +287,15 @@
       margin-bottom: 0px;
       margin-top: 0px
     ">
-      <a style="
-        color: var(--section-notice-foreground-color, var(--color-foreground-primary));
-        font-size: var(--font-size-body);
-        text-wrap-mode: nowrap
-      ">
+      <a
+        href="https://www.ebay.com"
+        style="
+          color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+          font-size: var(--font-size-body);
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
+        "
+      >
         Action
       </a>
     </p>
@@ -300,7 +308,7 @@
       padding-inline-start: var(--spacing-200)
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -384,6 +392,7 @@
     ">
       <h3 style="
         font-size: var(--font-size-body);
+        font-weight: 700;
         margin-bottom: 0px;
         margin-top: 0px
       ">
@@ -391,8 +400,6 @@
       </h3>
       <p style="
         font-size: var(--font-size-body);
-        margin-bottom: 0px;
-        margin-top: 0px;
         margin: var(--spacing-50) 0 0
       ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis knostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -405,11 +412,15 @@
       margin-bottom: 0px;
       margin-top: var(--spacing-200)
     ">
-      <a style="
-        color: var(--section-notice-foreground-color, var(--color-foreground-primary));
-        font-size: var(--font-size-body);
-        text-wrap-mode: nowrap
-      ">
+      <a
+        href="https://www.ebay.com"
+        style="
+          color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+          font-size: var(--font-size-body);
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
+        "
+      >
         Action
       </a>
     </p>
@@ -420,7 +431,7 @@
       margin-top: 2px
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -473,8 +484,6 @@
     display: grid;
     font-size: var(--font-size-body);
     grid-template-columns: 32px auto auto min-content;
-    margin-bottom: 8px;
-    margin-top: 8px;
     margin: var(--spacing-200) 0;
     padding-bottom: 16px;
     padding-left: 16px;
@@ -508,6 +517,7 @@
     ">
       <h3 style="
         font-size: var(--font-size-body);
+        font-weight: 700;
         margin-bottom: 0px;
         margin-top: 0px
       ">
@@ -515,8 +525,6 @@
       </h3>
       <p style="
         font-size: var(--font-size-body);
-        margin-bottom: 0px;
-        margin-top: 0px;
         margin: var(--spacing-50) 0 0
       ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis knostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -529,11 +537,15 @@
       margin-bottom: 0px;
       margin-top: 0px
     ">
-      <a style="
-        color: var(--section-notice-foreground-color, var(--color-foreground-primary));
-        font-size: var(--font-size-body);
-        text-wrap-mode: nowrap
-      ">
+      <a
+        href="https://www.ebay.com"
+        style="
+          color: var(--section-notice-foreground-color, var(--color-foreground-primary));
+          font-size: var(--font-size-body);
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
+        "
+      >
         Action
       </a>
     </p>
@@ -545,7 +557,7 @@
       padding-inline-start: var(--spacing-200)
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;

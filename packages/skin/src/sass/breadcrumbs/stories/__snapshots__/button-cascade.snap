@@ -13,7 +13,8 @@
     padding-right: 8px;
     padding-top: 8px;
     scrollbar-width: none;
-    text-wrap-mode: nowrap
+    text-wrap-mode: nowrap;
+    white-space-collapse: collapse
   ">
     <h2 style="
       border-bottom-color: currentcolor;
@@ -26,6 +27,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px
     ">
       You are here
@@ -44,14 +46,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -101,14 +101,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -158,14 +156,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -215,14 +211,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -270,7 +264,8 @@
     padding-right: 8px;
     padding-top: 8px;
     scrollbar-width: none;
-    text-wrap-mode: nowrap
+    text-wrap-mode: nowrap;
+    white-space-collapse: collapse
   ">
     <h2 style="
       border-bottom-color: currentcolor;
@@ -283,6 +278,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px
     ">
       You are here
@@ -301,14 +297,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -358,14 +352,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -415,14 +407,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -472,14 +462,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -524,7 +512,8 @@
     padding-right: 8px;
     padding-top: 8px;
     scrollbar-width: none;
-    text-wrap-mode: nowrap
+    text-wrap-mode: nowrap;
+    white-space-collapse: collapse
   ">
     <h2 style="
       border-bottom-color: currentcolor;
@@ -537,6 +526,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px
     ">
       You are here
@@ -555,14 +545,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -613,14 +601,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -671,14 +657,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -729,14 +713,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -781,7 +763,8 @@
     padding-right: 8px;
     padding-top: 8px;
     scrollbar-width: none;
-    text-wrap-mode: nowrap
+    text-wrap-mode: nowrap;
+    white-space-collapse: collapse
   ">
     <h2 style="
       border-bottom-color: currentcolor;
@@ -794,6 +777,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px
     ">
       You are here
@@ -812,14 +796,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -869,14 +851,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -926,14 +906,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -983,14 +961,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1038,7 +1014,8 @@
     padding-right: 8px;
     padding-top: 8px;
     scrollbar-width: none;
-    text-wrap-mode: nowrap
+    text-wrap-mode: nowrap;
+    white-space-collapse: collapse
   ">
     <h2 style="
       border-bottom-color: currentcolor;
@@ -1051,6 +1028,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px
     ">
       You are here
@@ -1069,14 +1047,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1126,14 +1102,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1183,14 +1157,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1240,14 +1212,12 @@
         vertical-align: middle
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1298,6 +1268,7 @@
     padding-top: 8px;
     scrollbar-width: none;
     text-wrap-mode: nowrap;
+    white-space-collapse: collapse;
     word-spacing: 0.16em
   ">
     <h2 style="
@@ -1313,6 +1284,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px;
       word-spacing: 0.16em
     ">
@@ -1338,14 +1310,12 @@
         word-spacing: 0.16em
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1411,14 +1381,12 @@
         word-spacing: 0.16em
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1484,14 +1452,12 @@
         word-spacing: 0.16em
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1557,14 +1523,12 @@
         word-spacing: 0.16em
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1618,6 +1582,7 @@
     padding-top: 8px;
     scrollbar-width: none;
     text-wrap-mode: nowrap;
+    white-space-collapse: collapse;
     word-spacing: 0.16em
   ">
     <h2 style="
@@ -1633,6 +1598,7 @@
       overflow-y: hidden;
       position: absolute;
       text-wrap-mode: nowrap;
+      white-space-collapse: collapse;
       width: 1px;
       word-spacing: 0.16em
     ">
@@ -1658,14 +1624,12 @@
         word-spacing: 0.16em
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1731,14 +1695,12 @@
         word-spacing: 0.16em
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1804,14 +1766,12 @@
         word-spacing: 0.16em
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -1877,14 +1837,12 @@
         word-spacing: 0.16em
       ">
         <button style="
+          background-color: rgba(0, 0, 0, 0);
+          background-position-x: initial;
+          background-position-y: initial;
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;

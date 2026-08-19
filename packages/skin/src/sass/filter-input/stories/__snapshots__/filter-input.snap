@@ -51,15 +51,10 @@
         placeholder="Filter list"
         style="
           appearance: none;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -85,7 +80,7 @@
       />
       <button style="
         align-items: center;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: transparent;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
@@ -207,15 +202,10 @@
         placeholder="Filter list"
         style="
           appearance: none;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -241,7 +231,7 @@
       />
       <button style="
         align-items: center;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: transparent;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
@@ -363,15 +353,10 @@
         placeholder="Filter list"
         style="
           appearance: none;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -397,7 +382,7 @@
       />
       <button style="
         align-items: center;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: transparent;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
@@ -519,15 +504,10 @@
         placeholder="Filter list"
         style="
           appearance: none;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -553,7 +533,7 @@
       />
       <button style="
         align-items: center;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: transparent;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
@@ -690,15 +670,10 @@
         placeholder="Filter list"
         style="
           appearance: none;
-          background-color: initial;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-color: currentcolor;
           border-bottom-style: none;
           border-bottom-width: medium;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          border-image-slice: initial;
-          border-image-source: initial;
-          border-image-width: initial;
           border-left-color: currentcolor;
           border-left-style: none;
           border-left-width: medium;
@@ -727,7 +702,7 @@
       />
       <button style="
         align-items: center;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: transparent;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;

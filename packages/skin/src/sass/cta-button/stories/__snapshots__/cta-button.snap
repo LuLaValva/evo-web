@@ -1,35 +1,39 @@
 ┌─ base @ 1280px
 <div>
-  <a style="
-    align-content: center;
-    align-items: center;
-    background-color: var(--cta-btn-background-color, var(--color-background-primary));
-    border-bottom-color: currentcolor;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-left-color: currentcolor;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-radius: var(--cta-btn-border-radius, 20px);
-    border-right-color: currentcolor;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-top-color: currentcolor;
-    border-top-style: solid;
-    border-top-width: 1px;
-    box-sizing: border-box;
-    color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
-    display: inline-block;
-    font-family: inherit;
-    font-size: var(--font-size-body);
-    max-width: 100%;
-    min-height: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: center;
-    text-decoration-line: none;
-    vertical-align: bottom
-  ">
+  <a
+    href="http://www.ebay.com"
+    style="
+      align-content: center;
+      align-items: center;
+      background-color: var(--cta-btn-background-color, var(--color-background-primary));
+      border-bottom-color: currentcolor;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-left-color: currentcolor;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-radius: var(--cta-btn-border-radius, 20px);
+      border-right-color: currentcolor;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-color: currentcolor;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
+      display: inline-block;
+      font-family: inherit;
+      font-size: var(--font-size-body);
+      max-width: 100%;
+      min-height: 40px;
+      padding-left: 20px;
+      padding-right: 20px;
+      text-align: center;
+      text-decoration-color: rgb(0, 0, 0);
+      text-decoration-line: none;
+      vertical-align: bottom
+    "
+  >
     <span style="
       align-items: center;
       display: flex;
@@ -67,39 +71,43 @@
 
 ┌─ textSpacing @ 1280px
 <div>
-  <a style="
-    align-content: center;
-    align-items: center;
-    background-color: var(--cta-btn-background-color, var(--color-background-primary));
-    border-bottom-color: currentcolor;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-left-color: currentcolor;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-radius: var(--cta-btn-border-radius, 20px);
-    border-right-color: currentcolor;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-top-color: currentcolor;
-    border-top-style: solid;
-    border-top-width: 1px;
-    box-sizing: border-box;
-    color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
-    display: inline-block;
-    font-family: inherit;
-    font-size: var(--font-size-body);
-    letter-spacing: 0.12em;
-    line-height: 1.5;
-    max-width: 100%;
-    min-height: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: center;
-    text-decoration-line: none;
-    vertical-align: bottom;
-    word-spacing: 0.16em
-  ">
+  <a
+    href="http://www.ebay.com"
+    style="
+      align-content: center;
+      align-items: center;
+      background-color: var(--cta-btn-background-color, var(--color-background-primary));
+      border-bottom-color: currentcolor;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-left-color: currentcolor;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-radius: var(--cta-btn-border-radius, 20px);
+      border-right-color: currentcolor;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-color: currentcolor;
+      border-top-style: solid;
+      border-top-width: 1px;
+      box-sizing: border-box;
+      color: var(--cta-btn-foreground-color, var(--color-foreground-primary));
+      display: inline-block;
+      font-family: inherit;
+      font-size: var(--font-size-body);
+      letter-spacing: 0.12em;
+      line-height: 1.5;
+      max-width: 100%;
+      min-height: 40px;
+      padding-left: 20px;
+      padding-right: 20px;
+      text-align: center;
+      text-decoration-color: rgb(0, 0, 0);
+      text-decoration-line: none;
+      vertical-align: bottom;
+      word-spacing: 0.16em
+    "
+  >
     <span style="
       align-items: center;
       display: flex;

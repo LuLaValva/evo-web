@@ -34,7 +34,7 @@
         </div>
         <div style="margin-inline-start: auto">
           <button style="
-            background-color: initial;
+            background-color: rgba(0, 0, 0, 0);
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: 0px;
@@ -105,7 +105,7 @@
         </div>
         <div style="margin-inline-start: auto">
           <button style="
-            background-color: initial;
+            background-color: rgba(0, 0, 0, 0);
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: 0px;
@@ -172,7 +172,7 @@
         </div>
         <div style="margin-inline-start: auto">
           <button style="
-            background-color: initial;
+            background-color: rgba(0, 0, 0, 0);
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: 0px;
@@ -240,7 +240,7 @@
         </div>
         <div style="margin-inline-start: auto">
           <button style="
-            background-color: initial;
+            background-color: rgba(0, 0, 0, 0);
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: 0px;
@@ -268,7 +268,7 @@
           </button>
           |
           <button style="
-            background-color: initial;
+            background-color: rgba(0, 0, 0, 0);
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: 0px;
@@ -339,7 +339,7 @@
         </div>
         <div style="margin-inline-start: auto">
           <button style="
-            background-color: initial;
+            background-color: rgba(0, 0, 0, 0);
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: 0px;
@@ -367,7 +367,7 @@
           </button>
           |
           <button style="
-            background-color: initial;
+            background-color: rgba(0, 0, 0, 0);
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: 0px;
@@ -442,7 +442,7 @@
           margin-top: var(--spacing-200)
         ">
           <button style="
-            background-color: initial;
+            background-color: rgba(0, 0, 0, 0);
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: 0px;
@@ -470,7 +470,7 @@
           </button>
           |
           <button style="
-            background-color: initial;
+            background-color: rgba(0, 0, 0, 0);
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: 0px;
@@ -545,7 +545,7 @@
           margin-top: var(--spacing-200)
         ">
           <button style="
-            background-color: initial;
+            background-color: rgba(0, 0, 0, 0);
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: 0px;
@@ -573,7 +573,7 @@
           </button>
           |
           <button style="
-            background-color: initial;
+            background-color: rgba(0, 0, 0, 0);
             border-bottom-color: currentcolor;
             border-bottom-style: none;
             border-bottom-width: 0px;

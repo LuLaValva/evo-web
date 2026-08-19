@@ -1,6 +1,9 @@
 ┌─ checkboxExpanded
 <div>
-  <span style="position: relative">
+  <span style="
+    line-height: normal;
+    position: relative
+  ">
     <button style="
       align-items: center;
       background-color: var(--color-background-primary);
@@ -43,7 +46,8 @@
         overflow-y: hidden;
         padding: var(--spacing-75) 0;
         text-overflow: ellipsis;
-        text-wrap-mode: nowrap
+        text-wrap-mode: nowrap;
+        white-space-collapse: collapse
       ">
         Sport: (+2)
       </span>
@@ -81,7 +85,6 @@
     ">
       <div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -141,13 +144,13 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Menu Item 1
           </span>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -205,13 +208,13 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Menu Item 2
           </span>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
@@ -270,7 +273,8 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Menu Item 3
           </span>
@@ -282,7 +286,10 @@
 
 ┌─ checkboxExpandedSelected
 <div>
-  <span style="position: relative">
+  <span style="
+    line-height: normal;
+    position: relative
+  ">
     <button style="
       align-items: center;
       animation: fill-horizontal-background 0s var(--motion-easing-quick-enter) forwards;
@@ -327,7 +334,8 @@
         overflow-y: hidden;
         padding: var(--spacing-75) 0;
         text-overflow: ellipsis;
-        text-wrap-mode: nowrap
+        text-wrap-mode: nowrap;
+        white-space-collapse: collapse
       ">
         Sport: (+2)
       </span>
@@ -365,7 +373,6 @@
     ">
       <div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -425,13 +432,13 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Menu Item 1
           </span>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -489,13 +496,13 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Menu Item 2
           </span>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
@@ -554,7 +561,8 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Menu Item 3
           </span>
@@ -566,7 +574,10 @@
 
 ┌─ collapsed
 <div>
-  <span style="position: relative">
+  <span style="
+    line-height: normal;
+    position: relative
+  ">
     <button style="
       align-items: center;
       background-color: var(--color-background-primary);
@@ -609,7 +620,8 @@
         overflow-y: hidden;
         padding: var(--spacing-75) 0;
         text-overflow: ellipsis;
-        text-wrap-mode: nowrap
+        text-wrap-mode: nowrap;
+        white-space-collapse: collapse
       ">
         Sport: (+2)
       </span>
@@ -635,7 +647,10 @@
 
 ┌─ expandedWithFooter
 <div>
-  <span style="position: relative">
+  <span style="
+    line-height: normal;
+    position: relative
+  ">
     <button style="
       align-items: center;
       background-color: var(--color-background-primary);
@@ -678,7 +693,8 @@
         overflow-y: hidden;
         padding: var(--spacing-75) 0;
         text-overflow: ellipsis;
-        text-wrap-mode: nowrap
+        text-wrap-mode: nowrap;
+        white-space-collapse: collapse
       ">
         Sport: (+2)
       </span>
@@ -716,7 +732,6 @@
     ">
       <div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -776,13 +791,13 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Menu Item 1
           </span>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -840,13 +855,13 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Menu Item 2
           </span>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
@@ -905,7 +920,8 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Menu Item 3
           </span>
@@ -916,11 +932,6 @@
         background-color: var(--color-background-elevated);
         border-bottom-width: medium;
         border-color: var(--color-border-subtle);
-        border-image-outset: initial;
-        border-image-repeat: initial;
-        border-image-slice: initial;
-        border-image-source: initial;
-        border-image-width: initial;
         border-left-width: medium;
         border-right-width: medium;
         border-top-style: solid;
@@ -932,19 +943,15 @@
         <button style="
           align-content: center;
           align-items: center;
-          background-color: initial;
-          border-bottom-color: currentcolor;
+          background-color: rgba(0, 0, 0, 0);
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--btn-tertiary-border-color, var(--color-border-medium));
-          border-left-color: currentcolor;
           border-left-style: solid;
           border-left-width: 1px;
           border-radius: var(--btn-border-radius, 20px);
-          border-right-color: currentcolor;
           border-right-style: solid;
           border-right-width: 1px;
-          border-top-color: currentcolor;
           border-top-style: solid;
           border-top-width: 1px;
           color: inherit;
@@ -959,6 +966,7 @@
           padding-right: 20px;
           padding-top: 0px;
           position: relative;
+          text-align: center;
           transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
           vertical-align: bottom
         ">
@@ -983,7 +991,10 @@
 
 ┌─ radioExpanded
 <div>
-  <span style="position: relative">
+  <span style="
+    line-height: normal;
+    position: relative
+  ">
     <button style="
       align-items: center;
       background-color: var(--color-background-primary);
@@ -1026,7 +1037,8 @@
         overflow-y: hidden;
         padding: var(--spacing-75) 0;
         text-overflow: ellipsis;
-        text-wrap-mode: nowrap
+        text-wrap-mode: nowrap;
+        white-space-collapse: collapse
       ">
         Sport: (+2)
       </span>
@@ -1064,7 +1076,6 @@
     ">
       <div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -1124,13 +1135,13 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Menu Item 1
           </span>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -1188,13 +1199,13 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Menu Item 2
           </span>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
@@ -1253,7 +1264,8 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Menu Item 3
           </span>
@@ -1265,7 +1277,10 @@
 
 ┌─ radioExpandedSelected
 <div>
-  <span style="position: relative">
+  <span style="
+    line-height: normal;
+    position: relative
+  ">
     <button style="
       align-items: center;
       animation: fill-horizontal-background 0s var(--motion-easing-quick-enter) forwards;
@@ -1310,7 +1325,8 @@
         overflow-y: hidden;
         padding: var(--spacing-75) 0;
         text-overflow: ellipsis;
-        text-wrap-mode: nowrap
+        text-wrap-mode: nowrap;
+        white-space-collapse: collapse
       ">
         Sport: (+2)
       </span>
@@ -1348,7 +1364,6 @@
     ">
       <div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -1408,13 +1423,13 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Menu Item 1
           </span>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-style: solid;
           border-bottom-width: 1px;
           border-color: var(--menu-button-menuitem-border-color, var(--color-background-primary));
@@ -1472,13 +1487,13 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Menu Item 2
           </span>
         </div>
         <div style="
-          background-color: initial;
           border-bottom-left-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-right-radius: var(--menu-button-menu-border-radius, var(--border-radius-50));
           border-bottom-style: solid;
@@ -1537,7 +1552,8 @@
           <span style="
             flex-grow: 1;
             flex-shrink: 0;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             Menu Item 3
           </span>

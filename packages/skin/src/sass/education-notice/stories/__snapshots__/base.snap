@@ -28,6 +28,7 @@
       <h3 style="
         flex-grow: 1;
         font-size: var(--font-size-medium);
+        font-weight: 700;
         line-height: 1.5em;
         margin-bottom: 0px;
         margin-inline-start: var(--spacing-150);
@@ -37,7 +38,7 @@
       </h3>
       <button style="
         align-items: center;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: transparent;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
@@ -54,7 +55,6 @@
         font-family: inherit;
         height: 32px;
         justify-content: center;
-        margin-inline-start: var(--spacing-150);
         overflow-x: hidden;
         overflow-y: hidden;
         padding-bottom: 0px;
@@ -110,7 +110,7 @@
     </div>
     <div style="margin-top: var(--spacing-200)">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;
@@ -169,6 +169,7 @@
       <h3 style="
         flex-grow: 1;
         font-size: var(--font-size-medium);
+        font-weight: 700;
         line-height: 1.5em;
         margin-bottom: 0px;
         margin-inline-start: var(--spacing-150);
@@ -178,7 +179,7 @@
       </h3>
       <button style="
         align-items: center;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: transparent;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
@@ -195,7 +196,6 @@
         font-family: inherit;
         height: 32px;
         justify-content: center;
-        margin-inline-start: var(--spacing-150);
         overflow-x: hidden;
         overflow-y: hidden;
         padding-bottom: 0px;
@@ -250,12 +250,16 @@
       </p>
     </div>
     <div style="margin-top: var(--spacing-200)">
-      <a style="
-        color: var(--education-notice-foreground-color, var(--color-foreground-primary));
-        font-size: var(--font-size-body);
-        font-weight: 700;
-        text-wrap-mode: nowrap
-      ">
+      <a
+        href="https://www.ebay.com"
+        style="
+          color: var(--education-notice-foreground-color, var(--color-foreground-primary));
+          font-size: var(--font-size-body);
+          font-weight: 700;
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
+        "
+      >
         Learn more link
       </a>
     </div>
@@ -292,6 +296,7 @@
       <h3 style="
         flex-grow: 1;
         font-size: var(--font-size-medium);
+        font-weight: 700;
         line-height: 1.5em;
         margin-bottom: 0px;
         margin-inline-start: var(--spacing-150);
@@ -342,6 +347,7 @@
       <h3 style="
         flex-grow: 1;
         font-size: var(--font-size-medium);
+        font-weight: 700;
         line-height: 1.5em;
         margin-bottom: 0px;
         margin-inline-start: var(--spacing-150);
@@ -351,7 +357,7 @@
       </h3>
       <button style="
         align-items: center;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: transparent;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
@@ -368,7 +374,6 @@
         font-family: inherit;
         height: 32px;
         justify-content: center;
-        margin-inline-start: var(--spacing-150);
         overflow-x: hidden;
         overflow-y: hidden;
         padding-bottom: 0px;
@@ -456,6 +461,7 @@
       <h3 style="
         flex-grow: 1;
         font-size: var(--font-size-medium);
+        font-weight: 700;
         line-height: 1.5em;
         margin-bottom: 0px;
         margin-inline-start: var(--spacing-150);
@@ -506,6 +512,7 @@
       <h3 style="
         flex-grow: 1;
         font-size: var(--font-size-medium);
+        font-weight: 700;
         line-height: 1.5em;
         margin-bottom: 0px;
         margin-inline-start: var(--spacing-150);
@@ -572,6 +579,7 @@
       <h3 style="
         flex-grow: 1;
         font-size: var(--font-size-medium);
+        font-weight: 700;
         letter-spacing: 0.12em;
         line-height: 1.5;
         margin-bottom: 0px;
@@ -583,7 +591,7 @@
       </h3>
       <button style="
         align-items: center;
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: transparent;
         border-bottom-left-radius: 50px;
         border-bottom-right-radius: 50px;
@@ -602,7 +610,6 @@
         justify-content: center;
         letter-spacing: 0.12em;
         line-height: 1.5;
-        margin-inline-start: var(--spacing-150);
         overflow-x: hidden;
         overflow-y: hidden;
         padding-bottom: 0px;
@@ -682,7 +689,7 @@
       word-spacing: 0.16em
     ">
       <button style="
-        background-color: initial;
+        background-color: rgba(0, 0, 0, 0);
         border-bottom-color: currentcolor;
         border-bottom-style: none;
         border-bottom-width: 0px;

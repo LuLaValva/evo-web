@@ -1012,7 +1012,8 @@
           justify-self: center;
           margin-inline-start: var(--spacing-200);
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           <h4 style="
             color: var(--progress-stepper-text-color, var(--color-foreground-primary));
@@ -1100,7 +1101,8 @@
           justify-self: center;
           margin-inline-start: var(--spacing-200);
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           <h4 style="
             color: var(--progress-stepper-text-color, var(--color-foreground-primary));
@@ -1188,7 +1190,8 @@
           justify-self: center;
           margin-inline-start: var(--spacing-200);
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           <h4 style="
             color: var(--progress-stepper-text-color, var(--color-foreground-primary));
@@ -1277,7 +1280,8 @@
           margin-inline-end: var(--spacing-50);
           margin-inline-start: var(--spacing-200);
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           <h4 style="
             color: var(--progress-stepper-text-color, var(--color-foreground-primary));
@@ -1521,6 +1525,7 @@
           <h4 style="
             color: var(--progress-stepper-text-color, var(--color-foreground-primary));
             font-size: var(--font-size-body);
+            font-weight: 700;
             margin-bottom: 0px;
             margin-top: 0px
           ">
@@ -1835,6 +1840,7 @@
           <h4 style="
             color: var(--progress-stepper-text-color, var(--color-foreground-primary));
             font-size: var(--font-size-body);
+            font-weight: 700;
             margin-bottom: 0px;
             margin-top: 0px
           ">
@@ -2066,6 +2072,7 @@
           <h4 style="
             color: var(--progress-stepper-text-color, var(--color-foreground-primary));
             font-size: var(--font-size-body);
+            font-weight: 700;
             margin-bottom: 0px;
             margin-top: 0px
           ">
@@ -2305,6 +2312,7 @@
           <h4 style="
             color: var(--progress-stepper-text-color, var(--color-foreground-primary));
             font-size: var(--font-size-body);
+            font-weight: 700;
             margin-bottom: 0px;
             margin-top: 0px
           ">
@@ -2461,7 +2469,8 @@
           justify-self: center;
           margin-inline-start: var(--spacing-200);
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           <h4 style="
             color: var(--progress-stepper-text-color, var(--color-foreground-primary));
@@ -2548,11 +2557,13 @@
           justify-self: center;
           margin-inline-start: var(--spacing-200);
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           <h4 style="
             color: var(--progress-stepper-text-color, var(--color-foreground-primary));
             font-size: var(--font-size-body);
+            font-weight: 700;
             margin-bottom: 0px;
             margin-top: 0px
           ">
@@ -2637,7 +2648,8 @@
           margin-inline-end: var(--spacing-50);
           margin-inline-start: var(--spacing-200);
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           <h4 style="
             color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
@@ -2717,6 +2729,7 @@
           <h4 style="
             color: var(--progress-stepper-text-color, var(--color-foreground-primary));
             font-size: var(--font-size-body);
+            font-weight: 700;
             margin-bottom: 0px;
             margin-top: 0px
           ">
@@ -3031,6 +3044,7 @@
           <h4 style="
             color: var(--progress-stepper-text-color, var(--color-foreground-primary));
             font-size: var(--font-size-body);
+            font-weight: 700;
             margin-bottom: 0px;
             margin-top: 0px
           ">
@@ -3989,7 +4003,8 @@
           justify-self: center;
           margin-inline-start: var(--spacing-200);
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           <h4 style="
             color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
@@ -4077,7 +4092,8 @@
           justify-self: center;
           margin-inline-start: var(--spacing-200);
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           <h4 style="
             color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
@@ -4165,7 +4181,8 @@
           justify-self: center;
           margin-inline-start: var(--spacing-200);
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           <h4 style="
             color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
@@ -4254,7 +4271,8 @@
           margin-inline-end: var(--spacing-50);
           margin-inline-start: var(--spacing-200);
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           <h4 style="
             color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
@@ -4417,6 +4435,7 @@
             <h4 style="
               color: var(--progress-stepper-text-color, var(--color-foreground-primary));
               font-size: var(--font-size-body);
+              font-weight: 700;
               margin-bottom: 0px;
               margin-top: 0px
             ">
@@ -4644,6 +4663,7 @@
             <h4 style="
               color: var(--progress-stepper-text-color, var(--color-foreground-primary));
               font-size: var(--font-size-body);
+              font-weight: 700;
               margin-bottom: 0px;
               margin-top: 0px
             ">
@@ -4813,6 +4833,7 @@
           <h4 style="
             color: var(--progress-stepper-text-color, var(--color-foreground-primary));
             font-size: var(--font-size-body);
+            font-weight: 700;
             letter-spacing: 0.12em;
             line-height: 1.5;
             margin-bottom: 0px;
@@ -5239,6 +5260,7 @@
           <h4 style="
             color: var(--progress-stepper-text-color, var(--color-foreground-primary));
             font-size: var(--font-size-body);
+            font-weight: 700;
             letter-spacing: 0.12em;
             line-height: 1.5;
             margin-bottom: 0px;
@@ -5638,7 +5660,8 @@
           justify-self: center;
           margin-inline-start: var(--spacing-200);
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           <h3 style="
             color: var(--progress-stepper-text-color, var(--color-foreground-primary));
@@ -5733,11 +5756,13 @@
           justify-self: center;
           margin-inline-start: var(--spacing-200);
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           <h3 style="
             color: var(--progress-stepper-text-color, var(--color-foreground-primary));
             font-size: var(--font-size-body);
+            font-weight: 700;
             margin-bottom: 0px;
             margin-top: 0px
           ">
@@ -5753,8 +5778,6 @@
         </span>
       </div>
       <hr style="
-        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
-        background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
         background: linear-gradient(180deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
         border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
@@ -5823,7 +5846,8 @@
           margin-inline-end: var(--spacing-50);
           margin-inline-start: var(--spacing-200);
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           <h3 style="
             color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
@@ -5902,7 +5926,8 @@
             justify-self: center;
             margin-inline-start: var(--spacing-200);
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <h3 style="
               color: var(--progress-stepper-text-color, var(--color-foreground-primary));
@@ -5998,11 +6023,13 @@
             justify-self: center;
             margin-inline-start: var(--spacing-200);
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <h3 style="
               color: var(--progress-stepper-text-color, var(--color-foreground-primary));
               font-size: var(--font-size-body);
+              font-weight: 700;
               margin-bottom: 0px;
               margin-top: 0px
             ">
@@ -6018,8 +6045,6 @@
           </span>
         </div>
         <hr style="
-          background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
-          background-image: linear-gradient(90deg, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%, var(--progress-stepper-active-color, var(--color-background-accent)) 50%);
           background: linear-gradient(180deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
           border-bottom-color: currentcolor;
           border-bottom-left-radius: 2px;
@@ -6089,7 +6114,8 @@
             margin-inline-end: var(--spacing-50);
             margin-inline-start: var(--spacing-200);
             text-align: right;
-            text-wrap-mode: nowrap
+            text-wrap-mode: nowrap;
+            white-space-collapse: collapse
           ">
             <h3 style="
               color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
@@ -6168,7 +6194,8 @@
           justify-self: center;
           margin-inline-start: var(--spacing-200);
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           <h3 style="
             color: var(--progress-stepper-text-color, var(--color-foreground-primary));
@@ -6249,11 +6276,13 @@
           justify-self: center;
           margin-inline-start: var(--spacing-200);
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           <h3 style="
             color: var(--progress-stepper-text-color, var(--color-foreground-primary));
             font-size: var(--font-size-body);
+            font-weight: 700;
             margin-bottom: 0px;
             margin-top: 0px
           ">
@@ -6262,8 +6291,6 @@
         </span>
       </div>
       <hr style="
-        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
-        background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
         background: linear-gradient(180deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
         border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
@@ -6332,7 +6359,8 @@
           margin-inline-end: var(--spacing-50);
           margin-inline-start: var(--spacing-200);
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           <h3 style="
             color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
@@ -6403,11 +6431,13 @@
           justify-self: center;
           margin-inline-start: var(--spacing-200);
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           <h3 style="
             color: var(--progress-stepper-text-color, var(--color-foreground-primary));
             font-size: var(--font-size-body);
+            font-weight: 700;
             margin-bottom: 0px;
             margin-top: 0px
           ">
@@ -6430,8 +6460,6 @@
         </span>
       </div>
       <hr style="
-        background-color: var(--progress-stepper-upcoming-color, var(--color-background-disabled));
-        background-image: linear-gradient(90deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
         background: linear-gradient(180deg, var(--progress-stepper-active-color, var(--color-background-accent)) 50%, var(--progress-stepper-upcoming-color, var(--color-background-disabled)) 50%);
         border-bottom-color: currentcolor;
         border-bottom-left-radius: 2px;
@@ -6499,7 +6527,8 @@
           justify-self: center;
           margin-inline-start: var(--spacing-200);
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           <h3 style="
             color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));
@@ -6588,7 +6617,8 @@
           margin-inline-end: var(--spacing-50);
           margin-inline-start: var(--spacing-200);
           text-align: left;
-          text-wrap-mode: nowrap
+          text-wrap-mode: nowrap;
+          white-space-collapse: collapse
         ">
           <h3 style="
             color: var(--progress-stepper-text-light-color, var(--color-foreground-secondary));

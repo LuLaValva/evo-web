@@ -36,6 +36,7 @@
       overflow-y: hidden;
       padding: 0 var(--spacing-200);
       position: relative;
+      text-align: center;
       vertical-align: bottom
     ">
       <style>@scope{:scope{
@@ -57,51 +58,56 @@
         overflow-y: hidden;
         pointer-events: none;
         text-overflow: ellipsis;
-        text-wrap-mode: nowrap
+        text-wrap-mode: nowrap;
+        white-space-collapse: collapse
       ">
         <span>
           Button
         </span>
       </span>
     </button>
-    <a style="
-      align-items: center;
-      background-color: var(--color-background-secondary);
-      border-bottom-color: transparent;
-      border-bottom-left-radius: 16px;
-      border-bottom-right-radius: 16px;
-      border-bottom-style: solid;
-      border-bottom-width: 1px;
-      border-left-color: transparent;
-      border-left-style: solid;
-      border-left-width: 1px;
-      border-right-color: transparent;
-      border-right-style: solid;
-      border-right-width: 1px;
-      border-top-color: transparent;
-      border-top-left-radius: 16px;
-      border-top-right-radius: 16px;
-      border-top-style: solid;
-      border-top-width: 1px;
-      box-sizing: border-box;
-      color: var(--color-foreground-primary);
-      display: inline-flex;
-      flex-direction: column;
-      font-family: inherit;
-      font-size: var(--font-size-body);
-      height: 32px;
-      justify-content: center;
-      margin-left: 8px;
-      max-width: 280px;
-      min-width: 56px;
-      overflow-x: hidden;
-      overflow-y: hidden;
-      padding: 0 var(--spacing-200);
-      position: relative;
-      text-align: center;
-      text-decoration-line: none;
-      vertical-align: bottom
-    ">
+    <a
+      href="http://www.ebay.com"
+      style="
+        align-items: center;
+        background-color: var(--color-background-secondary);
+        border-bottom-color: transparent;
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-top-color: transparent;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+        border-top-style: solid;
+        border-top-width: 1px;
+        box-sizing: border-box;
+        color: var(--color-foreground-primary);
+        display: inline-flex;
+        flex-direction: column;
+        font-family: inherit;
+        font-size: var(--font-size-body);
+        height: 32px;
+        justify-content: center;
+        margin-left: 8px;
+        max-width: 280px;
+        min-width: 56px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        padding: 0 var(--spacing-200);
+        position: relative;
+        text-align: center;
+        text-decoration-color: rgb(0, 0, 0);
+        text-decoration-line: none;
+        vertical-align: bottom
+      "
+    >
       <style>@scope{:scope{
         &::after {
           background-color: var(--color-state-layer-neutral);
@@ -121,7 +127,8 @@
         overflow-y: hidden;
         pointer-events: none;
         text-overflow: ellipsis;
-        text-wrap-mode: nowrap
+        text-wrap-mode: nowrap;
+        white-space-collapse: collapse
       ">
         Link
       </span>

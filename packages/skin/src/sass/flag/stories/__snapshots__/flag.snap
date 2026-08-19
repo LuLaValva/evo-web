@@ -10,7 +10,10 @@
   ">
     <use href="#flag-us"/>
   </svg>
-  <a style="color: var(--color-foreground-link-primary)">
+  <a
+    href="http://www.ebay.com"
+    style="color: var(--color-foreground-link-primary)"
+  >
     <span style="vertical-align: middle">
       United States of America
     </span>
@@ -38,7 +41,10 @@
 
 ┌─ insideLink
 <div>
-  <a style="color: var(--color-foreground-link-primary)">
+  <a
+    href="http://www.ebay.com"
+    style="color: var(--color-foreground-link-primary)"
+  >
     <svg style="
       display: inline-block;
       max-height: 48px;

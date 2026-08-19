@@ -52,7 +52,8 @@
           display: flex;
           flex-wrap: wrap;
           overflow-wrap: anywhere;
-          padding: var(--spacing-200)
+          padding: var(--spacing-200);
+          word-break: normal
         ">
           <span style="
             flex-basis: 0px;
@@ -60,6 +61,7 @@
           ">
             <h2 style="
               font-size: var(--font-size-large-1);
+              font-weight: 700;
               margin: 0 0 var(--spacing-100)
             ">
               Tourtip
@@ -74,6 +76,9 @@
           <button style="
             align-items: center;
             align-self: flex-start;
+            background-color: rgba(0, 0, 0, 0);
+            background-position-x: initial;
+            background-position-y: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
@@ -106,6 +111,7 @@
             position: relative;
             text-wrap-mode: nowrap;
             vertical-align: text-bottom;
+            white-space-collapse: collapse;
             width: 32px
           ">
             <style>@scope{:scope{
@@ -191,7 +197,8 @@
           display: flex;
           flex-wrap: wrap;
           overflow-wrap: anywhere;
-          padding: var(--spacing-200)
+          padding: var(--spacing-200);
+          word-break: normal
         ">
           <span style="
             flex-basis: 0px;
@@ -199,6 +206,7 @@
           ">
             <h2 style="
               font-size: var(--font-size-large-1);
+              font-weight: 700;
               margin: 0 0 var(--spacing-100)
             ">
               Tourtip
@@ -213,6 +221,9 @@
           <button style="
             align-items: center;
             align-self: flex-start;
+            background-color: rgba(0, 0, 0, 0);
+            background-position-x: initial;
+            background-position-y: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
@@ -245,6 +256,7 @@
             position: relative;
             text-wrap-mode: nowrap;
             vertical-align: text-bottom;
+            white-space-collapse: collapse;
             width: 32px
           ">
             <style>@scope{:scope{
@@ -349,6 +361,7 @@
           line-height: 1.5;
           overflow-wrap: anywhere;
           padding: var(--spacing-200);
+          word-break: normal;
           word-spacing: 0.16em
         ">
           <span style="
@@ -360,6 +373,7 @@
           ">
             <h2 style="
               font-size: var(--font-size-large-1);
+              font-weight: 700;
               letter-spacing: 0.12em;
               line-height: 1.5;
               margin: 0 0 var(--spacing-100);
@@ -380,6 +394,9 @@
           <button style="
             align-items: center;
             align-self: flex-start;
+            background-color: rgba(0, 0, 0, 0);
+            background-position-x: initial;
+            background-position-y: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
@@ -414,6 +431,7 @@
             position: relative;
             text-wrap-mode: nowrap;
             vertical-align: text-bottom;
+            white-space-collapse: collapse;
             width: 32px;
             word-spacing: 0.16em
           ">
@@ -532,6 +550,7 @@
           line-height: 1.5;
           overflow-wrap: anywhere;
           padding: var(--spacing-200);
+          word-break: normal;
           word-spacing: 0.16em
         ">
           <span style="
@@ -543,6 +562,7 @@
           ">
             <h2 style="
               font-size: var(--font-size-large-1);
+              font-weight: 700;
               letter-spacing: 0.12em;
               line-height: 1.5;
               margin: 0 0 var(--spacing-100);
@@ -563,6 +583,9 @@
           <button style="
             align-items: center;
             align-self: flex-start;
+            background-color: rgba(0, 0, 0, 0);
+            background-position-x: initial;
+            background-position-y: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
@@ -597,6 +620,7 @@
             position: relative;
             text-wrap-mode: nowrap;
             vertical-align: text-bottom;
+            white-space-collapse: collapse;
             width: 32px;
             word-spacing: 0.16em
           ">
@@ -690,7 +714,8 @@
           display: flex;
           flex-wrap: wrap;
           overflow-wrap: anywhere;
-          padding: var(--spacing-200)
+          padding: var(--spacing-200);
+          word-break: normal
         ">
           <span style="
             flex-basis: 0px;
@@ -698,6 +723,7 @@
           ">
             <h2 style="
               font-size: var(--font-size-large-1);
+              font-weight: 700;
               margin: 0 0 var(--spacing-100)
             ">
               Tourtip
@@ -712,6 +738,9 @@
           <button style="
             align-items: center;
             align-self: flex-start;
+            background-color: rgba(0, 0, 0, 0);
+            background-position-x: initial;
+            background-position-y: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
@@ -744,6 +773,7 @@
             position: relative;
             text-wrap-mode: nowrap;
             vertical-align: text-bottom;
+            white-space-collapse: collapse;
             width: 32px
           ">
             <style>@scope{:scope{
@@ -795,7 +825,7 @@
               1 of 3
             </span>
             <button style="
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: currentcolor;
               border-bottom-style: none;
               border-bottom-width: 0px;
@@ -823,18 +853,14 @@
               align-content: center;
               align-items: center;
               background-color: var(--tourtip-background-color, var(--color-foreground-on-inverse));
-              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-color: var(--color-border-accent);
-              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
               border-radius: var(--btn-border-radius, 20px);
-              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
-              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               color: var(--tourtip-foreground-color, var(--color-background-inverse));
@@ -850,6 +876,7 @@
               padding-right: 20px;
               padding-top: 0px;
               position: relative;
+              text-align: center;
               transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
               vertical-align: bottom
             ">
@@ -916,7 +943,8 @@
           display: flex;
           flex-wrap: wrap;
           overflow-wrap: anywhere;
-          padding: var(--spacing-200)
+          padding: var(--spacing-200);
+          word-break: normal
         ">
           <span style="
             flex-basis: 0px;
@@ -924,6 +952,7 @@
           ">
             <h2 style="
               font-size: var(--font-size-large-1);
+              font-weight: 700;
               margin: 0 0 var(--spacing-100)
             ">
               Tourtip
@@ -938,6 +967,9 @@
           <button style="
             align-items: center;
             align-self: flex-start;
+            background-color: rgba(0, 0, 0, 0);
+            background-position-x: initial;
+            background-position-y: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
@@ -970,6 +1002,7 @@
             position: relative;
             text-wrap-mode: nowrap;
             vertical-align: text-bottom;
+            white-space-collapse: collapse;
             width: 32px
           ">
             <style>@scope{:scope{
@@ -1021,7 +1054,7 @@
               1 of 3
             </span>
             <button style="
-              background-color: initial;
+              background-color: rgba(0, 0, 0, 0);
               border-bottom-color: currentcolor;
               border-bottom-style: none;
               border-bottom-width: 0px;
@@ -1049,18 +1082,14 @@
               align-content: center;
               align-items: center;
               background-color: var(--tourtip-background-color, var(--color-foreground-on-inverse));
-              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-color: var(--color-border-accent);
-              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
               border-radius: var(--btn-border-radius, 20px);
-              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
-              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               color: var(--tourtip-foreground-color, var(--color-background-inverse));
@@ -1076,6 +1105,7 @@
               padding-right: 20px;
               padding-top: 0px;
               position: relative;
+              text-align: center;
               transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
               vertical-align: bottom
             ">
@@ -1139,7 +1169,8 @@
           display: flex;
           flex-wrap: wrap;
           overflow-wrap: anywhere;
-          padding: var(--spacing-200)
+          padding: var(--spacing-200);
+          word-break: normal
         ">
           <span style="
             flex-basis: 0px;
@@ -1147,6 +1178,7 @@
           ">
             <h2 style="
               font-size: var(--font-size-large-1);
+              font-weight: 700;
               margin: 0 0 var(--spacing-100)
             ">
               Tourtip
@@ -1161,6 +1193,9 @@
           <button style="
             align-items: center;
             align-self: flex-start;
+            background-color: rgba(0, 0, 0, 0);
+            background-position-x: initial;
+            background-position-y: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
@@ -1193,6 +1228,7 @@
             position: relative;
             text-wrap-mode: nowrap;
             vertical-align: text-bottom;
+            white-space-collapse: collapse;
             width: 32px
           ">
             <style>@scope{:scope{
@@ -1247,18 +1283,14 @@
               align-content: center;
               align-items: center;
               background-color: var(--tourtip-background-color, var(--color-foreground-on-inverse));
-              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-color: var(--color-border-accent);
-              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
               border-radius: var(--btn-border-radius, 20px);
-              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
-              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               color: var(--tourtip-foreground-color, var(--color-background-inverse));
@@ -1274,6 +1306,7 @@
               padding-right: 20px;
               padding-top: 0px;
               position: relative;
+              text-align: center;
               transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
               vertical-align: bottom
             ">
@@ -1340,7 +1373,8 @@
           display: flex;
           flex-wrap: wrap;
           overflow-wrap: anywhere;
-          padding: var(--spacing-200)
+          padding: var(--spacing-200);
+          word-break: normal
         ">
           <span style="
             flex-basis: 0px;
@@ -1348,6 +1382,7 @@
           ">
             <h2 style="
               font-size: var(--font-size-large-1);
+              font-weight: 700;
               margin: 0 0 var(--spacing-100)
             ">
               Tourtip
@@ -1362,6 +1397,9 @@
           <button style="
             align-items: center;
             align-self: flex-start;
+            background-color: rgba(0, 0, 0, 0);
+            background-position-x: initial;
+            background-position-y: initial;
             border-bottom-color: currentcolor;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
@@ -1394,6 +1432,7 @@
             position: relative;
             text-wrap-mode: nowrap;
             vertical-align: text-bottom;
+            white-space-collapse: collapse;
             width: 32px
           ">
             <style>@scope{:scope{
@@ -1448,18 +1487,14 @@
               align-content: center;
               align-items: center;
               background-color: var(--tourtip-background-color, var(--color-foreground-on-inverse));
-              border-bottom-color: currentcolor;
               border-bottom-style: solid;
               border-bottom-width: 1px;
               border-color: var(--color-border-accent);
-              border-left-color: currentcolor;
               border-left-style: solid;
               border-left-width: 1px;
               border-radius: var(--btn-border-radius, 20px);
-              border-right-color: currentcolor;
               border-right-style: solid;
               border-right-width: 1px;
-              border-top-color: currentcolor;
               border-top-style: solid;
               border-top-width: 1px;
               color: var(--tourtip-foreground-color, var(--color-background-inverse));
@@ -1475,6 +1510,7 @@
               padding-right: 20px;
               padding-top: 0px;
               position: relative;
+              text-align: center;
               transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
               vertical-align: bottom
             ">

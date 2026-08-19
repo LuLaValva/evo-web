@@ -44,7 +44,6 @@
       ">
         <style>@scope{:scope{
           &::after {
-            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;
@@ -70,7 +69,6 @@
       ">
         <style>@scope{:scope{
           &::after {
-            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;
@@ -145,7 +143,6 @@
       ">
         <style>@scope{:scope{
           &::after {
-            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;
@@ -171,7 +168,6 @@
       ">
         <style>@scope{:scope{
           &::after {
-            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;
@@ -197,7 +193,6 @@
       ">
         <style>@scope{:scope{
           &::after {
-            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;
@@ -273,7 +268,6 @@
       ">
         <style>@scope{:scope{
           &::after {
-            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;
@@ -299,7 +293,6 @@
       ">
         <style>@scope{:scope{
           &::after {
-            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;
@@ -325,7 +318,6 @@
       ">
         <style>@scope{:scope{
           &::after {
-            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;
@@ -400,7 +392,6 @@
       ">
         <style>@scope{:scope{
           &::after {
-            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;
@@ -426,7 +417,6 @@
       ">
         <style>@scope{:scope{
           &::after {
-            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;
@@ -521,7 +511,6 @@
       ">
         <style>@scope{:scope{
           &::after {
-            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;
@@ -554,7 +543,6 @@
       ">
         <style>@scope{:scope{
           &::after {
-            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;
@@ -587,7 +575,6 @@
       ">
         <style>@scope{:scope{
           &::after {
-            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;
@@ -684,7 +671,6 @@
       ">
         <style>@scope{:scope{
           &::after {
-            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;
@@ -710,7 +696,6 @@
       ">
         <style>@scope{:scope{
           &::after {
-            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;
@@ -785,7 +770,6 @@
       ">
         <style>@scope{:scope{
           &::after {
-            background-color: initial;
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
             border-top-left-radius: 6px;

@@ -6,6 +6,8 @@
       flex-wrap: wrap;
       font-size: var(--font-size-body);
       gap: var(--spacing-50);
+      list-style-image: none;
+      list-style-position: outside;
       list-style-type: none;
       margin-bottom: 0px;
       margin-inline-start: calc(0px - var(--spacing-200));
@@ -17,12 +19,16 @@
         display: inline-block;
         position: relative
       ">
-        <a style="
-          color: var(--tabs-item-selected-foreground-color, var(--color-foreground-primary));
-          display: inline-block;
-          padding: var(--spacing-150) var(--spacing-200);
-          text-decoration-line: none
-        ">
+        <a
+          href="http://www.ebay.com"
+          style="
+            color: var(--tabs-item-selected-foreground-color, var(--color-foreground-primary));
+            display: inline-block;
+            padding: var(--spacing-150) var(--spacing-200);
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none
+          "
+        >
           <style>@scope{:scope{
             &::after {
               background-color: currentcolor;
@@ -49,6 +55,7 @@
             overflow-y: hidden;
             position: absolute;
             text-wrap-mode: nowrap;
+            white-space-collapse: collapse;
             width: 1px
           ">
             - selected
@@ -60,15 +67,18 @@
         display: inline-block;
         position: relative
       ">
-        <a style="
-          color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
-          display: inline-block;
-          padding: var(--spacing-150) var(--spacing-200);
-          text-decoration-line: none
-        ">
+        <a
+          href="http://www.ebay.com"
+          style="
+            color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
+            display: inline-block;
+            padding: var(--spacing-150) var(--spacing-200);
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 6px;
               border-bottom-right-radius: 6px;
               border-top-left-radius: 6px;
@@ -88,15 +98,18 @@
         display: inline-block;
         position: relative
       ">
-        <a style="
-          color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
-          display: inline-block;
-          padding: var(--spacing-150) var(--spacing-200);
-          text-decoration-line: none
-        ">
+        <a
+          href="http://www.ebay.com"
+          style="
+            color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
+            display: inline-block;
+            padding: var(--spacing-150) var(--spacing-200);
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 6px;
               border-bottom-right-radius: 6px;
               border-top-left-radius: 6px;
@@ -116,15 +129,18 @@
         display: inline-block;
         position: relative
       ">
-        <a style="
-          color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
-          display: inline-block;
-          padding: var(--spacing-150) var(--spacing-200);
-          text-decoration-line: none
-        ">
+        <a
+          href="http://www.ebay.com"
+          style="
+            color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
+            display: inline-block;
+            padding: var(--spacing-150) var(--spacing-200);
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 6px;
               border-bottom-right-radius: 6px;
               border-top-left-radius: 6px;
@@ -158,6 +174,8 @@
       flex-wrap: wrap;
       font-size: var(--font-size-body);
       gap: var(--spacing-50);
+      list-style-image: none;
+      list-style-position: outside;
       list-style-type: none;
       margin-bottom: 0px;
       margin-inline-start: calc(0px - var(--spacing-200));
@@ -169,12 +187,16 @@
         display: inline-block;
         position: relative
       ">
-        <a style="
-          color: var(--tabs-item-selected-foreground-color, var(--color-foreground-primary));
-          display: inline-block;
-          padding: var(--spacing-150) var(--spacing-200);
-          text-decoration-line: none
-        ">
+        <a
+          href="http://www.ebay.com"
+          style="
+            color: var(--tabs-item-selected-foreground-color, var(--color-foreground-primary));
+            display: inline-block;
+            padding: var(--spacing-150) var(--spacing-200);
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none
+          "
+        >
           <style>@scope{:scope{
             &::after {
               background-color: currentcolor;
@@ -201,6 +223,7 @@
             overflow-y: hidden;
             position: absolute;
             text-wrap-mode: nowrap;
+            white-space-collapse: collapse;
             width: 1px
           ">
             - selected
@@ -212,15 +235,18 @@
         display: inline-block;
         position: relative
       ">
-        <a style="
-          color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
-          display: inline-block;
-          padding: var(--spacing-150) var(--spacing-200);
-          text-decoration-line: none
-        ">
+        <a
+          href="http://www.ebay.com"
+          style="
+            color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
+            display: inline-block;
+            padding: var(--spacing-150) var(--spacing-200);
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 6px;
               border-bottom-right-radius: 6px;
               border-top-left-radius: 6px;
@@ -240,15 +266,18 @@
         display: inline-block;
         position: relative
       ">
-        <a style="
-          color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
-          display: inline-block;
-          padding: var(--spacing-150) var(--spacing-200);
-          text-decoration-line: none
-        ">
+        <a
+          href="http://www.ebay.com"
+          style="
+            color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
+            display: inline-block;
+            padding: var(--spacing-150) var(--spacing-200);
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 6px;
               border-bottom-right-radius: 6px;
               border-top-left-radius: 6px;
@@ -282,6 +311,8 @@
       flex-wrap: wrap;
       font-size: var(--font-size-body);
       gap: var(--spacing-50);
+      list-style-image: none;
+      list-style-position: outside;
       list-style-type: none;
       margin-bottom: 0px;
       margin-inline-start: calc(0px - var(--spacing-200));
@@ -293,12 +324,16 @@
         display: inline-block;
         position: relative
       ">
-        <a style="
-          color: var(--tabs-item-selected-foreground-color, var(--color-foreground-primary));
-          display: inline-block;
-          padding: var(--spacing-150) var(--spacing-200);
-          text-decoration-line: none
-        ">
+        <a
+          href="http://www.ebay.com"
+          style="
+            color: var(--tabs-item-selected-foreground-color, var(--color-foreground-primary));
+            display: inline-block;
+            padding: var(--spacing-150) var(--spacing-200);
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none
+          "
+        >
           <style>@scope{:scope{
             &::after {
               background-color: currentcolor;
@@ -325,6 +360,7 @@
             overflow-y: hidden;
             position: absolute;
             text-wrap-mode: nowrap;
+            white-space-collapse: collapse;
             width: 1px
           ">
             - current page
@@ -336,15 +372,18 @@
         display: inline-block;
         position: relative
       ">
-        <a style="
-          color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
-          display: inline-block;
-          padding: var(--spacing-150) var(--spacing-200);
-          text-decoration-line: none
-        ">
+        <a
+          href="http://www.ebay.com"
+          style="
+            color: var(--tabs-item-foreground-color, var(--color-foreground-secondary));
+            display: inline-block;
+            padding: var(--spacing-150) var(--spacing-200);
+            text-decoration-color: rgb(0, 0, 0);
+            text-decoration-line: none
+          "
+        >
           <style>@scope{:scope{
             &::after {
-              background-color: initial;
               border-bottom-left-radius: 6px;
               border-bottom-right-radius: 6px;
               border-top-left-radius: 6px;

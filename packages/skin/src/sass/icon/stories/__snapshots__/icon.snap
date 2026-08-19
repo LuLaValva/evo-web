@@ -12,7 +12,10 @@
   ">
     <use href="#icon-external-link-24"/>
   </svg>
-  <a style="color: var(--color-foreground-link-primary)">
+  <a
+    href="http://www.ebay.com"
+    style="color: var(--color-foreground-link-primary)"
+  >
     <span style="vertical-align: middle">
       There was an error with your payment. Please try again.
     </span>
@@ -42,7 +45,10 @@
 
 ┌─ insideLink
 <div>
-  <a style="color: var(--color-foreground-link-primary)">
+  <a
+    href="http://www.ebay.com"
+    style="color: var(--color-foreground-link-primary)"
+  >
     <svg style="
       display: inline-block;
       fill: currentcolor;

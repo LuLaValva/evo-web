@@ -789,7 +789,7 @@
     ">
       <span style="
         font-size: var(--font-size-medium);
-        font-weight: 700;
+        font-weight: 400;
         line-height: var(--font-size-large-2);
         margin-bottom: auto;
         margin-top: auto;
