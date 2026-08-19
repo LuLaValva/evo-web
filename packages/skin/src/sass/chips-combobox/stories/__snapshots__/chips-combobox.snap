@@ -79,7 +79,6 @@
               style="
                 display: inline-block;
                 fill: var(--color-foreground-disabled);
-                height: 12px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
@@ -154,7 +153,6 @@
               style="
                 display: inline-block;
                 fill: var(--color-foreground-disabled);
-                height: 12px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
@@ -229,7 +227,6 @@
               style="
                 display: inline-block;
                 fill: var(--color-foreground-disabled);
-                height: 12px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
@@ -260,22 +257,27 @@
             appearance: none;
             background-color: var(--combobox-textbox-disabled-background-color, var(--color-background-secondary));
             border-bottom-color: currentcolor;
+            border-bottom-style: none;
             border-bottom-width: medium;
             border-left-color: currentcolor;
+            border-left-style: none;
             border-left-width: medium;
             border-right-color: currentcolor;
+            border-right-style: none;
             border-right-width: medium;
             border-top-color: currentcolor;
+            border-top-style: none;
             border-top-width: medium;
+            box-sizing: border-box;
             color: var(--color-foreground-disabled);
             font-family: inherit;
             font-size: inherit;
             height: auto;
-            margin-left: 0px;
-            margin-right: 0px;
             margin: 0 var(--spacing-100);
+            padding-bottom: 0px;
             padding-left: 16px;
             padding-right: 32px;
+            padding-top: 0px;
             padding: var(--spacing-75) 0;
             width: calc(100% - var(--spacing-200))
           "
@@ -366,7 +368,6 @@
               style="
                 display: inline-block;
                 fill: var(--color-foreground-disabled);
-                height: 12px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
@@ -441,7 +442,6 @@
               style="
                 display: inline-block;
                 fill: var(--color-foreground-disabled);
-                height: 12px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
@@ -516,7 +516,6 @@
               style="
                 display: inline-block;
                 fill: var(--color-foreground-disabled);
-                height: 12px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
@@ -547,22 +546,27 @@
             appearance: none;
             background-color: var(--combobox-textbox-disabled-background-color, var(--color-background-secondary));
             border-bottom-color: currentcolor;
+            border-bottom-style: none;
             border-bottom-width: medium;
             border-left-color: currentcolor;
+            border-left-style: none;
             border-left-width: medium;
             border-right-color: currentcolor;
+            border-right-style: none;
             border-right-width: medium;
             border-top-color: currentcolor;
+            border-top-style: none;
             border-top-width: medium;
+            box-sizing: border-box;
             color: var(--color-foreground-disabled);
             font-family: inherit;
             font-size: inherit;
             height: auto;
-            margin-left: 0px;
-            margin-right: 0px;
             margin: 0 var(--spacing-100);
+            padding-bottom: 0px;
             padding-left: 32px;
             padding-right: 16px;
+            padding-top: 0px;
             padding: var(--spacing-75) 0;
             width: calc(100% - var(--spacing-200))
           "
@@ -597,22 +601,27 @@
             appearance: none;
             background-color: inherit;
             border-bottom-color: currentcolor;
+            border-bottom-style: none;
             border-bottom-width: medium;
             border-left-color: currentcolor;
+            border-left-style: none;
             border-left-width: medium;
             border-right-color: currentcolor;
+            border-right-style: none;
             border-right-width: medium;
             border-top-color: currentcolor;
+            border-top-style: none;
             border-top-width: medium;
+            box-sizing: border-box;
             color: var(--combobox-textbox-foreground-color, var(--color-foreground-primary));
             font-family: inherit;
             font-size: inherit;
             height: auto;
-            margin-left: 0px;
-            margin-right: 0px;
             margin: 0 var(--spacing-100);
+            padding-bottom: 0px;
             padding-left: 16px;
             padding-right: 32px;
+            padding-top: 0px;
             padding: var(--spacing-75) 0;
             width: calc(100% - var(--spacing-200))
           "
@@ -705,7 +714,6 @@
               style="
                 display: inline-block;
                 fill: currentcolor;
-                height: 12px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
@@ -780,7 +788,6 @@
               style="
                 display: inline-block;
                 fill: currentcolor;
-                height: 12px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
@@ -855,7 +862,6 @@
               style="
                 display: inline-block;
                 fill: currentcolor;
-                height: 12px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
@@ -885,22 +891,27 @@
             appearance: none;
             background-color: inherit;
             border-bottom-color: currentcolor;
+            border-bottom-style: none;
             border-bottom-width: medium;
             border-left-color: currentcolor;
+            border-left-style: none;
             border-left-width: medium;
             border-right-color: currentcolor;
+            border-right-style: none;
             border-right-width: medium;
             border-top-color: currentcolor;
+            border-top-style: none;
             border-top-width: medium;
+            box-sizing: border-box;
             color: var(--combobox-textbox-foreground-color, var(--color-foreground-primary));
             font-family: inherit;
             font-size: inherit;
             height: auto;
-            margin-left: 0px;
-            margin-right: 0px;
             margin: 0 var(--spacing-100);
+            padding-bottom: 0px;
             padding-left: 16px;
             padding-right: 32px;
+            padding-top: 0px;
             padding: var(--spacing-75) 0;
             width: calc(100% - var(--spacing-200))
           "
@@ -994,7 +1005,6 @@
               style="
                 display: inline-block;
                 fill: currentcolor;
-                height: 12px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
@@ -1069,7 +1079,6 @@
               style="
                 display: inline-block;
                 fill: currentcolor;
-                height: 12px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
@@ -1144,7 +1153,6 @@
               style="
                 display: inline-block;
                 fill: currentcolor;
-                height: 12px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
@@ -1174,22 +1182,27 @@
             appearance: none;
             background-color: inherit;
             border-bottom-color: currentcolor;
+            border-bottom-style: none;
             border-bottom-width: medium;
             border-left-color: currentcolor;
+            border-left-style: none;
             border-left-width: medium;
             border-right-color: currentcolor;
+            border-right-style: none;
             border-right-width: medium;
             border-top-color: currentcolor;
+            border-top-style: none;
             border-top-width: medium;
+            box-sizing: border-box;
             color: var(--combobox-textbox-foreground-color, var(--color-foreground-primary));
             font-family: inherit;
             font-size: inherit;
             height: auto;
-            margin-left: 0px;
-            margin-right: 0px;
             margin: 0 var(--spacing-100);
+            padding-bottom: 0px;
             padding-left: 16px;
             padding-right: 32px;
+            padding-top: 0px;
             padding: var(--spacing-75) 0;
             width: calc(100% - var(--spacing-200))
           "
@@ -1360,22 +1373,27 @@
             appearance: none;
             background-color: inherit;
             border-bottom-color: currentcolor;
+            border-bottom-style: none;
             border-bottom-width: medium;
             border-left-color: currentcolor;
+            border-left-style: none;
             border-left-width: medium;
             border-right-color: currentcolor;
+            border-right-style: none;
             border-right-width: medium;
             border-top-color: currentcolor;
+            border-top-style: none;
             border-top-width: medium;
+            box-sizing: border-box;
             color: var(--combobox-textbox-foreground-color, var(--color-foreground-primary));
             font-family: inherit;
             font-size: inherit;
             height: auto;
-            margin-left: 0px;
-            margin-right: 0px;
             margin: 0 var(--spacing-100);
+            padding-bottom: 0px;
             padding-left: 16px;
             padding-right: 32px;
+            padding-top: 0px;
             padding: var(--spacing-75) 0;
             width: calc(100% - var(--spacing-200))
           "
@@ -1469,7 +1487,6 @@
               style="
                 display: inline-block;
                 fill: currentcolor;
-                height: 12px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
@@ -1544,7 +1561,6 @@
               style="
                 display: inline-block;
                 fill: currentcolor;
-                height: 12px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
@@ -1619,7 +1635,6 @@
               style="
                 display: inline-block;
                 fill: currentcolor;
-                height: 12px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
@@ -1694,7 +1709,6 @@
               style="
                 display: inline-block;
                 fill: currentcolor;
-                height: 12px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
@@ -1769,7 +1783,6 @@
               style="
                 display: inline-block;
                 fill: currentcolor;
-                height: 12px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
@@ -1844,7 +1857,6 @@
               style="
                 display: inline-block;
                 fill: currentcolor;
-                height: 12px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
@@ -1919,7 +1931,6 @@
               style="
                 display: inline-block;
                 fill: currentcolor;
-                height: 12px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
@@ -1994,7 +2005,6 @@
               style="
                 display: inline-block;
                 fill: currentcolor;
-                height: 12px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
@@ -2069,7 +2079,6 @@
               style="
                 display: inline-block;
                 fill: currentcolor;
-                height: 12px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
@@ -2144,7 +2153,6 @@
               style="
                 display: inline-block;
                 fill: currentcolor;
-                height: 12px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
@@ -2219,7 +2227,6 @@
               style="
                 display: inline-block;
                 fill: currentcolor;
-                height: 12px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
@@ -2294,7 +2301,6 @@
               style="
                 display: inline-block;
                 fill: currentcolor;
-                height: 12px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
@@ -2369,7 +2375,6 @@
               style="
                 display: inline-block;
                 fill: currentcolor;
-                height: 12px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
@@ -2444,7 +2449,6 @@
               style="
                 display: inline-block;
                 fill: currentcolor;
-                height: 12px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
@@ -2519,7 +2523,6 @@
               style="
                 display: inline-block;
                 fill: currentcolor;
-                height: 12px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
@@ -2549,22 +2552,27 @@
             appearance: none;
             background-color: inherit;
             border-bottom-color: currentcolor;
+            border-bottom-style: none;
             border-bottom-width: medium;
             border-left-color: currentcolor;
+            border-left-style: none;
             border-left-width: medium;
             border-right-color: currentcolor;
+            border-right-style: none;
             border-right-width: medium;
             border-top-color: currentcolor;
+            border-top-style: none;
             border-top-width: medium;
+            box-sizing: border-box;
             color: var(--combobox-textbox-foreground-color, var(--color-foreground-primary));
             font-family: inherit;
             font-size: inherit;
             height: auto;
-            margin-left: 0px;
-            margin-right: 0px;
             margin: 0 var(--spacing-100);
+            padding-bottom: 0px;
             padding-left: 16px;
             padding-right: 32px;
+            padding-top: 0px;
             padding: var(--spacing-75) 0;
             width: calc(100% - var(--spacing-200))
           "
@@ -2658,7 +2666,6 @@
               style="
                 display: inline-block;
                 fill: currentcolor;
-                height: 12px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
@@ -2733,7 +2740,6 @@
               style="
                 display: inline-block;
                 fill: currentcolor;
-                height: 12px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
@@ -2808,7 +2814,6 @@
               style="
                 display: inline-block;
                 fill: currentcolor;
-                height: 12px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
@@ -2838,22 +2843,27 @@
             appearance: none;
             background-color: inherit;
             border-bottom-color: currentcolor;
+            border-bottom-style: none;
             border-bottom-width: medium;
             border-left-color: currentcolor;
+            border-left-style: none;
             border-left-width: medium;
             border-right-color: currentcolor;
+            border-right-style: none;
             border-right-width: medium;
             border-top-color: currentcolor;
+            border-top-style: none;
             border-top-width: medium;
+            box-sizing: border-box;
             color: var(--combobox-textbox-foreground-color, var(--color-foreground-primary));
             font-family: inherit;
             font-size: inherit;
             height: auto;
-            margin-left: 0px;
-            margin-right: 0px;
             margin: 0 var(--spacing-100);
+            padding-bottom: 0px;
             padding-left: 16px;
             padding-right: 32px;
+            padding-top: 0px;
             padding: var(--spacing-75) 0;
             width: calc(100% - var(--spacing-200))
           "
@@ -2966,7 +2976,6 @@
               style="
                 display: inline-block;
                 fill: currentcolor;
-                height: 12px;
                 letter-spacing: 0.12em;
                 line-height: 1.5;
                 pointer-events: none;
@@ -3064,7 +3073,6 @@
               style="
                 display: inline-block;
                 fill: currentcolor;
-                height: 12px;
                 letter-spacing: 0.12em;
                 line-height: 1.5;
                 pointer-events: none;
@@ -3162,7 +3170,6 @@
               style="
                 display: inline-block;
                 fill: currentcolor;
-                height: 12px;
                 letter-spacing: 0.12em;
                 line-height: 1.5;
                 pointer-events: none;
@@ -3209,24 +3216,29 @@
             appearance: none;
             background-color: inherit;
             border-bottom-color: currentcolor;
+            border-bottom-style: none;
             border-bottom-width: medium;
             border-left-color: currentcolor;
+            border-left-style: none;
             border-left-width: medium;
             border-right-color: currentcolor;
+            border-right-style: none;
             border-right-width: medium;
             border-top-color: currentcolor;
+            border-top-style: none;
             border-top-width: medium;
+            box-sizing: border-box;
             color: var(--combobox-textbox-foreground-color, var(--color-foreground-primary));
             font-family: inherit;
             font-size: inherit;
             height: auto;
             letter-spacing: 0.12em;
             line-height: 1.5;
-            margin-left: 0px;
-            margin-right: 0px;
             margin: 0 var(--spacing-100);
+            padding-bottom: 0px;
             padding-left: 16px;
             padding-right: 32px;
+            padding-top: 0px;
             padding: var(--spacing-75) 0;
             width: calc(100% - var(--spacing-200));
             word-spacing: 0.16em

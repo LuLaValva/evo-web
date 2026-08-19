@@ -209,14 +209,12 @@
           align-self: center;
           display: inline-block;
           fill: currentcolor;
-          height: 16px;
           margin-inline-end: 8px;
           max-height: 48px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >

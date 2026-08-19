@@ -51,12 +51,10 @@
               color: var(--filter-menu-item-icon-color, var(--color-foreground-primary));
               display: block;
               fill: currentcolor;
-              height: 18px;
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
-              vertical-align: middle;
-              width: 18px
+              vertical-align: middle
             "
             width="18"
           >
@@ -111,12 +109,10 @@
               color: var(--filter-menu-item-icon-color, var(--color-foreground-primary));
               display: block;
               fill: currentcolor;
-              height: 18px;
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
-              vertical-align: middle;
-              width: 18px
+              vertical-align: middle
             "
             width="18"
           >
@@ -172,12 +168,10 @@
               color: var(--filter-menu-item-icon-color, var(--color-foreground-primary));
               display: block;
               fill: currentcolor;
-              height: 18px;
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
-              vertical-align: middle;
-              width: 18px
+              vertical-align: middle
             "
             width="18"
           >
@@ -274,12 +268,10 @@
                   color: var(--filter-menu-item-checked-color, var(--color-foreground-primary));
                   display: inline-block;
                   fill: currentcolor;
-                  height: 18px;
                   pointer-events: none;
                   stroke-width: 0;
                   stroke: currentcolor;
-                  vertical-align: middle;
-                  width: 18px
+                  vertical-align: middle
                 "
                 width="18"
               >
@@ -360,12 +352,10 @@
                   color: var(--filter-menu-item-checked-color, var(--color-foreground-primary));
                   display: inline-block;
                   fill: currentcolor;
-                  height: 18px;
                   pointer-events: none;
                   stroke-width: 0;
                   stroke: currentcolor;
-                  vertical-align: middle;
-                  width: 18px
+                  vertical-align: middle
                 "
                 width="18"
               >
@@ -447,12 +437,10 @@
                   color: var(--filter-menu-item-checked-color, var(--color-foreground-primary));
                   display: inline-block;
                   fill: currentcolor;
-                  height: 18px;
                   pointer-events: none;
                   stroke-width: 0;
                   stroke: currentcolor;
-                  vertical-align: middle;
-                  width: 18px
+                  vertical-align: middle
                 "
                 width="18"
               >
@@ -563,12 +551,16 @@
         style="
           background-color: inherit;
           border-bottom-color: currentcolor;
+          border-bottom-style: none;
           border-bottom-width: medium;
           border-left-color: currentcolor;
+          border-left-style: none;
           border-left-width: medium;
           border-right-color: currentcolor;
+          border-right-style: none;
           border-right-width: medium;
           border-top-color: currentcolor;
+          border-top-style: none;
           border-top-width: medium;
           color: var(--color-foreground-primary);
           flex-grow: 1;
@@ -696,14 +688,12 @@
               color: var(--filter-menu-item-icon-color, var(--color-foreground-primary));
               display: block;
               fill: currentcolor;
-              height: 18px;
               letter-spacing: 0.12em;
               line-height: 1.5;
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
               vertical-align: middle;
-              width: 18px;
               word-spacing: 0.16em
             "
             width="18"
@@ -774,14 +764,12 @@
               color: var(--filter-menu-item-icon-color, var(--color-foreground-primary));
               display: block;
               fill: currentcolor;
-              height: 18px;
               letter-spacing: 0.12em;
               line-height: 1.5;
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
               vertical-align: middle;
-              width: 18px;
               word-spacing: 0.16em
             "
             width="18"
@@ -853,14 +841,12 @@
               color: var(--filter-menu-item-icon-color, var(--color-foreground-primary));
               display: block;
               fill: currentcolor;
-              height: 18px;
               letter-spacing: 0.12em;
               line-height: 1.5;
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
               vertical-align: middle;
-              width: 18px;
               word-spacing: 0.16em
             "
             width="18"
@@ -984,12 +970,10 @@
               color: var(--color-foreground-disabled);
               display: block;
               fill: currentcolor;
-              height: 18px;
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
-              vertical-align: middle;
-              width: 18px
+              vertical-align: middle
             "
             width="18"
           >
@@ -1044,12 +1028,10 @@
               color: var(--filter-menu-item-icon-color, var(--color-foreground-primary));
               display: block;
               fill: currentcolor;
-              height: 18px;
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
-              vertical-align: middle;
-              width: 18px
+              vertical-align: middle
             "
             width="18"
           >
@@ -1105,12 +1087,10 @@
               color: var(--color-foreground-disabled);
               display: block;
               fill: currentcolor;
-              height: 18px;
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
-              vertical-align: middle;
-              width: 18px
+              vertical-align: middle
             "
             width="18"
           >
@@ -1181,12 +1161,10 @@
               color: var(--filter-menu-item-icon-color, var(--color-foreground-primary));
               display: block;
               fill: currentcolor;
-              height: 18px;
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
-              vertical-align: middle;
-              width: 18px
+              vertical-align: middle
             "
             width="18"
           >
@@ -1241,12 +1219,10 @@
               color: var(--filter-menu-item-icon-color, var(--color-foreground-primary));
               display: block;
               fill: currentcolor;
-              height: 18px;
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
-              vertical-align: middle;
-              width: 18px
+              vertical-align: middle
             "
             width="18"
           >
@@ -1302,12 +1278,10 @@
               color: var(--filter-menu-item-icon-color, var(--color-foreground-primary));
               display: block;
               fill: currentcolor;
-              height: 18px;
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
-              vertical-align: middle;
-              width: 18px
+              vertical-align: middle
             "
             width="18"
           >
@@ -1400,12 +1374,16 @@
         style="
           background-color: inherit;
           border-bottom-color: currentcolor;
+          border-bottom-style: none;
           border-bottom-width: medium;
           border-left-color: currentcolor;
+          border-left-style: none;
           border-left-width: medium;
           border-right-color: currentcolor;
+          border-right-style: none;
           border-right-width: medium;
           border-top-color: currentcolor;
+          border-top-style: none;
           border-top-width: medium;
           color: var(--color-foreground-primary);
           flex-grow: 1;
@@ -1509,12 +1487,10 @@
               color: var(--filter-menu-item-icon-color, var(--color-foreground-primary));
               display: block;
               fill: currentcolor;
-              height: 18px;
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
-              vertical-align: middle;
-              width: 18px
+              vertical-align: middle
             "
             width="18"
           >
@@ -1569,12 +1545,10 @@
               color: var(--filter-menu-item-icon-color, var(--color-foreground-primary));
               display: block;
               fill: currentcolor;
-              height: 18px;
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
-              vertical-align: middle;
-              width: 18px
+              vertical-align: middle
             "
             width="18"
           >
@@ -1630,12 +1604,10 @@
               color: var(--filter-menu-item-icon-color, var(--color-foreground-primary));
               display: block;
               fill: currentcolor;
-              height: 18px;
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
-              vertical-align: middle;
-              width: 18px
+              vertical-align: middle
             "
             width="18"
           >

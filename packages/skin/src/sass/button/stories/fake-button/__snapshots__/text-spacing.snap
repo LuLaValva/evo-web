@@ -48,7 +48,6 @@
           align-self: center;
           display: inline-block;
           fill: currentcolor;
-          height: 16px;
           letter-spacing: 0.12em;
           line-height: 1.5;
           margin-inline-end: 8px;
@@ -56,7 +55,6 @@
           stroke-width: 0;
           stroke: currentcolor;
           vertical-align: middle;
-          width: 16px;
           word-spacing: 0.16em
         "
         width="16"

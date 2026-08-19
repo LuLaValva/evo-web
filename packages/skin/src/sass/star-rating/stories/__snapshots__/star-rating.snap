@@ -3,50 +3,30 @@
   <div>
     <svg
       height="16"
-      style="
-        height: 16px;
-        width: 16px
-      "
       width="16"
     >
       <use href="#icon-star-dynamic"/>
     </svg>
     <svg
       height="16"
-      style="
-        height: 16px;
-        width: 16px
-      "
       width="16"
     >
       <use href="#icon-star-dynamic"/>
     </svg>
     <svg
       height="16"
-      style="
-        height: 16px;
-        width: 16px
-      "
       width="16"
     >
       <use href="#icon-star-dynamic"/>
     </svg>
     <svg
       height="16"
-      style="
-        height: 16px;
-        width: 16px
-      "
       width="16"
     >
       <use href="#icon-star-dynamic"/>
     </svg>
     <svg
       height="16"
-      style="
-        height: 16px;
-        width: 16px
-      "
       width="16"
     >
       <use href="#icon-star-dynamic"/>
@@ -71,9 +51,7 @@
         --color-star-rating-half-stroke: var(
               --color-star-rating-filled-stroke,
               var(--color-foreground-primary)
-          );
-        height: 16px;
-        width: 16px
+          )
       "
       width="16"
     >
@@ -93,9 +71,7 @@
         --color-star-rating-half-stroke: var(
               --color-star-rating-filled-stroke,
               var(--color-foreground-primary)
-          );
-        height: 16px;
-        width: 16px
+          )
       "
       width="16"
     >
@@ -115,9 +91,7 @@
         --color-star-rating-half-stroke: var(
               --color-star-rating-filled-stroke,
               var(--color-foreground-primary)
-          );
-        height: 16px;
-        width: 16px
+          )
       "
       width="16"
     >
@@ -137,9 +111,7 @@
         --color-star-rating-half-stroke: var(
               --color-star-rating-filled-stroke,
               var(--color-foreground-primary)
-          );
-        height: 16px;
-        width: 16px
+          )
       "
       width="16"
     >
@@ -147,10 +119,6 @@
     </svg>
     <svg
       height="16"
-      style="
-        height: 16px;
-        width: 16px
-      "
       width="16"
     >
       <use href="#icon-star-dynamic"/>
@@ -175,9 +143,7 @@
         --color-star-rating-half-stroke: var(
               --color-star-rating-filled-stroke,
               var(--color-foreground-primary)
-          );
-        height: 16px;
-        width: 16px
+          )
       "
       width="16"
     >
@@ -197,9 +163,7 @@
         --color-star-rating-half-stroke: var(
               --color-star-rating-filled-stroke,
               var(--color-foreground-primary)
-          );
-        height: 16px;
-        width: 16px
+          )
       "
       width="16"
     >
@@ -223,9 +187,7 @@
         --color-star-rating-half: var(
               --color-star-rating-filled,
               var(--color-foreground-primary)
-          );
-        height: 16px;
-        width: 16px
+          )
       "
       width="16"
     >
@@ -233,20 +195,12 @@
     </svg>
     <svg
       height="16"
-      style="
-        height: 16px;
-        width: 16px
-      "
       width="16"
     >
       <use href="#icon-star-dynamic"/>
     </svg>
     <svg
       height="16"
-      style="
-        height: 16px;
-        width: 16px
-      "
       width="16"
     >
       <use href="#icon-star-dynamic"/>

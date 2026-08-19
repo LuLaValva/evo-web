@@ -123,13 +123,11 @@
               color: var(--color-foreground-secondary);
               display: block;
               fill: currentcolor;
-              height: 18px;
               margin-right: var(--spacing-100);
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
-              vertical-align: middle;
-              width: 18px
+              vertical-align: middle
             "
             width="18"
           >
@@ -187,13 +185,11 @@
               color: var(--color-foreground-secondary);
               display: block;
               fill: currentcolor;
-              height: 18px;
               margin-right: var(--spacing-100);
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
-              vertical-align: middle;
-              width: 18px
+              vertical-align: middle
             "
             width="18"
           >
@@ -252,13 +248,11 @@
               color: var(--color-foreground-secondary);
               display: block;
               fill: currentcolor;
-              height: 18px;
               margin-right: var(--spacing-100);
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
-              vertical-align: middle;
-              width: 18px
+              vertical-align: middle
             "
             width="18"
           >
@@ -404,13 +398,11 @@
               color: var(--color-foreground-primary);
               display: block;
               fill: currentcolor;
-              height: 18px;
               margin-right: var(--spacing-100);
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
-              vertical-align: middle;
-              width: 18px
+              vertical-align: middle
             "
             width="18"
           >
@@ -468,13 +460,11 @@
               color: var(--color-foreground-primary);
               display: block;
               fill: currentcolor;
-              height: 18px;
               margin-right: var(--spacing-100);
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
-              vertical-align: middle;
-              width: 18px
+              vertical-align: middle
             "
             width="18"
           >
@@ -533,13 +523,11 @@
               color: var(--color-foreground-secondary);
               display: block;
               fill: currentcolor;
-              height: 18px;
               margin-right: var(--spacing-100);
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
-              vertical-align: middle;
-              width: 18px
+              vertical-align: middle
             "
             width="18"
           >
@@ -750,13 +738,11 @@
               color: var(--color-foreground-secondary);
               display: block;
               fill: currentcolor;
-              height: 18px;
               margin-right: var(--spacing-100);
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
-              vertical-align: middle;
-              width: 18px
+              vertical-align: middle
             "
             width="18"
           >
@@ -814,13 +800,11 @@
               color: var(--color-foreground-secondary);
               display: block;
               fill: currentcolor;
-              height: 18px;
               margin-right: var(--spacing-100);
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
-              vertical-align: middle;
-              width: 18px
+              vertical-align: middle
             "
             width="18"
           >
@@ -879,13 +863,11 @@
               color: var(--color-foreground-secondary);
               display: block;
               fill: currentcolor;
-              height: 18px;
               margin-right: var(--spacing-100);
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
-              vertical-align: middle;
-              width: 18px
+              vertical-align: middle
             "
             width="18"
           >
@@ -1088,13 +1070,11 @@
               color: var(--color-foreground-primary);
               display: block;
               fill: currentcolor;
-              height: 18px;
               margin-right: var(--spacing-100);
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
-              vertical-align: middle;
-              width: 18px
+              vertical-align: middle
             "
             width="18"
           >
@@ -1152,13 +1132,11 @@
               color: var(--color-foreground-primary);
               display: block;
               fill: currentcolor;
-              height: 18px;
               margin-right: var(--spacing-100);
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
-              vertical-align: middle;
-              width: 18px
+              vertical-align: middle
             "
             width="18"
           >
@@ -1217,13 +1195,11 @@
               color: var(--color-foreground-primary);
               display: block;
               fill: currentcolor;
-              height: 18px;
               margin-right: var(--spacing-100);
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
-              vertical-align: middle;
-              width: 18px
+              vertical-align: middle
             "
             width="18"
           >
@@ -1369,13 +1345,11 @@
               color: var(--color-foreground-primary);
               display: block;
               fill: currentcolor;
-              height: 18px;
               margin-right: var(--spacing-100);
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
-              vertical-align: middle;
-              width: 18px
+              vertical-align: middle
             "
             width="18"
           >
@@ -1433,13 +1407,11 @@
               color: var(--color-foreground-primary);
               display: block;
               fill: currentcolor;
-              height: 18px;
               margin-right: var(--spacing-100);
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
-              vertical-align: middle;
-              width: 18px
+              vertical-align: middle
             "
             width="18"
           >
@@ -1498,13 +1470,11 @@
               color: var(--color-foreground-primary);
               display: block;
               fill: currentcolor;
-              height: 18px;
               margin-right: var(--spacing-100);
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
-              vertical-align: middle;
-              width: 18px
+              vertical-align: middle
             "
             width="18"
           >

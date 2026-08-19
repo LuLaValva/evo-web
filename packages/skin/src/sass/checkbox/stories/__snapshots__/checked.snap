@@ -241,12 +241,10 @@
             color: var(--checkbox-checked-color, var(--color-foreground-primary));
             display: inline-block;
             fill: currentcolor;
-            height: 18px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
-            vertical-align: middle;
-            width: 18px
+            vertical-align: middle
           "
           width="18"
         >
@@ -301,12 +299,10 @@
             color: var(--checkbox-unchecked-color, var(--color-foreground-primary));
             display: inline-block;
             fill: currentcolor;
-            height: 18px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
-            vertical-align: middle;
-            width: 18px
+            vertical-align: middle
           "
           width="18"
         >
@@ -361,12 +357,10 @@
             color: var(--checkbox-unchecked-color, var(--color-foreground-primary));
             display: inline-block;
             fill: currentcolor;
-            height: 18px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
-            vertical-align: middle;
-            width: 18px
+            vertical-align: middle
           "
           width="18"
         >
@@ -450,14 +444,12 @@
               color: var(--checkbox-unchecked-color, var(--color-foreground-primary));
               display: inline-block;
               fill: currentcolor;
-              height: 18px;
               letter-spacing: 0.12em;
               line-height: 1.5;
               pointer-events: none;
               stroke-width: 0;
               stroke: currentcolor;
               vertical-align: middle;
-              width: 18px;
               word-spacing: 0.16em
             "
             width="18"

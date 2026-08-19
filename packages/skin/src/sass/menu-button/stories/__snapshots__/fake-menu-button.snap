@@ -330,7 +330,6 @@
           padding-right: 15px;
           padding-top: 8px;
           position: relative;
-          text-decoration-line: none;
           width: 100%
         ">
           <style>@scope{:scope{

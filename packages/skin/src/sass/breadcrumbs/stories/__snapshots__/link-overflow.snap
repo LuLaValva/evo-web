@@ -210,7 +210,6 @@
           outline-offset: 5px;
           overflow-x: hidden;
           overflow-y: hidden;
-          text-decoration-line: none;
           text-overflow: ellipsis
         ">
           Current Band
@@ -435,7 +434,6 @@
           outline-offset: 5px;
           overflow-x: hidden;
           overflow-y: hidden;
-          text-decoration-line: none;
           text-overflow: ellipsis
         ">
           Current Band
@@ -660,7 +658,6 @@
           outline-offset: 5px;
           overflow-x: hidden;
           overflow-y: hidden;
-          text-decoration-line: none;
           text-overflow: ellipsis
         ">
           Current Band
@@ -1029,7 +1026,6 @@
           outline-offset: 5px;
           overflow-x: hidden;
           overflow-y: hidden;
-          text-decoration-line: none;
           text-overflow: ellipsis
         ">
           Current Band
@@ -1401,7 +1397,6 @@
           outline-offset: 5px;
           overflow-x: hidden;
           overflow-y: hidden;
-          text-decoration-line: none;
           text-overflow: ellipsis
         ">
           Current Band
@@ -1591,7 +1586,6 @@
           outline-offset: 5px;
           overflow-x: hidden;
           overflow-y: hidden;
-          text-decoration-line: none;
           text-overflow: ellipsis
         ">
           Current Band
@@ -1781,7 +1775,6 @@
           outline-offset: 5px;
           overflow-x: hidden;
           overflow-y: hidden;
-          text-decoration-line: none;
           text-overflow: ellipsis
         ">
           Current Band
@@ -2083,7 +2076,6 @@
           outline-offset: 5px;
           overflow-x: hidden;
           overflow-y: hidden;
-          text-decoration-line: none;
           text-overflow: ellipsis;
           word-spacing: 0.16em
         ">
@@ -2386,7 +2378,6 @@
           outline-offset: 5px;
           overflow-x: hidden;
           overflow-y: hidden;
-          text-decoration-line: none;
           text-overflow: ellipsis;
           word-spacing: 0.16em
         ">

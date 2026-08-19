@@ -154,7 +154,6 @@
           outline-offset: 5px;
           overflow-x: hidden;
           overflow-y: hidden;
-          text-decoration-line: none;
           text-overflow: ellipsis
         ">
           Smart Watch Bands
@@ -323,7 +322,6 @@
           outline-offset: 5px;
           overflow-x: hidden;
           overflow-y: hidden;
-          text-decoration-line: none;
           text-overflow: ellipsis
         ">
           Smart Watch Bands
@@ -492,7 +490,6 @@
           outline-offset: 5px;
           overflow-x: hidden;
           overflow-y: hidden;
-          text-decoration-line: none;
           text-overflow: ellipsis
         ">
           Smart Watch Bands

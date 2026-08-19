@@ -29,12 +29,10 @@
           color: var(--page-notice-information-icon-color, var(--color-foreground-on-success));
           display: inline-block;
           fill: currentcolor;
-          height: 16px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >
@@ -122,12 +120,10 @@
           color: var(--page-notice-information-icon-color, var(--color-foreground-on-success));
           display: inline-block;
           fill: currentcolor;
-          height: 16px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >
@@ -213,12 +209,10 @@
           color: var(--page-notice-information-icon-color, var(--color-foreground-on-success));
           display: inline-block;
           fill: currentcolor;
-          height: 16px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >
@@ -306,12 +300,10 @@
           color: var(--page-notice-attention-icon-color, var(--color-foreground-on-attention));
           display: inline-block;
           fill: currentcolor;
-          height: 16px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >
@@ -400,12 +392,10 @@
           color: var(--page-notice-attention-icon-color, var(--color-foreground-on-attention));
           display: inline-block;
           fill: currentcolor;
-          height: 16px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >
@@ -495,12 +485,10 @@
           color: var(--page-notice-attention-icon-color, var(--color-foreground-on-attention));
           display: inline-block;
           fill: currentcolor;
-          height: 16px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >
@@ -571,12 +559,10 @@
           color: var(--page-notice-attention-icon-color, var(--color-foreground-on-attention));
           display: inline-block;
           fill: currentcolor;
-          height: 16px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >
@@ -648,12 +634,10 @@
           color: var(--page-notice-confirmation-icon-color, var(--color-foreground-on-success));
           display: inline-block;
           fill: currentcolor;
-          height: 16px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >
@@ -742,12 +726,10 @@
           color: var(--page-notice-confirmation-icon-color, var(--color-foreground-on-success));
           display: inline-block;
           fill: currentcolor;
-          height: 16px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >
@@ -837,12 +819,10 @@
           color: var(--page-notice-confirmation-icon-color, var(--color-foreground-on-success));
           display: inline-block;
           fill: currentcolor;
-          height: 16px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >
@@ -913,12 +893,10 @@
           color: var(--page-notice-confirmation-icon-color, var(--color-foreground-on-success));
           display: inline-block;
           fill: currentcolor;
-          height: 16px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >
@@ -990,12 +968,10 @@
           color: var(--page-notice-information-icon-color, var(--color-foreground-on-success));
           display: inline-block;
           fill: currentcolor;
-          height: 16px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >
@@ -1123,12 +1099,10 @@
           color: var(--page-notice-information-icon-color, var(--color-foreground-on-success));
           display: inline-block;
           fill: currentcolor;
-          height: 16px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >
@@ -1258,12 +1232,10 @@
           color: var(--page-notice-information-icon-color, var(--color-foreground-on-success));
           display: inline-block;
           fill: currentcolor;
-          height: 16px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >
@@ -1384,12 +1356,10 @@
           color: var(--page-notice-information-icon-color, var(--color-foreground-on-success));
           display: inline-block;
           fill: currentcolor;
-          height: 16px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >
@@ -1512,12 +1482,10 @@
           color: var(--page-notice-information-icon-color, var(--color-foreground-on-success));
           display: inline-block;
           fill: currentcolor;
-          height: 16px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >
@@ -1615,12 +1583,10 @@
           color: var(--page-notice-information-icon-color, var(--color-foreground-on-success));
           display: inline-block;
           fill: currentcolor;
-          height: 16px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >
@@ -1719,12 +1685,10 @@
           color: var(--page-notice-attention-icon-color, var(--color-foreground-on-attention));
           display: inline-block;
           fill: currentcolor;
-          height: 16px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >
@@ -1812,12 +1776,10 @@
           color: var(--page-notice-attention-icon-color, var(--color-foreground-on-attention));
           display: inline-block;
           fill: currentcolor;
-          height: 16px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >
@@ -2235,12 +2197,10 @@
           color: var(--page-notice-information-icon-color, var(--color-foreground-on-success));
           display: inline-block;
           fill: currentcolor;
-          height: 16px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >
@@ -2329,12 +2289,10 @@
           color: var(--page-notice-information-icon-color, var(--color-foreground-on-success));
           display: inline-block;
           fill: currentcolor;
-          height: 16px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >
@@ -2424,12 +2382,10 @@
           color: var(--page-notice-information-icon-color, var(--color-foreground-on-success));
           display: inline-block;
           fill: currentcolor;
-          height: 16px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >
@@ -2500,12 +2456,10 @@
           color: var(--page-notice-information-icon-color, var(--color-foreground-on-success));
           display: inline-block;
           fill: currentcolor;
-          height: 16px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >
@@ -2583,14 +2537,12 @@
           color: var(--page-notice-information-icon-color, var(--color-foreground-on-success));
           display: inline-block;
           fill: currentcolor;
-          height: 16px;
           letter-spacing: 0.12em;
           line-height: 1.5;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
           vertical-align: middle;
-          width: 16px;
           word-spacing: 0.16em
         "
         width="16"
@@ -2763,14 +2715,12 @@
           color: var(--page-notice-information-icon-color, var(--color-foreground-on-success));
           display: inline-block;
           fill: currentcolor;
-          height: 16px;
           letter-spacing: 0.12em;
           line-height: 1.5;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
           vertical-align: middle;
-          width: 16px;
           word-spacing: 0.16em
         "
         width="16"

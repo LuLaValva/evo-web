@@ -269,8 +269,9 @@ const frames = (duo) => [...duo.querySelectorAll("iframe")];
 function applyThemeToFrame(iframe) {
   const doc = iframe.contentDocument;
   if (!doc) return;
-  const dark = doc.querySelector("link[data-vp-dark]");
-  if (dark) dark.disabled = state.theme !== "dark";
+  for (const sheet of doc.querySelectorAll("link[data-vp-dark]")) {
+    sheet.disabled = state.theme !== "dark";
+  }
   const scheme = doc.querySelector("style[data-vp-scheme]");
   if (scheme) scheme.textContent = ":root{color-scheme:" + state.theme + "}";
 }

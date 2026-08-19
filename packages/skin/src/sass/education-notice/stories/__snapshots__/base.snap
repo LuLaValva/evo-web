@@ -15,12 +15,10 @@
         style="
           display: inline-block;
           fill: currentcolor;
-          height: 24px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 24px
+          vertical-align: middle
         "
         width="24"
       >
@@ -86,14 +84,12 @@
           style="
             display: inline-block;
             fill: var(--color-foreground-primary);
-            height: 16px;
             max-width: 75%;
             pointer-events: none;
             position: relative;
             stroke-width: 0;
             stroke: currentcolor;
-            vertical-align: middle;
-            width: 16px
+            vertical-align: middle
           "
           width="16"
         >
@@ -157,12 +153,10 @@
         style="
           display: inline-block;
           fill: currentcolor;
-          height: 24px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 24px
+          vertical-align: middle
         "
         width="24"
       >
@@ -228,14 +222,12 @@
           style="
             display: inline-block;
             fill: var(--color-foreground-primary);
-            height: 16px;
             max-width: 75%;
             pointer-events: none;
             position: relative;
             stroke-width: 0;
             stroke: currentcolor;
-            vertical-align: middle;
-            width: 16px
+            vertical-align: middle
           "
           width="16"
         >
@@ -282,12 +274,10 @@
         style="
           display: inline-block;
           fill: currentcolor;
-          height: 24px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 24px
+          vertical-align: middle
         "
         width="24"
       >
@@ -333,12 +323,10 @@
         style="
           display: inline-block;
           fill: currentcolor;
-          height: 24px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 24px
+          vertical-align: middle
         "
         width="24"
       >
@@ -404,14 +392,12 @@
           style="
             display: inline-block;
             fill: var(--color-foreground-primary);
-            height: 16px;
             max-width: 75%;
             pointer-events: none;
             position: relative;
             stroke-width: 0;
             stroke: currentcolor;
-            vertical-align: middle;
-            width: 16px
+            vertical-align: middle
           "
           width="16"
         >
@@ -449,12 +435,10 @@
           color: var(--color-foreground-accent);
           display: inline-block;
           fill: currentcolor;
-          height: 24px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 24px
+          vertical-align: middle
         "
         width="24"
       >
@@ -500,12 +484,10 @@
         style="
           display: inline-block;
           fill: currentcolor;
-          height: 24px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 24px
+          vertical-align: middle
         "
         width="24"
       >
@@ -557,14 +539,12 @@
         style="
           display: inline-block;
           fill: currentcolor;
-          height: 24px;
           letter-spacing: 0.12em;
           line-height: 1.5;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
           vertical-align: middle;
-          width: 24px;
           word-spacing: 0.16em
         "
         width="24"
@@ -643,7 +623,6 @@
           style="
             display: inline-block;
             fill: var(--color-foreground-primary);
-            height: 16px;
             letter-spacing: 0.12em;
             line-height: 1.5;
             max-width: 75%;
@@ -652,7 +631,6 @@
             stroke-width: 0;
             stroke: currentcolor;
             vertical-align: middle;
-            width: 16px;
             word-spacing: 0.16em
           "
           width="16"

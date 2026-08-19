@@ -14,7 +14,6 @@
           cursor: pointer;
           font-size: 100%;
           height: 16px;
-          margin-bottom: 0px;
           margin-left: 0px;
           margin-right: 0px;
           margin-top: 0px;
@@ -39,12 +38,10 @@
               );
             display: inline-block;
             fill: currentcolor;
-            height: 16px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
-            vertical-align: middle;
-            width: 16px
+            vertical-align: middle
           "
           width="16"
         >
@@ -62,7 +59,6 @@
           cursor: pointer;
           font-size: 100%;
           height: 16px;
-          margin-bottom: 0px;
           margin-left: 0px;
           margin-right: 0px;
           margin-top: 0px;
@@ -87,12 +83,10 @@
               );
             display: inline-block;
             fill: currentcolor;
-            height: 16px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
-            vertical-align: middle;
-            width: 16px
+            vertical-align: middle
           "
           width="16"
         >
@@ -110,7 +104,6 @@
           cursor: pointer;
           font-size: 100%;
           height: 16px;
-          margin-bottom: 0px;
           margin-left: 0px;
           margin-right: 0px;
           margin-top: 0px;
@@ -135,12 +128,10 @@
               );
             display: inline-block;
             fill: currentcolor;
-            height: 16px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
-            vertical-align: middle;
-            width: 16px
+            vertical-align: middle
           "
           width="16"
         >
@@ -158,7 +149,6 @@
           cursor: pointer;
           font-size: 100%;
           height: 16px;
-          margin-bottom: 0px;
           margin-left: 0px;
           margin-right: 0px;
           margin-top: 0px;
@@ -183,12 +173,10 @@
               );
             display: inline-block;
             fill: currentcolor;
-            height: 16px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
-            vertical-align: middle;
-            width: 16px
+            vertical-align: middle
           "
           width="16"
         >
@@ -206,7 +194,6 @@
           cursor: pointer;
           font-size: 100%;
           height: 16px;
-          margin-bottom: 0px;
           margin-left: 0px;
           margin-right: 0px;
           margin-top: 0px;
@@ -231,12 +218,10 @@
               );
             display: inline-block;
             fill: currentcolor;
-            height: 16px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
-            vertical-align: middle;
-            width: 16px
+            vertical-align: middle
           "
           width="16"
         >
@@ -263,7 +248,6 @@
           cursor: pointer;
           font-size: 100%;
           height: 16px;
-          margin-bottom: 0px;
           margin-left: 0px;
           margin-right: 0px;
           margin-top: 0px;
@@ -296,12 +280,10 @@
               );
             display: inline-block;
             fill: currentcolor;
-            height: 16px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
-            vertical-align: middle;
-            width: 16px
+            vertical-align: middle
           "
           width="16"
         >
@@ -319,7 +301,6 @@
           cursor: pointer;
           font-size: 100%;
           height: 16px;
-          margin-bottom: 0px;
           margin-left: 0px;
           margin-right: 0px;
           margin-top: 0px;
@@ -352,12 +333,10 @@
               );
             display: inline-block;
             fill: currentcolor;
-            height: 16px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
-            vertical-align: middle;
-            width: 16px
+            vertical-align: middle
           "
           width="16"
         >
@@ -375,7 +354,6 @@
           cursor: pointer;
           font-size: 100%;
           height: 16px;
-          margin-bottom: 0px;
           margin-left: 0px;
           margin-right: 0px;
           margin-top: 0px;
@@ -408,12 +386,10 @@
               );
             display: inline-block;
             fill: currentcolor;
-            height: 16px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
-            vertical-align: middle;
-            width: 16px
+            vertical-align: middle
           "
           width="16"
         >
@@ -431,7 +407,6 @@
           cursor: pointer;
           font-size: 100%;
           height: 16px;
-          margin-bottom: 0px;
           margin-left: 0px;
           margin-right: 0px;
           margin-top: 0px;
@@ -464,12 +439,10 @@
               );
             display: inline-block;
             fill: currentcolor;
-            height: 16px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
-            vertical-align: middle;
-            width: 16px
+            vertical-align: middle
           "
           width="16"
         >
@@ -487,7 +460,6 @@
           cursor: pointer;
           font-size: 100%;
           height: 16px;
-          margin-bottom: 0px;
           margin-left: 0px;
           margin-right: 0px;
           margin-top: 0px;
@@ -512,12 +484,10 @@
               );
             display: inline-block;
             fill: currentcolor;
-            height: 16px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
-            vertical-align: middle;
-            width: 16px
+            vertical-align: middle
           "
           width="16"
         >

@@ -211,6 +211,7 @@
         font-family: inherit;
         font-size: 1em;
         height: 40px;
+        opacity: 1;
         padding: 0 var(--spacing-400) 0 var(--spacing-200);
         vertical-align: middle
       "

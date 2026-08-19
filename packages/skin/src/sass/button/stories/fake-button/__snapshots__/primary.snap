@@ -33,7 +33,6 @@
     padding-right: 20px;
     position: relative;
     text-align: center;
-    text-decoration-line: none;
     transition: all var(--motion-duration-short-3) var(--motion-easing-quick-enter);
     vertical-align: bottom
   ">
@@ -61,13 +60,11 @@
           align-self: center;
           display: inline-block;
           fill: currentcolor;
-          height: 16px;
           margin-inline-end: 8px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >
@@ -146,13 +143,11 @@
           align-self: center;
           display: inline-block;
           fill: currentcolor;
-          height: 16px;
           margin-inline-end: 8px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >
@@ -231,14 +226,12 @@
           align-self: center;
           display: inline-block;
           fill: currentcolor;
-          height: 16px;
           margin-inline-end: 8px;
           margin-inline-start: 8px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >
@@ -314,13 +307,11 @@
           align-self: center;
           display: inline-block;
           fill: currentcolor;
-          height: 16px;
           margin-inline-end: 8px;
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >

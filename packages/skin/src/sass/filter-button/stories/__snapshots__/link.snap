@@ -99,7 +99,6 @@
     padding: 0 var(--spacing-200);
     position: relative;
     text-align: center;
-    text-decoration-line: none;
     vertical-align: bottom
   ">
     <style>@scope{:scope{

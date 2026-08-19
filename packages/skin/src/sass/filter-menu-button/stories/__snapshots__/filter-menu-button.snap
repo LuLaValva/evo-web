@@ -68,13 +68,11 @@
             color: var(--filter-menu-button-icon-color, var(--color-foreground-primary));
             display: inline-block;
             fill: currentcolor;
-            height: 12px;
             margin-inline-start: 8px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
-            vertical-align: middle;
-            width: 12px
+            vertical-align: middle
           "
           width="12"
         >
@@ -161,13 +159,11 @@
             color: var(--filter-button-disabled-foreground-color, var(--color-foreground-disabled));
             display: inline-block;
             fill: currentcolor;
-            height: 12px;
             margin-inline-start: 8px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
-            vertical-align: middle;
-            width: 12px
+            vertical-align: middle
           "
           width="12"
         >
@@ -251,14 +247,12 @@
             color: var(--filter-menu-button-icon-color, var(--color-foreground-primary));
             display: inline-block;
             fill: currentcolor;
-            height: 12px;
             margin-inline-start: 8px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
             transform: rotate(180deg);
-            vertical-align: middle;
-            width: 12px
+            vertical-align: middle
           "
           width="12"
         >
@@ -339,12 +333,10 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 18px
+                vertical-align: middle
               "
               width="18"
             >
@@ -400,12 +392,10 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 18px
+                vertical-align: middle
               "
               width="18"
             >
@@ -462,12 +452,10 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 18px
+                vertical-align: middle
               "
               width="18"
             >
@@ -599,14 +587,12 @@
             color: var(--filter-menu-button-icon-color, var(--color-foreground-primary));
             display: inline-block;
             fill: currentcolor;
-            height: 12px;
             margin-inline-start: 8px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
             transform: rotate(180deg);
-            vertical-align: middle;
-            width: 12px
+            vertical-align: middle
           "
           width="12"
         >
@@ -687,12 +673,10 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 18px
+                vertical-align: middle
               "
               width="18"
             >
@@ -748,12 +732,10 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 18px
+                vertical-align: middle
               "
               width="18"
             >
@@ -809,12 +791,10 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 18px
+                vertical-align: middle
               "
               width="18"
             >
@@ -870,12 +850,10 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 18px
+                vertical-align: middle
               "
               width="18"
             >
@@ -931,12 +909,10 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 18px
+                vertical-align: middle
               "
               width="18"
             >
@@ -992,12 +968,10 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 18px
+                vertical-align: middle
               "
               width="18"
             >
@@ -1053,12 +1027,10 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 18px
+                vertical-align: middle
               "
               width="18"
             >
@@ -1114,12 +1086,10 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 18px
+                vertical-align: middle
               "
               width="18"
             >
@@ -1175,12 +1145,10 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 18px
+                vertical-align: middle
               "
               width="18"
             >
@@ -1236,12 +1204,10 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 18px
+                vertical-align: middle
               "
               width="18"
             >
@@ -1297,12 +1263,10 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 18px
+                vertical-align: middle
               "
               width="18"
             >
@@ -1358,12 +1322,10 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 18px
+                vertical-align: middle
               "
               width="18"
             >
@@ -1419,12 +1381,10 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 18px
+                vertical-align: middle
               "
               width="18"
             >
@@ -1480,12 +1440,10 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 18px
+                vertical-align: middle
               "
               width="18"
             >
@@ -1541,12 +1499,10 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 18px
+                vertical-align: middle
               "
               width="18"
             >
@@ -1602,12 +1558,10 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 18px
+                vertical-align: middle
               "
               width="18"
             >
@@ -1663,12 +1617,10 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 18px
+                vertical-align: middle
               "
               width="18"
             >
@@ -1724,12 +1676,10 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 18px
+                vertical-align: middle
               "
               width="18"
             >
@@ -1785,12 +1735,10 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 18px
+                vertical-align: middle
               "
               width="18"
             >
@@ -1847,12 +1795,10 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 18px
+                vertical-align: middle
               "
               width="18"
             >
@@ -1985,14 +1931,12 @@
             color: var(--filter-menu-button-icon-color, var(--color-foreground-primary));
             display: inline-block;
             fill: currentcolor;
-            height: 12px;
             margin-inline-start: 8px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
             transform: rotate(180deg);
-            vertical-align: middle;
-            width: 12px
+            vertical-align: middle
           "
           width="12"
         >
@@ -2073,12 +2017,10 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 18px
+                vertical-align: middle
               "
               width="18"
             >
@@ -2134,12 +2076,10 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 18px
+                vertical-align: middle
               "
               width="18"
             >
@@ -2196,12 +2136,10 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 18px
+                vertical-align: middle
               "
               width="18"
             >
@@ -2347,7 +2285,6 @@
             color: var(--filter-menu-button-icon-color, var(--color-foreground-primary));
             display: inline-block;
             fill: currentcolor;
-            height: 12px;
             letter-spacing: 0.12em;
             line-height: 1.5;
             margin-inline-start: 8px;
@@ -2356,7 +2293,6 @@
             stroke: currentcolor;
             transform: rotate(180deg);
             vertical-align: middle;
-            width: 12px;
             word-spacing: 0.16em
           "
           width="12"
@@ -2456,14 +2392,12 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 letter-spacing: 0.12em;
                 line-height: 1.5;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
                 vertical-align: middle;
-                width: 18px;
                 word-spacing: 0.16em
               "
               width="18"
@@ -2535,14 +2469,12 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 letter-spacing: 0.12em;
                 line-height: 1.5;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
                 vertical-align: middle;
-                width: 18px;
                 word-spacing: 0.16em
               "
               width="18"
@@ -2614,14 +2546,12 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 letter-spacing: 0.12em;
                 line-height: 1.5;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
                 vertical-align: middle;
-                width: 18px;
                 word-spacing: 0.16em
               "
               width="18"
@@ -2693,14 +2623,12 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 letter-spacing: 0.12em;
                 line-height: 1.5;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
                 vertical-align: middle;
-                width: 18px;
                 word-spacing: 0.16em
               "
               width="18"
@@ -2772,14 +2700,12 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 letter-spacing: 0.12em;
                 line-height: 1.5;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
                 vertical-align: middle;
-                width: 18px;
                 word-spacing: 0.16em
               "
               width="18"
@@ -2851,14 +2777,12 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 letter-spacing: 0.12em;
                 line-height: 1.5;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
                 vertical-align: middle;
-                width: 18px;
                 word-spacing: 0.16em
               "
               width="18"
@@ -2930,14 +2854,12 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 letter-spacing: 0.12em;
                 line-height: 1.5;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
                 vertical-align: middle;
-                width: 18px;
                 word-spacing: 0.16em
               "
               width="18"
@@ -3009,14 +2931,12 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 letter-spacing: 0.12em;
                 line-height: 1.5;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
                 vertical-align: middle;
-                width: 18px;
                 word-spacing: 0.16em
               "
               width="18"
@@ -3088,14 +3008,12 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 letter-spacing: 0.12em;
                 line-height: 1.5;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
                 vertical-align: middle;
-                width: 18px;
                 word-spacing: 0.16em
               "
               width="18"
@@ -3167,14 +3085,12 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 letter-spacing: 0.12em;
                 line-height: 1.5;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
                 vertical-align: middle;
-                width: 18px;
                 word-spacing: 0.16em
               "
               width="18"
@@ -3246,14 +3162,12 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 letter-spacing: 0.12em;
                 line-height: 1.5;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
                 vertical-align: middle;
-                width: 18px;
                 word-spacing: 0.16em
               "
               width="18"
@@ -3325,14 +3239,12 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 letter-spacing: 0.12em;
                 line-height: 1.5;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
                 vertical-align: middle;
-                width: 18px;
                 word-spacing: 0.16em
               "
               width="18"
@@ -3404,14 +3316,12 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 letter-spacing: 0.12em;
                 line-height: 1.5;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
                 vertical-align: middle;
-                width: 18px;
                 word-spacing: 0.16em
               "
               width="18"
@@ -3483,14 +3393,12 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 letter-spacing: 0.12em;
                 line-height: 1.5;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
                 vertical-align: middle;
-                width: 18px;
                 word-spacing: 0.16em
               "
               width="18"
@@ -3562,14 +3470,12 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 letter-spacing: 0.12em;
                 line-height: 1.5;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
                 vertical-align: middle;
-                width: 18px;
                 word-spacing: 0.16em
               "
               width="18"
@@ -3641,14 +3547,12 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 letter-spacing: 0.12em;
                 line-height: 1.5;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
                 vertical-align: middle;
-                width: 18px;
                 word-spacing: 0.16em
               "
               width="18"
@@ -3720,14 +3624,12 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 letter-spacing: 0.12em;
                 line-height: 1.5;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
                 vertical-align: middle;
-                width: 18px;
                 word-spacing: 0.16em
               "
               width="18"
@@ -3799,14 +3701,12 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 letter-spacing: 0.12em;
                 line-height: 1.5;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
                 vertical-align: middle;
-                width: 18px;
                 word-spacing: 0.16em
               "
               width="18"
@@ -3878,14 +3778,12 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 letter-spacing: 0.12em;
                 line-height: 1.5;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
                 vertical-align: middle;
-                width: 18px;
                 word-spacing: 0.16em
               "
               width="18"
@@ -3958,14 +3856,12 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 letter-spacing: 0.12em;
                 line-height: 1.5;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
                 vertical-align: middle;
-                width: 18px;
                 word-spacing: 0.16em
               "
               width="18"
@@ -4110,14 +4006,12 @@
             color: var(--filter-menu-button-icon-color, var(--color-foreground-primary));
             display: inline-block;
             fill: currentcolor;
-            height: 12px;
             margin-inline-start: 8px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
             transform: rotate(180deg);
-            vertical-align: middle;
-            width: 12px
+            vertical-align: middle
           "
           width="12"
         >
@@ -4198,12 +4092,10 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 18px
+                vertical-align: middle
               "
               width="18"
             >
@@ -4259,12 +4151,10 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 18px
+                vertical-align: middle
               "
               width="18"
             >
@@ -4321,12 +4211,10 @@
                 color: var(--filter-menu-item-unchecked-color, var(--color-foreground-secondary));
                 display: block;
                 fill: currentcolor;
-                height: 18px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 18px
+                vertical-align: middle
               "
               width="18"
             >

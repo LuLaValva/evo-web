@@ -44,6 +44,52 @@ function arg(name) {
 
 const TOKENS_DIR = "packages/skin/dist/tokens";
 const SPRITE_DIST = "packages/skin/dist/svg/icons.svg";
+const BUNDLE_DIST = "packages/skin/dist/bundles/skin-full.css";
+
+/**
+ * The custom properties skin declares on :root in its own bundle
+ * (--input-default-height and friends). Snapshots keep var() references
+ * unresolved, and these resolve against the bundle rather than the token
+ * files, so frames need them to compute the same lengths and colors.
+ *
+ * Only top level :root rules are the light defaults — the bundle also has a
+ * prefers-color-scheme block whose :root would otherwise be hoisted out of
+ * its media query and applied unconditionally.
+ */
+function rootVariables(css) {
+  const light = [];
+  const dark = [];
+  const collect = (body, into) => {
+    for (const declaration of body.split(";")) {
+      if (declaration.trim().startsWith("--")) into.push(declaration.trim());
+    }
+  };
+  for (const rule of topLevelRules(css)) {
+    const prelude = rule.slice(0, rule.indexOf("{"));
+    if (prelude.includes(":root")) {
+      collect(rule.slice(rule.indexOf("{") + 1, rule.lastIndexOf("}")), light);
+    } else if (/prefers-color-scheme:\s*dark/.test(prelude)) {
+      for (const [, body] of rule.matchAll(/:root\s*\{([^}]*)\}/g)) {
+        collect(body, dark);
+      }
+    }
+  }
+  const wrap = (declarations) =>
+    declarations.length ? `:root{${declarations.join(";")}}` : "";
+  return { light: wrap(light), dark: wrap(dark) };
+}
+
+function* topLevelRules(css) {
+  let depth = 0;
+  let start = 0;
+  for (let i = 0; i < css.length; i++) {
+    if (css[i] === "{") depth++;
+    else if (css[i] === "}" && --depth === 0) {
+      yield css.slice(start, i + 1);
+      start = i + 1;
+    }
+  }
+}
 
 function readTokensCss() {
   const read = (f) => readWorkingTree(path.join(TOKENS_DIR, f));
@@ -75,6 +121,16 @@ for (const name of ["viewer.css", "viewer.js"]) {
 const tokens = readTokensCss();
 writeAsset("tokens-light.css", tokens.light);
 writeAsset("tokens-dark.css", tokens.dark);
+// Per ref, so a PR that changes one of these variables shows the difference.
+const headBundle = readWorkingTree(BUNDLE_DIST);
+for (const [side, bundle] of [
+  ["head", headBundle],
+  ["base", readAtRef(baseRef, BUNDLE_DIST) || headBundle],
+]) {
+  const variables = rootVariables(bundle);
+  writeAsset(`vars-${side}.css`, variables.light);
+  writeAsset(`vars-${side}-dark.css`, variables.dark);
+}
 // Sprites are injected into srcdoc frames by a script file: frames can't
 // fetch() under file://, but <script src> works and is cached.
 const spriteJs = (svg) =>

@@ -38,8 +38,7 @@
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >
@@ -50,22 +49,26 @@
         style="
           appearance: none;
           border-bottom-color: currentcolor;
+          border-bottom-style: none;
           border-bottom-width: medium;
           border-left-color: currentcolor;
+          border-left-style: none;
           border-left-width: medium;
           border-right-color: currentcolor;
+          border-right-style: none;
           border-right-width: medium;
           border-top-color: currentcolor;
+          border-top-style: none;
           border-top-width: medium;
           color: inherit;
           flex-grow: 1;
           font-family: inherit;
           font-size: 1em;
           height: 40px;
-          margin-bottom: 0px;
-          margin-left: 0px;
-          margin-right: 0px;
-          margin-top: 0px;
+          padding-bottom: 0px;
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-top: 0px;
           vertical-align: middle;
           width: 100%
         "
@@ -130,8 +133,7 @@
             position: relative;
             stroke-width: 0;
             stroke: currentcolor;
-            vertical-align: middle;
-            width: 16px
+            vertical-align: middle
           "
           width="16"
         >
@@ -182,8 +184,7 @@
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >
@@ -194,22 +195,26 @@
         style="
           appearance: none;
           border-bottom-color: currentcolor;
+          border-bottom-style: none;
           border-bottom-width: medium;
           border-left-color: currentcolor;
+          border-left-style: none;
           border-left-width: medium;
           border-right-color: currentcolor;
+          border-right-style: none;
           border-right-width: medium;
           border-top-color: currentcolor;
+          border-top-style: none;
           border-top-width: medium;
           color: inherit;
           flex-grow: 1;
           font-family: inherit;
           font-size: 1em;
           height: 40px;
-          margin-bottom: 0px;
-          margin-left: 0px;
-          margin-right: 0px;
-          margin-top: 0px;
+          padding-bottom: 0px;
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-top: 0px;
           vertical-align: middle;
           width: 100%
         "
@@ -274,8 +279,7 @@
             position: relative;
             stroke-width: 0;
             stroke: currentcolor;
-            vertical-align: middle;
-            width: 16px
+            vertical-align: middle
           "
           width="16"
         >
@@ -326,8 +330,7 @@
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >
@@ -338,22 +341,26 @@
         style="
           appearance: none;
           border-bottom-color: currentcolor;
+          border-bottom-style: none;
           border-bottom-width: medium;
           border-left-color: currentcolor;
+          border-left-style: none;
           border-left-width: medium;
           border-right-color: currentcolor;
+          border-right-style: none;
           border-right-width: medium;
           border-top-color: currentcolor;
+          border-top-style: none;
           border-top-width: medium;
           color: inherit;
           flex-grow: 1;
           font-family: inherit;
           font-size: 1em;
           height: 48px;
-          margin-bottom: 0px;
-          margin-left: 0px;
-          margin-right: 0px;
-          margin-top: 0px;
+          padding-bottom: 0px;
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-top: 0px;
           vertical-align: middle;
           width: 100%
         "
@@ -418,8 +425,7 @@
             position: relative;
             stroke-width: 0;
             stroke: currentcolor;
-            vertical-align: middle;
-            width: 16px
+            vertical-align: middle
           "
           width="16"
         >
@@ -470,8 +476,7 @@
           pointer-events: none;
           stroke-width: 0;
           stroke: currentcolor;
-          vertical-align: middle;
-          width: 16px
+          vertical-align: middle
         "
         width="16"
       >
@@ -482,22 +487,26 @@
         style="
           appearance: none;
           border-bottom-color: currentcolor;
+          border-bottom-style: none;
           border-bottom-width: medium;
           border-left-color: currentcolor;
+          border-left-style: none;
           border-left-width: medium;
           border-right-color: currentcolor;
+          border-right-style: none;
           border-right-width: medium;
           border-top-color: currentcolor;
+          border-top-style: none;
           border-top-width: medium;
           color: inherit;
           flex-grow: 1;
           font-family: inherit;
           font-size: 1em;
           height: 32px;
-          margin-bottom: 0px;
-          margin-left: 0px;
-          margin-right: 0px;
-          margin-top: 0px;
+          padding-bottom: 0px;
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-top: 0px;
           vertical-align: middle;
           width: 100%
         "
@@ -561,8 +570,7 @@
             position: relative;
             stroke-width: 0;
             stroke: currentcolor;
-            vertical-align: middle;
-            width: 16px
+            vertical-align: middle
           "
           width="16"
         >
@@ -622,7 +630,6 @@
           stroke-width: 0;
           stroke: currentcolor;
           vertical-align: middle;
-          width: 16px;
           word-spacing: 0.16em
         "
         width="16"
@@ -641,12 +648,16 @@
         style="
           appearance: none;
           border-bottom-color: currentcolor;
+          border-bottom-style: none;
           border-bottom-width: medium;
           border-left-color: currentcolor;
+          border-left-style: none;
           border-left-width: medium;
           border-right-color: currentcolor;
+          border-right-style: none;
           border-right-width: medium;
           border-top-color: currentcolor;
+          border-top-style: none;
           border-top-width: medium;
           color: inherit;
           flex-grow: 1;
@@ -655,10 +666,10 @@
           height: 40px;
           letter-spacing: 0.12em;
           line-height: 1.5;
-          margin-bottom: 0px;
-          margin-left: 0px;
-          margin-right: 0px;
-          margin-top: 0px;
+          padding-bottom: 0px;
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-top: 0px;
           vertical-align: middle;
           width: 100%;
           word-spacing: 0.16em
@@ -730,7 +741,6 @@
             stroke-width: 0;
             stroke: currentcolor;
             vertical-align: middle;
-            width: 16px;
             word-spacing: 0.16em
           "
           width="16"

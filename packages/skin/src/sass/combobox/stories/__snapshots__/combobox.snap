@@ -20,14 +20,15 @@
           border-right-width: 1px;
           border-top-style: solid;
           border-top-width: 1px;
+          box-sizing: border-box;
           color: var(--combobox-textbox-foreground-color, var(--color-foreground-primary));
           font-family: inherit;
           font-size: inherit;
           height: 40px;
-          margin-left: 0px;
-          margin-right: 0px;
+          padding-bottom: 0px;
           padding-left: 16px;
-          padding-right: 32px
+          padding-right: 32px;
+          padding-top: 0px
         "
       />
       <button style="
@@ -271,14 +272,15 @@
           border-right-width: 1px;
           border-top-style: solid;
           border-top-width: 1px;
+          box-sizing: border-box;
           color: var(--combobox-textbox-foreground-color, var(--color-foreground-primary));
           font-family: inherit;
           font-size: inherit;
           height: 40px;
-          margin-left: 0px;
-          margin-right: 0px;
+          padding-bottom: 0px;
           padding-left: 32px;
-          padding-right: 16px
+          padding-right: 16px;
+          padding-top: 0px
         "
       />
       <button style="
@@ -525,14 +527,15 @@
             border-right-width: 1px;
             border-top-style: solid;
             border-top-width: 1px;
+            box-sizing: border-box;
             color: var(--combobox-textbox-foreground-color, var(--color-foreground-primary));
             font-family: inherit;
             font-size: inherit;
             height: 40px;
-            margin-left: 0px;
-            margin-right: 0px;
+            padding-bottom: 0px;
             padding-left: 32px;
-            padding-right: 16px
+            padding-right: 16px;
+            padding-top: 0px
           "
         />
         <button style="
@@ -782,14 +785,15 @@
           border-right-width: 1px;
           border-top-style: solid;
           border-top-width: 1px;
+          box-sizing: border-box;
           color: var(--combobox-textbox-foreground-color, var(--color-foreground-primary));
           font-family: inherit;
           font-size: inherit;
           height: 40px;
-          margin-left: 0px;
-          margin-right: 0px;
+          padding-bottom: 0px;
           padding-left: 16px;
-          padding-right: 32px
+          padding-right: 32px;
+          padding-top: 0px
         "
       />
     </span>
@@ -822,14 +826,15 @@
           border-right-width: 1px;
           border-top-style: solid;
           border-top-width: 1px;
+          box-sizing: border-box;
           color: var(--combobox-textbox-disabled-foreground-color, var(--color-foreground-disabled));
           font-family: inherit;
           font-size: inherit;
           height: 40px;
-          margin-left: 0px;
-          margin-right: 0px;
+          padding-bottom: 0px;
           padding-left: 16px;
-          padding-right: 32px
+          padding-right: 32px;
+          padding-top: 0px
         "
       />
     </span>
@@ -861,14 +866,15 @@
           border-right-width: 1px;
           border-top-style: solid;
           border-top-width: 1px;
+          box-sizing: border-box;
           color: var(--combobox-textbox-foreground-color, var(--color-foreground-primary));
           font-family: inherit;
           font-size: inherit;
           height: 40px;
-          margin-left: 0px;
-          margin-right: 0px;
+          padding-bottom: 0px;
           padding-left: 16px;
-          padding-right: 32px
+          padding-right: 32px;
+          padding-top: 0px
         "
       />
     </span>
@@ -1004,14 +1010,15 @@
             border-right-width: 1px;
             border-top-style: solid;
             border-top-width: 1px;
+            box-sizing: border-box;
             color: var(--combobox-textbox-foreground-color, var(--color-foreground-primary));
             font-family: inherit;
             font-size: inherit;
             height: 40px;
-            margin-left: 0px;
-            margin-right: 0px;
+            padding-bottom: 0px;
             padding-left: 16px;
-            padding-right: 32px
+            padding-right: 32px;
+            padding-top: 0px
           "
         />
       </span>
@@ -1148,14 +1155,15 @@
             border-right-width: 1px;
             border-top-style: solid;
             border-top-width: 1px;
+            box-sizing: border-box;
             color: var(--combobox-textbox-foreground-color, var(--color-foreground-primary));
             font-family: inherit;
             font-size: inherit;
             height: 40px;
-            margin-left: 0px;
-            margin-right: 0px;
+            padding-bottom: 0px;
             padding-left: 16px;
-            padding-right: 32px
+            padding-right: 32px;
+            padding-top: 0px
           "
         />
       </span>
@@ -1291,14 +1299,15 @@
           border-right-width: 1px;
           border-top-style: solid;
           border-top-width: 1px;
+          box-sizing: border-box;
           color: var(--combobox-textbox-foreground-color, var(--color-foreground-primary));
           font-family: inherit;
           font-size: var(--font-size-medium);
           height: 48px;
-          margin-left: 0px;
-          margin-right: 0px;
+          padding-bottom: 0px;
           padding-left: 16px;
-          padding-right: 32px
+          padding-right: 32px;
+          padding-top: 0px
         "
       />
     </span>
@@ -1433,14 +1442,15 @@
           border-right-width: 1px;
           border-top-style: solid;
           border-top-width: 1px;
+          box-sizing: border-box;
           color: var(--combobox-textbox-foreground-color, var(--color-foreground-primary));
           font-family: inherit;
           font-size: inherit;
           height: 40px;
-          margin-left: 0px;
-          margin-right: 0px;
+          padding-bottom: 0px;
           padding-left: 16px;
-          padding-right: 32px
+          padding-right: 32px;
+          padding-top: 0px
         "
       />
     </span>
@@ -1582,16 +1592,17 @@
           border-right-width: 1px;
           border-top-style: solid;
           border-top-width: 1px;
+          box-sizing: border-box;
           color: var(--combobox-textbox-foreground-color, var(--color-foreground-primary));
           font-family: inherit;
           font-size: inherit;
           height: 40px;
           letter-spacing: 0.12em;
           line-height: 1.5;
-          margin-left: 0px;
-          margin-right: 0px;
+          padding-bottom: 0px;
           padding-left: 16px;
           padding-right: 32px;
+          padding-top: 0px;
           word-spacing: 0.16em
         "
       />

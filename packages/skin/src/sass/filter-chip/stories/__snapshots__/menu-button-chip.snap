@@ -49,7 +49,6 @@
       style="
         display: inline-block;
         fill: currentcolor;
-        height: 12px;
         pointer-events: none;
         rotate: 0deg;
         stroke-width: 0;
@@ -118,7 +117,6 @@
       style="
         display: inline-block;
         fill: currentcolor;
-        height: 12px;
         pointer-events: none;
         rotate: 0deg;
         stroke-width: 0;
@@ -200,7 +198,6 @@
       style="
         display: inline-block;
         fill: currentcolor;
-        height: 12px;
         pointer-events: none;
         rotate: 180deg;
         stroke-width: 0;
@@ -269,7 +266,6 @@
       style="
         display: inline-block;
         fill: currentcolor;
-        height: 12px;
         pointer-events: none;
         rotate: 180deg;
         stroke-width: 0;
@@ -388,7 +384,6 @@
       style="
         display: inline-block;
         fill: currentcolor;
-        height: 12px;
         pointer-events: none;
         rotate: 0deg;
         stroke-width: 0;
@@ -494,7 +489,6 @@
       style="
         display: inline-block;
         fill: currentcolor;
-        height: 12px;
         pointer-events: none;
         rotate: 0deg;
         stroke-width: 0;
@@ -582,7 +576,6 @@
       style="
         display: inline-block;
         fill: currentcolor;
-        height: 12px;
         letter-spacing: 0.12em;
         line-height: 1.5;
         pointer-events: none;

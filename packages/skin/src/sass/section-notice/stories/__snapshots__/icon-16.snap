@@ -194,12 +194,10 @@
           style="
             display: inline-block;
             fill: currentcolor;
-            height: 16px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
-            vertical-align: top;
-            width: 16px
+            vertical-align: top
           "
           width="16"
         >
@@ -304,12 +302,10 @@
           style="
             display: inline-block;
             fill: currentcolor;
-            height: 16px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
-            vertical-align: top;
-            width: 16px
+            vertical-align: top
           "
           width="16"
         >
@@ -444,12 +440,10 @@
           style="
             display: inline-block;
             fill: currentcolor;
-            height: 16px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
-            vertical-align: top;
-            width: 16px
+            vertical-align: top
           "
           width="16"
         >
@@ -586,12 +580,10 @@
           style="
             display: inline-block;
             fill: currentcolor;
-            height: 16px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
-            vertical-align: top;
-            width: 16px
+            vertical-align: top
           "
           width="16"
         >
@@ -709,12 +701,10 @@
           style="
             display: inline-block;
             fill: currentcolor;
-            height: 16px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
-            vertical-align: top;
-            width: 16px
+            vertical-align: top
           "
           width="16"
         >
@@ -834,12 +824,10 @@
           style="
             display: inline-block;
             fill: currentcolor;
-            height: 16px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
-            vertical-align: top;
-            width: 16px
+            vertical-align: top
           "
           width="16"
         >
@@ -951,12 +939,10 @@
           style="
             display: inline-block;
             fill: currentcolor;
-            height: 16px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
-            vertical-align: top;
-            width: 16px
+            vertical-align: top
           "
           width="16"
         >
@@ -1070,12 +1056,10 @@
           style="
             display: inline-block;
             fill: currentcolor;
-            height: 16px;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
-            vertical-align: top;
-            width: 16px
+            vertical-align: top
           "
           width="16"
         >
@@ -2049,14 +2033,12 @@
           style="
             display: inline-block;
             fill: currentcolor;
-            height: 16px;
             letter-spacing: 0.12em;
             line-height: 1.5;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
             vertical-align: top;
-            width: 16px;
             word-spacing: 0.16em
           "
           width="16"
@@ -2238,14 +2220,12 @@
           style="
             display: inline-block;
             fill: currentcolor;
-            height: 16px;
             letter-spacing: 0.12em;
             line-height: 1.5;
             pointer-events: none;
             stroke-width: 0;
             stroke: currentcolor;
             vertical-align: top;
-            width: 16px;
             word-spacing: 0.16em
           "
           width="16"

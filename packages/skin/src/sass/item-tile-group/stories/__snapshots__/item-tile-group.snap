@@ -135,14 +135,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -395,14 +393,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -625,14 +621,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -875,14 +869,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -1135,14 +1127,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -1395,14 +1385,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -1625,14 +1613,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -1875,14 +1861,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -2135,14 +2119,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -2395,14 +2377,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -2625,14 +2605,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -2875,14 +2853,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -3168,14 +3144,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -3428,14 +3402,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -3658,14 +3630,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -3908,14 +3878,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -4168,14 +4136,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -4428,14 +4394,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -4658,14 +4622,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -4908,14 +4870,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -5168,14 +5128,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -5428,14 +5386,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -5658,14 +5614,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -5908,14 +5862,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -6198,14 +6150,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -6458,14 +6408,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -6698,14 +6646,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -6956,14 +6902,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -7226,14 +7170,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -7486,14 +7428,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -7716,14 +7656,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -7966,14 +7904,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -8226,14 +8162,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -8486,14 +8420,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -8716,14 +8648,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -8966,14 +8896,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -9259,14 +9187,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -9519,14 +9445,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -9759,14 +9683,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -10017,14 +9939,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -10287,14 +10207,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -10547,14 +10465,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -10777,14 +10693,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -11027,14 +10941,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -11287,14 +11199,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -11547,14 +11457,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -11777,14 +11685,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -12027,14 +11933,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -12318,14 +12222,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -12580,14 +12482,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -12812,14 +12712,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -13064,14 +12962,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -13326,14 +13222,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -13588,14 +13482,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -13820,14 +13712,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -14072,14 +13962,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -14334,14 +14222,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -14596,14 +14482,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -14828,14 +14712,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -15080,14 +14962,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -15375,14 +15255,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -15637,14 +15515,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -15869,14 +15745,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -16121,14 +15995,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -16383,14 +16255,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -16645,14 +16515,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -16877,14 +16745,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -17129,14 +16995,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -17391,14 +17255,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -17653,14 +17515,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -17885,14 +17745,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >
@@ -18137,14 +17995,12 @@
                     style="
                       display: inline-block;
                       fill: var(--color-foreground-primary);
-                      height: 16px;
                       max-width: 75%;
                       pointer-events: none;
                       position: relative;
                       stroke-width: 0;
                       stroke: currentcolor;
-                      vertical-align: middle;
-                      width: 16px
+                      vertical-align: middle
                     "
                     width="16"
                   >

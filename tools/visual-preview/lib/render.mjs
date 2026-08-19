@@ -42,6 +42,13 @@ export function frameDoc(annotatedHtml, { rtl, side }) {
     html`<!doctype html>
       <html dir="${rtl ? "rtl" : "ltr"}">
         <head>
+          <link rel="stylesheet" href="../assets/vars-${side}.css" />
+          <link
+            rel="stylesheet"
+            href="../assets/vars-${side}-dark.css"
+            disabled
+            data-vp-dark
+          />
           <link rel="stylesheet" href="../assets/tokens-light.css" />
           <link
             rel="stylesheet"

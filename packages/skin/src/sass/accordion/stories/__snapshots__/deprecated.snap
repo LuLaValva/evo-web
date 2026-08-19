@@ -75,12 +75,10 @@
               style="
                 display: inline-block;
                 fill: var(--color-foreground-secondary);
-                height: 16px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 16px
+                vertical-align: middle
               "
               width="16"
             >
@@ -183,12 +181,10 @@
               style="
                 display: inline-block;
                 fill: var(--color-foreground-secondary);
-                height: 16px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 16px
+                vertical-align: middle
               "
               width="16"
             >
@@ -291,12 +287,10 @@
               style="
                 display: inline-block;
                 fill: var(--color-foreground-secondary);
-                height: 16px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 16px
+                vertical-align: middle
               "
               width="16"
             >
@@ -416,12 +410,10 @@
               style="
                 display: inline-block;
                 fill: currentcolor;
-                height: 16px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 16px
+                vertical-align: middle
               "
               width="16"
             >
@@ -524,12 +516,10 @@
               style="
                 display: inline-block;
                 fill: var(--color-foreground-secondary);
-                height: 16px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 16px
+                vertical-align: middle
               "
               width="16"
             >
@@ -632,12 +622,10 @@
               style="
                 display: inline-block;
                 fill: var(--color-foreground-secondary);
-                height: 16px;
                 pointer-events: none;
                 stroke-width: 0;
                 stroke: currentcolor;
-                vertical-align: middle;
-                width: 16px
+                vertical-align: middle
               "
               width="16"
             >

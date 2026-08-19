@@ -32,24 +32,29 @@
         style="
           appearance: none;
           border-bottom-color: currentcolor;
+          border-bottom-style: none;
           border-bottom-width: medium;
           border-left-color: currentcolor;
+          border-left-style: none;
           border-left-width: medium;
           border-right-color: currentcolor;
+          border-right-style: none;
           border-right-width: medium;
           border-top-color: currentcolor;
+          border-top-style: none;
           border-top-width: medium;
+          box-sizing: border-box;
           color: inherit;
           flex-grow: 1;
           font-family: inherit;
           font-size: 1em;
           height: calc(var(--input-default-height) - 2px);
-          margin-bottom: 0px;
-          margin-left: 0px;
-          margin-right: 0px;
-          margin-top: 0px;
+          padding-bottom: 0px;
           padding-inline-end: var(--spacing-200);
           padding-inline-start: var(--spacing-200);
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-top: 0px;
           vertical-align: middle
         "
       />
@@ -247,6 +252,7 @@
           border-top-color: currentcolor;
           border-top-style: none;
           border-top-width: medium;
+          box-sizing: border-box;
           color: inherit;
           flex-grow: 1;
           font-family: inherit;
@@ -296,24 +302,29 @@
         style="
           appearance: none;
           border-bottom-color: currentcolor;
+          border-bottom-style: none;
           border-bottom-width: medium;
           border-left-color: currentcolor;
+          border-left-style: none;
           border-left-width: medium;
           border-right-color: currentcolor;
+          border-right-style: none;
           border-right-width: medium;
           border-top-color: currentcolor;
+          border-top-style: none;
           border-top-width: medium;
+          box-sizing: border-box;
           color: inherit;
           flex-grow: 1;
           font-family: inherit;
           font-size: 1em;
           height: calc(var(--input-default-height) - 2px);
-          margin-bottom: 0px;
-          margin-left: 0px;
-          margin-right: 0px;
-          margin-top: 0px;
+          padding-bottom: 0px;
           padding-inline-end: var(--spacing-200);
           padding-inline-start: var(--spacing-200);
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-top: 0px;
           vertical-align: middle
         "
       />
@@ -513,6 +524,7 @@
           border-top-color: currentcolor;
           border-top-style: none;
           border-top-width: medium;
+          box-sizing: border-box;
           color: inherit;
           flex-grow: 1;
           font-family: inherit;
@@ -563,24 +575,29 @@
         style="
           appearance: none;
           border-bottom-color: currentcolor;
+          border-bottom-style: none;
           border-bottom-width: medium;
           border-left-color: currentcolor;
+          border-left-style: none;
           border-left-width: medium;
           border-right-color: currentcolor;
+          border-right-style: none;
           border-right-width: medium;
           border-top-color: currentcolor;
+          border-top-style: none;
           border-top-width: medium;
+          box-sizing: border-box;
           color: var(--textbox-disabled-foreground-color, var(--color-foreground-disabled));
           flex-grow: 1;
           font-family: inherit;
           font-size: 1em;
           height: calc(var(--input-default-height) - 2px);
-          margin-bottom: 0px;
-          margin-left: 0px;
-          margin-right: 0px;
-          margin-top: 0px;
+          padding-bottom: 0px;
           padding-inline-end: var(--spacing-200);
           padding-inline-start: var(--spacing-200);
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-top: 0px;
           vertical-align: middle
         "
       />
@@ -611,6 +628,7 @@
           font-family: inherit;
           font-size: 1em;
           height: 40px;
+          opacity: 1;
           padding: 0 var(--spacing-400) 0 var(--spacing-200);
           vertical-align: middle
         "
@@ -790,6 +808,7 @@
           border-top-color: currentcolor;
           border-top-style: none;
           border-top-width: medium;
+          box-sizing: border-box;
           color: inherit;
           flex-grow: 1;
           font-family: inherit;
@@ -839,24 +858,29 @@
         style="
           appearance: none;
           border-bottom-color: currentcolor;
+          border-bottom-style: none;
           border-bottom-width: medium;
           border-left-color: currentcolor;
+          border-left-style: none;
           border-left-width: medium;
           border-right-color: currentcolor;
+          border-right-style: none;
           border-right-width: medium;
           border-top-color: currentcolor;
+          border-top-style: none;
           border-top-width: medium;
+          box-sizing: border-box;
           color: inherit;
           flex-grow: 1;
           font-family: inherit;
           font-size: 1em;
           height: calc(var(--input-default-height) - 2px);
-          margin-bottom: 0px;
-          margin-left: 0px;
-          margin-right: 0px;
-          margin-top: 0px;
+          padding-bottom: 0px;
           padding-inline-end: var(--spacing-200);
           padding-inline-start: var(--spacing-200);
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-top: 0px;
           vertical-align: middle
         "
       />
@@ -1054,6 +1078,7 @@
           border-top-color: currentcolor;
           border-top-style: none;
           border-top-width: medium;
+          box-sizing: border-box;
           color: inherit;
           flex-grow: 1;
           font-family: inherit;
