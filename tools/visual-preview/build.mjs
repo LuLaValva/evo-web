@@ -44,6 +44,7 @@ function arg(name) {
 
 const TOKENS_DIR = "packages/skin/dist/tokens";
 const SPRITE_DIST = "packages/skin/dist/svg/icons.svg";
+const STORYBOOK_STATIC = "packages/skin/.storybook/static";
 const BUNDLE_DIST = "packages/skin/dist/bundles/skin-full.css";
 
 const ROOT_SELECTOR = /(^|,)\s*(html|body|:root)\s*(,|$)/;
@@ -129,6 +130,12 @@ for (const [side, bundle] of [
   writeAsset(`base-${side}.css`, base.light);
   writeAsset(`base-${side}-dark.css`, base.dark);
 }
+// Story markup references these from the site root; the frames point at this
+// copy instead, since the viewer is not served from one.
+fs.cpSync(path.join(repoRoot, STORYBOOK_STATIC), path.join(outDir, "static"), {
+  recursive: true,
+  force: true,
+});
 // Sprites are injected into srcdoc frames by a script file: frames can't
 // fetch() under file://, but <script src> works and is cached.
 const spriteJs = (svg) =>

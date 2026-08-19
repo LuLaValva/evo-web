@@ -26,6 +26,16 @@ function expandSelfClosed(markup) {
 }
 
 /**
+ * Stories reference Storybook's static files from the site root (/img/…),
+ * which is not where the viewer is served from — locally or under the PR
+ * preview's subdirectory. The build copies those files next to the pages, so
+ * the frame markup points at them from where it actually sits.
+ */
+function resolveStaticUrls(markup) {
+  return markup.replace(/(src=|url\()(["']?)\/(?!\/)/g, "$1$2../static/");
+}
+
+/**
  * A frame document for one side of one dimension. Snapshots carry every
  * visual declaration inline, so the only stylesheets a frame needs are the
  * design tokens the inline values reference through var().
@@ -43,7 +53,12 @@ export function frameDoc(annotatedHtml, { rtl, side }) {
       <html dir="${rtl ? "rtl" : "ltr"}">
         <head>
           <style>
-            body{margin:16px;font-family:Arial,sans-serif;background:var(--color-background-primary,#fff);color:var(--color-foreground-primary,#111)}
+            body {
+              margin: 16px;
+              font-family: Arial, sans-serif;
+              background: var(--color-background-primary, #fff);
+              color: var(--color-foreground-primary, #111);
+            }
           </style>
           <link rel="stylesheet" href="../assets/base-${side}.css" />
           <link
@@ -70,7 +85,7 @@ export function frameDoc(annotatedHtml, { rtl, side }) {
         </head>
         <body>
           <script src="../assets/sprite-${side}.js"></script>
-          ${raw(expandSelfClosed(annotatedHtml))}
+          ${raw(resolveStaticUrls(expandSelfClosed(annotatedHtml)))}
         </body>
       </html>`,
   );
