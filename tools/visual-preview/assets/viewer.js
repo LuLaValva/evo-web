@@ -84,7 +84,11 @@ function buildList() {
   let activeLink = null;
   for (const item of NAV.entries) {
     const text = `${item.component} ${item.story} ${item.qualifier || ""}`;
-    if (filter && !text.toLowerCase().includes(filter)) continue;
+    // Prev/next walk every story, not the filtered ones, so the page being
+    // read stays listed even when the filter would drop it — otherwise the
+    // list stops answering where you are.
+    const isActive = onStoryPage && item.slug === PAGE.slug;
+    if (filter && !isActive && !text.toLowerCase().includes(filter)) continue;
     if (item.component !== lastComponent) {
       lastComponent = item.component;
       const h = document.createElement("h2");
@@ -95,7 +99,7 @@ function buildList() {
     a.className = "story";
     a.href = hrefPrefix + item.slug + ".html";
     a.title = item.file;
-    if (onStoryPage && item.slug === PAGE.slug) {
+    if (isActive) {
       a.classList.add("active");
       activeLink = a;
     }
@@ -142,31 +146,54 @@ function updateProgress() {
   if (flagged) progressEl.append(` · ${flagged} ⚑ flagged`);
 }
 
-// Preserve the sidebar scroll position across navigations (the list is
-// identical on every page — jumping to the active row on each load is
-// disorienting). Falls back to centering the active row the first time.
+// The list is identical on every page, so its scroll position and filter
+// carry across navigations: re-centering or re-listing on each load loses the
+// reader's place. Both last for the tab rather than for good — a filter you
+// left behind days ago is not one you want to come back to.
 const SCROLL_KEY = "vp:sidebar-scroll";
+const FILTER_KEY = "vp:filter";
+function readSession(key) {
+  try {
+    return sessionStorage.getItem(key);
+  } catch {
+    return null; // session storage unavailable
+  }
+}
+function writeSession(key, value) {
+  try {
+    sessionStorage.setItem(key, value);
+  } catch {
+    /* session storage unavailable */
+  }
+}
+
 function restoreListScroll(activeLink) {
-  const saved = sessionStorage.getItem(SCROLL_KEY);
+  const saved = readSession(SCROLL_KEY);
   if (saved !== null) listEl.scrollTop = Number(saved);
-  else activeLink?.scrollIntoView({ block: "center" });
+  if (!activeLink) return;
+  // The saved position is from wherever the reader was last. If the page they
+  // are on now isn't among the rows it shows, put it back in view.
+  const row = activeLink.getBoundingClientRect();
+  const list = listEl.getBoundingClientRect();
+  if (row.top < list.top || row.bottom > list.bottom) {
+    activeLink.scrollIntoView({ block: "center" });
+  }
 }
 listEl.addEventListener(
   "scroll",
-  () => {
-    try {
-      sessionStorage.setItem(SCROLL_KEY, listEl.scrollTop);
-    } catch {
-      /* session storage unavailable */
-    }
-  },
+  () => writeSession(SCROLL_KEY, listEl.scrollTop),
   { passive: true },
 );
 
-searchEl.oninput = () => {
-  state.filter = searchEl.value;
+function setFilter(value) {
+  state.filter = value;
+  searchEl.value = value;
+  writeSession(FILTER_KEY, value);
   buildList();
-};
+}
+searchEl.oninput = () => setFilter(searchEl.value);
+state.filter = readSession(FILTER_KEY) || "";
+searchEl.value = state.filter;
 
 // ---------- link prefetching ----------
 // The moment a same-origin navigation looks likely, drop a <link rel=prefetch>
@@ -205,9 +232,7 @@ function onKeydown(e) {
     if (e.key === "Escape") {
       // The browser clears type=search on Escape without firing input;
       // keep the filter in sync explicitly.
-      searchEl.value = "";
-      state.filter = "";
-      buildList();
+      setFilter("");
       searchEl.blur();
     }
     return;
