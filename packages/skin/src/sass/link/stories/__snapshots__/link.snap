@@ -121,7 +121,7 @@
 ┌─ nav
 <div>
   <a
-    href="https://www.ebay.com/?r=19"
+    href="https://www.ebay.com/?r=481"
     style="
       color: var(--nav-link-foreground-color, var(--color-foreground-link-primary));
       text-decoration-color: rgb(0, 0, 0);
@@ -135,7 +135,7 @@
 ┌─ textSpacing
 <div>
   <a
-    href="https://www.ebay.com/?r=735"
+    href="https://www.ebay.com/?r=481"
     style="
       color: var(--color-foreground-link-primary);
       letter-spacing: 0.12em;
