@@ -172,11 +172,14 @@ function restoreListScroll(activeLink) {
   if (saved !== null) listEl.scrollTop = Number(saved);
   if (!activeLink) return;
   // The saved position is from wherever the reader was last. If the page they
-  // are on now isn't among the rows it shows, put it back in view.
+  // are on now isn't among the rows it shows, scroll by just enough to bring
+  // it to the near edge rather than hauling it to the middle.
   const row = activeLink.getBoundingClientRect();
   const list = listEl.getBoundingClientRect();
-  if (row.top < list.top || row.bottom > list.bottom) {
-    activeLink.scrollIntoView({ block: "center" });
+  if (row.top < list.top) {
+    listEl.scrollTop -= list.top - row.top;
+  } else if (row.bottom > list.bottom) {
+    listEl.scrollTop += row.bottom - list.bottom;
   }
 }
 listEl.addEventListener(
@@ -330,30 +333,50 @@ function syncFrameScroll(a, b) {
 
 // ---------- measuring / scaling ----------
 // Dialogs, tooltips and infotips are taken out of flow, so scrollHeight sees
-// none of them and a frame sized by it clips whatever the story is actually
-// about. The furthest any element reaches is what has to fit.
+// none of them and a frame sized by it clips whatever the story is about.
+// Snapshots carry every style inline, so the elements that can escape the flow
+// are found by selector — walking the tree would mean measuring the thousands
+// of sprite nodes in every frame.
+//
+// Nothing is added for breathing room: an element pinned to the frame's own
+// height measures as tall as whatever we last set, so any padding we add here
+// would be re-measured as content and grow the frame on every pass.
+const OUT_OF_FLOW =
+  '[style*="position: fixed"], [style*="position: absolute"], [style*="position: sticky"]';
 function contentHeight(doc) {
   let bottom = doc.documentElement.scrollHeight;
-  for (const el of doc.body.querySelectorAll("*")) {
+  const scrollY = doc.defaultView.scrollY;
+  for (const el of doc.body.querySelectorAll(OUT_OF_FLOW)) {
     const box = el.getBoundingClientRect();
-    if (box.width || box.height) {
-      bottom = Math.max(bottom, box.bottom + doc.defaultView.scrollY);
-    }
+    if (!box.width && !box.height) continue;
+    bottom = Math.max(
+      bottom,
+      box.bottom + scrollY,
+      box.top + scrollY + el.scrollHeight,
+    );
   }
-  // Match the margin the frame body carries, so nothing sits flush.
-  return Math.ceil(bottom) + 16;
+  return Math.ceil(bottom);
 }
 
 function measureDuo(duo) {
   if (!duo.isConnected) return;
-  let h = 120;
-  for (const f of frames(duo)) {
-    const d = f.contentDocument;
-    if (!d) continue;
-    h = Math.max(h, Math.min(contentHeight(d), 900));
+  // Content pinned to the frame's height only reports its full size once the
+  // frame is tall enough to hold it, so the first measurement of a dialog
+  // comes up short. Settling here, before anything is painted, is what keeps
+  // the reader from watching frames grow under them.
+  let h = 0;
+  for (let pass = 0; pass < 3; pass++) {
+    let measured = 120;
+    for (const f of frames(duo)) {
+      const d = f.contentDocument;
+      if (!d) continue;
+      measured = Math.max(measured, Math.min(contentHeight(d), 900));
+    }
+    if (measured === h) break;
+    h = measured;
+    for (const f of frames(duo)) f.style.height = h + "px";
   }
   duo._natH = h;
-  for (const f of frames(duo)) f.style.height = h + "px";
   applyScale(duo);
 }
 function applyScale(duo) {
@@ -553,10 +576,16 @@ if (onStoryPage) {
     applyHighlightsToFrame(iframe);
     const duo = iframe.closest(".duo");
     measureDuo(duo);
-    // Fonts and images can change layout after load; settle with a couple
-    // of delayed re-measures.
-    setTimeout(() => measureDuo(duo), 400);
-    setTimeout(() => measureDuo(duo), 1500);
+    // Fonts and images land after load and can change the layout. Waiting on
+    // them is both quicker and steadier than re-measuring on a timer, which
+    // showed up as frames growing a second or two after the page settled.
+    const doc = iframe.contentDocument;
+    doc.fonts?.ready.then(() => measureDuo(duo));
+    for (const image of doc.images) {
+      if (!image.complete) {
+        image.addEventListener("load", () => measureDuo(duo), { once: true });
+      }
+    }
     duo._loaded = (duo._loaded || 0) + 1;
     if (duo._loaded === 2) syncFrameScroll(...frames(duo));
   };
