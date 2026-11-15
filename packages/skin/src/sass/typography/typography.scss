@@ -1,0 +1,111 @@
+@use "../variables/variables";
+@use "../mixins/public/typography-mixins";
+@use "../mixins/private/token-mixins";
+
+.giant-text-3 {
+    @include typography-mixins.typography-giant-3;
+}
+
+.giant-text-2 {
+    @include typography-mixins.typography-giant-2;
+}
+
+.giant-text-1 {
+    @include typography-mixins.typography-giant-1;
+}
+
+.large-text-2 {
+    @include typography-mixins.typography-large-2;
+}
+
+.large-text-1 {
+    @include typography-mixins.typography-large-1;
+}
+
+.medium-text {
+    @include typography-mixins.typography-medium;
+}
+
+.regular-text {
+    @include typography-mixins.typography-regular;
+}
+
+.small-text {
+    @include typography-mixins.typography-small;
+}
+
+.bold-text {
+    font-weight: var(--font-weight-600);
+}
+
+.secondary-text {
+    @include token-mixins.color-token(
+        typography-secondary-text-color,
+        color-foreground-secondary
+    );
+}
+
+.emphasis-text {
+    color: var(--color-foreground-attention);
+}
+
+.negative-text {
+    color: var(--color-foreground-attention);
+}
+
+.positive-text {
+    color: var(--color-foreground-success);
+}
+
+.disabled-text {
+    color: var(--color-foreground-disabled);
+}
+
+.giant-product-title,
+.giant-section-title {
+    @include typography-mixins.title-giant-screen-small;
+}
+
+.large-product-title,
+.large-section-title {
+    @include typography-mixins.title-large-screen-small;
+}
+
+.medium-product-title,
+.medium-section-title {
+    @include typography-mixins.title-medium-screen-small;
+}
+
+.small-product-title,
+.small-section-title {
+    @include typography-mixins.title-small-screen-small;
+}
+
+.giant-section-title,
+.large-section-title,
+.medium-section-title,
+.small-section-title {
+    font-weight: var(--font-weight-600);
+}
+
+@media (min-width: variables.$screen-size-SM) {
+    .giant-product-title,
+    .giant-section-title {
+        @include typography-mixins.title-giant-screen-large;
+    }
+
+    .large-product-title,
+    .large-section-title {
+        @include typography-mixins.title-large-screen-large;
+    }
+
+    .medium-product-title,
+    .medium-section-title {
+        @include typography-mixins.title-medium-screen-large;
+    }
+
+    .small-product-title,
+    .small-section-title {
+        @include typography-mixins.title-small-screen-large;
+    }
+}

@@ -1,0 +1,2 @@
+import{a,w as n,J as s,K as o,L as $,i as e}from"./_BiADqPnh.js";import"./_CbuokCgR.js";import{$ as u,a as _,b as c,c as m}from"./_DoiKV7k9.js";import"./_LxNB712o.js";const p=t=>{$(t.a)},i=n("nnduhVA",(t=>`<!>${t}<!>`)(o),(t=>`b/${t}&b`)(s),p),r=t=>{c(t.a),m(t.a,i(t))};a("WHc8Wuj",(t=>`<!>${t}<!>`)(_),(t=>`b/${t}&b`)(u),r);e();
+//# sourceMappingURL=components.accordion.accessibility-Bwqej9ye.js.map

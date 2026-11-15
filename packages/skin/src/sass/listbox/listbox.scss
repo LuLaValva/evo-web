@@ -1,0 +1,83 @@
+@use "../variables/variables";
+@use "../mixins/private/dropdown-mixins";
+@use "../mixins/private/listbox-mixins";
+@use "../mixins/private/state-layer";
+@use "../mixins/private/token-mixins";
+@use "../mixins/public/utility-mixins";
+
+div.listbox {
+    margin: var(--spacing-200) 0; /* margin collapse sensible default */
+}
+
+span.listbox {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+div.listbox__options[role="listbox"] {
+    cursor: default; /* needed to override text cursor */
+
+    @include token-mixins.background-color-token(
+        listbox-background-color,
+        color-background-primary
+    );
+}
+
+span.listbox__options[role="listbox"] {
+    display: inline-block;
+}
+
+div.listbox__options--fix-width[role="listbox"] {
+    width: 100%;
+}
+
+div.listbox__options--reverse[role="listbox"] {
+    right: 0;
+}
+
+.listbox__description {
+    font-size: var(--font-size-small);
+    font-weight: normal;
+    grid-column: 1 2;
+    grid-row: 2;
+
+    @include token-mixins.color-token(
+        listbox-button-subtitle-color,
+        color-foreground-secondary
+    );
+}
+
+div.listbox__option[role="option"] {
+    @include listbox-mixins.base;
+
+    &:disabled .listbox__description,
+    &[aria-disabled="true"] .listbox__description {
+        @include listbox-mixins.disabled;
+    }
+}
+
+span.listbox__value {
+    flex: 1;
+    white-space: nowrap;
+}
+
+div.listbox__option svg.icon {
+    margin-inline-start: var(--spacing-100);
+
+    @include listbox-mixins.status;
+}
+
+div.listbox__options[role="listbox"]:focus
+    .listbox__option--active[role="option"] {
+    @include state-layer.base;
+    @include state-layer.selector-hover;
+}
+
+div.listbox__option[aria-selected="true"] svg.icon {
+    opacity: 1;
+}
+
+/* https://developer.paciellogroup.com/blog/2018/03/focus-visible-and-backwards-compatibility/ */
+.listbox__options:focus:not(:focus-visible) {
+    outline: none;
+}

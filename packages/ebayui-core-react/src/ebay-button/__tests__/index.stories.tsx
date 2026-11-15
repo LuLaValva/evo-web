@@ -1,0 +1,561 @@
+import React from "react";
+import { StoryFn, Meta } from "@storybook/react-vite";
+import { action } from "storybook/actions";
+import { EbayButton, EbayButtonCell } from "../index";
+import { EbayIconMenu20 } from "../../ebay-icon/icons/ebay-icon-menu-20";
+import { EbayIconSettings16 } from "../../ebay-icon/icons/ebay-icon-settings-16";
+import { EbayIconDelete16 } from "../../ebay-icon/icons/ebay-icon-delete-16";
+import { EbayIconChevronDown12 } from "../../ebay-icon/icons/ebay-icon-chevron-down-12";
+
+const meta: Meta<typeof EbayButton> = {
+    component: EbayButton,
+    title: "buttons/ebay-button",
+
+    tags: ["autodocs"],
+    parameters: {
+        docs: {
+            description: {
+                component: `## Usage
+
+### Import
+
+\`\`\`jsx harmony
+import { EbayButton } from "@ebay/ui-core-react/ebay-button";
+\`\`\`
+
+### Import following styles from SKIN
+
+\`\`\`jsx harmony
+import "@ebay/skin/button";
+
+// When using bodyState=loading
+import "@ebay/skin/icon";
+import "@ebay/skin/progress-spinner";
+
+// When using bodyState=expand
+import "@ebay/skin/icon";
+\`\`\`
+
+or import styles using SCSS/CSS
+
+\`\`\`css
+@import "@ebay/skin/button.css";
+
+/* When using bodyState=loading */
+@import "@ebay/skin/icon.css";
+@import "@ebay/skin/progress-spinner.css";
+
+/* When using bodyState=expand */
+@import "@ebay/skin/icon.css";
+\`\`\`
+
+### Basic
+
+\`\`\`jsx harmony
+<EbayButton>Click me!</EbayButton>
+\`\`\`
+
+### With an Icon
+
+\`\`\`jsx
+<EbayButton aria-label="Menu button">
+    <EbayIconMenu20 />
+</EbayButton>
+\`\`\`
+
+### Complex button
+
+\`\`\`jsx
+<EbayButton priority="primary" fluid>
+    <EbayButtonCell style={{ justifyContent: "space-between" }}>
+        <span>Label</span>
+        <span>Filter</span>
+    </EbayButtonCell>
+</EbayButton>
+\`\`\``,
+            },
+        },
+    },
+    argTypes: {
+        priority: {
+            description: "`primary`, `secondary` (default), `tertiary`, `none`",
+            options: ["primary", "secondary", "tertiary", "none"],
+            control: { type: "select" },
+        },
+        variant: {
+            description: "`standard` (default), `destructive`, `form`",
+            options: ["standard", "destructive", "form"],
+            control: { type: "select" },
+        },
+        size: { description: "`small` or `large`", options: ["small", "large"], control: { type: "select" } },
+        split: {
+            description: "Split button visual position",
+            options: ["start", "end"],
+            control: { type: "select" },
+        },
+        bodyState: { description: "`loading`, `expand`", options: ["loading", "expand"], control: { type: "select" } },
+        href: { description: "for link that looks like a button", control: "text" },
+        fluid: { description: "takes the whole width of the parent element", control: "boolean" },
+        disabled: { control: "boolean" },
+        partiallyDisabled: { description: "sets `aria-disabled` but not `disabled` prop", control: "boolean" },
+        transparent: { description: "transparent background color (overrides `priority` prop)", control: "boolean" },
+        truncate: {
+            description:
+                "will truncate the text of the button onto a single line, and adds an ellipsis, when the button's text overflows",
+            control: "boolean",
+        },
+        borderless: { description: "shows button without border", control: "boolean" },
+        fixedHeight: { description: "fixes the height based on `size`", control: "boolean" },
+        onClick: {
+            description: "click or action key pressed (`Space` / `Enter`)",
+            action: "onClick",
+            table: { category: "Events", defaultValue: { summary: "`(event: MouseEvent" } },
+        },
+        onEscape: {
+            description: "`Esc`-key pressed",
+            action: "onEscape",
+            table: { category: "Events", defaultValue: { summary: "`(event: KeyboardEvent)`" } },
+        },
+        onFocus: {
+            description: "triggered on focus",
+            action: "onFocus",
+            table: { category: "Events", defaultValue: { summary: "`(event: FocusEvent)`" } },
+        },
+        onBlur: {
+            description: "triggered on blur",
+            action: "onBlur",
+            table: { category: "Events", defaultValue: { summary: "`(event: FocusEvent)`" } },
+        },
+    },
+};
+
+export default meta;
+
+export const Default: StoryFn<typeof EbayButton> = (args) => (
+    <>
+        <p>
+            <EbayButton
+                {...args}
+                onClick={action("clicked")}
+                onEscape={action("escape pressed")}
+                onBlur={action("blur")}
+                onFocus={(e) => action("focus")(e)}
+                onKeyDown={action("key down")}
+            >
+                Hello, I am a button!
+            </EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args} href="https://ebay.com">
+                Hello, I am a link!
+            </EbayButton>
+        </p>
+    </>
+);
+
+export const Size: StoryFn<typeof EbayButton> = (args) => (
+    <>
+        <p>
+            <EbayButton {...args} size="large">
+                Large Button
+            </EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args} href="https://ebay.com" size="large">
+                Large Link
+            </EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args}>Default Size Button</EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args} href="https://ebay.com">
+                Default Size Link
+            </EbayButton>
+        </p>
+    </>
+);
+
+export const Priority: StoryFn<typeof EbayButton> = (args) => (
+    <>
+        <p>
+            <EbayButton {...args} priority="primary">
+                Primary Button
+            </EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args} priority="primary" href="https://ebay.com">
+                Primary Link
+            </EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args} priority="secondary">
+                Secondary Button
+            </EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args} priority="secondary" href="https://ebay.com">
+                Secondary Link
+            </EbayButton>
+        </p>
+        <p>
+            <EbayButton>Secondary Button (Default)</EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args} href="https://ebay.com">
+                Secondary Link (Default)
+            </EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args} priority="tertiary">
+                Tertiary Button
+            </EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args} priority="tertiary" href="https://ebay.com">
+                Tertiary Link
+            </EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args} priority="none">
+                Base Button
+            </EbayButton>
+        </p>
+    </>
+);
+
+export const DestructiveVariant: StoryFn<typeof EbayButton> = (args) => (
+    <>
+        <p>
+            <EbayButton {...args} priority="primary" variant="destructive">
+                Primary Button
+            </EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args} priority="primary" variant="destructive" href="https://ebay.com">
+                Primary Link
+            </EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args} priority="secondary" variant="destructive">
+                Secondary Button
+            </EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args} priority="secondary" variant="destructive" href="https://ebay.com">
+                Secondary Link
+            </EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args} priority="tertiary" variant="destructive">
+                Tertiary Button
+            </EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args} priority="tertiary" variant="destructive" href="https://ebay.com">
+                Tertiary Link
+            </EbayButton>
+        </p>
+    </>
+);
+
+export const Fluid: StoryFn<typeof EbayButton> = (args) => (
+    <>
+        <p>
+            <EbayButton {...args} priority="primary" fluid>
+                Primary Button
+            </EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args} fluid>
+                Secondary Button
+            </EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args} fluid href="https://www.ebay.com">
+                Link
+            </EbayButton>
+        </p>
+    </>
+);
+
+export const WithIcon: StoryFn<typeof EbayButton> = (args) => (
+    <>
+        <p>
+            Form button:
+            <br />
+            <EbayButton {...args} aria-label="Menu button">
+                <EbayIconMenu20 />
+                <span>Button with icon</span>
+            </EbayButton>
+        </p>
+        <p>
+            Form fake-button (link):
+            <br />
+            <EbayButton {...args} href="#" variant="form" aria-label="Settings link">
+                <EbayIconSettings16 />
+                <span>Button with icon</span>
+            </EbayButton>
+        </p>
+        <p>
+            Delete button:
+            <br />
+            <EbayButton {...args} variant="destructive" aria-label="Destructive button">
+                <EbayIconDelete16 />
+                <span>Button with icon</span>
+            </EbayButton>
+        </p>
+        <p>
+            Expand button:
+            <br />
+            <EbayButton {...args} bodyState="expand" aria-label="Destructive button">
+                <EbayIconSettings16 />
+                <span>Expand button</span>
+            </EbayButton>
+        </p>
+    </>
+);
+
+export const IconOnly: StoryFn<typeof EbayButton> = (args) => (
+    <>
+        <p>
+            Form button:
+            <br />
+            <EbayButton {...args} variant="form" aria-label="Menu button">
+                <EbayIconMenu20 />
+            </EbayButton>
+        </p>
+        <p>
+            Form fake-button (link):
+            <br />
+            <EbayButton {...args} href="#" variant="form" aria-label="Settings link">
+                <EbayIconSettings16 />
+            </EbayButton>
+        </p>
+        <p>
+            Delete button:
+            <br />
+            <EbayButton {...args} variant="destructive" aria-label="Destructive button">
+                <EbayIconDelete16 />
+            </EbayButton>
+        </p>
+    </>
+);
+
+export const Transparent: StoryFn<typeof EbayButton> = (args) => (
+    <div style={{ background: "rgba(66, 214, 205, 0.5)" }}>
+        <p>
+            <EbayButton {...args}>Default Button</EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args} transparent>
+                Transparent Button
+            </EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args} transparent priority="secondary" variant="destructive">
+                Transparent Destructive Button
+            </EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args} href="https://ebay.com" transparent>
+                Transparent Link
+            </EbayButton>
+        </p>
+    </div>
+);
+
+export const Disabled: StoryFn<typeof EbayButton> = (args) => (
+    <>
+        <p>
+            <EbayButton {...args} priority="primary" disabled>
+                Primary Button
+            </EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args} disabled>
+                Secondary Button
+            </EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args} href="https://ebay.com" disabled>
+                Link
+            </EbayButton>
+        </p>
+    </>
+);
+
+export const PartiallyDisabledButton: StoryFn<typeof EbayButton> = (args) => (
+    <EbayButton {...args} priority="primary" partiallyDisabled>
+        Hello, I am a button!
+    </EbayButton>
+);
+
+export const Truncated: StoryFn<typeof EbayButton> = (args) => (
+    <div>
+        <p>
+            <EbayButton {...args} truncate style={{ maxWidth: "200px" }}>
+                Hello, I am a button! this is a long text
+            </EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args} size="large" truncate style={{ maxWidth: "200px" }}>
+                Hello, I am a BIG button! this is a long text
+            </EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args} href="https://ebay.com" truncate style={{ maxWidth: "200px" }}>
+                Hello, I am a link! this is a long text
+            </EbayButton>
+        </p>
+    </div>
+);
+
+export const FlexButton: StoryFn<typeof EbayButton> = (args) => (
+    <EbayButton {...args} priority="primary" fluid>
+        <EbayButtonCell style={{ justifyContent: "space-between" }}>
+            <span>Select</span>
+            <span style={{ display: "inline-flex" }}>
+                <span>Any</span>
+                <EbayIconChevronDown12 />
+            </span>
+        </EbayButtonCell>
+    </EbayButton>
+);
+
+export const LoadingButton: StoryFn<typeof EbayButton> = (args) => (
+    <>
+        <p>
+            <EbayButton {...args} bodyState="loading" />
+        </p>
+        <p>
+            <EbayButton {...args} priority="primary" bodyState="loading" />
+        </p>
+        <p>
+            <EbayButton {...args} priority="tertiary" bodyState="loading" />
+        </p>
+        <p>
+            <EbayButton {...args} variant="form" bodyState="loading" />
+        </p>
+        <p>
+            <EbayButton {...args} variant="destructive" bodyState="loading" />
+        </p>
+    </>
+);
+
+export const ExpandButton: StoryFn<typeof EbayButton> = (args) => (
+    <>
+        <p>
+            <EbayButton {...args} priority="primary" bodyState="expand">
+                Primary expand button
+            </EbayButton>{" "}
+            <EbayButton {...args} priority="primary" bodyState="expand" aria-expanded="true">
+                Expanded button
+            </EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args} bodyState="expand">
+                Expand button
+            </EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args} priority="tertiary" bodyState="expand">
+                Tertiary expand button
+            </EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args} variant="form" bodyState="expand">
+                Form expand button
+            </EbayButton>{" "}
+            <EbayButton {...args} variant="form" bodyState="expand" />{" "}
+            <EbayButton variant="form" bodyState="expand" aria-expanded />
+        </p>
+        <p>
+            <EbayButton {...args} priority="primary" bodyState="expand" borderless>
+                Borderless expand button
+            </EbayButton>
+        </p>
+    </>
+);
+
+export const SplitButton: StoryFn<typeof EbayButton> = (args) => (
+    <>
+        <p>
+            <EbayButton {...args} priority="primary" split="start">
+                Primary split start button
+            </EbayButton>
+            <EbayButton {...args} priority="primary" split="end">
+                Primary split end button
+            </EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args} split="start">
+                Split start button
+            </EbayButton>
+            <EbayButton {...args} split="end">
+                Split end button
+            </EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args} priority="tertiary" split="start">
+                Tertiary split start button
+            </EbayButton>
+            <EbayButton {...args} priority="tertiary" split="end">
+                Tertiary split end button
+            </EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args} priority="primary" split="start">
+                Primary Split button
+            </EbayButton>
+            <EbayButton {...args} priority="primary" bodyState="expand" split="end" />
+        </p>
+        <p>
+            <EbayButton {...args} split="start">
+                Split button
+            </EbayButton>
+            <EbayButton {...args} bodyState="expand" split="end" />
+        </p>
+        <p>
+            <EbayButton {...args} priority="tertiary" split="start">
+                Tertiary split button
+            </EbayButton>
+            <EbayButton {...args} priority="tertiary" bodyState="expand" split="end" />
+        </p>
+    </>
+);
+
+export const FormButton: StoryFn<typeof EbayButton> = (args) => (
+    <>
+        <p>
+            <EbayButton {...args} variant="form">
+                Form button
+            </EbayButton>
+        </p>
+    </>
+);
+
+export const BorderlessButton: StoryFn<typeof EbayButton> = (args) => (
+    <>
+        <p>
+            <EbayButton {...args} borderless>
+                Borderless button
+            </EbayButton>
+        </p>
+    </>
+);
+
+export const FixedHeight: StoryFn<typeof EbayButton> = (args) => (
+    <>
+        <p>
+            <EbayButton {...args} fixedHeight>
+                Fixed height button
+            </EbayButton>
+        </p>
+        <p>
+            <EbayButton {...args} fixedHeight size="large">
+                Fixed height large button
+            </EbayButton>
+        </p>
+    </>
+);

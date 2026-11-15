@@ -1,0 +1,107 @@
+import {
+  footer,
+  content,
+  column,
+  brand,
+  brandTitle,
+} from "./style.module.scss";
+import { urls } from "../../data";
+<footer class=footer role="contentinfo">
+  <div class="page-grid-container">
+    <div class=content>
+      <div class=column>
+        <div class=brand>
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true">
+            <polyline points="16 18 22 12 16 6"/>
+            <polyline points="8 6 2 12 8 18"/>
+          </svg>
+          <span class=brandTitle>
+            Evo Web
+          </span>
+        </div>
+        <p>
+          Building accessible and performant components for the modern,
+          responsive web. Empowering developers to create inclusive user
+          experiences.
+        </p>
+        <p>© 2025 Evo Web. All rights reserved.</p>
+        <a href="https://github.com/eBay/evo-web" aria-label="Evo-web GitHub">
+          <svg width="24" height="24" aria-hidden="true" class="icon icon--24">
+            <use href="#icon-github-24"/>
+          </svg>
+        </a>
+      </div>
+
+      <div class=column>
+        <h3>Main</h3>
+        <ul>
+          <li>
+            <a href=urls.components>
+              Components
+            </a>
+          </li>
+          <li>
+            <a href=urls.accessibility>
+              Accessibility
+            </a>
+          </li>
+          <li>
+            <a href=urls.guides>
+              Guides
+            </a>
+          </li>
+          <li>
+            <a href=urls.cssComponents>
+              Evo CSS Components
+            </a>
+          </li>
+          <li>
+            <a href=urls.markoComponents>
+              Evo Marko Components
+            </a>
+          </li>
+          <li>
+            <a href=urls.reactComponents>
+              Evo React Components
+            </a>
+          </li>
+          <li>
+            <a href=urls.sitemap>
+              Sitemap
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class=column>
+        <h3>Web Guides and Best Practices</h3>
+        <ul>
+          <li>
+            <a href=`${urls.guides}/page-grid`>
+              Page Grid Use Guide
+            </a>
+          </li>
+          <li>
+            <a href=`${urls.guides}/animation`>
+              Animation Guide
+            </a>
+          </li>
+          <li>
+            <a href=`${urls.guides}/skeleton`>
+              Skeleton Use Guide
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>

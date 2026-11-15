@@ -1,0 +1,2 @@
+import{a,w as s,i as $}from"./_4nxb45BB.js";import"./_CYGTAwqE.js";import{$ as o,a as e,b as n,c as m}from"./_HrwLHLxS.js";import{$walks as p,$template as u,$setup as _}from"./_Bp1iFfE9.js";import"./_DLlvqpAP.js";const i=t=>{_(t.a)},r=s("KGge2Ww",(t=>`<!>${t}<!>`)(u),(t=>`b/${t}&b`)(p),i),c=t=>{n(t.a),m(t.a,r(t))};a("Ao6u$it",(t=>`<!>${t}<!>`)(e),(t=>`b/${t}&b`)(o),c);$();
+//# sourceMappingURL=accessibility.techniques.keyboard-interface-C3nUzV3L.js.map

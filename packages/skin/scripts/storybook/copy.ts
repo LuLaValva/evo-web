@@ -1,0 +1,62 @@
+import fs from "fs";
+import path from "path";
+import { rawSvgToHtml } from "../util";
+
+const SVG_ICONS_FILE = path.join(
+    __dirname,
+    "..",
+    "..",
+    "src",
+    "svg",
+    "icons.svg",
+);
+const SVG_FLAGS_FILE = path.join(
+    __dirname,
+    "..",
+    "..",
+    "src",
+    "svg",
+    "flags.svg",
+);
+const CUSTOM_STYLES_FILE = path.join(
+    __dirname,
+    "..",
+    "..",
+    "docs",
+    "custom-styles.html",
+);
+
+const STORYBOOK_HEADER_FILE = path.join(
+    __dirname,
+    "..",
+    "..",
+    ".storybook",
+    "preview-head.html",
+);
+
+function copySVGIcons() {
+    const svgIconsContent = fs.readFileSync(SVG_ICONS_FILE, "utf8");
+    const storyBookSvgIconsContent = `
+    <!-- This is auto-generated content from npm script -->
+    ${rawSvgToHtml(svgIconsContent)}
+    `;
+
+    fs.writeFileSync(STORYBOOK_HEADER_FILE, storyBookSvgIconsContent, "utf8");
+}
+
+function copySVGFlags() {
+    const svgFlagsContent = fs.readFileSync(SVG_FLAGS_FILE, "utf8");
+    const storyBookSvgIconsContent = `
+    <!-- This is auto-generated content from npm script -->
+    ${rawSvgToHtml(svgFlagsContent)}
+    `;
+
+    fs.appendFileSync(STORYBOOK_HEADER_FILE, storyBookSvgIconsContent, "utf8");
+}
+
+function copyCustomStyles() {
+    const customStylesContent = fs.readFileSync(CUSTOM_STYLES_FILE, "utf8");
+    fs.appendFileSync(STORYBOOK_HEADER_FILE, customStylesContent, "utf8");
+}
+
+export { copySVGIcons, copySVGFlags, copyCustomStyles };

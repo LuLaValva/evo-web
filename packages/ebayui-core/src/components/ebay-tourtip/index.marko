@@ -1,0 +1,64 @@
+import { processHtmlAttributes } from "../../common/html-attributes";
+$ const {
+    a11yCloseText,
+    content,
+    footer,
+    heading,
+    host,
+    open,
+    noFlip,
+    notInline,
+    noShift = true,
+    pointer = "bottom",
+    ...htmlInput
+} = input;
+
+<span>
+    <ebay-tooltip-base
+        open=state.expanded
+        key="base"
+        type="tourtip"
+        noFlip=noFlip
+        notInline=notInline
+        noShift=noShift
+        pointer=input.pointer
+        placement=input.placement
+        offset=input.offset
+        on-loaded("handleLoaded")
+        overlay-id:scoped="overlay">
+        <span
+            ...processHtmlAttributes(htmlInput)
+            class=["tourtip", state.expanded && "tourtip--expanded"]>
+            <if(host)>
+                $ const {
+                    as: hostAs = "span",
+                    class: hostClass,
+                    ...hostInput
+                } = host;
+                <${hostAs}
+                    class=[hostClass, "tourtip__host"]
+                    ...processHtmlAttributes(hostInput)>
+                    <${host.renderBody}/>
+                </>
+            </if>
+            <ebay-tooltip-overlay
+                type="tourtip"
+                id:scoped="overlay"
+                heading=heading
+                content=content
+                a11yCloseText=a11yCloseText
+                onOverlay-close("handleCollapse")>
+                <if(footer)>
+                    <@footer class=[footer.class]>
+                        <if(footer.index)>
+                            <span class="tourtip__index">
+                                ${footer.index}
+                            </span>
+                        </if>
+                        <${footer}/>
+                    </@footer>
+                </if>
+            </ebay-tooltip-overlay>
+        </span>
+    </ebay-tooltip-base>
+</span>

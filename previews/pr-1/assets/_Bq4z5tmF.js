@@ -1,0 +1,2 @@
+import{$ as a,a as n,b as e,c as s,d as i,e as o}from"./_sxk_Fi7u.js";import{C as c,D as l,a as p,w as d}from"./_BDEKJpsa.js";const m=a,u=(t=>`/${t}&`)(o),$=p("Hd0","Anti-Patterns","b"),r=d("Hd1","This section documents common accessibility anti-patterns that should be avoided when building web applications.","b");function _(t){n(t.a),e(t.a,l({content:$(t)})),s(t.a,r(t)),i(t.a,"anti-patterns")}const f=c("Hd",m,u,_);export{_ as $setup,m as $template,u as $walks,f as default};
+//# sourceMappingURL=_Bq4z5tmF.js.map

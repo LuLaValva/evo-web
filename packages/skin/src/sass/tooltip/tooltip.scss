@@ -1,0 +1,121 @@
+@use "../variables/variables";
+@use "../mixins/private/bubble-mixins";
+@use "../mixins/private/token-mixins";
+
+.tooltip {
+    position: relative;
+}
+
+span.tooltip {
+    display: inline-block;
+}
+
+.tooltip__overlay {
+    @include bubble-mixins.base;
+}
+
+.tooltip__mask {
+    @include bubble-mixins.mask;
+    @include token-mixins.background-color-token(
+        tooltip-background-color,
+        color-background-inverse
+    );
+    @include token-mixins.color-token(
+        tooltip-foreground-color,
+        color-foreground-on-inverse
+    );
+}
+
+span.tooltip__mask {
+    display: block;
+}
+
+.tooltip__cell {
+    @include bubble-mixins.cell;
+
+    a {
+        @include token-mixins.color-token(
+            tooltip-foreground-color,
+            color-foreground-on-inverse
+        );
+
+        &:focus {
+            outline: 1px dashed currentColor;
+        }
+    }
+}
+
+.tooltip__content {
+    @include bubble-mixins.content;
+}
+
+button.tooltip__close {
+    @include bubble-mixins.close;
+}
+
+.tooltip__pointer {
+    @include bubble-mixins.pointer-base;
+    @include token-mixins.background-color-token(
+        tooltip-background-color,
+        color-background-inverse
+    );
+}
+
+.tooltip__pointer--top-left {
+    @include bubble-mixins.pointer-top-left;
+}
+
+.tooltip__pointer--top {
+    @include bubble-mixins.pointer-top-center;
+}
+
+.tooltip__pointer--top-right {
+    @include bubble-mixins.pointer-top-right;
+}
+
+.tooltip__pointer--bottom-left {
+    @include bubble-mixins.pointer-bottom-left;
+}
+
+.tooltip__pointer--bottom {
+    @include bubble-mixins.pointer-bottom-center;
+}
+
+.tooltip__pointer--bottom-right {
+    @include bubble-mixins.pointer-bottom-right;
+}
+
+.tooltip__pointer--left {
+    @include bubble-mixins.pointer-left;
+}
+
+.tooltip__pointer--left-bottom {
+    @include bubble-mixins.pointer-left-bottom;
+}
+
+.tooltip__pointer--left-top {
+    @include bubble-mixins.pointer-left-top;
+}
+
+.tooltip__pointer--right {
+    @include bubble-mixins.pointer-right;
+}
+
+.tooltip__pointer--right-bottom {
+    @include bubble-mixins.pointer-right-bottom;
+}
+
+.tooltip__pointer--right-top {
+    @include bubble-mixins.pointer-right-top;
+}
+
+.tooltip--expanded .tooltip__overlay,
+.tooltip__host[aria-expanded="true"] ~ .tooltip__overlay {
+    display: block;
+}
+
+@media (min-width: variables.$screen-size-SM) {
+    .tooltip__overlay {
+        @include bubble-mixins.large-screen;
+    }
+}

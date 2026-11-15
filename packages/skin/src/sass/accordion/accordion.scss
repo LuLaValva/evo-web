@@ -1,0 +1,105 @@
+@use "../mixins/public/animation";
+
+ul.accordion {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/*
+Safari does not recognize ordered or unordered lists as lists in the accessibility tree if they have a list-style value of none, unless the list is nested within the <nav> navigation element. This behavior is intentional and is not considered a bug. To work around this issue, use the use ::marker.
+*/
+ul.accordion ::marker {
+    font-size: 0;
+}
+
+ul.accordion > li:not(:last-child) {
+    border-bottom: 1px solid var(--color-border-subtle);
+}
+
+ul.accordion summary.details__summary {
+    border-radius: 0;
+    display: flex;
+    font-size: var(--font-size-medium);
+    min-height: 48px;
+    padding: 12px 16px;
+}
+
+ul.accordion .details__label {
+    flex: 1;
+    min-width: 0;
+}
+
+ul.accordion details {
+    overflow: hidden;
+}
+
+ul.accordion details .details__content {
+    margin: 0 16px;
+    overflow: hidden;
+    padding-block-end: 6px;
+}
+
+ul.accordion
+    details:not([open])
+    summary.details__summary
+    span.details__icon
+    svg {
+    fill: var(--color-foreground-secondary);
+}
+
+ul.accordion--animated
+    details:not([open])
+    summary.details__summary
+    span.details__icon
+    svg {
+    @include animation.chevron-close;
+}
+
+ul.accordion--animated
+    details[open]
+    summary.details__summary
+    span.details__icon
+    svg {
+    @include animation.chevron-open;
+}
+
+/* DEPRECATED: Remove next major */
+ul.accordion details svg.details__expand,
+ul.accordion details[open] svg.details__collapse {
+    display: inline-block;
+}
+
+ul.accordion details[open] svg.details__expand,
+ul.accordion details svg.details__collapse {
+    display: none;
+}
+
+ul.accordion--large summary.details__summary {
+    font-size: var(--font-size-large-1);
+    min-height: 52px;
+}
+
+@supports selector(::details-content) and (interpolate-size: allow-keywords) and
+    (transition: allow-discrete) {
+    :root {
+        interpolate-size: allow-keywords;
+    }
+
+    ul.accordion details::details-content {
+        height: 0;
+        opacity: 0;
+        overflow: clip;
+        transition:
+            height var(--motion-duration-medium-3) var(--motion-easing-standard),
+            content-visibility var(--motion-duration-medium-3)
+                var(--motion-easing-continuous) allow-discrete,
+            opacity var(--motion-duration-medium-2)
+                var(--motion-easing-continuous);
+    }
+
+    ul.accordion details[open]::details-content {
+        height: auto;
+        opacity: 1;
+    }
+}

@@ -1,0 +1,64 @@
+@use "../variables/variables";
+@use "../mixins/private/token-mixins";
+@use "../mixins/private/state-layer";
+
+summary.details__summary {
+    @include token-mixins.border-radius-token(
+        expand-btn-border-radius,
+        border-radius-50
+    );
+    @include token-mixins.color-token(
+        details-summary-foreground-color,
+        color-foreground-primary
+    );
+    @include state-layer.standard;
+
+    align-items: center;
+    box-sizing: border-box;
+    display: inline-flex;
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-600);
+    gap: var(--spacing-100);
+    list-style-position: inside;
+    list-style-type: none; /* Remove details marker for non-webkit */
+    padding: 12px 8px;
+
+    &::before {
+        content: none;
+    }
+
+    /* Remove details marker for non-webkit */
+    &::-webkit-details-marker {
+        display: none;
+    }
+}
+
+summary.details__summary--center {
+    justify-content: center;
+    width: 100%;
+}
+
+summary.details__summary--small {
+    font-size: var(--font-size-small);
+    padding: 4px 8px;
+}
+
+/* progressive enhancement - override hidden SVG */
+span.details__icon[hidden] {
+    display: inline-flex;
+}
+
+details.details[open] {
+    span.details__icon {
+        transform: rotate(180deg);
+    }
+
+    summary.details__summary::before {
+        content: none;
+    }
+}
+
+/* https://developer.paciellogroup.com/blog/2018/03/focus-visible-and-backwards-compatibility/ */
+details.details summary:focus:not(:focus-visible) {
+    outline: none;
+}

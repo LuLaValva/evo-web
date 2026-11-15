@@ -1,0 +1,2 @@
+import{a,w as s,i as o}from"./_CNO04MJm.js";import"./_DfLQ4k0F.js";import{$,a as e,b as n,c as m}from"./_DD5WK54K.js";import{$walks as p,$template as _,$setup as i}from"./_OzeKawAt.js";import"./_Cd1GCn5C.js";const u=t=>{i(t.a)},c=s("BoMiW3x",(t=>`<!>${t}<!>`)(_),(t=>`b/${t}&b`)(p),u),r=t=>{n(t.a),m(t.a,c(t))};a("YcfWM05",(t=>`<!>${t}<!>`)(e),(t=>`b/${t}&b`)($),r);o();
+//# sourceMappingURL=accessibility.patterns.table-cell-CRmMiqWo.js.map

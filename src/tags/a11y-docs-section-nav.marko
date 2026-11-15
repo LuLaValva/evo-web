@@ -1,0 +1,23 @@
+import { urls, a11yDocs } from "../data";
+export interface Input {
+    title: Marko.AttrTag<Marko.HTML.H1>;
+    content?: Marko.Body;
+    type: string;
+}
+
+<div class="accessibility-landing-content">
+  <h1 ...input.title/>
+  <p>
+    <${input.content}/>
+  </p>
+  <ul>
+    <for|docs| of=a11yDocs[input.type].list>
+      <li>
+        <a href=`${urls.accessibility}/${input.type}/${docs.name}`>
+          ${docs.properName}
+        </a>
+      </li>
+
+    </for>
+  </ul>
+</div>

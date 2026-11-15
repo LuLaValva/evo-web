@@ -1,0 +1,283 @@
+import{R as e,r as g}from"./iframe-B3ueQOiX.js";import{T as l,a as n,b as a}from"./tabs-BmhK9J79.js";import"./preload-helper-PPVm8Dsz.js";import"./index-BkO6S4Io.js";import"./utils-Z5GiVQfG.js";const{action:k}=__STORYBOOK_MODULE_ACTIONS__,v={component:l,title:"navigation & disclosure/ebay-tabs",tags:["autodocs"],parameters:{docs:{description:{component:'## Import\n\n```jsx harmony\nimport { EbayTabs, EbayTab, EbayTabPanel } from "@ebay/ui-core-react/ebay-tabs";\n```\n\n### Import following styles from SKIN\n\n```jsx harmony\nimport "@ebay/skin/tabs";\n```\n\nor import styles using SCSS/CSS\n\n```css\n@import "@ebay/skin/tabs.css";\n```'}}},argTypes:{selectedIndex:{description:"0-based index of selected tab heading and panel",control:"number"},activation:{description:"whether to use automatic or manual activation when navigating by keyboard, can be `auto` (default) or `manual`",options:["auto","manual"],control:{type:"select"}},size:{description:"Whether to opt into larger font-size for tab headings, can be `medium` (default) or `large`",options:["medium","large"],control:{type:"select"}},onSelect:{description:"Called when a tab is selected",action:"onSelect",table:{category:"Events",defaultValue:{summary:"(Event)"}}}}},o=t=>e.createElement(e.Fragment,null,e.createElement(l,{onSelect:k("onSelect(props"),...t},e.createElement(n,null,"Tab 1"),e.createElement(n,null,"Tab 2"),e.createElement(n,null,"Tab 3"),e.createElement(a,null,e.createElement("h3",null,"Panel 1"),e.createElement("p",null,"Focus should go to ",e.createElement("a",{href:"#link"},"this link")," using `tab`-key immediately after the `Tab 1` (skipping `Tab 2` and `Tab 3`)")),e.createElement(a,null,e.createElement("h3",null,"Panel 2"),e.createElement("p",null,"Focus should go to ",e.createElement("a",{href:"#link"},"this link")," using `tab`-key immediately after the `Tab 2` (skipping `Tab 3` and `Tab 1`)")),e.createElement(a,null,e.createElement("h3",null,"Panel 3"),e.createElement("p",null,"Focus should go to ",e.createElement("a",{href:"#link"},"this link")," using `tab`-key immediately after the `Tab 3` (skipping `Tab 1` and `Tab 2`)")))),i={render:t=>e.createElement(e.Fragment,null,e.createElement(l,{...t,selectedIndex:2},e.createElement(n,null,"Tab 1"),e.createElement(n,null,"Tab 2"),e.createElement(n,null,"Tab 3"),e.createElement(a,null,e.createElement("h3",null,"Panel 1"),e.createElement("p",null,"Focus should go to ",e.createElement("a",{href:"#link"},"this link")," using `tab`-key immediately after the `Tab 1` (skipping `Tab 2` and `Tab 3`)")),e.createElement(a,null,e.createElement("h3",null,"Panel 2"),e.createElement("p",null,"Focus should go to ",e.createElement("a",{href:"#link"},"this link")," using `tab`-key immediately after the `Tab 2` (skipping `Tab 3` and `Tab 1`)")),e.createElement(a,null,e.createElement("h3",null,"Panel 3"),e.createElement("p",null,"Focus should go to ",e.createElement("a",{href:"#link"},"this link")," using `tab`-key immediately after the `Tab 3` (skipping `Tab 1` and `Tab 2`)")))),name:"Pre-selected Tab"},m={render:t=>{const d=()=>{const[s,E]=g.useState(0);return e.createElement(e.Fragment,null,[0,1,2].map(r=>e.createElement("button",{key:r,onClick:()=>E(r)},"Select Tab ",r+1)),e.createElement(l,{...t,selectedIndex:s},e.createElement(n,null,"Tab 1"),e.createElement(n,null,"Tab 2"),e.createElement(n,null,"Tab 3"),e.createElement(a,null,e.createElement("h3",null,"Panel 1")),e.createElement(a,null,e.createElement("h3",null,"Panel 2")),e.createElement(a,null,e.createElement("h3",null,"Panel 3"))))};return e.createElement(e.Fragment,null,e.createElement(d,null))},name:"Programmatically selected Tabs"},c=t=>e.createElement(e.Fragment,null,e.createElement(l,{activation:"manual",...t},e.createElement(n,null,"Tab 1"),e.createElement(n,null,"Tab 2"),e.createElement(n,null,"Tab 3"),e.createElement(a,null,e.createElement("h3",null,"Panel 1"),e.createElement("p",null,"These tabs are activated manually on Space/Enter key press"),e.createElement("p",null,"Focus should go to ",e.createElement("a",{href:"#link"},"this link")," using `tab`-key immediately after the `Tab 1` (skipping `Tab 2` and `Tab 3`)")),e.createElement(a,null,e.createElement("h3",null,"Panel 2"),e.createElement("p",null,"These tabs are activated manually on Space/Enter key press"),e.createElement("p",null,"Focus should go to ",e.createElement("a",{href:"#link"},"this link")," using `tab`-key immediately after the `Tab 2` (skipping `Tab 3` and `Tab 1`)")),e.createElement(a,null,e.createElement("p",null,"These tabs are activated manually on Space/Enter key press"),e.createElement("h3",null,"Panel 3"),e.createElement("p",null,"Focus should go to ",e.createElement("a",{href:"#link"},"this link")," using `tab`-key immediately after the `Tab 3` (skipping `Tab 1` and `Tab 2`)")))),b=t=>e.createElement(e.Fragment,null,e.createElement(l,{...t,size:"large"},e.createElement(n,null,"Large Tab 1"),e.createElement(n,null,"Large Tab 2"),e.createElement(n,null,"Large Tab 3"),e.createElement(a,null,e.createElement("h3",null,"Panel 1"),e.createElement("p",null,"Focus should go to ",e.createElement("a",{href:"#link"},"this link")," using `tab`-key immediately after the `Tab 1` (skipping `Tab 2` and `Tab 3`)")),e.createElement(a,null,e.createElement("h3",null,"Panel 2"),e.createElement("p",null,"Focus should go to ",e.createElement("a",{href:"#link"},"this link")," using `tab`-key immediately after the `Tab 2` (skipping `Tab 3` and `Tab 1`)")),e.createElement(a,null,e.createElement("h3",null,"Panel 3"),e.createElement("p",null,"Focus should go to ",e.createElement("a",{href:"#link"},"this link")," using `tab`-key immediately after the `Tab 3` (skipping `Tab 1` and `Tab 2`)")))),u=t=>e.createElement(e.Fragment,null,e.createElement(l,{onSelect:k("onSelect(props"),...t},e.createElement(n,null,"Tab 1"),e.createElement(n,{disabled:!0},"Tab 2"),e.createElement(n,null,"Tab 3"),e.createElement(a,null,e.createElement("h3",null,"Panel 1"),e.createElement("p",null,"Focus should go to ",e.createElement("a",{href:"#link"},"this link")," using `tab`-key immediately after the `Tab 1` (skipping `Tab 2` and `Tab 3`)")),e.createElement(a,null,e.createElement("h3",null,"Panel 2"),e.createElement("p",null,"Focus should go to ",e.createElement("a",{href:"#link"},"this link")," using `tab`-key immediately after the `Tab 2` (skipping `Tab 3` and `Tab 1`)")),e.createElement(a,null,e.createElement("h3",null,"Panel 3"),e.createElement("p",null,"Focus should go to ",e.createElement("a",{href:"#link"},"this link")," using `tab`-key immediately after the `Tab 3` (skipping `Tab 1` and `Tab 2`)")))),p=t=>e.createElement(e.Fragment,null,e.createElement("div",null,e.createElement(l,{...t,id:"tab-upper"},e.createElement(n,null,"Tab 1"),e.createElement(n,null,"Tab 2"),e.createElement(a,null,e.createElement("h3",null,"Panel 1"),e.createElement("p",null,"Panel 1 content. Here is a ",e.createElement("a",{href:"#link"},"link"),".")),e.createElement(a,null,e.createElement("h3",null,"Panel 2"),e.createElement("p",null,"Panel 2 content. Here is a ",e.createElement("a",{href:"#link"},"link"),".")))),e.createElement("div",{style:{marginTop:"64px"}},e.createElement(l,{...t,id:"tab-lower"},e.createElement(n,null,"Tab A"),e.createElement(n,null,"Tab B"),e.createElement(n,null,"Tab C"),e.createElement(a,null,e.createElement("h3",null,"Panel A"),e.createElement("p",null,"Panel A content. Here is a ",e.createElement("a",{href:"#link"},"link"),".")),e.createElement(a,null,e.createElement("h3",null,"Panel B"),e.createElement("p",null,"Panel B content. Here is a ",e.createElement("a",{href:"#link"},"link"),".")),e.createElement(a,null,e.createElement("h3",null,"Panel C"),e.createElement("p",null,"Panel C content. Here is a ",e.createElement("a",{href:"#link"},"link"),"."))))),T={render:t=>{const d=()=>{const[s,E]=g.useState("John Doe");return e.createElement(l,{...t},e.createElement(n,null,"Tab 1"),e.createElement(n,null,"Tab 2"),e.createElement(n,null,"Tab 3"),e.createElement(a,null,e.createElement("label",{htmlFor:"name"},"Name "),e.createElement("input",{id:"name",onChange:r=>E(r.target.value),type:"text",placeholder:"john doe",value:s}),e.createElement("p",null,"My name is ",s)),e.createElement(a,null,e.createElement("h3",null,"Panel 2")),e.createElement(a,null,e.createElement("h3",null,"Panel 3")))};return e.createElement(e.Fragment,null,e.createElement(d,null))},name:"Tabs with inputs"},h={render:t=>e.createElement(e.Fragment,null,e.createElement("p",{style:{margin:"10em 0"}},"Scroll down for more content..."),e.createElement("p",{style:{margin:"10em 0"}},"Scroll down for more content..."),e.createElement("p",{style:{margin:"10em 0"}},"Scroll down for more content..."),e.createElement("p",{style:{margin:"10em 0"}},"Scroll down for more content..."),e.createElement("p",{style:{margin:"10em 0"}},"Scroll down for more content..."),e.createElement("p",{style:{margin:"10em 0"}},"Scroll down for more content..."),e.createElement("p",{style:{margin:"10em 0"}},"Scroll down for more content..."),e.createElement("p",{style:{margin:"10em 0"}},"Scroll down for more content..."),e.createElement(l,{...t},e.createElement(n,null,"Tab 1"),e.createElement(n,null,"Tab 2"),e.createElement(a,null,e.createElement("h3",null,"Panel 1"),e.createElement("p",null,"Panel 1 content.")),e.createElement(a,null,e.createElement("h3",null,"Panel 2"),e.createElement("p",null,"Panel 2 content.")))),name:"Bottom Tabs on Long Page"};o.parameters={...o.parameters,docs:{...o.parameters?.docs,source:{originalSource:`args => <>
+        <EbayTabs onSelect={action("onSelect(props")} {...args}>
+            <Tab>Tab 1</Tab>
+            <Tab>Tab 2</Tab>
+            <Tab>Tab 3</Tab>
+            <Panel>
+                <h3>Panel 1</h3>
+                <p>
+                    Focus should go to <a href="#link">this link</a> using \`tab\`-key immediately after the \`Tab 1\`
+                    (skipping \`Tab 2\` and \`Tab 3\`)
+                </p>
+            </Panel>
+            <Panel>
+                <h3>Panel 2</h3>
+                <p>
+                    Focus should go to <a href="#link">this link</a> using \`tab\`-key immediately after the \`Tab 2\`
+                    (skipping \`Tab 3\` and \`Tab 1\`)
+                </p>
+            </Panel>
+            <Panel>
+                <h3>Panel 3</h3>
+                <p>
+                    Focus should go to <a href="#link">this link</a> using \`tab\`-key immediately after the \`Tab 3\`
+                    (skipping \`Tab 1\` and \`Tab 2\`)
+                </p>
+            </Panel>
+        </EbayTabs>
+    </>`,...o.parameters?.docs?.source}}};i.parameters={...i.parameters,docs:{...i.parameters?.docs,source:{originalSource:`{
+  render: args => <>
+            <EbayTabs {...args} selectedIndex={2}>
+                <Tab>Tab 1</Tab>
+                <Tab>Tab 2</Tab>
+                <Tab>Tab 3</Tab>
+                <Panel>
+                    <h3>Panel 1</h3>
+                    <p>
+                        Focus should go to <a href="#link">this link</a> using \`tab\`-key immediately after the \`Tab 1\`
+                        (skipping \`Tab 2\` and \`Tab 3\`)
+                    </p>
+                </Panel>
+                <Panel>
+                    <h3>Panel 2</h3>
+                    <p>
+                        Focus should go to <a href="#link">this link</a> using \`tab\`-key immediately after the \`Tab 2\`
+                        (skipping \`Tab 3\` and \`Tab 1\`)
+                    </p>
+                </Panel>
+                <Panel>
+                    <h3>Panel 3</h3>
+                    <p>
+                        Focus should go to <a href="#link">this link</a> using \`tab\`-key immediately after the \`Tab 3\`
+                        (skipping \`Tab 1\` and \`Tab 2\`)
+                    </p>
+                </Panel>
+            </EbayTabs>
+        </>,
+  name: "Pre-selected Tab"
+}`,...i.parameters?.docs?.source}}};m.parameters={...m.parameters,docs:{...m.parameters?.docs,source:{originalSource:`{
+  render: args => {
+    const Component = () => {
+      const [selectedTab, selectTab] = useState(0);
+      return <>
+                    {[0, 1, 2].map(i => <button key={i} onClick={() => selectTab(i)}>
+                            Select Tab {i + 1}
+                        </button>)}
+                    <EbayTabs {...args} selectedIndex={selectedTab}>
+                        <Tab>Tab 1</Tab>
+                        <Tab>Tab 2</Tab>
+                        <Tab>Tab 3</Tab>
+                        <Panel>
+                            <h3>Panel 1</h3>
+                        </Panel>
+                        <Panel>
+                            <h3>Panel 2</h3>
+                        </Panel>
+                        <Panel>
+                            <h3>Panel 3</h3>
+                        </Panel>
+                    </EbayTabs>
+                </>;
+    };
+    return <>
+                <Component />
+            </>;
+  },
+  name: "Programmatically selected Tabs"
+}`,...m.parameters?.docs?.source}}};c.parameters={...c.parameters,docs:{...c.parameters?.docs,source:{originalSource:`args => <>
+        <EbayTabs activation="manual" {...args}>
+            <Tab>Tab 1</Tab>
+            <Tab>Tab 2</Tab>
+            <Tab>Tab 3</Tab>
+            <Panel>
+                <h3>Panel 1</h3>
+                <p>These tabs are activated manually on Space/Enter key press</p>
+                <p>
+                    Focus should go to <a href="#link">this link</a> using \`tab\`-key immediately after the \`Tab 1\`
+                    (skipping \`Tab 2\` and \`Tab 3\`)
+                </p>
+            </Panel>
+            <Panel>
+                <h3>Panel 2</h3>
+                <p>These tabs are activated manually on Space/Enter key press</p>
+                <p>
+                    Focus should go to <a href="#link">this link</a> using \`tab\`-key immediately after the \`Tab 2\`
+                    (skipping \`Tab 3\` and \`Tab 1\`)
+                </p>
+            </Panel>
+            <Panel>
+                <p>These tabs are activated manually on Space/Enter key press</p>
+                <h3>Panel 3</h3>
+                <p>
+                    Focus should go to <a href="#link">this link</a> using \`tab\`-key immediately after the \`Tab 3\`
+                    (skipping \`Tab 1\` and \`Tab 2\`)
+                </p>
+            </Panel>
+        </EbayTabs>
+    </>`,...c.parameters?.docs?.source}}};b.parameters={...b.parameters,docs:{...b.parameters?.docs,source:{originalSource:`args => <>
+        <EbayTabs {...args} size="large">
+            <Tab>Large Tab 1</Tab>
+            <Tab>Large Tab 2</Tab>
+            <Tab>Large Tab 3</Tab>
+            <Panel>
+                <h3>Panel 1</h3>
+                <p>
+                    Focus should go to <a href="#link">this link</a> using \`tab\`-key immediately after the \`Tab 1\`
+                    (skipping \`Tab 2\` and \`Tab 3\`)
+                </p>
+            </Panel>
+            <Panel>
+                <h3>Panel 2</h3>
+                <p>
+                    Focus should go to <a href="#link">this link</a> using \`tab\`-key immediately after the \`Tab 2\`
+                    (skipping \`Tab 3\` and \`Tab 1\`)
+                </p>
+            </Panel>
+            <Panel>
+                <h3>Panel 3</h3>
+                <p>
+                    Focus should go to <a href="#link">this link</a> using \`tab\`-key immediately after the \`Tab 3\`
+                    (skipping \`Tab 1\` and \`Tab 2\`)
+                </p>
+            </Panel>
+        </EbayTabs>
+    </>`,...b.parameters?.docs?.source}}};u.parameters={...u.parameters,docs:{...u.parameters?.docs,source:{originalSource:`args => <>
+        <EbayTabs onSelect={action("onSelect(props")} {...args}>
+            <Tab>Tab 1</Tab>
+            <Tab disabled>Tab 2</Tab>
+            <Tab>Tab 3</Tab>
+            <Panel>
+                <h3>Panel 1</h3>
+                <p>
+                    Focus should go to <a href="#link">this link</a> using \`tab\`-key immediately after the \`Tab 1\`
+                    (skipping \`Tab 2\` and \`Tab 3\`)
+                </p>
+            </Panel>
+            <Panel>
+                <h3>Panel 2</h3>
+                <p>
+                    Focus should go to <a href="#link">this link</a> using \`tab\`-key immediately after the \`Tab 2\`
+                    (skipping \`Tab 3\` and \`Tab 1\`)
+                </p>
+            </Panel>
+            <Panel>
+                <h3>Panel 3</h3>
+                <p>
+                    Focus should go to <a href="#link">this link</a> using \`tab\`-key immediately after the \`Tab 3\`
+                    (skipping \`Tab 1\` and \`Tab 2\`)
+                </p>
+            </Panel>
+        </EbayTabs>
+    </>`,...u.parameters?.docs?.source}}};p.parameters={...p.parameters,docs:{...p.parameters?.docs,source:{originalSource:`args => <>
+        <div>
+            <EbayTabs {...args} id="tab-upper">
+                <Tab>Tab 1</Tab>
+                <Tab>Tab 2</Tab>
+                <Panel>
+                    <h3>Panel 1</h3>
+                    <p>
+                        Panel 1 content. Here is a <a href="#link">link</a>.
+                    </p>
+                </Panel>
+                <Panel>
+                    <h3>Panel 2</h3>
+                    <p>
+                        Panel 2 content. Here is a <a href="#link">link</a>.
+                    </p>
+                </Panel>
+            </EbayTabs>
+        </div>
+        <div style={{
+    marginTop: "64px"
+  }}>
+            <EbayTabs {...args} id="tab-lower">
+                <Tab>Tab A</Tab>
+                <Tab>Tab B</Tab>
+                <Tab>Tab C</Tab>
+                <Panel>
+                    <h3>Panel A</h3>
+                    <p>
+                        Panel A content. Here is a <a href="#link">link</a>.
+                    </p>
+                </Panel>
+                <Panel>
+                    <h3>Panel B</h3>
+                    <p>
+                        Panel B content. Here is a <a href="#link">link</a>.
+                    </p>
+                </Panel>
+                <Panel>
+                    <h3>Panel C</h3>
+                    <p>
+                        Panel C content. Here is a <a href="#link">link</a>.
+                    </p>
+                </Panel>
+            </EbayTabs>
+        </div>
+    </>`,...p.parameters?.docs?.source}}};T.parameters={...T.parameters,docs:{...T.parameters?.docs,source:{originalSource:`{
+  render: args => {
+    const Component = () => {
+      const [name, setName] = useState("John Doe");
+      return <EbayTabs {...args}>
+                    <Tab>Tab 1</Tab>
+                    <Tab>Tab 2</Tab>
+                    <Tab>Tab 3</Tab>
+                    <Panel>
+                        <label htmlFor="name">Name </label>
+                        <input id="name" onChange={e => setName(e.target.value)} type="text" placeholder="john doe" value={name} />
+                        <p>My name is {name}</p>
+                    </Panel>
+                    <Panel>
+                        <h3>Panel 2</h3>
+                    </Panel>
+                    <Panel>
+                        <h3>Panel 3</h3>
+                    </Panel>
+                </EbayTabs>;
+    };
+    return <>
+                <Component />
+            </>;
+  },
+  name: "Tabs with inputs"
+}`,...T.parameters?.docs?.source}}};h.parameters={...h.parameters,docs:{...h.parameters?.docs,source:{originalSource:`{
+  render: args => <>
+            <p style={{
+      margin: "10em 0"
+    }}>Scroll down for more content...</p>
+            <p style={{
+      margin: "10em 0"
+    }}>Scroll down for more content...</p>
+            <p style={{
+      margin: "10em 0"
+    }}>Scroll down for more content...</p>
+            <p style={{
+      margin: "10em 0"
+    }}>Scroll down for more content...</p>
+            <p style={{
+      margin: "10em 0"
+    }}>Scroll down for more content...</p>
+            <p style={{
+      margin: "10em 0"
+    }}>Scroll down for more content...</p>
+            <p style={{
+      margin: "10em 0"
+    }}>Scroll down for more content...</p>
+            <p style={{
+      margin: "10em 0"
+    }}>Scroll down for more content...</p>
+            <EbayTabs {...args}>
+                <Tab>Tab 1</Tab>
+                <Tab>Tab 2</Tab>
+                <Panel>
+                    <h3>Panel 1</h3>
+                    <p>Panel 1 content.</p>
+                </Panel>
+                <Panel>
+                    <h3>Panel 2</h3>
+                    <p>Panel 2 content.</p>
+                </Panel>
+            </EbayTabs>
+        </>,
+  name: "Bottom Tabs on Long Page"
+}`,...h.parameters?.docs?.source}}};const w=["DefaultTabs","PreSelectedTab","ProgrammaticallySelectedTabs","ManuallyActivatedTabs","LargeTabs","Disabled","MultipleTabs","TabsWithInputs","BottomTabsOnLongPage"];export{h as BottomTabsOnLongPage,o as DefaultTabs,u as Disabled,b as LargeTabs,c as ManuallyActivatedTabs,p as MultipleTabs,i as PreSelectedTab,m as ProgrammaticallySelectedTabs,T as TabsWithInputs,w as __namedExportsOrder,v as default};

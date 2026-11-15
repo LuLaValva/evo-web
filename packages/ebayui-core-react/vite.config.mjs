@@ -1,0 +1,89 @@
+import fs from "node:fs";
+import { join, resolve } from "node:path";
+import { defineConfig } from "vite";
+import { nodeExternals } from "rollup-plugin-node-externals";
+import typescript from "@rollup/plugin-typescript";
+import { cjsInterop } from "vite-plugin-cjs-interop";
+
+// find directories in src that starts with 'ebay-'
+const componentEntries = fs
+    .readdirSync("./src")
+    .filter((file) => fs.statSync(`./src/${file}`).isDirectory() && file.startsWith("ebay-"))
+    .reduce(
+        (acc, componentName) => {
+            acc[componentName] = resolve(__dirname, `src/${componentName}/index.ts`);
+            return acc;
+        },
+        {
+            events: resolve(__dirname, "src/events/index.ts"),
+            utils: resolve(__dirname, "src/utils/index.ts"),
+        },
+    );
+
+const iconsEntries = fs
+    .readdirSync("./src/ebay-icon/icons")
+    .filter((file) => fs.statSync(`./src/ebay-icon/icons/${file}`).isFile() && file.startsWith("ebay-"))
+    .reduce((acc, componentName) => {
+        acc[join("icons/", componentName.replace(".tsx", ""))] = resolve(
+            __dirname,
+            `src/ebay-icon/icons/${componentName}`,
+        );
+        return acc;
+    }, {});
+
+export default defineConfig({
+    plugins: [
+        // This plugin will automatically unwrap the default export from CJS dependencies that are specified in the list.
+        // https://github.com/eBay/ebayui-core-react/issues/420
+        cjsInterop({
+            // By default this plugin is only for SSR vite build, here we are in library mode, so we enable "client"
+            client: true,
+            dependencies: ["makeup-expander", "makeup-typeahead", "makeup-floating-label", "makeup-focusables"],
+        }),
+        nodeExternals(),
+    ],
+    build: {
+        lib: {
+            entry: {
+                ...componentEntries,
+                ...iconsEntries,
+            },
+            fileName: "[name]/index",
+            // Use CommonJS only until we upgrade all packages that uses ui-core-react to use ESM.
+            // If we use ESM, the bundle might have both ESM and CJS, which will increase the bundle size,
+            // and might cause reference issues.
+            formats: ["cjs"],
+        },
+        rollupOptions: {
+            plugins: [typescript()],
+        },
+    },
+    test: {
+        define: { global: 'window' },
+        globals: true,
+        environment: "jsdom",
+        setupFiles: ["./test.setup.ts"],
+        environmentOptions: {
+            jsdom: {
+                resources: "usable",
+            },
+        },
+        include: ["src/**/__tests__/**/*.spec.{ts,tsx}"],
+        exclude: ["**/node_modules/**", "**/build/**", "**/.yarn-cache/**", "**/build-ebay/**"],
+        coverage: {
+            provider: "v8",
+            reporter: ["json", "lcov", "text", "cobertura"],
+            include: ["src/**/*.{ts,tsx}"],
+            exclude: [
+                "**/__tests__/**/*.{ts,tsx}",
+                "src/components/*/index.ts",
+                "src/**/*.stories.tsx",
+                "src/**/index.d.ts",
+                "src/config.ts",
+                "**/node_modules/**",
+            ],
+        },
+        testTimeout: 10000,
+        hookTimeout: 10000,
+    },
+});

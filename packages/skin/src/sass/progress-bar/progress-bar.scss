@@ -1,0 +1,50 @@
+@use "../variables/variables";
+@use "../mixins/private/token-mixins";
+
+.progress-bar {
+    border: none;
+    height: 4px;
+    margin: var(--spacing-100) 0;
+    @include token-mixins.color-token(
+        progress-bar-foreground-color,
+        color-foreground-accent
+    );
+}
+
+.progress-bar::-webkit-progress-bar {
+    @include token-mixins.background-color-token(
+        progress-bar-background-color,
+        color-border-subtle
+    );
+
+    border-radius: 8px;
+}
+
+.progress-bar::-webkit-progress-value {
+    @include token-mixins.background-color-token(
+        progress-bar-foreground-color,
+        color-background-accent
+    );
+
+    border-radius: 8px;
+    transition: width 0.45s ease-in-out;
+}
+
+.progress-bar::-moz-progress-bar {
+    @include token-mixins.background-color-token(
+        progress-bar-foreground-color,
+        color-background-accent
+    );
+
+    border-radius: 8px;
+}
+
+.progress-bar--fluid {
+    width: 100%;
+}
+
+@media (min-width: variables.$screen-size-SM) {
+    .progress-bar {
+        margin: var(--spacing-200) 0;
+    }
+}

@@ -1,0 +1,10 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`flag > renders defaults 1`] = `
+"[36m<DocumentFragment>[39m
+  [36m<span[39m
+    [33mclass[39m=[32m"fflag fflag--us"[39m
+    [33mstyle[39m=[32m"width: 20px; height: 20px"[39m
+  [36m/>[39m
+[36m</DocumentFragment>[39m"
+`;

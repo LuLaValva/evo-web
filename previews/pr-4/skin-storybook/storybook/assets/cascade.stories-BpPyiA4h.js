@@ -1,0 +1,93 @@
+const o={title:"Skin/Listbox/Cascade"},s=()=>`
+<span class="listbox">
+    <div class="listbox__options" role="listbox" style="color: red" tabindex="0">
+        <div class="listbox__option" role="option" aria-selected="true">
+            <span class="listbox__value">Option 1</span>
+            <svg class="icon icon--16" height="8" width="8">
+                <use href="#icon-tick-16"></use>
+            </svg>
+        </div>
+        <div class="listbox__option" role="option" aria-selected="false">
+            <span class="listbox__value">Option 2</span>
+            <svg class="icon icon--16" height="8" width="8">
+                <use href="#icon-tick-16"></use>
+            </svg>
+        </div>
+        <div class="listbox__option" role="option" aria-selected="false">
+            <span class="listbox__value">Option 3</span>
+            <svg class="icon icon--16" height="8" width="8">
+                <use href="#icon-tick-16"></use>
+            </svg>
+        </div>
+    </div>
+</span>
+`,i=()=>`
+<span class="listbox">
+    <div class="listbox__options" role="listbox" style="font-size: 200%" tabindex="0">
+        <div class="listbox__option" role="option" aria-selected="true">
+            <span class="listbox__value">Option 1</span>
+            <svg class="icon icon--16" height="8" width="8">
+                <use href="#icon-tick-16"></use>
+            </svg>
+        </div>
+        <div class="listbox__option" role="option" aria-selected="false">
+            <span class="listbox__value">Option 2</span>
+            <svg class="icon icon--16" height="8" width="8">
+                <use href="#icon-tick-16"></use>
+            </svg>
+        </div>
+        <div class="listbox__option" role="option" aria-selected="false">
+            <span class="listbox__value">Option 3</span>
+            <svg class="icon icon--16" height="8" width="8">
+                <use href="#icon-tick-16"></use>
+            </svg>
+        </div>
+    </div>
+</span>
+`;s.parameters={...s.parameters,docs:{...s.parameters?.docs,source:{originalSource:`() => \`
+<span class="listbox">
+    <div class="listbox__options" role="listbox" style="color: red" tabindex="0">
+        <div class="listbox__option" role="option" aria-selected="true">
+            <span class="listbox__value">Option 1</span>
+            <svg class="icon icon--16" height="8" width="8">
+                <use href="#icon-tick-16"></use>
+            </svg>
+        </div>
+        <div class="listbox__option" role="option" aria-selected="false">
+            <span class="listbox__value">Option 2</span>
+            <svg class="icon icon--16" height="8" width="8">
+                <use href="#icon-tick-16"></use>
+            </svg>
+        </div>
+        <div class="listbox__option" role="option" aria-selected="false">
+            <span class="listbox__value">Option 3</span>
+            <svg class="icon icon--16" height="8" width="8">
+                <use href="#icon-tick-16"></use>
+            </svg>
+        </div>
+    </div>
+</span>
+\``,...s.parameters?.docs?.source}}};i.parameters={...i.parameters,docs:{...i.parameters?.docs,source:{originalSource:`() => \`
+<span class="listbox">
+    <div class="listbox__options" role="listbox" style="font-size: 200%" tabindex="0">
+        <div class="listbox__option" role="option" aria-selected="true">
+            <span class="listbox__value">Option 1</span>
+            <svg class="icon icon--16" height="8" width="8">
+                <use href="#icon-tick-16"></use>
+            </svg>
+        </div>
+        <div class="listbox__option" role="option" aria-selected="false">
+            <span class="listbox__value">Option 2</span>
+            <svg class="icon icon--16" height="8" width="8">
+                <use href="#icon-tick-16"></use>
+            </svg>
+        </div>
+        <div class="listbox__option" role="option" aria-selected="false">
+            <span class="listbox__value">Option 3</span>
+            <svg class="icon icon--16" height="8" width="8">
+                <use href="#icon-tick-16"></use>
+            </svg>
+        </div>
+    </div>
+</span>
+\``,...i.parameters?.docs?.source}}};const n=["color","fontSize"];export{n as __namedExportsOrder,s as color,o as default,i as fontSize};

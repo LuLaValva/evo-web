@@ -1,0 +1,2 @@
+import{a,w as n,cC as s,cD as o,cE as $,i as e}from"./_D1Y05wWu.js";import"./_D1WVjJ2o.js";import{$ as _,a as c,b as p,c as m}from"./_GN9zktVP.js";import"./_Bu0FUkzr.js";const u=t=>{$(t.a)},i=n("xn_HR_n",(t=>`<!>${t}<!>`)(o),(t=>`b/${t}&b`)(s),u),r=t=>{p(t.a),m(t.a,i(t))};a("bU2pSrc",(t=>`<!>${t}<!>`)(c),(t=>`b/${t}&b`)(_),r);e();
+//# sourceMappingURL=components.education-notice.accessibility-B8duLq2h.js.map

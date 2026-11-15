@@ -1,0 +1,45 @@
+import { processHtmlAttributes } from "../../common/html-attributes";
+import eekUtil, { type Input as EekInput } from "./eek-util";
+export type Input = EekInput;
+static function noop() {}
+$ const {
+    class: inputClass,
+    style,
+    a11yText,
+    size,
+    max,
+    min,
+    rating,
+    ...htmlInput
+} = input;
+$ (input as any).toJSON = noop;
+$ const eekRating = eekUtil(input);
+<div
+    ...processHtmlAttributes(htmlInput)
+    role="img"
+    style=style
+    aria-label=a11yText ||
+    `Energy Rating: ${rating}. Range: ${max} - ${min}.`
+    class=[
+        "eek",
+        eekRating ? `eek--rating-${eekRating}` : null,
+        size === "large" && "eek--large",
+        inputClass,
+    ]
+>
+    <div class="eek__container" aria-hidden="true">
+        <span class="eek__rating-range">
+            <span>
+                ${max}
+            </span>
+            <ebay-eek-range-arrow-icon/>
+            <span>
+                ${min}
+            </span>
+        </span>
+        <span class="eek__rating">
+            ${rating}
+        </span>
+    </div>
+    <ebay-eek-arrow-icon/>
+</div>

@@ -1,0 +1,203 @@
+@use "../variables/variables";
+@use "../mixins/private/dialog-mixins";
+@use "../mixins/private/token-mixins";
+
+:root {
+    --dialog-lightbox-wide-max-width: 896px;
+    --dialog-lightbox-narrow-max-width: 480px;
+}
+
+.lightbox-dialog[role="dialog"] {
+    @include dialog-mixins.lightbox-base;
+}
+
+.lightbox-dialog__window {
+    @include dialog-mixins.lightbox-window;
+}
+
+.lightbox-dialog__header {
+    @include dialog-mixins.header-content;
+}
+
+.lightbox-dialog__main {
+    min-height: 18px;
+    overflow: auto;
+
+    @include dialog-mixins.body-content;
+}
+
+.lightbox-dialog__footer {
+    border-top: 1px solid
+        var(--dialog-lightbox-separator-color, var(--color-border-subtle));
+
+    @include dialog-mixins.footer-content;
+}
+
+.lightbox-dialog__image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: var(--border-radius-100) var(--border-radius-100) 0 0;
+    height: 218px;
+    position: absolute;
+    width: 100%;
+}
+
+.lightbox-dialog--expressive .lightbox-dialog__window {
+    padding-bottom: var(--spacing-100);
+}
+
+.lightbox-dialog--expressive .lightbox-dialog__header > * {
+    margin-top: 218px;
+}
+
+.lightbox-dialog--expressive .lightbox-dialog__header {
+    margin: var(--spacing-300) var(--spacing-300) 0;
+}
+
+.lightbox-dialog--expressive .lightbox-dialog__main,
+.lightbox-dialog--expressive .lightbox-dialog__footer {
+    padding: var(--spacing-200) var(--spacing-300);
+}
+
+/* inherits from .icon-btn */
+/* Might need to see if icon-btn can support a small version */
+button.icon-btn.lightbox-dialog__prev,
+button.icon-btn.lightbox-dialog__close {
+    align-self: flex-start;
+    border: 0;
+    height: 32px;
+    min-width: 32px;
+    position: relative;
+    width: 32px;
+    z-index: 1;
+}
+
+button.icon-btn.lightbox-dialog__prev {
+    margin-inline-end: var(--spacing-200);
+}
+
+.lightbox-dialog--expressive button.icon-btn.lightbox-dialog__prev,
+.lightbox-dialog--expressive button.icon-btn.lightbox-dialog__close {
+    align-self: self-start;
+    margin: 0;
+}
+
+.lightbox-dialog--expressive button.icon-btn.lightbox-dialog__prev + * {
+    margin-left: -32px;
+}
+
+.lightbox-dialog__title {
+    &:not(:first-child) {
+        margin-left: var(--spacing-200);
+    }
+}
+
+.lightbox-dialog__title--center {
+    text-align: center;
+}
+
+@include dialog-mixins.animation(lightbox-dialog);
+
+.lightbox-dialog--show .lightbox-dialog__window--animate,
+.lightbox-dialog--hide-init .lightbox-dialog__window--animate {
+    transform: translateY(0);
+}
+
+.lightbox-dialog--show-init .lightbox-dialog__window--animate,
+.lightbox-dialog--hide .lightbox-dialog__window--animate {
+    transform: translateY(100%);
+}
+
+/* Added :after class in order to increase parent hit box */
+.lightbox-dialog__handle::after {
+    @include token-mixins.background-color-token(
+        dialog-handle-color,
+        color-border-medium
+    );
+
+    border-radius: 3px;
+    content: "";
+    display: block;
+    height: 2px;
+    width: 24px;
+}
+
+[dir="rtl"] {
+    button.icon-btn.lightbox-dialog__prev .icon--16 {
+        transform: rotate(180deg);
+    }
+}
+
+.lightbox-dialog--fullscreen .lightbox-dialog__window,
+.lightbox-dialog--large .lightbox-dialog__window {
+    align-self: center;
+    height: 70%;
+    margin: var(--spacing-100);
+
+    // This is needed like this becuase max-height 100% would cause a scroll overflow
+    max-height: 95%;
+}
+
+@media (max-width: variables.$screen-size-SM) {
+    .lightbox-dialog--large .lightbox-dialog__window {
+        height: 95%;
+
+        // This is needed like this becuase max-height 100% would cause a scroll overflow
+        max-height: 95%;
+        width: 100%;
+    }
+
+    .lightbox-dialog--fullscreen .lightbox-dialog__window {
+        border-radius: 0;
+        height: 100%;
+        margin: 0;
+        max-height: 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+}
+/* In order to prevent the margins to meet the ege of the page at medium screen sizes */
+@media (min-width: variables.$screen-size-SM) {
+    .lightbox-dialog__window {
+        @include dialog-mixins.lightbox-window-large;
+
+        max-width: 88%;
+    }
+
+    .lightbox-dialog--narrow .lightbox-dialog__window {
+        max-width: var(--dialog-lightbox-narrow-max-width);
+    }
+
+    .lightbox-dialog__window .lightbox-dialog__footer {
+        @include dialog-mixins.footer-content-large;
+    }
+
+    @include dialog-mixins.animation-large(lightbox-dialog);
+}
+
+@media (min-width: variables.$screen-size-MD) {
+    .lightbox-dialog__window {
+        max-width: var(--dialog-lightbox-max-width);
+    }
+
+    .lightbox-dialog--wide .lightbox-dialog__window {
+        max-width: 88%;
+    }
+
+    .lightbox-dialog--wide .lightbox-dialog__image {
+        height: 256px;
+    }
+
+    .lightbox-dialog--wide.lightbox-dialog--expressive
+        .lightbox-dialog__header
+        > * {
+        margin-top: 256px;
+    }
+}
+
+@media (min-width: variables.$screen-size-LG) {
+    .lightbox-dialog--wide .lightbox-dialog__window {
+        max-width: var(--dialog-lightbox-wide-max-width);
+    }
+}

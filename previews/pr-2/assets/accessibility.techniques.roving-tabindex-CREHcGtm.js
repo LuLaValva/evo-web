@@ -1,0 +1,2 @@
+import{a,w as s,i as $}from"./_BiADqPnh.js";import"./_CbuokCgR.js";import{$ as o,a as e,b as n,c as m}from"./_CQNHm4jY.js";import{$walks as p,$template as _,$setup as u}from"./_CX7OY-1z.js";import"./_LxNB712o.js";const c=t=>{u(t.a)},i=s("LG9Nx40",(t=>`<!>${t}<!>`)(_),(t=>`b/${t}&b`)(p),c),r=t=>{n(t.a),m(t.a,i(t))};a("PZyJjOc",(t=>`<!>${t}<!>`)(e),(t=>`b/${t}&b`)(o),r);$();
+//# sourceMappingURL=accessibility.techniques.roving-tabindex-CREHcGtm.js.map

@@ -1,0 +1,2 @@
+import{a,w as s,i as o}from"./_BCALt7Z9.js";import"./_BSDO4Mna.js";import{$,a as e,b as n,c as m}from"./_BpEkHwuE.js";import{$walks as p,$template as _,$setup as i}from"./_EXMotE5V.js";import"./_BCuQ38td.js";const u=t=>{i(t.a)},r=s("KH2i8Sx",(t=>`<!>${t}<!>`)(_),(t=>`b/${t}&b`)(p),u),c=t=>{n(t.a),m(t.a,r(t))};a("IS_Ooeh",(t=>`<!>${t}<!>`)(e),(t=>`b/${t}&b`)($),c);o();
+//# sourceMappingURL=accessibility.patterns.fake-menu-button-P3Srsu_o.js.map

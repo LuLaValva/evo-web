@@ -1,0 +1,2 @@
+import{a,w as s,i as $}from"./_Fx7wwru-.js";import"./_Duh7fMFH.js";import{$ as o,a as e,b as n,c as m}from"./_DjFyrlo7.js";import{$walks as p,$template as u,$setup as _}from"./_C0mp4nns.js";import"./_EBqf4bbt.js";const i=t=>{_(t.a)},r=s("PdJ55XV",(t=>`<!>${t}<!>`)(u),(t=>`b/${t}&b`)(p),i),c=t=>{n(t.a),m(t.a,r(t))};a("iS$PuB2",(t=>`<!>${t}<!>`)(e),(t=>`b/${t}&b`)(o),c);$();
+//# sourceMappingURL=accessibility.techniques.keyboard-trap-BWaQcO8a.js.map

@@ -1,0 +1,2 @@
+import{a,w as s,hy as n,hz as o,hA as $,i as e}from"./_DoIJw49B.js";import"./_DMCz6bhR.js";import{$ as _,a as c,b as m,c as p}from"./_-TgV4tEV.js";import"./_DWtgXPfJ.js";const u=t=>{$(t.a)},i=s("aTxHqEH",(t=>`<!>${t}<!>`)(o),(t=>`b/${t}&b`)(n),u),r=t=>{m(t.a),p(t.a,i(t))};a("Y6X9rcK",(t=>`<!>${t}<!>`)(c),(t=>`b/${t}&b`)(_),r);e();
+//# sourceMappingURL=components.progress-spinner.accessibility-BYsFoq6p.js.map

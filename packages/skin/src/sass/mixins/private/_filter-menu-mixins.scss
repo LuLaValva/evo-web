@@ -1,0 +1,29 @@
+@use "./token-mixins";
+@use "./state-layer";
+
+@mixin base() {
+    @include state-layer.standard;
+
+    background-color: var(--color-background-elevated);
+    box-sizing: border-box;
+    color: var(--color-foreground-primary);
+    display: flex;
+    font-size: var(--font-size-body);
+    justify-content: space-between;
+    line-height: 1.4em;
+    margin: 0;
+    width: 100%;
+
+    &:disabled,
+    &[aria-disabled="true"] {
+        color: var(--color-foreground-disabled);
+
+        span > svg {
+            color: var(--color-foreground-disabled);
+        }
+
+        &:hover {
+            background-color: inherit;
+        }
+    }
+}

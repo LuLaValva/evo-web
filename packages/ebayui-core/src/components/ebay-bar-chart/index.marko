@@ -1,0 +1,34 @@
+import { processHtmlAttributes } from "../../common/html-attributes";
+$ const {
+    class: inputClass,
+    series,
+    title,
+    description,
+    xAxisLabelFormat,
+    yAxisLabels,
+    xAxisPositioner,
+    yAxisPositioner,
+    ...htmlInput
+} = input;
+
+<div ...processHtmlAttributes(htmlInput) class=[inputClass, "ebay-bar-chart"]>
+    <div id=component.getContainerId() class="ebay-bar-chart__container"/>
+</div>
+
+style {
+    .ebay-bar-chart {
+        width: 100%;
+    }
+
+    .ebay-bar-chart .highcharts-legend-item-hidden {
+        transition: fill 250ms;
+    }
+
+    .ebay-bar-chart .highcharts-legend-item-hidden .highcharts-point {
+        stroke-width: 0;
+    }
+
+    .highcharts-tooltip-container svg {
+        overflow: visible;
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "lib": ["dom", "ESNext"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "noUnusedLocals": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ESNext",
+    "tsBuildInfoFile": "dist/tsconfig.tsbuildinfo",
+    "types": ["vite/client", "vitest/globals", "@vitest/browser/matchers"],
+    "verbatimModuleSyntax": true,
+    "resolveJsonModule": true
+  },
+  "exclude": ["**/*test*/**/*", "**/*.stories.ts"],
+  "include": ["src/**/*", "src/**/*.json"]
+}

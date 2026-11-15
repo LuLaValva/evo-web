@@ -1,0 +1,2 @@
+import{a,w as s,ev as e,ew as n,ex as o,i as $}from"./_slNllk5N.js";import"./_D1j8vUQn.js";import{$ as _,a as m,b as p,c as u}from"./_BUJ8dE3O.js";import"./_DrMWBXeQ.js";const c=t=>{o(t.a)},i=s("CJCoLd2",(t=>`<!>${t}<!>`)(n),(t=>`b/${t}&b`)(e),c),r=t=>{p(t.a),u(t.a,i(t))};a("LFX9SkD",(t=>`<!>${t}<!>`)(m),(t=>`b/${t}&b`)(_),r);$();
+//# sourceMappingURL=components.image-placeholder.css-DTgVorJV.js.map

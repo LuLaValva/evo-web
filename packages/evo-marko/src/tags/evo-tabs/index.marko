@@ -1,0 +1,75 @@
+export interface Tab extends Marko.HTML.Div {
+    panel: Marko.AttrTag<Marko.HTML.Div>;
+}
+export interface Input extends Marko.HTML.Div {
+    tab?: Marko.AttrTag<Tab>;
+    activation?: "auto" | "manual";
+    index?: number;
+    indexChange?: (index: number) => void;
+}
+
+<const/{
+    class: inputClass,
+    index: inputIndex,
+    indexChange,
+    activation,
+    tab: tabs,
+    ...htmlInput
+}=input>
+
+<let/index:=input.index>
+<id/tabId>
+<id/tabpanelId>
+<const/size=([...tabs || []].length)>
+
+<evo-roving-tabindex/rovingTabIndex
+    autoSelect=activation === "auto"
+    nodeList=$item
+    selected:=index/>
+
+<div class=["tabs", inputClass] ...htmlInput>
+    <div/tabListEl role="tablist" class="tabs__items">
+        <for|tab, i| of=tabs>
+            <const/isSelected=index === i>
+            <div/$item
+                ...tab
+                onClick(e, target) {
+                    (rovingTabIndex.onClick || null)?.(i);
+                    (tab.onClick || null)?.(e, target);
+                }
+                onKeyDown(e, target) {
+                    (rovingTabIndex.onKeyDown || null)?.(e);
+                    (tab.onKeyDown || null)?.(e, target);
+                }
+                tabindex=(rovingTabIndex.isFocused(i) ? 0 : -1)
+                id=`${tabId}-${i}`
+                aria-controls=`${tabpanelId}-${i}`
+                role="tab"
+                aria-selected=isSelected && "true"
+                class=[tab.class, "tabs__item"]>
+                <span>
+                    <${tab.content}/>
+                </span>
+            </div>
+        </for>
+    </div>
+    <div class="tabs__content">
+        <for|tab, i| of=tabs>
+            <const/isSelected=index === i>
+            <const/panel=tab.panel>
+            <div
+                ...panel
+                id=`${tabpanelId}-${i}`
+                aria-labelledby=`${tabId}-${i}`
+                role="tabpanel"
+                class=[panel.class, "tabs__panel"]
+                hidden=!isSelected>
+                <div class="tabs__cell">
+                    <div>
+                        <${panel.content}/>
+                    </div>
+                </div>
+            </div>
+        </for>
+    </div>
+</div>

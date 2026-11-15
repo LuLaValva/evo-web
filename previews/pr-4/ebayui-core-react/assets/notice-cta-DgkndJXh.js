@@ -1,0 +1,1 @@
+import{R as o,c as r}from"./iframe-mpt4QorT.js";const n=({className:c,type:t,children:e,...a})=>o.createElement("p",{className:r(c,`${t}-notice__cta`),...a},e);try{noticecta.displayName="noticecta",noticecta.__docgenInfo={description:"",displayName:"noticecta",props:{}}}catch{}export{n as N};

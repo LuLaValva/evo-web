@@ -1,0 +1,90 @@
+import { processHtmlAttributes } from "../../common/html-attributes";
+static const isBrowser = typeof window !== "undefined";
+$ const {
+    source: sources = [],
+    thumbnail,
+    playView,
+    layout,
+    nav,
+    a11yPlayText = "Play",
+    reportText,
+    a11yReportText,
+    a11yMuteText,
+    a11yUnmuteText,
+    a11yFullscreenText,
+    a11yExitFullscreenText,
+    errorText,
+    volume,
+    muted,
+    width,
+    height,
+    track: tracks = [],
+    volumeSlider,
+    autoplay,
+    ...htmlInput
+} = input;
+$ const styleSize = {
+    width: width ? `${width}px` : "",
+    height: height ? `${height}px` : "",
+};
+
+<div
+    key="root"
+    class=[
+        "video-player",
+        !state.played && thumbnail !== "" && "video-player--poster",
+        layout === "compact" && "video-player--compact",
+        nav && "video-player--with-nav",
+    ]
+    style=styleSize>
+
+    <if(isBrowser && !width)>
+        <subscribe to=window on-resize("handleResize")/>
+    </if>
+    <div class="video-player__container" no-update style=styleSize>
+        <${nav ? "a" : null} ...processHtmlAttributes(nav || {})>
+            <video
+                no-controls
+                playsinline
+                poster=thumbnail
+                ...processHtmlAttributes(htmlInput)>
+                <for|src| of=sources>
+                    <source ...src>
+                </for>
+                <for|track| of=tracks>
+                    <track ...track>
+                </for>
+            </video>
+        </>
+    </div>
+    <div class=[
+        "video-player__overlay",
+        !state.failed && "video-player__overlay--hidden",
+    ]>
+        <ebay-attention-24-icon/>
+        <div class="video-player__overlay-text">
+            <if(errorText)>
+                ${errorText}
+            </if>
+            <else>An error has occurred</else>
+        </div>
+    </div>
+    <div style="display:none">
+        <ebay-play-filled-64-colored-icon key="play-icon" width=64/>
+        <ebay-flag-16-icon
+            a11y-text=a11yReportText || reportText || "Report"
+            key="flag-icon"/>
+        <ebay-audio-off-16-icon
+            key="audio-off-icon"
+            a11y-text=a11yUnmuteText || "Unmute"/>
+        <ebay-audio-high-16-icon
+            key="audio-high-icon"
+            a11y-text=a11yMuteText || "Mute"/>
+        <ebay-expand-16-icon
+            key="expand-icon"
+            a11y-text=a11yFullscreenText || "Enter fullscreen"/>
+        <ebay-contract-16-icon
+            key="contract-icon"
+            a11y-text=a11yExitFullscreenText || "Exit fullscreen"/>
+    </div>
+</div>

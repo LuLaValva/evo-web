@@ -1,0 +1,80 @@
+{
+    "name": "@ebay/ebayui-core",
+    "version": "16.11.0",
+    "description": "Collection of core eBay components; considered to be the building blocks for all composite structures, pages & apps.",
+    "keywords": [
+        "marko-components"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/eBay/evo-web.git",
+        "directory": "packages/ebayui-core"
+    },
+    "license": "MIT",
+    "files": [
+        "dist",
+        "!*.marko.js",
+        "!**/test*",
+        "marko.json",
+        "package-lock.json",
+        "*.browser.json",
+        "marketplace.json",
+        "!**/{,*.}stories.*",
+        "!**/{,*.}stories-ignore.*"
+    ],
+    "scripts": {
+        "build": "rm -rf dist && concurrently --kill-others-on-fail \"mtc\" \"npm run lint\" \"node scripts/check-postpublish\" \"npm test\"",
+        "build:readme": "node scripts/add-ds-version",
+        "coverage": "vitest run --browser.headless --coverage",
+        "deploy": "storybook build -o ./_site",
+        "importSVG": "node scripts/import-svg && prettier \"{./src/components/ebay-{icon,flag,star-rating,image-placeholder}/**/*,**/*.{js,ts,json,MD}}\" --write --log-level=warn",
+        "lint": "npm run lint:less && npm run lint:js && npm run lint:whitespace",
+        "lint:js": "eslint",
+        "lint:less": "stylelint \"src/**/*.{css,less}\" --config .stylelintrc",
+        "lint:whitespace": "lintspaces *.md src/**/*.md src/**/*.marko src/**/*.less --newline --maxnewlines 1 --trailingspaces --spaces 4",
+        "prepublishOnly": "node scripts/postpublish && mtc && node scripts/prepublish",
+        "postpublish": "node scripts/postpublish",
+        "release": "node scripts/postpublish && node scripts/prepublish",
+        "report": "nyc report --reporter=text-summary",
+        "start": "storybook dev -p 6006 --no-open",
+        "start:prod": "NODE_ENV=production npm start",
+        "storybook": "storybook dev -p 6006",
+        "tb": "npm run test:browser",
+        "test": "vitest run --browser.headless",
+        "test:browser": "vitest run browser",
+        "test:ci": "CI=true vitest run --no-color",
+        "test:server": "vitest run server",
+        "test:visual": "vitest run",
+        "test:watch": "vitest",
+        "tr": "npm run coverage && npm run report && open .coverage/index.html",
+        "ts": "npm run test:server",
+        "tt": "mtc",
+        "update-snapshots": "vitest run -u --browser.headless",
+        "version": "npm run importSVG && npm run build:readme"
+    },
+    "dependencies": {
+        "@floating-ui/dom": "^1.7.5",
+        "@google/model-viewer": "^4.1.0",
+        "@marko-tags/subscribe": "^0.5.2",
+        "highcharts": "^12.5.0",
+        "makeup-active-descendant": "0.8.0",
+        "makeup-expander": "~0.13.0",
+        "makeup-floating-label": "~0.4.9",
+        "makeup-focusables": "~0.5.0",
+        "makeup-key-emitter": "~0.5.0",
+        "makeup-keyboard-trap": "~0.6.0",
+        "makeup-prevent-scroll-keys": "~0.4.0",
+        "makeup-roving-tabindex": "~0.8.0",
+        "makeup-screenreader-trap": "~0.7.0",
+        "makeup-typeahead": "^0.4.0",
+        "shaka-player": "5.0.2"
+    },
+    "devDependencies": {
+        "@marko/compiler": "^5.39.50",
+        "marko": "^5.38.38"
+    },
+    "peerDependencies": {
+        "@ebay/skin": "^19",
+        "marko": "^5.38.38"
+    }
+}

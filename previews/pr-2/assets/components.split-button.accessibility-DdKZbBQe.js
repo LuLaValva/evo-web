@@ -1,0 +1,2 @@
+import{a,w as o,j4 as s,j5 as n,j6 as $,i as e}from"./_Fx7wwru-.js";import"./_Duh7fMFH.js";import{$ as _,a as m,b as p,c as u}from"./_BeLT56BL.js";import"./_EBqf4bbt.js";const c=t=>{$(t.a)},i=o("QKCoIo0",(t=>`<!>${t}<!>`)(n),(t=>`b/${t}&b`)(s),c),r=t=>{p(t.a),u(t.a,i(t))};a("Dwg43kw",(t=>`<!>${t}<!>`)(m),(t=>`b/${t}&b`)(_),r);e();
+//# sourceMappingURL=components.split-button.accessibility-DdKZbBQe.js.map

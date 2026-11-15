@@ -1,0 +1,184 @@
+import React, { useState } from "react";
+import { Meta, StoryObj } from "@storybook/react-vite";
+import { action } from "storybook/actions";
+import { EbayToggleButton } from "..";
+import { EbayIconSettings24 } from "../../ebay-icon/icons/ebay-icon-settings-24";
+
+export default {
+    title: "Buttons/ebay-toggle-button",
+    component: EbayToggleButton,
+    argTypes: {
+        title: {
+            control: {
+                type: "text",
+            },
+            description: "Title attribute for the button",
+            table: {
+                type: { summary: "string" },
+            },
+        },
+        subtitle: {
+            control: {
+                type: "text",
+            },
+            description: "Subtitle attribute for the button",
+            table: {
+                type: { summary: "string" },
+            },
+        },
+        pressed: {
+            control: {
+                type: "boolean",
+            },
+            description: "Pressed state of the button",
+            type: "boolean",
+            table: {
+                type: { summary: "boolean" },
+                defaultValue: {
+                    summary: "false",
+                },
+            },
+        },
+        disabled: {
+            control: {
+                type: "boolean",
+            },
+            description: "Pressed state of the button",
+            type: "boolean",
+            table: {
+                type: { summary: "boolean" },
+            },
+        },
+        layoutType: {
+            options: ["minimal", "list", "gallery"],
+            control: {
+                type: "select",
+            },
+            table: {
+                defaultValue: {
+                    summary: "minimal",
+                },
+            },
+            description:
+                "Enforced layout type of all buttons. May be `minimal` (default), `list`, or `gallery`. Gallery layout may only be used when there is also an icon or an image, and minimal layout may not be used when there is an icon or an image",
+        },
+        icon: {
+            description: "Name of EbayIcon for the component",
+            table: {
+                type: { summary: "EbayIcon" },
+            },
+        },
+        img: {
+            description: "Image for the component",
+            table: {
+                type: {
+                    summary: `ToggleButtonImge = {src: string; alt: string; fillPlacement?: string}`,
+                },
+            },
+        },
+
+        onToggle: {
+            description: "Triggered when the button is toggled: { originalEvent, pressed }",
+            action: "onToggle",
+            table: { category: "Events" },
+        },
+    },
+
+    tags: ["autodocs"],
+    parameters: {
+        docs: {
+            description: {
+                component: `## Usage
+
+### Import
+
+\`\`\`jsx harmony
+import { EbayToggleButton } from "@ebay/ui-core-react/ebay-toggle-button";
+\`\`\`
+
+### Import following styles from SKIN
+
+\`\`\`jsx harmony
+import "@ebay/skin/icon";
+import "@ebay/skin/toggle-button";
+\`\`\`
+
+or import styles using SCSS/CSS
+
+\`\`\`css
+@import "@ebay/skin/icon.css";
+@import "@ebay/skin/toggle-button.css";
+\`\`\`
+
+### Basic
+
+\`\`\`jsx
+<EbayToggleButton title="Label" subtitle="Subtitle" />
+\`\`\``,
+            },
+        },
+    },
+} as Meta<typeof EbayToggleButton>;
+
+export const Default: StoryObj<typeof EbayToggleButton> = {
+    render: (args) => {
+        const [isPressed, setIsPressed] = useState(false);
+        return (
+            <EbayToggleButton
+                className="toggle-button--custom-modifier"
+                pressed={isPressed}
+                onToggle={() => setIsPressed(!isPressed)}
+                title={"Button 1"}
+                subtitle={"subtitle"}
+                {...args}
+            ></EbayToggleButton>
+        );
+    },
+};
+
+export const WithChildren = (args) => (
+    <EbayToggleButton {...args} pressed={false} onToggle={action("toggle")}>
+        <p>Button 1</p>
+    </EbayToggleButton>
+);
+
+export const IconButton = (args) => (
+    <EbayToggleButton
+        {...args}
+        pressed={false}
+        title={"Button 1"}
+        subtitle={"Some context here"}
+        onToggle={action("toggle")}
+        icon={<EbayIconSettings24 />}
+    ></EbayToggleButton>
+);
+
+export const ImageButton = (args) => (
+    <EbayToggleButton
+        {...args}
+        pressed={false}
+        title={"Button 1"}
+        subtitle={"Some context here"}
+        onToggle={action("toggle")}
+        img={{
+            src: "https://cloudfront.slrlounge.com/wp-content/uploads/2012/07/01-SLRLounge-Holding-Standing-Wrong.jpg",
+            alt: "image alt",
+        }}
+    ></EbayToggleButton>
+);
+
+export const ImageButtonWithPlacement = (args) => (
+    <EbayToggleButton
+        {...args}
+        pressed={false}
+        title={"Button 1"}
+        subtitle={"Some context here"}
+        onToggle={action("toggle")}
+        layoutType="gallery"
+        img={{
+            src: "https://cloudfront.slrlounge.com/wp-content/uploads/2012/07/01-SLRLounge-Holding-Standing-Wrong.jpg",
+            alt: "image alt",
+            fillPlacement: "top",
+        }}
+    ></EbayToggleButton>
+);

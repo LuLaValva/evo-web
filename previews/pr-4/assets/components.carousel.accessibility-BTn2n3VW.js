@@ -1,0 +1,2 @@
+import{a,w as s,aT as n,aU as o,aV as $,i as e}from"./_CNO04MJm.js";import"./_DfLQ4k0F.js";import{$ as m,a as _,b as p,c as u}from"./_BUGScCh5.js";import"./_Cd1GCn5C.js";const c=t=>{$(t.a)},i=s("m0tSMm0",(t=>`<!>${t}<!>`)(o),(t=>`b/${t}&b`)(n),c),r=t=>{p(t.a),u(t.a,i(t))};a("vNA46G7",(t=>`<!>${t}<!>`)(_),(t=>`b/${t}&b`)(m),r);e();
+//# sourceMappingURL=components.carousel.accessibility-BTn2n3VW.js.map

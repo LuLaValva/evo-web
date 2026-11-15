@@ -1,0 +1,2 @@
+import{a,w as s,aB as n,aC as o,aD as $,i as e}from"./_CxY88RCu.js";import"./_Cs9jcUaY.js";import{$ as _,a as p,b as u,c as i}from"./_B2DH6IEi.js";import"./_CgJCX14l.js";const m=t=>{$(t.a)},c=s("iWEHgp2",(t=>`<!>${t}<!>`)(o),(t=>`b/${t}&b`)(n),m),r=t=>{u(t.a),i(t.a,c(t))};a("aTjuJKW",(t=>`<!>${t}<!>`)(p),(t=>`b/${t}&b`)(_),r);e();
+//# sourceMappingURL=components.calendar.accessibility-C9NXsMUo.js.map

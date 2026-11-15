@@ -1,0 +1,44 @@
+export interface Input extends Omit<Marko.HTML.Span, "content"> {
+    string: string;
+    count?: number;
+    max: number;
+    /**
+     * Clipped text for screen readers. Often something like `"characters used"`
+     *
+     * Pass `null` explicitly _only_ if alternative accessibility information is present
+     */
+    a11yText?: string | null;
+}
+static const segmenter = (
+    "Segmenter" in Intl
+        ? new (Intl as any).Segmenter(undefined, { granularity: "grapheme" })
+        : null
+);
+static function countGraphemes(value: string): number {
+    if (segmenter) {
+        return [...segmenter.segment(value)].length;
+    }
+    return [...value].length;
+}
+
+<const/{ string, max, a11yText, count: inputCount, ...htmlInput }=input>
+
+<const/count=(inputCount !== undefined ? inputCount : countGraphemes(string))>
+
+<define/Display>
+    <span ...htmlInput>
+        ${count}/${max}
+        <if=a11yText>
+            ${" "}
+            <span class="clipped">
+                ${a11yText}
+            </span>
+        </if>
+    </span>
+</define>
+
+<return={
+    count,
+    ariaLive: count > max ? "polite" as const : "off" as const,
+    Display,
+}>

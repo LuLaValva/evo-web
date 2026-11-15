@@ -1,0 +1,66 @@
+{
+  "name": "@evo-web/marko",
+  "version": "0.5.0",
+  "description": "Collection of core eBay components; considered to be the building blocks for all composite structures, pages & apps.",
+  "keywords": [
+    "marko-components",
+    "marko-tags"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eBay/evo-web.git",
+    "directory": "packages/evo-marko"
+  },
+  "license": "MIT",
+  "files": [
+    "dist",
+    "marko.json",
+    "!**/*test*",
+    "!**/examples",
+    "!**/storybook",
+    "!*.tsbuildinfo",
+    "!**/{,*.}stories.*"
+  ],
+  "scripts": {
+    "build": "mtc",
+    "build:readme": "node scripts/add-ds-version",
+    "build:storybook": "storybook build -o ./_site",
+    "deploy": "storybook build -o ./_site",
+    "format": "eslint --fix; prettier . --write --log-level=warn",
+    "generate-locale-info": "node scripts/generate-locale-info && prettier --write src/common/dates/locale-info.ts",
+    "importSVG": "tsx scripts/import-svg",
+    "lint": "mtc && eslint && prettier . --check --log-level=warn",
+    "prepublishOnly": "node scripts/prepublish",
+    "postpublish": "node scripts/postpublish",
+    "release": "mtc",
+    "start": "storybook dev -p 6006 --no-open",
+    "test": "vitest run --browser.headless",
+    "test:browser": "vitest run browser",
+    "test:ci": "CI=true vitest run --no-color",
+    "test:server": "vitest run server",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@floating-ui/dom": "^1.7.5",
+    "@google/model-viewer": "^4.1.0",
+    "highcharts": "^12.5.0",
+    "makeup-active-descendant": "0.7.11",
+    "makeup-expander": "~0.11.10",
+    "makeup-floating-label": "~0.4.9",
+    "makeup-focusables": "~0.4.6",
+    "makeup-key-emitter": "~0.4.8",
+    "makeup-keyboard-trap": "~0.5.8",
+    "makeup-prevent-scroll-keys": "~0.3.5",
+    "makeup-roving-tabindex": "~0.7.8",
+    "makeup-screenreader-trap": "~0.5.7",
+    "makeup-typeahead": "^0.3.5",
+    "shaka-player": "5.0.2"
+  },
+  "devDependencies": {
+    "marko": "^6.0.169"
+  },
+  "peerDependencies": {
+    "@ebay/skin": "^19.2.0",
+    "marko": "5 - 6"
+  }
+}

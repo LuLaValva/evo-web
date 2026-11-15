@@ -1,0 +1,126 @@
+/*! DEPRECATED COMPONENT. Will be removed next major version */
+
+@use "../variables/variables";
+@use "../mixins/private/dialog-mixins";
+@use "../mixins/private/token-mixins";
+
+.fullscreen-dialog[role="dialog"] {
+    @include dialog-mixins.base;
+}
+
+.fullscreen-dialog--no-mask[role="dialog"] {
+    background-color: transparent;
+}
+
+.fullscreen-dialog__window {
+    @include dialog-mixins.window;
+
+    overflow-y: auto;
+    width: 100%;
+}
+
+.fullscreen-dialog__header {
+    @include dialog-mixins.header-content;
+}
+
+.fullscreen-dialog__header .fake-link {
+    align-self: flex-start;
+    outline-offset: 4px;
+    text-decoration: none;
+}
+
+.fullscreen-dialog__main {
+    min-height: auto;
+
+    @include dialog-mixins.body-content;
+}
+
+.fullscreen-dialog__footer {
+    @include dialog-mixins.footer-content;
+}
+
+button.icon-btn.fullscreen-dialog__close {
+    height: 32px;
+    min-width: 32px;
+    width: 32px;
+}
+
+/* inherits from .icon-btn */
+button.fullscreen-dialog__close,
+button.fullscreen-dialog__back {
+    align-self: flex-start;
+    border: 0;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.fullscreen-dialog--show,
+.fullscreen-dialog--hide {
+    &.fullscreen-dialog--mask-fade {
+        transition: background-color 0.16s ease-out;
+    }
+
+    &.fullscreen-dialog--mask-fade-slow {
+        transition: background-color 0.32s ease-out;
+    }
+
+    .fullscreen-dialog__window--fade {
+        transition: opacity 0.16s ease-out;
+    }
+
+    .fullscreen-dialog__window--slide,
+    .fullscreen-dialog__window--slide-end {
+        transition: transform 0.32s ease-out;
+    }
+}
+
+.fullscreen-dialog--hide,
+.fullscreen-dialog--show-init {
+    &.fullscreen-dialog--hide,
+    &.fullscreen-dialog--show-init {
+        display: flex;
+    }
+
+    &.fullscreen-dialog--mask-fade,
+    &.fullscreen-dialog--mask-fade-slow {
+        background-color: var(--dialog-scrim-color-hide);
+    }
+
+    .fullscreen-dialog__window--fade {
+        opacity: 0;
+    }
+
+    .fullscreen-dialog__window--slide {
+        transform: translateY(100%);
+    }
+
+    .fullscreen-dialog__window--slide-end {
+        transform: translateX(100%);
+    }
+}
+
+.fullscreen-dialog--show,
+.fullscreen-dialog--hide-init {
+    &.fullscreen-dialog--show,
+    &.fullscreen-dialog--hide-init {
+        display: flex;
+    }
+
+    &.fullscreen-dialog--mask-fade,
+    &.fullscreen-dialog--mask-fade-slow {
+        background-color: var(--dialog-scrim-color-show);
+    }
+
+    .fullscreen-dialog__window--fade {
+        opacity: 1;
+    }
+
+    .fullscreen-dialog__window--slide {
+        transform: translateX(0);
+    }
+
+    .fullscreen-dialog__window--slide-end {
+        transform: translateX(0);
+    }
+}
